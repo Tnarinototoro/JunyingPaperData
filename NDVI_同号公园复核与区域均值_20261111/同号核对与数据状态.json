@@ -1,0 +1,471 @@
+{
+  "identity_policy": "Author-confirmed same park identities 1–39; no renumbering",
+  "all_39_structural_ID_checks_pass": true,
+  "old_cross_ID_form_no_longer_required": true,
+  "unique_current_source_parks": 35,
+  "source_pending_ParkID": [
+    9,
+    18,
+    28,
+    32
+  ],
+  "same_ID_old_four_extrema_ring_match_ParkID": [
+    11
+  ],
+  "same_ID_old_four_extrema_full_buffer_match_ParkID": [
+    11,
+    26,
+    30,
+    31
+  ],
+  "cross_row_numeric_matches_are_not_identity_crosswalks": true,
+  "final_39_park_Z_values_generated": false,
+  "original_SEM_SAV_XLSX_AMW_unchanged_sha256_verified": true,
+  "mean_definition": "Arithmetic mean of all finite non-NoData pixel-centre values in each region",
+  "exterior": "Supplied approx100m expanded buffer minus same-number park interior",
+  "all_43_extraction_options_pixel_mean_verified": true,
+  "maximum_pixel_mean_recalculation_difference": 0.0,
+  "per_park": [
+    {
+      "ParkID": 1,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 2,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 3,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 4,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 5,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_nara.tif",
+      "usable_sources": [
+        "NDVI_nara.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 6,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_nara.tif",
+      "usable_sources": [
+        "NDVI_nara.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 7,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 8,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_nara.tif",
+      "usable_sources": [
+        "NDVI_nara.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 9,
+      "same_number_identity": true,
+      "source_status": "SOURCE_NOT_SELECTED",
+      "chosen_current_source": null,
+      "usable_sources": [
+        "NDVI_nagoya.tif",
+        "NDVI_nara.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 10,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_hokka_test.tif",
+      "usable_sources": [
+        "NDVI_hokka_test.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 11,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo_down.tif",
+      "usable_sources": [
+        "NDVI_tokyo_down.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [
+        "NDVI_tokyo_down.tif"
+      ],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 12,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 13,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 14,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 15,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 16,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 17,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 18,
+      "same_number_identity": true,
+      "source_status": "SOURCE_NOT_SELECTED",
+      "chosen_current_source": null,
+      "usable_sources": [
+        "NDVI_nagoya.tif",
+        "NDVI_nara.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 19,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 20,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo_down.tif",
+      "usable_sources": [
+        "NDVI_tokyo_down.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 21,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_kyoto.tif",
+      "usable_sources": [
+        "NDVI_kyoto.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 22,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_fukushima.tif",
+      "usable_sources": [
+        "NDVI_fukushima.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 23,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 24,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_nara.tif",
+      "usable_sources": [
+        "NDVI_nara.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 25,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_nara.tif",
+      "usable_sources": [
+        "NDVI_nara.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 26,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 27,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_hokka_test.tif",
+      "usable_sources": [
+        "NDVI_hokka_test.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 28,
+      "same_number_identity": true,
+      "source_status": "SOURCE_NOT_SELECTED",
+      "chosen_current_source": null,
+      "usable_sources": [
+        "NDVI_nagoya.tif",
+        "NDVI_nara.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 29,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_nagoya.tif",
+      "usable_sources": [
+        "NDVI_nagoya.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 30,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_fukushima_up.tif",
+      "usable_sources": [
+        "NDVI_fukushima_up.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [
+        "NDVI_fukushima_up.tif"
+      ],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 31,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 32,
+      "same_number_identity": true,
+      "source_status": "SOURCE_NOT_SELECTED",
+      "chosen_current_source": null,
+      "usable_sources": [
+        "NDVI_fukushima.tif",
+        "NDVI_fukushima_up.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 33,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_nagoya.tif",
+      "usable_sources": [
+        "NDVI_nagoya.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 34,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_island.tif",
+      "usable_sources": [
+        "NDVI_island.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 35,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_hokka_test.tif",
+      "usable_sources": [
+        "NDVI_hokka_test.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 36,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 37,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 38,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_tokyo.tif",
+      "usable_sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    },
+    {
+      "ParkID": 39,
+      "same_number_identity": true,
+      "source_status": "ONE_AVAILABLE_SOURCE",
+      "chosen_current_source": "NDVI_west.tif",
+      "usable_sources": [
+        "NDVI_west.tif"
+      ],
+      "same_number_old_extrema_matching_sources": [],
+      "historical_original_source_confirmed": false
+    }
+  ]
+}

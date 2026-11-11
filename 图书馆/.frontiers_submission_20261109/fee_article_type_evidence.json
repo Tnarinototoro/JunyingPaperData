@@ -1,0 +1,70 @@
+{
+  "checked_date_local": "2026-11-09",
+  "timezone": "Asia/Shanghai",
+  "journal": "Frontiers in Sustainable Cities",
+  "recommended_article_type": "Original Research",
+  "apc": {
+    "category": "A-type",
+    "amount": 2195,
+    "currency": "CHF",
+    "tax": "VAT or local taxes will be added where applicable.",
+    "source_url": "https://www.frontiersin.org/journals/sustainable-cities/for-authors/publishing-fees",
+    "raw_html": "fee_fees.html",
+    "parsed_text": "fee_fees.txt",
+    "verified_direct_official": true
+  },
+  "article_type": {
+    "max_words": 12000,
+    "format": ["Abstract", "Introduction", "Materials and Methods", "Results", "Discussion"],
+    "source_url": "https://www.frontiersin.org/journals/sustainable-cities/for-authors/article-types",
+    "official_quote": "Original Research articles report on primary and unpublished studies. Original Research articles are peer-reviewed and have a maximum word count of 12,000. Authors are required to pay a fee (A-type article) to publish an Original Research article.",
+    "raw_html": "fee_types.html"
+  },
+  "payment": {
+    "charge_applies_to": "Articles that pass peer review and are accepted for publication",
+    "source_url": "https://www.frontiersin.org/about/fee-policy",
+    "currency_tax_quote": "Our APCs are charged in Swiss Francs (CHF). VAT or local taxes will be added where applicable.",
+    "deadline_verified": true,
+    "days_from_acceptance": 30,
+    "required_before_final_publication": true,
+    "deadline_official_quote": "The article processing charge (APC) is payable within 30 days of acceptance and is required before final publication of the manuscript.",
+    "deadline_source_url": "https://www.frontiersin.org/guidelines/peer-review-guidelines",
+    "deadline_snapshot": "speed_peer_review_guidelines.html",
+    "deadline_parsed_text": "speed_peer_review_guidelines.txt",
+    "rejected_articles_charged": false,
+    "rejection_fee_quote": "Congratulations, your article was accepted. Article processing fee will be applied to publish your article. Rejected articles are not charged any fees.",
+    "rejection_fee_source_url": "https://www.frontiersin.org/journals/sustainable-cities/for-authors/why-submit",
+    "rejection_fee_snapshot": "speed_journal_why_submit.html",
+    "invoice_date_verified": false,
+    "limitation": "The official deadline runs from acceptance, not from an invoice date. Exact invoice issuance timing remains unverified."
+  },
+  "saitama_discount": {
+    "verified": false,
+    "result": "No Saitama or Japan match in current official partners list text; no Frontiers agreement established from supplied university documents.",
+    "source_url": "https://www.frontiersin.org/open-access-agreements/partners",
+    "raw_html": "fee_partners_list.html",
+    "parsed_text": "fee_partners_list.txt",
+    "parsed_characters": 38715,
+    "caution": "No verified discount is not proof that an unpublished/new agreement cannot exist. Budget the base APC unless an eligible agreement is confirmed at submission.",
+    "not_applicable": ["MDPI 10% IOAP discount", "Other publisher-specific 50,000 JPY university support", "10% Editage/Charlesworth English editing service discount in author guidelines"]
+  },
+  "fee_support": {
+    "application_possible": true,
+    "approval_guaranteed": false,
+    "source_url": "https://www.frontiersin.org/about/fee-policy"
+  },
+  "shorter_alternative": {
+    "type": "Brief Research Report",
+    "max_words": 4000,
+    "max_figures_tables_combined": 4,
+    "category": "B-type",
+    "apc_chf": 1750,
+    "requires_substantive_reformatting": true,
+    "current_recommendation": "Use Original Research for the present full empirical manuscript."
+  },
+  "guidelines_docx": {
+    "full_extraction": "guidelines_fulltext.txt",
+    "relevant_paragraphs": {"word_count": [13], "original_research_structure": [16,17,18,19,20,21], "english_editing_discount": [29,30,31], "article_type_choice": [216,217], "keywords": [244], "scope_statement": [246]},
+    "actual_apc_price_in_docx": false
+  }
+}

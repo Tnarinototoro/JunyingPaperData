@@ -1,0 +1,134 @@
+504
+GIossary
+Review
+TRENDS EcoIogy and EvoIution v0L20 No ． 9 September 2005
+AVHRR: Adva nced Very High ResoIution Radiometer.
+BISE: Best lndex Slope Extractio n. This is a method aiming at smoothing N DVI
+time-series.
+BRDF: Bidirectional R efl ecta nce Distribution Function. This gives the
+reflecta nce Of a target as a function Of illumination geometry and viewi ng
+geometry. Th e BRDF depends O n wavelength and is determined by the
+structu ral and optica | properties Of the su rface, such as shadow-casting,
+mutiple scatteri ng, mutual shadowing, transmission, refl ectiO n, absorption and
+emission by su rface elements, facet orientation distribution and facet density
+DAAC: Distributed Active Arch ive Centre.
+Drop-out. these are data missing from a satellite image. Drop-outs can be
+caused by signal interference or sensor failure.
+EVI: Enhanced Vegetation lndex. This is a n 'optimized' index designed tO
+enhance the vegetation signal with i m proved sensitivity in h gh biomass
+regions and improved veg etation monitoring through a decoupling Of the
+canopy background signal and a reduction in atmosphere influences. The
+equation ta kes the form EVl=G*(NlR—RED)/(NlR+c1*RED—C2*BLUE+L),
+where G is the gain factor, BLUE is the blue reflecta nce, L is the canopy
+background adjustment that add resses non-linear, differential NIR and red
+radiant transfer through a ca nopy, and CI and C2 are the coefficients of the
+aerosol resistance term ， which uses the blue band tO correct for aerosol
+influences in the red band.
+fAPAR. Fraction of Absorbed Photosynthetic Active Radiation; the proportlon
+Of incoming solar radiation in th e photosynthetica lly active region Of th e solar
+spectrum that is effectively absorbed by plants for photosynthesis.
+GAC: Global Area Coverage.
+GIMMS Global 1 nventory Modelling and mapping studies.
+GVI: GlobaI Vegetation lndex. See Box 1 ．
+INDVI: ] nteg rative Normalized Difference Vegetation lndex, corresponding tO
+the sum Of positive N DVI values over a yea r.
+LAI: Leaf Area lndex; it is defined as the one-sided g reen leaf area per unit
+ground area in broadleaf canopies, or as the projected needleleaf a rea per unit
+ground area 《 n needle canopies.
+MODIS. The Moderate ResoIution lmaging Spectroradiometer.
+MVC Maximum Value Compositing. This is a method aiming at smoothing
+NDVI time series.
+NASA. National Aero nautics and Space Administration.
+NDVI: NormaIized Difference Veg etation lndex; a satellite-based vegetation
+index that correlates strongly with aboveground net primary productivity.
+NIR. Near 1 nfrared Reflectance.
+NOAA: National Oceanic and Atmospheric Administration.
+PAL. Pathfinder AVHRR Land.
+RED: Red reflecta nce.
+SAVI: Soil Adjusted Vegetation 1 ndex. lt is defi ned as 区 N 旧 一 RED)/(N 旧 + RED+
+L ） 俨 （ 1 (L), where L is a correction factor which ranges from 0 for very high
+vegetation cover tO 1 for very IOW vegetati on cover. The m OSt typica lly used
+value is 0 ． 5 wh iCh is for i ntermed iate vegetation cover.
+SPOT VGT: Satellite Pour l'Observation de le Terre, Vegetation ．
+TM Thematic Mapper.
+also outline the general workflow in linkmg the NDVI to
+biological data by reviewing methods that are available to
+reduce noise in NDVI time-series (TabIe 1 ； Box 2 ） ， the
+pertinent biomass and phenological measures that one
+can extract from NDVI data (Figure 1 ； TabIe 2 ） ， and make
+caveats about the use of NDVI data (Box 3 ） ． The NDVI has
+shown consistent correlation With vegetation biomass and
+dynanncs m vamous ecosystems worldwide [ 6 ， 7]. Further-
+more ， the relationships between the NDVI and climatic
+variables have been explored to the extent that making
+predictions is now possible [ 18 一 20L The NDVI thus
+represents the first useful tool with which to couple
+climate ， vegetation and animal distribution and perform-
+ance at large spatial and temporal scales ．
+Using the NDVI to monitor vegetation and plant
+responses tO environmental change
+Because the NDVI correlates directly with vegetation
+productivity [ 21], there are numerous possible appli-
+cations of this index for ecological purposes ． The NDVI
+provides information about the spatial and temporal
+www.sciencedirect.com
+distribution of vegetation communities [ 21], vegetation
+biomass [ 21], C 02 fluxes [ 22 ， 23L vegetation quality for
+herbivores (because the rate of greening can be correlated
+with food quality [ 24D and the extent of land degradation
+in vamous ecosystems [ 25 26L
+The NDVI was used originally t0 generate map s ，
+including the pioneermg mappmg of vegetation distri-
+bution and productivity in Africa [ 27]. The ecological
+relevance of such maps is multiple ： the NDVI enables
+us tO differentiate ecosystem functional types or biozones
+[ 28 ， 29L t0 quantify the annual net primary productivity
+(ANPP) at various scales worldwide [ 6 ] and to differen-
+tiate land cover at the continental [ 6 ] and global [ 30 ]
+scales. By using the NDVI, it is possible to differentiate
+savannah, dense forest ， non-forest and agricultural fields
+()n Africa [ 31 ] and in Asia [ 32D ． Phenological character-
+istics can be used tO determine evergreen forest versus
+seasonal forest types [ 32 ， 33 ] or trees versus shrubs [ 34 ] ．
+However, differentiating between forests with ， for
+example, different dominant species is not possible using
+this kind of remote-sensmg information ， because several
+assemblages 0f plant species can produce a similar NDVI
+value or a similar NDVI temporal trend. Even with data of
+suffciently high spectral and spatial resolution, few plant
+species ， if any, can be identified accurately [ 35L
+The NVDI has also been used t0 improve our
+predictions and impact assessments Of disturbances such
+as drought [ 36L fire [ 37], flood [ 38 ] and frost [ 39L The use
+of the NVDI in the monitonng of drought or in the
+evaluation of dynamic fire risk relies on the sensiåvity of
+the index tO vegetation dryness, a mmor predisposing
+factor for fire occurrence. For example ， using 16 years of
+data on fire occurrence in Tuscany ， MaseIIi ． reported
+consistent negative correlations between fire probabilities
+and standardized NDVI levels of previous or contempora-
+neous decades [ 37L The authors were then able to obtain
+risk estimates that could be used for operational appli-
+cations on different spatial scales ． The predictive preoslon
+achieved was estimated as low at high spatial resolution ，
+but reached intermediate levels on provincial and regional
+scales [ 37].
+Because water has a much lower NDVI value than do
+other surface features ， inundated areas can also be
+distinguished by changes in the NDVI value before and
+after the flood ， after eliminating the effects of other factors
+on the NVDI. This method was used in China to assess
+flood damage in 1998 ， and the results showed high
+correlation with flood damage estimated using other
+methods [ 38L
+FinaIIy, because vegetation dynamics and local climate
+are intrinsically linked ， vegetation dynarmcs could pro-
+vide information about climatic events ， such as frosts ， ln
+New ZeaIand ， for example ， the NVDI was used t0 explain a
+significant amount of variation （ 什 om 10 to 20 ％ ） in the
+date of the first (the NVDI in autumn) and last (the NVDI
+in spring) 什 ost ， as well as the length of the frost-free
+period (the NVDI in autumn) [ 39L
+Using the NVDI tO assess trophic interactions
+So far ， the NDVI has been used predominantly in studies
+focusing on the effects Of environmental change on plants ．

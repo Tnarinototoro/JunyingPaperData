@@ -1,0 +1,466 @@
+{
+  "author_confirmed_identity_rule": "Excel NO = old S1 Pxx = SAV ParkID for all 39 parks; accepted as authority, not overridden by extrema fingerprints",
+  "purpose": "Private-address coarse geographic consistency screening of same-number supplied geometry; not an identity remapping or exact-boundary certification",
+  "source_workbook_sha256": "6c9792d6f0352fc1102026f3d2f1e58d53acaf15fbbec446b795ff00ea1060b8",
+  "polygon_source_sha256": "e919ae97fc3a146f58bdad7e0855b8126d40199e9fe25841757341b3b3cc2507",
+  "address_rows_found": 39,
+  "geometry_rows_checked": 39,
+  "rows_with_unique_address_prefecture": 31,
+  "ids_without_unique_address_prefecture": [
+    8,
+    13,
+    14,
+    15,
+    16,
+    36,
+    37,
+    38
+  ],
+  "ids_with_obvious_coarse_regional_contradiction": [],
+  "all_centroids_in_broad_japan_range": true,
+  "priority_ids_9_18_28_32": [
+    {
+      "ParkID": 9,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 25,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 18,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 27,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 28,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 27,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 32,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 5,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    }
+  ],
+  "records": [
+    {
+      "ParkID": 1,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 11,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 2,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 11,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 3,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 11,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 4,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 12,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 5,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 28,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 6,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 28,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 7,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 14,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 8,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": false,
+      "address_prefecture_numeric_code": null,
+      "centroid_within_generous_address_prefecture_envelope": null,
+      "all_polygon_vertices_within_same_generous_envelope": null,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "not_assessed_no_unique_address_prefecture"
+    },
+    {
+      "ParkID": 9,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 25,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 10,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 1,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 11,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 14,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 12,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 14,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 13,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": false,
+      "address_prefecture_numeric_code": null,
+      "centroid_within_generous_address_prefecture_envelope": null,
+      "all_polygon_vertices_within_same_generous_envelope": null,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "not_assessed_no_unique_address_prefecture"
+    },
+    {
+      "ParkID": 14,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": false,
+      "address_prefecture_numeric_code": null,
+      "centroid_within_generous_address_prefecture_envelope": null,
+      "all_polygon_vertices_within_same_generous_envelope": null,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "not_assessed_no_unique_address_prefecture"
+    },
+    {
+      "ParkID": 15,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": false,
+      "address_prefecture_numeric_code": null,
+      "centroid_within_generous_address_prefecture_envelope": null,
+      "all_polygon_vertices_within_same_generous_envelope": null,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "not_assessed_no_unique_address_prefecture"
+    },
+    {
+      "ParkID": 16,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": false,
+      "address_prefecture_numeric_code": null,
+      "centroid_within_generous_address_prefecture_envelope": null,
+      "all_polygon_vertices_within_same_generous_envelope": null,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "not_assessed_no_unique_address_prefecture"
+    },
+    {
+      "ParkID": 17,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 13,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 18,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 27,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 19,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 11,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 20,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 22,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 21,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 34,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 22,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 4,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 23,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 13,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 24,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 28,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 25,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 28,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 26,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 11,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 27,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 1,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 28,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 27,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 29,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 23,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 30,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 5,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 31,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 14,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 32,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 5,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 33,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 23,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 34,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 47,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 35,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 1,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    },
+    {
+      "ParkID": 36,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": false,
+      "address_prefecture_numeric_code": null,
+      "centroid_within_generous_address_prefecture_envelope": null,
+      "all_polygon_vertices_within_same_generous_envelope": null,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "not_assessed_no_unique_address_prefecture"
+    },
+    {
+      "ParkID": 37,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": false,
+      "address_prefecture_numeric_code": null,
+      "centroid_within_generous_address_prefecture_envelope": null,
+      "all_polygon_vertices_within_same_generous_envelope": null,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "not_assessed_no_unique_address_prefecture"
+    },
+    {
+      "ParkID": 38,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": false,
+      "address_prefecture_numeric_code": null,
+      "centroid_within_generous_address_prefecture_envelope": null,
+      "all_polygon_vertices_within_same_generous_envelope": null,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "not_assessed_no_unique_address_prefecture"
+    },
+    {
+      "ParkID": 39,
+      "same_number_address_row_found": true,
+      "address_prefecture_recognized_uniquely": true,
+      "address_prefecture_numeric_code": 41,
+      "centroid_within_generous_address_prefecture_envelope": true,
+      "all_polygon_vertices_within_same_generous_envelope": true,
+      "centroid_in_broad_japan_longitude_latitude_range": true,
+      "screen_status": "no_obvious_regional_contradiction"
+    }
+  ],
+  "privacy": "Names, full addresses, polygon/centroid coordinates and geocoding queries are not output or stored; only anonymous IDs, numeric prefecture codes and screening booleans emitted",
+  "input_files_modified": false,
+  "geometry_or_id_reordering_performed": false,
+  "sem_run_performed": false,
+  "limitations": [
+    "Region envelopes are deliberately generous hand-specified geographic approximations, not official administrative boundary data. Passing is evidence against an obvious wrong-region mismatch, not proof of the exact municipality or park boundary.",
+    "No new geocoding is used. Prior generic service probes did not yield an HTTP response; no private address query was sent.",
+    "The supplied actual park geometry and the author's same-number confirmation remain the operational authority for calculation. The screen creates no additional requirement for a cross-ID author table.",
+    "SHP/SHX/DBF structural agreement and regional consistency cannot prove that every polygon corresponds to the exact named park; they do not exclude a same-region wrong-version label file.",
+    "Prior cross-ID extrema matches remain numeric clues about the old values, not grounds to overturn the author's identity rule or rearrange the geometry."
+  ]
+}

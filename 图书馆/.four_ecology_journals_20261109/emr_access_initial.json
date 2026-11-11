@@ -1,0 +1,51 @@
+[
+  {
+    "name": "emr_wiley_home",
+    "url": "https://onlinelibrary.wiley.com/journal/14428903",
+    "final_url": "https://onlinelibrary.wiley.com/journal/14428903",
+    "status": 403,
+    "chars": 59
+  },
+  {
+    "name": "emr_wiley_scope",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14428903/homepage/productinformation.html",
+    "final_url": "https://onlinelibrary.wiley.com/page/journal/14428903/homepage/productinformation.html",
+    "status": 403,
+    "chars": 59
+  },
+  {
+    "name": "emr_wiley_author",
+    "url": "https://onlinelibrary.wiley.com/page/journal/14428903/homepage/forauthors.html",
+    "final_url": "https://onlinelibrary.wiley.com/page/journal/14428903/homepage/forauthors.html",
+    "status": 403,
+    "chars": 59
+  },
+  {
+    "name": "emr_esa_home",
+    "url": "https://www.ecolsoc.org.au/publications/emr/",
+    "final_url": "https://www.ecolsoc.org.au/opportunities/professional/emr-new-editors/",
+    "status": 200,
+    "chars": 3989
+  },
+  {
+    "name": "emr_esa_publications",
+    "url": "https://www.ecolsoc.org.au/publications/",
+    "final_url": "https://www.ecolsoc.org.au/publications/",
+    "status": 200,
+    "chars": 2503
+  },
+  {
+    "name": "emr_crossref_recent",
+    "url": "https://api.crossref.org/journals/1442-8903/works?sort=published&order=desc&rows=10",
+    "final_url": "https://api.crossref.org/journals/1442-8903/works?sort=published&order=desc&rows=10",
+    "status": 200,
+    "chars": 122146
+  },
+  {
+    "name": "emr_wiley_metrics",
+    "url": "https://onlinelibrary.wiley.com/journal/14428903#metrics",
+    "final_url": "https://onlinelibrary.wiley.com/journal/14428903#metrics",
+    "status": 403,
+    "chars": 59
+  }
+]

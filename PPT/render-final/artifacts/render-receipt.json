@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "producer": "dsh-ppt-render",
+  "status": "rendered",
+  "visual": "not-verified",
+  "createdAt": "2026-10-26T02:18:48.506Z",
+  "renderer": {
+    "package": "@deepseek-ai/libreoffice-kit",
+    "version": "0.1.5",
+    "backend": "native"
+  },
+  "source": {
+    "sha256": "2f66660a093e01ff5072eac1fa0fd78e5da3644e34296533423dfa3a0baa3cfa",
+    "byteLength": 144425
+  },
+  "format": "both",
+  "slideCount": 39,
+  "missingFonts": [],
+  "pngs": [
+    {
+      "page": 1,
+      "file": "pages/page-0001.png",
+      "byteLength": 89065,
+      "sha256": "69e1471425c1ab86f5848f3af370c9c4f3f2fd0f123e03fd1c1640cf6c2c636c",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 2,
+      "file": "pages/page-0002.png",
+      "byteLength": 94675,
+      "sha256": "52fd6e248de6688b39ae15e65d9f7b43fa7caa72d2b4b7561eaa1dfe8130bc09",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 3,
+      "file": "pages/page-0003.png",
+      "byteLength": 91167,
+      "sha256": "db82ddd589bc785f2726cb8c5881ee6f1aa3fadd91b652b4fa1f8cde7af302c8",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 4,
+      "file": "pages/page-0004.png",
+      "byteLength": 96361,
+      "sha256": "3fbfec9db26073e515e5ca217ce6794ba1b59212e13075fae60e619b72e32f77",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 5,
+      "file": "pages/page-0005.png",
+      "byteLength": 98974,
+      "sha256": "ecd4f65ac413a958362852fe36e4128e2b98c640d31150b005e196fcee82d194",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 6,
+      "file": "pages/page-0006.png",
+      "byteLength": 82280,
+      "sha256": "fb7ede634cb22c499a962b797ad469b593ede8d99e439840862361175ab6ab7d",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 7,
+      "file": "pages/page-0007.png",
+      "byteLength": 96866,
+      "sha256": "fafbdd20344e9efd3a4824ecc9173611f2f11824039f86649ff4b3a791d45460",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 8,
+      "file": "pages/page-0008.png",
+      "byteLength": 101767,
+      "sha256": "9964f44586b9b36a0ad5c2222efa1c053112c8f8fa8f8c8fd6f9802cd2a82dd5",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 9,
+      "file": "pages/page-0009.png",
+      "byteLength": 109797,
+      "sha256": "4060aa16c8a09d82aa4487d5afe0a64df5655c46ef4dda7c03a5780243708b9b",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 10,
+      "file": "pages/page-0010.png",
+      "byteLength": 71014,
+      "sha256": "14ea5be169271aa7f3e62d44005d2f23ec8a52612a4f03e31b3728d33d840e68",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 11,
+      "file": "pages/page-0011.png",
+      "byteLength": 101720,
+      "sha256": "6e4a6fee915b423bee2fd744d50754a914001cf3efebbba445b9ea5dcfb2d1f4",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 12,
+      "file": "pages/page-0012.png",
+      "byteLength": 97417,
+      "sha256": "5e3d7a55b66abbc7c9de00e30c373376f5360b5cc526a4247b13e323997efa75",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 13,
+      "file": "pages/page-0013.png",
+      "byteLength": 76085,
+      "sha256": "8f20fe4d9c75a9c10647600a7674c6a4359eac3c8031e45b3650f51cab52c758",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 14,
+      "file": "pages/page-0014.png",
+      "byteLength": 88864,
+      "sha256": "9b5a3bbcf972d1c0757b8944a012babc73b4f88ad2e10fedbb1fcc414b491574",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 15,
+      "file": "pages/page-0015.png",
+      "byteLength": 103675,
+      "sha256": "c853a687ea766004f090b5ba93f948fceb18cf50251c28bd4c1b8c071f1a056b",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 16,
+      "file": "pages/page-0016.png",
+      "byteLength": 80253,
+      "sha256": "fef3b84c1bc83d5b0f650e7bbd71f8248e35ddc5665c19638b915d07de115fa1",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 17,
+      "file": "pages/page-0017.png",
+      "byteLength": 109397,
+      "sha256": "e8504920f288be4fd1e2ea0fc0c2ca4a7b0222a3e3b931fce27d5f903e4a70ec",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 18,
+      "file": "pages/page-0018.png",
+      "byteLength": 107697,
+      "sha256": "f6cd5c585d28cc17637453c11c6bf6eec6ff85dcaa44d4c86647d3a941ea86e7",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 19,
+      "file": "pages/page-0019.png",
+      "byteLength": 100062,
+      "sha256": "399a300333e04181724a0606a4872b238c6a4906549cf218e0a004283709ba1c",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 20,
+      "file": "pages/page-0020.png",
+      "byteLength": 89696,
+      "sha256": "07e57d428f7bbeae0f92e8735699d786a50327b82ff8c55f5366fee5eef132cc",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 21,
+      "file": "pages/page-0021.png",
+      "byteLength": 112309,
+      "sha256": "eb643546f3c8b8833ac0ad79272cf51c5053b5bcf19d244c926beb975b878121",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 22,
+      "file": "pages/page-0022.png",
+      "byteLength": 102145,
+      "sha256": "04344c25e5e1cdcabf04188a4f151d0f8911a76a846e257655b6e2a312081dd2",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 23,
+      "file": "pages/page-0023.png",
+      "byteLength": 108732,
+      "sha256": "7285879386acf49d85ecf4869eae5441f307bbc5db7b0be58268aa0349f9fb27",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 24,
+      "file": "pages/page-0024.png",
+      "byteLength": 120912,
+      "sha256": "2d3ba556584a9b68bb5eab87de029def5f19866df30824e567864630749a9977",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 25,
+      "file": "pages/page-0025.png",
+      "byteLength": 104822,
+      "sha256": "670f041f175a951ce4af8b9f785d054f4aab9710ccef1f8605cd14ad34ac8272",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 26,
+      "file": "pages/page-0026.png",
+      "byteLength": 111455,
+      "sha256": "98794d6a6cae9947983a316d8c19e55ce69509ea31b548430eecb02792fd1dd7",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 27,
+      "file": "pages/page-0027.png",
+      "byteLength": 112505,
+      "sha256": "b2f40c60a1ca26f023f5ee081b0f5f69ef2afcb2d3a6859037450662880f8b7f",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 28,
+      "file": "pages/page-0028.png",
+      "byteLength": 88833,
+      "sha256": "f4a8318260ecaa57944733fa840ad5729e4fff45ab68369cc8c9291ab9236616",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 29,
+      "file": "pages/page-0029.png",
+      "byteLength": 77832,
+      "sha256": "0ddc2ba405b1b06b197db0ed0335f8c26e04d7cc9a170f471195220f13a755e7",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 30,
+      "file": "pages/page-0030.png",
+      "byteLength": 101996,
+      "sha256": "7b545c1b66c4cc956589cb84b0e6d5f2d90a589e85b71fc88ac7510e409af651",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 31,
+      "file": "pages/page-0031.png",
+      "byteLength": 68757,
+      "sha256": "9897d52124e65efd9ecbb7ace4496c68326ec0f3a9e727baf7f6f8402ec6d6fc",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 32,
+      "file": "pages/page-0032.png",
+      "byteLength": 89767,
+      "sha256": "50f10c214aef0d0eed3721f6867af5db7cc3bff370dc52a3a058dc30e4314f6a",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 33,
+      "file": "pages/page-0033.png",
+      "byteLength": 85750,
+      "sha256": "7429a2ab715014df229e16da0494e21edfb76f6dc640fdc7175384b640ee8f36",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 34,
+      "file": "pages/page-0034.png",
+      "byteLength": 103936,
+      "sha256": "bf0c4d829f7d054dffb4711e667a26d2c51eac40035165e85f48a3bd065a0d71",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 35,
+      "file": "pages/page-0035.png",
+      "byteLength": 103051,
+      "sha256": "812ff5ac66ca33b4370eff484dfcbeaabdd727849c5a9d6a94e2f849eaa5ffb0",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 36,
+      "file": "pages/page-0036.png",
+      "byteLength": 102682,
+      "sha256": "c16cc52f7a19d716ac7fee9913edf2954f54e46fb6712f686feaa9602834a4d6",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 37,
+      "file": "pages/page-0037.png",
+      "byteLength": 120533,
+      "sha256": "414bfc0d22e19ea430f3cb8903b3a3b86353f38d24c516a3cef783052a614aa3",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 38,
+      "file": "pages/page-0038.png",
+      "byteLength": 123926,
+      "sha256": "9527aa5b39a6a5aa983bd485f96d4261dc93b904db69869a582c38d6d291e124",
+      "width": 1921,
+      "height": 1081
+    },
+    {
+      "page": 39,
+      "file": "pages/page-0039.png",
+      "byteLength": 71012,
+      "sha256": "51630047213cd8b3e2516775826c021997da1b44679bf83be7e5db338c16ec55",
+      "width": 1921,
+      "height": 1081
+    }
+  ],
+  "manifest": {
+    "file": "pages/manifest.json",
+    "byteLength": 14560,
+    "sha256": "5d71be1b594ee74d64966b16aaedcec21964cc7cb9cf682c9e1ad6b8646c4526"
+  },
+  "pdf": {
+    "file": "document.pdf",
+    "byteLength": 624021,
+    "sha256": "d27ecd701f0efa1b34eb6d571ea0d9c02e5a2efee723fa5caacb4b297b283ec4"
+  }
+}

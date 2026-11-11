@@ -1,0 +1,1722 @@
+[
+  {
+    "ParkID": 1,
+    "label": "P01",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2063,
+      3993,
+      2108,
+      4045
+    ],
+    "ndvi_crop": "GIS/rasters/P01_NDVI.tif",
+    "zone_mask": "GIS/rasters/P01_zones.tif",
+    "inside": {
+      "eligible_n": 574,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 574,
+      "mean": 0.35206616650423106,
+      "minimum": 0.0615752637386322,
+      "maximum": 0.4518486261367798,
+      "sd_population": 0.07294495547414676,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 648,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 648,
+      "mean": 0.22434130494977222,
+      "minimum": 0.02619853802025318,
+      "maximum": 0.4157053232192993,
+      "sd_population": 0.09000295081522655,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "02155caa706247e0d6a01b8912d01efd1a614f6dda1dcfdf46c9f8982fe884c3"
+  },
+  {
+    "ParkID": 2,
+    "label": "P02",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2753,
+      4230,
+      2776,
+      4251
+    ],
+    "ndvi_crop": "GIS/rasters/P02_NDVI.tif",
+    "zone_mask": "GIS/rasters/P02_zones.tif",
+    "inside": {
+      "eligible_n": 95,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 95,
+      "mean": 0.21473220908328106,
+      "minimum": 0.02469821646809578,
+      "maximum": 0.44871091842651367,
+      "sd_population": 0.10364967233900432,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 164,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 164,
+      "mean": 0.1119487462338151,
+      "minimum": 0.02670152112841606,
+      "maximum": 0.27362483739852905,
+      "sd_population": 0.04705205525765227,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "5e175ec0b3a1aa11da66c09f8fb9a1adf754d325f942ef77b4fcb1c11794f0dc"
+  },
+  {
+    "ParkID": 3,
+    "label": "P03",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2183,
+      4199,
+      2207,
+      4238
+    ],
+    "ndvi_crop": "GIS/rasters/P03_NDVI.tif",
+    "zone_mask": "GIS/rasters/P03_zones.tif",
+    "inside": {
+      "eligible_n": 184,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 184,
+      "mean": 0.2711417811882237,
+      "minimum": 0.0763888880610466,
+      "maximum": 0.41636598110198975,
+      "sd_population": 0.07858748120109116,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 310,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 310,
+      "mean": 0.28112740055207286,
+      "minimum": 0.07516450434923172,
+      "maximum": 0.45577725768089294,
+      "sd_population": 0.098419914155666,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "fb07aa4ee5dfb9fbb446b6d4997198dc15e07197823ce08da00537a5e820e304"
+  },
+  {
+    "ParkID": 4,
+    "label": "P04",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      3888,
+      4806,
+      3945,
+      4897
+    ],
+    "ndvi_crop": "GIS/rasters/P04_NDVI.tif",
+    "zone_mask": "GIS/rasters/P04_zones.tif",
+    "inside": {
+      "eligible_n": 1660,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 1660,
+      "mean": 0.2724677534243064,
+      "minimum": -0.01559466402977705,
+      "maximum": 0.45025861263275146,
+      "sd_population": 0.0931987006261659,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 1033,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 1033,
+      "mean": 0.19755042454233215,
+      "minimum": 0.010216752998530865,
+      "maximum": 0.41983741521835327,
+      "sd_population": 0.07944944159291926,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "49e718fb0dc4545f1c8cd0cd07ca1166421fb1e34b04c1fa3b3ac758113d9a6c"
+  },
+  {
+    "ParkID": 5,
+    "label": "P05",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_nara.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      4072,
+      2146,
+      4121,
+      2185
+    ],
+    "ndvi_crop": "GIS/rasters/P05_NDVI.tif",
+    "zone_mask": "GIS/rasters/P05_zones.tif",
+    "inside": {
+      "eligible_n": 518,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 518,
+      "mean": 0.24535783186094642,
+      "minimum": 0.070197694003582,
+      "maximum": 0.36997491121292114,
+      "sd_population": 0.05988752301392126,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 435,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 435,
+      "mean": 0.25357485211443626,
+      "minimum": 0.07567662000656128,
+      "maximum": 0.3903438448905945,
+      "sd_population": 0.07534856855934761,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "4c0331257646b54b3d26264b2683e54ed0304ce9e02f543cf87c98da57d87ea6"
+  },
+  {
+    "ParkID": 6,
+    "label": "P06",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_nara.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      3714,
+      3803,
+      3738,
+      3823
+    ],
+    "ndvi_crop": "GIS/rasters/P06_NDVI.tif",
+    "zone_mask": "GIS/rasters/P06_zones.tif",
+    "inside": {
+      "eligible_n": 84,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 84,
+      "mean": 0.1693673867377497,
+      "minimum": 0.06425653398036957,
+      "maximum": 0.25799086689949036,
+      "sd_population": 0.05303060410550987,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 173,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 173,
+      "mean": 0.06515584884526349,
+      "minimum": -0.002227707765996456,
+      "maximum": 0.24402709305286407,
+      "sd_population": 0.057291943505611495,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "e5c838ba11eb57e9854a28f6c167940e6f72cdcc5a22acd67e8b9075a7af21dd"
+  },
+  {
+    "ParkID": 7,
+    "label": "P07",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2073,
+      5831,
+      2085,
+      5843
+    ],
+    "ndvi_crop": "GIS/rasters/P07_NDVI.tif",
+    "zone_mask": "GIS/rasters/P07_zones.tif",
+    "inside": {
+      "eligible_n": 3,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 3,
+      "mean": 0.2649628271659215,
+      "minimum": 0.23102250695228577,
+      "maximum": 0.3165266215801239,
+      "sd_population": 0.03706461508182837,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 63,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 63,
+      "mean": 0.20378391598425213,
+      "minimum": 0.08085349947214127,
+      "maximum": 0.3807874023914337,
+      "sd_population": 0.07643120774382822,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "8c4523e65fc8c167ee47a42a16da5a09ea741281775f4751adac6a95b50f905e"
+  },
+  {
+    "ParkID": 8,
+    "label": "P08",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_nara.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      3628,
+      4040,
+      3682,
+      4093
+    ],
+    "ndvi_crop": "GIS/rasters/P08_NDVI.tif",
+    "zone_mask": "GIS/rasters/P08_zones.tif",
+    "inside": {
+      "eligible_n": 890,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 890,
+      "mean": 0.18915480616191152,
+      "minimum": -0.08669368177652359,
+      "maximum": 0.39217403531074524,
+      "sd_population": 0.08126426809438492,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 469,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 469,
+      "mean": 0.14422021248867598,
+      "minimum": -0.017921147868037224,
+      "maximum": 0.40356507897377014,
+      "sd_population": 0.1367075620584503,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "78db54e7613c4c526b761ae9311836020977d167fc4a9c68c6f179360e41ca5d"
+  },
+  {
+    "ParkID": 9,
+    "label": "P09_option1",
+    "status": "CHOOSE_SOURCE",
+    "source_raster": "NDVI_nagoya.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      1826,
+      2513,
+      1850,
+      2542
+    ],
+    "ndvi_crop": "GIS/rasters/P09_option1_NDVI.tif",
+    "zone_mask": "GIS/rasters/P09_option1_zones.tif",
+    "inside": {
+      "eligible_n": 159,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 159,
+      "mean": 0.19557236495234495,
+      "minimum": -0.04076174274086952,
+      "maximum": 0.3849845230579376,
+      "sd_population": 0.10860532515762114,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 227,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 227,
+      "mean": 0.22206446810703445,
+      "minimum": 0.03468986973166466,
+      "maximum": 0.3954579532146454,
+      "sd_population": 0.10623187734736832,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "53ad64d8044750a3e9ed6d3954d2fa0a45f71ad48cab3bc2af4366969ab6ec02"
+  },
+  {
+    "ParkID": 9,
+    "label": "P09_option2",
+    "status": "CHOOSE_SOURCE",
+    "source_raster": "NDVI_nara.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      6456,
+      2513,
+      6480,
+      2542
+    ],
+    "ndvi_crop": "GIS/rasters/P09_option2_NDVI.tif",
+    "zone_mask": "GIS/rasters/P09_option2_zones.tif",
+    "inside": {
+      "eligible_n": 159,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 159,
+      "mean": 0.09927253725421585,
+      "minimum": -0.07361599057912827,
+      "maximum": 0.23617874085903168,
+      "sd_population": 0.0696848100797902,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 227,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 227,
+      "mean": 0.14015795825878036,
+      "minimum": 0.011118325404822826,
+      "maximum": 0.29495513439178467,
+      "sd_population": 0.07840645431479533,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "4d19d4431ccd81797181d252814717b4f45da3263a175dc17bc34aa1c870b07f"
+  },
+  {
+    "ParkID": 10,
+    "label": "P10",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_hokka_test.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      5997,
+      4872,
+      6102,
+      4969
+    ],
+    "ndvi_crop": "GIS/rasters/P10_NDVI.tif",
+    "zone_mask": "GIS/rasters/P10_zones.tif",
+    "inside": {
+      "eligible_n": 2988,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 2988,
+      "mean": 0.06537684301096734,
+      "minimum": -0.10272274911403656,
+      "maximum": 0.7575923204421997,
+      "sd_population": 0.11447163328415651,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 1282,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 1282,
+      "mean": 0.009877880821413599,
+      "minimum": -0.09022299945354462,
+      "maximum": 0.5204341411590576,
+      "sd_population": 0.0723331610930011,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "b7f7838bfffa4f20515a3dbc562cb448236aeebfeabea509304b7cd569199b5d"
+  },
+  {
+    "ParkID": 11,
+    "label": "P11",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo_down.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      6946,
+      1535,
+      6976,
+      1566
+    ],
+    "ndvi_crop": "GIS/rasters/P11_NDVI.tif",
+    "zone_mask": "GIS/rasters/P11_zones.tif",
+    "inside": {
+      "eligible_n": 144,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 144,
+      "mean": 0.2712702324820889,
+      "minimum": 0.0928511768579483,
+      "maximum": 0.4362183213233948,
+      "sd_population": 0.0671172972537895,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 296,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 296,
+      "mean": 0.2598548239801784,
+      "minimum": 0.03789745271205902,
+      "maximum": 0.4371713399887085,
+      "sd_population": 0.08134555830688543,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "76748d57cd4323b7ec7c2016b6af1dc7d571b28933bb1cf17219b32bed78c749"
+  },
+  {
+    "ParkID": 12,
+    "label": "P12",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      1749,
+      6338,
+      1784,
+      6377
+    ],
+    "ndvi_crop": "GIS/rasters/P12_NDVI.tif",
+    "zone_mask": "GIS/rasters/P12_zones.tif",
+    "inside": {
+      "eligible_n": 360,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 360,
+      "mean": 0.3621415248761574,
+      "minimum": 0.14756889641284943,
+      "maximum": 0.4684976637363434,
+      "sd_population": 0.07141975532402636,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 420,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 420,
+      "mean": 0.2743143225443505,
+      "minimum": 0.04849160090088844,
+      "maximum": 0.4526992738246918,
+      "sd_population": 0.08761124303936628,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "ea32d954ebaae604e5fce118a172c57ff169cbca6267c0af7d76f2021648db9f"
+  },
+  {
+    "ParkID": 13,
+    "label": "P13",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2491,
+      5810,
+      2523,
+      5846
+    ],
+    "ndvi_crop": "GIS/rasters/P13_NDVI.tif",
+    "zone_mask": "GIS/rasters/P13_zones.tif",
+    "inside": {
+      "eligible_n": 322,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 322,
+      "mean": 0.310114933415721,
+      "minimum": -0.016486437991261482,
+      "maximum": 0.43734097480773926,
+      "sd_population": 0.0965763844853094,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 306,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 306,
+      "mean": 0.16546347202258369,
+      "minimum": 0.01126151718199253,
+      "maximum": 0.40319427847862244,
+      "sd_population": 0.0908409540441377,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "a289ace5adf5b2af833d62dcf1b0f528919e6bf2b935fa7fd107727eb9bc6bdd"
+  },
+  {
+    "ParkID": 14,
+    "label": "P14",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2309,
+      5015,
+      2362,
+      5042
+    ],
+    "ndvi_crop": "GIS/rasters/P14_NDVI.tif",
+    "zone_mask": "GIS/rasters/P14_zones.tif",
+    "inside": {
+      "eligible_n": 384,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 384,
+      "mean": 0.27271902864292014,
+      "minimum": -0.009023290127515793,
+      "maximum": 0.4224739968776703,
+      "sd_population": 0.09445743693111913,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 450,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 450,
+      "mean": 0.151783034964982,
+      "minimum": -0.0007570022717118263,
+      "maximum": 0.3856855630874634,
+      "sd_population": 0.07167338284966945,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "29469cc216242c692bd504f5feef0d1ea7e0b0c5f1ca24738e916fa4d4361e33"
+  },
+  {
+    "ParkID": 15,
+    "label": "P15",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2236,
+      5156,
+      2296,
+      5199
+    ],
+    "ndvi_crop": "GIS/rasters/P15_NDVI.tif",
+    "zone_mask": "GIS/rasters/P15_zones.tif",
+    "inside": {
+      "eligible_n": 506,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 506,
+      "mean": 0.28815264244225214,
+      "minimum": 0.006769304629415274,
+      "maximum": 0.4304773807525635,
+      "sd_population": 0.08100937623469609,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 617,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 617,
+      "mean": 0.1438410849079514,
+      "minimum": 0.038565654307603836,
+      "maximum": 0.39853501319885254,
+      "sd_population": 0.05945678588601966,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "ca5b1e8782f94458a3054fba5442cb3da83a421233d017dd67ee0e7c094463c6"
+  },
+  {
+    "ParkID": 16,
+    "label": "P16",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2409,
+      4909,
+      2451,
+      4946
+    ],
+    "ndvi_crop": "GIS/rasters/P16_NDVI.tif",
+    "zone_mask": "GIS/rasters/P16_zones.tif",
+    "inside": {
+      "eligible_n": 664,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 664,
+      "mean": 0.3213462208661374,
+      "minimum": 0.022890986874699593,
+      "maximum": 0.44723713397979736,
+      "sd_population": 0.08269617811077273,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 386,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 386,
+      "mean": 0.15108390469369454,
+      "minimum": -0.003205778542906046,
+      "maximum": 0.40723875164985657,
+      "sd_population": 0.07248450947634923,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "fe9ba0ea11b1fccc2cdde0dd4ebb53b063450ed84f24353c65e80c1dc5953b35"
+  },
+  {
+    "ParkID": 17,
+    "label": "P17",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      1679,
+      5479,
+      1712,
+      5523
+    ],
+    "ndvi_crop": "GIS/rasters/P17_NDVI.tif",
+    "zone_mask": "GIS/rasters/P17_zones.tif",
+    "inside": {
+      "eligible_n": 222,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 222,
+      "mean": 0.34935224727467373,
+      "minimum": 0.07404813915491104,
+      "maximum": 0.42882823944091797,
+      "sd_population": 0.0701916421783216,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 364,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 364,
+      "mean": 0.2252195861886491,
+      "minimum": 0.05874909460544586,
+      "maximum": 0.4405405521392822,
+      "sd_population": 0.09110536478503176,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "c9f85a40cbb8b2f0e5354d11167990fc46c9cc4801c08b62d2be72c36bfec117"
+  },
+  {
+    "ParkID": 18,
+    "label": "P18_option1",
+    "status": "CHOOSE_SOURCE",
+    "source_raster": "NDVI_nagoya.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      737,
+      3791,
+      770,
+      3829
+    ],
+    "ndvi_crop": "GIS/rasters/P18_option1_NDVI.tif",
+    "zone_mask": "GIS/rasters/P18_option1_zones.tif",
+    "inside": {
+      "eligible_n": 490,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 490,
+      "mean": 0.2054318968700815,
+      "minimum": 0.02840862236917019,
+      "maximum": 0.39511701464653015,
+      "sd_population": 0.0897331266641002,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 368,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 368,
+      "mean": 0.0810330544659139,
+      "minimum": -0.009569689631462097,
+      "maximum": 0.29554206132888794,
+      "sd_population": 0.051420652274747666,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "ef69e95b8ee25cc132b7b0abf202102600d5d2c519d0c27437379188fdba9073"
+  },
+  {
+    "ParkID": 18,
+    "label": "P18_option2",
+    "status": "CHOOSE_SOURCE",
+    "source_raster": "NDVI_nara.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      5367,
+      3791,
+      5400,
+      3829
+    ],
+    "ndvi_crop": "GIS/rasters/P18_option2_NDVI.tif",
+    "zone_mask": "GIS/rasters/P18_option2_zones.tif",
+    "inside": {
+      "eligible_n": 490,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 490,
+      "mean": 0.13100404730446788,
+      "minimum": 0.011245163157582283,
+      "maximum": 0.29091885685920715,
+      "sd_population": 0.060723142725760966,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 368,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 368,
+      "mean": 0.05371792677845841,
+      "minimum": -0.013339717872440815,
+      "maximum": 0.20811909437179565,
+      "sd_population": 0.03475872762678268,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "3dadf7d8f7df1ce103fffdbd8a4aaa178f0059ebde3f19f0e6dfa7aa691795d0"
+  },
+  {
+    "ParkID": 19,
+    "label": "P19",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      1501,
+      3505,
+      1745,
+      3574
+    ],
+    "ndvi_crop": "GIS/rasters/P19_NDVI.tif",
+    "zone_mask": "GIS/rasters/P19_zones.tif",
+    "inside": {
+      "eligible_n": 2962,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 2962,
+      "mean": 0.3243561849076047,
+      "minimum": 0.05650753155350685,
+      "maximum": 0.4486561417579651,
+      "sd_population": 0.06943139727412925,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 1662,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 1662,
+      "mean": 0.24561814059812698,
+      "minimum": -0.03666474297642708,
+      "maximum": 0.4818893373012543,
+      "sd_population": 0.11547447201225514,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "2309d2c0db1d731b39bd66e4178aefe93cb0cba03911498d5a3b90089aed33ff"
+  },
+  {
+    "ParkID": 20,
+    "label": "P20",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo_down.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      4232,
+      2981,
+      4271,
+      3012
+    ],
+    "ndvi_crop": "GIS/rasters/P20_NDVI.tif",
+    "zone_mask": "GIS/rasters/P20_zones.tif",
+    "inside": {
+      "eligible_n": 358,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 358,
+      "mean": 0.22404565263325582,
+      "minimum": -0.05836426466703415,
+      "maximum": 0.4829518496990204,
+      "sd_population": 0.12881157231128185,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 332,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 332,
+      "mean": 0.22139611481464502,
+      "minimum": -0.011585568077862263,
+      "maximum": 0.4745422303676605,
+      "sd_population": 0.1476594144788369,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "b121d2d1e4608589440d6e8e62aaf142ac2ef9fc980caaf8f5812974d84e3071"
+  },
+  {
+    "ParkID": 21,
+    "label": "P21",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_kyoto.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      2187,
+      3812,
+      2232,
+      3874
+    ],
+    "ndvi_crop": "GIS/rasters/P21_NDVI.tif",
+    "zone_mask": "GIS/rasters/P21_zones.tif",
+    "inside": {
+      "eligible_n": 906,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 906,
+      "mean": 0.2106495573294347,
+      "minimum": 0.05936332792043686,
+      "maximum": 0.32016903162002563,
+      "sd_population": 0.04964453218426373,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 598,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 598,
+      "mean": 0.21019105452391626,
+      "minimum": -0.027299031615257263,
+      "maximum": 0.33760392665863037,
+      "sd_population": 0.057052905574024995,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "63c7eb00aa41fedab7dd3c74ecc1b29fe1529bdc55462654c3374ffb7d3da46e"
+  },
+  {
+    "ParkID": 22,
+    "label": "P22",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_fukushima.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      3577,
+      6138,
+      3613,
+      6191
+    ],
+    "ndvi_crop": "GIS/rasters/P22_NDVI.tif",
+    "zone_mask": "GIS/rasters/P22_zones.tif",
+    "inside": {
+      "eligible_n": 736,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 736,
+      "mean": 0.2693852384969511,
+      "minimum": 0.05101313441991806,
+      "maximum": 0.3865576386451721,
+      "sd_population": 0.0575655813009584,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 503,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 503,
+      "mean": 0.11398813686616882,
+      "minimum": -0.02764483168721199,
+      "maximum": 0.39971110224723816,
+      "sd_population": 0.06742782311009361,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "4e4f962868c1cc821787dd6aefb0568e8ca5ae86c4f62ac87b5c15147ef7a266"
+  },
+  {
+    "ParkID": 23,
+    "label": "P23",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2145,
+      5009,
+      2169,
+      5025
+    ],
+    "ndvi_crop": "GIS/rasters/P23_NDVI.tif",
+    "zone_mask": "GIS/rasters/P23_zones.tif",
+    "inside": {
+      "eligible_n": 48,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 48,
+      "mean": 0.32052991073578596,
+      "minimum": 0.1916857361793518,
+      "maximum": 0.4335677921772003,
+      "sd_population": 0.0653976791060804,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 149,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 149,
+      "mean": 0.20068059784153963,
+      "minimum": 0.04936893656849861,
+      "maximum": 0.4313417673110962,
+      "sd_population": 0.10213481988947228,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "5b8045ac9f319b6dc2b20549a9597e8df1cfd7ec8cc11750c325e65414b3755a"
+  },
+  {
+    "ParkID": 24,
+    "label": "P24",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_nara.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      4768,
+      3551,
+      4799,
+      3593
+    ],
+    "ndvi_crop": "GIS/rasters/P24_NDVI.tif",
+    "zone_mask": "GIS/rasters/P24_zones.tif",
+    "inside": {
+      "eligible_n": 339,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 339,
+      "mean": 0.13114342678291585,
+      "minimum": -0.006664516869932413,
+      "maximum": 0.30910471081733704,
+      "sd_population": 0.05439949930743936,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 335,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 335,
+      "mean": 0.018253677509639955,
+      "minimum": -0.030778301879763603,
+      "maximum": 0.14129185676574707,
+      "sd_population": 0.03936900680776012,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "ba4b871dff089480a36fd9ed864e3fb37c04dd52668d8a1696bbb796af26f4e0"
+  },
+  {
+    "ParkID": 25,
+    "label": "P25",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_nara.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      4234,
+      2682,
+      4335,
+      2784
+    ],
+    "ndvi_crop": "GIS/rasters/P25_NDVI.tif",
+    "zone_mask": "GIS/rasters/P25_zones.tif",
+    "inside": {
+      "eligible_n": 3842,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 3842,
+      "mean": 0.23439169487984443,
+      "minimum": -0.01656452938914299,
+      "maximum": 0.4173578917980194,
+      "sd_population": 0.05893369081245663,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 1301,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 1301,
+      "mean": 0.19444103726199682,
+      "minimum": -0.0264724213629961,
+      "maximum": 0.3957423269748688,
+      "sd_population": 0.08553348172333894,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "0f630f36964a8cb6d9e1409a34c5bf848e28b19b0f1a081976d5d5428322d8c0"
+  },
+  {
+    "ParkID": 26,
+    "label": "P26",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2231,
+      4278,
+      2256,
+      4312
+    ],
+    "ndvi_crop": "GIS/rasters/P26_NDVI.tif",
+    "zone_mask": "GIS/rasters/P26_zones.tif",
+    "inside": {
+      "eligible_n": 109,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 109,
+      "mean": 0.3356966891009873,
+      "minimum": 0.0756383091211319,
+      "maximum": 0.46653205156326294,
+      "sd_population": 0.0870170134282637,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 339,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 339,
+      "mean": 0.2293768336881051,
+      "minimum": 0.04125224053859711,
+      "maximum": 0.4300019145011902,
+      "sd_population": 0.08700513724127285,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "7d4d7288283185d38ffe6214ddb24f2ad11c2b826ab6e5641485d70c564fae53"
+  },
+  {
+    "ParkID": 27,
+    "label": "P27",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_hokka_test.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      6485,
+      4743,
+      6549,
+      4798
+    ],
+    "ndvi_crop": "GIS/rasters/P27_NDVI.tif",
+    "zone_mask": "GIS/rasters/P27_zones.tif",
+    "inside": {
+      "eligible_n": 1357,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 1357,
+      "mean": -0.006638381713626562,
+      "minimum": -0.06277959048748016,
+      "maximum": 0.2622165083885193,
+      "sd_population": 0.033774557808418544,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 600,
+      "nodata_n": 2,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 598,
+      "mean": 0.03174631460195051,
+      "minimum": -0.09194356203079224,
+      "maximum": 0.8206576108932495,
+      "sd_population": 0.10512759297118417,
+      "valid_fraction": 0.9966666666666667
+    },
+    "pixel_signature_sha256": "0ac1819c32e96444005863d541308fc4be03f8fb48f4ba286cc4000b1a2ed6ca"
+  },
+  {
+    "ParkID": 28,
+    "label": "P28_option1",
+    "status": "CHOOSE_SOURCE",
+    "source_raster": "NDVI_nagoya.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      858,
+      4027,
+      898,
+      4285
+    ],
+    "ndvi_crop": "GIS/rasters/P28_option1_NDVI.tif",
+    "zone_mask": "GIS/rasters/P28_option1_zones.tif",
+    "inside": {
+      "eligible_n": 2182,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 2182,
+      "mean": 0.22578622981895588,
+      "minimum": -0.025969138368964195,
+      "maximum": 0.4526621103286743,
+      "sd_population": 0.10516566617315837,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 1949,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 1949,
+      "mean": 0.145851782226353,
+      "minimum": 0.02288525551557541,
+      "maximum": 0.397228479385376,
+      "sd_population": 0.07249026633506725,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "3c1004f0e7e6a967e63a9eb009549d1b80d6d3f5457433cac63d7e12cbb55ad0"
+  },
+  {
+    "ParkID": 28,
+    "label": "P28_option2",
+    "status": "CHOOSE_SOURCE",
+    "source_raster": "NDVI_nara.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      5488,
+      4027,
+      5528,
+      4285
+    ],
+    "ndvi_crop": "GIS/rasters/P28_option2_NDVI.tif",
+    "zone_mask": "GIS/rasters/P28_option2_zones.tif",
+    "inside": {
+      "eligible_n": 2182,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 2182,
+      "mean": 0.13893750003568317,
+      "minimum": -0.04961231350898743,
+      "maximum": 0.3965997099876404,
+      "sd_population": 0.06885356395883198,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 1949,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 1949,
+      "mean": 0.1003586749078896,
+      "minimum": 0.005882143042981625,
+      "maximum": 0.3213771879673004,
+      "sd_population": 0.04826584243170494,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "379c377fd3766d0ddc7ca7e080383a6509b704b31bb66542f8d5f742036b8045"
+  },
+  {
+    "ParkID": 29,
+    "label": "P29",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_nagoya.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      5713,
+      1994,
+      5748,
+      2028
+    ],
+    "ndvi_crop": "GIS/rasters/P29_NDVI.tif",
+    "zone_mask": "GIS/rasters/P29_zones.tif",
+    "inside": {
+      "eligible_n": 424,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 424,
+      "mean": 0.2812571917607818,
+      "minimum": 0.06523868441581726,
+      "maximum": 0.45349207520484924,
+      "sd_population": 0.08531768164527488,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 322,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 322,
+      "mean": 0.2984938356238678,
+      "minimum": 0.053206294775009155,
+      "maximum": 0.4422207772731781,
+      "sd_population": 0.09783656755291022,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "30a1dcb573306fb3fea7a66f6347a0b4d6ecfd669b1f1c979b646a2d16a897d2"
+  },
+  {
+    "ParkID": 30,
+    "label": "P30",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_fukushima_up.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      4505,
+      6391,
+      4545,
+      6435
+    ],
+    "ndvi_crop": "GIS/rasters/P30_NDVI.tif",
+    "zone_mask": "GIS/rasters/P30_zones.tif",
+    "inside": {
+      "eligible_n": 621,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 621,
+      "mean": 0.13865586560843407,
+      "minimum": -0.026873581111431122,
+      "maximum": 0.3070971369743347,
+      "sd_population": 0.044463085436831334,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 420,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 420,
+      "mean": 0.1446491219591172,
+      "minimum": 0.007642848417162895,
+      "maximum": 0.3340438902378082,
+      "sd_population": 0.051553628219796296,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "31b98304f0c6ba3ee15479fa45844d4cca30b06eb9e170b0ffffd2e80f4c02b8"
+  },
+  {
+    "ParkID": 31,
+    "label": "P31",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2152,
+      6302,
+      2190,
+      6342
+    ],
+    "ndvi_crop": "GIS/rasters/P31_NDVI.tif",
+    "zone_mask": "GIS/rasters/P31_zones.tif",
+    "inside": {
+      "eligible_n": 343,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 343,
+      "mean": 0.3880703958408478,
+      "minimum": 0.2372666299343109,
+      "maximum": 0.4756324887275696,
+      "sd_population": 0.04233691403164673,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 387,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 387,
+      "mean": 0.263179803358569,
+      "minimum": 0.04582977667450905,
+      "maximum": 0.4505501389503479,
+      "sd_population": 0.0998642620462496,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "e377ebf72126dd1d60bacaad2d918811e13835c59d052873685f0a1234ebcab3"
+  },
+  {
+    "ParkID": 32,
+    "label": "P32_option1",
+    "status": "CHOOSE_SOURCE",
+    "source_raster": "NDVI_fukushima.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      1429,
+      863,
+      1455,
+      892
+    ],
+    "ndvi_crop": "GIS/rasters/P32_option1_NDVI.tif",
+    "zone_mask": "GIS/rasters/P32_option1_zones.tif",
+    "inside": {
+      "eligible_n": 185,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 185,
+      "mean": 0.2074365189487769,
+      "minimum": 0.003899170784279704,
+      "maximum": 0.3309630751609802,
+      "sd_population": 0.06809046443317796,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 246,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 246,
+      "mean": 0.11489686157035725,
+      "minimum": 0.003848063526675105,
+      "maximum": 0.287997841835022,
+      "sd_population": 0.06698242783003455,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "29f37a7b425c43f590701a5f18a85d87aaeae7d4fdc960d8288e68cc4008276f"
+  },
+  {
+    "ParkID": 32,
+    "label": "P32_option2",
+    "status": "CHOOSE_SOURCE",
+    "source_raster": "NDVI_fukushima_up.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      4659,
+      6203,
+      4685,
+      6232
+    ],
+    "ndvi_crop": "GIS/rasters/P32_option2_NDVI.tif",
+    "zone_mask": "GIS/rasters/P32_option2_zones.tif",
+    "inside": {
+      "eligible_n": 185,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 185,
+      "mean": 0.1300714701061716,
+      "minimum": -0.016340989619493484,
+      "maximum": 0.237726092338562,
+      "sd_population": 0.04654495434884695,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 246,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 246,
+      "mean": 0.06685781868825841,
+      "minimum": -0.019880520179867744,
+      "maximum": 0.19911177456378937,
+      "sd_population": 0.04144174010367564,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "5153dc683d6719791cb63de6df81db9d0731230d7f81063d93e6815ca8ab3bcd"
+  },
+  {
+    "ParkID": 33,
+    "label": "P33",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_nagoya.tif",
+    "source_epsg": 32653,
+    "source_window": [
+      4973,
+      1791,
+      5030,
+      1830
+    ],
+    "ndvi_crop": "GIS/rasters/P33_NDVI.tif",
+    "zone_mask": "GIS/rasters/P33_zones.tif",
+    "inside": {
+      "eligible_n": 988,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 988,
+      "mean": 0.319671098210732,
+      "minimum": 0.013804769143462181,
+      "maximum": 0.46827179193496704,
+      "sd_population": 0.09818216461523394,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 482,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 482,
+      "mean": 0.20176214892880923,
+      "minimum": 0.013625210151076317,
+      "maximum": 0.46309345960617065,
+      "sd_population": 0.11315051858377771,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "dc4ed2ab7a4c2809973f2b8f5dd1dc630336b4a44a6045daac9e2033409ad321"
+  },
+  {
+    "ParkID": 34,
+    "label": "P34",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_island.tif",
+    "source_epsg": 32652,
+    "source_window": [
+      3360,
+      1634,
+      3393,
+      1703
+    ],
+    "ndvi_crop": "GIS/rasters/P34_NDVI.tif",
+    "zone_mask": "GIS/rasters/P34_zones.tif",
+    "inside": {
+      "eligible_n": 780,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 780,
+      "mean": 0.40475685628942953,
+      "minimum": 0.15172860026359558,
+      "maximum": 0.5207874774932861,
+      "sd_population": 0.07848436325362479,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 509,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 509,
+      "mean": 0.3893658426134666,
+      "minimum": 0.11974925547838211,
+      "maximum": 0.5149707794189453,
+      "sd_population": 0.08732983040341168,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "56f3152b93cf56f3c01199433f9761092303da386a2a55bf8533b63199043e08"
+  },
+  {
+    "ParkID": 35,
+    "label": "P35",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_hokka_test.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      893,
+      4044,
+      932,
+      4097
+    ],
+    "ndvi_crop": "GIS/rasters/P35_NDVI.tif",
+    "zone_mask": "GIS/rasters/P35_zones.tif",
+    "inside": {
+      "eligible_n": 720,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 720,
+      "mean": 0.020713904151206306,
+      "minimum": -0.03893650695681572,
+      "maximum": 0.3233945071697235,
+      "sd_population": 0.05358702477120433,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 455,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 455,
+      "mean": -0.0016292507939327221,
+      "minimum": -0.13581764698028564,
+      "maximum": 0.15445494651794434,
+      "sd_population": 0.03668538326904295,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "de0eb89477f9f124deebf9f4c89c8da579be48e5f67df057574793beff4d3788"
+  },
+  {
+    "ParkID": 36,
+    "label": "P36",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      2452,
+      5220,
+      2472,
+      5239
+    ],
+    "ndvi_crop": "GIS/rasters/P36_NDVI.tif",
+    "zone_mask": "GIS/rasters/P36_zones.tif",
+    "inside": {
+      "eligible_n": 42,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 42,
+      "mean": 0.18207972887016477,
+      "minimum": 0.017962578684091568,
+      "maximum": 0.3444282114505768,
+      "sd_population": 0.08099710628211411,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 145,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 145,
+      "mean": 0.2331206716083247,
+      "minimum": 0.0484098382294178,
+      "maximum": 0.4180176556110382,
+      "sd_population": 0.09916053837432141,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "433910cfa2977f105b3023fda4ffa3a6426502c12a5415d54c629298d24b8a69"
+  },
+  {
+    "ParkID": 37,
+    "label": "P37",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      1660,
+      5366,
+      1703,
+      5393
+    ],
+    "ndvi_crop": "GIS/rasters/P37_NDVI.tif",
+    "zone_mask": "GIS/rasters/P37_zones.tif",
+    "inside": {
+      "eligible_n": 160,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 160,
+      "mean": 0.36617251290008423,
+      "minimum": 0.15284985303878784,
+      "maximum": 0.4340027868747711,
+      "sd_population": 0.043568326516951875,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 344,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 344,
+      "mean": 0.27598092449439127,
+      "minimum": 0.018145300447940826,
+      "maximum": 0.4342927038669586,
+      "sd_population": 0.10785961618316992,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "03381fc13f9be9ad7e164b59a464b540b48add33aeac39421a362b1ed46bf910"
+  },
+  {
+    "ParkID": 38,
+    "label": "P38",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_tokyo.tif",
+    "source_epsg": 32654,
+    "source_window": [
+      1761,
+      5519,
+      1796,
+      5562
+    ],
+    "ndvi_crop": "GIS/rasters/P38_NDVI.tif",
+    "zone_mask": "GIS/rasters/P38_zones.tif",
+    "inside": {
+      "eligible_n": 444,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 444,
+      "mean": 0.37247059108303476,
+      "minimum": 0.13628128170967102,
+      "maximum": 0.4484191834926605,
+      "sd_population": 0.041797671196503884,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 493,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 493,
+      "mean": 0.2814999072459237,
+      "minimum": 0.04907357320189476,
+      "maximum": 0.4415445625782013,
+      "sd_population": 0.09013329149423246,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "fdaf31e24517551fc7078fa2a65d758642655ee5205bf8f2b98d63876cc8a53a"
+  },
+  {
+    "ParkID": 39,
+    "label": "P39",
+    "status": "CONFIRMED",
+    "source_raster": "NDVI_west.tif",
+    "source_epsg": 32652,
+    "source_window": [
+      4558,
+      3604,
+      4594,
+      3643
+    ],
+    "ndvi_crop": "GIS/rasters/P39_NDVI.tif",
+    "zone_mask": "GIS/rasters/P39_zones.tif",
+    "inside": {
+      "eligible_n": 381,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 381,
+      "mean": 0.264822303797815,
+      "minimum": -0.03966174274682999,
+      "maximum": 0.4324299991130829,
+      "sd_population": 0.08746317861002748,
+      "valid_fraction": 1.0
+    },
+    "outside": {
+      "eligible_n": 331,
+      "nodata_n": 0,
+      "outside_extent_n": 0,
+      "out_of_range_n": 0,
+      "valid_n": 331,
+      "mean": 0.2173738448029128,
+      "minimum": -0.06884399801492691,
+      "maximum": 0.4497700035572052,
+      "sd_population": 0.11329789298775754,
+      "valid_fraction": 1.0
+    },
+    "pixel_signature_sha256": "61518d03ac3bd32199a4f9e1f48b06ac159bb7f8e320a6cf82352198c2fdef71"
+  }
+]

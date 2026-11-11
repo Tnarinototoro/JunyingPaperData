@@ -1,0 +1,51 @@
+[
+  {
+    "name": "mdpi_api_journals",
+    "url": "https://mdpi.cn/api/journals",
+    "status": 200,
+    "final_url": "https://mdpi.cn/api/journals",
+    "bytes": 216722
+  },
+  {
+    "name": "mdpi_cn_conservation",
+    "url": "https://mdpi.cn/journal/conservation",
+    "status": 404,
+    "final_url": "https://mdpi.cn/journal/conservation",
+    "bytes": 274460
+  },
+  {
+    "name": "mdpi_com_cn_conservation",
+    "url": "https://www.mdpi.com/journal/conservation/apc?lang=zh",
+    "status": 403,
+    "final_url": "https://www.mdpi.com/journal/conservation/apc?lang=zh",
+    "bytes": 401
+  },
+  {
+    "name": "mdpi_no_www_conservation",
+    "url": "https://mdpi.com/journal/conservation/apc",
+    "status": 403,
+    "final_url": "https://mdpi.com/journal/conservation/apc",
+    "bytes": 390
+  },
+  {
+    "name": "mdpi_cn_api_conservation",
+    "url": "https://mdpi.cn/api/journal/conservation",
+    "status": 404,
+    "final_url": "https://mdpi.cn/api/journal/conservation",
+    "bytes": 1722
+  },
+  {
+    "name": "mdpi_authorservices_apc",
+    "url": "https://www.mdpi.com/authors/apc",
+    "status": 403,
+    "final_url": "https://www.mdpi.com/authors/apc",
+    "bytes": 379
+  },
+  {
+    "name": "mdpi_sciprofiles_journals",
+    "url": "https://sciprofiles.com/journal/conservation",
+    "status": 403,
+    "final_url": "https://sciprofiles.com/journal/conservation",
+    "bytes": 385
+  }
+]

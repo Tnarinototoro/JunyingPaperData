@@ -1,0 +1,2816 @@
+{
+  "method": "Independent strip decoding and raw 4-byte Float32 comparison for every crop bounding-box pixel; no resampling or source selection.",
+  "input_source_files_modified": false,
+  "package_files_modified": false,
+  "expected_crop_options": 43,
+  "crop_options_checked": 43,
+  "failures": [],
+  "bounding_box_pixels_checked": 119840,
+  "padding_outside_source_extent_pixels": 0,
+  "bounding_box_bit_mismatch_count": 0,
+  "valid_zone_pixels_checked": 53891,
+  "valid_zone_bit_mismatch_count": 0,
+  "all_metadata_checks_pass": true,
+  "all_source_window_hashes_match_crop_bytes": true,
+  "all_86_region_counts_match": true,
+  "maximum_region_mean_difference_from_report": 0,
+  "option_count_caveat": "Totals include all 43 source options, including alternatives for four unresolved parks; not 43 unique parks or a finalized source selection.",
+  "padding_caveat": "Pixels outside a source bounding extent, if present, are tested against documented NoData padding, not purported original pixels.",
+  "options": [
+    {
+      "ParkID": 1,
+      "label": "P01",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2063,
+        3993,
+        2108,
+        4045
+      ],
+      "ndvi_crop": "GIS/rasters/P01_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 2438,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 1222,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "888a26d219805474e14f868c19e5190172bd2e302e02c14c6d361053dc1d752c",
+      "expected_source_window_bytes_sha256": "888a26d219805474e14f868c19e5190172bd2e302e02c14c6d361053dc1d752c",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 574,
+          "valid_n": 574,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.35206616650423106,
+          "crop_mean": 0.35206616650423106,
+          "reported_mean": 0.35206616650423106,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 648,
+          "valid_n": 648,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.22434130494977222,
+          "crop_mean": 0.22434130494977222,
+          "reported_mean": 0.22434130494977222,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 2,
+      "label": "P02",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2753,
+        4230,
+        2776,
+        4251
+      ],
+      "ndvi_crop": "GIS/rasters/P02_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 528,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 259,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "7d43c92bf8bbf8c6d3dfbc337771f26fbe6d9ef5588be0f2adc5a91ad3092cfe",
+      "expected_source_window_bytes_sha256": "7d43c92bf8bbf8c6d3dfbc337771f26fbe6d9ef5588be0f2adc5a91ad3092cfe",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 95,
+          "valid_n": 95,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.21473220908328106,
+          "crop_mean": 0.21473220908328106,
+          "reported_mean": 0.21473220908328106,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 164,
+          "valid_n": 164,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.1119487462338151,
+          "crop_mean": 0.1119487462338151,
+          "reported_mean": 0.1119487462338151,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 3,
+      "label": "P03",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2183,
+        4199,
+        2207,
+        4238
+      ],
+      "ndvi_crop": "GIS/rasters/P03_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1000,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 494,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "462b17468d042bd233e4abfb46667b185b9988c2b061e25ef11ea7796eeb7aac",
+      "expected_source_window_bytes_sha256": "462b17468d042bd233e4abfb46667b185b9988c2b061e25ef11ea7796eeb7aac",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 184,
+          "valid_n": 184,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2711417811882237,
+          "crop_mean": 0.2711417811882237,
+          "reported_mean": 0.2711417811882237,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 310,
+          "valid_n": 310,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.28112740055207286,
+          "crop_mean": 0.28112740055207286,
+          "reported_mean": 0.28112740055207286,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 4,
+      "label": "P04",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        3888,
+        4806,
+        3945,
+        4897
+      ],
+      "ndvi_crop": "GIS/rasters/P04_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 5336,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 2693,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "44dcce7e3d1438c91c6b48242cc6b6da9b2cdfea02dfa92f42cf35c50fff6aa8",
+      "expected_source_window_bytes_sha256": "44dcce7e3d1438c91c6b48242cc6b6da9b2cdfea02dfa92f42cf35c50fff6aa8",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 1660,
+          "valid_n": 1660,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2724677534243064,
+          "crop_mean": 0.2724677534243064,
+          "reported_mean": 0.2724677534243064,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 1033,
+          "valid_n": 1033,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.19755042454233215,
+          "crop_mean": 0.19755042454233215,
+          "reported_mean": 0.19755042454233215,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 5,
+      "label": "P05",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_nara.tif",
+      "source_window": [
+        4072,
+        2146,
+        4121,
+        2185
+      ],
+      "ndvi_crop": "GIS/rasters/P05_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 2000,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 953,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "79533e7869f921c0cb7aab680465ddf716bdbf14bbae259b632d9624687673b6",
+      "expected_source_window_bytes_sha256": "79533e7869f921c0cb7aab680465ddf716bdbf14bbae259b632d9624687673b6",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 518,
+          "valid_n": 518,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.24535783186094642,
+          "crop_mean": 0.24535783186094642,
+          "reported_mean": 0.24535783186094642,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 435,
+          "valid_n": 435,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.25357485211443626,
+          "crop_mean": 0.25357485211443626,
+          "reported_mean": 0.25357485211443626,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 6,
+      "label": "P06",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_nara.tif",
+      "source_window": [
+        3714,
+        3803,
+        3738,
+        3823
+      ],
+      "ndvi_crop": "GIS/rasters/P06_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 525,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 257,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "99a9062df6a95d5a0296d0bad1de03f0438605044e406080776cb22ac896cba6",
+      "expected_source_window_bytes_sha256": "99a9062df6a95d5a0296d0bad1de03f0438605044e406080776cb22ac896cba6",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 84,
+          "valid_n": 84,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.1693673867377497,
+          "crop_mean": 0.1693673867377497,
+          "reported_mean": 0.1693673867377497,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 173,
+          "valid_n": 173,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.06515584884526349,
+          "crop_mean": 0.06515584884526349,
+          "reported_mean": 0.06515584884526349,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 7,
+      "label": "P07",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2073,
+        5831,
+        2085,
+        5843
+      ],
+      "ndvi_crop": "GIS/rasters/P07_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 169,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 66,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "3303ff0b31ec075b20701b859f7a02fd8886e466abf53f9209d93bfcd34d1ea8",
+      "expected_source_window_bytes_sha256": "3303ff0b31ec075b20701b859f7a02fd8886e466abf53f9209d93bfcd34d1ea8",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 3,
+          "valid_n": 3,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2649628271659215,
+          "crop_mean": 0.2649628271659215,
+          "reported_mean": 0.2649628271659215,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 63,
+          "valid_n": 63,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.20378391598425213,
+          "crop_mean": 0.20378391598425213,
+          "reported_mean": 0.20378391598425213,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 8,
+      "label": "P08",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_nara.tif",
+      "source_window": [
+        3628,
+        4040,
+        3682,
+        4093
+      ],
+      "ndvi_crop": "GIS/rasters/P08_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 2970,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 1359,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "6591dfe2d3c774d9348a244a95c6f15dd2c609260e017816f3fa6b896ee02d4b",
+      "expected_source_window_bytes_sha256": "6591dfe2d3c774d9348a244a95c6f15dd2c609260e017816f3fa6b896ee02d4b",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 890,
+          "valid_n": 890,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.18915480616191152,
+          "crop_mean": 0.18915480616191152,
+          "reported_mean": 0.18915480616191152,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 469,
+          "valid_n": 469,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.14422021248867598,
+          "crop_mean": 0.14422021248867598,
+          "reported_mean": 0.14422021248867598,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 9,
+      "label": "P09_option1",
+      "status": "CHOOSE_SOURCE",
+      "source_raster": "NDVI_nagoya.tif",
+      "source_window": [
+        1826,
+        2513,
+        1850,
+        2542
+      ],
+      "ndvi_crop": "GIS/rasters/P09_option1_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 750,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 386,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "236945a4e47894272f7fd7ca9bf8197e7d58d2f4b9e2f7d526aea0bf22e428f5",
+      "expected_source_window_bytes_sha256": "236945a4e47894272f7fd7ca9bf8197e7d58d2f4b9e2f7d526aea0bf22e428f5",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 159,
+          "valid_n": 159,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.19557236495234495,
+          "crop_mean": 0.19557236495234495,
+          "reported_mean": 0.19557236495234495,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 227,
+          "valid_n": 227,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.22206446810703445,
+          "crop_mean": 0.22206446810703445,
+          "reported_mean": 0.22206446810703445,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 9,
+      "label": "P09_option2",
+      "status": "CHOOSE_SOURCE",
+      "source_raster": "NDVI_nara.tif",
+      "source_window": [
+        6456,
+        2513,
+        6480,
+        2542
+      ],
+      "ndvi_crop": "GIS/rasters/P09_option2_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 750,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 386,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "b74bf468daec53ea3934814e705eead1b043b6259c51f0c9e0183bf8911bccc0",
+      "expected_source_window_bytes_sha256": "b74bf468daec53ea3934814e705eead1b043b6259c51f0c9e0183bf8911bccc0",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 159,
+          "valid_n": 159,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.09927253725421585,
+          "crop_mean": 0.09927253725421585,
+          "reported_mean": 0.09927253725421585,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 227,
+          "valid_n": 227,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.14015795825878036,
+          "crop_mean": 0.14015795825878036,
+          "reported_mean": 0.14015795825878036,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 10,
+      "label": "P10",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_hokka_test.tif",
+      "source_window": [
+        5997,
+        4872,
+        6102,
+        4969
+      ],
+      "ndvi_crop": "GIS/rasters/P10_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 10388,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 4270,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "17d23a5e8f9b3553b43fdd079b20a73287685823dd99a9b8ae0fbcf6318249bb",
+      "expected_source_window_bytes_sha256": "17d23a5e8f9b3553b43fdd079b20a73287685823dd99a9b8ae0fbcf6318249bb",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 2988,
+          "valid_n": 2988,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.06537684301096734,
+          "crop_mean": 0.06537684301096734,
+          "reported_mean": 0.06537684301096734,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 1282,
+          "valid_n": 1282,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.009877880821413599,
+          "crop_mean": 0.009877880821413599,
+          "reported_mean": 0.009877880821413599,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 11,
+      "label": "P11",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo_down.tif",
+      "source_window": [
+        6946,
+        1535,
+        6976,
+        1566
+      ],
+      "ndvi_crop": "GIS/rasters/P11_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 992,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 440,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "c1a9d8eed370861b129d9e12edb319062b8a47d1fe11645c01cf69c453f408d7",
+      "expected_source_window_bytes_sha256": "c1a9d8eed370861b129d9e12edb319062b8a47d1fe11645c01cf69c453f408d7",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 144,
+          "valid_n": 144,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2712702324820889,
+          "crop_mean": 0.2712702324820889,
+          "reported_mean": 0.2712702324820889,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 296,
+          "valid_n": 296,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2598548239801784,
+          "crop_mean": 0.2598548239801784,
+          "reported_mean": 0.2598548239801784,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 12,
+      "label": "P12",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        1749,
+        6338,
+        1784,
+        6377
+      ],
+      "ndvi_crop": "GIS/rasters/P12_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1440,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 780,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "4e34f2d9742baabb4bd545f0df3d419cb320d1be108b4acdac0455ab3780250b",
+      "expected_source_window_bytes_sha256": "4e34f2d9742baabb4bd545f0df3d419cb320d1be108b4acdac0455ab3780250b",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 360,
+          "valid_n": 360,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.3621415248761574,
+          "crop_mean": 0.3621415248761574,
+          "reported_mean": 0.3621415248761574,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 420,
+          "valid_n": 420,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2743143225443505,
+          "crop_mean": 0.2743143225443505,
+          "reported_mean": 0.2743143225443505,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 13,
+      "label": "P13",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2491,
+        5810,
+        2523,
+        5846
+      ],
+      "ndvi_crop": "GIS/rasters/P13_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1221,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 628,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "c853cf7b55e13407b5a42ef74d6fef2781af571876e80568fe2ab0ac7aece88b",
+      "expected_source_window_bytes_sha256": "c853cf7b55e13407b5a42ef74d6fef2781af571876e80568fe2ab0ac7aece88b",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 322,
+          "valid_n": 322,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.310114933415721,
+          "crop_mean": 0.310114933415721,
+          "reported_mean": 0.310114933415721,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 306,
+          "valid_n": 306,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.16546347202258369,
+          "crop_mean": 0.16546347202258369,
+          "reported_mean": 0.16546347202258369,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 14,
+      "label": "P14",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2309,
+        5015,
+        2362,
+        5042
+      ],
+      "ndvi_crop": "GIS/rasters/P14_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1512,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 834,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "3e7bd46a5dce0a9cdf57596146151e3eb8fe0c4ef81d0023f93788b990342296",
+      "expected_source_window_bytes_sha256": "3e7bd46a5dce0a9cdf57596146151e3eb8fe0c4ef81d0023f93788b990342296",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 384,
+          "valid_n": 384,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.27271902864292014,
+          "crop_mean": 0.27271902864292014,
+          "reported_mean": 0.27271902864292014,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 450,
+          "valid_n": 450,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.151783034964982,
+          "crop_mean": 0.151783034964982,
+          "reported_mean": 0.151783034964982,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 15,
+      "label": "P15",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2236,
+        5156,
+        2296,
+        5199
+      ],
+      "ndvi_crop": "GIS/rasters/P15_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 2684,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 1123,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "7414909445ef369bd7f204124bbf1f6552398c7a9d76c1f7d55f978470403a8c",
+      "expected_source_window_bytes_sha256": "7414909445ef369bd7f204124bbf1f6552398c7a9d76c1f7d55f978470403a8c",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 506,
+          "valid_n": 506,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.28815264244225214,
+          "crop_mean": 0.28815264244225214,
+          "reported_mean": 0.28815264244225214,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 617,
+          "valid_n": 617,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.1438410849079514,
+          "crop_mean": 0.1438410849079514,
+          "reported_mean": 0.1438410849079514,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 16,
+      "label": "P16",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2409,
+        4909,
+        2451,
+        4946
+      ],
+      "ndvi_crop": "GIS/rasters/P16_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1634,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 1050,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "d805ed6a042918e45290d89a8848bf27fc0ce1f13a89012bb7c4aefdd06c9146",
+      "expected_source_window_bytes_sha256": "d805ed6a042918e45290d89a8848bf27fc0ce1f13a89012bb7c4aefdd06c9146",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 664,
+          "valid_n": 664,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.3213462208661374,
+          "crop_mean": 0.3213462208661374,
+          "reported_mean": 0.3213462208661374,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 386,
+          "valid_n": 386,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.15108390469369454,
+          "crop_mean": 0.15108390469369454,
+          "reported_mean": 0.15108390469369454,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 17,
+      "label": "P17",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        1679,
+        5479,
+        1712,
+        5523
+      ],
+      "ndvi_crop": "GIS/rasters/P17_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1530,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 586,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "8cb375d5c14388f03b4e53f25b6c0f5cb28a5c85c26ea3b520b858a9a1b3151e",
+      "expected_source_window_bytes_sha256": "8cb375d5c14388f03b4e53f25b6c0f5cb28a5c85c26ea3b520b858a9a1b3151e",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 222,
+          "valid_n": 222,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.34935224727467373,
+          "crop_mean": 0.34935224727467373,
+          "reported_mean": 0.34935224727467373,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 364,
+          "valid_n": 364,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2252195861886491,
+          "crop_mean": 0.2252195861886491,
+          "reported_mean": 0.2252195861886491,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 18,
+      "label": "P18_option1",
+      "status": "CHOOSE_SOURCE",
+      "source_raster": "NDVI_nagoya.tif",
+      "source_window": [
+        737,
+        3791,
+        770,
+        3829
+      ],
+      "ndvi_crop": "GIS/rasters/P18_option1_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1326,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 858,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "f756907ec4f3e02c71a14a533204258ea8dc8802244efccf6352e7508fdd4779",
+      "expected_source_window_bytes_sha256": "f756907ec4f3e02c71a14a533204258ea8dc8802244efccf6352e7508fdd4779",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 490,
+          "valid_n": 490,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2054318968700815,
+          "crop_mean": 0.2054318968700815,
+          "reported_mean": 0.2054318968700815,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 368,
+          "valid_n": 368,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.0810330544659139,
+          "crop_mean": 0.0810330544659139,
+          "reported_mean": 0.0810330544659139,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 18,
+      "label": "P18_option2",
+      "status": "CHOOSE_SOURCE",
+      "source_raster": "NDVI_nara.tif",
+      "source_window": [
+        5367,
+        3791,
+        5400,
+        3829
+      ],
+      "ndvi_crop": "GIS/rasters/P18_option2_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1326,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 858,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "13fd365ec0c06459dc56f95956fd9113fd3ecb535c93068a63adb0f04687e517",
+      "expected_source_window_bytes_sha256": "13fd365ec0c06459dc56f95956fd9113fd3ecb535c93068a63adb0f04687e517",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 490,
+          "valid_n": 490,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.13100404730446788,
+          "crop_mean": 0.13100404730446788,
+          "reported_mean": 0.13100404730446788,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 368,
+          "valid_n": 368,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.05371792677845841,
+          "crop_mean": 0.05371792677845841,
+          "reported_mean": 0.05371792677845841,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 19,
+      "label": "P19",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        1501,
+        3505,
+        1745,
+        3574
+      ],
+      "ndvi_crop": "GIS/rasters/P19_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 17150,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 4624,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "f89f0829427d6377faeb8bc16fc6649f8e03b9a12b801ed5bd5b76cd78ae8ac0",
+      "expected_source_window_bytes_sha256": "f89f0829427d6377faeb8bc16fc6649f8e03b9a12b801ed5bd5b76cd78ae8ac0",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 2962,
+          "valid_n": 2962,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.3243561849076047,
+          "crop_mean": 0.3243561849076047,
+          "reported_mean": 0.3243561849076047,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 1662,
+          "valid_n": 1662,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.24561814059812698,
+          "crop_mean": 0.24561814059812698,
+          "reported_mean": 0.24561814059812698,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 20,
+      "label": "P20",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo_down.tif",
+      "source_window": [
+        4232,
+        2981,
+        4271,
+        3012
+      ],
+      "ndvi_crop": "GIS/rasters/P20_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1280,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 690,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "4e0fc405cda8e4f8e3c19d3aff027e2611466f8bfb3bc6065a546c484bf14452",
+      "expected_source_window_bytes_sha256": "4e0fc405cda8e4f8e3c19d3aff027e2611466f8bfb3bc6065a546c484bf14452",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 358,
+          "valid_n": 358,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.22404565263325582,
+          "crop_mean": 0.22404565263325582,
+          "reported_mean": 0.22404565263325582,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 332,
+          "valid_n": 332,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.22139611481464502,
+          "crop_mean": 0.22139611481464502,
+          "reported_mean": 0.22139611481464502,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 21,
+      "label": "P21",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_kyoto.tif",
+      "source_window": [
+        2187,
+        3812,
+        2232,
+        3874
+      ],
+      "ndvi_crop": "GIS/rasters/P21_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 2898,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 1504,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "001d35d28a63f0eba10d6389d3311df175bb8bc5050f07d0209be0cd300ae55c",
+      "expected_source_window_bytes_sha256": "001d35d28a63f0eba10d6389d3311df175bb8bc5050f07d0209be0cd300ae55c",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 906,
+          "valid_n": 906,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2106495573294347,
+          "crop_mean": 0.2106495573294347,
+          "reported_mean": 0.2106495573294347,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 598,
+          "valid_n": 598,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.21019105452391626,
+          "crop_mean": 0.21019105452391626,
+          "reported_mean": 0.21019105452391626,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 22,
+      "label": "P22",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_fukushima.tif",
+      "source_window": [
+        3577,
+        6138,
+        3613,
+        6191
+      ],
+      "ndvi_crop": "GIS/rasters/P22_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1998,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 1239,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "3e3dcd0f0220f1ab030fc07eca42d3d04051a873c0a0dab315b05c14d2ba4bdd",
+      "expected_source_window_bytes_sha256": "3e3dcd0f0220f1ab030fc07eca42d3d04051a873c0a0dab315b05c14d2ba4bdd",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 736,
+          "valid_n": 736,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2693852384969511,
+          "crop_mean": 0.2693852384969511,
+          "reported_mean": 0.2693852384969511,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 503,
+          "valid_n": 503,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.11398813686616882,
+          "crop_mean": 0.11398813686616882,
+          "reported_mean": 0.11398813686616882,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 23,
+      "label": "P23",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2145,
+        5009,
+        2169,
+        5025
+      ],
+      "ndvi_crop": "GIS/rasters/P23_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 425,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 197,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "2aabb2e60050ea57c91206e33bf9bb262044b9eb5a687f5e05ea21c08f420721",
+      "expected_source_window_bytes_sha256": "2aabb2e60050ea57c91206e33bf9bb262044b9eb5a687f5e05ea21c08f420721",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 48,
+          "valid_n": 48,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.32052991073578596,
+          "crop_mean": 0.32052991073578596,
+          "reported_mean": 0.32052991073578596,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 149,
+          "valid_n": 149,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.20068059784153963,
+          "crop_mean": 0.20068059784153963,
+          "reported_mean": 0.20068059784153963,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 24,
+      "label": "P24",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_nara.tif",
+      "source_window": [
+        4768,
+        3551,
+        4799,
+        3593
+      ],
+      "ndvi_crop": "GIS/rasters/P24_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1376,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 674,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "d87eef6cbdd9c5daf300fddb5bfd1191d387b2cde063a5a8ea71cb4d3d1fdeb6",
+      "expected_source_window_bytes_sha256": "d87eef6cbdd9c5daf300fddb5bfd1191d387b2cde063a5a8ea71cb4d3d1fdeb6",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 339,
+          "valid_n": 339,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.13114342678291585,
+          "crop_mean": 0.13114342678291585,
+          "reported_mean": 0.13114342678291585,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 335,
+          "valid_n": 335,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.018253677509639955,
+          "crop_mean": 0.018253677509639955,
+          "reported_mean": 0.018253677509639955,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 25,
+      "label": "P25",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_nara.tif",
+      "source_window": [
+        4234,
+        2682,
+        4335,
+        2784
+      ],
+      "ndvi_crop": "GIS/rasters/P25_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 10506,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 5143,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "e9fbc56076f50bc84d9c6bb5e40f4281d30be2b16b21b709575dd368b6f70c72",
+      "expected_source_window_bytes_sha256": "e9fbc56076f50bc84d9c6bb5e40f4281d30be2b16b21b709575dd368b6f70c72",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 3842,
+          "valid_n": 3842,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.23439169487984443,
+          "crop_mean": 0.23439169487984443,
+          "reported_mean": 0.23439169487984443,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 1301,
+          "valid_n": 1301,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.19444103726199682,
+          "crop_mean": 0.19444103726199682,
+          "reported_mean": 0.19444103726199682,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 26,
+      "label": "P26",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2231,
+        4278,
+        2256,
+        4312
+      ],
+      "ndvi_crop": "GIS/rasters/P26_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 910,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 448,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "b411842f0653a9652bf62cd7f0d63deda2cef5e5f247733c2ba8c2f579f279bf",
+      "expected_source_window_bytes_sha256": "b411842f0653a9652bf62cd7f0d63deda2cef5e5f247733c2ba8c2f579f279bf",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 109,
+          "valid_n": 109,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.3356966891009873,
+          "crop_mean": 0.3356966891009873,
+          "reported_mean": 0.3356966891009873,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 339,
+          "valid_n": 339,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2293768336881051,
+          "crop_mean": 0.2293768336881051,
+          "reported_mean": 0.2293768336881051,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 27,
+      "label": "P27",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_hokka_test.tif",
+      "source_window": [
+        6485,
+        4743,
+        6549,
+        4798
+      ],
+      "ndvi_crop": "GIS/rasters/P27_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 3640,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 1955,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "564568366ed6e3d4ee6300f5719f459a6970bc45ef92c0fdeb06239b82e23e89",
+      "expected_source_window_bytes_sha256": "564568366ed6e3d4ee6300f5719f459a6970bc45ef92c0fdeb06239b82e23e89",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 1357,
+          "valid_n": 1357,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": -0.006638381713626562,
+          "crop_mean": -0.006638381713626562,
+          "reported_mean": -0.006638381713626562,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 600,
+          "valid_n": 598,
+          "nodata_n": 2,
+          "outside_extent_n": 0,
+          "source_mean": 0.03174631460195051,
+          "crop_mean": 0.03174631460195051,
+          "reported_mean": 0.03174631460195051,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 28,
+      "label": "P28_option1",
+      "status": "CHOOSE_SOURCE",
+      "source_raster": "NDVI_nagoya.tif",
+      "source_window": [
+        858,
+        4027,
+        898,
+        4285
+      ],
+      "ndvi_crop": "GIS/rasters/P28_option1_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 10619,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 4131,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "d4e3a9c7e1aeba7edd7f81df9de97e3708ae55808252b1a7fcdb63320167bd75",
+      "expected_source_window_bytes_sha256": "d4e3a9c7e1aeba7edd7f81df9de97e3708ae55808252b1a7fcdb63320167bd75",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 2182,
+          "valid_n": 2182,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.22578622981895588,
+          "crop_mean": 0.22578622981895588,
+          "reported_mean": 0.22578622981895588,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 1949,
+          "valid_n": 1949,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.145851782226353,
+          "crop_mean": 0.145851782226353,
+          "reported_mean": 0.145851782226353,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 28,
+      "label": "P28_option2",
+      "status": "CHOOSE_SOURCE",
+      "source_raster": "NDVI_nara.tif",
+      "source_window": [
+        5488,
+        4027,
+        5528,
+        4285
+      ],
+      "ndvi_crop": "GIS/rasters/P28_option2_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 10619,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 4131,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "f92a71071877668dd673c85949ef0cecd9a9caf06b18f8a570d997188982d1b4",
+      "expected_source_window_bytes_sha256": "f92a71071877668dd673c85949ef0cecd9a9caf06b18f8a570d997188982d1b4",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 2182,
+          "valid_n": 2182,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.13893750003568317,
+          "crop_mean": 0.13893750003568317,
+          "reported_mean": 0.13893750003568317,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 1949,
+          "valid_n": 1949,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.1003586749078896,
+          "crop_mean": 0.1003586749078896,
+          "reported_mean": 0.1003586749078896,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 29,
+      "label": "P29",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_nagoya.tif",
+      "source_window": [
+        5713,
+        1994,
+        5748,
+        2028
+      ],
+      "ndvi_crop": "GIS/rasters/P29_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1260,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 746,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "f201224f465416427e2861a8443ff1840d5f38f15817f857e2f4d29e3f4c425c",
+      "expected_source_window_bytes_sha256": "f201224f465416427e2861a8443ff1840d5f38f15817f857e2f4d29e3f4c425c",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 424,
+          "valid_n": 424,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2812571917607818,
+          "crop_mean": 0.2812571917607818,
+          "reported_mean": 0.2812571917607818,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 322,
+          "valid_n": 322,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2984938356238678,
+          "crop_mean": 0.2984938356238678,
+          "reported_mean": 0.2984938356238678,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 30,
+      "label": "P30",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_fukushima_up.tif",
+      "source_window": [
+        4505,
+        6391,
+        4545,
+        6435
+      ],
+      "ndvi_crop": "GIS/rasters/P30_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1845,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 1041,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "d6611f8ea8a2e444c298d41be492746eb36de0d8d7495d6bdaa4e58f1a9a9990",
+      "expected_source_window_bytes_sha256": "d6611f8ea8a2e444c298d41be492746eb36de0d8d7495d6bdaa4e58f1a9a9990",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 621,
+          "valid_n": 621,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.13865586560843407,
+          "crop_mean": 0.13865586560843407,
+          "reported_mean": 0.13865586560843407,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 420,
+          "valid_n": 420,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.1446491219591172,
+          "crop_mean": 0.1446491219591172,
+          "reported_mean": 0.1446491219591172,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 31,
+      "label": "P31",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2152,
+        6302,
+        2190,
+        6342
+      ],
+      "ndvi_crop": "GIS/rasters/P31_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1599,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 730,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "d1aa5bf5bdd043b6ca69cca6c24e1bdde13bbc9a7cd9cb1be7ca33328cd1c771",
+      "expected_source_window_bytes_sha256": "d1aa5bf5bdd043b6ca69cca6c24e1bdde13bbc9a7cd9cb1be7ca33328cd1c771",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 343,
+          "valid_n": 343,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.3880703958408478,
+          "crop_mean": 0.3880703958408478,
+          "reported_mean": 0.3880703958408478,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 387,
+          "valid_n": 387,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.263179803358569,
+          "crop_mean": 0.263179803358569,
+          "reported_mean": 0.263179803358569,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 32,
+      "label": "P32_option1",
+      "status": "CHOOSE_SOURCE",
+      "source_raster": "NDVI_fukushima.tif",
+      "source_window": [
+        1429,
+        863,
+        1455,
+        892
+      ],
+      "ndvi_crop": "GIS/rasters/P32_option1_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 810,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 431,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "dc0a203e5bb8b5123ea33e193e0218f18f8efe8d55caf472cb5460261a9c314f",
+      "expected_source_window_bytes_sha256": "dc0a203e5bb8b5123ea33e193e0218f18f8efe8d55caf472cb5460261a9c314f",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 185,
+          "valid_n": 185,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2074365189487769,
+          "crop_mean": 0.2074365189487769,
+          "reported_mean": 0.2074365189487769,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 246,
+          "valid_n": 246,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.11489686157035725,
+          "crop_mean": 0.11489686157035725,
+          "reported_mean": 0.11489686157035725,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 32,
+      "label": "P32_option2",
+      "status": "CHOOSE_SOURCE",
+      "source_raster": "NDVI_fukushima_up.tif",
+      "source_window": [
+        4659,
+        6203,
+        4685,
+        6232
+      ],
+      "ndvi_crop": "GIS/rasters/P32_option2_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 810,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 431,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "a45ec6206e5b21db300fe23d3ceab5a210b4c831567fbd9286ce6690c4cc85c4",
+      "expected_source_window_bytes_sha256": "a45ec6206e5b21db300fe23d3ceab5a210b4c831567fbd9286ce6690c4cc85c4",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 185,
+          "valid_n": 185,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.1300714701061716,
+          "crop_mean": 0.1300714701061716,
+          "reported_mean": 0.1300714701061716,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 246,
+          "valid_n": 246,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.06685781868825841,
+          "crop_mean": 0.06685781868825841,
+          "reported_mean": 0.06685781868825841,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 33,
+      "label": "P33",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_nagoya.tif",
+      "source_window": [
+        4973,
+        1791,
+        5030,
+        1830
+      ],
+      "ndvi_crop": "GIS/rasters/P33_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 2320,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 1470,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "438b3527a2b2f5c33a03e142cee8415568261ed956b8bcfb06b32c2b83829d9d",
+      "expected_source_window_bytes_sha256": "438b3527a2b2f5c33a03e142cee8415568261ed956b8bcfb06b32c2b83829d9d",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 988,
+          "valid_n": 988,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.319671098210732,
+          "crop_mean": 0.319671098210732,
+          "reported_mean": 0.319671098210732,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 482,
+          "valid_n": 482,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.20176214892880923,
+          "crop_mean": 0.20176214892880923,
+          "reported_mean": 0.20176214892880923,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 34,
+      "label": "P34",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_island.tif",
+      "source_window": [
+        3360,
+        1634,
+        3393,
+        1703
+      ],
+      "ndvi_crop": "GIS/rasters/P34_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 2380,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 1289,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "aeab9515dbb60453753438d28805fef575199d1bbd0f8dbdfd94d6bf47a58534",
+      "expected_source_window_bytes_sha256": "aeab9515dbb60453753438d28805fef575199d1bbd0f8dbdfd94d6bf47a58534",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 780,
+          "valid_n": 780,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.40475685628942953,
+          "crop_mean": 0.40475685628942953,
+          "reported_mean": 0.40475685628942953,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 509,
+          "valid_n": 509,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.3893658426134666,
+          "crop_mean": 0.3893658426134666,
+          "reported_mean": 0.3893658426134666,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 35,
+      "label": "P35",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_hokka_test.tif",
+      "source_window": [
+        893,
+        4044,
+        932,
+        4097
+      ],
+      "ndvi_crop": "GIS/rasters/P35_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 2160,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 1175,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "454cc712ef6031ba9428bc572ab6fd9b6a1461d056b7028b9747b01c05a99bbf",
+      "expected_source_window_bytes_sha256": "454cc712ef6031ba9428bc572ab6fd9b6a1461d056b7028b9747b01c05a99bbf",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 720,
+          "valid_n": 720,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.020713904151206306,
+          "crop_mean": 0.020713904151206306,
+          "reported_mean": 0.020713904151206306,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 455,
+          "valid_n": 455,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": -0.0016292507939327221,
+          "crop_mean": -0.0016292507939327221,
+          "reported_mean": -0.0016292507939327221,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 36,
+      "label": "P36",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        2452,
+        5220,
+        2472,
+        5239
+      ],
+      "ndvi_crop": "GIS/rasters/P36_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 420,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 187,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "6fd194783370475877cd00b3ac02d898e6e785b1e326ec865a6a19c31aa90644",
+      "expected_source_window_bytes_sha256": "6fd194783370475877cd00b3ac02d898e6e785b1e326ec865a6a19c31aa90644",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 42,
+          "valid_n": 42,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.18207972887016477,
+          "crop_mean": 0.18207972887016477,
+          "reported_mean": 0.18207972887016477,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 145,
+          "valid_n": 145,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2331206716083247,
+          "crop_mean": 0.2331206716083247,
+          "reported_mean": 0.2331206716083247,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 37,
+      "label": "P37",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        1660,
+        5366,
+        1703,
+        5393
+      ],
+      "ndvi_crop": "GIS/rasters/P37_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1232,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 504,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "65b73b6d92dc27b72ed17cf09f1772acaa689751d597dab25af550f6b7339609",
+      "expected_source_window_bytes_sha256": "65b73b6d92dc27b72ed17cf09f1772acaa689751d597dab25af550f6b7339609",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 160,
+          "valid_n": 160,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.36617251290008423,
+          "crop_mean": 0.36617251290008423,
+          "reported_mean": 0.36617251290008423,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 344,
+          "valid_n": 344,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.27598092449439127,
+          "crop_mean": 0.27598092449439127,
+          "reported_mean": 0.27598092449439127,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 38,
+      "label": "P38",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_tokyo.tif",
+      "source_window": [
+        1761,
+        5519,
+        1796,
+        5562
+      ],
+      "ndvi_crop": "GIS/rasters/P38_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1584,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 937,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "f523153659686107d5bb28ef2f612defed8d2862c5eaac9825136446a68b1f48",
+      "expected_source_window_bytes_sha256": "f523153659686107d5bb28ef2f612defed8d2862c5eaac9825136446a68b1f48",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 444,
+          "valid_n": 444,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.37247059108303476,
+          "crop_mean": 0.37247059108303476,
+          "reported_mean": 0.37247059108303476,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 493,
+          "valid_n": 493,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2814999072459237,
+          "crop_mean": 0.2814999072459237,
+          "reported_mean": 0.2814999072459237,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    },
+    {
+      "ParkID": 39,
+      "label": "P39",
+      "status": "CONFIRMED",
+      "source_raster": "NDVI_west.tif",
+      "source_window": [
+        4558,
+        3604,
+        4594,
+        3643
+      ],
+      "ndvi_crop": "GIS/rasters/P39_NDVI.tif",
+      "metadata_checks": {
+        "crop_dimensions_match_source_window": true,
+        "mask_dimensions_match_crop": true,
+        "crop_float32": true,
+        "mask_uint8": true,
+        "crop_byte_order_matches_source": true,
+        "crop_origin_and_spacing_match_source_window": true,
+        "mask_origin_and_spacing_match_source_window": true,
+        "crop_epsg_matches_source": true,
+        "mask_epsg_matches_source": true,
+        "crop_pixel_is_area": true,
+        "mask_pixel_is_area": true,
+        "crop_nodata_bits_match_source": true,
+        "crop_scale_offset_match_source": true
+      },
+      "bounding_box_pixel_count": 1480,
+      "bounding_box_pixels_outside_source_extent_nodata_filled": 0,
+      "bounding_box_bit_mismatch_count": 0,
+      "valid_zone_pixel_count": 712,
+      "valid_zone_bit_mismatch_count": 0,
+      "zone_mask_codes": [
+        0,
+        1,
+        2
+      ],
+      "crop_pixel_bytes_sha256": "06be70541e8e2d408ca8689ffce41978566c2f491462b6878a26c358ba4619f7",
+      "expected_source_window_bytes_sha256": "06be70541e8e2d408ca8689ffce41978566c2f491462b6878a26c358ba4619f7",
+      "mismatch_examples": [],
+      "zones": {
+        "inside": {
+          "eligible_n": 381,
+          "valid_n": 381,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.264822303797815,
+          "crop_mean": 0.264822303797815,
+          "reported_mean": 0.264822303797815,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        },
+        "outside": {
+          "eligible_n": 331,
+          "valid_n": 331,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "source_mean": 0.2173738448029128,
+          "crop_mean": 0.2173738448029128,
+          "reported_mean": 0.2173738448029128,
+          "counts_match_report": true,
+          "absolute_mean_difference_from_report": 0.0
+        }
+      }
+    }
+  ]
+}

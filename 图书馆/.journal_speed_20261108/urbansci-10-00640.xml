@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">urbansci</journal-id>
+      <journal-title-group>
+        <journal-title>Urban Science</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Urban Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Urban Science</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2413-8851</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/urbansci10110640</article-id>
+      <article-id pub-id-type="publisher-id">urbansci-10-00640</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>AI-Enabled Morphological Urban Humanization in Riyadh&#x2019;s Hyper-Arid Context: A Case Study of the Sports Boulevard</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0008-0740-0994</contrib-id>
+          <name>
+            <surname>Ahmad Taha</surname>
+            <given-names>Mayas Nadim</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Saleeb</surname>
+            <given-names>Noha</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-urbansci-10-00640">Department of Architecture, College of Engineering, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/036b03a90</institution-id><institution>Al Yamamah University</institution></institution-wrap>, Riyadh 13541, Saudi Arabia; <email>mayas-84@hotmail.com</email> or <email>m_taha@yu.edu.sa</email></aff>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>11</issue>
+      <elocation-id>640</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>16</day>
+          <month>09</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>23</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>02</day>
+          <month>11</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the author.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Riyadh&#x2019;s rapid urban growth has created challenges in balancing arterial mobility with pedestrian-scale public-space provision. This paper explores the humanization of urban arterial streets as a model shift in transforming them into more walkable, inclusive, and climate-responsive public spaces, based on four principles: human scale, walkability and active mobility, social interaction and placemaking, and contextual adaptation. Riyadh&#x2019;s Sports Boulevard, a flagship project under Saudi Vision 2030, is examined as the case study. The study combines a literature review, field observation of the completed corridor segment, and a two-tier comparative analysis. The first tier evaluates the Sports Boulevard and three precedents using observable indicators derived from the four principles, while the second reviews AI-enabled systems from three international cases to identify their humanization function and examine their potential relevance to Riyadh&#x2019;s hyper-arid context. The analysis shows that humanizing arterial streets depends not only on spatial redesign but also on sensing, simulation, and adaptive control. Findings show that Riyadh&#x2019;s Sports Boulevard has begun integrating responsive and technology-mediated features, which move it away from static design toward more adaptive place-making. The paper concludes that AI should be integrated within a broader socio-technical framework connecting spatial design, climatic adaptation, community needs, and accountable governance.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>urban humanization</kwd>
+        <kwd>arterial streets</kwd>
+        <kwd>human-scale design</kwd>
+        <kwd>walkability</kwd>
+        <kwd>placemaking</kwd>
+        <kwd>climate-responsive design</kwd>
+        <kwd>artificial intelligence</kwd>
+        <kwd>Sports Boulevard</kwd>
+        <kwd>Riyadh</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>This research received no external funding.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-urbansci-10-00640" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The cities of the Arabian Gulf region are facing unique challenges in developing livable, sustainable, and human-centric urban environments, driven by the rapid urbanization of the region [<xref ref-type="bibr" rid="B1-urbansci-10-00640">1</xref>]. One of these cities is Riyadh, the capital of Saudi Arabia, which is one of the most representative examples. A city with rapid population growth, car dependence, and a harsh climate. This is because, historically, arterial roads in Riyadh were built to optimize vehicle flow, without considering the human scale [<xref ref-type="bibr" rid="B2-urbansci-10-00640">2</xref>,<xref ref-type="bibr" rid="B3-urbansci-10-00640">3</xref>]. It is an example of modernist arterial planning around the world. This has led to unfriendly pedestrian environments, inadequate walkways, a lack of shade, low levels of social amenity, and a lack of connectivity with public transport, based on field observation of the area before the redevelopment of the corridor.</p>
+      <p>Saudi Arabia&#x2019;s Vision 2030 is framed in this context as a comprehensive national transformation strategy focused on social development and quality of life. It is driven by ambitious megaprojects reinventing the relationship between open public space and community well-being [<xref ref-type="bibr" rid="B4-urbansci-10-00640">4</xref>]. One of these projects is the Sports Boulevard (Masar), which stretches 135 km from Wadi Hanifah in the west to Wadi Al-Sulay in the east [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>].</p>
+      <p>At the same time, AI tools and data-driven approaches in urban planning offer new opportunities to understand and design urban environments, including tools to improve the human component of public space [<xref ref-type="bibr" rid="B6-urbansci-10-00640">6</xref>,<xref ref-type="bibr" rid="B7-urbansci-10-00640">7</xref>]. The paper makes empirical and theoretical contributions that address a research gap. Despite the extensive literature on smart cities and artificial intelligence in urban planning in general [<xref ref-type="bibr" rid="B6-urbansci-10-00640">6</xref>,<xref ref-type="bibr" rid="B8-urbansci-10-00640">8</xref>], few studies address the practical use of these technologies in a large-scale street-humanization project in hot climates and culturally different settings. The Sports Boulevard case study provides empirical evidence from a flagship megaproject in one of the world&#x2019;s fastest changing cities.</p>
+      <p>Based on the foregoing, this study fills this gap by demonstrating how AI tools can support morphological modification to humanize arterial streets and address climatic issues in hot, arid contexts in line with the goals of Saudi Vision 2030. It explores the overlap of three areas: the dire need for street humanization in fast-urbanizing contexts, the policy-induced transformation through Vision 2030 megaprojects, and the promise of data-driven and AI-enabled approaches to inform human-centered urban design.</p>
+      <p>The four primary objectives of this study are as follows:<list list-type="order"><list-item><p>To review the literature on AI-driven urban planning and street humanization. The study aims to provide a conceptual framework for understanding how data-driven technologies can advance human-centered design in arterial street transformation.</p></list-item><list-item><p>To evaluate the extent to which current design interventions and digital tools contribute to walkability, environmental adaptation, and socio-spatial inclusivity in a completed section of the Sports Boulevard because of the morphological and technological edits implemented there.</p></list-item><list-item><p>To integrate findings into an analytical framework that clarifies how AI-informed systems can be integrated with morphological interventions to assist more human-centered public realms in the Gulf region and comparable hot-arid cities. This analytical framework is proposed to guide urban planners and designers towards more inclusive and sustainable urban environments.</p></list-item></list></p>
+    </sec>
+    <sec id="sec2-urbansci-10-00640">
+      <title>2. Literature Review</title>
+      <sec id="sec2dot1-urbansci-10-00640">
+        <title>2.1. Morphological Foundations of Arterial-Street Humanization</title>
+        <p>In modern cities, arterial streets perform a dual function: they are major components of the transportation network and important public spaces in which social and cultural activities may occur [<xref ref-type="bibr" rid="B1-urbansci-10-00640">1</xref>,<xref ref-type="bibr" rid="B9-urbansci-10-00640">9</xref>]. Traditionally, however, many high-volume arterial corridors were designed primarily to accommodate vehicular movement and separate functional zones, with comparatively limited attention to pedestrian infrastructure and human-scale conditions [<xref ref-type="bibr" rid="B10-urbansci-10-00640">10</xref>,<xref ref-type="bibr" rid="B11-urbansci-10-00640">11</xref>].</p>
+        <p>The role of arterial streets is therefore shifting from predominantly traffic-oriented corridors toward multifunctional urban spaces. In rapidly urbanizing cities such as Riyadh, street-humanization interventions generally involve reallocating arterial-road space, improving pedestrian and perceptual qualities, and accommodating multiple mobility, recreational, and social functions. These interventions aim to reposition arterials as more people-oriented public environments while maintaining their mobility role [<xref ref-type="bibr" rid="B11-urbansci-10-00640">11</xref>]. Urban morphology therefore provides an important analytical basis for assessing street humanization. It concerns the physical structure and spatial organization of the street, including its connectivity, scale, enclosure, edges, pedestrian permeability, and allocation of space among different users [<xref ref-type="bibr" rid="B12-urbansci-10-00640">12</xref>,<xref ref-type="bibr" rid="B13-urbansci-10-00640">13</xref>].</p>
+        <p>Previous research identifies morphological transformation as a key basis for arterial-street humanization. Helmy (2023) [<xref ref-type="bibr" rid="B14-urbansci-10-00640">14</xref>] views re-humanization as mostly about improving street connectivity, scale, and spatial enclosure, which is considered one of the main design principles. Their study also highlights the importance of social vitality as a second outcome. Sallam and Hafiz (2024) [<xref ref-type="bibr" rid="B15-urbansci-10-00640">15</xref>] and Alosaimi et al. (2025) [<xref ref-type="bibr" rid="B16-urbansci-10-00640">16</xref>] highlight the importance of redesigning the arterial streets for human scale and social vitality. They translate Helmy&#x2019;s connectivity argument into tangible design outcomes [<xref ref-type="bibr" rid="B14-urbansci-10-00640">14</xref>]. Other research supports this argument. For instance, Hadi &amp; Jassim (2025) [<xref ref-type="bibr" rid="B17-urbansci-10-00640">17</xref>] identify sidewalk width, shading, lighting, green spaces, and safety provisions as street-level characteristics associated with pedestrian satisfaction, comfort, and walkability. Together, these studies indicate that protected cycling routes, pedestrian buffers, sidewalks, and street furniture are not merely architectural details; they are morphological interventions that can reallocate street space from vehicular movement toward pedestrian and public use. These studies agree that street humanization depends on more than isolated beautification measures. These contributions operate at complementary scales: a corridor-scale spatial structure and the street-level elements through which pedestrians experience and use public space. Nevertheless, limited attention has been given to how these morphological and street-level attributes interact under the climatic and mobility conditions of Riyadh.</p>
+        <p>Research indicates that built-environment characteristics may influence well-being through pathways including accessibility, mobility, perceived safety, environmental quality, physical activity, social interaction, and attachment to place [<xref ref-type="bibr" rid="B18-urbansci-10-00640">18</xref>]. Walkable and human-scale environments may therefore provide spatial conditions that may contribute to quality of life, although such outcomes depend on local conditions and require empirical evaluation. Micelli and Giliberto [<xref ref-type="bibr" rid="B19-urbansci-10-00640">19</xref>] similarly examine walkability and quality of life within an urban-regeneration context. Winiarczyk-Ra&#x17A;niak and Ra&#x17A;niak [<xref ref-type="bibr" rid="B20-urbansci-10-00640">20</xref>] further emphasize that place-based development initiatives should be assessed in relation to residents&#x2019; quality of life rather than assumed to produce benefits automatically. In the present study, these works provide a theoretical basis for considering human scale, walkability and active mobility, social interaction and placemaking, and contextual adaptation as relevant dimensions of arterial-street humanization.</p>
+        <p>Based on this literature, four interrelated principles are used to examine the humanization of arterial streets.</p>
+        <p>The first principle is the human scale which is consistent with Helmy&#x2019;s emphasis on scale and spatial enclosure and the morphological redefinition [<xref ref-type="bibr" rid="B14-urbansci-10-00640">14</xref>] advanced by Sallam and Hafiz and Alosaimi et al. [<xref ref-type="bibr" rid="B15-urbansci-10-00640">15</xref>,<xref ref-type="bibr" rid="B16-urbansci-10-00640">16</xref>]. Human scale concerns the design of streets, building edges, public spaces, and urban furniture in relation to pedestrian perception, movement, and comfort rather than primarily to vehicular speed.</p>
+        <p>The second is walkability and active mobility, supported through continuous and sufficiently wide sidewalks, protected cycle tracks, traffic calming, smooth and safe connections to public transport. Hadi and Jassim (2025) [<xref ref-type="bibr" rid="B17-urbansci-10-00640">17</xref>] identify sidewalk configuration and street furniture as important factors affecting walkability. Accordingly, walkability should be evaluated not only through the presence of pedestrian infrastructure but also through its continuity, safety, accessibility, and connection to surrounding destinations.</p>
+        <p>The third principle is social interaction and placemaking, which concerns opportunities to gather, rest, participate in community life, and engage in optional or recreational activities. This principle aligns with Helmy&#x2019;s (2023) focus on scale and spatial enclosure [<xref ref-type="bibr" rid="B14-urbansci-10-00640">14</xref>] and the morphological redefinition proposed by Sallam and Hafiz (2024) [<xref ref-type="bibr" rid="B15-urbansci-10-00640">15</xref>] and Alosaimi et al. (2025) [<xref ref-type="bibr" rid="B16-urbansci-10-00640">16</xref>]. The existence of a public space alone is therefore insufficient; its location, accessibility, amenities, programming, and potential to accommodate different forms of use must also be considered.</p>
+        <p>The fourth principle is contextual adaptation, which concerns the response of urban design to local climatic, environmental, and cultural conditions in hot-arid cities, relevant measures include shade, vegetation, thermally appropriate materials, resting places, water-sensitive landscape management, and support for evening and seasonal patterns of use [<xref ref-type="bibr" rid="B1-urbansci-10-00640">1</xref>,<xref ref-type="bibr" rid="B11-urbansci-10-00640">11</xref>,<xref ref-type="bibr" rid="B21-urbansci-10-00640">21</xref>]. Contextual adaptation also requires avoiding the direct transfer of design models from other cities without considering differences in climate, culture, mobility behavior, and public-space use.</p>
+        <p>These four principles provide the conceptual framework for the study. In the <xref ref-type="sec" rid="sec3-urbansci-10-00640">Section 3</xref>, they are operationalized through observable indicators so that the Sports Boulevard and the selected comparative cases can be assessed using a consistent analytical structure rather than through general impressions alone.</p>
+      </sec>
+      <sec id="sec2dot2-urbansci-10-00640">
+        <title>2.2. The Evolution of Boulevards Within the Arterial Streets</title>
+        <p>One of the tools applied in the context of humanization of the arterial streets is the incorporation of the linear parks within those arterial streets. This method has proven its potential to enhance urban environments; linear landscape spaces such as parks, boulevards, and parkways can be vital components contributing to the recreational fabric of cities [<xref ref-type="bibr" rid="B22-urbansci-10-00640">22</xref>]. These linear parks often serve as connectors within the urban fabric. They provide esthetic value as well as opportunities for sport, interaction, and leisure activities.</p>
+        <p>Their humanizing contribution, however, cannot be assumed from their linear form or landscape appearance alone. It also depends on their connection to surrounding neighborhoods, the frequency and safety of access points, lateral pedestrian crossings, climatic comfort, active edges, and the diversity of activities provided along the corridor.</p>
+        <p>The design and historical development of boulevards show their role as transportation facilitators and recreational corridors [<xref ref-type="bibr" rid="B10-urbansci-10-00640">10</xref>]. Like other major urban streets, boulevards must balance metropolitan movement with local access, pedestrian safety, recreational use, and opportunities for social interaction.</p>
+        <p>Contemporary boulevards and linear parks frequently incorporate recreational facilities and green spaces intended to promote active lifestyles and community interaction. When integrated with pedestrian and cycling networks, surrounding land uses, and other public spaces, they can contribute to corridor regeneration and more sustainable patterns of urban movement [<xref ref-type="bibr" rid="B23-urbansci-10-00640">23</xref>].</p>
+        <p>International practice also demonstrates the geographical diversity of linear-corridor and arterial-street transformation. In East Asia, in Seoul, the Cheonggyecheon restoration removed elevated road infrastructure and restored approximately 5.8 km [<xref ref-type="bibr" rid="B24-urbansci-10-00640">24</xref>] of urban stream corridor and adjacent public space [<xref ref-type="bibr" rid="B25-urbansci-10-00640">25</xref>]. In North America, the Atlanta BeltLine is a compelling morphological precedent for humanizing large-scale linear infrastructure through adaptive reuse, ecological buffering, and active mobility integration. A 22-mile loop of multi-use trails, parks, and transit is planned&#x2014;approximately 35 km-oriented redevelopment that reuses former railway corridors [<xref ref-type="bibr" rid="B26-urbansci-10-00640">26</xref>,<xref ref-type="bibr" rid="B27-urbansci-10-00640">27</xref>]. These examples illustrate different scales and models of public-realm transformation, including infrastructure removal, linear greenway development, and temporary road-space reallocation. However, their physical, environmental, and social outcomes cannot be assumed to be directly transferable across different climatic, institutional, urban, and socio-cultural contexts.</p>
+        <p>The Sports Boulevard represents a local application of this approach by combining active-mobility infrastructure, sport, recreation, and landscaping, and public-space provision within and alongside a major arterial corridor. However, the project&#x2019;s stated functions should be distinguished from its observed performance. Its contribution to humanization must therefore be assessed by examining whether its completed spaces provide accessible connections, pedestrian comfort, social amenities, climatic adaptation, and integration with the surrounding urban fabric. The scale and physical configuration of the Sports Boulevard are subsequently contextualized through a comparative analysis of selected international arterial-transformation precedents in <xref ref-type="sec" rid="sec4dot1dot3-urbansci-10-00640">Section 4.1.3</xref>.</p>
+      </sec>
+      <sec id="sec2dot3-urbansci-10-00640">
+        <title>2.3. Theoretical Foundations About the Integration of Data-Driven and AI-Enabled Approaches in Urban Design</title>
+        <p>Research on data-driven and AI-enabled approaches in urban planning has expanded from traffic modeling to streetscape assessment, environmental simulation, behavioral analysis, and the adaptive management of urban infrastructure. These applications can complement established urban-design principles by processing multiple forms of spatial, visual, environmental, and mobility data. These technologies are not treated as equivalent or as inherently AI-based. In this study, sensing provides data from sources such as traffic and mobility records, cameras and street-view imagery, GPS or crowd-sourced data, and environmental sensors; simulation supports the evaluation of possible interventions; and AI-based adaptive systems use computational analysis to support responsive operational decisions.</p>
+        <p>AI can inform the design and management of urban streets, particularly through dynamic traffic control, signal optimization, and arterial synchronization. These applications may support more responsive mobility management and represent a shift from fixed traffic-control procedures toward data-driven models capable of responding to changing conditions. Nevertheless, improved traffic flow should not automatically be interpreted as evidence of street humanization; its contribution depends on whether it is intended to improve pedestrian safety, crossing opportunities, accessibility, environmental quality, and the allocation of space to non-motorized users [<xref ref-type="bibr" rid="B28-urbansci-10-00640">28</xref>]. When these human-centered outcomes are explicitly incorporated, responsive traffic-management systems may contribute to smoother movement and street environments that are more conducive to social interaction [<xref ref-type="bibr" rid="B29-urbansci-10-00640">29</xref>]; more broadly, AI-based optimization can support the transition from fixed traffic-control procedures to adaptive models intended to improve urban mobility and reduce congestion on arterial roads [<xref ref-type="bibr" rid="B30-urbansci-10-00640">30</xref>]. Furthermore, research has shown that AI-based computer-vision techniques can analyze street-view images and spatial data collected through cameras, mobile mapping, or other image-based sources to assess physical street characteristics, such as sidewalks, crosswalks, street furniture, and vegetation, together with perceptual qualities such as enclosure, visual interest, human scale, transparency, and complexity that have traditionally been given a significant role in urban design theories and affect walkability [<xref ref-type="bibr" rid="B31-urbansci-10-00640">31</xref>]. This has been performed by measuring physical elements pre- and post-implementation and making it possible for planners to identify design elements requiring intervention and then decide on evaluating the design and adding alternatives to guide the urban planning processes [<xref ref-type="bibr" rid="B32-urbansci-10-00640">32</xref>]. These applications can extend conventional field observation by examining larger areas and repeated time periods. However, computer-vision measurements primarily capture visible features; they may not adequately represent cultural meaning, perceived belonging, informal social behavior, or the experiences of groups insufficiently represented in the training data. These insights may support traffic-management and street-design decisions intended to respond to human needs and accessibility requirements. However, their actual effects should be evaluated through field observation and user-based evidence. Another important aspect where data-driven and AI-assisted methods contribute to street humanization is safety assessment. Studies carried out on street configuration have shown that safety measures are the fundamental element in designing human-friendly streets. This particularly applies to arterial roads, where AI-assisted analysis may support the identification of weather-related risks and accident patterns [<xref ref-type="bibr" rid="B33-urbansci-10-00640">33</xref>], contributing to safer, more accessible, and comfortable streets [<xref ref-type="bibr" rid="B30-urbansci-10-00640">30</xref>]. Crowd-sourced data can also complement these analyses by providing information about mobility behavior and user-reported conditions [<xref ref-type="bibr" rid="B34-urbansci-10-00640">34</xref>].</p>
+        <p>Sensor networks can collect real-time information on pedestrian movement, cyclist volumes, environmental conditions, and the use of facilities. These data may subsequently inform analytical or AI-based adaptive systems, such as responsive lighting, crossing control, irrigation, or maintenance [<xref ref-type="bibr" rid="B29-urbansci-10-00640">29</xref>]. The sensors themselves perform a data-collection function and are not treated as AI unless they incorporate analytical inference or adaptive decision-making. This type of analysis may help planners understand current pedestrian and cycling flows, evaluate the possible effects of proposed interventions on movement patterns, and support decisions concerning the placement of amenities and crossing facilities based on observed demand.</p>
+        <p>Such systems can complement small-scale observational studies with repeated behavioral and environmental data. They should not, however, replace field observation or community engagement, because quantitative movement records do not fully explain why people use, avoid, or assign meaning to spaces.</p>
+        <p>Research on urban comfort has also revealed that data-driven and AI-assisted approaches can integrate thermal, visual, acoustic, and air-quality information [<xref ref-type="bibr" rid="B35-urbansci-10-00640">35</xref>]. Environmental simulation models can assess microclimatic conditions, including solar exposure and thermal conditions, while AI-based models may add prediction or optimization where such functions are explicitly incorporated. These methods can support decisions concerning the positioning of shade structures and devices, as well as the distribution of vegetation and water features, to potentially improve thermal comfort. They may also allow designers to run a variety of tests and identify configurations with the potential to support improved comfort at different times of the day and across seasons. However, their actual effects on users&#x2019; thermal comfort would require environmental measurements and user-based evaluation.</p>
+        <p>In a hyper-arid context, the suitability of these applications also depends on local feasibility. The availability, quality, affordability, and governance of these data sources and technologies may also differ across regions and continents according to digital infrastructure, institutional capacity, privacy regulations, and socioeconomic resources. Environmental sensors, cameras, communication networks, and adaptive equipment may be affected by heat, dust, solar exposure, energy requirements, calibration demands, and maintenance capacity. Their value should therefore be assessed not only according to technological capability, but also according to durability, operating cost, data availability, institutional capacity, and their ability to produce decisions relevant to pedestrian comfort [<xref ref-type="bibr" rid="B35-urbansci-10-00640">35</xref>]. AI-assisted urban-design scenarios have also been investigated in Saudi cities, including pedestrian, cycling, shading, and greening interventions by Albadrani (2025)&#x2019; [<xref ref-type="bibr" rid="B36-urbansci-10-00640">36</xref>]. s study, which combined AI-based design scenarios with site-specific environmental data [<xref ref-type="bibr" rid="B36-urbansci-10-00640">36</xref>]. This study demonstrates the potential relevance of AI-supported design to walkability and environmental livability in Riyadh&#x2019;s climate. However, its focus is on proposed design scenarios rather than the independent, indicator-based evaluation of implemented arterial-street transformations. It therefore provides an important local precedent while leaving scope for examining how different data-driven and AI-enabled functions might support arterial-street humanization strategies. However, there are also significant limitations associated with the use of AI in urban planning. AI-based approaches may overlook or inadequately represent non-visual, cultural, and emotional dimensions of the urban context that are central to human experience [<xref ref-type="bibr" rid="B37-urbansci-10-00640">37</xref>]. They may also reproduce bias within training data, overlook groups with limited digital representation, create privacy concerns through the collection of location or visual data, and produce recommendations that are difficult for planners or communities to interpret. For this reason, the present study treats AI as a supporting component within a wider socio-technical system rather than as an autonomous substitute for spatial design, professional judgment, or community participation.</p>
+        <p>Accordingly, this study uses &#x201C;AI-enabled urban humanization&#x201D; as an umbrella concept for the coordinated use of sensing and data collection, simulation and evaluation, and AI-based adaptive operation to support human comfort, accessibility, safety, mobility, and public-space performance. This usage does not imply that every technological component is independently AI-based; rather, it recognizes that sensing and simulation can provide data and analytical inputs for AI-enabled decision-making and adaptive management.</p>
+      </sec>
+      <sec id="sec2dot4-urbansci-10-00640">
+        <title>2.4. Positioning of the Sports Boulevard Within Saudi Vision 2030</title>
+        <p>Riyadh&#x2019;s contemporary public-space and mobility conditions are closely connected to its rapid metropolitan expansion. Successive phases of urban development were increasingly structured around major roads and private-vehicle movement, contributing to a car-oriented urban form [<xref ref-type="bibr" rid="B3-urbansci-10-00640">3</xref>,<xref ref-type="bibr" rid="B38-urbansci-10-00640">38</xref>]. Although this road network supported urban expansion and cross-city accessibility, automobile-oriented development was accompanied by deficiencies in pedestrian infrastructure, limited network connectivity, and reduced opportunities for walking and cycling. These conditions are intensified by Riyadh&#x2019;s hot-arid climate, which increases the importance of continuous sidewalks, shade, landscaping, trees, lighting, and other pedestrian-supportive features. Humanization has therefore emerged as a response to automobile dependence, pedestrian-infrastructure deficiencies, climatic exposure, and the need for more walkable and socially supportive neighborhoods [<xref ref-type="bibr" rid="B38-urbansci-10-00640">38</xref>].</p>
+        <p>Against this background, recent urban policy in Riyadh represents a shift toward quality-of-life, active-mobility, environmental, and public-space objectives. The Saudi government announced a series of flagship megaprojects in March 2019, upon which the Riyadh urban transformation strategy is based, to transform the capital into one of the most livable cities in the world, complementing Saudi Vision 2030 [<xref ref-type="bibr" rid="B4-urbansci-10-00640">4</xref>]. Among these initiatives is the Sports Boulevard, a large-scale urban project intended to contribute to Riyadh&#x2019;s quality-of-life and urban-transformation objectives under Saudi Vision 2030 [<xref ref-type="bibr" rid="B4-urbansci-10-00640">4</xref>]. The project has potential implications for Riyadh&#x2019;s urban form and mobility culture because it seeks to provide alternatives to automobile-dependent movement and encourage healthier and more active lifestyles [<xref ref-type="bibr" rid="B39-urbansci-10-00640">39</xref>]. Its stated objectives include supporting physical activity, extending green and accessible public spaces, connecting recreational and cultural destinations, and addressing urban design, mobility, environmental quality, social engagement, and safety in an integrated manner [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>,<xref ref-type="bibr" rid="B40-urbansci-10-00640">40</xref>]. The Sports Boulevard master plan comprises eight principal districts or destinations with different environmental, recreational, cultural, and sporting characteristics, connected through public spaces and mobility routes. These are the Hanifah Valley Zone, the Arts District, the Urban Wadi Zone, the Entertainment District, the Athletics District, the Environmental Zone, the Al-Sulai Valley Zone, and Red Sand Park [<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>]. <xref ref-type="fig" rid="urbansci-10-00640-f001">Figure 1</xref> below shows a map of the Sports Boulevard within Riyadh city.</p>
+        <p>Although these objectives correspond closely with the four humanization principles identified in <xref ref-type="sec" rid="sec2dot1-urbansci-10-00640">Section 2.1</xref>, official project descriptions primarily communicate intended outcomes. Independent, indicator-based assessment is therefore required to determine how the completed segment performs in terms of human scale, walkability and active mobility, social interaction and placemaking, and contextual adaptation.</p>
+      </sec>
+      <sec id="sec2dot5-urbansci-10-00640">
+        <title>2.5. Research Gap and Study Contribution</title>
+        <p>Previous studies have examined the morphological principles of street humanization [<xref ref-type="bibr" rid="B11-urbansci-10-00640">11</xref>,<xref ref-type="bibr" rid="B12-urbansci-10-00640">12</xref>,<xref ref-type="bibr" rid="B13-urbansci-10-00640">13</xref>,<xref ref-type="bibr" rid="B14-urbansci-10-00640">14</xref>,<xref ref-type="bibr" rid="B15-urbansci-10-00640">15</xref>,<xref ref-type="bibr" rid="B16-urbansci-10-00640">16</xref>,<xref ref-type="bibr" rid="B21-urbansci-10-00640">21</xref>], the multifunctional role of boulevards and linear parks, and AI applications in mobility management, streetscape assessment, safety, and environmental analysis [<xref ref-type="bibr" rid="B28-urbansci-10-00640">28</xref>,<xref ref-type="bibr" rid="B29-urbansci-10-00640">29</xref>,<xref ref-type="bibr" rid="B30-urbansci-10-00640">30</xref>,<xref ref-type="bibr" rid="B31-urbansci-10-00640">31</xref>,<xref ref-type="bibr" rid="B32-urbansci-10-00640">32</xref>,<xref ref-type="bibr" rid="B33-urbansci-10-00640">33</xref>,<xref ref-type="bibr" rid="B34-urbansci-10-00640">34</xref>,<xref ref-type="bibr" rid="B35-urbansci-10-00640">35</xref>,<xref ref-type="bibr" rid="B37-urbansci-10-00640">37</xref>]. AI-assisted urban-design scenarios have also been investigated in Riyadh, including pedestrian, cycling, shading, and greening interventions [<xref ref-type="bibr" rid="B36-urbansci-10-00640">36</xref>]. Nevertheless, comparatively limited attention has been given to integrating these areas within an indicator-based assessment of arterial-street humanization, particularly in relation to the Sports Boulevard and Riyadh&#x2019;s hyper-arid context.</p>
+        <p>This study addresses this gap through a two-tier comparative framework. The first tier evaluates the observed Sports Boulevard segment and selected precedents using indicators derived from four humanization principles: human scale, walkability and active mobility, social interaction and placemaking, and contextual adaptation. The second-tier reviews selected international cases to identify the potential relevance and limitations of AI-enabled applications for the Sports Boulevard. This exploratory analysis does not technically test or validate AI systems under Riyadh&#x2019;s climatic and operational conditions; instead, it identifies possibilities and considerations requiring further local investigation.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-urbansci-10-00640">
+      <title>3. Materials and Methods</title>
+      <p>This research used a qualitative, comparative, and interpretative approach to explore the potential of using artificial intelligence to humanize urban arterials in hyper-arid environments. The main case study of the study is Riyadh&#x2019;s Sports Boulevard (Masar). The study used secondary sources (planning documents, design reports, academic literature) together with field observation of completed sections of the local case study. Google Maps, accessed through its web-based interface, was used to visually review thethe Sports Boulevard and the international case-study sites and obtain base maps for the article&#x2019;s figures. These images were annotated by the author to identify the study areas and relevant spatial features. They were used for spatial orientation and illustration rather than calibrated dimensional measurements or quantitative image analysis. A software version number was not applicable to the browser-based service. Microsoft PowerPoint,(version 2610, Microsoft Corporation, Redmond, WA, USA) was used to annotate the maps and photographs by adding labels and highlighting relevant spatial features. It demonstrates a way to compare the expression of common humanizing principles in the morphological and technological configurations of different projects.</p>
+      <p>The study does not measure the causal effectiveness of the examined interventions; rather, it evaluates the presence and relative strength of observable humanization attributes using a consistent indicator-based framework.</p>
+      <p>The methodological process is structured in five steps, from theory to contextual interpretation, comparative benchmarking, empirical reading of the site and final synthesis, as follows:</p>
+      <p>
+        <italic>
+          <bold>Stage 1: Literature Review:</bold>
+        </italic>
+      </p>
+      <p>This phase synthesizes the literature on street humanization, livability, and AI in urban planning into a conceptual framework. It identifies four core principles of arterial street humanization, which subsequently structure the comparative analysis. The theoretical derivation and definition of these principles were presented in <xref ref-type="sec" rid="sec2dot1-urbansci-10-00640">Section 2.1</xref>.</p>
+      <p>
+        <italic>
+          <bold>Stage 2: Strategic Context:</bold>
+        </italic>
+      </p>
+      <p>The second stage placed the Sports Boulevard within the larger urban transformation strategies and the Saudi Vision 2030 framework. It contextualizes the case within national and metropolitan policy discourses and traces how megaprojects, including the Sports Boulevard, are constructed as tools for improving quality of life and urban image. Official project documents were used to identify the project&#x2019;s intended objectives, rather than as independent evidence that these objectives had already been achieved.</p>
+      <p>
+        <italic>
+          <bold>Stage 3: Two-Tier Comparative Analysis:</bold>
+        </italic>
+      </p>
+      <p>Stage three comprises two levels of comparison. Tier 1 compares the morphology of the Sports Boulevard with selected international examples of car-oriented arterial or linear corridors transformed to support pedestrian movement, cycling, recreation, and public life. Cases were purposively selected according to their relevance to the four humanization principles and the availability of adequate academic, planning, and visual documentation. Morphological and analytical relevance was prioritized over climatic or cultural similarity in selecting the cases. They are treated as analytical precedents rather than directly equivalent controls. The four principles established in <xref ref-type="sec" rid="sec2dot1-urbansci-10-00640">Section 2.1</xref> were translated into the observable indicators presented in <xref ref-type="table" rid="urbansci-10-00640-t001">Table 1</xref> and applied consistently across the Sports Boulevard and the comparative cases using field observations, photographs, plans, satellite imagery, and published sources.</p>
+      <p>Tier 2 reviews documented or piloted AI-enabled applications selected for their relevance to at least one humanization principle and the availability of sufficient information about their function. Each application was examined in terms of its urban function, relationship to the humanization principles, and potential relevance to the Sports Boulevard. This comparison was exploratory and did not technically assess feasibility or performance under Riyadh&#x2019;s local conditions.</p>
+      <p><italic><bold>Stage 4: Field-Based Morphological Observation and Photographic Survey:</bold></italic> Stage Four comprised qualitative field observation, photographic documentation, and interpretive analysis of a completed section of the Sports Boulevard along Prince Mohammed bin Salman Road. It looked at how observed features&#x2014;sidewalks, active-mobility routes, crossings, shade, vegetation, seating, gathering spaces, and connections to adjacent areas&#x2014;related to the four humanization principles and the indicators in <xref ref-type="table" rid="urbansci-10-00640-t001">Table 1</xref>. The finished section was visited five times in April and May 2026. Observations were conducted in the evening, and each visit lasted approximately two hours. The same corridor route was followed during the visits, and photographs were taken at identifiable locations along the route. The assessment documented the presence, spatial arrangement, and continuity of the selected physical features; it did not involve systematic user counts, interviews, activity mapping, or environmental measurements.</p>
+      <p>During the revision, the existing photographic record and documented observations were retrospectively organized and reviewed according to the indicators in <xref ref-type="table" rid="urbansci-10-00640-t001">Table 1</xref>. The observations were also compared with available plans, satellite imagery, and project documentation to distinguish observed conditions from planned or officially reported features. The field assessment therefore supports a qualitative morphological reading of the completed section rather than an evaluation of its actual effects on users&#x2019; behavior, social interaction, thermal comfort, or quality of life.</p>
+      <p>
+        <bold>
+          <italic>Stage 5: Synthesizing and Constructing an Argument:</italic>
+        </bold>
+      </p>
+      <p>The fifth stage synthesizes the results of the literature, comparative tiers and site assessment to formulate the main point of the paper. The Sports Boulevard is interpreted as a developing morphological intervention and as a potential context for AI-supported urban humanization in a hyper-arid metropolis. The final step links the benchmarks and observations to an analytical framework that explains how AI-informed systems can be layered onto morphological interventions for more human-centered, climate-responsive public realms in Riyadh and similar hot-arid cities. The identified AI applications are treated as prospective options rather than validated solutions. Their technical performance, climatic robustness, maintenance requirements, social acceptability, and governance implications require further local testing before implementation. <xref ref-type="fig" rid="urbansci-10-00640-f002">Figure 2</xref> below summarizes the main stages of the research methodology.</p>
+      <p>The analysis identifies design intentions, morphological configurations, and potentially relevant technological functions rather than measuring their actual effects on users.</p>
+    </sec>
+    <sec id="sec4-urbansci-10-00640" sec-type="results">
+      <title>4. Results and Discussion</title>
+      <p>This section presents and discusses the findings of the two-tier analysis, comprising the morphological comparison in Tier 1 and the exploratory review of AI-enabled urban applications in Tier 2.</p>
+      <sec id="sec4dot1-urbansci-10-00640">
+        <title>4.1. Morphological Layer: Tier 1 Results</title>
+        <p>Tier 1 compares the physical and spatial structure of Riyadh&#x2019;s Sports Boulevard with selected international precedents to identify morphological lessons for the humanization of car-dominated arterial corridors. The selected cases are Madrid R&#xED;o (Spain), Avenida da Rep&#xFA;blica (Lisbon, Portugal), and Avinguda Diagonal (Barcelona, Spain). These cases cover a range of interventions from full corridor burial to ecological stitching (Madrid R&#xED;o), street retrofit and pedestrian prioritization (Avenida da Rep&#xFA;blica), to incremental street-section reallocation (Avinguda Diagonal). They therefore provide different morphological precedents for comparison with the Sports Boulevard, although their transferability is interpreted in relation to Riyadh&#x2019;s distinct climatic and urban conditions. The comparison applies the four principles of arterial-street humanization derived from the literature review (<xref ref-type="sec" rid="sec2dot1-urbansci-10-00640">Section 2.1</xref>): human scale, walkability and active mobility, social interaction and placemaking, and contextual adaptation. These principles are examined through the observable indicators presented in <xref ref-type="table" rid="urbansci-10-00640-t001">Table 1</xref>, including pedestrian-space provision, path continuity, active-mobility infrastructure, greening, shading, seating, gathering spaces, and connections to surrounding areas. This common framework enables the Sports Boulevard and the selected cases to be examined through the same humanization principles while recognizing their different morphological, climatic, and urban contexts.</p>
+        <sec id="sec4dot1dot1-urbansci-10-00640">
+          <title>4.1.1. Riyadh&#x2019;s Sports Boulevard: The Local Case Study</title>
+          <p>The local reference case is Riyadh&#x2019;s Sports Boulevard (Masar), a large-scale linear corridor that traverses the city and in design philosophy is structured as a multi-district public realm, and a combination of pedestrian and cycling movement (Principle 2, walkability and active mobility) with plenty of green space and publicly accessible open areas (Principle 4, contextual adaptation) [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>,<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>]. In terms of morphology, the project is important because it is re-organizing Prince Mohammad bin Salman Street, a key arterial, from a car centric to a more continuous and human scale street, which aligns with Principle 1 (human scale) and is complemented by the provision of shade, landscape buffers and active-mobility facilities, which align with Principle 4 (contextual adaptation).</p>
+          <p>Beyond the spatial continuity, as noted above, which is an example of Principle 1 (human scale), the design also prioritizes thermal comfort, water sensitivity, and as a response to the climate, further reflects Principle 4 (contextual adaptation) in this hyper-arid environment. The Boulevard is a 135 km-long east-to-west route, stretching across the city, with a total area of 4.4 sq km [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>,<xref ref-type="bibr" rid="B40-urbansci-10-00640">40</xref>]. Of this area, 0.17 km<sup>2</sup> will be dedicated to arts and cultural spaces, 2.3 km<sup>2</sup> will be dedicated to private development and more than 13 km<sup>2</sup> will be dedicated to park space, supporting Principle 3 (social interaction/placemaking) [<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>]. This project also generates approximately 4.2 km<sup>2</sup> of new public open space, including 220 km of cycle tracks, 134 km of horse trails, and 135 km of walking tracks that directly contribute to Principle 2 (walkability and active mobility) [<xref ref-type="bibr" rid="B40-urbansci-10-00640">40</xref>].</p>
+          <p>Morphological interventions include widening the sidewalks to approximately 12 m, as described in Principle 1 (human scale); the presence of shade infrastructure, including tree canopies, shade structures and covered walkways, as described in Principle 4 (contextual adaptation); and traffic-calming measures that separate active-transport modes from vehicular traffic as described in Principle 2 (walkability and active mobility); and strategic greening that connects public &#x201C;urban voids&#x201D; for gathering and social interaction, as described in Principle 3 (social interaction and placemaking) [<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>]. <xref ref-type="fig" rid="urbansci-10-00640-f003">Figure 3</xref> below provides an aerial overview of a completed section and illustrates the spatial relationship among vehicular lanes, pedestrian areas, landscaping, and public open spaces.</p>
+          <p>In February 2025, the Sports Boulevard&#x2019;s Board of Directors, chaired by HRH Prince Mohammed bin Salman bin Abdulaziz, Crown Prince and Prime Minister, announced the opening of the project&#x2019;s first phase. This milestone featured five key destinations: Wadi Hanifah, the Promenade, the Arts District Zone, the Princess Nourah bent Abdulrahman University internal cycling loop, and the first phase of Sands Sports Park, bringing the total completed length to 83 km. <xref ref-type="fig" rid="urbansci-10-00640-f004">Figure 4</xref> shows the location of the principal project destinations and the completed segments included in the first phase.</p>
+          <p>To complement the aerial and spatial overview, <xref ref-type="fig" rid="urbansci-10-00640-f005">Figure 5</xref> presents ground-level photographs of the completed section (Entertainment Destination/Promenade). The photographs document the principal physical features considered in the morphological analysis, including pedestrian and cycling paths, separation from vehicular traffic, shading, landscaping, seating, and gathering spaces.</p>
+          <p>The project should therefore be read not as a direct replication of global models, but as a context-specific adaptation testing how long-distance linear public space can be humanized under extreme environmental conditions. The ground-level photographs support this interpretation by showing how the project&#x2019;s humanization principles are expressed within the completed segment.</p>
+        </sec>
+        <sec id="sec4dot1dot2-urbansci-10-00640">
+          <title>4.1.2. International Precedents</title>
+          <sec>
+            <title>Madrid R&#xED;o Project (Spain)</title>
+            <p>Madrid R&#xED;o is a comparative reference to the project both in terms of the morphological and social reconnections of a fragmented urban fabric. This intervention consisted of the burial and improvement of about 6 km of the M-30 highway passing through the Manzanares River. It creates a continuous linear corridor 120&#x2013;200 m wide, according to what is recommended in Principle 1 (human scale) [<xref ref-type="bibr" rid="B43-urbansci-10-00640">43</xref>,<xref ref-type="bibr" rid="B44-urbansci-10-00640">44</xref>]. Ecological continuity and symbolic coherence, as outlined in Principle 4 (contextual adaptation), are represented in this arterial-to-park conversion by the &#x201C;Sal&#xF3;n de Pinos&#x201D; (Pine Lounge), a planting strategy of about 35,000 trees. The aerial view of Madrid R&#xED;o (<xref ref-type="fig" rid="urbansci-10-00640-f006">Figure 6</xref>) illustrates how vehicular lanes coexist with pedestrian sidewalks and riverside greenery.</p>
+            <p>Madrid&#x2019;s spatial logic is significant to the Sports Boulevard. It shows how a disaggregated infrastructural edge can be buffered, made permeable and linked through landscape to create a public corridor at a human scale, reflective of Principle 1 (human scale). A global focus on public-realm continuity (Principle 2: walkability and active mobility), wide pedestrian buffers, connected walkways, and traffic-calming bridges are key morphological elements. This is in line with Principle 3 (social interaction and placemaking). As shown in the masterplan in <xref ref-type="fig" rid="urbansci-10-00640-f006">Figure 6</xref>, the Madrid R&#xED;o project involved converting a former highway corridor into pedestrian and biking infrastructure [<xref ref-type="bibr" rid="B45-urbansci-10-00640">45</xref>]. Madrid R&#xED;o provides an effective precedent for the continuous reconnection along a corridor in a temperate environment, while Riyadh&#x2019;s Sports Boulevard must deal with much more difficult climatic conditions. This takes the logic further, extending it into a multi-district, internally differentiated, linear arrangement that is appropriate to the scale and climate of Riyadh, an adaptation based on Principle 4 (contextual adaptation), where activities are spread across a 135 km long corridor with an eight-zone organization. It is not intended to copy Madrid&#x2019;s morphology, but to adapt to the local context; this includes wider buffer zones, another example of Principle 4 (contextual adaptation). In this regard, the Sports Boulevard needs to shift from passive greening to a more adaptive model, capable of addressing extreme heat, water scarcity and long-distance linear urbanism, while strengthening the provision of shade throughout the Boulevard, as part of Principle 4 (contextual adaptation).</p>
+          </sec>
+          <sec>
+            <title>Avenida da Rep&#xFA;blica, Lisbon (Portugal)</title>
+            <p>Lisbon&#x2019;s Avenida da Rep&#xFA;blica, a main artery of the Avenidas Novas district (about 2.5&#x2013;3 km of the main transformed area) [<xref ref-type="bibr" rid="B46-urbansci-10-00640">46</xref>], is a strong benchmark of transformation of underused urban space during a dense European fabric. It was part of the 2014 municipal regeneration program &#x201C;Uma Pra&#xE7;a em Cada Bairro&#x201D;. It reconfigured a car-centric corridor through major interventions such as sidewalk widening and converted strategic urban voids for gathering, a move in line with Principle 1 (human scale), and with the restoration of the tree-canopy alignment, which at the same time brings the measure in line with Principle 4 (contextual adaptation) along with traffic-calming and the prioritization of soft mobility, which directly serves Principle 2 (walkability and active mobility) [<xref ref-type="bibr" rid="B1-urbansci-10-00640">1</xref>,<xref ref-type="bibr" rid="B46-urbansci-10-00640">46</xref>].</p>
+            <p>This was reflected in increased pedestrian activity, social inclusion, and the quality of public life, which links to Principle 3 (social interaction and placemaking), as evidenced in aerial studies of Avenida da Rep&#xFA;blica [<xref ref-type="bibr" rid="B1-urbansci-10-00640">1</xref>]. This case study exemplifies the potential of existing high road capacity roadways for dynamic public use by morphological change, rather than complete destruction (as per Principle 1: human scale). The aerial view of Avenida da Rep&#xFA;blica. <xref ref-type="fig" rid="urbansci-10-00640-f007">Figure 7</xref> illustrates how vehicular lanes are combined with substantial tree cover, offering shade and softening the street&#x2019;s car-oriented character.</p>
+            <p>Lisbon&#x2019;s project is in a Mediterranean climate with milder summers and higher humidity, compared to Riyadh&#x2019;s hyper-arid extremes that regularly exceed 45 &#xB0;C, with dust exposure and rapid expansion driven by Vision 2030 and the need for culturally resonant, family-oriented public space across an unprecedented 135 km corridor compared to Riyadh&#x2019;s Sports Boulevard, a contrast that underscores the demands of Principle 4 (contextual adaptation). Lisbon, on the other hand, has managed to transform the old arterial and broaden and green it, in the process revitalizing it and living up to the fourth principle, contextual adaptation. However, the sport Boulevard is located in i in ahot dry context  and requires further &#x201C;humanization&#x201D; steps using AI [<xref ref-type="bibr" rid="B1-urbansci-10-00640">1</xref>,<xref ref-type="bibr" rid="B4-urbansci-10-00640">4</xref>]. The case further highlights the core principles of morphology in the design of human scales, walkability, and the need to adapt to the existing context, and emphasizes that Masar requires a hybrid strategy, combining the use of AI with traditional design solutions.</p>
+          </sec>
+          <sec>
+            <title>Avinguda Diagonal (Barcelona), Spain</title>
+            <p>Avinguda Diagonal in Barcelona represents an example of arterial humanization within a dense Mediterranean metropolitan environment. The avenue has been gradually humanized through targeted morphological modifications associated with Barcelona&#x2019;s broader public-space and green-axis program. The main interventions which have been added to the Avinguda Diagonal street, included widening sidewalks to 7 m or more [<xref ref-type="bibr" rid="B47-urbansci-10-00640">47</xref>], which exemplifies Principle 1 (human scale); creating protected one-way bicycle lanes, narrowing vehicle lanes [<xref ref-type="bibr" rid="B47-urbansci-10-00640">47</xref>], which gives expression to Principle 2 (walkability and active mobility); introducing tram lines with green medians [<xref ref-type="bibr" rid="B47-urbansci-10-00640">47</xref>] and transforming key intersections into public squares with pedestrian priority, which underscores Principle 3 (social interaction and placemaking) [<xref ref-type="bibr" rid="B47-urbansci-10-00640">47</xref>]. In this study, Barcelona is examined as a morphological precedent rather than as a climatically or culturally equivalent case. Accordingly, the transferability of these spatial strategies to Riyadh is interpreted cautiously and would require adaptation to its hyper-arid climate and local patterns of public-space use. <xref ref-type="fig" rid="urbansci-10-00640-f008">Figure 8</xref> presents an aerial top-down view of a modern section of Avinguda Diagonal, Barcelona, showing multi-lane traffic integrated with a dense canopy of trees.</p>
+            <p>These interventions are part of a strategic repurposing of roadway space that supports active mobility and public interaction, including linear greening and increased street closures, a combination that illustrates Principle 3 (social interaction and placemaking). Morphologically, Avinguda Diagonal shows how a high-capacity arterial can be retrofitted without total reconstruction, through layered adjustments to street section, mobility hierarchy, and public-realm continuity, which aligns with Principle 1 (human scale). The changes have made it safer for pedestrians and cyclists, created more public space, reduced the dominance of cars, and increased the economic vitality of the locality. Comparatively, Barcelona is relevant for the case of Riyadh&#x2019;s Sports Boulevard, as a morphological precedent rather than as a climatically or culturally equivalent case. It demonstrates how an existing vehicular corridor can be humanized incrementally through phased spatial interventions rather than complete replacement. However, transferability is limited by climatic and spatial variations. Barcelona has a Mediterranean climate, and its incremental superblock experimentation under consideration is citywide, whereas the Sports Boulevard is a much longer corridor situated within Riyadh&#x2019;s hyper-arid environment and shaped by the aspirations of Saudi Vision 2030 [<xref ref-type="bibr" rid="B4-urbansci-10-00640">4</xref>]. For this reason, the Avinguda Diagonal is a valuable morphological reference for prioritizing the pedestrian network, for greening and for traffic reorganization. However, applying these strategies in Riyadh would require substantial adaptation to heat, dust, water constraints, and local patterns of public-space use. AI-enabled microclimate analysis, adaptive shading, and responsive public-space management could potentially support this adaptation, although their local effectiveness requires further testing. This case further reaffirms the general morphological rules of human scale, walkability, and contextual adaptation, and having examined each precedent individually, clarifies that the Sports Boulevard cannot be designed according to a static principle.</p>
+          </sec>
+        </sec>
+        <sec id="sec4dot1dot3-urbansci-10-00640">
+          <title>4.1.3. Comparative Morphological Findings and Transferability to Riyadh&#x2019;s Sports Boulevard</title>
+          <p>To complement the qualitative morphological analysis, <xref ref-type="table" rid="urbansci-10-00640-t002">Table 2</xref> below  applies the four morphological humanization principles and associated observable indicators established in <xref ref-type="table" rid="urbansci-10-00640-t001">Table 1</xref> to compare Riyadh&#x2019;s Sports Boulevard with the three selected international precedents. The table presents the available quantitative and qualitative evidence on corridor type and scale, pedestrian-oriented space, walking and cycling provision, public-space and landscape features, and climate-related contextual conditions. Where directly comparable quantitative data are unavailable, the table reports document physical and design characteristics. Quantitative values describe the documented physical scale and configuration of each intervention; where equivalent data were unavailable, documented qualitative characteristics are reported.</p>
+          <p>The table summarizes the documented quantitative, morphological, and operational characteristics of the selected interventions, providing contextual information on their scale and physical configuration. The comparison assesses implemented humanization strategies. However, it does not constitute a standardized before-and-after evaluation of safety, mobility, environmental, social, or behavioral outcomes, because consistent pre-implementation baseline data and equivalent post-implementation monitoring data were not publicly available across all cases. In addition, differences in project boundaries, evaluation periods, measurement methods, climatic conditions, urban form, governance settings, travel behavior, and patterns of public-space use would limit direct causal comparison. The findings should therefore be interpreted as a cross-case assessment of implemented strategies and their physical scale, rather than as a uniform measurement of post-project effectiveness. Within these limitations, the comparison situates Riyadh&#x2019;s Sports Boulevard as a large-scale transformation project in a hyper-arid climatic context. It shows how the project aligns with, and differs from, selected international examples and how morphological redesign may contribute to the conditions for a more human-centered and climate-responsive boulevard in Riyadh. The three international precedents, when considered together, point to a solid set of morphological solutions to humanizing arterial streets. The most prominent design elements across these precedents include the adequate pedestrian and cycling facilities and buffers, traffic calming, opportunities for public space and potential social interaction, extensive greening, and the reallocation of road space from vehicle circulation to active mobility and public life.</p>
+          <p>By comparison, Riyadh&#x2019;s Sports Boulevard is designed at a unique scale of 135 km in a hyper-arid climatic context, where precedents from temperate climates cannot be directly transferred without contextual adaptation. The project already incorporates relevant morphological principles such as widened sidewalks, traffic calming, strategic shading and an eight-zone organizational logic. However, it must also address the challenges of high temperatures, dust accumulation, and water scarcity, which cannot be addressed through static greening measures alone.</p>
+          <p>Accordingly, international cases provide relevant references for morphological strategies and spatial configurations, but they do not demonstrate directly comparable effects on thermal comfort, social interaction, active-mobility use, or quality of life. These findings show that although the morphological strategies demonstrated by the international cases provide a useful reference for the Sports Boulevard, the scale of the Boulevard and its environmental exposure require complementary and more adaptive measures. This finding provides the rationale for Tier 2, which examines how selected AI-enabled systems could complement the morphological design by supporting environmental monitoring, thermal-comfort decision-making, resource management, and long-term contextual responsiveness.</p>
+        </sec>
+      </sec>
+      <sec id="sec4dot2-urbansci-10-00640">
+        <title>4.2. Technological Layer: Tier 2 Results</title>
+        <p>The Tier 1 findings indicate that morphological interventions provide an essential physical foundation for humanizing car-dominated arterial corridors. However, physical redesign alone may not fully respond to changing environmental conditions, mobility patterns, and patterns of public-space use, particularly along a large-scale corridor within Riyadh&#x2019;s hyper-arid context. Tier 2 therefore extends the analysis from static morphological characteristics to the potential contribution of digital and AI-enabled urban systems.</p>
+        <p>In this study, AI is examined not as a substitute for morphological design, but as a complementary operational layer that may support the monitoring, evaluation, and adaptive management of the corridor. However, the technologies considered in Tier 2 are not treated as technically equivalent or as inherently AI-based. Instead, the analysis distinguishes three interrelated functions: sensing and data collection, simulation and evaluation, and AI-based adaptive operation. Sensing systems collect information about environmental or behavioral conditions, simulation systems use available data to examine possible interventions, and adaptive AI systems use computational intelligence to support or implement operational adjustments in response to changing conditions. As summarized in <xref ref-type="table" rid="urbansci-10-00640-t002">Table 2</xref>, each function is examined through an illustrative international case: Barcelona Superblocks for sensing and data collection, Virtual Singapore for simulation and evaluation, and Pittsburgh&#x2019;s SURTRAC AI-based adaptive operation. These cases provide a structured framework for examining how different technological functions could build upon the morphological benefits identified in Tier 1 and potentially contribute to a more responsive, climate-aware, and user-oriented Sports Boulevard. The analysis is exploratory rather than evaluative: it identifies potentially transferable technological functions but does not test their technical feasibility or actual performance under Riyadh&#x2019;s local conditions. Following the functional distinction established in <xref ref-type="sec" rid="sec2dot3-urbansci-10-00640">Section 2.3</xref>, Tier 2 examines sensing and data collection, simulation and evaluation, and AI-based adaptive operation as related but technically distinct functions. <xref ref-type="table" rid="urbansci-10-00640-t003">Table 3</xref>  summarizes these functional distinctions and identifies the principal role of each illustrative case within the Tier 2 analysis.</p>
+        <table-wrap id="urbansci-10-00640-t003" position="anchor">
+          <object-id pub-id-type="pii">urbansci-10-00640-t003_Table 3</object-id>
+          <label>Table 3</label>
+          <caption>
+            <p>Functional distinctions within the Tier 2 technological framework Source.  (Author).</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">AI-Enabled Function</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Role in the Framework</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Relationship to AI</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Illustrative Case</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin"> Simulation and evaluation </td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Models and tests interventions before implementation</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Supports AI analysis but is not inherently AI-based</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Virtual Singapore</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Sensing and data collection</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Captures environmental and behavioral data</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Provides input data; not inherently AI-based</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Barcelona Superblocks</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">AI-based adaptive operation</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Use real-time information to optimize or adjust operations</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Genuinely AI-enabled adaptive function</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Pittsburgh SURTRAC</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <p>The assignment of each case to a particular function reflects its principal analytical relevance in this study; in practice, sensing, simulation, and adaptive management may overlap within integrated AI-enabled urban systems.</p>
+        <sec id="sec4dot2dot1-urbansci-10-00640">
+          <title>4.2.1. Virtual Singapore: National-Scale Sensing and Simulation</title>
+          <p>An example of one of the most sophisticated national case studies of a digital twin that combines the sensing and simulation layers is Virtual Singapore. It is part of the Smart Nation initiative in Singapore and includes airborne LiDAR, aerial imagery, and in-vehicle laser scanning to produce a 3D city model for the whole city-state at high resolution. This digital twin is dynamic and is built to integrate real-time data on population flows, traffic, and environmental parameters like air quality and green cover [<xref ref-type="bibr" rid="B6-urbansci-10-00640">6</xref>]. The platform enables multi-domain simulations. Planners can test different road layouts, transport investments, and urban design options that are sensitive to the microclimate before implementing them in practice to optimize land use. For example, Virtual Singapore can also simulate traffic rerouting for mobility and street design, evaluate pedestrian routing, or consider various impacts of shading, built form, or planting trees on thermal comfort at street level and correlate these very technical simulations with very human outcomes, i.e., walkability and perceived safety [<xref ref-type="bibr" rid="B6-urbansci-10-00640">6</xref>]. Virtual Singapore focuses mainly on planning and decision support; however, it is increasingly linked to smart city initiatives, such as smart grids and intelligent street lighting, and is expected to be a dynamic tool for real-time urban management. This places the platform in the role of a model for Riyadh. A Riyadh-scale digital twin can be created, with the Sports Boulevard, its surrounding nodes, and the surrounding districts being constantly monitored for microclimate, accessibility, and activity.</p>
+        </sec>
+        <sec id="sec4dot2dot2-urbansci-10-00640">
+          <title>4.2.2. Barcelona Superblocks and Urban AI</title>
+          <p>Barcelona&#x2019;s Superblocks (Superilles) initiative is one of the cases of sensing and simulation using AI technologies explicitly for the humanization of dense, traffic-created street networks. The plan will include rethinking the city blocks as low-traffic zones, reallocating road space for pedestrians and cyclists, and developing new plazas and green corridors. The purpose is to decrease motorized traffic, minimize air and noise pollution, and encourage a healthy lifestyle. The planning model also includes a monitoring system for air quality, noise, and temperatures, which could be operated by the municipality to assess the effect on environmental and public health and adapt interventions according to the monitoring results over time [<xref ref-type="bibr" rid="B56-urbansci-10-00640">56</xref>]. Barcelona&#x2019;s urban AI strategies are more ambitious, using video data from intersections to generate occupancy heatmaps, road users, and estimating pollution exposure and carbon emissions associated with mobility, all of which create a platform to analyses the impact of Superblock interventions on public space use, pollution exposure and active mobility [<xref ref-type="bibr" rid="B56-urbansci-10-00640">56</xref>]. For Riyadh, this entails that the Sports Boulevard could become an urban lab, where environmental sensors and computer vision can be used to monitor, over time, thermal comfort, usage patterns, and the effectiveness of the shade, greenery, and street furniture. These factors have been the subject of discussion in Riyadh in relation to livability and human-centered public space [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>,<xref ref-type="bibr" rid="B57-urbansci-10-00640">57</xref>].</p>
+        </sec>
+        <sec id="sec4dot2dot3-urbansci-10-00640">
+          <title>4.2.3. Adaptive Multimodal Arterial Systems: SURTRAC in Pittsburgh</title>
+          <p>An example of an adaptive-system layer in action is the SURTRAC (Scalable Urban Traffic Control) system, implemented in Pittsburgh, which demonstrates how to dynamically reconfigure signalized arterials using traditional AI to improve mobility and environmental performance. SURTRAC sensors (cameras or radar) at each intersection capture approaching traffic, create &#x201C;platoons&#x201D; of vehicles, and calculate real-time signal plans to minimize delays for all approaches. The system is decentralized, meaning that each intersection runs locally to optimize and then shares projected outflows with downstream intersections to coordinate the arterial without a fixed timetable [<xref ref-type="bibr" rid="B7-urbansci-10-00640">7</xref>,<xref ref-type="bibr" rid="B58-urbansci-10-00640">58</xref>]. Empirical deployment in Pittsburgh&#x2019;s East Liberty neighborhood and adjacent areas shows marked improvements in travel time (roughly 25% reduction), emissions, and intersection wait times as SURTRAC grew from a starting point of 9 to about 50 intersections [<xref ref-type="bibr" rid="B7-urbansci-10-00640">7</xref>,<xref ref-type="bibr" rid="B58-urbansci-10-00640">58</xref>]. This AI system helped to shift the street design toward more general goals of humanization, including equitable accessibility and safety for all users. Applying the SURTRAC system in Riyadh would allow the potential of AI-enabled adaptive control for the major arterials crossing the Sports Boulevard. It would shift the focus to safe, low-delay pedestrian and cyclist crossings, especially at high-volume intersections where fixed-time signals often marginalize pedestrian movement, meaning that adaptive signal control and microclimate-sensitive design should be strongly integrated in future corridor retrofits [<xref ref-type="bibr" rid="B2-urbansci-10-00640">2</xref>,<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>].</p>
+        </sec>
+      </sec>
+      <sec id="sec4dot3-urbansci-10-00640">
+        <title>4.3. Current Technological Applications in the Sports Boulevard</title>
+        <p>Riyadh&#x2019;s Sports Boulevard is a flagship urban regeneration project, already being delivered in phases, that reads as one of the clearest expressions of the city&#x2019;s livability agenda [<xref ref-type="bibr" rid="B4-urbansci-10-00640">4</xref>,<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>]. In morphological and programmatic terms, the corridor already embodies several core attributes of urban humanization, including continuity, permeability, active-mobility provision, and the systematic insertion of public space. However, applications documented below should be distinguished from the potential AI-based adaptive functions discussed in <xref ref-type="sec" rid="sec4dot4-urbansci-10-00640">Section 4.4</xref>; their installation or use does not, by itself, establish that an integrated AI-enabled infrastructure is operating along the Boulevard and, in some configurations, generates data on pedestrian activity. This technique has been used at the Sports Boulevard, where five kinetic walkways have been installed along an elevated pedestrian walkway, where footsteps are converted into off-grid electricity and reinforced through LED feedback in the handrails of this elevated pathway [<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>,<xref ref-type="bibr" rid="B59-urbansci-10-00640">59</xref>]. This is a documented installation rather than a proposed application.</p>
+        <p>It is designed for operation in the extreme climate of Riyadh, using rugged and weatherproofed components, with a screen-free, fully analog feedback loop intended to encourage direct physical interaction rather than mediated digital interaction [<xref ref-type="bibr" rid="B59-urbansci-10-00640">59</xref>]. The primary goal, as described in the Pavegen solutions documentation, is to make walking visible as an act contributing to sustainability, making the idea of walking to create environmental impact legible through the body&#x2019;s physical movement. In its current context, it acts as an energy harvesting and interactive feedback installation that converts pedestrian pressure into energy generation and provides immediate feedback to the user as an environmental stimulus [<xref ref-type="bibr" rid="B59-urbansci-10-00640">59</xref>]. see <xref ref-type="fig" rid="urbansci-10-00640-f009">Figure 9</xref> below This has relevance from an urban-humanization perspective as it provides a way of linking everyday walking with visible energy generation and opportunities for participation, but the effects on user behavior have not been investigated in this study.</p>
+        <fig id="urbansci-10-00640-f009" position="anchor">
+          <label>Figure 9</label>
+          <caption>
+            <p>Installed Pavegen energy-generating walkways in the Sports Boulevard, showing kinetic flooring and LED feedback integrated into the handrails [<xref ref-type="bibr" rid="B59-urbansci-10-00640">59</xref>].</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00640-g009.tif"/>
+        </fig>
+        <p>Beyond Pavegen, Sports Boulevard is developing into more than a recreational project within an important arterial street in Riyadh; its associated initiatives also include digitally mediated mobility and public engagement. In this context, RIYDE is an example of a temporary public-engagement activation rather than a permanent operational system within the completed corridor. The Sports Boulevard Foundation developed a fully immersive cycling experience in partnership with a virtual cycling tech company, BKOOL [<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>,<xref ref-type="bibr" rid="B60-urbansci-10-00640">60</xref>]. Using booths open for an initial two-week period and placed at several public locations, the experience offered Riyadh residents the opportunity to socialize, exercise, and compete against each other while enjoying a new sport in an indoor, air-conditioned booth. The experience allowed residents to ride a simulated 5.24 km route, the equivalent of 10&#x2013;15 min of cycling, tailored to differing fitness abilities, while competing against other riders. Moreover, visitors to the booth could experience virtual reality technology firsthand to see how the Sports Boulevard would transform Riyadh when it is completed [<xref ref-type="bibr" rid="B60-urbansci-10-00640">60</xref>]. The RIYDE experience is therefore discussed as a documented temporary cycling and educational experience, using virtual simulation to make exercise an immersive, game-like experience intended to promote cycling and healthy lifestyles across Riyadh [<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>,<xref ref-type="bibr" rid="B60-urbansci-10-00640">60</xref>]. Its inclusion does not imply that the booths remain operational or that the experience constitutes an AI-based system. This is in line with the overall objective of the Sports Boulevard to make Riyadh one of the most livable cities in the world through continuous green pathways for pedestrians and cyclists [<xref ref-type="bibr" rid="B4-urbansci-10-00640">4</xref>,<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>].</p>
+        <p>Other systems provide evidence of an installed sensing component in the operational management of public space. The field observation made in the completed segment noted the presence of solar-powered waste bins equipped with LED displays, consistent in design with smart waste-monitoring systems that use ultrasonic sensors to track fill levels in real time. This field observation is consistent with a public disclosure from Sensoneo, a smart-waste technology vendor, reporting the deployment of bins equipped with solar technology, LED displays, and ultrasonic fill-level sensors at the Sports Boulevard. This application is classified here as installed sensing and data-collection infrastructure; the available evidence does not establish AI-based adaptive operation [<xref ref-type="bibr" rid="B61-urbansci-10-00640">61</xref>,<xref ref-type="bibr" rid="B62-urbansci-10-00640">62</xref>]. Such a system could support more targeted collection and potentially reduce unnecessary collection trips, although these operational effects have not been measured in the present study.</p>
+        <p>The public engagement interfaces used in the Riyadh boulevard project may also be considered part of its participatory information gathering processes, because they help mediate how users of the corridor encounter, interpret, and respond to the changing urban corridor [<xref ref-type="bibr" rid="B63-urbansci-10-00640">63</xref>]. The community information center that manages those interfaces acts as a conduit between institutional planning and public understanding, providing a channel for public feedback and suggestions. These interfaces are discussed as engagement mechanisms rather than evidence of automated sensing or AI-based decision-making [<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>]. This participatory structure may support a more co-created approach to arterial development, rather than demonstrating that such a transition has already been achieved.</p>
+      </sec>
+      <sec id="sec4dot4-urbansci-10-00640">
+        <title>4.4. Integrated Discussion: The Sports Boulevard as an Emerging AI-Enabled Humanized Arterial</title>
+        <p>Drawing on the three technological functions identified in the international precedents above&#x2014;sensing and data collection, simulation and evaluation, and AI-based adaptive operation&#x2014;as outlined in <xref ref-type="table" rid="urbansci-10-00640-t002">Table 2</xref>, this synthesis considers how each could potentially be extended to Riyadh&#x2019;s context. Taken together, the documented Pavegen installations and waste-monitoring system, the temporary RIYDE experience, and the project&#x2019;s public-engagement interfaces illustrate different forms of technological intervention and interaction. However, they should not be interpreted as an integrated sensing network or evidence of AI-based adaptive operation. Their relevance lies in the potential connections between physical movement, environmental monitoring, and public engagement, rather than in demonstrated effects on users&#x2019; perceptions, emotional connections, or patterns of public-space use.</p>
+        <p>The international examples should therefore be interpreted as transferable functional principles rather than directly replicable models. Their applicability to Riyadh is conditioned by differences in boulevard scale, climatic exposure, urban form, travel behavior, data infrastructure. The Sports Boulevard is a relevant case because its 135 km scale and hyper-arid setting intensify the need to link human-centered spatial design with climate-responsive management. Accordingly, the value of the proposed AI-enabled functions depends on local data quality, operational feasibility, and validation through phased, site-specific monitoring rather than on the assumed transferability of international results.</p>
+        <p>Following international experiences, the sensing layer could be extended through distributed environmental sensors that track air temperature, surface temperature, humidity, air quality, noise, and pedestrian volume, together with computer-vision analysis at selected locations and activity nodes [<xref ref-type="bibr" rid="B2-urbansci-10-00640">2</xref>,<xref ref-type="bibr" rid="B56-urbansci-10-00640">56</xref>,<xref ref-type="bibr" rid="B57-urbansci-10-00640">57</xref>,<xref ref-type="bibr" rid="B64-urbansci-10-00640">64</xref>]. These inputs could be complemented by interactive feedback platforms that allow residents to rate their comfort, safety, and spatial-quality preferences, potentially informing locally calibrated analytical or AI-based models rather than relying on imported assumptions. Within the simulation function, a high-resolution digital model or digital twin of the Sports Boulevard could be considered as a locally calibrated decision-support platform for testing scenarios involving shading, canopy density, pavement materials, event programming, and thermal conditions [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>,<xref ref-type="bibr" rid="B6-urbansci-10-00640">6</xref>,<xref ref-type="bibr" rid="B65-urbansci-10-00640">65</xref>].</p>
+        <p>Finally, SURTRAC provides an international reference for considering how AI-based adaptive traffic-signal control could potentially be applied at intersections along the Sports Boulevard, with pedestrian-crossing needs included among the proposed operational priorities. Responsive lighting and irrigation are already used in the Sports Boulevard; their potential integration with environmental monitoring and AI-based adaptive management is considered here as a possible future operational development, rather than a new installation [<xref ref-type="bibr" rid="B7-urbansci-10-00640">7</xref>,<xref ref-type="bibr" rid="B57-urbansci-10-00640">57</xref>,<xref ref-type="bibr" rid="B59-urbansci-10-00640">59</xref>,<xref ref-type="bibr" rid="B66-urbansci-10-00640">66</xref>]. The presence of these responsive systems does not, by itself, establish that they use AI. The project may thus provide a setting for exploring an &#x201C;intelligent urban corridor&#x201D; intended to support human comfort, environmental performance, and operational efficiency. Whether these applications deliver their intended benefits would require technical feasibility assessment, environmental measurements, and user-based and longitudinal evaluation. Accordingly, the present discussion identifies context-specific technological directions and research propositions rather than evaluating user experience or demonstrating behavioral, social, or environmental outcomes; such outcomes require future site-specific and longitudinal validation.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-urbansci-10-00640" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>Riyadh&#x2019;s Sports Boulevard can be understood as a significant case of morphological humanization with emerging potential for AI-supported extensions in a rapidly transforming hyper-arid metropolis. At the morphological level, examined through the four principles of human scale, walkability and active mobility, social interaction and placemaking, and contextual adaptation, the project represents a substantial departure from conventional arterial logic. It expands pedestrian-priority zones, introduces green continuity, fragments a vast linear corridor into more legible and human-scaled spatial segments, and aims to reposition the infrastructural spine as a public realm. In this respect, the Sports Boulevard is not merely a transport or recreation corridor but a reconfigured urban spine whose spatial structure reflects a clear shift from a car-dominant logic toward a more walkable and accessible environment. However, this transformation should not be equated with complete humanization.</p>
+      <p>The Tier 1 comparison with Madrid R&#xED;o, Avenida da Rep&#xFA;blica, and Avinguda Diagonal indicates that arterial-street humanization is not achieved through a single physical intervention. Across the cases, pedestrian and cycling provision, road-space reallocation, traffic calming, greening, shading, and opportunities for public life emerge as recurrent morphological strategies. However, the comparison also shows that their meaning and likely performance are shaped by context, including corridor scale, climatic exposure, urban form, travel behavior, governance capacity, and patterns of public-space use. Consequently, a walkable and visually appealing corridor does not automatically ensure thermal comfort, social inclusivity, or sustained everyday use, particularly in Riyadh, where heat, dust, and seasonal variability continue to shape public-space experience.</p>
+      <p>The principal contribution of the study is therefore to connect morphological humanization with context-sensitive technological support. In extreme environments, the physical conditions of humanization can be created in open spaces, but in extreme environments, the condition of humanization in open space is fragile and must be constantly maintained by adaptive systems. This is where the technological layer analyzed in Tier 2 comes into play to examine how selected technological functions could complement, rather than replace, morphological design. Based on Virtual Singapore, Barcelona&#x2019;s Superblocks and Pittsburgh&#x2019;s SURTRAC, the analysis distinguishes among sensing and data collection, simulation and evaluation, and AI-based adaptive operation. These functions represent potential technological extensions through which environmental conditions, movement patterns, and public-space operations could be monitored, evaluated, or adaptively managed. They should not, however, be interpreted as evidence that the Sports Boulevard currently operates as a fully integrated AI-enabled corridor. The technological initiatives identified in relation to the Sports Boulevard, including kinetic walkways, immersive cycling experiences, and public-engagement interfaces suggest an emerging movement toward more responsive urban management. Nevertheless, these applications remain relatively isolated and exploratory. Their potential contribution to long-term humanization would depend on their integration within a coherent governance and operational framework linking microclimate management, mobility regulation, resource management, data governance, maintenance, and user participation.</p>
+      <p>Several limitations should be acknowledged. The field assessment focused on one completed section of the Sports Boulevard and was based on evening observations conducted during April and May 2026; therefore, the findings cannot represent all sections, seasons, times of day, or user groups. The retrospective organization of the photographic record according to the indicators may also retain some interpretive bias. Moreover, the international cases were examined as morphological and technological precedents rather than as climatically or culturally equivalent controls, and the AI applications were not technically tested under Riyadh&#x2019;s local conditions.</p>
+      <p>Although the international precedents broaden the comparative analysis, the field observations and photographic survey remain limited to a single local case; consequently, the findings are context-specific and should not be generalized to all arterial-street transformation projects in the Kingdom of Saudi Arabia or other climatic and socio-cultural settings. Because the study does not include user surveys, environmental measurements, systematic activity mapping, or longitudinal post-occupancy evaluation, it identifies design intentions, observed morphological configurations, and potentially relevant technological functions rather than demonstrating their actual effects. It therefore cannot determine whether the identified interventions have improved perceived accessibility, subjective well-being, perceived safety, social inclusion, thermal comfort, patterns of public-space use, or the quality and frequency of social interaction. Future research should extend the observations across additional corridor sections, seasons, times of day, and user groups; incorporate user surveys, environmental measurements, activity mapping, and post-occupancy evaluations; and technically test the selected technological applications under Riyadh&#x2019;s local conditions. Further comparisons with cases from the Gulf region, the Middle East, and North Africa could also clarify how climatic and socio-cultural proximity influences the applicability of humanization strategies to Riyadh.</p>
+      <p>The Sports Boulevard should therefore not be interpreted as a fully demonstrated model of AI-enabled urban humanization. Instead, it represents an evolving case in which substantial morphological interventions coexist with emerging and potential AI-supported applications.</p>
+      <p>Its future performance should be evaluated in relation to comfort, accessibility, socio-spatial equity, environmental responsiveness, and the ways in which different groups use the corridor throughout the year. The study therefore contributes an exploratory, two-tier framework: Tier 1 identifies the physical strategies through which arterial corridors can be humanized, while Tier 2 identifies the sensing, simulation, and adaptive-management functions that may help these strategies respond to extreme climatic and operational conditions. Accordingly, the study provides a structured exploratory framework for identifying morphological strategies and technological functions that can inform the future planning and evaluation of humanized arterial corridors in Riyadh and comparable contexts.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>.Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Informed Consent Statement</title>
+      <p>.Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The evidence supporting the findings is presented in the article&#x2019;s tables, figures, and accompanying analysis. The publicly available documentary sources used in the comparative assessment are identified in the reference list. No separate dataset has been deposited in a public repository.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-urbansci-10-00640">
+        <label>1.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Al Mushayt</surname>
+              <given-names>N.S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Street as a Place: An Urban Code for Livability in Saudi Arabia</article-title>
+          <source>Doctoral Thesis</source>
+          <publisher-name>University of Lisbon</publisher-name>
+          <publisher-loc>Lisboa, Portugal</publisher-loc>
+          <year>2024</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://hdl.handle.net/10400.5/31138" ext-link-type="uri">http://hdl.handle.net/10400.5/31138</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B2-urbansci-10-00640">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Almatar</surname>
+              <given-names>K.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rehumanize the streets and make them more smart and livable in Arab cities: Case study: Tahlia Street; Riyadh City, Saudi Arabia</article-title>
+          <source>Sustainability</source>
+          <year>2024</year>
+          <volume>16</volume>
+          <elocation-id>3376</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su16083376</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-urbansci-10-00640">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taha</surname>
+              <given-names>M.N.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unlocking Walkability in Car-Oriented Cities: Assessing Built Environment Features Affecting Walkability in Riyadh&#x2019;s Neighborhoods</article-title>
+          <source>J. Archit. Plan.</source>
+          <year>2025</year>
+          <volume>37</volume>
+          <fpage>97</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="doi">10.33948/jap-ksu-37-1-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-urbansci-10-00640">
+        <label>4.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Saudi Vision 2030</collab>
+          </person-group>
+          <source>Official Project Documentation: Quality of Life Program</source>
+          <publisher-name>Quality of Life Program Center</publisher-name>
+          <publisher-loc>Riyadh, Saudi Arabia</publisher-loc>
+          <year>2026</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.vision2030.gov.sa/en/explore/programs/quality-of-life-program" ext-link-type="uri">https://www.vision2030.gov.sa/en/explore/programs/quality-of-life-program</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5-urbansci-10-00640">
+        <label>5.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Royal Commission for Riyadh City, RCRC</collab>
+          </person-group>
+          <source>Sports Boulevard Project&#x2013;Official Project Description and First-Phase Opening</source>
+          <publisher-name>Royal Commission for Riyadh City, RCRC</publisher-name>
+          <publisher-loc>Riyadh, Saudi Arabia</publisher-loc>
+          <year>2025</year>
+        </element-citation>
+      </ref>
+      <ref id="B6-urbansci-10-00640">
+        <label>6.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Observatory of Public Sector Innovation, OPSI</collab>
+          </person-group>
+          <article-title>Virtual Singapore-Singapore&#x2019;s Virtual Twin-Observatory of Public Sector Innovation</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://oecd-opsi.org/innovations/virtual-twin-singapore/" ext-link-type="uri">https://oecd-opsi.org/innovations/virtual-twin-singapore/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2024-11-05">(accessed on 5 November 2024)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B7-urbansci-10-00640">
+        <label>7.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>S.F.</given-names>
+            </name>
+          </person-group>
+          <source>Surtrac for the People: Upgrading the Surtrac Pittsburgh Deployment to Incorporate Pedestrian Friendly Extensions and Remote Monitoring Advances</source>
+          <comment>Carnegie Mellon University/Mobility21 UTC</comment>
+          <publisher-name>National Academy of Sciences, Engineering, and Medicine</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2018</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://rosap.ntl.bts.gov/view/dot/67766" ext-link-type="uri">https://rosap.ntl.bts.gov/view/dot/67766</ext-link></comment>
+          <pub-id pub-id-type="doi">10.21949/1528829</pub-id>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B8-urbansci-10-00640">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Batty</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Big data, smart cities and city planning</article-title>
+          <source>Dialogues Hum. Geogr.</source>
+          <year>2013</year>
+          <volume>3</volume>
+          <fpage>274</fpage>
+          <lpage>279</lpage>
+          <pub-id pub-id-type="doi">10.1177/2043820613513390</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-urbansci-10-00640">
+        <label>9.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marshall</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <source>Streets and Patterns</source>
+          <edition>1st ed.</edition>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>Oxfordshire, UK</publisher-loc>
+          <year>2004</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.taylorfrancis.com/books/mono/10.4324/9780203589397/streets-patterns-stephen-marshall" ext-link-type="uri">https://www.taylorfrancis.com/books/mono/10.4324/9780203589397/streets-patterns-stephen-marshall</ext-link></comment>
+          <pub-id pub-id-type="doi">10.4324/9780203589397</pub-id>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B10-urbansci-10-00640">
+        <label>10.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jacobs</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>MacDonald</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rof&#xE9;</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <source>The Boulevard Book: History, Evolution, Design of Multiway Boulevards</source>
+          <publisher-name>Mit Press</publisher-name>
+          <publisher-loc>Cambridge, MA, USA</publisher-loc>
+          <year>2002</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.jstor.org/stable/1504762?origin=crossref" ext-link-type="uri">https://www.jstor.org/stable/1504762?origin=crossref</ext-link></comment>
+          <pub-id pub-id-type="doi">10.2307/1504762</pub-id>
+          <pub-id pub-id-type="pmid">40104498</pub-id>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B11-urbansci-10-00640">
+        <label>11.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gehl</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <source>Cities for People</source>
+          <publisher-name>Island Press</publisher-name>
+          <publisher-loc>Princeton, NJ, USA</publisher-loc>
+          <year>2010</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://books.google.com.sa/books?hl=ar&amp;lr=&amp;id=lBNJoNILqQcC&amp;oi=fnd&amp;pg=PR3&amp;ots=hHv7v-28jm&amp;sig=-zfAHgAGMND8tQXUk0ryBBNQm1A&amp;redir_esc=y#v=onepage&amp;q&amp;f=false" ext-link-type="uri">https://books.google.com.sa/books?hl=ar&amp;lr=&amp;id=lBNJoNILqQcC&amp;oi=fnd&amp;pg=PR3&amp;ots=hHv7v-28jm&amp;sig=-zfAHgAGMND8tQXUk0ryBBNQm1A&amp;redir_esc=y#v=onepage&amp;q&amp;f=false</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B12-urbansci-10-00640">
+        <label>12.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alganawi</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Azizalrahman</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Visvizi</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Humanizing cities through urban design: Urban design principles and policymaking considerations</article-title>
+          <source>Research and Innovation Forum 2025 Vol. 1</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Visvizi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Troisi</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Serradell-L&#xF3;pez</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Berlin/Heidelberg, Germany</publisher-loc>
+          <year>2026</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://link.springer.com/chapter/10.1007/978-3-032-09066-9_23" ext-link-type="uri">https://link.springer.com/chapter/10.1007/978-3-032-09066-9_23</ext-link></comment>
+          <pub-id pub-id-type="doi">10.1007/978-3-032-09066-9_23</pub-id>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B13-urbansci-10-00640">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>N.O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Towards an approach to humanize the street environment: Reconciling pedestrian-vehicle relationship</article-title>
+          <source>Int. J. Archit. Urban Stud.</source>
+          <year>2017</year>
+          <volume>2</volume>
+          <fpage>29</fpage>
+          <lpage>41</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://izlik.org/JA72PW96MR" ext-link-type="uri">https://izlik.org/JA72PW96MR</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B14-urbansci-10-00640">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Helmy</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urban streets: Remaking human-based places</article-title>
+          <source>J. Urban Res.</source>
+          <year>2023</year>
+          <volume>48</volume>
+          <fpage>19</fpage>
+          <lpage>33</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://buescholar.bue.edu.eg/cgi/viewcontent.cgi?article=1169&amp;context=arch_eng" ext-link-type="uri">https://buescholar.bue.edu.eg/cgi/viewcontent.cgi?article=1169&amp;context=arch_eng</ext-link></comment>
+          <pub-id pub-id-type="doi">10.21608/jur.2023.198809.1124</pub-id>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B15-urbansci-10-00640">
+        <label>15.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sallam</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Hafiz</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Brasilia syndrome versus humanizing urban spaces: A controversial discourse over human scale in urban planning and design</article-title>
+          <source>Innovative and Intelligent Digital Technologies</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Al Mubarak</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hamdan</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <comment>Towards an Increased Efficiency</comment>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Berlin/Heidelberg, Germany</publisher-loc>
+          <year>2024</year>
+          <volume>Volume 569</volume>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://link.springer.com/chapter/10.1007/978-3-031-71649-2_53" ext-link-type="uri">https://link.springer.com/chapter/10.1007/978-3-031-71649-2_53</ext-link></comment>
+          <pub-id pub-id-type="doi">10.1007/978-3-031-71649-2_53</pub-id>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B16-urbansci-10-00640">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alosaimi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Fageir</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Alfraidi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Elsayed</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zeinelabdein</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The humanization of urban neighborhoods: The case of Al-Falah project in Riyadh, Saudi Arabia</article-title>
+          <source>Habitat Int.</source>
+          <year>2025</year>
+          <volume>162</volume>
+          <fpage>103433</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.habitatint.2025.103433</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-urbansci-10-00640">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hadi</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+            <name>
+              <surname>Jassim</surname>
+              <given-names>I.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Impact of Urban Street Characteristics on Walking Attractiveness and Humanization: A Study of The Streets of Kut City Center</article-title>
+          <source>J. Appl. Sci. Technol. Trends</source>
+          <year>2025</year>
+          <fpage>231</fpage>
+          <lpage>241</lpage>
+          <pub-id pub-id-type="doi">10.38094/jastt62344</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-urbansci-10-00640">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mouratidis</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urban planning and quality of life: A review of pathways linking the built environment to subjective well-being</article-title>
+          <source>Cities</source>
+          <year>2021</year>
+          <volume>115</volume>
+          <fpage>103229</fpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.sciencedirect.com/science/article/pii/S0264275121001293?via%3Dihub" ext-link-type="uri">https://www.sciencedirect.com/science/article/pii/S0264275121001293?via%3Dihub</ext-link></comment>
+          <pub-id pub-id-type="doi">10.1016/j.cities.2021.103229</pub-id>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B19-urbansci-10-00640">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Micelli</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Giliberto</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessing Quality of Life and Walkability for Urban Regeneration: The Piave Neighbourhood in Mestre-Venice</article-title>
+          <source>Land</source>
+          <year>2023</year>
+          <volume>12</volume>
+          <elocation-id>2133</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/land12122133</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-urbansci-10-00640">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Winiarczyk-Ra&#x17A;niak</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ra&#x17A;niak</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Are Pueblos M&#xE1;gicos Really Magic? Tourism Development Program in the Context of the Quality of Life of Town Residents</article-title>
+          <source>Land</source>
+          <year>2021</year>
+          <volume>10</volume>
+          <elocation-id>1342</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/land10121342</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-urbansci-10-00640">
+        <label>21.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>Global Designing Cities Initiative</collab>
+          </person-group>
+          <source>Global Street Design Guide</source>
+          <publisher-name>Island Press</publisher-name>
+          <publisher-loc>Princeton, NJ, USA</publisher-loc>
+          <year>2016</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://globaldesigningcities.org/publication/global-street-design-guide/" ext-link-type="uri">https://globaldesigningcities.org/publication/global-street-design-guide/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B22-urbansci-10-00640">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shevchenko</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Novoselchuk</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Toporkov</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Linear landscape spaces in the planning structure of the city</article-title>
+          <source>Int. J. Eng. Technol.</source>
+          <year>2018</year>
+          <volume>7</volume>
+          <fpage>672</fpage>
+          <lpage>679</lpage>
+          <pub-id pub-id-type="doi">10.14419/ijet.v7i3.2.14612</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-urbansci-10-00640">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heptane</surname>
+              <given-names>&#x15E;.</given-names>
+            </name>
+            <name>
+              <surname>Kaplan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>&#xD6;zkan</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>K&#xFC;&#xE7;&#xFC;kerba&#x15F;</surname>
+              <given-names>E.V.</given-names>
+            </name>
+            <name>
+              <surname>Yi&#x11F;it</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>T&#xFC;rel</surname>
+              <given-names>H.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Public space networks as a guide to sustainable urban development and social life: A case study of Mu&#x11F;la, Turkey</article-title>
+          <source>Int. J. Sustain. Dev. World Ecol.</source>
+          <year>2006</year>
+          <volume>13</volume>
+          <fpage>375</fpage>
+          <lpage>389</lpage>
+          <pub-id pub-id-type="doi">10.1080/13504500609469687</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-urbansci-10-00640">
+        <label>24.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Seoul Metropolitan Government</collab>
+          </person-group>
+          <article-title>Stream in Seoul, Cheonggyecheon</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://english.seoul.go.kr/service/amusement/stream/" ext-link-type="uri">https://english.seoul.go.kr/service/amusement/stream/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-16">(accessed on 16 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B25-urbansci-10-00640">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kang</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Cervero</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>From elevated freeway to urban greenway: Land value impacts of the CGC project in Seoul, Korea</article-title>
+          <source>Urban Stud.</source>
+          <year>2009</year>
+          <volume>46</volume>
+          <fpage>2771</fpage>
+          <lpage>2794</lpage>
+          <pub-id pub-id-type="doi">10.1177/0042098009345166</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-urbansci-10-00640">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Palardy</surname>
+              <given-names>N.P.</given-names>
+            </name>
+            <name>
+              <surname>Boley</surname>
+              <given-names>B.B.</given-names>
+            </name>
+            <name>
+              <surname>Gaither</surname>
+              <given-names>C.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gaither, Resident support for urban greenways across diverse neighborhoods: Comparing two Atlanta BeltLine segments</article-title>
+          <source>Landsc. Urban Plan.</source>
+          <year>2018</year>
+          <volume>180</volume>
+          <fpage>223</fpage>
+          <lpage>233</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.landurbplan.2018.08.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-urbansci-10-00640">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Immergluck</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Balan</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sustainable for whom? Green urban development, environmental gentrification, and the Atlanta Beltline</article-title>
+          <source>Urban Geogr.</source>
+          <year>2018</year>
+          <volume>39</volume>
+          <fpage>546</fpage>
+          <lpage>562</lpage>
+          <pub-id pub-id-type="doi">10.1080/02723638.2017.1360041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-urbansci-10-00640">
+        <label>28.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dash</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ansari</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <source>A Data-Driven Ai Framework to Improve Urban Mobility and Traffic Congestion in Smart Cities</source>
+          <publisher-name>University of the Cumberlands</publisher-name>
+          <publisher-loc>Williamsburg, KY, USA</publisher-loc>
+          <year>2018</year>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.researchgate.net/publication/374056164_A_Data-Driven_AI_Framework_to_Improve_Urban_Mobility_and_Traffic_Congestion_in_Smart_Cities" ext-link-type="uri">https://www.researchgate.net/publication/374056164_A_Data-Driven_AI_Framework_to_Improve_Urban_Mobility_and_Traffic_Congestion_in_Smart_Cities</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B29-urbansci-10-00640">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Delli</surname>
+              <given-names>H.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>AI for smart cities opportunities and promising directions</article-title>
+          <source>Adv. Eng. Innov.</source>
+          <year>2024</year>
+          <volume>5</volume>
+          <fpage>44</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="doi">10.54254/2977-3903/5/2024041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-urbansci-10-00640">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Data-driven approach to assess street safety: Large-scale analysis of the microscopic design</article-title>
+          <source>ISPRS Int. J. Geo-Inf.</source>
+          <year>2022</year>
+          <volume>11</volume>
+          <elocation-id>537</elocation-id>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.semanticscholar.org/paper/Data-Driven-Approach-to-Assess-Street-Safety:-of-Wu-Guo/306f9d1caab96a85a95422db83f1a790a207c0b3" ext-link-type="uri">https://www.semanticscholar.org/paper/Data-Driven-Approach-to-Assess-Street-Safety:-of-Wu-Guo/306f9d1caab96a85a95422db83f1a790a207c0b3</ext-link></comment>
+          <pub-id pub-id-type="doi">10.3390/ijgi11110537</pub-id>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B31-urbansci-10-00640">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Choi</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Artificial intelligence as research methods in urban design</article-title>
+          <source>J. Plan. Lit.</source>
+          <year>2024</year>
+          <volume>41</volume>
+          <fpage>3</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1177/08854122241291820</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-urbansci-10-00640">
+        <label>32.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moghaddam</surname>
+              <given-names>S.N.M.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Artificial intelligence-driven geographies</article-title>
+          <source>City Development</source>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Berlin/Heidelberg, Germany</publisher-loc>
+          <year>2024</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://link.springer.com/book/10.1007/978-981-97-5116-7" ext-link-type="uri">https://link.springer.com/book/10.1007/978-981-97-5116-7</ext-link></comment>
+          <pub-id pub-id-type="doi">10.1007/978-981-97-5116-7</pub-id>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B33-urbansci-10-00640">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anthi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ahmad Afzal</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ahmad Brar</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Bhowmick</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gujral</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of artificial intelligence in shaping intelligent motorways: Opportunities, challenges, and real-world implementations</article-title>
+          <source>IEEE Trans. Intell. Transp. Syst.</source>
+          <year>2025</year>
+          <volume>26</volume>
+          <fpage>18325</fpage>
+          <lpage>18357</lpage>
+          <pub-id pub-id-type="doi">10.1109/TITS.2025.3609972</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-urbansci-10-00640">
+        <label>34.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alnefaie</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Kostanic</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analyzing and modeling Riyadh&#x2019;s human mobility patterns</article-title>
+          <source>Proceedings of the 2023 International Conference on Computational Science and Computational Intelligence (CSCI)</source>
+          <conf-loc>Las Vegas, NV, USA</conf-loc>
+          <conf-date>13&#x2013;15 December 2023</conf-date>
+          <fpage>619</fpage>
+          <lpage>626</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ieeexplore.ieee.org/document/10590314" ext-link-type="uri">https://ieeexplore.ieee.org/document/10590314</ext-link></comment>
+          <pub-id pub-id-type="doi">10.1109/csci62032.2023.00109</pub-id>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B35-urbansci-10-00640">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Biljecki</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urban comfort assessment in the era of digital planning: A multidimensional, data-driven, and AI-assisted framework</article-title>
+          <source>arXiv</source>
+          <year>2025</year>
+          <pub-id pub-id-type="doi">10.48550/arxiv.2508.16057</pub-id>
+          <pub-id pub-id-type="arxiv">2508.16057</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-urbansci-10-00640">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Albadrani</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enriching Urban Life with AI and Uncovering Creative Solutions: Enhancing Livability in Saudi Cities</article-title>
+          <source>Sustainability</source>
+          <year>2025</year>
+          <volume>17</volume>
+          <elocation-id>6603</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su17146603</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-urbansci-10-00640">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alshahrani</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bridging cities and citizens with generative AI: Public readiness and trust in urban planning</article-title>
+          <source>Buildings</source>
+          <year>2025</year>
+          <volume>15</volume>
+          <elocation-id>2494</elocation-id>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.mdpi.com/2075-5309/15/14/2494" ext-link-type="uri">https://www.mdpi.com/2075-5309/15/14/2494</ext-link></comment>
+          <pub-id pub-id-type="doi">10.3390/buildings15142494</pub-id>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B38-urbansci-10-00640">
+        <label>38.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anwar</surname>
+              <given-names>A.H.M.</given-names>
+            </name>
+          </person-group>
+          <source>Understanding the Trajectory of Urban and Transport Development in Riyadh</source>
+          <publisher-name>King Abdullah Petroleum Studies and Research Center</publisher-name>
+          <publisher-loc>Riyadh, Saudi Arabia</publisher-loc>
+          <year>2022</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.kapsarc.org/media/jvwcx3ju/understanding-the-trajectory-of-urban-and-transport-development-in-riyadh.pdf" ext-link-type="uri">https://www.kapsarc.org/media/jvwcx3ju/understanding-the-trajectory-of-urban-and-transport-development-in-riyadh.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B39-urbansci-10-00640">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Klingmann</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rescripting Riyadh: How the capital of Saudi Arabia employs urban megaprojects as catalysts to enhance the quality of life within the city&#x2019;s neighborhoods</article-title>
+          <source>J. Place Manag. Dev.</source>
+          <year>2023</year>
+          <volume>16</volume>
+          <fpage>45</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="doi">10.1108/JPMD-06-2021-0062</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-urbansci-10-00640">
+        <label>40.</label>
+        <element-citation publication-type="web">
+          <article-title>Coliseum. &#x2018;Kingdom &#x201C;Green Spine&#x201D; Riyadh Sports Boulevard&#x2019;</article-title>
+          <year>2024</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.coliseum-online.com/kingdom-green-spine-riyadh-sports-boulevard/" ext-link-type="uri">https://www.coliseum-online.com/kingdom-green-spine-riyadh-sports-boulevard/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2024-02-18">(accessed on 18 February 2024)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B41-urbansci-10-00640">
+        <label>41.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Sports Boulevard</collab>
+          </person-group>
+          <article-title>Sports Boulevard Launches a Community Initiative: Walking Track and Riyde, Riyadh&#x2019;s Immersive Cycling Experience</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sportsboulevard.sa/en" ext-link-type="uri">https://sportsboulevard.sa/en</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B42-urbansci-10-00640">
+        <label>42.</label>
+        <element-citation publication-type="other">
+          <article-title>google Map</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://maps.google.com" ext-link-type="uri">https://maps.google.com</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B43-urbansci-10-00640">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Giannelli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Giuffrida</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Madrid R&#xED;o Park: Symbolic values and contingent valuation</article-title>
+          <source>Valori Valutazioni</source>
+          <year>2018</year>
+          <volume>21</volume>
+          <fpage>75</fpage>
+          <lpage>85.</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.researchgate.net/publication/331044354_Madrid_Rio_Park_Symbolic_values_and_contingent_valuation" ext-link-type="uri">https://www.researchgate.net/publication/331044354_Madrid_Rio_Park_Symbolic_values_and_contingent_valuation</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B44-urbansci-10-00640">
+        <label>44.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harvard University Graduate School of Design.</surname>
+            </name>
+          </person-group>
+          <article-title><italic>Madrid Rio</italic>. Urban Design Case Study Archive</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://udcsa.gsd.harvard.edu/projects/19" ext-link-type="uri">https://udcsa.gsd.harvard.edu/projects/19</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B45-urbansci-10-00640">
+        <label>45.</label>
+        <element-citation publication-type="web">
+          <article-title>West 8. Madrid R&#xCD;O</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.west8.com/projects/madrid-rio/" ext-link-type="uri">https://www.west8.com/projects/madrid-rio/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2024-06-05">(accessed on 5 June 2024)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B46-urbansci-10-00640">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Al Mushayt</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Dal Cin</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Barreiros Proen&#xE7;a</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>New lens to reveal the street interface: A morphological-visual perception methodological contribution for decoding the public/private edge of arterial streets</article-title>
+          <source>Sustainability</source>
+          <year>2021</year>
+          <volume>13</volume>
+          <elocation-id>11442</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su132011442</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-urbansci-10-00640">
+        <label>47.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Barcelona City Council</collab>
+          </person-group>
+          <source>Government Measure: Barcelona Superblock</source>
+          <publisher-name>Ajuntament de Barcelona</publisher-name>
+          <publisher-loc>Barcelona, Spain</publisher-loc>
+          <year>2021</year>
+        </element-citation>
+      </ref>
+      <ref id="B48-urbansci-10-00640">
+        <label>48.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>CDA Arquitectura</collab>
+          </person-group>
+          <article-title>Reconversion of the Central Axis of Avenue of the Republic, Lisbon</article-title>
+          <year>2016</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.cda-arquitectura.pt/en/av-republica" ext-link-type="uri">https://www.cda-arquitectura.pt/en/av-republica</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-20">(accessed on 20 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B49-urbansci-10-00640">
+        <label>49.</label>
+        <element-citation publication-type="web">
+          <article-title>SOCOTEC Project Management for the Avinguda Diagonal Urban Development Project in Barcelona</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.socotec.es/en/client-project/avinguda-diagonal-project-barcelona" ext-link-type="uri">https://www.socotec.es/en/client-project/avinguda-diagonal-project-barcelona</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-19">(accessed on 19 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B50-urbansci-10-00640">
+        <label>50.</label>
+        <element-citation publication-type="web">
+          <article-title>Simon Architecture Prize. Madrid R&#xED;o</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.simonprize.org/madrid-rio/sheet/" ext-link-type="uri">https://www.simonprize.org/madrid-rio/sheet/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-20">(accessed on 20 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B51-urbansci-10-00640">
+        <label>51.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schr&#xE9;der</surname>
+            </name>
+          </person-group>
+          <article-title>Lisbon Central Axis: Smart Lighting Brings High Operational Benefits to the City of Lisbon</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://latin.schreder.com/en/projects/schreder-smart-lighting-solution-brings-more-people-out-night-lisbon-while-reaping" ext-link-type="uri">https://latin.schreder.com/en/projects/schreder-smart-lighting-solution-brings-more-people-out-night-lisbon-while-reaping</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-20">(accessed on 20 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B52-urbansci-10-00640">
+        <label>52.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Barcelona City Council</collab>
+          </person-group>
+          <article-title>More Space for Pedestrians and Sustainable Transport with the Remodelled Av. Diagonal</article-title>
+          <year>2023</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.barcelona.cat/infobarcelona/en/tema/urban-planning-and-infrastructures/more-space-for-pedestrians-and-sustainable-transport-with-the-remodelled-av-diagonal_1419853.html" ext-link-type="uri">https://www.barcelona.cat/infobarcelona/en/tema/urban-planning-and-infrastructures/more-space-for-pedestrians-and-sustainable-transport-with-the-remodelled-av-diagonal_1419853.html</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-20">(accessed on 20 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B53-urbansci-10-00640">
+        <label>53.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Sports Boulevard Foundation</collab>
+          </person-group>
+          <article-title>Sports Boulevard Design Code Manual T6</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sportsboulevard.sa/uploads/2022/05/SB-T6-1.pdf" ext-link-type="uri">https://sportsboulevard.sa/uploads/2022/05/SB-T6-1.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-20">(accessed on 20 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B54-urbansci-10-00640">
+        <label>54.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Madrid Destino Cultura Turismo y Negocio</surname>
+              <given-names>S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Madrid R&#xED;o</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.esmadrid.com/en/madrid-neighbourhoods/madrid-rio" ext-link-type="uri">https://www.esmadrid.com/en/madrid-neighbourhoods/madrid-rio</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-20">(accessed on 20 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B55-urbansci-10-00640">
+        <label>55.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Autoritat del Transport Metropolit&#xE0;</collab>
+          </person-group>
+          <article-title>Integration Tests of the Tram on Avinguda Diagonal Begin</article-title>
+          <year>2024</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ce.atm.cat/en/web/portal-atm/w/np_comencen-les-proves-d-integraci%C3%B3-del-tramvia-per-l-avinguda-diagonal-2" ext-link-type="uri">https://ce.atm.cat/en/web/portal-atm/w/np_comencen-les-proves-d-integraci%C3%B3-del-tramvia-per-l-avinguda-diagonal-2</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-20">(accessed on 20 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B56-urbansci-10-00640">
+        <label>56.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pilar</surname>
+            </name>
+          </person-group>
+          <article-title>Sensing Public Spaces-Noumena</article-title>
+          <source>Noumena</source>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://noumena.io/works/sensing-public-spaces/" ext-link-type="uri">https://noumena.io/works/sensing-public-spaces/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2024-01-19">(accessed on 19 January 2024)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B57-urbansci-10-00640">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shokry</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reframing urban intelligence: A critical global analysis of artificial intelligence integration in inclusive and sustainable urban design</article-title>
+          <source>J. Eng. Sci.</source>
+          <year>2025</year>
+          <volume>54</volume>
+          <fpage>535</fpage>
+          <lpage>556</lpage>
+          <pub-id pub-id-type="doi">10.21608/jesaun.2025.386671.1520</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-urbansci-10-00640">
+        <label>58.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Snow</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>This AI Traffic System in Pittsburgh Has Reduced Travel Time by 25%. Smart Cities Dive</article-title>
+          <year>2017</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.smartcitiesdive.com/news/this-ai-traffic-system-in-pittsburgh-has-reduced-travel-time-by-25/447494/" ext-link-type="uri">https://www.smartcitiesdive.com/news/this-ai-traffic-system-in-pittsburgh-has-reduced-travel-time-by-25/447494/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B59-urbansci-10-00640">
+        <label>59.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pavegen</surname>
+            </name>
+          </person-group>
+          <article-title>Solutions-Smart Cities/Buildings</article-title>
+          <year>2026</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://twctmt.com/pavegen-smart-cities/" ext-link-type="uri">https://twctmt.com/pavegen-smart-cities/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B60-urbansci-10-00640">
+        <label>60.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Saudi Gazette</collab>
+          </person-group>
+          <article-title>Sports Boulevard Launches RIYDE: A Cutting-Edge Immersive Cycling Experience</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://saudigazette.com.sa/article/640167" ext-link-type="uri">https://saudigazette.com.sa/article/640167</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B61-urbansci-10-00640">
+        <label>61.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Sensoneo</collab>
+          </person-group>
+          <article-title>Exciting News from Riyadh! We Have Partnered with Our Trusted Partner in Saudi Arabia Wastech to Launch an Innovative Smart Waste Project in the Iconic Sports Boulevard Foundation [LinkedIn Post]. LinkedIn</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.linkedin.com/posts/sensoneo_smartwaste-sustainability-saudivision2030-activity-7312368142964445184-hyTU" ext-link-type="uri">https://www.linkedin.com/posts/sensoneo_smartwaste-sustainability-saudivision2030-activity-7312368142964445184-hyTU</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2025-03-30">(accessed on 30 March 2025)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B62-urbansci-10-00640">
+        <label>62.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Wastech</collab>
+          </person-group>
+          <article-title>Wastech: Smart Waste Management Solutions</article-title>
+          <year>2026</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://wastech.sa/" ext-link-type="uri">https://wastech.sa/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-09-01">(accessed on 1 September 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B63-urbansci-10-00640">
+        <label>63.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Asharq Al-Awsat</collab>
+          </person-group>
+          <article-title>Sports Boulevard Launches Landmark Community Information Center in Riyadh. Asharq Al-Awsat English</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://english.aawsat.com/sports/4385111-sports-boulevard-launches-landmark-community-information-center-riyadh" ext-link-type="uri">https://english.aawsat.com/sports/4385111-sports-boulevard-launches-landmark-community-information-center-riyadh</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2023-06-15">(accessed on 15 June 2023)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B64-urbansci-10-00640">
+        <label>64.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheah</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Barcelona&#x2019;s Growing Urban AI Ecosystem. The Urban Prompt</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.theurbanprompt.com/p/barcelonas-urban-ai" ext-link-type="uri">https://www.theurbanprompt.com/p/barcelonas-urban-ai</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2024-10-31">(accessed on 31 October 2024)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B65-urbansci-10-00640">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dorostkar</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adaptive climate modeling with AI for smart selection of urban structure</article-title>
+          <source>npj Clim. Action</source>
+          <year>2025</year>
+          <volume>4</volume>
+          <fpage>106</fpage>
+          <pub-id pub-id-type="doi">10.1038/s44168-025-00313-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B66-urbansci-10-00640">
+        <label>66.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>AI-driven digital twin frameworks for predictive urban mobility management and sustainable infrastructure lifecycle optimization</article-title>
+          <source>Future</source>
+          <year>2023</year>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://fupress.org/journal" ext-link-type="uri">https://fupress.org/journal</ext-link>; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://fupress.org/journal/AITS/index.php/journal/article/view/90" ext-link-type="uri">https://fupress.org/journal/AITS/index.php/journal/article/view/90</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-04">(accessed on 4 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="urbansci-10-00640-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Map of the Sports Boulevard [<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>].  A map of the Sports Boulevard project in Riyadh. (<bold>a</bold>) Main map of Riyadh showing the Sports Boulevard corridor, includes  The yellow line indicates the Sports Boulevard corridor, the cyan line represents Wadi Hanifah, the tan shaded area indicates Wadi Al Sulai, and the gray lines indicate the main arterial roads. (<bold>b</bold>) Riyadh metropolitan boundaries, with the Sports Boulevard blue highlighted along Prince Mohammed bin Salman Road. Source: [<xref ref-type="bibr" rid="B40-urbansci-10-00640">40</xref>,<xref ref-type="bibr" rid="B42-urbansci-10-00640">42</xref>] with author&#x2019;s annotation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00640-g001.tif"/>
+      </fig>
+      <fig id="urbansci-10-00640-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>The main stages of the research methodology Source: (Author).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00640-g002.tif"/>
+      </fig>
+      <fig id="urbansci-10-00640-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Aerial top-down view of a completed section of the Sports Boulevard, in Riyadh. showing multi-lane vehicle traffic integrated with sidewalks and open spaces (Google Earth, edited by the author).The red line indicates the Sports Boulevard along Prince Mohammed Bin Salman Road. The figure presents the project corridor at the local, city-wide, and neighborhood scales. Source: ([<xref ref-type="bibr" rid="B42-urbansci-10-00640">42</xref>] with Author&#x2019;s annotation).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00640-g003.tif"/>
+      </fig>
+      <fig id="urbansci-10-00640-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Location and urban context of the examined section of Riyadh&#x2019;s Sports Boulevard. (<bold>a</bold>) Geographic location and alignment of the examined corridor in relation to Wadi Hanifah, Prince Mohammed bin Salman Road, and Wadi Al Sulay Road, with inset maps illustrating the associated linear features; (<bold>b</bold>) public-realm design and pedestrian environment along the corridor; and (<bold>c</bold>) landscaped public space and water features illustrating the corridor&#x2019;s recreational and environmental qualities. Source: Map adapted by [<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>]; photographs by the author [May 2026].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00640-g004.tif"/>
+      </fig>
+      <fig id="urbansci-10-00640-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Photographic survey of a completed section of Riyadh&#x2019;s Sports Boulevard: (<bold>a</bold>) landscaped pedestrian path with bicycle-parking facilities, illustrating support for active mobility; (<bold>b</bold>) landscaped buffer between the biking lane and vehicular space; (<bold>c</bold>) protected cycling path separated from vehicular traffic by physical bollards and planting; and (<bold>d</bold>) shaded children&#x2019;s play and gathering area, illustrating climatic adaptation and social interaction. Source: Photographs by the author [May 2026].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00640-g005.tif"/>
+      </fig>
+      <fig id="urbansci-10-00640-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Aerial top-down view of a section of Madrid R&#xED;o, showing multi-lane traffic integrated with sidewalks and green trees alongside the river The red line in the citywide map indicates the The red line in the citywide map indicates the Madrid Rio project corridor. Source: [<xref ref-type="bibr" rid="B42-urbansci-10-00640">42</xref>] with author annotation).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00640-g006.tif"/>
+      </fig>
+      <fig id="urbansci-10-00640-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>.Aerial top view of a contemporary section of Avenida da Rep&#xFA;blica, Lisbon, featuring multi-lane traffic integrated with a dense canopy of trees. The upper-right inset provides the broader urban context, with the yellow line indicating the location of Avenida da Rep&#xFA;blica within Lisbon Source: [<xref ref-type="bibr" rid="B42-urbansci-10-00640">42</xref>], with author&#x2019;s annotation).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00640-g007.tif"/>
+      </fig>
+      <fig id="urbansci-10-00640-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Aerial top-down view of a modern section of Avinguda Diagonal, Barcelona, showing multi-lane traffic integrated with a dense canopy of trees Source: [<xref ref-type="bibr" rid="B42-urbansci-10-00640">42</xref>], with author&#x2019;s annotation).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00640-g008.tif"/>
+      </fig>
+      <table-wrap id="urbansci-10-00640-t001" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00640-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Indicators used in the morphological comparison.Source: (Author).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Principle</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Observable Indicators</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Human scale</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pedestrian-oriented allocation of street space; pedestrian-scale edges and enclosure; sidewalk width; presence of seating and any street furniture; lighting and landscape elements</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Walkability and active mobility</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Continuity and accessibility of sidewalks; protection and continuity of cycling routes; safety and frequency of crossings; connections to adjacent destinations and public transport</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Social interaction and placemaking</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Seating; shaded rest areas; plazas; play spaces; recreational facilities; public open spaces; accessible connections</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Contextual adaptation</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Provision and continuity of shade; climate-responsive planting and landscaping; response to local climatic and cultural conditions</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="urbansci-10-00640-t002" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00640-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Comparative morphological and quantitative characteristics of the selected arterial-street transformations Source:  (Author).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Main Principle (<xref ref-type="table" rid="urbansci-10-00640-t001">Table 1</xref>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Observable Indicator/Comparative Aspect</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Madrid R&#xED;o, Spain</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Avenida da Rep&#xFA;blica, Lisbon, Portugal</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Avinguda Diagonal, Barcelona, Spain</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Riyadh Sports Boulevard, Saudi Arabia</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> Human scale </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Corridor type, overall length, and pedestrian-scale spatial character</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">River-corridor/park transformation; more than 10 km long; pedestrian-scale landscape and public-realm elements distributed along the Manzanares corridor.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Urban arterial retrofit; approximately 2&#x2013;3 km intervention corridor; widened sidewalks, tree alignments, and reallocated street space support a pedestrian-oriented boulevard character.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Major urban avenue; approximately 11 km long; selected remodeling sections increase pedestrian space through wider pavements, green infrastructure, and street furniture.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Large-scale linear urban corridor; 135 km planned length; organized through multiple destinations combining pedestrian and cycling routes with public-realm and recreational elements.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Human scale</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pedestrian-oriented space allocation and documented sidewalk width (where available)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">A continuous linear corridor 120&#x2013;200 m wide [<xref ref-type="bibr" rid="B43-urbansci-10-00640">43</xref>,<xref ref-type="bibr" rid="B44-urbansci-10-00640">44</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Reallocated road space through reduced parking and removal of a traffic lane; widened building-side sidewalks; 3 m central divider; cycle path on the west side [<xref ref-type="bibr" rid="B48-urbansci-10-00640">48</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pavements widened to 7&#x2013;7.5 m [<xref ref-type="bibr" rid="B47-urbansci-10-00640">47</xref>] in the documented redevelopment section; pedestrian promenade and cycling facilities improved [<xref ref-type="bibr" rid="B49-urbansci-10-00640">49</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Widened the sidewalks to approximately 12 m [<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>].</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Human scale</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pedestrian-scale edges, street furniture, lighting, and landscape elements (where documented)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Landscape-based pedestrian public realm; which includes 12 pedestrian-bridges, 6 ha of public sports facilities, social, communal, and artistic amenities. Children&#x2019;s areas and outdoor furniture [<xref ref-type="bibr" rid="B44-urbansci-10-00640">44</xref>,<xref ref-type="bibr" rid="B50-urbansci-10-00640">50</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Widened building-side sidewalks, five tree alignments, benches and outdoor terraces; pedestrian areas [<xref ref-type="bibr" rid="B48-urbansci-10-00640">48</xref>]. Supported by renovated LED lighting [<xref ref-type="bibr" rid="B51-urbansci-10-00640">51</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Remodeled and repaved pedestrian pavements with reallocated street space; new urban furniture and new lighting [<xref ref-type="bibr" rid="B47-urbansci-10-00640">47</xref>,<xref ref-type="bibr" rid="B52-urbansci-10-00640">52</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">A landscaped public realm and various sports, cultural, and recreational facilities are integral to the project. The Design Code emphasizes lighting and pedestrian-focused urban design standards [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>,<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>,<xref ref-type="bibr" rid="B53-urbansci-10-00640">53</xref>].</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Walkability and active mobility</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Continuity and accessibility of sidewalks and pedestrian routes</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Riverside pedestrian network incorporating the 6 km Sal&#xF3;n de Pinos walkway [<xref ref-type="bibr" rid="B43-urbansci-10-00640">43</xref>,<xref ref-type="bibr" rid="B44-urbansci-10-00640">44</xref>]. Universal-access compliance is not established by the cited description [<xref ref-type="bibr" rid="B54-urbansci-10-00640">54</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Building sidewalks widened; lowered pavement levels for people with reduced mobility documented within the wider Lisbon Central Axis scheme [<xref ref-type="bibr" rid="B48-urbansci-10-00640">48</xref>,<xref ref-type="bibr" rid="B51-urbansci-10-00640">51</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pavements remodeled and repaved between Los Castillejos and Passeig de Sant Joan; continuous accessibility across the entire avenue is not established [<xref ref-type="bibr" rid="B52-urbansci-10-00640">52</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pedestrian pathways incorporated across the project&#x2019;s destinations [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>].</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Walkability and active mobility</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cycling route continuity and active-transport provision</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Approximately 30 km of routes are shared by walkers and cyclists, connected with the Green Cycling Ring and other city cycling routes [<xref ref-type="bibr" rid="B54-urbansci-10-00640">54</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cycle path incorporated into the widened western side divider [<xref ref-type="bibr" rid="B48-urbansci-10-00640">48</xref>] for calming and the prioritization of soft mobility [<xref ref-type="bibr" rid="B1-urbansci-10-00640">1</xref>,<xref ref-type="bibr" rid="B46-urbansci-10-00640">46</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Two-way cycle lane relocated along specified central-road and side-road sections; the documented intervention does not establish continuity along the entire avenue [<xref ref-type="bibr" rid="B52-urbansci-10-00640">52</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Provision for professional and amateur cycling, with dedicated cycling routes within destinations including the university loop and Sands Sports Park [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>].</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Walkability and active mobility</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Crossing arrangements, traffic-space reallocation, and connections to destinations and public transport</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Twelve new pedestrian bridges connect riverbank neighborhoods [<xref ref-type="bibr" rid="B50-urbansci-10-00640">50</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Parking reduction and reallocation of local access and public-transport connections are not specified in the cited project description.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cycle-lane segregation at pedestrian crossings; coordination of bicycle and tram signals described as planned within the Gl&#xF2;ries&#x2013;Verdaguer tram-integration scheme [<xref ref-type="bibr" rid="B52-urbansci-10-00640">52</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cycling bridge exceeding 900 m connects the Promenade and Wadi Hanifah; crossing spacing and public-transport access are not specified in the cited description [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>,<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>].</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Social interaction and placemaking</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Seating, shaded rest areas, plazas, play spaces, recreational facilities, and public open spaces</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Linear public park with 6 ha of public sports, social, communal, and artistic amenities; children&#x2019;s areas, outdoor furniture, an urban beach, and landscaped public spaces [<xref ref-type="bibr" rid="B50-urbansci-10-00640">50</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Benches and outdoor terraces along widened sidewalks. Dedicated play spaces, plazas, and shaded rest areas are not specified in the reviewed project documentation [<xref ref-type="bibr" rid="B48-urbansci-10-00640">48</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">The remodeled Los Castillejos section provides 17,290 m<sup>2</sup> of additional pedestrian space and new street furniture including benches and lighting. The adjacent remodeled plaza Pablo Neruda provides an open gathering space [<xref ref-type="bibr" rid="B55-urbansci-10-00640">55</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Completed first-phase destinations like Wadi Hanifah and Promenade included green spaces, water features, walking trails, children&#x2019;s playgrounds, cycling rest stops, retail, bicycle-service facilities, and art installations [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>,<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>].</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Contextual adaptation</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Greening scale; planting and landscape strategy</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">The Sal&#xF3;n de Pinos (Pine Lounge), a planting strategy of about 35,000 trees [<xref ref-type="bibr" rid="B43-urbansci-10-00640">43</xref>,<xref ref-type="bibr" rid="B44-urbansci-10-00640">44</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">About 300 newly planted trees contribute to the boulevard&#x2019;s public-realm setting [<xref ref-type="bibr" rid="B48-urbansci-10-00640">48</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">About 8965 m<sup>2</sup> of green space with parterres and 266 trees [<xref ref-type="bibr" rid="B55-urbansci-10-00640">55</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">More than 13 km<sup>2</sup> are planned to be dedicated to park space. Shade infrastructure, including tree canopies, shade structures and covered walkways [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>,<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>].</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Contextual adaptation</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Climate context and environmental exposure</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mediterranean continental setting, with hot temperature; the river-corridor transformation responds primarily through ecological restoration, vegetation, and recovered public space [<xref ref-type="bibr" rid="B54-urbansci-10-00640">54</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mediterranean climate, with exposure to summer heat, drought, and seasonal flooding; tree planting and widened pedestrian space are relevant within Lisbon&#x2019;s wider green-infrastructure adaptation agenda [<xref ref-type="bibr" rid="B48-urbansci-10-00640">48</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mediterranean climate, with summer heat, the documented section responds through increased pedestrian space, green infrastructure, and tree planting [<xref ref-type="bibr" rid="B55-urbansci-10-00640">55</xref>].</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hyper-arid desert context, with extreme summer heat, dust. The design prioritizes thermal comfort and water sensitivity, in addition to the use of shade infrastructure [<xref ref-type="bibr" rid="B5-urbansci-10-00640">5</xref>,<xref ref-type="bibr" rid="B41-urbansci-10-00640">41</xref>].</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

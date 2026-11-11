@@ -1,0 +1,378 @@
+[
+  {
+    "key": "je_kuleuven",
+    "url": "https://lirias.kuleuven.be/retrieve/6b8e92a2-d501-43f2-bfdc-d4f65e01f365",
+    "status": 200,
+    "bytes": 2472108,
+    "type": "application/pdf",
+    "final_url": "https://lirias.kuleuven.be/retrieve/6b8e92a2-d501-43f2-bfdc-d4f65e01f365",
+    "is_pdf": true
+  },
+  {
+    "key": "je_durham",
+    "url": "https://durham-repository.worktribe.com/file/5616632/1/Published%20Journal%20Article%20%28Advance%20Online%20Version%29",
+    "status": 403,
+    "bytes": 5776,
+    "type": "text/html; charset=UTF-8",
+    "final_url": "https://durham-repository.worktribe.com/file/5616632/1/Published%20Journal%20Article%20%28Advance%20Online%20Version%29",
+    "is_pdf": false
+  },
+  {
+    "key": "lr_ucl",
+    "url": "https://discovery.ucl.ac.uk/id/eprint/10232584/1/Waterman_2026-05-26_Landscapes_of_Care_Main_Document.pdf",
+    "status": 200,
+    "bytes": 195693,
+    "type": "application/pdf",
+    "final_url": "https://discovery.ucl.ac.uk/id/eprint/10232584/1/Waterman_2026-05-26_Landscapes_of_Care_Main_Document.pdf",
+    "is_pdf": true
+  },
+  {
+    "key": "je_whiterose",
+    "url": "https://eprints.whiterose.ac.uk/id/eprint/241364/10/The%20challenge%20of%20GI%20mainstreaming%20within%20market-led%20planning%20and%20development%20systems%20%20assessing%20attitudes%20and%20experiences%20of%20regime%20level%20actors.pdf",
+    "status": 200,
+    "bytes": 791617,
+    "type": "application/pdf",
+    "final_url": "https://eprints.whiterose.ac.uk/id/eprint/241364/10/The%20challenge%20of%20GI%20mainstreaming%20within%20market-led%20planning%20and%20development%20systems%20%20assessing%20attitudes%20and%20experiences%20of%20regime%20level%20actors.pdf",
+    "is_pdf": true
+  },
+  {
+    "key": "lr_oa2025",
+    "url": "https://api.openalex.org/works?filter=primary_location.source.id:S134774064,from_publication_date:2025-01-01,to_publication_date:2026-11-09,open_access.is_oa:true&sort=publication_date:desc&per-page=50",
+    "status": 200,
+    "bytes": 856681,
+    "type": "application/json",
+    "final_url": "https://api.openalex.org/works?filter=primary_location.source.id:S134774064,from_publication_date:2025-01-01,to_publication_date:2026-11-09,open_access.is_oa:true&sort=publication_date:desc&per-page=50",
+    "is_pdf": false,
+    "repos": [
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2712903",
+        "title": "From resilience to healing: urban poor women and socio-ecological repair in Phnom Penh",
+        "date": "2026-10-06",
+        "repo_pdf": null,
+        "landing": "https://hdl.handle.net/2292/77523"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2722040",
+        "title": "Geographies of the underused: reflections on the overlooked heritage in the Lake Albano waterscape (Italy)",
+        "date": "2026-09-10",
+        "repo_pdf": "https://air.uniud.it/bitstream/11390/1342644/1/Geographies%20of%20the%20underused%20%20reflections%20on%20the%20overlooked%20heritage%20in%20the%20Lake%20Albano%20waterscape%20%20Italy%20.pdf",
+        "landing": "https://hdl.handle.net/11390/1342644"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2712899",
+        "title": "Landscapes of care, landscapes through care",
+        "date": "2026-08-18",
+        "repo_pdf": "https://discovery.ucl.ac.uk/id/eprint/10232584/1/Waterman_2026-05-26_Landscapes_of_Care_Main_Document.pdf",
+        "landing": "https://discovery.ucl.ac.uk/id/eprint/10232584/"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2590705",
+        "title": "From circular to linear flows? Structural and functional transformations in the Dutch esdorp landscape",
+        "date": "2025-12-17",
+        "repo_pdf": null,
+        "landing": "https://hdl.handle.net/2066/327080"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2597219",
+        "title": "From separation to integration: plural perspectives to study nature-culture relations in two Dutch nature reserves",
+        "date": "2025-12-10",
+        "repo_pdf": null,
+        "landing": "https://research.rug.nl/en/publications/48bcffe3-c2c5-4572-85d6-ba3b96831779"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2590704",
+        "title": "Beyond the view: exploring embodied experiences in rural landscapes",
+        "date": "2025-12-04",
+        "repo_pdf": null,
+        "landing": "https://doi.org/10.1080/01426397.2025.2590704\">https://doi.org/10.1080/01426397.2025.2590704</a>"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2590704",
+        "title": "Beyond the view: exploring embodied experiences in rural landscapes",
+        "date": "2025-12-04",
+        "repo_pdf": null,
+        "landing": "https://www.zora.uzh.ch/handle/20.500.14742/239647"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2590704",
+        "title": "Beyond the view: exploring embodied experiences in rural landscapes",
+        "date": "2025-12-04",
+        "repo_pdf": null,
+        "landing": "https://doi.org/10.5167/uzh-281385"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2570441",
+        "title": "Fragmenting, filling and forgetting: the making of a post-industrial landscape",
+        "date": "2025-12-02",
+        "repo_pdf": "https://orca.cardiff.ac.uk/id/eprint/182820/1/Fragmenting%20%20filling%20and%20forgetting%20%20the%20making%20of%20a%20post-industrial%20landscape.pdf",
+        "landing": "https://orca.cardiff.ac.uk/id/eprint/182820/1/Fragmenting%20%20filling%20and%20forgetting%20%20the%20making%20of%20a%20post-industrial%20landscape.pdf"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2587759",
+        "title": "Native Welsh ponies as socio-ecological partners: stakeholder perspectives on landscape management in Wales",
+        "date": "2025-11-28",
+        "repo_pdf": null,
+        "landing": "https://pureportal.coventry.ac.uk/en/publications/9349597f-09b4-4271-bd88-bbe6f6e0b837"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2580344",
+        "title": "Dalla Parte del Fuoco. Riti, Visioni, Pratiche di Coltivazione nel Paesaggio/On the Side of Fire. Rites, Visions, Cultivation Practices in the Landscape",
+        "date": "2025-11-25",
+        "repo_pdf": "https://hal.science/hal-05508046v1/document",
+        "landing": "https://hal.science/hal-05508046"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2562865",
+        "title": "Soundscape Characterisation Tool (SCT): semantic assessment of sound quality in landscape projects",
+        "date": "2025-11-20",
+        "repo_pdf": "https://eprints.ncl.ac.uk/fulltext.aspx?url=308825/9D891CA3-CAFE-42EB-B2E4-BF544F6E1B4E.pdf&pub_id=308825",
+        "landing": "https://eprints.ncl.ac.uk/fulltext.aspx?url=308825/9D891CA3-CAFE-42EB-B2E4-BF544F6E1B4E.pdf&pub_id=308825"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2562865",
+        "title": "Soundscape Characterisation Tool (SCT): semantic assessment of sound quality in landscape projects",
+        "date": "2025-11-20",
+        "repo_pdf": "https://pub.epsilon.slu.se/39980/1/hedfors-p-et-al-20260429.pdf",
+        "landing": "https://pub.epsilon.slu.se/39980/1/hedfors-p-et-al-20260429.pdf"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2562865",
+        "title": "Soundscape Characterisation Tool (SCT): semantic assessment of sound quality in landscape projects",
+        "date": "2025-11-20",
+        "repo_pdf": null,
+        "landing": "http://urn.kb.se/resolve?urn=urn:nbn:se:trafikverket:diva-22296"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2591265",
+        "title": "Towards an agrarian urbanism beyond the rural–urban divide",
+        "date": "2025-11-17",
+        "repo_pdf": null,
+        "landing": "https://hdl.handle.net/11311/1302909"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2591265",
+        "title": "Towards an agrarian urbanism beyond the rural–urban divide",
+        "date": "2025-11-17",
+        "repo_pdf": null,
+        "landing": "https://www.zora.uzh.ch/handle/20.500.14742/241388"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2591265",
+        "title": "Towards an agrarian urbanism beyond the rural–urban divide",
+        "date": "2025-11-17",
+        "repo_pdf": null,
+        "landing": "https://doi.org/10.5167/uzh-282961"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2583463",
+        "title": "Navigating values in decision-making to shape the landscape of Bangkok’s urban waterways",
+        "date": "2025-11-12",
+        "repo_pdf": null,
+        "landing": "https://orcid.org/0009-0006-9155-4237>"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2563729",
+        "title": "Scars of time: layered landscapes and valuation processes in a postindustrial site of the Catalan Pyrenees",
+        "date": "2025-11-11",
+        "repo_pdf": null,
+        "landing": "https://ddd.uab.cat/record/322676"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2574068",
+        "title": "‘Tidy data for clean pastures’: bureaucratic control of shrub encroachment and farmers’ environmental subjectivities",
+        "date": "2025-10-31",
+        "repo_pdf": "https://hal.science/hal-05341666/document",
+        "landing": "https://hal.science/hal-05341666"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2562867",
+        "title": "Lolland’s changing landscapes: insights from long-term interactions between people and the environment",
+        "date": "2025-10-11",
+        "repo_pdf": null,
+        "landing": "http://urn.kb.se/resolve?urn=urn:nbn:se:lnu:diva-142014"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2562867",
+        "title": "Lolland’s changing landscapes: insights from long-term interactions between people and the environment",
+        "date": "2025-10-11",
+        "repo_pdf": null,
+        "landing": "https://hdl.handle.net/109.1.5/344f3b34-471c-4a2f-9ffd-5672c0f98f12"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2562867",
+        "title": "Lolland’s changing landscapes: insights from long-term interactions between people and the environment",
+        "date": "2025-10-11",
+        "repo_pdf": null,
+        "landing": "https://www.scopus.com/pages/publications/105018823567"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2540884",
+        "title": "Capturing rural gentrification",
+        "date": "2025-09-22",
+        "repo_pdf": null,
+        "landing": "https://uu.diva-portal.org/smash/get/diva2:2005745/FULLTEXT01"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2562862",
+        "title": "Sense of place and identity in peri-urban landscapes: a multimethod exploration",
+        "date": "2025-09-20",
+        "repo_pdf": "https://dirros.openscience.si/Dokument.php?lang=slv&id=36041&dn=",
+        "landing": "https://dirros.openscience.si/Dokument.php?id=41639&dn="
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2548240",
+        "title": "Aboriginal cultural uses of public signage: asserting sovereignty and inviting reconciliation through graphic displays",
+        "date": "2025-09-09",
+        "repo_pdf": null,
+        "landing": "https://figshare.com/articles/journal_contribution/Aboriginal_cultural_uses_of_public_signage_asserting_sovereignty_and_inviting_reconciliation_through_graphic_displays/29538560"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2552995",
+        "title": "Spatial opportunities at the rural-urban fringe: balancing urban growth, food production and ecology",
+        "date": "2025-09-08",
+        "repo_pdf": null,
+        "landing": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=elements_prod&SrcAuth=WosAPI&KeyUT=WOS:001566069800001&DestLinkType=FullRecord&DestApp=WOS_CPL"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2551281",
+        "title": "From monosensory to multisensory: how forests transform people’s understanding of landscape",
+        "date": "2025-08-25",
+        "repo_pdf": null,
+        "landing": "https://www.utupub.fi/handle/11111/48046"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2551281",
+        "title": "From monosensory to multisensory: how forests transform people’s understanding of landscape",
+        "date": "2025-08-25",
+        "repo_pdf": null,
+        "landing": "https://www.utupub.fi/handle/10024/189654"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2537772",
+        "title": "What do indeterminacy and uncertainty mean in landscape research? Perspectives from natural sciences, social sciences, and arts",
+        "date": "2025-08-21",
+        "repo_pdf": "https://rgu-repository.worktribe.com/file/1823828/1/FREMANTLE%202026%20What%20do%20indeterminacy%20and%20uncertainty%20mean%20%28VOR%29",
+        "landing": "https://doi.org/10.1080/01426397.2025.2537772"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2537772",
+        "title": "What do indeterminacy and uncertainty mean in landscape research? Perspectives from natural sciences, social sciences, and arts",
+        "date": "2025-08-21",
+        "repo_pdf": "https://nora.nerc.ac.uk/id/eprint/540178/1/N540178JA.pdf",
+        "landing": "https://orcid.org/0000-0002-5818-8208"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2537772",
+        "title": "What do indeterminacy and uncertainty mean in landscape research? Perspectives from natural sciences, social sciences, and arts",
+        "date": "2025-08-21",
+        "repo_pdf": "https://repository.ubn.ru.nl/bitstream/handle/2066/322682/1/322682.pdf",
+        "landing": "https://hdl.handle.net/2066/322682"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2537772",
+        "title": "What do indeterminacy and uncertainty mean in landscape research? Perspectives from natural sciences, social sciences, and arts",
+        "date": "2025-08-21",
+        "repo_pdf": "https://rgu-repository.worktribe.com/preview/1879701/FREMANTLE%202026%20What%20do%20indeterminacy%20and%20uncertainty%20mean%20%28VOR%29.pdf",
+        "landing": "https://rgu-repository.worktribe.com/1823828/1/FREMANTLE%202026%20What%20do%20indeterminacy%20and%20uncertainty%20mean%20%28VOR%29"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2537772",
+        "title": "What do indeterminacy and uncertainty mean in landscape research? Perspectives from natural sciences, social sciences, and arts",
+        "date": "2025-08-21",
+        "repo_pdf": "https://strathprints.strath.ac.uk/93656/7/Fremantle-etal-LR-2025-What-do-indeterminacy-and-uncertainty-mean-in-landscape-research.pdf",
+        "landing": "https://strathprints.strath.ac.uk/view/author/239936.html>"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2537772",
+        "title": "What do indeterminacy and uncertainty mean in landscape research? Perspectives from natural sciences, social sciences, and arts",
+        "date": "2025-08-21",
+        "repo_pdf": null,
+        "landing": "https://hdl.handle.net/2164/26924"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2538716",
+        "title": "A geopolitical and social shift in Arcadia. The German occupation of the Netherlands and its impact on Dutch country houses and estates, 1940–1945",
+        "date": "2025-08-20",
+        "repo_pdf": null,
+        "landing": "https://hdl.handle.net/2066/325589"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2526498",
+        "title": "Soils in motion: the metabolism of New York City’s urban grounds",
+        "date": "2025-07-15",
+        "repo_pdf": null,
+        "landing": "http://hdl.handle.net/20.500.11850/746092"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2526498",
+        "title": "Soils in motion: the metabolism of New York City’s urban grounds",
+        "date": "2025-07-15",
+        "repo_pdf": null,
+        "landing": "https://doi.org/10.3929/ethz-b-000746092"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2526505",
+        "title": "Constructing/curating Woomera: a topology of displacement between northeastern Europe and Central Australia",
+        "date": "2025-07-10",
+        "repo_pdf": null,
+        "landing": "https://hdl.handle.net/2440/147647"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2523416",
+        "title": "Thirty-three years of land cover change analysis on Idjwi Island (DRC) using remote sensing and landscape metrics",
+        "date": "2025-07-04",
+        "repo_pdf": "https://orbi.uliege.be/bitstream/2268/335919/1/useni_landsc.res._2025.pdf",
+        "landing": "https://orbi.uliege.be/handle/2268/335919"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2474454",
+        "title": "Indigenous People(s), Knowledges, and the future of landscape research: Response to M. Joaquin Lopez-Huertas (2024), ‘We don’t believe they are dead, they are just resting’: Indigenous Knowledges as epistemological reclamation in planning",
+        "date": "2025-07-04",
+        "repo_pdf": null,
+        "landing": "https://eprints.lancs.ac.uk/id/eprint/231398/"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2514004",
+        "title": "Assembling, governing, enmeshing (AGE): a land(scape)-oriented methodology for mass housing estates",
+        "date": "2025-07-02",
+        "repo_pdf": null,
+        "landing": "http://hdl.handle.net/20.500.11850/744466"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2514004",
+        "title": "Assembling, governing, enmeshing (AGE): a land(scape)-oriented methodology for mass housing estates",
+        "date": "2025-07-02",
+        "repo_pdf": null,
+        "landing": "https://doi.org/10.3929/ethz-b-000744466"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2514002",
+        "title": "Architectures of un/belonging: transitory migrant histories and ambivalences of power in the Greta and Benalla migrant camps",
+        "date": "2025-06-25",
+        "repo_pdf": null,
+        "landing": "https://figshare.com/articles/journal_contribution/Architectures_of_un_belonging_transitory_migrant_histories_and_ambivalences_of_power_in_the_Greta_and_Benalla_migrant_camps/29511146"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2516011",
+        "title": "Production and consumption in Bibliotherapy for the Anthropocene",
+        "date": "2025-06-23",
+        "repo_pdf": null,
+        "landing": "https://orcid.org/0000-0002-1233-6244"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2516812",
+        "title": "The politics of interdependence in community-led landscape restoration",
+        "date": "2025-06-18",
+        "repo_pdf": null,
+        "landing": "http://hdl.handle.net/20.500.11850/741697"
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2516812",
+        "title": "The politics of interdependence in community-led landscape restoration",
+        "date": "2025-06-18",
+        "repo_pdf": null,
+        "landing": "https://doi.org/10.3929/ethz-b-000741697"
+      }
+    ]
+  }
+]

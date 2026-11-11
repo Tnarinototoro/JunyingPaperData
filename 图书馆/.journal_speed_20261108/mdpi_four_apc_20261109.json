@@ -1,0 +1,127 @@
+{
+  "checked_on_local": "2026-11-09",
+  "timezone": "Asia/Shanghai",
+  "official_current_price_verified": false,
+  "discount": {
+    "fraction": 0.1,
+    "source_local": "埼玉大学図書館2.pdf",
+    "source_official_general": "https://mdpi.cn/ioap",
+    "eligibility": "Saitama University affiliated corresponding author or coauthor under provided library document; use university email. Current publisher participant list not separately verified.",
+    "calculation": "Source metadata APC multiplied by 0.9; not confirmed current publisher invoice"
+  },
+  "journals": [
+    {
+      "name": "Land",
+      "issn": "2073-445X",
+      "official_apc_url": "https://www.mdpi.com/journal/land/apc",
+      "official_http_status": 403,
+      "official_current_apc": null,
+      "currency": "CHF",
+      "conditional_discounted_budget": 2340,
+      "price_effective_date": null,
+      "openalex_fallback": {
+        "url": "https://api.openalex.org/sources/S2738397068",
+        "price": 2600,
+        "currency": "CHF",
+        "record_updated": "2026-11-08T13:48:25",
+        "limitation": "Third-party source metadata; record updated date is not price effective date"
+      },
+      "budget_apc_metadata": 2600,
+      "budget_currency": "CHF",
+      "budget_source": "https://api.openalex.org/sources/S2738397068",
+      "doaj_source_description": "DOAJ API; directory record, not current publisher body",
+      "doaj_url": "https://doaj.org/api/search/journals/issn:2073-445X",
+      "doaj_http_status": 200,
+      "doaj_record_updated": "2026-09-17T10:42:05Z",
+      "doaj_apc_max": 2600
+    },
+    {
+      "name": "Urban Science",
+      "issn": "2413-8851",
+      "official_apc_url": "https://www.mdpi.com/journal/urbansci/apc",
+      "official_http_status": 403,
+      "official_current_apc": null,
+      "currency": "CHF",
+      "conditional_discounted_budget": 1440,
+      "price_effective_date": null,
+      "openalex_fallback": {
+        "url": "https://api.openalex.org/sources/S4210174142",
+        "price": 1600,
+        "currency": "CHF",
+        "record_updated": "2026-11-08T13:48:25",
+        "limitation": "Third-party source metadata; record updated date is not price effective date"
+      },
+      "budget_apc_metadata": 1600,
+      "budget_currency": "CHF",
+      "budget_source": "https://api.openalex.org/sources/S4210174142",
+      "doaj_source_description": "DOAJ API; directory record, not current publisher body",
+      "doaj_url": "https://doaj.org/api/search/journals/issn:2413-8851",
+      "doaj_http_status": 200,
+      "doaj_record_updated": "2026-09-17T10:42:07Z",
+      "doaj_apc_max": 1600
+    },
+    {
+      "name": "Environments",
+      "issn": "2076-3298",
+      "official_apc_url": "https://www.mdpi.com/journal/environments/apc",
+      "official_http_status": 403,
+      "official_current_apc": null,
+      "currency": "CHF",
+      "conditional_discounted_budget": 1620,
+      "price_effective_date": null,
+      "openalex_fallback": {
+        "url": "https://api.openalex.org/sources/S4210187256",
+        "price": 1800,
+        "currency": "CHF",
+        "record_updated": "2026-11-08T13:48:25",
+        "limitation": "Third-party source metadata; record updated date is not price effective date"
+      },
+      "budget_apc_metadata": 1800,
+      "budget_currency": "CHF",
+      "budget_source": "https://api.openalex.org/sources/S4210187256",
+      "doaj_url": "https://doaj.org/api/search/journals/issn:2076-3298",
+      "doaj_http_status": 200,
+      "doaj_result_count": 0,
+      "doaj_apc_max": null
+    },
+    {
+      "name": "Sustainability",
+      "issn": "2071-1050",
+      "official_apc_url": "https://www.mdpi.com/journal/sustainability/apc",
+      "official_http_status": 403,
+      "official_current_apc": null,
+      "currency": "CHF",
+      "conditional_discounted_budget": 2160,
+      "price_effective_date": null,
+      "openalex_fallback": {
+        "url": "https://api.openalex.org/sources/S10134376",
+        "price": 2400,
+        "currency": "CHF",
+        "record_updated": "2026-11-08T13:48:25",
+        "limitation": "Third-party source metadata; record updated date is not price effective date"
+      },
+      "budget_apc_metadata": 2400,
+      "budget_currency": "CHF",
+      "budget_source": "https://api.openalex.org/sources/S10134376",
+      "doaj_url": "https://doaj.org/api/search/journals/issn:2071-1050",
+      "doaj_http_status": 200,
+      "doaj_result_count": 0,
+      "doaj_apc_max": null
+    }
+  ],
+  "official_general_currency_source": {
+    "url": "https://mdpi.cn/announcements/747",
+    "date_published": "2023-02-03",
+    "http_status": 200,
+    "quote": "Online Payment by Credit Card in Swiss Francs (CHF)",
+    "limitation": "Payment currency explanation; not current per-journal APC"
+  },
+  "promotion_source": {
+    "url": "https://mdpi.cn/announcements/3520",
+    "date_published": "2026-08-18",
+    "http_status": 200,
+    "description": "Land offers an unspecified APC discount to IFLA members",
+    "applied": false,
+    "reason": "No stated user membership; percentage and stacking not established"
+  }
+}

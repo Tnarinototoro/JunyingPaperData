@@ -1,0 +1,1808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">diversity</journal-id>
+      <journal-title-group>
+        <journal-title>Diversity</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Diversity</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Diversity</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1424-2818</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/d18110682</article-id>
+      <article-id pub-id-type="publisher-id">diversity-18-00682</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Plant Community Characteristics Associated with the Occurrence of the Endangered Epiphytic Orchid <italic>Dendrobium moniliforme</italic> on a Coastal Cliff in Korea</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Park</surname>
+            <given-names>Hwan Joon</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+          <xref rid="af1-diversity-18-00682" ref-type="aff">1</xref>
+          <xref rid="c1-diversity-18-00682" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-1938-4406</contrib-id>
+          <name>
+            <surname>Kim</surname>
+            <given-names>Seongjun</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <xref rid="af2-diversity-18-00682" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8318-5124</contrib-id>
+          <name>
+            <surname>Lee</surname>
+            <given-names>Chang Woo</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <xref rid="af2-diversity-18-00682" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6160-9325</contrib-id>
+          <name>
+            <surname>Hwang</surname>
+            <given-names>Jung Eun</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+          <xref rid="af2-diversity-18-00682" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6896-7125</contrib-id>
+          <name>
+            <surname>Park</surname>
+            <given-names>Hyeong Bin</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <xref rid="af2-diversity-18-00682" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kim</surname>
+            <given-names>Young-Joong</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <xref rid="af2-diversity-18-00682" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lee</surname>
+            <given-names>Yubin</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <xref rid="af2-diversity-18-00682" ref-type="aff">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-diversity-18-00682"><label>1</label>Division of Restoration Planning, Research Center for Endangered Species, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00ap24592</institution-id><institution>National Institute of Ecology</institution></institution-wrap>, Yeongyang 36531, Republic of Korea</aff>
+      <aff id="af2-diversity-18-00682"><label>2</label>Division of Restoration Research, Research Center for Endangered Species, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00ap24592</institution-id><institution>National Institute of Ecology</institution></institution-wrap>, Yeongyang 36531, Republic of Korea; <email>dao1229@nie.re.kr</email> (S.K.); <email>jacky903@nie.re.kr</email> (C.W.L.); <email>phb1274@nie.re.kr</email> (H.B.P.); <email>yjkim@nie.re.kr</email> (Y.-J.K.); <email>tuk456@nie.re.kr</email> (Y.L.)</aff>
+      <author-notes>
+        <corresp id="c1-diversity-18-00682"><label>*</label>Correspondence: <email>rhg9281@nie.re.kr</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>04</day>
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>18</volume>
+      <issue>11</issue>
+      <elocation-id>682</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>09</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>27</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>11</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the authors.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Cliff habitats support distinctive plant communities, yet the vegetation characteristics associated with the natural occurrence of <italic>Dendrobium moniliforme</italic> remain poorly understood. This study characterized plant communities associated with the occurrence of <italic>D. moniliforme</italic> on a coastal cliff of Seonyudo Island, Republic of Korea, using unmanned aerial vehicle (UAV)-based vegetation surveys. A total of 56 plots, comprising 13 occurrence and 43 absence plots, were surveyed, and plant diversity, taxonomic composition, and life-form composition were compared between the two groups. Species richness was significantly lower in occurrence plots, whereas Shannon diversity was significantly higher. Plant community composition differed significantly between occurrence and absence plots (PERMANOVA, R<sup>2</sup> = 0.075, <italic>p</italic> = 0.0005), with several species contributing to the observed compositional differences. Life-form composition also differed significantly between the two groups (PERMANOVA, R<sup>2</sup> = 0.045, <italic>p</italic> = 0.028), with occurrence plots tending to show greater relative cover of chamaephytes, hemicryptophytes, geophytes, and epiphytes. These findings suggest that, within the studied coastal cliff, the occurrence of <italic>D. moniliforme</italic> is associated with differences in surrounding vegetation composition rather than simply greater species richness, providing site-specific baseline information for habitat characterization and conservation.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>
+          <italic>Dendrobium moniliforme</italic>
+        </kwd>
+        <kwd>cliff vegetation</kwd>
+        <kwd>plant community</kwd>
+        <kwd>life form</kwd>
+        <kwd>epiphytic orchid</kwd>
+        <kwd>unmanned aerial vehicle</kwd>
+        <kwd>conservation</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>the National Institute of Ecology (NIE)</funding-source>
+          <award-id>NIE-B-2025-49</award-id>
+        </award-group>
+        <funding-statement>This research was funded by the National Institute of Ecology (NIE), grant number NIE-B-2025-49.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-diversity-18-00682" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Cliff habitats are characterized by steep slopes, shallow and discontinuous soils, and limited availability of water and nutrients, creating harsh conditions for plant establishment and growth [<xref ref-type="bibr" rid="B1-diversity-18-00682">1</xref>,<xref ref-type="bibr" rid="B2-diversity-18-00682">2</xref>]. At the same time, variation in rock crevices, ledges, substrate characteristics, and topographic exposure creates considerable environmental heterogeneity at fine spatial scales, allowing plant species with different ecological requirements to coexist within relatively small areas [<xref ref-type="bibr" rid="B1-diversity-18-00682">1</xref>,<xref ref-type="bibr" rid="B3-diversity-18-00682">3</xref>]. These characteristics can support distinctive plant assemblages, including rare, endemic, and threatened species that are adapted to specialized cliff environments [<xref ref-type="bibr" rid="B3-diversity-18-00682">3</xref>,<xref ref-type="bibr" rid="B4-diversity-18-00682">4</xref>,<xref ref-type="bibr" rid="B5-diversity-18-00682">5</xref>,<xref ref-type="bibr" rid="B6-diversity-18-00682">6</xref>]. In coastal cliffs, additional environmental constraints such as salt exposure, drought, and differences in soil depth may further influence vegetation distribution and community composition [<xref ref-type="bibr" rid="B7-diversity-18-00682">7</xref>]. Consequently, cliff habitats represent ecologically distinctive systems in which fine-scale habitat heterogeneity can play an important role in structuring plant communities.</p>
+      <p>Among plants occupying such heterogeneous habitats, epiphytic orchids often show non-random distributions because their establishment and persistence are influenced by substrate characteristics and local microenvironmental conditions [<xref ref-type="bibr" rid="B8-diversity-18-00682">8</xref>]. <italic>D. moniliforme</italic> is a perennial orchid with a broad native range extending from the Himalayas to temperate East Asia, including Korea, China, Japan, and Taiwan, and occurs primarily as an epiphyte, although it can also grow on rocky substrates [<xref ref-type="bibr" rid="B9-diversity-18-00682">9</xref>,<xref ref-type="bibr" rid="B10-diversity-18-00682">10</xref>]. In Korea, <italic>D. moniliforme</italic> was assessed as Vulnerable (VU) in the 2020 Korean National Red List and has been legally protected as Class II endangered wildlife since 2012 under the Wildlife Protection and Management Act, with its designation maintained in the 2017 and 2022 revisions [<xref ref-type="bibr" rid="B11-diversity-18-00682">11</xref>]. Previous studies have provided important insights into its reproductive biology and early development, including phenological growth stages, reproductive compatibility, mycorrhizal associations, and seed germination [<xref ref-type="bibr" rid="B12-diversity-18-00682">12</xref>,<xref ref-type="bibr" rid="B13-diversity-18-00682">13</xref>,<xref ref-type="bibr" rid="B14-diversity-18-00682">14</xref>,<xref ref-type="bibr" rid="B15-diversity-18-00682">15</xref>]. In particular, experimental studies have demonstrated self-incompatibility in <italic>D. moniliforme</italic> [<xref ref-type="bibr" rid="B13-diversity-18-00682">13</xref>] and differences in fungal associations during seed germination and early seedling development [<xref ref-type="bibr" rid="B14-diversity-18-00682">14</xref>], highlighting the complexity of its reproductive and establishment processes. In addition, studies on in vitro propagation have developed techniques for seedling production and ex situ conservation [<xref ref-type="bibr" rid="B16-diversity-18-00682">16</xref>,<xref ref-type="bibr" rid="B17-diversity-18-00682">17</xref>], while genetic investigations have revealed differentiation and geographical structure among East Asian populations [<xref ref-type="bibr" rid="B10-diversity-18-00682">10</xref>,<xref ref-type="bibr" rid="B18-diversity-18-00682">18</xref>]. Restoration studies in Korea have further shown that growth and vegetative propagation vary among planting substrates and microsites [<xref ref-type="bibr" rid="B9-diversity-18-00682">9</xref>]. Despite these advances, and continuing conservation concerns related to habitat loss and collection pressure [<xref ref-type="bibr" rid="B11-diversity-18-00682">11</xref>], information on long-term population dynamics and the vegetation characteristics associated with the natural occurrence of <italic>D. moniliforme</italic> remains limited.</p>
+      <p>Previous studies of coastal vegetation have demonstrated that plant community composition and distribution vary according to habitat characteristics and environmental gradients. In Korea, investigations of sea cliffs and other coastal habitats have documented differences in floristic composition and vegetation structure across coastal environments [<xref ref-type="bibr" rid="B19-diversity-18-00682">19</xref>,<xref ref-type="bibr" rid="B20-diversity-18-00682">20</xref>,<xref ref-type="bibr" rid="B21-diversity-18-00682">21</xref>]. In particular, vegetation surveys on the coastal cliffs and adjacent plateaus of the Janggi Peninsula demonstrated that plant community distribution was associated with topographic and environmental conditions, including salinity, drought, and soil depth [<xref ref-type="bibr" rid="B7-diversity-18-00682">7</xref>]. Similar studies on rocky coasts in Japan have shown that specialized coastal plant communities, including those supporting threatened and endemic species, are associated with particular site conditions [<xref ref-type="bibr" rid="B22-diversity-18-00682">22</xref>]. These findings suggest that coastal cliff vegetation is structured by spatially heterogeneous environmental conditions and that differences in plant community composition may provide useful information for characterizing habitats occupied by threatened plant species.</p>
+      <p>The importance of surrounding vegetation has also been recognized in studies of epiphytic orchids. Their distribution and abundance can vary with host characteristics, vegetation structure, and local topographic conditions [<xref ref-type="bibr" rid="B23-diversity-18-00682">23</xref>,<xref ref-type="bibr" rid="B24-diversity-18-00682">24</xref>]. For example, epiphytic orchid communities have been associated with differences in surrounding tree density and the topography of host-tree sites [<xref ref-type="bibr" rid="B23-diversity-18-00682">23</xref>], while studies of threatened Phalaenopsis species have highlighted relationships among host preferences, habitat vegetation, and spatial distribution [<xref ref-type="bibr" rid="B25-diversity-18-00682">25</xref>]. Although these studies were conducted primarily in forest ecosystems, they suggest that the occurrence of epiphytic orchids may be associated with broader habitat and vegetation characteristics rather than host substrates alone. However, relatively little is known about whether similar associations occur in the natural habitats of <italic>D. moniliforme</italic>, particularly on coastal cliffs where vegetation develops under heterogeneous and restrictive environmental conditions.</p>
+      <p>Understanding the vegetation characteristics associated with <italic>D. moniliforme</italic> occurrence requires information on the diversity, taxonomic composition, and life-form composition of surrounding plant communities. Direct vegetation surveys on steep cliffs, however, are often constrained by limited accessibility, safety concerns, and substantial time and labor requirements [<xref ref-type="bibr" rid="B26-diversity-18-00682">26</xref>,<xref ref-type="bibr" rid="B27-diversity-18-00682">27</xref>]. Unmanned aerial vehicle (UAV)-based surveys have emerged as a useful approach for investigating vegetation in inaccessible cliff habitats, allowing plant species and community patterns to be assessed remotely using high-resolution imagery [<xref ref-type="bibr" rid="B26-diversity-18-00682">26</xref>,<xref ref-type="bibr" rid="B27-diversity-18-00682">27</xref>]. Recent studies in Korea have further demonstrated the applicability of this approach for examining floristic patterns, life-form variation, and species composition on inaccessible island cliffs [<xref ref-type="bibr" rid="B28-diversity-18-00682">28</xref>,<xref ref-type="bibr" rid="B29-diversity-18-00682">29</xref>]. Nevertheless, these studies have primarily characterized cliff vegetation patterns rather than explicitly comparing surrounding plant communities between locations with and without <italic>D. moniliforme</italic>. Accordingly, UAV imagery provides an opportunity to investigate the vegetation characteristics associated with its natural occurrence in otherwise difficult-to-access coastal cliff habitats.</p>
+      <p>Therefore, this study aimed to characterize the plant communities associated with the natural occurrence of <italic>D. moniliforme</italic> on a coastal cliff of Seonyudo Island, Republic of Korea, using UAV-based vegetation surveys. Based on previous studies indicating that epiphytic orchid occurrence is associated with local habitat conditions and surrounding vegetation structure, we expected that plant community composition and life-form composition would differ between <italic>D. moniliforme</italic> occurrence and absence plots. In particular, we anticipated differences in the relative representation of epiphytic and woody life forms, reflecting variation in vegetation structure. We compared plant diversity, taxonomic composition, and life-form composition between <italic>D. moniliforme</italic> occurrence and absence plots to evaluate these expectations and identify vegetation characteristics associated with its natural occurrence within the study site. Through this approach, we sought to provide site-specific baseline information for understanding the ecological characteristics of its natural habitat and supporting its conservation and habitat management.</p>
+    </sec>
+    <sec id="sec2-diversity-18-00682">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-diversity-18-00682">
+        <title>2.1. Study Area and Vegetation Survey</title>
+        <p>The study was conducted on the rocky cliffs of Mangjubong, Seonyudo Island, Gunsan, Republic of Korea, in September 2025 (<xref ref-type="fig" rid="diversity-18-00682-f001">Figure 1</xref>). Seonyudo Island is part of the Gogunsan Archipelago, which is located approximately 50 km southwest of Gunsan on the western coast of the Korean Peninsula. The archipelago consists of 63 islands characterized predominantly by hilly terrain below 200 m above sea level [<xref ref-type="bibr" rid="B30-diversity-18-00682">30</xref>]. The study site at Mangjubong consists of steep, exposed coastal cliffs, with vegetation occurring discontinuously in patches on the rock surface. Because direct access to the cliff faces was difficult, vegetation surveys were conducted using an unmanned aerial vehicle (UAV; DJI Mavic 3T, DJI, Shenzhen, China).</p>
+        <p>The UAV was manually operated along accessible sections of the cliff face, with an effort to maintain an approximately 5-m distance from the rock surface. During the survey, the UAV was flown in both downward and upward directions (<xref ref-type="fig" rid="diversity-18-00682-f002">Figure 2</xref>a). Wide-angle imagery was acquired at vegetation patches along the cliff rather than at fixed intervals. The wide-angle camera (1/2-inch CMOS sensor, 48 MP, 84&#xB0; horizontal field of view, 24-mm equivalent focal length) was used to obtain the primary imagery for vegetation assessment. When individual plant species could not be reliably identified from the wide-angle imagery, additional close-up imagery was acquired using the telephoto camera (1/2-inch CMOS sensor, 12 MP, 15&#xB0; field of view, 162-mm equivalent focal length) to facilitate species identification (<xref ref-type="fig" rid="diversity-18-00682-f002">Figure 2</xref>b). Plant species were identified based on morphological characteristics visible in the UAV imagery, with reference to standard Korean floras [<xref ref-type="bibr" rid="B31-diversity-18-00682">31</xref>,<xref ref-type="bibr" rid="B32-diversity-18-00682">32</xref>,<xref ref-type="bibr" rid="B33-diversity-18-00682">33</xref>]. <italic>D. moniliforme</italic> was identified based on its characteristic stem and leaf morphology rather than floral features.</p>
+        <p>Based on the approximate camera-to-cliff distance of 5 m and the horizontal field of view of 84&#xB0;, the nominal image width was calculated as approximately 9.0 m using 2d &#xD7; tan(&#x3B8;/2), where d is the camera-to-cliff distance and &#x3B8; is the horizontal field of view. Applying the image aspect ratio of 16:9 yielded an estimated height of approximately 5.1 m, corresponding to a nominal sampling area of approximately 45 m<sup>2</sup>. However, variations in camera-to-cliff distance and viewing angle may have occurred due to the irregular cliff surface and manual UAV operation. Therefore, the estimated area was used as a nominal reference rather than an exact measurement of the surveyed cliff surface.</p>
+        <p>All sampling units in which <italic>D. moniliforme</italic> was detected during the UAV survey were included as occurrence units, whereas absence units were selected from vegetation patches without <italic>D. moniliforme</italic> encountered during vertical UAV surveys along the cliff face. A total of 56 sampling units were examined on Cliff A, comprising 13 occurrence and 43 absence units. Each of the 56 vegetation sampling units was assessed using a distinct UAV image, with one image corresponding to each sampling unit. Plant species composition and cover-abundance were assessed from the UAV imagery using the Braun&#x2013;Blanquet cover-abundance scale (r, +, 1, 2, 3, 4, and 5) [<xref ref-type="bibr" rid="B34-diversity-18-00682">34</xref>].</p>
+        <p>GPS coordinates extracted from the UAV image metadata were used to characterize the spatial distribution of the 56 sampling units (<xref ref-type="fig" rid="diversity-18-00682-f003">Figure 3</xref>). These coordinates represent UAV camera acquisition positions rather than the exact locations or boundaries of vegetation patches on the cliff surface.</p>
+      </sec>
+      <sec id="sec2dot2-diversity-18-00682">
+        <title>2.2. Vegetation Data and Life Form Classification</title>
+        <p>Braun&#x2013;Blanquet cover-abundance classes were converted to numerical values using a midpoint-based transformation (r = 0.01, + = 0.5, 1 = 3, 2 = 15, 3 = 37.5, 4 = 62.5, and 5 = 87.5). These values represent class-based cover-abundance estimates rather than directly measured percentage cover. <italic>D. moniliforme</italic> was excluded from the community dataset because occurrence and absence groups were defined by its presence.</p>
+        <p>To characterize the ecological composition of the cliff vegetation, all recorded plant species were classified according to Raunkiaer&#x2019;s life-form system [<xref ref-type="bibr" rid="B35-diversity-18-00682">35</xref>,<xref ref-type="bibr" rid="B36-diversity-18-00682">36</xref>]. Species were assigned to eight life-form categories: mega-mesophanerophytes (MMs), microphanerophytes (Ms), nanophanerophytes (Ns), chamaephytes (Chs), hemicryptophytes (Hs), geophytes (Gs), therophytes (Ths), and epiphytes (Es). Life-form composition was calculated for each sampling unit based on the summed cover-abundance scores of species belonging to each life-form category and expressed as relative cover.</p>
+      </sec>
+      <sec id="sec2dot3-diversity-18-00682">
+        <title>2.3. Data Analysis</title>
+        <p>Species richness, the Shannon diversity index, and the Gini&#x2013;Simpson diversity index (1 &#x2212; D) were calculated for each sampling unit to compare alpha diversity between <italic>D. moniliforme</italic> occurrence and absence plots. The Shannon diversity index was calculated using the natural logarithm (ln) and species-level relative cover derived from the midpoint-transformed Braun&#x2013;Blanquet cover-abundance values. The Gini&#x2013;Simpson diversity index was calculated as 1 &#x2212; &#x3A3;p<sub>i</sub><sup>2</sup>, where p<sub>i</sub> represents the relative cover of species i, using the same transformed cover data. Normality was assessed using the Shapiro&#x2013;Wilk test, and differences in species richness, Shannon diversity, and Gini&#x2013;Simpson diversity between the two groups were evaluated using Welch&#x2019;s <italic>t</italic>-test. For each comparison, 95% confidence intervals for mean differences were calculated using Welch&#x2019;s method, and standardized effect sizes were expressed as Cohen&#x2019;s d. Species richness was additionally analyzed using a generalized linear model (GLM) with a log link and a Poisson error distribution. Because the data exhibited underdispersion, a quasi-Poisson model was used to account for the observed dispersion in the inference.</p>
+        <p>Differences in plant community composition between occurrence and absence plots were evaluated using non-metric multidimensional scaling (NMDS) based on Bray&#x2013;Curtis dissimilarities calculated from transformed Braun&#x2013;Blanquet cover values of 39 associated plant species across 56 plots. A two-dimensional NMDS solution was used for ordination and visualization. Differences in community composition between the two groups were tested using permutational multivariate analysis of variance (PERMANOVA). Homogeneity of multivariate dispersion was assessed using PERMDISP to determine whether differences detected by PERMANOVA could be attributed to differences in within-group dispersion.</p>
+        <p>To examine potential spatial dependence among vegetation sampling units, Mantel tests were conducted to assess the relationships between geographic distances and Bray&#x2013;Curtis dissimilarities in plant community composition. The analyses were performed for all sampling units and separately for occurrence and absence units. Geographic distances were calculated using GPS coordinates recorded at UAV image acquisition positions. To evaluate the sensitivity of the PERMANOVA results to spatial clustering, additional PERMANOVA tests were conducted using spatially restricted permutations. Sampling units were grouped into spatial blocks based on their geographic proximity using k-means clustering of geographic coordinates, and permutations were restricted within blocks. Sensitivity analyses were performed using 3, 4, 5, 6, and 8 spatial blocks. All permutation-based tests used 9999 permutations.</p>
+        <p>Similarity percentage analysis (SIMPER) was used to identify the plant species contributing most strongly to the Bray&#x2013;Curtis dissimilarity between occurrence and absence plots. The contribution of each species to the average between-group dissimilarity was calculated, and species were ranked according to their percentage contribution.</p>
+        <p>Differences in life-form composition between occurrence and absence plots were also evaluated using Bray&#x2013;Curtis dissimilarities. Relative cover values of the eight life-form categories were used to construct the life-form composition matrix, and differences between the two groups were tested using PERMANOVA. Homogeneity of multivariate dispersion was additionally assessed using PERMDISP. All statistical analyses were performed in R version 4.6.1 [<xref ref-type="bibr" rid="B37-diversity-18-00682">37</xref>] using the vegan package version 2.7-5 [<xref ref-type="bibr" rid="B38-diversity-18-00682">38</xref>] with statistical significance set at <italic>p</italic> &lt; 0.05. To account for multiple testing, <italic>p</italic>-values from five primary comparisons (species richness, Shannon diversity, Gini&#x2013;Simpson diversity, taxonomic composition, and life-form composition) were adjusted using the Benjamini&#x2013;Hochberg false discovery rate (FDR) procedure.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-diversity-18-00682" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-diversity-18-00682">
+        <title>3.1. Plant Diversity and Community Composition</title>
+        <p>A total of 39 co-occurring plant species, excluding <italic>D. moniliforme</italic>, were recorded across the 56 sampling units. Shapiro&#x2013;Wilk tests indicated no significant deviations from normality for species richness (occurrence: W = 0.9234, <italic>p</italic> = 0.2788; absence: W = 0.9692, <italic>p</italic> = 0.2976), Shannon diversity (occurrence: W = 0.9631, <italic>p</italic> = 0.8013; absence: W = 0.9767, <italic>p</italic> = 0.5215), or Gini&#x2013;Simpson diversity (occurrence: W = 0.9238, <italic>p</italic> = 0.2817; absence: W = 0.9815, <italic>p</italic> = 0.7079). Mean species richness was significantly lower in <italic>D. moniliforme occurrence</italic> plots (8.15 &#xB1; 1.91) than in absence plots (10.05 &#xB1; 2.25; Welch&#x2019;s t = &#x2212;3.002, df = 23.01, <italic>p</italic> = 0.0064; mean difference = &#x2212;1.893, 95% CI = &#x2212;3.197 to &#x2212;0.589; Cohen&#x2019;s d = &#x2212;0.870). The quasi-Poisson GLM also indicated lower species richness in occurrence plots than in absence plots (dispersion parameter = 0.490; occurrence-to-absence richness ratio = 0.812, 95% CI = 0.699&#x2013;0.942; <italic>p</italic> = 0.0059, FDR-adjusted <italic>p</italic> = 0.0079). In contrast, the Shannon diversity index calculated from midpoint-transformed cover-abundance values was significantly higher in occurrence plots (1.51 &#xB1; 0.31) than in absence plots (1.21 &#xB1; 0.31; Welch&#x2019;s t = 3.053, <italic>p</italic> = 0.0063, FDR-adjusted <italic>p</italic> = 0.0079; mean difference = 0.297, 95% CI = 0.094&#x2013;0.501; Cohen&#x2019;s d = 0.970). Similarly, the Gini&#x2013;Simpson diversity index (1 &#x2212; D) was significantly higher in occurrence plots (0.686 &#xB1; 0.133) than in absence plots (0.536 &#xB1; 0.136; Welch&#x2019;s t = 3.545, <italic>p</italic> = 0.0025, FDR-adjusted <italic>p</italic> = 0.0050; mean difference = 0.150, 95% CI = 0.062&#x2013;0.238; Cohen&#x2019;s d = 1.108) (<xref ref-type="fig" rid="diversity-18-00682-f004">Figure 4</xref>).</p>
+        <p>The two-dimensional NMDS solution based on Bray&#x2013;Curtis dissimilarities had a stress value of 0.216 (<xref ref-type="fig" rid="diversity-18-00682-f005">Figure 5</xref>). <italic>D. moniliforme</italic> occurrence and absence plots showed substantial overlap in ordination space. Nevertheless, PERMANOVA revealed a significant difference in plant community composition between the two groups (F(1,54) = 4.3767, R<sup>2</sup> = 0.07497, <italic>p</italic> = 0.0005, FDR-adjusted <italic>p</italic> = 0.0025). The occurrence&#x2013;absence grouping accounted for approximately 7.5% of the variation in community composition, indicating a weak but statistically detectable difference between the groups. PERMDISP showed no significant difference in multivariate dispersion between the two groups (F(1,54) = 0.765, <italic>p</italic> = 0.3925).</p>
+        <p>Mantel tests revealed no significant relationships between geographic distance and plant community dissimilarity across all sampling units (r = 0.078, <italic>p</italic> = 0.081), occurrence units (r = &#x2212;0.012, <italic>p</italic> = 0.506), or non-occurrence units (r = 0.011, <italic>p</italic> = 0.421). Spatially restricted PERMANOVA sensitivity analyses showed that differences in plant community composition between occurrence and non-occurrence units remained statistically significant across the examined spatial block configurations (3, 4, 5, 6, and 8 blocks; <italic>p</italic> = 0.0013&#x2013;0.0271; <xref ref-type="fig" rid="diversity-18-00682-f006">Figure 6</xref>).</p>
+      </sec>
+      <sec id="sec3dot2-diversity-18-00682">
+        <title>3.2. Species Associated with Community Differences</title>
+        <p>SIMPER analysis identified the species contributing most strongly to Bray&#x2013;Curtis dissimilarity between <italic>Dendrobium moniliforme</italic> occurrence and absence plots. Trachelospermum asiaticum (32.78%) contributed most, followed by Festuca ovina (16.69%), Davallia mariesii (11.61%), and Arundinella hirta (9.05%). Rhododendron mucronulatum (4.72%), Commelina communis (4.11%), and Lespedeza maximowiczii (2.85%) also contributed to the observed dissimilarity. The ten highest-contributing species collectively accounted for 88.53% of the average Bray&#x2013;Curtis dissimilarity (<xref ref-type="table" rid="diversity-18-00682-t001">Table 1</xref>).</p>
+      </sec>
+      <sec id="sec3dot3-diversity-18-00682">
+        <title>3.3. Life-Form Composition</title>
+        <p>Life-form composition differed significantly between <italic>D. moniliforme</italic> occurrence and absence plots (PERMANOVA: F<sub>1,54</sub> = 2.530, R<sup>2</sup> = 0.045, <italic>p</italic> = 0.028, FDR-adjusted <italic>p</italic> = 0.028). The occurrence&#x2013;absence grouping accounted for approximately 4.5% of the variation in life-form composition. Occurrence plots tended to have higher relative cover of chamaephytes (Chs), hemicryptophytes (Hs), geophytes (Gs), and epiphytes (Es), whereas mega-mesophanerophytes (MMs), microphanerophytes (Ms), and nanophanerophytes (Ns) showed higher relative cover in absence plots (<xref ref-type="fig" rid="diversity-18-00682-f007">Figure 7</xref>). Therophytes (Ths) showed similar relative cover between the two groups. PERMDISP showed no significant difference in multivariate dispersion between occurrence and absence plots (F<sub>1,54</sub> = 0.068, <italic>p</italic> = 0.793).</p>
+      </sec>
+    </sec>
+    <sec id="sec4-diversity-18-00682" sec-type="discussion">
+      <title>4. Discussion</title>
+      <sec id="sec4dot1-diversity-18-00682">
+        <title>4.1. Plant Diversity and Community Composition Associated with D. moniliforme</title>
+        <p>The occurrence of <italic>D. moniliforme</italic> was associated with distinct patterns of plant diversity and community composition on the surveyed coastal cliff. Species richness was significantly lower in occurrence plots (8.15 &#xB1; 1.91) than in absence plots (10.05 &#xB1; 2.25), whereas Shannon diversity (1.51 vs. 1.21) and Gini&#x2013;Simpson diversity (0.686 vs. 0.536) were significantly higher in occurrence plots. This contrasting pattern suggests that plots supporting <italic>D. moniliforme</italic> contained fewer associated species but exhibited a more even distribution of relative cover among those species. Thus, lower species richness did not necessarily correspond to lower diversity when relative species abundance was considered.</p>
+        <p>The lower species richness in occurrence plots may partly reflect differences in vegetation structure and the representation of woody species. Several woody species were more prevalent in absence plots, whereas occurrence plots showed lower woody representation and relatively greater contributions from other life-form groups. These differences may be associated with variation in local habitat conditions, as substrate characteristics and topographic heterogeneity can influence vegetation composition within rocky habitats [<xref ref-type="bibr" rid="B3-diversity-18-00682">3</xref>,<xref ref-type="bibr" rid="B24-diversity-18-00682">24</xref>]. However, because these environmental factors were not directly measured, their contributions to the observed richness differences remain uncertain.</p>
+        <p>Plant community composition also differed significantly between occurrence and absence plots (PERMANOVA, R<sup>2</sup> = 0.075), although occurrence status explained only a modest proportion of the total variation. Previous studies have reported associations between epiphytic orchid communities and surrounding vegetation or topographic conditions [<xref ref-type="bibr" rid="B25-diversity-18-00682">25</xref>], while the growth and vegetative propagation of <italic>D. moniliforme</italic> have been shown to vary among restoration sites and substrates [<xref ref-type="bibr" rid="B9-diversity-18-00682">9</xref>]. These findings provide ecological context for the observed community differences, but do not establish the environmental mechanisms responsible for them. Overall, our results suggest that <italic>D. moniliforme</italic> occurrence was associated with differences in surrounding species composition and relative cover rather than simply greater species richness.</p>
+      </sec>
+      <sec id="sec4dot2-diversity-18-00682">
+        <title>4.2. Species Contributing to Community Differences</title>
+        <p>SIMPER analysis identified several species that contributed to the compositional differences between <italic>D. moniliforme</italic> occurrence and absence plots. Trachelospermum asiaticum made the largest contribution (32.78%) and exhibited substantially higher mean numerical cover-abundance scores in absence plots than in occurrence plots (12.64 vs. 2.27). Other woody species, including Rhododendron mucronulatum, Lespedeza maximowiczii, Quercus variabilis, and Carpinus turczaninovii, also showed higher mean cover-abundance or constancy in absence plots. These findings indicate that differences in woody vegetation were an important component of the observed community dissimilarity.</p>
+        <p>In contrast, several herbaceous and fern species were common in both groups. <italic>Festuca ovina</italic>, <italic>Davallia mariesii</italic>, and <italic>Arundinella hirta</italic> contributed substantially to the SIMPER results, although their patterns of cover-abundance and constancy did not consistently favor occurrence plots. For example, <italic>Davallia mariesii</italic> showed slightly higher constancy in occurrence plots but higher mean cover-abundance in absence plots. These results suggest that community differences were not attributable to a simple replacement of woody species by herbaceous species or ferns, but instead reflected variation in the relative contributions of multiple taxa.</p>
+        <p>The relatively greater representation of several woody species in absence plots may also help explain the higher species richness observed in these plots. Previous studies have reported that vascular epiphyte composition can vary among microsites with different habitat conditions [<xref ref-type="bibr" rid="B24-diversity-18-00682">24</xref>], while orchid communities may differ according to surrounding vegetation structure and tree species composition [<xref ref-type="bibr" rid="B39-diversity-18-00682">39</xref>]. These findings provide ecological context for the observed differences in associated vegetation. Nevertheless, SIMPER contributions represent the contribution of each species to average community dissimilarity and do not establish that individual species directly promote or inhibit <italic>D. moniliforme</italic> occurrence. Therefore, the observed species associations should be interpreted as characteristics of the surrounding vegetation rather than evidence of causal interactions.</p>
+      </sec>
+      <sec id="sec4dot3-diversity-18-00682">
+        <title>4.3. Life-Form Composition and Implications for D. moniliforme Habitat</title>
+        <p>Life-form composition differed significantly between <italic>D. moniliforme</italic> occurrence and absence plots. Occurrence plots tended to have higher relative cover of chamaephytes, hemicryptophytes, geophytes, and epiphytes, whereas woody life forms (mega-mesophanerophytes, microphanerophytes, and nanophanerophytes) tended to have higher relative cover in absence plots. Rocky habitats contain heterogeneous microsites that differ in substrate availability and local environmental conditions, and such fine-scale heterogeneity can influence vegetation structure and the representation of different plant life forms or functional groups [<xref ref-type="bibr" rid="B40-diversity-18-00682">40</xref>,<xref ref-type="bibr" rid="B41-diversity-18-00682">41</xref>,<xref ref-type="bibr" rid="B42-diversity-18-00682">42</xref>]. Therefore, the observed differences in life-form composition may reflect fine-scale variation in vegetation development and habitat structure within the cliff. This interpretation is also consistent with the SIMPER results, in which several woody species were more prevalent in absence plots.</p>
+        <p>The relatively greater representation of epiphytes in occurrence plots is particularly relevant because <italic>D. moniliforme</italic> is primarily an epiphytic orchid that can also grow on rocky substrates. The establishment and distribution of vascular epiphytes are influenced by water availability and can also be associated with variation in microclimate and substrate characteristics [<xref ref-type="bibr" rid="B43-diversity-18-00682">43</xref>,<xref ref-type="bibr" rid="B44-diversity-18-00682">44</xref>] and epiphytic orchid communities can also vary with surrounding vegetation structure and topographic conditions [<xref ref-type="bibr" rid="B25-diversity-18-00682">25</xref>]. Thus, the differences in life-form composition observed in this study suggest that <italic>D. moniliforme</italic> occurrence may be associated with particular vegetation structures and microsite characteristics within the cliff, complementing the taxonomic differences observed between occurrence and absence plots.</p>
+      </sec>
+      <sec id="sec4dot4-diversity-18-00682">
+        <title>4.4. Study Limitations and Future Directions</title>
+        <p>Several limitations should be considered when interpreting the findings of this study. Vegetation sampling units were selected from patches encountered during UAV surveys rather than through systematic or randomized sampling. Accordingly, the observed vegetation patterns should be interpreted within the surveyed portions of the cliff.</p>
+        <p>GPS coordinates obtained from UAV imagery represented camera acquisition positions rather than exact vegetation patch locations. In addition, variations in camera-to-cliff distance, viewing angle, and cliff topography may have affected the actual sampling area. Consequently, the observed difference in species richness should be interpreted with caution because variation in actual sampling area could not be accounted for. Although Mantel tests detected no significant spatial relationships and spatially restricted PERMANOVA results remained significant, potential spatial dependence cannot be entirely excluded. The relatively small number of occurrence plots (<italic>n</italic> = 13) also warrants cautious interpretation of the observed differences.</p>
+        <p>The sampling scale was intended to characterize the surrounding vegetation rather than the immediate microhabitat of individual <italic>D. moniliforme</italic> plants, potentially obscuring fine-scale vegetation patterns. Small or obscured individuals may also have remained undetected in UAV imagery, resulting in possible false absences. Furthermore, because the survey was conducted only in September 2025, seasonal variation in species detectability and vegetation cover could not be assessed.</p>
+        <p>Despite these limitations, this study provides baseline information on plant communities associated with the natural occurrence of <italic>D. moniliforme</italic> in a coastal cliff habitat. Future studies incorporating repeated seasonal surveys, UAV-based three-dimensional reconstruction, improved imaging techniques, and smaller plant-centered quadrats paired with adjacent control plots could enable more detailed assessments of vegetation characteristics across spatial and temporal scales.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-diversity-18-00682" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>This study demonstrated that the natural occurrence of <italic>D. moniliforme</italic> on a coastal cliff was associated with distinct characteristics of the surrounding vegetation. Species richness was lower in occurrence plots, whereas both Shannon and Gini&#x2013;Simpson diversity indices were higher. Taxonomic and life-form composition also differed significantly between occurrence and absence plots, although occurrence&#x2013;absence grouping explained relatively small proportions of the total variation. These findings suggest that <italic>D. moniliforme</italic> occurrence is associated with differences in surrounding vegetation composition and structure rather than simply greater species richness. The UAV-based approach also enabled vegetation characteristics to be assessed in an otherwise difficult-to-access cliff habitat.</p>
+      <p>From a conservation perspective, these results highlight the importance of considering not only <italic>D. moniliforme</italic> individuals but also the surrounding vegetation and habitat structure when characterizing and managing its natural habitat. Although this study focused on a single natural population, the vegetation patterns identified here provide baseline information for understanding the ecological context of <italic>D. moniliforme</italic> occurrence. Future studies across additional populations, combined with direct measurements of environmental variables such as light, moisture, and substrate characteristics, would help determine whether these vegetation patterns are consistently associated with <italic>D. moniliforme</italic> across its natural habitats.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, H.J.P. and S.K.; Methodology, C.W.L. and Y.-J.K.; Validation, S.K. and J.E.H.; Formal analysis, J.E.H.; Investigation, H.J.P., S.K., J.E.H., H.B.P. and Y.L.; Resources, C.W.L., H.B.P. and Y.L.; Data curation, H.J.P. and Y.-J.K.; Writing&#x2014;original draft, H.J.P.; Writing&#x2014;review &amp; editing, H.J.P.; Supervision, H.J.P.; Project administration, H.J.P. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The raw data supporting the conclusions of this article will be made available by the authors on request.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-diversity-18-00682">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>March-Salas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Garcia</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Lichter-Marck</surname>
+              <given-names>I.H.</given-names>
+            </name>
+            <name>
+              <surname>Lorite</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Steinbauer</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cliff ecosystems: A critical yet uncharted frontier for research and conservation</article-title>
+          <source>Basic Appl. Ecol.</source>
+          <year>2025</year>
+          <volume>83</volume>
+          <fpage>36</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.baae.2025.01.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-diversity-18-00682">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smrithy</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Kulkarni</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shigwan</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Shetti</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Datar</surname>
+              <given-names>M.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Floristic composition and plant functional type diversity of the basalt cliffs of Western Ghats, India</article-title>
+          <source>Basic Appl. Ecol.</source>
+          <year>2025</year>
+          <volume>83</volume>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.baae.2024.12.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-diversity-18-00682">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>March-Salas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Morales-Armijo</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Hern&#xE1;ndez-Ag&#xFC;ero</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Estrada-Castill&#xF3;n</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Sobrevilla-Covarrubias</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ar&#xE9;valo</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Scheepens</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Lorite</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rock climbing affects cliff-plant communities by reducing species diversity and altering species coexistence patterns</article-title>
+          <source>Biodivers. Conserv.</source>
+          <year>2023</year>
+          <volume>32</volume>
+          <fpage>1617</fpage>
+          <lpage>1638</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10531-023-02567-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-diversity-18-00682">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Panitsa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kokkoris</surname>
+              <given-names>I.P.</given-names>
+            </name>
+            <name>
+              <surname>Kougioumoutzis</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kontopanou</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bazos</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Strid</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Dimopoulos</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Linking taxonomic, phylogenetic and functional plant diversity with ecosystem services of cliffs and screes in Greece</article-title>
+          <source>Plants</source>
+          <year>2021</year>
+          <volume>10</volume>
+          <elocation-id>992</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/plants10050992</pub-id>
+          <pub-id pub-id-type="pmid">34067537</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-diversity-18-00682">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fitzsimons</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Michael</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rocky outcrops: A hard road in the conservation of critical habitats</article-title>
+          <source>Biol. Conserv.</source>
+          <year>2017</year>
+          <volume>211</volume>
+          <fpage>36</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2016.11.019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-diversity-18-00682">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nyberg</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Walsh</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>R&#xF8;nsted</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The global conservation status of plants growing on cliffs and rocky outcrops</article-title>
+          <source>Basic Appl. Ecol.</source>
+          <year>2025</year>
+          <volume>82</volume>
+          <fpage>18</fpage>
+          <lpage>27</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.baae.2024.11.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-diversity-18-00682">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jung</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Seol</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial distribution of vegetation along the environmental gradient on the coastal cliff and plateau of Janggi peninsula (Homigot), southeastern Korea</article-title>
+          <source>J. Ecol. Environ.</source>
+          <year>2019</year>
+          <volume>43</volume>
+          <fpage>14</fpage>
+          <pub-id pub-id-type="doi">10.1186/s41610-019-0110-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-diversity-18-00682">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rasmussen</surname>
+              <given-names>H.N.</given-names>
+            </name>
+            <name>
+              <surname>Rasmussen</surname>
+              <given-names>F.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The epiphytic habitat on a living host: Reflections on the orchid&#x2013;tree relationship</article-title>
+          <source>Bot. J. Linn. Soc.</source>
+          <year>2018</year>
+          <volume>186</volume>
+          <fpage>456</fpage>
+          <lpage>472</lpage>
+          <pub-id pub-id-type="doi">10.1093/botlinnean/box085</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-diversity-18-00682">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Restoration of endangered orchid species, <italic>Dendrobium moniliforme</italic> (L.) Sw. (Orchidaceae) in Korea</article-title>
+          <source>Korean J. Plant Taxon.</source>
+          <year>2016</year>
+          <volume>46</volume>
+          <fpage>256</fpage>
+          <lpage>266</lpage>
+          <pub-id pub-id-type="doi">10.11110/kjpt.2016.46.2.256</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-diversity-18-00682">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ye</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Hou</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phylogeography of the endangered orchid <italic>Dendrobium moniliforme</italic> in East Asia inferred from chloroplast DNA sequences</article-title>
+          <source>Mitochondrial DNA Part A</source>
+          <year>2017</year>
+          <volume>28</volume>
+          <fpage>880</fpage>
+          <lpage>891</lpage>
+          <pub-id pub-id-type="doi">10.1080/24701394.2016.1202942</pub-id>
+          <pub-id pub-id-type="pmid">27931140</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-diversity-18-00682">
+        <label>11.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>National Institute of Biological Resources</collab>
+          </person-group>
+          <source>National Red Data Book of Republic of Korea</source>
+          <publisher-name>National Institute of Biological Resources</publisher-name>
+          <publisher-loc>Incheon, Republic of Korea</publisher-loc>
+          <year>2024</year>
+        </element-citation>
+      </ref>
+      <ref id="B12-diversity-18-00682">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nie</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phenological growth stages of <italic>Dendrobium moniliforme</italic> (L.) Sw. according to the extended BBCH scale</article-title>
+          <source>J. Appl. Res. Med. Aromat. Plants</source>
+          <year>2024</year>
+          <volume>43</volume>
+          <fpage>100578</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jarmap.2024.100578</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-diversity-18-00682">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Niu</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>P.X.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.Q.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>G.Q.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Niu</surname>
+              <given-names>Y.X.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>Y.B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Morphological type identification of self-incompatibility in <italic>Dendrobium</italic> and its phylogenetic evolution pattern</article-title>
+          <source>Int. J. Mol. Sci.</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <elocation-id>2595</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ijms19092595</pub-id>
+          <pub-id pub-id-type="pmid">30200389</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-diversity-18-00682">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Rammitsu</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kinoshita</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tokuhara</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yukawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ogura-Tsujita</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Symbiotic culture of three closely related <italic>Dendrobium</italic> species reveals a growth bottleneck and differences in mycorrhizal specificity at early developmental stages</article-title>
+          <source>Diversity</source>
+          <year>2022</year>
+          <volume>14</volume>
+          <elocation-id>1119</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/d14121119</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-diversity-18-00682">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wan</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Post-embryonic development and seedling morphogenesis of <italic>Dendrobium moniliforme</italic> (L.) Sw. under asymbiotic culture conditions</article-title>
+          <source>S. Afr. J. Bot.</source>
+          <year>2022</year>
+          <volume>149</volume>
+          <fpage>240</fpage>
+          <lpage>246</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.sajb.2022.05.062</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-diversity-18-00682">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Nie</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>In vitro rapid propagation technology system of <italic>Dendrobium moniliforme</italic> (L.) Sw., a threatened orchid species in China</article-title>
+          <source>Plant Biotechnol. Rep.</source>
+          <year>2023</year>
+          <volume>17</volume>
+          <fpage>369</fpage>
+          <lpage>378</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11816-023-00838-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-diversity-18-00682">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hwang</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Jeon</surname>
+              <given-names>D.Y.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Yoon</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of different basal media and organic supplements on in vitro seedling development of the endangered orchid species <italic>Dendrobium moniliforme</italic> (L.) Swartz</article-title>
+          <source>Plants</source>
+          <year>2024</year>
+          <volume>13</volume>
+          <elocation-id>2721</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/plants13192721</pub-id>
+          <pub-id pub-id-type="pmid">39409591</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-diversity-18-00682">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic differences between Korean-Japanese and Chinese-Taiwanese <italic>Dendrobium moniliforme</italic> (L.) Sw.</article-title>
+          <source>Korean J. Plant Taxon.</source>
+          <year>2015</year>
+          <volume>45</volume>
+          <fpage>145</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="doi">10.11110/kjpt.2015.45.2.145</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-diversity-18-00682">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+            <name>
+              <surname>Oh</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Na</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>K.O.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>S.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phytosociological classification of coastal vegetation in Korea</article-title>
+          <source>Korean J. Environ. Biol.</source>
+          <year>2016</year>
+          <volume>34</volume>
+          <fpage>41</fpage>
+          <lpage>47</lpage>
+          <pub-id pub-id-type="doi">10.11626/KJEB.2016.34.1.041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-diversity-18-00682">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Ihm</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Cho</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Coastal dune vegetation of South Korea</article-title>
+          <source>J. Ecol. Environ.</source>
+          <year>2007</year>
+          <volume>30</volume>
+          <fpage>135</fpage>
+          <lpage>142</lpage>
+          <pub-id pub-id-type="doi">10.5141/jefb.2007.30.2.135</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-diversity-18-00682">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hwang</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Bae</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Choo</surname>
+              <given-names>Y.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Relationship between the spatial distribution of coastal sand dune plants and edaphic factors in a coastal sand dune system in Korea</article-title>
+          <source>J. Ecol. Environ.</source>
+          <year>2016</year>
+          <volume>39</volume>
+          <fpage>17</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.5141/ecoenv.2016.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-diversity-18-00682">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tetsu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hoshino</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yoshikawa</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Site conditions of herbaceous communities on the rocky coast of the Miura Peninsula, Kanagawa Prefecture, eastern Japan</article-title>
+          <source>Veg. Sci.</source>
+          <year>2021</year>
+          <volume>38</volume>
+          <fpage>17</fpage>
+          <lpage>35</lpage>
+          <pub-id pub-id-type="doi">10.15031/vegsci.38.17</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-diversity-18-00682">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fardhani</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Kisanuki</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Torimaru</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of tree density and the topography of the sites of host trees on epiphytic orchid communities on <italic>Schima wallichii</italic> in a forest in West Java, Indonesia</article-title>
+          <source>Acta Oecol.</source>
+          <year>2021</year>
+          <volume>111</volume>
+          <fpage>103739</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.actao.2021.103739</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-diversity-18-00682">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Woods</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Cardel&#xFA;s</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>DeWalt</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microhabitat associations of vascular epiphytes in a wet tropical forest canopy</article-title>
+          <source>J. Ecol.</source>
+          <year>2015</year>
+          <volume>103</volume>
+          <fpage>421</fpage>
+          <lpage>430</lpage>
+          <pub-id pub-id-type="doi">10.1111/1365-2745.12357</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-diversity-18-00682">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhong</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Epiphytic habit and spatial distribution patterns of <italic>Phalaenopsis deliciosa</italic> and <italic>Phalaenopsis hainanensis</italic></article-title>
+          <source>Diversity</source>
+          <year>2025</year>
+          <volume>17</volume>
+          <elocation-id>818</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/d17120818</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-diversity-18-00682">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Strumia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Buonanno</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Aronne</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Santo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Santangelo</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Monitoring of plant species and communities on coastal cliffs: Is the use of unmanned aerial vehicles suitable?</article-title>
+          <source>Diversity</source>
+          <year>2020</year>
+          <volume>12</volume>
+          <elocation-id>149</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/d12040149</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-diversity-18-00682">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mo</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Opening a new era of investigating unreachable cliff flora using smart UAVs</article-title>
+          <source>Remote Sens. Ecol. Conserv.</source>
+          <year>2021</year>
+          <volume>7</volume>
+          <fpage>638</fpage>
+          <lpage>648</lpage>
+          <pub-id pub-id-type="doi">10.1002/rse2.214</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-diversity-18-00682">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>B.D.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>N.Y.</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>An</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Baek</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Piloting an unmanned aerial vehicle to explore the floristic variations of inaccessible cliffs along island coasts</article-title>
+          <source>Drones</source>
+          <year>2023</year>
+          <volume>7</volume>
+          <elocation-id>140</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/drones7020140</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-diversity-18-00682">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Yoon</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>UAV telephotography elucidates floristic variability and beta diversity of island cliffs under grazing interventions</article-title>
+          <source>Sci. Rep.</source>
+          <year>2024</year>
+          <volume>14</volume>
+          <fpage>15465</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-024-66446-7</pub-id>
+          <pub-id pub-id-type="pmid">38965394</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-diversity-18-00682">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jang</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>The characteristics of flora at Gogunsan Archipelago area in Jeollabuk-do</article-title>
+          <source>J. Korean Soc. People Plants Environ.</source>
+          <year>2014</year>
+          <volume>17</volume>
+          <fpage>37</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="doi">10.11628/ksppe.2014.17.1.037</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-diversity-18-00682">
+        <label>31.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>W.C.</given-names>
+            </name>
+          </person-group>
+          <source>Korean Standard Plant Flora in Color</source>
+          <publisher-name>Academy Books Co.</publisher-name>
+          <publisher-loc>Seoul, Republic of Korea</publisher-loc>
+          <year>1996</year>
+        </element-citation>
+      </ref>
+      <ref id="B32-diversity-18-00682">
+        <label>32.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>T.B.</given-names>
+            </name>
+          </person-group>
+          <source>Colored Flora of Korea, Vols. I&#x2013;II</source>
+          <publisher-name>Hyangmun Publishing Co.</publisher-name>
+          <publisher-loc>Seoul, Republic of Korea</publisher-loc>
+          <year>2003</year>
+        </element-citation>
+      </ref>
+      <ref id="B33-diversity-18-00682">
+        <label>33.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>Y.N.</given-names>
+            </name>
+          </person-group>
+          <source>New Flora of Korea, Vols. I&#x2013;II</source>
+          <publisher-name>Kyohak Publishing Co.</publisher-name>
+          <publisher-loc>Seoul, Republic of Korea</publisher-loc>
+          <year>2006</year>
+        </element-citation>
+      </ref>
+      <ref id="B34-diversity-18-00682">
+        <label>34.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Braun-Blanquet</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <source>Pflanzensoziologie: Grundz&#xFC;ge der Vegetationskunde</source>
+          <edition>3rd ed.</edition>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Vienna, Austria</publisher-loc>
+          <year>1964</year>
+        </element-citation>
+      </ref>
+      <ref id="B35-diversity-18-00682">
+        <label>35.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raunkiaer</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <source>The Life Forms of Plants and Statistical Plant Geography: Being the Collected Papers of C. Raunkiaer</source>
+          <publisher-name>Clarendon Press</publisher-name>
+          <publisher-loc>Oxford, UK</publisher-loc>
+          <year>1934</year>
+        </element-citation>
+      </ref>
+      <ref id="B36-diversity-18-00682">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>W.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Raunkiaer&#x2019;s &#x201C;Life-Forms&#x201D; and Statistical Methods</article-title>
+          <source>J. Ecol.</source>
+          <year>1913</year>
+          <volume>1</volume>
+          <fpage>16</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="doi">10.2307/2255456</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-diversity-18-00682">
+        <label>37.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>R Core Team</collab>
+          </person-group>
+          <source>R: A Language and Environment for Statistical Computing</source>
+          <publisher-name>R Foundation for Statistical Computing</publisher-name>
+          <publisher-loc>Vienna, Austria</publisher-loc>
+          <year>2026</year>
+          <pub-id pub-id-type="doi">10.32614/R.manuals</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-diversity-18-00682">
+        <label>38.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oksanen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Simpson</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Blanchet</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kindt</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Legendre</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Minchin</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Hara</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Solymos</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Stevens</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Szoecs</surname>
+              <given-names>E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>vegan: Community Ecology Package</article-title>
+          <year>2026</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://CRAN.R-project.org/package=vegan" ext-link-type="uri">https://CRAN.R-project.org/package=vegan</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-08-16">(accessed on 16 August 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B39-diversity-18-00682">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morales-Linares</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Carmona-Valdovinos</surname>
+              <given-names>T.F.</given-names>
+            </name>
+            <name>
+              <surname>Ortega-Ortiz</surname>
+              <given-names>R.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Habitat diversity promotes and structures orchid diversity and orchid-host tree interactions</article-title>
+          <source>Flora</source>
+          <year>2022</year>
+          <volume>297</volume>
+          <fpage>152180</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.flora.2022.152180</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-diversity-18-00682">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuntz</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Larson</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influences of microhabitat constraints and rock-climbing disturbance on cliff-face vegetation communities</article-title>
+          <source>Conserv. Biol.</source>
+          <year>2006</year>
+          <volume>20</volume>
+          <fpage>821</fpage>
+          <lpage>832</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1523-1739.2006.00367.x</pub-id>
+          <pub-id pub-id-type="pmid">16909575</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-diversity-18-00682">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>do Carmo</surname>
+              <given-names>F.F.</given-names>
+            </name>
+            <name>
+              <surname>de Campos</surname>
+              <given-names>I.C.</given-names>
+            </name>
+            <name>
+              <surname>Jacobi</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of fine-scale surface heterogeneity on rock outcrop plant community structure</article-title>
+          <source>J. Veg. Sci.</source>
+          <year>2016</year>
+          <volume>27</volume>
+          <fpage>50</fpage>
+          <lpage>59</lpage>
+          <pub-id pub-id-type="doi">10.1111/jvs.12342</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-diversity-18-00682">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Badia</surname>
+              <given-names>C.C.V.</given-names>
+            </name>
+            <name>
+              <surname>Messias</surname>
+              <given-names>M.C.T.B.</given-names>
+            </name>
+            <name>
+              <surname>Echternacht</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Zooming in on quartzitic outcrops: Micro-habitat influences on flora and vegetation</article-title>
+          <source>Rodrigu&#xE9;sia</source>
+          <year>2021</year>
+          <volume>72</volume>
+          <fpage>e01792019</fpage>
+          <pub-id pub-id-type="doi">10.1590/2175-7860202172095</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-diversity-18-00682">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zotz</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hietz</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>The physiological ecology of vascular epiphytes: Current knowledge, open questions</article-title>
+          <source>J. Exp. Bot.</source>
+          <year>2001</year>
+          <volume>52</volume>
+          <fpage>2067</fpage>
+          <lpage>2078</lpage>
+          <pub-id pub-id-type="doi">10.1093/jexbot/52.364.2067</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-diversity-18-00682">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wagner</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Mendieta-Leiva</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zotz</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Host specificity in vascular epiphytes: A review of methodology, empirical evidence and potential mechanisms</article-title>
+          <source>AoB Plants</source>
+          <year>2015</year>
+          <volume>7</volume>
+          <fpage>plu092</fpage>
+          <pub-id pub-id-type="doi">10.1093/aobpla/plu092</pub-id>
+          <pub-id pub-id-type="pmid">25564514</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="diversity-18-00682-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Location and overview of the study area on Seonyudo Island, Gunsan, Republic of Korea. (<bold>a</bold>) Geographic location of the study area on the Korean Peninsula; (<bold>b</bold>) satellite image showing the location of the study area on Seonyudo Island; (<bold>c</bold>) overview of Mangjubong Mountain with the rocky cliff area outlined by a red dashed line; (<bold>d</bold>) aerial view of Mangjubong Mountain showing the study area outlined in red; and (<bold>e</bold>) close-up UAV image of the coastal rocky cliff surveyed for <italic>D. moniliforme</italic>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00682-g001.tif"/>
+      </fig>
+      <fig id="diversity-18-00682-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>UAV-based vegetation survey on the coastal cliff. (<bold>a</bold>) Schematic illustration of the UAV survey approach along the cliff face. (<bold>b</bold>) UAV-acquired image used for vegetation assessment, with numbered areas (1&#x2013;5) corresponding to enlarged images used for detailed species identification.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00682-g002.tif"/>
+      </fig>
+      <fig id="diversity-18-00682-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Spatial distribution of UAV image acquisition positions associated with <italic>D. moniliforme</italic> occurrence and absence sampling units on Cliff A, Seonyudo Island, Korea.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00682-g003.tif"/>
+      </fig>
+      <fig id="diversity-18-00682-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Comparison of alpha diversity in plant communities between <italic>D. moniliforme</italic> occurrence and absence plots. (<bold>a</bold>) Species richness, (<bold>b</bold>) Shannon diversity index (H&#x2032;), and (<bold>c</bold>) Gini&#x2013;Simpson diversity index (1 &#x2212; D). Black dots represent individual sampling units (13 occurrence and 43 absence plots). <italic>p</italic>-values were adjusted using the Benjamini&#x2013;Hochberg false discovery rate (FDR) procedure.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00682-g004.tif"/>
+      </fig>
+      <fig id="diversity-18-00682-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Non-metric multidimensional scaling (NMDS) ordination of plant communities in <italic>D. moniliforme</italic> occurrence and absence plots based on Bray&#x2013;Curtis dissimilarities of transformed Braun&#x2013;Blanquet cover values for 39 species across 56 plots (13 occurrence and 43 absence). Points represent individual plots, crosses (+) indicate group centroids, and shaded ellipses represent 95% confidence regions. NMDS stress = 0.216. PERMANOVA: F(1,54) = 4.3767, R<sup>2</sup> = 0.07497, <italic>p</italic> = 0.0005; PERMDISP: F(1,54) = 0.765, <italic>p</italic> = 0.3925.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00682-g005.tif"/>
+      </fig>
+      <fig id="diversity-18-00682-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Spatial distribution of UAV-based vegetation sampling units under five spatial block configurations (3, 4, 5, 6, and 8 blocks). Colors indicate spatial blocks, while circles and triangles represent <italic>D. moniliforme</italic> occurrence and non-occurrence units, respectively.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00682-g006.tif"/>
+      </fig>
+      <fig id="diversity-18-00682-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Relative cover of plant life forms in <italic>D. moniliforme</italic> occurrence and absence plots. Bars represent mean relative cover (%), and error bars indicate standard errors (SEs). Mean relative cover was calculated from plot-level relative cover values across 56 vegetation plots (13 occurrence and 43 absence plots). MM, mega-mesophanerophytes; M, microphanerophytes; N, nanophanerophytes; Ch, chamaephytes; H, hemicryptophytes; G, geophytes; Th, therophytes; E, epiphytes.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00682-g007.tif"/>
+      </fig>
+      <table-wrap id="diversity-18-00682-t001" position="float">
+        <object-id pub-id-type="pii">diversity-18-00682-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Results of SIMPER analysis showing the major plant species contributing to the Bray&#x2013;Curtis dissimilarity between <italic>D. moniliforme</italic> occurrence and absence plots.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Species</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Contribution (%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cumulative Contribution (%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean Numerical Cover-Abundance Score<break/>(Occ.)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean Numerical Cover-Abundance Score<break/>(Abs.)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Constancy<break/>(Occ., %)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Constancy<break/>(Abs., %)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x394; Constancy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Trachelospermum asiaticum</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.78</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.78</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.27 &#xB1; 4.03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12.64 &#xB1; 14.72</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">76.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">93.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;16.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Festuca ovina</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.69</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">49.47</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.54 &#xB1; 6.08</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.64 &#xB1; 8.40</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">84.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">93.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;8.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Davallia mariesii</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11.61</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">61.08</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.92 &#xB1; 4.05</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.34 &#xB1; 7.09</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">92.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">88.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Arundinella hirta</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.05</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">70.13</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.80 &#xB1; 4.02</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.50 &#xB1; 6.63</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">90.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Rhododendron mucronulatum</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.72</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">74.85</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.39 &#xB1; 0.82</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.74 &#xB1; 3.79</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">53.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">76.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;22.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Commelina communis</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.11</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">78.96</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.15 &#xB1; 0.24</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.87 &#xB1; 3.19</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Lespedeza maximowiczii</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.85</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">81.81</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.35 &#xB1; 0.83</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.84 &#xB1; 2.37</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">53.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;22.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Quercus variabilis</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.64</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">84.45</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.04 &#xB1; 0.14</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.08 &#xB1; 5.71</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">39.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;24.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Carpinus turczanino</italic>
+                <italic>v</italic>
+                <italic>ii</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.44</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">86.89</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.15 &#xB1; 0.24</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.07 &#xB1; 5.69</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">46.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;15.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Dryopteris chinensis</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.64</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">88.53</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.04 &#xB1; 0.14</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.63 &#xB1; 2.34</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;27.2</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: Contribution represents each species&#x2019; percentage contribution to the average Bray&#x2013;Curtis dissimilarity, and cumulative contribution represents the accumulated percentage contribution. Mean transformed cover value represents the average of cover values converted from Braun&#x2013;Blanquet cover-abundance classes. Constancy represents the percentage of plots in which each species occurred. &#x394; Constancy was calculated as constancy in occurrence plots minus that in absence plots. Occ., occurrence plots; Abs., absence plots. Values are presented as mean &#xB1; SD. Numerical cover-abundance scores were derived from midpoint-transformed Braun&#x2013;Blanquet classes and do not represent directly measured percentage cover.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

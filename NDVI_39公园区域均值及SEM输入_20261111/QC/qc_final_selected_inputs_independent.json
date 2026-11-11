@@ -1,0 +1,123 @@
+{
+  "QC_scope": "Independent read-only check using package/00_原始数据备份 as the BEFORE baseline; root SAV/Excel are already updated and were used only for equality-to-new-copy checks.",
+  "production_exporter_and_production_decoders_not_imported": true,
+  "QC_writes_only_own_JSON": true,
+  "original_data_and_package_not_modified_by_QC": true,
+  "checks": {
+    "old_SAV_backup_matches_original_SHA256": true,
+    "old_Excel_backup_matches_original_SHA256": true,
+    "old_AMW_backup_matches_original_SHA256": true,
+    "root_updated_SAV_byte_identical_to_final_package_copy": true,
+    "root_updated_Excel_byte_identical_to_final_package_copy": true,
+    "SAV_case_count_39_and_variable_count_17": true,
+    "SAV_entire_dictionary_bytes_identical_to_backup": true,
+    "SAV_names_labels_formats_missing_specs_preserved": true,
+    "SAV_first_variable_ParkID_and_final_two_names_preserved": true,
+    "SAV_ParkID_order_exactly_1_to_39": true,
+    "SAV_585_ParkID_and_nonNDVI_cells_exactly_unchanged": true,
+    "SAV_all_values_finite_and_no_system_missing": true,
+    "SAV_weight_index_preserved": true,
+    "all_three_NDVI_tables_39_rows_in_same_ParkID_order": true,
+    "package_sources_rawmeans_counts_frame_margin_exactly_match_selection": true,
+    "package_sources_rawmeans_Z_validcounts_exactly_match_SEMagent_csv": true,
+    "inside_39_Z_recomputed_from_frame_selected_rawmeans": true,
+    "inside_39_Z_mean_zero_sample_SD_one": true,
+    "inside_39_saved_SAV_Z_exactly_match_package_csv": true,
+    "outside_39_Z_recomputed_from_frame_selected_rawmeans": true,
+    "outside_39_Z_mean_zero_sample_SD_one": true,
+    "outside_39_saved_SAV_Z_exactly_match_package_csv": true,
+    "saved_full_SEM_csv_exactly_matches_SAV_names_and_all_values": true,
+    "Excel_zip_CRC_checks_pass": true,
+    "Excel_ZIP_member_inventory_and_order_unchanged": true,
+    "Excel_ZIP_archive_comment_unchanged": true,
+    "Excel_only_sheet1_payload_changed": true,
+    "Excel_all_other_member_payload_bytes_unchanged": true,
+    "Excel_sheet1_bytes_outside_Q4_Q42_R4_R42_v_text_unchanged": true,
+    "Excel_changed_cells_are_numeric_without_formulas": true,
+    "Excel_new_39x17_Excel_matrix_exactly_matches_new_SAV": true,
+    "Excel_all_78_allowed_NDVI_numeric_values_actually_changed": true,
+    "AMW_original_AMW_remains_original_hash": true,
+    "AMW_original_root_AMW_exactly_matches_backup": true,
+    "AMW_new_AMW_only_dbname_dbtable_value_lines_can_differ": true,
+    "AMW_new_AMW_entire_remaining_serialized_text_identical": true,
+    "AMW_new_AMW_BOM_unchanged": true,
+    "AMW_new_AMW_dbname_binds_final_package_SAV": true,
+    "AMW_new_AMW_dbtable_matches_SAV_stem": true,
+    "AMW_native_Amos_run_not_performed_by_QC": true,
+    "SAV_all_78_NDVI_numeric_values_actually_changed": true
+  },
+  "all_checks_pass": true,
+  "failed_checks": [],
+  "standardization": {
+    "inside": {
+      "n": 39,
+      "sample_SD_divisor": 38,
+      "independently_recomputed_raw_mean": 0.24609077536414978,
+      "independently_recomputed_raw_sample_SD": 0.10023494331402996,
+      "actual_Z_mean": -1.7542947151929556e-16,
+      "actual_Z_sample_SD": 0.9999999999999999,
+      "maximum_independent_Z_difference": 4.440892098500626e-16
+    },
+    "outside": {
+      "n": 39,
+      "sample_SD_divisor": 38,
+      "independently_recomputed_raw_mean": 0.18142637081701546,
+      "independently_recomputed_raw_sample_SD": 0.0902502242138061,
+      "actual_Z_mean": 5.693451408334136e-18,
+      "actual_Z_sample_SD": 1.0,
+      "maximum_independent_Z_difference": 0.0
+    }
+  },
+  "SAV_compression_before_after": [
+    1,
+    0
+  ],
+  "SAV_changed_NDVI_numeric_cells": 78,
+  "SAV_dictionary_preservation_note": "Dictionary is byte-identical, including Japanese NDVI variable names, labels/formats and extension records. Export header compression/product/date/file label changed; whole-file equality to the old SAV is therefore neither expected nor claimed.",
+  "Excel_container_note": "The XLSX ZIP container was repacked: unchanged members have identical decompressed payload bytes, but their compressed streams and ZIP flag/external-attribute metadata can differ. This is not spreadsheet content change or a data error; compressed bytes/ZIP metadata equality is outside the requested content-integrity requirements. Only Q4:Q42 and R4:R42 numeric value text changed in sheet1 XML.",
+  "Excel_container_metadata_observation": "For the nine unchanged members, flag_bits changed from 6 to 0 and external_attr from 0 to 25165824; compression remains DEFLATE and payloads are byte-identical.",
+  "Excel": {
+    "zip_CRC_checks_pass": true,
+    "ZIP_member_inventory_and_order_unchanged": true,
+    "ZIP_archive_comment_unchanged": true,
+    "changed_ZIP_members": [
+      "xl/worksheets/sheet1.xml"
+    ],
+    "only_sheet1_payload_changed": true,
+    "unchanged_member_count": 9,
+    "all_other_member_payload_bytes_unchanged": true,
+    "all_other_member_compressed_bytes_unchanged": false,
+    "all_other_member_metadata_unchanged": false,
+    "sheet1_bytes_outside_Q4_Q42_R4_R42_v_text_unchanged": true,
+    "permitted_numeric_cells": 78,
+    "actually_changed_numeric_cells": 78,
+    "changed_cells_are_numeric_without_formulas": true,
+    "new_39x17_Excel_matrix_exactly_matches_new_SAV": true,
+    "changed_cell_range": "Q4:Q42 and R4:R42"
+  },
+  "AMW": {
+    "original_root_AMW_SHA256": "19410f39905c9ea51909b5bb2fad3e6cad35f32dde2c3bd859c968de014371a1",
+    "original_AMW_remains_original_hash": true,
+    "original_root_AMW_exactly_matches_backup": true,
+    "new_AMW_only_dbname_dbtable_value_lines_can_differ": true,
+    "new_AMW_actual_changed_binding_line_count": 2,
+    "new_AMW_entire_remaining_serialized_text_identical": true,
+    "new_AMW_BOM_unchanged": true,
+    "new_AMW_binding_names_checked": [
+      "dbname",
+      "dbtable"
+    ],
+    "new_AMW_dbname_binds_final_package_SAV": true,
+    "new_AMW_dbtable_matches_SAV_stem": true,
+    "native_Amos_run_not_performed_by_QC": true
+  },
+  "SHA256": {
+    "old_backup_SAV": "54cca5a9e38faf59635ebcd9d645d7d77083ac30c7f2d8f46751d809c47d2737",
+    "new_package_SAV": "f3fe62f7b3520947204fc4ebc918421f27aae04e4286401c46ede6d8036ec8cd",
+    "old_backup_Excel": "681c5807e4caae6e470d1646946ee9858af46cc65e804540b2aac6479a80e288",
+    "new_package_Excel": "a937dccac7e95a12cf5f9afc1b2b4587038599b1692345a0d3f653883792d420",
+    "old_backup_AMW": "19410f39905c9ea51909b5bb2fad3e6cad35f32dde2c3bd859c968de014371a1",
+    "original_root_AMW": "19410f39905c9ea51909b5bb2fad3e6cad35f32dde2c3bd859c968de014371a1",
+    "new_bound_AMW": "781fd1ba6e6937252eaf7b28f17a0ea94d46e83d455dd3055f9a1fdea4f76ab5"
+  }
+}

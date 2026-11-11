@@ -1,0 +1,543 @@
+A regeneration approach for water and climate sensitive cities in peri-urban zones | Landscape and Ecological Engineering | Springer Nature Link
+Skip to main content
+Advertisement
+Log in
+Menu
+Find a journal
+Publish with us
+Track your research
+Search
+Saved research
+Cart
+Home
+Landscape and Ecological Engineering
+Article
+A regeneration approach for water and climate sensitive cities in peri-urban zones
+Original Paper
+Open access
+Published: 21 October 2026
+(2026)
+Cite this article
+You have full access to this open access article
+Download PDF
+Save article
+View saved research
+Landscape and Ecological Engineering
+Aims and scope
+Submit manuscript
+A regeneration approach for water and climate sensitive cities in peri-urban zones
+Download PDF
+Alessandro Ceppi
+ORCID: orcid.org/0000-0002-2594-56551,2,
+Linda Chimento1,3,
+Lucia Castellani1,
+Mariana Marchioni1,3,
+Gianfranco Becciu1 &
+…
+Claudia Dresti4
+Show authors
+356 Accesses
+Explore all metrics
+Abstract
+The rapid expansion of urban areas, along with the increase of impervious surfaces and encroachment on floodplains, has resulted in significant challenges related to flood and climate risk, water quality, biodiversity, and preservation of essential ecosystem services. An effective approach to mitigate these impacts lies in Nature-based Solutions (NbS), which have emerged as promising strategies for enhancing both environmental sustainability and human well-being, and they have been demonstrated to play a pivotal role in climate change adaptation and mitigation. This research aims to quantify the potential effects of NbS on water- and climate-related ecosystem services over a specific site in Legnano city which is a peri-urban zone, western the Milan metropolitan area in the North-West of Italy. The study adopts an integrated approach to urban regeneration, examining how the implementation of NbS can enhance the provision of various ecosystem services. Specifically, pluvial flood storage, heat island mitigation and biodiversity are quantified as primary benefits in the study area. The paper emphasizes the improvement of service indicators through the NbS approach that can be applied to all urban areas, fostering the development of resilient cities and ensuring the well-being of both citizens and ecosystems.
+Similar content being viewed by others
+Ecological Planning Strategies and Nature-based Solutions in the Context of Climate Change Resilience
+Chapter
+© 2026
+Nature-Based Solutions: A Prospective Strategy in Pluvial Flood Management
+Chapter
+© 2026
+Harnessing Nature-Based Solutions in Urban Areas: A Case Study
+Chapter
+© 2025
+Explore related subjects
+Discover the latest articles, books and news in related subjects, suggested using machine learning.
+Pollution Remediation
+Environmental Geography
+Urban Ecology
+Environmental Civil Engineering
+Environmental Communication
+Ecosystem Services
+Ecosystem Services Assessment and Land Use Dynamics
+Introduction
+Continued urban expansion is expected to substantially transform land systems over the coming decades. Recent projections indicate that global urban land could increase by approximately 0.82–1.53 million km2 between 2015 and 2050, with a substantial proportion of this expansion occurring in Africa and Asia (Li et al. 2022). More recent research also highlights that the extent and spatial pattern of future urban expansion remain highly dependent on population distribution and urban development pathways (Orsi et al. 2026). Beyond direct habitat loss and fragmentation (Ren et al. 2023), urbanisation alters local environments through a range of physical processes that can generate environmental stress (Güneralp and Ahasan 2026), including increased flood risk and the development of urban heat islands (UHIs), both of which may be exacerbated by climate change (Frustaci et al. 2022; Ceppi et al. 2022; Pappalardo et al. 2023). However, it is difficult to disentangle the relationship between urbanization and accelerating climate change (Kamal-Chaoui and Robert 2009; Wray et al. 2024).
+Identifying effective solutions to reduce energy consumption and environmental impacts is increasingly important for future urban development (van Oorschot et al. 2024). These include (i) improving the urban microclimate to mitigate the UHI effect; (ii) implementing NbS, which can provide cost-effective interventions while simultaneously delivering ecological, social, and economic benefits and enhancing environmental resilience; and (iii) implementing sustainable urban drainage systems (SUDS), which encompass a range of water-management practices aimed at aligning modern drainage systems with natural hydrological processes.
+In the last decades, there has been a growing acknowledgement of the role that nature plays in our society (Kabisch et al. 2017; Moosavi et al. 2021). Unfortunately, for most of the twentieth century, decision-makers treated nature conservation as peripheral to both national and global agendas: at best, it was regarded as a worthy concern; at worst, as an obstacle to development. Nevertheless, nature is essential for human existence and good quality of life; thus, if we fail to recognize this fact, we will not have success in solving the current societal challenges, such as climate change, water resource management, human health, food security, disaster risk reduction, etc.
+To be considered NbS, an intervention must address one or multiple social challenges in an integrated manner with the aim to create benefits for biodiversity and human well-being (IUCN 2020). This is particularly tough in densely populated urban landscapes, where other land-uses constantly tackle the preservation and protection of functioning ecosystems (Andersson et al. 2017).
+In this context, our study illustrates how most of the urban criticalities, such as impervious surfaces, abandoned areas could be minimized using green infrastructure with a consequent enhancement of biodiversity, environmental resilience, climate mitigation and sustainable management of rainwater. Through the design and use of degraded and empty urban spaces, it is possible to create a constellation of regenerated territories encouraging their reuse by citizens.
+The testbed, here presented, is located a peri-urban site in the municipality of Legnano, which is an Italian city 25 km western the Milan metropolis where our concept is developed to increase the percentage of green areas at the expanse of urbanized ones, regenerating and giving new life to all the abandoned areas scattered throughout this borough. A combination of various NbS techniques is adopted, such as rainwater harvesting for buildings with sloped roofs, detention ponds to collect and slowly release rainwater, rain gardens to limit groundwater pollution and enhance biodiversity, green and blue roofs, permeable paths, parking lots to increase ground water infiltration and reduce UHI. A site-scale pilot area within the Legnano peri-urban zone undergoes a regeneration project; an approach that could be certainly replicated on other void areas.
+The research aims to primarily quantify indicators of three benefits deemed essential for the proposed scenario: climate, water, and biodiversity at local scale. The climate factor is evaluated by heat island mitigation, the water flow by land cover change, and the biodiversity by green areas and vegetation, while other co-benefits are identified, but not assessed in this analysis. Using the Storm Water Management Model, developed by the U.S. Environmental Protection Agency (USEPA), hereafter the SWMM model, and the ENVI-met software, computations are conducted to assess NbS indicators before and after the regeneration scenario for identified key-benefits. The intention is to compute the joint effect of NbS as a successful technique for water flow regulation, climate change mitigation, lifecycle maintenance and habitat protection to be fully integrated into climate justice projects (Todeschi et al. 2022) and natural hazard action plans from global to local scale.
+Materials and methods
+Area of study
+The city of Legnano is in the north-western part of Italy, (Fig. 1), crossed by the River Olona; it is the thirteenth-most populous township in the Lombardy Region with around 60,000 citizens spread over 17 km2. According to the Italian National System for Environmental Protection (Munafò, 2024), it is located in one of the Italian provinces with the highest rate of soil consumption in the country.
+Fig. 1
+Full size image
+The Lombardy Region in northern Italy (left), and the borough of Legnano (right). The study area, which is the former Pensotti industry, is highlighted in dark blue
+About 70% of the municipality of Legnano is covered by anthropized areas and impervious surfaces unable to let water infiltrate into the ground; out of this percentage, 39% are urbanized, 27% productive, and the remaining 4%, which are the investigated testbeds to be potentially requalified through NbS, are degraded and abandoned sites; lastly, 21% of the territory is dedicated to agriculture with most of the farming areas in the southeastern suburb of Legnano. Only 8% of the whole city is covered by woodlands and natural environment, but these territories are fragmented and sparse (Table 1).
+Table 1 Land use areas in Legnano municipality, sourced by the Lombardy Region: https://www.geoportale.regione.lombardia.it/ (accessed on 1st April 2026)
+Full size table
+In the last century, most of these sites were occupied during the peak of industrial expansion in the Olona River basin, which was an important textile industry district. Most of these facilities are situated near watercourses to cool their machinery, while other areas remain abandoned, frequently degraded, and pose severe risks to both people and environment. Nevertheless, these zones are now classified as heritage of historical, architectural, and cultural interest by the Legnano’s administrative strategic plan; hence, all buildings and fields under this restriction must be preserved both aesthetically and socially. A list of the major industrial, historical, and cultural relevance sites is presented in Appendix A.
+In this study, we focus our project computations on the former Pensotti industry (hereafter, Site A) where the majority of the area is not permeable, and more detailed data information are available. Nontheless, the same methodology can be replicated on other voids of Legnano city, and this approach can be applied to any urban areas to be green requalified.
+Meteorological data
+Legnano city is characterized by a pronounced seasonality in the meteorological regime (Fig. 2). According to the weather data by the Regional Environmental Protection Agency (ARPA Lombardy) in the period 2003–2022 of the closest available weather station at Busto Arsizio city (5 km northwestern Legnano), precipitation shows a bimodal behaviour with two peaks: one with larger amounts in autumn, and the other in spring. January is the month with the lowest value (58.0 mm), while November has the highest (161.5 mm). Maximum hourly precipitation is expected in summer, prevalently for convective storms. The yearly mean rainfall value aggregated over Legnano city is around 1115.2 mm with a decreasing trend of 4.1 mm/year along the existing dataset. Concerning temperatures, January is the coldest month with a mean value of 2.8 °C, and July is the warmest one with 24.8 °C, while a yearly average equal to 13.6 °C is observed, spanning from 12.5 to 14.9 °C with an increasing trend of 0.05 °C/year.
+Fig. 2
+Full size image
+Mean temperature and precipitation values recorded at Busto Arsizio weather station in the period 2003–2022
+In addition to air temperature and precipitation, relative humidity and incoming short-wave solar radiation are collected to calculate potential evapotranspiration processes through the Priestly-Taylor equation (Priestley and Taylor 1972) which does not consider the wind velocity component; nevertheless, very low yearly mean velocities, equal to 1.4 m/s, which are typical values of the Po Valley basin, are observed.
+The adopted NbS strategy and ecosystem services delivery
+The concept of ecosystem services is here adopted to enhance their provision from ecosystems through natural capital and to elucidate their role in supporting human well-being (Costanza et al. 1997; Costanza 2020). Evaluating these services requires a systematic classification, and various frameworks have been proposed and refined over the years, including those developed by the Millennium Ecosystem Assessment (MEA), the Economics of Ecosystems and Biodiversity (TEEB), and the Common International Classification of Ecosystem Services (CICES). This latter was developed by the European Environment Agency to support environmental accounting and to contribute to the revision of the System of Environmental-Economic Accounting (SEEA), led by the United Nations Statistical Division, with the aim of standardizing the description of ecosystem services. The growing interest in CICES highlights its importance not only for environmental applications, but also for improving the mapping, evaluation, and assessment of ecosystem services more broadly (McVittie and Hussain 2013). Therefore, this study adopts the classification proposed by Haines-Young and Potschin (2013) to identify and categorize ecosystem services in a green regeneration scenario (Fig. 3). Key benefits, such as pluvial flood mitigation, urban heat island reduction, and biodiversity enhancement, are investigated, as these represent the most pressing issues in the urbanized study area. These benefits are then categorized into service groups, including water flow regulation (encompassing both peak flow and volume management), atmospheric regulation (at the local scale), and regulation of the biotic environment, including lifecycle maintenance and habitat protection (Fig. 4). A set of indicators is applied to evaluate these key benefits.
+Fig. 3
+Full size image
+Key-benefits from ecosystem services categorized by the CICES classification. The services investigated in this study are highlighted in bold
+Fig. 4
+Full size image
+Ecosystem services delivered by the regeneration scenario classification according to the CICES classification
+Water flow regulation
+The proposed NbS intervention primarily focuses on water flow regulation, which includes water storage and runoff attenuation. The first component promotes groundwater recharge and evapotranspiration by reducing water release and enhancing infiltration, while the second component focuses on controlling pluvial flooding.
+Water flow services are primarily assessed using the SWMM model, which compares pre- and post-regeneration scenarios with both continuous simulation and design-storm temporal resolution. Although the input data consist of meteorological observations, the absence of measured runoff data prevents model calibration and validation. Consequently, the evaluation remains qualitative, and the results should be interpreted as a comparative assessment between the pre- and post-regeneration scenarios rather than as absolute values. Therefore, water storage indicators are evaluated through continuous simulations, since the design-storm method is associated with the probability of storm occurrence, and it serves as a valuable tool for flood risk assessment. In particular, the Stormwater Capture index (SWC) is used as an efficient metric for on-site stormwater management in urban areas where hydrological losses are typically higher due to the dominance of impervious surfaces, which limit infiltration and increase surface runoff (Marchioni and Becciu 2015; Marchioni et al. 2021).
+To manage flood risks in urban areas, stormwater discharge limits are typically set by local authorities, based on regional hydrological conditions, urban infrastructure, and the capacity of local stormwater systems. These regulations are designed to control post-development peak discharge rates, ensuring they are equal to, or lower than, pre-development rates (commonly referred to as greenfield runoff ones). This is usually achieved through temporary storage systems that reduce the outflow to meet regulatory requirements. While flood control can be accomplished by using concrete tanks with controlled discharge via pumping, such approaches, though effective in reducing outflows, do not provide additional co-benefits and require energy consumption. Instead, the SWC index quantifies the proportion of stormwater generated on-site that remains within it. Equation 1 defines SWC within a range from 0 to 1:
+$$ SWC = 1 - \frac{V}{P \cdot S} $$
+(1)
+where P denotes the total precipitation, S represents the drained area, and V corresponds to the measured stormwater volume at the outlet. The ratio between V and P·S accounts for hydrological losses, including initial abstraction, infiltration, and evaporation. A value of 0 indicates that the entire volume passes through the outlet, whereas a value of 1 can be considered a key performance indicator for stormwater management using NbS, as it implies that the entire stormwater event is effectively managed on-site. Additional co-benefits, such as pollution reduction can be indirectly achieved by reducing discharge volume, while others like heat island mitigation and groundwater recharge are associated with evapotranspiration and infiltration processes.
+The last indicator for water flow regulation service is the runoff coefficient (RC), which quantifies hydrological losses from a specific land cover, and it is commonly used to estimate peak flow using the rational equation. In the context of ecosystem service assessment, this index serves as a proxy for water flow regulation, directly correlated with land cover types and requiring minimal computations. A reduction in RC corresponds to a decrease in peak flow and an increase in storage volume. For this indicator, the weighted average for each land cover type is calculated. The index ranges from 0 for permeable surfaces to 1 for impervious sealed surfaces.
+The rainfall-runoff model
+The rainfall-runoff simulations are performed using SWMM, a semi-distributed model capable of modelling both single events and long-term time series; this makes it well-suited for urban hydrological studies. The model is designed to simulate sustainable drainage structures and assess pollutant loads within a network, tracking their accumulation, removal, and propagation (Rossman 2010).
+This study highlights the model flexibility in implementing sustainable urban drainage techniques, also referred to as Low Impact Development (LID), which fall within the broader NbS framework for land-use planning and engineering design aimed at managing stormwater runoff as part of green infrastructure. These techniques are modelled using multiple conceptual layers, including a surface layer for vegetation, an engineered soil layer for infiltration and partial treatment, and a storage layer. For permeable pavements, an additional paved surface layer is included. Several simplifications are assumed in the model, including constant cross-sections, one-dimensional vertical flow, uniform inflow distribution, and moisture content within the soil layer. The storage layer is treated as a simple reservoir with a constant seepage loss estimated at 0.5 mm/h. The sizing and porosity parameters of the filling material used in the reservoir for the simulation follow typical literature values for these controls (Woods-Ballard et al. 2007; Rossman 2010). The kinematic wave method is used to simulate the rainfall-runoff transformation process, while the Horton model is applied to simulate infiltration in permeable areas. In this study, the initial saturated infiltration rate is set at 10–7 m/s, with a constant decay of 4 l/h. While a more accurate model would solve the physically based Richards' equation for infiltration (Riva et al. 2013; Feki et al. 2018; Marchioni et al. 2023), SWMM applies a flow continuity equation, instead.
+The model is implemented in the urban area of Legnano using the 20-year meteorological dataset. Daily potential evapotranspiration rates, calculated using the Priestley-Taylor equation (as described in "Area of study" section), were provided as input to SWMM (referred to as evaporation in both the model documentation and this paper), and subsequently partitioned among surface, soil, and groundwater processes.
+Regarding the pre-regeneration scenario, Site A is divided into 11 sub-catchments (see "Before and after the regeneration concept" section), all connected to a single discharge outlet into the public drainage network. These sub-catchments are classified into permeable and impermeable areas. These latter consist of concrete or asphalt, while the green areas are covered with lawn; the Manning’s roughness coefficient adopts typical values for different land surfaces (McCuen et al. 1996). In the post-regeneration scenario, Site A is divided into six sub-catchments which once again comprises permeable and impermeable areas, proportionally reflecting the existing land use. All NbS measures, represented in the model as LID controls, occupy a fraction of the total sub-catchment area, and they are located upstream of the outlet, under the assumption that both impervious and pervious areas drain into the LID controls prior to discharge.
+Simulations for both scenarios are conducted using both design storms and continuous simulations. The design storm used is the Chicago-storm hyetograph (Keifer and Chu 1957) with a 1-h duration, a 0.4 time-to-peak ratio, and Average Recurrence Intervals (ARIs, https://www.weather.gov/owp/hdsc_glossary, accessed on 1st April 2026) of 2, 5, and 10 years. The time steps for simulation are set to 5 min for wet conditions, 1 h for dry conditions, and 15 min for reporting. The choice of the Chicago method is motivated by its suitability for peak flow estimation, as design storms are commonly used to assess pluvial flooding in this type of study. It uses an intensity–duration–frequency (IDF) analytical formulation to generate a synthetic hyetograph, characterized by a single peak and divided into ascending and descending limbs. While this approach provides a standardized representation of storm events, it does not fully capture the variability of natural rainfall patterns. To account for different rainfall event combinations, as well as the effects of low-intensity rainfall and temporal distribution, continuous simulation is used as a complementary approach.
+Atmospheric regulation
+Regarding atmospheric regulation services, the chosen indicator is the air temperature, simulated by running the ENVI-met software before and after the regeneration scenario; detailed results are described in "Microclimate analysis" section.
+In addition, the service is evaluated through the Microclimatic Performance Index (MPI), a tool proposed by the Research Project UrbAlytics, under the framework of the AI4 Copernicus project (https://ai4copernicus-project.eu/urbalytics/, accessed on 1st April 2026). The index adopts entwines shading, potential evapotranspiration, and albedo to define a scoring between 0 to 100, where 100 represents the best score on microclimatic mitigation. This qualitative index is defined using tree cover densities as a proxy for shading and land cover, considering crop coefficient (Kc) recommended by FAO and albedo values from literature (Allen et al. 1998). The result is a set of twenty classes (Table 2) of urban green infrastructure. A weighted average is considered to compare the MPI for the investigated site before and after regeneration approach.
+Table 2 The Microclimatic Performance Index: scoring system based on twenty classes of urban green infrastructure
+Full size table
+The microclimate model
+Microclimate analyses are conducted using ENVI-met, a 3d simulation software capable of modelling urban environments and evaluating how urban design influences climatic conditions under various scenarios (https://www.envi-met.com/, last accessed on 1st April 2026). This package accounts for interactions between atmosphere, vegetation, and urban surfaces (Bruse and Fleer 1998; Eingrüber et al. 2023). The objective is here to compare air temperature simulations at 2-m above ground before and after the implementation of NbS, focusing on the impact of vegetation to mitigate the urban heat effect.
+The 3d model geometry is set with a grid resolution of 2 m in each dimension (dx, dy), covering an area of 100 m × 100 m. In the initial state, the surface is fully impervious, represented by dirty or worn concrete pavement as defined in the software, whereas the designed scenario aims to convert it into a predominantly pervious surface, with pathways modelled as light concrete pavement and the remaining areas covered with sandy loam and 25 cm-high grass. Medium-height trees are included to represent typical species of the Po Valley region, where Legnano is located, such as Common Ash (Fraxinus excelsior), Horse Chestnut (Aesculus hippocastanum), Dutch Elm (Ulmus × hollandica), and Spaeth’s Alder (Alnus spaethii). The distribution of surface and vegetation in both pre- and post-scenarios is depicted in Fig. 5.
+Fig. 5
+Full size image
+Land cover type in pre- and post-scenario simulations. The modelled area inside site A (the former Pensotti industry) is highlighted in dashed red square (a), the pre-scenario with impervious surface (b), the post-scenario with vegetation (c)
+To better estimate the cooling effect of vegetation, we chose one of the hottest days of the year 2022, specifically on July 22nd. Simplified meteorological boundary conditions are set to run the modelling simulations at 00 UTC and 12 UTC (+ 02 local time). 2-m air temperature and relative humidity values are sourced from the meteorological station in Busto Arsizio city, while the average specific humidity in the 2500 m layer is calculated using the mixing ratio obtained by the upper air sounding profiles recorded at the neighbour Novara Cameri airport for daytime and nighttime simulations. In addition, a range of optional outputs is provided, with a particular detail on soil and vegetation data. The vegetation data accounts for plant foliage based on location and seasonal variations, while initial soil moisture conditions are defined with moderate water content (50%) and a uniform initial temperature value of 30 °C across all the soil layers. Regarding wind speed and direction, they are imposed as constant at the inflow boundary, based on the measured data at the simulation start times: 4.6 m/s from South (180°) in daytime simulations, and 1.7 m/s from North (0°) in nighttime simulations.
+Lifecycle maintenance and habitat protection
+Regarding the lifecycle maintenance and habitat protection service group, biodiversity improvement is assessed using the Urban Greening Factor (UGF), an index originally developed in the city of Berlin and subsequently adopted in several countries (Farrugia et al. 2013; Aquilina et al., 2022; Namazi et al. 2024). Sealed surfaces are assigned a value of 0, while values increase up to 1 for open water or semi-natural vegetation. The UGF for a given area is calculated as a weighted average following Neal (2023) where recommended urban targets are 0.3 for residential areas and 0.4 for commercial ones. An increase in the UGF reflects not only a greater quantity of green infrastructure, but also improved ecological functionality, including habitat provision, biodiversity support, stormwater regulation, and urban climate mitigation; hence, multifunctional urban greening contributes to more resilient and ecologically connected urban environments. Main results for this indicator are presented in "Urban greening impacts" section.
+Results
+The focus area is located in the southeastern suburb of Legnano; in particular, the concept is implemented on site A (the former Pensotti industry).
+Before and after the regeneration concept
+Before the regeneration approach, the surfaces are actually divided into two subcategories: the pavement ones which have a size of 39,760 m2, and those occupied by buildings which are around 10,957 m2. On the contrary, the pervious surfaces are actually four, with a total size equal to 22,943 m2. In Table 3, the investigated areas are divided into various categories according to the materials they are composed of, and whether they are permeable or impermeable (Fig. 6).
+Table 3 Surface categories before the concept idea
+Full size table
+Fig. 6
+Full size image
+Subdivision of different types of surfaces before the concept idea
+Vice versa, the regeneration solution is illustrated as a masterplan in Fig. 7. The proposed design for the target area incorporates a blend of NbS and water reuse, combined with different types of residential and service buildings. The selection of this area is based on the importance given by NbS in transforming the entire neighbourhood for climate mitigation as well.
+Fig. 7
+Full size image
+Masterplan of the regeneration scenario with NbS in the investigated area of Legnano (left) with a 3d zoom on the southern part (right)
+The proposed concept extends to the southern part of the municipality, adjacent to the existing residential area, where several flat-roofed buildings are suitable for green roof installation. These solutions are particularly effective at reducing or preventing runoff from rainfall events, especially during the summer months, due to evapotranspiration processes and temporary storage capacity of the roof itself (Pappalardo et al. 2017; Shafique et al. 2018). Additionally, green roofs can help reduce peak flow rates to the site’s drainage system, particularly for light and moderate rain events. In this study, the total area of green roofs considered is approximately 4,089 m2, which represents 5.6% of the total study area (site A). Three out of eleven residential buildings are designed with a blue roof system to provide temporary storage and slow release of rainwater on rooftop. Blue roofs are an effective runoff control measure for buildings with flat or low-slope roofs, especially in urban catchments where impervious surfaces limit infiltration and increase pluvial flood risk (Shafique and Luo 2019). Water is stored until it either evaporates or it is released downstream after the storm event has passed. In this context, blue roofs are impervious areas, and they occupy 970 m2 which is 1.3% of the total area.
+Nearby, different green parking lots are planned to allow infiltration, and reduce water runoff, but at the same time, they give facilities to citizens who live in the area to use them; moreover, the pedestrian and cycle routes crossing the neighbourhood are made of permeable material to increase infiltration and give a more natural view to path. The area is completed with a geometrical garden design, the addition of rain gardens and detention basins to maximize runoff reduction, while biodiversity and trees for shadow and wind protection.
+The main feature of the upper area is the requalified industrial building of 9442 m2 where half of it is dedicated to residential apartments of different measures, while the other part is designed for commercial and service use. The important aspect of this new designed building is the sloped roof: perfect for application of rainwater harvesting practice. The rain is collected in gutters that channel the water into downspouts, and then into a sort of storage vessel to store it for later reuse as irrigation system or toilet flushing. As for the blue roof, the harvesting building is also considered impervious with a size of 9,442 m2 which is 12.8% of the surface. The number of green spaces is about 45,770 m2, equal to 62.1% of the entire project site. In this area, the surrounding path and parking lots are also made of permeable materials which can simultaneously enhance biodiversity and infiltration of water into the ground. Both permeable parking (2,126 m2) and path (11,263 m2), which occupy 2.9% and 15.3% of the total area respectively, have a runoff coefficient equal to 0.35. Considering the total surface amount, the pervious ones gained a huge increase in size: i.e., from 31.1 to 85.9% (Fig. 8), and the weighted average value of runoff coefficient decreases from 0.69 to 0.36, before and after the NbS intervention, respectively (Table 4).
+Fig. 8
+Full size image
+New subdivision of different types of surfaces after the concept idea
+Table 4 Surface categories after the concept idea
+Full size table
+Hydrological simulations
+One of the main goals of this study is to assess the benefits of ecosystem services for flow regulation through runoff peak attenuation. The SWMM simulations are conducted for both design-storm and continuous scenarios, providing results for peak flow, volume, infiltration, and evaporation.
+Regarding the continuous simulations from 2003 to 2022, the total precipitation amounted to 22,304 mm, with 12,694 mm of runoff in the pre-regeneration scenario, whereas a reduced value of 6382 mm is found in the post-regeneration. Additionally, both evaporation and infiltration increased in the post-regeneration scenario, with 216 mm of evaporation and 9207 mm of infiltration, compared to 68 mm and 3095 mm in the pre-regeneration scenario, respectively.
+Even the SWC index highlights this positive effect, with a value of 0.20 in the pre-regeneration scenario, and 0.60 in the post-regeneration scenario. Hence, by capturing stormwater on-site, the provision of ecosystem services is also enhanced, promoting temperature regulation, and supporting groundwater recharge in effort of restoring a natural water cycle.
+Regarding the peak flow reduction, this is observed both for single-storm and continuous simulations. Figure 9 summarizes the main differences in terms of benefits for water flow regulation before and after the conservation scenario.
+Fig. 9
+Full size image
+Summary of main results in water flow regulation processes in the pre- and post-conversion scenario: a peak flow values for 2-years, 10-years and 50-years ARIs for 1-h storm durations; b cumulative frequency of peak discharges for continuous simulations; c runoff volumes for continuous simulation; d percentages of water volumes for runoff, infiltration, and evapotranspiration for continuous simulation
+The attenuation of peak flow during the design-storm events slightly decreases at increasing of ARI (Fig. 9a), indicating that NbS exhibits optimal performance for more frequent storm events. Specifically for 1-h duration, the peak flow reduces from 1331.5 to 286.4 l/s for a 2-year ARI. Similarly, for a 10-year ARI, the peak flow drops from 2351.8 to 536.8 l/s, while for a 50-year ARI, it passes from 3266.8 to 801 l/s. The percentage reductions in peak flows are 78.5%, 77.2%, and 75.5%, corresponding to ARIs of 2-year, 10-year, and 50-year events, respectively.
+Figure 9b illustrates the cumulative frequency of peak discharges in storm events both for pre- and post-conversion scenarios in continuous simulation. The plot reveals that the lowest discharge values grow in comparison with the baseline scenario enhancing the peak flow control by NbS intervention. In the 0–50 mm interval, the baseline scenario records 2,088 storm events, corresponding to a relative frequency of 81%, whereas in the regeneration scenario the frequency increases to 92%, i.e., 2,736 storm events. On the contrary, episodes with peak discharge values in the range of 50–100 l/s decrease from 247 to 111, those in the range of 100–150 l/s diminish from 97 to 48 (from 9.5 to 3.7%), and the ones in the range of 150–200 l/s drop from 47 to 28 (from almost 2% to less than 1%). Therefore, this decreasing frequency of events with higher peak discharges denotes a noteworthy reduction in the occurrence of severe episodes in the post-conversion scenario.
+The overall discharge reduction into the municipal sewer system not only contributes to local pluvial flood management, but it also has significant implications for water quality improvement (not examined in this study) by reducing the frequency of combined sewer overflows.
+Regarding the water storage services (Fig. 9c), runoff volumes in both pre- and post-conversion scenarios reveal a significant decrease; more precisely, the total amount diminishes from 934 to 471 m3, reflecting a reduction of 49.5%. These systems have also indirect implications for wastewater treatment in Italian municipalities that rely on combined sewer systems, including Legnano, since they reduce the volume of stormwater conveyed to the wastewater treatment plant (WWTP).
+Lastly, Fig. 9d demonstrates that the adoption of NbS enhances both the infiltration volume (rising from 73,104 to 583,371 m3) and consequently, the evaporation one (increasing from 5028 to 15,950 m3). This leads to an infiltrated quantity eight times higher, and to an evaporated sum three times greater for the post-conversion scenario compared to the antecedent one, respectively.
+Microclimate analysis
+The rise in evaporation (plus transpiration) volume has a profound impact even on atmospheric regulation services linked to the local climate regulation, and the reduction of UHIs (Shashua-Bar et al. 2011; Oliveira et al. 2011; Park et al. 2012; Srivanit et al. 2013; Balany et al. 2020).
+In fact, another goal of this study is the evaluation of the positive effect that vegetation can provide on air temperature reduction. This is carried out comparing air temperature differences in the designed area (dashed red square in the previous Fig. 5a) before and after the implementation of NbS, as shown in Fig. 10. Both in daily and night model simulations, there is a positive effect of vegetation in terms of air temperature cooling. In daytime (Fig. 10a), the departure is higher, and it varies between a range of 0 and − 3.81 °C with an average cooling effect of about − 2.7 °C, while overnight (Fig. 10b) it spans from 0 and − 1.81 °C with an average value around − 1.5 °C. In addition, the simulations indicate that wind direction modulates air temperature. While temperature deviations are negligible at the boundaries, the cooling effect of vegetation and permeable surfaces is enhanced within the interior of the study area, with more pronounced temperature reductions occurring downwind of green areas, particularly during daytime.
+Fig. 10
+Full size image
+Temperature differences by model simulations between pre- and post-scenario on 22nd July 2022 at 12:00 UTC (a), and at 00:00 UTC (b)
+The impact of vegetation is also evaluated using the MPI index as weighted average over the entire site A. In the pre-regeneration scenario, the MPI index classified the green areas, predominantly lawns, as ID-12 (grass with low tree cover, see Table 2), while the remaining area was classified as ID-20 (no tree covers and sealed surfaces), obtaining a total MPI index for this site equal to 20. With the addition of trees to the green areas, S1 is classified as ID-6 (medium tree cover with grass), and the green roof, primarily consisting of small shrubs, retained its classification in ID-12 in the post-regeneration scenario, rising the MPI to an average value of 54.
+Urban greening impacts
+The last objective of our proposed solution is to activate urban space by creating a multifunctional amenity that enhances biodiversity and strengthens ecosystem services. To achieve this, the project adopts an integrated approach combining landscape design and strategic vegetation to establish green infrastructure capable of mitigating pollution, supporting ecological functions, and creating cool, shaded riparian zones. The workflow begins with the restoration and development of green spaces, which serve as the foundation for increasing local biodiversity and fostering social interaction among citizens. Central to this design is the use of diverse plant communities that provide ecological and aesthetic value. Ornamental plantings feature a carefully curated mix of native grasses, shrubs, herbaceous species, and bulbs, offering essential nectar sources and habitats for wildlife (e.g., birds and insects). This plant diversity strengthens ecological networks and contributes to the overall resilience of the landscape. Additionally, trees are underplanted with functional species compositions designed to enhance visual appeal while creating shaded, inviting pedestrian corridors. These elements work together to form a cohesive and adaptive green infrastructure that balances ecological health with social engagement.
+To assess these improvements in biodiversity, the UGF index is adopted. Using cover weightings, the green areas (S1–S4) in the pre-regeneration scenario reach a value of 0.4 for formal lawns, whereas the paved and built-up zones are assigned a value of 0. In the post-regeneration scenario, to green area (S1) is assigned a value of 0.5, reflecting increased vegetation; the same UGF value is applied to green roofs (S2), while blue roofs (S3) and harvesting buildings (S4) retain a value of 0. Permeable parking areas and paths (S5 and S6) are assigned a value of 0.1. According to the weighted-average formulation, the UGF index is 0.12 in the pre-regeneration scenario and 0.50 in the post-regeneration scenario. Hence, the target values, described in "Lifecycle maintenance and habitat protection" section are achieved in the post-regeneration scenario.
+Discussion
+The main findings of this study demonstrate that the implementation of combined NbS at the site scale effectively delivers key ecosystem services in terms of water flow regulation, heat island mitigation, and biodiversity enhancement (Table 5).
+Table 5 Estimated indicators for the different ecosystem services considered; RPD is the relative percentage difference between pre- and post-regeneration
+Full size table
+The proposed indicators should assist designers and planners in the development of integrated urban spaces that incorporate NbS in innovative and strategic ways. This requires recognizing their potential contributions and mutual interactions across multiple urban functions, including, but not limited to, flood risk management, water supply, green infrastructure, habitat provision, transport corridors, climate resilience, community identity, recreation, and tourism. By integrating these elements, nature can play a crucial role in achieving a broad spectrum of local planning policies and objectives.
+Our research, in fact, highlights that the insertion of NbS, especially in densely urbanized areas, represents a reliable policy for stormwater management, delivering significant benefits in terms of ecosystem services. Control structures like rain gardens, which rely on smaller infiltration areas and low discharge rates, may exhibit suboptimal performance when faced with different storm events. Therefore, they should be integrated with larger-scale downstream control structures to provide comprehensive flood risk management, particularly at the municipal level. These systems positively contribute to overall environmental resilience and ecosystem service delivery, as demonstrated by the SWC index, which reaches approximately 60%, indicating a reduction in peak flow and significant progress in restoring the natural water cycle.
+These findings are consistent with an increasing body of international literature demonstrating that integrated NbS can simultaneously enhance multiple ecosystem services in urban environments. Recent studies have shown that combining green roofs, permeable pavements, rain gardens and detention systems significantly improve stormwater retention, reduces runoff volumes and attenuates peak discharges while promoting infiltration and restoring more natural hydrological processes (Lähde et al. 2023; Alves et al. 2024; Fletcher et al. 2024; Marchioni et al. 2025; USEPA 2025). Although direct quantitative comparisons should be interpreted with caution due to differences in climate, site characteristics and the type and extent of implemented NbS, the approximately 50% reduction in runoff volume and the peak flow attenuation exceeding 75% obtained in the present study are comparable with the performance reported for integrated green infrastructure at the neighbourhood scale. Similarly, the simulated cooling effect of approximately 2.7 °C during daytime and 1.5 °C during nighttime agrees with recent international evidence identifying vegetation cover, evapotranspiration and shading as the main mechanisms responsible for mitigating the UHI effect (Ferrario et al. 2024). Overall, these comparisons suggest that the proposed regeneration approach provides benefits comparable with those observed in other international experiences, while extending their application to the regeneration of peri-urban brownfield areas through an integrated framework combining hydrological modelling, microclimate simulation and ecosystem service assessment.
+Although site-scale benefits are substantial and discharges into the main watercourse (the River Olona) may provide localised stormwater attenuation, achieving meaningful NbS effects at the basin scale requires implementation across the entire catchment. However, fluvial flood risk is strongly influenced by river regulation, with the upstream Ponte Gurone dam exerting a dominant control on downstream discharge and flood management (Ceppi et al. 2025). In contrast, pluvial flood risk arises primarily in cases of drainage network insufficiency, since the water table is located at a considerable depth below ground level, it does not play a significant role in this area. The design of these interventions follows an architectural approach, and alternative configurations or combinations of solutions to determine whether these outcomes could be optimized, are not evaluated in this study. Future research could focus on this aspect, particularly by prioritizing the use of indices that are easier to derive and comparing them through cost–benefit analyses.
+Although it is not quantified in this study, it is remarkable how structures as permeable pavement, rain gardens, and wetlands, adopted on this regeneration project, are recognized to efficiently manage stormwater pollution through process of infiltration, sedimentation, filtration, adsorption, biodegradation, oxidation, reduction, or separation (Marchioni et al. 2022; Li and Davis 2009; Carleton et al. 2000). The on-site managed volume reduction can also be linked to water quality, as overflow washes off pollutants that accumulate on impervious surfaces. For the study territory, the area includes combined sewer overflows which release untreated discharge into the river Olona, posing challenges in achieving the required water quality standards set by the Water Framework Directive 2000/60/EC.
+Regarding climate resilience, based on the climate indices introduced by the Expert Team on Climate Change Detection and Indices (ETCCDI, see Alexander et al. 2006; Zhang et al. 2011), we found a slight increase over the 20-year study period in the number of summer days (i.e., days with maximum temperatures exceeding the 25 °C threshold) and tropical nights (i.e., nights with minimum temperatures above 20 °C) by 1.9 days and 2.7 days per decade, respectively. However, when using a threshold of 30 °C for maximum daily temperatures (hot days, Crespi et al. 2020), the observed upward trend increases to 9 days per decade. This finding highlights the importance of the vegetation cooling effect as a key benefit in mitigating the UHI with high temperatures (see Soltanifard, H. & Amani-beni for a review), with reductions of about 2.7 °C in daytime values and about 1.5 °C at night, particularly in the context of warming environment and future climate conditions, consistently with previous studies on urban green infrastructure (Sobhaninia et al. 2025). The adoption of NbS in urban areas is thus seen as a vital pathway toward creating resilient cities, where not only direct challenges are addressed, but overall well-being and comfort are prioritized (Li et al. 2025). A range of co-benefits can be generated as a result of these measures, reinforcing the importance of integrating NbS into urban development projects (Remme et al. 2024).
+In this study, we also emphasized the importance of biodiversity, a crucial aspect of NbS that is often relegated to a secondary role in engineering solutions due to a lack of data and structured evaluation methods. This originality of this work lies in the integration of quantitative and qualitative methods to assess ecosystem services derived from a nature-based regeneration approach. By bridging multiple disciplines and incorporating diverse expertise, a structured evaluation framework that enhances the credibility and applicability of NbS in engineering and planning contexts, especially in densely urbanized areas is here presented.
+Strengths and limitations of the study
+From an implementation perspective, the proposed framework should be regarded as a planning and assessment tool rather than a governance model. Its practical application depends on institutional, financial and ownership conditions that vary across peri-urban contexts. In many abandoned industrial areas, fragmented private ownership, contaminated land requiring costly remediation, and the need to secure long-term funding for both implementation and maintenance represent significant barriers. Consequently, effective implementation requires collaborative governance involving public authorities, private landowners, developers and local communities, with public–private partnerships representing a potential mechanism to support both delivery and long-term management. Participatory processes can further improve the legitimacy and long-term stewardship of regenerated spaces, while governance arrangements should also consider potential risks of green gentrification associated with environmental regeneration. Although these governance dimensions are beyond the scope of this study, they represent an important area for future research on NbS implementation (Raymond et al. 2017; Mahmoud et al. 2021, 2026; Cattivelli 2023; Frantzeskaki et al. 2023).
+In addition, from an economic point of view, we acknowledge that a full site-specific cost–benefit analysis is beyond the scope of the present study; however, the indicators here quantified provide a first evidence base for such an appraisal. For instance, stormwater-related benefits may be linked to avoided costs associated with runoff conveyance, sewer-system overload, combined sewer overflow occurrence, and wastewater treatment volumes, as widely discussed in the literature (USEPA 2025), while cooling benefits may be interpreted in relation to reduced heat stress and, where applicable, lower building energy demand. By contrast, biodiversity enhancement remains a core outcome of NbS, although it is less readily transferable into robust monetary terms and is here retained primarily as an ecological and planning-relevant indicator. We therefore argue that one of the main barriers to the wider implementation of green infrastructure is not the lack of technical effectiveness, but the limited integration between biophysical performance assessment, governance responsibility, and economic evaluation. Future applications of the proposed framework should therefore integrate ecosystem service indicators with implementation and maintenance prices, as well as avoided-cost approaches, to better support public investment decision-making.
+A further limitation of the study concerns the role of uncertainty in the interpretation of the model-based indicators. The present assessment adopts a deterministic modelling approach and does not include a formal sensitivity analysis. Consequently, indicators such as SWC and the simulated runoff-related metrics are subject to uncertainties associated with model parameterization and structural assumptions, including the representation of infiltration, evapotranspiration, and storage processes, as well as the lack of runoff observations for model calibration. Although the runoff coefficient is more directly linked to land-cover composition, its value also depends on the representative coefficients assigned to each surface type. Therefore, the results should be interpreted primarily as a comparative assessment of the relative effects of the pre- and post-regeneration scenarios within a consistent modelling framework (Table 5), rather than as exact quantitative predictions. While the substantial land-cover transformation and the magnitude of the differences observed between scenarios suggest that the direction of change is qualitatively robust, the precise values of individual indicators may vary under alternative parameterizations. Future research should include dedicated investigations once suitable observational datasets become available.
+Conclusions
+Nature is declining at unprecedented rates, and species extinction continues to accelerate, threatening the functioning of ecosystems as foundations of human livelihoods and economies. The application of NbS could give a possibility to humans to help minimize and mitigate terrible risks coming from climate change scenarios, and nowadays there is a growing acknowledgement of the role that nature plays in our society.
+In this study, we propose a sustainable research methodology for the city of Legnano, North-West of Italy. Three ecosystem services delivered by a regeneration approach are identified by establishing the main indicators that provide the most relevant key benefits for a peri-urban area, namely water management with the SWMM rainfall-runoff model, microclimate regulation with the ENVI-Met software and MPI index, and biodiversity improvement with the UGF index.
+The results demonstrate that regenerating abandoned and degraded areas into a network of green spaces with permeable characteristics leads to a dramatic 50% reduction in runoff volume, a cooling in urban heat by approximately 1–3 °C, and an increment score in the UGF by 0.38. These outcomes highlight significant benefits in terms of water flow and atmospheric regulation, and biodiversity as key ecosystem services.
+By adopting the CICES international framework, the study not only highlights but also quantifies the potential for applying the increasingly widespread NbS approach under different climatic conditions, thereby contributing to the development of more resilient cities and supporting its application in densely urbanised areas.In these contexts, by evaluating key ecosystem service benefits, the assessment can be disaggregated into smaller urban districts, with model outputs, performance indices, and related metrics averaged across the entire municipal territory.
+The paper poses significant statements about how environmental issues may be easily mitigated with the combined use of NbS which must be fully integrated into climate change and natural hazard action plans. A common criticism of NbS is that the concept remains somewhat abstract, with a lack of structured methodologies for quantitatively assessing their benefits. The novelty of this work lies in the adoption of established methods not as an end in themselves, but as part of a multidisciplinary approach to NbS evaluation. Our aim is to provide robust and reliable tools for deriving quantifiable indicators that link project outcomes to ecosystem services, thereby providing a measurable framework for assessing the benefits of NbS. The aim is to foster integrative governance and management policies that promote healthy, liveable, and sustainable cities, particularly in settlements located in flood-prone areas, which are mainly susceptible to flooding during intense or prolonged precipitation and storm events.
+A future step, not covered here, would be, in fact, to assign a tangible monetary value to these services, further advancing this approach. The effort to create a framework for quantifying ecosystem services provided by NbS showcases the broad range of discussed topics, making it an important tool to justify and support these interventions for policymakers and decision-makers.
+Data availability
+The data presented in this study are available on request from the corresponding author.
+Abbreviations
+ARI:
+Average Recurrence Interval
+CICES:
+Common International Classification of Ecosystem Services
+IUCN:
+International Union for Conservation of Nature
+LID:
+Low Impact Development
+MEA:
+Millennium Ecosystem Assessment
+NbS:
+Nature-based Solutions
+SUDS:
+Sustainable Urban Drainage Systems
+SWC:
+Stormwater Capture
+SWMM:
+Storm Water Management Model
+TEEB:
+The Economics of Ecosystems and Biodiversity
+USEPA:
+United States Environmental Protection Agency
+WWTP:
+Wastewater Treatment Plant
+IDF:
+Intensity-duration-frequency
+References
+Alexander LV, Zhang X, Peterson TC, Caesar J, Gleason B, Klein Tank AMG et al (2006) Global observed changes in daily climate extremes of temperature and precipitation. J Geophys Res 111:2005JD006290. https://doi.org/10.1029/2005JD006290
+Article
+Google Scholar
+Allen RG, Pereira LS, Raes D, Smith M (1998) Crop evapotranspiration-guidelines for computing crop water requirements-FAO irrigation and drainage paper 56. FAO, Rome
+Google Scholar
+Alves RA, Rudke AP, Martins LD, Souza STM, Bovo AB, Rambalducci MJG, Martins JA (2024) Urban stormwater management from the perspective of nature-based solutions: a bibliometric review. J Ecohydraul 9:218–238
+Article
+Google Scholar
+Andersson E, Borgström S, McPhearson T (2017) Double insurance in dealing with extremes: ecological and social factors for making nature-based solutions last. In: Kabisch N, Korn H, Stadler J, Bonn A (eds) Nature-based solutions to climate change adaptation in urban areas, theory and practice of urban sustainability transitions. Springer, Cham. https://doi.org/10.1007/978-3-319-56091-5_4
+Chapter
+Google Scholar
+Aquilina MC, Sheate WR (2022) A critical analysis of the role of the urban climate resilience nexus in London. Eur Plan Stud 30(7):1355–1377
+Article
+Google Scholar
+Balany F, Ng AWM, Muttil N, Muthukumaran S, Wong MS (2020) Green infrastructure as an urban heat island mitigation strategy—a review. Water 12:2577
+Article
+Google Scholar
+Borrego C, Martins H, Tchepel O, Salmim L, Monteiro A, Miranda AI (2006) How urban structure can affect city sustainability from an air quality perspective. Environ Model Softw 21:461–467. https://doi.org/10.1016/j.envsoft.2004.07.009
+Article
+Google Scholar
+Bruse M, Fleer H (1998) Simulating surface–plant–air interactions inside urban environments with a three-dimensional numerical model. Environ Model Softw 13(1998):373–384
+Article
+Google Scholar
+Carleton JN, Grizzard TJ, Godrej AN, Post HE, Lampe L, Kenel PP (2000) Performance of a constructed wetlands in treating urban stormwater runoff. Water Environ Res 72(3):295–304
+Article
+CAS
+Google Scholar
+Cattivelli V (2023) The Governance of Peri-urban Areas in Lombardy (IT): the strenghts and weaknesses of the regional territorial governance system. Valori e Valutazioni 33:133–148. https://doi.org/10.48264/VVSIEV-20233310
+Article
+Google Scholar
+Ceppi A, Gambini E, Lombardi G, Ravazzani G, Mancini M (2022) SOL40: forty years of simulations under climate and land use change. Water 14:837. https://doi.org/10.3390/w14060837
+Article
+Google Scholar
+Ceppi A, Gambini E, Ravazzani G, Lombardi G, Cerri L, Meucci S, Mancini M (2025) Attribution of flood forecasting errors from a multi-model perspective in Milan urbanized river basins. J Flood Risk Manag 18:e70023. https://doi.org/10.1111/jfr3.70023
+Article
+Google Scholar
+Costanza R, D’Arge R, De Groot R, Farber S, Grasso M, Hannon B, Van Den Belt M (1997) The value of the world’s ecosystem services and natural capital. Nature 387(6630):253–260
+Article
+CAS
+Google Scholar
+Costanza R (2020) Valuing natural capital and ecosystem services toward the goals of efficiency, fairness, and sustainability. Ecosyst Serv 43:101096. https://doi.org/10.1016/j.ecoser.2020.101096
+Article
+Google Scholar
+Crespi A, Terzi S, Cocuccioni S, Zebisch M, Berckmans J, Füssel H-M (2020) Climate-Related Hazard Indices for Europe; Technical Paper 2020/1; ETC/CCA. https://doi.org/10.25424/cmcc/climate_related_hazard_indices_europe_2020
+Eingrüber N, Korres W, Löhnert U, Schneider K (2023) Investigation of the ENVI-met model sensitivity to different wind direction forcing data in a heterogeneous urban environment. Adv Sci Res 20:65–71
+Article
+Google Scholar
+Farrugia S, Hudson MD, McCulloch L (2013) An evaluation of flood control and urban cooling ecosystem services delivered by urban green infrastructure. Int J Biodivers Sci Ecosyst Serv Manag 9(2):136–145. https://doi.org/10.1080/21513732.2013.782342
+Article
+Google Scholar
+Feki M, Ravazzani G, Ceppi A, Milleo G, Mancini M (2018) Impact of infiltration process modeling on soil water content simulations for irrigation management. Water 10(7):850
+Article
+Google Scholar
+Ferrario F, Mourato JM, Rodrigues MS, Dias LF (2024) Evaluating nature-based solutions as urban resilience and climate adaptation tools: a meta-analysis of their benefits on heatwaves and floods. Sci Total Environ 950:175179
+Article
+CAS
+PubMed
+Google Scholar
+Fletcher TD, Burns MJ, Russell KL, Hamel P, Duchesne S, Cherqui F, Roy AH (2024) Concepts and evolution of urban hydrology. Nat Rev Earth Environ 5:789–801
+Article
+Google Scholar
+Frantzeskaki N, Wijsman K, Adams C, Kabisch N, Malekpour S, Pinto MP, Vandergert P (2023) Governance of and with nature-based solutions in cities. In: McPhearson T, Kabisch N, Frantzeskaki N (eds) Nature-based solutions for cities, 1st ed. Edward Elgar Publishing, pp 241–258. https://doi.org/10.4337/9781800376762.00022
+Chapter
+Google Scholar
+Frustaci G, Pilati S, Lavecchia C, Montoli EM (2022) High-resolution gridded air temperature data for the urban environment: the Milan data set. Forecasting 4:238–261. https://doi.org/10.3390/forecast4010014
+Article
+Google Scholar
+Güneralp B, Ahasan R (2026) Urban land-change futures: current understanding, challenges, and implications. Npj Urban Sustain 6:7. https://doi.org/10.1038/s42949-025-00308-7
+Article
+Google Scholar
+Haines-Young R, Potschin M (2013) Common International Classification of Ecosystem Services (CICES): Consultation on Version 4, August-December 2012. EEA Framework Contract No EEA/IEA/09/003
+IUCN (2020) Guidance for using the IUCN global standard for nature-based solutions. A user-friendly framework for the verification, design and scaling up of nature-based solutions, First edition. IUCN, Gland, Switzerland
+Google Scholar
+Kabisch N, Stadler J, Korn H, Bonn A (2017) Nature-based solutions for societal goals under climate change in urban areas: synthesis and ways forward. In: Kabisch N, Korn H, Stadler J, Bonn A (eds) Nature-based solutions to climate change adaptation in urban areas: theory and practice of urban sustainability transitions. Springer, Cham. https://doi.org/10.1007/978-3-319-56091-5_19
+Chapter
+Google Scholar
+Kamal-Chaoui L, Robert A (Eds) (2009) Competitive Cities and Climate Change; OECD Regional Development Working Papers N◦ 2; OECD Publishing, ©OECD: Paris, France
+Keifer CJ, Chu HH (1957) Synthetic storm pattern for drainage design. J Hydraul Div 83(4):1332–1341
+Google Scholar
+Lähde E, Dahlberg N, Piirainen P, Rehunen A (2023) Ensuring ecosystem service provision of urban water nature-based solutions in infill areas: comparing green factor for districts and SWMM modeling in scenario assessment. Environ Process 10:61
+Article
+Google Scholar
+Li H, Davis AP (2009) Water quality improvement through reductions of pollutant loads using bioretention. J Environ Eng 135(8):567–576
+Article
+CAS
+Google Scholar
+Li G, Fang C, Li Y et al (2022) Global impacts of future urban expansion on terrestrial vertebrate diversity. Nat Commun 13:1628. https://doi.org/10.1038/s41467-022-29324-2
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Li G, Cao Y, Fang C et al (2025) Global urban greening and its implication for urban heat mitigation. Proc Natl Acad Sci U S A 122(4):e2417179122
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Mahmoud IH, Morello E, Ludlow D, Salvia G (2021) Co-creation pathways to inform shared governance of urban living labs in practice: lessons from three European projects. Front Sustain Cities 3:690458
+Article
+Google Scholar
+Mahmoud IH (2026) Baby It’s “Nature” outside: nature beyond governance and governance beyond nature. Nat Cult 21(2):229–239
+Article
+Google Scholar
+Marchioni M, Becciu G (2015) Experimental results on permeable pavements in urban areas: a synthetic review, International. J Sustain Dev Plan 10(6):806–817. https://doi.org/10.2495/SDP-V10-N6-806-817
+Article
+Google Scholar
+Marchioni M, Raimondi A, Sanfilippo U, Sansalone J, Mambretti S, Becciu G (2021) Modelling of particulate matter fate on urban highway stormwater control systems. Int J Comput Methods Exp Meas 9(1):1–13
+Google Scholar
+Marchioni M, Fedele R, Raimondi A, Sansalone J, Becciu G (2022) Permeable asphalt hydraulic conductivity and particulate matter separation with XRT. Water Resour Manag 36(6):1879–1895
+Article
+Google Scholar
+Marchioni M, Raimondi A, Di Chiano MG, Becciu G (2023) Permeable pavement hydraulic optimization by using an analytical-probabilistic model. Blue-Green Syst 5(2):252–274
+Article
+Google Scholar
+Marchioni M, Raimondi F, Becciu G, Dresti C (2025) Nature-based solutions for watershed management: an investigation on water-related ecosystem services delivery at multiple spatial scales. Ecosyst Serv 73:101718
+Article
+Google Scholar
+McCuen R et al (1996) Hydrology, FHWA-SA-96-067. Federal Highway Administration, Washington, DC
+Google Scholar
+McVittie A, Hussain SS (2013) The Economics of Ecosystems and Biodiversity - Valuation Database Manual
+Moosavi S, Browne GR, Bush J (2021) Perceptions of nature-based solutions for Urban Water challenges: Insights from Australian researchers and practitioners. Urban for Urban Green 57:126937
+Article
+Google Scholar
+Munafò M (2024) Consumo di suolo, dinamiche territoriali e servizi ecosistemici. Edizione 2024. Report SNPA 43/24 (in Italian)
+Namazi Y, Charlesworth S, Montazami A, Taleghani M (2024) The impact of local microclimates and Urban Greening Factor on schools’ thermal conditions during summer: a study in Coventry, UK. Build Environ 262:111793
+Article
+Google Scholar
+Neal P (2023) Urban Greening Factor for England – Development and Technical Analysis NERR132. Natural England.
+Oliveira S, Andrade H, Vaz T (2011) The cooling effect of green spaces as a contribution to the mitigation of urban heat: a case study in Lisbon. Build Environ 46:2186–2194
+Article
+Google Scholar
+Orsi F, Valbuena D, Hopkins A (2026) Population dispersion around cities as a driver of global urban land expansion. Npj Urban Sustain. https://doi.org/10.1038/s42949-026-00467-1
+Article
+Google Scholar
+Pappalardo SE, Zanetti C, Tedeschi V (2023) Mapping urban heat islands and heat-related risk during heat waves from a climate justice perspective: A case study in the municipality of Padua (Italy) for inclusive adaptation policies. Landsc Urban Plan 238:104831
+Article
+Google Scholar
+Pappalardo V, La Rosa D, Campisano A, La Greca P (2017) The potential of green infrastructure application in urban runoff control for land use planning: a preliminary evaluation from a southern Italy case study. Ecosyst Serv 26(2):345–354
+Article
+Google Scholar
+Park M, Hagishima A, Tanimoto J, Narita K-I (2012) Effect of urban vegetation on outdoor thermal environment: field measurement at a scale model site. Build Environ 56:38–46
+Article
+Google Scholar
+Priestley CHB, Taylor RJ (1972) On the assessment of the surface heat flux and evaporation using large-scale parameters. Mon Weather Rev 100:81–92
+Article
+Google Scholar
+Remme RP, Meacham M, Pellowe KE, Andersson E, Guerry AD, Janke B, Liu L, Lonsdorf E, Li M, Mao Y, Nootenboom C, Wu T, van Oudenhoven APE (2024) Aligning nature-based solutions with ecosystem services in the urban century. Ecosyst Serv 66:101610. https://doi.org/10.1016/j.ecoser.2024.101610
+Article
+Google Scholar
+Ren Q, He C, Huang Q, Zhang D, Shi P, Lu W (2023) Impacts of global urban expansion on natural habitats undermine the 2050 vision for biodiversity. Resour Conserv Recycl 190:106834. https://doi.org/10.1016/j.resconrec.2022.106834
+Article
+Google Scholar
+Riva M, Mambretti S, Chaynikov S, Ackerer P, Fasunwon O, Guadagnini A (2013) New general analytical solution for infiltration structures design. ASCE J Hydraul Eng 139(6):637–644
+Article
+Google Scholar
+Raymond CM, Frantzeskaki N, Kabisch N, Berry P, Breil M, Nita MR, Calfapietra C (2017) A framework for assessing and implementing the co-benefits of nature-based solutions in urban areas. Environ Sci Pol 77:15
+Article
+Google Scholar
+Rossman LA (2010) Storm water management model user’s manual, version 5.0. national Risk Management Research Laboratory, Office of Research and Development, US Environmental Protection Agency: Cincinnati; 276
+Shafique M, Kim R, Rafiq M (2018) Green roof benefits, opportunities and challenges–a review. Renew Sustain Energy Rev 90:757–773
+Article
+Google Scholar
+Shafique M, Luo X (2019) Comparison study of green roof, blue roof, green blue roof for Storm Water Management: A Review. In: International conference on construction and real estate management 2019 (pp. 475–482). Reston, VA: American Society of Civil Engineers
+Shashua-Bar L, Pearlmutter D, Erell E (2011) The influence of trees and grass on outdoor thermal comfort in a hot-arid environment. Int J Climatol 31:1498–1506
+Article
+Google Scholar
+Sobhaninia S, Meerow S, Dugger A, Hopson TM, He C, Wilhelmi O (2025) Where should the green go? A systematic literature review of methods for siting green infrastructure to mitigate rising heat and stormwater risks in cities worldwide. Urban for Urban Green 107:128790. https://doi.org/10.1016/j.ufug.2025.128790
+Article
+Google Scholar
+Soltanifard H, Amani-beni M (2025) Climate risk management the cooling effect of urban green spaces as nature-based solutions for mitigating urban heat: insights from a decade-long systematic review. Clim Risk Manag 49:1–19
+Google Scholar
+Srivanit M, Hokao K (2013) Evaluating the cooling effects of greening for improving the outdoor thermal environment at an institutional campus in the summer. Build Environ 66:158–172
+Article
+Google Scholar
+Todeschi V, Pappalardo SE, Zanetti C, Peroni F, Marchi MD (2022) Climate justice in the city: mapping heat-related risk for climate change mitigation of the urban and peri-urban area of Padua (Italy). ISPRS Int J Geo-Inf 11:490. https://doi.org/10.3390/ijgi11090490
+Article
+Google Scholar
+Urban MC, Alberti M, De Meester L et al (2024) Interactions between climate change and urbanization will shape the future of biodiversity. Nat Clim Chang 14:436–447. https://doi.org/10.1038/s41558-024-01996-2
+Article
+Google Scholar
+USEPA (United States Environmental Protection Agency) (2025) Benefits of Green Infrastructure; USEPA: Washington, DC, USA, 2025. Available at: https://www.epa.gov/green-infrastructure/economic-benefits-green-infrastructure. Accessed 1 April 2026
+van Oorschot J, Slootweg M, Remme RP et al (2024) Optimizing green and gray infrastructure planning for sustainable urban development. Npj Urban Sustain 4:41. https://doi.org/10.1038/s42949-024-00178-5
+Article
+Google Scholar
+Woods-Ballard B, Kellagher R, Martin P, Jefferies C, Bray R, Shaffer P (2007) The SUDS manual, vol 697. Ciria, London
+Google Scholar
+Wray N, Bowie D, Pattison I, Angeloudis A, Beevers L (2024) Disentangling climate change & land use change effects on river flows: a probabilistic approach. J Hydrol 639:131665
+Article
+Google Scholar
+Zhang X, Alexander L, Hegerl GC, Jones P, Klein Tank A, Peterson TC et al (2011) Indices for monitoring changes in extremes based on daily temperature and precipitation data WIREs. Clim Change 2(6):851–870. https://doi.org/10.1002/wcc.147
+Article
+Google Scholar
+Download references
+Acknowledgements
+The authors thank the Municipality of Legnano for providing detailed information about the investigated testbed, which was essential for conducting this study.
+Funding
+This research received no external funding.
+Author information
+Authors and Affiliations
+Department of Civil and Environmental Engineering (D.I.C.A.), Politecnico di Milano, Milan, Italy
+Alessandro Ceppi, Linda Chimento, Lucia Castellani, Mariana Marchioni & Gianfranco Becciu
+Department of Engineering, Faculty of Engineering and Computer Science, Pegaso Telematic University, Naples, Italy
+Alessandro Ceppi
+Montana S.p.A., Milan, Italy
+Linda Chimento & Mariana Marchioni
+National Research Council of Italy, Water Research Institute (CNR-IRSA), Verbania, Italy
+Claudia Dresti
+Authors
+Alessandro Ceppi
+View author publications
+Search author on:PubMed Google Scholar
+Linda Chimento
+View author publications
+Search author on:PubMed Google Scholar
+Lucia Castellani
+View author publications
+Search author on:PubMed Google Scholar
+Mariana Marchioni
+View author publications
+Search author on:PubMed Google Scholar
+Gianfranco Becciu
+View author publications
+Search author on:PubMed Google Scholar
+Claudia Dresti
+View author publications
+Search author on:PubMed Google Scholar
+Contributions
+Alessandro Ceppi: Conceptualization, Methodology, Data Curation, Writing—original draft, Writing—review & editing, Supervision. Linda Chimento: Conceptualization, Methodology, Investigation, Formal analysis, Data Curation, Writing—original draft, Writing—review & editing. Lucia Castellani: Investigation, Formal analysis, Software, Data Curation, Writing—original draft, Writing—review & editing. Mariana Marchioni: Investigation, Formal analysis, Data Curation, Software. Gianfranco Becciu: Conceptualization, Project administration, Supervision. Claudia Dresti: Formal analysis, Data Curation, Writing—original draft, Writing—review & editing.
+Corresponding author
+Correspondence to
+Alessandro Ceppi.
+Ethics declarations
+Competing interests
+The authors declare that they have no competing interests (both financial and non-financial ones).
+Appendix A
+Appendix A
+In this study, we focused our project computations on site A (the former Pensotti industry) where most parts of the area are not permeable, and more detailed data information is available. The presence of historical industrial buildings should be regarded as an asset for the architectural project and as an opportunity to connect an important part of the Olona basin’s history with the surrounding neighbourhood. However, the same methodology can be replicated on the other voids of Legnano city, and this approach can be widely applied to any urban areas to be green requalified.
+A list of the major industrial, historical, and cultural relevance sites shown in Fig.
+Fig. 11
+Full size image
+Location of abandoned industrial sites left to degradation
+11 is here presented:
+(a)
+The former Pensotti is a boiler industry established in 1908 which occupies 31,600 m2 of land, mainly not permeable. The building has a historical and environmental interest, and it is classified from the local strategic plan of Legnano as a traditional building with bound.
+(b)
+The former Bernocchi manufacture is an industry established in 1890 located near the river Olona. The building has monumental features limited by the cultural heritage and landscape code with a band river relevance due to the proximity of the Olona.
+(c)
+The former Legnano manufacture is an industry established in 1900. It has 41,000 m2 of parcel with buildings of historical and architectural value bound by the cultural heritage and landscape regulation as well.
+(d)
+The former Gianazza: a manufacturing industry established in 1930 which has about 8000 m2 of land with small buildings classified from the local strategic plan of Legnano as worthy of protection due to its historical and cultural importance.
+(e)
+The former Mambretti: a manufacturing industry established in 1900. The lot is 10,900 m2 where inside there is a disused historic building.
+These city voids could be suitable for a sustainable project-study, and they could be requalified with various NbS replacing zones with a constellation of green areas leading to huge benefit for the entire municipality.
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Ceppi, A., Chimento, L., Castellani, L. et al. A regeneration approach for water and climate sensitive cities in peri-urban zones.
+Landscape Ecol Eng (2026). https://doi.org/10.1007/s11355-026-00763-z
+Download citation
+Received: 18 September 2025
+Revised: 10 September 2026
+Accepted: 20 September 2026
+Published: 21 October 2026
+Version of record: 21 October 2026
+DOI: https://doi.org/10.1007/s11355-026-00763-z
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+Keywords
+Climate change
+Sustainable urban drainage systems
+Water-related ecosystem services
+Nature-based solutions
+Resilient cities
+Profiles
+Alessandro Ceppi
+View author profile
+Advertisement
+Search
+Search by keyword or author
+Search
+Navigation
+Find a journal
+Publish with us
+Track your research
+Footer Navigation
+Discover content
+Journals A-Z
+Books A-Z
+Subjects A-Z
+Publish with us
+Journal finder
+Publish your research
+Language editing
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our brands
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Discover
+Corporate Navigation
+Your privacy choices/Manage cookies
+Your US state privacy rights
+Accessibility statement
+Terms and conditions
+Privacy policy
+Help and support
+Legal notice
+Cancel contracts here
+112.65.219.231
+Not affiliated
+© 2026 Springer Nature

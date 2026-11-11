@@ -1,0 +1,1236 @@
+@@ PAGE 1 / 10 @@
+An update tO this article is included at the end
+TRENDS EcoIogy and EvoIution v0L20 No.9 September 2005
+Review
+ELSEVIER
+Full text provided by www.sciencedirect.com
+Using the satellite-derived NDVI to
+assess ecological responses tO
+environmental change
+2
+NathaIie PettoreIIil, Jon OIav Vikl AtIe Mysterud ， Jean-MicheI GaiIIard
+1
+Compton J. Tucker and NiIs Chr. Stenseth
+Centre for Ec010gicaI and EvoIutionary Synthesis (CEES), Department 0f Bi010gy, University of Oslo, PO Box 1066 Blindern,
+N 一 0316 0 引 0 ， Norway
+2
+Unité M ixte de Recherche N 。 5558 “ Biométrie et Biologie Evolutive, Bätiment 711 ， Université Claude Bernard Lyon 1
+43 Boulevard du 1 1 novembre 1918 ， 69622 Villeurbanne Cedex, France
+3
+Code 923 ， NASA Goddard Space FIight Ce nte r, Greenbelt, MD 20771 ， U SA
+Assessing h OW envlronmental changes affect the distri-
+bution and dynamics Of vegetation and animal popu-
+lations is becoming increasingly important for terrestri a 丨
+ecologists tO enable better predictions Of the effects Of
+global warming, biodiversity reduction or habitat
+degradation. The ability tO predict ecological responses
+has often been hampered by our rather 》 i m ited under-
+standing Of trophic interactions. lndeed, it has proven
+difficult tO discern d i rect and indirect effects Of environ-
+mental change on animal populations owing tO 《 i m ited
+i nform ati 0 n about veg etati 0 n at large temporal and
+spatial scales. The rapidly increasing use of the
+NormaIized Difference Vegetation lndex (NDVI) in
+ecological studies has recently changed this situation.
+Here, we review the use Of the NDVI in recent ecological
+studies and outline its possible key role in future
+research Of environmental change in an ecosystem
+CO ntext.
+Studying ecosystem responses tO increased surface tem-
+perature over the Northern hemisphere is a major focus Of
+the scientific community [ 1 2 ] · Moreover ， human activity
+has profoundly affected ecosystems (e.g. via habitat
+destruction and biodiversity reduction) so that the need
+to detect and predlct changes m ecosystem functioning has
+never been greater [3]. FieId data currently available are
+generally diffcult to use for predicting reglonal or global
+changes because such data are traditionally collected at
+small spatial and temporal scales and vary in their type
+and reliability. SateIIite imagery has become a potential
+goldmine' for ecologlsts in that context, as recently under-
+lined by Kerr and Ostrovsky [4], and Turner ． [5].
+Of the information that can be derived 什 om the
+satellite-collected data (e.g. sea surface temperature ，
+ocean colour ， and topography [ (]) ， data on phenology,
+and the amount and distribution ofvegetation are of prime
+importance for terrestrial ecologists because vegetation
+strongly influences animal distributions and dynam 讠 cs ．
+Co “ e on 7 au 0 广 Stenseth ， N ℃ ． (n.c.stenseth@bio.mo.no).
+Available online 9 June 2005
+Recent ecologlcal studies have highlighted the relevance
+of the NormaIised Difference Vegetation lndex (NDVI ； see
+GIossary) as an index linking vegetation to animal
+performance. The NDVI [ 6 ， 7 ] is derived 什 om the red:
+near-infrared reflectance ratio [NDVI ： (NIR—RED)/
+(NIR+ RED) ， where NIR and RED are the amounts of
+near-infrared and red light, respectively, reflected by the
+vegetation and captured by the sensor ofthe satellite]. The
+formula is based on the fact that chlorophyll absorbs RED
+whereas the mesophyll leaf structure scatters NIR. NDVI
+values thus range from 一 1 to + 1 ， where negative values
+correspond to an absence of vegetation [ 7 ]
+The relationship between the NDVI and vegetation
+productivity is well established ， and the link between this
+index and the fraction of absorbed photosynthetic active
+radiation intercepted (fAPAR) has been well documented ，
+theoretically [ 8 ] and empirically [9]. Moreover ， direct
+effects of climatic conditions on biomass and phenological
+patterns of vegetation as assessed by the use of the NDVI
+have been reported for many ecosystems [ 10 一 15L as have
+the feedback effects of vegetation on local climate [ 16 ， 17 ] ．
+Different NDVI data sets are available ， with different
+spatial and temporal resolutions ， and different temporal
+coverage (Box 1 [ 4 ， (]) ． We broadly distinguish ：
+。 The long-term NDVI data sets ， including (i) the coarse
+scale （ 8 一 16 km resolution ） National Oceanic and
+Atmo spheric Administration—Advanced Very High
+Res01ution Radiometer (NOAA—AVHRR) time-senes
+extending 什 om 1981 to the present (Box 1 ） ； and
+(ii) the small-scale (few meters) Landsat—Thematic
+Mapper (TM) data set extending from 1984 to 2003 ； and
+The better quality, but short-term NDVI time-series ，
+including (i) the M0derate Res01ution lmagmg Spectro-
+radiometer (MODIS—TERRA) data set （ 250 一 1000 m
+resolution) extending 什 om 2000 to the present, and
+(ii) the SateIIite Pour I'Observation de la Terre—
+Vegetation (SPOT—VGT) data ()p t0 a few meters
+resolution) extending 什 om 1998 to the present.
+Here ， we review recent ecological studies that have
+successfully used the NDVI to gain novel insight into
+direct and indirect effects Of environmental change ． We
+www.sciencedirect.com 0169 一 5347 / $ - see front matter 0 2005 Elsev•er Ltd 、 AII rig hts reserved. doi ： 10 ． 1016 ／ j ． tree ． 2005 ． 05 ． 011
+
+@@ PAGE 2 / 10 @@
+504
+GIossary
+Review
+TRENDS EcoIogy and EvoIution v0L20 No ． 9 September 2005
+AVHRR: Adva nced Very High ResoIution Radiometer.
+BISE: Best lndex Slope Extractio n. This is a method aiming at smoothing N DVI
+time-series.
+BRDF: Bidirectional R efl ecta nce Distribution Function. This gives the
+reflecta nce Of a target as a function Of illumination geometry and viewi ng
+geometry. Th e BRDF depends O n wavelength and is determined by the
+structu ral and optica | properties Of the su rface, such as shadow-casting,
+mutiple scatteri ng, mutual shadowing, transmission, refl ectiO n, absorption and
+emission by su rface elements, facet orientation distribution and facet density
+DAAC: Distributed Active Arch ive Centre.
+Drop-out. these are data missing from a satellite image. Drop-outs can be
+caused by signal interference or sensor failure.
+EVI: Enhanced Vegetation lndex. This is a n 'optimized' index designed tO
+enhance the vegetation signal with i m proved sensitivity in h gh biomass
+regions and improved veg etation monitoring through a decoupling Of the
+canopy background signal and a reduction in atmosphere influences. The
+equation ta kes the form EVl=G*(NlR—RED)/(NlR+c1*RED—C2*BLUE+L),
+where G is the gain factor, BLUE is the blue reflecta nce, L is the canopy
+background adjustment that add resses non-linear, differential NIR and red
+radiant transfer through a ca nopy, and CI and C2 are the coefficients of the
+aerosol resistance term ， which uses the blue band tO correct for aerosol
+influences in the red band.
+fAPAR. Fraction of Absorbed Photosynthetic Active Radiation; the proportlon
+Of incoming solar radiation in th e photosynthetica lly active region Of th e solar
+spectrum that is effectively absorbed by plants for photosynthesis.
+GAC: Global Area Coverage.
+GIMMS Global 1 nventory Modelling and mapping studies.
+GVI: GlobaI Vegetation lndex. See Box 1 ．
+INDVI: ] nteg rative Normalized Difference Vegetation lndex, corresponding tO
+the sum Of positive N DVI values over a yea r.
+LAI: Leaf Area lndex; it is defined as the one-sided g reen leaf area per unit
+ground area in broadleaf canopies, or as the projected needleleaf a rea per unit
+ground area 《 n needle canopies.
+MODIS. The Moderate ResoIution lmaging Spectroradiometer.
+MVC Maximum Value Compositing. This is a method aiming at smoothing
+NDVI time series.
+NASA. National Aero nautics and Space Administration.
+NDVI: NormaIized Difference Veg etation lndex; a satellite-based vegetation
+index that correlates strongly with aboveground net primary productivity.
+NIR. Near 1 nfrared Reflectance.
+NOAA: National Oceanic and Atmospheric Administration.
+PAL. Pathfinder AVHRR Land.
+RED: Red reflecta nce.
+SAVI: Soil Adjusted Vegetation 1 ndex. lt is defi ned as 区 N 旧 一 RED)/(N 旧 + RED+
+L ） 俨 （ 1 (L), where L is a correction factor which ranges from 0 for very high
+vegetation cover tO 1 for very IOW vegetati on cover. The m OSt typica lly used
+value is 0 ． 5 wh iCh is for i ntermed iate vegetation cover.
+SPOT VGT: Satellite Pour l'Observation de le Terre, Vegetation ．
+TM Thematic Mapper.
+also outline the general workflow in linkmg the NDVI to
+biological data by reviewing methods that are available to
+reduce noise in NDVI time-series (TabIe 1 ； Box 2 ） ， the
+pertinent biomass and phenological measures that one
+can extract from NDVI data (Figure 1 ； TabIe 2 ） ， and make
+caveats about the use of NDVI data (Box 3 ） ． The NDVI has
+shown consistent correlation With vegetation biomass and
+dynanncs m vamous ecosystems worldwide [ 6 ， 7]. Further-
+more ， the relationships between the NDVI and climatic
+variables have been explored to the extent that making
+predictions is now possible [ 18 一 20L The NDVI thus
+represents the first useful tool with which to couple
+climate ， vegetation and animal distribution and perform-
+ance at large spatial and temporal scales ．
+Using the NDVI to monitor vegetation and plant
+responses tO environmental change
+Because the NDVI correlates directly with vegetation
+productivity [ 21], there are numerous possible appli-
+cations of this index for ecological purposes ． The NDVI
+provides information about the spatial and temporal
+www.sciencedirect.com
+distribution of vegetation communities [ 21], vegetation
+biomass [ 21], C 02 fluxes [ 22 ， 23L vegetation quality for
+herbivores (because the rate of greening can be correlated
+with food quality [ 24D and the extent of land degradation
+in vamous ecosystems [ 25 26L
+The NDVI was used originally t0 generate map s ，
+including the pioneermg mappmg of vegetation distri-
+bution and productivity in Africa [ 27]. The ecological
+relevance of such maps is multiple ： the NDVI enables
+us tO differentiate ecosystem functional types or biozones
+[ 28 ， 29L t0 quantify the annual net primary productivity
+(ANPP) at various scales worldwide [ 6 ] and to differen-
+tiate land cover at the continental [ 6 ] and global [ 30 ]
+scales. By using the NDVI, it is possible to differentiate
+savannah, dense forest ， non-forest and agricultural fields
+()n Africa [ 31 ] and in Asia [ 32D ． Phenological character-
+istics can be used tO determine evergreen forest versus
+seasonal forest types [ 32 ， 33 ] or trees versus shrubs [ 34 ] ．
+However, differentiating between forests with ， for
+example, different dominant species is not possible using
+this kind of remote-sensmg information ， because several
+assemblages 0f plant species can produce a similar NDVI
+value or a similar NDVI temporal trend. Even with data of
+suffciently high spectral and spatial resolution, few plant
+species ， if any, can be identified accurately [ 35L
+The NVDI has also been used t0 improve our
+predictions and impact assessments Of disturbances such
+as drought [ 36L fire [ 37], flood [ 38 ] and frost [ 39L The use
+of the NVDI in the monitonng of drought or in the
+evaluation of dynamic fire risk relies on the sensiåvity of
+the index tO vegetation dryness, a mmor predisposing
+factor for fire occurrence. For example ， using 16 years of
+data on fire occurrence in Tuscany ， MaseIIi ． reported
+consistent negative correlations between fire probabilities
+and standardized NDVI levels of previous or contempora-
+neous decades [ 37L The authors were then able to obtain
+risk estimates that could be used for operational appli-
+cations on different spatial scales ． The predictive preoslon
+achieved was estimated as low at high spatial resolution ，
+but reached intermediate levels on provincial and regional
+scales [ 37].
+Because water has a much lower NDVI value than do
+other surface features ， inundated areas can also be
+distinguished by changes in the NDVI value before and
+after the flood ， after eliminating the effects of other factors
+on the NVDI. This method was used in China to assess
+flood damage in 1998 ， and the results showed high
+correlation with flood damage estimated using other
+methods [ 38L
+FinaIIy, because vegetation dynamics and local climate
+are intrinsically linked ， vegetation dynarmcs could pro-
+vide information about climatic events ， such as frosts ， ln
+New ZeaIand ， for example ， the NVDI was used t0 explain a
+significant amount of variation （ 什 om 10 to 20 ％ ） in the
+date of the first (the NVDI in autumn) and last (the NVDI
+in spring) 什 ost ， as well as the length of the frost-free
+period (the NVDI in autumn) [ 39L
+Using the NVDI tO assess trophic interactions
+So far ， the NDVI has been used predominantly in studies
+focusing on the effects Of environmental change on plants ．
+
+@@ PAGE 3 / 10 @@
+Review
+Box 1 ． AVHRR data
+TRENDS EcoIogy and EvoIution v0L20 No ． 9 September 2005
+505
+Since 1994 ， NDVI data from the AVHRR data set have been made
+publicly available over the 》 nternet (http://www.noaa.gov). Different
+AVHRR-based NDVI data sets a re also available (Table l), with
+differences in corrections applied or in the spatial and temporal
+resolutions available. They a re all de rived fro m the 4-km GlobaI Area
+Coverage (GAC) d ata collected daily by the NOAA satellites: over the
+pa st 20 yea rs, five satellites have been launched and d ata h ave been
+i nte rca li brated across the N OAA-7, 9 ， 1 1 14 and 16 satellites [ 57L
+AVHRR data are a n invaluable and irreplaceable a rch ive Of historical
+land su rface information and have literally revolutionized vegetation
+studies. Nowadays, this is the only freely available d ata set th at g ives
+daily cove rage over a n exte nsive time period (1981—present), and the
+data produced by the GlobaI lnventory M0deIIing and Mapping
+Studies (GIMMS) group show good correlation with data fro m higher
+quality sensors, such as S POT VGT and MODIS TE R RA [ 58L Such
+featu res Of these data should promote their use in ecological studies,
+particularly, fO r example, i n studies Of global climate change.
+TabIe I. The d ifferent N DVI data sets
+H owever, the spatial resolution is coa rse, making AVHRR data
+suitable fO r regional studies but limiting its usefulness for detailed
+studies i n landscapes with important heterogeneity at finer scal es [ 59L
+GAC data are g ene rated by 0 n boa rd sampling Of the full-resolution
+（ 1 ． 1 (m) data ： for a given sca n line, the firstfour pixels out Of every five
+a re averaged and only every third sca n line is processed. NDVI
+products are then generated fro m the G AC data ， using the MVC
+(Table 1 ， main text) spatial aggregation proced u re directly based
+0 n the NVDI [ 58 ， 60 ] or based on the difference betwee n NIR and
+RED [ 61L This point is of little consequence a s long as the
+resolution Of the study 0 bj ects is greater than that Of the cell size
+of the AVHRR [ 59 ] ．
+Finally, the quality of AVHRR d ata is far lower than the quality
+of the d ata collected by MODIS 0 r S POT VGT: if the biological
+question requires a smaller spatial resol ution and does not need
+vegetation data befO re 1998 ， data from MODIS 0 r S POT VGT should
+Data set
+PAL
+GVI
+GIMMS
+MOD13
+SateIlite
+NOAA
+NOAA
+NOAA
+TE RRA
+(EOS AM)
+TM/ETM
+VGT
+lnstrument Temporal span
+AVHRR
+AVHRR
+AVHRR
+MODIS
+Landsat
+SPOT
+July 1981 一
+Septem ber 2001
+May 1982—Present
+July 1981 —Present
+February 2000 一
+Present
+1984 一 2003
+April 1998—Present
+Temporal resolution
+1 day, 10-d ay,
+monthly, seasonal
+Week, monthly,
+seasonal
+BimonthIy index
+(10-day for Africa ）
+1 6 days
+1 6 days
+10 days
+be used.
+Missing data
+September 1994 一
+January 1995
+September 1994 一
+January 1995
+None
+NOne
+Range
+8 km
+16 km
+8 km
+250 m—l km
+< 1 一 30 m
+1 km
+Website
+http://daac.gsfc.nasa.gov/guides/GSFC/
+guide/avhrr_dataset.gd.html
+http://www2.ncdc.noaa.gov/docs/gviug/
+index.htm
+http://ltpwww.gsfc.nasa.gov/gimms/
+htdocs/
+http://modis.gsfc.nasa.gov/
+http://landsat.usgs.gov/
+http://www.spotimage.fr
+However ， the NDVI could also be used t0 gam novel
+insight into trophic inter-linkages ． The use of the NVDI
+as a covariate rather than a response variable has
+opened up new areas Of research in trophic interactions ．
+Recently, studies have coupled vegetation dynamics, as
+assessed by the NVDI, with biodiversity [ 35 ， 40 ， 41L animal
+species distribution [ 42 一 44L the movement patterns of
+animals [ 45 ， 46 ] and the performance 0f animal popu-
+lations [ 24 47 一 49L Examples include the mean arrival
+date for yearling barn swallows Hirundo rustLca in Algeria
+[ 45 ] and the expansion rate of roe deer Capre01us
+capreolus populations in Norway [ 46L ln addition ，
+NDVI-based estimates 0f productivity in the USA were
+reported tO explain up tO 61 ％ of avian species richness
+[ 40 ] ． ln Eritrea ， the home ranges of the grivet monkey
+Cercopithec us aethiops exhibited a significantly higher
+average NDVI value compared with the average of the
+survey area [ 44 ] ． ln Mauritania and on the Red Sea coast ，
+high resource abundance ， indicated by high NDVI values ，
+w as shown tO promote locust Schistocerca gre 0
+multiplication, whereas contraction Of resources intO
+small patches (reflected by the spatial aggregation of
+pixels with high NDVI values) increased locust concen-
+tration [ 50L These results have direct implications for the
+understanding of the spatial distribution of locust out-
+breaks [ 50L Body mass and calf survival of reindeer
+Rangifer tarandus was shown to be positively correlated
+with the NVDI in spring [ 24 ， 48L whereas the timing ofthe
+sprmg vegetation flush ， identified from NDVI time-series ，
+and the rutting and calving of red deer Cervus elaphus
+were all found to be later in Norway than in France [ 51L
+www.sciencedirect.com
+For the pied flycatcher Ficedula 九 ， 况 e c the NVDI has
+been successfully linked to breeding success 49 ] ； in barn
+swallows ， it was related tO clutch size ， breeding date, tail
+and wing lengths [ 47L
+As demonstrated by the previous examples, NDVI
+enables ecologlsts t0 quantify at vanous spatial scales
+how changes in vegetation distribution, phenology and
+productivity will affect upper trophic levels ． This makes it
+possible, for example ， to determine how much of the
+climatic effects on herbivore behavior ， performances
+and dynamics are operating through the effects of climate
+on vegetation distribution ， phenology and productivity,
+(i.e. through trophic interactions) ， Such insight might help
+in efforts tO manage and conserve herbivores and the
+community associated tO their presence ， one
+can then target the right factor, if it is feasible to do · To
+know the actual mechanisms and pathways by which
+environmental changes affect herbivores will also enable
+better predictions of further changes. For example ， if
+global warming mainly operates through decreasing
+snow depth, we are likely tO see no further responses tO
+mcreased temperature once there iS no permanent
+cover established. However ， if climate operates through
+plants ， detailed knowledge about how plants respond t0
+temperature will enable more robust predictions to future
+scenarios Of envn•onmental change ．
+EcoIogicaIIy relevant measures that can be derived fro m
+NDVI time-series
+lt can be complicated to couple information 什 om two
+trophic levels when each is assessed at different temporal
+
+@@ PAGE 4 / 10 @@
+506
+Review
+TRENDS EcoIogy and EvoIution v0L20 No ． 9 September 2005
+Table 1 ． Overview the main adva ntages and disadvantages the principal N DVI smoothers
+Procedure
+Maximum
+Value
+Compositing
+(MVC)
+Cu rve-fitti ng
+Step-wise
+logistic
+regresslon
+Best lndex
+SIope
+Extraction
+method
+(BISE)
+Weig hted
+| east-squ a res
+linear
+regresslon
+What it does
+NDVI values a re temporally O r spatially
+agg regated ． Th e highest N DVI value for
+the period and area considered iS
+retained
+PolynomiaI 0 r Fourier functions a re fitted
+to NDVI time-series
+A series Of piecewise logistic functions
+a re used tO represent intra-annual
+vegetation dynamics. Four key transition
+dates a re estimated: green-up, m atu rity
+()h e date at which plant green leaf area is
+maximal), senescence and dormancy
+NDVI o bservatio ns a re judged as
+trustworthy O r not depending on
+whether th e rate-of-change in the NVDI is
+plausible
+A sliding-window combination Of
+piecewise linear approximations tO the
+NDVI ti m e-series, putting more weight
+on 'local pea ks' (NDVI values higher
+than the preceding and following
+observations). Tuning pa ra meters a re
+the weights affected tO the local peaks
+and window widths
+Advantages
+Easy; n 0 modelling, Often WO rks well
+because most errors are negative （ BOX 2 ）
+Easy, th e trajectory ca n be pred icted and
+the ti me-series n be summarized by
+severa 1 indices linked tO th e function
+Because the method treats each pixel
+individually with out setti ng th resholds O r
+empirical consta nts, it is globally
+applicable, it enables vegetatio n types tO
+exhibit multiple modes Of growth and
+senescence With i n a single annual cycl e
+Th e algorithm is robust tO false highs
+that cau se implausibly rapid i ncreases in
+the NDVI （ > 0 ． 1 in the NDVI value per
+day)
+Works well when successive false ] OWS
+are ra re, SO th at local valleys OCCU r
+sepa rately, such as in the biweekly MVCs
+Disadvantages
+Temporal ag g regates might still be
+contaminated by cloud cover, the
+procedu re will be biased by a single false
+high
+Medium-order polynomials can be t00
+inflexible tO recreate a n entire seasonal
+N DVI pattern, and ca n smooth the data
+t00 much; Fourier analysis fails tO
+characterize each annual NDVI trajecto ry
+separately; it can generate spurious
+oscillations in the NDVI ti me-series [ 72L
+neither approach accommodates the
+skewed error Structure (BOX 2), and a re
+therefore h eavi ly affected by fa lse IOWS
+O r high
+Does not accommodate the skewed
+stru ctu re (BOX 2), and will therefore be
+heavily affected by false IOWS or high
+The sen sitive point Of this method is tO
+estimate CO rrectly tO what extent a rate-
+of-change in the NVDI is plausible,
+according tO the temporal resolution
+under consideration [ 72 ]
+When severa | false IOWS OCCU r in
+sequence, they result in fa lse loca 《 pea ks,
+which bias the esti mated value
+downwards. Thus, this approach might
+not be suitable for daily data, and its
+applicability will depend 0 n the
+freq uency Of cloud contamination and
+the strength Of seasonality
+Refs
+[ 71 ]
+[ 72 一 74 ]
+[ 75 ]
+[ 63 ]
+[ 76 ， 77 ]
+or spatial scales ． For example, it is possible t0 get up to 365
+pictures a ， whereas some animal responses can
+be gathered only once a year. However ， depending on the
+biological question asked (e.g. the impact of a delayed or
+early start or end of the growmg season ， or vegetation
+availability in summer ， on the performance Of an animal
+population), only part of the information might be of
+relevance.
+After smoothing (Figure 1 ； TabIe 1 ） ， the properties of
+NDVI time-senes can be summarized in a variety Of
+related indices [ 21 ] (Figure 1 ； TabIe 2 ） ． Measures of overall
+productivity and biomass ， such as the lntegrated NDVI
+(INDVI) or the annual maxlmum NDVI value ， measures
+of variability in productivity (e.g. the relative annual
+Box 2 ． Noise in NDVI data
+Th a re many complications, limitations and causes Of
+associated with satellite data, including sensor resolution and
+calibration [ 62L digital quantization errors [ 63L ground and atmos-
+pheric conditions [ 64L and orbital and se n s 0 r degradation [ 65 ] ． NDVI
+data setS a re generally well-documented, quality-controlled d ata
+sou rces that have been pre-processed tO reduce many Of these
+problems [ 57 ， 58 ， 60 ， 61L
+Howeve r, some noise is still present in the downloadable d ata sets
+and, therefore, NDVI time-series need tO be smoothed before being
+used (Table 1, main text) ． Such noise is mainly due tO remnant cloud
+cover, wate r, snow, O r shadow, SO u rces Of that tend tO decrease
+the NDVI values. Fa ] se highs, although much 》 ess frequent [ 63L can
+alSO OCCUr at high SOlar 0 r SCa n angles ()n which the numerator
+and denominator in the NDVI rati 0 a re bOth near zero) 0 r beca use Of
+www.sciencedirect.com
+range of the NVDI) and a variety 0f phenological measures
+can be derived from NDVI time-semes. Examples of
+measures include the rate Of increase and decrease Of
+the NVDI; the dates of the beginning, end and peak(s)
+of the growing season; the length of the growing season;
+the timing of the annual maximum NDVI ； and the NDVI
+value at a fixed date ， which might be relevant for animals
+that accumulate few reserves and are sensitive to the start
+Of growth for their own reproductive success or
+for migrant animals matching the start Of their migration
+with the resource dynanucs ．
+Examples of successful applications of these measures
+include the correlation between the NVDI on the 1 st of
+May and the bOdy mass Of reindeer calves in autumn in
+transmission errors, such drop-out [ 63L TO minimize the
+problem of false highs, the downloadable products are generally
+based O n low-angle observations whe reve r possible.
+Most errors thus tend tO decrease NDVI values. This unusual error
+structure, with high NDVI values being more trustworthy than IOW
+ones, breaks the assumptions Of many standard statistical
+approaches. Further complications ca n arise because the error
+structure ca n va ry in time and space. The most common approaches
+tO smoothing NDVI time-series are p resented i n Table 1 (main text) ．
+FO r many purposes, the choice Of smoothing method might not be
+crucial. FO r example, in a recent ecological study, similar esti mates Of
+spring phenology were obtained using either locally weighted
+regressions 0 r a simple cumulative maximum throughout the
+season [ 51 ] ．
+
+@@ PAGE 5 / 10 @@
+Review
+TRENDS EcoIogy and EvoIution
+v0L20 NO ． 9 September 2005
+(a)
+一 0 ℃ 2 一 0 ． 05
+0 ． 251 一 0 ， 30
+0 501 一 0 ． 55
+0
+0 ． 551 一 0 ． 60
+0 ． 651 一 070
+0701 一 0 ． 75
+0
+0751 一 0 ． 80
+0
+0 801 一 0 ． 85
+0
+0
+October 2003
+SIope 0f
+decrease
+Time
+507
+NDVI values
+0
+0
+0
+Time
+0
+0
+0
+0
+May 2003
+SIope Of
+lncrease
+0
+Green-up
+July 2003
+Maximum NDVI
+INDVI
+Date of maximum NDVI
+匚 二 ] 0 ． 051 一 0 ， 10
+[ 二 ] 0 ． 101 一 0 ． 15
+匚 囗 0 ． 1 51 一 0 ， 20
+[ 二 ] 0 ． 201 一 0 ． 25
+匚 二 ] 0 ． 301 一 0 ． 35
+匚 ] 0 ． 351 一 0 ． 40
+匚 二 ] 0 401 一 0 ． 45
+匚 二 ] 0 ． 451 一 0 ． 50
+[ 二 ] 0 601 一 0 ． 65
+匱 ： 00 ． 851 一 0 ． 90
+匚 」 0 901 一 0 ． 95
+0
+丆 RENDS in EcoIogy Evolution
+Figure 1 ． NDVI ti m e-seri es. (a) Presentatio n of th e th ree types of NDVI data that ca n be collected ： data collected during a cloudy day (g reen circles), a clear day (blue circles),
+and 'false high' N DVl values (red circles) OWi ng tO transmissions errors. Beca use Of this diversity in the quality Of information conta i ned in N DVl values, the ti m e-seri es needs
+tO be smoothed (Table 1). A typical smoother (black rne) will rebuil d the N DVI profile based mainly on clear-day esti m ates. The NDVI time-series over a yea r typica lly shows
+a n increase that corresponds with th e sta Of vegetatio n g rowth, the NDVI then peaks, establishing a platea u (which corresponds tO a period Of h gh photosynthetic activity),
+and then finally decreases, corresponding with th e start Of vegetation senescence. (b) Presentatio n Of the d ifferent indices (the slopes Of increase (spring) and decrease (fall),
+th e maximum N DVI value, the 丨 nteg rated N DVI (INDVI, i.e. the sum of NDVI values over a year), th e date when the maxmum N DVI value occu rs, the range Of annual N DVI
+va lues, and the date Of Green-up (i.e. th e beginning Of th e g rowi ng season)) that could be derived from NDVI time series over a year. Moreover, maps presenting NDVI values
+(ranging from 0 to 1 ） for Norway in May, JuIy and October 2003 are also shown. Those data have been provided by the GIMMS group (http://ltpwww.gsfc.nasa.gov/gimms/
+htdocs/; the p xel size being 64 km2).
+Norway 48L with a delayed spring affecting directly and
+negatively the condition of the calf before entering winter.
+ln North America, parturient female caribou selected
+annual calving grounds with greater areas ofhigh rates of
+greening 24L ln Kenya ， higher yearly average NDVI was
+correlated with lower species richness Of mammals and
+plants, whereas standard deviation and coeffcient of
+variation was correlated positively with speoes richness
+[ 52L ln North America ， INDVI was reported t0 correlate
+positively with avian species richnes s [ 40 ] ， and the
+TabIe 2 ． Pertinent measures for ecological studies that ca n be assessed 什 0 m N DVI tim e-series
+lndex
+INDVI
+Annual Maximum
+N DVI
+Rel ative annual
+range Of the NVDI
+Rate of increase/
+decrease of the
+NVDI
+Dates of the
+beginning O r end Of
+the growing season
+Length Of the
+green' seaso n
+Timing Of the
+annual maximum
+N DVI
+www.sciencedirect.com
+Type Of measure
+Ove ra ll productivity
+and biomass
+Ove ra ll p rod u ctivity
+and biomass
+lnterannual variability
+in produ ctivity
+Phenological measure
+PhenoIogicaI measure
+PhenologicaI measure
+PhenoIogical measure
+Definition
+Sum Of positive NDVI
+values over a given
+period
+Maximum value Of
+th e NVDI over a yea r
+(Maximum N DVI
+value-Minimum
+NDVI value)/lNDVl
+Slope between tWO
+NDVI values at two
+defi n ed dates, slopes
+of the fitted logistic
+cu rves to the NDVI
+ti m e-se ries
+Dates esti mated fro m
+threshold models o r
+movlng average
+procedu reS
+Number Of days
+where NDVI>O;
+number Of days
+between the
+esti m ated date of
+green-up and end Of
+th e growing season
+Date when the
+maximum NDVI
+value OCCu rs within a
+yea r
+BioIogicaI meaning
+AnnuaI production Of
+vegetation
+Annual production Of
+vegetation
+Enables interannual
+comparisons Of
+vegetation biomass
+Fastn ess of the
+greening up (spring)
+or the senescence
+(fall) phases
+Start Of the green-up
+ln seasonal
+environments,
+number Of days
+when food is
+available
+Timing Of the
+maximum avail-
+ability Of vegetation
+Com ments
+NOt relevant when resource quality is at
+] east as important as q ua ntity (e.g highly
+sel ective foragers)
+Sensitive tO false highs and noise
+CO rrecti on
+Sensitivity Of the range definition tO
+outliers in bOth directions
+Sensitive tO false highs and noises
+CO rrecti on
+Accu racy is linked to the temporal sca le of
+the time-series considered (with the
+problem that higher temporal resolution
+leads tO more contaminated data ）
+Sensitive tO false highs and noises
+CO rrecti on
+Sensitive tO false highs and noise
+CO rrecti on
+Refs
+[ 27 ， 40 ]
+[ 78 ]
+[ 79 ]
+[ 78 ]
+[ 21 ]
+[ 80 ]
+[ 29 ， 79 ]
+
+@@ PAGE 6 / 10 @@
+508
+Review
+TRENDS EcoIogy and EvoIution v0L20 No ． 9 September 2005
+Box 3 ． PitfaIIs and caveats
+AIthough NDVI d ata sets a re quality-controlled products, there a re
+still pitfalls tO avoid when using them
+Mixed pixels
+A m ixed pixel is defined as a pixel that encompasses water and land.
+The problem arises from the fact that wate r lowers the NDVI value
+record ed from the vegetation in mixed pixels. The lower NDVI values
+from m ixed pixels have been previously documented [ 66L and i n
+larger sca | e WO rk (i 巳 when the pixel size is much smaller than the
+area considered), excluding coa sta 丨 pixels from the analysis might
+be a simple solution tO problems associated with m ixed pixels. ln
+small-scale WO rk, reducing the pixel size might also be a n option
+Misreg•stration
+Misregistration OCCUrS when a NDVI value is wrongly assigned tO a
+po i nt 0 n the glObe as a resu lt of errors i n back-calculating the
+position of the satellite at the time the image was taken. Most
+misregistration errors timing errors resulting from the onboard
+sate llite clock. The ground speed Of satellites is 7 km¯l, SO timing
+errors Of > 1 S a re Of most concern [ 57 ， 60L The accuracy Of the
+downloaded d ata should thus be checked by superimposing NDVI
+data 0 n known maps.
+Comparing N DVI values between pixels
+Many factors affect NDVI variations within a pixel: plant a rch itectu ra 丨
+arrangement, interactions with canopy cove r, height, composition Of
+species, vegetati 0 n vigour, leaf properties and vegetati 0 n stress a re
+some factors that ca n significantly affect the remotely sensed
+information [ 67 ， 68L Topography and altitude will 引 SO affect NDVI
+measurements [ 69L Given that the same NDVI value might represent
+different conditions for different vegetation communities, compar-
+ing INDVI betwee n close pixels is not advised without some previous
+knowledge Of the area Of interest.
+QuaIity Of the information in respect tO spatial location
+AdditionaI caution should be ta ke n when using the NVDI in specific
+spatial locations. FO r example, i n the humid tropics, NDVI time
+series, eve n when performed 0 n a monthly basis, a re highly
+conta m i nated by remnant cloud-cover effects [ 32L Problems alSO
+OCCUr at high latitudes and during the wi nter, because reflecta nce
+resolution deteriorates i n such areas [ 70 ] ． Moreover, during the
+wi nter, a greater incidence Of spuriously high NDVI values is
+repo rted at higher latitudes （ > 60 。 [ 66D resulting fro m taking the
+ratiO Of very small refl nces ． Finally, major errors alSO OCCLlr near
+the Equator (fro m 30 。 N to 300S), owing tO solar zenith angle
+variations within most Of the satellite reco rds. These errors a re
+most pronounced for the sate llite N OAA 1 1 ove r the period 1993 一
+1994 [ 58L Those particular noises, attached tO specific spatial
+locations, should be ta ken i ntO consideration while applying the
+chosen method tO smooth the NDVI time series.
+maximum NDVI value over a year correlated with the
+species richness of birds and butterflies [ 53L ln Spain ， the
+mimmum NDVI value over a year was demonstrated to
+correlate positively with the distribution 0f ticks [ 54L
+AII the studies reviewed here have coupled yearly
+measures based on the NDVI time-series tO yearly
+measures based on data on animal populaåons. lt is also
+possible tO couple vegetation and animal data dynamics if
+the animal data are collected at a temporal resolution that
+matches the temporal resolution of the NDVI time-senes
+considered. This dynamical approach has potential for
+future ecologlcal studies.
+Ot h er vegetation indices
+The NVDI is a vegetation index that has demonstrated its
+usefulness ln many ecological studies ． However ， in some
+www.sciencedirect.com
+situations ， other vegetation indexes might be more
+appropriate.
+The relationship between the NVDI and vegetation can
+be biased in sparsely vegetated areas (e.g. arid tO semi-
+arid zones in Australia) and dense canopies (e.g. Amazoman
+Forest [ 55D ． ln sparsely vegetated areas with a leaf area
+index (LAI) of < 3 ， the NVDI is influenced mainly by soil
+reflectance ， whereas for LAI> 6 (i.e. in densely vegetated
+areas) ， the relationship between the NVDI and NIR
+saturates [9]. Therefore ， in sparsely vegetated areas ， the
+soil-adjusted vegetation index (SAVI; [ 55]) is recom-
+mended instead of the NVDI (e.g. [ 50D · However ， the
+SAVI requires local calibration because it is diffcult tO
+predict how soil effects are manifested within large pixel
+areas ， which aggregate soils and vegetation Of many
+different types ， each of which requires ， in prmciple ，
+separate calibration.
+Another index that has appeared with MODIS is the
+Enhanced Vegetation lndex (EVI; [ 56D · This index
+provides complementary information about the spatial
+and temporal variations of vegetaåon ， while mimmizing
+many Of the contamination problems present in the NDVI
+such as those associated with canopy background and
+residual aerosol influences · Whereas the NDVI is chloro-
+phyll sensitive and responds mostly to RED variations ，
+the EVI is more NIR sensitive and responsive tO canopy
+structural variations ， including LAI canopy type and
+architecture · This index is thus meant to take full
+advantage of the new state-of-the-art measurement
+capabilities of MODIS. Additionally, EVI does not become
+saturated as easily as the NDVI when viewmg rainforests
+and other areas of the Earth with large amounts of green
+material. However, EVI has been developed on MODIS
+data and so data are only available 什 om 2000 onwards.
+Conclusions and perspectives
+The NVDI has already been succes sfully applied to
+research on temporal and spatial trends and variation in
+vegetation distribution, productivity and dynam 讠 cs, tO
+monitor habitat degradation and fragmentation ， and the
+ecological effects of climatic disasters such as drought or
+fire. The encouragmg results reviewed here suggest that
+NDVI will become an extremely useful t001 for terrestrial
+ecologlsts aiming t0 gam a better understanding of how
+vegetation dynamics and distribution affect diversity, life-
+history traits ， movement pattern s and population
+dynamics 0f animal populations ． The global coverage 0f
+the NDVI suggests that it could be used t0 predict the
+ecologlcal effects of envn•onmental change on ecosystems
+functioning and animal population dynamics and distri-
+butions ， enabling researchers to better understand the
+impact Of humans on the enuronment.
+Acknowledgements
+We thank the Distributed Active Archive Center (Code 902 ． 2 ） at the
+Goddard Space FIight Center, GreenbeIt, MD 20771 ， for producing the
+data in their present form and distributing them. The original data
+products were produced under the NOAA/NASA Pathfinder program, by a
+processing team headed by Mary James of the Goddard GIobaI Change
+Data Center; and the science algorithms were established by the AVHRR
+Land Science Working Group ， chaired by John Townshend of the
+University of MaryIand. Goddard ， s contributions tO these activities were
+
+@@ PAGE 7 / 10 @@
+Review
+TRENDS EcoIogy and EvoIution v0L20 No ． 9 September 2005
+509
+sponsored by NASA's Mission PIanet Earth program. We also thank
+Eric Lambin ， Peter M. Smith ， Tong Zhu, James McManus, Jos MiIner,
+Aurelien Chamar1er and four anonymous referees for helpful comments.
+Funding for N.P. was provided by a Marie Curie FeIIowship of the
+European Community programme IHP-FP6 ， and by the Research council
+of Norway (YFF-scheme) for A.M.
+Referen ces
+1 Stenseth, N ℃ ． ． （ 2002 ） EcoIogicaI effects of climate fluctuations.
+Science 297 ， 1292 一 1296
+2 Walther, G.R. ． （ 2002 ） EcoIogical responses t0 recent climate
+change. 忉 “ 416 ， 389 一 395
+3 Naeem ， S. ． （ 1999 ） Biodiversity and ecosystem functioning:
+maintaining natural life support processes ． Ecol. lss. 4 ， 1 一 11
+4 Kerr ， JT. and Ostrovsky ， M. （ 2003 ） From space to species: ecological
+applications for remote sensing. frends Ecol. Evol. 18 ， 299 一 305
+5 "lhlrner ， W. ． （ 2003 ） Remote sensing for biodiversity science and
+conservation. frends Ecol. Evol. 18 ， 306 一 314
+6 Running ， S W. （ 1990 ） Estimating primary productivity by combining
+remote sensing with ecosystem simulation. ln e 襯 0 Sensing 0 厂
+Biosphere F “ 五 0 “ 沅 g (Hobbs, R.J. and Mooney ， H.A. ， eds), PP. 65 一 86 ，
+Springer-VerIag
+7 Myneni ， R.B. ． （ 1995 ） The interpretation 0f spectral vegetation
+indexes. IEEE Trans. Geosci. Rem. Sens. 33 ， 481 一 486
+8 Sellers ， P.J. ． （ 1992 ） Canopy reflectance, photosynthesis, and
+transpiration. III. A reanalysis using improved leaf models and a new
+canopy integration scheme. emo Sens. Environ. 42 ， 187 一 216
+9 Asrar ， G. ． （ 1984 ） Estimating absorbed photosynthetic radiation
+and leaf area index from spectral reflectance in wheat. g c 76 ，
+300 一 306
+10 Nemani ， R.R. ． （ 2003 ） Climate-driven increases in global
+terrestrial net pnmary production 什 om 1982 to 1999 ． Science 300 ，
+1560 一 1563
+11 Roer1ck ， G.J. ． （ 2003 ） Assessment Of chmate impact on vegetation
+dynamlcs by using remote sensing. 尹 九 ， & Chem. Earth 28 ， 103 一 109
+12 Zhou ， L. 酗 ． （ 2003 ） ReIation between interannual vamations in
+satellite measures Of northern forest greenness and climate between
+1982 and 1999 ． J. Geo. 九 ， s ． Res. 108 ． doi: 10 ． 1029 / 2002JD002510
+13 Zhao, T.T. and Schwartz ， M.D. （ 2003 ） Examining the onset of spring in
+Wisconsin. Climat. Res. 24 ， 59 一 70
+14 Yu ， F.F. ． （ 2003 ） Response Of seasonal vegetation development tO
+climatic variations in eastern central Asia. emo Sens. E ro 87 ，
+42 一 54
+15 Wang ， J. ． （ 2003 ） Temporal responses of NDVI to precipitation and
+temperature in the central Great Plains ， USA. 而 訊 咒 emo Sens. 24 ，
+2345 一 2364
+16 Zhang ， J.Y. 酗 ． （ 2003 ） The influence Of vegetation cover on summer
+precipitation in China: a statistical analysis ofNDVI and climate data.
+Adv. A 忉 & Sci. 20 ， 1002 一 1006
+17 Zhang ， J Y. ． （ 2003 ） New evidence for effects of land cover in Chma
+on summer climate. C 历 Sci. Bull. 48 ， 401 一 405
+18 Wang ， J. ． （ 2003 ） Temporal responses ofNDVI to precipitation and
+temperature in the central Great Plains, USA. 7 ． J. 咒 e 襯 0 Sens. 24 ，
+2345 一 2364
+19 Walker, D.A. ． （ 2003 ） Phytomass, LAI ， and NDVI in northern
+AIaska: relationships t0 summer warmth, soil pH, plant functional
+types ， and extrapolation tO the circumpolar Arctic. 訊 Geophys. Res.
+108 ， D2
+20 Gong ， D.Y. and Shi ， P.J. （ 2003 ） Northern hemispheric NDVI
+variaåons associated with large-scale climate indices in spring. /
+e ． Sens. 24 ， 2559 一 2566
+21 Reed ， B ℃ ． ． （ 1994 ） Measurmg phenological variability from
+satellite imagery. Veg. Sci. 5 ， 703 一 714
+22 VourIitis ， G.L. ． （ 2003 ） Spatial variation in regional C02 exchange
+for the Kuparuk River Basin, AIaska over the summer growing
+season. Glob. Change Biol. 9 ， 930 一 941
+23 Wylie, B.K. ． （ 2003 ） CaIibration of remotely sensed ， coarse
+resolution NDVI to C02 fluxes in a sagebrush—steppe ecosystem.
+emo Sens. E “ ro 85 ， 243 一 255
+24 Griffith ， B. 湿 ． （ 2002 ） The Porcupine caribou herd. ln Arctic Refuge
+CoastaI PIain TerrestriaI Wi 五 虍 Research Summaries (DougIas, D ℃ ．
+． ， eds) ， PP. 8 一 37 ， US GeoIogical Survey, Biological Resources
+Division ， Bi010 cal Science Report USGS/BRD/BSR-2002-0001
+www.sciencedirect.com
+25 Thiam ， A.K. （ 2003 ） The causes and spatial pattern ofland degradation
+r1Sk in southern Mauritania usmg multitemporal AVHRR—NDVI
+imagery and field data. Land 乃 eg 甩 磋 刀 “ ． 14 ， 133 一 142
+26 HoIm ， A.L. ． （ 2003 ） The use of time-integrated NOAA NDVI data
+and rainfall tO assess landscape degradation in the arid shrubland of
+Western Australia. 咒 emo 把 Sens. Environ. 85 ， 145 一 158
+27 rlhxcker ， C J ． （ 1985 ） African land-cover classification using
+satellite data. Science 227 ， 369 一 375
+28 Sonano ， A. and ParueIo ， J M. （ 1992 ） Biozones: vegetation units
+defined by functional characters identifiable with the aid of satellite
+sensor images. Glob. Ecol. Biogeogr. Lett. 2 ， 82 一 89
+29 ParueIo, J.M. al. （ 2001 ） Current distribution 0f ecosystem
+functional types in temperate South America. Ecosystems 4 ， 683 一 698
+30 Nemani ， R. R. and Running ， S.W. （ 1997 ） Land cover characterization
+using multitemporal red, NIR and thermal IR data from
+NOANAVHRR. EcoI. AppI. 7 ， 79 一 90
+31 Achard ， F. and BIasco ， F （ 1990 ） Analysis Of vegetation seasonal
+evolution and mapping Of forest cover in West Africa with the use Of
+NOAA AVHRR data. 尸 九 0 丑 ． Engin. 咒 emo Sens. 56 ， 1359 一 1365
+32 Achard, F. and EstreguiI, C. （ 1995 ） Forest classification of Southeast
+Asia using NOAA AVHRR data. emo Sens. Environ. 54 ， 198 一 208
+33 Van Wagtendonk ， J.W. and Root ， R.R. （ 2003 ） The use of multi-
+temporal Landsat NormaIized Difference Vegetation lndex (NDVI)
+data for mapping fuel models in Yosem1te NationaI Park ， USA. 硫
+法 emo Sens. 24 ， 1639 一 1651
+34 Senay ， G.B. and Elliott ， R.L. （ 2002 ） CapabiIity of AVHRR data in
+discriminating rangeland cover mixtures. J. 咒 emo Sens. 23 ，
+299 一 312
+35 Nagendra ， H. （ 2001 ） Using remote sensing t0 assess biodiversity / “ 左
+訊 月 emo Sens. 22 ， 2377 一 2400
+36 Singh, R.P. et 湿 ． （ 2003 ） Vegetation and temperature condition indices
+什 om NOAA AVHRR data for drought monitoring over lndia. 硫
+法 emo Sens. 24 ， 4393 一 4402
+37 MaseIIi ， F. et ． （ 2003 ） Use of NOAA—AVHRR NDVI images for the
+estimation Of dynamic fire risk in Mediterranean areas. 咒 emo Sens.
+E 皿 ro 86 ， 187 一 197
+38 Wang, Q. ． （ 2003 ） Using NOAA AVHRR data to assess flood
+damage in China. Environ. 10 “ Assess. 82 ， 119 一 148
+39 Tait ， A. and Zheng, X.G. （ 2003 ） Mapping frost occurrence using
+satellite data. 法 AppI. Meteorol. 42 ， 193 一 203
+40 HurIbert ， A.H. and Haskell, J.P. （ 2003 ） The effect of energy and
+seasonality on avian species richness and community composition.
+． Nat. 161 ， 83 一 97
+41 Fairbanks D.H.K. and McGwire ， K ℃ ． （ 2004 ） Patterns of floristic
+richness in vegetation communities Of California: regional scale
+analysis with multi-temporal NDVI. Glob. EcoI. B eo, ： 13 ， 221 一 235
+42 GabIer ， K. I. 酗 ． （ 2000 ） Predicting the suitability of habitat in
+southeast ldaho for pygmy rabbits. Wildl. Manage. 64 ， 759 一 764
+43 Osborne, P.E. 湿 ． （ 2001 ） ModeIIing landscape-scale habitat use using
+GIS and remote sensing: a case study with great bustards. J. Appl.
+Ecol. 38 ， 458 一 471
+44 Zinner ， D. 况 ． （ 2002 ） Distribution and habitat of grivet monkeys
+(Cercopithecus aethiops aethiops ） in eastern and central Eritrea. 蓋 乃 ：
+法 Ecol. 40 ， 151 一 158
+45 Møller ， A.P. and Merilä ， J. （ 2004 ） AnaIysis and interpretation of long-
+term studies investigating responses tO climate change. Adv. Ecol.
+Res. 35 ， 111 一 130
+46 Andersen R. ． （ 2004 ） When range expanslon rate is faster in
+marginal habitats. 0 os 107 ， 210 一 214
+47 Saino ， N. ． （ 2004 ） EcoIogical conditions during winter affect sexual
+selection and breeding in a migratory bird. Proc. R. Soc. Lo 法 B Biol.
+Sci. 271 ， 681 一 686
+48 Pettorelli ， N. ． （ 2005 ） The relative role of winter and spring
+conditions: linking climate and landscape-scale plant phenology t0
+alpine reindeer bOdy mass. Biol. Lett. 1 ， 24 一 26
+49 Sanz ， J.J. ． （ 2003 ） CIimate change and fitness components Of a
+migratory bird breeding in the Mediterranean region. GIob. Change
+Biol. 9 ， 461 一 472
+50 DespIand, E. ． （ 2004 ） Landscape structure and locust swarming: a
+satellite's eye view. Ecography 27 ， 381 一 391
+51 Loe, L.E. et 况 ． CIimate predictability and breeding phenology in red
+deer: timing and synchrony of rutting and calving in Norway and
+France. J. Anim. EcoI. ()n press)
+
+@@ PAGE 8 / 10 @@
+510
+Review
+TRENDS EcoIogy and EvoIution v0L20 No ． 9 September 2005
+52 Oindo, B.O. and Skidmore ， A.K. （ 2002 ） lnter-annual variability of
+NDVI and species richness in Kenya. J. 咒 emo Sens. 23 ， 285 一 298
+53 BaiIey, S-A. 湿 ． （ 2004 ） Primary productivity and species nchness:
+relationships among functional guilds, residency groups and vagility
+classes at multiple spatial scales. Eco, 丑 九 ， 27 ， 207 一 217
+54 Estrada-Pena ， A. ． （ 2004 ） Species composition ， distribution ， and
+ecological preferences of the ticks of grazing sheep in North-CentraI
+Spain. Med. E om 况 ． 18 ， 123 一 133
+55 Huete ， A.R. （ 1988 ） A soil-adjusted vegetation index (SAVI). 咒 emo
+Sens. Environ. 25 ， 295 一 309
+56 Huete ， A.R. ， （ 2002 ） Overview of radiometnc and biophysical
+performance of the MODIS vegetation mdices. 咒 e 0 把 Sens. Env 0
+83 ， 195 一 213
+57 Smith ， P.M. ． （ 1997 ） The NOAA/NASA Pathfinder AVHRR 8-km
+Land Data Set. P 九 0 望 耵 m ． E “ 咒 emo Sens. 68 ， 12 一 32
+58 Tucker C.J. 湿 ． （ 2005 ） An extended AVHRR 8-km NDVI data set
+compatible with MODIS and SPOT vegetation NDVI data.
+emo Sens. ()n press)
+59 BeIward ， A. and Lambin, E.F. （ 1990 ） Limitations to the identification of
+spatial structures from AVHRR data. 7 ' 硫 訊 emo Sens. 11 ， 921 一 927
+60 James ， M.E. and KaIIuri ， S.N.V. （ 1994 ） The Pathfinder AVHRR land
+data set: an improved coarse resolution data set for terrestrial
+monitoring. 硫 訊 Remote Sens. 15 ， 3347 一 3363
+61 Gutman ， G. G. （ 1999 ） On the use of long-term global data of land
+reflectances and vegetation indices derived 什 om the AVHRR.
+法 Ge 叩 九 ， & Res. 104 ， 6241 一 6255
+62 Vermote ， E.F. and Kaufmann ， Y.J. （ 1995 ） Absolute calibration of
+AVHRR visible and near mfrared channels using ocean and cloud
+views. 7 ， 咒 emo Sens. 16 ， 2317 一 2340
+63 Viovy, N. al. （ 1992 ） The best lndex slope extraction (BISE): a
+method for reducing noise in NDVI time-series. J. 咒 e 襯 0
+Sens. 12 ， 1585 一 1590
+64 Tanre ． （ 1992 ） Atmospheric correction algorithm for NOAA—
+AVHRR products: theory and applications. IEEE 乃 耵 “ ． Geosci.
+emo Sens. 30 ， 2231 一 2248
+65 Kaufmann, R.K. et 湿 ． （ 2000 ） Effect of orbital drift and sensor changes
+on the time series of AVHRR vegetation index data. IEEE 乃 s ．
+Geosci. 咒 emo Sens. 38 ， 2584 一 2597
+66 Justice ， C.O. 酗 ． （ 1985 ） AnaIysis of the phenology of global
+vegetation using meteorologlcal satellite data. / ' 硫 訊 咒 emo Sens.
+6 ， 1271 一 1318
+67 Pinter ， P.J. et 湿 ． （ 1985 ） Sun-angle and canopy architecture effects on
+the spectral reflectance Of six wheat cultivars. / “ 左 月 emo Sens. 6 ，
+1813 一 1825
+68 Markon, C.J. ． （ 1995 ） Characteristics ofvegetation phenology over
+the AIaskan landscape using AVHRR time-series data. PoIar 咒 “ ． 31 ，
+179 一 190
+69 Thomas ， W. （ 1997 ） A three-dimensional model for calculating
+reflection functions Of inhomogeneous and orographically structured
+natural landscapes. emo Sens. Environ. 59 ， 44 一 63
+70 Goward ， S.N. 酗 ． （ 199D NormaIized difference vegetation index
+measurements from the Advanced Very High ResoIution Radiometer.
+emo Sens. Environ. 35 ， 257 一 277
+71 Holben ， B.N. （ 1986 ） Characteristics Of maximum-value composite
+lmages 什 om temporal AVHRR data. 着 硫 e 0 把 Sens. 7 ， 1417 一 1434
+72 Van Dijk, A. ． （ 1987 ） Smoothing vegetation index profiles. an
+alternative method for reducing radiometric disturbance in
+NOANAVHRR data. 尸 九 0 g 扩 am ． Engin. 咒 emo Sens. 53 ， 1059 一 1067
+73 Verhoef, W. et ． （ 1996 ） A colour composite of NOAA—AVHRR NDVI
+based on time series analysis. 7 ' 訊 咒 emo Sens. 17 ， 231 一 235
+74 OIsson ， L. and EkIundh ， L. （ 1994 ） Fourier series for analysis of
+temporal sequences Of satellite sensor lmagery. 硫 emo 把 Sens.
+15 ， 3735 3741
+75 Zhang ， X. ． （ 2003 ） Monitoring vegetation phenology using
+MODIS. emo 把 Sens. Environ. 84 ， 471 一 475
+76 Swets, D.L. ． （ 1999 ） A weighted least-squares approach to
+temporal NDVI smoothing. ln Proceedings the 7999 ASPRS Annual
+Conference: From lmage 而 疖 扩 m “ ， 尸 “ ， 0 “ go “ ， May 77 一 27 ，
+7999 ， American Society for Photogrammetry and Remote Sensing
+77 Chen, J. ． （ 2004 ） A simple method for reconstructing a high-
+quality NDVI time-series data set based on the Savitzky—GoIay filter.
+emo 把 Sens. E 视 沅 ro 91 332 一 344
+78 ParueIo, J.M. and Lauenroth ， W.K. （ 1998 ） lnter-annual variability of
+NDVI and its relationship to climate for North American shrublands
+and grasslands. 法 Biogeogr. 25 ， 721 一 733
+79 Guerschman, J.P. 湿 ． （ 2003 ） Land use impacts on the NormaIized
+difference vegetation index in temperate Argentina. EcoI. AppI. 13 ，
+616 一 628
+80 Lüdeke ， M.K.B. 酗 ． （ 1996 ） The use of satellite NDVI data for the
+validation Of global vegetation phenology models. application tO the
+Frankfurt Biosphere Model. Ecol. Model. 91 ， 255 一 270
+Forthcoming Conferences
+Are yo u organizing a conference, workshop O r meeting that would be Of i nterest tO TREE readers? If SO, please e-mail the details tO
+us at TREE@elsevier.com and we will feature it in our Forthcoming Conference filler.
+15 一 16 October 2005
+7th lnternational Conference Aquatic Ecosystems, Orgamsms, lnnovations. Moscow, Russia
+http://www.aslo.org/meetings/calendar
+17 一 18 October 2005
+Royal Society Discussion Meeting: EvoIution Of the Antarctic lce Sheet: N ew Understandings and ChaIIenges, London, U K
+http://www.royalsoc.ac.uk/events/
+19 一 22 October 2005
+The Society Of Ve rte brate PaIeont010gy, Mesa, Arizona, USA
+http://www.vertpaleo.org/meetings/future meetings.html
+1 November 2005
+EURECO ' 05 一 EcoIogy Without Borders, Kusadasy, Tu rkey
+http://eurec02005.ege.edu/tr/
+4 一 9 December 2005
+Combined Conferences Of lnvertebrate Biodiversity and Conservation, Australian Entomological Society and the Society Of
+Australian Systematic Biologists, Canberra, Australia
+http://www.invertebrates2005.com
+13 一 19 August 2006
+24th lnternational OrnithoIogicaI Congress, Hamburg, Germany
+http://www.i-o-c.org
+www.sciencedirect.com
+
+@@ PAGE 9 / 10 @@
+Update
+Trends in EcoIogy & EvoIution
+VoIume 21 ， lssue 1 ， January 2006 ， Page 11
+DOI: h ps ： / / dOi ℃ rq / 10 · 1016 / i ． tree · 2005 ． 11 · 006
+
+@@ PAGE 10 / 10 @@
+Update
+Erratum
+TRENDS EcoIogy and EvoIution v0L21 No ． 1 January 2006
+Erratum: Using the satellite-derived NDVI t0 assess
+ecological responses tO environmental change
+Trends Ecology & EVO on 20 005 丿 503 一 570
+ln this article by NathaIie PettoreIIi and colleagues, the
+NormaIized Difference Vegetation lndex was incorrectly
+abbreviated as 'NVDI ， a number of times. lt should have
+read 'NDVI ， ． We apologlse to readers for any confusion.
+Book Revi ews
+0169 ． 534 刀 $ - see front matter 0 2005 Elsevier Ltd. All rights reserved.
+doi ： 10 ． 1016 / ] 、 tree 、 2005 ． 1 1 ． 006
+Adding requisite complexity t0 the struggle 0f ideas
+EnvironmentaI Education and Advocacy: Changing Perspectives 0f Ec010gy and Education edited by Edward J0hnson and
+MichaeI Mappin. Cambridge University Press, 2005 ． £ 55 ． 00 hbk （ 346 pages) ISBN 0521824109
+WilIiam Scott
+Ce ntre for Research in Education and the Environment, University of Bath, Bath, UK, BA2 7AY
+Environmental
+Education and
+Advocacy
+0
+I appreciated the title of this book
+because ofthe ambiguity 0f 'changing' ．
+IS thiS a verb or adjective, or somehow
+both ？ Are the authors and editors
+setting out tO change our perspectives
+or chart our changing perspectives? I
+hoped all of this was deliberate ， as the
+tension between environmental edu-
+cation a social movement advocat-
+ing the espousal of particular ways of
+living, and its role as a mode of education that helps people
+understand and reflect on how they might live in the
+world ， has been persistent ， pervasive and ， at times ，
+deeply troubling.
+Following an extended introduction by the editors ， an
+educator and an ecologist, there are four sections to the
+book: (i) changing perspectives of ecology; (ii) changing
+perspectives of education; (iii) assessing changmg per-
+spectives Of ecology and education; and (iv) integrating
+changmg perspectives of ecology, educaåon and acåon ．
+Just as the editors represent both sides of this ecology
+education coin so ， variously, do the chapter authors, which
+put me at a disadvantage as my expertise lies only on the
+education side ． However ， as I fell among ecologists as I
+read ， I was able to discuss the book with them ．
+The challenge for any edited text is to have a well-
+formed structure and coherence across chapters ； in other
+words ， the editors not only have to think through the
+issues well, but also have to hold the chapter authors to
+account. I think that the editors have done the first of
+these pretty well but have been less successful with the
+DOI of original article: 10 ． 1016 / j ． tree ． 2 佣 5 ． 05 ． 011
+Available online 14 November 2005
+Corresponding au 0 广 Scott, W. (w.a.h.scott@bath.ac.uk).
+AvaiIabIe online 15 September 2005
+www.sciencedirect.com
+second ， because what have iS a semes Of disparate
+essays rather than a coherent narrative or thesis ， with
+some authors taking the opportunity t0 restate argu-
+ments ， and reconfirm established positions (usually their
+own). ln other words ， they have looked back ， rather than
+around and ahead. And at the end, I wanted to read a
+chapter that was not there ， that is ， the final one ， in which
+the editors attempted a synthesis of what the vanous
+chapter authors were saymg.
+However ， I think that 刀 rom e I E 山 tca 五 0 and
+Advocacy is an important book for envmonmental and/or
+science educators to read because of chapters 2 and 3 ·
+These two chapters will be enlightening for anyone whO
+thinks that an understanding Of ecology as a science ， and
+an understanding Of ecologlcal processes ln nature ， are
+important ， but who has little exposure to recent ideas ．
+These chapters are well written ， scholarly attempts t0
+add ， what I am going t0 call 'requisite complexity' t0 our
+understanding and ， by and large, they succeed admirably.
+ln chapter 2 ， Des Jardins provides a lucid exploration
+of how ecology might be understood and the pitfalls of
+particular perspectives ． He discusses the naturalistic
+fallacy and the philosophical challenge that we all face
+when tempted to derive values 什 om facts ． This ， and his
+sections on teleology, models and metaphors ， constitute
+valuable ground clearing in which much intellectual
+detritus is swept away, including the popular idea that
+there can be a long-term balance and equilibrium t0
+natural systems. Much envlronmental education and/or
+philosophical theorizing depends on the idea of finding
+such a balance between the needs of humans and nature, a
+balance it has to be said that never proves theoretically
+well grounded. ln chapter 3 ， K01asa and Pickett com-
+plement all this in their thoughtful exploration of modern
+ecology and its paradigms, processes ， and problems ， and

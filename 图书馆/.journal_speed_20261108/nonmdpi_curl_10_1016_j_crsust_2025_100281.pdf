@@ -1,0 +1,1482 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="nexus-font-support">
+
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google" content="nositelinkssearchbox"/>
+    <meta name="tdm-reservation" content="0">
+    <title>  Swedish University of Agricultural Sciences</title>
+    
+    
+    
+
+<link rel='alternate' hreflang='en-gb' href='https://research.slu.se/' /><link rel='alternate' hreflang='sv-se' href='https://research.slu.se/' />
+
+<meta property="og:site_name" content="Swedish University of Agricultural Sciences">
+
+
+
+<meta property="og:url" content="https://research.slu.se/">
+<meta property="og:locale" content="en_GB">
+
+
+    <meta property="og:type" content="website">
+
+
+
+    
+        <meta property="og:image" content="https://research.slu.se/skin/headerImage/">
+    
+
+
+
+
+
+    <link rel="stylesheet" href="/assets/application-d8c4196ba42289b701050fcf209ab3eb.css" />
+    <!-- OneTrust Cookies Consent Notice start -->
+<script async src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="019e633b-6b85-7d9b-bdb9-715ef16fba33" data-document-language="true"></script>
+<script type="text/javascript">
+    document.cookieConsentBannerShowAll = true;
+    function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end -->
+    
+        <link rel="shortcut icon" href="/skin/favIcon/"/>
+    
+    <link href="/skin/css/" rel="stylesheet"/>
+    
+    <script src="/skin/script/" type="text/javascript"></script>
+    <script type="text/javascript" src="/assets/application-82d863b89566b5db447e8611ca1893ab.js" ></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/assets/html5shiv.min-ca5300beead9a4a9d2c9c584a9016410.js" ></script>
+    <script type="text/javascript" src="/assets/respond.min-678d372b349e434d9923e1b591f14a1e.js" ></script>
+    <![endif]-->
+    
+        
+        
+    
+    <!-- Google Analytics: No account ID (G) found -->
+    <script src="//assets.adobedtm.com/4a848ae9611a/ea83f870454d/launch-af020409b299.min.js" class="optanon-category-2" type="text/plain" async=""></script>
+    
+    <!-- Pendo: Disabled -->
+</head>
+
+<body class="" data-page="home">
+
+<div id="aria-polite" aria-live="polite"></div>
+<div id="aria-assertive" aria-live="assertive"></div>
+
+<a href="#main-navigation" class="sr-only sr-only-focusable">Skip to main navigation</a>
+
+    <a href="#main-search" class="sr-only sr-only-focusable">Skip to search</a>
+
+<a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+
+
+
+
+
+
+    <header class="header" id="page-header">
+        <div class="primary  ">
+            <div class="container">
+                
+                <a href="/en/" class="logo">
+                    
+                        <span class="sr-only">Swedish University of Agricultural Sciences Home</span>
+                        <img src="/skin/headerImage/" alt="Swedish University of Agricultural Sciences Logo"/>
+                    
+                </a>
+                
+                    <ul class="header-tools ">
+                        
+                            <li class="help-and-faq">
+                                <a href="https://www.slu.se/en/library/publish/register-and-display-in-slu-research-and-ema-database/" target="_blank">
+                                    <i class="icon icon-lifebuoy" aria-hidden="true"></i>
+                                    <span class="label">Help &amp; FAQ</span>
+                                    <span class="sr-only">&nbsp; Link opens in a new tab</span>
+                                </a>
+                            </li>
+                        
+                        
+                            <li class="language-dropdown dropdown">
+                                <button data-toggle="dropdown" class="language_btn" aria-label="Select language" aria-expanded="false">
+                                    <i class="icon icon-globe" aria-hidden="true"></i></button>
+
+                                <div class="dropdown-container">
+                                    <ul class='language-selector dropdown-menu'><li class='selected'><a href="/en/" aria-current="true" lang="en">English</a></li><li><a href="/sv/" lang="sv">Svenska</a></li></ul>
+                                </div>
+                            </li>
+                        
+                    </ul>
+                
+                
+                
+            </div>
+        </div>
+
+        
+
+
+        
+        
+    </header>
+
+    <main id="page-content">
+        
+    <div class="page-section page-section-home page-section-home-index ">
+
+        
+        
+        
+        
+        <section
+                class="page-section-header page-section-header-home page-section-header-home-index
+                 has-backdrop-image"
+                data-stickyheader=""
+                style="">
+            
+            
+            <div class="container">
+                <div class="header">
+                    <h1 class="title">
+                        
+                            Find publications, data and profiles
+                        
+                    </h1>
+                </div>
+                
+
+
+<div class="search-bar-wrapper" itemscope itemtype="http://schema.org/WebSite">
+    <meta itemprop="url" content="https://research.slu.se/"/>
+
+    <div class="global-search-wrapper">
+        <form id="main-search" action="/en/searchAll/" method="get" class="search-form" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+            <meta itemprop="target" content="/en/searchAll/"/>
+
+            
+            <div class="global-search  no-concept-search">
+                <div class="field-button-wrapper">
+
+                    
+
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        runToolTips();
+        runRadioGroup();
+
+        function changeSearchPlaceholder(radio) {
+            $('#global-search-input').attr('placeholder', radio.attr('data-placeholder'));
+        }
+
+        $('[role="radio"]').on('click', function () {
+            changeSearchPlaceholder($(this));
+        });
+
+        $('[role="radio"]').on('keydown', function () {
+            changeSearchPlaceholder($(this));
+        });
+
+        $('.search-form').on('submit', function (e) {
+            e.preventDefault();
+
+            var searchValue = $('.search-bar-wrapper input.search-field').val() || '';
+            if (!searchValue.trim()) {
+                this.submit();
+                return;
+            }
+
+            var selectedRadio = $('.advanced-search-list [role="radio"][aria-checked="true"]');
+            var searchBy = selectedRadio && selectedRadio.attr('id');
+            var baseUrl;
+
+            // This is for the community layout where a dropdown is available to pick content types from
+            var dropdownLink = $('.form-field-dropdown ul.dropdown-menu li a[aria-selected="true"]');
+
+            if (dropdownLink.length > 0) {
+                var href = dropdownLink.attr('href');
+                baseUrl = href.split('?')[0];
+            } else {
+                var locale = $('.advanced-search-list').attr('data-searchlocale') || 'en';
+                var dataPage = $('body').attr('data-page');
+                var family = (dataPage === 'home' || !dataPage) ? 'searchAll' : dataPage;
+                var urlString = window.location.origin + window.location.pathname;
+                var localeIndex = urlString.indexOf('/' + locale);
+
+                if (localeIndex === -1) {
+                    // Locale not found in URL, append it
+                    baseUrl = urlString + (urlString.endsWith('/') ? '' : '/') + locale + '/' + family;
+                } else {
+                    // Locale found in URL, use existing logic
+                    baseUrl = urlString.substring(0, localeIndex + locale.length + 2) + family;
+                }
+
+            }
+            var urlParams = {};
+            
+
+            if (false) {
+                urlParams["improvedLayoutOrganisationUuid"] = "";
+            }
+
+            urlParams["search"] = searchValue;
+            if (searchBy) {
+                urlParams["searchBy"] = searchBy;
+            }
+
+            var paramsAsString = jQuery.param(urlParams);
+            window.location.href = baseUrl + '/?' + paramsAsString;
+        });
+    });
+</script>
+
+                    <div class="search-field-container">
+                        <div class="search-field">
+                            
+                            <label class="sr-only" for="global-search-input" id="global-search-label">Search...</label>
+                            <input type="text"
+                                   id="global-search-input"
+                                   itemprop="query-input"
+                                   class="search-field"
+                                   placeholder="Search..."
+                                   value=""
+                                   name="search"
+                                   autocomplete="off"
+                                />
+                        </div>
+
+                        <div class="search-submit">
+                            <button id="normalSearch" type="submit" value="false" name="isCopyPasteSearch"
+                                    aria-label="Search" >
+                                <i class="icon icon-magnifying-glass" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </form>
+
+        <nav aria-label="Search navigation">
+            <ul class="search-menu ">
+                
+                <li>
+                    <a aria-label="Go to advanced search" href="/en/searchAll/advanced/">
+                        Advanced search</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+            </div>
+        
+        </section>
+
+        <div id="main-content"
+             class="page-section-content page-section-content-home page-section-content-home-index   ">
+            
+        
+
+        
+            
+                <ul class="home-menu " data-value="More" role="menubar">
+                    
+                        
+                            <li class="persons" role="none">
+                                <a class="portal_link" role="menuitem" href="/en/persons/"><span>
+                                    <i class="icon icon-persons">
+                                        <span class="count increment-counter">2447</span>
+                                    </i>
+                                    <span class="label">
+                                        Profiles
+                                    </span>
+                                </span></a>
+                            </li>
+                        
+                    
+                        
+                            <li class="organisations" role="none">
+                                <a class="portal_link" role="menuitem" href="/en/organisations/"><span>
+                                    <i class="icon icon-organisations">
+                                        <span class="count increment-counter">34</span>
+                                    </i>
+                                    <span class="label">
+                                        Units
+                                    </span>
+                                </span></a>
+                            </li>
+                        
+                    
+                        
+                    
+                        
+                            <li class="publications" role="none">
+                                <a class="portal_link" role="menuitem" href="/en/publications/"><span>
+                                    <i class="icon icon-publications">
+                                        <span class="count increment-counter">80032</span>
+                                    </i>
+                                    <span class="label">
+                                        Publications
+                                    </span>
+                                </span></a>
+                            </li>
+                        
+                    
+                        
+                            <li class="datasets" role="none">
+                                <a class="portal_link" role="menuitem" href="/en/datasets/"><span>
+                                    <i class="icon icon-datasets">
+                                        <span class="count increment-counter">76</span>
+                                    </i>
+                                    <span class="label">
+                                        Datasets
+                                    </span>
+                                </span></a>
+                            </li>
+                        
+                    
+                        
+                    
+                        
+                            <li class="activities" role="none">
+                                <a class="portal_link" role="menuitem" href="/en/activities/"><span>
+                                    <i class="icon icon-activities">
+                                        <span class="count increment-counter">13</span>
+                                    </i>
+                                    <span class="label">
+                                        Activities
+                                    </span>
+                                </span></a>
+                            </li>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+            
+        
+
+        
+            <section class="page-section welcome">
+                <div class="container">
+                    
+                        <h2>Swedish University of Agricultural Sciences (SLU)</h2>
+                    
+                    
+                        <div class="text-block">
+                            SLU is a world-class university, consistently ranked among the global leaders in life and environmental sciences. In SLU Research and EMA Database (REMA), you can find information about profiles, organisational units, publications and datasets. For general information about research and environmental monitoring and assessment at SLU, please visit <a href="https://www.slu.se/" target="_blank">slu.se</a>.
+                        </div>
+                    
+                </div>
+            </section>
+        
+
+        
+          
+
+
+
+
+
+<section id="sdg_banner" class="page-section sdg_banner">
+    <div class="container">
+        <div class="sdg_info">
+            <h2 id="sdg-title">
+                UN&#39;s Sustainable Development Goals
+            </h2>
+
+            <p>The 17 Sustainable Development Goals (SDG), established by the UN, represent a global call to action to address the most pressing challenges facing our world and humanity. Click on a goal to explore related SLU publications.</p>
+        </div>
+        <nav aria-labelledby="sdg-title">
+            <ol class="sdg_icons" role="menubar" aria-labelledby="sdg-title">
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="no_poverty dropdown-toggle">
+                                <img alt="SDG 1 - No Poverty" title="SDG 1 - No Poverty"
+                                     class="no_poverty"
+                                     src="/assets/sdg_icons/no_poverty-5be0d31a7a366ac69131d7c02dbde399.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 1</span>
+                                    <span>No Poverty</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fno_poverty"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>180</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="zero_hunger dropdown-toggle">
+                                <img alt="SDG 2 - Zero Hunger" title="SDG 2 - Zero Hunger"
+                                     class="zero_hunger"
+                                     src="/assets/sdg_icons/zero_hunger-d73a8234b0d705e88bce82410489d716.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 2</span>
+                                    <span>Zero Hunger</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fzero_hunger"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>2486</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="good_health_and_well_being dropdown-toggle">
+                                <img alt="SDG 3 - Good Health and Well-being" title="SDG 3 - Good Health and Well-being"
+                                     class="good_health_and_well_being"
+                                     src="/assets/sdg_icons/good_health_and_well_being-9e564c34dfe97e37b42d22a76cae8ae4.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 3</span>
+                                    <span>Good Health and Well-being</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fgood_health_and_well_being"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>1485</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="quality_education dropdown-toggle">
+                                <img alt="SDG 4 - Quality Education" title="SDG 4 - Quality Education"
+                                     class="quality_education"
+                                     src="/assets/sdg_icons/quality_education-f9f31eaa05cb25157854fe0b835a34d9.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 4</span>
+                                    <span>Quality Education</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fquality_education"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>196</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="gender_equality dropdown-toggle">
+                                <img alt="SDG 5 - Gender Equality" title="SDG 5 - Gender Equality"
+                                     class="gender_equality"
+                                     src="/assets/sdg_icons/gender_equality-448708a3baca11d4d32fbe32cbc70beb.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 5</span>
+                                    <span>Gender Equality</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fgender_equality"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>227</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="clean_water_and_sanitation dropdown-toggle">
+                                <img alt="SDG 6 - Clean Water and Sanitation" title="SDG 6 - Clean Water and Sanitation"
+                                     class="clean_water_and_sanitation"
+                                     src="/assets/sdg_icons/clean_water_and_sanitation-27f22282fefee8571cb435ced4f863bd.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 6</span>
+                                    <span>Clean Water and Sanitation</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fclean_water_and_sanitation"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>1585</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="affordable_and_clean_energy dropdown-toggle">
+                                <img alt="SDG 7 - Affordable and Clean Energy" title="SDG 7 - Affordable and Clean Energy"
+                                     class="affordable_and_clean_energy"
+                                     src="/assets/sdg_icons/affordable_and_clean_energy-b8e39c169139faf6df7199566119c3c0.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 7</span>
+                                    <span>Affordable and Clean Energy</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Faffordable_and_clean_energy"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>713</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="decent_work_and_economic_growth dropdown-toggle">
+                                <img alt="SDG 8 - Decent Work and Economic Growth" title="SDG 8 - Decent Work and Economic Growth"
+                                     class="decent_work_and_economic_growth"
+                                     src="/assets/sdg_icons/decent_work_and_economic_growth-b8e44bcddd206deda6b1ad43452e7870.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 8</span>
+                                    <span>Decent Work and Economic Growth</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fdecent_work_and_economic_growth"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>444</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="industry_innovation_and_infrastructure dropdown-toggle">
+                                <img alt="SDG 9 - Industry, Innovation, and Infrastructure" title="SDG 9 - Industry, Innovation, and Infrastructure"
+                                     class="industry_innovation_and_infrastructure"
+                                     src="/assets/sdg_icons/industry_innovation_and_infrastructure-38d336019fd4b8ef110b4e64f4c8d344.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 9</span>
+                                    <span>Industry, Innovation, and Infrastructure</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Findustry_innovation_and_infrastructure"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>466</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="reduced_inequalities dropdown-toggle">
+                                <img alt="SDG 10 - Reduced Inequalities" title="SDG 10 - Reduced Inequalities"
+                                     class="reduced_inequalities"
+                                     src="/assets/sdg_icons/reduced_inequalities-db0b5faa1c40b697483c87318d2fca1b.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 10</span>
+                                    <span>Reduced Inequalities</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Freduced_inequalities"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>203</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="sustainable_cities_and_communities dropdown-toggle">
+                                <img alt="SDG 11 - Sustainable Cities and Communities" title="SDG 11 - Sustainable Cities and Communities"
+                                     class="sustainable_cities_and_communities"
+                                     src="/assets/sdg_icons/sustainable_cities_and_communities-059d865e613fccfccd3ec235fcd1f9c8.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 11</span>
+                                    <span>Sustainable Cities and Communities</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fsustainable_cities_and_communities"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>926</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="responsible_consumption_and_production dropdown-toggle">
+                                <img alt="SDG 12 - Responsible Consumption and Production" title="SDG 12 - Responsible Consumption and Production"
+                                     class="responsible_consumption_and_production"
+                                     src="/assets/sdg_icons/responsible_consumption_and_production-833fe92c1833785b6f54ac5485004872.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 12</span>
+                                    <span>Responsible Consumption and Production</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fresponsible_consumption_and_production"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>1540</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="climate_action dropdown-toggle">
+                                <img alt="SDG 13 - Climate Action" title="SDG 13 - Climate Action"
+                                     class="climate_action"
+                                     src="/assets/sdg_icons/climate_action-acabfe7bc0b54aaaf6bf5ae849215b49.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 13</span>
+                                    <span>Climate Action</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fclimate_action"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>2358</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="life_below_water dropdown-toggle">
+                                <img alt="SDG 14 - Life Below Water" title="SDG 14 - Life Below Water"
+                                     class="life_below_water"
+                                     src="/assets/sdg_icons/life_below_water-ae59728e6d82f5a69de1f6480ff4491f.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 14</span>
+                                    <span>Life Below Water</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Flife_below_water"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>1491</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="life_on_land dropdown-toggle">
+                                <img alt="SDG 15 - Life on Land" title="SDG 15 - Life on Land"
+                                     class="life_on_land"
+                                     src="/assets/sdg_icons/life_on_land-0dc2d409dd264065bef2ecd13874414e.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 15</span>
+                                    <span>Life on Land</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Flife_on_land"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>3502</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="peace_justice_and_strong_institutions dropdown-toggle">
+                                <img alt="SDG 16 - Peace, Justice and Strong Institutions" title="SDG 16 - Peace, Justice and Strong Institutions"
+                                     class="peace_justice_and_strong_institutions"
+                                     src="/assets/sdg_icons/peace_justice_and_strong_institutions-2198e62de154090dcd2642736839fe19.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 16</span>
+                                    <span>Peace, Justice and Strong Institutions</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fpeace_justice_and_strong_institutions"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>291</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+                    <li role="none" class="dropdown-overflow">
+
+                        
+                            
+                            <button role="menuitem" class="partnerships dropdown-toggle">
+                                <img alt="SDG 17 - Partnerships for the Goals" title="SDG 17 - Partnerships for the Goals"
+                                     class="partnerships"
+                                     src="/assets/sdg_icons/partnerships-023a87e94df392bd98d172237327fee9.svg"
+                                     role="presentation"/>
+                                <div class="sdg-name">
+                                    <span>SDG 17</span>
+                                    <span>Partnerships for the Goals</span>
+                                </div>
+                            </button>
+
+                            <div class="dropdown-container">
+                                <ul class="dropdown-menu">
+                                    
+                                        
+                                        <li class="overflow-listitem">
+                                            <a class="portal_link" role="menuitem" href="/en/publications/?indexableKeyword=%2Fdk%2Fatira%2Fpure%2Fsustainabledevelopmentgoals%2Fpartnerships"><span>
+                                                <i class="icon icon-publications" aria-hidden="true">
+                                                </i>
+                                                <strong>376</strong>
+                                                <span class="label">Publications</span>
+                                            </span></a>
+                                        </li>
+                                    
+                                </ul>
+                            </div>
+                        
+                    </li>
+                
+            </ol>
+        </nav>
+    </div>
+</section>
+
+
+
+
+
+        
+
+        <section class="page-section">
+
+            <meta itemprop="url" content="/en/searchAll/"/>
+
+            
+                <div class="page-section network-collaborations">
+                    <div class="container">
+                        
+
+
+
+
+    <div class="network-description">
+        <h2>
+            
+                Collaborations within the past 5 years.
+            
+        </h2>
+        
+            <p>
+                Click dots to bring up details or
+                <button id="showCountries">Select a country/territory from the list</button>
+            </p>
+        
+    </div>
+    
+    
+
+
+
+<div style="display: none;" role="dialog" id="countryList" aria-modal="true" aria-labelledby="modal-heading" aria-describedby="modal-description">
+    <div class="header">
+        
+            <h2 class="title" id="modal-heading">
+                
+                    Collaborations within the past 5 years.
+                
+            </h2>
+
+            
+                <p id="modal-description">Select a country/territory to view shared publications</p>
+            
+        
+    </div>
+    <button class="close-filter map">
+        Close
+    </button>
+</div>
+
+<div style="display: none;" id="filter-popup-bgoverlay"></div>
+
+
+    <div id="network-map-container" aria-hidden="true"
+         class="world-map-container"
+         data-url="/en/network-map-json/?showAdvanced=false&allConcepts=true&inferConcepts=true&improvedPortalLayoutEnabled=false&absolute=false"
+         data-node-url="/en/network-map-json-country/?showAdvanced=false&allConcepts=true&inferConcepts=true&improvedPortalLayoutEnabled=false&absolute=false"
+         data-popup-url="/en/network-map-json-collaborations/?absolute=false"
+         data-unknown-country="Unknown country/territory"
+         data-continent-africa="Africa"
+         data-continent-america="America"
+         data-continent-asia="Asia"
+         data-continent-oceania="Australia and Oceania"
+         data-continent-europe="Europe"
+         data-continent-unknown="---"
+         data-content-statistics="false"
+         data-appear-top-offset="-250"
+         data-map-svg-title="Collaboration map from the last five years. Not keyboard accessible: use the link provided above the map.">
+
+        <button aria-hidden="true" class="toggle-responsive-map">
+            <span>Select a country/territory from the list</span>
+        </button>
+
+        <div class="world-map"></div>
+    </div>
+    
+
+    <script>
+        $(function () {
+            $("#network-map-container").networkMap({
+                createConcepts: false,
+                conceptsSummaryUrl: "/en/concepts/summary/",
+                limitCollaborationMapToUs: false,
+                filterCollaborationMapData: "All"
+            });
+        });
+    </script>
+
+
+                    </div>
+                </div>
+            
+
+            
+
+            
+                <div class="page-section organisation-overview">
+                    <div class="container">
+                        
+
+
+    <div id="organisationTypeMenu" class="subMenu">
+      <nav aria-label="Related organisations by type">
+        <ul class="tabs">
+            
+            
+                
+                    
+                    
+                        <li class="selected">
+                            <a href="/en/home/?nofollow=true#organisationTypeMenu">
+                                Faculty
+                                
+                                        <span class="count">(4)</span>
+                                
+                            </a>
+                        </li>
+                    
+                        <li class="">
+                            <a href="/en/home/?type=%2Fdk%2Fatira%2Fpure%2Forganisation%2Forganisationtypes%2Forganisation%2Fdepartment&amp;nofollow=true#organisationTypeMenu">
+                                Department
+                                
+                                        <span class="count">(29)</span>
+                                
+                            </a>
+                        </li>
+                    
+                
+            
+                
+            
+                
+            
+        </ul>
+      </nav>
+    </div>
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="search-result-top">
+        <div class="search-tools search-tools-left">
+            <ul>
+                <li class="search-pager-information">
+                    4 results
+                </li>
+                <li class="dropdown search-orderings">
+                    
+                    <button id="btn-ordering" data-toggle="dropdown" aria-expanded="false" aria-label="Results sorted byName(ascending)">Name <span class='direction'>(ascending)</span><i class="icon icon-down-open-mini"></i></button><div class="dropdown-container"><ul class="search-orderings"><li><a href="/en/home/index/?type=%2Fdk%2Fatira%2Fpure%2Forganisation%2Forganisationtypes%2Forganisation%2Ffaculty&ordering=name&descending=true" rel="nofollow" aria-label="Sort by Name (descending)">Name<span class="label">(descending)</span></a></li></ul></div>
+                </li>
+                
+            </ul>
+        </div>
+
+        <script type="text/javascript">
+            function exportTrack(event) {
+                if (window._gaq && window._gaq._getTracker) {
+                    gtag('event', 'Export Results', {
+                        'event_category': 'Search',
+                        'event_label': 'home',
+                        'value': ''
+                    });
+                }
+
+                appData.push({
+                    event:'contentExport',
+                    content:
+                        [
+                            {type: 'home', exportType: 'file', format: event.target.dataset.format}
+                        ]
+                })
+            }
+        </script>
+
+        
+            <div class="search-tools search-tools-right">
+                
+
+
+<div class="org-change-view">
+    <nav aria-label="Show organisation list as">
+        <ul>
+            
+        </ul>
+    </nav>
+</div>
+            </div>
+        
+    </div>
+
+    
+    
+
+    
+
+    
+
+    
+<h2 class="sr-only hidden_search_result_heading">Search results</h2>
+<ul class="grid-results">
+    
+        
+            <li class="grid-result-item grid-result-item-0">
+                
+                <div role="region" class="search-result-region" aria-label="Search result 1">
+                    <div class="result-container">
+                        
+                        
+
+                            <div class="rendering rendering_organisation rendering_short rendering_organisation_short"><h3 class="title"><a rel="Organisation" href="https://research.slu.se/en/organisations/faculty-of-forest-sciences/" class="link"><span>Faculty of Forest Sciences</span></a></h3><p class="relations"><a rel="Organisation" href="https://research.slu.se/en/organisations/swedish-university-of-agricultural-sciences/" class="link organisation"><span>Swedish University of Agricultural Sciences</span></a></p><p class="type"><span class="type_family">Organisational unit<span class="type_family_sep">: </span></span><span class="type_classification">Faculty</span></p></div>
+
+                            
+                                
+
+
+
+
+
+
+                            
+                            
+
+                        
+                        
+                    </div>
+                    
+                </div>
+            </li>
+        
+    
+        
+            <li class="grid-result-item grid-result-item-1">
+                
+                <div role="region" class="search-result-region" aria-label="Search result 2">
+                    <div class="result-container">
+                        
+                        
+
+                            <div class="rendering rendering_organisation rendering_short rendering_organisation_short"><h3 class="title"><a rel="Organisation" href="https://research.slu.se/en/organisations/faculty-of-landscape-architecture-horticulture-and-crop-productio/" class="link"><span>Faculty of Landscape Architecture, Horticulture and Crop Production Science</span></a></h3><p class="relations"><a rel="Organisation" href="https://research.slu.se/en/organisations/swedish-university-of-agricultural-sciences/" class="link organisation"><span>Swedish University of Agricultural Sciences</span></a></p><p class="type"><span class="type_family">Organisational unit<span class="type_family_sep">: </span></span><span class="type_classification">Faculty</span></p></div>
+
+                            
+                                
+
+
+
+
+
+
+                            
+                            
+
+                        
+                        
+                    </div>
+                    
+                </div>
+            </li>
+        
+    
+        
+            <li class="grid-result-item grid-result-item-2">
+                
+                <div role="region" class="search-result-region" aria-label="Search result 3">
+                    <div class="result-container">
+                        
+                        
+
+                            <div class="rendering rendering_organisation rendering_short rendering_organisation_short"><h3 class="title"><a rel="Organisation" href="https://research.slu.se/en/organisations/faculty-of-natural-resources-and-agricultural-sciences/" class="link"><span>Faculty of Natural Resources and Agricultural Sciences</span></a></h3><p class="relations"><a rel="Organisation" href="https://research.slu.se/en/organisations/swedish-university-of-agricultural-sciences/" class="link organisation"><span>Swedish University of Agricultural Sciences</span></a></p><p class="type"><span class="type_family">Organisational unit<span class="type_family_sep">: </span></span><span class="type_classification">Faculty</span></p></div>
+
+                            
+                                
+
+
+
+
+
+
+                            
+                            
+
+                        
+                        
+                    </div>
+                    
+                </div>
+            </li>
+        
+    
+        
+            <li class="grid-result-item grid-result-item-3">
+                
+                <div role="region" class="search-result-region" aria-label="Search result 4">
+                    <div class="result-container">
+                        
+                        
+
+                            <div class="rendering rendering_organisation rendering_short rendering_organisation_short"><h3 class="title"><a rel="Organisation" href="https://research.slu.se/en/organisations/faculty-of-veterinary-medicine-and-animal-science/" class="link"><span>Faculty of Veterinary Medicine and Animal Science</span></a></h3><p class="relations"><a rel="Organisation" href="https://research.slu.se/en/organisations/swedish-university-of-agricultural-sciences/" class="link organisation"><span>Swedish University of Agricultural Sciences</span></a></p><p class="type"><span class="type_family">Organisational unit<span class="type_family_sep">: </span></span><span class="type_classification">Faculty</span></p></div>
+
+                            
+                                
+
+
+
+
+
+
+                            
+                            
+
+                        
+                        
+                    </div>
+                    
+                </div>
+            </li>
+        
+    
+</ul>
+    
+
+
+
+
+<script>
+    function plumXError(e) {
+        $(e).attr("data-failed", "true");
+        checkIfPlumOrAltMetricFailed(e, false);
+    }
+    $('div.altmetric-embed').on('altmetric:hide', function () {
+        $(this).attr("data-failed", "true");
+        checkIfPlumOrAltMetricFailed(this, true)
+    });
+
+
+
+    function checkIfPlumOrAltMetricFailed(e, hasAltmetricFailed)
+    {
+        $(e).closest(".metric").closest(".metrics-bottom").addClass("one");
+        $(e).closest(".metric").remove();
+
+        if(hasAltmetricFailed) {
+            // If AltMetric failed, and found that PlumX also failed
+            if ($(e).closest(".metric").prev().find("a").attr("data-failed")) {
+                $(e).closest(".publication-metrics").find(".metrics-bottom").remove();
+            }
+        } else {
+            // If PlumX failed, and found that AltMetric also failed
+            if ($(e).closest(".metric").next().find("div.altmetric-embed").length === 1) {
+                $(e).closest(".publication-metrics").find(".metrics-bottom").remove();
+            }
+        }
+    }
+</script>
+<script>
+    $(function () {
+        $('.metrics-downloads').each(function(index){
+            if($(this).closest('.list-result-item').find('.files').length === 0){
+                $(this).closest('.metrics-top').addClass('one');
+                $(this).remove();
+            }
+        });
+    });
+</script>
+
+                    </div>
+                </div>
+            
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    var urlParams = getUrlParams();
+                    navigateToCollaboration(urlParams);
+
+                    var hashTag = window.location.hash;
+                    if (hashTag.length > 1) {
+                        var element = document.getElementById(hashTag.substr(1));
+                        if (element) element.scrollIntoView(true);
+                    }
+                });
+
+                function navigateToCollaboration(urlParams) {
+                    if (urlParams.get("slowScroll")) {
+                        $(window).scrollTop($('.improvedLayout-colloboration-map').offset().top);
+                    }
+                }
+
+            </script>
+
+        </section>
+    
+        </div>
+    </div>
+
+    <div id="new-modal-overlay"></div>
+    
+    </main>
+
+    <footer id="page-footer" class="main-footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="content-navigation ">
+                    <div dir="ltr" class="footer-columns">
+                        
+                            <div class="footer-column">
+                                <div class="footer-icon">
+                                    <img src="/skin/footerIcon/" alt="Swedish University of Agricultural Sciences Logo"/>
+                                </div>
+                            </div>
+                        
+                        <div class="footer-column">
+                            <p>
+                                Powered by <a href="http://www.elsevier.com/online-tools/research-intelligence/products-and-services/pure" target="_blank">Pure <span class="sr-only">Link opens in a new tab</span></a>, <a href="http://www.scopus.com/" target="_blank">Scopus <span class="sr-only">Link opens in a new tab</span></a> & <a href="https://www.elsevier.com/products/elsevier-fingerprint-engine" target="_blank">Elsevier Fingerprint Engine&trade; <span class="sr-only">Link opens in a new tab</span></a>
+                            </p>
+
+                            <p>
+                                All content on this site: Copyright &copy; 2026 Swedish University of Agricultural Sciences, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+                            </p>
+
+                            <p>We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the <a href="/en/about/cookies/">use of cookies</a></p>
+                            <p><button id="ot-sdk-btn" class="ot-sdk-show-settings"></button></p>
+                            
+                                <p><a href="https://research.slu.se/admin/workspace.xhtml" rel="nofollow" target="_blank">Sign in to register content <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            <p></p>
+                        </div>
+
+                        <div class="footer-column">
+                            
+                                <p><a href="https://www.slu.se/en/library/contact/processing-of-personal-data/" target="_blank">Swedish University of Agricultural Sciences data protection policy <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+                            
+                            
+                                <p><a href="/en/web-accessibility/" rel="nofollow" target="_blank">About web accessibility <span class="sr-only">&nbsp; Link opens in a new tab</span></a></p>
+                            
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                
+                            </p>
+
+                            <p>
+                                <a href="https://elsevier.responsibledisclosure.com/hc/en-us/requests/new" target="_blank" rel="nofollow">Report vulnerability <span class="sr-only">&nbsp; Link opens in a new tab</span></a>
+                            </p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="back-to-top">
+            <a href="#" class="back-to-top" aria-label="Go to top"><i class="icon icon-up-open"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="//d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+
+    
+
+    
+
+
+<script>window.appData = window.appData || [];</script><script type="text/javascript">
+try {(function() {
+appData.push({...{"page":{"businessUnit":"ELS:RP:ST","cmsName":"Pure Portal","environment":"prod","language":"en","loadTime":"73","loadTimestamp":"1794154024463","name":"pure portal:home:index","noTracking":"false","productName":"PR","type":"SP-FS"},"visitor":{"accountId":"","accountName":"pr:Swedish University of Agricultural Sciences","ipAddress":"","accessType":"pr:ANON_GUEST","loginStatus":"anonymous"},"search":{"criteria":"","currentPage":"1","resultsPerPage":"50","sortType":"name-asc","totalResults":"4","facets":[{"name":"type","values":["/dk/atira/pure/organisation/organisationtypes/organisation/faculty"]}],"type":"PR:keyword:implicit:general search"}}, event: "pageLoad"});})();} catch(e) {if(console) { console.log(e) } }</script>
+<script>function trackPage(){try {(function() {
+window.appData = window.appData || [];
+})();} catch(e) {if(console) { console.log(e) } }}</script>
+
+</body>
+</html>
+
+

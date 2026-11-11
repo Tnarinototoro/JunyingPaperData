@@ -1,0 +1,529 @@
+{
+  "scope": "Read-only independent diagnostics of four incomplete sensitivity runs; not an Amos execution",
+  "no_new_optimization_performed": true,
+  "original_sav_sha256_unchanged": "54cca5a9e38faf59635ebcd9d645d7d77083ac30c7f2d8f46751d809c47d2737",
+  "scenario_diagnostics": [
+    {
+      "scenario": 1,
+      "source_pair": [
+        "NDVI_nagoya.tif",
+        "NDVI_fukushima.tif"
+      ],
+      "data_cases": 39,
+      "two_NDVI_positions": {
+        "inside": 6,
+        "outside": 5
+      },
+      "other_14_variables_exactly_preserved": true,
+      "non_NDVI_sample_covariance_block_unchanged": true,
+      "NDVI_values_and_sample_SD_z_checked": true,
+      "maximum_RAM_sigma_difference": 3.774758283725532e-15,
+      "recorded_F_reproduced_difference": 0.0,
+      "direct_RAM_F_difference": 0.0,
+      "gradient_checks": [
+        {
+          "relative_step": 1e-05,
+          "maximum_relative_difference": 0.917888171840277
+        },
+        {
+          "relative_step": 1e-06,
+          "maximum_relative_difference": 0.014214053027833268
+        },
+        {
+          "relative_step": 1e-07,
+          "maximum_relative_difference": 0.00014214672096599101
+        },
+        {
+          "relative_step": 1e-08,
+          "maximum_relative_difference": 1.5658406958551918e-06
+        }
+      ],
+      "best_gradient_difference": 1.5658406958551918e-06,
+      "independent_RAM_analytic_gradient_relative_difference": 4.171821221810035e-11,
+      "independent_RAM_analytic_gradient_matches": true,
+      "finite_difference_note": "Extreme unconverged coefficient/variance values cause high curvature and cancellation; central-difference error depends strongly on step. Generic analytic RAM derivatives supply the decisive formula check.",
+      "retained_point_positive_definite_Sigma": true,
+      "retained_point_e16_variance": -74.35470991338202,
+      "all_three_starts_reached_iteration_limit": true,
+      "max_abs_scaled_gradient": 0.1272713818957051,
+      "formal_converged_SEM_result": false,
+      "source_selected": false
+    },
+    {
+      "scenario": 2,
+      "source_pair": [
+        "NDVI_nagoya.tif",
+        "NDVI_fukushima_up.tif"
+      ],
+      "data_cases": 39,
+      "two_NDVI_positions": {
+        "inside": 6,
+        "outside": 5
+      },
+      "other_14_variables_exactly_preserved": true,
+      "non_NDVI_sample_covariance_block_unchanged": true,
+      "NDVI_values_and_sample_SD_z_checked": true,
+      "maximum_RAM_sigma_difference": 5.10702591327572e-15,
+      "recorded_F_reproduced_difference": 0.0,
+      "direct_RAM_F_difference": 0.0,
+      "gradient_checks": [
+        {
+          "relative_step": 1e-05,
+          "maximum_relative_difference": 0.2400742359296537
+        },
+        {
+          "relative_step": 1e-06,
+          "maximum_relative_difference": 0.0031466410653428014
+        },
+        {
+          "relative_step": 1e-07,
+          "maximum_relative_difference": 3.1567282071606555e-05
+        },
+        {
+          "relative_step": 1e-08,
+          "maximum_relative_difference": 3.0432924113247455e-07
+        }
+      ],
+      "best_gradient_difference": 3.0432924113247455e-07,
+      "independent_RAM_analytic_gradient_relative_difference": 1.4206765532588941e-11,
+      "independent_RAM_analytic_gradient_matches": true,
+      "finite_difference_note": "Extreme unconverged coefficient/variance values cause high curvature and cancellation; central-difference error depends strongly on step. Generic analytic RAM derivatives supply the decisive formula check.",
+      "retained_point_positive_definite_Sigma": true,
+      "retained_point_e16_variance": -70.73157455596379,
+      "all_three_starts_reached_iteration_limit": true,
+      "max_abs_scaled_gradient": 3.8761466136338893,
+      "formal_converged_SEM_result": false,
+      "source_selected": false
+    },
+    {
+      "scenario": 3,
+      "source_pair": [
+        "NDVI_nara.tif",
+        "NDVI_fukushima.tif"
+      ],
+      "data_cases": 39,
+      "two_NDVI_positions": {
+        "inside": 6,
+        "outside": 5
+      },
+      "other_14_variables_exactly_preserved": true,
+      "non_NDVI_sample_covariance_block_unchanged": true,
+      "NDVI_values_and_sample_SD_z_checked": true,
+      "maximum_RAM_sigma_difference": 7.105427357601002e-15,
+      "recorded_F_reproduced_difference": 0.0,
+      "direct_RAM_F_difference": 0.0,
+      "gradient_checks": [
+        {
+          "relative_step": 1e-05,
+          "maximum_relative_difference": 0.1487527055778268
+        },
+        {
+          "relative_step": 1e-06,
+          "maximum_relative_difference": 0.0017427839988038815
+        },
+        {
+          "relative_step": 1e-07,
+          "maximum_relative_difference": 1.7457918693488825e-05
+        },
+        {
+          "relative_step": 1e-08,
+          "maximum_relative_difference": 3.31404609160528e-07
+        }
+      ],
+      "best_gradient_difference": 3.31404609160528e-07,
+      "independent_RAM_analytic_gradient_relative_difference": 1.0573067634302103e-11,
+      "independent_RAM_analytic_gradient_matches": true,
+      "finite_difference_note": "Extreme unconverged coefficient/variance values cause high curvature and cancellation; central-difference error depends strongly on step. Generic analytic RAM derivatives supply the decisive formula check.",
+      "retained_point_positive_definite_Sigma": true,
+      "retained_point_e16_variance": -74.51363022441495,
+      "all_three_starts_reached_iteration_limit": true,
+      "max_abs_scaled_gradient": 8.535799514775944,
+      "formal_converged_SEM_result": false,
+      "source_selected": false
+    },
+    {
+      "scenario": 4,
+      "source_pair": [
+        "NDVI_nara.tif",
+        "NDVI_fukushima_up.tif"
+      ],
+      "data_cases": 39,
+      "two_NDVI_positions": {
+        "inside": 6,
+        "outside": 5
+      },
+      "other_14_variables_exactly_preserved": true,
+      "non_NDVI_sample_covariance_block_unchanged": true,
+      "NDVI_values_and_sample_SD_z_checked": true,
+      "maximum_RAM_sigma_difference": 2.220446049250313e-15,
+      "recorded_F_reproduced_difference": 0.0,
+      "direct_RAM_F_difference": 0.0,
+      "gradient_checks": [
+        {
+          "relative_step": 1e-05,
+          "maximum_relative_difference": 0.19450413239755632
+        },
+        {
+          "relative_step": 1e-06,
+          "maximum_relative_difference": 0.0024071031122783826
+        },
+        {
+          "relative_step": 1e-07,
+          "maximum_relative_difference": 2.4123693542091276e-05
+        },
+        {
+          "relative_step": 1e-08,
+          "maximum_relative_difference": 2.98694200914768e-07
+        }
+      ],
+      "best_gradient_difference": 2.98694200914768e-07,
+      "independent_RAM_analytic_gradient_relative_difference": 5.1390166006667566e-12,
+      "independent_RAM_analytic_gradient_matches": true,
+      "finite_difference_note": "Extreme unconverged coefficient/variance values cause high curvature and cancellation; central-difference error depends strongly on step. Generic analytic RAM derivatives supply the decisive formula check.",
+      "retained_point_positive_definite_Sigma": true,
+      "retained_point_e16_variance": -68.83270814081439,
+      "all_three_starts_reached_iteration_limit": true,
+      "max_abs_scaled_gradient": 4.363276892477856,
+      "formal_converged_SEM_result": false,
+      "source_selected": false
+    }
+  ],
+  "all_four_NDVI_replacements_verified": true,
+  "all_14_other_variables_preserved": true,
+  "baseline_expected_information_formula": "I_kl=(38/2)*tr(Sigma^-1 dSigma_k Sigma^-1 dSigma_l) in scaled coordinates, SE converted back to raw parameter scale",
+  "baseline_all_36_SE_CR_match_original_displayed_output": true,
+  "baseline_inference_comparisons": [
+    {
+      "parameter": "SN -> O02",
+      "original_displayed_SE": 0.024,
+      "reconstructed_SE": 0.023738428575527337,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 3.059,
+      "reconstructed_CR": 3.058887877960328,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "SN -> O01",
+      "original_displayed_SE": 0.032,
+      "reconstructed_SE": 0.03163485611933903,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 4.338,
+      "reconstructed_CR": 4.338194539189885,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "UA -> O03",
+      "original_displayed_SE": 0.057,
+      "reconstructed_SE": 0.057115854902858254,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 5.719,
+      "reconstructed_CR": 5.718520172199836,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "ENV -> O11",
+      "original_displayed_SE": 0.31,
+      "reconstructed_SE": 0.31002174642172464,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 1.889,
+      "reconstructed_CR": 1.8892116875968157,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "USR -> O14",
+      "original_displayed_SE": 0.559,
+      "reconstructed_SE": 0.5594977579775596,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 0.919,
+      "reconstructed_CR": 0.9191079693089027,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "EQ -> ENV",
+      "original_displayed_SE": 0.664,
+      "reconstructed_SE": 0.6636292888394415,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": -0.885,
+      "reconstructed_CR": -0.8851355815353307,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "EQ -> O06",
+      "original_displayed_SE": 3.349,
+      "reconstructed_SE": 3.348836118909022,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 0.864,
+      "reconstructed_CR": 0.8639068554847623,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "ENV -> O10",
+      "original_displayed_SE": 0.467,
+      "reconstructed_SE": 0.46744538925823975,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 1.22,
+      "reconstructed_CR": 1.2199628050244196,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "USR -> O16",
+      "original_displayed_SE": 0.071,
+      "reconstructed_SE": 0.07138885733897295,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 0.815,
+      "reconstructed_CR": 0.8149808479894157,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "SN -> ENV",
+      "original_displayed_SE": 0.037,
+      "reconstructed_SE": 0.03654076042593258,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 3.709,
+      "reconstructed_CR": 3.7092416350500494,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "SN -> BAL",
+      "original_displayed_SE": 0.092,
+      "reconstructed_SE": 0.09175531472512795,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 2.376,
+      "reconstructed_CR": 2.375882590196656,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "UA -> O14",
+      "original_displayed_SE": 0.146,
+      "reconstructed_SE": 0.1455328557125222,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": -3.124,
+      "reconstructed_CR": -3.1240543432075087,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "BAL -> O11",
+      "original_displayed_SE": 0.191,
+      "reconstructed_SE": 0.19125126529054817,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 2.14,
+      "reconstructed_CR": 2.1395403040862275,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "SN -> O03",
+      "original_displayed_SE": 0.046,
+      "reconstructed_SE": 0.04552839282028663,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 1.617,
+      "reconstructed_CR": 1.6173567582656,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "UA -> O06",
+      "original_displayed_SE": 0.2,
+      "reconstructed_SE": 0.20047571331403238,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 2.769,
+      "reconstructed_CR": 2.768882425229156,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "SN -> USR",
+      "original_displayed_SE": 0.151,
+      "reconstructed_SE": 0.15135523062015233,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": -0.82,
+      "reconstructed_CR": -0.8200640293397492,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "variance UA",
+      "original_displayed_SE": 0.151,
+      "reconstructed_SE": 0.15127856964948422,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 3.824,
+      "reconstructed_CR": 3.823715685100149,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "variance EQ",
+      "original_displayed_SE": 0.031,
+      "reconstructed_SE": 0.03131871962717597,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 0.634,
+      "reconstructed_CR": 0.6335856756296955,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "variance dENV",
+      "original_displayed_SE": 0.012,
+      "reconstructed_SE": 0.012215789780967577,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 0.049,
+      "reconstructed_CR": 0.04916824573213743,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "variance dBAL",
+      "original_displayed_SE": 0.051,
+      "reconstructed_SE": 0.050636213693762526,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 0.899,
+      "reconstructed_CR": 0.8987534329042767,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "variance dUSR",
+      "original_displayed_SE": 0.519,
+      "reconstructed_SE": 0.5188601739401203,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 0.879,
+      "reconstructed_CR": 0.8786467083398906,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O01",
+      "original_displayed_SE": 0.006,
+      "reconstructed_SE": 0.006221529257157317,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 2.461,
+      "reconstructed_CR": 2.461232808803663,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O02",
+      "original_displayed_SE": 0.004,
+      "reconstructed_SE": 0.0036153204100510044,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 3.903,
+      "reconstructed_CR": 3.903326522260839,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O03",
+      "original_displayed_SE": 0.014,
+      "reconstructed_SE": 0.014216718918262537,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 3.698,
+      "reconstructed_CR": 3.6983790529643183,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O04",
+      "original_displayed_SE": 0.073,
+      "reconstructed_SE": 0.07346629482394601,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 3.285,
+      "reconstructed_CR": 3.2850997675424956,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O07",
+      "original_displayed_SE": 0.216,
+      "reconstructed_SE": 0.21649550005299703,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 4.291,
+      "reconstructed_CR": 4.291431603138792,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O06",
+      "original_displayed_SE": 0.265,
+      "reconstructed_SE": 0.2654483593258282,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 2.463,
+      "reconstructed_CR": 2.462592384421976,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O14",
+      "original_displayed_SE": 0.157,
+      "reconstructed_SE": 0.15730409279748261,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 2.261,
+      "reconstructed_CR": 2.2612143160973317,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O15",
+      "original_displayed_SE": 0.505,
+      "reconstructed_SE": 0.5046613178622388,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 0.509,
+      "reconstructed_CR": 0.5090051226544744,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O08",
+      "original_displayed_SE": 0.008,
+      "reconstructed_SE": 0.008301567148582318,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 2.604,
+      "reconstructed_CR": 2.603762228959048,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O11",
+      "original_displayed_SE": 0.008,
+      "reconstructed_SE": 0.008466126056021565,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 1.968,
+      "reconstructed_CR": 1.9680504793027136,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O12",
+      "original_displayed_SE": 0.14,
+      "reconstructed_SE": 0.1400545621241443,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 4.05,
+      "reconstructed_CR": 4.05017574616841,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O13",
+      "original_displayed_SE": 0.057,
+      "reconstructed_SE": 0.05739110247222665,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 2.869,
+      "reconstructed_CR": 2.8691888727003096,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O09",
+      "original_displayed_SE": 0.016,
+      "reconstructed_SE": 0.01590463823511931,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 3.866,
+      "reconstructed_CR": 3.8659830463197484,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O10",
+      "original_displayed_SE": 0.036,
+      "reconstructed_SE": 0.03582091275764478,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 4.282,
+      "reconstructed_CR": 4.28160724011075,
+      "CR_matches_three_decimals": true
+    },
+    {
+      "parameter": "error variance O16",
+      "original_displayed_SE": 0.007,
+      "reconstructed_SE": 0.006845936248881104,
+      "SE_matches_three_decimals": true,
+      "original_displayed_CR": 4.191,
+      "reconstructed_CR": 4.190662832775588,
+      "CR_matches_three_decimals": true
+    }
+  ],
+  "only_supported_diagnostic_statement": "This independent implementation, with these starts and iteration limit, did not obtain a converged solution with nonnegative variance estimates for any of the four source combinations.",
+  "unsupported_claims": [
+    "Amos necessarily fails on the same data",
+    "No admissible solution exists anywhere in parameter space",
+    "One source combination can be selected by closest displayed iterate to old SEM"
+  ],
+  "iterative_beta_p_fit_not_final_SEM_estimates": true,
+  "imagery_source_selected": false
+}

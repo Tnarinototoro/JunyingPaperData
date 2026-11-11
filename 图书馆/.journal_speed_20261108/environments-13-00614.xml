@@ -1,0 +1,2924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">environments</journal-id>
+      <journal-title-group>
+        <journal-title>Environments</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Environments</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Environments</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2076-3298</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/environments13110614</article-id>
+      <article-id pub-id-type="publisher-id">environments-13-00614</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Thermo-Kinetic Analysis of Corncob-Water Hyacinth Co-Pyrolysis for Synergistic Insights and Biochar Characteristics for Soil Amendment</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Adugna</surname>
+            <given-names>Gemechis Mideksa</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <xref rid="af1-environments-13-00614" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0004-4232-6460</contrib-id>
+          <name>
+            <surname>Gbiete</surname>
+            <given-names>Djangbadjoa</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <xref rid="af2-environments-13-00614" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-8660-4061</contrib-id>
+          <name>
+            <surname>Narra</surname>
+            <given-names>Satyanarayana</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <xref rid="af2-environments-13-00614" ref-type="aff">2</xref>
+          <xref rid="c1-environments-13-00614" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ancha</surname>
+            <given-names>Venkata Ramayya</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <xref rid="af3-environments-13-00614" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Binchebo</surname>
+            <given-names>Tarekegn Limore</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <xref rid="af3-environments-13-00614" ref-type="aff">3</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Da Silva</surname>
+            <given-names>Joaquim Esteves</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-environments-13-00614"><label>1</label>Renewable Energy Engineering Research Team, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/02t5r1875</institution-id><institution>Oromia Agricultural Research Institute</institution></institution-wrap>, Bako P.O. Box 07, Oromia, Ethiopia; <email>gemechismideksa18@gmail.com</email></aff>
+      <aff id="af2-environments-13-00614"><label>2</label>Material and Energy Valorisation of Biogenous Residues, Faculty of Agriculture, Civil and Environmental Engineering, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/03zdwsf69</institution-id><institution>University of Rostock</institution></institution-wrap>, 18059 Rostock, Germany; <email>djangbadjoa.gbiete2@uni-rostock.de</email></aff>
+      <aff id="af3-environments-13-00614"><label>3</label>Faculty of Mechanical Engineering, Jimma Institute of Technology, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/05eer8g02</institution-id><institution>Jimma University</institution></institution-wrap>, Jimma P.O. Box 378, Oromia, Ethiopia; <email>ganikavenkata@gmail.com</email> (V.R.A.); <email>tarekegn.limore@ju.edu.et</email> (T.L.B.)</aff>
+      <author-notes>
+        <corresp id="c1-environments-13-00614"><label>*</label>Correspondence: <email>satyanarayana.narra@uni-rostock.de</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>02</day>
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>13</volume>
+      <issue>11</issue>
+      <elocation-id>614</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>08</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>23</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>25</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the authors.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The co-pyrolysis of corncob (CC) and water hyacinth (WH) was investigated to characterize their thermal decomposition behavior, kinetic properties, and resulting biochars. Thermogravimetric (TGA) and derivative thermogravimetric (DTG) analyses were conducted at heating rates of 5 and 20 &#xB0;C min<sup>&#x2212;1</sup> for the individual feedstocks and their blends. Biochars from CC, WH, and CC50:WH50 were produced at 350 &#xB0;C and characterized for physicochemical properties. At 5 &#xB0;C min<sup>&#x2212;1</sup>, apparent activation energies estimated using the Coats&#x2013;Redfern method were 135.4, 73.2, 83.1, 96.4, and 103.6 kJ mol<sup>&#x2212;1</sup> for CC, WH, CC30:WH70, CC50:WH50, respectively. Experimental and theoretical thermogravimetric profiles were compared to assess deviations from additive behavior. Biochar yields ranged from 39.22% to 46.17%, while mean pH values ranged from 9.34 to 9.56. One-way analysis of variance indicated significant treatment differences in yield, electrical conductivity, total nitrogen, available phosphorus, cation exchange capacity, and bulk density, whereas pH differences were not significant. WH biochar exhibited the highest electrical conductivity, total nitrogen, and available phosphorus, while CC50:WH50 had the highest cation exchange capacity and bulk density. These findings show that feedstock composition influences thermal behavior and biochar properties.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>co-pyrolysis</kwd>
+        <kwd>kinetic study</kwd>
+        <kwd>corncob</kwd>
+        <kwd>water hyacinth</kwd>
+        <kwd>synergism</kwd>
+        <kwd>soil amendments</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>Oromia Agricultural Research Institute</institution>
+              <institution-id institution-id-type="ROR">https://ror.org/02t5r1875</institution-id>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>Jimma University, Institute of Technology</institution>
+              <institution-id institution-id-type="ROR">https://ror.org/05eer8g02</institution-id>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>University of Rostock</institution>
+              <institution-id institution-id-type="ROR">https://ror.org/03zdwsf69</institution-id>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <funding-statement>Financial support for this study was provided by the Oromia Agricultural Research Institute, and partial support was provided by Jimma University, Institute of Technology. Publication funding was provided by the University of Rostock.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-environments-13-00614" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Renewable wastes, including agricultural residues, animal wastes, and bioprocessing wastes, are increasingly considered valuable biomass resources because of their carbon content and availability [<xref ref-type="bibr" rid="B1-environments-13-00614">1</xref>]. One important product obtained from biomass conversion is biochar. Biochar is a carbon-rich material that can be used for improving soil fertility and productivity, carbon storage, and the retention of dissolved pollutants in soil [<xref ref-type="bibr" rid="B2-environments-13-00614">2</xref>]. It is produced in inert atmospheres and at comparatively modest carbonization temperatures [<xref ref-type="bibr" rid="B1-environments-13-00614">1</xref>]. In recent years, increasing attention has been given to converting bio-waste into biochar due to its potential environmental, economic, and sustainability benefits, as well as growing interest in its applications in energy and environmental management [<xref ref-type="bibr" rid="B1-environments-13-00614">1</xref>,<xref ref-type="bibr" rid="B3-environments-13-00614">3</xref>]. Biochar derived from biomass, including invasive plant residues, contains several essential nutrients and mineral elements that can contribute to soil fertility [<xref ref-type="bibr" rid="B2-environments-13-00614">2</xref>,<xref ref-type="bibr" rid="B4-environments-13-00614">4</xref>]. Its carbonaceous structure and nutrient content may also influence soil physical properties such as water retention, aeration, and aggregation, thereby providing conditions that can support plant growth [<xref ref-type="bibr" rid="B2-environments-13-00614">2</xref>].</p>
+      <p>Water hyacinth (<italic>Eichhornia crassipes</italic>) (WH) is widely recognized as a highly invasive aquatic weed [<xref ref-type="bibr" rid="B5-environments-13-00614">5</xref>]. In Ethiopia, its expansion in lakes has created challenges for several activities, including transportation, hydropower generation, agriculture, aquaculture, and tourism [<xref ref-type="bibr" rid="B6-environments-13-00614">6</xref>]. Considerable quantities of the biomass are removed manually and mechanically to control infestation, but the collected material is often disposed of without adequate conversion into useful products. For example, approximately 1,990,787.80 tons of water hyacinth biomass and 554,523.80 tons of dry biomass have been estimated to be available annually from Lake Tana [<xref ref-type="bibr" rid="B7-environments-13-00614">7</xref>]. Converting this biomass into biochar could provide an alternative approach for utilizing the accumulated weed while generating a product with potential soil-amendment applications [<xref ref-type="bibr" rid="B4-environments-13-00614">4</xref>].</p>
+      <p>Although water hyacinth has a relatively low biochar yield due to its low lignin content, its biochar can retain mineral nutrients and provide beneficial physicochemical properties for potential soil-amendment applications [<xref ref-type="bibr" rid="B8-environments-13-00614">8</xref>]. Co-pyrolysis involves the simultaneous thermochemical conversion of two or more feedstocks under the same operating conditions. Combining different biomass feedstocks can alter their thermal degradation behavior and the properties of the resulting products because of interactions between their components [<xref ref-type="bibr" rid="B9-environments-13-00614">9</xref>,<xref ref-type="bibr" rid="B10-environments-13-00614">10</xref>]. Therefore, the effects of blending should be determined from the observed thermal behavior rather than assuming that co-pyrolysis will always result in a positive synergistic effect.</p>
+      <p>Soil acidity is another important consideration in Ethiopia, where approximately 43% of agricultural land has been reported to be affected by soil acidity [<xref ref-type="bibr" rid="B11-environments-13-00614">11</xref>]. Agricultural residues such as straw, cobs, husks, and stalks are abundant lignocellulosic resources that can be considered for thermochemical conversion [<xref ref-type="bibr" rid="B1-environments-13-00614">1</xref>]. Corncob (CC) is a readily available but comparatively underutilized agricultural residue in Ethiopia. Previous research has estimated that maize-producing districts generate substantial quantities of maize residues, including leaves, cobs, and stalks [<xref ref-type="bibr" rid="B12-environments-13-00614">12</xref>]. Corncob contains cellulose, hemicellulose, and lignin, whose proportions influence its thermal decomposition behavior and the characteristics of the resulting biochar. Consequently, CC can serve as a suitable feedstock for biochar production through pyrolysis and may provide a useful biomass resource for soil-amendment and energy-related applications [<xref ref-type="bibr" rid="B1-environments-13-00614">1</xref>,<xref ref-type="bibr" rid="B13-environments-13-00614">13</xref>].</p>
+      <p>Understanding biomass decomposition helps select suitable pyrolysis conditions and improve thermochemical conversion processes. Kinetic approaches such as the Coats&#x2013;Redfern method have been applied to evaluate the thermal degradation of various agro-industrial residues [<xref ref-type="bibr" rid="B14-environments-13-00614">14</xref>]. Thermogravimetric analysis (TGA) is also widely used to investigate biomass thermal degradation and estimate associated kinetic parameters [<xref ref-type="bibr" rid="B15-environments-13-00614">15</xref>,<xref ref-type="bibr" rid="B16-environments-13-00614">16</xref>]. However, the thermo-kinetic behavior of CC and WH during co-pyrolysis, particularly how their blending ratio affects thermal decomposition and the characteristics of the resulting biochar, remains insufficiently investigated. Comparative TG/DTG and kinetic analyses of the individual feedstocks and their blends can therefore provide information on their decomposition behavior and possible interactions during co-pyrolysis.</p>
+      <p>Therefore, this study investigates the co-pyrolysis of water hyacinth (WH) and corncob (CC) for biochar production. The thermal decomposition behavior and kinetic parameters of CC, WH, and their blends were evaluated using TG/DTG analysis at different heating rates. Experimental and theoretical mass-loss behaviors were compared to assess deviations from additive decomposition and identify composition-dependent thermal interactions. Biochars produced from CC, WH, and their CC50:WH50 blend were further characterized for selected physical and chemical properties relevant to their potential use as soil amendments.</p>
+    </sec>
+    <sec id="sec2-environments-13-00614">
+      <title>2. Materials and Methods</title>
+      <p>Corncob (CC) and water hyacinth (WH) were collected from agricultural fields in the Jimma area and from locations surrounding Lake Koka, Ethiopia, respectively. The collected feedstocks were pulverized and oven-dried at 110 &#xB0;C for 24 h. After drying, the materials were ground and sieved to obtain a relatively uniform particle size as seen in <xref ref-type="fig" rid="environments-13-00614-f001">Figure 1</xref>. The feedstocks were subsequently mixed on a mass basis at CC: WH ratios of 30:70, 50:50, and 70:30, in addition to the unblended CC (100:0) and WH (0:100) samples as shown in <xref ref-type="table" rid="environments-13-00614-t001">Table 1</xref>.</p>
+      <sec id="sec2dot1-environments-13-00614">
+        <title>2.1. Biomass Characterization</title>
+        <p>Using gravimetric techniques, a proximate analysis of CC and WH was conducted to ascertain their moisture, volatile matter, ash, and fixed-carbon contents [<xref ref-type="bibr" rid="B17-environments-13-00614">17</xref>]. The difference was used to determine the fixed-carbon fraction. <xref ref-type="table" rid="environments-13-00614-t002">Table 2</xref> summarizes the ultimate-analysis data for the two feedstocks, which were obtained from previously published sources, along with the relevant references.</p>
+      </sec>
+      <sec id="sec2dot2-environments-13-00614">
+        <title>2.2. Procedure for Thermogravimetric Experiments</title>
+        <p>Thermogravimetric measurements were conducted on CC, WH, and their blends to assess their thermal decomposition characteristics. For each test, approximately 8.7 mg of sample was placed in the DTG-60H thermal analyzer (Shimadzu Corporation, Japan) and heated from 22 to 800 &#xB0;C at 5 and 20 &#xB0;C/min under a nitrogen flow rate of 50 mL/min. The TG profiles were used to monitor changes in sample mass with increasing temperature, while the corresponding DTG curves were generated from the derivative of mass with respect to temperature. The resulting mass-loss profiles were examined according to the principal stages of biomass thermal decomposition [<xref ref-type="bibr" rid="B15-environments-13-00614">15</xref>].<disp-formula id="FD1-environments-13-00614"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi mathvariant="normal">W</mml:mi><mml:mi mathvariant="normal">o</mml:mi></mml:mrow></mml:mfrac></mml:mstyle><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="normal">m</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm2"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">o</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the initial mass of the sample.</p>
+      </sec>
+      <sec id="sec2dot3-environments-13-00614">
+        <title>2.3. Kinetic Modeling of Biomass</title>
+        <p>The thermal decomposition kinetics of CC, WH, and their blends were analyzed using the Coats&#x2013;Redfern integral model-fitting approach. The conversion fraction (&#x3B1;\alpha) was obtained from the initial, instantaneous, and final sample masses, and the apparent activation energy (Ea) and pre-exponential factor (A) were estimated from the linearized kinetic expression. The applicability of different solid-state reaction models was subsequently examined using the Criado master-plot method [<xref ref-type="bibr" rid="B20-environments-13-00614">20</xref>].</p>
+        <p>For a heterogeneous solid-state reaction, the conversion rate can be expressed in general form as<disp-formula id="FD2-environments-13-00614"><label>(2)</label><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="sans-serif">&#x3B1;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi mathvariant="normal">k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="normal">T</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi mathvariant="normal">f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="sans-serif">&#x3B1;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where the temperature dependence is represented by the Arrhenius relationship:<disp-formula id="FD3-environments-13-00614"><label>(3)</label><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="sans-serif">&#x3B1;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi mathvariant="normal">A</mml:mi><mml:mrow><mml:mrow><mml:mi mathvariant="normal">exp</mml:mi></mml:mrow><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi mathvariant="normal">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">R</mml:mi><mml:mi mathvariant="normal">T</mml:mi></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow><mml:mi mathvariant="normal">f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="sans-serif">&#x3B1;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Here, f(&#x3B1;)f(\alpha) represents the differential reaction model, A is the pre-exponential factor, Ea is the apparent activation energy, R is the universal gas constant, and T is the absolute temperature.</p>
+        <p>The extent of conversion was calculated from the change in sample mass according to<disp-formula id="FD4-environments-13-00614"><label>(4)</label><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:mi>a</mml:mi><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm6"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>W</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm7"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, and <inline-formula><mml:math id="mm8"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> denote the initial sample mass, the mass at temperature T, and the final mass, respectively, and<disp-formula id="FD5-environments-13-00614"><label>(5)</label><mml:math id="mm9" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B2;</mml:mi><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where &#x3B2;\beta is the heating rate (&#xB0;C/min), T is the absolute temperature (K), and t is time. Coats&#x2013;Redfern</p>
+        <p>The Coats&#x2013;Redfern procedure was applied to obtain the kinetic parameters by approximating the temperature integral in the non-isothermal reaction equation. For a constant heating rate and a selected reaction model g(&#x3B1;)g(\alpha), the linearized form is given by [<xref ref-type="bibr" rid="B18-environments-13-00614">18</xref>]<disp-formula id="FD6-environments-13-00614"><label>(6)</label><mml:math id="mm10" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mrow><mml:mi mathvariant="normal">ln</mml:mi></mml:mrow><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">g</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="sans-serif">&#x3B1;</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="normal">T</mml:mi><mml:mo>^</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:mrow><mml:mo>=</mml:mo><mml:mrow><mml:mrow><mml:mi mathvariant="normal">ln</mml:mi></mml:mrow><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">A</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">o</mml:mi></mml:mrow></mml:msub><mml:mi mathvariant="normal">R</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">&#x3B2;</mml:mi><mml:msub><mml:mrow><mml:mi mathvariant="normal">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">R</mml:mi><mml:mi mathvariant="normal">T</mml:mi></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>A plot of ln[(g(&#x3B1;))/T<sup>2</sup>] against 1/T was used to determine the kinetic parameters. The slope of the fitted line corresponds to -Ea/R, whereas the intercept provides the basis for calculating the pre-exponential factor <inline-formula><mml:math id="mm11"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>o</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> [<xref ref-type="bibr" rid="B18-environments-13-00614">18</xref>]. To identify the reaction mechanism that best describes the thermal conversion, the experimental reduced rate was compared with theoretical master curves using the Criado approach [<xref ref-type="bibr" rid="B20-environments-13-00614">20</xref>]. The corresponding reduced-rate expression is<disp-formula id="FD7-environments-13-00614"><label>(7)</label><mml:math id="mm12" display="block"><mml:semantics><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">Z</mml:mi><mml:mo>(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Z</mml:mi><mml:mo>(</mml:mo><mml:mn>0.5</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">f</mml:mi><mml:mo>(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mo>)</mml:mo><mml:mi mathvariant="normal">g</mml:mi><mml:mo>(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="normal">f</mml:mi><mml:mo>(</mml:mo><mml:mn>0.5</mml:mn><mml:mo>)</mml:mo><mml:mi mathvariant="normal">g</mml:mi><mml:mo>(</mml:mo><mml:mn>0.5</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">T</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">&#x3B1;</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">T</mml:mi></mml:mrow><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>&#x3B1;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">&#x3B1;</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>&#x3B1;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="normal">t</mml:mi></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where the concentration-dependent terms f(&#x3B1;) and g(&#x3B1;) are shown in <xref ref-type="table" rid="environments-13-00614-t003">Table 3</xref>, respectively. T&#x3B1; represents the temperature at conversion &#x3B1;; T<sub>0.5</sub>: Temperature at conversion (&#x3B1;) = 0.5; (d&#x3B1;/dt) &#x3B1;: Conversion varies with time at conversion (&#x3B1;); and (d&#x3B1;/dt)0.5: Conversion varies with time at conversion (&#x3B1;) = 0.5. The right-side equation displays the reduced rate, which was determined using experimental data [<xref ref-type="bibr" rid="B19-environments-13-00614">19</xref>]. In contrast, the left side shows a theoretical master plot depicting each distinctive reaction mechanism, denoted by the formula [f(&#x3B1;)g(&#x3B1;)/f (0.5) g (0.5)].</p>
+      </sec>
+      <sec id="sec2dot4-environments-13-00614">
+        <title>2.4. Evaluation of Synergistic Interactions Between WH and CC</title>
+        <p>Synergistic interactions between water hyacinth (WH) and corncob (CC) were evaluated by comparing the experimentally observed thermal behavior of the blends with the theoretical additive behavior expected from the individual feedstocks. The theoretical value of each parameter was calculated using the following equations:<disp-formula id="FD8-environments-13-00614"><label>(8)</label><mml:math id="mm13" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">t</mml:mi><mml:mi mathvariant="normal">h</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">r</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">t</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">c</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">l</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">X</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">W</mml:mi><mml:mi mathvariant="normal">H</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">W</mml:mi><mml:mi mathvariant="normal">H</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">X</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">C</mml:mi><mml:mi mathvariant="normal">C</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">C</mml:mi><mml:mi mathvariant="normal">C</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula><disp-formula id="FD9-environments-13-00614"><label>(9)</label><mml:math id="mm14" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:mi mathvariant="normal">W</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">E</mml:mi><mml:mi mathvariant="normal">x</mml:mi><mml:mi mathvariant="normal">p</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">r</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">m</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">n</mml:mi><mml:mi mathvariant="normal">t</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">l</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">T</mml:mi><mml:mi mathvariant="normal">h</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">r</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">t</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">c</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">l</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where W stands for mass loss, activation energy, component content, etc., and <inline-formula><mml:math id="mm15"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>W</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm16"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>X</mml:mi></mml:mrow><mml:mrow><mml:mi>C</mml:mi><mml:mi>C</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> are the ratios of CC and WH in the blends, respectively. The values of &#x394;W were used to examine the co-pyrolysis&#x2019;s antagonistic or synergistic effects [<xref ref-type="bibr" rid="B22-environments-13-00614">22</xref>]. A negative &#x394;W value indicates a positive synergistic effect and an accelerated co-pyrolysis process, whereas a positive &#x394;W value suggests a passive synergistic effect.</p>
+      </sec>
+      <sec id="sec2dot5-environments-13-00614">
+        <title>2.5. Production and Characterization of Biochar Samples</title>
+        <p>Biochar was produced from corncob (CC), water hyacinth (WH), and their CC50:WH50 blend using a fixed-bed reactor at 350 &#xB0;C. For each treatment, a 6 kg dry feedstock sample was heated at 2 &#xB0;C/min under oxygen-limited conditions for 120 min, as shown in <xref ref-type="table" rid="environments-13-00614-t004">Table 4</xref>. The reactor was equipped with a temperature-control system, a gear motor-driven stirrer, a condensation system, and a K-type thermocouple for temperature monitoring, as illustrated in <xref ref-type="fig" rid="environments-13-00614-f002">Figure 2</xref>. Following pyrolysis, the reactor was allowed to cool to room temperature. The produced biochar was weighed, milled, and sieved to obtain particles smaller than 2 mm before physicochemical characterization. Three independent pyrolysis batches were conducted for each treatment. Biochar yield was calculated separately for each batch, and the results were expressed as the mean &#xB1; standard deviation (SD).</p>
+      </sec>
+      <sec id="sec2dot6-environments-13-00614" sec-type="methods">
+        <title>2.6. Procedures for Determining Physicochemical Properties</title>
+        <p>The Nekemte Soil Research Center Laboratory, Oromia Agricultural Research Institute (OARI), determined the physicochemical properties of the produced biochar samples. The analyses included biochar yield, bulk density, pH, electrical conductivity (EC), cation exchange capacity (CEC), total nitrogen (TN), and available phosphorus (P).</p>
+        <sec id="sec2dot6dot1-environments-13-00614">
+          <title>2.6.1. Biochar Yield and Bulk Density</title>
+          <p>Biochar yield was determined from the mass of biochar produced after pyrolysis relative to the initial dry mass of feedstock. The yield was calculated as<disp-formula id="FD10-environments-13-00614"><label>(10)</label><mml:math id="mm17" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="normal">Y</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">l</mml:mi><mml:mi mathvariant="normal">d</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>%</mml:mo><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">b</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">c</mml:mi><mml:mi mathvariant="normal">h</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">r</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">b</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">m</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mstyle><mml:mi mathvariant="normal">&#x2217;</mml:mi><mml:mn>100</mml:mn></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where <inline-formula><mml:math id="mm18"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">b</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">m</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the weight of sun-dried biomass (kg) and <inline-formula><mml:math id="mm19"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">b</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">c</mml:mi><mml:mi mathvariant="normal">h</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the weight of biochar (kg).</p>
+          <p>The bulk density of the biochar samples was determined from the mass of a known volume of biochar and calculated as<disp-formula id="FD11-environments-13-00614"><label>(11)</label><mml:math id="mm20" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="normal">B</mml:mi><mml:mi mathvariant="normal">u</mml:mi><mml:mi mathvariant="normal">l</mml:mi><mml:mi mathvariant="normal">k</mml:mi><mml:mi mathvariant="normal">d</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi mathvariant="normal">n</mml:mi><mml:mi mathvariant="normal">s</mml:mi><mml:mi mathvariant="normal">i</mml:mi><mml:mi mathvariant="normal">t</mml:mi><mml:mi mathvariant="normal">y</mml:mi><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where <inline-formula><mml:math id="mm21"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">W</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the biochar&#x2019;s weight (g) and <inline-formula><mml:math id="mm22"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, is its volume (cm<sup>3</sup>).</p>
+        </sec>
+        <sec id="sec2dot6dot2-environments-13-00614">
+          <title>2.6.2. The pH and Electrical Conductivity (EC)</title>
+          <p>The pH and EC of the biochar samples were determined using a 1:10 biochar-to-deionized-water suspension. Briefly, 5 g of biochar was mixed with 50 mL of deionized water and stirred for 1 h. The suspension was allowed to settle for approximately 30 min before measuring pH and EC using calibrated meters [<xref ref-type="bibr" rid="B23-environments-13-00614">23</xref>,<xref ref-type="bibr" rid="B24-environments-13-00614">24</xref>].</p>
+        </sec>
+        <sec id="sec2dot6dot3-environments-13-00614">
+          <title>2.6.3. Determination of Cation Exchange Capacity</title>
+          <p>The cation exchange capacity (CEC) of the biochar samples was measured by ammonium acetate saturation, following the procedure described in [<xref ref-type="bibr" rid="B25-environments-13-00614">25</xref>]. Briefly, 1.0 &#xB1; 0.05 g of biochar was equilibrated with 40 mL of 1 M ammonium acetate (pH 7.0) for 15 h. After filtration, the samples were washed with neutral 1 M ammonium acetate and ethanol, and the adsorbed NH<sub>4</sub><sup>+</sup> was displaced with 90 mL of 2 M KCl. The NH<sub>4</sub><sup>+</sup> concentration in the extract was measured using a FIAlab 2500 flow-injection autoanalyzer (FIAlab Instruments, Inc., Seattle, WA, USA), and CEC was calculated from the amount of displaced NH<sub>4</sub><sup>+</sup> per unit mass of biochar [<xref ref-type="bibr" rid="B25-environments-13-00614">25</xref>].</p>
+        </sec>
+        <sec id="sec2dot6dot4-environments-13-00614">
+          <title>2.6.4. Determination of Total Nitrogen (TN)</title>
+          <p>The total nitrogen content of the biochar samples was determined using the Kjeldahl method. The method involves acid digestion of the sample to convert organic nitrogen into ammonium, followed by determination of the resulting ammonium nitrogen. The TN content was expressed as a percentage of the dry sample weight [<xref ref-type="bibr" rid="B26-environments-13-00614">26</xref>].</p>
+        </sec>
+        <sec id="sec2dot6dot5-environments-13-00614">
+          <title>2.6.5. Available Nutrients</title>
+          <p>Available phosphorus (P) was extracted using 2% formic acid following Wang et al. [<xref ref-type="bibr" rid="B27-environments-13-00614">27</xref>]. Briefly, 0.35 g of biochar was mixed with 35 mL of 2% formic acid and shaken at 160 rpm for 30 min. The suspension was centrifuged for 10 min, and the supernatant was filtered through Whatman No. 41 filter paper. Phosphorus concentration was determined using a FIAlab 2500 flow-injection autoanalyzer (FIAlab Instruments, Inc., USA) [<xref ref-type="bibr" rid="B27-environments-13-00614">27</xref>].</p>
+        </sec>
+        <sec id="sec2dot6dot6-environments-13-00614">
+          <title>2.6.6. Surface Structure (Morphology)</title>
+          <p>Surface morphological alterations in each biochar sample were examined at Adama Science and Technology University using a scanning electron microscope (JCM-6000Plus, JEOL Ltd., Tokyo, Japan).</p>
+        </sec>
+      </sec>
+      <sec id="sec2dot7-environments-13-00614">
+        <title>2.7. Method of Data Analysis</title>
+        <p>Microsoft Excel (Version 2108), OriginPro (Version 2025b), and ImageJ (Version 1.54t) were used for data processing and analysis. Excel was used to calculate kinetic parameters and process experimental data, OriginPro to generate and analyze TGA and DTG profiles, and ImageJ to measure biochar particle size from SEM micrographs. The physicochemical properties of the biochars were compared using one-way analysis of variance (ANOVA), followed by Tukey&#x2019;s honestly significant difference (HSD) test at <italic>p</italic> &lt; 0.05. Results are expressed as mean &#xB1; standard deviation (SD) based on three independent biochar batches (<italic>n</italic> = 3). Different lowercase letters indicate significant differences among treatment means.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-environments-13-00614" sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec id="sec3dot1-environments-13-00614">
+        <title>3.1. Effects of Heating Rate</title>
+        <p><xref ref-type="fig" rid="environments-13-00614-f003">Figure 3</xref> presents the TG profiles of corncob (CC), water hyacinth (WH), and their blends at heating rates of 5 and 20 &#xB0;C/min. The heating rate had a limited effect on the overall pyrolysis pattern, although greater mass loss was generally observed at 5 &#xB0;C/min [<xref ref-type="bibr" rid="B28-environments-13-00614">28</xref>]. The profiles can be broadly divided into three regions: moisture removal, major devolatilization, and gradual decomposition of the remaining thermally resistant fraction [<xref ref-type="bibr" rid="B29-environments-13-00614">29</xref>,<xref ref-type="bibr" rid="B30-environments-13-00614">30</xref>].</p>
+        <p>CC and WH contain cellulose, hemicellulose, lignin, and extractive components, which contribute to differences in their thermal decomposition behavior [<xref ref-type="bibr" rid="B19-environments-13-00614">19</xref>]. Increasing the heating rate shifted the main DTG peak of CC from approximately 282.5 to 320.5 &#xB0;C, while the maximum mass-loss rate increased from 67.5 to 72.6%/&#xB0;C. This heating-rate effect is consistent with reported TGA studies of agricultural biomass [<xref ref-type="bibr" rid="B15-environments-13-00614">15</xref>,<xref ref-type="bibr" rid="B31-environments-13-00614">31</xref>]. Therefore, the results obtained at 5 &#xB0;C/min were selected for subsequent thermal and kinetic analysis.</p>
+      </sec>
+      <sec id="sec3dot2-environments-13-00614">
+        <title>3.2. Thermal Decomposition Characteristics of Individual Feedstocks</title>
+        <list list-type="alpha-lower">
+          <list-item>
+            <label>(a)</label>
+            <p>Thermal Behavior of Water Hyacinth (WH)</p>
+          </list-item>
+        </list>
+        <p>WH showed an earlier mass loss, with approximately 10.7% loss at 71.5 &#xB0;C, mainly due to moisture evaporation as shown in <xref ref-type="fig" rid="environments-13-00614-f004">Figure 4</xref>a. The main decomposition region was associated with the degradation of cellulose and hemicellulose [<xref ref-type="bibr" rid="B32-environments-13-00614">32</xref>]. Two major decomposition regions were observed, with peak temperatures of approximately 304 and 480.5 &#xB0;C, followed by gradual decomposition of the remaining solid fraction up to 800 &#xB0;C.</p>
+        <list list-type="alpha-lower">
+          <list-item>
+            <label>(b)</label>
+            <p>Thermal Behavior of Corncob (CC)</p>
+          </list-item>
+        </list>
+        <p>The TG and DTG profiles of CC showed three main decomposition regions as depicted in <xref ref-type="fig" rid="environments-13-00614-f004">Figure 4</xref>b, reflecting the degradation of its different biomass components [<xref ref-type="bibr" rid="B33-environments-13-00614">33</xref>]. The initial region, from approximately 78.5 to 130 &#xB0;C, was associated with moisture removal, while the major degradation region occurred between 196 and 460 &#xB0;C and was mainly related to hemicellulose and cellulose decomposition. The maximum mass-loss rate was approximately 72.2%/&#xB0;C. Variations in the shoulder and main peaks may be related to differences in biomass composition and structure [<xref ref-type="bibr" rid="B19-environments-13-00614">19</xref>,<xref ref-type="bibr" rid="B34-environments-13-00614">34</xref>].</p>
+      </sec>
+      <sec id="sec3dot3-environments-13-00614">
+        <title>3.3. Thermal Decomposition Behavior of the Blends</title>
+        <p>Differences in cellulose, hemicellulose, and lignin contents influence the thermal decomposition behavior of biomass feedstocks [<xref ref-type="bibr" rid="B35-environments-13-00614">35</xref>]. During co-pyrolysis, interactions among the components can further alter the decomposition characteristics of biomass blends [<xref ref-type="bibr" rid="B36-environments-13-00614">36</xref>]. At 5 &#xB0;C/min, the onset and peak decomposition temperatures of the blends generally occurred between those of the individual CC and WH samples. At 20 &#xB0;C/min, this pattern changed, indicating the influence of heating rate on the thermal decomposition behavior [<xref ref-type="bibr" rid="B37-environments-13-00614">37</xref>].</p>
+        <p>As shown in <xref ref-type="table" rid="environments-13-00614-t005">Table 5</xref>, the residual mass at 800 &#xB0;C was lower for the blends than for WH but higher than for CC. At 5 &#xB0;C/min, the residual mass increased in the order CC70:WH30 &lt; CC50:WH50 &lt; CC30:WH70. The maximum mass-loss rate also varied with blend composition and generally increased with increasing CC proportion, reflecting the effect of feedstock composition on thermal decomposition [<xref ref-type="bibr" rid="B36-environments-13-00614">36</xref>].</p>
+        <p>The TGA and DTG profiles of the three corncob&#x2013;water hyacinth blends (CC50:WH50, CC70:WH30, and CC30:WH70) are presented in <xref ref-type="fig" rid="environments-13-00614-f005">Figure 5</xref>.</p>
+      </sec>
+      <sec id="sec3dot4-environments-13-00614">
+        <title>3.4. Synergistic and Inhibitive Effects During Co-Pyrolysis</title>
+        <p>The thermal interactions between CC and WH were assessed by comparing the experimental TG curves of the blends with their corresponding theoretical profiles calculated from the additive behavior of the individual feedstocks. Deviations between the experimental and theoretical curves indicate interactions among the components during co-pyrolysis [<xref ref-type="bibr" rid="B36-environments-13-00614">36</xref>].</p>
+        <p>For CC70:WH30, the experimental mass loss exceeded the theoretical value over part of the decomposition range as illustrated in <xref ref-type="fig" rid="environments-13-00614-f006">Figure 6</xref>, indicating enhanced decomposition relative to the additive prediction. In contrast, CC50:WH50 and CC30:WH70 showed lower experimental mass loss than their theoretical profiles, suggesting inhibited decomposition and greater residual mass. These composition-dependent deviations demonstrate that the interaction between CC and WH varies with blend ratio [<xref ref-type="bibr" rid="B36-environments-13-00614">36</xref>]. However, the observed TG deviations represent thermal interaction effects and should not be interpreted solely as evidence of synergism without considering other kinetic and thermal parameters.</p>
+      </sec>
+      <sec id="sec3dot5-environments-13-00614">
+        <title>3.5. Reaction Mechanism Analysis Using the Master Plot Method</title>
+        <p>The master plot analysis showed that the reaction behavior varied with conversion. At higher conversion levels (&#x3B1; = 0.8&#x2013;0.9), the experimental data were generally closer to the power-law (P2) and nucleation-type models, as illustrated in <xref ref-type="fig" rid="environments-13-00614-f007">Figure 7</xref>. At lower conversion levels, the D3 model, representing a three-dimensional diffusion-controlled mechanism, provided a better description of the reaction behavior [<xref ref-type="bibr" rid="B38-environments-13-00614">38</xref>].</p>
+        <p>After selecting the appropriate reaction model, the corresponding g(&#x3B1;) function was used in the Coats&#x2013;Redfern analysis. A plot of ln[g(&#x3B1;)/T^2] against (1/T) was then used to estimate the kinetic parameters, as presented in <xref ref-type="fig" rid="environments-13-00614-f008">Figure 8</xref>.</p>
+        <p>The apparent activation energies <inline-formula><mml:math id="mm25"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> of the blends differed from those of the individual feedstocks as indicated in <xref ref-type="table" rid="environments-13-00614-t006">Table 6</xref>, indicating changes in their apparent thermal decomposition kinetics [<xref ref-type="bibr" rid="B10-environments-13-00614">10</xref>]. The calculated pre-exponential factors <inline-formula><mml:math id="mm26"><mml:semantics><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>o</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> for the blends also varied with heating rate. At 5 &#xB0;C/min, <inline-formula><mml:math id="mm27"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>o</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> ranged from 1.2057 &#xD7; 10<sup>5</sup> to 1.45 &#xD7; 10<sup>11</sup> min<sup>&#x2212;1</sup>, whereas at 20 &#xB0;C/min it ranged from 5.987 &#xD7; 10<sup>3</sup> to 1.31201 &#xD7; 10<sup>11</sup> min<sup>&#x2212;1</sup> at 20 &#xB0;C/min. These variations reflect differences in the apparent kinetic characteristics of the blends and should be interpreted together with <inline-formula><mml:math id="mm28"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and the corresponding reaction mechanism [<xref ref-type="bibr" rid="B39-environments-13-00614">39</xref>].</p>
+      </sec>
+      <sec id="sec3dot6-environments-13-00614">
+        <title>3.6. Results of Biochar Physicochemical Characterization</title>
+        <list list-type="alpha-lower">
+          <list-item>
+            <label>(a)</label>
+            <p>Biochar Yield</p>
+          </list-item>
+        </list>
+        <p>Biochar yield ranged from 39.22% to 46.17%, with water hyacinth (WH) producing the lowest mean yield (39.22 &#xB1; 1.11%), corncob (CC) the highest (46.17 &#xB1; 0.60%), and the CC50 blend an intermediate yield (43.44 &#xB1; 0.42%). These differences may be associated with variations in feedstock composition, including lignin, cellulose, hemicellulose, and ash contents, which can influence solid-char formation during pyrolysis [<xref ref-type="bibr" rid="B40-environments-13-00614">40</xref>].</p>
+        <list list-type="alpha-lower">
+          <list-item>
+            <label>(b)</label>
+            <p>Bulk density</p>
+          </list-item>
+        </list>
+        <p>Bulk density differed significantly among the three biochar treatments (<italic>p</italic> &lt; 0.05; <xref ref-type="table" rid="environments-13-00614-t007">Table 7</xref>). The CC50 blend had the highest bulk density (0.373 &#xB1; 0.015 g cm<sup>&#x2212;3</sup>), followed by corncob (CC) biochar (0.310 &#xB1; 0.020 g cm<sup>&#x2212;3</sup>) and water hyacinth (WH) biochar (0.240 &#xB1; 0.020 g cm<sup>&#x2212;3</sup>). Tukey&#x2019;s HSD test confirmed significant differences among all treatments. All biochars had bulk densities below 0.4 g cm<sup>&#x2212;3</sup>, lower than the 0.47 g cm<sup>&#x2212;3</sup> reported by Kern et al. [<xref ref-type="bibr" rid="B41-environments-13-00614">41</xref>]. Biochar application has also been reported to reduce soil bulk density by 3&#x2013;31%, depending on soil and biochar characteristics [<xref ref-type="bibr" rid="B42-environments-13-00614">42</xref>]. However, this effect was not directly assessed in the present study.</p>
+        <list list-type="alpha-lower">
+          <list-item>
+            <label>(c)</label>
+            <p>Proximate parameters</p>
+          </list-item>
+        </list>
+        <p>Pyrolysis substantially altered the proximate composition of both feedstocks. Volatile matter decreased from 75.23% to 20.22% for corncob and from 68.48% to 28.45% for water hyacinth, whereas fixed carbon increased from 13.74% to 43.11% and from 10.98% to 23.23%, respectively. Consequently, the VM/FC ratio decreased markedly, indicating greater carbon enrichment and improved biochar stability. The higher ash content may result from the concentration of inorganic constituents as volatile organic matter is removed during pyrolysis. These changes are consistent with the expected effects of pyrolysis and demonstrate effective devolatilization and formation of more carbon-rich biochars [<xref ref-type="bibr" rid="B43-environments-13-00614">43</xref>,<xref ref-type="bibr" rid="B44-environments-13-00614">44</xref>].</p>
+        <p>The proximate composition of the biochars is presented in <xref ref-type="table" rid="environments-13-00614-t008">Table 8</xref>. CC biochar had the highest fixed carbon (43.11%) and lowest VM/FC ratio (0.47), while WH biochar showed higher volatile matter (28.45%) and VM/FC ratio (1.22). The W50 blend exhibited intermediate values. The increase in ash content reflects the concentration of inorganic constituents following the loss of volatile matter during pyrolysis. The VM/FC ratio is commonly used as an indicator of biochar carbon stability, with values below 0.88 associated with longer estimated carbon persistence [<xref ref-type="bibr" rid="B45-environments-13-00614">45</xref>]. The relatively high ash content of WH biochar (44.12%) indicates a greater concentration of mineral constituents that may contribute to nutrient supply [<xref ref-type="bibr" rid="B46-environments-13-00614">46</xref>].</p>
+        <list list-type="alpha-lower">
+          <list-item>
+            <label>(d)</label>
+            <p>Scanning Electron Microscope (SEM) Analysis</p>
+          </list-item>
+        </list>
+        <p>SEM images at 2000&#xD7; magnification revealed distinct porous structures in the CC, WH, and blended biochars as seen in <xref ref-type="fig" rid="environments-13-00614-f009">Figure 9</xref>. The blends exhibited more clearly developed pore structures than the individual feedstocks, suggesting greater structural development during co-pyrolysis. Similar porous structures have been reported for water-hyacinth biochar produced at 350 &#xB0;C, with increasing pyrolysis temperature generally promoting pore development through greater removal of volatile components [<xref ref-type="bibr" rid="B4-environments-13-00614">4</xref>].</p>
+        <p>ImageJ analysis showed mean particle lengths of 3.346, 4.634, and 4.68 &#xB5;m for WH, CC, and their blend, respectively, with corresponding mean areas of 0.154, 0.220, and 0.224 &#xB5;m<sup>2</sup> as summarized in <xref ref-type="table" rid="environments-13-00614-t009">Table 9</xref>. These micrometer-scale particles are relevant to soil&#x2013;biochar interactions, as particle size can influence pore structure, water retention, and soil physical properties [<xref ref-type="bibr" rid="B47-environments-13-00614">47</xref>].</p>
+        <list list-type="alpha-lower">
+          <list-item>
+            <label>(e)</label>
+            <p>pH</p>
+          </list-item>
+        </list>
+        <p>The biochar pH ranged from 9.34 to 9.56, indicating alkaline characteristics. However, pH did not differ significantly among the three treatments (<italic>p</italic> &gt; 0.05). The alkaline nature of biochar suggests potential for ameliorating acidic soils, although its effect depends on the initial soil pH, biochar properties, and application rate [<xref ref-type="bibr" rid="B46-environments-13-00614">46</xref>].</p>
+        <list list-type="alpha-lower">
+          <list-item>
+            <label>(f)</label>
+            <p>Electrical Conductivity of Biochar (EC)</p>
+          </list-item>
+        </list>
+        <p>Electrical conductivity (EC) differed significantly among the three biochars. WH biochar had the highest EC (23.92 &#xB1; 0.69 mS cm<sup>&#x2212;1</sup>), followed by the CC50 blend (8.67 &#xB1; 0.87 mS cm<sup>&#x2212;1</sup>) and CC biochar (6.78 &#xB1; 0.37 mS cm<sup>&#x2212;1</sup>). The high EC of WH biochar suggests a greater concentration of soluble ions, which may increase salinity risk depending on the application rate and receiving soil properties [<xref ref-type="bibr" rid="B48-environments-13-00614">48</xref>].</p>
+        <list list-type="alpha-lower">
+          <list-item>
+            <label>(g)</label>
+            <p>Cation Exchange Capacity (CEC)</p>
+          </list-item>
+        </list>
+        <p>Cation exchange capacity (CEC) differed significantly among the three biochars. The CC50:WH50 blend had the highest CEC (35.06 &#xB1; 0.55 cmol kg<sup>&#x2212;1</sup>), followed by WH biochar (26.24 &#xB1; 0.54 cmol kg<sup>&#x2212;1</sup>) and CC biochar (13.88 &#xB1; 0.31 cmol kg<sup>&#x2212;1</sup>). The higher CEC of the blend suggests greater potential for retaining exchangeable cations, although this capacity depends on biochar surface properties and feedstock composition [<xref ref-type="bibr" rid="B49-environments-13-00614">49</xref>].</p>
+        <list list-type="alpha-lower">
+          <list-item>
+            <label>(h)</label>
+            <p>Available nutrients (P, TN)</p>
+          </list-item>
+        </list>
+        <p>Total nitrogen (TN) and available phosphorus (P) differed significantly among the three biochar treatments (<italic>p</italic> &lt; 0.05). WH biochar had the highest TN content (1.500 &#xB1; 0.030%), followed by the CC50 blend (1.317 &#xB1; 0.087%) and CC biochar (0.573 &#xB1; 0.045%). A similar trend was observed for available P, with WH biochar showing the highest concentration (538.763 &#xB1; 1.591 mg kg<sup>&#x2212;1</sup>), followed by the CC50 blend (454.393 &#xB1; 2.313 mg kg<sup>&#x2212;1</sup>) and CC biochar (418.817 &#xB1; 2.407 mg kg<sup>&#x2212;1</sup>). These differences suggest that feedstock selection and blending influence the nutrient composition of the resulting biochar. Previous studies have also reported that the nutrient characteristics of biochar vary with feedstock type and pyrolysis conditions [<xref ref-type="bibr" rid="B4-environments-13-00614">4</xref>,<xref ref-type="bibr" rid="B50-environments-13-00614">50</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec4-environments-13-00614" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>This study investigated the thermal decomposition, kinetic behavior, and physicochemical properties of biochars produced from corncob (CC), water hyacinth (WH), and their blend (CC50:WH50). Coats&#x2013;Redfern analysis yielded apparent activation energies of 135.4, 73.23, and 96.4 kJ mol<sup>&#x2212;1</sup> for CC, WH, and CC50, respectively, indicating a deviation from additive behavior that does not, by itself, confirm synergism. At 350 &#xB0;C, the mean biochar yields were 46.17%, 39.22%, and 43.44%, respectively, with significant differences among treatments. All biochars were alkaline (pH 9.34&#x2013;9.56), with no significant difference in pH. However, electrical conductivity, total nitrogen, available phosphorus, cation exchange capacity, and bulk density differed significantly among treatments. WH biochar had the highest electrical conductivity, total nitrogen, and available phosphorus, while CC50:WH50 had the highest cation exchange capacity and bulk density. These findings demonstrate that feedstock selection and blending influence biochar yield and physicochemical properties. Further soil-incubation and plant-growth studies are required to determine the suitability of these biochars for agricultural application, particularly considering the high electrical conductivity of WH biochar.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, G.M.A.; Methodology, G.M.A., V.R.A., S.N., D.G. and T.L.B.; Investigation, G.M.A.; Data Curation, G.M.A.; Formal Analysis, G.M.A.; Resources, G.M.A., D.G., S.N. and V.R.A.; Supervision, S.N., V.R.A. and T.L.B.; Writing&#x2014;Original Draft Preparation, G.M.A.; Writing&#x2014;Review and Editing, G.M.A., D.G., S.N., V.R.A. and T.L.B. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The data supporting the findings of this study are included in the article. Additional information is available from the corresponding author upon reasonable request.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors gratefully acknowledge the Oromia Agricultural Research Institute for its institutional support, Partial financial support from the JiT Center of Excellence, and the University of Rostock for its support toward the publication of this work.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare that they have no competing interests.</p>
+    </notes>
+    <glossary>
+      <title>Abbreviations</title>
+      <array>
+        <tbody>
+          <tr>
+            <td align="left" valign="middle">BC</td>
+            <td align="left" valign="middle">Biochar</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">CC</td>
+            <td align="left" valign="middle">Corncob</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">CEC</td>
+            <td align="left" valign="middle">Cation Exchange Capacity</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">DTG</td>
+            <td align="left" valign="middle">Derivative Thermogravimetric</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">EC</td>
+            <td align="left" valign="middle">Electrical Conductivity</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">FC</td>
+            <td align="left" valign="middle">Fixed Carbon</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">MC</td>
+            <td align="left" valign="middle">Moisture Content</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">SEM</td>
+            <td align="left" valign="middle">Scanning Electron Microscope</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">TGA</td>
+            <td align="left" valign="middle">Thermogravimetric Analysis</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">VM</td>
+            <td align="left" valign="middle">Volatile matter</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">WH</td>
+            <td align="left" valign="middle">Water hyacinths</td>
+          </tr>
+        </tbody>
+      </array>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-environments-13-00614">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharma</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hakeem</surname>
+              <given-names>I.G.</given-names>
+            </name>
+            <name>
+              <surname>Gupta</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Joshi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Shah</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Vuppaladadiyam</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Parametric Influence of Process Conditions on Thermochemical Techniques for Biochar Production: A State-of-the-Art Review</article-title>
+          <source>J. Energy Inst.</source>
+          <year>2024</year>
+          <volume>113</volume>
+          <fpage>101559</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.joei.2024.101559</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-environments-13-00614">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Degen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Dang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Shang</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Systemic Review for the Use of Biochar to Mitigate Soil Degradation</article-title>
+          <source>GCB Bioenergy</source>
+          <year>2024</year>
+          <volume>16</volume>
+          <fpage>e13147</fpage>
+          <pub-id pub-id-type="doi">10.1111/gcbb.13147</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-environments-13-00614">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoque</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Saha</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Scopa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Drosos</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biochar in Agriculture: A Review on Sources, Production, and Composites Related to Soil Fertility, Crop Productivity, and Environmental Sustainability</article-title>
+          <source>C-J. Carbon Res.</source>
+          <year>2025</year>
+          <volume>11</volume>
+          <elocation-id>50</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/c11030050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-environments-13-00614">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gezahegn</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Selassie</surname>
+              <given-names>Y.G.</given-names>
+            </name>
+            <name>
+              <surname>Agegnehu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Addisu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mihertie</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kohira</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pyrolysis Temperature Changes the Physicochemical Characteristics of Water Hyacinth-Based Biochar as a Potential Soil Amendment</article-title>
+          <source>Biomass Convers. Biorefinery</source>
+          <year>2024</year>
+          <volume>15</volume>
+          <fpage>3737</fpage>
+          <lpage>3752</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13399-024-05338-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-environments-13-00614">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruan</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>X.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.-X.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z.-H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Water Hyacinth (<italic>Eichhornia crassipes</italic>) Biomass as a Biofuel Feedstock by Enzymatic Hydrolysis</article-title>
+          <source>BioResources</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <fpage>2372</fpage>
+          <lpage>2380</lpage>
+          <pub-id pub-id-type="doi">10.15376/biores.11.1.2372-2380</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-environments-13-00614">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tewabe</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Asmare</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Zelalem</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Mohamed</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of Impacts, Some Biology of Water Hyacinth (<italic>Eichhornia crassipes</italic>) and Its Management Options in Lake Tana, Ethiopia</article-title>
+          <source>Net J. Agric. Sci.</source>
+          <year>2017</year>
+          <volume>5</volume>
+          <fpage>8</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="doi">10.30918/NJAS.51.16.039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-environments-13-00614">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Damtie</surname>
+              <given-names>Y.A.</given-names>
+            </name>
+            <name>
+              <surname>Berlie</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Gessese</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Ayalew</surname>
+              <given-names>T.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of Water Hyacinth (<italic>Eichhornia crassipes</italic> (Mart.) Solms) Biomass in Lake Tana, Ethiopia</article-title>
+          <source>Life</source>
+          <year>2022</year>
+          <volume>15</volume>
+          <fpage>1126</fpage>
+          <lpage>1140</lpage>
+          <pub-id pub-id-type="doi">10.1080/26895293.2022.2134933</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-environments-13-00614">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Niu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hou</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Paul</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Co-Pyrolysis of Rice Straw and Water Hyacinth: Characterization of Products, Yields and Biomass Interaction Effect</article-title>
+          <source>Biomass Bioenergy</source>
+          <year>2019</year>
+          <volume>127</volume>
+          <fpage>105281</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.biombioe.2019.105281</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-environments-13-00614">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Naidu</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Man</surname>
+              <given-names>Y.B.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Christie</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Co-Pyrolysis of Sewage Sludge and Rice Husk/Bamboo Sawdust for Biochar with High Aromaticity and Low Metal Mobility</article-title>
+          <source>Environ. Res.</source>
+          <year>2020</year>
+          <volume>191</volume>
+          <fpage>110034</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.envres.2020.110034</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-environments-13-00614">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shan</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synergistic Effects in the Co-Pyrolysis of Waste Tires, Plastics, and Corn Stalks: Kinetic and Thermodynamic Analyses for Enhanced Resource Utilization</article-title>
+          <source>Renew. Energy</source>
+          <year>2025</year>
+          <volume>238</volume>
+          <fpage>122024</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.renene.2024.122024</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-environments-13-00614">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laekemariam</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kibret</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extent, Distribution, and Causes of Soil Acidity under Subsistence Farming System and Lime Recommendation: The Case in Wolaita, Southern Ethiopia</article-title>
+          <source>Appl. Environ. Soil Sci.</source>
+          <year>2021</year>
+          <volume>2021</volume>
+          <fpage>5556563</fpage>
+          <pub-id pub-id-type="doi">10.1155/2021/5556563</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-environments-13-00614">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoover</surname>
+              <given-names>B.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Herbaceous Perennial Seed Germination and Seedling Growth in Biochar-Amended Propagation Substrates</article-title>
+          <source>HortScience</source>
+          <year>2018</year>
+          <volume>53</volume>
+          <fpage>236</fpage>
+          <lpage>241</lpage>
+          <pub-id pub-id-type="doi">10.21273/HORTSCI12624-17</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-environments-13-00614">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ghorbani</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Amirahmadi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Cornelis</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zoroufchi Benis</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Understanding the Physicochemical Structure of Biochar Affected by Feedstock, Pyrolysis Conditions, and Post-Pyrolysis Modification Methods&#x2014;A Meta-Analysis</article-title>
+          <source>J. Environ. Chem. Eng.</source>
+          <year>2024</year>
+          <volume>12</volume>
+          <fpage>114885</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jece.2024.114885</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-environments-13-00614">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balsora</surname>
+              <given-names>H.K.</given-names>
+            </name>
+            <name>
+              <surname>Kartik</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rainey</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Abbas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Joshi</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chakinala</surname>
+              <given-names>A.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetic Modelling for Thermal Decomposition of Agricultural Residues at Different Heating Rates</article-title>
+          <source>Biomass Convers. Biorefin.</source>
+          <year>2023</year>
+          <volume>13</volume>
+          <fpage>3281</fpage>
+          <lpage>3295</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13399-021-01382-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-environments-13-00614">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermogravimetric Kinetic Study of Agricultural Residue Biomass Pyrolysis Based on Combined Kinetics</article-title>
+          <source>Bioresour. Technol.</source>
+          <year>2016</year>
+          <volume>219</volume>
+          <fpage>510</fpage>
+          <lpage>520</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biortech.2016.07.136</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-environments-13-00614">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gohar</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Khoja</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Ansari</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Naqvi</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Liaquat</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hassan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hasni</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Qazi</surname>
+              <given-names>U.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ali</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigating the Characterisation, Kinetic Mechanism, and Thermodynamic Behaviour of Coal-Biomass Blends in Co-Pyrolysis Process</article-title>
+          <source>Process Saf. Environ. Prot.</source>
+          <year>2022</year>
+          <volume>163</volume>
+          <fpage>645</fpage>
+          <lpage>658</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.psep.2022.05.063</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-environments-13-00614">
+        <label>17.</label>
+        <element-citation publication-type="standard">
+          <std>ASTM E870-82(2019)</std>
+          <source>Standard Test Methods for Analysis of Wood Fuels</source>
+          <publisher-name>ASTM International</publisher-name>
+          <publisher-loc>West Conshohocken, PA, USA</publisher-loc>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://standards.iteh.ai/catalog/standards/astm/b87c6de5-d2be-4c55-b3d7-6784d879ff74/astm-e870-82-2019" ext-link-type="uri">https://standards.iteh.ai/catalog/standards/astm/b87c6de5-d2be-4c55-b3d7-6784d879ff74/astm-e870-82-2019</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-09-17">(accessed on 17 September 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B18-environments-13-00614">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhong</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanism of Synergistic Effects and Kinetics Analysis in Catalytic Co-Pyrolysis of Water Hyacinth and HDPE</article-title>
+          <source>Energy Convers. Manag.</source>
+          <year>2021</year>
+          <volume>228</volume>
+          <fpage>113717</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.enconman.2020.113717</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-environments-13-00614">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of Corncob-Derived Biochar and Pyrolysis Kinetics in Comparison with Corn Stalk and Sawdust</article-title>
+          <source>Bioresour. Technol.</source>
+          <year>2014</year>
+          <volume>170</volume>
+          <fpage>76</fpage>
+          <lpage>82</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biortech.2014.07.077</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-environments-13-00614">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aboulkas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>El Harfi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>El Bouadili</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal Degradation Behaviors of Polyethylene and Polypropylene. Part I: Pyrolysis Kinetics and Mechanisms</article-title>
+          <source>Energy Convers. Manag.</source>
+          <year>2010</year>
+          <volume>51</volume>
+          <fpage>1363</fpage>
+          <lpage>1369</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.enconman.2009.12.017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-environments-13-00614">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fedunik-Hofman</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bayon</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Donne</surname>
+              <given-names>S.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetics of Solid-Gas Reactions and Their Application to Carbonate Looping Systems</article-title>
+          <source>Energies</source>
+          <year>2019</year>
+          <volume>12</volume>
+          <elocation-id>2981</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/en12152981</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-environments-13-00614">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigation on Co-Pyrolysis of Lignocellulosic Biomass and Amino Acids Using TG-FTIR and Py-GC/MS</article-title>
+          <source>Energy Convers. Manag.</source>
+          <year>2019</year>
+          <volume>196</volume>
+          <fpage>320</fpage>
+          <lpage>329</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.enconman.2019.06.010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-environments-13-00614">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bachmann</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Bucheli</surname>
+              <given-names>T.D.</given-names>
+            </name>
+            <name>
+              <surname>Dieguez-Alonso</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fabbri</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Knicker</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>H.-P.</given-names>
+            </name>
+            <name>
+              <surname>Ulbricht</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Buscaroli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Buerge</surname>
+              <given-names>D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Toward the Standardization of Biochar Analysis: TheCOST Action TD1107 Interlaboratory Comparison</article-title>
+          <source>J. Agric. Food Chem.</source>
+          <year>2016</year>
+          <volume>64</volume>
+          <fpage>513</fpage>
+          <lpage>527</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.jafc.5b05055</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-environments-13-00614">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dume</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Berecha</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Tulu</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of Biochar Produced at Different Temperatures and Its Effect on Acidic Nitosol of Jimma, Southwest Ethiopia</article-title>
+          <source>Int. J. Soil Sci.</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <fpage>63</fpage>
+          <lpage>73</lpage>
+          <pub-id pub-id-type="doi">10.3923/ijss.2015.63.73</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-environments-13-00614">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Munera-Echeverri</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Martinsen</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Strand</surname>
+              <given-names>L.T.</given-names>
+            </name>
+            <name>
+              <surname>Zivanovic</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Cornelissen</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Mulder</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cation Exchange Capacity of Biochar: An Urgent Method Modification</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2018</year>
+          <volume>642</volume>
+          <fpage>190</fpage>
+          <lpage>197</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2018.06.017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-environments-13-00614">
+        <label>26.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bremner</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nitrogen-Total</article-title>
+          <source>Methods of Soil Analysis, Part 3 Chemical Methods</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Sparks</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Page</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Helmke</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Loeppert</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Soltanpour</surname>
+              <given-names>P.N.</given-names>
+            </name>
+            <name>
+              <surname>Tabatabai</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Johnston</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Sumner</surname>
+              <given-names>M.E.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Wiley</publisher-name>
+          <publisher-loc>Hoboken, NJ, USA</publisher-loc>
+          <year>1996</year>
+          <volume>Volume 5</volume>
+          <fpage>1085</fpage>
+          <lpage>1121</lpage>
+          <isbn>978-0-89118-825-4</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B27-environments-13-00614">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Camps-Arbestain</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hedley</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bishop</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Predicting Phosphorus Bioavailability from High-Ash Biochars</article-title>
+          <source>Plant Soil</source>
+          <year>2012</year>
+          <volume>357</volume>
+          <fpage>173</fpage>
+          <lpage>187</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11104-012-1131-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-environments-13-00614">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Co-Pyrolysis of Sewage Sludge and Rice Husk by TG&#x2013;FTIR&#x2013;MS: Pyrolysis Behavior, Kinetics, and Condensable/Non-Condensable Gases Characteristics</article-title>
+          <source>Renew. Energy</source>
+          <year>2020</year>
+          <volume>160</volume>
+          <fpage>1048</fpage>
+          <lpage>1066</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.renene.2020.07.046</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-environments-13-00614">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>El-Sayed</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Mostafa</surname>
+              <given-names>M.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetic Parameters Determination of Biomass Pyrolysis Fuels Using TGA and DTA Techniques</article-title>
+          <source>Waste Biomass Valorization</source>
+          <year>2015</year>
+          <volume>6</volume>
+          <fpage>401</fpage>
+          <lpage>415</lpage>
+          <pub-id pub-id-type="doi">10.1007/s12649-015-9354-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-environments-13-00614">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ma</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bao</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Determination of Pyrolysis Characteristics and Kinetics of Palm Kernel Shell Using TGA&#x2013;FTIR and Model-Free Integral Methods</article-title>
+          <source>Energy Convers. Manag.</source>
+          <year>2015</year>
+          <volume>89</volume>
+          <fpage>251</fpage>
+          <lpage>259</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.enconman.2014.09.074</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-environments-13-00614">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shakor</surname>
+              <given-names>Z.M.</given-names>
+            </name>
+            <name>
+              <surname>Tayib</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>AbdulRazak</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Shnain</surname>
+              <given-names>Z.Y.</given-names>
+            </name>
+            <name>
+              <surname>Al-Shafei</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermogravimetric Analysis Integrated with Mathematical Methods and Artificial Neural Networks for Optimal Kinetic Modeling of Biomass Pyrolysis: A Review</article-title>
+          <source>ACS Omega</source>
+          <year>2025</year>
+          <volume>10</volume>
+          <fpage>36750</fpage>
+          <lpage>36770</lpage>
+          <pub-id pub-id-type="doi">10.1021/acsomega.5c02250</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-environments-13-00614">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balasundram</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Ibrahim</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kasmani</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Hamid</surname>
+              <given-names>M.K.A.</given-names>
+            </name>
+            <name>
+              <surname>Isha</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hasbullah</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ali</surname>
+              <given-names>R.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermogravimetric Catalytic Pyrolysis and Kinetic Studies of Coconut Copra and Rice Husk for Possible Maximum Production of Pyrolysis Oil</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2017</year>
+          <volume>167</volume>
+          <fpage>218</fpage>
+          <lpage>228</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2017.08.173</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-environments-13-00614">
+        <label>33.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dhyani</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Bhaskar</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetic Analysis of Biomass Pyrolysis</article-title>
+          <source>Waste Biorefinery</source>
+          <publisher-name>Elsevier</publisher-name>
+          <publisher-loc>Amsterdam, The Netherlands</publisher-loc>
+          <year>2018</year>
+          <fpage>39</fpage>
+          <lpage>83</lpage>
+          <isbn>978-0-444-63992-9</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B34-environments-13-00614">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gerassimidou</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Velis</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>P.T.</given-names>
+            </name>
+            <name>
+              <surname>Komilis</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterisation and Composition Identification of Waste-Derived Fuels Obtained from Municipal Solid Waste Using Thermogravimetry: A Review</article-title>
+          <source>Waste Manag. Res.</source>
+          <year>2020</year>
+          <volume>38</volume>
+          <fpage>942</fpage>
+          <lpage>965</lpage>
+          <pub-id pub-id-type="doi">10.1177/0734242X20941085</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-environments-13-00614">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anukam</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Goso</surname>
+              <given-names>B.P.</given-names>
+            </name>
+            <name>
+              <surname>Okoh</surname>
+              <given-names>O.O.</given-names>
+            </name>
+            <name>
+              <surname>Mamphweli</surname>
+              <given-names>S.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Studies on Characterization of Corn Cob for Application in a Gasification Process for Energy Production</article-title>
+          <source>J. Chem.</source>
+          <year>2017</year>
+          <volume>2017</volume>
+          <fpage>6478389</fpage>
+          <pub-id pub-id-type="doi">10.1155/2017/6478389</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-environments-13-00614">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mallick</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Poddar</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Mahanta</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Moholkar</surname>
+              <given-names>V.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Discernment of Synergism in Pyrolysis of Biomass Blends Using Thermogravimetric Analysis</article-title>
+          <source>Bioresour. Technol.</source>
+          <year>2018</year>
+          <volume>261</volume>
+          <fpage>294</fpage>
+          <lpage>305</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biortech.2018.04.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-environments-13-00614">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rhenals-Julio</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Hern&#xE1;ndez Contreras</surname>
+              <given-names>L.F.</given-names>
+            </name>
+            <name>
+              <surname>G&#xF3;mez V&#xE1;squez</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Mendoza Fandi&#xF1;o</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Bula Silvera</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>P&#xE9;rez Sotelo</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>P&#xE1;ez Meza</surname>
+              <given-names>M.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>An Experimentally Constrained Open-Source Framework for Biomass Pyrolysis: TGA-Informed Ranzi Kinetics Implemented in DWSIM</article-title>
+          <source>Thermo</source>
+          <year>2026</year>
+          <volume>6</volume>
+          <elocation-id>64</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/thermo6030064</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-environments-13-00614">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Muigai</surname>
+              <given-names>H.H.</given-names>
+            </name>
+            <name>
+              <surname>Choudhury</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Kalita</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Moholkar</surname>
+              <given-names>V.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Co&#x2013;Pyrolysis of Biomass Blends: Characterization, Kinetic and Thermodynamic Analysis</article-title>
+          <source>Biomass Bioenergy</source>
+          <year>2020</year>
+          <volume>143</volume>
+          <fpage>105839</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.biombioe.2020.105839</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-environments-13-00614">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ten Caten</surname>
+              <given-names>L.R.</given-names>
+            </name>
+            <name>
+              <surname>Draszewski</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Brondani</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>de Castilhos</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tres</surname>
+              <given-names>M.V.</given-names>
+            </name>
+            <name>
+              <surname>Zabot</surname>
+              <given-names>G.L.</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>F.D.</given-names>
+            </name>
+            <name>
+              <surname>Abaide</surname>
+              <given-names>E.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetic and Thermodynamic Study of Pyrolysis of the Hydrolyzed Residue of Rice Straw and Husk by Subcritical Water Process Using Thermogravimetric Analysis</article-title>
+          <source>Environ. Prog. Sustain. Energy</source>
+          <year>2024</year>
+          <volume>43</volume>
+          <fpage>e14287</fpage>
+          <pub-id pub-id-type="doi">10.1002/ep.14287</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-environments-13-00614">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Batista</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Gomes</surname>
+              <given-names>M.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of Chemical Composition and Pyrolysis Process Variables on Biochar Yields: Correlation and Principal Component Analysis</article-title>
+          <source>Floresta E Ambiente</source>
+          <year>2021</year>
+          <volume>28</volume>
+          <fpage>e20210007</fpage>
+          <pub-id pub-id-type="doi">10.1590/2179-8087-floram-2021-0007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-environments-13-00614">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kern</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tammeorg</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Shanskiy</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sakrabani</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Knicker</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kammann</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tuhkanen</surname>
+              <given-names>E.-M.</given-names>
+            </name>
+            <name>
+              <surname>Smidt</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Prasad</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tiilikkala</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Synergistic Use of Peat and Charred Material in Growing Media&#x2014;An Option to Reduce the Pressure on Peatlands?</article-title>
+          <source>J. Environ. Eng. Landsc. Manag.</source>
+          <year>2017</year>
+          <volume>25</volume>
+          <fpage>160</fpage>
+          <lpage>174</lpage>
+          <pub-id pub-id-type="doi">10.3846/16486897.2017.1284665</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-environments-13-00614">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blanco-Canqui</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biochar and Soil Physical Properties</article-title>
+          <source>Soil Sci. Soc. Am. J.</source>
+          <year>2017</year>
+          <volume>81</volume>
+          <fpage>687</fpage>
+          <lpage>711</lpage>
+          <pub-id pub-id-type="doi">10.2136/sssaj2017.01.0017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-environments-13-00614">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Klasson</surname>
+              <given-names>K.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biochar Characterization and a Method for Estimating Biochar Quality from Proximate Analysis Results</article-title>
+          <source>Biomass Bioenergy</source>
+          <year>2017</year>
+          <volume>96</volume>
+          <fpage>50</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biombioe.2016.10.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-environments-13-00614">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Infurna</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Dintcheva</surname>
+              <given-names>N.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tailoring the Properties of Biochar-Filled Composites by Pyrolysis Temperature: A Review</article-title>
+          <source>Polymers</source>
+          <year>2026</year>
+          <volume>18</volume>
+          <elocation-id>1318</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/polym18111318</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-environments-13-00614">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Spokas</surname>
+              <given-names>K.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Review of the Stability of Biochar in Soils: Predictability of O:C Molar Ratios</article-title>
+          <source>Carbon Manag.</source>
+          <year>2010</year>
+          <volume>1</volume>
+          <fpage>289</fpage>
+          <lpage>303</lpage>
+          <pub-id pub-id-type="doi">10.4155/cmt.10.32</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-environments-13-00614">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bolan</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Sarmah</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Bordoloi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bolan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Padhye</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Van Zwieten</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sooriyakumar</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Khan</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Ahmad</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Solaiman</surname>
+              <given-names>Z.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Soil Acidification and the Liming Potential of Biochar</article-title>
+          <source>Environ. Pollut.</source>
+          <year>2023</year>
+          <volume>317</volume>
+          <fpage>120632</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.envpol.2022.120632</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-environments-13-00614">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alghamdi</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Alkhasha</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ibrahim</surname>
+              <given-names>H.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of Biochar Particle Size on Water Retention and Availability in a Sandy Loam Soil</article-title>
+          <source>J. Saudi Chem. Soc.</source>
+          <year>2020</year>
+          <volume>24</volume>
+          <fpage>1042</fpage>
+          <lpage>1050</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jscs.2020.11.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-environments-13-00614">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bilias</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Nikoli</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kalderis</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gasparatos</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Towards a Soil Remediation Strategy Using Biochar: Effects on Soil Chemical Properties and Bioavailability of Potentially Toxic Elements</article-title>
+          <source>Toxics</source>
+          <year>2021</year>
+          <volume>9</volume>
+          <elocation-id>184</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/toxics9080184</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-environments-13-00614">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kabir</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>K.-H.</given-names>
+            </name>
+            <name>
+              <surname>Kwon</surname>
+              <given-names>E.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biochar as a Tool for the Improvement of Soil and Environment</article-title>
+          <source>Front. Environ. Sci.</source>
+          <year>2023</year>
+          <volume>11</volume>
+          <elocation-id>1324533</elocation-id>
+          <pub-id pub-id-type="doi">10.3389/fenvs.2023.1324533</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-environments-13-00614">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tufa</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hunduma</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hasan</surname>
+              <given-names>M.N.S.</given-names>
+            </name>
+            <name>
+              <surname>Asefa</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Nandeshwar</surname>
+              <given-names>B.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Levels of Biochar and NPS Fertilizer Rates on Growth, Yield Component, and Yield of Maize (<italic>Zea mays</italic> L.) at Guto Gida, Western Ethiopia</article-title>
+          <source>Adv. Agric.</source>
+          <year>2022</year>
+          <volume>2022</volume>
+          <fpage>5400431</fpage>
+          <pub-id pub-id-type="doi">10.1155/2022/5400431</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="environments-13-00614-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>(<bold>a</bold>) Corncob, (<bold>b</bold>) water hyacinth, and (<bold>c</bold>) their blends, pulverized for TGA tests.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00614-g001.tif"/>
+      </fig>
+      <fig id="environments-13-00614-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Biochar sample production process.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00614-g002.tif"/>
+      </fig>
+      <fig id="environments-13-00614-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>TGA curves of (<bold>a</bold>) corncob (CC), (<bold>b</bold>) water hyacinth (WH), and (<bold>c</bold>) the CC50:WH50 blend.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00614-g003.tif"/>
+      </fig>
+      <fig id="environments-13-00614-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>(<bold>a</bold>) WH; (<bold>b</bold>) CC; (<bold>c</bold>) Comparison of TGA curves; and (<bold>d</bold>) Comparison of DTG curves.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00614-g004.tif"/>
+      </fig>
+      <fig id="environments-13-00614-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>TGA and DTG curves of corncob&#x2013;water hyacinth blends: (<bold>a</bold>) CC50:WH50, (<bold>b</bold>) CC70:WH30, and (<bold>c</bold>) CC30:WH70.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00614-g005.tif"/>
+      </fig>
+      <fig id="environments-13-00614-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Comparison of Experimental and Theoretical TG Profiles of the Blends.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00614-g006.tif"/>
+      </fig>
+      <fig id="environments-13-00614-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Created Master Plots for Kinetic Model Identification.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00614-g007.tif"/>
+      </fig>
+      <fig id="environments-13-00614-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Coats&#x2013;Redfern kinetic plots.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00614-g008.tif"/>
+      </fig>
+      <fig id="environments-13-00614-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>SEM micrographs of CC, WH, and their mixes at 10 &#x3BC;m and &#xD7;2000.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00614-g009.tif"/>
+      </fig>
+      <table-wrap id="environments-13-00614-t001" position="float">
+        <object-id pub-id-type="pii">environments-13-00614-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>The codes and composition of blends of water hyacinth and corncob.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">ode</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">The Weight (%) of Each Component in Mixed Samples</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Water Hyacinth</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Corncob</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">WH</td>
+              <td align="center" valign="middle">100</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CC30:WH70</td>
+              <td align="center" valign="middle">70</td>
+              <td align="center" valign="middle">30</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CC50:WH50</td>
+              <td align="center" valign="middle">50</td>
+              <td align="center" valign="middle">50</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CC70:WH30</td>
+              <td align="center" valign="middle">30</td>
+              <td align="center" valign="middle">70</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CC</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="environments-13-00614-t002" position="float">
+        <object-id pub-id-type="pii">environments-13-00614-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Proximate and Ultimate composition of the CC and WH feedstocks.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Biomasses</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Corncobs</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Water Hyacinth</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ref.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Proximate analysis<break/>(Dry basis)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MC</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.56</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.99</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Present study</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">FC</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.74</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.98</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">VM</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">75.23</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68.48</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Ash</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12.98</td>
+            </tr>
+            <tr>
+              <td rowspan="5" align="center" valign="middle" style="border-bottom:solid thin">Ultimate analysis<break/>(Dry ash-free basis)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">44.70</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">42.9</td>
+              <td rowspan="5" align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B18-environments-13-00614">18</xref>,<xref ref-type="bibr" rid="B19-environments-13-00614">19</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">H</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.69</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">N</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.23</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.06</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">S</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.26</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">O</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">48.95</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">56.10</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% of organic matter</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">89.13</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">93.52</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Present study</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Chemical compositions (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hemicelluloses</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">39.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">48</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B19-environments-13-00614">19</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cellulose</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lignin</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">19.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.5</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="environments-13-00614-t003" position="float">
+        <object-id pub-id-type="pii">environments-13-00614-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Solid-state reaction models considered for the kinetic analysis [<xref ref-type="bibr" rid="B21-environments-13-00614">21</xref>].</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Reaction Model</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Code</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Differential form, f(&#x3B1;)</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Integral form, g(&#x3B1;)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle">
+                <bold>Nucleation models</bold>
+              </td>
+              <td align="left" valign="middle"> </td>
+              <td align="left" valign="middle"> </td>
+              <td align="left" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Power law</td>
+              <td align="left" valign="middle">P2</td>
+              <td align="left" valign="middle">2&#x3B1; ^ (1/2)</td>
+              <td align="left" valign="middle">&#x3B1; ^ (1/2)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Power law</td>
+              <td align="left" valign="middle">P3</td>
+              <td align="left" valign="middle">3&#x3B1; ^ (2/3)</td>
+              <td align="left" valign="middle">&#x3B1; ^ (1/3)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Power law</td>
+              <td align="left" valign="middle">P4</td>
+              <td align="left" valign="middle">4&#x3B1; ^ (3/4)</td>
+              <td align="left" valign="middle">&#x3B1; ^ (1/4)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">
+                <bold>Diffusion models</bold>
+              </td>
+              <td align="left" valign="middle"> </td>
+              <td align="left" valign="middle"> </td>
+              <td align="left" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">One-dimensional diffusion</td>
+              <td align="left" valign="middle">D1</td>
+              <td align="left" valign="middle">1/(2&#x3B1;)</td>
+              <td align="left" valign="middle">&#x3B1;<sup>2</sup></td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Two-dimensional diffusion</td>
+              <td align="left" valign="middle">D2</td>
+              <td align="left" valign="middle">1/[&#x2212;ln(1 &#x2212; &#x3B1;)]</td>
+              <td align="left" valign="middle">(1 &#x2212; &#x3B1;) ln(1 &#x2212; &#x3B1;) + &#x3B1;</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Three-dimensional diffusion (Jander)</td>
+              <td align="left" valign="middle">D3</td>
+              <td align="left" valign="middle">3/{2[1 &#x2212; (1 &#x2212; &#x3B1;) ^ (1/3)]}</td>
+              <td align="left" valign="middle">[1 &#x2212; (1 &#x2212; &#x3B1;) ^ (1/3)] <sup>2</sup></td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">
+                <bold>Reaction order models</bold>
+              </td>
+              <td align="left" valign="middle"> </td>
+              <td align="left" valign="middle"> </td>
+              <td align="left" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">First-order</td>
+              <td align="left" valign="middle">F1</td>
+              <td align="left" valign="middle">1 &#x2212; &#x3B1;</td>
+              <td align="left" valign="middle">&#x2212;ln(1 &#x2212; &#x3B1;)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Second-order</td>
+              <td align="left" valign="middle">F2</td>
+              <td align="left" valign="middle">(1 &#x2212; &#x3B1;) <sup>2</sup></td>
+              <td align="left" valign="middle">1/(1 &#x2212; &#x3B1;) &#x2212; 1</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Third-order</td>
+              <td align="left" valign="middle">F3</td>
+              <td align="left" valign="middle">(1 &#x2212; &#x3B1;) <sup>3</sup></td>
+              <td align="left" valign="middle">{1/(1 &#x2212; &#x3B1;) <sup>2</sup> &#x2212; 1}/2</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">
+                <bold>Phase boundary models</bold>
+              </td>
+              <td align="left" valign="middle"> </td>
+              <td align="left" valign="middle"> </td>
+              <td align="left" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">One-dimensional</td>
+              <td align="left" valign="middle">R1</td>
+              <td align="left" valign="middle">1</td>
+              <td align="left" valign="middle">A</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Contracting cylinder</td>
+              <td align="left" valign="middle">R2</td>
+              <td align="left" valign="middle">2(1 &#x2212; &#x3B1;) ^ (1/2)</td>
+              <td align="left" valign="middle">1 &#x2212; (1 &#x2212; &#x3B1;) ^ (1/2)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Contracting sphere</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">R3</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">3(1 &#x2212; &#x3B1;) ^ (2/3)</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">1 &#x2212; (1 &#x2212; &#x3B1;) ^ (1/3)</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="environments-13-00614-t004" position="float">
+        <object-id pub-id-type="pii">environments-13-00614-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Biochar production yield at 350 &#xB0;C.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Biochar Type</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Feedstock Mass (kg)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Biochar Mass (kg)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Yield (%)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Corncob (CC)</td>
+              <td align="center" valign="middle">6.00</td>
+              <td align="center" valign="middle">2.77 &#xB1; 0.04</td>
+              <td align="center" valign="middle">46.17 &#xB1; 0.60 <sup>a</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Water hyacinth (WH)</td>
+              <td align="center" valign="middle">6.00</td>
+              <td align="center" valign="middle">2.35 &#xB1; 0.07</td>
+              <td align="center" valign="middle">39.22 &#xB1; 1.11 <sup>c</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CC50:WH50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.00</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.61 &#xB1; 0.03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">43.44 &#xB1; 0.42 <sup>b</sup></td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Values are mean &#xB1; SD (<italic>n</italic> = 3 independent pyrolysis batches). Different superscript letters indicate significant differences among treatments according to Tukey&#x2019;s HSD test (<italic>p</italic> &lt; 0.05).</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="environments-13-00614-t005" position="float">
+        <object-id pub-id-type="pii">environments-13-00614-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Results of thermogravimetric analysis using data from both blended and original samples.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Code of the Sample</th>
+              <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">@ 5 &#xB0;C/min</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">wt. of Solid<break/>Residue<break/>(%)</th>
+              <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">@ 20 &#xB0;C/min</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">wt. of Solid<break/>Residue<break/>(%)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><inline-formula><mml:math id="mm29"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">T</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula><break/>(&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><inline-formula><mml:math id="mm30"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">T</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">P</mml:mi><mml:mi mathvariant="bold-italic">e</mml:mi><mml:mi mathvariant="bold-italic">a</mml:mi><mml:mi mathvariant="bold-italic">k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula><break/>(&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><inline-formula><mml:math id="mm31"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">T</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold">o</mml:mi><mml:mi mathvariant="bold">f</mml:mi><mml:mi mathvariant="bold">f</mml:mi><mml:mi mathvariant="bold">s</mml:mi><mml:mi mathvariant="bold">e</mml:mi><mml:mi mathvariant="bold">t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula><break/>(&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><inline-formula><mml:math id="mm32"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">D</mml:mi><mml:mi mathvariant="bold-italic">T</mml:mi><mml:mi mathvariant="bold-italic">G</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">m</mml:mi><mml:mi mathvariant="bold-italic">a</mml:mi><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula><break/>(%/&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><inline-formula><mml:math id="mm33"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">T</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula><break/>(&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><inline-formula><mml:math id="mm34"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">T</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">P</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula><break/>(&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><inline-formula><mml:math id="mm35"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">T</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">o</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><inline-formula><mml:math id="mm36"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">D</mml:mi><mml:mi mathvariant="bold-italic">T</mml:mi><mml:mi mathvariant="bold-italic">G</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">m</mml:mi><mml:mi mathvariant="bold-italic">a</mml:mi><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula><break/>(%/&#xB0;C)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">CC</td>
+              <td align="center" valign="middle">201.70</td>
+              <td align="center" valign="middle">283.00</td>
+              <td align="center" valign="middle">438.00</td>
+              <td align="center" valign="middle">67.20</td>
+              <td align="center" valign="middle">15.30</td>
+              <td align="center" valign="middle">205.00</td>
+              <td align="center" valign="middle">324.00</td>
+              <td align="center" valign="middle">487.00</td>
+              <td align="center" valign="middle">72.20</td>
+              <td align="center" valign="middle">13.90</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">WH</td>
+              <td align="center" valign="middle">193.60</td>
+              <td align="center" valign="middle">259.50</td>
+              <td align="center" valign="middle">513.00</td>
+              <td align="center" valign="middle">19.80</td>
+              <td align="center" valign="middle">34.50</td>
+              <td align="center" valign="middle">227.00</td>
+              <td align="center" valign="middle">480.00</td>
+              <td align="center" valign="middle">524.00</td>
+              <td align="center" valign="middle">62.90</td>
+              <td align="center" valign="middle">33.40</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CC70:WH30</td>
+              <td align="center" valign="middle">196.80</td>
+              <td align="center" valign="middle">281.00</td>
+              <td align="center" valign="middle">465.00</td>
+              <td align="center" valign="middle">37.50</td>
+              <td align="center" valign="middle">21.00</td>
+              <td align="center" valign="middle">206.70</td>
+              <td align="center" valign="middle">281.00</td>
+              <td align="center" valign="middle">484.00</td>
+              <td align="center" valign="middle">71.50</td>
+              <td align="center" valign="middle">11.85</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CC50:WH50</td>
+              <td align="center" valign="middle">201.70</td>
+              <td align="center" valign="middle">281.00</td>
+              <td align="center" valign="middle">485.00</td>
+              <td align="center" valign="middle">36.50</td>
+              <td align="center" valign="middle">25.24</td>
+              <td align="center" valign="middle">206.70</td>
+              <td align="center" valign="middle">307.00</td>
+              <td align="center" valign="middle">503.00</td>
+              <td align="center" valign="middle">40.00</td>
+              <td align="center" valign="middle">25.00</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CC30:WH70</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">198.40</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">290.80</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">484.00</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">48.40</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.00</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">223.00</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">313.00</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">492.00</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">46.00</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.30</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>T<sub>S</sub>: the temperature at which decomposition begins, <inline-formula><mml:math id="mm37"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">T</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">f</mml:mi><mml:mi mathvariant="normal">f</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>: the temperature at which final mass loss occurs, <inline-formula><mml:math id="mm23"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mi>P</mml:mi><mml:mi>e</mml:mi><mml:mi>a</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>: maximum temperature, and <inline-formula><mml:math id="mm24"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>D</mml:mi><mml:mi>T</mml:mi><mml:mi>G</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>: temperature for maximum mass loss rate.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="environments-13-00614-t006" position="float">
+        <object-id pub-id-type="pii">environments-13-00614-t006_Table 6</object-id>
+        <label>Table 6</label>
+        <caption>
+          <p>Kinetic parameters obtained from Coats&#x2013;Redfern analysis.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Codes (5 &#xB0;C/min)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula><mml:math id="mm38"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold">a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula><break/>(KJ/mol)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">R<sup>2</sup></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ln (<inline-formula><mml:math id="mm39"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">A</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold-italic">o</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Codes (20 &#xB0;C/min)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><inline-formula><mml:math id="mm40"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold">a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula><break/>(KJ/mol)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">R<sup>2</sup></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ln (<inline-formula><mml:math id="mm41"><mml:semantics><mml:mstyle mathvariant="bold"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold">A</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="bold">o</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle></mml:semantics></mml:math></inline-formula>)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">CC</td>
+              <td align="center" valign="middle">135.4</td>
+              <td align="center" valign="middle">0.9971</td>
+              <td align="center" valign="middle">25.70</td>
+              <td align="center" valign="middle">CC</td>
+              <td align="center" valign="middle">138.0</td>
+              <td align="center" valign="middle">0.9901</td>
+              <td align="center" valign="middle">24.60</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CC50:WH50</td>
+              <td align="center" valign="middle">96.4</td>
+              <td align="center" valign="middle">0.9512</td>
+              <td align="center" valign="middle">16.70</td>
+              <td align="center" valign="middle">CC50:WH50</td>
+              <td align="center" valign="middle">97.40</td>
+              <td align="center" valign="middle">0.9583</td>
+              <td align="center" valign="middle">16.10</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CC70:WH30</td>
+              <td align="center" valign="middle">103.6</td>
+              <td align="center" valign="middle">0.9601</td>
+              <td align="center" valign="middle">18.40</td>
+              <td align="center" valign="middle">CC70:WH30</td>
+              <td align="center" valign="middle">102.2</td>
+              <td align="center" valign="middle">0.9725</td>
+              <td align="center" valign="middle">25.60</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CC30:WH70</td>
+              <td align="center" valign="middle">83.1</td>
+              <td align="center" valign="middle">0.9445</td>
+              <td align="center" valign="middle">14.00</td>
+              <td align="center" valign="middle">CC30:WH70</td>
+              <td align="center" valign="middle">97.50</td>
+              <td align="center" valign="middle">0.9606</td>
+              <td align="center" valign="middle">16.80</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">WH</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">73.23</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.9739</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11.70</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">WH</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">72.80</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.9809</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="environments-13-00614-t007" position="float">
+        <object-id pub-id-type="pii">environments-13-00614-t007_Table 7</object-id>
+        <label>Table 7</label>
+        <caption>
+          <p>Physicochemical properties of biochars produced from corncob, water hyacinth, and their blend.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Biochar Type</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Bulk Density (g/cm<sup>3</sup>)</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">pH</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">EC (mS/cm)</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Total N (%)</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">CEC (cmol/kg)</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Available P (mg/kg)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle">CC</td>
+              <td align="left" valign="middle">0.310 &#xB1; 0.020 <sup>b</sup></td>
+              <td align="left" valign="middle">9.56 &#xB1; 0.26 <sup>a</sup></td>
+              <td align="left" valign="middle">6.78 &#xB1; 0.37 <sup>c</sup></td>
+              <td align="left" valign="middle">0.573 &#xB1; 0.045 <sup>c</sup></td>
+              <td align="left" valign="middle">13.88 &#xB1; 0.31 <sup>c</sup></td>
+              <td align="left" valign="middle">418.82 &#xB1; 2.41 <sup>c</sup></td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">WH</td>
+              <td align="left" valign="middle">0.240 &#xB1; 0.020 <sup>c</sup></td>
+              <td align="left" valign="middle">9.54 &#xB1; 0.16 <sup>a</sup></td>
+              <td align="left" valign="middle">23.92 &#xB1; 0.69 <sup>a</sup></td>
+              <td align="left" valign="middle">1.500 &#xB1; 0.030 <sup>a</sup></td>
+              <td align="left" valign="middle">26.24 &#xB1; 0.54 <sup>b</sup></td>
+              <td align="left" valign="middle">538.76 &#xB1; 1.59 <sup>a</sup></td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">CC50:WH50</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">0.373 &#xB1; 0.015 <sup>a</sup></td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">9.34 &#xB1; 0.11 <sup>a</sup></td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">8.67 &#xB1; 0.87 <sup>b</sup></td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">1.317 &#xB1; 0.087 <sup>b</sup></td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">35.06 &#xB1; 0.55 <sup>a</sup></td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">454.39 &#xB1; 2.31 <sup>b</sup></td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Values are mean &#xB1; SD (<italic>n</italic> = 3 independent pyrolysis batches). Within each column, different superscript letters indicate significant differences according to Tukey&#x2019;s HSD test (<italic>p</italic> &lt; 0.05). Identical letters indicate no significant difference.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="environments-13-00614-t008" position="float">
+        <object-id pub-id-type="pii">environments-13-00614-t008_Table 8</object-id>
+        <label>Table 8</label>
+        <caption>
+          <p>Results of the biochar proximate analysis.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">MC</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">FC</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">VM</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ash</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">VM/FC</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">CC</td>
+              <td align="center" valign="middle">3.76</td>
+              <td align="center" valign="middle">43.11</td>
+              <td align="center" valign="middle">20.22</td>
+              <td align="center" valign="middle">32.91</td>
+              <td align="center" valign="middle">0.47</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">WH</td>
+              <td align="center" valign="middle">4.20</td>
+              <td align="center" valign="middle">23.23</td>
+              <td align="center" valign="middle">28.45</td>
+              <td align="center" valign="middle">44.12</td>
+              <td align="center" valign="middle">1.22</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Blends (CC50:WH50)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.39</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">37.58</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.68</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33.35</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.65</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="environments-13-00614-t009" position="float">
+        <object-id pub-id-type="pii">environments-13-00614-t009_Table 9</object-id>
+        <label>Table 9</label>
+        <caption>
+          <p>Biochar particle size analysis.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="5" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Water Hyacinth</th>
+              <th colspan="5" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Corncob</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">S.no</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Labels</bold>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Area (&#xB5;m<sup>2</sup>)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Angle (&#x3B8;)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Length (&#xB5;m)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">S.no</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Label</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Area (&#xB5;m<sup>2</sup>)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Angle (&#x3B8;)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Length (&#xB5;m)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.32</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;41.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.055</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.29</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;63.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.13</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.08</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.78</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.31</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;40.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.50</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.33</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;99.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.20</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;13.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.28</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.11</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.32</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;100.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.16</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.06</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;90.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.23</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.17</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;77.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.57</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;90.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.59</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.09</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;49.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.86</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.11</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.32</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.28</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;2.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.92</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.15</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;33.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.35</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mean</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.22</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;39.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.63</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Sd</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.11</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">53.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.37</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Sd</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.08</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">42.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.62</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Min</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.06</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;99.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.23</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Min</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.09</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;100.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.86</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Max</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.33</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.47</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.20</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Max</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.31</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.498</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

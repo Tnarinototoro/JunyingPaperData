@@ -1,0 +1,138 @@
+<!DOCTYPE html><html  lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><script>(function(){var h=location.hostname;if(h.indexOf('onboarding-ui.')===0||h.indexOf('registration-ui.')===0){location.replace('https://'+h.replace('onboarding-ui.','www.').replace('registration-ui.','www.')+location.pathname+location.search+location.hash);}})();</script><link rel="preconnect" href="https://static2.frontiersin.org" crossorigin><link rel="preload" as="style" href="/onboarding-ui/_nuxt/entry.C3xqOoAy.css" crossorigin onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/onboarding-ui/_nuxt/entry.C3xqOoAy.css" crossorigin></noscript><link rel="modulepreload" as="script" crossorigin href="/onboarding-ui/_nuxt/CyPUiIKU.js"><script type="module" src="/onboarding-ui/_nuxt/CyPUiIKU.js" crossorigin></script><link rel="prefetch" as="style" crossorigin href="/onboarding-ui/_nuxt/default.76w-v-yR.css"><link rel="prefetch" as="script" crossorigin href="/onboarding-ui/_nuxt/Cx3SN-ZM.js"><link rel="prefetch" as="script" crossorigin href="/onboarding-ui/_nuxt/DmYTcKBv.js"><link rel="prefetch" as="script" crossorigin href="/onboarding-ui/_nuxt/d6Qqk5_l.js"><link rel="prefetch" as="script" crossorigin href="/onboarding-ui/_nuxt/gAs-BwW8.js"><link rel="prefetch" as="style" crossorigin href="/onboarding-ui/_nuxt/error-404.B8OxqU2M.css"><link rel="prefetch" as="script" crossorigin href="/onboarding-ui/_nuxt/CWMHSWe4.js"><link rel="prefetch" as="script" crossorigin href="/onboarding-ui/_nuxt/BFovJJtq.js"><link rel="prefetch" as="script" crossorigin href="/onboarding-ui/_nuxt/DlAUqK2U.js"><link rel="prefetch" as="style" crossorigin href="/onboarding-ui/_nuxt/error-500.C8W7khu4.css"><link rel="prefetch" as="script" crossorigin href="/onboarding-ui/_nuxt/CMo8yA-4.js"></head><body><div id="__nuxt"></div><div id="__nuxt-loader"><!-- DIF-1479 Phase 5 (interim): loading shell shown while the JS bundle downloads and boots, before the
+     Vue app mounts. Paints immediately from the static HTML (improves FCP vs the blank no-SSR start), then
+     is replaced on hydration. Interim while the Hybrid SSG option is deferred.
+
+     Structure mirrors layouts/default.vue so it matches what appears right after mount, avoiding layout
+     shift: a HEADER (same 64px white bar + shadow as .navbar_placeholder, with skeleton hints for the Ibar
+     logo + account area, since the real Ibar loads reactively after boot), a centered SPINNER in the body,
+     and the FOOTER (static copy of .container_footer from main.scss â the copyright text is real/identical
+     for every tenant, while the Privacy Policy / Terms / Loop links are skeleton bars because their URLs are
+     tenant/config-derived and unavailable before any JS/config loads).
+
+     The body is a NEUTRAL SPINNER (not a detailed form skeleton): the header/footer are stable across pages
+     so their skeletons don't flicker, but a form-shaped card skeleton would mismatch the real login/register
+     form (and every other page) and cause a visible swap-flicker on mount. A plain spinner reads as "loading"
+     without promising a specific layout, and is also correct for logged-in users redirected off anonymous
+     pages. No external assets; the only JS is a tiny inline snippet that fills the current year into the
+     copyright (with a baked-in fallback if JS is disabled). -->
+<style>
+  .ob-shell {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    background: #f5f5f5;
+    overflow: hidden;
+  }
+  /* HEADER â matches .navbar_placeholder (64px white bar + shadow; 48px on small screens), with
+     skeleton hints for the Ibar logo (left) and account area (right) */
+  .ob-shell__header {
+    flex: none;
+    height: 64px;
+    background: #fff;
+    box-shadow: 0 0 20px 2px lightgray;
+    z-index: 31;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    box-sizing: border-box;
+  }
+  .ob-skel__logo    { height: 30px; width: 140px; }
+  .ob-skel__avatar  { height: 32px; width: 32px; border-radius: 50%; }
+  /* MAIN â fills the space between header and footer; a neutral spinner sits centered here. A plain
+     spinner (rather than a detailed form skeleton) avoids the flicker of swapping a mismatched card
+     layout for the real login/register form when the app mounts. */
+  .ob-shell__main {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px 80px;
+    overflow: hidden;
+  }
+  .ob-spinner {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 4px solid #e0e3e7;
+    border-top-color: #1a6fd4;
+    animation: ob-spin 0.8s linear infinite;
+  }
+  @keyframes ob-spin {
+    to { transform: rotate(360deg); }
+  }
+  .ob-skel__bar {
+    border-radius: 6px;
+    background: #e9ecef;
+    position: relative;
+    overflow: hidden;
+  }
+  /* the moving light sweep = "loading" shimmer */
+  .ob-skel__bar::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.65), transparent);
+    animation: ob-skel-shimmer 1.3s infinite;
+  }
+  @keyframes ob-skel-shimmer {
+    100% { transform: translateX(100%); }
+  }
+  /* FOOTER â static copy of .container_footer (main.scss) */
+  .ob-footer {
+    flex: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 32px;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    background: #fff;
+    color: #000;
+    box-shadow: 0 0 20px 2px lightgray;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  .ob-footer__left { display: flex; gap: 64px; align-items: center; }
+  /* skeleton bars standing in for the config-derived links (real URLs unavailable pre-boot) */
+  .ob-skel__flink   { height: 12px; width: 200px; }
+  .ob-skel__powered { height: 12px; width: 96px; }
+  @media (max-width: 1024px) {
+    .ob-shell__header { height: 48px; }
+  }
+  @media (max-width: 800px) {
+    .ob-footer { position: relative; flex-direction: column; align-items: flex-start; gap: 8px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ob-skel__bar::after { animation: none; }
+    .ob-spinner { animation-duration: 2s; }
+  }
+</style>
+<div class="ob-shell" role="status" aria-live="polite" aria-label="Loading">
+  <div class="ob-shell__header" aria-hidden="true">
+    <div class="ob-skel__bar ob-skel__logo"></div>
+    <div class="ob-skel__bar ob-skel__avatar"></div>
+  </div>
+
+  <div class="ob-shell__main">
+    <div class="ob-spinner" aria-hidden="true"></div>
+  </div>
+
+  <!-- Static copyright is real text; the Privacy Policy / Terms / Loop links are shown as skeleton bars
+       because their URLs are tenant/config-derived and not available pre-boot. The full footer (with real
+       links) renders on mount. -->
+  <div class="ob-footer">
+    <div class="ob-footer__left">
+      <span>&copy; <script>document.write(new Date().getFullYear())</script> Frontiers Media S.A. All rights reserved</span>
+      <div class="ob-skel__bar ob-skel__flink" aria-hidden="true"></div>
+    </div>
+    <div class="ob-skel__bar ob-skel__powered" aria-hidden="true"></div>
+  </div>
+</div></div><div id="teleports"></div><script>window.__NUXT__={};window.__NUXT__.config={public:{piniaPluginPersistedstate:{}},app:{baseURL:"/",buildId:"ec10ca37-d070-44d2-a0d4-c020de89e1de",buildAssetsDir:"onboarding-ui/_nuxt",cdnURL:""}}</script><script type="application/json" data-nuxt-data="nuxt-app" data-ssr="false" id="__NUXT_DATA__">[{"prerenderedAt":1,"serverRendered":2},1793872169752,false]</script></body></html>

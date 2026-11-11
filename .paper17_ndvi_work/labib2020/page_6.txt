@@ -1,0 +1,132 @@
+S.M. Labib ，
+and CGSNDV1r ， CGSLA1r ， and CGSLULCr are reclassified multi-scale green
+space metric exposure ， value. T iS the number Of metrics ()n our case,
+T = 3 〕 ． To represent the composite greenspace exposure' level, we
+classified the GSin map int0 nine classes and ranked composite GSin
+values from lowest t0 highest. A GSm value 0f 1 indicated Extremely LOW
+and 9 represented Extremely High levels 0f greenspace exposure ， ． AII
+outputs were masked tO exclude the extra cells generated outside the
+study area boundary.
+3 ， 5 ． Assessment 可 the composite greenspace exposure maps
+TO understand the potential implications Of our outputs, we assessed
+how greenspace exposure profiles differ when using our new multi-
+scale (and multi-scale, multi-metric) composite greenspace exposure
+index ， maps compared with traditional measures. The comparison was
+carried out by examimng deciles Of social deprivation ， identified from
+the index of multiple depnvation (IMD) and health depnvation (English
+lndices of Deprivation, 2015 ） for Greater Manchester neighbourhoods
+based on Lower Super Output Areas (LSOA). LSOAs have a mean po-
+pulation 0f around 1500 and range from 1000 to 3000 people (l)aras
+Green, Davies, Barr ， & SingIeton ， 2019 ） ． We considered IMD and health
+deprivation deciles indicators Of socioeconomic deprivation and
+pseudo health conditions for neighbourhoods in Greater Manchester
+(Cebrecos et al., 2018 Mitchell & Popham ， 2008
+） ． Comparisons
+conducted terms Of variations in mean for composite
+greenspace exposure, percentage 0f greenspace, and NDVI for different
+IMD deciles (where the lowest deciles indicate the highest deprivation).
+Additionally ， we used Spearman S rank correlation tO assess correlations
+between the IMD and health deprivation metrrcs and our composite
+exposure metric and traditional metrics.
+4 · Results
+4 ． 7 ． The ee a 毹 metrics for case study area
+shows that the distribution Of greenspace had a common
+pattern among all three metrics. Large areas Of vegetation were found at
+the edge of the study area (Fig. 2b, d), and there were several green
+corridors. However, the LAI values (Fig. (c) indicated fragmentation 0f
+vegetation cover and thick vegetative cover was scarce in the study
+area. The LULC map (Fig. (d) shows several concentrations Of built-up
+areas, which correspond tO the urban core areas Of the ten local au-
+thorities (Fig. (a). OveraII, the study area possessed a moderate spread
+Of vegetative cover Of various types (e.g., grass, trees) ， W1th green areas
+surrounding core areas Of vege-
+tation core.
+4 ． 2 Lacunarity and scale effect on greenspace metrics
+The lacunanty analysis results for all greenspace metrics are sum-
+Fig. 3 ． Log-log lacunarity curves displayed in F g. 3(a) clearly
+indicate that changes in bOX size, l.e ” changes in the spatial scale Of
+analysis or buffer distances, affects lacunarity values across all green
+space metrics. Thus, the scale dependency 0f the greenspace metrics
+was confirmed. As illustrated in Fig. 3(a), at smaller spatial units 0f
+analysis lacunarity values were the highest ， and as the box size gra-
+dually increased (i.e ” the areal unit increased), the ln lacunarity values
+tended tO be close tO zero. This implies that there is an lnverse re-
+lationship between the increasing size Of spatial units (i.e ” measure-
+ment bOX size) and the resulting variance in each greenspace metric.
+Changes in lacunarity can be better understood by observing the
+three rows Of images for each metric presented in Fig. 3
+Fig. 3b ， it
+· From
+is clear that at smaller bOX sizes (r = 5 〕 ， the varlatlon within the bOX
+mass is high, whereas for the value of r = 33 the variation within the
+bOX mass iS
+129 the box mass values show 10w
+variation. Finally, at r = 573 ， the bOX masses become near invariant for
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+the NDVI metric. Thus ， with increasing box sizes the variation Of box
+masses tends tO zero ， which results in lower values Of lacunarity. This
+pattern 0f variance in box mass is also similar for both LAI (Fig. (c) and
+LULC (Fig. (d). ln addition t0 variation in box mass, the variation in the
+heterogeneity 0f the landscape characteristics is also visible 什 om Fig. 3
+b-d. As the box/buffer size increases the level of detail decreases, thus
+the landscape that appears heterogeneous at a smaller bOX size becomes
+homogenous in appearance at a larger bOX size due tO aggregation ef-
+fects. AS a result ， the actual characteristics Of the landscape are no
+longer captured at larger box sizes (smaller scales) because Of gen
+eralisation of landscape characteristics (e.g., the degree 0f contayon
+and the presence of self-similarity; Plotnick et al ” 1993 Turner &
+Gardner ， 2015 ， Hay, Marceau ， Dube, & Bouchard, 2001 ） ． Scale sensi-
+tivity is therefore a critical factor ln performing measurements Of
+greenspace exposure studies.
+ln line with scale sensiuvity, the upper scale limit after which var
+iation metrics tO tO increases in
+scale can be clearly identified in the lacunarity curve (Fig. 3
+ln Fig. 3
+it is clear that within the range 300 一 600 m, the slope 0f the lacunarity
+curves for NDVI and LAI becomes flattened. This range can be inter-
+preted as the scale where characteristics Of the landscape begin trans-
+lational homogeneity (Hoechstetter et al. ， 2011 ； Malhi & Romån-
+Cuesta ， 2008 ， Roces-Dfaz et al. ， 2015 ） ， The range indicates the values
+after WhiCh increase Of Size Of
+invariance in the greenspace metric measurements. means
+metrics no longer capture the characteristics Of the dominant Object
+(e.g ” vegetation), and are merged int0 a generalised wider landscape
+(DaIe ， 2000 ； Hay et al., 2001 ， P10tnick et al. ， 1993 ） ． Applying spatial
+units Of analysis beyond this scale range will therefore not result in any
+substantive impact upon the analysis (e.g ” statistical inference). ln the
+case of NDVI and LAI metrics 什 om Sentinel-2 images （ 10 m resolution),
+buffer distances beyond 一 640 m will produce biased estimations
+greenspace exposure values due tO aggregatlon Of information at scales
+larger than the landscape characteristics, hence 一 640 m can be con-
+sidered as the upper limit 0f the acceptable range 0f scales for SentineI-
+2 images. However ， for Landsat-8 （ 30 m resolution) images ， we found
+that the lacunarity curves flatten at 一 480 m (see Supplementary no 一 刀 ．
+This finding suggests that as one might expect, the upper scale limits are
+smaller for images 0f lower spatial resolution than for those with re-
+latively high resolutions.
+Fig. 3(a) indicates that LULC had the highest range 0f lacunarity
+values over several scales ， whereas NDVI had the lowest range Of va-
+lues. These values were observed due tO the types Of data, box mass
+estimatlons, and the geometry of the map 0f each metnc. For example,
+sparse maps usually exhibit higher lacunarity than dense maps
+(Hoechstetter et al., 2011 ） ． Here, the LULC maps had the sparsest
+geometric pattern (Fig. 2d ） ， and hence the highest lacunarity values. By
+contrast ， NDVI and normalised LAI maps have the densest patterns; as a
+result ， they exhibit lower lacunarity values.
+4 ． 3 ． Greenspace exposure index ， mappzng
+ln our analysis, the upper limit 0f the acceptable range 0f scales for
+the Sentinel-2 NDVI data was found to be around 640 m. Therefore ， for
+greenspace 'exposure index ， mapping ， we only selected scales below
+640 m. These scales were set by buffer distances Of 100 ， 200 ， 300 ， 400 ，
+and 500 m. This range Of scales supportS the multiple pathways Of
+benefits 0f greenspace exposure. Buffer distances such as 100 and
+200 m, for example, allow consideration 0f relatively localised exposure
+benefits ， e.g. some forms 0f air pollution removal and cooling (Labib
+et al. ， 2020 ； Markevych et al. ， 2017 ） ； whereas distances such as 300 ，
+400 ， and 500 m allow the consideration Of neighbourhood exposure
+benefits in terms of the capacity-building benefits of greenspace ex-
+posure such as encouraging physical activities, improving social cohe-
+sion, and stress recovery
+(Hartig et al ” 2014 Markevych et al., 2017 ，
+Nieuwenhuijsen et al., 2017 ） ． Fig. 4 illustrates the NDVI exposure maps
+6

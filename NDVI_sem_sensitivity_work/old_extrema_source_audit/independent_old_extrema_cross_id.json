@@ -1,0 +1,5251 @@
+{
+  "method": "Independently reaggregate every existing source candidate with sixth-order Krueger UTM, bisection Albers inverse, nonzero winding masks, direct Float32 reads; only audited TIFF header and SHP decoding shared. Per-field Decimal rounding uses the exact textual precision of old S1.",
+  "input_source_files_modified": false,
+  "sem_inputs_modified": false,
+  "source_selection_or_id_remapping_performed": false,
+  "coordinates_or_park_attributes_output": false,
+  "old_s1_sha256": "0126ee20b73ffaa3cc0c92c91d8c513504e2a6061e02f551c463315d2a842154",
+  "old_park_row_count": 39,
+  "existing_candidate_count": 52,
+  "candidates_with_valid_pixels_in_both_zones": 43,
+  "candidate_labels_without_valid_pixels_in_both_zones": [
+    "P11_extra_source1",
+    "P12_extra_source2",
+    "P17_extra_source2",
+    "P24_extra_source1",
+    "P29_extra_source2",
+    "P30_extra_source1",
+    "P33_extra_source2",
+    "P37_extra_source2",
+    "P38_extra_source2"
+  ],
+  "fixed_cross_id_definitions": [
+    "park_plus_exterior_ring",
+    "park_plus_full_expanded_buffer"
+  ],
+  "all_independent_candidate_stats_match_primary": true,
+  "maximum_inverse_transform_difference_m": 0.0019616173788204235,
+  "old_ids_with_four_extrema_matches": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    22,
+    23,
+    26,
+    27,
+    30,
+    31,
+    32,
+    35,
+    36,
+    37,
+    38
+  ],
+  "old_ids_with_no_four_extrema_match": [
+    5,
+    6,
+    8,
+    18,
+    20,
+    21,
+    24,
+    25,
+    28,
+    29,
+    33,
+    34,
+    39
+  ],
+  "old_ids_with_multiple_geometry_matches": [],
+  "unique_geometry_numeric_matches_with_different_id_count": 22,
+  "target_old_rows_cross_id": [
+    {
+      "old_s1_park_code": "P09",
+      "old_s1_id": 9,
+      "old_extrema_text": [
+        "-0.058364265",
+        "0.48295185",
+        "-0.058364265",
+        "0.48295185"
+      ],
+      "decimal_places_by_field": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        20
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 20,
+          "source_raster": "NDVI_tokyo_down.tif",
+          "candidate_label": "P20",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            -0.05836426466703415,
+            0.4829518496990204,
+            -0.05836426466703415,
+            0.4829518496990204
+          ],
+          "actual_minus_old": [
+            3.3296585083007813e-10,
+            -3.009796142578125e-10,
+            3.3296585083007813e-10,
+            -3.009796142578125e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 20,
+          "source_raster": "NDVI_tokyo_down.tif",
+          "candidate_label": "P20",
+          "inside_extrema": [
+            -0.05836426466703415,
+            0.4829518496990204
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P18",
+      "old_s1_id": 18,
+      "old_extrema_text": [
+        "0.0045",
+        "0.4067",
+        "0.0198",
+        "0.4321"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P28",
+      "old_s1_id": 28,
+      "old_extrema_text": [
+        "0.0953",
+        "0.4885",
+        "0.0784",
+        "0.5123"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P32",
+      "old_s1_id": 32,
+      "old_extrema_text": [
+        "0.051013134",
+        "0.386557639",
+        "-0.027644832",
+        "0.399711102"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        22
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 22,
+          "source_raster": "NDVI_fukushima.tif",
+          "candidate_label": "P22",
+          "definition": "park_plus_exterior_ring",
+          "actual_extrema": [
+            0.05101313441991806,
+            0.3865576386451721,
+            -0.02764483168721199,
+            0.39971110224723816
+          ],
+          "actual_minus_old": [
+            4.199180603027344e-10,
+            -3.54827880859375e-10,
+            3.127880096435547e-10,
+            2.472381591796875e-10
+          ]
+        },
+        {
+          "current_geometry_park_id": 22,
+          "source_raster": "NDVI_fukushima.tif",
+          "candidate_label": "P22",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.05101313441991806,
+            0.3865576386451721,
+            -0.02764483168721199,
+            0.39971110224723816
+          ],
+          "actual_minus_old": [
+            4.199180603027344e-10,
+            -3.54827880859375e-10,
+            3.127880096435547e-10,
+            2.472381591796875e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 22,
+          "source_raster": "NDVI_fukushima.tif",
+          "candidate_label": "P22",
+          "inside_extrema": [
+            0.05101313441991806,
+            0.3865576386451721
+          ]
+        }
+      ]
+    }
+  ],
+  "all_old_rows_cross_id": [
+    {
+      "old_s1_park_code": "P01",
+      "old_s1_id": 1,
+      "old_extrema_text": [
+        "-0.015594664",
+        "0.450258613",
+        "-0.015594664",
+        "0.450258613"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        4
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 4,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P04",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            -0.01559466402977705,
+            0.45025861263275146,
+            -0.01559466402977705,
+            0.45025861263275146
+          ],
+          "actual_minus_old": [
+            -2.9777050018310544e-11,
+            -3.6724853515625e-10,
+            -2.9777050018310544e-11,
+            -3.6724853515625e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 4,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P04",
+          "inside_extrema": [
+            -0.01559466402977705,
+            0.45025861263275146
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P02",
+      "old_s1_id": 2,
+      "old_extrema_text": [
+        "0.022890987",
+        "0.447237134",
+        "-0.003205779",
+        "0.447237134"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        16
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 16,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P16",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.022890986874699593,
+            0.44723713397979736,
+            -0.003205778542906046,
+            0.44723713397979736
+          ],
+          "actual_minus_old": [
+            -1.2530040740966798e-10,
+            -2.020263671875e-11,
+            4.570939540863037e-10,
+            -2.020263671875e-11
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 16,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P16",
+          "inside_extrema": [
+            0.022890986874699593,
+            0.44723713397979736
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P03",
+      "old_s1_id": 3,
+      "old_extrema_text": [
+        "0.061575264",
+        "0.451848626",
+        "0.026198538",
+        "0.451848626"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        1
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 1,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P01",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.0615752637386322,
+            0.4518486261367798,
+            0.02619853802025318,
+            0.4518486261367798
+          ],
+          "actual_minus_old": [
+            -2.613677978515625e-10,
+            1.3677978515625e-10,
+            2.025318145751953e-11,
+            1.3677978515625e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 1,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P01",
+          "inside_extrema": [
+            0.0615752637386322,
+            0.4518486261367798
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P04",
+      "old_s1_id": 4,
+      "old_extrema_text": [
+        "0.231022507",
+        "0.316526622",
+        "0.080853499",
+        "0.380787402"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        7
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 7,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P07",
+          "definition": "park_plus_exterior_ring",
+          "actual_extrema": [
+            0.23102250695228577,
+            0.3165266215801239,
+            0.08085349947214127,
+            0.3807874023914337
+          ],
+          "actual_minus_old": [
+            -4.77142333984375e-11,
+            -4.198760986328125e-10,
+            4.721412658691406e-10,
+            3.914337158203125e-10
+          ]
+        },
+        {
+          "current_geometry_park_id": 7,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P07",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.23102250695228577,
+            0.3165266215801239,
+            0.08085349947214127,
+            0.3807874023914337
+          ],
+          "actual_minus_old": [
+            -4.77142333984375e-11,
+            -4.198760986328125e-10,
+            4.721412658691406e-10,
+            3.914337158203125e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 7,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P07",
+          "inside_extrema": [
+            0.23102250695228577,
+            0.3165266215801239
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P05",
+      "old_s1_id": 5,
+      "old_extrema_text": [
+        "-0.0342",
+        "0.3928",
+        "0.0123",
+        "0.4185"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P06",
+      "old_s1_id": 6,
+      "old_extrema_text": [
+        "0.0834",
+        "0.4471",
+        "0.0542",
+        "0.4623"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P07",
+      "old_s1_id": 7,
+      "old_extrema_text": [
+        "0.006769305",
+        "0.430477381",
+        "0.006769305",
+        "0.430477381"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        15
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 15,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P15",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.006769304629415274,
+            0.4304773807525635,
+            0.006769304629415274,
+            0.4304773807525635
+          ],
+          "actual_minus_old": [
+            -3.7058472633361815e-10,
+            -2.474365234375e-10,
+            -3.7058472633361815e-10,
+            -2.474365234375e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 15,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P15",
+          "inside_extrema": [
+            0.006769304629415274,
+            0.4304773807525635
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P08",
+      "old_s1_id": 8,
+      "old_extrema_text": [
+        "-0.0567",
+        "0.3783",
+        "-0.0239",
+        "0.4012"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P09",
+      "old_s1_id": 9,
+      "old_extrema_text": [
+        "-0.058364265",
+        "0.48295185",
+        "-0.058364265",
+        "0.48295185"
+      ],
+      "decimal_places_by_field": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        20
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 20,
+          "source_raster": "NDVI_tokyo_down.tif",
+          "candidate_label": "P20",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            -0.05836426466703415,
+            0.4829518496990204,
+            -0.05836426466703415,
+            0.4829518496990204
+          ],
+          "actual_minus_old": [
+            3.3296585083007813e-10,
+            -3.009796142578125e-10,
+            3.3296585083007813e-10,
+            -3.009796142578125e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 20,
+          "source_raster": "NDVI_tokyo_down.tif",
+          "candidate_label": "P20",
+          "inside_extrema": [
+            -0.05836426466703415,
+            0.4829518496990204
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P10",
+      "old_s1_id": 10,
+      "old_extrema_text": [
+        "-0.06277959",
+        "0.262216508",
+        "-0.091943562",
+        "0.820657611"
+      ],
+      "decimal_places_by_field": [
+        8,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        27
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 27,
+          "source_raster": "NDVI_hokka_test.tif",
+          "candidate_label": "P27",
+          "definition": "park_plus_exterior_ring",
+          "actual_extrema": [
+            -0.06277959048748016,
+            0.2622165083885193,
+            -0.09194356203079224,
+            0.8206576108932495
+          ],
+          "actual_minus_old": [
+            -4.874801635742187e-10,
+            3.88519287109375e-10,
+            -3.0792236328125e-11,
+            -1.0675048828125e-10
+          ]
+        },
+        {
+          "current_geometry_park_id": 27,
+          "source_raster": "NDVI_hokka_test.tif",
+          "candidate_label": "P27",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            -0.06277959048748016,
+            0.2622165083885193,
+            -0.09194356203079224,
+            0.8206576108932495
+          ],
+          "actual_minus_old": [
+            -4.874801635742187e-10,
+            3.88519287109375e-10,
+            -3.0792236328125e-11,
+            -1.0675048828125e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 27,
+          "source_raster": "NDVI_hokka_test.tif",
+          "candidate_label": "P27",
+          "inside_extrema": [
+            -0.06277959048748016,
+            0.2622165083885193
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P11",
+      "old_s1_id": 11,
+      "old_extrema_text": [
+        "0.092851177",
+        "0.436218321",
+        "0.037897453",
+        "0.43717134"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        8
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        11
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": true,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 11,
+          "source_raster": "NDVI_tokyo_down.tif",
+          "candidate_label": "P11",
+          "definition": "park_plus_exterior_ring",
+          "actual_extrema": [
+            0.0928511768579483,
+            0.4362183213233948,
+            0.03789745271205902,
+            0.4371713399887085
+          ],
+          "actual_minus_old": [
+            -1.4205169677734374e-10,
+            3.23394775390625e-10,
+            -2.879409790039063e-10,
+            -1.129150390625e-11
+          ]
+        },
+        {
+          "current_geometry_park_id": 11,
+          "source_raster": "NDVI_tokyo_down.tif",
+          "candidate_label": "P11",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.0928511768579483,
+            0.4362183213233948,
+            0.03789745271205902,
+            0.4371713399887085
+          ],
+          "actual_minus_old": [
+            -1.4205169677734374e-10,
+            3.23394775390625e-10,
+            -2.879409790039063e-10,
+            -1.129150390625e-11
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 11,
+          "source_raster": "NDVI_tokyo_down.tif",
+          "candidate_label": "P11",
+          "inside_extrema": [
+            0.0928511768579483,
+            0.4362183213233948
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P12",
+      "old_s1_id": 12,
+      "old_extrema_text": [
+        "0.191685736",
+        "0.433567792",
+        "0.049368937",
+        "0.433567792"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        23
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 23,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P23",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.1916857361793518,
+            0.4335677921772003,
+            0.04936893656849861,
+            0.4335677921772003
+          ],
+          "actual_minus_old": [
+            1.79351806640625e-10,
+            1.772003173828125e-10,
+            -4.315013885498047e-10,
+            1.772003173828125e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 23,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P23",
+          "inside_extrema": [
+            0.1916857361793518,
+            0.4335677921772003
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P13",
+      "old_s1_id": 13,
+      "old_extrema_text": [
+        "0.074048139",
+        "0.428828239",
+        "0.058749095",
+        "0.440540552"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        17
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 17,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P17",
+          "definition": "park_plus_exterior_ring",
+          "actual_extrema": [
+            0.07404813915491104,
+            0.42882823944091797,
+            0.05874909460544586,
+            0.4405405521392822
+          ],
+          "actual_minus_old": [
+            1.5491104125976561e-10,
+            4.4091796875e-10,
+            -3.9455413818359377e-10,
+            1.392822265625e-10
+          ]
+        },
+        {
+          "current_geometry_park_id": 17,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P17",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.07404813915491104,
+            0.42882823944091797,
+            0.05874909460544586,
+            0.4405405521392822
+          ],
+          "actual_minus_old": [
+            1.5491104125976561e-10,
+            4.4091796875e-10,
+            -3.9455413818359377e-10,
+            1.392822265625e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 17,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P17",
+          "inside_extrema": [
+            0.07404813915491104,
+            0.42882823944091797
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P14",
+      "old_s1_id": 14,
+      "old_extrema_text": [
+        "0.056507532",
+        "0.448656142",
+        "-0.036664743",
+        "0.481889337"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        19
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 19,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P19",
+          "definition": "park_plus_exterior_ring",
+          "actual_extrema": [
+            0.05650753155350685,
+            0.4486561417579651,
+            -0.03666474297642708,
+            0.4818893373012543
+          ],
+          "actual_minus_old": [
+            -4.464931488037109e-10,
+            -2.42034912109375e-10,
+            2.3572921752929687e-11,
+            3.012542724609375e-10
+          ]
+        },
+        {
+          "current_geometry_park_id": 19,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P19",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.05650753155350685,
+            0.4486561417579651,
+            -0.03666474297642708,
+            0.4818893373012543
+          ],
+          "actual_minus_old": [
+            -4.464931488037109e-10,
+            -2.42034912109375e-10,
+            2.3572921752929687e-11,
+            3.012542724609375e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 19,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P19",
+          "inside_extrema": [
+            0.05650753155350685,
+            0.4486561417579651
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P15",
+      "old_s1_id": 15,
+      "old_extrema_text": [
+        "0.024698216",
+        "0.448710918",
+        "0.024698216",
+        "0.448710918"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        2
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 2,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P02",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.02469821646809578,
+            0.44871091842651367,
+            0.02469821646809578,
+            0.44871091842651367
+          ],
+          "actual_minus_old": [
+            4.680957794189453e-10,
+            4.26513671875e-10,
+            4.680957794189453e-10,
+            4.26513671875e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 2,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P02",
+          "inside_extrema": [
+            0.02469821646809578,
+            0.44871091842651367
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P16",
+      "old_s1_id": 16,
+      "old_extrema_text": [
+        "0.076388888",
+        "0.416365981",
+        "0.075164504",
+        "0.455777258"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        3
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 3,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P03",
+          "definition": "park_plus_exterior_ring",
+          "actual_extrema": [
+            0.0763888880610466,
+            0.41636598110198975,
+            0.07516450434923172,
+            0.45577725768089294
+          ],
+          "actual_minus_old": [
+            6.104660034179687e-11,
+            1.0198974609375e-10,
+            3.4923171997070313e-10,
+            -3.191070556640625e-10
+          ]
+        },
+        {
+          "current_geometry_park_id": 3,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P03",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.0763888880610466,
+            0.41636598110198975,
+            0.07516450434923172,
+            0.45577725768089294
+          ],
+          "actual_minus_old": [
+            6.104660034179687e-11,
+            1.0198974609375e-10,
+            3.4923171997070313e-10,
+            -3.191070556640625e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 3,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P03",
+          "inside_extrema": [
+            0.0763888880610466,
+            0.41636598110198975
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P17",
+      "old_s1_id": 17,
+      "old_extrema_text": [
+        "0.136281282",
+        "0.448419183",
+        "0.049073573",
+        "0.448419183"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        38
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 38,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P38",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.13628128170967102,
+            0.4484191834926605,
+            0.04907357320189476,
+            0.4484191834926605
+          ],
+          "actual_minus_old": [
+            -2.903289794921875e-10,
+            4.926605224609375e-10,
+            2.0189476013183594e-10,
+            4.926605224609375e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 38,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P38",
+          "inside_extrema": [
+            0.13628128170967102,
+            0.4484191834926605
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P18",
+      "old_s1_id": 18,
+      "old_extrema_text": [
+        "0.0045",
+        "0.4067",
+        "0.0198",
+        "0.4321"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P19",
+      "old_s1_id": 19,
+      "old_extrema_text": [
+        "0.017962579",
+        "0.344428211",
+        "0.017962579",
+        "0.418017656"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        36
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 36,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P36",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.017962578684091568,
+            0.3444282114505768,
+            0.017962578684091568,
+            0.4180176556110382
+          ],
+          "actual_minus_old": [
+            -3.1590843200683595e-10,
+            4.505767822265625e-10,
+            -3.1590843200683595e-10,
+            -3.889617919921875e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 36,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P36",
+          "inside_extrema": [
+            0.017962578684091568,
+            0.3444282114505768
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P20",
+      "old_s1_id": 20,
+      "old_extrema_text": [
+        "0.1175",
+        "0.4552",
+        "0.0934",
+        "0.4728"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P21",
+      "old_s1_id": 21,
+      "old_extrema_text": [
+        "0.195931941",
+        "0.332990915",
+        "0.153819188",
+        "0.343271881"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P22",
+      "old_s1_id": 22,
+      "old_extrema_text": [
+        "0.003899171",
+        "0.330963075",
+        "0.003848064",
+        "0.330963075"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        32
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 32,
+          "source_raster": "NDVI_fukushima.tif",
+          "candidate_label": "P32_option1",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.003899170784279704,
+            0.3309630751609802,
+            0.003848063526675105,
+            0.3309630751609802
+          ],
+          "actual_minus_old": [
+            -2.157202959060669e-10,
+            1.60980224609375e-10,
+            -4.733248949050903e-10,
+            1.60980224609375e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 32,
+          "source_raster": "NDVI_fukushima.tif",
+          "candidate_label": "P32_option1",
+          "inside_extrema": [
+            0.003899170784279704,
+            0.3309630751609802
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P23",
+      "old_s1_id": 23,
+      "old_extrema_text": [
+        "0.152849853",
+        "0.434002787",
+        "0.0181453",
+        "0.434292704"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        7,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        37
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 37,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P37",
+          "definition": "park_plus_exterior_ring",
+          "actual_extrema": [
+            0.15284985303878784,
+            0.4340027868747711,
+            0.018145300447940826,
+            0.4342927038669586
+          ],
+          "actual_minus_old": [
+            3.8787841796875e-11,
+            -1.252288818359375e-10,
+            4.479408264160156e-10,
+            -1.330413818359375e-10
+          ]
+        },
+        {
+          "current_geometry_park_id": 37,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P37",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.15284985303878784,
+            0.4340027868747711,
+            0.018145300447940826,
+            0.4342927038669586
+          ],
+          "actual_minus_old": [
+            3.8787841796875e-11,
+            -1.252288818359375e-10,
+            4.479408264160156e-10,
+            -1.330413818359375e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 37,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P37",
+          "inside_extrema": [
+            0.15284985303878784,
+            0.4340027868747711
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P24",
+      "old_s1_id": 24,
+      "old_extrema_text": [
+        "-0.0789",
+        "0.3456",
+        "-0.0451",
+        "0.3674"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P25",
+      "old_s1_id": 25,
+      "old_extrema_text": [
+        "0.0512",
+        "0.4409",
+        "0.0367",
+        "0.467"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        3
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P26",
+      "old_s1_id": 26,
+      "old_extrema_text": [
+        "0.075638309",
+        "0.466532052",
+        "0.041252241",
+        "0.466532052"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        26
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": true,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 26,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P26",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.0756383091211319,
+            0.46653205156326294,
+            0.04125224053859711,
+            0.46653205156326294
+          ],
+          "actual_minus_old": [
+            1.2113189697265625e-10,
+            -4.36737060546875e-10,
+            -4.6140289306640623e-10,
+            -4.36737060546875e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 26,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P26",
+          "inside_extrema": [
+            0.0756383091211319,
+            0.46653205156326294
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P27",
+      "old_s1_id": 27,
+      "old_extrema_text": [
+        "-0.038936507",
+        "0.323394507",
+        "-0.135817647",
+        "0.323394507"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        35
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 35,
+          "source_raster": "NDVI_hokka_test.tif",
+          "candidate_label": "P35",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            -0.03893650695681572,
+            0.3233945071697235,
+            -0.13581764698028564,
+            0.3233945071697235
+          ],
+          "actual_minus_old": [
+            4.318428039550781e-11,
+            1.697235107421875e-10,
+            1.971435546875e-11,
+            1.697235107421875e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 35,
+          "source_raster": "NDVI_hokka_test.tif",
+          "candidate_label": "P35",
+          "inside_extrema": [
+            -0.03893650695681572,
+            0.3233945071697235
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P28",
+      "old_s1_id": 28,
+      "old_extrema_text": [
+        "0.0953",
+        "0.4885",
+        "0.0784",
+        "0.5123"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P29",
+      "old_s1_id": 29,
+      "old_extrema_text": [
+        "0.0632",
+        "0.4214",
+        "0.0417",
+        "0.4435"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P30",
+      "old_s1_id": 30,
+      "old_extrema_text": [
+        "-0.026873581",
+        "0.307097137",
+        "-0.026873581",
+        "0.33404389"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        8
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        30
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": true,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 30,
+          "source_raster": "NDVI_fukushima_up.tif",
+          "candidate_label": "P30",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            -0.026873581111431122,
+            0.3070971369743347,
+            -0.026873581111431122,
+            0.3340438902378082
+          ],
+          "actual_minus_old": [
+            -1.1143112182617187e-10,
+            -2.5665283203125e-11,
+            -1.1143112182617187e-10,
+            2.378082275390625e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 30,
+          "source_raster": "NDVI_fukushima_up.tif",
+          "candidate_label": "P30",
+          "inside_extrema": [
+            -0.026873581111431122,
+            0.3070971369743347
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P31",
+      "old_s1_id": 31,
+      "old_extrema_text": [
+        "0.23726663",
+        "0.475632489",
+        "0.045829777",
+        "0.475632489"
+      ],
+      "decimal_places_by_field": [
+        8,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        31
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": true,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 31,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P31",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.2372666299343109,
+            0.4756324887275696,
+            0.04582977667450905,
+            0.4756324887275696
+          ],
+          "actual_minus_old": [
+            -6.56890869140625e-11,
+            -2.72430419921875e-10,
+            -3.254909515380859e-10,
+            -2.72430419921875e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 31,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P31",
+          "inside_extrema": [
+            0.2372666299343109,
+            0.4756324887275696
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P32",
+      "old_s1_id": 32,
+      "old_extrema_text": [
+        "0.051013134",
+        "0.386557639",
+        "-0.027644832",
+        "0.399711102"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        22
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 22,
+          "source_raster": "NDVI_fukushima.tif",
+          "candidate_label": "P22",
+          "definition": "park_plus_exterior_ring",
+          "actual_extrema": [
+            0.05101313441991806,
+            0.3865576386451721,
+            -0.02764483168721199,
+            0.39971110224723816
+          ],
+          "actual_minus_old": [
+            4.199180603027344e-10,
+            -3.54827880859375e-10,
+            3.127880096435547e-10,
+            2.472381591796875e-10
+          ]
+        },
+        {
+          "current_geometry_park_id": 22,
+          "source_raster": "NDVI_fukushima.tif",
+          "candidate_label": "P22",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.05101313441991806,
+            0.3865576386451721,
+            -0.02764483168721199,
+            0.39971110224723816
+          ],
+          "actual_minus_old": [
+            4.199180603027344e-10,
+            -3.54827880859375e-10,
+            3.127880096435547e-10,
+            2.472381591796875e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 22,
+          "source_raster": "NDVI_fukushima.tif",
+          "candidate_label": "P22",
+          "inside_extrema": [
+            0.05101313441991806,
+            0.3865576386451721
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P33",
+      "old_s1_id": 33,
+      "old_extrema_text": [
+        "-0.0876",
+        "0.5123",
+        "-0.0554",
+        "0.5348"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P34",
+      "old_s1_id": 34,
+      "old_extrema_text": [
+        "0.0789",
+        "0.4452",
+        "-0.0458",
+        "0.395"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        3
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P35",
+      "old_s1_id": 35,
+      "old_extrema_text": [
+        "-0.102722749",
+        "0.75759232",
+        "-0.102722749",
+        "0.75759232"
+      ],
+      "decimal_places_by_field": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        10
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 10,
+          "source_raster": "NDVI_hokka_test.tif",
+          "candidate_label": "P10",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            -0.10272274911403656,
+            0.7575923204421997,
+            -0.10272274911403656,
+            0.7575923204421997
+          ],
+          "actual_minus_old": [
+            -1.1403656005859375e-10,
+            4.4219970703125e-10,
+            -1.1403656005859375e-10,
+            4.4219970703125e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 10,
+          "source_raster": "NDVI_hokka_test.tif",
+          "candidate_label": "P10",
+          "inside_extrema": [
+            -0.10272274911403656,
+            0.7575923204421997
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P36",
+      "old_s1_id": 36,
+      "old_extrema_text": [
+        "0.147568896",
+        "0.468497664",
+        "0.048491601",
+        "0.468497664"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        12
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 12,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P12",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            0.14756889641284943,
+            0.4684976637363434,
+            0.04849160090088844,
+            0.4684976637363434
+          ],
+          "actual_minus_old": [
+            4.1284942626953126e-10,
+            -2.636566162109375e-10,
+            -9.911155700683593e-11,
+            -2.636566162109375e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 12,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P12",
+          "inside_extrema": [
+            0.14756889641284943,
+            0.4684976637363434
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P37",
+      "old_s1_id": 37,
+      "old_extrema_text": [
+        "-0.00902329",
+        "0.422473997",
+        "-0.00902329",
+        "0.422473997"
+      ],
+      "decimal_places_by_field": [
+        8,
+        9,
+        8,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        14
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 14,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P14",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            -0.009023290127515793,
+            0.4224739968776703,
+            -0.009023290127515793,
+            0.4224739968776703
+          ],
+          "actual_minus_old": [
+            -1.2751579284667968e-10,
+            -1.223297119140625e-10,
+            -1.2751579284667968e-10,
+            -1.223297119140625e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 14,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P14",
+          "inside_extrema": [
+            -0.009023290127515793,
+            0.4224739968776703
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P38",
+      "old_s1_id": 38,
+      "old_extrema_text": [
+        "-0.016486438",
+        "0.437340975",
+        "-0.016486438",
+        "0.437340975"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "unique_geometry",
+      "matched_geometry_ids": [
+        13
+      ],
+      "matched_source_pair_count": 1,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": true,
+      "four_extrema_matches": [
+        {
+          "current_geometry_park_id": 13,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P13",
+          "definition": "park_plus_full_expanded_buffer",
+          "actual_extrema": [
+            -0.016486437991261482,
+            0.43734097480773926,
+            -0.016486437991261482,
+            0.43734097480773926
+          ],
+          "actual_minus_old": [
+            8.738517761230469e-12,
+            -1.922607421875e-10,
+            8.738517761230469e-12,
+            -1.922607421875e-10
+          ]
+        }
+      ],
+      "inside_extrema_only_matches": [
+        {
+          "current_geometry_park_id": 13,
+          "source_raster": "NDVI_tokyo.tif",
+          "candidate_label": "P13",
+          "inside_extrema": [
+            -0.016486437991261482,
+            0.43734097480773926
+          ]
+        }
+      ]
+    },
+    {
+      "old_s1_park_code": "P39",
+      "old_s1_id": 39,
+      "old_extrema_text": [
+        "-0.028754697",
+        "0.548623579",
+        "-0.014756285",
+        "0.475218734"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    }
+  ],
+  "independently_recomputed_candidates": [
+    {
+      "current_geometry_park_id": 1,
+      "candidate_label": "P01",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 574,
+          "valid_n": 574,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.0615752637386322,
+          "maximum": 0.4518486261367798
+        },
+        "outside": {
+          "eligible_n": 648,
+          "valid_n": 648,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.02619853802025318,
+          "maximum": 0.4157053232192993
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.0000941717344292293,
+      "reported_pixel_signature_sha256": "02155caa706247e0d6a01b8912d01efd1a614f6dda1dcfdf46c9f8982fe884c3"
+    },
+    {
+      "current_geometry_park_id": 2,
+      "candidate_label": "P02",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 95,
+          "valid_n": 95,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.02469821646809578,
+          "maximum": 0.44871091842651367
+        },
+        "outside": {
+          "eligible_n": 164,
+          "valid_n": 164,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.02670152112841606,
+          "maximum": 0.27362483739852905
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009393325700195774,
+      "reported_pixel_signature_sha256": "5e175ec0b3a1aa11da66c09f8fb9a1adf754d325f942ef77b4fcb1c11794f0dc"
+    },
+    {
+      "current_geometry_park_id": 3,
+      "candidate_label": "P03",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 184,
+          "valid_n": 184,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.0763888880610466,
+          "maximum": 0.41636598110198975
+        },
+        "outside": {
+          "eligible_n": 310,
+          "valid_n": 310,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.07516450434923172,
+          "maximum": 0.45577725768089294
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009399202745548436,
+      "reported_pixel_signature_sha256": "fb07aa4ee5dfb9fbb446b6d4997198dc15e07197823ce08da00537a5e820e304"
+    },
+    {
+      "current_geometry_park_id": 4,
+      "candidate_label": "P04",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 1660,
+          "valid_n": 1660,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.01559466402977705,
+          "maximum": 0.45025861263275146
+        },
+        "outside": {
+          "eligible_n": 1033,
+          "valid_n": 1033,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.010216752998530865,
+          "maximum": 0.41983741521835327
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009346670664621394,
+      "reported_pixel_signature_sha256": "49e718fb0dc4545f1c8cd0cd07ca1166421fb1e34b04c1fa3b3ac758113d9a6c"
+    },
+    {
+      "current_geometry_park_id": 5,
+      "candidate_label": "P05",
+      "source_raster": "NDVI_nara.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 518,
+          "valid_n": 518,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.070197694003582,
+          "maximum": 0.36997491121292114
+        },
+        "outside": {
+          "eligible_n": 435,
+          "valid_n": 435,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.07567662000656128,
+          "maximum": 0.3903438448905945
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.0000913669475017424,
+      "reported_pixel_signature_sha256": "4c0331257646b54b3d26264b2683e54ed0304ce9e02f543cf87c98da57d87ea6"
+    },
+    {
+      "current_geometry_park_id": 6,
+      "candidate_label": "P06",
+      "source_raster": "NDVI_nara.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 84,
+          "valid_n": 84,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.06425653398036957,
+          "maximum": 0.25799086689949036
+        },
+        "outside": {
+          "eligible_n": 173,
+          "valid_n": 173,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.002227707765996456,
+          "maximum": 0.24402709305286407
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009006239017259423,
+      "reported_pixel_signature_sha256": "e5c838ba11eb57e9854a28f6c167940e6f72cdcc5a22acd67e8b9075a7af21dd"
+    },
+    {
+      "current_geometry_park_id": 7,
+      "candidate_label": "P07",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 3,
+          "valid_n": 3,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.23102250695228577,
+          "maximum": 0.3165266215801239
+        },
+        "outside": {
+          "eligible_n": 63,
+          "valid_n": 63,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.08085349947214127,
+          "maximum": 0.3807874023914337
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009272155054497104,
+      "reported_pixel_signature_sha256": "8c4523e65fc8c167ee47a42a16da5a09ea741281775f4751adac6a95b50f905e"
+    },
+    {
+      "current_geometry_park_id": 8,
+      "candidate_label": "P08",
+      "source_raster": "NDVI_nara.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 890,
+          "valid_n": 890,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.08669368177652359,
+          "maximum": 0.39217403531074524
+        },
+        "outside": {
+          "eligible_n": 469,
+          "valid_n": 469,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.017921147868037224,
+          "maximum": 0.40356507897377014
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00008987643760566989,
+      "reported_pixel_signature_sha256": "78db54e7613c4c526b761ae9311836020977d167fc4a9c68c6f179360e41ca5d"
+    },
+    {
+      "current_geometry_park_id": 9,
+      "candidate_label": "P09_option1",
+      "source_raster": "NDVI_nagoya.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 159,
+          "valid_n": 159,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.04076174274086952,
+          "maximum": 0.3849845230579376
+        },
+        "outside": {
+          "eligible_n": 227,
+          "valid_n": 227,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.03468986973166466,
+          "maximum": 0.3954579532146454
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009107254293499713,
+      "reported_pixel_signature_sha256": "53ad64d8044750a3e9ed6d3954d2fa0a45f71ad48cab3bc2af4366969ab6ec02"
+    },
+    {
+      "current_geometry_park_id": 9,
+      "candidate_label": "P09_option2",
+      "source_raster": "NDVI_nara.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 159,
+          "valid_n": 159,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.07361599057912827,
+          "maximum": 0.23617874085903168
+        },
+        "outside": {
+          "eligible_n": 227,
+          "valid_n": 227,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.011118325404822826,
+          "maximum": 0.29495513439178467
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009107254293499713,
+      "reported_pixel_signature_sha256": "4d19d4431ccd81797181d252814717b4f45da3263a175dc17bc34aa1c870b07f"
+    },
+    {
+      "current_geometry_park_id": 10,
+      "candidate_label": "P10",
+      "source_raster": "NDVI_hokka_test.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 2988,
+          "valid_n": 2988,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.10272274911403656,
+          "maximum": 0.7575923204421997
+        },
+        "outside": {
+          "eligible_n": 1282,
+          "valid_n": 1282,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.09022299945354462,
+          "maximum": 0.5204341411590576
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00011828501160291117,
+      "reported_pixel_signature_sha256": "b7f7838bfffa4f20515a3dbc562cb448236aeebfeabea509304b7cd569199b5d"
+    },
+    {
+      "current_geometry_park_id": 11,
+      "candidate_label": "P11_extra_source1",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": false,
+      "stats": {
+        "inside": {
+          "eligible_n": 144,
+          "valid_n": 0,
+          "nodata_n": 144,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        },
+        "outside": {
+          "eligible_n": 296,
+          "valid_n": 0,
+          "nodata_n": 296,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009264659700531328,
+      "reported_pixel_signature_sha256": "7650d57485b02a3d5546f1485f3e222e89ed3ca8d0c93a4fd8be7dd3ba185769"
+    },
+    {
+      "current_geometry_park_id": 11,
+      "candidate_label": "P11",
+      "source_raster": "NDVI_tokyo_down.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 144,
+          "valid_n": 144,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.0928511768579483,
+          "maximum": 0.4362183213233948
+        },
+        "outside": {
+          "eligible_n": 296,
+          "valid_n": 296,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.03789745271205902,
+          "maximum": 0.4371713399887085
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009264659700531328,
+      "reported_pixel_signature_sha256": "76748d57cd4323b7ec7c2016b6af1dc7d571b28933bb1cf17219b32bed78c749"
+    },
+    {
+      "current_geometry_park_id": 12,
+      "candidate_label": "P12",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 360,
+          "valid_n": 360,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.14756889641284943,
+          "maximum": 0.4684976637363434
+        },
+        "outside": {
+          "eligible_n": 420,
+          "valid_n": 420,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.04849160090088844,
+          "maximum": 0.4526992738246918
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009237497607819862,
+      "reported_pixel_signature_sha256": "ea32d954ebaae604e5fce118a172c57ff169cbca6267c0af7d76f2021648db9f"
+    },
+    {
+      "current_geometry_park_id": 12,
+      "candidate_label": "P12_extra_source2",
+      "source_raster": "NDVI_tokyo_down.tif",
+      "has_valid_pixels_in_both_zones": false,
+      "stats": {
+        "inside": {
+          "eligible_n": 360,
+          "valid_n": 0,
+          "nodata_n": 299,
+          "outside_extent_n": 61,
+          "minimum": null,
+          "maximum": null
+        },
+        "outside": {
+          "eligible_n": 420,
+          "valid_n": 0,
+          "nodata_n": 263,
+          "outside_extent_n": 157,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009237497607819862,
+      "reported_pixel_signature_sha256": "e2b7ecab5788bdc10b2a5f59cdf79cbd5a59c51f9b8b8044bd74ab35fa75924d"
+    },
+    {
+      "current_geometry_park_id": 13,
+      "candidate_label": "P13",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 322,
+          "valid_n": 322,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.016486437991261482,
+          "maximum": 0.43734097480773926
+        },
+        "outside": {
+          "eligible_n": 306,
+          "valid_n": 306,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.01126151718199253,
+          "maximum": 0.40319427847862244
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009270300934867698,
+      "reported_pixel_signature_sha256": "a289ace5adf5b2af833d62dcf1b0f528919e6bf2b935fa7fd107727eb9bc6bdd"
+    },
+    {
+      "current_geometry_park_id": 14,
+      "candidate_label": "P14",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 384,
+          "valid_n": 384,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.009023290127515793,
+          "maximum": 0.4224739968776703
+        },
+        "outside": {
+          "eligible_n": 450,
+          "valid_n": 450,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.0007570022717118263,
+          "maximum": 0.3856855630874634
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009333931576406669,
+      "reported_pixel_signature_sha256": "29469cc216242c692bd504f5feef0d1ea7e0b0c5f1ca24738e916fa4d4361e33"
+    },
+    {
+      "current_geometry_park_id": 15,
+      "candidate_label": "P15",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 506,
+          "valid_n": 506,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.006769304629415274,
+          "maximum": 0.4304773807525635
+        },
+        "outside": {
+          "eligible_n": 617,
+          "valid_n": 617,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.038565654307603836,
+          "maximum": 0.39853501319885254
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009323384574564715,
+      "reported_pixel_signature_sha256": "ca5b1e8782f94458a3054fba5442cb3da83a421233d017dd67ee0e7c094463c6"
+    },
+    {
+      "current_geometry_park_id": 16,
+      "candidate_label": "P16",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 664,
+          "valid_n": 664,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.022890986874699593,
+          "maximum": 0.44723713397979736
+        },
+        "outside": {
+          "eligible_n": 386,
+          "valid_n": 386,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.003205778542906046,
+          "maximum": 0.40723875164985657
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009341580403807908,
+      "reported_pixel_signature_sha256": "fe9ba0ea11b1fccc2cdde0dd4ebb53b063450ed84f24353c65e80c1dc5953b35"
+    },
+    {
+      "current_geometry_park_id": 17,
+      "candidate_label": "P17",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 222,
+          "valid_n": 222,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.07404813915491104,
+          "maximum": 0.42882823944091797
+        },
+        "outside": {
+          "eligible_n": 364,
+          "valid_n": 364,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.05874909460544586,
+          "maximum": 0.4405405521392822
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009307390113720322,
+      "reported_pixel_signature_sha256": "c9f85a40cbb8b2f0e5354d11167990fc46c9cc4801c08b62d2be72c36bfec117"
+    },
+    {
+      "current_geometry_park_id": 17,
+      "candidate_label": "P17_extra_source2",
+      "source_raster": "NDVI_tokyo_down.tif",
+      "has_valid_pixels_in_both_zones": false,
+      "stats": {
+        "inside": {
+          "eligible_n": 222,
+          "valid_n": 0,
+          "nodata_n": 222,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        },
+        "outside": {
+          "eligible_n": 364,
+          "valid_n": 0,
+          "nodata_n": 364,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009307390113720322,
+      "reported_pixel_signature_sha256": "5b587a927997b5c56a881fd8caa337d87cb8a006de9ffe30eb4b6e616971e183"
+    },
+    {
+      "current_geometry_park_id": 18,
+      "candidate_label": "P18_option1",
+      "source_raster": "NDVI_nagoya.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 490,
+          "valid_n": 490,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.02840862236917019,
+          "maximum": 0.39511701464653015
+        },
+        "outside": {
+          "eligible_n": 368,
+          "valid_n": 368,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.009569689631462097,
+          "maximum": 0.29554206132888794
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009006784269067946,
+      "reported_pixel_signature_sha256": "ef69e95b8ee25cc132b7b0abf202102600d5d2c519d0c27437379188fdba9073"
+    },
+    {
+      "current_geometry_park_id": 18,
+      "candidate_label": "P18_option2",
+      "source_raster": "NDVI_nara.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 490,
+          "valid_n": 490,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.011245163157582283,
+          "maximum": 0.29091885685920715
+        },
+        "outside": {
+          "eligible_n": 368,
+          "valid_n": 368,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.013339717872440815,
+          "maximum": 0.20811909437179565
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009006784269067946,
+      "reported_pixel_signature_sha256": "3dadf7d8f7df1ce103fffdbd8a4aaa178f0059ebde3f19f0e6dfa7aa691795d0"
+    },
+    {
+      "current_geometry_park_id": 19,
+      "candidate_label": "P19",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 2962,
+          "valid_n": 2962,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.05650753155350685,
+          "maximum": 0.4486561417579651
+        },
+        "outside": {
+          "eligible_n": 1662,
+          "valid_n": 1662,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.03666474297642708,
+          "maximum": 0.4818893373012543
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009470360647547369,
+      "reported_pixel_signature_sha256": "2309d2c0db1d731b39bd66e4178aefe93cb0cba03911498d5a3b90089aed33ff"
+    },
+    {
+      "current_geometry_park_id": 20,
+      "candidate_label": "P20",
+      "source_raster": "NDVI_tokyo_down.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 358,
+          "valid_n": 358,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.05836426466703415,
+          "maximum": 0.4829518496990204
+        },
+        "outside": {
+          "eligible_n": 332,
+          "valid_n": 332,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.011585568077862263,
+          "maximum": 0.4745422303676605
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.000163486532868521,
+      "reported_pixel_signature_sha256": "b121d2d1e4608589440d6e8e62aaf142ac2ef9fc980caaf8f5812974d84e3071"
+    },
+    {
+      "current_geometry_park_id": 21,
+      "candidate_label": "P21",
+      "source_raster": "NDVI_kyoto.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 906,
+          "valid_n": 906,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.05936332792043686,
+          "maximum": 0.32016903162002563
+        },
+        "outside": {
+          "eligible_n": 598,
+          "valid_n": 598,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.027299031615257263,
+          "maximum": 0.33760392665863037
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009177129830093139,
+      "reported_pixel_signature_sha256": "63c7eb00aa41fedab7dd3c74ecc1b29fe1529bdc55462654c3374ffb7d3da46e"
+    },
+    {
+      "current_geometry_park_id": 22,
+      "candidate_label": "P22",
+      "source_raster": "NDVI_fukushima.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 736,
+          "valid_n": 736,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.05101313441991806,
+          "maximum": 0.3865576386451721
+        },
+        "outside": {
+          "eligible_n": 503,
+          "valid_n": 503,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.02764483168721199,
+          "maximum": 0.39971110224723816
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00010068651926588519,
+      "reported_pixel_signature_sha256": "4e4f962868c1cc821787dd6aefb0568e8ca5ae86c4f62ac87b5c15147ef7a266"
+    },
+    {
+      "current_geometry_park_id": 23,
+      "candidate_label": "P23",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 48,
+          "valid_n": 48,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.1916857361793518,
+          "maximum": 0.4335677921772003
+        },
+        "outside": {
+          "eligible_n": 149,
+          "valid_n": 149,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.04936893656849861,
+          "maximum": 0.4313417673110962
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009336039048421106,
+      "reported_pixel_signature_sha256": "5b8045ac9f319b6dc2b20549a9597e8df1cfd7ec8cc11750c325e65414b3755a"
+    },
+    {
+      "current_geometry_park_id": 24,
+      "candidate_label": "P24_extra_source1",
+      "source_raster": "NDVI_nagoya.tif",
+      "has_valid_pixels_in_both_zones": false,
+      "stats": {
+        "inside": {
+          "eligible_n": 339,
+          "valid_n": 0,
+          "nodata_n": 339,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        },
+        "outside": {
+          "eligible_n": 335,
+          "valid_n": 0,
+          "nodata_n": 335,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009025942149484687,
+      "reported_pixel_signature_sha256": "6783a024b97d3f90a597f3b0221a96cd3ced5051f7b224498320b664ee8f756d"
+    },
+    {
+      "current_geometry_park_id": 24,
+      "candidate_label": "P24",
+      "source_raster": "NDVI_nara.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 339,
+          "valid_n": 339,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.006664516869932413,
+          "maximum": 0.30910471081733704
+        },
+        "outside": {
+          "eligible_n": 335,
+          "valid_n": 335,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.030778301879763603,
+          "maximum": 0.14129185676574707
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009025942149484687,
+      "reported_pixel_signature_sha256": "ba4b871dff089480a36fd9ed864e3fb37c04dd52668d8a1696bbb796af26f4e0"
+    },
+    {
+      "current_geometry_park_id": 25,
+      "candidate_label": "P25",
+      "source_raster": "NDVI_nara.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 3842,
+          "valid_n": 3842,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.01656452938914299,
+          "maximum": 0.4173578917980194
+        },
+        "outside": {
+          "eligible_n": 1301,
+          "valid_n": 1301,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.0264724213629961,
+          "maximum": 0.3957423269748688
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.000090947590074478,
+      "reported_pixel_signature_sha256": "0f630f36964a8cb6d9e1409a34c5bf848e28b19b0f1a081976d5d5428322d8c0"
+    },
+    {
+      "current_geometry_park_id": 26,
+      "candidate_label": "P26",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 109,
+          "valid_n": 109,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.0756383091211319,
+          "maximum": 0.46653205156326294
+        },
+        "outside": {
+          "eligible_n": 339,
+          "valid_n": 339,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.04125224053859711,
+          "maximum": 0.4300019145011902
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009392789925361574,
+      "reported_pixel_signature_sha256": "7d4d7288283185d38ffe6214ddb24f2ad11c2b826ab6e5641485d70c564fae53"
+    },
+    {
+      "current_geometry_park_id": 27,
+      "candidate_label": "P27",
+      "source_raster": "NDVI_hokka_test.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 1357,
+          "valid_n": 1357,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.06277959048748016,
+          "maximum": 0.2622165083885193
+        },
+        "outside": {
+          "eligible_n": 600,
+          "valid_n": 598,
+          "nodata_n": 2,
+          "outside_extent_n": 0,
+          "minimum": -0.09194356203079224,
+          "maximum": 0.8206576108932495
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.0001253532112350289,
+      "reported_pixel_signature_sha256": "0ac1819c32e96444005863d541308fc4be03f8fb48f4ba286cc4000b1a2ed6ca"
+    },
+    {
+      "current_geometry_park_id": 28,
+      "candidate_label": "P28_option1",
+      "source_raster": "NDVI_nagoya.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 2182,
+          "valid_n": 2182,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.025969138368964195,
+          "maximum": 0.4526621103286743
+        },
+        "outside": {
+          "eligible_n": 1949,
+          "valid_n": 1949,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.02288525551557541,
+          "maximum": 0.397228479385376
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00008988209246346858,
+      "reported_pixel_signature_sha256": "3c1004f0e7e6a967e63a9eb009549d1b80d6d3f5457433cac63d7e12cbb55ad0"
+    },
+    {
+      "current_geometry_park_id": 28,
+      "candidate_label": "P28_option2",
+      "source_raster": "NDVI_nara.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 2182,
+          "valid_n": 2182,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.04961231350898743,
+          "maximum": 0.3965997099876404
+        },
+        "outside": {
+          "eligible_n": 1949,
+          "valid_n": 1949,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.005882143042981625,
+          "maximum": 0.3213771879673004
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00008988209246346858,
+      "reported_pixel_signature_sha256": "379c377fd3766d0ddc7ca7e080383a6509b704b31bb66542f8d5f742036b8045"
+    },
+    {
+      "current_geometry_park_id": 29,
+      "candidate_label": "P29",
+      "source_raster": "NDVI_nagoya.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 424,
+          "valid_n": 424,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.06523868441581726,
+          "maximum": 0.45349207520484924
+        },
+        "outside": {
+          "eligible_n": 322,
+          "valid_n": 322,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.053206294775009155,
+          "maximum": 0.4422207772731781
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009701519288830263,
+      "reported_pixel_signature_sha256": "30a1dcb573306fb3fea7a66f6347a0b4d6ecfd669b1f1c979b646a2d16a897d2"
+    },
+    {
+      "current_geometry_park_id": 29,
+      "candidate_label": "P29_extra_source2",
+      "source_raster": "NDVI_tokyo_down.tif",
+      "has_valid_pixels_in_both_zones": false,
+      "stats": {
+        "inside": {
+          "eligible_n": 426,
+          "valid_n": 0,
+          "nodata_n": 426,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        },
+        "outside": {
+          "eligible_n": 316,
+          "valid_n": 0,
+          "nodata_n": 316,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.001270438550609101,
+      "reported_pixel_signature_sha256": "9d733c9f3859b6e6392516b13f31291729bc91688e0544c36bc5654b467eb0a7"
+    },
+    {
+      "current_geometry_park_id": 30,
+      "candidate_label": "P30_extra_source1",
+      "source_raster": "NDVI_fukushima.tif",
+      "has_valid_pixels_in_both_zones": false,
+      "stats": {
+        "inside": {
+          "eligible_n": 621,
+          "valid_n": 0,
+          "nodata_n": 621,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        },
+        "outside": {
+          "eligible_n": 420,
+          "valid_n": 0,
+          "nodata_n": 420,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00010461403917603474,
+      "reported_pixel_signature_sha256": "23f9ddfd961b71940fb22262f5be2fd9f96a60211b509774845149b136d5d93d"
+    },
+    {
+      "current_geometry_park_id": 30,
+      "candidate_label": "P30",
+      "source_raster": "NDVI_fukushima_up.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 621,
+          "valid_n": 621,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.026873581111431122,
+          "maximum": 0.3070971369743347
+        },
+        "outside": {
+          "eligible_n": 420,
+          "valid_n": 420,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.007642848417162895,
+          "maximum": 0.3340438902378082
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00010461403917603474,
+      "reported_pixel_signature_sha256": "31b98304f0c6ba3ee15479fa45844d4cca30b06eb9e170b0ffffd2e80f4c02b8"
+    },
+    {
+      "current_geometry_park_id": 31,
+      "candidate_label": "P31",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 343,
+          "valid_n": 343,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.2372666299343109,
+          "maximum": 0.4756324887275696
+        },
+        "outside": {
+          "eligible_n": 387,
+          "valid_n": 387,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.04582977667450905,
+          "maximum": 0.4505501389503479
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.0000923406084660319,
+      "reported_pixel_signature_sha256": "e377ebf72126dd1d60bacaad2d918811e13835c59d052873685f0a1234ebcab3"
+    },
+    {
+      "current_geometry_park_id": 32,
+      "candidate_label": "P32_option1",
+      "source_raster": "NDVI_fukushima.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 185,
+          "valid_n": 185,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.003899170784279704,
+          "maximum": 0.3309630751609802
+        },
+        "outside": {
+          "eligible_n": 246,
+          "valid_n": 246,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.003848063526675105,
+          "maximum": 0.287997841835022
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00010475781434841791,
+      "reported_pixel_signature_sha256": "29f37a7b425c43f590701a5f18a85d87aaeae7d4fdc960d8288e68cc4008276f"
+    },
+    {
+      "current_geometry_park_id": 32,
+      "candidate_label": "P32_option2",
+      "source_raster": "NDVI_fukushima_up.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 185,
+          "valid_n": 185,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.016340989619493484,
+          "maximum": 0.237726092338562
+        },
+        "outside": {
+          "eligible_n": 246,
+          "valid_n": 246,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.019880520179867744,
+          "maximum": 0.19911177456378937
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00010475781434841791,
+      "reported_pixel_signature_sha256": "5153dc683d6719791cb63de6df81db9d0731230d7f81063d93e6815ca8ab3bcd"
+    },
+    {
+      "current_geometry_park_id": 33,
+      "candidate_label": "P33",
+      "source_raster": "NDVI_nagoya.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 988,
+          "valid_n": 988,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.013804769143462181,
+          "maximum": 0.46827179193496704
+        },
+        "outside": {
+          "eligible_n": 482,
+          "valid_n": 482,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.013625210151076317,
+          "maximum": 0.46309345960617065
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009300176981569215,
+      "reported_pixel_signature_sha256": "dc4ed2ab7a4c2809973f2b8f5dd1dc630336b4a44a6045daac9e2033409ad321"
+    },
+    {
+      "current_geometry_park_id": 33,
+      "candidate_label": "P33_extra_source2",
+      "source_raster": "NDVI_tokyo_down.tif",
+      "has_valid_pixels_in_both_zones": false,
+      "stats": {
+        "inside": {
+          "eligible_n": 987,
+          "valid_n": 0,
+          "nodata_n": 987,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        },
+        "outside": {
+          "eligible_n": 479,
+          "valid_n": 0,
+          "nodata_n": 479,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.0019616173788204235,
+      "reported_pixel_signature_sha256": "b056c14fdbff90eb5ff38a5f08e7b670922bccd5ef85f26f433508749a8631a5"
+    },
+    {
+      "current_geometry_park_id": 34,
+      "candidate_label": "P34",
+      "source_raster": "NDVI_island.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 780,
+          "valid_n": 780,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.15172860026359558,
+          "maximum": 0.5207874774932861
+        },
+        "outside": {
+          "eligible_n": 509,
+          "valid_n": 509,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.11974925547838211,
+          "maximum": 0.5149707794189453
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00006691153499943367,
+      "reported_pixel_signature_sha256": "56f3152b93cf56f3c01199433f9761092303da386a2a55bf8533b63199043e08"
+    },
+    {
+      "current_geometry_park_id": 35,
+      "candidate_label": "P35",
+      "source_raster": "NDVI_hokka_test.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 720,
+          "valid_n": 720,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.03893650695681572,
+          "maximum": 0.3233945071697235
+        },
+        "outside": {
+          "eligible_n": 455,
+          "valid_n": 455,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.13581764698028564,
+          "maximum": 0.15445494651794434
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00011432237642370692,
+      "reported_pixel_signature_sha256": "de0eb89477f9f124deebf9f4c89c8da579be48e5f67df057574793beff4d3788"
+    },
+    {
+      "current_geometry_park_id": 36,
+      "candidate_label": "P36",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 42,
+          "valid_n": 42,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.017962578684091568,
+          "maximum": 0.3444282114505768
+        },
+        "outside": {
+          "eligible_n": 145,
+          "valid_n": 145,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.0484098382294178,
+          "maximum": 0.4180176556110382
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009316718027528173,
+      "reported_pixel_signature_sha256": "433910cfa2977f105b3023fda4ffa3a6426502c12a5415d54c629298d24b8a69"
+    },
+    {
+      "current_geometry_park_id": 37,
+      "candidate_label": "P37",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 160,
+          "valid_n": 160,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.15284985303878784,
+          "maximum": 0.4340027868747711
+        },
+        "outside": {
+          "eligible_n": 344,
+          "valid_n": 344,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.018145300447940826,
+          "maximum": 0.4342927038669586
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009316848924272486,
+      "reported_pixel_signature_sha256": "03381fc13f9be9ad7e164b59a464b540b48add33aeac39421a362b1ed46bf910"
+    },
+    {
+      "current_geometry_park_id": 37,
+      "candidate_label": "P37_extra_source2",
+      "source_raster": "NDVI_tokyo_down.tif",
+      "has_valid_pixels_in_both_zones": false,
+      "stats": {
+        "inside": {
+          "eligible_n": 160,
+          "valid_n": 0,
+          "nodata_n": 160,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        },
+        "outside": {
+          "eligible_n": 344,
+          "valid_n": 0,
+          "nodata_n": 344,
+          "outside_extent_n": 0,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009316848924272486,
+      "reported_pixel_signature_sha256": "5bd60cb552582b6b9d5fa5d18da487ac6c1a8d050f32daeb5a6b50321cc278cf"
+    },
+    {
+      "current_geometry_park_id": 38,
+      "candidate_label": "P38",
+      "source_raster": "NDVI_tokyo.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 444,
+          "valid_n": 444,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.13628128170967102,
+          "maximum": 0.4484191834926605
+        },
+        "outside": {
+          "eligible_n": 493,
+          "valid_n": 493,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": 0.04907357320189476,
+          "maximum": 0.4415445625782013
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009301901214922446,
+      "reported_pixel_signature_sha256": "fdaf31e24517551fc7078fa2a65d758642655ee5205bf8f2b98d63876cc8a53a"
+    },
+    {
+      "current_geometry_park_id": 38,
+      "candidate_label": "P38_extra_source2",
+      "source_raster": "NDVI_tokyo_down.tif",
+      "has_valid_pixels_in_both_zones": false,
+      "stats": {
+        "inside": {
+          "eligible_n": 444,
+          "valid_n": 0,
+          "nodata_n": 41,
+          "outside_extent_n": 403,
+          "minimum": null,
+          "maximum": null
+        },
+        "outside": {
+          "eligible_n": 493,
+          "valid_n": 0,
+          "nodata_n": 140,
+          "outside_extent_n": 353,
+          "minimum": null,
+          "maximum": null
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00009301901214922446,
+      "reported_pixel_signature_sha256": "51d8906dc116f695cd726cf88957c1bd82cb42fa6de32d9a8c8e9d6a3cbd0d70"
+    },
+    {
+      "current_geometry_park_id": 39,
+      "candidate_label": "P39",
+      "source_raster": "NDVI_west.tif",
+      "has_valid_pixels_in_both_zones": true,
+      "stats": {
+        "inside": {
+          "eligible_n": 381,
+          "valid_n": 381,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.03966174274682999,
+          "maximum": 0.4324299991130829
+        },
+        "outside": {
+          "eligible_n": 331,
+          "valid_n": 331,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "minimum": -0.06884399801492691,
+          "maximum": 0.4497700035572052
+        }
+      },
+      "all_count_and_stat_differences_zero": true,
+      "maximum_inverse_transform_difference_m": 0.00008603919703290668,
+      "reported_pixel_signature_sha256": "61518d03ac3bd32199a4f9e1f48b06ac159bb7f8e320a6cf82352198c2fdef71"
+    }
+  ],
+  "eight_same_id_candidate_comparisons": [
+    {
+      "old_s1_id": 9,
+      "current_geometry_park_id": 9,
+      "candidate_label": "P09_option1",
+      "source_raster": "NDVI_nagoya.tif",
+      "native_crop_rectangle": {
+        "valid_n": 750,
+        "minimum": -0.04076174274086952,
+        "maximum": 0.4167426824569702,
+        "native_crop_pixel_bytes_sha256": "236945a4e47894272f7fd7ca9bf8197e7d58d2f4b9e2f7d526aea0bf22e428f5",
+        "zone_mask_bytes_sha256": "b438ab9ec0003ee310bfe7feaa45fd0631dd0439d44834db32dd19721f699e20",
+        "definition": "All valid pixels of the existing packaged native crop rectangle, including pixels outside the buffer; this is the recorded extraction window, not a newly chosen buffer or proof of the old QGIS extent"
+      },
+      "fixed_definition_comparisons": {
+        "park_plus_exterior_ring": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.04076174274086952,
+              "actual_rounded_to_old_precision": "-0.040761743",
+              "actual_minus_old": 0.017602522259130476,
+              "absolute_difference_in_rounding_half_steps": 35205044.518260956,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.3849845230579376,
+              "actual_rounded_to_old_precision": "0.38498452",
+              "actual_minus_old": -0.09796732694206238,
+              "absolute_difference_in_rounding_half_steps": 19593465.388412476,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.03468986973166466,
+              "actual_rounded_to_old_precision": "0.034689870",
+              "actual_minus_old": 0.09305413473166466,
+              "absolute_difference_in_rounding_half_steps": 186108269.46332932,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.3954579532146454,
+              "actual_rounded_to_old_precision": "0.39545795",
+              "actual_minus_old": -0.08749389678535462,
+              "absolute_difference_in_rounding_half_steps": 17498779.357070923,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_full_expanded_buffer": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.04076174274086952,
+              "actual_rounded_to_old_precision": "-0.040761743",
+              "actual_minus_old": 0.017602522259130476,
+              "absolute_difference_in_rounding_half_steps": 35205044.518260956,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.3849845230579376,
+              "actual_rounded_to_old_precision": "0.38498452",
+              "actual_minus_old": -0.09796732694206238,
+              "absolute_difference_in_rounding_half_steps": 19593465.388412476,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.04076174274086952,
+              "actual_rounded_to_old_precision": "-0.040761743",
+              "actual_minus_old": 0.017602522259130476,
+              "absolute_difference_in_rounding_half_steps": 35205044.518260956,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.3954579532146454,
+              "actual_rounded_to_old_precision": "0.39545795",
+              "actual_minus_old": -0.08749389678535462,
+              "absolute_difference_in_rounding_half_steps": 17498779.357070923,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_existing_native_crop_rectangle": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.04076174274086952,
+              "actual_rounded_to_old_precision": "-0.040761743",
+              "actual_minus_old": 0.017602522259130476,
+              "absolute_difference_in_rounding_half_steps": 35205044.518260956,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.3849845230579376,
+              "actual_rounded_to_old_precision": "0.38498452",
+              "actual_minus_old": -0.09796732694206238,
+              "absolute_difference_in_rounding_half_steps": 19593465.388412476,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.04076174274086952,
+              "actual_rounded_to_old_precision": "-0.040761743",
+              "actual_minus_old": 0.017602522259130476,
+              "absolute_difference_in_rounding_half_steps": 35205044.518260956,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.4167426824569702,
+              "actual_rounded_to_old_precision": "0.41674268",
+              "actual_minus_old": -0.06620916754302979,
+              "absolute_difference_in_rounding_half_steps": 13241833.508605957,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "same_existing_native_crop_rectangle_for_both": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.04076174274086952,
+              "actual_rounded_to_old_precision": "-0.040761743",
+              "actual_minus_old": 0.017602522259130476,
+              "absolute_difference_in_rounding_half_steps": 35205044.518260956,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.4167426824569702,
+              "actual_rounded_to_old_precision": "0.41674268",
+              "actual_minus_old": -0.06620916754302979,
+              "absolute_difference_in_rounding_half_steps": 13241833.508605957,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.04076174274086952,
+              "actual_rounded_to_old_precision": "-0.040761743",
+              "actual_minus_old": 0.017602522259130476,
+              "absolute_difference_in_rounding_half_steps": 35205044.518260956,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.4167426824569702,
+              "actual_rounded_to_old_precision": "0.41674268",
+              "actual_minus_old": -0.06620916754302979,
+              "absolute_difference_in_rounding_half_steps": 13241833.508605957,
+              "matches_original_display_precision": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "old_s1_id": 9,
+      "current_geometry_park_id": 9,
+      "candidate_label": "P09_option2",
+      "source_raster": "NDVI_nara.tif",
+      "native_crop_rectangle": {
+        "valid_n": 750,
+        "minimum": -0.07361599057912827,
+        "maximum": 0.29495513439178467,
+        "native_crop_pixel_bytes_sha256": "b74bf468daec53ea3934814e705eead1b043b6259c51f0c9e0183bf8911bccc0",
+        "zone_mask_bytes_sha256": "b438ab9ec0003ee310bfe7feaa45fd0631dd0439d44834db32dd19721f699e20",
+        "definition": "All valid pixels of the existing packaged native crop rectangle, including pixels outside the buffer; this is the recorded extraction window, not a newly chosen buffer or proof of the old QGIS extent"
+      },
+      "fixed_definition_comparisons": {
+        "park_plus_exterior_ring": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.07361599057912827,
+              "actual_rounded_to_old_precision": "-0.073615991",
+              "actual_minus_old": -0.015251725579128265,
+              "absolute_difference_in_rounding_half_steps": 30503451.15825653,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.23617874085903168,
+              "actual_rounded_to_old_precision": "0.23617874",
+              "actual_minus_old": -0.2467731091409683,
+              "absolute_difference_in_rounding_half_steps": 49354621.828193665,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.011118325404822826,
+              "actual_rounded_to_old_precision": "0.011118325",
+              "actual_minus_old": 0.06948259040482282,
+              "absolute_difference_in_rounding_half_steps": 138965180.80964565,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.29495513439178467,
+              "actual_rounded_to_old_precision": "0.29495513",
+              "actual_minus_old": -0.18799671560821532,
+              "absolute_difference_in_rounding_half_steps": 37599343.12164307,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_full_expanded_buffer": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.07361599057912827,
+              "actual_rounded_to_old_precision": "-0.073615991",
+              "actual_minus_old": -0.015251725579128265,
+              "absolute_difference_in_rounding_half_steps": 30503451.15825653,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.23617874085903168,
+              "actual_rounded_to_old_precision": "0.23617874",
+              "actual_minus_old": -0.2467731091409683,
+              "absolute_difference_in_rounding_half_steps": 49354621.828193665,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.07361599057912827,
+              "actual_rounded_to_old_precision": "-0.073615991",
+              "actual_minus_old": -0.015251725579128265,
+              "absolute_difference_in_rounding_half_steps": 30503451.15825653,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.29495513439178467,
+              "actual_rounded_to_old_precision": "0.29495513",
+              "actual_minus_old": -0.18799671560821532,
+              "absolute_difference_in_rounding_half_steps": 37599343.12164307,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_existing_native_crop_rectangle": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.07361599057912827,
+              "actual_rounded_to_old_precision": "-0.073615991",
+              "actual_minus_old": -0.015251725579128265,
+              "absolute_difference_in_rounding_half_steps": 30503451.15825653,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.23617874085903168,
+              "actual_rounded_to_old_precision": "0.23617874",
+              "actual_minus_old": -0.2467731091409683,
+              "absolute_difference_in_rounding_half_steps": 49354621.828193665,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.07361599057912827,
+              "actual_rounded_to_old_precision": "-0.073615991",
+              "actual_minus_old": -0.015251725579128265,
+              "absolute_difference_in_rounding_half_steps": 30503451.15825653,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.29495513439178467,
+              "actual_rounded_to_old_precision": "0.29495513",
+              "actual_minus_old": -0.18799671560821532,
+              "absolute_difference_in_rounding_half_steps": 37599343.12164307,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "same_existing_native_crop_rectangle_for_both": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.07361599057912827,
+              "actual_rounded_to_old_precision": "-0.073615991",
+              "actual_minus_old": -0.015251725579128265,
+              "absolute_difference_in_rounding_half_steps": 30503451.15825653,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.29495513439178467,
+              "actual_rounded_to_old_precision": "0.29495513",
+              "actual_minus_old": -0.18799671560821532,
+              "absolute_difference_in_rounding_half_steps": 37599343.12164307,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.058364265",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.07361599057912827,
+              "actual_rounded_to_old_precision": "-0.073615991",
+              "actual_minus_old": -0.015251725579128265,
+              "absolute_difference_in_rounding_half_steps": 30503451.15825653,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.48295185",
+              "decimal_places": 8,
+              "rounding_half_step": 5e-9,
+              "actual": 0.29495513439178467,
+              "actual_rounded_to_old_precision": "0.29495513",
+              "actual_minus_old": -0.18799671560821532,
+              "absolute_difference_in_rounding_half_steps": 37599343.12164307,
+              "matches_original_display_precision": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "old_s1_id": 18,
+      "current_geometry_park_id": 18,
+      "candidate_label": "P18_option1",
+      "source_raster": "NDVI_nagoya.tif",
+      "native_crop_rectangle": {
+        "valid_n": 1326,
+        "minimum": -0.029639864340424538,
+        "maximum": 0.39511701464653015,
+        "native_crop_pixel_bytes_sha256": "f756907ec4f3e02c71a14a533204258ea8dc8802244efccf6352e7508fdd4779",
+        "zone_mask_bytes_sha256": "5d4047fe0a1f672f93b1f26754996e8b5e1d3fe04496017f23d2d00f952adc05",
+        "definition": "All valid pixels of the existing packaged native crop rectangle, including pixels outside the buffer; this is the recorded extraction window, not a newly chosen buffer or proof of the old QGIS extent"
+      },
+      "fixed_definition_comparisons": {
+        "park_plus_exterior_ring": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0045",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.02840862236917019,
+              "actual_rounded_to_old_precision": "0.0284",
+              "actual_minus_old": 0.02390862236917019,
+              "absolute_difference_in_rounding_half_steps": 478.1724473834038,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4067",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.39511701464653015,
+              "actual_rounded_to_old_precision": "0.3951",
+              "actual_minus_old": -0.01158298535346985,
+              "absolute_difference_in_rounding_half_steps": 231.65970706939697,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0198",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.009569689631462097,
+              "actual_rounded_to_old_precision": "-0.0096",
+              "actual_minus_old": -0.0293696896314621,
+              "absolute_difference_in_rounding_half_steps": 587.393792629242,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.4321",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.29554206132888794,
+              "actual_rounded_to_old_precision": "0.2955",
+              "actual_minus_old": -0.13655793867111207,
+              "absolute_difference_in_rounding_half_steps": 2731.158773422241,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_full_expanded_buffer": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0045",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.02840862236917019,
+              "actual_rounded_to_old_precision": "0.0284",
+              "actual_minus_old": 0.02390862236917019,
+              "absolute_difference_in_rounding_half_steps": 478.1724473834038,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4067",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.39511701464653015,
+              "actual_rounded_to_old_precision": "0.3951",
+              "actual_minus_old": -0.01158298535346985,
+              "absolute_difference_in_rounding_half_steps": 231.65970706939697,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0198",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.009569689631462097,
+              "actual_rounded_to_old_precision": "-0.0096",
+              "actual_minus_old": -0.0293696896314621,
+              "absolute_difference_in_rounding_half_steps": 587.393792629242,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.4321",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.39511701464653015,
+              "actual_rounded_to_old_precision": "0.3951",
+              "actual_minus_old": -0.03698298535346985,
+              "absolute_difference_in_rounding_half_steps": 739.659707069397,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_existing_native_crop_rectangle": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0045",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.02840862236917019,
+              "actual_rounded_to_old_precision": "0.0284",
+              "actual_minus_old": 0.02390862236917019,
+              "absolute_difference_in_rounding_half_steps": 478.1724473834038,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4067",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.39511701464653015,
+              "actual_rounded_to_old_precision": "0.3951",
+              "actual_minus_old": -0.01158298535346985,
+              "absolute_difference_in_rounding_half_steps": 231.65970706939697,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0198",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.029639864340424538,
+              "actual_rounded_to_old_precision": "-0.0296",
+              "actual_minus_old": -0.049439864340424536,
+              "absolute_difference_in_rounding_half_steps": 988.7972868084908,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.4321",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.39511701464653015,
+              "actual_rounded_to_old_precision": "0.3951",
+              "actual_minus_old": -0.03698298535346985,
+              "absolute_difference_in_rounding_half_steps": 739.659707069397,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "same_existing_native_crop_rectangle_for_both": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0045",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.029639864340424538,
+              "actual_rounded_to_old_precision": "-0.0296",
+              "actual_minus_old": -0.034139864340424535,
+              "absolute_difference_in_rounding_half_steps": 682.7972868084908,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4067",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.39511701464653015,
+              "actual_rounded_to_old_precision": "0.3951",
+              "actual_minus_old": -0.01158298535346985,
+              "absolute_difference_in_rounding_half_steps": 231.65970706939697,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0198",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.029639864340424538,
+              "actual_rounded_to_old_precision": "-0.0296",
+              "actual_minus_old": -0.049439864340424536,
+              "absolute_difference_in_rounding_half_steps": 988.7972868084908,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.4321",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.39511701464653015,
+              "actual_rounded_to_old_precision": "0.3951",
+              "actual_minus_old": -0.03698298535346985,
+              "absolute_difference_in_rounding_half_steps": 739.659707069397,
+              "matches_original_display_precision": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "old_s1_id": 18,
+      "current_geometry_park_id": 18,
+      "candidate_label": "P18_option2",
+      "source_raster": "NDVI_nara.tif",
+      "native_crop_rectangle": {
+        "valid_n": 1326,
+        "minimum": -0.013339717872440815,
+        "maximum": 0.29091885685920715,
+        "native_crop_pixel_bytes_sha256": "13fd365ec0c06459dc56f95956fd9113fd3ecb535c93068a63adb0f04687e517",
+        "zone_mask_bytes_sha256": "5d4047fe0a1f672f93b1f26754996e8b5e1d3fe04496017f23d2d00f952adc05",
+        "definition": "All valid pixels of the existing packaged native crop rectangle, including pixels outside the buffer; this is the recorded extraction window, not a newly chosen buffer or proof of the old QGIS extent"
+      },
+      "fixed_definition_comparisons": {
+        "park_plus_exterior_ring": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0045",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.011245163157582283,
+              "actual_rounded_to_old_precision": "0.0112",
+              "actual_minus_old": 0.006745163157582283,
+              "absolute_difference_in_rounding_half_steps": 134.90326315164566,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4067",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.29091885685920715,
+              "actual_rounded_to_old_precision": "0.2909",
+              "actual_minus_old": -0.11578114314079285,
+              "absolute_difference_in_rounding_half_steps": 2315.622862815857,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0198",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.013339717872440815,
+              "actual_rounded_to_old_precision": "-0.0133",
+              "actual_minus_old": -0.03313971787244081,
+              "absolute_difference_in_rounding_half_steps": 662.7943574488163,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.4321",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.20811909437179565,
+              "actual_rounded_to_old_precision": "0.2081",
+              "actual_minus_old": -0.22398090562820436,
+              "absolute_difference_in_rounding_half_steps": 4479.618112564087,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_full_expanded_buffer": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0045",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.011245163157582283,
+              "actual_rounded_to_old_precision": "0.0112",
+              "actual_minus_old": 0.006745163157582283,
+              "absolute_difference_in_rounding_half_steps": 134.90326315164566,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4067",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.29091885685920715,
+              "actual_rounded_to_old_precision": "0.2909",
+              "actual_minus_old": -0.11578114314079285,
+              "absolute_difference_in_rounding_half_steps": 2315.622862815857,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0198",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.013339717872440815,
+              "actual_rounded_to_old_precision": "-0.0133",
+              "actual_minus_old": -0.03313971787244081,
+              "absolute_difference_in_rounding_half_steps": 662.7943574488163,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.4321",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.29091885685920715,
+              "actual_rounded_to_old_precision": "0.2909",
+              "actual_minus_old": -0.14118114314079286,
+              "absolute_difference_in_rounding_half_steps": 2823.622862815857,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_existing_native_crop_rectangle": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0045",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.011245163157582283,
+              "actual_rounded_to_old_precision": "0.0112",
+              "actual_minus_old": 0.006745163157582283,
+              "absolute_difference_in_rounding_half_steps": 134.90326315164566,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4067",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.29091885685920715,
+              "actual_rounded_to_old_precision": "0.2909",
+              "actual_minus_old": -0.11578114314079285,
+              "absolute_difference_in_rounding_half_steps": 2315.622862815857,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0198",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.013339717872440815,
+              "actual_rounded_to_old_precision": "-0.0133",
+              "actual_minus_old": -0.03313971787244081,
+              "absolute_difference_in_rounding_half_steps": 662.7943574488163,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.4321",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.29091885685920715,
+              "actual_rounded_to_old_precision": "0.2909",
+              "actual_minus_old": -0.14118114314079286,
+              "absolute_difference_in_rounding_half_steps": 2823.622862815857,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "same_existing_native_crop_rectangle_for_both": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0045",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.013339717872440815,
+              "actual_rounded_to_old_precision": "-0.0133",
+              "actual_minus_old": -0.017839717872440815,
+              "absolute_difference_in_rounding_half_steps": 356.7943574488163,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4067",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.29091885685920715,
+              "actual_rounded_to_old_precision": "0.2909",
+              "actual_minus_old": -0.11578114314079285,
+              "absolute_difference_in_rounding_half_steps": 2315.622862815857,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0198",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.013339717872440815,
+              "actual_rounded_to_old_precision": "-0.0133",
+              "actual_minus_old": -0.03313971787244081,
+              "absolute_difference_in_rounding_half_steps": 662.7943574488163,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.4321",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.29091885685920715,
+              "actual_rounded_to_old_precision": "0.2909",
+              "actual_minus_old": -0.14118114314079286,
+              "absolute_difference_in_rounding_half_steps": 2823.622862815857,
+              "matches_original_display_precision": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "old_s1_id": 28,
+      "current_geometry_park_id": 28,
+      "candidate_label": "P28_option1",
+      "source_raster": "NDVI_nagoya.tif",
+      "native_crop_rectangle": {
+        "valid_n": 10619,
+        "minimum": -0.025969138368964195,
+        "maximum": 0.4526621103286743,
+        "native_crop_pixel_bytes_sha256": "d4e3a9c7e1aeba7edd7f81df9de97e3708ae55808252b1a7fcdb63320167bd75",
+        "zone_mask_bytes_sha256": "0378d991e5e4c65a369ec6c75af4c43fdf9bfe6dc720c24660155f44bbe0ca07",
+        "definition": "All valid pixels of the existing packaged native crop rectangle, including pixels outside the buffer; this is the recorded extraction window, not a newly chosen buffer or proof of the old QGIS extent"
+      },
+      "fixed_definition_comparisons": {
+        "park_plus_exterior_ring": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0953",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.025969138368964195,
+              "actual_rounded_to_old_precision": "-0.0260",
+              "actual_minus_old": -0.12126913836896419,
+              "absolute_difference_in_rounding_half_steps": 2425.382767379284,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4885",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.4526621103286743,
+              "actual_rounded_to_old_precision": "0.4527",
+              "actual_minus_old": -0.03583788967132568,
+              "absolute_difference_in_rounding_half_steps": 716.7577934265137,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0784",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.02288525551557541,
+              "actual_rounded_to_old_precision": "0.0229",
+              "actual_minus_old": -0.05551474448442459,
+              "absolute_difference_in_rounding_half_steps": 1110.2948896884918,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.5123",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.397228479385376,
+              "actual_rounded_to_old_precision": "0.3972",
+              "actual_minus_old": -0.11507152061462403,
+              "absolute_difference_in_rounding_half_steps": 2301.4304122924805,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_full_expanded_buffer": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0953",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.025969138368964195,
+              "actual_rounded_to_old_precision": "-0.0260",
+              "actual_minus_old": -0.12126913836896419,
+              "absolute_difference_in_rounding_half_steps": 2425.382767379284,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4885",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.4526621103286743,
+              "actual_rounded_to_old_precision": "0.4527",
+              "actual_minus_old": -0.03583788967132568,
+              "absolute_difference_in_rounding_half_steps": 716.7577934265137,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0784",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.025969138368964195,
+              "actual_rounded_to_old_precision": "-0.0260",
+              "actual_minus_old": -0.10436913836896419,
+              "absolute_difference_in_rounding_half_steps": 2087.382767379284,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.5123",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.4526621103286743,
+              "actual_rounded_to_old_precision": "0.4527",
+              "actual_minus_old": -0.05963788967132568,
+              "absolute_difference_in_rounding_half_steps": 1192.7577934265137,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_existing_native_crop_rectangle": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0953",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.025969138368964195,
+              "actual_rounded_to_old_precision": "-0.0260",
+              "actual_minus_old": -0.12126913836896419,
+              "absolute_difference_in_rounding_half_steps": 2425.382767379284,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4885",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.4526621103286743,
+              "actual_rounded_to_old_precision": "0.4527",
+              "actual_minus_old": -0.03583788967132568,
+              "absolute_difference_in_rounding_half_steps": 716.7577934265137,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0784",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.025969138368964195,
+              "actual_rounded_to_old_precision": "-0.0260",
+              "actual_minus_old": -0.10436913836896419,
+              "absolute_difference_in_rounding_half_steps": 2087.382767379284,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.5123",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.4526621103286743,
+              "actual_rounded_to_old_precision": "0.4527",
+              "actual_minus_old": -0.05963788967132568,
+              "absolute_difference_in_rounding_half_steps": 1192.7577934265137,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "same_existing_native_crop_rectangle_for_both": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0953",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.025969138368964195,
+              "actual_rounded_to_old_precision": "-0.0260",
+              "actual_minus_old": -0.12126913836896419,
+              "absolute_difference_in_rounding_half_steps": 2425.382767379284,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4885",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.4526621103286743,
+              "actual_rounded_to_old_precision": "0.4527",
+              "actual_minus_old": -0.03583788967132568,
+              "absolute_difference_in_rounding_half_steps": 716.7577934265137,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0784",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.025969138368964195,
+              "actual_rounded_to_old_precision": "-0.0260",
+              "actual_minus_old": -0.10436913836896419,
+              "absolute_difference_in_rounding_half_steps": 2087.382767379284,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.5123",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.4526621103286743,
+              "actual_rounded_to_old_precision": "0.4527",
+              "actual_minus_old": -0.05963788967132568,
+              "absolute_difference_in_rounding_half_steps": 1192.7577934265137,
+              "matches_original_display_precision": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "old_s1_id": 28,
+      "current_geometry_park_id": 28,
+      "candidate_label": "P28_option2",
+      "source_raster": "NDVI_nara.tif",
+      "native_crop_rectangle": {
+        "valid_n": 10619,
+        "minimum": -0.04961231350898743,
+        "maximum": 0.4177372455596924,
+        "native_crop_pixel_bytes_sha256": "f92a71071877668dd673c85949ef0cecd9a9caf06b18f8a570d997188982d1b4",
+        "zone_mask_bytes_sha256": "0378d991e5e4c65a369ec6c75af4c43fdf9bfe6dc720c24660155f44bbe0ca07",
+        "definition": "All valid pixels of the existing packaged native crop rectangle, including pixels outside the buffer; this is the recorded extraction window, not a newly chosen buffer or proof of the old QGIS extent"
+      },
+      "fixed_definition_comparisons": {
+        "park_plus_exterior_ring": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0953",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.04961231350898743,
+              "actual_rounded_to_old_precision": "-0.0496",
+              "actual_minus_old": -0.14491231350898742,
+              "absolute_difference_in_rounding_half_steps": 2898.2462701797485,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4885",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.3965997099876404,
+              "actual_rounded_to_old_precision": "0.3966",
+              "actual_minus_old": -0.09190029001235962,
+              "absolute_difference_in_rounding_half_steps": 1838.0058002471924,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0784",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.005882143042981625,
+              "actual_rounded_to_old_precision": "0.0059",
+              "actual_minus_old": -0.07251785695701837,
+              "absolute_difference_in_rounding_half_steps": 1450.3571391403675,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.5123",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.3213771879673004,
+              "actual_rounded_to_old_precision": "0.3214",
+              "actual_minus_old": -0.1909228120326996,
+              "absolute_difference_in_rounding_half_steps": 3818.4562406539917,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_full_expanded_buffer": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0953",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.04961231350898743,
+              "actual_rounded_to_old_precision": "-0.0496",
+              "actual_minus_old": -0.14491231350898742,
+              "absolute_difference_in_rounding_half_steps": 2898.2462701797485,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4885",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.3965997099876404,
+              "actual_rounded_to_old_precision": "0.3966",
+              "actual_minus_old": -0.09190029001235962,
+              "absolute_difference_in_rounding_half_steps": 1838.0058002471924,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0784",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.04961231350898743,
+              "actual_rounded_to_old_precision": "-0.0496",
+              "actual_minus_old": -0.12801231350898742,
+              "absolute_difference_in_rounding_half_steps": 2560.2462701797485,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.5123",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.3965997099876404,
+              "actual_rounded_to_old_precision": "0.3966",
+              "actual_minus_old": -0.11570029001235962,
+              "absolute_difference_in_rounding_half_steps": 2314.0058002471924,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_existing_native_crop_rectangle": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0953",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.04961231350898743,
+              "actual_rounded_to_old_precision": "-0.0496",
+              "actual_minus_old": -0.14491231350898742,
+              "absolute_difference_in_rounding_half_steps": 2898.2462701797485,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4885",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.3965997099876404,
+              "actual_rounded_to_old_precision": "0.3966",
+              "actual_minus_old": -0.09190029001235962,
+              "absolute_difference_in_rounding_half_steps": 1838.0058002471924,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0784",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.04961231350898743,
+              "actual_rounded_to_old_precision": "-0.0496",
+              "actual_minus_old": -0.12801231350898742,
+              "absolute_difference_in_rounding_half_steps": 2560.2462701797485,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.5123",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.4177372455596924,
+              "actual_rounded_to_old_precision": "0.4177",
+              "actual_minus_old": -0.09456275444030762,
+              "absolute_difference_in_rounding_half_steps": 1891.2550888061523,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "same_existing_native_crop_rectangle_for_both": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.0953",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.04961231350898743,
+              "actual_rounded_to_old_precision": "-0.0496",
+              "actual_minus_old": -0.14491231350898742,
+              "absolute_difference_in_rounding_half_steps": 2898.2462701797485,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.4885",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.4177372455596924,
+              "actual_rounded_to_old_precision": "0.4177",
+              "actual_minus_old": -0.07076275444030762,
+              "absolute_difference_in_rounding_half_steps": 1415.2550888061523,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "0.0784",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": -0.04961231350898743,
+              "actual_rounded_to_old_precision": "-0.0496",
+              "actual_minus_old": -0.12801231350898742,
+              "absolute_difference_in_rounding_half_steps": 2560.2462701797485,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.5123",
+              "decimal_places": 4,
+              "rounding_half_step": 0.00005,
+              "actual": 0.4177372455596924,
+              "actual_rounded_to_old_precision": "0.4177",
+              "actual_minus_old": -0.09456275444030762,
+              "absolute_difference_in_rounding_half_steps": 1891.2550888061523,
+              "matches_original_display_precision": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "old_s1_id": 32,
+      "current_geometry_park_id": 32,
+      "candidate_label": "P32_option1",
+      "source_raster": "NDVI_fukushima.tif",
+      "native_crop_rectangle": {
+        "valid_n": 810,
+        "minimum": -0.013612056151032448,
+        "maximum": 0.3309630751609802,
+        "native_crop_pixel_bytes_sha256": "dc0a203e5bb8b5123ea33e193e0218f18f8efe8d55caf472cb5460261a9c314f",
+        "zone_mask_bytes_sha256": "1aaf9d3ef8dbfff3a7dfd4a0f246d207b906cff1b10eaf10780770e5c020bcd8",
+        "definition": "All valid pixels of the existing packaged native crop rectangle, including pixels outside the buffer; this is the recorded extraction window, not a newly chosen buffer or proof of the old QGIS extent"
+      },
+      "fixed_definition_comparisons": {
+        "park_plus_exterior_ring": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.051013134",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.003899170784279704,
+              "actual_rounded_to_old_precision": "0.003899171",
+              "actual_minus_old": -0.0471139632157203,
+              "absolute_difference_in_rounding_half_steps": 94227926.43144059,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.386557639",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.3309630751609802,
+              "actual_rounded_to_old_precision": "0.330963075",
+              "actual_minus_old": -0.05559456383901978,
+              "absolute_difference_in_rounding_half_steps": 111189127.67803955,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.027644832",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.003848063526675105,
+              "actual_rounded_to_old_precision": "0.003848064",
+              "actual_minus_old": 0.031492895526675106,
+              "absolute_difference_in_rounding_half_steps": 62985791.05335021,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.399711102",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.287997841835022,
+              "actual_rounded_to_old_precision": "0.287997842",
+              "actual_minus_old": -0.11171326016497803,
+              "absolute_difference_in_rounding_half_steps": 223426520.32995605,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_full_expanded_buffer": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.051013134",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.003899170784279704,
+              "actual_rounded_to_old_precision": "0.003899171",
+              "actual_minus_old": -0.0471139632157203,
+              "absolute_difference_in_rounding_half_steps": 94227926.43144059,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.386557639",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.3309630751609802,
+              "actual_rounded_to_old_precision": "0.330963075",
+              "actual_minus_old": -0.05559456383901978,
+              "absolute_difference_in_rounding_half_steps": 111189127.67803955,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.027644832",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.003848063526675105,
+              "actual_rounded_to_old_precision": "0.003848064",
+              "actual_minus_old": 0.031492895526675106,
+              "absolute_difference_in_rounding_half_steps": 62985791.05335021,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.399711102",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.3309630751609802,
+              "actual_rounded_to_old_precision": "0.330963075",
+              "actual_minus_old": -0.06874802683901977,
+              "absolute_difference_in_rounding_half_steps": 137496053.67803955,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_existing_native_crop_rectangle": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.051013134",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.003899170784279704,
+              "actual_rounded_to_old_precision": "0.003899171",
+              "actual_minus_old": -0.0471139632157203,
+              "absolute_difference_in_rounding_half_steps": 94227926.43144059,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.386557639",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.3309630751609802,
+              "actual_rounded_to_old_precision": "0.330963075",
+              "actual_minus_old": -0.05559456383901978,
+              "absolute_difference_in_rounding_half_steps": 111189127.67803955,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.027644832",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.013612056151032448,
+              "actual_rounded_to_old_precision": "-0.013612056",
+              "actual_minus_old": 0.014032775848967552,
+              "absolute_difference_in_rounding_half_steps": 28065551.697935104,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.399711102",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.3309630751609802,
+              "actual_rounded_to_old_precision": "0.330963075",
+              "actual_minus_old": -0.06874802683901977,
+              "absolute_difference_in_rounding_half_steps": 137496053.67803955,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "same_existing_native_crop_rectangle_for_both": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.051013134",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.013612056151032448,
+              "actual_rounded_to_old_precision": "-0.013612056",
+              "actual_minus_old": -0.06462519015103245,
+              "absolute_difference_in_rounding_half_steps": 129250380.3020649,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.386557639",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.3309630751609802,
+              "actual_rounded_to_old_precision": "0.330963075",
+              "actual_minus_old": -0.05559456383901978,
+              "absolute_difference_in_rounding_half_steps": 111189127.67803955,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.027644832",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.013612056151032448,
+              "actual_rounded_to_old_precision": "-0.013612056",
+              "actual_minus_old": 0.014032775848967552,
+              "absolute_difference_in_rounding_half_steps": 28065551.697935104,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.399711102",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.3309630751609802,
+              "actual_rounded_to_old_precision": "0.330963075",
+              "actual_minus_old": -0.06874802683901977,
+              "absolute_difference_in_rounding_half_steps": 137496053.67803955,
+              "matches_original_display_precision": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "old_s1_id": 32,
+      "current_geometry_park_id": 32,
+      "candidate_label": "P32_option2",
+      "source_raster": "NDVI_fukushima_up.tif",
+      "native_crop_rectangle": {
+        "valid_n": 810,
+        "minimum": -0.019880520179867744,
+        "maximum": 0.237726092338562,
+        "native_crop_pixel_bytes_sha256": "a45ec6206e5b21db300fe23d3ceab5a210b4c831567fbd9286ce6690c4cc85c4",
+        "zone_mask_bytes_sha256": "1aaf9d3ef8dbfff3a7dfd4a0f246d207b906cff1b10eaf10780770e5c020bcd8",
+        "definition": "All valid pixels of the existing packaged native crop rectangle, including pixels outside the buffer; this is the recorded extraction window, not a newly chosen buffer or proof of the old QGIS extent"
+      },
+      "fixed_definition_comparisons": {
+        "park_plus_exterior_ring": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.051013134",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.016340989619493484,
+              "actual_rounded_to_old_precision": "-0.016340990",
+              "actual_minus_old": -0.06735412361949349,
+              "absolute_difference_in_rounding_half_steps": 134708247.23898697,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.386557639",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.237726092338562,
+              "actual_rounded_to_old_precision": "0.237726092",
+              "actual_minus_old": -0.148831546661438,
+              "absolute_difference_in_rounding_half_steps": 297663093.322876,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.027644832",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.019880520179867744,
+              "actual_rounded_to_old_precision": "-0.019880520",
+              "actual_minus_old": 0.007764311820132256,
+              "absolute_difference_in_rounding_half_steps": 15528623.640264511,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.399711102",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.19911177456378937,
+              "actual_rounded_to_old_precision": "0.199111775",
+              "actual_minus_old": -0.20059932743621064,
+              "absolute_difference_in_rounding_half_steps": 401198654.87242126,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_full_expanded_buffer": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.051013134",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.016340989619493484,
+              "actual_rounded_to_old_precision": "-0.016340990",
+              "actual_minus_old": -0.06735412361949349,
+              "absolute_difference_in_rounding_half_steps": 134708247.23898697,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.386557639",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.237726092338562,
+              "actual_rounded_to_old_precision": "0.237726092",
+              "actual_minus_old": -0.148831546661438,
+              "absolute_difference_in_rounding_half_steps": 297663093.322876,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.027644832",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.019880520179867744,
+              "actual_rounded_to_old_precision": "-0.019880520",
+              "actual_minus_old": 0.007764311820132256,
+              "absolute_difference_in_rounding_half_steps": 15528623.640264511,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.399711102",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.237726092338562,
+              "actual_rounded_to_old_precision": "0.237726092",
+              "actual_minus_old": -0.161985009661438,
+              "absolute_difference_in_rounding_half_steps": 323970019.322876,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "park_plus_existing_native_crop_rectangle": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.051013134",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.016340989619493484,
+              "actual_rounded_to_old_precision": "-0.016340990",
+              "actual_minus_old": -0.06735412361949349,
+              "absolute_difference_in_rounding_half_steps": 134708247.23898697,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.386557639",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.237726092338562,
+              "actual_rounded_to_old_precision": "0.237726092",
+              "actual_minus_old": -0.148831546661438,
+              "absolute_difference_in_rounding_half_steps": 297663093.322876,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.027644832",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.019880520179867744,
+              "actual_rounded_to_old_precision": "-0.019880520",
+              "actual_minus_old": 0.007764311820132256,
+              "absolute_difference_in_rounding_half_steps": 15528623.640264511,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.399711102",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.237726092338562,
+              "actual_rounded_to_old_precision": "0.237726092",
+              "actual_minus_old": -0.161985009661438,
+              "absolute_difference_in_rounding_half_steps": 323970019.322876,
+              "matches_original_display_precision": false
+            }
+          ]
+        },
+        "same_existing_native_crop_rectangle_for_both": {
+          "all_four_match_display_precision": false,
+          "fields": [
+            {
+              "field": "ndvi_inside_min",
+              "old_text": "0.051013134",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.019880520179867744,
+              "actual_rounded_to_old_precision": "-0.019880520",
+              "actual_minus_old": -0.07089365417986775,
+              "absolute_difference_in_rounding_half_steps": 141787308.3597355,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_inside_max",
+              "old_text": "0.386557639",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.237726092338562,
+              "actual_rounded_to_old_precision": "0.237726092",
+              "actual_minus_old": -0.148831546661438,
+              "absolute_difference_in_rounding_half_steps": 297663093.322876,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_min",
+              "old_text": "-0.027644832",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": -0.019880520179867744,
+              "actual_rounded_to_old_precision": "-0.019880520",
+              "actual_minus_old": 0.007764311820132256,
+              "absolute_difference_in_rounding_half_steps": 15528623.640264511,
+              "matches_original_display_precision": false
+            },
+            {
+              "field": "ndvi_outside_max",
+              "old_text": "0.399711102",
+              "decimal_places": 9,
+              "rounding_half_step": 5e-10,
+              "actual": 0.237726092338562,
+              "actual_rounded_to_old_precision": "0.237726092",
+              "actual_minus_old": -0.161985009661438,
+              "absolute_difference_in_rounding_half_steps": 323970019.322876,
+              "matches_original_display_precision": false
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "interpretation_limits": [
+    "A precise cross-ID extrema match is a numeric fingerprint clue, not an author-confirmed park identity mapping, and cannot authorize automatic SEM row reassignment.",
+    "Multiple rasters with identical pixels may all match; extrema cannot distinguish file identity within such an equivalence class.",
+    "A no-match result excludes only reproducing that old row with the audited existing fixed park/ring/full-buffer definitions and supplied candidate rasters at old display precision. It does not exclude different historical geometry, ROI, imagery, processing, or transcription.",
+    "Four-decimal extrema are weaker fingerprints than eight- or nine-decimal extrema; precision is not a freely adjustable tolerance.",
+    "The native-crop-rectangle tests use the existing recorded extraction windows only. No distance, bbox or mask was varied to chase an old value.",
+    "No original GIS, NDVI, anonymous identity, SEM input or model was changed, and no SEM was run."
+  ]
+}

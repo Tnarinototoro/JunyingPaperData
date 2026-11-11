@@ -1,0 +1,662 @@
+[
+  {
+    "path": "0_重要更正_暂停按同号用于SEM.txt",
+    "bytes": 2162,
+    "sha256": "e41c81b69084c91f82068c0a83ea51933f4b5ad4e8b5eeb948b714e3b3b0d0c9"
+  },
+  {
+    "path": "audit_rasters_stdlib.json",
+    "bytes": 137027,
+    "sha256": "57377a99474e1005d2680235653829ad54d49c0389a279fa4cc1f1e173f94e66"
+  },
+  {
+    "path": "audit_rasters_stdlib.tsv",
+    "bytes": 5055,
+    "sha256": "84bca19c855780771f750590e6c0ebac47cd71418f23f4b430a8526d58a27e9d"
+  },
+  {
+    "path": "audit_vector_topology.json",
+    "bytes": 11761,
+    "sha256": "ae3865c542ce128356e6444589fda02b24b1f04f2f9b43508c994d00c3cfd433"
+  },
+  {
+    "path": "GIS/full_100m_buffers.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "path": "GIS/full_100m_buffers.dbf",
+    "bytes": 3268,
+    "sha256": "7da5e7bbdffb5f24397eff21395067bc979f6304380c4cc68c96f6ea616b9d54"
+  },
+  {
+    "path": "GIS/full_100m_buffers.prj",
+    "bytes": 440,
+    "sha256": "ffbd8ae112fa9a339bbcada34a63c7cedd384d03dad2903d5077a4211fb39d0c"
+  },
+  {
+    "path": "GIS/full_100m_buffers.shp",
+    "bytes": 43324,
+    "sha256": "3021ef9b54471bec86ba0758323724dd23f7130e138a080e0a89b793b4e9729e"
+  },
+  {
+    "path": "GIS/full_100m_buffers.shx",
+    "bytes": 412,
+    "sha256": "3519202fbe199930090de74b629dbc9e0f8bcc58cc68f116e21e3922d7bd29f6"
+  },
+  {
+    "path": "GIS/outer_100m_rings.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "path": "GIS/outer_100m_rings.dbf",
+    "bytes": 3268,
+    "sha256": "7da5e7bbdffb5f24397eff21395067bc979f6304380c4cc68c96f6ea616b9d54"
+  },
+  {
+    "path": "GIS/outer_100m_rings.prj",
+    "bytes": 440,
+    "sha256": "ffbd8ae112fa9a339bbcada34a63c7cedd384d03dad2903d5077a4211fb39d0c"
+  },
+  {
+    "path": "GIS/outer_100m_rings.shp",
+    "bytes": 60392,
+    "sha256": "f6d8fd720f84d48919ed95f8a6a141c581e9c169f81b5799ffb8f5addcca9991"
+  },
+  {
+    "path": "GIS/outer_100m_rings.shx",
+    "bytes": 412,
+    "sha256": "a442e5c2698fc708a8e7f228495808d96ad8d2c19e93cf8d8a07eff885e84643"
+  },
+  {
+    "path": "GIS/park_boundaries.cpg",
+    "bytes": 5,
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+  },
+  {
+    "path": "GIS/park_boundaries.dbf",
+    "bytes": 3268,
+    "sha256": "7da5e7bbdffb5f24397eff21395067bc979f6304380c4cc68c96f6ea616b9d54"
+  },
+  {
+    "path": "GIS/park_boundaries.prj",
+    "bytes": 440,
+    "sha256": "ffbd8ae112fa9a339bbcada34a63c7cedd384d03dad2903d5077a4211fb39d0c"
+  },
+  {
+    "path": "GIS/park_boundaries.shp",
+    "bytes": 19196,
+    "sha256": "ea899d7da0dfecfade6f8c58b6589092b55e0dce8651626e775f7148e23c6066"
+  },
+  {
+    "path": "GIS/park_boundaries.shx",
+    "bytes": 412,
+    "sha256": "b45555fe72ae00c64e1e8a1eca2a45c6cb64374acfc6536d6ddb0b2b1b9e5708"
+  },
+  {
+    "path": "GIS/pixel_extractions.json",
+    "bytes": 47755,
+    "sha256": "91afeead87551a8ff69ece9098fe5e0d702ab0a87d730158dfdc7c1d4edf2b7d"
+  },
+  {
+    "path": "GIS/rasters/P01_NDVI.tif",
+    "bytes": 10688,
+    "sha256": "f53c90813df24fb7eb8ba130a6586a4961b00604e0652c5d30a064acce5d2a1e"
+  },
+  {
+    "path": "GIS/rasters/P01_zones.tif",
+    "bytes": 3334,
+    "sha256": "7b8dc030a56668e8ecbb1dae2f259c0967aba0ee368fa7251e68041abec80d28"
+  },
+  {
+    "path": "GIS/rasters/P02_NDVI.tif",
+    "bytes": 2792,
+    "sha256": "a34cf71d5b3e33e6ced86599af91d46c347ddbf4c45540bbf9eb8475acf6ceab"
+  },
+  {
+    "path": "GIS/rasters/P02_zones.tif",
+    "bytes": 1168,
+    "sha256": "13446d2a363d0154b42a12a9a9e2eb3060809e613588f29e0cb391ab7ee62f99"
+  },
+  {
+    "path": "GIS/rasters/P03_NDVI.tif",
+    "bytes": 4824,
+    "sha256": "eac537e293974c8c9a88fc7ec11f46bb439b727e21e5993b976d3787316a8796"
+  },
+  {
+    "path": "GIS/rasters/P03_zones.tif",
+    "bytes": 1784,
+    "sha256": "f905af6092ac714e76d2bb1604da0b0648afca1c14265ffe907606d7f2becf07"
+  },
+  {
+    "path": "GIS/rasters/P04_NDVI.tif",
+    "bytes": 22584,
+    "sha256": "64f8d0704cf161bff0df1274904f13ac817675fc020dadb83a6ed0af5e594c77"
+  },
+  {
+    "path": "GIS/rasters/P04_zones.tif",
+    "bytes": 6536,
+    "sha256": "16a1d70574d10f33b3208d75e3fa1305459d1cd06d9fec24658d8ea678f55fd9"
+  },
+  {
+    "path": "GIS/rasters/P05_NDVI.tif",
+    "bytes": 8824,
+    "sha256": "e5d24aef8242eb957ba33da4f91044aa9dc5501323c87e87832ec7c12cc2c9a7"
+  },
+  {
+    "path": "GIS/rasters/P05_zones.tif",
+    "bytes": 2784,
+    "sha256": "3438c0c051050b06ff7af2a74d492e3a54cf44b384e22418374c63303ea1c500"
+  },
+  {
+    "path": "GIS/rasters/P06_NDVI.tif",
+    "bytes": 2780,
+    "sha256": "55301ab92a9b4dae447b355bbacdad34a5c4ef6808a7ccee79c73cf4e876452e"
+  },
+  {
+    "path": "GIS/rasters/P06_zones.tif",
+    "bytes": 1165,
+    "sha256": "9cbaf566fe156019190b2bbde7531c4e13919e178e53ce48434e990657f73484"
+  },
+  {
+    "path": "GIS/rasters/P07_NDVI.tif",
+    "bytes": 1292,
+    "sha256": "88ee5059c4d1a4865ef9fea94016dd51fc3cc003f94128e89031b940ad000957"
+  },
+  {
+    "path": "GIS/rasters/P07_zones.tif",
+    "bytes": 745,
+    "sha256": "877b7ad928094270cad91b64ae81bc24a6e74b0a79d06daffad2d6cc2fa5f3c4"
+  },
+  {
+    "path": "GIS/rasters/P08_NDVI.tif",
+    "bytes": 12816,
+    "sha256": "1adb458979e2d0bef02d0b9fe1094b0387358ffaf0be30a8dfbd9b2ddc1cc8ae"
+  },
+  {
+    "path": "GIS/rasters/P08_zones.tif",
+    "bytes": 3866,
+    "sha256": "381545456ee05c15259ef92ed4ff59e0c8534713abbd95d5c4ec40a17202ad1f"
+  },
+  {
+    "path": "GIS/rasters/P09_option1_NDVI.tif",
+    "bytes": 3744,
+    "sha256": "801173c1b40cbaa5b8a7387832716a0fcc4ea2e6cad4f2f1618011c6156ffef4"
+  },
+  {
+    "path": "GIS/rasters/P09_option1_zones.tif",
+    "bytes": 1454,
+    "sha256": "ed12ba375d0b0158a95123ecc0249fe7ae0d098d565e103aee44b8de56f9733a"
+  },
+  {
+    "path": "GIS/rasters/P09_option2_NDVI.tif",
+    "bytes": 3744,
+    "sha256": "e799596c96bce606770e54be46a1ce99723ea59dc3a244e7b653418ff27abc5f"
+  },
+  {
+    "path": "GIS/rasters/P09_option2_zones.tif",
+    "bytes": 1454,
+    "sha256": "ed12ba375d0b0158a95123ecc0249fe7ae0d098d565e103aee44b8de56f9733a"
+  },
+  {
+    "path": "GIS/rasters/P10_NDVI.tif",
+    "bytes": 42840,
+    "sha256": "554860203dcc72e415b3ff537e23f499a4240506f766930a71e4ca5e6dfd1806"
+  },
+  {
+    "path": "GIS/rasters/P10_zones.tif",
+    "bytes": 11636,
+    "sha256": "1211227d7563e61d08210caaf10ac4159c090b54e3dc12047f911d4e4b4bdcbf"
+  },
+  {
+    "path": "GIS/rasters/P11_NDVI.tif",
+    "bytes": 4728,
+    "sha256": "de6b8e19c111a64b76bb407557e9bc9ba96a035d858c7d36db0bd3734c8787f1"
+  },
+  {
+    "path": "GIS/rasters/P11_zones.tif",
+    "bytes": 1712,
+    "sha256": "8f31d2aea4b9deca4e06ed19eeaa011833b0627bcddca83a340b933ed4941bfc"
+  },
+  {
+    "path": "GIS/rasters/P12_NDVI.tif",
+    "bytes": 6584,
+    "sha256": "ae511bb9e7045b8c6faf8babdb86a04c495109062b360045951d570724322519"
+  },
+  {
+    "path": "GIS/rasters/P12_zones.tif",
+    "bytes": 2224,
+    "sha256": "c8b554a2705ad1fd670e1555c2e42e7f64f42ddfab42bee41d0f5bf64a80abd7"
+  },
+  {
+    "path": "GIS/rasters/P13_NDVI.tif",
+    "bytes": 5692,
+    "sha256": "210791ea03d333f08b50573d260d17457ccad3eb64e49adc3983bbdd64376abf"
+  },
+  {
+    "path": "GIS/rasters/P13_zones.tif",
+    "bytes": 1989,
+    "sha256": "e2b38b1aa43e882735a32e077498e11df40f7ec9b6d6a112addc9a9f1c7605b2"
+  },
+  {
+    "path": "GIS/rasters/P14_NDVI.tif",
+    "bytes": 6776,
+    "sha256": "9aa9bb7cc07ed3fc4ecdfeb60ea2e70ad8a55fde6e80badb46172e91d9fb4ce3"
+  },
+  {
+    "path": "GIS/rasters/P14_zones.tif",
+    "bytes": 2200,
+    "sha256": "13ed2083edafeedee91ee45ca45e32fffd1b73f756466b3a5da629bbf339772b"
+  },
+  {
+    "path": "GIS/rasters/P15_NDVI.tif",
+    "bytes": 11592,
+    "sha256": "56a8a218a05d794818cb0ec2542f20733dbd9b13a62dd6da862e1703d2ae8f4c"
+  },
+  {
+    "path": "GIS/rasters/P15_zones.tif",
+    "bytes": 3500,
+    "sha256": "017d5de785e37c03efcb380a72dd8b88c92fc3caf5e2bf888d2f4eaca1cb4129"
+  },
+  {
+    "path": "GIS/rasters/P16_NDVI.tif",
+    "bytes": 7344,
+    "sha256": "d0feb836e9f8b1129e09aa9dc4ca32d6572f8812e3df54dac5d7030813b1af51"
+  },
+  {
+    "path": "GIS/rasters/P16_zones.tif",
+    "bytes": 2402,
+    "sha256": "f959782c273facb10f738d45ff89ed76951ab0e6c962da4d7f8f2e44797f168d"
+  },
+  {
+    "path": "GIS/rasters/P17_NDVI.tif",
+    "bytes": 6992,
+    "sha256": "3b7432192307684e5f822126ad4836a1b66f2cb2031adaa22be57f9eba5c3296"
+  },
+  {
+    "path": "GIS/rasters/P17_zones.tif",
+    "bytes": 2362,
+    "sha256": "3670da88eb562f19c9353eeb0b7f1f662995bd41fc47adc5046f57fa8d9869d8"
+  },
+  {
+    "path": "GIS/rasters/P18_option1_NDVI.tif",
+    "bytes": 6128,
+    "sha256": "f5580c045e48c6ae5e62da119d208741b26342b5af8cb876c8d453a3435af9e5"
+  },
+  {
+    "path": "GIS/rasters/P18_option1_zones.tif",
+    "bytes": 2110,
+    "sha256": "ae1df9133af66c62a1889f12757b22369e558c4a70d3bae80eda9dd6d5e489bb"
+  },
+  {
+    "path": "GIS/rasters/P18_option2_NDVI.tif",
+    "bytes": 6128,
+    "sha256": "740cbbe7ca95cfc210f15c841222f4740076be7d853b19d716eb869abfa61e4f"
+  },
+  {
+    "path": "GIS/rasters/P18_option2_zones.tif",
+    "bytes": 2110,
+    "sha256": "ae1df9133af66c62a1889f12757b22369e558c4a70d3bae80eda9dd6d5e489bb"
+  },
+  {
+    "path": "GIS/rasters/P19_NDVI.tif",
+    "bytes": 69664,
+    "sha256": "be717372d5e6d302643e86450b01455e975de4bf789cc5c976098ac9a38532cb"
+  },
+  {
+    "path": "GIS/rasters/P19_zones.tif",
+    "bytes": 18174,
+    "sha256": "8594519ba0b27724bf5e81a6673216d3896fdbadba1ef33dd79d5e32378d158f"
+  },
+  {
+    "path": "GIS/rasters/P20_NDVI.tif",
+    "bytes": 5880,
+    "sha256": "6de9fefa053ef03531d6d59520b65376c627ed115d00b3b1f7c4bdb26f7c95a3"
+  },
+  {
+    "path": "GIS/rasters/P20_zones.tif",
+    "bytes": 2000,
+    "sha256": "b54665792359e1e78472fa030a6e31bf5b80e84d1c261947dcd27e22ff3e2918"
+  },
+  {
+    "path": "GIS/rasters/P21_NDVI.tif",
+    "bytes": 12608,
+    "sha256": "6f80bfcdac21cf9bcd89a2e67d1eeeb5132dccc521d7202ab707d2d5ddfb6f2b"
+  },
+  {
+    "path": "GIS/rasters/P21_zones.tif",
+    "bytes": 3874,
+    "sha256": "a77b0b4a77626bdeb1109219f4aaac5793b28c0e9e4603fea58cb865fa43d6d3"
+  },
+  {
+    "path": "GIS/rasters/P22_NDVI.tif",
+    "bytes": 8928,
+    "sha256": "a41acb47d58f8da1c8818f552d2d0d4af28a16a38d60f6e7d38cd80b4cf04221"
+  },
+  {
+    "path": "GIS/rasters/P22_zones.tif",
+    "bytes": 2894,
+    "sha256": "9d0554a80ef7da2b13fb057f0a02071bb18cb9d80ade0f371fdc39cd57715957"
+  },
+  {
+    "path": "GIS/rasters/P23_NDVI.tif",
+    "bytes": 2348,
+    "sha256": "1222c3853f2a89719a4bea49ae7967d5c530d8eb554653a5c3d28fd802d5391c"
+  },
+  {
+    "path": "GIS/rasters/P23_zones.tif",
+    "bytes": 1033,
+    "sha256": "2c5df151cd19e0bb79bfeee06fe3240bb94fc014da67d068d1f638f297788ecf"
+  },
+  {
+    "path": "GIS/rasters/P24_NDVI.tif",
+    "bytes": 6360,
+    "sha256": "56e4bc26f7a46ec79f9bf35dd03d41290f0b8deb1a62da80a14309007cd7b70f"
+  },
+  {
+    "path": "GIS/rasters/P24_zones.tif",
+    "bytes": 2192,
+    "sha256": "f7d8260a8992d8df8b1241c9ec303d148c4ac550f5279fdc2680adffb1682ff5"
+  },
+  {
+    "path": "GIS/rasters/P25_NDVI.tif",
+    "bytes": 43360,
+    "sha256": "331a4dee385b10fe9cdd67ee43f37eb73c141ee16d54e52b7e003af6caf8c4de"
+  },
+  {
+    "path": "GIS/rasters/P25_zones.tif",
+    "bytes": 11802,
+    "sha256": "99ebdffa36c0530fff5223edd1efb4a4d01ae10d4b26f6f6ae9947d1be10b1f3"
+  },
+  {
+    "path": "GIS/rasters/P26_NDVI.tif",
+    "bytes": 4432,
+    "sha256": "f08650c8e84b55b25b9588019108dbc18902827c938d3a801e5efd5a47758bde"
+  },
+  {
+    "path": "GIS/rasters/P26_zones.tif",
+    "bytes": 1662,
+    "sha256": "7d653326dbcf3ffea1af471f4965ca1b4ab18de2e788202259f95bdbc981793e"
+  },
+  {
+    "path": "GIS/rasters/P27_NDVI.tif",
+    "bytes": 15512,
+    "sha256": "9040085be83c65f18d7e5eea4f959e67af0351caf3166508502cd251ced39355"
+  },
+  {
+    "path": "GIS/rasters/P27_zones.tif",
+    "bytes": 4552,
+    "sha256": "886bf2dabc5b1c40eb4804951093c3d9be7b1c310517227d981748e6c964aaeb"
+  },
+  {
+    "path": "GIS/rasters/P28_option1_NDVI.tif",
+    "bytes": 45060,
+    "sha256": "a919e7cd97ec7381d86e4168c7ffaa47f90d7a025a8a978b3d8a8eb2dca0c7df"
+  },
+  {
+    "path": "GIS/rasters/P28_option1_zones.tif",
+    "bytes": 13163,
+    "sha256": "47e0b9fece2f1d669f90cd1d9d5440aae19f62a7a8a990895ceae5fa6988ef95"
+  },
+  {
+    "path": "GIS/rasters/P28_option2_NDVI.tif",
+    "bytes": 45060,
+    "sha256": "41f15f3ec656e7e31f75cefa2230645cc145e602ca4538b404fda6b82e0ab450"
+  },
+  {
+    "path": "GIS/rasters/P28_option2_zones.tif",
+    "bytes": 13163,
+    "sha256": "47e0b9fece2f1d669f90cd1d9d5440aae19f62a7a8a990895ceae5fa6988ef95"
+  },
+  {
+    "path": "GIS/rasters/P29_NDVI.tif",
+    "bytes": 5832,
+    "sha256": "06a0443b15a312a657f289b5d9c8723a8c24414e9d3179f669132ef9a4deb36a"
+  },
+  {
+    "path": "GIS/rasters/P29_zones.tif",
+    "bytes": 2012,
+    "sha256": "24427365fb3abc958b8e8cabcbd186dad22713fe6eb626ae020a29dbf9cdfaa3"
+  },
+  {
+    "path": "GIS/rasters/P30_NDVI.tif",
+    "bytes": 8252,
+    "sha256": "eb61d2aae0ef995c27d0020d45ca08197d3cee158462a79daf4c93075cdd2336"
+  },
+  {
+    "path": "GIS/rasters/P30_zones.tif",
+    "bytes": 2677,
+    "sha256": "3fdbb38ed448cf5491c6e8818ebdec4b19faa27df0e8c658fc7b93014d879b4f"
+  },
+  {
+    "path": "GIS/rasters/P31_NDVI.tif",
+    "bytes": 7236,
+    "sha256": "517e6865ff29931a49189d0464ad1e1b97a3487ef494a1d0dd783b9ce44da1ab"
+  },
+  {
+    "path": "GIS/rasters/P31_zones.tif",
+    "bytes": 2399,
+    "sha256": "9568ecdde51a6e0ca947970d64ece482694c56d0a253beb03ed63502dbbc276f"
+  },
+  {
+    "path": "GIS/rasters/P32_option1_NDVI.tif",
+    "bytes": 3984,
+    "sha256": "846d4181186791770268af942a4127b6775bd5423b5e2424a6f0aa69880c6c62"
+  },
+  {
+    "path": "GIS/rasters/P32_option1_zones.tif",
+    "bytes": 1514,
+    "sha256": "91310abdbffc65aecb66ea7f50e4ece5ce9a41b98267f508d49d9bd2bd6f19e5"
+  },
+  {
+    "path": "GIS/rasters/P32_option2_NDVI.tif",
+    "bytes": 3984,
+    "sha256": "757ece258fc3d5bca2ff53c02076ddfffbb6578421f9e3f2a717ec3c28012980"
+  },
+  {
+    "path": "GIS/rasters/P32_option2_zones.tif",
+    "bytes": 1514,
+    "sha256": "91310abdbffc65aecb66ea7f50e4ece5ce9a41b98267f508d49d9bd2bd6f19e5"
+  },
+  {
+    "path": "GIS/rasters/P33_NDVI.tif",
+    "bytes": 10104,
+    "sha256": "82b6fcd3ef4e47b6e70554043bbcea3bcc8ca55bcf6579df42fe47f77565cb06"
+  },
+  {
+    "path": "GIS/rasters/P33_zones.tif",
+    "bytes": 3104,
+    "sha256": "e04cf8f94bb57ce68d889b1a6a8432ef68b64e56b99599e67dc6f2d723618c7c"
+  },
+  {
+    "path": "GIS/rasters/P34_NDVI.tif",
+    "bytes": 10584,
+    "sha256": "93965a946ac11bcfc66b9185f3a2dd168d33f5469ea2088529afe5dca6e08c20"
+  },
+  {
+    "path": "GIS/rasters/P34_zones.tif",
+    "bytes": 3404,
+    "sha256": "628184efac20e98b128009f68dcf746541a5caf219735b4d0d981fe332659394"
+  },
+  {
+    "path": "GIS/rasters/P35_NDVI.tif",
+    "bytes": 9576,
+    "sha256": "72e07c11461e4ab43f4256f2422d1dee0b2f25649da9bbd1ca82b622c01e60b0"
+  },
+  {
+    "path": "GIS/rasters/P35_zones.tif",
+    "bytes": 3056,
+    "sha256": "6632d3a4ac5a30ed487d2726b4fae89159037361d3a8095669f56d059ccbdf28"
+  },
+  {
+    "path": "GIS/rasters/P36_NDVI.tif",
+    "bytes": 2344,
+    "sha256": "440657793886e555c8db6efd493b586e1a611a412ec97df9379eeda934a4545a"
+  },
+  {
+    "path": "GIS/rasters/P36_zones.tif",
+    "bytes": 1044,
+    "sha256": "b85edd2c6ba321ce50ef4109c973bfcc696b441ad0ba4cdab9ad3cceb94663e3"
+  },
+  {
+    "path": "GIS/rasters/P37_NDVI.tif",
+    "bytes": 5656,
+    "sha256": "1d885500fbf27d065ad6dda3d59654057e2146813edfe1c8417b22e41f7c3854"
+  },
+  {
+    "path": "GIS/rasters/P37_zones.tif",
+    "bytes": 1920,
+    "sha256": "f76128632b4d8d319229353fb0639874322606e2c402e47d83bcd9098ae69803"
+  },
+  {
+    "path": "GIS/rasters/P38_NDVI.tif",
+    "bytes": 7192,
+    "sha256": "5ecea9a41ca6886fe686725fd7cca9d3bb4e30893fa9db918229d503c669bf25"
+  },
+  {
+    "path": "GIS/rasters/P38_zones.tif",
+    "bytes": 2400,
+    "sha256": "1897d5cd83fd4a33ed912bc1c9be1f40a612780d9b7d02a5c33418ffff325686"
+  },
+  {
+    "path": "GIS/rasters/P39_NDVI.tif",
+    "bytes": 6744,
+    "sha256": "ffc8f551c711e7e1c529a01ede0646db5565b80e8fdc526e12f4f6871c8f4912"
+  },
+  {
+    "path": "GIS/rasters/P39_zones.tif",
+    "bytes": 2264,
+    "sha256": "2446ecb5437c7833f15c141fd5bf97fc496465675829065e25d0716d8b263dc9"
+  },
+  {
+    "path": "GIS/valid_pixels.csv",
+    "bytes": 3378563,
+    "sha256": "6f62fd7c2b1d269f5b99a4d968e66bb6d8f93c2a95ff1bec4ae9d28b7fcefda9"
+  },
+  {
+    "path": "NDVI_area_means_39_review.csv",
+    "bytes": 2646,
+    "sha256": "1fdb5248b9ad4b27c81a15adb6a23d7f49963c733ac05a4c64bb2b4f3acd2c49"
+  },
+  {
+    "path": "NDVI区域均值复核.qgs",
+    "bytes": 72721,
+    "sha256": "603361c640dd6268394495845ed0d46730194e9a73757f1523bc2560556c1570"
+  },
+  {
+    "path": "NDVI区域平均值_39公园_待4园影像确认.xlsx",
+    "bytes": 15695,
+    "sha256": "fdd7100b6d7ca6a2e6e9417437ca9f541119c9b3b89ec6ed3ad0557d4174a35b"
+  },
+  {
+    "path": "overlap_sources_4parks.csv",
+    "bytes": 663,
+    "sha256": "3798a5b360b4e94ad415af3fdcfdfa55465c4e9f48619b605ae0336b2f8ed26b"
+  },
+  {
+    "path": "QC/audit_regional_means_qc.json",
+    "bytes": 9054,
+    "sha256": "90ded226bade69abb26def2cd28dae99871944113ca53c7fbf7ecce58cbc3cbf"
+  },
+  {
+    "path": "QC/qc_crop_raw_bits.json",
+    "bytes": 98157,
+    "sha256": "a904cbfa6605129418d8090387dea0a7f15a6b99d6702d33d64d1f38a9e53a8a"
+  },
+  {
+    "path": "QC/qc_final_package.json",
+    "bytes": 1369,
+    "sha256": "74f6c08f22e7f80d7d4a8ac54514522f2d1e74d85d1c2873728dbbef2130a4e5"
+  },
+  {
+    "path": "QC/qc_native_raster_reads.json",
+    "bytes": 18581,
+    "sha256": "970758afb0d7441853a970933e7ce30a988f98b23a730dcb46d08605522ca1d6"
+  },
+  {
+    "path": "QC/qc_packaged_pixel_means.json",
+    "bytes": 4819,
+    "sha256": "625611f0b4ad13ddc879bed8bb40f92a9f90d8014708cb2ce6b6cfcf5ca5d34d"
+  },
+  {
+    "path": "QC/qc_workbook_consistency.json",
+    "bytes": 9537,
+    "sha256": "ad8e999a1e30e8ffd949aef8a1e2f6c1e8de817080ce4c68de961f584b892863"
+  },
+  {
+    "path": "regional_mean_candidates.csv",
+    "bytes": 11199,
+    "sha256": "786de782bbe012b1a1215d2cc8aa1ed502ceddaf9da5b44c1a9e00c8c42e09a3"
+  },
+  {
+    "path": "regional_mean_source_scan.json",
+    "bytes": 118651,
+    "sha256": "8f7eabca33d5a14acb40a6fa34596f19473f48e9dd26d3d704e48068e5433636"
+  },
+  {
+    "path": "scripts/audit_rasters_stdlib.py",
+    "bytes": 16169,
+    "sha256": "3114a04517367d842659b7e6bd6bcba2b8a1d440a07a4d37488f179eda8ae833"
+  },
+  {
+    "path": "scripts/audit_vectors_std.py",
+    "bytes": 11634,
+    "sha256": "8ba6f067cfa6dda0c21b4a49533be3b9ee7a837752ec86efada7e50ad95231b3"
+  },
+  {
+    "path": "scripts/build_qgis_project.py",
+    "bytes": 4879,
+    "sha256": "bd6ebdb360503dc9b7efa8324400d548b03b8853baf2d356b87af29f9f377bd3"
+  },
+  {
+    "path": "scripts/build_review_package.py",
+    "bytes": 20049,
+    "sha256": "9ec1c6e611be94fc0eb28827926b0b29cbeb36718d42f1128be752701c683b67"
+  },
+  {
+    "path": "scripts/compute_regional_means.py",
+    "bytes": 16532,
+    "sha256": "d37315c5e5cf418bbacb6fad9224ddfb35c62b2af24c298401435c4a8589ed6e"
+  },
+  {
+    "path": "scripts/finalize_review_package.py",
+    "bytes": 7439,
+    "sha256": "9223983cbba47705950ddaa363d8799be7afa3fe07c00898105824d9646733a7"
+  },
+  {
+    "path": "scripts/geo_math_stdlib.py",
+    "bytes": 5486,
+    "sha256": "75ce584ad3c9ddadf16be612782f8f1ed5295696b58e1a7a2ecb01a672a00c68"
+  },
+  {
+    "path": "scripts/qc_crop_raw_bits.py",
+    "bytes": 12568,
+    "sha256": "bc9872ded3439efa0b33fd95b3a338ea6e638eaaa8c4f607f16affc99cab2708"
+  },
+  {
+    "path": "scripts/qc_native_raster_reads.py",
+    "bytes": 7384,
+    "sha256": "23e63b88bcfb8a68c8c72906e8d13aad2111d61ce48a0f28b2be21eb00f084b1"
+  },
+  {
+    "path": "scripts/qc_regional_means_stdlib.py",
+    "bytes": 9771,
+    "sha256": "fb6c21bf74eacb394ff3555d6c7e42a35d3a2f9fa9e22abf0157558a6e8c1f1c"
+  },
+  {
+    "path": "scripts/verify_pack.py",
+    "bytes": 3398,
+    "sha256": "0ab1c678aefac0bee1fe81c6cedfb11686cfb6819b0e6968fbff65b4fa4c71ad"
+  },
+  {
+    "path": "source_manifest.json",
+    "bytes": 3103,
+    "sha256": "8090fabfe2173aae9341e6d28170a5417f7b007ef588ac310e41ae9b391ae1ad"
+  },
+  {
+    "path": "先读_数据状态与GIS复核.md",
+    "bytes": 5834,
+    "sha256": "77b8917a71a6886b7ea9b694e8b139f660d48081a6a8caba763e69a8fc275e13"
+  }
+]

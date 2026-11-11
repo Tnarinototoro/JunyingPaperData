@@ -1,0 +1,103 @@
+J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 / Data Brief 61 （ 2025 丿 717 / 60
+· README.txt: brief description Of the dataset content and file structure.
+5
+· metadata—pGDV—dataset.pdf: full metadata including methodological summary, variable
+descriptions, and legend fO 「 map interpretation.
+AII spatial files use the ETRS 89 / UTM zone 30N projection (EPSG: 25830 ） · The data can be vi-
+sualized in standard GIS software (e.g., QGIS, ArcGIS) and analyzed using geospatial or statistical
+tOOls.
+4 · Experimental Design ， Materials and Methods
+Th e pGDV dataset was generated through a multi-step approach integrating remote sensing
+time series, ecohydrological metrics, and existing aquifers maps (Fig. 2 ） · Th e process wa S struc-
+9
+0
+匚 >
+0
+0
+0
+0
+Snow mask （ > 1 ％ ）
+monthly Of each year
+Apply SOil and s now masks
+Sentinel-2
+COllection （ 2019 · 2023 ）
+QuaIity filtering
+NDVI monthly Of
+each year
+V e10
+SOil mask
+(NDVI<O.I)
+Dry-wet NDVI
+t Dry NDVI
+difference in the AAZ
+(August)
+(August - June)
+Setting thresholés by
+Reclassification
+Dry-wet NDVI
+Dry NDVI
+difference
+（ 100 ， 200 ， 300 ）
+（ 10 ， 20 ， 30 ）
+CV NDVI
+interannual
+（ 1 ， 2 ， 3 ）
+《 Dry-wet NDVI
+difference in the SAZ and
+CAZ (August - May)
+Reclassification
+Dry-wet NDVI
+Dry N DVI
+difference
+（ 100 ， 200 ， 300 ）
+（ 10 ， 20 ， 30 ）
+！ CV NDVI
+interanual
+CV NDVI
+interannual
+〈 1 ， 2 ， 3 ）
+SPEI
+0
+0 ·
+0
+0
+0
+0
+FAME
+0
+0
+0
+0
+0
+0
+Springs
+0
+0
+0
+0
+0
+64 classes for alpine zone
+Hlerarchical
+Springs analysis
+64 classes for sloping and carbonate zone
+Hierarchical clustering
+3 potencial G DV
+Hygrophilous vegetation analysis
+Fig. 2 · Workflow fO 「 generating the pGDV dataset through a multi-step approach integrating remote sensing time series,
+ecohydrological metrics, and aquifer mapping.
+tured in five main phases:
+1 · Data acquisition: SentineI-2 Leve 1 2A i m age ry from January 2019 tO December 2023 wa s
+obtained from the Copernicus Open Access Hub. A tota I of 2 537 images covering the
+Sierra Nevada Protected Are a were used. CIoud and snow masl<ing were applied using
+SentineI-2 QA bands (MSK_CLDPRB, MSK_SNWPRB), excluding pixels with > 10 ％ cloud
+probability and > 1 ％ snow probability. A minimum NDVI threshold of 0 · 1 wa s used t0
+masl< non-vegetated areas ， validated using high-resolution orthophotos (PNOA).
+2 · CaIculation Of NDVI-based ecohydrological attributes: Monthly NDVI wa s calculated using
+SentineI-2 bands B4 (red) and B8 (NIR). Three attributes we re derived: Dry-season NDVI
+（ N DVI in August), Dry-wet N DVI difference (May/June vs August, altitudinally adjusted),
+and lnterannual NDVI coeficient 0f variation （ CV from 2019 一 2023 ）
+3 · CIassification int0 ecohydrological classes and pGDV levels: F0110wing th e functional clas-
+sification approach proposed by [ 12L each NDVI-derived ecohydrological attribute wa s di-
+vided intO four quartile-based categories, representing gradients Of ecosystem functioning.
+TO facilitate class labeling and subsequent interpretation, numerical codes we re assigned
+tO each category (e.g., 100 一 400 for dry-season NDVI, 10 一 40 for dry-wet N DVI difference,

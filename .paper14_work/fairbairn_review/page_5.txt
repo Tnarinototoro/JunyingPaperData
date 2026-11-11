@@ -1,0 +1,81 @@
+www.nature.com/scientificreports/
+0
+0
+0
+0 丿
+1 5
+5
+0
+0
+0
+25
+50
+8
+0
+100
+200
+Buffer
+0
+400
+800
+0 ． 6
+0
+0 ． 4
+0 ， 2
+25
+50
+100
+200
+Buffer
+400
+800
+Fig. 3 ， Variation in NDVI and vegetation volume around monitoring points. Boxp10ts showing the
+distribution 0f mean NDVI ()e and mean vegetation volume (right) at six different radius buffers （ 25 ， 50 ，
+100 ， 200 ， 400 ） 800 m) around 86 bird monitoring points in Munich, Germany.
+Analysis
+TO determine what buffer around each point best describes the bird diversity metrics (richness, VAR, and
+diversity) ， we compared the partial r- squared 仂 ． 行 一 r2 from the sensemakr package57) from linear models
+for each dlversity metric and buffer (bi) for both NDVI and vegetation volume as explanatory variables and
+recording week and distance fi ℃ m the city centre as covariates tO account for temporal and spatial variation
+(Eq. 2 ） ． TO ensure the independence of predlctors and covariates ， we checked for collinearity using the 喱 卜 t 叩
+function from the usdm package58, ensuring a variance inflation factor Of less than 5 was maintained. All models
+were assessed tO ensure they met the assumptions Of linear regression, including linearity, homoscedasticity,
+normality 0f residuals, and absence 0f multicollinearity. Vegetation volume was log-transformed for all models
+and NDVI was transformed for the Shannon diversity models. We selected the best buffer as the one with the
+highest r-squared, which appeared most frequently across all diversity metrics.
+lm （ 砌 ℃ rs metric ～ week 十 砌 5 a “ t0 c centre + (ndvi or ℃ g a 昆 0 “ 省 視 me
+（ 2 ）
+TO compare NDVI and vegetation volume as predictors for bird diversity, we compared the best buffer models
+from before for each diversity metric and NDVI and vegetation volume based on the model r-squared values.
+models with the highest r- squared were selected. We tested for spatial autocorrelation in the best models using
+59
+Moran's I test implemented in the DHARMa package tO ensure the spatial independence Of our observations.
+TO test hOW much Of the total variation in community composition (the diversity and abundance Of different
+species within a site) can be explained by NDVI and vegetation volume ， we utilised non -metric multidimensional
+60
+scaling (NMDS; metaMDS function in the vegan package ） using VAR as a proxy for abundance and a Bray-
+Curtis dissimilarity matrix with a log plus one transformation to reduce the effect of highly abundant (vocal)
+species. TO compare if NDVI or vegetation volume best describes community composition, we conducted an
+environmental fit (envfit function 0f the g01 package) ， including NDVI, vegetation volume ， recording week,
+and distance t0 the city centre as environmental variables. 咀 NMDS was rotated t0 align NDVI with NMDSI
+for visualisation purposes. We compared variables based on their r- squared and significance. TO understand
+hOW species habitat preference drives community composition, we assigned each identified species a habitat
+preference using the AVONET database · Species with a habitat preference for rock were reassigned t0 human
+modified as many urban species would originate from cliff and mountain habitats · AdditionaIIy, as Munich is
+inland ， any species with a coastal habitat preference were also reassigned tO human -modified. Species associated
+with water (riverine & wetland) were combined intO a single category aquatic ， and open land species (grassland
+& shrubland) were combined intO a single category open. "lhe species scores were then plotted in the ordination
+plot, and their names were coloured by habitat preference for visual inspection Of patterns.
+As VAR can be hard t0 compare between bird species because they depend not only on the abundance 0f
+species but also on how frequently they vocalize ， assessed how much the patterns observed in the NMDS
+were driven by vocal activity rate (VAR) ， we conducted an additional NMDS with the community matrix
+converted tO presence ． absence using the decostand function from the vegan package and Jaccard distance. TO
+further compare the spatial relationships between the two ordinations, we performed a Procrustes analysis
+and applied the Mantel test 仂 ro 囗 卫 然 and m 7 / functions in 1 ℃ g 7 ） tO assess the alignment and correlation
+between the Bray-Curtis distance matrix (from the VAR-based NMDS) and the Jaccard distance matrix (from
+the presence- absence NMDS).
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+5

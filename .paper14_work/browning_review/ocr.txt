@@ -1,0 +1,1799 @@
+@@ PAGE 1 / 21 @@
+lnternational Journal of
+． E iro 办 W ／ / Research
+and 户 “ 况 e
+Review
+MDPI
+Within What Distance Does "Greenness" Best Predict
+PhysicaI HeaIth? A Systematic Review of Articles
+with GIS Buffer Analyses across the Lifespan
+0
+Matthew Browmng 1 ' 2
+and Kangjae Lee
+1
+2
+Department of Recreation, Sport and Tourism, Umversity 0f lllinois at Urbana-Champaign,
+Champaign, IL 61820 / USA
+lllinois lnformatics lnstitute, University of lllinois at Urbana-Champaign, Champaign, IL 61802 / USA;
+klee 171@illinois ． edu
+Correspondence: brownin@illinois.edu/ TeI.: + 1 一 217 一 300 一 3496
+Academic Editor ： Paul B. Tchounwou
+Received ： 31 May 2017 ； Accepted ： 21 June 2017 ； PubIished: 23 June 2017
+Ab stract: ls the amount 0f / greenness " within a 250 一 m / 500 一 m / 1000 一 m or a 2000 一 m buffer surrounding
+a person's home a good predictor of their physical health? The evidence is inconclusive ． We reviewed
+Web of Science articles that used geographic information system buffer analyses to identlfy trends
+between physical health, greenness, and distance within which greenness is measured. Our inclusion
+criteria were: （ 1 ） use Of buffers tO estimate residential greenness; （ 2 ） statistical analyses that calculated
+significance of the greenness-physical health relationship; and （ 3 ） peer-reviewed articles published in
+English between 2007 and 2017 ， To capture multiple findings from a single article, we selected our
+unit 0f inquiry as the analysis, not the article. Our final sample included 260 analyses in 47 articles ，
+AII aspects of the review were in accordance with PRISMA guidelines. Analyses were independently
+judged as more, less, or least likely to be biased based on the inclusion of objective health measures
+and income / education controls ， We found evidence that larger buffer sizes, up tO 2000 m, better
+predicted physical health than smaller ones ， We recommend that future analyses use nested rather
+than overlapping buffers tO evaluate tO what extent greenness 77 lmme diately around a person's
+home (i.e., within 1000 一 2000 m) predicts physical health.
+Keyword s ： systematic revlew; greenness; Geographic lnformation System (GIS); physical he alth
+buffers; green space; park; health outcomes; Normalized Difference Vegetation lndex (NDVI)
+1 · lntroduction
+AS a result Of rap id urb anization, a growing disconnect from nature, and rising rates Of disease
+and illness, many groups are increasingly interested in the effects 0f greenspaces on physical health.
+Greenspaces provide daily opp ortunities for physical exercise and stress relief [ 1 ] ． The distance
+within which greensp aces provide these opportunities tO any meaningful degree, however, is not well
+understood · ls there a stronger correlation between health and greensp aces within 250 m Of someone' s
+home, than those within 1000 m Of someone 's home ？ The empirical evidence needed tO answer such
+questions is lacking.
+Our current understanding Of the distance within which greenness matters is b ased largely
+on expert opinion. ln the United States, some p ractitioners suggest that having greenspace within
+a five-minute walk (approximately 0 · 2 miles or 0 · 32 (m) is most important for physical health, while
+others assert that a 0 ， 50 一 or 0.75-mile （ 0 ， 80 or 1 · 20 (m) range is more accurate [ 2 ] · A b etter understanding
+of the maxnnum distance to consider when analyzing greensp ace would help urban planners and
+lnt. 养 E 肌 •on ． Res. 五 c HeaIth 201 乙 74 / 675 ； doi ： 10 ． 3390 / ijerPh14070675
+www.mdpi.com/journal/ijerph
+
+@@ PAGE 2 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+2 of 21
+public health officials b etter evaluate hOW tO design mimmum standards for greenspaces near members
+Of their communities ·
+Geographic information system (GIS) software p ackages (i.e., ArcGIS, ESRI lnc., Redlands, CA,
+USA) provide p owerful tools to provide empirical evidence on how different distances in which
+greenness is measured impact physical health. A multitude of remote sensing and GIS datasets
+(i.e., Normalized Difference Vegetation lndex (NDVI), land cover datasets, and p ark layers) can be
+uploaded intO these p ackages tO provide obJective measures Of green cover in countnes around the
+world [ 1 ] ， Buffer tools (the "Buffer (Analysis) " toolkit in ArcGIS) can then calculate the percentage 0f
+greenspace—or relative greenness "—within a speclfie d geographlc polygon, for example, the area
+surrounding a person's house.
+The results Of at least three studies using GIS buffer tOOls provide some evidence that greenness
+at any buffer size predicts physical health equally well. A national survey 0f physical activity and
+urban greenspace in Canada, for example, found that 30 m buffers predicted health as well as 500 m
+buffers [ 3 ] ． Another study 0f greenness and air p ollution exposure during pregnancy found that 100 m,
+250 m, and 500 m buffers p redicted birth and development outcomes similarly well [ 4 ] ． A second
+study on birth and development outcomes and greenness found that 100 m and 500 m buffers had
+similar results [ 5 ] · What these studies fail tO answer, however, is, does the impact Of greenness on
+physical health plateau at a particular buffer size? TO answer this question, one can compile these
+findings with those Of other studies that examine greenness within larger buffer zones and 100k for
+trends across the studies ，
+A revlew of GIS buffer studies is valuable despite the recent advances activity tracking
+that provide p otentially more accurate measurements Of the natural /built envlronment available
+t0 people [ 6 ] ． For example, tracking with global positioning system (GPS) units can accompany
+individuals' whose physical activity is b eing tracked ． The trajectories recorded from these units help
+to create neighborhood areas that encompass trip s taken by individuals throughout their everyday life ·
+As such, the area in whlch greenness is examined with GPS units includes both the residential
+and non-residential environments tO which individuals are exposed—such as farther-away but
+regularly-visited parklands—and therefore considers the critical factor p ertaining tO which greensp aces
+are accessible along transportation routes [ 刁 ， Buffers created with distances set by researchers in
+GIS systems, in contrast, are artificially created and may over or under-estimate the range available
+to and used by—residents · On the other hand, GPS is an approach being adop ted in an only limited
+number of public health fields of research, primarily physical activity research (i.e., [ 8 一 11D / and several
+recent studies still use artificially-cre ated buffers (i.e., [ 12 一 14D ， Providing every individual in a sample
+population with GPS units is not feasible for all study designs, geographic contexts, study p opulations,
+and sample sizes. ln order tO revlew the available evidence on greenness around a person's home, it iS,
+therefore, important tO conduct a systematic review Of artificially-created buffers in GIS.
+We reviewed the bOdy Of literature that uses greenness buffer analyses tO better understand at what
+distance greenness best predicts physical health. To identify this body of work, we included only those
+analyses that （ 1 ） used GIS buffers tO estimate residential greenness; （ 2 ） used statistical analyses that
+calculated the significance of the greenness-physical health relationship; and （ 3 ） were peer-reviewed
+articles published in English between 2007 and May 2017 · Our objective was to identify which buffer
+sizes were supported by the literature as having the strongest theoretically expected relationships
+between greenness and physical health—that is, findings where greater greenness correlated with
+better physical health.
+2 · Methods
+All steps in our review process were conducted in accordance with the Preferred Rep ortmg ltems
+for Systematic Reviews and Meta-Analyses (PRISMA) guidelines [ 15 ] ． The screening and analyzing 0f
+data were conducted in Microsoft Excel for Mac.
+
+@@ PAGE 3 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+2 主 0 ra 忉 Sem ℃ / 7
+3 of 21
+We searched Web of Science to identify relevant articles published in English b etween 2007 and
+May 2017 · Search terms included 丿 greenness" measures, GIS datasets and analytical techniques, and
+physical health outcomes (see Appendix A, TabIe AI for a list of all terms) ·
+22 Selection C1 者 初
+TO extract data from multiple analyses included in articles, we conducted a two-step selection
+process · First, we selected those articles with an overall focus and at least one reported analysis that
+was relevant for this review. Next, we selecte d the relevant analyses from each Of these articles ．
+2 ． 2 ． 1 · Article Selection
+lnitial eligibility of articles was determined by reviewmg their titles and ab stracts · The full text
+of the remaimng articles was then screened for three criteria · First, the focus Of the article had tO
+measure the lmpact 0f greenness on physical health using GIS buffer analyses · "Greenness" could
+include percent green cover, green SP ace, or parks; the numb er Of green SP aces, parks, or OP en space
+within the buffer; or the standard deviation Of greenness or landscape indices · Second, the authors
+conducted inferential statistical analyses tO measure the relationship b etween these variables; and,
+third, statistical significance tests (p-values) resulting from these analyses were performed.
+2 ， 2 · 2 · Analysis Selection
+Next, we screened analyses within eligible articles tO determine which analyses were appropriate
+tO examme in this review. Screemng criteria included: （ 1 ） GIS buffers used residential center p Oints
+in GIS buffer analyses, rather than school or workplace center points; and （ 2 ） the dependent variable
+was a physical, not a mental health outcome ． NO exclusionary criteria were set for the range Of ages
+studied. Analyses included, therefore, used buffers around physical addresses of homes or centers of
+politically defined geographic areas enclosmg homes (i.e., census tracts) and surveyed sample ages
+across the lifespan, from infants tO elders ．
+2 ． 3 ． Da 忉 E 厅 口 c 五 on
+Most data were extracted at the analysis, not the article, level. Only first author, pub lication year,
+and article title were identified at the article level. ln contrast, a wide range Of characteristics were
+identified at the analysis level, including article information (first author, publication year, and article
+title); greenness type ("greenness", tree canopy, greensp ace or OP en space, or p ark); physical health
+outcome; objectivity of physical health outcome; country / countries covered by sample population;
+age range (s) 0f sample p opulation; size 0f sample; confounds included (i.e., age, sex, race, income,
+employment, e ducation, urb anity, etc.); presence Of sp atial autocorrelation test(s); center point Of
+GIS buffer (home, postal code, or census tracts /blocks); type of GIS buffer (see below); size of buffer
+in meters; presence or absence Of statistically significant association between health outcome and
+greenness; and direction Of significant associations between health outcome and greenness.
+The type Of buffer data extracted concerned whether the buffer was made in one Of tWO ways ．
+R 口 市 b 吖 s estimate greenness "as the crow flies “ around a point. ln this case, when the researcher
+specified a radial distance, the GIS software drew a circle (circular buffer) with a radius equal to that
+value. The circle was centered on a specified point—often an individual's home address or the center
+Of a geographic zone within which the individual lives (i.e., census tract or postal code). ln contrast,
+77 m07 * 历 《 巧 estimate greenness along transportation pathways. The GIS software determines the
+network buffers, after the researcher specifies the distance, along all available walking or driving
+routes, based on road network GIS data · This process results in a polygon (network buffer), which is
+not perfectly cn-cular in shape, because the perimeter Of the buffer represents points that are within
+a set distance along trails and roads (Figure 1 ） ，
+
+@@ PAGE 4 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+4 of 21
+Several analytlcal characteristics were reported in detail in articles, and we coded these intO
+broader categories for this review. Physical health outcomes were divided intO 18 categories. These
+were adapted from categories identified in previous greenness and health literature reviews [ 1 ， 16 ， 17 ] ·
+The manner Of data collection for physical health outcomes was group ed intO three categories, based
+on whether data were objective (i.e., biomarkers, Vital signs), e 无 尸 el 学 07 ． C 五 记 月 〔 口 & noses (i.e., electronic
+medical records), or b. 丿 ec 五 (i.e., self-reported health questionnaires). Lastly, we grouped age ranges
+into five categories ： samples with individuals less than one year old （ 电 s), 2 一 10 years old （ c 历 / 山 7 丿 /
+11 一 17 years old （ y “ 确 丿 ， 18 一 79 @山研s丿/ and 80 years and over @壶巧丿 ·
+瞓 III 伊
+1000m
+Legend
+Home
+Radial buffer
+到 Network buffer
+Figure 1 · Buffer analyses are tOOls tO calcu ate the greenness " Of residentlal environments ． Buffers
+are drawn two ways. R 口 市 历 《 吖 s (outer circle in gray) show greenness ln the circle 0f a specified
+radius around a center point—in this case, 1000 m. Network b 辑 (inner polygon shape in green) show
+greenness in the region within a specified walking or driving distance Of a center point.
+2 互 Evaluation 酽 Poss 化 Bias
+Our focus was on evaluating analyses with higher or lower levels Of p otential bias · The items we
+evaluated were individual analyses, not articles. Thus, our evaluative j udgments in this review dO not
+cover the articles in their entlrety. lt is possible that any given article had some analyses that could be
+judged as having hlgher potential bias and others as lower.
+TO identify possible criteria that would demonstrate potential bias, we consulted criteria used
+in prior systematic literature reviews on greenness and human health outcomes [ 18 ／ 19 ] ． We found
+that some prior criteria (i.e., multipllcity of outcome variables within a single article) did not apply
+tO our unit Of examination—that is, analyses rather than articles—and other criteria represented
+characteristics Of p otential bias which we had already excluded in our screening p rocess (i.e., expert
+assessments Of / greenness " versus land-cover maps or satellite system assessments). We narrowed our
+criteria tO tWO items ： did the analysis include a subjective measure Of physical health as its dep endent
+variable; and did the analysis account for the critical confoundmg variable—income? We chose the latter
+criteria because a robust bOdy Of work demonstrates that this variable, more than any other, p artially
+explains the relationship between greenness and he alth outcomes [ 1 16 ] · Not including a measure
+Of income—such as socio-economic status or the common proxy, level Of education—overestlmates
+p ositive relationships between greenness and health.
+Our chosen criteria for assessmg bias (subjective measures Of health and controls for
+soc10-economic status) allowed us tO rank articles intO three levels. We designated analyses that
+did not meet 仂 of the criteria as 7770 likely 历 e We designated analyses that met one criteria
+as less likely 历 們 and those that met bo 仂 criteria as least 五 / y 庞 ．
+
+@@ PAGE 5 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+3 · Results
+3 Subsection
+5 of 21
+The initial database search produced 311 records, but the maj ority were not salient for this
+review. The full texts of 68 articles were reviewed for eligib ility, and 47 met our criteria for inclusion
+(see Figure 2 for details on articles removed at each step Of the screening process).
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Database Search
+Web of Science （ 冂 = 311 ）
+Records screened
+（ 冂 = 311 ）
+Records excluded with reasons (n = 243 ）
+Full-text articles
+assessed for eligibility
+（ 门 = 68 ）
+ArticIes included （ 冂
+Full-text articles excluded with reasons.
+Statistical test not reported = 15 ）
+Focus different than review = 5 ）
+Paper not accessible = 1 ）
+= 47 ）
+Figure 2 · FIOW diagram Of the screemng Of articles considered for inclusion in this review - conducted
+using the PRISMA process ．
+Articles contained between one [ 20 ] and 44 [ 21 ] analyses that met our inclusion criteria. ln total,
+260 analyses were included in this review (for a complete 11Stmg 0f articles and their analyses,
+see Appendix A, Table A2).
+3 ． 2 ． D CI ' 孽 亓 e Characteristics 酽 才 记 / es
+We found that the number of published articles on the use of GIS buffers to estimate the lmpact
+Of greenness on physical health increased over time ． The majority Of articles identified in this review
+were published in the last four years (Figure 3 ） ．
+We also found that articles examined populations from around the world. ln total, 17 countries
+were represented: Australia, Belgium, Brazil, Cana da, C olombia, Czech Republic, Denmark, Germany,
+Hong Kong, Lithuania, Mexico, Netherlands, New Zealand, Spain, Sweden, the United Kingdom, and
+the United States (Figure 4 ） ， Populations from the United States and Australia were most frequently
+examined · The former was studied in nine articles and the latter in eight articles · The next most
+commonly studied populations were from the Netherlands, Germany, and C anada, which were
+examined in SiX articles each.
+
+@@ PAGE 6 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+0
+14
+12
+2
+0
+10
+6
+3
+4
+1
+07
+1
+08
+2
+09
+3
+10
+1
+11
+12
+13
+Year of PubIication （ 2 開 7 ． 2017 ）
+12
+16
+6 of 21
+4
+17
+Figure 3 · The number Of articles using GIS buffer analyses tO estimate the impact Of greenness on
+physical health has increased over time, especially since 2013 ， Data for 2017 is incomplete because the
+review only included articles published before May 2017 ．
+Figure 4 · Articles studied populations from 17 countries, with the United States and Australia most
+commonly studied. Darker colors represent more articles on populations from that country.
+3 彐 Des 囗 五 Characteristics 酽 77 口 / yses
+Analyses used a wide range of sample sizes and ages (Table 0 The smallest sample was 61 [ 22 ]
+and the largest was 345 / 143 [ 21 ] ， Over two-thirds of analyses included at least 2500 individuals and
+one-third included at least 10 / 000 ， Adults were the most commonly studied age range, with 30 ％ of
+analyses studying exclusively 18 一 79 year olds and another 36 ％ studying 18 一 79 year olds as well as
+youth and / or elders.
+TabIe 1 · Sample characteristics of analyses 07 = 260 ） included in review.
+Size
+Less than 1000
+1000 to 2500
+2501 to 5000
+5001 to 10 / 000
+10 / 001 to 50 / 000
+50 / 001 to 100 ／ 000
+100 ， 001 to 200 ， 000
+More than 200 / 000
+lnfants only
+Children only
+Youth only
+Adults only
+EIders only
+lnfants and children
+Children and youth
+Youth, adults, and elders
+Adults and elders
+Numb er 0f Analyses
+36
+41
+12
+26
+9
+4
+46
+4
+6
+23
+5
+3
+50
+47
+Percent Of Analyses
+14 ％
+16 ％
+33 ％
+10 ％
+18 ％
+2 ％
+30 ％
+17 ％
+19 ％
+18 ％
+
+@@ PAGE 7 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+7 of 21
+Less than one-half of analyses （ 45 ％ ） displayed a likelihood of bias (TabIe 2 ） ， of which, less than
+1 ％ displayed a strong likelihood of bias. Nearly two-thirds （ 65 ％ ） included objective measures or
+expert / clinical diagnoses Of physical health. lncome measures were even more common: 85 ％ of
+analyses included education as a proxy for income, and 17 ％ included income measures ，
+TabIe 2 · Quality 0f measures in analyses ．
+Health 南 忉 quality
+Objecfive
+Expert or clinical diagnosis
+SubJective
+Greenspace 777e S 7 ℃
+Greenness
+Green or space
+Park b
+Tree canopy
+CO un 小 cll 宿
+Education level
+Sex
+Age
+Smoking behavior
+Employment status
+Urbanity
+BMI
+Race / ethnicity
+Marital status
+lncome
+Bias Evaluation
+More likely to be biased
+Less likely to be biased
+Least likely to be biased
+Number of Analyses
+115
+55
+90
+124
+110
+23
+3
+221
+220
+209
+68
+62
+60
+49
+44
+2
+114
+144
+Percent 0f Analyses
+44 ％
+21 ％
+35 ％
+48 ％
+42 ％
+9 ％
+85 ％
+85 ％
+80 ％
+30 ％
+28 ％
+26 ％
+24 ％
+23 ％
+19 ％
+17 ％
+44 ％
+55 ％
+average value or standard deviation of NDVI; b percent land cover or number Of units (i.e., parks or trees) ．
+Age and sex were additional common confounds, included in at least 80 ％ of analyses ， A11 other
+confounds were represented in less than one-third Of analyses ，
+ln regards to the methodological choices made in buffer analyses, we found that 73 ％ of analyses
+used home addresses as buffer centers ． Further, 17 ％ of analyses controlled for spatial autocorrelation ·
+A nearly equal number of analyses used ' greenness" （ 48 ％ ） and / or green space or open SP ace
+metrics （ 42 ％ ） ·
+3 互 C 仞 1S 1CY 酽 Greenness-Physical HeaIth Link
+OnIy 35 ％ of analyses 07 = 91 ） demonstrated statistically significant relationships between
+greenness and improved physical health. The maj ority （ 62 ％ ， 77 = 161 ） demonstrated no significant
+relationship between these variables, and a few （ 3 ％ ， 77 = 8 ） even found a significant relationship in the
+opposite direction—more green being tied to worse physical health.
+Findings were similar across the lifesp an. Thirty-seven percent 0 = 49 ） of the 131 analyses that
+studied only adult or adult and elder populations found significant positive effects of greenness, and
+2 ％ 07 = 3 ） rep orted negative effects 0f greenness · Similarly, 29 ％ 07 = 22 ） of the 75 analyses that studied
+only children, youth, and / or infants—but not only infants—reported significant positive effects · Seven
+p ercent 07 = 5 ） Of these analyses reported negative effects.
+
+@@ PAGE 8 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+3 ． 5 ． Specific Physical Health 0 C01 讹 s S 忉 市
+8 of 21
+Three outcomes accounted for over one-half of the dependent variables studied in analyses ． These
+commonly-studied outcomes included physical activity (the dependent variable in 25 ％ of analyses,
+77 = 65 ） ， birth and developmental outcomes （ 16 ％ ， 77 = (1), and cardiovascular outcomes （ 13 ％ ， 77 = 33 ） ．
+Obesity and atopy (asthma, allergies, and eczema) were also commonly studied; each was used in
+approximately 10 ％ of analyses 07 = 26 and 24 / respectively) · General health (i.e., self-reported health
+questionnaires asking respondents in general, how would you rate your health?") was studied in 6 ％
+07 = 16 ） of analyses · Twelve other physical health outcomes were studied in 5 ％ or less of analyses each
+07 = 2 to 12 ） ，
+Nine outcomes showed that greenness lmproved health in one-half or more Of analyses, but most
+of these outcomes were studied just a few times (TabIe 3 ） ． Obesity and diabetes were the only two
+outcomes that lmproved with greenness in over one-half Of a more sub stantial numb er Of analyses
+> 10 ） ． Analyses using the three most commonly studied outcomes (physical activity, birth and
+developmental outcomes, and cardiovascular disease) found significant positive correlations between
+greenness and physical health just 18 to 34 ％ of the time · When we examined the most commonly
+studied outcome (physical activity), we found that ObJ ective measurements using accelerometer devices
+showed significant associations almost twice as frequently as subjective, self-report measures.
+TabIe 3 · Frequency 0f analyses finding that greenness improves specific outcomes ．
+Outcome
+Physical activity (PA)
+Obj ective PA measures
+(i.e., accelerometer)
+Subjective PA measures
+(i.e., self-report exercise frequency)
+Birth and developmental outcomes
+Cardiovascular outcomes
+Obesity
+Atopy
+General health
+Diabetes
+Musculoskeletal complaints
+Cancer
+MortaIity
+Upper respiratory tract infection
+Acute urinary tract infection
+lnfectious disease Of intestinal canal
+Migraine
+Respiratory disease
+Vertigo
+Vitality
+3 五 B 7 ' Sizes Used
+Total Number of
+Analyses
+65
+21
+44
+33
+26
+16
+12
+12
+6
+4
+4
+3
+2
+2
+2
+2
+2
+2
+Number with
+Percent with
+S ignificant Findings
+Significant Findings
+22
+10
+12
+14
+6
+13
+1
+7
+7
+4
+4
+4
+1
+3
+1
+2
+1
+0
+1
+0
+34 ％
+48 ％
+27 ％
+34 ％
+18 ％
+50 ％
+4 ％
+44 ％
+58 ％
+33 ％
+67 ％
+100 ％
+25 ％
+100 ％
+50 ％
+100 ％
+50 ％
+0 ％
+50 ％
+Buffers between 1000 一 1999 m in size were most commonly used. This size represented nearly
+one-third of all analysis 07 = 84 ） ， The next most common were 500 一 999 m buffers, which were used in
+approximately one-quarter 0f analyses 07 = 67 ） · Other buffer size ranges (less than 250 m, 250 to 499 m,
+and greater than 2000 m) were used at similar frequencies ： between 32 （ 12 ％ ） and 41 （ 16 ％ ） of analyses ·
+
+@@ PAGE 9 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+37 ． Buffer Size and Physical HeaIth
+9 of 21
+The relative number of analyses that tied greenness t0 physical health grew as the buffer size
+increased, but only up to 1999 m (Figure 5 〗 ln analyses with buffers of less than 250 m, 24 ％ of studies
+reported that greenness imp roved physical health. This percent increased for analyses with buffers
+250 一 499 m （ 34 ％ ） ， 500 一 599 m （ 39 ％ ） and 1000 一 1999 m （ 42 ％ ） ， but then dropp ed substantially for analyses
+with buffers of 2000 m or more （ 25 ％ ） ·
+／ / Analyses 仂 = 260 丿
+100 ％
+80 ％
+60 ％
+40 ％
+20 ％
+' 蚣 然 Least LikeIy be B 示 仂 = 744 丿
+100 ％
+80 ％
+60 ％
+40 ％
+20 ％
+0 ％
+Analyses 7 Home as Center 酽 B r 仂 = 790 丿
+100 ％
+80 ％
+60 ％
+40 ％
+20 ％
+0 ％
+< 250m
+Finding Outcome
+250 一 499m 5 〔 旧 一 999m 1000 一 1999m 2000m +
+NO significant relationship between greenness and physical health
+囗
+Significant relationship between greenness and worse physical health
+0
+0 Significant relationship between greenness and better physical health
+Figure 5 · Percent Of analyses showmg statistically significant relationships between greenness and
+physical health improvement increases as buffer size increases, but only tO a point. ln all analyses
+reviewed (top), the percent 0f significant findings mcreased up to 1000 一 1999 m buffers, but then
+decreased at larger buffer sizes ． This trend was exaggerated when examining only those analyses least
+likely 历 (middle), as indicated by their use 0f objective health measures and the inclusion
+Of income or education as a confounding factor. Analyses that used buffers centered on home
+addresses—rather than postal codes or census tracts—showed a different tlpping point (bottom) ．
+ln this sub sample, analyses demonstrated that greenness lmproves physical health in buffers up t0
+500 一 999 m in size—not 1000 一 1999 m.
+We tested whether this trend held with two sub samples of analyses, both of which included
+smaller but more reliable, valid measures Of greenness. First, we restricted our sample tO the
+144 analyses that we judged as least likely to be biased. We found that the previously described
+trend was more pronounced in this subsample: the percent Of analyses tying greenness tO health
+
+@@ PAGE 10 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+10 of 21
+increased from 22 ％ with buffers of less than 250 m, to 57 ％ for buffers between 1000 一 1999 m in size ．
+Second, we restricted our sample to the 190 analyses that used individuals' home addresses for buffer
+centers. This subsample again suggested that incre asing numbers Of analyses found positive ties
+between greenness and physical health as buffer size increases, but it plateaue d at 500 一 999 m buffers.
+The percent of significant findings increased from 26 ％ (buffers of less than 250 m) to 38 ％ (buffers
+between 500 一 999 m) / and then decreased to 33 ％ (buffers between 1000 一 1999 m) ·
+4 · Discussion
+The ObJ ective Of th1S systematic literature review was tO discover trends in buffer analyses
+reported in peer-reviewed j ournal articles on residential greenness and physical health. We identified
+260 analyses in 47 articles that met our inclusion criteria ．
+These analyses showed the following trend ： the likelihood 0f greenness predicting physical
+health increased as the size Of the buffer increased. However, this trend plateaued at buffers between
+1000 一 1999 m in size. Buffers of 2000 m and above were less likely tO show greenness predicting
+physical health than all smaller buffers sizes ．
+This trend toward 1000 一 1999 m buffers best predicting physical health did 77 hold for the
+subsample of analyses that used home addresses as the center point of buffers. ln 27 ％ of the analyses
+in this review, researchers fixed buffers 77 around homes b ut around geographic midpoints Of
+geographic regions (i.e., census tracts or postal codes). We examined trends when these analyses were
+excluded because buffers centered on homes were more reliable indicators Of residential greenness
+than buffers centered on the center of the poliåcal boundary in which an individual resides · ln this
+subsample, we found that increasing buffer sizes corresponded with increasing likelihood 0f greenness
+predicting physical health, and we further found that this trend plateaued at a certain size · The plateau
+size, however, was smaller than our earlier-found trend ： buffers between 500 一 999 m in size and
+centered around homes best predicted physical health. Buffers smaller than 500 m and greater than
+999 m were less likely to predict physical health.
+These trends toward larger buffer size better predicting physical health do 77 indicate that nearby
+greensp ace (i.e., a park located within a 250 m buffer from a house) is less predictive of physical health
+than distant greenspace. A 1000 m buffer around a house includes greenspace located in smaller,
+nested buffers around that house, as well as greensp ace in distant edges 0f that buffer (i.e., a p ark 950 m
+away from buffer center) · Thus, a 1000 m buffer includes all greenspaces captured in the 50 m-, 250 m-
+and 500 m buffers. The extent 0f greenness for a 1000 m buffer, therefore, is the total green/open land
+uses within this circular area, divided by the total area of the buffer.
+What these findmgs indicate is that larger buffers are more llkely t0 predict physical health
+than smaller buffers, given that these two buffers have equal percentages or densities Of green cover.
+That is, individuals with high densities 0f green cover in their broader neighborhoods are more likely
+to have better physical health than individuals with high densities 0f green cover around their homes
+but IOW densities Of green cover in their broader neighborhoods.
+lt should be noted that for smaller and larger buffers tO have the same relative amount Of green
+cover requires substantially different actual amounts Of green cover. Let LIS consider a scenario
+where two buffers both have 50 ％ green cover. The larger buffer has a 1000 m radius and covers
+a circular area 0f approximately 3 / 140 / 000 m2 ， The smaller buffer has a 250 m radius and covers an area
+0f approximately 200 ／ 000 m2. Given that both of these buffers have 50 ％ green cover, the 1000 m
+buffer would include 1 / 570 / 000 m2 (nearly 400 acres) of greensp ace, but the 25 m buffer would only
+include 100 / 000 m (approximately 25 acres) 0f greensp ace · Because the smaller buffer analysis does
+not describe green cover beyond this relatively small area, it cannot evaluate whether the broader
+neighb orhood includes those additional 1 / 470 / 000 m2 of green cover represented in the 1000 m buffer
+analysis · From this example, the p ower of larger buffers to predict much larger tracts 0f green space
+coverage becomes evident. Our findings—that buffers of increasmg size better predict physical health
+than smaller buffers—may, therefore, be the result of larger buffers' increased power t0 measure larger
+
+@@ PAGE 11 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+11 of 21
+tracts 0f greenspace in a neighborhood. lmp ortantly, though, our finding that buffers of over 2000 m
+drop in predictive p ower provides some evidence Of a dosage effect Of residential greenness · This
+review suggests that green cover farther away than 2000 m (a 20-min moderately-p aced walk) has less
+impact on physical health than green cover located nearby.
+Although this review found that a majority of buffer analyses did 77 rep ort positive findings
+between greenness and physical health, this finding should not be considered conclusive. Many of the
+analyses in this review examined health outcomes for which multiple Other reviews find consistent ties
+between greenness and physical health—namely physical activity, birth and developmental outcomes,
+and cardiovascular outcomes [ 1 16 23 一 25 ] ， The analyses in this reuew represent a relatively small
+sample Of articles usmg a single analytic tOOl tO estimate residential greenness. The IOW numb er Of
+p ositive findings ln this review, therefore, is only a slice of the available evidence on the link between
+nature and physical health.
+This review reported several characteristics Of buffer analyses that indicate this field Of literature
+is robust and in general is growing stronger. The number Of analyses is increasingly nearly every year,
+and these analyses are being conducted globally—although they are concentrated in Australia, North
+America, and Western Europe. Very few analyses fail to use objective measures of physical he alth and
+controls for income. A considerable number Of analyses use substantial sample sizes over 10 / 000 / and
+the majority 0f analyses use sizes 0f at least 2500 ， These samples represent p opulations across the
+lifespan, from infants to elders. The only maj or limitation we identified is the relatively low number of
+analyses that consider or control for sp atial autocorrelation.
+The findings ln this reuew are limited pnmarily by its scope 0f studies included. A growmg
+body of GIS buffer analyses considers other health outcomes and may help explain how distance
+within which greenness is measured influences health. For instance, at least three articles have tied
+academic achievement tO school greenness [ 26 一 28L and another thirteen articles have tied mental
+health to residential greenness [ 18 ] with buffer analyses · Albeit, the mechanisms by which greenness
+improves these outcomes may be different than those by whlch greenness improves physical health.
+For example, residential greensp ace may supp ort physical health primarily by providing opportunities
+for physical activity [ 29 ] or by improving immune functioning [ 16 ] · On the other hand, greensp ace
+may reduce anxiety and depression p rimarily by reducing malad aptive p atterns Of circular, negative
+thought calle d ruminative brooding [ 30 ] · Different mechanisms may require different amounts of
+greenness at different distances from a person' s home ， lt is feasible that views Of trees from windows
+may be most lmportant for reducing depression—much more SO than large green spaces accessible
+by only a 20-min walk. Even SO, it would enhance practitioners ' understanding Of the importance Of
+greenspace at different distances from a person's home address if additional studies with outcomes
+other than physical health were reviewed in a way similar to that of this study.
+We recommend that future researchers using GIS buffers estimate greenspace's lmpact on health
+to try to resolve the unique impact 0f greenness in nested, rather than overlapping, buffers. AII
+analyses in this review used larger buffer areas that overlappe d with smaller ones ． AS a result, we dO
+not know the umque contribution Of farther-away greensp ace, that is, the greenspace identified in the
+0 省 7 毹 between larger and smaller buffer areas. Analyses that used a nested buffer pattern, wherein
+a 250 m buffer region is excluded from 500 m buffer analyses, and 250 m and 500 m buffer regions
+are excluded from 1000 m buffer analyses, would enhance our understanding 0f at what distance
+greenness best predicts improvements in physical health.
+Another notable recommendation for future research is to use network buffers, which estimate
+greenness that is physically accessible t0 people along walking routes · Especially, in the physical
+activity research domain, the use Of network buffers has recently become popular tO accurately estimate
+the lmpact 0f greenness on walking [ 12 / 13 / 31 ] ， Other physical health research should apply network
+buffers in future research to weight the access t0 reachable greensp aces or p arks by walking, which
+may affect various physical health outcomes ．
+
+@@ PAGE 12 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+12 of 21
+AISO, future research can focus on other GIS methods tO define exposure tO greenness areas.
+Recent studies have used GPS units tO better understand daily travels Of individuals and assess
+exp osures tO non-residence environments including workplaces, shopping places, and other areas
+that play important roles in daily life beyond the neighborhood area immediately surrounding the
+home [ 32 一 35 ] · These exposure areas can be estimated using a broad range of different GIS analysis
+beyond buffers, such as kernel densities and neighborhood deline ations [ 36 一 38 ] · Which methods
+provide the most reliable and valid associations between greensp aces and physical health, however,
+has not been adequately reviewed ． Therefore, additional research on physical health findings related
+tO greenness usmg a variety Of GIS methods is warranted ，
+5 · Conclusions
+This review has demonstrated that greenness measured at larger distances from people's home
+environments—specifically buffers between 500 m and 1999 m in size—predicted physical health
+better than smaller buffers. Because the analyses included in this revlew used overlapping rather than
+nested buffers, we were unable tO evaluate the impact Of farther-away versus closer greensp aces ·
+Acknowledgments: This work was supported by the 12 一 JV 一 11242309 一 084 Joint Venture Agreement between the
+University of lllinois at Urb ana-Champaign and the United States Department of Agriculture (USDA), Forest
+Service Northern Research Station.
+Author Contributions ： Matthew Browning and KangJ ae Lee conceived and designed the study; KangJ ae Lee
+conducted the systematic review and analyzed the data; Matthew Brownmg wrote the p aper; Matthew Browning
+and KangJ ae Lee reviewed and refined the paper.
+Conflicts of lnterest: The authors declare no conflict of interest.
+Appendix A
+TabIe AI. Search terms used tO identlfy relevant articles for the revlew.
+Measure Of Greenness
+1 ， Green space
+2 ． Greenness
+3 ． Greenspace
+4 ． Park
+5 ． （ 1 OR 2 OR 3 OR 4 ） AND
+GIS Analysis
+1. Geographic lnformation System
+2 ． GIS
+3 ， Landsat
+4 ． LiDAR
+5 ． NDVI
+6 ． NormaIized Difference Vegetation lndex
+7 ． Radius
+& （ 1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 ） AND
+Physical HeaIth Outcome
+1 ． Allerg 埒
+2 ， Asthma
+3 ． BMI
+4 ． *Morbidity
+5 ． MortaIity
+6 ． Obesity
+7 ． Physical activity
+& Physical health
+9 ， Pregnancy
+10 ． （ 1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 ）
+as a WiIdcard character, asterisk matches one or more characters ．
+
+@@ PAGE 13 / 21 @@
+lnt. 养 E 月 ro Res. Public Health 201 乙 74 ， 675
+Table A2. Articles included in review.
+# of
+Authors (Year)
+Analyses
+Sample Characteristics
+Size
+1489
+203 ， 3
+211
+1 （ L476
+6712
+2393
+8246
+3178
+10 ， 7
+Greenness
+Type(s)
+Greenness
+Greenspace
+Greenspace
+Greenspace
+Parks
+Greenness
+Greenspace
+Greenness
+Greenness
+Buffer Characteristics
+Andrusa1tyte
+et al. （ 2016 ） [ 39 ]
+Astell-Burt
+et al. （ 2014 ） [ 40 ]
+Bijnens et al.
+（ 2m5 ） [ 41 ]
+Bod1coat et al.
+（ 2m4 ） [ 42 ]
+Cerin et al.
+（ 2m7 ） 卩 3 ]
+Chen et al.
+（ 2m7 ） [ 43 ]
+Dadvand et al.
+（ 2m2 ） [ 4 ]
+Dadvand et al.
+（ 2m2 ） [ 5 ]
+Dadvand et al.
+（ 2m4 ） [ 44 ]
+Dadvand et al.
+（ 2m4 ） [ 45 ]
+3
+2
+3
+6
+4
+3
+9
+2
+20
+5
+Region(s)
+Lithuania
+Australia
+Belgium
+United Kmgdom
+Belgium, Brazil,
+Colombia, Czech
+Republic, Denmark,
+Hong Kong,
+Mexico, New
+Zealand, United
+Kingdom, U.S.
+United States
+United Kmgdom
+Maternal age
+16 +
+Maternal age
+Maternal age
+Radial
+Radial
+Radial
+Radial
+Network
+Network
+Radial
+Radial
+Radial
+Radial
+Radial
+Size(s)
+100 m
+300 m
+500 m
+800 m
+500 m
+250 m
+川 0 m
+250 m
+500 m
+川 0 m
+100 m
+250 m
+500 m
+50 m
+1 佣 m
+250 m
+500 m
+Center
+Home
+Postal code
+Home
+Postal code
+Home
+Home
+Home
+Home
+Home
+Home
+Confound(s)
+Education, smoking, mother's age at chlld birth
+parental asthma, breastfeeding, antibiofic use, cat,
+ambient PM2 ． 5 ， N02
+， sex, race, lncome, education, Body Mass
+lndex (BMI), employment, country of birth,
+couple status, psychological distress, language
+other than English, social interactions
+nelghborhood affluence, geographic remoteness
+Age, sex, education, smoklng, birth welght,
+chronicity, maternal age, neighborhood
+soc10-economic status (SES)
+， sex, race, BMI, urbamclty, social deprivatlon
+physical fasting glucose, 2 h total
+cholesterol
+Age, sex, marital status, education, employment
+Age, sex, race, income, fanuly relationshlp, season
+Of visit, asthma severlty, atopic status, inhaled
+corticosteroid use, 阝 agonist use
+Sex, race, education, BMI, smoking. gestational
+age, maternal age, weight gain durmg pregnancy,
+alcohol consumption, parity, season conception
+Age, race, education, urbamclty, smoking,
+employment, gestational age, neighborhood SES,
+distance 0f residential place t0 major roads,
+maternal booking welght, alcohol consumptlon,
+parity, history of obstetrical—gynecological
+pathologies, diabetes, sex of infant, use assisted
+reproductive techniques
+Age, sex, education, smoking, having older
+siblings, type of school, parental history of
+asthma sport activity
+Age, race, education, BMI, smokmg, gestational
+age, neighborhood SES, parity, alcohol
+consumpuon concepuon year, concepuon season
+13 of 21
+Health Outcome(s)
+Proport10ns of children W1th asthma
+Walking; Moderate-to-V1gorous physmcal
+activity (MVPA)
+Telomere length
+Oral glucose or glycated hemoglobin
+NIVPA
+Asthma control; Asthma functional
+limitations, T-helper cell expression 0f
+glucocorticoid receptors
+Birth wemght; Birth head circumference;
+Gestational age
+Birth weight, Gestational age
+Asthma; Allergy, Sedentary behavior;
+Obesity; BMI
+Birth weight
+
+@@ PAGE 14 / 21 @@
+lnt. 养 E 月 ro Res. Public Health 201 乙 74 ， 675
+7 一 10
+1 ] 一 13
+Table A2. Cont.
+Buffer Characteristics
+# of
+Authors (Year)
+Analyses
+Sample Characteristics
+Dadvand et al.
+Demoury et al.
+（ 2m7 ） [ 47 ]
+Fuertes et al.
+（ 2m4 ） [ 48 ]
+Fuertes et al.
+（ 2m6 ） [ 49 ]
+Ghekiere et al.
+（ 2m6 ） 0 〕 ]
+G6mez et al.
+（ 2m0 ） [ 51 ]
+Gong et al.
+（ 2m4 ） [ 52 ]
+Grazu1eviciene
+et al. （ 2015 ） [ 53 ]
+James al.
+Janssen and
+Rosu （ 2015 ）
+Kim et al.
+5
+4
+3
+2
+2
+2
+4
+2
+10
+Region(s)
+Canada
+Germany
+Sweden, Australia,
+Netherland,
+Canada, Germany
+Australia
+Columbia
+United Kingdom
+Lithuania
+United States
+Canada
+United States
+Under 76
+Birth—10
+6 一 8 ， 10 一 12
+10 一 12
+Maternal age
+Size
+2727
+3927
+5803
+13 ， 016
+1966
+1010
+3292
+108 ， 6 開
+5138
+Greenness
+Type(s)
+Greenness
+Greenness
+Greenness
+Greenness
+space
+Park
+Greenness
+Greenness
+Greenness
+Greenspace
+Radial
+Network
+Radial
+Radial
+Radial
+Radial
+Radial
+Radial
+Radial
+Radial
+Radial
+Radial
+Network
+Size(s)
+50 m
+1 佣 m
+250 m
+500 m
+150 m
+300 m
+500 m
+500 m
+500 m
+800 m
+500 m
+400m
+川 0 m
+300 m
+500 m
+250 m
+1250 m
+800 m
+Center
+Home/Surrounding
+school/Commuting
+Home
+Home
+Home
+Home
+Postal code
+Postal code
+Home
+Home
+Postal code
+Home
+Confound(s)
+Age, sex, race, education, smoking, pregnancy
+period, average screen tlme per week, Urban
+Vulnerability lndex
+Age, sex, education, smokmg, parental history of
+atopy, older siblings, cohort
+Age, sex, education, smoking, pa1Y*ntal atopy,
+older siblings, interventlon group, cohort, reglon,
+brrth weight and exposure, to furry pets and
+mold/dampness in the home
+Age, sex, marital status, education, employment
+Age, sex, education, having a limitation t0 engage
+in physical activity, proximity 0f a family member,
+neighborhood SES
+Age, marital status, education, urbamclty, car
+ownershlp, general health, psychological distress,
+area deprivation
+Age, sex, marital status, education, BMI, smoking,
+employment, height, diabetes, chronic diseases,
+parity, gestation duration, previous preterm birth,
+paternal height, alcohol consumption, bl 冠
+pressure
+Race, marital status, education, BMI, urbanicity,
+smoking, employment, pack-years 0f smoking,
+neighborhood SES, address change, physical
+activity, air pollution, soclal engagement, mental
+health, region
+Sex, race, mcome, grader, perceived
+neighborhood charactenstics (safety, average
+income, number recreational facilities, ％ of
+developed parks, playgrounds, total road
+distances), perceived fanuly wealth,
+eighborhood average mcome, survey season
+Age, sex, race, marital status, educafion, school,
+grade, guardians, number 0f cars, country born,
+envrronmental perceptions and satisfaction,
+physical activlty
+14 of 21
+Health Outcome(s)
+Use of spectacles
+Prostate cancer risk
+Allergic rhinitis; Eyes and nose
+symptoms; Aeroallergen sensitization
+Allergic rhimtis; Aeroallergen
+sensltlzation
+Active transport trlps
+Wa1king
+Parhc1pation in physical activity
+LOW birth weight; Term low birth
+weight; Preterm bwth; Small for
+gestational age; Birth weight
+Nonaccidental mortality
+Frequency 0f physical activity
+Obesity
+
+@@ PAGE 15 / 21 @@
+lnt. 养 E 月 ro Res. Public Health 201 乙 74 ， 675
+Table A2. Cont.
+Buffer Characteristics
+# of
+Authors (Year)
+Analyses
+Sample Characteristics
+Region(s)
+Koohsari et al.
+Laurent et al.
+（ 2m3 ） [ 57 ]
+Maas et al.
+（ 2 佣 8 ） [ ]
+Maas et al.
+（ 2009H21 ]
+Maas et al.
+（ 2009 ） [ 59 ]
+Markevych
+et al. （ 2014 ） [ 圃
+Markevych
+et al. （ 2016 ） [ 61 ]
+Markevych
+et al. @16） [ 62 ]
+McMorris et al.
+（ 20 巧 ） [ 3 ]
+Mitchell et al.
+Paquet et
+〔 2m3 ） ]
+4
+3
+2
+6
+4
+12
+4
+6
+4
+10
+Australia
+United States
+Netherland
+Netherland
+Netherland
+Germany
+Germany
+Germany
+Canada
+Canada
+Australia
+18 +
+Maternal age
+12 +
+12 +
+12 +
+Birth
+10 一 15
+20 +
+18 +
+Size
+8L1
+4899
+345 ， 143
+10 ， 089
+3203
+1552
+1192
+69 ， 910
+Greenness
+Type(s)
+space
+Greenness
+Greenspace
+Greenspace
+Greenspace
+Greenness
+Greenness
+canopy
+Greenness
+Park
+space
+Network
+Radial
+Radial
+Radial
+Radial
+Radial
+Radial
+Radial
+Radial
+Radial
+Network
+Size(s)
+50 m
+1 佣 m
+150 m
+3 km
+3 km
+100 m
+250 m
+500 m
+800 m
+100 m
+300 m
+500 m
+500 m
+500 m
+500 m
+800 m
+Center
+Home
+Home
+Postal code
+Postal code
+Postal code
+Home
+Home
+Home
+Postal code
+Home
+Home
+Confound(s)
+Age, sex, mcome, education, employment,
+nemghborhood quality, quality of nearby public
+open spaces, presence of children less than 12
+years in the household, having a dog, residential
+self-selection
+Race, maternal age, poverty, msurance status,
+parity, pyelonephntis
+Age, sex, lncome, educafion, urbamclty
+Age, sex, education, urbamcity, employment,
+healthcare insurance
+Age, SeX, lncome, education, urbanicity, slze Of
+household, soctal support
+Sex, education, smoktng, cohort, year of birth,
+season of blrth, maternal age
+Age, sex, education, BMI, fasting status, physical
+activity, puberty category, neighborhood SES,
+study area
+Sex, education, BMI cohort accelerometer wear
+season
+Age, sex, mcome, marital status, smokmg
+Age, sex, frequent travel mode, siblings,
+nelghborhood SES
+Age, sex, mcome, education, nelghborhood SES
+15 of 21
+Health Outcome(s)
+Walking to/wlthin open space
+Preterm birth
+Meet the public health
+recommendations for physrcal actN1ty
+High blood pressure, Cardiac diseases
+Coronary heart diseases, Stroke, brain
+hemorrhage; Neck and back complaints;
+Severe back complaints; Severe neck and
+shoulder complaints; Severe elbow, wrist
+and hand complaints; Osteoarthritis;
+Arthritis; Upper respiratory tract
+infection; Bronchi(oli)tis/pneumo nia,
+Asthma, COPD; Migraine/severe
+headache; Verugo; Severe intestinal
+complamts; lnfectious disease the
+intestinal canal; MUPS; Chronic eczema;
+Acute urinary tract infection; Diabetes
+mellitus; Cancer;
+General health; Number of health
+complaints; Propens1ty for psychlatric
+morbidity
+Birth weight
+To cholesterol; Low density
+lipoprotein; Triglycer1de; H1gh density
+lipoprotein
+MVPA
+Physical acuvity level; Part1Cipants in
+leisure physical acuvlty; Frequency 0f
+physical activity; Physical activity mdex
+Monthly frequency physical activity;
+Energy expenditure
+MVPA
+Cardiometabolic risk; Metabolic
+equivalents (METs)
+
+@@ PAGE 16 / 21 @@
+lnt. 养 E 月 ro Res. Public Health 201 乙 74 ， 675
+Table A2. Cont.
+Buffer Characteristics
+# of
+Authors (Year)
+Sample Characteristics
+Pereira et al.
+（ 2m2 ） [ 65 ]
+Pereira et al.
+Picavet et al.
+（ 2m6 ） 卩 4 ]
+Rundle et al.
+（ 2m3 ） [ 67 ]
+Sallis et al.
+Salvo et al.
+（ 2m4 ） [ 31 ]
+Schipperijn
+et al. （ 2013 ） [ 69 ]
+Scott et al.
+（ 2 佣 7 ） [ 70 ]
+Suyyama et al.
+（ 2m0 ） [ 71 ]
+Thiering et al.
+（ 2m6 ） [ 72 ]
+Thornton et al.
+（ 2m6 ） 卩 2 ]
+Analyses
+4
+4
+22
+2
+6
+2
+2
+3
+Region(s)
+Australia
+Australia
+Netherland
+United States
+Belgium, Brazil,
+Colombia, Czech
+Republic, Denmark,
+Hong Kong,
+Mexico, New
+Zealand, United
+Kingdom, U.S.
+Mexico
+Denmark
+United States
+Australia
+Germany
+United States
+16 +
+Adults
+12 一 14
+18 +
+Size
+11,404
+1 （ L208
+47 ％
+13 以 02
+1305
+1556
+1366
+837
+Greenness
+Type(s)
+Greenness
+Greenness
+Greenspace
+Park
+Park
+Park
+Greenspace
+Park
+space
+Parks
+Network
+Network
+Radial
+Radial
+Network
+Network
+Radial
+Radial
+Network
+Radial
+Network
+Size(s)
+上 6 km
+上 6 km
+125 m
+805 m
+500 m
+500 m
+100 m
+300 m
+0 m
+3 km
+805 m
+上 6 km
+500 m
+Center
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Confound(s)
+Age, sex, lncome, education, BMI, smoklng,
+healthcare card, non-gestational diabetes,
+hypertension, hlgh cholesterol, daily serves of
+fruit and vegetables, risky drinking in the last
+month, alr quality
+Age, sex, education, smoking, frult and vegetable
+intake
+Age, sex, education
+Age, sex, race, education, nelghborhood SES
+Age, sex, marital status, education, employment,
+accelerometer wear time, neighborhood SES
+Age, sex, marital status, education, BMI,
+individual-level SES, vehicle ownership
+Age, sex, education, general health
+Race, Neighborhood SES, number 0f accessible
+schools and locked schools, presence 0f a school
+withm a half-mile, free/reduced price lunch at
+a schoollevel
+Age, sex, presence children
+Age, income, education, BMI, smoking, physical
+actlvity, puberty, cohort, study area
+Marital status, BMI, urbamty, smokmg behavior,
+employment status, age, race, income,
+education, residing in different regions, drwer
+16 of 21
+Health Outcome(s)
+Coronary heart disease
+Overweight-or-obese; Obese
+MVPA; Physical functioning, Pam,
+General health; Vitality; BMI; Diabetes,
+Cardi0-vascular diseases; Asthma;
+Chronic obstructive pulmonary diseases,
+Systolic blood pressure;
+NIVPA
+NIVPA
+Participation in physical actwity
+Recreational walking
+Homeostatic model assessment of
+insulm resistance
+license, caretaking duty, MVPA; Walkmg for errands; Walkingfor
+self-rated mobility impalrment, number 0f people
+leisure
+in household, number vehicles, years at
+address, nelghborhood indicators (median age,
+white, median household income)
+
+@@ PAGE 17 / 21 @@
+lnt. 养 E 月 ro Res. Public Health 201 乙 74 ， 675
+Table A2. Cont.
+Buffer Characteristics
+# of
+Authors (Year)
+Analyses
+Sample Characteristics
+Ulmer et al.
+（ 2m6 ） [ 73 ]
+Van den Berg
+et al. （ 2010 ） [ 74 ]
+Van Loon et al.
+（ 2m4 ） [ 75 ]
+Wolch et al.
+（ 2m1 ） [ 20 ]
+Region(s)
+United States
+Netherland
+Canada
+United States
+Under 65
+19 一 97
+4
+4
+Size
+4529
+3173
+Greenness
+Type(s)
+canopy
+Greenspace
+Park
+Park
+Radial
+Radial
+Network
+Radial
+Size(s)
+250 m
+200 m
+400 m
+800 m
+1.6 km
+500 m
+Center
+Home
+Home
+Home
+Home
+Confound(s)
+， sex, race, income, marltal status, education,
+smokmg, employment, English language ability,
+time living at the current address, health
+msurance, household size, food security status,
+home ownership, poverty status, survey cycle
+Age, sex, lncome, education, urbamclty
+Age, race
+Sex, race, cohort, AADT denslty, average urban
+imperviousness, total length arterial roads,
+number 0f intersections, NDVI, percent below
+poverty
+17 of 21
+Health Outcome(s)
+General health
+Number health complaints; General
+health
+NIVPA
+
+@@ PAGE 18 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+References
+18 of 21
+1 ．
+2 ，
+3 ，
+4 ．
+5 ．
+6 ，
+7 ，
+9 ，
+10 ．
+11 ．
+12 ．
+13 ．
+14 ．
+15 ．
+16 ．
+17 ．
+18 ．
+19 ．
+James, P.; Banay, R.F.; Hart, J.E.; Laden, F. A review of the health benefits 0f greenness ． Curr. Epidemi01. Rep.
+2015 / 2 / 131 一 142 ． [CrossRef] [PubMed]
+BIanck, H.M.; AIIen, D.; Bashir, Z.; Gordon, N.; Goodman, A.; Merriam, D.; Rutt, C. Let' s go t0 the park
+today: The role of parks in obesity prevention and improving the public's health. C 历 胤 0 庞 s ． 2012 ／ 8 /
+423 一 42 & [CrossRef] [PubMed]
+McMorris, O.; ViIIeneuve, P.J.; Su, Jerrett, M. Urban greenness and physical activity in a national survey 0f
+Canadians ． 07 ro Res. 2015 / 73 乙 94 一 100 ． [CrossRef] PubMed]
+Dadvand, P.; Sunyer, Basagafia, X.; BaIIester, F.; Lertxundi, A.; Fernåndez-Somoano, A.; EstarIich, M.;
+Garcia-Esteban, R.; Mendez, M.A.; Nieuwenhuij sen, M.J. Surrounding greenness and pregnancy outcomes
+in four Spanish birth cohorts ． E77 ro Health Perspect. 2012 ／ 720 / 1481 一 1487 ， [CrossRef] PubMed]
+Dadvand, P.; de Nazelle, A.; Figueras, F.; Basagafia, X.; Su, Amoly, E.; Jerrett, M.; Vrijheid, M.; Sunyer,
+Nieuwenhuij sen, M.J. Green space, health inequality and pregnancy. E77 ron ． 仂 上 2012 ／ 40 ／ 110 一 115 ．
+CrossRef] [PubMed
+Patterson, 乙 ； Farber, S. Potential path areas and activity spaces in apphcation: A review. 丑 田 巧 ． Rev. 2015 ／ 35 ／
+679 一 700 ． [CrossRef]
+Cetin, M. Using GIS analysis t0 assess urban green space in terms 0f accessibility: Case study in Kutahya.
+lnt. 7 ． S 小 忉 ． Dev. World Ecol. 2015 / 22 ／ 420 一 424 ． [CrossRef]
+Troped, P.J.; WiIson, J.S.; Matthews, C.E.; Cromley, E.K. ． MeIIy, S.J. The BuiIt Environment and Location-Based
+Physical Activity. Am. Perv. Med. 2010 ／ 38 / 429 一 438 ． [CrossRef] [PubMed]
+Lachowycz, K.; Jones, A.P.; Page, A.S.; WheeIer, B.W.; Cooper, A.R. What can global positioning systems tell
+us about the contribution of different types 0f urban greenspace t0 children's physical activity? Health Place
+2012 / 7 8 ／ 586 一 594 ． [CrossRef] [PubMed
+Jansen, M.; Ettema, D.; Pierik, F.; DiJ st, M. Sports FaciIities, Shopping centers or homes ： What locations are
+important for adults' physical activity? A cross-sectional study. lnt. 1 ． 07 m77 ． Res. P 台 五 c Health 2016 ／ 73 /
+287 ． [CrossRef] [PubMed]
+Burgoine, T.; Jones, A.P.; Brouwer, R.J.N.; NeeIon, S.E.B. Associations between BMI and home, school and
+route environmental exposures estimated using GPS and GIS: DO we see evidence Of selective daily mobility
+bias in children? lnt. 养 H / 确 Geogr. 2015 ／ 74 / 8 ． [CrossRef] [PubMed]
+Thornton, C.M.; Kerr, Conway, T.L.; Saelens, B.E.; SaIIis, J.F.; Ahn, D.K.; Frank, L.D.; Cain, K.L.; King, A ℃ ．
+Physical activity in older adults ： An ecological approach. 月 7 ， ln ， Behav. 化 2016 / 57 / 159 一 169 ． [CrossRef]
+[PubMed]
+Cerin, E.; Mitå5, Cain, K.L.; Conway, T.L.; Adams, M.A.; SchofieId, G.; Sarmiento, O.L.; Reis, R.S.;
+Schipperijn, Davey, R.; et al. Do associations between obj ecfively-assessed physical activity and
+neighbourhood environment attributes vary by time of the day and day of the week? IPEN adult study. lnt.
+养 Behav. Nutr. Phys. 才 2017 / 74 / 34 ． [CrossRef] [PubMed]
+Picavet, H.S.J.; MiIder, I.; Kruize, H.; de Vries, S.; Hermans, 工 ； WendeI-Vos, W. Greener living environment
+healthier people? Exploring green space, physical activity and health in the Doetinchem Cohort Study. Prev.
+Med. 2016 / 89 / 7 一 14 ， [CrossRef] [PubMed]
+Mother, D.; Liberat1, A.; TetzIaff, Altman, D. Preferred reporting items for systematlc reviews and
+meta-analyses: The PRISMA statement. PLoS 2009 ／ 6 / e1000097 ．
+Kuo, M. How might contact with nature promote human health? Promising mechanisms and a possible
+central pathway. 丆 7 ℃ 7 止 Ps 些 / 7 况 2015 / 6 / 1 一 8 ． [CrossRef] [PubMed]
+McCurdy, L.E. · Winterbottom, K.E.; Mehta, S.S.; Roberts, J.R. Using nature and outdoor activity t0 improve
+children's health. C 砌 7 ， Probl. P 比 月 / es 匚 HeaIth Care 2010 / 0 ／ 102 一 117 ． [CrossRef] PubMed]
+Gascon, M., Triguero-Mas, M.; Martinez, D.; Dadvand, P.; Forns, PIaséncia, A.; Nieuwenhuijsen, M. MentaI
+health benefits Of long-term exposure tO residential green and blue spaces ： A systematic review. lnt.
+07 ro 能 Res. PubIic HeaIth 2015 ／ 72 / 4354 一 4379 ． [CrossRef] [PubMed]
+Lee, I.; Choi, H.; Bang, K.-S.; Kim, S.; Song, M.; Lee, B. Effects of forest therapy on depressive symptoms
+among adults: A systematic review. lnt. 7 ． E77 汤 ro 能 Res ． Pu blic Health 2017 / 74 / 321 ． [CrossRef] [PubMed
+
+@@ PAGE 19 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+19 of 21
+20 ．
+21 ．
+22 ．
+23 ．
+24 ．
+25 ．
+26 ．
+27 ．
+28 ．
+29 ．
+30 ．
+31 ．
+32 ．
+33 ．
+34 ．
+35 ．
+36 ．
+37 ．
+38 ．
+39 ．
+40 ．
+41 ．
+WoIch, J.R.; Jerrett, M.; Reynolds, K.; McConneII, R.; Chang, R.; Dahmann, N.; Brady, K.; GiIIiIand, F.; Su, J.G.;
+Berhane, K. ChiIdhood obesity and proximity to urban parks and recreational resources: A longitudinal
+cohort study. HeaIth PIace 2011 / 7 乙 207 一 214 ． [CrossRef] [PubMed]
+Maas, J., Verheij, R.A.; de Vries, S.; Spreeuwenberg, P.; Schellevis, F.G.; Groenewegen, P.P. Morbidity is related
+t0 a green living environment. 7 ． E 声 7 历 0 / ． Community Health 2009 / 63 / 967 一 973 ． [CrossRef] [PubMed]
+Kim, J.-H.; Lee, C.; OIvera, N.E.; Ellis, C.D. The role of landscape spatial patterns on obesity in Hispanic
+children residing in inner-city neighborhoods. 7 ． Phys. HeaIth 2014 / 77 / 1449 一 1457 ． [CrossRef] [PubMed]
+Lee, A ℃ .K.; Maheswaran, R. The health benefits of urban green spaces: A review of the evidence. 养 Pu blic
+Health 2011 / 33 ／ 212 一 222 ． [CrossRef] PubMed]
+Keniger, L.; Gaston, K ； lrvine, K.; Fuller, R.A. What are the benefits Of interactmg with nature? lnt. 养 07 ro 能
+Res. PubIic HeaIth 2013 / 70 ／ 913 一 935 ． [CrossRef] [PubMed]
+BowIer, D.E.; Buyung-Ali, L.M., Knight, T.M.; Pullin, A.S. A systematic review of evidence for the added
+benefits to health 0f exposure t0 natural environments. BMC PubIic HeaIth 2010 / 70 ／ 456 ． [CrossRef] [PubMed]
+Hodson, C.B.; Sander, H.A. Green urban landscapes and school-level academic performance. Landsc. LII ' b 7
+Plan 2017 / 760 / 16 一 27 ． [CrossRef]
+Wu, C.-D.; McNeeIy, E.; Cedefio-Laurent, J.G.; Pan, W.-C.; Adamkiewicz, G.; Dominici, F.; Lung, S.-C ℃ ．；
+Su, H.-J.; Spengler, J.D. Linking student performance in Massachusetts elementary schools with the
+greenness" of school surroundings using remote sensing ． PLOS ONE 2014 / 9 / e108548 ． [CrossRef] [PubMed
+Kweon, B.-S.; Ellis, C.D.; Lee, Jacobs, K. The link between school environments and student academic
+performance ， tl 田 7 For. Urban G 07 ． 2017 ／ 23 / 35 一 43 ． [CrossRef]
+Lachowycz, K.; Jones, A.P. Greenspace and obesity: A systematic review of the evidence ． Ob ． Rev. 2011 ／ 72 ／
+e183 一 e189 ． [CrossRef] [PubMed]
+Bratman, G.N.; HamiIton, J.P.; Hahn, K.S.; DaiIy, G ℃ ，； Gross, J.J ． Nature experience reduces rumination and
+subgenual prefrontal cortex activation. Proc. Natl. ca Sci. USA 2015 / 772 ／ 8567 一 8572 ， [CrossRef] PubMed]
+SaIvo, D.; Reis, R.S.; Stein, A.D.; Rivera, J.; MartoreII, R.; Pratt, M. Characteristics of the built environment in
+relation t0 objectively measured physical activity among Mexican adults ． Prev. Chronic Dis. 2014 ／ 77 ／ E147 ，
+CrossRef] PubMed
+Diez-Roux, A.V.; Mair, C. Neighborhoods and health. nn ． N. 丫 烈 ca Sci. 2010 ／ 7786 / 125 一 145 ． [CrossRef]
+PubMed]
+Perchoux, C.; Chaix, B.; Cummins, S.; Kestens, Y. Conceptualization and measurement Of environmental
+exposure in epidemiology: Accounting for activity space related to daily mobility. Health Place 2013 / 27 /
+86 一 93 ． [CrossRef] [PubMed]
+Kwan, M.P. How GIS can help address the uncertain geographic context problem in social science research.
+nn ． GIS 2012 / 78 ／ 245 一 255 ． [CrossRef]
+Kwan, M.P. The Uncertain Geographic Context ProbIem. nn ． Assoc. Am. Geogr. 2012 ／ 702 / 958 一 968 ．
+CrossRef
+Thierry, B.; Chaix, B.; Kestens, Y. Detectmg activity locations from raw GPS data: A novel kernel-based
+algorithm. lnt. 养 Health Geogr. 2013 ／ 72 / 14 ． [CrossRef] [PubMed]
+Hirsch, J.A., Winters, M.; CIarke, P.; McKay, H. Generating GPS activity spaces that shed light upon the
+mobility habits of older adults ： A descriptive analysis ． lnt. 7 ， HeaIth Geogr. 2014 ／ 73 ／ 51 ， [CrossRef] [PubMed
+R0drfguez, D.A.; Cho, G.-H.; Evenson, K.R.; Conway, T.L.; Cohen, D.; Ghosh-Dastidar, B.; PickreI, J.L.;
+VebIen-Mortenson, S., LytIe, L.A. Out and about: Association of the built environment with physical activity
+behaviors of adolescent females. HeaIth P 毹 2012 / 7 8 ／ 55 一 62 ． [CrossRef] [PubMed
+Andrusaityte, S.; Grazuleviciene, R.; Kudzyte, Bernotiene, A.; DedeIe, A.; Nieuwenhuij sen, M.J.
+Associations between neighbourhood greenness and asthma in preschool children in Kaunas, Lithuania ：
+A case—control study. BMJ 0 些 2016 / 6 / e010341 ． [CrossRef] [PubMed
+Astell-Burt, T.; Feng, X. · Kolt, G.S. Green sp ace is associated with walking and moderate-to-vigorous physical
+actlvity (MVPA) in middle-to-older-aged adults ： Findmgs from 203883 Australians in the 45 and up study.
+Br. 7 ． Sports Med. 2014 ／ 48 ／ 404 一 406 ． [CrossRef] [PubMed
+Bijnens, E.; Zeegers, M.P.; GieIen, M.; Kicinski, M.; Hageman, G.J.; Pachen, D.; Derom, C.; VIietinck, R.;
+Nawrot, T.S. Lower placental telomere length may be attributed t0 maternal residential traffic exposure;
+a twin study. 07 ro 能 lnt. 2015 / 79 / 1 一 7 ． [CrossRef] PubMed]
+
+@@ PAGE 20 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+20 of 21
+42 ．
+43 ．
+44 ．
+45 ．
+46 ．
+47 ．
+48 ．
+49 ．
+50 ．
+51 ．
+52 ．
+53 ．
+54 ．
+55 ．
+56 ．
+57 ．
+58 ．
+59 ．
+Bodicoat, D.H.; O'Donovan, G.; DaIton, A.M.; Gray, L.J.; Yates, T.; Edwardson, C.; Hill, S.; Webb, D.R.;
+Khunti, K.; Davies, M.J.; et al. The association between neighbourhood greenspace and type 2 diabetes in
+a large cross-sectional study. BMJ 0 些 77 2014 ／ 4 / e006076 ， [CrossRef] [PubMed]
+Chen, E.; MiIIer, G.E.; Shalowitz, M.U.; Story, R.E.; Levine, C.S.; Hayen, R.; Sbihi, H.; Brauer, M. Difficult
+family relationships, residential greenspace, and childhood asthma ． P 厅 s 2017 / 739 / e20163056 ．
+CrossRef] [PubMed
+Dadvand, P.; ViIIanueva, C.M.; Font-Ribera, L.; Martfnez, D.; Basagafia, X.; BeImonte, Vrijheid, M.•
+Grazuleviciene, R.; Kogevinas, M.; Nieuwenhuij sen, M 丰 Risks and benefits of green sp aces for children:
+A cross-sectional study Of associations with sedentary behavior, obesity, asthma, and allergy. E77 m77 ， Health
+Perspect. 2014 / 722 ／ 1329 一 1335 ． [CrossRef] PubMed]
+Dadvand, P.; Wright, J.; Martinez, D.; Basagafia, X.; McEachan, R.R ℃ ．； Cirach, M.; GidIow, C.J., de Hoogh, K.;
+Grazuleviciene, R.; NieuwenhuiJ sen, M.J. lnequality, green spaces, and pregnant women: Roles of ethnicity
+and individual and neighbourhood socioeconomic status ． 07 ro 月 ． 忉 7 ． 201 / 7 ／ 101 一 108 ， [CrossRef]
+[PubMed]
+Dadvand, P.; Sunyer, Alvarez-PedreroI, M.; DaImau-Bueno, A.; EsnaoIa, M.; Gascon, M.; De C astro
+PascuaI, M.; Basagafia, X.; Morgan, I.G.; Nieuwenhuij sen, M.J. Green spaces and spectacles use in
+schoolchildren in Barcelona. E77 ro Res ． 2017 ／ 752 / 256 一 262 ． [CrossRef] [PubMed]
+Demoury, C.; Thierry, B., Richard, H.; Sigler, B.; Kestens, Y.; Parent, M.-E. Resident1al greenness and risk
+0f prostate cancer: A case-control study in Montreal, Canada ． 07 ro 能 仂 2017 / 98 / 129 一 136 ． [CrossRef]
+[PubMed]
+Fuertes, E.; Markevych, I.; von Berg, A.; Bauer, C.-P.; BerdeI, D.; KoIetzko, S.; Sugiri, D.; Heinrich, 羊 Greenness
+and allergies: Evidence of differential associatlons in two areas in Germany. 7 ． E 声 7 历 硭 C 仞 7m7m7 y HeaIth
+2014 / 68 ／ 787 一 790 ． [CrossRef] [PubMed
+Fuertes, E.; Markevych, I.; Bowatte, G.; Gruzieva, O.; Gehring, U.; Becker, A.; BerdeI, D.; Berg, A.;
+Bergström, A.; Brauer, M.; et al. Residential greenness is differentially associated with childhood allergic
+rhinitis and aeroallergen sensitization in seven birth cohorts. 月 / 化 y 2016 / / 7 / 1461 一 1471 ． [CrossRef]
+[PubMed]
+Ghekiere, A.; Carver, A.; Veitch, Salmon, Deforche, B.; Timperi0, A. Does parental accompaniment
+when walking or cycling moderate the association between physical neighbourhood environment and active
+transport among 10 一 12 year olds? Sci. 化 S 尸 0 2016 ／ 79 ／ 149 一 153 ． [CrossRef] [PubMed
+G6mez, L.F.; Parra, D ℃ ，； Buchner, D.; Brownson, R.C.; Sarmiento, O.L.; Pinz6n, J.D.; ArdiIa, M.; Moreno,
+Serrato, M.; LobeIo, F. BuiIt environment attributes and walking patterns among the elderly population in
+Bogotå. Am. 7 ， Prev. 化 2010 ／ 38 / 592 一 599 ， [CrossRef] [PubMed]
+Gong, Y.; Gallacher, 1 ， ， PaImer, S.; Fone, D. Neighbourh00d green space, physical function and participation
+in physical activities among elderly men: The C aerphilly Prospective study. 仂 Behav. Nutr. Phys. 才 ．
+2014 / II, 40 ． [CrossRef] [PubMed]
+Grazuleviciene, R.; Danileviciute, A.; DedeIe, A.; Vencloviene, Andrusaityte, S.; I-J> danaviciute, I.;
+NieuwenhL11J sen, M.J. Surroundmg greenness, proxnnity tO city p arks and pregnancy outcomes in Kaunas
+cohort study. 力 止 养 Hyg. 07 ro 能 HeaIth 2015 / 278 / 358 一 365 ． [CrossRef] [PubMed]
+James, P.; Hart, J.E.; Banay, R.F.; Laden, F. Exposure t0 greenness and mortality in a nationwide prospective
+cohort study 0f women. 07 ro Health Pe1 ． e 2016 ／ 724 / 1344 一 1352 ， [CrossRef] [PubMed]
+Janssen, I.; Rosu, A. Undeveloped green space and free-time physical activity in 11 to 13-year-old children ．
+lnt. 7 ． Behav. Nutr. Phys. 月 2015 / 72 / 26 ． [CrossRef] [PubMed]
+Koohsari, M.J.; Kaczynski, A.T.; GiIes-Corti, B.; Karakiewicz, J.A. Effects 0f access t0 public open spaces on
+walking: ls proximity enough? L 田 7 小 c ． Urban Plan 2013 / 77 乙 92 一 99 ， [CrossRef]
+Laurent, O.; Wu, 0 Li, L.; MiIesi, C. Green sp aces and pregnancy outcomes in Southern California ． HeaIth
+P 忉 2013 ／ 2 190 一 195 ． [CrossRef] [PubMed
+Maas, Verheij, R.A.; Spreeuwenberg, P.; Groenewegen, P.P. Physical activity as a possible mechanism
+behind the relationship between green space and health: A multilevel analysis. BMC PubIic HeaIth 2008 ／ 8 /
+206 ． [CrossRef] [PubMed]
+Maas, van Dillen, S.M.E.• Verheij, R.A.; Groenewegen, P.P. Social contacts as a possible mechanism behind
+the relation between green space and health. HeaIth P 毹 2009 / 75 ／ 586 一 595 ． [CrossRef] [PubMed]
+
+@@ PAGE 21 / 21 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+21 of 21
+60 ．
+61 ．
+62 ．
+63 ．
+64 ．
+65 ．
+66 ．
+67 ．
+68 ．
+69 ．
+70 ．
+71 ．
+72 ．
+73 ．
+74 ．
+75 ．
+Markevych, I.; Fuertes, E.; TiesIer, C.M.T.; Birk, M.; Bauer, C.-P.; KoIetzko, S.; von Berg, A.; Berdel, D.;
+Heinrich, J. Surrounding greenness and birth weight: Results from the GINIplus and LISAplus birth cohorts
+in Munich. H / 确 Place 2014 / 26 / 39 一 46 ． [CrossRef] PubMed]
+Markevych, I.; StandI, M.; Sugiri, D.; Harris, C.; Maier, W.; BerdeI, D.; Heinrich, J. Residential greenness and
+blood lipids in children: A longitudinal analysis in GINIplus and LISAplus. E77 m77 ． Res. 2016 / 75L 168 一 173 ．
+CrossRef] [PubMed
+Markevych, I.; Smith, M.P.; Jochner, S.; StandI, M.; Brüske, I.; von Berg, A., Bauer, C.-P.; Fuks, K.; KoIetzko, S.;
+BerdeI, D.; et al. Neighbourhood and physical activity in German adolescents: GINIplus and LISAplus.
+07 ro Res. 2016 ／ 7 乙 284 一 293 ， [CrossRef] [PubMed]
+MitcheII, C.; CIark, A.; Gilliland, J. Built environment influences of children's physical activity: Examining
+differences by neighbourhood size and sex. lnt. 养 07 用 77 ． Res. Pu blic HeaIth 2016 / 73 / 130 ． [CrossRef]
+PubMed]
+Paquet, C.; OrschuIok, T.P.; Coffee, N.T.; Howard, N.J.; Hugo, G.; Taylor, A.W.; Adams, R.J.; DanieI, M.
+Are accessibility and characteristics Of public open spaces associated with a better cardiometabolic health?
+Landsc. U1 ' 77 P / 7 2013 / 778 ／ 70 一 7 & [CrossRef]
+Pereira, G.; Foster, S.; Martin, K.; Christian, H.; Boruff, B.J.; Knuiman, M.; GiIes-Corti, B. The association
+between neighborhood greenness and cardiovascular disease ： An observational study. BMC Pu blic Health
+2012 / 72 ／ 466 ． [CrossRef] [PubMed]
+Pereira, G.; Christian, H.; Foster, S.; Boruff, B.J.; Bull, F.; Knuiman, M.; GiIes-Corti, B. The association between
+neighborhood greenness and weight status ： An observational study Perth Western Australia ． E77 ron ．
+HeaIth 2013 / 72 ／ 49 ． [CrossRef] [PubMed]
+RundIe, A., Quinn, Lovasi, G.; Bader, M.D.M.; Yousefzadeh, P.; Weiss, C.; Neckerman, K. Associations
+between body mass index and park proximity, size, cleanliness, and recreational facilities. Am. 养 Health
+Promot. 2013 / 2 乙 262 一 269 ， [CrossRef] PubMed]
+SaIIis, J.F.; Cerin, E.; Conway, T.L.; Adams, M.A.; Frank, L.D.; Pratt, M.; SaIvo, D.; Schipperijn, J.; Smith, G.;
+Cain, K.L.; et al. Physical activity in relation tO urban environments in 14 cities worldwide ： A cross-sectional
+study. Lancet 2016 ／ 38 乙 2207 一 2217 ， [CrossRef]
+Schipperijn, J., Bentsen, P.; TroeIsen, J.; Toftager, M., Stigsdotter, U.K. Associations between physical activity
+and characteristics of urban green space. L[I ' 77 丆 or. Urban G 07 ， 2013 / 72 / 109 一 116 ． [CrossRef
+Scott, M.M.; Cohen, D.A.; Evenson, K.R.; EIder, CateIIier, D.; Ashwood, J.S.; Overton, A. Weekend
+schoolyard accessibility, physical actlvity, and obesity: The Trial of Activity in Adolescent GirIs (TAAG)
+study. P M ． 2007 / 44 / 398403 ． [CrossRef] [PubMed]
+Sugiyama, T.; Francis, Mid dleton, N.J.; Owen, N.; GiIes-Corti, B. Associations between recreational
+walking and attractiveness, and proximity 0f neighborhood open sp aces. Am. 7 ． Pu blic HeaIth 2010 / 700 ／
+1752 一 1754 ． [CrossRef] [PubMed
+Thiering, E.; Markevych, I.; Brüske, I.; Fuertes, E.; Kratzsch, Sugiri, D.; Hoffmann, B.; von Berg, A.;
+Bauer, C.-P.; KoIetzko, S.; et al. Associations 0f residential long-term air pollution exposures and
+satellite-derived greenness with insulin resistance in German adolescents ． 07 7 ' on ． HeaIth Perspect. 2016 / 724 ／
+1291 一 129 & [CrossRef] [PubMed
+UImer, J.M.; Wolf, K.L.; Backman, D.R.; Tretheway, R.L.; BIain, C.J.; O'NeiI-Dunne, J.P.; Frank, L.D. Multiple
+health benefits of urban tree canopy: The mountmg evidence for a green prescripfion. Health PIace 2016 / 42 /
+54 一 62 ． [CrossRef] [PubMed]
+Van den Berg, A.E.; Maas, VerheiJ, R.A.; Groenewegen, P.P. Green space as a buffer between stressful life
+events and health. So 匚 Sci. 化 2010 / / 0 / 1203 一 1210 ， [CrossRef] [PubMed]
+Van Loon, Frank, L.D.; NettIefoId, L.; Naylor, P.-J. Youth physical activity and the neighbourhood
+environment: Examming correlates and the role of neighbourhood definition. Soc. Sci. 饣 ． 2014 / 704 /
+107 一 115 ． [CrossRef] [PubMed
+@ 2017 by the authors ． Licensee MDPI, BaseI, SwitzerIand ． This article is an open access
+artlcle distributed under the terms and conditions of the Creative Commons Attribution
+()C (Y) license (http ： / / creativecommons ． org/licenses/by/4 ． 0 / ） ．

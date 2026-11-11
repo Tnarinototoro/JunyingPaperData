@@ -1,0 +1,1750 @@
+{
+  "scope": "Read-only bilingual original Excel versus original saved SEM matrix; no imagery selected or files modified",
+  "xlsx_file": "公園番号ParkIDと16のSEM観測変数データ Supplementary Materials S2 Data for ParkID and 16 SEM observed variables.xlsx",
+  "xlsx_sha256": "681c5807e4caae6e470d1646946ee9858af46cc65e804540b2aac6479a80e288",
+  "sheet_count": 1,
+  "original_sav_sha256": "54cca5a9e38faf59635ebcd9d645d7d77083ac30c7f2d8f46751d809c47d2737",
+  "original_SAV_unchanged_since_direct_data_QC": true,
+  "sheet_summary": [
+    {
+      "name": "Sheet1",
+      "state": "visible",
+      "dimension": "B2:S75",
+      "nonempty_cell_count": 696,
+      "first_populated_rows": [
+        {
+          "row": 2,
+          "values": [
+            {
+              "cell": "C2",
+              "value": "Direct ecological management behavior"
+            },
+            {
+              "cell": "D2",
+              "value": "Outreach-oriented management behavior"
+            },
+            {
+              "cell": "E2",
+              "value": "Environmental conservation awareness"
+            },
+            {
+              "cell": "F2",
+              "value": "Public-sector and designated-manager leadership"
+            },
+            {
+              "cell": "G2",
+              "value": "Citizen–expert collaboration"
+            },
+            {
+              "cell": "H2",
+              "value": "Basic amenity and safety provision"
+            },
+            {
+              "cell": "I2",
+              "value": "Tolerance of active, high-load recreational use"
+            },
+            {
+              "cell": "J2",
+              "value": "Alignment of spatial design and use regulation"
+            },
+            {
+              "cell": "K2",
+              "value": "Alignment of management operations, experience, and empathy"
+            },
+            {
+              "cell": "L2",
+              "value": "Environmental management resource adequacy"
+            },
+            {
+              "cell": "M2",
+              "value": "Breadth of complaint types"
+            },
+            {
+              "cell": "N2",
+              "value": "Ecology-related complaint volume"
+            },
+            {
+              "cell": "O2",
+              "value": "Conflict resolution difficulty"
+            },
+            {
+              "cell": "P2",
+              "value": "Safety measure implementation rate"
+            },
+            {
+              "cell": "Q2",
+              "value": "Within-park greenness"
+            },
+            {
+              "cell": "R2",
+              "value": "Outside-park greenness"
+            }
+          ]
+        },
+        {
+          "row": 3,
+          "values": [
+            {
+              "cell": "B3",
+              "value": "ParkID"
+            },
+            {
+              "cell": "C3",
+              "value": "直接的生態管理行動"
+            },
+            {
+              "cell": "D3",
+              "value": "社会的啓発管理行動"
+            },
+            {
+              "cell": "E3",
+              "value": "環境保全意識の高さ"
+            },
+            {
+              "cell": "F3",
+              "value": "公的・指定管理主導度"
+            },
+            {
+              "cell": "G3",
+              "value": "市民・専門家協働度"
+            },
+            {
+              "cell": "H3",
+              "value": "基礎的利便安全整備度"
+            },
+            {
+              "cell": "I3",
+              "value": "動的高負荷利用許容度"
+            },
+            {
+              "cell": "J3",
+              "value": "空間設計利用規律の調和度"
+            },
+            {
+              "cell": "K3",
+              "value": "管理運営体験共感の調和度"
+            },
+            {
+              "cell": "L3",
+              "value": "環境管理資源基盤充実度"
+            },
+            {
+              "cell": "M3",
+              "value": "苦情の種類の多さ"
+            },
+            {
+              "cell": "N3",
+              "value": "生態的苦情件数"
+            },
+            {
+              "cell": "O3",
+              "value": "コンフリクト対応難易度"
+            },
+            {
+              "cell": "P3",
+              "value": "安全対策実施率"
+            },
+            {
+              "cell": "Q3",
+              "value": "公園内部緑化度（z内部NDVI平均値）"
+            },
+            {
+              "cell": "R3",
+              "value": "公園外部緑化度（z外部NDVI平均値）"
+            }
+          ]
+        },
+        {
+          "row": 4,
+          "values": [
+            {
+              "cell": "B4",
+              "value": 1.0
+            },
+            {
+              "cell": "C4",
+              "value": 1.0
+            },
+            {
+              "cell": "D4",
+              "value": 1.0
+            },
+            {
+              "cell": "E4",
+              "value": 1.0
+            },
+            {
+              "cell": "F4",
+              "value": 0.5
+            },
+            {
+              "cell": "G4",
+              "value": 0.05
+            },
+            {
+              "cell": "H4",
+              "value": 0.0
+            },
+            {
+              "cell": "I4",
+              "value": 0.0
+            },
+            {
+              "cell": "J4",
+              "value": 0.6666666667
+            },
+            {
+              "cell": "K4",
+              "value": 2.5
+            },
+            {
+              "cell": "L4",
+              "value": 0.3888888889
+            },
+            {
+              "cell": "M4",
+              "value": 1.0
+            },
+            {
+              "cell": "N4",
+              "value": 2.5
+            },
+            {
+              "cell": "O4",
+              "value": 2.5
+            },
+            {
+              "cell": "P4",
+              "value": 0.75
+            },
+            {
+              "cell": "Q4",
+              "value": -0.32933
+            },
+            {
+              "cell": "R4",
+              "value": -0.27925
+            }
+          ]
+        },
+        {
+          "row": 5,
+          "values": [
+            {
+              "cell": "B5",
+              "value": 2.0
+            },
+            {
+              "cell": "C5",
+              "value": 1.0
+            },
+            {
+              "cell": "D5",
+              "value": 1.0
+            },
+            {
+              "cell": "E5",
+              "value": 1.0
+            },
+            {
+              "cell": "F5",
+              "value": 0.5
+            },
+            {
+              "cell": "G5",
+              "value": 0.45
+            },
+            {
+              "cell": "H5",
+              "value": 1.75
+            },
+            {
+              "cell": "I5",
+              "value": 1.833333333
+            },
+            {
+              "cell": "J5",
+              "value": 2.0
+            },
+            {
+              "cell": "K5",
+              "value": 3.0
+            },
+            {
+              "cell": "L5",
+              "value": 0.4444444444
+            },
+            {
+              "cell": "M5",
+              "value": 0.5
+            },
+            {
+              "cell": "N5",
+              "value": 1.5
+            },
+            {
+              "cell": "O5",
+              "value": 1.0
+            },
+            {
+              "cell": "P5",
+              "value": 0.875
+            },
+            {
+              "cell": "Q5",
+              "value": -0.01615
+            },
+            {
+              "cell": "R5",
+              "value": -0.179
+            }
+          ]
+        },
+        {
+          "row": 6,
+          "values": [
+            {
+              "cell": "B6",
+              "value": 3.0
+            },
+            {
+              "cell": "C6",
+              "value": 1.0
+            },
+            {
+              "cell": "D6",
+              "value": 0.75
+            },
+            {
+              "cell": "E6",
+              "value": 0.125
+            },
+            {
+              "cell": "F6",
+              "value": 0.75
+            },
+            {
+              "cell": "G6",
+              "value": 0.425
+            },
+            {
+              "cell": "H6",
+              "value": 2.5
+            },
+            {
+              "cell": "I6",
+              "value": 3.0
+            },
+            {
+              "cell": "J6",
+              "value": 2.0
+            },
+            {
+              "cell": "K6",
+              "value": 2.75
+            },
+            {
+              "cell": "L6",
+              "value": 0.3333333333
+            },
+            {
+              "cell": "M6",
+              "value": 1.0
+            },
+            {
+              "cell": "N6",
+              "value": 2.0
+            },
+            {
+              "cell": "O6",
+              "value": 1.5
+            },
+            {
+              "cell": "P6",
+              "value": 0.75
+            },
+            {
+              "cell": "Q6",
+              "value": 0.36619
+            },
+            {
+              "cell": "R6",
+              "value": 0.18505
+            }
+          ]
+        },
+        {
+          "row": 7,
+          "values": [
+            {
+              "cell": "B7",
+              "value": 4.0
+            },
+            {
+              "cell": "C7",
+              "value": 0.5
+            },
+            {
+              "cell": "D7",
+              "value": 0.75
+            },
+            {
+              "cell": "E7",
+              "value": 0.25
+            },
+            {
+              "cell": "F7",
+              "value": 0.3125
+            },
+            {
+              "cell": "G7",
+              "value": 0.075
+            },
+            {
+              "cell": "H7",
+              "value": 2.5
+            },
+            {
+              "cell": "I7",
+              "value": 1.333333333
+            },
+            {
+              "cell": "J7",
+              "value": 1.666666667
+            },
+            {
+              "cell": "K7",
+              "value": 2.5
+            },
+            {
+              "cell": "L7",
+              "value": 0.4444444444
+            },
+            {
+              "cell": "M7",
+              "value": 0.0
+            },
+            {
+              "cell": "N7",
+              "value": 1.0
+            },
+            {
+              "cell": "O7",
+              "value": 0.0
+            },
+            {
+              "cell": "P7",
+              "value": 0.875
+            },
+            {
+              "cell": "Q7",
+              "value": 0.66755
+            },
+            {
+              "cell": "R7",
+              "value": 0.00947
+            }
+          ]
+        },
+        {
+          "row": 8,
+          "values": [
+            {
+              "cell": "B8",
+              "value": 5.0
+            },
+            {
+              "cell": "C8",
+              "value": 0.75
+            },
+            {
+              "cell": "D8",
+              "value": 0.75
+            },
+            {
+              "cell": "E8",
+              "value": 1.0
+            },
+            {
+              "cell": "F8",
+              "value": 0.375
+            },
+            {
+              "cell": "G8",
+              "value": 0.2
+            },
+            {
+              "cell": "H8",
+              "value": 2.25
+            },
+            {
+              "cell": "I8",
+              "value": 1.0
+            },
+            {
+              "cell": "J8",
+              "value": 1.666666667
+            },
+            {
+              "cell": "K8",
+              "value": 2.25
+            },
+            {
+              "cell": "L8",
+              "value": 1.0
+            },
+            {
+              "cell": "M8",
+              "value": 0.0
+            },
+            {
+              "cell": "N8",
+              "value": 0.0
+            },
+            {
+              "cell": "O8",
+              "value": 0.0
+            },
+            {
+              "cell": "P8",
+              "value": 0.875
+            },
+            {
+              "cell": "Q8",
+              "value": -1.00104
+            },
+            {
+              "cell": "R8",
+              "value": -0.32061
+            }
+          ]
+        }
+      ],
+      "contiguous_ParkID_runs": [
+        {
+          "first_row": 4,
+          "first_column_1based": 2
+        }
+      ]
+    }
+  ],
+  "candidate_data_ranges": [
+    {
+      "sheet": "Sheet1",
+      "range": "B4:R42",
+      "data_start_row": 4,
+      "data_end_row": 42,
+      "headers_before_data": [
+        {
+          "B": null,
+          "C": null,
+          "D": null,
+          "E": null,
+          "F": null,
+          "G": null,
+          "H": null,
+          "I": null,
+          "J": null,
+          "K": null,
+          "L": null,
+          "M": null,
+          "N": null,
+          "O": null,
+          "P": null,
+          "Q": null,
+          "R": null
+        },
+        {
+          "B": null,
+          "C": "Direct ecological management behavior",
+          "D": "Outreach-oriented management behavior",
+          "E": "Environmental conservation awareness",
+          "F": "Public-sector and designated-manager leadership",
+          "G": "Citizen–expert collaboration",
+          "H": "Basic amenity and safety provision",
+          "I": "Tolerance of active, high-load recreational use",
+          "J": "Alignment of spatial design and use regulation",
+          "K": "Alignment of management operations, experience, and empathy",
+          "L": "Environmental management resource adequacy",
+          "M": "Breadth of complaint types",
+          "N": "Ecology-related complaint volume",
+          "O": "Conflict resolution difficulty",
+          "P": "Safety measure implementation rate",
+          "Q": "Within-park greenness",
+          "R": "Outside-park greenness"
+        },
+        {
+          "B": "ParkID",
+          "C": "直接的生態管理行動",
+          "D": "社会的啓発管理行動",
+          "E": "環境保全意識の高さ",
+          "F": "公的・指定管理主導度",
+          "G": "市民・専門家協働度",
+          "H": "基礎的利便安全整備度",
+          "I": "動的高負荷利用許容度",
+          "J": "空間設計利用規律の調和度",
+          "K": "管理運営体験共感の調和度",
+          "L": "環境管理資源基盤充実度",
+          "M": "苦情の種類の多さ",
+          "N": "生態的苦情件数",
+          "O": "コンフリクト対応難易度",
+          "P": "安全対策実施率",
+          "Q": "公園内部緑化度（z内部NDVI平均値）",
+          "R": "公園外部緑化度（z外部NDVI平均値）"
+        }
+      ],
+      "rows": 39,
+      "columns": 17,
+      "Japanese_headers_confirm_original_variable_order": true,
+      "NDVI_inside_range": "Q4:Q42",
+      "NDVI_outside_range": "R4:R42",
+      "non_NDVI_observed_range_to_preserve": "C4:P42",
+      "all_cells_numeric": true,
+      "formula_cell_count": 0,
+      "different_cells": 78,
+      "max_absolute_difference": 4.910889070675051e-06,
+      "all_differences_consistent_with_reported_decimal_precision": true,
+      "ParkID_and_14_non_NDVI_columns_exactly_equal_original_SAV": true,
+      "all_78_NDVI_values_equal_original_SAV_rounded_to_5_decimals": true
+    }
+  ],
+  "original_sav_variable_order": [
+    "ParkID",
+    "S2_1",
+    "S2_2",
+    "S2_3",
+    "S3_1",
+    "S3_2",
+    "S4_1",
+    "S4_2",
+    "S5_1",
+    "S5_2",
+    "S6",
+    "S7",
+    "S8_1",
+    "S8_2",
+    "S9",
+    "Z内部NDVI平均値",
+    "Z外部NDVI平均値"
+  ],
+  "different_cells_total": 78,
+  "differences": [
+    {
+      "sheet": "Sheet1",
+      "cell": "Q4",
+      "ParkID": 1,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -0.32933,
+      "sav_value": -0.3293313288750501,
+      "absolute_difference": 1.3288750501105895e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R4",
+      "ParkID": 1,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.27925,
+      "sav_value": -0.2792545148183479,
+      "absolute_difference": 4.514818347900462e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q5",
+      "ParkID": 2,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -0.01615,
+      "sav_value": -0.01615096070172373,
+      "absolute_difference": 9.607017237289739e-07,
+      "xlsx_stored_numeric_quantum": 1e-18,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R5",
+      "ParkID": 2,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.179,
+      "sav_value": -0.17900006761750975,
+      "absolute_difference": 6.761750975803338e-08,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q6",
+      "ParkID": 3,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.36619,
+      "sav_value": 0.36618941232798546,
+      "absolute_difference": 5.876720145514547e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R6",
+      "ParkID": 3,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.18505,
+      "sav_value": 0.1850533075306611,
+      "absolute_difference": 3.3075306611063393e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q7",
+      "ParkID": 4,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.66755,
+      "sav_value": 0.6675457995136944,
+      "absolute_difference": 4.200486305561135e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R7",
+      "ParkID": 4,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.00947,
+      "sav_value": 0.009465679882247413,
+      "absolute_difference": 4.320117752585825e-06,
+      "xlsx_stored_numeric_quantum": 1e-19,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q8",
+      "ParkID": 5,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -1.00104,
+      "sav_value": -1.0010440426628067,
+      "absolute_difference": 4.0426628067358195e-06,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R8",
+      "ParkID": 5,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.32061,
+      "sav_value": -0.3206083315758356,
+      "absolute_difference": 1.6684241643805109e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q9",
+      "ParkID": 6,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.51699,
+      "sav_value": 0.5169867415772875,
+      "absolute_difference": 3.2584227124266008e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R9",
+      "ParkID": 6,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.59659,
+      "sav_value": 0.5965938598903546,
+      "absolute_difference": 3.859890354673823e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q10",
+      "ParkID": 7,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -0.30652,
+      "sav_value": -0.3065234518561234,
+      "absolute_difference": 3.4518561233820577e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R10",
+      "ParkID": 7,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.25161,
+      "sav_value": -0.2516128356228372,
+      "absolute_difference": 2.835622837205065e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q11",
+      "ParkID": 8,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -1.32779,
+      "sav_value": -1.3277871434009303,
+      "absolute_difference": 2.8565990697337895e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R11",
+      "ParkID": 8,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.89319,
+      "sav_value": -0.8931907964934683,
+      "absolute_difference": 7.964934682913594e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q12",
+      "ParkID": 9,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -0.41831,
+      "sav_value": -0.4183146333946227,
+      "absolute_difference": 4.633394622699516e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R12",
+      "ParkID": 9,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.3871,
+      "sav_value": -0.3870965535686167,
+      "absolute_difference": 3.4464313832804905e-06,
+      "xlsx_stored_numeric_quantum": 0.0001,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q13",
+      "ParkID": 10,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -2.4066,
+      "sav_value": -2.4065964471255943,
+      "absolute_difference": 3.552874405787776e-06,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R13",
+      "ParkID": 10,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 2.86781,
+      "sav_value": 2.867809620491023,
+      "absolute_difference": 3.79508977133014e-07,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q14",
+      "ParkID": 11,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.50435,
+      "sav_value": 0.504354130582336,
+      "absolute_difference": 4.130582336059341e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R14",
+      "ParkID": 11,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.15318,
+      "sav_value": 0.15317735905630628,
+      "absolute_difference": 2.640943693732467e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q15",
+      "ParkID": 12,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 1.35375,
+      "sav_value": 1.3537451652338794,
+      "absolute_difference": 4.834766120564993e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R15",
+      "ParkID": 12,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.23738,
+      "sav_value": 0.23738375574881368,
+      "absolute_difference": 3.755748813671911e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q16",
+      "ParkID": 13,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.27305,
+      "sav_value": 0.2730454516802838,
+      "absolute_difference": 4.548319716191074e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R16",
+      "ParkID": 13,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.4124,
+      "sav_value": 0.41240046720079404,
+      "absolute_difference": 4.672007940520473e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q17",
+      "ParkID": 14,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.29324,
+      "sav_value": 0.2932443110114781,
+      "absolute_difference": 4.311011478075333e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R17",
+      "ParkID": 14,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.16623,
+      "sav_value": -0.16622945734812508,
+      "absolute_difference": 5.426518749074294e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q18",
+      "ParkID": 15,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.01282,
+      "sav_value": 0.012823328161119115,
+      "absolute_difference": 3.3281611191149363e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R18",
+      "ParkID": 15,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.13541,
+      "sav_value": 0.13541491088907068,
+      "absolute_difference": 4.910889070675051e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q19",
+      "ParkID": 16,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.18366,
+      "sav_value": 0.18366346891707738,
+      "absolute_difference": 3.468917077392719e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R19",
+      "ParkID": 16,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.75116,
+      "sav_value": 0.7511564713360173,
+      "absolute_difference": 3.5286639827880606e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q20",
+      "ParkID": 17,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.99563,
+      "sav_value": 0.9956253378177409,
+      "absolute_difference": 4.662182259140835e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R20",
+      "ParkID": 17,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.39317,
+      "sav_value": 0.3931692950304825,
+      "absolute_difference": 7.04969517539844e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q21",
+      "ParkID": 18,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -0.53654,
+      "sav_value": -0.5365389859377979,
+      "absolute_difference": 1.0140622020982093e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R21",
+      "ParkID": 18,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.09479,
+      "sav_value": -0.09478608840271288,
+      "absolute_difference": 3.911597287117874e-06,
+      "xlsx_stored_numeric_quantum": 1e-18,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q22",
+      "ParkID": 19,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -0.96757,
+      "sav_value": -0.9675679740773784,
+      "absolute_difference": 2.025922621662346e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R22",
+      "ParkID": 19,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.26517,
+      "sav_value": -0.26516699862456017,
+      "absolute_difference": 3.0013754398483528e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q23",
+      "ParkID": 20,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.88965,
+      "sav_value": 0.8896504943110397,
+      "absolute_difference": 4.943110396560257e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R23",
+      "ParkID": 20,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 1.12851,
+      "sav_value": 1.128506916084867,
+      "absolute_difference": 3.083915132817694e-06,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q24",
+      "ParkID": 21,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.50306,
+      "sav_value": 0.503059148238238,
+      "absolute_difference": 8.517617618997164e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R24",
+      "ParkID": 21,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.38887,
+      "sav_value": 0.3888702506318455,
+      "absolute_difference": 2.5063184549978246e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q25",
+      "ParkID": 22,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -1.21067,
+      "sav_value": -1.2106696467640685,
+      "absolute_difference": 3.5323593139402476e-07,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R25",
+      "ParkID": 22,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -1.34793,
+      "sav_value": -1.3479268136754816,
+      "absolute_difference": 3.1863245184560185e-06,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q26",
+      "ParkID": 23,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 1.01463,
+      "sav_value": 1.014630965785529,
+      "absolute_difference": 9.65785529105645e-07,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R26",
+      "ParkID": 23,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.08903,
+      "sav_value": -0.08902810976982603,
+      "absolute_difference": 1.8902301739676108e-06,
+      "xlsx_stored_numeric_quantum": 1e-18,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q27",
+      "ParkID": 24,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -1.8126,
+      "sav_value": -1.8126032577393894,
+      "absolute_difference": 3.2577393893618023e-06,
+      "xlsx_stored_numeric_quantum": 0.0001,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R27",
+      "ParkID": 24,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -1.48183,
+      "sav_value": -1.481826975380755,
+      "absolute_difference": 3.0246192450622544e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q28",
+      "ParkID": 25,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.17788,
+      "sav_value": 0.17788038837880285,
+      "absolute_difference": 3.8837880284026127e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R28",
+      "ParkID": 25,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.4596,
+      "sav_value": 0.45960216734931414,
+      "absolute_difference": 2.16734931413054e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q29",
+      "ParkID": 26,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.62005,
+      "sav_value": 0.6200464672093206,
+      "absolute_difference": 3.532790679439124e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R29",
+      "ParkID": 26,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.50331,
+      "sav_value": 0.5033142058720222,
+      "absolute_difference": 4.205872022211565e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q30",
+      "ParkID": 27,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -1.65578,
+      "sav_value": -1.6557842290549045,
+      "absolute_difference": 4.229054904492102e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R30",
+      "ParkID": 27,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -2.9237,
+      "sav_value": -2.923698143009296,
+      "absolute_difference": 1.8569907043186618e-06,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q31",
+      "ParkID": 28,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.98767,
+      "sav_value": 0.9876734245324769,
+      "absolute_difference": 3.4245324768145124e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R31",
+      "ParkID": 28,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 1.39072,
+      "sav_value": 1.3907175775892036,
+      "absolute_difference": 2.4224107963988217e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q32",
+      "ParkID": 29,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.11165,
+      "sav_value": 0.11164867876972363,
+      "absolute_difference": 1.3212302763659922e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R32",
+      "ParkID": 29,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.26161,
+      "sav_value": 0.2616063617235903,
+      "absolute_difference": 3.6382764097009357e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q33",
+      "ParkID": 30,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -1.69318,
+      "sav_value": -1.6931781608609051,
+      "absolute_difference": 1.8391390947947173e-06,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R33",
+      "ParkID": 30,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -1.64375,
+      "sav_value": -1.6437521289263568,
+      "absolute_difference": 2.1289263567592087e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q34",
+      "ParkID": 31,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 2.12773,
+      "sav_value": 2.12773413571958,
+      "absolute_difference": 4.135719579689834e-06,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R34",
+      "ParkID": 31,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.6497,
+      "sav_value": 0.6497023858180195,
+      "absolute_difference": 2.3858180194791245e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q35",
+      "ParkID": 32,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -0.30366,
+      "sav_value": -0.303661468494121,
+      "absolute_difference": 1.4684941210263425e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R35",
+      "ParkID": 32,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.9492,
+      "sav_value": -0.9492046606448012,
+      "absolute_difference": 4.660644801202096e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q36",
+      "ParkID": 33,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -0.41732,
+      "sav_value": -0.4173219086414558,
+      "absolute_difference": 1.9086414557722975e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R36",
+      "ParkID": 33,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.19953,
+      "sav_value": 0.1995320010409313,
+      "absolute_difference": 2.001040931287612e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q37",
+      "ParkID": 34,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.46047,
+      "sav_value": 0.46046901604420704,
+      "absolute_difference": 9.839557929547382e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R37",
+      "ParkID": 34,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -1.19393,
+      "sav_value": -1.1939303715249732,
+      "absolute_difference": 3.7152497323056366e-07,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q38",
+      "ParkID": 35,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 1.61528,
+      "sav_value": 1.61528131898359,
+      "absolute_difference": 1.3189835899041213e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R38",
+      "ParkID": 35,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 2.07749,
+      "sav_value": 2.077490873059518,
+      "absolute_difference": 8.730595180139744e-07,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q39",
+      "ParkID": 36,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 1.27262,
+      "sav_value": 1.2726160163494242,
+      "absolute_difference": 3.983650575856146e-06,
+      "xlsx_stored_numeric_quantum": 1e-16,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R39",
+      "ParkID": 36,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": 0.60183,
+      "sav_value": 0.6018302025196068,
+      "absolute_difference": 2.0251960686223924e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q40",
+      "ParkID": 37,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -0.51666,
+      "sav_value": -0.516663231626026,
+      "absolute_difference": 3.231626026001244e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R40",
+      "ParkID": 37,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.50629,
+      "sav_value": -0.5062887256144719,
+      "absolute_difference": 1.2743855281049932e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q41",
+      "ParkID": 38,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": -0.45128,
+      "sav_value": -0.45128078881645317,
+      "absolute_difference": 7.888164531566488e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R41",
+      "ParkID": 38,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.42705,
+      "sav_value": -0.42704941247448536,
+      "absolute_difference": 5.875255146281511e-07,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "Q42",
+      "ParkID": 39,
+      "variable_assuming_original_order": "Z内部NDVI平均値",
+      "excel_value": 0.4231,
+      "sav_value": 0.4231044588845075,
+      "absolute_difference": 4.458884507507754e-06,
+      "xlsx_stored_numeric_quantum": 1e-17,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R42",
+      "ParkID": 39,
+      "variable_assuming_original_order": "Z外部NDVI平均値",
+      "excel_value": -0.00315,
+      "sav_value": -0.0031466836522167922,
+      "absolute_difference": 3.316347783207784e-06,
+      "xlsx_stored_numeric_quantum": 1e-05,
+      "effective_reported_numeric_quantum": 1e-05,
+      "consistent_with_reported_decimal_precision": true,
+      "NDVI_matches_SAV_rounded_to_5_decimals": true
+    }
+  ],
+  "substantial_mismatches_beyond_reported_decimal_precision": [],
+  "per_variable_precision_comparison": [
+    {
+      "name": "ParkID",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S2_1",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S2_2",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S2_3",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S3_1",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S3_2",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S4_1",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S4_2",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S5_1",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S5_2",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S6",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S7",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S8_1",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S8_2",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "S9",
+      "different_cell_count": 0,
+      "maximum_absolute_difference": 0
+    },
+    {
+      "name": "Z内部NDVI平均値",
+      "different_cell_count": 39,
+      "maximum_absolute_difference": 4.834766120564993e-06
+    },
+    {
+      "name": "Z外部NDVI平均値",
+      "different_cell_count": 39,
+      "maximum_absolute_difference": 4.910889070675051e-06
+    }
+  ],
+  "NDVI_or_standardization_text_cells": [
+    {
+      "sheet": "Sheet1",
+      "cell": "Q3",
+      "text": "公園内部緑化度（z内部NDVI平均値）"
+    },
+    {
+      "sheet": "Sheet1",
+      "cell": "R3",
+      "text": "公園外部緑化度（z外部NDVI平均値）"
+    }
+  ],
+  "other_sheet_NDVI_method_paragraphs_found": false,
+  "original_files_modified": false,
+  "primary_source_selected": false
+}

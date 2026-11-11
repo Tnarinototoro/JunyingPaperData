@@ -1,0 +1,5009 @@
+[
+  {
+    "key": "article_100458_api",
+    "url": "https://api.elsevier.com/content/article/PII:S2590252026001650?httpAccept=text/xml",
+    "checked_at": "2026-11-09T17:56:11",
+    "status": 200,
+    "final_url": "https://api.elsevier.com/content/article/PII:S2590252026001650?httpAccept=text/xml",
+    "length": 2055,
+    "history_contexts": []
+  },
+  {
+    "key": "article_100458_oa",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.cacint.2026.100458",
+    "checked_at": "2026-11-09T17:56:11",
+    "status": 200,
+    "final_url": "https://api.openalex.org/works/https://doi.org/10.1016/j.cacint.2026.100458",
+    "length": 19287,
+    "results": [
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100458",
+        "title": "Participatory environmentalism in practice: a mixed-methods analysis of stakeholder perceptions, participation and governance of urban green stewardship in a secondary city in Ghana",
+        "date": "2026-08-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100458",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100458",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100458",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001650/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:454548afffb743f68e7b972b3de10cc8",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/454548afffb743f68e7b972b3de10cc8",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100458- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "repository_list",
+    "url": "https://api.openalex.org/works?filter=primary_location.source.issn:2590-2520,open_access.any_repository_has_fulltext:true,from_publication_date:2025-01-01,to_publication_date:2026-11-09&sort=publication_date:desc&per-page=40",
+    "checked_at": "2026-11-09T17:56:11",
+    "status": 200,
+    "final_url": "https://api.openalex.org/works?filter=primary_location.source.issn:2590-2520,open_access.any_repository_has_fulltext:true,from_publication_date:2025-01-01,to_publication_date:2026-11-09&sort=publication_date:desc&per-page=40",
+    "length": 977769,
+    "results": [
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100528",
+        "title": "RiverScan and the third mission: Community engagement and challenge-based learning for urban water governance in metropolitan Cebu",
+        "date": "2026-11-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100528",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100528",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100528",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026002382/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6393361",
+            "doi": "https://doi.org/10.2139/ssrn.6393361",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6393361",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100510",
+        "title": "Urban environmental stressors-driven physiological response modeling through a multiscale sensors-enabled ML-interpretable framework",
+        "date": "2026-10-26",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100510",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100510",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100510",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6115391",
+            "doi": "https://doi.org/10.2139/ssrn.6115391",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6115391",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:6b78fab8366c4a3c821b1b714aa5c883",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/6b78fab8366c4a3c821b1b714aa5c883",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 32, Iss , Pp 100510- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100505",
+        "title": "How do students use greenspaces and what factors shape their engagement? A qualitative exploratory study",
+        "date": "2026-10-24",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100505",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100505",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100505",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:uwe-repository.worktribe.com:16652081",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://uwe-repository.worktribe.com/16652081/1/How%20do%20students%20use%20greenspaces%20and%20what%20factors%20shape%20their%20engagement%3F%20A%20qualitative%20exploratory%20study",
+            "pdf_url": "https://uwe-repository.worktribe.com/preview/16652091/1-s2.0-S2590252026002126-main.pdf",
+            "source": {
+              "id": "https://openalex.org/S4306401464",
+              "display_name": "UWE Research Repository (UWE Bristol)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I178535277",
+              "host_organization_name": "University of the West of England",
+              "host_organization_lineage": [
+                "https://openalex.org/I178535277"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Journal Article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:ad5b32fc583245eab57f2efd8650d2b8",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/ad5b32fc583245eab57f2efd8650d2b8",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 32, Iss , Pp 100505- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100504",
+        "title": "Indoor thermal comfort and natural light in Jute-based versus tarpaulin shelters: a mixed-methods pilot study in Cox's Bazar, Bangladesh",
+        "date": "2026-10-21",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100504",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100504",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100504",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6225225",
+            "doi": "https://doi.org/10.2139/ssrn.6225225",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6225225",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:8a4e915ecb92485eac006379856beb87",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/8a4e915ecb92485eac006379856beb87",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 32, Iss , Pp 100504- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100503",
+        "title": "Geomorphologically controlled macroplastic hotspots across fluvial landforms in an urban forest park",
+        "date": "2026-10-17",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100503",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100503",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100503",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc",
+            "license_id": "https://openalex.org/licenses/cc-by-nc",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:repository.rothamsted.ac.uk:34242",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://orcid.org/0000-0001-8790-8473>",
+            "pdf_url": "https://repository.rothamsted.ac.uk/id/eprint/34242/1/Nosrati%20et%20al%20City%20and%20Environment%202026.pdf",
+            "source": {
+              "id": "https://openalex.org/S4306402645",
+              "display_name": "Rothamsted Repository (Rothamsted Repository)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I2799553609",
+              "host_organization_name": "Rothamsted Research",
+              "host_organization_lineage": [
+                "https://openalex.org/I2799553609"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:fc42bc88d4d0402997eff4bd60cc64c3",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/fc42bc88d4d0402997eff4bd60cc64c3",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 32, Iss , Pp 100503- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100501",
+        "title": "Pollutant respirability in urban street canyons under different atmospheric stability regimes",
+        "date": "2026-10-17",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100501",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100501",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100501",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.7285740",
+            "doi": "https://doi.org/10.2139/ssrn.7285740",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.7285740",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:afe73af510c24f8f94e5e9455d8bf36b",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/afe73af510c24f8f94e5e9455d8bf36b",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 32, Iss , Pp 100501- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100496",
+        "title": "Prolonged heatwaves in Central China: A duration-based framework for revealing their nonlinear intensification",
+        "date": "2026-10-10",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100496",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100496",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100496",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026002035/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:library.wur.nl:wurpubs/dc37ae96-8099-4403-bd69-e8979ce01dec",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://research.wur.nl/en/publications/prolonged-heatwaves-in-central-china-a-duration-based-framework-f",
+            "pdf_url": "https://edepot.wur.nl/725813",
+            "source": {
+              "id": "https://openalex.org/S4210201231",
+              "display_name": "Socio-Environmental Systems Modeling",
+              "issn_l": "2663-3027",
+              "issn": [
+                "2663-3027"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core"
+              ],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "ISSN: 2590-2520",
+            "raw_type": "Article/Letter to editor"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:8125c5aa1e6e4b699168d3f1dc5d06ad",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/8125c5aa1e6e4b699168d3f1dc5d06ad",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 32, Iss , Pp 100496- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100492",
+        "title": "PM 2.5 air quality index in major cities. long memory analysis with fractional integration",
+        "date": "2026-10-09",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100492",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100492",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100492",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001996/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:digiuv.villanueva.edu:20.500.12766/910",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://hdl.handle.net/20.500.12766/910",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407055342",
+              "display_name": "Repositorio Digital de la Universidad Villanueva",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:616b1a20f090481a80e4ff15ca9f7960",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/616b1a20f090481a80e4ff15ca9f7960",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 32, Iss , Pp 100492- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100488",
+        "title": "Predicting environmental health-related search patterns using freely available digital and reanalysis data: A critical evaluation of Google Trends and global datasets for Morocco",
+        "date": "2026-10-08",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100488",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100488",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100488",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001959/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:infoscience.epfl.ch:20.500.14299/268180",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://infoscience.epfl.ch/handle/20.500.14299/268180",
+            "pdf_url": "https://infoscience.epfl.ch/bitstreams/5b4b086f-940f-41f9-8304-2655589537e5/download",
+            "source": {
+              "id": "https://openalex.org/S4306400487",
+              "display_name": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I5124864",
+              "host_organization_name": "École Polytechnique Fédérale de Lausanne",
+              "host_organization_lineage": [
+                "https://openalex.org/I5124864"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "research article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:0401c559475343678d37543b9fd86921",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/0401c559475343678d37543b9fd86921",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 32, Iss , Pp 100488- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100487",
+        "title": "Relative cooling performance of urban trees: A CFD-based thermodynamic benchmark for diurnal design assessment",
+        "date": "2026-10-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100487",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100487",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100487",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001947/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6983938",
+            "doi": "https://doi.org/10.2139/ssrn.6983938",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6983938",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:f6c10e3b7d2a4aeca355f0431db37707",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/f6c10e3b7d2a4aeca355f0431db37707",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 32, Iss , Pp 100487- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100481",
+        "title": "Navigating flood-induced accessibility risks in emerging urban spaces: A case study of pole urban of Diamniadio, Senegal",
+        "date": "2026-09-30",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100481",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100481",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100481",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6983939",
+            "doi": "https://doi.org/10.2139/ssrn.6983939",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6983939",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:c8ffe3f5ee6d4ca0b4db1e0e82793771",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/c8ffe3f5ee6d4ca0b4db1e0e82793771",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 32, Iss , Pp 100481- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100477",
+        "title": "Green spaces and depression: A conceptual model of self-sustaining home gardens in urban environments",
+        "date": "2026-09-19",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100477",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100477",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100477",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001844/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5553826",
+            "doi": "https://doi.org/10.2139/ssrn.5553826",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5553826",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:5a6208c87c514dd3adddcdbcf6ee7875",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/5a6208c87c514dd3adddcdbcf6ee7875",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 32, Iss , Pp 100477- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100473",
+        "title": "A hybrid urban gridded inventory & sensor-based approach for source apportionment (HUGISS)",
+        "date": "2026-09-17",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100473",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100473",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100473",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001807/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6080570",
+            "doi": "https://doi.org/10.2139/ssrn.6080570",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6080570",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:HAL:hal-05755739v1",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://hal.science/hal-05755739v1",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306402512",
+              "display_name": "HAL",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I4405252976",
+              "host_organization_name": "Centre pour la Communication Scientifique Directe",
+              "host_organization_lineage": [
+                "https://openalex.org/I4405252976"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, 2026, 32, pp.100473. &#x27E8;10.1016/j.cacint.2026.100473&#x27E9;",
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100454",
+        "title": "Impacts of China's Sponge City projects on urban thermal environments: a synthetic control approach",
+        "date": "2026-08-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100454",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100454",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100454",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001613/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:2f31b138d4da43a4b072468044bbcbd2",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/2f31b138d4da43a4b072468044bbcbd2",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100454- (2026)",
+            "raw_type": "article"
+          },
+          {
+            "id": "pmh:oai:pure.atira.dk:publications/3ce73781-6be4-40bf-a436-49532c5828f2",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://hdl.handle.net/2031/3ce73781-6be4-40bf-a436-49532c5828f2",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407055387",
+              "display_name": "CityU Scholars",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Ou, Y, Li, X, Zhang, A, Xu, N & Nam, K-M 2026, 'Impacts of China's Sponge City projects on urban thermal environments : a synthetic control approach', City and Environment Interactions, vol. 31, 100454. https://doi.org/10.1016/j.cacint.2026.100454",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "doi:10.6084/m9.figshare.31430995",
+            "doi": "https://doi.org/10.6084/m9.figshare.31430995",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.6084/m9.figshare.31430995",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4377196282",
+              "display_name": "Figshare",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I4210132348",
+              "host_organization_name": "Figshare (United Kingdom)",
+              "host_organization_lineage": [
+                "https://openalex.org/I4210132348"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Dataset"
+          },
+          {
+            "id": "doi:10.6084/m9.figshare.31430995.v1",
+            "doi": "https://doi.org/10.6084/m9.figshare.31430995.v1",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.6084/m9.figshare.31430995.v1",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4377196282",
+              "display_name": "Figshare",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I4210132348",
+              "host_organization_name": "Figshare (United Kingdom)",
+              "host_organization_lineage": [
+                "https://openalex.org/I4210132348"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Dataset"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100459",
+        "title": "Reframing urban hydropower through nature-based solutions: Constructed wetlands for climate-resilient water and energy systems",
+        "date": "2026-08-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100459",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100459",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100459",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6635093",
+            "doi": "https://doi.org/10.2139/ssrn.6635093",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6635093",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:0b9cdad99c834c9abc011038c8edbf11",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/0b9cdad99c834c9abc011038c8edbf11",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100459- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100457",
+        "title": "Ensemble-based anomaly detection for urban water consumption monitoring: A smart city application in Valencia",
+        "date": "2026-08-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100457",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100457",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100457",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001649/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6730167",
+            "doi": "https://doi.org/10.2139/ssrn.6730167",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6730167",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:d261c47e6cfa40b6abbb4b55d1e7bf99",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/d261c47e6cfa40b6abbb4b55d1e7bf99",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100457- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100438",
+        "title": "Unpacking spatial-digital coupling: nonlinear morphological association ranges and spatially heterogeneous built-environment relationships in Beijing",
+        "date": "2026-08-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100438",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100438",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100438",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001455/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6945428",
+            "doi": "https://doi.org/10.2139/ssrn.6945428",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6945428",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:7f6841152ebf464ebf36425b343c5f09",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/7f6841152ebf464ebf36425b343c5f09",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100438- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100444",
+        "title": "Urban green space engagement patterns and mental health in a Mediterranean City",
+        "date": "2026-08-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100444",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100444",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100444",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmid:42746501",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/42746501",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306525036",
+              "display_name": "PubMed",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1299303238",
+              "host_organization_name": "National Institutes of Health",
+              "host_organization_lineage": [
+                "https://openalex.org/I1299303238"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and environment interactions",
+            "raw_type": "Journal Article"
+          },
+          {
+            "id": "pmh:oai:pubmedcentral.nih.gov:13576388",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13576388/",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S2764455111",
+              "display_name": "PubMed Central",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1299303238",
+              "host_organization_name": "National Institutes of Health",
+              "host_organization_lineage": [
+                "https://openalex.org/I1299303238"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City Environ Interact",
+            "raw_type": "Text"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:1ac7f07768c3437b9888f11c24ca3def",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/1ac7f07768c3437b9888f11c24ca3def",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100444- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100451",
+        "title": "Interpretable GeoAI for smart urbanism in data-scarce environments: Spatial assessment of cardiometabolic resilience in heat-vulnerable cities",
+        "date": "2026-08-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100451",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100451",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100451",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001583/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:digitalcollection.zhaw.ch:11475/37552",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://hdl.handle.net/11475/37552",
+            "pdf_url": "https://digitalcollection.zhaw.ch/bitstreams/cd85a101-f1a8-4037-81fc-d50ba420d696/download",
+            "source": {
+              "id": "https://openalex.org/S4306401811",
+              "display_name": "Zürcher Hochschule für Angewandte Wissenschaften digital collection (Zurich University of Applied Sciences)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I858936495",
+              "host_organization_name": "ZHAW Zurich University of Applied Sciences",
+              "host_organization_lineage": [
+                "https://openalex.org/I858936495"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:3640f192e6754433879dc3df0a14666e",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/3640f192e6754433879dc3df0a14666e",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100451- (2026)",
+            "raw_type": "article"
+          },
+          {
+            "id": "pmh:oai:oa.upm.es:97752",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://oa.upm.es/97752/",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4377196323",
+              "display_name": "UPM Digital Archive (Technical University of Madrid)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I88060688",
+              "host_organization_name": "Universidad Politécnica de Madrid",
+              "host_organization_lineage": [
+                "https://openalex.org/I88060688"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, ISSN 2590-2520, 2026-08-01, Vol. 31",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "doi:10.21256/zhaw-37552",
+            "doi": "https://doi.org/10.21256/zhaw-37552",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.21256/zhaw-37552",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407051289",
+              "display_name": "ZHAW Digital Collection",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "article-journal"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100456",
+        "title": "Designed adaptation: A multidisciplinary framework for urbanized river-landform design and communication",
+        "date": "2026-08-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100456",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100456",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100456",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001637/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:escholarship.org:ark:/13030/qt90h8c013",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://escholarship.org/uc/item/90h8c013",
+            "pdf_url": "https://escholarship.org/content/qt90h8c013/qt90h8c013.pdf",
+            "source": {
+              "id": "https://openalex.org/S4306400115",
+              "display_name": "eScholarship (California Digital Library)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I2801248553",
+              "host_organization_name": "California Digital Library",
+              "host_organization_lineage": [
+                "https://openalex.org/I2801248553"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, vol 31",
+            "raw_type": "article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:7f5989fdf242415aa72bd579dd137dfe",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/7f5989fdf242415aa72bd579dd137dfe",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100456- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100434",
+        "title": "Urban airborne allergenic pollen shows highly local patterns correlated with public green spaces",
+        "date": "2026-07-21",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100434",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100434",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100434",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001418/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:library.wur.nl:wurpubs/fb687b10-856c-454b-a39e-ea10a90556cd",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://research.wur.nl/en/publications/urban-airborne-allergenic-pollen-shows-highly-local-patterns-corr",
+            "pdf_url": "https://edepot.wur.nl/721041",
+            "source": {
+              "id": "https://openalex.org/S4210201231",
+              "display_name": "Socio-Environmental Systems Modeling",
+              "issn_l": "2663-3027",
+              "issn": [
+                "2663-3027"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core"
+              ],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "ISSN: 2590-2520",
+            "raw_type": "Article/Letter to editor"
+          },
+          {
+            "id": "pmh:oai:repository.naturalis.nl:802279",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://repository.naturalis.nl/pub/802279",
+            "pdf_url": "https://repository.naturalis.nl/pub/802279/Dorst-2026-Urban-airborne-allergenic-pollen-A.pdf",
+            "source": {
+              "id": "https://openalex.org/S4306401890",
+              "display_name": "The Digital Academic Repository of Naturalis Biodiversity Center (Naturalis Biodiversity Center)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1295562517",
+              "host_organization_name": "Naturalis Biodiversity Center",
+              "host_organization_lineage": [
+                "https://openalex.org/I1295562517"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions vol. 31 no. 100434",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:repository.ubn.ru.nl:2066/334235",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://hdl.handle.net/2066/334235",
+            "pdf_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/334235/334235.pdf",
+            "source": {
+              "id": "https://openalex.org/S4306401067",
+              "display_name": "Radboud Repository (Radboud University)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I145872427",
+              "host_organization_name": "Radboud University Nijmegen",
+              "host_organization_lineage": [
+                "https://openalex.org/I145872427"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "public-domain",
+            "license_id": "https://openalex.org/licenses/public-domain",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "Article / Letter to editor"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:99e290e60cc243f1a51181b7d322f46c",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/99e290e60cc243f1a51181b7d322f46c",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100434- (2026)",
+            "raw_type": "article"
+          },
+          {
+            "id": "pmh:oai:scholarlypublications.universiteitleiden.nl:9940770932102711",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://scholarlypublications.universiteitleiden.nl/handle/1887/5003704",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400850",
+              "display_name": "Leiden Repository (Leiden University)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I121797337",
+              "host_organization_name": "Leiden University",
+              "host_organization_lineage": [
+                "https://openalex.org/I121797337"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, 100434",
+            "raw_type": "http://purl.org/coar/resource_type/c_6501"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100431",
+        "title": "The value of university-driven urban transformation: a Benefit Transfer approach in the city of Turin",
+        "date": "2026-07-14",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100431",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100431",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100431",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001388/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6461500",
+            "doi": "https://doi.org/10.2139/ssrn.6461500",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6461500",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:30686dde0c9e46c9b908dc854c147f16",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/30686dde0c9e46c9b908dc854c147f16",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100431- (2026)",
+            "raw_type": "article"
+          },
+          {
+            "id": "pmh:oai:iris.polito.it:11583/3013298",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001388?via=ihub",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407055329",
+              "display_name": "PORTO@Iris",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100428",
+        "title": "Crafting change: developing behaviour change communication intervention package for improved household waste segregation in urban India",
+        "date": "2026-07-03",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100428",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100428",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100428",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001352/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5385634",
+            "doi": "https://doi.org/10.2139/ssrn.5385634",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5385634",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:DiVA.org:hb-35979",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-35979",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401559",
+              "display_name": "KTH Publication Database DiVA (KTH Royal Institute of Technology)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I86987016",
+              "host_organization_name": "KTH Royal Institute of Technology",
+              "host_organization_lineage": [
+                "https://openalex.org/I86987016"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:2a557f4438bd425da3fb5925f1506513",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/2a557f4438bd425da3fb5925f1506513",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100428- (2026)",
+            "raw_type": "article"
+          },
+          {
+            "id": "pmh:oai:trepo.tuni.fi:10024/239298",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://trepo.tuni.fi/handle/10024/239298",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401860",
+              "display_name": "Tampere University Institutional Repository (Tampere University)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I150589677",
+              "host_organization_name": "Tampere University of Applied Sciences",
+              "host_organization_lineage": [
+                "https://openalex.org/I150589677"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "publishedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100427",
+        "title": "Old housing, ageing residents, hotter nights: a sub-municipal map of structural climatic vulnerability in the Canary Islands",
+        "date": "2026-07-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100427",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100427",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100427",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:c80effc066bd4b27a963c22de9a21070",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/c80effc066bd4b27a963c22de9a21070",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100427- (2026)",
+            "raw_type": "article"
+          },
+          {
+            "id": "pmh:oai:riull.ull.es:915/48028",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://riull.ull.es/xmlui/handle/915/48028",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210224415",
+              "display_name": "Scientia Insularum Revista de Ciencias Naturales en islas",
+              "issn_l": "2659-6644",
+              "issn": [
+                "2659-6644"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/P4310321416",
+              "host_organization_name": "University of La Laguna",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310321416"
+              ],
+              "host_organization_lineage_names": [
+                "University of La Laguna"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100412",
+        "title": "How exposure to (urban) heat changes in only three generations. a case study from Bern, Switzerland",
+        "date": "2026-06-26",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100412",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100412",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100412",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6292456",
+            "doi": "https://doi.org/10.2139/ssrn.6292456",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6292456",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:29aeb6bf45f4423bb15e4a9141b805b0",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/29aeb6bf45f4423bb15e4a9141b805b0",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100412- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100416",
+        "title": "Quality of life inequalities, housing Price polarisation and spatial environmental inequality in post-socialist Brno (2011−2021)",
+        "date": "2026-06-19",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100416",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100416",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100416",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6588267",
+            "doi": "https://doi.org/10.2139/ssrn.6588267",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6588267",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:f95344b4ed354f628c38dd1455de877c",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/f95344b4ed354f628c38dd1455de877c",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100416- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100418",
+        "title": "Localizing carbon neutrality policy for climate crisis management: typological analysis of government and citizen roles in Gyeonggi Province",
+        "date": "2026-06-19",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100418",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100418",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100418",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5937562",
+            "doi": "https://doi.org/10.2139/ssrn.5937562",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5937562",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:d67bfe55dfb849e1915147c3368e14ca",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/d67bfe55dfb849e1915147c3368e14ca",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100418- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100415",
+        "title": "Mapping heat-related risk in three mid-sized European cities",
+        "date": "2026-06-17",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100415",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100415",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100415",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5400468",
+            "doi": "https://doi.org/10.2139/ssrn.5400468",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5400468",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:utupub.fi:11111/62935",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://www.utupub.fi/handle/11111/62935",
+            "pdf_url": "https://www.utupub.fi/bitstreams/b2936758-3e08-464d-963f-c9cf66183230/download",
+            "source": {
+              "id": "https://openalex.org/S4306402470",
+              "display_name": "UTUPub (University of Turku)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I155660961",
+              "host_organization_name": "University of Turku",
+              "host_organization_lineage": [
+                "https://openalex.org/I155660961"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": null
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:ba14eeb5f76443e9a6860bc643af55e2",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/ba14eeb5f76443e9a6860bc643af55e2",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100415- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100394",
+        "title": "A methodological approach to identifying brownfield development cycles: A case study of Slovenia",
+        "date": "2026-05-22",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100394",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100394",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100394",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:repozitorij.uni-lj.si:IzpisGradiva.php?id=187567",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://repozitorij.uni-lj.si/IzpisGradiva.php?id=187567",
+            "pdf_url": "https://repozitorij.uni-lj.si/Dokument.php?id=247246&dn=",
+            "source": {
+              "id": "https://openalex.org/S4377196268",
+              "display_name": "Repository of the University of Ljubljana (University of Ljubljana)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I153976015",
+              "host_organization_name": "University of Ljubljana",
+              "host_organization_lineage": [
+                "https://openalex.org/I153976015"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "ISSN: 2590-2520",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:d.cobiss.net/repository/si:280600835",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://plus.cobiss.net/cobiss/si/en/bib/280600835",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407055177",
+              "display_name": "dCOBISS.SI Digital Repository",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "COBISS-ID: 18913283",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:f33db2435e0446c4b131ba0ed584812d",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/f33db2435e0446c4b131ba0ed584812d",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 31, Iss , Pp 100394- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100397",
+        "title": "Towards resilient cities: development of a city resilience assessment tool",
+        "date": "2026-04-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100397",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100397",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100397",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001042/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5122691",
+            "doi": "https://doi.org/10.2139/ssrn.5122691",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5122691",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "doi:10.2139/ssrn.4797785",
+            "doi": "https://doi.org/10.2139/ssrn.4797785",
+            "is_oa": true,
+            "landing_page_url": "http://dx.doi.org/10.2139/ssrn.4797785",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:d4cb33a2ee3540b4a6222c49f7dd71d2",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/d4cb33a2ee3540b4a6222c49f7dd71d2",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 30, Iss , Pp 100397- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100393",
+        "title": "Enhancing outdoor thermal comfort in a historical marketplace of a hot arid climate through integrated heat mitigation strategies",
+        "date": "2026-04-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100393",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100393",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100393",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5669475",
+            "doi": "https://doi.org/10.2139/ssrn.5669475",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5669475",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5492851",
+            "doi": "https://doi.org/10.2139/ssrn.5492851",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5492851",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:1892239a2222440d91768ca173171b52",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/1892239a2222440d91768ca173171b52",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 30, Iss , Pp 100393- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100369",
+        "title": "Anthropogenic and urban controls on Japan’s surface warming over the past 130 years",
+        "date": "2026-04-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100369",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100369",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100369",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc",
+            "license_id": "https://openalex.org/licenses/cc-by-nc",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5698910",
+            "doi": "https://doi.org/10.2139/ssrn.5698910",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5698910",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:b1922c9489224447b04fb6f657b7cffb",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/b1922c9489224447b04fb6f657b7cffb",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 30, Iss , Pp 100369- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100361",
+        "title": "Compact or dispersed? spatial patterns of urban growth and Land-Use efficiency in Vietnam (2017–2024)",
+        "date": "2026-04-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100361",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100361",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100361",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2590252026000681/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:e9a1ecdc27f94d6489085234e0014db4",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/e9a1ecdc27f94d6489085234e0014db4",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 30, Iss , Pp 100361- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100356",
+        "title": "Identifying urban morphological archetypes using k-means to analyze spatial heterogeneity of the urban thermal environment",
+        "date": "2026-04-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100356",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100356",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100356",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:87cac5f749c14b738f52b0e2d1e01022",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/87cac5f749c14b738f52b0e2d1e01022",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 30, Iss , Pp 100356- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100358",
+        "title": "A critical evaluation of Purbachal New Town’s planning and implementation for effective decentralization of Dhaka",
+        "date": "2026-04-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100358",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100358",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100358",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5450958",
+            "doi": "https://doi.org/10.2139/ssrn.5450958",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5450958",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:df4aa79492f049cd80903fba9150115a",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/df4aa79492f049cd80903fba9150115a",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 30, Iss , Pp 100358- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100360",
+        "title": "Quantifying the co-benefits of a tropical urban park in São Paulo through integrated mobile and stationary monitoring",
+        "date": "2026-04-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100360",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100360",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100360",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:nora.nerc.ac.uk:541504",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://orcid.org/0000-0002-2462-4411",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400758",
+              "display_name": "NERC Open Research Archive (Natural Environment Research Council)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I141816643",
+              "host_organization_name": "Natural Environment Research Council",
+              "host_organization_lineage": [
+                "https://openalex.org/I141816643"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Publication - Article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:212b5a4691b14588a800a8f4c71e3c50",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/212b5a4691b14588a800a8f4c71e3c50",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 30, Iss , Pp 100360- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100359",
+        "title": "Complex adaptive learning for urban flood resilience: community-based nature-based solutions from Dar es Salaam, Tanzania",
+        "date": "2026-04-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100359",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100359",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100359",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.6105107",
+            "doi": "https://doi.org/10.2139/ssrn.6105107",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6105107",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:d4548b2705af46dc8fc61c1b85870d4d",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/d4548b2705af46dc8fc61c1b85870d4d",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 30, Iss , Pp 100359- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100357",
+        "title": "Modeling downwind, urban heat island and rainfall, using a machine learning–integrated spatiotemporal framework",
+        "date": "2026-04-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100357",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100357",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100357",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:f73d0ec31af1453d9416bb2c7f428929",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/f73d0ec31af1453d9416bb2c7f428929",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 30, Iss , Pp 100357- (2026)",
+            "raw_type": "article"
+          },
+          {
+            "id": "pmh:oai:publications.rwth-aachen.de:1034502",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://publications.rwth-aachen.de/search?p=id:%22RWTH-2026-04764%22",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401362",
+              "display_name": "RWTH Publications (RWTH Aachen)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I887968799",
+              "host_organization_name": "RWTH Aachen University",
+              "host_organization_lineage": [
+                "https://openalex.org/I887968799"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and environment interactions 30, 100357 (2026). doi:10.1016/j.cacint.2026.100357",
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100366",
+        "title": "Simulating the impact of climate change on heat stress using the discomfort index (DI) at Kerman station",
+        "date": "2026-04-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100366",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100366",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100366",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:792cffe0defe48769474896fdd902de9",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/792cffe0defe48769474896fdd902de9",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 30, Iss , Pp 100366- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.cacint.2026.100362",
+        "title": "A critical review of affordable and Low-Carbon housing Strategies: Challenges and policy Responses for resilient development in densifying cities",
+        "date": "2026-04-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cacint.2026.100362",
+            "doi": "https://doi.org/10.1016/j.cacint.2026.100362",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cacint.2026.100362",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210239238",
+              "display_name": "City and Environment Interactions",
+              "issn_l": "2590-2520",
+              "issn": [
+                "2590-2520"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "doaj",
+                "dongbi-d",
+                "jufo-1",
+                "ki-jl-1",
+                "norway-1",
+                "poland-20",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "City and Environment Interactions",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:3a6607834a554d138f45fc98965bab62",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/3a6607834a554d138f45fc98965bab62",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "City and Environment Interactions, Vol 30, Iss , Pp 100362- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "article_100458_full",
+    "url": "https://api.elsevier.com/content/article/PII:S2590252026001650?view=FULL&httpAccept=text/xml",
+    "checked_at": "2026-11-09T17:56:11",
+    "status": 401,
+    "final_url": "https://api.elsevier.com/content/article/PII:S2590252026001650?view=FULL&httpAccept=text/xml",
+    "length": 133
+  },
+  {
+    "key": "article_100458_home",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2590252026001650",
+    "checked_at": "2026-11-09T17:56:11",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/article/pii/S2590252026001650",
+    "length": 832981
+  }
+]

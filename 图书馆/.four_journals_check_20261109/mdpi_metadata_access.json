@@ -1,0 +1,30 @@
+[
+  {
+    "name": "mdpi_conservation_doaj",
+    "url": "https://doaj.org/api/search/journals/issn:2673-7159",
+    "status": 200,
+    "final_url": "https://doaj.org/api/search/journals/issn:2673-7159",
+    "bytes": 2574
+  },
+  {
+    "name": "mdpi_conservation_openalex",
+    "url": "https://api.openalex.org/sources/issn:2673-7159",
+    "status": 200,
+    "final_url": "https://api.openalex.org/sources/issn:2673-7159",
+    "bytes": 21178
+  },
+  {
+    "name": "mdpi_conservation_xml",
+    "url": "https://mdpi-res.com/d_attachment/conservation/conservation-06-00134/article_deploy/conservation-06-00134.xml",
+    "status": 200,
+    "final_url": "https://mdpi-res.com/d_attachment/conservation/conservation-06-00134/article_deploy/conservation-06-00134.xml",
+    "bytes": 98783
+  },
+  {
+    "name": "mdpi_cn_payments",
+    "url": "https://mdpi.cn/announcements/747",
+    "status": 200,
+    "final_url": "https://mdpi.cn/announcements/747",
+    "bytes": 321725
+  }
+]

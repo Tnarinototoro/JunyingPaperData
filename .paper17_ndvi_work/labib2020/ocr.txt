@@ -1,0 +1,1628 @@
+@@ PAGE 1 / 15 @@
+ELSEVI ER
+Computers, Environment and Urban Systems 82 〔 2020 ） 101501
+Contents lists available at ScienceDirect
+Computers, Environment and Urb an Systems
+journal homepage:
+www.elsevier.com/locate/ceus
+COMPUTE RS
+ENVIRONMENT
+uRB 磊 SYSTEMS
+Check for
+updates
+Scale effects in remotely sensed greenspace metrics and hOW tO miti gate
+them for environmental health exposure assessment
+S.M. Labib ， Sarah Lindley, Jonny J. Huck
+Department 可 Geography, School 硕 Environment, Education and Development (SEED), University 可 Manchester, Arthur Lewis building （ 严 00 0 brd R 皿 磋
+Manchester M73 9P UK
+A R T I C L E I N F O
+Keywords:
+Urban
+Greenness exposure
+Health
+GIS
+Buffer distance
+Lacunarity
+1 · lntroduction
+A B S T R A C T
+Metrics representing exposure tO the natural environment are widely used in environmental health-related
+studies. They are calculated using a variety Of different data sources representlng greenspace and a range 0f
+buffer sizes representing human interaction with the envlronment. Previous studies have identified issues re-
+lating tO buffer distance and scaling effects on greenspace exposure assessments when using satellite image-
+derived metrics. We evaluate the spatial scale sensitivity of three common greenspace metrics (i.e., Normalised
+Difference Vegetation lndex- NDVI ， Leaf Area lndex- LAI, and Land Use and Land Cover-LULC), using lacunarity
+analysis ， as a scale-dependent measure Of heterogeneity based on the principles Of fractals. By producing a
+'lacunarity curve' across multiple spatial scales, we defined the scale-vanances for specific greenspace metrics,
+including the upper scale limit at which the metrics become invariant ， approximately 640 m for Sentinel-2 and
+480 m for Landsat-8. Each Of the greenspace metrics we considered exhibited scale sensitivities ， meaning that
+each is expected tO have a different influence on the strength and significance Of the statistical associations found
+between greenspace exposure and health depending on the spatial scale Of analysis 〔 e ， 8 ” buffer distance). Using
+lacunarity curves, we produced a novel composite ， multi-scale greenspace exposure index' in which each input
+scale is weighted according tO its relative scale sensitivity. We also created a multi-scale, multi-metric map
+combining the different vegetation measures while accounting for scale. We found that cumulative exposure
+gradients across a large urban conurbation are even more marked when using our multl-scale 'exposure index ，
+maps compared tO traditional approaches. Our multi-scale ， composite greenspace exposure index ， mapping
+techniques are not as vulnerable tO scale effects as traditional approaches and can be readily transferred tO the
+analysis Of other environmental exposure variables such as air pollution.
+Emerging scholarly literature has, in the past decade ， focused on the
+direct and indirect benefits Of the urban natural environment on human
+health and wellbeing (Hartig, Mitchell, De Vries ， & Frumkin ， 2014
+James, Banay ， Hart, & Laden ， 2015 Kondo, Fluehr, McKeon, & Branas,
+2018 Nieuwenhuijsen, Khreis, Triguero-Mas, Gascon, & Dadvand,
+） ． Multiple original studies, as well as scholarly reviews of the
+2017
+extant literature ， have indicated that green or blue space (hereafter
+greenspace) exposure generally produces net positive benefits on health
+Gascon et al. ， 2015 Helbich, De Beurs, Kwan ， O'Connor ， &
+Groenewegen ， 2018 ， LindIey ， COOk ， Dennis ， & GiIchrist ， 2019 ， ROjas-
+Rueda, Nieuwenhuij sen, Gascon, Perez-Leon, & Mudu, 2019
+Nieuwenhuijsen et al ” 2019 ） ． These benefits accrue both from the
+* Corresponding author.
+therapeutic qualities 0f greenspace and its inherent ability t0 provide
+essential ecosystem functions related tO human survival (Bratman et al.,
+2019 Costanza et al., 2017 Kabisch ， Qureshi ， & Haase, 2015 LindIey ，
+Pauleit ， Yeshitela ， Cilliers ， & Shackleton, 2018 ） ，
+lt must be noted, however, that some researchers have recently
+found insignificant and negative or mixed associations between green
+blue space exposure and health indicators (Ali, Di Nardo, Harrison, &
+Verma, 2017 ， Fuertes et al ” 2014 Kond0 et al ” 2018 Markevych et al.,
+2016 ， Picavet et al. ， 2016 ） ． Labib, Lindley, and Huck （ 2020 ） and
+Markevych et al. （ 2017 ） argued that such conflicting results and in-
+consistency reqtllre more specific and process-oriented research tO gain
+a better understanding Of the underlying complexities between green
+space exposure and health. ln line with this argument, several recent
+studies have investigated the impact of differences in methodological
+E-mail addresses: sm.labib@manchester.ac.uk labib.l.m@gmail.com (S.M. Labib), sarah.lindley@manchester.ac.uk (). LindIey) ，
+jonathan.huck@manchester.ac.uk (J.J. Huck).
+https://doi.org/10.1016/j.com/envurbsys.2020.101501
+Received 19 December 2019 ； Received in revised form 18 March 2020 ； Accepted 3 May 2020
+AvailabIe online 21 May 2020
+0198 四 715 / @ 2020 The Authors. Published by EIsevier Ltd. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/BY/4.0/).
+
+@@ PAGE 2 / 15 @@
+S.M. Labib ，
+approaches on quantifying and representing greenspace exposure
+linking the effects Of such exposure tO health outcomes. These studies
+focused on understanding the influence of spatial scale ()n terms of bo
+the size and shape Of measurement units) on the relationship between
+greenspace exposure and health indicators
+Su, Dadvand,
+Nieuwenhuijsen, Bartoll, & Jerrett, 2019 Zhang and Tan, 2019
+Cebrecos, Domfnguez-Be 巧 6n ， Duque, Franco ， & Escobar ， 2018 Tsai,
+Leung ， McHaIe, FIoyd ， & Reich ， 2018 ） ． They indicated that spatial scale
+and the ModifiabIe AreaI Unit ProbIem (MAUP) (Openshaw ， 1981 ） in-
+fluence the reported associations found between greenspace exposure
+and health. As such, investigaüons int0 the impact 0f these scale-related
+factors and the development 0f alternative approaches that are less
+sensifive tO these issues are critical tO understanding the impact Of the
+association between exposure and health (Labib et al ” 2020 ）
+Measuring greenspace exposure by creaung a discrete neighbour
+hOOd zone around specific receptor points (e.g. home addresses) is one
+0f the most widely applied methodological approaches in studies in-
+vesügating the relationship between greenspace and health (Browning
+& Lee, 2017 ， James et al ” 2014 James, Hart, Banay, & Laden, 2016 ） ．
+With the wide availability of satellite images (e.g ” Landsat, Sentinel-2),
+an lncreasing number 0f studies use buffer analysis (a method 0f zoning
+around map features based on distance or estimated travel time) tO
+derive metrics from satellite lmagery represenung relative levels Of
+greenness ， (James et al ” 2015 Markevych et al ” 2017 Su et al ” 2019 ） ．
+iS no consensus among scholars tO diS-
+tance should be used to define the exposure area (e.g ” neighbourhood).
+lndeed, it is highly unlikely that such a universal figure could ever be
+justlfied (Huck et al. ， 2018a Labib et al., 2020 ） ． AdditionaIIy ， there are
+several metrics used the basis tO measure greenspace exposure, in-
+cluding the Normalised Difference Vegetation lndex (NDVI) ， Land Use
+and Land Cover (LULC), canopy cover (CC) and Leaf Area lndex (LAI),
+all of which are proxy measures and so can produce different results for
+a given location and buffer distance (Browning & Lee, 2017 Labib
+et al. ， 2020 ， Reid ， Kubzansky, Li, Shm001, & CIougherty, 2018 ， Su et al ”
+2019 ）
+Su et al. （ 2019 ） ， Zhang and Tan, 2019 ， Reid et al. 〔 2018 ）
+Browning and Lee 〔 201 刀
+demonstrated that variation in bOth the
+buffer distances used to define the unit of analysis and the spatial re-
+solution 0f satellite images are susceptible to the MAUP and may
+therefore produce scale effects in greenspace exposure and health stu-
+dies (see also Houston, 2014 ） ． AIthough these studies highlight issues
+relating tO varY1ng spatial scales and their relationship tO greenspace
+metrics and the MAUP ， they dO not adequately investigate the ways in
+which scale poses an lssue for such analyses, nor how multiple scales
+exposure metrics comprehensively tO overcome or
+reduce scale effects.
+Previous studies focused on measunng greenspace exposure in
+terms Of specific individuals' home (usually within the neighbourhood) ，
+school, or office addresses. However ， this approach limits the possibility
+0f taking account 0f greenspace exposure beyond the given neigh
+bourhood or defined exposure area (Frumkin et al., 2017 Helbich,
+2018 ， Pearce, 2018 Zhang, Zhou, Kwan, Chen, & Lin, 2018
+） and
+eliminates the possibility 0f holistically gaining an understanding 0f the
+spatial variability 0f exposure for the whole urban landscape, where
+people work live, and interact with nature (Helbich ， 2018 ， Helbich,
+2019a ， Park & Kwan, 2017 ， Zhang et al. ， 2018 ） ． AS such ， studies uti-
+lising such approaches cannot provide a comprehensive understanding
+Of greenspace exposure experienced a larger area
+(Frumkin et al., 2017 ， Labib et al., 2020 Zhang et al ” 2018 ） ． We pro-
+pose a new greenspace exposure mappmg methodology tO create a map
+Of greenspace exposure for entire urban area under consideration ，
+rather than conducting individual exposure assessments at a fimte
+number Of fixed addresses and represent exposure gradients across
+entire case study areas without the need for separate buffer analysis.
+The Obj ectives Of this study are to:
+(i) investigate hOW different satellite-derived measures Of
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+greenness ， are impacted by spafial scale variations using lacunarity
+analysis ， (ii) create greenspace exposure ， maps at specific scales (e.g ”
+where the scale 0f exposure pathways for particular health outcomes
+might be known) and generate multi-scale composite maps using the
+lacunarity results (e.g ” where exposure pathways and their scales are
+less well known), (iii) propose an improved multi-scale, multi-metric
+greenspace 'exposure index ， map. The scale-composite maps not only
+take intO account scale effectS and improve representativeness but can
+also improve the efficiency Of greenspace exposure assessments. We
+alSO assess the implications Of the new method by investigating how
+exposure profiles and correlations with social and health deprivation
+changed for a large urban case study area.
+2 ． Background
+2.1. Greenspace exposure and greenspace metncs
+Zartarian ， Bahadori ， and McKone 〔 2005 ） state that exposure as-
+sessment is "the process 可 estimating or measuring the magnitude, fre-
+quency, and duration 可 exposure 加 皿 agent, 0 嗯 the number and
+characteristics 可 the p 叩 a exposed. 尾 e describes the sources. ，
+pathways, routes, and the u e a 互 the assessment ” （ p3 〕 ． For
+greenspace exposure ， it implies exposure tO nature/natural environ
+ments (e.g., gardens, stands 0f trees ， parks etc.) and the magnitude,
+frequency and duration 0f its impact on humans (Bratman et al., 2019
+Frumkin et al., 2017 ） ． From the existing literature, 什 om a spatial per-
+spective greenspace exposure can primarily be categorised as (i)
+availability exposure (the magnitude 0f greenness available around the
+study subject), (ii) accessibility exposure (the accessibility tO and 什 om
+designated greenspace ， e.g ” 什 om a park tO a home or work address),
+(iii) visibility exposure (the amount 0f greenspace that is visible t0 the
+study subj ect) (Dadvand & Nieuwenhuijsen, 2019 Dzhambov,
+Markevych, & Lercher, 2019 Labib et al ” 2020 ） ． These categories of
+greenspace exposure often overlap whilst having cumulative effects on
+human health. The present study only focuses on the exemplar Of
+availability exposure due tO its dominance in prexnous studies. Several
+types Of greenspace metrics are in use tO measure
+exposure and they broadly fall int0 three groups; (a) remote sensing-
+based indices (e.g ” NDVI, Enhanced Vegetation lndex, LAI); (b) per-
+centage 0f green cover calculated using a LULC dataset; (c) numbers 0f
+trees or canopy coverage （
+Gascon et al ” 2016 Labib et al., 2020 ， Orioli
+et al., 2019 ， Dadvand et al. ， 2017 ） ，
+22 ． Scale, MAUP, and uncertamty greenspace exposure assessment
+ln this study spatial scale is defined as, "the degree 可 a 互 reduction
+d a 五 嗯 the 化 g 山 used 加 represent a larger 皿 可 measure; rati0 可
+distance 皿 the map t0 distance 0 the earth sufface represented by the map
+(Turner & Gardner ， 2015 p 18 〕 ， According tO this definition large scale
+represents a finer resolution 〔 or smaller buffer distances), and small
+scale represents a coarser resolution 〔 or larger buffer distances). For
+greenspace exposure, different buffer distances produce the exposure
+areas (e.g ” neighbourhoods) within which greenspace exposures are
+measured and therefore generate varying scales 0f analysis for the
+influences 0f greenspace exposure upon health (Zhang and Tan, 2019
+Labib et al. ， 2020 〕 ． The rmpact Of spatial scale on measuring a variable
+and statistical inference is widely established ， and is known as the
+MAUP (Jelinski & Wu, 1996 ， Openshaw, 1981 ） ． The MAUP involves
+tWO interrelated issues: (i) a zoning effect, representing the variance in
+results because Of alternative areal unit delineations; and (ii) a scale
+effect ， reflecting the sensitivlty Of the results and inferences tO areal
+unit size (Dark & Bram ， 2007 Houston ， 2014 ） ，
+ln past studies 0f the relationship 0f greenspace t0 health ， the MAUP
+occurs greenspace exposure measurements are ag-
+gregated t0 different buffer sizes (Zhang and Tan, 2019 ， Houston,
+2014 ） Houston （ 2014 ） demonstrated that both the zoning and the scale
+2
+
+@@ PAGE 3 / 15 @@
+S.M. Labib ，
+effect are present due tO aggregauon over different buffer sizes and the
+use Of arbitrary zones.
+Zhang and Tan （ 2019 ） argued that the re
+lationship between greenspace and health is poor or insignlficant at
+smaller spatial scales (coarser resolutions) such as the city scale, but at
+larger spatial scales (finer resolutions) the results are inconsistent.
+ConverseIy, Su et al. （ 2019 ） demonstrated that relatively large buffer
+sizes (e.g ” 500 m) are significantly associated with physical health
+outcomes, though the effects upon mental health and other perceived
+health outcomes diminish below the 250 m distance, thus the scale
+effects on the relationships vary over different buffer distances used tO
+set the spatial scales. The issue Of inconsistency in effect size as buffer
+distance increases (e.g ” usually beyond 500 m) is identified in several
+other studies (Browning ， Lee, & Wolf, 2019 ， Dadvand et al., 2014
+Engemann et al., 2019 Ori01i et al ” 2019 ， WOIch et al., 2011 ） ． These
+studies indicate variation in effect Size and significance on the asso-
+ciation between greenspace exposure and health according tO the scale
+0f analysis. We contend that such a phenomenon IS most likely related
+tO the presence Of scale effects.
+Due t0 a lack 0f widely-recognized theoretical guidelines regarding
+what buffer distance is the optimum for which type 0f study, most re-
+cent studies have utilised multiple buffers at varying scales and ex-
+plored the sensitivity 0f health indicators t0 the different buffer dis-
+tances in a seemingly arbitrary fashion (Browning & Lee ， 2017 ， Labib
+et al., 2020 ） Markevych et al. 〔 201 刀 argued that the selection of buffer
+size and areal unit 0f analysis might depend on the pathways 0f benefits
+being considered in a given study; for example, for air and noise pol-
+lution mitigation, a smaller buffer （ 孓 100 m) may be more appropriate,
+whereas for physical activity based benefits a larger buffer (e.g., 500 m)
+size might be relevant (Labib et al ” 2020 ） ． Therefore, it appears that
+selection Of an absolute standard in terms Of buffer size or spaual unit Of
+greenspace exposure measurement may not be possible due tO hOW the
+different potential benefit pathways 什 om greenspace may vary over
+different spatlal extents. However, generic measures may still be im-
+portant when general health or unknown pathways are being con-
+sidered.
+The issue 0f the potential benefit pathways from greenspace varymg
+over different spatial extents alSO relates tO the uncertain geographic
+context problem (UGCoP) identified by Kwan （ 2012 ）
+· From a green
+space exposure perspective, the UGCoP indicates that there is spatial
+uncertainty in the actual areas over WhiCh the greenspace exposure
+be beneficial for health due t0 different pathways and contexts （
+James
+et al., 2014 ， Markevych et al. ， 2017 ， Pearce, 2018 ） ， AS a result Of
+UGCOP, it may not be possible tO be certain about the scales at which
+the benefits 0f greenspace exposure have the greatest impact upon in-
+dividuals due t0 their inherent heterogeneity. However, it might be
+possible tO combine multiple scales tO overcome some Of the issues Of
+spatial uncertainty. By combining several scales related t0 different
+pathways Of greenspace exposure benefits, it might be possible tO
+produce and map an overall greenspace exposure metrrc ， that considers
+multiple pathways. The current literature, however, has not yet pro-
+vided any examination or analysis Of the consequences Of combining
+scales and metrics tO improve exposure measurement for
+overall greenspace benefits along multiple pathways (e.g ” temperature
+and air pollution regulation or physical activities).
+23 ． Lacunanty: concept and 叩 p a 互 on tO sa 怊 伍 怊 images
+Dark and Bram 〔 2007 ） and Tate （ 2001 ）
+recommend ap-
+proaches t0 understand and reduce the scale and zoning effects in pixel
+(raster cell) data, including the analysis 0f fractal dimensions. Previous
+studies have shown that satellite images and related data illustrate
+complex characteristics and scale effects due tO the possible presence Of
+fractal or multifractal dimensions (see Mandelbrot, 1967 Mandelbrot,
+1983 ， Myint & Lam ， 2005 ） that can be further explained by lacunanty
+Ariza-Villaverde, Jiménez-Hornero, & De Ravé, 2013 Malhi & Romån-
+Cuesta, 2008
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+MandeIbrot （ 1994 ， 1983 ） introduced the concept 0f lacunarity (a
+measure Of the textural properties Of an image) in order tO distinguish
+texture patterns that have the same fractal dimension but are actually
+dissimilar in appearance. Lacunar1ty descnbes the distnbution 0f gap
+sizes in a texture that may or may not have fractal dimensions (Malhi &
+Romån-Cuesta, 2008 ， Myint & Lam, 2005 ） ． Gefen, Meir, Mandelbrot,
+and Aharony （ 1983 ） defined lacunarity as a measure Of the deviation Of
+a geometric object, such as a fractal ， from translational invariance. For
+imagery, lacunarity therefore measures the spatial heterogeneity Of
+objects depending on the texture Of the image at varying scales （
+Ariza-
+Villaverde et al. ， 2013 ， Myint & Lam, 2005 〕 ． Consequently, an image
+with a higher number 0f gaps has higher lacunarity versus an image
+with a smaller number 0f gaps ()r transitional invariance) (Myint &
+Lam, 2005 ） ． However, the gappiness ， or heterogeneity 0f the image
+texture is dependent on the scale Of the measurement ， as objects that
+are heterogeneous at large scales can be homogeneous at small scale or
+Malhi & Romån-Cuesta ， 2008 Plotnick, Gardner, Hargrove,
+VICe （
+Prestegaard, & Perlmutter, 1996 ） ．
+ln the case 0f greenspace exposure, as the spatial scale and spatial
+unit 0f analysis changes, SO does the spatial heterogeneity 0f objects in
+satellite images ()r derived indices e.g ” NDVI) (Malhi & Romån-Cuesta,
+2008 ， Myint & m ， 2005 Tate ， 2001 ） ． This relationship between the
+scale Of analysis and spatial heterogeneity Of the dataset is Of great
+practical importance, as lncreasing the buffer size beyond a certain
+level will mean that the sample of the landscape that falls within the
+buffer will become increasingly homogeneous as the size of the buffer
+surpasses that 0f the repeating patterns in the landscape (e.g., tree
+cover). Similarly ， increasing the cell size in the dataset (reducing the
+spatial resolution) would lead tO the aggregation Of smaller features in
+the landscape ， again leading tO increasing homogeneity in a sample
+taken 什 om the dataset. ln both cases, this homogeneity will mask
+varlations in exposure tO greenspace, meaning that the results Of any
+analysis are highly dependent upon the relationship between the
+chosen scale and spatial unit. Based upon this premise ， further analysis
+Of the greenspace metrics commonly used in greenspace exposure as-
+sessments was performed. This analysis seeks tO explain why scale is an
+issue for greenspace exposure assessment tO explore new ap-
+proaches tO combination Of multi-scale measurements intO a single
+greenspace 'exposure index ， tO overcome issues.
+3 ． Methods and materials
+3.1. Case study area
+The methodological processes developed for the present study were
+applied as a case study t0 Greater Manchester Metropolitan County,
+situated in the North West 0f EngIand. Greater Manchester is a post-
+industrial city-region comprising an area Of about 1276 km2 and a
+population Of 2 ． 8 million people (Dennis et al. ， 2018 〗 Physically ， the
+city-region possesses a diverse landscape pattern ， with flat plalll areas
+that give way t0 hills that rise t0 500 m in the north and east. These
+uplands in the north and east contain the headwater sources Of several
+rivers (e.g ” River Mersey) that flow throughout the city-region and
+beyond (Dennis et al. ， 2018 ） ． From the perspective 0f greenspace stu
+dies the Greater Manchester area is Of particular interest due tO its di-
+verse landscape pattern, availability Of various greenspace elements
+（ e ． 8 ” including urban parks 0f various ， green belts, and pastoral
+farm land), and the Greater Manchester Combined Authonty's strate-
+gies tO develop the city-region in a way that promotes sustainability
+green infrastructure and biodiversity (Labib, 2019 ）
+3 ， 2 Greenspace metncs
+To identify the underlying mechanisms 0f scale-dependent variation
+on greenspace exposure measurement and in order tO prepare a multi-
+scale greenspace 'exposure index ， ， this study utilised three different
+3
+
+@@ PAGE 4 / 15 @@
+S.M. Labib ，
+greenspace exposure metrrcs commonly used in the existing literature,
+(i) NDVI, (ii) LAI ， and (iii) Land Use and Land Cover (LULC) (Labib
+et al ” 2020 Markevych et al., 2017 〕 ． AII three metrics for the main
+analysis were derived 什 om Sentinel-2A satellite imagery. Sentinel-2
+images were selected because they have better spatial resolution （ 10 m)
+than the widely used Landsat images （ 30 m) ． Additionally, previous
+studies have noted that Sentinel-2 images yield results with higher
+overall accuracy for detecting vegetation in urban settings compared tO
+relatively low-resolution rmagery such as Landsat-8 (Labib & Harris,
+2018 ， Markevych et al. ， 2017 〕 ． ln order tO better understand the scale
+sensitivlty 0f Landsat images, we also expenmented with NDVI derwed
+from Landsat images (see Supplementary 0te 一 1 ） ．
+For the purposes 0f this study, NDVI and LAI indices were processed
+from SentineI-2A images collected on 4th JuIy 2018 ， with cloud
+cover < 2 ％ and atmospherrc correction was undertaken prior tO ana-
+lysis. NDVI was calculated using the following standard equation
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+the box mass) and continuous lmages (using range for the box mass)
+（ Dong ， 2000 ， Hoechstetter ， WaIz ， & Thinh ， 2011 ； MaIhi & Romån-
+Cuesta ， 2008 Plotnick et al., 1993 ） ．
+Next, the box representing the neighbourhood is shifted one pixel
+()0 the right) and box mass is calculated for the new position. This
+process is repeated by sliding this box over the whole map M
+(M = W × 〗 for an irregular shape map W denotes the width 0f the
+map, and denotes the length. For the M size map, the t0tal number 0f
+boxes Of size r is N 在 丿 (Eq. 2 〕 ．
+N 回 = （ 一 r + I)X (L 一 r
+（ 2 ）
+NIR 一 RED
+NDVI =
+NIR + RED
+0 ）
+where NIR refers to the near-infrared band (central wavelength
+832 ． 8 (m) and RED refers to the red band in the visible region (central
+wavelength 664 ． 6 (m) (Drusch et al., 2012 ） ． The estimated NDVI values
+ranges between 一 1 and 1 with higher positive values indicating
+greater green vegetation cover (Gascon et al. ， 2016 ， Su et al. ， 2019 ）
+The LULC based greenspace metrrc used in this study was obtained from
+Dennis et al. 〔 2018 ） ， wh0 applied a supervised classification algorithm
+t0 produce a 10 m spatial resolution dataset of five land cover types;
+urban, water, tree canopy, grass, forbs and shrubs.
+Leaf Area lndex (LAI) is an important biophysical variable influ-
+enced by levels 0f photosynthesis, transpirafion, and overall energy
+balance exhibited by the vegetation in the satellite images, all Of which
+are key parameters critical tO the provlsion Of beneficial ecosystem
+functions such as air pollution reduction and cooling functions (Lin &
+Lin, 2010 Nowak, Hirabayashi, B0dine, & Greenfield, 2014 ） ． As a re-
+sult, LAI values are important metrics contributing tO a better under-
+standing 0f regulating ecosystem functions 0f vegetation (Elmqvist
+et al. ， 2015 Orioli et al. ， 2019 ） ． An LAI map for Greater Manchester was
+derived using the same SentineI-2A dataset used for NDVI. The LAI
+dataset was calculated utilising the L2B biophysical processor toolbox, a
+component of the open-access software Sentinel Application Platform
+(SNAP, version 5 ． 2 ） developed by the European Space Agency (Upreti
+et al ” 2019 Weiss & Baret, 2016 ） ． DetaiIs of this the t001b0x and LAI
+measurement model can be found in Weiss and Baret （ 2016 ） ．
+3 ． 3 ． Lacunarity a a
+3 ． 3 ． 1. Ca 化 u 樁 互 0 go m
+Several algorithms exist tO compute lacunarity (e.g ” Allain &
+Cloitre, 1991 ； Gefen et al. ， 1983 〕 ， though the "gliding b0 义 ” algorithm
+developed by AIIain and C10 桁 e 〔 1991 ）
+has received the greatest at-
+tention due t0 its conceptually straightforward and computationally
+simple approach (Malhi & Romån-Cuesta, 2008 Plotnick, Gardner, &
+O'Neill, 1993 Roces-Dfaz, Dfaz-Varela, Alvarez-Alvarez, Recondo, &
+Dfaz-VareIa ， 2015 ） P10tnick et al. （ 1993 ， 1996 ） popularised this algo-
+rithm and illustrated lacunarity estimation t0 not only be applicable for
+fractal dimensions, but alSO applicable tO understanding landscape
+patterns and scale varrations. This algorithm has therefore been used tO
+estimate lacunarlty in this study.
+The algorithm workflow commences with a square box neighbour-
+hood (similar t0 neighbourhood representations through circular buffer
+zones) Of size 'r × 尸 （ 巳 g ” 2 × 2 ） which is placed at one corner Of the
+raster map (e.g ” satellite image). This box in turn determines the spatial
+unit 0f measurement (i.e., the scale 0f analysis), and the 'box mass ， S(r),
+is computed for the pixels that fall within the box using an algebraic
+function (i.e ” sum, range) on pixel values, dependent on the type 0f
+data. Lacunarity analysis can be applied t0 b0th binary (using sum for
+After estimating N[r], in the next stage the number Of boxes Of size r
+containing box mass S are counted as S,r. 儿 and this frequency dis-
+tribution is converted int0 a probability Q(S,r. 丿 distribution by dividing
+by (Eq. 3 ） ．
+〔 3 ）
+F0110wing the above calculation, the first and second moments 0f
+this probability distribution are estimated using Eq. （ 4 ） and （ 5 ）
+spectively:
+〔 4 ）
+〔 5 ）
+FinaIIy, these moments of the lacunarity 烈 of the box size r are
+computed as (Eq. 6 ） ：
+Z(2)
+z2(1)
+〔 6 ）
+P10tnick et al. 〔 1993 ） recognized that based on the statistical be-
+hauour / 跹 丿 the first and second moment can be expressed as a mean E
+（ r 刀 and variance var[S(r)] of the box mass values for box size r ac-
+cordingly. Therefore, lacunarity ， 吖 h. 丿 can also be computed as (Eq. 7 ） ：
+var [S （
+万 2 [S(r)]
+3 ， 3 ． 2 Lacunarity 可 greenspace metncs
+〔 7 ）
+ln this study, we estimated the lacunarity values for the greenspace
+metrics at multiple scales using a five-step method. The overall work
+procedure is illustrated in
+． The details of these steps are as fo 仁
+lows. We used ArcGIS 10 ． 4 (ESRI, (S) and MS Excel for lacunarity
+analysis.
+3 ． 3 ． 2.1. Step imageprocessing. The first step (Fig. 1 ， Step 1 ） involves
+determining whether the input image should be interpreted as binary or
+continuous. Categorical data in the LULC map were converted tO a
+binary map layer where ℃ anopy ， ， 'Grass', and 'Forbs and Shrubs ， classes
+were reclassified as green (value 0f 1 ） and other classes as not-green
+(value Of 0 ） ， LAI and NDVI data were handled as continuous data and
+were normalised tO the same value range. WhiIe bOth datasets might
+have been handled as categorical data, this would have involved
+introducing an artificial, arbitrary boundary between values,
+negatively affecting the lacunarity results.
+3 ． 3 ． 22 Step 2 ： box mass estimation. ln the second step, (F
+〗 box
+mass was estimated for bOX size ， for each binary and contlnuous map.
+For the LULC binary image Focal Statistics 'Sum ， was selected and for
+NDVI and LAI Range ， was utilised on the basis 0f the algorithm
+discussed in
+Section 3 ． 3 ． 1
+． each greenspace metric, lacunarity was
+calculated for box sizes as functions Of 创 + 7 ， where p is a whole
+number commencing at 1 and increasing tO a limit defined by the box
+size being half of the shorter dimension of the study region (map width
+or height) (Huck et al ” 2018b Sui & Wu, 2006 ） ． For the purposes 0f the
+present study, we started 什 om r
+3 (where, p = 刀 ， and went up t0
+4
+
+@@ PAGE 5 / 15 @@
+S.M. Labib ，
+lnput Image(GI
+matlices)
+BinaIY
+Convel 、 ion?
+Yes
+Conve1ted
+Bina1Y lmage
+NO
+Continuous
+VaIue lmage
+Runmng FocaI
+Statistics/ Gliding
+BOX opeNtion
+Focal Statistics propelties:
+声 月 值 ： e ， r = 3 ， 5 一 2049
+》 月 值 Shape: RectangIe
+》 Neighbourhood unit: Cell
+声 S 忉 s 0 e ： Sum/ Range
+Running Focal
+Statistics/ GIiding
+丿
+Box Mass image
+output of the
+binmy image
+Adjustment
+Lacuna1ity
+Calculation for
+binaIY image
+input
+r ： 3 ， A （ 3 ）
+r 一 5 ， A （ 5 ）
+r = 2049 ， A （ 2049 ）
+BOX Mass image
+output Of the
+continuous image
+Edge
+Adjustment
+LacunaIity
+Calculation for
+continuous image
+input
+ln [A(r)l
+Output
+№ (r)
+0
+0
+0
+0
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+estimate lacunarity for the bOX sizes we considered (for each r).
+3 ， 3 ． 25 ， Step 5 ： representing scale dependent lacunanty. At Step 5 (F
+we calculated the relationship between scale (gliding box size) and
+lacunarity for each greenspace metric. As discussed earlier ， lacunarity is
+a scale dependent variable, and the most meaningful information is
+obtained by plotting lacunarity values against their respective different
+box sizes in order tO create a lacunarlty curve. The most widely
+established procedural method is tO plOt the natural logarithm ()n 〕 Of
+bo 山 lacunanty (Y-axis) and box size (X-axis) in a log-log plot
+(Hoechstetter et al ” 2011 Malhi & Romån-Cuesta, 2008 Roces-Dfaz
+et al., 2015 ）
+3 ． 4 ． Scale-specific and multi-scale composite mapping
+After estimating lacunarity, we used the results tO identify the upper
+scale limit beyond which the measurement 0f each greenspace metric
+became invariant due t0 landscape homogeneity due t0 aggregation.
+Then, we prepared greenspace exposure index ， maps for each metric
+for the whole study area using multiple specific scales below the de-
+fined upper limit. Here we use the term 'exposure index ， map tO mean
+areas 0f potential exposure should a receptor be located in each grid cell
+Of the map. For each specific scale ， mean values Of NDVI ， LAI ， and green
+percentage (for LULC) were estimated. Finally, a single multi-scale
+exposure ， map for each greenspace metric was created using a
+weighted average method based on weights obtained from the lacu-
+narity analysis (Table 1
+） ． Lacunarity values were used as weights due tO
+their objective representafion Of the relative spatial heterogeneity and
+scale-sensitivity Of each Of the metrics. Combined multi-scale 'exposure'
+maps for each greenspace metric were calculated using (Eq. 8 〕 ．
+〗 《 1 (GSi × ）
+CGSm
+〔 8 ）
+ln 〔 eq8 〗 CGSm is the combined multi-scale 'exposure' value for each
+greenspace metric m (m = NDVI ， LAI ， LULC); GSI is the individual value
+for the metric at scale i; and is the weight of the scale i (i can be 1 to
+numbers 0f scales, in our case L = 5 ） ． This procedure produced three
+multi-scale greenspace exposure index ， maps 0 ． e ” CGSNDv1, CGSLAI,
+and CGSLULC) for our study area.
+Finally ， the metrics were combined intO a single result ， completing
+the third objective of the study. The resultant multi-scale, multi-metric
+composite greenspace exposure index ， map was prepared from the
+three multi-scale composite maps for each metric. The CGSNDVI, CGSLAI,
+and CGSLULC were reclassified intO nine categories using a natural
+breaks classification method (Jenks ， 1977L with the lowest 'exposure ，
+range reclassified as 1 and the highest range as 9 (though a continuous
+standardised scale could alternatively be used). The three reclassified
+maps were then combined using (Eq. 9 ） tO produce a composite multi-
+scale, multi-metric, greenspace exposure index ， map.
+Input/Output GeneraI Step lterative lnput Key Operation Decision
+Fig. 1. FIow diagram for estimation Of lacunarity for different greenspace
+metrics and presentation Of results in relation to different scales.
+r = 2049 (where. ， P = (1) at which point the size 0f the gliding box
+became half of the width of the study area.
+3 ． 3 ． 23 ． Step 3 ： edge a 打 e 吡 The irregular shape 0f the study area
+(being neither a square nor a rectangle) means that the presence Of 'NO
+Data' pixels outside the study area effectively reduces the size 0f the box
+at the study area boundary. Step 3 (Fig. 1 ） corrects for these edge effects
+using the procedure identified in Sui and Wu （ 2006 ） · Accordingly, a
+weighting factor was applied t0 adjust the box mass 0f the gliding boxes
+containing areas including NO Data ， pixels (see Supplementary 0 把 ． 2 ） ．
+3 ． 3 ． 24 ． Step 4 ： calculation “ a After edge adjustment, at Step
+4 (Fig. 1 〕 we estimated the lacunarity value for each box size for all
+three datasets. ln the case 0f the binary LULC map we applied Eq.
+（ 2 ） 一 （ 6 ） Section 3 ． 3 彐 〗 and for the NDVI and LAI we used Eq. （ 7 ）
+(CGSNDV1r + CGSLA1r + CGS
+LULCr)
+GSin
+〔 9 ）
+ln (Eq. 9 ） ， GSin is the composite greenspace exposure index ， value ，
+Table 1
+ScaIes, box size and weights for the five scales considered in the multi-scale
+composite maps.
+SI. scales 巨 ] Box size ()n metres) Weighting- [w] (Lacunarity value)
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+NDVI
+0 ． 070
+0 ． 036
+0 ． 027
+0 ． 023
+0 ， 024
+0 ． 201
+0 ． 111
+0 ． 081
+0 ． 067
+0 ， 060
+LULC
+0 ． 671
+0 ． 655
+0 ． 646
+0 ． 638
+0 ． 631
+5
+
+@@ PAGE 6 / 15 @@
+S.M. Labib ，
+and CGSNDV1r ， CGSLA1r ， and CGSLULCr are reclassified multi-scale green
+space metric exposure ， value. T iS the number Of metrics ()n our case,
+T = 3 〕 ． To represent the composite greenspace exposure' level, we
+classified the GSin map int0 nine classes and ranked composite GSin
+values from lowest t0 highest. A GSm value 0f 1 indicated Extremely LOW
+and 9 represented Extremely High levels 0f greenspace exposure ， ． AII
+outputs were masked tO exclude the extra cells generated outside the
+study area boundary.
+3 ， 5 ． Assessment 可 the composite greenspace exposure maps
+TO understand the potential implications Of our outputs, we assessed
+how greenspace exposure profiles differ when using our new multi-
+scale (and multi-scale, multi-metric) composite greenspace exposure
+index ， maps compared with traditional measures. The comparison was
+carried out by examimng deciles Of social deprivation ， identified from
+the index of multiple depnvation (IMD) and health depnvation (English
+lndices of Deprivation, 2015 ） for Greater Manchester neighbourhoods
+based on Lower Super Output Areas (LSOA). LSOAs have a mean po-
+pulation 0f around 1500 and range from 1000 to 3000 people (l)aras
+Green, Davies, Barr ， & SingIeton ， 2019 ） ． We considered IMD and health
+deprivation deciles indicators Of socioeconomic deprivation and
+pseudo health conditions for neighbourhoods in Greater Manchester
+(Cebrecos et al., 2018 Mitchell & Popham ， 2008
+） ． Comparisons
+conducted terms Of variations in mean for composite
+greenspace exposure, percentage 0f greenspace, and NDVI for different
+IMD deciles (where the lowest deciles indicate the highest deprivation).
+Additionally ， we used Spearman S rank correlation tO assess correlations
+between the IMD and health deprivation metrrcs and our composite
+exposure metric and traditional metrics.
+4 · Results
+4 ． 7 ． The ee a 毹 metrics for case study area
+shows that the distribution Of greenspace had a common
+pattern among all three metrics. Large areas Of vegetation were found at
+the edge of the study area (Fig. 2b, d), and there were several green
+corridors. However, the LAI values (Fig. (c) indicated fragmentation 0f
+vegetation cover and thick vegetative cover was scarce in the study
+area. The LULC map (Fig. (d) shows several concentrations Of built-up
+areas, which correspond tO the urban core areas Of the ten local au-
+thorities (Fig. (a). OveraII, the study area possessed a moderate spread
+Of vegetative cover Of various types (e.g., grass, trees) ， W1th green areas
+surrounding core areas Of vege-
+tation core.
+4 ． 2 Lacunarity and scale effect on greenspace metrics
+The lacunanty analysis results for all greenspace metrics are sum-
+Fig. 3 ． Log-log lacunarity curves displayed in F g. 3(a) clearly
+indicate that changes in bOX size, l.e ” changes in the spatial scale Of
+analysis or buffer distances, affects lacunarity values across all green
+space metrics. Thus, the scale dependency 0f the greenspace metrics
+was confirmed. As illustrated in Fig. 3(a), at smaller spatial units 0f
+analysis lacunarity values were the highest ， and as the box size gra-
+dually increased (i.e ” the areal unit increased), the ln lacunarity values
+tended tO be close tO zero. This implies that there is an lnverse re-
+lationship between the increasing size Of spatial units (i.e ” measure-
+ment bOX size) and the resulting variance in each greenspace metric.
+Changes in lacunarity can be better understood by observing the
+three rows Of images for each metric presented in Fig. 3
+Fig. 3b ， it
+· From
+is clear that at smaller bOX sizes (r = 5 〕 ， the varlatlon within the bOX
+mass is high, whereas for the value of r = 33 the variation within the
+bOX mass iS
+129 the box mass values show 10w
+variation. Finally, at r = 573 ， the bOX masses become near invariant for
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+the NDVI metric. Thus ， with increasing box sizes the variation Of box
+masses tends tO zero ， which results in lower values Of lacunarity. This
+pattern 0f variance in box mass is also similar for both LAI (Fig. (c) and
+LULC (Fig. (d). ln addition t0 variation in box mass, the variation in the
+heterogeneity 0f the landscape characteristics is also visible 什 om Fig. 3
+b-d. As the box/buffer size increases the level of detail decreases, thus
+the landscape that appears heterogeneous at a smaller bOX size becomes
+homogenous in appearance at a larger bOX size due tO aggregation ef-
+fects. AS a result ， the actual characteristics Of the landscape are no
+longer captured at larger box sizes (smaller scales) because Of gen
+eralisation of landscape characteristics (e.g., the degree 0f contayon
+and the presence of self-similarity; Plotnick et al ” 1993 Turner &
+Gardner ， 2015 ， Hay, Marceau ， Dube, & Bouchard, 2001 ） ． Scale sensi-
+tivity is therefore a critical factor ln performing measurements Of
+greenspace exposure studies.
+ln line with scale sensiuvity, the upper scale limit after which var
+iation metrics tO tO increases in
+scale can be clearly identified in the lacunarity curve (Fig. 3
+ln Fig. 3
+it is clear that within the range 300 一 600 m, the slope 0f the lacunarity
+curves for NDVI and LAI becomes flattened. This range can be inter-
+preted as the scale where characteristics Of the landscape begin trans-
+lational homogeneity (Hoechstetter et al. ， 2011 ； Malhi & Romån-
+Cuesta ， 2008 ， Roces-Dfaz et al. ， 2015 ） ， The range indicates the values
+after WhiCh increase Of Size Of
+invariance in the greenspace metric measurements. means
+metrics no longer capture the characteristics Of the dominant Object
+(e.g ” vegetation), and are merged int0 a generalised wider landscape
+(DaIe ， 2000 ； Hay et al., 2001 ， P10tnick et al. ， 1993 ） ． Applying spatial
+units Of analysis beyond this scale range will therefore not result in any
+substantive impact upon the analysis (e.g ” statistical inference). ln the
+case of NDVI and LAI metrics 什 om Sentinel-2 images （ 10 m resolution),
+buffer distances beyond 一 640 m will produce biased estimations
+greenspace exposure values due tO aggregatlon Of information at scales
+larger than the landscape characteristics, hence 一 640 m can be con-
+sidered as the upper limit 0f the acceptable range 0f scales for SentineI-
+2 images. However ， for Landsat-8 （ 30 m resolution) images ， we found
+that the lacunarity curves flatten at 一 480 m (see Supplementary no 一 刀 ．
+This finding suggests that as one might expect, the upper scale limits are
+smaller for images 0f lower spatial resolution than for those with re-
+latively high resolutions.
+Fig. 3(a) indicates that LULC had the highest range 0f lacunarity
+values over several scales ， whereas NDVI had the lowest range Of va-
+lues. These values were observed due tO the types Of data, box mass
+estimatlons, and the geometry of the map 0f each metnc. For example,
+sparse maps usually exhibit higher lacunarity than dense maps
+(Hoechstetter et al., 2011 ） ． Here, the LULC maps had the sparsest
+geometric pattern (Fig. 2d ） ， and hence the highest lacunarity values. By
+contrast ， NDVI and normalised LAI maps have the densest patterns; as a
+result ， they exhibit lower lacunarity values.
+4 ． 3 ． Greenspace exposure index ， mappzng
+ln our analysis, the upper limit 0f the acceptable range 0f scales for
+the Sentinel-2 NDVI data was found to be around 640 m. Therefore ， for
+greenspace 'exposure index ， mapping ， we only selected scales below
+640 m. These scales were set by buffer distances Of 100 ， 200 ， 300 ， 400 ，
+and 500 m. This range Of scales supportS the multiple pathways Of
+benefits 0f greenspace exposure. Buffer distances such as 100 and
+200 m, for example, allow consideration 0f relatively localised exposure
+benefits ， e.g. some forms 0f air pollution removal and cooling (Labib
+et al. ， 2020 ； Markevych et al. ， 2017 ） ； whereas distances such as 300 ，
+400 ， and 500 m allow the consideration Of neighbourhood exposure
+benefits in terms of the capacity-building benefits of greenspace ex-
+posure such as encouraging physical activities, improving social cohe-
+sion, and stress recovery
+(Hartig et al ” 2014 Markevych et al., 2017 ，
+Nieuwenhuijsen et al., 2017 ） ． Fig. 4 illustrates the NDVI exposure maps
+6
+
+@@ PAGE 7 / 15 @@
+S.M. Labib ，
+LocaI Authority
+Low ： ． 0 ， 8
+GM Boundary
+Rochdale
+鈿 《 f d
+0
+Manchester
+Oldham
+Tameside
+StOCkport
+0
+5
+Kilometers
+0
+5
+Kilometers
+(b)
+NDVI
+(d)
+LULC
+Water
+Tree C
+Grasses
+Forbs and Shrubs
+Built
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+0
+0
+5
+10
+Kilometers
+0
+5
+10
+K110meters
+Fig. 2 ． 〔 a 〕 Greater Manchester with ten 10ca1 authorities. 〔 b) NDVI map for the whole study area. (c) LAI map ， the central area is mostly zero leaf area index value. (d)
+Land use land cover map with five types Of LULC.
+produced for five buffer distances between 100 and 500 m. For LAI and
+LULC ， similar patterns were observed. The exposure index ， maps for
+LAI and LULC for the same scales are presented in Supplementary Fig.
+S7 and S8.
+4 ． 4 ． MuIti-scale greenspace exposure d ， maps
+By combining the multiple 'exposure index ， maps from Section 4 ， 3
+we produced multi-scale greenspace exposure index ， maps for each
+metric using weights obtained from the lacunarity analysis.
+Table 1
+lists
+these scales and corresponding weights. The combined multi-scale ex-
+posure mapping outputs are presented in Fig. 5 ． More weight was given
+t0 the larger scales (smaller buffer distance, Table 1 ） ， where landscape
+heterogeneity is greater and spatial characteristics were better under-
+stood. This limits the impact Of aggregauon. The multi-scale NDVI ex
+posure map (Fig. (a) therefore contains similar patterns tO larger-scale
+exposure maps (e.g ” 100 m) as it prevents the spatial characteristics 0f
+vegetation from being lOSt due tO aggregation at smaller scales (e.g ”
+500 m). The combined LAI exposure map (Fig. (b) shows high mean
+LAI values concentrated in specific areas within the study area, corre-
+sponding tO relatively small areas Of dense canopy coverage. The
+combined multi-scale NDVI, LAI and LULC-derived ， percentage-based
+(Fig. 5a ， b,c) clearly highlights the densely built-up city core
+map
+(Supplementary Fig. (9) ．
+4 ， 5 ． Con OS multi-metric ， multi-scale greenspace exposure d ， map
+Our novel composite greenspace exposure index ， map combines all
+three multi-scale exposure maps (NDVI, LAI, and LULC) (Fig. 6 ） ．
+Compared t0 individual multi-scale metric maps (Fig. 5 ） ， the full
+composite accommodates the spatial patterns and geometric
+characteristics Of a11 three metrics at varying scales. lt alSO preserves the
+spatial pattern and landscape characteristics, alleviating the problem Of
+scale effects.
+4 ． 6 ． 仂 五 ca 五 ons the composite greenspace exposure d ， maps
+Fig. 7a illustrates that the new composite greenspace exposure
+index ， map for neighbourhoods (LSOA) in the study area identifies
+greater differences in greenspace exposure profiles between the most
+and least deprived areas compared t0 mean NDVI, LAI and mean
+greenspace percentage, despite the greenspace percentage showing
+higher values for the least deprived deciles (IMD 8 一 10 ） ． The greenspace
+percentage metric failed tO capture the variations in the most deprived
+deciles (IMD 1 一 3 〕 ． Therefore ， we concluded that the new composite
+greenspace 'exposure index ， map is not only more theoretically robust
+than traditional methods, but when applied to the example of how
+exposure profiles differ by social deprivation deciles it also reveals a
+greater variation in overall greenspace exposure. SLICh variation in ex-
+posure is important in understanding overall health inequalities
+(Marmot ， AIIen, Boyce, GOIdbIatt, & Morrison ， 2020 ； MitcheII &
+Popham ， 2008 ） ，
+Spearman's Rank correlation analysis Of IMD health deprivation
+(HealthD) and greenspace exposure using traditional metrics (LSOA
+aggregation) without scale effects being considered and the new multi-
+scale and multi-scale ， multi-metric composite index data showed that
+there were strong significant positive correlations (Fig. (b). However ，
+compared tO the traditional metrrcs without scale effects being con
+sidered the new multi-scale exposure maps and the multi-metric, multi-
+scale composite index illustrated greater correlation coefficients
+(Fig. 7b ， correlations with deprivation). These correlations confirm the
+promise Of the composite metrics for representing exposure gradients.
+7
+
+@@ PAGE 8 / 15 @@
+S.M. Labib ，
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+NDVl(b)
+00 00
+(a)
+0 ． 9
+0 ． 6
+之 0 ， 5
+0 ． 4
+0 ． 3
+0 ， 2
+0 ． 1
+10m
+（ 20m ）
+Continuous data 0 《 。 ， 《 思
+． 0 8
+LAI(c)
+Origmal Normalized
+Continuous data
+LULC(d)
+地 圳 Binary data
+ln (r)
+0
+r = 33
+（ 160m ）
+一 一 NDVI
+一 LULC
+10240m
+r = 129
+（ 640m ）
+r = 513
+2560m ）
+Original Landscape
+()o aggregation)
+High Variation (Level 0f detail)
+LOW Variation (Aggregation Of
+information)
+Fig. 3 · (a) Lacunarity curves comprising log lacunarity plotted against log box size values for all three greenspace metrics. (b) Comparisons Of box mass (range) values
+for NDVI for example box sizes for a subset of the full study area. (c) Comparisons Of box mass (range) values for normalised LAI for example box sizes. (d)
+Comparisons Of box mass (sum) values for LULC for example box sizes.
+
+@@ PAGE 9 / 15 @@
+S.M. Labib ，
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+NDVI 100m
+Value
+LOW · ． 0 ． 237
+N DVI 300m
+Value
+- ． High 0 ． 863
+Low · · 0 ． 0339
+NDVI 500m
+Value
+Low ： 0 ， 0823
+NDVI 200m
+Value
+Low
+一 0 ． 169
+NDVI 400m
+Value
+Low · 0 ． 042
+0
+5
+10
+20
+Kllometers
+Fig. 4 ． NDVI maps using box sizes Of 〔 a) 100 m; 〔 b 〕 200 m; 〔 c) 300 m; (d) 400 m; and (e) 500 m.
+5 · DiSCLISS1011
+5 ． 7 ． ScaIe effects greenspace exposure
+Our study is the first t0 investigate the scale sensitivity 0f green
+space exposure metrics using the systematic approach offered by lacu
+narity analysis. This study also advanced the state-of-the-art by
+providing a better understanding Of the scale effects in representations
+Of greenspace exposure at different buffer sizes. The existence Of MAUP
+in satellite imagery based NDVI data has been suggested previously
+Reid et al ” 2018 ， Su et al. ， 2019
+〗 However ， we provide new lll
+sights int0 the specific effects in commonly used urban greenspace
+metrics and present a transferable methodology through which scale
+effects can be analysed and handled. AII three greenspace metrics
+
+@@ PAGE 10 / 15 @@
+S.M. Labib ，
+500m
+100m
+(b)
+Combined Multi-scale LAI
+Mean LAI Value
+HQh ， 3 ． B66
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+10
+Combined Multi-scale LULC
+Moan Porcontago
+Low 0 ． 0 凸
+10
+Fig. 5 · The five scales and related weights combined tO produce a multi-scale greenspace 'exposure index ， map for Greater Manchester for each metric 〔 a 〕 NDVI, (b)
+LAI ， 〔 c) LULC (percentage 0f green) ． 〔 For interpretation Of the references tO colour in this figure legend ， the reader is referred tO the web version Of this article.)
+considered in our study confirmed susceptibility t0 scale effects and
+MAUP when different spafial scales and areal units Of measurement
+were applied (Fig. 3 ） ． Furthermore ， the type Of metrics (e.g ” LAI or
+NDVI) and data （ 巳 g ” Sentinel-2, Landsat-8 images) utilised and their
+geometric patterns were alSO sensitive tO different degrees Of variance
+depending on the scale that was applied.
+The lacunarity analysis results in the present study show the upper
+limit for scale or buffer distance values （ 一 640 m for Sentinel-2, 一 480 m
+for Landsat-8) above which real-world landscape characteristics and
+image textures might no longer exhibit variability because Of a reduc-
+tion in vanance caused by aggregation of the landscape patterns (see
+Fig. 3b ， c ， d). Malhi and Romån-Cuesta 〔 2008 ） and Myint and Lam
+identified similar patterns for vegetation while using satellite
+（ 2005 ）
+F0theringham and Wong （ 1991 ） and Tate （ 2001 ） demonstrated
+lmages.
+that such phenomena can produce uncertainty in the statistical analysis
+Of relationships with Other variables. Applying buffer distances greater
+than this upper limit affects the variance and normality 0f the data
+distribution, and SO influences the results Of statistical analyses (e.g ”
+regression). A worked-example Of the effects Of increasing buffer dis-
+tances on variance and normality Of the greenspace exposure mea-
+surement has been conducted for the case study area (see Supplementary
+0 把 一 3 丿 ． findings are reduction in variance in re-
+sultant greenspace exposure values may ultimately influence the sta-
+tistical relationships with health data, which relies on the variance and
+covariance among these data and their distribution. Therefore ， selecting
+the appropriate buffer distances below the upper limit Of the acceptable
+range 0f scales should be a key consideration.
+Considering the inconsistency observed in effect sizes and sig-
+nificance with varying buffer sizes applied t0 set study scales （
+James
+et al. ， 2014 Labib et al. ， 2020 Su et al. ， 2019 Lee et al., 2019 ） ， future
+studies should consider investigating and reporting the variance Of
+greenspace exposure metrics at different buffer distances before
+10
+
+@@ PAGE 11 / 15 @@
+S.M. Labib ，
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+丿 ～
+0
+Composite GS exposure index
+Exposure Level
+Extremely High ， 9
+Extremely LOW ． 1
+4
+0
+5
+Kilometers
+Fig. 6 · Composite multi-metric, multi-scale greenspace 'exposure index ， map.
+conducting any statistical analysis （ e ． 8 ” regression) ． Care should be
+taken in using larger buffers, as over-aggregation at larger buffer dis-
+tances tends tO variance and in inconsistent associa-
+tions with other variables in the models due tO the presence Of scale
+effects related t0 MAUP (Reid et al., 2018 ） ．
+5 ． 2 Con os 讹 greenspace exposure d ， mappzng
+PreviousIy Su et al. （ 2019 ） and Browning and Lee （ 2017 ） have
+proposed several approaches tO counter scale effects. Their re-
+commendations included utilising activlty space tO determine the ex
+posure area (with GPS data) ， investigating the sensitivity Of different
+buffer distances when determining the scale ， and using nested
+(doughnut-shaped) buffers rather than circular buffers. However ， using
+activity spaces for determining buffers remains quite subj ective and
+prone tO error as it depends on user mobility patterns, and the method
+is vulnerable tO selective mobility bias. Furthermore ， the approach is
+also highly resource-intensive (Chaix et al. ， 2013 ， Helbich ， 2018 ） Kuo,
+Browning, Sachdeva, Lee ， and WestphaI （ 2018)and Browning and
+Locke 〔 2020 ）
+suggested using a nested buffering approach; however,
+Zhang et al. （ 2018 ） indicated that because nested buffers are a subset of
+circular such approaches produce weak associations
+greenspace and health indicators. Considering all the above arguments,
+our approach provides a more comprehensive and less resource-in-
+tensive solution tO addressing scale effects in the analysis Of satellite
+data for the purposes Of greenspace-based studies.
+We produced maps for five equal interval buffer distances (i.e ”
+maps with box sizes of 100 ， 200 ， 300 ， 400 ， and 500 m). We then pro-
+duced a combined multi-scale exposure map for each metric by
+weighting the different box size maps using weights derived 什 om the
+lacunarity analysis. These multi-scale single metric exposure index ，
+maps were produced below the upper limit 0f scale variability. They
+provide opportunitles tO select one or more scales based on the path
+ways of health benefits under consideration (Labib et al., 2020
+Markevych et al., 2017 Su et al ” 2019 ） ． These maps facilitate city-wide
+dynamic greenspace exposure assessment ， as discussed by
+Helbich
+（ 2019b, 2018 ） ， Zhang et al. （ 2018 ） ； Park and Kwan （ 2017 ） · Further-
+more, because these maps assess and represent the potential exposure Of
+a11 locations (cells) across the area Of interest it means that greenspace
+exposure profiles can be readily generated for the different locations
+where the subject lives, works ， or travels by incorporating the data such
+as GPS data tracks ， participatory mapping data or spatial diary entries.
+We have alSO developed a composite multi-scale, multi-metric
+greenspace exposure index ， map (Fig. 6
+） ． nevv index has several
+benefits over the single multi-scale metrics. FirstIy ， it is scale-weighted
+()s above) and SO is not as susceptible t0 scale effects. Secondly ， our
+map includes multiple metrics (i.e ” NDVI ， LAI and LULC), which ac-
+count for different vegetation characteristics (e.g ” NDVI and LAI in
+dicate vegetation density and volume ， whereas percentage greenspace
+presence Of greenspace;
+James et al.,
+） ． combination, metrics provided a comprehensive mea-
+2015
+surement Of potential greenspace exposure across the study area. Con-
+sideration 0f b0th multiple scales 0f analysis and metrics supports the
+analysis 0f multifunctional benefits 0f greenspace (Labib, 2019L and
+reduces uncertainty regarding the geographic context problem noted by
+Kwan 〔 2012 ） ． Thirdly, our index standardises the greenspace exposure
+level, meaning that values can be directly compared across multiple
+study areas (unlike approaches such as interquartile or quantile ranges
+that are common in the literature). FinaIIy, the overall composite map
+can be used identify greenspace exposure levels for fixed points (e.g ”
+home ， 0 伍 ce 〕 ， for neighbourhoods (areas) ， and along the paths (lines)
+people travel. This eliminates the need tO use arbitrary buffer distances
+tO measure exposure at varying locations as each pixel has the value for
+， composite exposure measurement.
+We demonstrated an example 0f neighbourhood-based exposure
+profiling for LSOAs in Greater Manchester. Our example illustrated that
+the new exposure maps can be used tO study the spatial variation in
+exposure in different neighbourhoods and our multi-scale as well as
+multi-metrlc, multi-scale composite maps bOth showed stronger corre-
+lations with IMD and health deprivation than traditional non-scaled
+
+@@ PAGE 12 / 15 @@
+S.M. Labib ，
+0 · 口 ．
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+1 ． 00
+0 ． 90
+0
+0
+0 ， 80
+0
+0 ． 70
+0
+0 ． 60
+0
+8 0 ． 50
+0 0 ． 40
+0
+0 ． 30
+0
+0 ． 10
+0 ． 00
+Le ast Deprived
+MOSt Deprived
+0
+1 ． 00
+0 ． 90
+0 ， 80
+0 ． 70
+0 ． 60
+0 ． 50
+0 ． 40
+0 ． 30
+0 ． 20
+0 ． 10
+0 ． 00
+0
+5
+0
+0
+0
+0
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+IMD Decile
+Mean NDVI
+- Composite Exposure Mean
+LSOA Aggregation
+Mea n Green%
+Multiscale
+NDVI
+0 ． 378
+0 ． 371
+—Mean LAI
+| M D
+Health D
+LULC
+0 ． 371
+0 ． 363
+NDVI
+0 ． 344
+034
+0 ． 28
+0 ． 28
+LULC
+0 ． 416
+卫
+0 ． 402
+0 ． 306
+0 ． 307
+Composite GS
+lndex
+0 ． 384
+0 ． 375
+/ / CO e / 0 ons are significant at the 0 刀 1 level · ed, 丿
+Fig. 7 · 〔 a 〕 Comparisons of the lndex of MuItipIe Deprivation (IMD) with traditional greenspace metrics ， and the new outputs for urban neighbourhoods (LSOA), (b)
+correlations aggregated at neighbourhood scale (i.e. LSOA) ， new multi-scale metrics ， and the overall multi-scale ， multi-metric composite index.
+exposure metrics (see
+Section 4 ． 6 ） ． These initial results are important
+because they imply that traditional methods may underestimate the
+differences in exposures which exist between urban communities ， and
+that inequalities in beneficial exposures may in fact be larger than is
+frequently reported. Of particular note is the markedly lower exposure
+t0 greenspace seen in the most socially deprived areas (Category 1 ，
+） in the new multi-scale index maps compared tO maps using
+traditional non-scaled metrics. We therefore conclude that our novel
+multi-scale exposure maps and composite multi metric, multi-scale
+greenspace exposure index ， map have the potential tO reduce errors in
+greenspace exposure estimatlon.
+5 ． 3 ． Strengths and 五 m 祉 a ons 可 山 study
+Our multi-scale and composite index methods and maps provide
+opportunities tO overcome scale issues in the Of moderate resolution
+satellite images for greenspace exposure assessment in typical urban
+contexts. These maps can be used as a standardised method for bOth
+static and dynamic exposure assessment and are easy tO understand for
+non-experts.
+There are several areas in which this study could be further devel-
+oped. For example, we have only included NDVI LAI and LULC metrics,
+meaning that our results dO not account for exposure tO blue spaces.
+The addition of suitable measures such as the Normalised Difference
+Water lndex int0 the analysis would remedy this. Secondly, because 0f
+limitations in computational resource and time, we have only tested the
+methods on moderate-coarse resolution satellite images (Sentinel-2,
+Landsat-8). Future research should include the application 0f this
+method tO high-resolution satellite rmages such as GeoEye- 1 or
+WorldView-3. Based on our experimental observations ， we would ex
+pect that the upper limits of scale variance would be slightly larger for
+h•gher resolution imagery, though this requires further investlgation.
+Thirdly, we only investigated scale effects in satellite image based ex-
+posure metrics a measure Of greenspace
+utilised street view images tO measure hOW people actually observe
+greenspace (HeIbich et al. ， 2019 ， Li & GhOSh ， 2018 ， Lu ， 2019 ， Wang
+et al. ， 2019 〕 · Scaling effects in observational metrics (e.g ” derived 什 om
+street view images) should therefore also be explored in future studies.
+Fourth, we have only presented an analysis from a single case study
+region. research Sh()L11d examine across several different cities
+ln several different parts 0f the world in order t0 better understand the
+variafion in scale sensitivity that arises from the spatial configuration Of
+the study reglon. Finally ， we did not test our new exposure index with
+explicit health indicators tO test its robustness. lnstead we compared
+with IMD and health deprivauon ， which are pseudo indicators for
+health and wellbeing (Cebrecos et al ” 2018 ） ． Future research might
+include an analysis Of various explicit health indicators in order tO use
+the benefits 0f this new methodology in order t0 better understand the
+relationship between greenspace and health and wellbeing.
+6 ． Conclusion
+The main focus Of this study was tO investigate scale sensitivity and
+scaling effects in greenspace exposure assessments. Of
+12
+
+@@ PAGE 13 / 15 @@
+S.M. Labib ，
+lacunarity analysis indicate that the greenspace metrics commonly used
+in recent studies are scale sensitive depending on the buffer distances
+used t0 set the scale 0f analysis. Based upon this analysis, we identified
+the range 0f buffer distances within which a change in scale impacts
+upon analysis (beyond 一 640 m for Sentinel-2 and ～ 480 m for Landsat
+images). Beyond the upper limit 0f the acceptable range 0f scales, the
+characteristics Of urban greenness are no longer properly captured as
+they tend t0 be over-aggregated. ln order t0 address observed scale
+effects, we produced multi-scale greenspace exposure index ， maps for a
+large study area, based upon a range Of scales from within this range.
+These maps can be used tO measure greenspace exposure at varymg
+locations depending on the pathways relevant t0 the specific scale.
+Second ， we developed a composite multi-scale greenspace exposure
+index ， map that combines multiple metrics and scales. The multi-scale
+and composite exposure metrics improve the basiS for greenspace ex
+posure assessment by reducing scaling effects and uncertainty when
+selecung greenspace metrics for different health pathways 0f green
+space exposure benefits. We then illustrated the benefits of this im-
+proved model by using it t0 examine the relationship between green
+space and deprivation, which revealed a greater difference in potential
+exposure tO greenspace between the most and least deprived in the
+study region, a pattern that has wider implications ln understanding
+wider health inequalities (Marmot et al. ， 2020 ） ． Our map outputS pro-
+vide an efficient and scale-sensitlve means tO estimate greenspace ex-
+posures for points (e.g ” residential addresses), lines (e.g ” walking
+routes), and areas (e.g ” neighbourhood) exposure units, permitting a
+better characterisation Of exposure profiles compared tO traditional
+exposure assessment approaches. The method is readily transferable t0
+the analysis Of other emnronmental 'landscapes ， associated with ex
+posure such as air pollution and high temperatures (e.g. LST) and thus
+may have significance beyond the study 0f greenspace and health as-
+sociations.
+DecIaration 0f Competing lnterest
+The Authors declare no conflict Of interests.
+Acknowledgements
+The authors would like tO thank the anonymous reviewers and
+editors Of this paper for their constructive comments and suggestions.
+S.M. Labib is funded by the SchooI of Environment, Education and
+Development Postgraduate Research Sch01arship at the University 0f
+Manchester. Elements Of this work were carried out as part Of the Green
+lnfrastructure and the HeaIth and WeII-Being lnfluences on an Ageing
+Population (GHIA) proj ect 〔 2016 一 2019 ） http://www.ghia.org/uk This
+proj ect is funded by the Natural Environment Research Council, the
+Arts and Humanities Research Council and the Economic and Social
+Research Council under the Valu1ng Nature Programme. NERC grant
+reference number NE/NOI 3530 / 1 ．
+Appendix A. Supplementary data
+Supplementary data t0 this article can be found online at https://
+doi.org/10 ． 1016 / j ． compenvurbsys ． 2020 ． 101501
+References
+Ali ， O. ， Di Nardo ， F. ， Harrison ， A. ， & Verma ， A. （ 201 刀 ． The link between perceived
+characteristics of neighbourhood green spaces and adults ， physical activity in UK
+cities: AnaIysis Of the EURO-URHIS 2 study. The European JOL 旧 1 可 P HeaIth,
+27 〔 4 761 一 765 ． https://doi.org/10.1093/eurpub/ckx033.
+AIIain ， C ” & CIoitre ， M. (1991). Characterizing the lacunarity of random and determi-
+nistic fractal sets. PhysicaI Review 44 （ 6 ） ， 3552 ． https://doi.org/10.1103 /
+PhysRevA.44.3552.
+Ariza-Villaverde ， A. B ” Jiménez-Hornero ， F. J ” & De Ravé, E. G. （ 2013 ） ． Multifractal
+analysis Of axial maps applied to the study of urban morphology. Computers ，
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+Environment and Urban Systems ， 38 ， 1 一 10 ． https://doi.org/10.1016/j.com/envurbsys.
+2012 ． 11 ． 00L
+Bratman, G. N., Anderson ， C. B., Berman, M. G., Cochran, B., de Vries, S., Flanders ， J. ，
+Kahn ， P. H. 〔 2019 美 Nature and mental health: An ecosystem service perspective.
+Science Advances, 5 （ 7 ） ， https://doi.org/10.1126/sciadv.aax0903 p.eaax0903.
+Browning, M. H., & Lee ， K. （ 201 刀 ． Within what distance does "greenness ” best predict
+physical health? A systematic review of articles with GIS buffer analyses across the
+lifespan. lnternational JournaI 可 EnvironmentaI Research and PubLic Health, 14 （ 7 〗 675 ．
+https ：//doi.org/10 ． 3390 / ije 印 h14070675 ．
+Browning, M. H ” Lee ， K. ， & Wolf ， K. 〔 2019 ） ． Tree cover shows an inverse relationship
+with depressive symptoms in elderly residents living in US nursing homes. Urban
+Fo 化 y & Urban G 化 “ & 4 六 23 一 32 ． https：／/d0i.org/10． 1016 / j ． u 8 ． 2019 ． 03 ． 002 ．
+Browning ， M. H ” & Locke ， D. H. 〔 2020 ） ． The greenspace-academic performance link
+varies by remote sensing measure and urbanicity around MaryIand public schools.
+Landscape and Urban PIanning 795 ， 103706 ． https://doi.org/10.1016/j.IandurbpIan.
+2019 ． 103706 ．
+Cebrecos ， A ” Domfnguez-Berj6n, M. F ” Duque ， I ” Franco ， M ” & Escobar ， F. （ 2018 ） ．
+Geographic and statistic stability of deprivation aggregated measures at different
+spatial units in health research. AppIied Geography, 95 ， 9 一 18 ． https://doi.org/10.
+1016 / j ． apgeog ． 2018 ． 04 ． 00L
+Chaix ， B ” Meline ， J ” Duncan ， S ” Merrien, C ” Karusisi ， N ” Perchoux, C ” … Kestens ， Y.
+〔 2013 ） ． GPS tracking in neighborhood and health studies: A step forward for en-
+vironmental exposure assessment ， a step backward for causal inference? Health &
+Place ， 27 ， 46 一 51. https://doi.org/10.1016/j.heaIthpIace.2013.01.003.
+Costanza, R., de Groot, R., Braat ， L., Kubiszewski, I. ， Fioramonti, ， Sutton, P., … Grasso ，
+M. 〔 2017 ） ． Twenty years Of ecosystem services: How far have we come and how far
+do we still need tO 80 ？ Ecosystem Senäces. ， 28 ， 1 一 16 ． https://doi.org/10.1016/j.ecoser.
+2017 ． 09 ． 008 ．
+Dadvand ， P. ， & Nieuwenhu1jsen, M. （ 2019 ） ． Green space and health. 仂 a ng human
+heaLth urban and 亇 皿 0 硭 plan-ning (pp. 409 一 423 ） ． Cham: Springer. https://doi.
+org/10． 1007 / 978 ． 3 ． 319 ． 74983 ． 9 一 20 ．
+Dadvand ， P ” Tischer ， C ” EstarIich ， M ” LIop ， S ” DaImau-Bueno ， A. ， L6pez-Vicente ， M ”
+Rodriguez-Dehli, C. （ 2017 ） ． L1feIong residential exposure t0 green space and atten
+tion: A population based prospective study. Environmental Health Perspectives, 725 （ 9 〕 ，
+97016 ． https://doi.org/l().1289/ EHP694 ．
+Dadvand ， P ” Wright ， J ” Martinez ， D ” Basagaöa ， X ” McEachan, R. R ” Cirach ， M ”
+Nieuwenhuijsen, M. J. （ 2014 ） ． lnequality, green spaces ， and pregnant women: RoIes
+of ethnicity and individual and neighbourhood socioeconomic status. Environment
+lnternational, 刀 ， 101 一 10 & https://doi.org/10 ． 1016 / j ． envint ． 2014 ． 06 ． 010 ．
+Dale ， M. R. T. （ 2000 ） ． Lacunarity analysis Of spatial pattern: A comparison. Landscape
+EcoIogy, 75 〔 5 ） ， 467 一 47 & https：//doi.org/10， 1023 / A ： 1008176601940 ．
+Daras, K ” Green, M. A ” Davies, A. Barr, B ” & SingIeton ， A. （ 2019 ） ， Open data on health-
+related neighbourhood features in Great Britain. Scientific D 砒 6 〔 1) ， 107 ．
+https://
+doi ． 0r8 ／ 10 ． 1038 / S41597 ． 019 ． 0114 ． 6 ．
+Dark ， & J ” & Bram ， D. 〔 200 刀 ． The modifiable areal unit problem (MAUP) in physical
+geography. 尹 rq 5 Geq緲叩@， 引 （ 5 ） ， 471 一 479 ． https://doi.org/10.1177 /
+0309133307083294 ．
+Dennis, M., Barlow, D., Cavan ， G., Cook ， P., Gilchrist, A., HandIey, J., … LindIey, &
+〔 2018 ） ． Mapping urban green infrastructure: A novel landscape-based approach tO
+incorporating land use and land cover in the mapping Of human-dominated systems.
+Land, 7 〔 1) ， 17 ． https://dOi.org/10.3390/land7010017 ．
+Dong ， P. （ 2000 ） ． Test of a new lacunarity estimation method for image texture analysis.
+忉 怊 rna 五 on JournaI Remote Sensing 27 〔 (7), 3369 一 3373 ． ht中s：／/doi.org/10． 1080 ／
+014311600750019985 ．
+Drusch ， M ” Del Bello ， U ” CarIier, S ” CoIin ， O ” Fernandez ， V ” Gascon ， F ” … Meygret ， A.
+〔 2012 ） ． Sentinel-2: ESA ， s optical high-resolution mission for GMES operational ser-
+vices. Remote Sensing 可 Environment, 720 ， 25 一 36 ． https://d0i.org/10.1016/j.rse.
+201LIL026 ．
+Dzhambov ， A. M ” Markevych, I. ， & Lercher ， P. （ 2019 ） ． Associations of residential
+greenness, traffic noise ， and air pollution with birth outcomes across alpine areas.
+Science 可 the TotaI Environment, 678 ， 399 一 408 ． https://doi.org/10.1016/j.scitotenv.
+2019 ． 05 ． 019 ．
+EImqvist, T ” SetäIä, H ” Handel, & N ” Van Der Ploeg ， S ” Aronson ， J ” BIignaut ， J. N ” … De
+Groot ， R. 〔 2015 〕 ． Benefits of restoring ecosystem services in urban areas. Current
+Opinion in Environmental Sustainability 74 ， 101 一 108 ． https://doi.org/10.1016/j.
+cosust.2015 ． 05 ． 00L
+Engemann ， K. ， Pedersen ， C. B ” Arge ， L ” Tsirogiannis ， C ” Mortensen ， P. B ” & Svenning ， J.
+C. （ 2019 ） ． ResidentiaI green space in childhood is associated with lower risk Of
+psychiatric disorders 什 om adolescence into adulthood. Proceedings 可 the NationaI
+Academy Sciences, 7760D ， 5188 一 5193 ． https://doi.org/10.1073/pnas.
+1807504116 ．
+English indices 可 d 印 疱 va 五 on ． h mdices 可 deprivation 20 巧 ． （ 2 仞 5 丿 ． [online] GOV.UK.
+Available at https://www.gov.uk/government/statistics/english-indices-of-
+deprivation-2015 [Accessed 2 Oct. 2019 ] ．
+Fotheringham ， A. S. ， & Wong ， D. W. 0991 ） ． The modifiable areal unit problem in mul
+tivariate statistical analysis. Environment and Planning ， 23 〔 7 ） ， 1025 一 104 生 https://
+dOi ． org／10． 1068 / a231025 ．
+Frumkin ， H ” Bratman, G. N ” Breslow ， & J ” Cochran B ” Kahn, P. H ” Jr. Lawler ， J. J ”
+Wood ， S. A. （ 201 刀 ． Nature contact and human health: A research agenda.
+Environmental Health Perspectives, 725 〔 7), https：／/d0i.org/10． 1289 / EHP1663 ．
+Fuertes ， E ” Markevych ， I ” von Berg ， A ” Bauer ， C. P ” Berdel, D ” Koletzko ， S ” … Heinrich ，
+J. 〔 2014 ） ． Greenness and allergies: Evidence of differential associations in two areas
+in Germany. JournaI 可 Emdemi010gy and Community He ， 68 〔 8 〕 ， 787 一 790 ． https://
+doi.org/10 ． 1136 / jech ． 2014 ． 203903 ．
+Gascon ， M., Cirach ， M., Martfnez ， D., Dadvand ， P., Valentfn, A., Plasencia ， A., &
+Nieuwenhuijsen, M. J. 〔 2016 〕 ． Normalized difference vegetation index (NDVI) as a
+13
+
+@@ PAGE 14 / 15 @@
+S.M. Labib ，
+marker of surrounding greenness in epidemiological studies: The case of BarceIona
+city. Urban Forestry & Urban Greening 79 ， 88 一 94 ． ht中s：／/doi.org/10． 1016 ／ j ． u 8 ．
+2016 ． 07 ． 001 ．
+Gascon ， M ” Triguero-Mas M. ， Martfnez, D ” Dadvand ， P ” Forns ， J ” PIasencia ， A ” &
+Nieuwenhuijsen ， M. J. （ 2015 ） ． MentaI health benefits of long-term exposure tO re-
+sidential green and blue spaces: A systematic review. 忉 怊 rna 五 on JournaI 硕
+EnvironmentaI Research and Public Health, 72 〔 4 〕 ， 4354 一 4379 ． https://doi.org/l().
+3390 ／ ije 叩 hl 20404354 ．
+Gefen ， Y ” Meir ， Y ” MandeIbrot ， B. B ” & Aharony ， A. 0983 美 Geometnc implementation
+of hypercubic lattices with noninteger dimensionality by use of 10w lacunarity fractal
+lattices. PhysicaI Review Letters, 5 3 ） ， 145 ． https://d0i.org/10.1103/PhysRevLett.50.
+145 ．
+Hartig, T ” Mitchell, R ” De Vries, S ” & Frumkin, H. （ 2014 ） ． Nature and health. n 狠 u
+Review 可 £ b Health, 35 ， 207 一 22 & https://doi.org/10.1146/annurev-pubIheaIth-
+032013 ． 182443 ．
+Hay ， G. J., Marceau ， D. J. ， Dube, P., & Bouchard ， A. （ 2001 ） ． A multiscale framework for
+landscape analysis: Object-specific analysis and upscaling. Landscape COIO ， 16 （ 6 〕 ，
+471 一 490 ． https：//doi.org/10． 1023 / A ： 1013101931793 ．
+Helbich, M. （ 2018 ） ． Toward dynamic urban environmental exposure assessments in
+mental health research. EnvironmentaI Research, 767 ， 129 一 135 ． https://doi.org/l().
+1016 / j ． envres ． 2017 ． 11 ． 006 ．
+Helbich ， M. （ 2019a). SpatiotemporaI contextual uncertainties in green space exposure
+measures: Exploring a ume series Of the normalized difference vegetation indices.
+忉 rna 五 on JournaI 可 EnvtronmentaI Research and Public Health, 76 （ 5 ） ， 852 ． https://
+doi.org/10 ． 3390 / ijerph16050852 ．
+Helbich ， M. （ 2019b ） ． Dynamic urban environmental exposures on depression and suicide
+(NEEDS) in the Netherlands: A protocol for a cross-sectional smartphone tracking
+study and a longitudinal population register study. BMJ Open, 9 〔 8 ） ， https://doi.org/
+10 ． 1136 / bmjopen ． 2019 ． 030075
+e030075 ．
+Helbich ， M ” De Beurs ， D ” Kwan, M. P ” 0 ℃ onnor ， R. C ” & Groenewegen, P. P. （ 2018 ） ．
+Natural environments and suicide mortality in the Netherlands: A cross-sectional,
+ecological study. The Lancet 尹 ne Health, 2 （ 3 ） ， e134 一 el 39 ． https://doi.org/l().
+1016 / S2542 ． 5196 （ 18 ） 30033 ． 0 ．
+Helbich, M., Yao, Y., Liu ， Y., Zhang, J., Liu ， P., & Wang ， R. 〔 2019 ） ． Using deep learning t0
+examine street view green and blue spaces and their associations with geriatric de-
+pression in Beijing ， China. Environment 忉 rna 巨 ona 《 126 ， 107 一 117 ． https://doi.org/
+10 ． 1016 / j ． envint ． 2019 ． 02 ． 013 ．
+Hoechstetter ， S ” Walz ， U. ， & Thinh ， N. X. （ 2011). Adapting lacunarity techniques for
+gradient based analyses of landscape surfaces. Ec010gical Con 甲 ， 8 （ 3 ） ， 229 一 238 ．
+ht印s：／/doi.org/10． 1016 ／ j ． ecocom ． 201L01 ． 00L
+Houston, D. （ 2014 ） ． lmplications of the modifiable areal unit problem for assessing built
+environment correlates of moderate and vlgorous physical activity. AppIied
+Geography, 50 ， 40 一 47 ． https://doi.org/10.1016/j.apgeog.2014 ． 02 ． 008 ．
+Huck, J. J ” Whyatt, J. D., Hocking, B., Sturgeon, B. ， Davies, G., Dixon ， J ”
+· · Bryan ， D.
+（ 2018a 〕 ． A Bayesian approach tO "community belonging" and segregation in a
+Divided City. Proceedings 可 the GIS Research UK 28 山 月 nu Conference, ic UK.
+Huck ， J. J. ， Whyatt ， J. D., Sturgeon ， B., Hockmg, B ” Davies ， G. ， Dixon ， J. ，
+灬 Bryan ， D.
+（ 2018b 〕 ． ExpIoring segregation and sharing in a Divided City: A PGIS approach.
+AnnaIs 可 the ocia 巨 on 可 A 咀 e c 皿 Geographers, 109 〔 1) ， 223 一 24L https://doi.org/
+10 ． 1080 / 24694452 ． 201 & 1480930 ．
+James ， P ” Banay ， R. F ” Hart, J. E. ， & Laden ， F. 〔 2015 〕 ． A review of the health benefits of
+greenness. Current EpidemioIou R 印 0 丿 2 （ 2 〗 131 一 142 ． https://d0i.org/10.1007／
+S40471 ． 015 ． 0043 ． 7 ．
+James ， P ” Berrigan, D ” Hart ， J. E ” Hipp ， J. A ” Hoehner ， C. M ” Kerr ， J ”
+Laden ， F.
+（ 2014 ） ． Effects of buffer size and shape on associations between the built environ-
+ment and energy balance. Health & Place, 2 不 162 一 170 ． https://doi.org/10.1016/j.
+healthplace ． 2014 ． 02 ． 003 ．
+James ， P ” Hart ， J. E ” Banay ， R. F ” & Laden ， F. （ 2016 ） ． Exposure tO greenness and
+mortality in a nationwide prospective cohort study of women. in 亓 onme Health
+Perspectives, 724 〔 9 ） ， 1344 一 1352 ． https：//doi.org/10彐 289 / ehp ． 1510363 ．
+JeIinski ， D. E. ， & Wu ， J. （ 1996 ） ． The modifiable areal unit problem and implications for
+landscape ec0108y ． Landscape EcoIogy 7 7 (3), 129 一 140 ． ht中s：／/doi.org/10． 1007 ／
+BF02447512 ．
+Jenks ， G. F. 097 刀 ． Op 互 m data cl 5 重 ca 互 on 和 r chor 叩 山 maps. Department Of
+Geographiy, University of Kansas OccasionaI Paper
+Kabisch ， N ” Qureshi, S. ， & Haase ， D. （ 2015 ） ． Human—environment interactions in urban
+green spaces—A systematic review Of contemporary issues and prospects for future
+research. EnvironmentaI 忉 a 酗 Assessment 吡 w: ， 50 ， 25 一 3 生 https://doi.org/l().
+1016 / j ． eiar ． 2014 ． 08 ． 007 ．
+Kondo ， M. C. ， Fluehr ， J. M. ， McKeon ， T. ， & Branas ， C. C. （ 2018 ） ． Urban green space and its
+impact on human health. 忉 怊 rna 五 on JournaI 硕 EnvironmentaI Research and PubIic
+HeaIth, 15 （ 3 ） ， 445 ． https://doi.org/10.3390/ijerph15030445 ．
+Kuo ， M ” Browning, M. H ” Sachdeva ， S. ， Lee, K ” & WestphaI, L. 〔 2018 ） ． Might school
+performance grow on trees? Examming the link between ' greenness ” and academic
+achievement in urban ， high poverty schools. Frontiers in PsychoIogy, 9 ， 1669 ． https://
+dOi ． 0r8 ／ 10 ． 3389 / 巾 syg ． 2018 ． 01669 ．
+Kwan ， M. P. （ 2012 〕 ． The uncertain geographic context problem. Annals 可 the Association
+ofAmerican Geographers, 702 〔 5 ） ， 958 一 96 & https://doi.org/10 彐 080 / 0004560 & 2012 ．
+687349 ．
+Labib, S. M. 〔 2019 〕 ． lnvestigation of the likelihood of green infrastructure (GI) en-
+hancement along linear waterways or on derelict sites (DS) using machine learning.
+Environmental Modelling & SQ 角 re ， 778 ， 146 一 165 ． ht叩s：//doi.org/10 ． 1016 / j ．
+envsoft.2019 ． 05 ． 006
+Labib ， S. M ” & Harris ， A. 〔 2018 ） ． The potentials of SentineI-2 and LandSat-8 data in green
+infrastructure extraction ， using object based image analysis (OBIA) method. European
+Journal ofRemote Sensing, 51 〔 1 〗 231 一 240 ． https：/／dOi ． org／10． 1080 / 22797254 ． 2017 ．
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+141944L
+Labib ， S. M., Lindley, S., & Huck, J. J. 〔 2020 〕 ． SpatiaI dimensions of the influence of urban
+green-blue spaces on human health: A systematic review. EnvironmentaI Research,
+780 ， 108869 ． https://doi.org/10.1016/j.envres.2019 彐 08869 ．
+Lee ， M ” Kim ， S. ， & Ha ， M. （ 2019 ） ． Community greenness and neurobehavioral health in
+children and adolescents. Science 可 山 e To [ 湿 五 亓 onme “ 6 / 2 ， 381 一 388 ． https://doi.
+0r8 / 10 ． 1016 / j ． scitotenv ． 2019 ． 03 ． 454 ．
+Li ， X ” & Ghosh, D. （ 2018 ） ． Associations between bOdy mass index and urban "green ”
+streetscape in CIeveIand ， Ohio ， USA. a 巨 on 禳 Jou 可 Environmental Research
+and Public Health, 7500 ） ， 2186 ． https：//doi． org/10． 3390 / ijerph15102186
+Lin ， B. S., & Lin, Y. J. （ 2010 ） ． CooIing effect of shade trees with different characteristics in
+a subtropical urban park. HortScience. ， 45 （ 1 ） ， 83 一 86 ． ht s ： / / dOi ． 0r8 ／ 10 ． 21273 /
+HORTSCI.45.1.83.
+LindIey ， & J. Cook ， P. A ” Dennis ， M ” & GiIchrist ， A. （ 2019 ） ． Biodiversity ， physical health
+and climate change: A synthesis of recent evidence. Biodiversity and health the face
+硕 climate change (pp. 17 一 46 〕 ． Cham: Springer. https://doi.org/10 ． 1007 / 978 ． 3 ． 030 ．
+02318 ． 8 2 ．
+L1ndIey ， & J ” PauIeit ， S ” YeshiteIa ， K. ， CiIIiers, S. ， & ShackIeton ， C. （ 2018 〗 Rethinking
+urban green infrastructure and ecosystem services from the perspecuve of sub-
+Saharan African cities. Landscape and Urban PIanning 780 ， 328 一 338 ． https://doi.org/
+10 ． 1016 / j ． landurbplan ． 2018 ． 08 ． 016 ．
+Lu ， Y. 〔 2019 〕 ． Using G0081e street view tO investigate the association between street
+greenery and physical activity. Landscape and Urban 尹 n g 797 ， 103435 ， https://
+doi ． org/10． 1016 / j ] andurbplan ． 2018 ． 08 ． 029 ．
+Malhi, Y. ， & Romån-Cuesta ， R. M. 〔 2008 ） ． AnaIysis of lacunarity and scales of spatial
+homogeneity in IKONOS images Of Amazonian tropical forest canopies. Remote
+Sensing 可 Environment, 112 〔 5 ） ， 2074 一 2087 ． ht 印 s ： / / dOi ． org/10． 1016 / j ． rse ． 2008 ． OI.
+009 ．
+MandeIbrot ， B. 096 刀 ． How 10n8 is the coast of Britain? StatisticaI self-similarity and
+fractional dimension. Science, 156 （ 3775 〗 636 一 63 & https://doi.org/10.1126/science.
+156 ． 3775 ． 636 ．
+MandeIbrot ， B. B. 0983 ） ． 7 方 e 亓 geometry 硕 皿 扩 巳 VOL 173 ， New York: WH
+freeman51.
+MandeIbrot ， B. B. （ 1994 ） ． A fractal's lacunarity, and how it can be tuned and measured.
+FractaIs bi010U and medicine (pp. 8 一 21 ） ． ． Birkhäuser ， BaseI https://doi.org/l().
+1007 / 978 ． 3 ． 0348 ． 8501 ． 0 一 2 ．
+Markevych ， I ” Schoierer ， J. ， Hartig, T ” Chudnovsky, A ” Hystad ， P ” Dzhambov ， A. M ”
+Lupp ， G. （ 2017 ） ． ExpIoring pathways linking greenspace to health: TheoreticaI and
+methodological guidance. EnvironmentaI Research, 758 ， 301 一 317 ． https://d0i.org/10.
+1016 / j ． envres ． 2017 ． 06 ． 028 ．
+Markevych ， I. ， StandI, M ” Sugiri ， D ” Harris ， C ” Maier ， W. ， Berdel, D ” & Heinrich ， J.
+〔 2016 〕 ． Residential greenness and blood lipids in children• A longitudinal analysis in
+GINIpIus and LISApIus. EnvironmentaI Research, 75 六 168 一 173 ． https://d0i.org/10.
+1016 / j ． envres ． 2016 ． 07 ． 037 ．
+Marmot ， M ” AIIen ， J ” Boyce ， T ” Goldblatt ， P ” & Morrison, J. （ 2020 〕 ． Health equity
+England: The Marmot review 70 years on. London: lnstitute of HeaIth Equity. AviIabIe
+at. http://www.instituteofhealthequity.org/resources-reports/marmot-review-l()-
+years-on
+Mitchell, R. ， & Popham ， F. （ 2008 ） ． Effect Of exposure tO natural environment on health
+inequalities: An observational population study. lhe Lancet, 372 〔 9650 ） ， 1655 一 1660 ．
+https://doi.org/10.1016/ S0140 ． 6736 （ 08 〕 61689 ． X ．
+Myint, S. W., & Lam, N. （ 2005 ） ． A study of lacunarity-based texture analysis approaches
+tO improve urban image classification. Con u 巧 ， Environment and Urban Systems,
+29 〔 5 ） ， 501 一 523 ． https://doi.org/10.1016/j.com/envurbsys.2005.01.007.
+Nieuwenhuijsen ， M. J. ， Agier ， L ” Basagaöa ， X. ， Urquiza J ” Tamayo-Uria ， I. ， Giorgis-
+AIIemand ， L., … VaIentin ， A. （ 2019 ） ． lnfluence of the urban Exposome on birth
+weight. EnvironmentaI Health Perspectives, 72 八 4 ） ， 47007 ． https：//d0i．0r8／10． 1289 /
+EHP3971.
+Nieuwenhuijsen, M. J ” Khreis ， H ” Triguero-Mas ， M ” Gascon, M ” & Dadvand ， P. （ 201 刀 ．
+Fifty shades Of green. EpidemioIou, 28 〔 1) ， 63 一 71. https://doi.org/10.1097/eDe.
+0000000000000549 ．
+Nowak, D. J., Hirabayashi, S., Bodine, A., & Greenfield, E. （ 2014 ） ． Tree and forest effects
+on air quality and human health in the United States. EnvironmentaI PO 1tiO 193 ，
+119 一 129 ， https：//doi.org/10． 1016 / j ． envpol.2014 ． 05 ． 02 &
+Openshaw ， S. 098D ． The modifiable areal unit problem. ln N. WrigIey ， & R. Bennett
+(Eds.). Quan a 五 geography: a British view (pp. 60 一 69 ） ． London: RoutIedge & K. PauI.
+Orioli ， R ” Antonucci ， C ” Scortichini ， M ” Cerza ， F ” Marando ， F ” Ancona ， C ” … Cesaroni ，
+G. （ 2019 ） ． Exposure tO residential greenness as a predictor Of cause-specific mortality
+and stroke incidence in the Rome longitudinal study. EnvironmentaI HeaIth
+Perspectives, 727 （ 2 ） ， 27002 ． https://doi.org/10.1289/EHP2854.
+Park, Y. M., & Kwan ， M. P. 〔 2017 ） ． lndividual exposure estimates may be erroneous when
+spatiotemporal variability Of air pollution and human mobility are ignored. HeaLth &
+Place ， 43 ， 85 一 9 生 https://doi.org/10.1016/j.heaIthpIace.2016.10.002.
+Pearce ， J. R. （ 2018 ） ． CompIexity and uncertainty in geography of health research:
+lncorporating life-course perspectives. AnnaIs 可 the American Association 可
+Geographers. ， 108 〔 6 ） ， 1491 一 149 & ht s ： / / dOi ． 0r8 / 10 ． 1080 ／ 24694452 ． 2017 ． 1416280 ．
+Picavet ， H. & J ” Milder, I. ， Kruize ， H ” de Vries ， S ” Hermans ， T ” & Wendel-Vos ， W.
+〔 2016 〕 ． Greener living environment healthier people?: Exploring green space, phy-
+sical activity and health in the Doetinchem cohort study. “ en 五 Medicine ， 89 ，
+https：//doi.org/10． 1016 ／ j ． ypmed ． 2016 ． 04 ． 021 ．
+7 一 14 ．
+Plotnick ， R. E ” Gardner ， R. H ” Hargrove ， W. W ” Prestegaard, K ” & Perlmutter ， M. 〔 1996 ） ．
+Lacunarity analysis: A general technique for the analysis Of spatial patterns Physical
+Review 53 〔 5 ） ， 5461 ． https://doi.org/10.1103/PhysRevE.53.5461.
+Plotnick ， R. E ” Gardner ， R. H ” & O ， Neill, R. V. 0993 ） ． Lacunarity indices as measures Of
+landscape texture. Landscape EcoIogy 8 （ 3), 201 一 211 ． ht中s：／/d0i.org/10． 1007 ／
+BF00125351 ．
+
+@@ PAGE 15 / 15 @@
+S.M. Labib ，
+Reid ， C. E ” Kubzansky, L. D ” Li ， J ” ShmooI, 工 L ， & CIougherty, J. E. （ 2018 ） ， lt ， s not easy
+assessing greenness: A comparison of NDVI datasets and neighborhood types and
+their associations with self-rated health in new York City. Health & Place, 54 ， 92 一 101 ．
+https://doi.org/10.1016/j ． heal 山 plac 巳 201 & 09 ． 005 ．
+Roces-Dfaz ， J. V ” Dfaz-Varela ， R. A ” Alvarez-Alvarez ， P ” Recondo ， C ” & Dfaz-Varela ， E.
+R. （ 2015 ） ． A multiscale analysis of ecosystem services supply in the NW lberian
+PeninsuIa from a functional perspective. Eco c 忉 dica 加 巧 ， 5 24 一 34 ． https://doi.
+org／10． 1016 / j ． ecolind ． 2014 ． 10 ． 027 ．
+Rojas-Rueda ， D ” Nieuwenhuijsen, M. J ” Gascon ， M ” Perez-Leon ， D ” & Mudu ， P. （ 2019 〗
+Green spaces and mortality: A systematic review and meta-analysls Of cohort studies.
+7 力 e Lancet PIanetary He ， 3 （ 11 ） ， e469 一 e477 ． ht中s：／/doi.org/10． 1016 ／ s2542 ．
+5196 〔 19 〕 30215 ． 3 ．
+Su ， J. G ” Dadvand, P ” Nieuwenhuijsen ， M. J ” Bartoll, X ” & Jerrett ， M. 〔 2019 〗
+Associations Of green space metrics with health and behavior outcomes at different
+buffer sizes and remote sensing sensor resolutions. Environment lnternational, 726
+https://doi.org/10.1016/j.envint.2019.02.008
+162 一 170 ．
+Sui ， D. Z ” & Wu ， X. B. （ 2006 ） ． Changing patterns Of residential segregation in a prismatic
+metropolis: A lacunarity-based study in Houston ， 1980 一 2000 ． Environment and
+Planning. ， Planning & D ， 33 （ 4 ） ， 559 一 579 ． ht s ： / / doi ． org/10． 1068 / b31187 ．
+Tate ， N. ， & Atkinson ， P. M. (Eds.). （ 200D ． ModeIIing scale geo 叩 h 禳 心 旷 bn ” a 五 0 “ sci-
+ence. John Wiley & Sons.
+Tsai ， W. L ” Leung, Y. F ” McHale ， M. R ” Floyd ， M. F ” & Reich, B. J. （ 2018 ） ． Relationships
+between urban green land cover and human health at different spatial resolutions.
+Urban 有 CO s 叫 1 一 10 ． https：//dOi． 0r8 / 10 ． 1007 / S11252 ． 018 ． 0813 ． 3 ．
+Turner, M., & Gardner ， R. 〔 2015 ） ． Landscape ec 0 eo andpractice (2nd ed.). New
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+York: Springer ， New York ， NY
+Upreti, D., Huang ， W., Kong ， W. ， Pascucci ， S., Pignatti, S., Zhou, X. ， … Casa ， R. （ 2019 ） ． A
+comparison of hybrid machine learning algorithms for the retrieval of wheat bio-
+physical variables 什 om SentineI-2. Remote Sensing 7 7 〔 5 〕 ， 48L https://doi.org/10.
+3390 / 适 1105048L
+Wang, R. ， Helbich, M., Yao ， Y., Zhang, J., Liu ， P., Yuan ， Y., & Liu, Y. （ 2019 ） ． Urban
+greenery and mental wellbeing in adults: Cross-sectionaI mediation analyses on
+multiple pathways across different greenery measures. EnvironmentaI Research, 1 / 6 ，
+108535 ． https：//doi.org/10彐 016 / j ． envres ． 2019 彐 08535 ．
+Weiss ， M. ， & Baret ， F. 〔 2016 ） ． S2r00 0 level 2 products: I ， FAPAR, FCOVER. Avignon:
+lnstitut NationaI de la Recherche Agronomique (INRA).
+Wolch, J., Jerrett ， M., Reynolds, K., McConnell, R. ， Chang, R., Dahmann, N., … Berhane ，
+K. 〔 2011 〗 ChiIdhood obesity and proximity tO urban parks and recreational re-
+sources: A longitudinal cohort study. Health & Place ， / 0 ） ， 207 一 214 ． https://doi.org/
+10 ． 1016 / j ． healthplace ． 2010 ． 10 ． 00L
+Zartarian, V ” Bahadori, T., & McKone, T. 〔 2005 ） ． Adoption of an official ISEA glossary.
+Journal 硕 Exposure Analysis and Environmental Epidemiolou, 巧 〔 1 ） ．
+Zhang ， L ” & Tan ， P. Y. （ 2019 ） ， Associations between urban green spaces and health are
+dependent on the analyucal scale and how urban green spaces are measured.
+仂 rna on JournaI 可 EnvironmentaI Research and Public HeaIth, 76 （ 4 〕 ， 578 ．
+https://
+doi ． 0r8 ／ 10 ． 3390 / ije 印 h16040578 ．
+Zhang ， L ” Zhou ， S ” Kwan ， M. P ” Chen, F ” & Lin, R. （ 2018 ） ． lmpacts Of individual daily
+greenspace exposure on health based on individual activity space and structural
+equation modeling. 仂 rna on JournaI 可 EnvironmentaI Research and Public HeaIth,
+7500 〕 ， 2323 ． https：//doi． 0r8 / 10 ． 3390 / ijerph15102323 ．

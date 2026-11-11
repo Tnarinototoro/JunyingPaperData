@@ -1,0 +1,332 @@
+[
+  {
+    "key": "brookes_api",
+    "url": "https://radar.brookes.ac.uk/radar/api/item/3d02c728-0727-4bc0-8ba7-3ee7e41cba90/1",
+    "status": 200,
+    "bytes": 5524,
+    "type": "application/json;charset=utf-8",
+    "preview": "{\"uuid\":\"3d02c728-0727-4bc0-8ba7-3ee7e41cba90\",\"version\":1,\"name\":\"Evolving response of a community to offshore wind energy development – an evaluation of human adaptation to transition\",\"description\":\"This paper explores responses of host communities to offshore wind energy infrastructure through a case study of the Aberdeen Offshore Wind Farm (OWF), situated 2.4 km off the coast of northeast Scotland. Adopting a longitudinal mixed-methods research approach, the nearby communities’ evolving responses are explored across four phases of OWF development: pre-consent, consent, construction, and early operation. Schlossberg's (1981) theory of human adaptation to transition  is adopted as an analytical framework to explore how the factors and variables that mediate between human transition and adaptation are manifest in the case study. The conclusions demonstrate that human adaptation was shaped by the externally imposed nature of the transition, historic land legacy issues and the presence of an already altered physical environment. This paper offers original insight to the wider elements that can influence the socio-technical dimensions of energy transitions and the importance of developing long-term understanding of what supports human adaptation.\",\"metadata\":\"<xml><item><datacite><dates><obu_otherAction actionDate=\\\"2026-11-12\\\">pubdate</obu_otherAction></dates><resourceType>journal article</resourceType><titles><title titleType=\\\"MainTitle\\\">Evolving response of a community to offshore wind energy development &#x2013; an evaluation of human adaptation to transition</title></titles><descriptions><description descriptionType=\\\"Abstract\\\">This paper explores responses of host communities to offshore wind energy infrastructure through a case study of the Aberdeen Offshore Wind Farm (OWF), situated 2.4 km off the coast of northeast Scotland. Adopting a longitudinal mixed-methods research approach, the nearby communities&#x2019; evolving responses are explored across four"
+  },
+  {
+    "key": "brookes_summary",
+    "url": "https://radar.brookes.ac.uk/radar/items/3d02c728-0727-4bc0-8ba7-3ee7e41cba90/1?summary=true",
+    "status": 200,
+    "bytes": 3822,
+    "type": "text/html;charset=UTF-8",
+    "preview": "<!DOCTYPE html>\n<html class=\"newui\" lang=\"en\"  >\n    <head>\n      <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" >\n    \t<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\">\n    \t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    \t<base href=\"https://radar.brookes.ac.uk/radar/\">\n\n\t\t\t<!-- Favicon -->\n\t\t\t<link rel=\"icon\" type=\"image/vnd.microsoft.icon\" href=\"https://radar.brookes.ac.uk/radar/p/r/2025.2.1/com.equella.core/images/favicon.ico\">\n\t\t\t\t<link rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://radar.brookes.ac.uk/radar/p/r/2025.2.1/com.equella.core/images/favicon.120x120px.png\">\n\t\t\t\t<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"https://radar.brookes.ac.uk/radar/p/r/2025.2.1/com.equella.core/images/favicon.152x152px.png\">\n\t\t\t\t<link rel=\"apple-touch-icon\" sizes=\"167x167\" href=\"https://radar.brookes.ac.uk/radar/p/r/2025.2.1/com.equella.core/images/favicon.167x167px.png\">\n\t\t\t\t<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"https://radar.brookes.ac.uk/radar/p/r/2025.2.1/com.equella.core/images/favicon.180x180px.png\">\n\t\t\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"https://radar.brookes.ac.uk/radar/p/r/2025.2.1/com.equella.core/images/favicon.32x32px.png\">\n\t\t\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"48x48\" href=\"https://radar.brookes.ac.uk/radar/p/r/2025.2.1/com.equella.core/images/favicon.48x48px.png\">\n\t\t\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"64x64\" href=\"https://radar.brookes.ac.uk/radar/p/r/2025.2.1/com.equella.core/images/favicon.64x64px.png\">\n\t\t\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"https://radar.brookes.ac.uk/radar/p/r/2025.2.1/com.equella.core/images/favicon.96x96px.png\">\n\t\t\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"128x128\" href=\"https://radar.brookes.ac.uk/radar/p/r/2025.2.1/com.equella.core/images/favicon.128x128px.png\">\n\t\t\t\t<link rel=\"icon\" type=\"image/png\" sizes=\"196x196\" href=\"https://radar.brookes.ac.uk/radar/p/r/2025.2.1/com.equella.core/images/favicon.196x196px.png\">\n\t"
+  },
+  {
+    "key": "oa20_cjep20",
+    "url": "https://api.openalex.org/works?filter=primary_location.source.id:S92470662,from_publication_date:2026-01-01,to_publication_date:2026-11-09,open_access.is_oa:true&sort=publication_date:desc&per-page=20",
+    "status": 200,
+    "bytes": 457305,
+    "type": "application/json",
+    "items": [
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2748440",
+        "title": "Evolving response of a community to offshore wind energy development – an evaluation of human adaptation to transition",
+        "date": "2026-11-04",
+        "repos": [
+          {
+            "landing_page_url": "https://radar.brookes.ac.uk/radar/items/3d02c728-0727-4bc0-8ba7-3ee7e41cba90/1/",
+            "pdf_url": null,
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2735014",
+        "title": "Mapping energy monitoring adoption across continents: what Germany and Australia reveal about structural barriers and cultural drivers",
+        "date": "2026-10-23",
+        "repos": [
+          {
+            "landing_page_url": "https://resolver.sub.uni-goettingen.de/purl?gro-2/181859",
+            "pdf_url": null,
+            "version": "submittedVersion"
+          },
+          {
+            "landing_page_url": "https://osf.io/a24jh",
+            "pdf_url": null,
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2733014",
+        "title": "Evolving justice discourses on landowner compensation in Flemish spatial planning: implications for flood risk prevention",
+        "date": "2026-10-09",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2714013",
+        "title": "Expert preferences for carbon farming contract design: an extended VIKOR-based decision-making",
+        "date": "2026-09-30",
+        "repos": [
+          {
+            "landing_page_url": "https://lirias.kuleuven.be/handle/20.500.12942/796046",
+            "pdf_url": "https://lirias.kuleuven.be/retrieve/6b8e92a2-d501-43f2-bfdc-d4f65e01f365",
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2718309",
+        "title": "A heat-network diagnostic framework for climate-responsive land-use planning: long-term evidence from the Seoul Metropolitan Area",
+        "date": "2026-09-28",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2733011",
+        "title": "Dilemmas of engagement: local government officials’ perspectives on roles and responsibilities in climate change adaptation in rural and remote Nordic municipalities",
+        "date": "2026-09-28",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2719724",
+        "title": "Institutional and perceptual barriers to climate change adaptation governance in medium-sized towns: evidence from the Netherlands",
+        "date": "2026-09-18",
+        "repos": [
+          {
+            "landing_page_url": "https://research.manchester.ac.uk/en/publications/ea5e80d2-c785-404a-870d-b7c90cc23633",
+            "pdf_url": null,
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2723082",
+        "title": "Professional legitimacy in Swedish wildlife management: frontline bureaucrats in a gendered governance landscape",
+        "date": "2026-09-18",
+        "repos": [
+          {
+            "landing_page_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-120004",
+            "pdf_url": null,
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2716181",
+        "title": "Mapping the urban-rural conflict landscape: complementary insights from experts and print media in Cottbus, Germany",
+        "date": "2026-09-07",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2693739",
+        "title": "Governing food waste: exploring the introduction of mandatory separate food waste collections and recycling by local authorities in England",
+        "date": "2026-07-28",
+        "repos": [
+          {
+            "landing_page_url": "https://doi.org/10.1080/09640568.2026.2693739",
+            "pdf_url": "https://durham-repository.worktribe.com/file/5616632/1/Published%20Journal%20Article%20%28Advance%20Online%20Version%29",
+            "version": "submittedVersion"
+          },
+          {
+            "landing_page_url": "https://durham-repository.worktribe.com/5616632/1/Published%20Journal%20Article%20%28Advance%20Online%20Version%29",
+            "pdf_url": null,
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2701776",
+        "title": "On-site wastewater guidance as a tool for improving regulatory compliance: evidence from a national policy campaign in Finland",
+        "date": "2026-07-22",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2666813",
+        "title": "Opening up the black box of polycentricity: a comparative study of blue-green infrastructure implementation as networks of action situations",
+        "date": "2026-07-21",
+        "repos": [
+          {
+            "landing_page_url": "http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/412322",
+            "pdf_url": null,
+            "version": "submittedVersion"
+          },
+          {
+            "landing_page_url": "https://research.utwente.nl/en/publications/84d3504e-a2c3-4919-8264-658041ebf0cb",
+            "pdf_url": null,
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2686861",
+        "title": "Institutional coherence, capacity and multi-stakeholder alignment shape the effectiveness of air-quality management instruments",
+        "date": "2026-07-15",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2683644",
+        "title": "Actions to reduce food loss and food waste: stakeholder perspectives",
+        "date": "2026-07-10",
+        "repos": [
+          {
+            "landing_page_url": "https://lirias.kuleuven.be/handle/20.500.12942/791022",
+            "pdf_url": "https://lirias.kuleuven.be/retrieve/aed7c420-1e82-4419-a590-b433bb4fea0f",
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2686331",
+        "title": "Sea level rise in the news media: a comparative analysis of presented threat and adaptation information in The Netherlands, the UK and Italy",
+        "date": "2026-07-08",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2680123",
+        "title": "The challenge of GI mainstreaming within market-led planning and development systems: assessing attitudes and experiences of regime level actors",
+        "date": "2026-06-24",
+        "repos": [
+          {
+            "landing_page_url": "https://research.manchester.ac.uk/en/publications/b1c4f0ef-59c6-4532-9344-a02c9fe1525a",
+            "pdf_url": null,
+            "version": "publishedVersion"
+          },
+          {
+            "landing_page_url": "https://orcid.org/0000-0001-5289-5844>",
+            "pdf_url": "https://eprints.whiterose.ac.uk/id/eprint/241364/10/The%20challenge%20of%20GI%20mainstreaming%20within%20market-led%20planning%20and%20development%20systems%20%20assessing%20attitudes%20and%20experiences%20of%20regime%20level%20actors.pdf",
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2663801",
+        "title": "Multifunctional landscapes in Sweden – How the concept is understood and implemented in research and practice",
+        "date": "2026-05-20",
+        "repos": [
+          {
+            "landing_page_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-587231",
+            "pdf_url": null,
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2638827",
+        "title": "Urban planning to support the conservation of freshwater biodiversity",
+        "date": "2026-05-05",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2647144",
+        "title": "Inclusive environmental planning for wellbeing and equity: South Asian Muslim women’s experiences of rural green spaces",
+        "date": "2026-05-01",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/09640568.2026.2654123",
+        "title": "From numbers to power: how data configurations shape environmental governance",
+        "date": "2026-04-29",
+        "repos": []
+      }
+    ]
+  },
+  {
+    "key": "oa20_clar20",
+    "url": "https://api.openalex.org/works?filter=primary_location.source.id:S134774064,from_publication_date:2026-01-01,to_publication_date:2026-11-09,open_access.is_oa:true&sort=publication_date:desc&per-page=20",
+    "status": 200,
+    "bytes": 209250,
+    "type": "application/json",
+    "items": [
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2737849",
+        "title": "Landscapes of abandonment",
+        "date": "2026-10-22",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2712903",
+        "title": "From resilience to healing: urban poor women and socio-ecological repair in Phnom Penh",
+        "date": "2026-10-06",
+        "repos": [
+          {
+            "landing_page_url": "https://hdl.handle.net/2292/77523",
+            "pdf_url": null,
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2730202",
+        "title": "Introduction to special issue on the interrelations between landscape, law and justice, dedicated to the memory of Theano S. Terkenli (1960–2025)",
+        "date": "2026-10-03",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2722040",
+        "title": "Geographies of the underused: reflections on the overlooked heritage in the Lake Albano waterscape (Italy)",
+        "date": "2026-09-10",
+        "repos": [
+          {
+            "landing_page_url": "https://hdl.handle.net/11390/1342644",
+            "pdf_url": "https://air.uniud.it/bitstream/11390/1342644/1/Geographies%20of%20the%20underused%20%20reflections%20on%20the%20overlooked%20heritage%20in%20the%20Lake%20Albano%20waterscape%20%20Italy%20.pdf",
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2722043",
+        "title": "Landscape, law and justice as longue durée history – Norwegian medieval laws and their long-term legacy",
+        "date": "2026-09-03",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2712901",
+        "title": "Bittersweet identity and polynomial design: how urban public space makes migrant integration possible",
+        "date": "2026-08-31",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2722047",
+        "title": "From military base to solar park: rewilding, remediation, and renewable energy at Lieberoser Heide",
+        "date": "2026-08-30",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2681547",
+        "title": "Image-making with the landscape: between representation and reification",
+        "date": "2026-08-28",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2712899",
+        "title": "Landscapes of care, landscapes through care",
+        "date": "2026-08-18",
+        "repos": [
+          {
+            "landing_page_url": "https://discovery.ucl.ac.uk/id/eprint/10232584/",
+            "pdf_url": "https://discovery.ucl.ac.uk/id/eprint/10232584/1/Waterman_2026-05-26_Landscapes_of_Care_Main_Document.pdf",
+            "version": "submittedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2681552",
+        "title": "Landscape dynamics at the river-road interface: a multi-scalar landscape design perspective on Wachau road",
+        "date": "2026-06-16",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2682469",
+        "title": "Landskiphilia – our affective preferences for landscape patterns",
+        "date": "2026-06-15",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2026.2650322",
+        "title": "Borderscapes: past and future",
+        "date": "2026-04-03",
+        "repos": []
+      },
+      {
+        "doi": "https://doi.org/10.1080/01426397.2025.2580343",
+        "title": "Unpacking the eclectic approach: close accounts of landscape analysis",
+        "date": "2026-01-18",
+        "repos": []
+      }
+    ]
+  }
+]

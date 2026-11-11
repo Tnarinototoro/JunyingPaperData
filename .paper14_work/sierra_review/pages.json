@@ -1,0 +1,2338 @@
+[
+    {
+        "Page":  1,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\sierra_review\\page_1.png",
+        "Text":  "Data in Brief 61 （ 2025 ） 111760\nContents lists available at ScienceDirect\nData in Brief\njournal homepage: www.elsevier.com/locate/dib\nELSEVIER\nData Article\nata\nn Brief\nCheck for\nupdates\nA dataset on potentially\ngroundwater-dependent vegetation in the\nSierra Nevada Protected Area (Southern Spain)\nand its underlying NDVI-derived\necohydrological attributes\nJavier CabeIIo a\u0027b\u0027*, Montserrat Escudero-Clares ，\na d e\nSergiO Martos-RosiIIoC, J. Jesfis Casas ，\n， Juanma Cintas ，\nThomas Zakalul\u003cC, Marfa J. Salinas-Boni110 ，\naAndaIusian Center for GIobaI Change (ENGLOBA 丿 ， Ctra. de Sacramento s/n, La Cafiada de San Urbano, 04120 ，\nAImerfa Spain\nb Dept. 可 Biology and Geology, University 可 AImerfa, Ctra. de Sacramento s/n, 忉 Cafiada de San Urbano, 04720 ，\nAImerfa Spain\nIGME-CSIC, GeoIogicaI and Mining lnstitute Spain - Spanish NationaI ResecII ℃ h Council, Urb. AIcåzar del Genil,\n4-Edif. ZuIema, B 可 0 and 7 OC, Granada 18006 ， Spain\ndEEZA, CSIC. Ctra. de Sacramento s/n, 忉 Cafiada de San Urbano, 04720 ， Almerfa Spain\n月 soci 茈 n SO mb. Ca LOS Naranjos, AIhama de AImerfa 04400 ， Spain\nA R T I C L E\nArticIe history:\nI N F 0\nReceived 9 May 2025\nRevised 28 May 2025\nAcce pted 2 June 2025\nAvaiIabIe online 9 June 2025\nCorresponding author.\nA B S T R A C T\nThis dataset provides a spatially explicit classification 0f PO-\ntentially groundwater-dependent vegetatio n (pGDV) in the\nSierra Nevada Protected Area (Southern Spain), generated us-\ning Sentinel-2 i magery （ 2019 一 2023 ） and ecohydrological at\ntributes derived from NDVI time series. NDVI metrics we re\ncalculated from cloud- and snow-filtered Sentinel-2 Level 2A\nimages processed in Google Earth Engine. Monthly NDVI val-\nues were used tO extract three ecohydrological indicators:\ndry-season NDVI ， d ry-wet seasonal NDVI difference, and in-\nterannual NDVI variability. Based on quartile classifications\nOf these indicators, 64 ecohydrological vegetation classes\nE-mail address: jcabello@ual.es (). CabeIIo).\n· @jcabellopi (). CabeIIo), · @MontseEscuderoC (). Escudero-CIares), ： @MJSalinas222\nSocial media:\nSalinas-BoniIIo)\nhttps ：//doi.org/10 · 1016 / j · dib ． 2025 ． 111760\n2352 一 3409 / 0 2025 The Authors. PubIished by EIsevier lnc. This is an open access article under the CC BY license\nhttp://creativecommons.org/licenses/by/4.O/",
+        "Lines":  [
+                      {
+                          "Text":  "Data in Brief 61 （ 2025 ） 111760",
+                          "X":  811,
+                          "Y":  100
+                      },
+                      {
+                          "Text":  "Contents lists available at ScienceDirect",
+                          "X":  755,
+                          "Y":  245
+                      },
+                      {
+                          "Text":  "Data in Brief",
+                          "X":  904,
+                          "Y":  357
+                      },
+                      {
+                          "Text":  "journal homepage: www.elsevier.com/locate/dib",
+                          "X":  686,
+                          "Y":  510
+                      },
+                      {
+                          "Text":  "ELSEVIER",
+                          "X":  177,
+                          "Y":  506
+                      },
+                      {
+                          "Text":  "Data Article",
+                          "X":  173,
+                          "Y":  648
+                      },
+                      {
+                          "Text":  "ata",
+                          "X":  1709,
+                          "Y":  377
+                      },
+                      {
+                          "Text":  "n Brief",
+                          "X":  1698,
+                          "Y":  405
+                      },
+                      {
+                          "Text":  "Check for",
+                          "X":  1649,
+                          "Y":  823
+                      },
+                      {
+                          "Text":  "updates",
+                          "X":  1657,
+                          "Y":  842
+                      },
+                      {
+                          "Text":  "A dataset on potentially",
+                          "X":  171,
+                          "Y":  737
+                      },
+                      {
+                          "Text":  "groundwater-dependent vegetation in the",
+                          "X":  172,
+                          "Y":  816
+                      },
+                      {
+                          "Text":  "Sierra Nevada Protected Area (Southern Spain)",
+                          "X":  174,
+                          "Y":  898
+                      },
+                      {
+                          "Text":  "and its underlying NDVI-derived",
+                          "X":  173,
+                          "Y":  979
+                      },
+                      {
+                          "Text":  "ecohydrological attributes",
+                          "X":  174,
+                          "Y":  1061
+                      },
+                      {
+                          "Text":  "Javier CabeIIo a\u0027b\u0027*, Montserrat Escudero-Clares ，",
+                          "X":  167,
+                          "Y":  1185
+                      },
+                      {
+                          "Text":  "a d e",
+                          "X":  1449,
+                          "Y":  1248
+                      },
+                      {
+                          "Text":  "SergiO Martos-RosiIIoC, J. Jesfis Casas ，",
+                          "X":  173,
+                          "Y":  1246
+                      },
+                      {
+                          "Text":  "， Juanma Cintas ，",
+                          "X":  1080,
+                          "Y":  1279
+                      },
+                      {
+                          "Text":  "Thomas Zakalul\u003cC, Marfa J. Salinas-Boni110 ，",
+                          "X":  171,
+                          "Y":  1307
+                      },
+                      {
+                          "Text":  "aAndaIusian Center for GIobaI Change (ENGLOBA 丿 ， Ctra. de Sacramento s/n, La Cafiada de San Urbano, 04120 ，",
+                          "X":  172,
+                          "Y":  1395
+                      },
+                      {
+                          "Text":  "AImerfa Spain",
+                          "X":  169,
+                          "Y":  1434
+                      },
+                      {
+                          "Text":  "b Dept. 可 Biology and Geology, University 可 AImerfa, Ctra. de Sacramento s/n, 忉 Cafiada de San Urbano, 04720 ，",
+                          "X":  172,
+                          "Y":  1471
+                      },
+                      {
+                          "Text":  "AImerfa Spain",
+                          "X":  169,
+                          "Y":  1515
+                      },
+                      {
+                          "Text":  "IGME-CSIC, GeoIogicaI and Mining lnstitute Spain - Spanish NationaI ResecII ℃ h Council, Urb. AIcåzar del Genil,",
+                          "X":  187,
+                          "Y":  1558
+                      },
+                      {
+                          "Text":  "4-Edif. ZuIema, B 可 0 and 7 OC, Granada 18006 ， Spain",
+                          "X":  171,
+                          "Y":  1597
+                      },
+                      {
+                          "Text":  "dEEZA, CSIC. Ctra. de Sacramento s/n, 忉 Cafiada de San Urbano, 04720 ， Almerfa Spain",
+                          "X":  172,
+                          "Y":  1634
+                      },
+                      {
+                          "Text":  "月 soci 茈 n SO mb. Ca LOS Naranjos, AIhama de AImerfa 04400 ， Spain",
+                          "X":  186,
+                          "Y":  1679
+                      },
+                      {
+                          "Text":  "A R T I C L E",
+                          "X":  171,
+                          "Y":  1828
+                      },
+                      {
+                          "Text":  "ArticIe history:",
+                          "X":  169,
+                          "Y":  1920
+                      },
+                      {
+                          "Text":  "I N F 0",
+                          "X":  485,
+                          "Y":  1828
+                      },
+                      {
+                          "Text":  "Received 9 May 2025",
+                          "X":  172,
+                          "Y":  1961
+                      },
+                      {
+                          "Text":  "Revised 28 May 2025",
+                          "X":  172,
+                          "Y":  2001
+                      },
+                      {
+                          "Text":  "Acce pted 2 June 2025",
+                          "X":  171,
+                          "Y":  2043
+                      },
+                      {
+                          "Text":  "AvaiIabIe online 9 June 2025",
+                          "X":  171,
+                          "Y":  2083
+                      },
+                      {
+                          "Text":  "Corresponding author.",
+                          "X":  229,
+                          "Y":  2520
+                      },
+                      {
+                          "Text":  "A B S T R A C T",
+                          "X":  905,
+                          "Y":  1827
+                      },
+                      {
+                          "Text":  "This dataset provides a spatially explicit classification 0f PO-",
+                          "X":  905,
+                          "Y":  1917
+                      },
+                      {
+                          "Text":  "tentially groundwater-dependent vegetatio n (pGDV) in the",
+                          "X":  906,
+                          "Y":  1963
+                      },
+                      {
+                          "Text":  "Sierra Nevada Protected Area (Southern Spain), generated us-",
+                          "X":  907,
+                          "Y":  2009
+                      },
+                      {
+                          "Text":  "ing Sentinel-2 i magery （ 2019 一 2023 ） and ecohydrological at",
+                          "X":  907,
+                          "Y":  2054
+                      },
+                      {
+                          "Text":  "tributes derived from NDVI time series. NDVI metrics we re",
+                          "X":  906,
+                          "Y":  2098
+                      },
+                      {
+                          "Text":  "calculated from cloud- and snow-filtered Sentinel-2 Level 2A",
+                          "X":  906,
+                          "Y":  2144
+                      },
+                      {
+                          "Text":  "images processed in Google Earth Engine. Monthly NDVI val-",
+                          "X":  907,
+                          "Y":  2190
+                      },
+                      {
+                          "Text":  "ues were used tO extract three ecohydrological indicators:",
+                          "X":  907,
+                          "Y":  2242
+                      },
+                      {
+                          "Text":  "dry-season NDVI ， d ry-wet seasonal NDVI difference, and in-",
+                          "X":  906,
+                          "Y":  2279
+                      },
+                      {
+                          "Text":  "terannual NDVI variability. Based on quartile classifications",
+                          "X":  906,
+                          "Y":  2325
+                      },
+                      {
+                          "Text":  "Of these indicators, 64 ecohydrological vegetation classes",
+                          "X":  906,
+                          "Y":  2370
+                      },
+                      {
+                          "Text":  "E-mail address: jcabello@ual.es (). CabeIIo).",
+                          "X":  228,
+                          "Y":  2563
+                      },
+                      {
+                          "Text":  "· @jcabellopi (). CabeIIo), · @MontseEscuderoC (). Escudero-CIares), ： @MJSalinas222",
+                          "X":  476,
+                          "Y":  2608
+                      },
+                      {
+                          "Text":  "Social media:",
+                          "X":  227,
+                          "Y":  2607
+                      },
+                      {
+                          "Text":  "Salinas-BoniIIo)",
+                          "X":  172,
+                          "Y":  2648
+                      },
+                      {
+                          "Text":  "https ：//doi.org/10 · 1016 / j · dib ． 2025 ． 111760",
+                          "X":  172,
+                          "Y":  2728
+                      },
+                      {
+                          "Text":  "2352 一 3409 / 0 2025 The Authors. PubIished by EIsevier lnc. This is an open access article under the CC BY license",
+                          "X":  172,
+                          "Y":  2769
+                      },
+                      {
+                          "Text":  "http://creativecommons.org/licenses/by/4.O/",
+                          "X":  184,
+                          "Y":  2809
+                      }
+                  ]
+    },
+    {
+        "Page":  2,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\sierra_review\\page_2.png",
+        "Text":  "2\nJ. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60\nDataset link: Map Of potential\ngroundwater-dependent vegetation in the\nSierra Nevada Protected Area (Southern\nSpain) based on NDVI-derived\necohydrological attributes (Original data)\nKeywords:\nDryland mountains\nEc0hydr010gy\nGroundwater\nNDVI time serles\nRemote sensing\nSpecifications Table\nSubJect\nSpecific subject area\nType Of data\nData collection\nData source location\nData accessibility\nRelated reseal ℃ h article\nwere defined. These were further clustered intO\nthree levels Of potential groundwater dependence LIS-\ni ng hierarchical\nclustering techniques, differentiating\nbetween alpine and lower-elevation aquifer zones.\nThe dataset includes raster layers (GeoTIFF) of the ecohydro-\nlogical classes and pGDV type s at 10 m spatial resolution, a\nCSV file with descriptive statistics for each class, and com-\nplete metadata. AII spatial I ayers a re projected in ETRS89 /\nUTM Zone 30N (EPSG: 25830 ） and are ready for visualization\nand analysis in standard GIS platforms. PartiaI validation Of\nthe classification was performed using spring location data\nand the distribution 0f hygrophilous plant species from Ofi-\ncial conservation databases. This available dataset enables re-\nproducible analysis Of vegetation—groundwater relationships\nin dryland mountain ecosystems. lt supports comparative re-\nsearch across regions, facilitates the study Of groundwater\nbuffering effects on vegetation function, and offers a trans-\nferable framework for ecohydrological classification based on\nremote sensing. The data can be reused tO inform biodi-\nversity conservation, groundwater management ， and climate\ncha nge adaptation strategies in the Mediterranean and other\nwater-limited mountain reglons.\n0 2025 The Authors. PubIished by EIsevier lnc.\nThis is an open access article under the CC BY license\nhttp://creativecommons.org/licenses/by/4.O/\nEarth \u0026 Environmental Sciences\nEcohyd ro 1 ogy.\nGeoTIFF files （ raster layers), ShapefiIes (vector layers), CSV tables, Metadata\ndocumentation. The dataset consists Of processed, a na lyzed ， and derived\ndata products\nSentineI-2 LeveI 2A imagery （ 2019 一 2023 ） downloaded from the Copernicus\nOpen Access H ub (https://scihub.copernicus.eu/) was processed in Google\nEarth Engine tO compute NDVI time series, filtering pixels with \u003e 10 ％ cloud\nand \u003e 1 ％ snow probability. Areas with NDVI \u003c 0 · 1 were excluded. QuartiIes\ncategori ze d NDVI-based attributes intO 64 ecohydrological classes, then\nclustered using hierarchical analysis (EucIidean distance, complete linkage)\ni ntO three pGDV levels. Spatial and statistical analyses were done in QGIS\nDesktop (v 3 一 2 \u0026 4 ） and R （ V423 〗\nSierra Nevada Protected Area (NaturaI and NationaI Parks), southern Spain\n（ 37 · 0 。 一 37 · 2 。 N ， 2 · 5 。 一 3 ． 5 。 W ） (Fig. 1 〗 Data were generated and processed at\nthe AndaIusian Centre for GlobaI Change （ Centro Andaluz para el Cambio\nGIobaI, University Of AImerfa) and are publicly available in Zenodo.\nRepository name: ZENODO\nData identification number: 10 ． 5281 / zenodo ． 15315192\nDirect URL to data ： https://zenodo.org/records/15315192\nlnstructions for accessing these data: Open access; all files ca n be freely\ndownloaded from the Zenodo repository.\nCabeIIo, J., Escudero-CIares, M., Martos-RosiIIo, S., Casas, J. J., Cintas, J.,\nZakaIuk, T ” \u0026 SaIinas-BoniIIo, M. J. （ 2025 〗 Groundwater-dependent\nvegetati on in semi-arid Mediterranean mountains: The hidden role Of\nhard-rock aquifers. Submitted t0 the Journal 0f Hydrology.",
+        "Lines":  [
+                      {
+                          "Text":  "2",
+                          "X":  123,
+                          "Y":  100
+                      },
+                      {
+                          "Text":  "J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60",
+                          "X":  365,
+                          "Y":  99
+                      },
+                      {
+                          "Text":  "Dataset link: Map Of potential",
+                          "X":  123,
+                          "Y":  199
+                      },
+                      {
+                          "Text":  "groundwater-dependent vegetation in the",
+                          "X":  122,
+                          "Y":  238
+                      },
+                      {
+                          "Text":  "Sierra Nevada Protected Area (Southern",
+                          "X":  123,
+                          "Y":  279
+                      },
+                      {
+                          "Text":  "Spain) based on NDVI-derived",
+                          "X":  123,
+                          "Y":  319
+                      },
+                      {
+                          "Text":  "ecohydrological attributes (Original data)",
+                          "X":  123,
+                          "Y":  360
+                      },
+                      {
+                          "Text":  "Keywords:",
+                          "X":  122,
+                          "Y":  428
+                      },
+                      {
+                          "Text":  "Dryland mountains",
+                          "X":  123,
+                          "Y":  468
+                      },
+                      {
+                          "Text":  "Ec0hydr010gy",
+                          "X":  123,
+                          "Y":  509
+                      },
+                      {
+                          "Text":  "Groundwater",
+                          "X":  123,
+                          "Y":  549
+                      },
+                      {
+                          "Text":  "NDVI time serles",
+                          "X":  123,
+                          "Y":  591
+                      },
+                      {
+                          "Text":  "Remote sensing",
+                          "X":  123,
+                          "Y":  631
+                      },
+                      {
+                          "Text":  "Specifications Table",
+                          "X":  123,
+                          "Y":  1517
+                      },
+                      {
+                          "Text":  "SubJect",
+                          "X":  187,
+                          "Y":  1605
+                      },
+                      {
+                          "Text":  "Specific subject area",
+                          "X":  187,
+                          "Y":  1645
+                      },
+                      {
+                          "Text":  "Type Of data",
+                          "X":  185,
+                          "Y":  1687
+                      },
+                      {
+                          "Text":  "Data collection",
+                          "X":  187,
+                          "Y":  1808
+                      },
+                      {
+                          "Text":  "Data source location",
+                          "X":  187,
+                          "Y":  2133
+                      },
+                      {
+                          "Text":  "Data accessibility",
+                          "X":  187,
+                          "Y":  2295
+                      },
+                      {
+                          "Text":  "Related reseal ℃ h article",
+                          "X":  187,
+                          "Y":  2497
+                      },
+                      {
+                          "Text":  "were defined. These were further clustered intO",
+                          "X":  857,
+                          "Y":  200
+                      },
+                      {
+                          "Text":  "three levels Of potential groundwater dependence LIS-",
+                          "X":  857,
+                          "Y":  238
+                      },
+                      {
+                          "Text":  "i ng hierarchical",
+                          "X":  858,
+                          "Y":  284
+                      },
+                      {
+                          "Text":  "clustering techniques, differentiating",
+                          "X":  1184,
+                          "Y":  283
+                      },
+                      {
+                          "Text":  "between alpine and lower-elevation aquifer zones.",
+                          "X":  857,
+                          "Y":  328
+                      },
+                      {
+                          "Text":  "The dataset includes raster layers (GeoTIFF) of the ecohydro-",
+                          "X":  856,
+                          "Y":  374
+                      },
+                      {
+                          "Text":  "logical classes and pGDV type s at 10 m spatial resolution, a",
+                          "X":  858,
+                          "Y":  419
+                      },
+                      {
+                          "Text":  "CSV file with descriptive statistics for each class, and com-",
+                          "X":  857,
+                          "Y":  465
+                      },
+                      {
+                          "Text":  "plete metadata. AII spatial I ayers a re projected in ETRS89 /",
+                          "X":  858,
+                          "Y":  510
+                      },
+                      {
+                          "Text":  "UTM Zone 30N (EPSG: 25830 ） and are ready for visualization",
+                          "X":  857,
+                          "Y":  556
+                      },
+                      {
+                          "Text":  "and analysis in standard GIS platforms. PartiaI validation Of",
+                          "X":  857,
+                          "Y":  600
+                      },
+                      {
+                          "Text":  "the classification was performed using spring location data",
+                          "X":  857,
+                          "Y":  645
+                      },
+                      {
+                          "Text":  "and the distribution 0f hygrophilous plant species from Ofi-",
+                          "X":  857,
+                          "Y":  691
+                      },
+                      {
+                          "Text":  "cial conservation databases. This available dataset enables re-",
+                          "X":  857,
+                          "Y":  736
+                      },
+                      {
+                          "Text":  "producible analysis Of vegetation—groundwater relationships",
+                          "X":  858,
+                          "Y":  781
+                      },
+                      {
+                          "Text":  "in dryland mountain ecosystems. lt supports comparative re-",
+                          "X":  858,
+                          "Y":  827
+                      },
+                      {
+                          "Text":  "search across regions, facilitates the study Of groundwater",
+                          "X":  858,
+                          "Y":  872
+                      },
+                      {
+                          "Text":  "buffering effects on vegetation function, and offers a trans-",
+                          "X":  857,
+                          "Y":  917
+                      },
+                      {
+                          "Text":  "ferable framework for ecohydrological classification based on",
+                          "X":  858,
+                          "Y":  962
+                      },
+                      {
+                          "Text":  "remote sensing. The data can be reused tO inform biodi-",
+                          "X":  858,
+                          "Y":  1011
+                      },
+                      {
+                          "Text":  "versity conservation, groundwater management ， and climate",
+                          "X":  857,
+                          "Y":  1054
+                      },
+                      {
+                          "Text":  "cha nge adaptation strategies in the Mediterranean and other",
+                          "X":  857,
+                          "Y":  1098
+                      },
+                      {
+                          "Text":  "water-limited mountain reglons.",
+                          "X":  857,
+                          "Y":  1143
+                      },
+                      {
+                          "Text":  "0 2025 The Authors. PubIished by EIsevier lnc.",
+                          "X":  1082,
+                          "Y":  1190
+                      },
+                      {
+                          "Text":  "This is an open access article under the CC BY license",
+                          "X":  969,
+                          "Y":  1234
+                      },
+                      {
+                          "Text":  "http://creativecommons.org/licenses/by/4.O/",
+                          "X":  1128,
+                          "Y":  1279
+                      },
+                      {
+                          "Text":  "Earth \u0026 Environmental Sciences",
+                          "X":  753,
+                          "Y":  1605
+                      },
+                      {
+                          "Text":  "Ecohyd ro 1 ogy.",
+                          "X":  753,
+                          "Y":  1645
+                      },
+                      {
+                          "Text":  "GeoTIFF files （ raster layers), ShapefiIes (vector layers), CSV tables, Metadata",
+                          "X":  752,
+                          "Y":  1687
+                      },
+                      {
+                          "Text":  "documentation. The dataset consists Of processed, a na lyzed ， and derived",
+                          "X":  752,
+                          "Y":  1727
+                      },
+                      {
+                          "Text":  "data products",
+                          "X":  752,
+                          "Y":  1767
+                      },
+                      {
+                          "Text":  "SentineI-2 LeveI 2A imagery （ 2019 一 2023 ） downloaded from the Copernicus",
+                          "X":  752,
+                          "Y":  1808
+                      },
+                      {
+                          "Text":  "Open Access H ub (https://scihub.copernicus.eu/) was processed in Google",
+                          "X":  752,
+                          "Y":  1849
+                      },
+                      {
+                          "Text":  "Earth Engine tO compute NDVI time series, filtering pixels with \u003e 10 ％ cloud",
+                          "X":  752,
+                          "Y":  1889
+                      },
+                      {
+                          "Text":  "and \u003e 1 ％ snow probability. Areas with NDVI \u003c 0 · 1 were excluded. QuartiIes",
+                          "X":  752,
+                          "Y":  1929
+                      },
+                      {
+                          "Text":  "categori ze d NDVI-based attributes intO 64 ecohydrological classes, then",
+                          "X":  752,
+                          "Y":  1970
+                      },
+                      {
+                          "Text":  "clustered using hierarchical analysis (EucIidean distance, complete linkage)",
+                          "X":  752,
+                          "Y":  2010
+                      },
+                      {
+                          "Text":  "i ntO three pGDV levels. Spatial and statistical analyses were done in QGIS",
+                          "X":  753,
+                          "Y":  2051
+                      },
+                      {
+                          "Text":  "Desktop (v 3 一 2 \u0026 4 ） and R （ V423 〗",
+                          "X":  753,
+                          "Y":  2091
+                      },
+                      {
+                          "Text":  "Sierra Nevada Protected Area (NaturaI and NationaI Parks), southern Spain",
+                          "X":  752,
+                          "Y":  2132
+                      },
+                      {
+                          "Text":  "（ 37 · 0 。 一 37 · 2 。 N ， 2 · 5 。 一 3 ． 5 。 W ） (Fig. 1 〗 Data were generated and processed at",
+                          "X":  752,
+                          "Y":  2172
+                      },
+                      {
+                          "Text":  "the AndaIusian Centre for GlobaI Change （ Centro Andaluz para el Cambio",
+                          "X":  752,
+                          "Y":  2213
+                      },
+                      {
+                          "Text":  "GIobaI, University Of AImerfa) and are publicly available in Zenodo.",
+                          "X":  752,
+                          "Y":  2254
+                      },
+                      {
+                          "Text":  "Repository name: ZENODO",
+                          "X":  753,
+                          "Y":  2295
+                      },
+                      {
+                          "Text":  "Data identification number: 10 ． 5281 / zenodo ． 15315192",
+                          "X":  752,
+                          "Y":  2335
+                      },
+                      {
+                          "Text":  "Direct URL to data ： https://zenodo.org/records/15315192",
+                          "X":  752,
+                          "Y":  2375
+                      },
+                      {
+                          "Text":  "lnstructions for accessing these data: Open access; all files ca n be freely",
+                          "X":  752,
+                          "Y":  2416
+                      },
+                      {
+                          "Text":  "downloaded from the Zenodo repository.",
+                          "X":  752,
+                          "Y":  2456
+                      },
+                      {
+                          "Text":  "CabeIIo, J., Escudero-CIares, M., Martos-RosiIIo, S., Casas, J. J., Cintas, J.,",
+                          "X":  752,
+                          "Y":  2497
+                      },
+                      {
+                          "Text":  "ZakaIuk, T ” \u0026 SaIinas-BoniIIo, M. J. （ 2025 〗 Groundwater-dependent",
+                          "X":  752,
+                          "Y":  2537
+                      },
+                      {
+                          "Text":  "vegetati on in semi-arid Mediterranean mountains: The hidden role Of",
+                          "X":  752,
+                          "Y":  2578
+                      },
+                      {
+                          "Text":  "hard-rock aquifers. Submitted t0 the Journal 0f Hydrology.",
+                          "X":  753,
+                          "Y":  2618
+                      }
+                  ]
+    },
+    {
+        "Page":  3,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\sierra_review\\page_3.png",
+        "Text":  "J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 / Data Brief 61 （ 2025 丿 717 / 60\n1 · Value of the Data\n3\n· Groundwater-dependent ecosystems (GDVs) provide essential ecosystem services but a re in-\ncreasingly threatened by water overextraction and climate ch a nge · Effective conservation Of\nGDVs requires the ability t0 detect and map vegetation potentially supported by groundwa-\nter. Unlike most studies focus solely on vegetation distribution, the dataset enables users\ntO explore hOW underlying aquifer characteristics (e.g., fractured metamorphic VS. carbonate\nsystems) may shape the persistence and ecological function Of GDVs.\n· This dataset provides a spatially explicit classification 0f potentially groundwater-dependent\nvegetation (pGDV) in a semi-arid Mediterranean mountain SYSte m [ 1 ] · By linking functional\nvegetation traits tO spatial patterns Of groundwater influence, the dataset offers a nove 1 ap\nproach tO understanding ecohydrological functioning in dryland mountain ecosystems.\n· The NDVI-based ecohydrological attributes included in the dataset (dry-season N DVI, dry-\nwe t seasonal NDVI difference, and interannual NDVI variability) allow researchers t0 assess\nvegetation resilience and potential groundwater buffering across spatial and temporal scales.\n。 The dataset supports CO m p a rative research across mountain systems by offering a replicable\nframeworl\u003c tO analyze vegetation—groundwater interactions. lt facilitates the identification Of\nfunctional vegetation patterns and their vulnerability tO climate-driven changes, contributing\ntO broader assessments Of ecosystem resilience in water-limited environments.\n。 This dataset ca n inform climate adaptation strategies and conservation by highlighting areas\nwhere groundwater maintains ecological stability under increasing drought and snowpacl\u003c\ndecline in Mediterranean mountain regions.\n2 · Background\nRecharge in mountain aquifers through snowmelt and rainfall runoff creates favourable con-\nditions for vegetated areas likely reliant on groundwater [\n] · However, despite their critical\nrole in the water cycle, research on groundwater-dependent vegetation (GDV) remains limited\nin mountain environments [41. This ga p is particularly relevant in arid regions, where alpine\naquifers [ 5 ] and fractured hard-rock aquifers, b0th with limited storage capacity [6], ca n sustain\nmountain vegetation under conditions Of I OW precipitation and high evapotranspiration demand\nin arid regions [\nMOSt studies focus on GDV distribution, overlool\u003cing the influence Of aquifer types on their\npersistence and function [e.g.,\n] · Mountain landscapes host diverse aquifer types that differ\n8 一 10\nin recharge mechanisms, retention capacity, and ecological influence. Mapping areas Of potential\nGDV (pGDV) considering aquifer types is essential tO understanding spatial patterns Of ground-\nwate r dependence and assessing GDV vulnerability tO climate change. This dataset provides a\nspatially explicit classification Of pGDV in the Sierra Nevada protected area (Southern Spain),\nbased on NDVI-derived ecohydrological indicators and a reclassified vegetation map. Th e region\nhosts three hydrological units: Alpine aquifer zone (AAZ), Slope aquifer zone (SAZ), and Car-\nbonate aquifer zone (CAZ). lt complements the associated research article by mal\u003cing the data,\nmethods, and classification outputs accessible for reuse ， replication, and application in Other re 一\nglons.\n3 · Data Description\nTh e dataset is organized intO s eve ra I files that provide the classification Of potentially\ngroundwater-dependent vegetation (pGDV) in th e Sierra Nevada Protected Area and the ecohy-\ndrological indicators used t0 generate it [ 11 ] (Fig. 1 ） · The files a re provided in GeoTIFF and CSV\nformats, accompanied by metadata in PDF and TXT format. The dataset includes:",
+        "Lines":  [
+                      {
+                          "Text":  "J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 / Data Brief 61 （ 2025 丿 717 / 60",
+                          "X":  414,
+                          "Y":  99
+                      },
+                      {
+                          "Text":  "1 · Value of the Data",
+                          "X":  173,
+                          "Y":  188
+                      },
+                      {
+                          "Text":  "3",
+                          "X":  1867,
+                          "Y":  100
+                      },
+                      {
+                          "Text":  "· Groundwater-dependent ecosystems (GDVs) provide essential ecosystem services but a re in-",
+                          "X":  199,
+                          "Y":  303
+                      },
+                      {
+                          "Text":  "creasingly threatened by water overextraction and climate ch a nge · Effective conservation Of",
+                          "X":  231,
+                          "Y":  340
+                      },
+                      {
+                          "Text":  "GDVs requires the ability t0 detect and map vegetation potentially supported by groundwa-",
+                          "X":  231,
+                          "Y":  391
+                      },
+                      {
+                          "Text":  "ter. Unlike most studies focus solely on vegetation distribution, the dataset enables users",
+                          "X":  231,
+                          "Y":  443
+                      },
+                      {
+                          "Text":  "tO explore hOW underlying aquifer characteristics (e.g., fractured metamorphic VS. carbonate",
+                          "X":  231,
+                          "Y":  493
+                      },
+                      {
+                          "Text":  "systems) may shape the persistence and ecological function Of GDVs.",
+                          "X":  232,
+                          "Y":  538
+                      },
+                      {
+                          "Text":  "· This dataset provides a spatially explicit classification 0f potentially groundwater-dependent",
+                          "X":  199,
+                          "Y":  600
+                      },
+                      {
+                          "Text":  "vegetation (pGDV) in a semi-arid Mediterranean mountain SYSte m [ 1 ] · By linking functional",
+                          "X":  230,
+                          "Y":  637
+                      },
+                      {
+                          "Text":  "vegetation traits tO spatial patterns Of groundwater influence, the dataset offers a nove 1 ap",
+                          "X":  230,
+                          "Y":  687
+                      },
+                      {
+                          "Text":  "proach tO understanding ecohydrological functioning in dryland mountain ecosystems.",
+                          "X":  232,
+                          "Y":  736
+                      },
+                      {
+                          "Text":  "· The NDVI-based ecohydrological attributes included in the dataset (dry-season N DVI, dry-",
+                          "X":  199,
+                          "Y":  798
+                      },
+                      {
+                          "Text":  "we t seasonal NDVI difference, and interannual NDVI variability) allow researchers t0 assess",
+                          "X":  230,
+                          "Y":  844
+                      },
+                      {
+                          "Text":  "vegetation resilience and potential groundwater buffering across spatial and temporal scales.",
+                          "X":  230,
+                          "Y":  885
+                      },
+                      {
+                          "Text":  "。 The dataset supports CO m p a rative research across mountain systems by offering a replicable",
+                          "X":  199,
+                          "Y":  946
+                      },
+                      {
+                          "Text":  "frameworl\u003c tO analyze vegetation—groundwater interactions. lt facilitates the identification Of",
+                          "X":  231,
+                          "Y":  983
+                      },
+                      {
+                          "Text":  "functional vegetation patterns and their vulnerability tO climate-driven changes, contributing",
+                          "X":  231,
+                          "Y":  1032
+                      },
+                      {
+                          "Text":  "tO broader assessments Of ecosystem resilience in water-limited environments.",
+                          "X":  231,
+                          "Y":  1087
+                      },
+                      {
+                          "Text":  "。 This dataset ca n inform climate adaptation strategies and conservation by highlighting areas",
+                          "X":  199,
+                          "Y":  1144
+                      },
+                      {
+                          "Text":  "where groundwater maintains ecological stability under increasing drought and snowpacl\u003c",
+                          "X":  231,
+                          "Y":  1181
+                      },
+                      {
+                          "Text":  "decline in Mediterranean mountain regions.",
+                          "X":  231,
+                          "Y":  1231
+                      },
+                      {
+                          "Text":  "2 · Background",
+                          "X":  172,
+                          "Y":  1424
+                      },
+                      {
+                          "Text":  "Recharge in mountain aquifers through snowmelt and rainfall runoff creates favourable con-",
+                          "X":  229,
+                          "Y":  1526
+                      },
+                      {
+                          "Text":  "ditions for vegetated areas likely reliant on groundwater [",
+                          "X":  172,
+                          "Y":  1576
+                      },
+                      {
+                          "Text":  "] · However, despite their critical",
+                          "X":  1299,
+                          "Y":  1575
+                      },
+                      {
+                          "Text":  "role in the water cycle, research on groundwater-dependent vegetation (GDV) remains limited",
+                          "X":  173,
+                          "Y":  1625
+                      },
+                      {
+                          "Text":  "in mountain environments [41. This ga p is particularly relevant in arid regions, where alpine",
+                          "X":  173,
+                          "Y":  1675
+                      },
+                      {
+                          "Text":  "aquifers [ 5 ] and fractured hard-rock aquifers, b0th with limited storage capacity [6], ca n sustain",
+                          "X":  172,
+                          "Y":  1724
+                      },
+                      {
+                          "Text":  "mountain vegetation under conditions Of I OW precipitation and high evapotranspiration demand",
+                          "X":  173,
+                          "Y":  1774
+                      },
+                      {
+                          "Text":  "in arid regions [",
+                          "X":  173,
+                          "Y":  1824
+                      },
+                      {
+                          "Text":  "MOSt studies focus on GDV distribution, overlool\u003cing the influence Of aquifer types on their",
+                          "X":  229,
+                          "Y":  1874
+                      },
+                      {
+                          "Text":  "persistence and function [e.g.,",
+                          "X":  173,
+                          "Y":  1923
+                      },
+                      {
+                          "Text":  "] · Mountain landscapes host diverse aquifer types that differ",
+                          "X":  807,
+                          "Y":  1922
+                      },
+                      {
+                          "Text":  "8 一 10",
+                          "X":  719,
+                          "Y":  1924
+                      },
+                      {
+                          "Text":  "in recharge mechanisms, retention capacity, and ecological influence. Mapping areas Of potential",
+                          "X":  173,
+                          "Y":  1972
+                      },
+                      {
+                          "Text":  "GDV (pGDV) considering aquifer types is essential tO understanding spatial patterns Of ground-",
+                          "X":  172,
+                          "Y":  2023
+                      },
+                      {
+                          "Text":  "wate r dependence and assessing GDV vulnerability tO climate change. This dataset provides a",
+                          "X":  172,
+                          "Y":  2075
+                      },
+                      {
+                          "Text":  "spatially explicit classification Of pGDV in the Sierra Nevada protected area (Southern Spain),",
+                          "X":  173,
+                          "Y":  2120
+                      },
+                      {
+                          "Text":  "based on NDVI-derived ecohydrological indicators and a reclassified vegetation map. Th e region",
+                          "X":  172,
+                          "Y":  2170
+                      },
+                      {
+                          "Text":  "hosts three hydrological units: Alpine aquifer zone (AAZ), Slope aquifer zone (SAZ), and Car-",
+                          "X":  173,
+                          "Y":  2219
+                      },
+                      {
+                          "Text":  "bonate aquifer zone (CAZ). lt complements the associated research article by mal\u003cing the data,",
+                          "X":  172,
+                          "Y":  2269
+                      },
+                      {
+                          "Text":  "methods, and classification outputs accessible for reuse ， replication, and application in Other re 一",
+                          "X":  173,
+                          "Y":  2318
+                      },
+                      {
+                          "Text":  "glons.",
+                          "X":  172,
+                          "Y":  2376
+                      },
+                      {
+                          "Text":  "3 · Data Description",
+                          "X":  171,
+                          "Y":  2561
+                      },
+                      {
+                          "Text":  "Th e dataset is organized intO s eve ra I files that provide the classification Of potentially",
+                          "X":  227,
+                          "Y":  2663
+                      },
+                      {
+                          "Text":  "groundwater-dependent vegetation (pGDV) in th e Sierra Nevada Protected Area and the ecohy-",
+                          "X":  172,
+                          "Y":  2712
+                      },
+                      {
+                          "Text":  "drological indicators used t0 generate it [ 11 ] (Fig. 1 ） · The files a re provided in GeoTIFF and CSV",
+                          "X":  172,
+                          "Y":  2762
+                      },
+                      {
+                          "Text":  "formats, accompanied by metadata in PDF and TXT format. The dataset includes:",
+                          "X":  172,
+                          "Y":  2811
+                      }
+                  ]
+    },
+    {
+        "Page":  4,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\sierra_review\\page_4.png",
+        "Text":  "J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60\nOE\n500000E\n1000 開 OE\nOE\nAAZ\n490000E\nSAZ\n2200000E\nCAZ\n4400000E\n10 km\n0\n455000E\nOrthophoto\n0 m\n525000E\nThe 3 pGDV\nThe 64 ecohydrological classes of pGDV\n0 謁\npGDV2 0 pGDV3\n211\n311\n111\n411 444\nFig. 1 · Location and spatial structure Of the dataset on groundwater-dependent vegetation (pGDV) in Sierra Nevada,\nsoutheastern Spain. Top: location maps at the European and lberian PeninsuIa scales. Middle: distribution Of aquifers\nzones ()A 乙 alpine—azonal zone ， SA 乙 subalpine—azonal zone ， CA 乙 colline—azonal zone) across Sierra Nevada. Bottom:\ndetailed view Of a representative area showing 0 ） orthophoto, (ii) the 64 ecohydrological vegetati on classes (pGDV)\nderive d from structural and functional (NDVI-based) characteristics, and (iii) a simplified classification intO three main\npGDV types.\n· pGDV—map—SierraNevada—IOm.tif: raster I aye r (GeoTIFF) showing the final classification Of\nvegetation int0 three levels 0f potential groundwater dependence (pGDV1 ： low, pGDV2:\nmoderate, pGDV3: high), at 10 m spatial resolution.\n。 ec0Hydr064_cIasses—SierraNevada IOm.tif: raster laye r with 64 ecohydrological classes de-\nrive d from N DVI metrics.\n。 ecoHydro_attributes_SierraNevada.csv: table with descriptive statistics (mean, SD, min,\nmax) for each Of the 64 classes across the three NDVI-based variables.",
+        "Lines":  [
+                      {
+                          "Text":  "J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60",
+                          "X":  365,
+                          "Y":  99
+                      },
+                      {
+                          "Text":  "OE",
+                          "X":  287,
+                          "Y":  189
+                      },
+                      {
+                          "Text":  "500000E",
+                          "X":  502,
+                          "Y":  190
+                      },
+                      {
+                          "Text":  "1000 開 OE",
+                          "X":  748,
+                          "Y":  190
+                      },
+                      {
+                          "Text":  "OE",
+                          "X":  1022,
+                          "Y":  189
+                      },
+                      {
+                          "Text":  "AAZ",
+                          "X":  1077,
+                          "Y":  913
+                      },
+                      {
+                          "Text":  "490000E",
+                          "X":  914,
+                          "Y":  1568
+                      },
+                      {
+                          "Text":  "SAZ",
+                          "X":  1216,
+                          "Y":  913
+                      },
+                      {
+                          "Text":  "2200000E",
+                          "X":  1292,
+                          "Y":  189
+                      },
+                      {
+                          "Text":  "CAZ",
+                          "X":  1353,
+                          "Y":  913
+                      },
+                      {
+                          "Text":  "4400000E",
+                          "X":  1605,
+                          "Y":  190
+                      },
+                      {
+                          "Text":  "10 km",
+                          "X":  1634,
+                          "Y":  903
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1779,
+                          "Y":  1065
+                      },
+                      {
+                          "Text":  "455000E",
+                          "X":  334,
+                          "Y":  1569
+                      },
+                      {
+                          "Text":  "Orthophoto",
+                          "X":  345,
+                          "Y":  1657
+                      },
+                      {
+                          "Text":  "0 m",
+                          "X":  434,
+                          "Y":  2064
+                      },
+                      {
+                          "Text":  "525000E",
+                          "X":  1495,
+                          "Y":  1568
+                      },
+                      {
+                          "Text":  "The 3 pGDV",
+                          "X":  1435,
+                          "Y":  1657
+                      },
+                      {
+                          "Text":  "The 64 ecohydrological classes of pGDV",
+                          "X":  726,
+                          "Y":  1657
+                      },
+                      {
+                          "Text":  "0 謁",
+                          "X":  704,
+                          "Y":  1688
+                      },
+                      {
+                          "Text":  "pGDV2 0 pGDV3",
+                          "X":  1494,
+                          "Y":  2072
+                      },
+                      {
+                          "Text":  "211",
+                          "X":  823,
+                          "Y":  2105
+                      },
+                      {
+                          "Text":  "311",
+                          "X":  932,
+                          "Y":  2105
+                      },
+                      {
+                          "Text":  "111",
+                          "X":  714,
+                          "Y":  2106
+                      },
+                      {
+                          "Text":  "411 444",
+                          "X":  1041,
+                          "Y":  2106
+                      },
+                      {
+                          "Text":  "Fig. 1 · Location and spatial structure Of the dataset on groundwater-dependent vegetation (pGDV) in Sierra Nevada,",
+                          "X":  123,
+                          "Y":  2175
+                      },
+                      {
+                          "Text":  "southeastern Spain. Top: location maps at the European and lberian PeninsuIa scales. Middle: distribution Of aquifers",
+                          "X":  123,
+                          "Y":  2215
+                      },
+                      {
+                          "Text":  "zones ()A 乙 alpine—azonal zone ， SA 乙 subalpine—azonal zone ， CA 乙 colline—azonal zone) across Sierra Nevada. Bottom:",
+                          "X":  123,
+                          "Y":  2262
+                      },
+                      {
+                          "Text":  "detailed view Of a representative area showing 0 ） orthophoto, (ii) the 64 ecohydrological vegetati on classes (pGDV)",
+                          "X":  123,
+                          "Y":  2296
+                      },
+                      {
+                          "Text":  "derive d from structural and functional (NDVI-based) characteristics, and (iii) a simplified classification intO three main",
+                          "X":  123,
+                          "Y":  2337
+                      },
+                      {
+                          "Text":  "pGDV types.",
+                          "X":  123,
+                          "Y":  2378
+                      },
+                      {
+                          "Text":  "· pGDV—map—SierraNevada—IOm.tif: raster I aye r (GeoTIFF) showing the final classification Of",
+                          "X":  205,
+                          "Y":  2527
+                      },
+                      {
+                          "Text":  "vegetation int0 three levels 0f potential groundwater dependence (pGDV1 ： low, pGDV2:",
+                          "X":  235,
+                          "Y":  2564
+                      },
+                      {
+                          "Text":  "moderate, pGDV3: high), at 10 m spatial resolution.",
+                          "X":  237,
+                          "Y":  2613
+                      },
+                      {
+                          "Text":  "。 ec0Hydr064_cIasses—SierraNevada IOm.tif: raster laye r with 64 ecohydrological classes de-",
+                          "X":  205,
+                          "Y":  2675
+                      },
+                      {
+                          "Text":  "rive d from N DVI metrics.",
+                          "X":  237,
+                          "Y":  2713
+                      },
+                      {
+                          "Text":  "。 ecoHydro_attributes_SierraNevada.csv: table with descriptive statistics (mean, SD, min,",
+                          "X":  205,
+                          "Y":  2774
+                      },
+                      {
+                          "Text":  "max) for each Of the 64 classes across the three NDVI-based variables.",
+                          "X":  237,
+                          "Y":  2812
+                      }
+                  ]
+    },
+    {
+        "Page":  5,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\sierra_review\\page_5.png",
+        "Text":  "J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 / Data Brief 61 （ 2025 丿 717 / 60\n· README.txt: brief description Of the dataset content and file structure.\n5\n· metadata—pGDV—dataset.pdf: full metadata including methodological summary, variable\ndescriptions, and legend fO 「 map interpretation.\nAII spatial files use the ETRS 89 / UTM zone 30N projection (EPSG: 25830 ） · The data can be vi-\nsualized in standard GIS software (e.g., QGIS, ArcGIS) and analyzed using geospatial or statistical\ntOOls.\n4 · Experimental Design ， Materials and Methods\nTh e pGDV dataset was generated through a multi-step approach integrating remote sensing\ntime series, ecohydrological metrics, and existing aquifers maps (Fig. 2 ） · Th e process wa S struc-\n9\n0\n匚 \u003e\n0\n0\n0\n0\nSnow mask （ \u003e 1 ％ ）\nmonthly Of each year\nApply SOil and s now masks\nSentinel-2\nCOllection （ 2019 · 2023 ）\nQuaIity filtering\nNDVI monthly Of\neach year\nV e10\nSOil mask\n(NDVI\u003cO.I)\nDry-wet NDVI\nt Dry NDVI\ndifference in the AAZ\n(August)\n(August - June)\nSetting thresholés by\nReclassification\nDry-wet NDVI\nDry NDVI\ndifference\n（ 100 ， 200 ， 300 ）\n（ 10 ， 20 ， 30 ）\nCV NDVI\ninterannual\n（ 1 ， 2 ， 3 ）\n《 Dry-wet NDVI\ndifference in the SAZ and\nCAZ (August - May)\nReclassification\nDry-wet NDVI\nDry N DVI\ndifference\n（ 100 ， 200 ， 300 ）\n（ 10 ， 20 ， 30 ）\n！ CV NDVI\ninteranual\nCV NDVI\ninterannual\n〈 1 ， 2 ， 3 ）\nSPEI\n0\n0 ·\n0\n0\n0\n0\nFAME\n0\n0\n0\n0\n0\n0\nSprings\n0\n0\n0\n0\n0\n64 classes for alpine zone\nHlerarchical\nSprings analysis\n64 classes for sloping and carbonate zone\nHierarchical clustering\n3 potencial G DV\nHygrophilous vegetation analysis\nFig. 2 · Workflow fO 「 generating the pGDV dataset through a multi-step approach integrating remote sensing time series,\necohydrological metrics, and aquifer mapping.\ntured in five main phases:\n1 · Data acquisition: SentineI-2 Leve 1 2A i m age ry from January 2019 tO December 2023 wa s\nobtained from the Copernicus Open Access Hub. A tota I of 2 537 images covering the\nSierra Nevada Protected Are a were used. CIoud and snow masl\u003cing were applied using\nSentineI-2 QA bands (MSK_CLDPRB, MSK_SNWPRB), excluding pixels with \u003e 10 ％ cloud\nprobability and \u003e 1 ％ snow probability. A minimum NDVI threshold of 0 · 1 wa s used t0\nmasl\u003c non-vegetated areas ， validated using high-resolution orthophotos (PNOA).\n2 · CaIculation Of NDVI-based ecohydrological attributes: Monthly NDVI wa s calculated using\nSentineI-2 bands B4 (red) and B8 (NIR). Three attributes we re derived: Dry-season NDVI\n（ N DVI in August), Dry-wet N DVI difference (May/June vs August, altitudinally adjusted),\nand lnterannual NDVI coeficient 0f variation （ CV from 2019 一 2023 ）\n3 · CIassification int0 ecohydrological classes and pGDV levels: F0110wing th e functional clas-\nsification approach proposed by [ 12L each NDVI-derived ecohydrological attribute wa s di-\nvided intO four quartile-based categories, representing gradients Of ecosystem functioning.\nTO facilitate class labeling and subsequent interpretation, numerical codes we re assigned\ntO each category (e.g., 100 一 400 for dry-season NDVI, 10 一 40 for dry-wet N DVI difference,",
+        "Lines":  [
+                      {
+                          "Text":  "J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 / Data Brief 61 （ 2025 丿 717 / 60",
+                          "X":  414,
+                          "Y":  99
+                      },
+                      {
+                          "Text":  "· README.txt: brief description Of the dataset content and file structure.",
+                          "X":  254,
+                          "Y":  199
+                      },
+                      {
+                          "Text":  "5",
+                          "X":  1868,
+                          "Y":  99
+                      },
+                      {
+                          "Text":  "· metadata—pGDV—dataset.pdf: full metadata including methodological summary, variable",
+                          "X":  254,
+                          "Y":  249
+                      },
+                      {
+                          "Text":  "descriptions, and legend fO 「 map interpretation.",
+                          "X":  285,
+                          "Y":  286
+                      },
+                      {
+                          "Text":  "AII spatial files use the ETRS 89 / UTM zone 30N projection (EPSG: 25830 ） · The data can be vi-",
+                          "X":  227,
+                          "Y":  365
+                      },
+                      {
+                          "Text":  "sualized in standard GIS software (e.g., QGIS, ArcGIS) and analyzed using geospatial or statistical",
+                          "X":  173,
+                          "Y":  415
+                      },
+                      {
+                          "Text":  "tOOls.",
+                          "X":  172,
+                          "Y":  464
+                      },
+                      {
+                          "Text":  "4 · Experimental Design ， Materials and Methods",
+                          "X":  171,
+                          "Y":  626
+                      },
+                      {
+                          "Text":  "Th e pGDV dataset was generated through a multi-step approach integrating remote sensing",
+                          "X":  227,
+                          "Y":  728
+                      },
+                      {
+                          "Text":  "time series, ecohydrological metrics, and existing aquifers maps (Fig. 2 ） · Th e process wa S struc-",
+                          "X":  172,
+                          "Y":  778
+                      },
+                      {
+                          "Text":  "9",
+                          "X":  245,
+                          "Y":  1022
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  210,
+                          "Y":  1030
+                      },
+                      {
+                          "Text":  "匚 \u003e",
+                          "X":  215,
+                          "Y":  1304
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  242,
+                          "Y":  1469
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  242,
+                          "Y":  1515
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  237,
+                          "Y":  1603
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  248,
+                          "Y":  1746
+                      },
+                      {
+                          "Text":  "Snow mask （ \u003e 1 ％ ）",
+                          "X":  415,
+                          "Y":  1073
+                      },
+                      {
+                          "Text":  "monthly Of each year",
+                          "X":  401,
+                          "Y":  1105
+                      },
+                      {
+                          "Text":  "Apply SOil and s now masks",
+                          "X":  330,
+                          "Y":  1148
+                      },
+                      {
+                          "Text":  "Sentinel-2",
+                          "X":  828,
+                          "Y":  939
+                      },
+                      {
+                          "Text":  "COllection （ 2019 · 2023 ）",
+                          "X":  756,
+                          "Y":  974
+                      },
+                      {
+                          "Text":  "QuaIity filtering",
+                          "X":  914,
+                          "Y":  1017
+                      },
+                      {
+                          "Text":  "NDVI monthly Of",
+                          "X":  792,
+                          "Y":  1073
+                      },
+                      {
+                          "Text":  "each year",
+                          "X":  829,
+                          "Y":  1105
+                      },
+                      {
+                          "Text":  "V e10",
+                          "X":  1364,
+                          "Y":  959
+                      },
+                      {
+                          "Text":  "SOil mask",
+                          "X":  1223,
+                          "Y":  1073
+                      },
+                      {
+                          "Text":  "(NDVI\u003cO.I)",
+                          "X":  1218,
+                          "Y":  1104
+                      },
+                      {
+                          "Text":  "Dry-wet NDVI",
+                          "X":  643,
+                          "Y":  1209
+                      },
+                      {
+                          "Text":  "t Dry NDVI",
+                          "X":  352,
+                          "Y":  1229
+                      },
+                      {
+                          "Text":  "difference in the AAZ",
+                          "X":  593,
+                          "Y":  1243
+                      },
+                      {
+                          "Text":  "(August)",
+                          "X":  366,
+                          "Y":  1261
+                      },
+                      {
+                          "Text":  "(August - June)",
+                          "X":  624,
+                          "Y":  1277
+                      },
+                      {
+                          "Text":  "Setting thresholés by",
+                          "X":  327,
+                          "Y":  1321
+                      },
+                      {
+                          "Text":  "Reclassification",
+                          "X":  318,
+                          "Y":  1376
+                      },
+                      {
+                          "Text":  "Dry-wet NDVI",
+                          "X":  528,
+                          "Y":  1398
+                      },
+                      {
+                          "Text":  "Dry NDVI",
+                          "X":  361,
+                          "Y":  1418
+                      },
+                      {
+                          "Text":  "difference",
+                          "X":  552,
+                          "Y":  1433
+                      },
+                      {
+                          "Text":  "（ 100 ， 200 ， 300 ）",
+                          "X":  335,
+                          "Y":  1453
+                      },
+                      {
+                          "Text":  "（ 10 ， 20 ， 30 ）",
+                          "X":  547,
+                          "Y":  1468
+                      },
+                      {
+                          "Text":  "CV NDVI",
+                          "X":  739,
+                          "Y":  1398
+                      },
+                      {
+                          "Text":  "interannual",
+                          "X":  728,
+                          "Y":  1434
+                      },
+                      {
+                          "Text":  "（ 1 ， 2 ， 3 ）",
+                          "X":  754,
+                          "Y":  1468
+                      },
+                      {
+                          "Text":  "《 Dry-wet NDVI",
+                          "X":  974,
+                          "Y":  1211
+                      },
+                      {
+                          "Text":  "difference in the SAZ and",
+                          "X":  920,
+                          "Y":  1244
+                      },
+                      {
+                          "Text":  "CAZ (August - May)",
+                          "X":  944,
+                          "Y":  1277
+                      },
+                      {
+                          "Text":  "Reclassification",
+                          "X":  906,
+                          "Y":  1381
+                      },
+                      {
+                          "Text":  "Dry-wet NDVI",
+                          "X":  1110,
+                          "Y":  1402
+                      },
+                      {
+                          "Text":  "Dry N DVI",
+                          "X":  944,
+                          "Y":  1421
+                      },
+                      {
+                          "Text":  "difference",
+                          "X":  1135,
+                          "Y":  1436
+                      },
+                      {
+                          "Text":  "（ 100 ， 200 ， 300 ）",
+                          "X":  918,
+                          "Y":  1456
+                      },
+                      {
+                          "Text":  "（ 10 ， 20 ， 30 ）",
+                          "X":  1130,
+                          "Y":  1472
+                      },
+                      {
+                          "Text":  "！ CV NDVI",
+                          "X":  1298,
+                          "Y":  1229
+                      },
+                      {
+                          "Text":  "interanual",
+                          "X":  1299,
+                          "Y":  1261
+                      },
+                      {
+                          "Text":  "CV NDVI",
+                          "X":  1321,
+                          "Y":  1402
+                      },
+                      {
+                          "Text":  "interannual",
+                          "X":  1310,
+                          "Y":  1437
+                      },
+                      {
+                          "Text":  "〈 1 ， 2 ， 3 ）",
+                          "X":  1336,
+                          "Y":  1472
+                      },
+                      {
+                          "Text":  "SPEI",
+                          "X":  1500,
+                          "Y":  959
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1504,
+                          "Y":  1306
+                      },
+                      {
+                          "Text":  "0 ·",
+                          "X":  1504,
+                          "Y":  1321
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1504,
+                          "Y":  1382
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1504,
+                          "Y":  1432
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1577,
+                          "Y":  1331
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1577,
+                          "Y":  1438
+                      },
+                      {
+                          "Text":  "FAME",
+                          "X":  1621,
+                          "Y":  959
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1668,
+                          "Y":  1207
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1668,
+                          "Y":  1269
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1668,
+                          "Y":  1290
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1668,
+                          "Y":  1333
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1668,
+                          "Y":  1377
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1668,
+                          "Y":  1476
+                      },
+                      {
+                          "Text":  "Springs",
+                          "X":  1740,
+                          "Y":  959
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1761,
+                          "Y":  1303
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1761,
+                          "Y":  1364
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1761,
+                          "Y":  1386
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1761,
+                          "Y":  1429
+                      },
+                      {
+                          "Text":  "0",
+                          "X":  1756,
+                          "Y":  1473
+                      },
+                      {
+                          "Text":  "64 classes for alpine zone",
+                          "X":  458,
+                          "Y":  1564
+                      },
+                      {
+                          "Text":  "Hlerarchical",
+                          "X":  442,
+                          "Y":  1610
+                      },
+                      {
+                          "Text":  "Springs analysis",
+                          "X":  514,
+                          "Y":  1765
+                      },
+                      {
+                          "Text":  "64 classes for sloping and carbonate zone",
+                          "X":  935,
+                          "Y":  1568
+                      },
+                      {
+                          "Text":  "Hierarchical clustering",
+                          "X":  1136,
+                          "Y":  1612
+                      },
+                      {
+                          "Text":  "3 potencial G DV",
+                          "X":  803,
+                          "Y":  1660
+                      },
+                      {
+                          "Text":  "Hygrophilous vegetation analysis",
+                          "X":  993,
+                          "Y":  1763
+                      },
+                      {
+                          "Text":  "Fig. 2 · Workflow fO 「 generating the pGDV dataset through a multi-step approach integrating remote sensing time series,",
+                          "X":  172,
+                          "Y":  1898
+                      },
+                      {
+                          "Text":  "ecohydrological metrics, and aquifer mapping.",
+                          "X":  172,
+                          "Y":  1939
+                      },
+                      {
+                          "Text":  "tured in five main phases:",
+                          "X":  172,
+                          "Y":  2039
+                      },
+                      {
+                          "Text":  "1 · Data acquisition: SentineI-2 Leve 1 2A i m age ry from January 2019 tO December 2023 wa s",
+                          "X":  241,
+                          "Y":  2120
+                      },
+                      {
+                          "Text":  "obtained from the Copernicus Open Access Hub. A tota I of 2 537 images covering the",
+                          "X":  285,
+                          "Y":  2168
+                      },
+                      {
+                          "Text":  "Sierra Nevada Protected Are a were used. CIoud and snow masl\u003cing were applied using",
+                          "X":  286,
+                          "Y":  2218
+                      },
+                      {
+                          "Text":  "SentineI-2 QA bands (MSK_CLDPRB, MSK_SNWPRB), excluding pixels with \u003e 10 ％ cloud",
+                          "X":  286,
+                          "Y":  2267
+                      },
+                      {
+                          "Text":  "probability and \u003e 1 ％ snow probability. A minimum NDVI threshold of 0 · 1 wa s used t0",
+                          "X":  286,
+                          "Y":  2316
+                      },
+                      {
+                          "Text":  "masl\u003c non-vegetated areas ， validated using high-resolution orthophotos (PNOA).",
+                          "X":  286,
+                          "Y":  2366
+                      },
+                      {
+                          "Text":  "2 · CaIculation Of NDVI-based ecohydrological attributes: Monthly NDVI wa s calculated using",
+                          "X":  236,
+                          "Y":  2417
+                      },
+                      {
+                          "Text":  "SentineI-2 bands B4 (red) and B8 (NIR). Three attributes we re derived: Dry-season NDVI",
+                          "X":  286,
+                          "Y":  2465
+                      },
+                      {
+                          "Text":  "（ N DVI in August), Dry-wet N DVI difference (May/June vs August, altitudinally adjusted),",
+                          "X":  285,
+                          "Y":  2514
+                      },
+                      {
+                          "Text":  "and lnterannual NDVI coeficient 0f variation （ CV from 2019 一 2023 ）",
+                          "X":  285,
+                          "Y":  2564
+                      },
+                      {
+                          "Text":  "3 · CIassification int0 ecohydrological classes and pGDV levels: F0110wing th e functional clas-",
+                          "X":  235,
+                          "Y":  2615
+                      },
+                      {
+                          "Text":  "sification approach proposed by [ 12L each NDVI-derived ecohydrological attribute wa s di-",
+                          "X":  286,
+                          "Y":  2663
+                      },
+                      {
+                          "Text":  "vided intO four quartile-based categories, representing gradients Of ecosystem functioning.",
+                          "X":  285,
+                          "Y":  2712
+                      },
+                      {
+                          "Text":  "TO facilitate class labeling and subsequent interpretation, numerical codes we re assigned",
+                          "X":  284,
+                          "Y":  2764
+                      },
+                      {
+                          "Text":  "tO each category (e.g., 100 一 400 for dry-season NDVI, 10 一 40 for dry-wet N DVI difference,",
+                          "X":  286,
+                          "Y":  2816
+                      }
+                  ]
+    },
+    {
+        "Page":  6,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\sierra_review\\page_6.png",
+        "Text":  "6\nJ. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60\nand 1 一 4 for interannual N DVI (V). The combination Of the three attributes resulted in\n64 unique ecohydrological classes, each reflecting a distinct functional profile potentially\nlinked tO groundwater availability. FO r each class, summary statistics (mean, SD, min, max)\nwe re calculated and used as input for hierarchical clustering (Euclidean distance, com-\nplete linkage). Th e resulting dendrogram wa s pruned t0 define three levels 0f potential\ngroundwater dependence: pGDV1 00w ） ， pGDV2 (moderate), and pGDV3 (high). Separate\nclustering wa s applied tO low-elevation （ SA 乙 CAZ ） and high-elevation （ AAZ ） zones.\n4 · Spatial analysis and mapping: Raster I aye 巧 we re generated at 10 m spatial resolution for\nboth the 64 ecohydrological classes and the three-level pGDV classification. A CSV file wa s\nalso produced containing descriptive statistics for each class. AII layers use the ETRS 89 /\nUTM Zone 30N coordinate system (EPSG: 25830 ） ·\n5 · TOOIS and software used: NDVI processing and filtering were performed in Google Earth\nEngine. Statistical and clustering analyses we re conducted in R （ v4 · 2 · 3 ） ， using the pacl\u003c-\nages: raster, sp, terra, rgdal, cluster, factoextra, FactoMineR, NbClust, and ggplot2. Spatial vi-\nsualization and map export were done in QGIS Desktop 3 · 28 · 4 ·\n6 · PartiaI validation Of the pGDV classification: TO assess the ability Of the pGDV map tO de-\ntect known groundwater-dependent vegetation, a partial validation wa S conducted using\ntWO spatial indicators: i) Springs georeferenced across S eve n rive r catchments (Nechite,\nMecina, Bérchules, Alhorf, Bernal, Ohanes), compiled from published sources [\n] and\n13 14\nfield data; and (i) Occurrence records 0f hygrophilous plant species, selected based on ex-\npert classifications [\n] from th e Sierra Nevada Endangered FIora Database (FAME), an Of-\nficial database managed by the Andalusian EnvironmentaI lnformation Ne tWO rl\u003c (REDIAM)\nthat compiles validated records Of threatened plant species across the region [\n7 · Spatial intersections between these indicators and the pGDV map we re used tO compute\nProducer ， S Accuracy, focusing on omission e 「 ro rs (i.e., known groundwater-dependent IO-\ncations not classified as pGDV3). Th e analysis considered only presence data, as absence\nrecords we re not reliable for validation purposes. Records with imprecise georeferencing\nwe re excluded. A chi-square （ 天 2 ） test wa S used tO evaluate whether the spatial association\nbetween indicators and pGDV3 class wa S statistically significant. Analyses were conducted\nseparately by hydrological zone （ AA 乙 SA 乙 CAZ).\nLimitations\nS eve ra I limitations should be considered when using this dataset. First, the N DVI time series\nused t0 derive ecohydrological attributes are based on Sentinel-2 imagery with a 10 m spatial\nresolution, which m ay not fully capture narrow rlparian corridors or small groundwater dis-\nch a rge areas. Cloud and snow filtering, although applied systematically, may lead t0 data gaps\nin high-elevation zones ， especially during winter months.\nTh e NDVI threshold of 0 · 1 used t0 masl\u003c non-vegetated areas may exclude low-biomass\necosystems with some degree Of groundwater dependence, such as sparsely vegetated wetlands\nor early-successional habitats. Th e classification intO pGDV levels is based on remotely sensed\nproxies, which, although validated using spatial indicators (springs and hygrophilous species),\ndO not directly measure groundwater use.\nVegetation typologies we re derived from a reclassification Of an existing regional map\n(VEGEIO), which, although detailed, may contain classification uncertainties at ecotones or\nmixed land cover types. Finally, the validation wa s based on presence-only data, which limits\nthe ability tO assess overall classification accuracy.\nDespite these limitations, the dataset provides a consistent and reproducible framework fO 「\nidentifying and comparing groundwater-dependent vegetation in semi-arid mountain environ-\nments.",
+        "Lines":  [
+                      {
+                          "Text":  "6",
+                          "X":  123,
+                          "Y":  99
+                      },
+                      {
+                          "Text":  "J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60",
+                          "X":  365,
+                          "Y":  99
+                      },
+                      {
+                          "Text":  "and 1 一 4 for interannual N DVI (V). The combination Of the three attributes resulted in",
+                          "X":  236,
+                          "Y":  187
+                      },
+                      {
+                          "Text":  "64 unique ecohydrological classes, each reflecting a distinct functional profile potentially",
+                          "X":  236,
+                          "Y":  238
+                      },
+                      {
+                          "Text":  "linked tO groundwater availability. FO r each class, summary statistics (mean, SD, min, max)",
+                          "X":  237,
+                          "Y":  286
+                      },
+                      {
+                          "Text":  "we re calculated and used as input for hierarchical clustering (Euclidean distance, com-",
+                          "X":  236,
+                          "Y":  344
+                      },
+                      {
+                          "Text":  "plete linkage). Th e resulting dendrogram wa s pruned t0 define three levels 0f potential",
+                          "X":  237,
+                          "Y":  385
+                      },
+                      {
+                          "Text":  "groundwater dependence: pGDV1 00w ） ， pGDV2 (moderate), and pGDV3 (high). Separate",
+                          "X":  236,
+                          "Y":  434
+                      },
+                      {
+                          "Text":  "clustering wa s applied tO low-elevation （ SA 乙 CAZ ） and high-elevation （ AAZ ） zones.",
+                          "X":  236,
+                          "Y":  484
+                      },
+                      {
+                          "Text":  "4 · Spatial analysis and mapping: Raster I aye 巧 we re generated at 10 m spatial resolution for",
+                          "X":  186,
+                          "Y":  535
+                      },
+                      {
+                          "Text":  "both the 64 ecohydrological classes and the three-level pGDV classification. A CSV file wa s",
+                          "X":  236,
+                          "Y":  583
+                      },
+                      {
+                          "Text":  "also produced containing descriptive statistics for each class. AII layers use the ETRS 89 /",
+                          "X":  236,
+                          "Y":  632
+                      },
+                      {
+                          "Text":  "UTM Zone 30N coordinate system (EPSG: 25830 ） ·",
+                          "X":  236,
+                          "Y":  683
+                      },
+                      {
+                          "Text":  "5 · TOOIS and software used: NDVI processing and filtering were performed in Google Earth",
+                          "X":  187,
+                          "Y":  733
+                      },
+                      {
+                          "Text":  "Engine. Statistical and clustering analyses we re conducted in R （ v4 · 2 · 3 ） ， using the pacl\u003c-",
+                          "X":  237,
+                          "Y":  781
+                      },
+                      {
+                          "Text":  "ages: raster, sp, terra, rgdal, cluster, factoextra, FactoMineR, NbClust, and ggplot2. Spatial vi-",
+                          "X":  236,
+                          "Y":  839
+                      },
+                      {
+                          "Text":  "sualization and map export were done in QGIS Desktop 3 · 28 · 4 ·",
+                          "X":  237,
+                          "Y":  880
+                      },
+                      {
+                          "Text":  "6 · PartiaI validation Of the pGDV classification: TO assess the ability Of the pGDV map tO de-",
+                          "X":  187,
+                          "Y":  931
+                      },
+                      {
+                          "Text":  "tect known groundwater-dependent vegetation, a partial validation wa S conducted using",
+                          "X":  236,
+                          "Y":  983
+                      },
+                      {
+                          "Text":  "tWO spatial indicators: i) Springs georeferenced across S eve n rive r catchments (Nechite,",
+                          "X":  236,
+                          "Y":  1033
+                      },
+                      {
+                          "Text":  "Mecina, Bérchules, Alhorf, Bernal, Ohanes), compiled from published sources [",
+                          "X":  237,
+                          "Y":  1078
+                      },
+                      {
+                          "Text":  "] and",
+                          "X":  1744,
+                          "Y":  1077
+                      },
+                      {
+                          "Text":  "13 14",
+                          "X":  1651,
+                          "Y":  1079
+                      },
+                      {
+                          "Text":  "field data; and (i) Occurrence records 0f hygrophilous plant species, selected based on ex-",
+                          "X":  237,
+                          "Y":  1127
+                      },
+                      {
+                          "Text":  "pert classifications [",
+                          "X":  237,
+                          "Y":  1181
+                      },
+                      {
+                          "Text":  "] from th e Sierra Nevada Endangered FIora Database (FAME), an Of-",
+                          "X":  636,
+                          "Y":  1176
+                      },
+                      {
+                          "Text":  "ficial database managed by the Andalusian EnvironmentaI lnformation Ne tWO rl\u003c (REDIAM)",
+                          "X":  237,
+                          "Y":  1226
+                      },
+                      {
+                          "Text":  "that compiles validated records Of threatened plant species across the region [",
+                          "X":  236,
+                          "Y":  1276
+                      },
+                      {
+                          "Text":  "7 · Spatial intersections between these indicators and the pGDV map we re used tO compute",
+                          "X":  191,
+                          "Y":  1327
+                      },
+                      {
+                          "Text":  "Producer ， S Accuracy, focusing on omission e 「 ro rs (i.e., known groundwater-dependent IO-",
+                          "X":  237,
+                          "Y":  1375
+                      },
+                      {
+                          "Text":  "cations not classified as pGDV3). Th e analysis considered only presence data, as absence",
+                          "X":  236,
+                          "Y":  1425
+                      },
+                      {
+                          "Text":  "records we re not reliable for validation purposes. Records with imprecise georeferencing",
+                          "X":  237,
+                          "Y":  1474
+                      },
+                      {
+                          "Text":  "we re excluded. A chi-square （ 天 2 ） test wa S used tO evaluate whether the spatial association",
+                          "X":  236,
+                          "Y":  1532
+                      },
+                      {
+                          "Text":  "between indicators and pGDV3 class wa S statistically significant. Analyses were conducted",
+                          "X":  236,
+                          "Y":  1573
+                      },
+                      {
+                          "Text":  "separately by hydrological zone （ AA 乙 SA 乙 CAZ).",
+                          "X":  237,
+                          "Y":  1622
+                      },
+                      {
+                          "Text":  "Limitations",
+                          "X":  123,
+                          "Y":  1777
+                      },
+                      {
+                          "Text":  "S eve ra I limitations should be considered when using this dataset. First, the N DVI time series",
+                          "X":  180,
+                          "Y":  1883
+                      },
+                      {
+                          "Text":  "used t0 derive ecohydrological attributes are based on Sentinel-2 imagery with a 10 m spatial",
+                          "X":  124,
+                          "Y":  1931
+                      },
+                      {
+                          "Text":  "resolution, which m ay not fully capture narrow rlparian corridors or small groundwater dis-",
+                          "X":  124,
+                          "Y":  1980
+                      },
+                      {
+                          "Text":  "ch a rge areas. Cloud and snow filtering, although applied systematically, may lead t0 data gaps",
+                          "X":  123,
+                          "Y":  2030
+                      },
+                      {
+                          "Text":  "in high-elevation zones ， especially during winter months.",
+                          "X":  124,
+                          "Y":  2080
+                      },
+                      {
+                          "Text":  "Th e NDVI threshold of 0 · 1 used t0 masl\u003c non-vegetated areas may exclude low-biomass",
+                          "X":  178,
+                          "Y":  2129
+                      },
+                      {
+                          "Text":  "ecosystems with some degree Of groundwater dependence, such as sparsely vegetated wetlands",
+                          "X":  123,
+                          "Y":  2183
+                      },
+                      {
+                          "Text":  "or early-successional habitats. Th e classification intO pGDV levels is based on remotely sensed",
+                          "X":  123,
+                          "Y":  2237
+                      },
+                      {
+                          "Text":  "proxies, which, although validated using spatial indicators (springs and hygrophilous species),",
+                          "X":  124,
+                          "Y":  2278
+                      },
+                      {
+                          "Text":  "dO not directly measure groundwater use.",
+                          "X":  123,
+                          "Y":  2327
+                      },
+                      {
+                          "Text":  "Vegetation typologies we re derived from a reclassification Of an existing regional map",
+                          "X":  178,
+                          "Y":  2377
+                      },
+                      {
+                          "Text":  "(VEGEIO), which, although detailed, may contain classification uncertainties at ecotones or",
+                          "X":  123,
+                          "Y":  2426
+                      },
+                      {
+                          "Text":  "mixed land cover types. Finally, the validation wa s based on presence-only data, which limits",
+                          "X":  124,
+                          "Y":  2475
+                      },
+                      {
+                          "Text":  "the ability tO assess overall classification accuracy.",
+                          "X":  123,
+                          "Y":  2525
+                      },
+                      {
+                          "Text":  "Despite these limitations, the dataset provides a consistent and reproducible framework fO 「",
+                          "X":  180,
+                          "Y":  2575
+                      },
+                      {
+                          "Text":  "identifying and comparing groundwater-dependent vegetation in semi-arid mountain environ-",
+                          "X":  124,
+                          "Y":  2624
+                      },
+                      {
+                          "Text":  "ments.",
+                          "X":  124,
+                          "Y":  2678
+                      }
+                  ]
+    },
+    {
+        "Page":  7,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\sierra_review\\page_7.png",
+        "Text":  "J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 / Data Brief 61 （ 2025 丿 717 / 60\nEthics Statement\n7\nTh e authors confirm that they have read and follow the ethical requirements for publication\nin Data in Brief. The current 叭 ℃ rk does not i nvo lve human subjects, animal experiments, or any\ndata collected from social media platforms.\nCRediT Author Statement\nJavier Cabello: conceptualization, methodology design, formal analysis, investigation, writing\n- reviwing and editing, and funding. Montserrat Escudero-CIares: methodology, software, data\ncuration, formal analysis, revi ewi ng and editing. SergiO Martos-Rosillo: conceptualization, lnves-\ntigation, writing 一 reviewing and editing. J. Jesüs Casas: conceptualization, investigation, funding,\nrevlewing and editing. Juanma Cintas: software, data curation, revi ew and editing. Thomas Za-\nkaluk: investigation, reviewing and editing. Marfa J. Salinas-Bonillo: conceptualization, formal\nanalysis, investigation, funding, writing and reviewing\nData AvaiIabiIity\nMap Of potential groundwater-dependent vegetation in the Sierra Nevada Protected Area\n(Southern Spain) based on NDVI-derived ecohydrological attributes (Original data) (ZEN-\n0D0 ） ·\nAcknowledgments\nThis study wa s supported by the project \"Nature-Based Solutions for resilient management\nOf the hydrological cycl e in mountain areas: the traditional wate r management systems Of Sierra\nNevada (NBS4Water)\" （ 2768 / 2021 〗 funded by the Organismo Aut6nomo Parques Nacionales\n(OAPN). Additional support wa s provided by the \"PIan Complementario de I+D+i en Biodiver-\nsidad (PCBIO)\" through the Recovery PIan 一 NextGenerationEU, the Spanish Ministry Of Science,\nand the Regional Government Of Andalusia （ PID2022 一 1400920B 一 100 ， MCIN/AEI/FEDER, (E), and\nby the INDALO Project, co-funded by ERDF and the Regional Government Of Andalusia in collab-\noration with LifeWatch ERIC. AdditionaI funding wa s WaSHa proyect, funded by Fundaci6n BiO-\ndiversidad Of the Ministerio para la Transici6n Ec016gica Y el Re tO Demogräfico (Spain), through\nthe call for projects that contribute tO the implementation Of the NationaI Plan for Adaptation tO\nClimate Change （ 2021 一 2030 ） ； and the project \"lmpact, monitoring and assessment Of glObal and\nclimate change on wate r resources in high-mountain NationaI Pa rl\u003c s (CCPM)\" （ SPIP2021 一 02741 ，\nOAPN).\nDeclaration Of Competing lnterest\nTh e authors declare that they have no known competing financial interests or personal rela-\ntionships that could have appeared t0 influence the WO rl\u003c reported in this paper.\nReferences\n卩 ] CabeIIo, J. ， Escudero-CIares, M., Martos-RosiIIo, S., Casas, J. J., Cintas, J., ZakaIuk, T., \u0026 SaIinas-BoniIIo, M. J. (under re-\nview). Groundwater-dependent vegetation in semi-arid Mediterranean mountains.• The hidden role 可 hard-rock aquifers.\nManuscript under review in JournaI Of HydI ℃ logy.",
+        "Lines":  [
+                      {
+                          "Text":  "J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 / Data Brief 61 （ 2025 丿 717 / 60",
+                          "X":  414,
+                          "Y":  99
+                      },
+                      {
+                          "Text":  "Ethics Statement",
+                          "X":  172,
+                          "Y":  186
+                      },
+                      {
+                          "Text":  "7",
+                          "X":  1868,
+                          "Y":  99
+                      },
+                      {
+                          "Text":  "Th e authors confirm that they have read and follow the ethical requirements for publication",
+                          "X":  227,
+                          "Y":  290
+                      },
+                      {
+                          "Text":  "in Data in Brief. The current 叭 ℃ rk does not i nvo lve human subjects, animal experiments, or any",
+                          "X":  173,
+                          "Y":  341
+                      },
+                      {
+                          "Text":  "data collected from social media platforms.",
+                          "X":  172,
+                          "Y":  389
+                      },
+                      {
+                          "Text":  "CRediT Author Statement",
+                          "X":  172,
+                          "Y":  549
+                      },
+                      {
+                          "Text":  "Javier Cabello: conceptualization, methodology design, formal analysis, investigation, writing",
+                          "X":  224,
+                          "Y":  653
+                      },
+                      {
+                          "Text":  "- reviwing and editing, and funding. Montserrat Escudero-CIares: methodology, software, data",
+                          "X":  172,
+                          "Y":  720
+                      },
+                      {
+                          "Text":  "curation, formal analysis, revi ewi ng and editing. SergiO Martos-Rosillo: conceptualization, lnves-",
+                          "X":  172,
+                          "Y":  752
+                      },
+                      {
+                          "Text":  "tigation, writing 一 reviewing and editing. J. Jesüs Casas: conceptualization, investigation, funding,",
+                          "X":  172,
+                          "Y":  802
+                      },
+                      {
+                          "Text":  "revlewing and editing. Juanma Cintas: software, data curation, revi ew and editing. Thomas Za-",
+                          "X":  173,
+                          "Y":  851
+                      },
+                      {
+                          "Text":  "kaluk: investigation, reviewing and editing. Marfa J. Salinas-Bonillo: conceptualization, formal",
+                          "X":  173,
+                          "Y":  900
+                      },
+                      {
+                          "Text":  "analysis, investigation, funding, writing and reviewing",
+                          "X":  172,
+                          "Y":  950
+                      },
+                      {
+                          "Text":  "Data AvaiIabiIity",
+                          "X":  172,
+                          "Y":  1100
+                      },
+                      {
+                          "Text":  "Map Of potential groundwater-dependent vegetation in the Sierra Nevada Protected Area",
+                          "X":  229,
+                          "Y":  1204
+                      },
+                      {
+                          "Text":  "(Southern Spain) based on NDVI-derived ecohydrological attributes (Original data) (ZEN-",
+                          "X":  285,
+                          "Y":  1252
+                      },
+                      {
+                          "Text":  "0D0 ） ·",
+                          "X":  286,
+                          "Y":  1303
+                      },
+                      {
+                          "Text":  "Acknowledgments",
+                          "X":  171,
+                          "Y":  1516
+                      },
+                      {
+                          "Text":  "This study wa s supported by the project \"Nature-Based Solutions for resilient management",
+                          "X":  227,
+                          "Y":  1620
+                      },
+                      {
+                          "Text":  "Of the hydrological cycl e in mountain areas: the traditional wate r management systems Of Sierra",
+                          "X":  172,
+                          "Y":  1669
+                      },
+                      {
+                          "Text":  "Nevada (NBS4Water)\" （ 2768 / 2021 〗 funded by the Organismo Aut6nomo Parques Nacionales",
+                          "X":  173,
+                          "Y":  1719
+                      },
+                      {
+                          "Text":  "(OAPN). Additional support wa s provided by the \"PIan Complementario de I+D+i en Biodiver-",
+                          "X":  172,
+                          "Y":  1768
+                      },
+                      {
+                          "Text":  "sidad (PCBIO)\" through the Recovery PIan 一 NextGenerationEU, the Spanish Ministry Of Science,",
+                          "X":  173,
+                          "Y":  1818
+                      },
+                      {
+                          "Text":  "and the Regional Government Of Andalusia （ PID2022 一 1400920B 一 100 ， MCIN/AEI/FEDER, (E), and",
+                          "X":  172,
+                          "Y":  1867
+                      },
+                      {
+                          "Text":  "by the INDALO Project, co-funded by ERDF and the Regional Government Of Andalusia in collab-",
+                          "X":  172,
+                          "Y":  1917
+                      },
+                      {
+                          "Text":  "oration with LifeWatch ERIC. AdditionaI funding wa s WaSHa proyect, funded by Fundaci6n BiO-",
+                          "X":  172,
+                          "Y":  1967
+                      },
+                      {
+                          "Text":  "diversidad Of the Ministerio para la Transici6n Ec016gica Y el Re tO Demogräfico (Spain), through",
+                          "X":  172,
+                          "Y":  2016
+                      },
+                      {
+                          "Text":  "the call for projects that contribute tO the implementation Of the NationaI Plan for Adaptation tO",
+                          "X":  172,
+                          "Y":  2065
+                      },
+                      {
+                          "Text":  "Climate Change （ 2021 一 2030 ） ； and the project \"lmpact, monitoring and assessment Of glObal and",
+                          "X":  172,
+                          "Y":  2115
+                      },
+                      {
+                          "Text":  "climate change on wate r resources in high-mountain NationaI Pa rl\u003c s (CCPM)\" （ SPIP2021 一 02741 ，",
+                          "X":  172,
+                          "Y":  2164
+                      },
+                      {
+                          "Text":  "OAPN).",
+                          "X":  172,
+                          "Y":  2214
+                      },
+                      {
+                          "Text":  "Declaration Of Competing lnterest",
+                          "X":  172,
+                          "Y":  2374
+                      },
+                      {
+                          "Text":  "Th e authors declare that they have no known competing financial interests or personal rela-",
+                          "X":  227,
+                          "Y":  2477
+                      },
+                      {
+                          "Text":  "tionships that could have appeared t0 influence the WO rl\u003c reported in this paper.",
+                          "X":  172,
+                          "Y":  2527
+                      },
+                      {
+                          "Text":  "References",
+                          "X":  172,
+                          "Y":  2661
+                      },
+                      {
+                          "Text":  "卩 ] CabeIIo, J. ， Escudero-CIares, M., Martos-RosiIIo, S., Casas, J. J., Cintas, J., ZakaIuk, T., \u0026 SaIinas-BoniIIo, M. J. (under re-",
+                          "X":  189,
+                          "Y":  2742
+                      },
+                      {
+                          "Text":  "view). Groundwater-dependent vegetation in semi-arid Mediterranean mountains.• The hidden role 可 hard-rock aquifers.",
+                          "X":  243,
+                          "Y":  2780
+                      },
+                      {
+                          "Text":  "Manuscript under review in JournaI Of HydI ℃ logy.",
+                          "X":  244,
+                          "Y":  2818
+                      }
+                  ]
+    },
+    {
+        "Page":  8,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\sierra_review\\page_8.png",
+        "Text":  "8\nJ. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60\n[ 2 ] D. Eamus, R. Froend, R. Loomes, G. Hose, B. Murray, A functional methodology fO 「 determining the gro undwa-\nter regime needed tO maintain the health Of gr ℃ undwater-dependent vegetatio n, AustraI. J. Bot. 54 （ 2006 ） 97 一 114 ，\ndoi ： 10 ， 1071 / BT0503L\n卩 ] I.C. Pérez Hoyos, N.Y. Krakauer, R. l\u003chanbilvardi R.A. Armstrong, A review Of advances in the identification and\ncharacterization Of groundwater dependent ecosystems using geospatial technologies, Geosciences 6 （ 2 ） （ 2016 ） 17 ，\ndoi: 103390 / geosciences6020017 ·\n[ 4 ] L. El-Hokayem, P. De Vita, C. Conrad, LocaI identification Of groundwater dependent vegetation using high-resolution\nSentineI-2 data 一 a Mediterranean case study, ECOI. lndicat. 146 （ 2023 ） 109784 ， doi: 10 ． 1016 / J ． ecolind ． 2022 ． 109784 ．\n[ 5 ] M. Hayashi, Alpine hydrogeology: the critical role Of groundwater in sourcing the headwaters Of the world, Ground-\nwater 58 （ 4 ） （ 2020 ） 498 一 510 ， doi ： 10 ， 1111 / gwat ， 12965 ，\n[ 6 ] A. Rodhe, N. Bockgård, Groundwater recharge in a hard rock aquifer: a conceptual model including surface-loading\neffects, J. HydroI. 330 （ 3 一 4 ） （ 2006 ） 389 一 401 ， doi ： 10 · 1016 / j.jhydrol.2006 ． 03 ． 032 ．\n[ 7 ] M.M. Rohde, C.M. Albano, X. Huggins, K.R. l\u003clausmeyer, C. Morton, A. Sharman, E. Zaveri, L. Saito, 乙 Freed,\nJ.K. Howard, N. JOb, H. Richter, K. Toderich, A.-S. Rodella, T. GIeeson, J. Huntington, H.A. Chandanpurkar, A.J. Purdy,\nJ.S. Famiglietti, M.B. Singer, D.A. Roberts, K. CayI or, J ℃ ． SteIIa, Groundwater-dependent ecosystem map exposes\nglobal dryland protecti on needs, Nature 632 （ 2024 ） 101 一 107 ， doi: 10 ． 1038 / S41586 一 024 一 07702 一 8 ．\n[ 8 ] 0 ， Barron, I. EmeIyanova, T. Van Niel, D. Pollock, G. Hodgson, Mapping groundwater-dependent ecosystems using\nremote sensing measures Of vegetati on and moisture dynamics, Hydrol. Process. 28 （ 2014 ） 372 一 385 ， doi ： 10 ． 1002 /\nhyp · 9609 ·\n[ 9 ] D. Eamus, S. ZoIfaghar, R. Villalobos-Vega, J. CIeverIy, A. Huete, Groundwater-dependent ecosystems: rece nt insights\nfrom satellite and field-based studies, HydroI. Earth Syst. Sci. 19 （ 2015 ） 4229 一 4256 ， doi: 10 ， 5194 / hess 一 19 一 4229 一 2015 ·\n[ 10 ] S. Gou, S. GonzaIes, G.R. Miller, Mapping potential groundwater-dependent ecosystems for sustainable management,\nGroundwater 53 （ 1 ） （ 2015 ） 99 一 110 ， doi ： 10 ． 1111 / gwat ． 12169 ·\n[ 11 ] J. Cabello, M. Escudero-CIares, M.J. SaIinas-BoniIIo, J. Cintas, JJ. Casas, S. Martos-RosiIIo, Map Of potential\ngroundwater-dependent vegetation in the Sierra Nevada Protected Area (Southern Spain) based on NDVI-derived\necohydrological attributes [Data set], Zenodo （ 2024 ） ， dOi ： 10 ． 5281 / zenodo ． 15315192 ·\n卩 2 ] B.P. CazorIa, J. Cabello, A. Reyes, E. Guirado, J. Pefias, A.J. Pérez-Luque, D. AIcaraz-Segura, A d ataset on ecosystem\nfunctional diversity in Sierra Nevada ()E Spain) derived from Earth observation data, Earth Syst. Sci. Data 15 （ 4 ）\n（ 2023 ） 1749 一 1772 ， doi: 10 ． 5194 / essd 一 15 一 1749 一 2023 ．\n卩 3 ] S. Martos-RosiIIo, A. Ruiz-Constån, A. GonzåIez-Ram6n, R. MediaviIIa, J.M. Martfn-Civantos, F.J. Martfnez-Moreno,\nJ. J6dar, C. Marfn-Lechado, A. MediaIdea, J. Galind0-ZaIdfvar, A. Pedrera, J.J. Durån, The oldest managed aquifer\nrecharge system in Europe: New insights from the Espino recharge channel (Sierra Nevada, southern Spain), J. Hy-\ndrol. 578 （ 2019 ） 124047 ， doi ： 10 ． 1016 / j.jhydrol.2019 ． 124047 ．\n卩 4 ] T. ZakaIuk, J. J6dar, A. GonzåIez-Ram6n, J.M. Martfn-Civantos, L.J. Lambån, S. Martos-RosiIIo, Ancestral managed\naquifer recharge systems and their impacts on the flOW regime Of a semi-arid alpine basin (Sierra Nevada, Spain),\nJ. HydroI. 54 （ 2024 ） 101870 ， doi: 10 · 1016 / j ． ejrh · 2024 ． 101870 ．\n卩 5 ] Juan LO ri te, CarIos SaIazar, And rea Ros-Candeira, D. AIcaraz-Segura, A trait database Of the vascular flora Of Sierra\nNevada ()E Spain), PANGAEA （ 2020 ） ， doi ： 10 ． 1594 / PANGAEA ， 917883 ．\n[ 16 ] Mateos, M.A., GiI, Y., Lagu na, D., ViIches, J., Sänchez, A., Giménez de Azcårate, F., Rodrfguez, C. ， Cäceres, F. y Moreira,\nJ.M. （ 2010 ） ： FAM E. ApIicaci6n Web de apoyo al seguimiento, localizaci6n e integraci6n de la informaci6n sobre\nflora amenazada Y de interés generada en AndaIucfa. En: Ojeda, J., Pita, M.F. y Vallejo, I. (Eds.), Tecnologfas de la\nlnformaci6n Geogråfica: La lnformaci6n Geogråfica al servicio de IOS ciudadanos. Secretariado de Publicaciones de\nla Universidad de SeviIIa. SeviIIa. Pp. 222 一 229 ． ISBN: 978 一 84 一 472 一 1294 一 1",
+        "Lines":  [
+                      {
+                          "Text":  "8",
+                          "X":  123,
+                          "Y":  99
+                      },
+                      {
+                          "Text":  "J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60",
+                          "X":  365,
+                          "Y":  99
+                      },
+                      {
+                          "Text":  "[ 2 ] D. Eamus, R. Froend, R. Loomes, G. Hose, B. Murray, A functional methodology fO 「 determining the gro undwa-",
+                          "X":  140,
+                          "Y":  192
+                      },
+                      {
+                          "Text":  "ter regime needed tO maintain the health Of gr ℃ undwater-dependent vegetatio n, AustraI. J. Bot. 54 （ 2006 ） 97 一 114 ，",
+                          "X":  194,
+                          "Y":  234
+                      },
+                      {
+                          "Text":  "doi ： 10 ， 1071 / BT0503L",
+                          "X":  194,
+                          "Y":  268
+                      },
+                      {
+                          "Text":  "卩 ] I.C. Pérez Hoyos, N.Y. Krakauer, R. l\u003chanbilvardi R.A. Armstrong, A review Of advances in the identification and",
+                          "X":  140,
+                          "Y":  305
+                      },
+                      {
+                          "Text":  "characterization Of groundwater dependent ecosystems using geospatial technologies, Geosciences 6 （ 2 ） （ 2016 ） 17 ，",
+                          "X":  194,
+                          "Y":  343
+                      },
+                      {
+                          "Text":  "doi: 103390 / geosciences6020017 ·",
+                          "X":  194,
+                          "Y":  381
+                      },
+                      {
+                          "Text":  "[ 4 ] L. El-Hokayem, P. De Vita, C. Conrad, LocaI identification Of groundwater dependent vegetation using high-resolution",
+                          "X":  140,
+                          "Y":  419
+                      },
+                      {
+                          "Text":  "SentineI-2 data 一 a Mediterranean case study, ECOI. lndicat. 146 （ 2023 ） 109784 ， doi: 10 ． 1016 / J ． ecolind ． 2022 ． 109784 ．",
+                          "X":  195,
+                          "Y":  457
+                      },
+                      {
+                          "Text":  "[ 5 ] M. Hayashi, Alpine hydrogeology: the critical role Of groundwater in sourcing the headwaters Of the world, Ground-",
+                          "X":  140,
+                          "Y":  494
+                      },
+                      {
+                          "Text":  "water 58 （ 4 ） （ 2020 ） 498 一 510 ， doi ： 10 ， 1111 / gwat ， 12965 ，",
+                          "X":  194,
+                          "Y":  536
+                      },
+                      {
+                          "Text":  "[ 6 ] A. Rodhe, N. Bockgård, Groundwater recharge in a hard rock aquifer: a conceptual model including surface-loading",
+                          "X":  140,
+                          "Y":  569
+                      },
+                      {
+                          "Text":  "effects, J. HydroI. 330 （ 3 一 4 ） （ 2006 ） 389 一 401 ， doi ： 10 · 1016 / j.jhydrol.2006 ． 03 ． 032 ．",
+                          "X":  194,
+                          "Y":  607
+                      },
+                      {
+                          "Text":  "[ 7 ] M.M. Rohde, C.M. Albano, X. Huggins, K.R. l\u003clausmeyer, C. Morton, A. Sharman, E. Zaveri, L. Saito, 乙 Freed,",
+                          "X":  140,
+                          "Y":  645
+                      },
+                      {
+                          "Text":  "J.K. Howard, N. JOb, H. Richter, K. Toderich, A.-S. Rodella, T. GIeeson, J. Huntington, H.A. Chandanpurkar, A.J. Purdy,",
+                          "X":  191,
+                          "Y":  684
+                      },
+                      {
+                          "Text":  "J.S. Famiglietti, M.B. Singer, D.A. Roberts, K. CayI or, J ℃ ． SteIIa, Groundwater-dependent ecosystem map exposes",
+                          "X":  191,
+                          "Y":  721
+                      },
+                      {
+                          "Text":  "global dryland protecti on needs, Nature 632 （ 2024 ） 101 一 107 ， doi: 10 ． 1038 / S41586 一 024 一 07702 一 8 ．",
+                          "X":  194,
+                          "Y":  758
+                      },
+                      {
+                          "Text":  "[ 8 ] 0 ， Barron, I. EmeIyanova, T. Van Niel, D. Pollock, G. Hodgson, Mapping groundwater-dependent ecosystems using",
+                          "X":  140,
+                          "Y":  796
+                      },
+                      {
+                          "Text":  "remote sensing measures Of vegetati on and moisture dynamics, Hydrol. Process. 28 （ 2014 ） 372 一 385 ， doi ： 10 ． 1002 /",
+                          "X":  195,
+                          "Y":  838
+                      },
+                      {
+                          "Text":  "hyp · 9609 ·",
+                          "X":  195,
+                          "Y":  871
+                      },
+                      {
+                          "Text":  "[ 9 ] D. Eamus, S. ZoIfaghar, R. Villalobos-Vega, J. CIeverIy, A. Huete, Groundwater-dependent ecosystems: rece nt insights",
+                          "X":  140,
+                          "Y":  909
+                      },
+                      {
+                          "Text":  "from satellite and field-based studies, HydroI. Earth Syst. Sci. 19 （ 2015 ） 4229 一 4256 ， doi: 10 ， 5194 / hess 一 19 一 4229 一 2015 ·",
+                          "X":  195,
+                          "Y":  947
+                      },
+                      {
+                          "Text":  "[ 10 ] S. Gou, S. GonzaIes, G.R. Miller, Mapping potential groundwater-dependent ecosystems for sustainable management,",
+                          "X":  125,
+                          "Y":  984
+                      },
+                      {
+                          "Text":  "Groundwater 53 （ 1 ） （ 2015 ） 99 一 110 ， doi ： 10 ． 1111 / gwat ． 12169 ·",
+                          "X":  194,
+                          "Y":  1022
+                      },
+                      {
+                          "Text":  "[ 11 ] J. Cabello, M. Escudero-CIares, M.J. SaIinas-BoniIIo, J. Cintas, JJ. Casas, S. Martos-RosiIIo, Map Of potential",
+                          "X":  126,
+                          "Y":  1060
+                      },
+                      {
+                          "Text":  "groundwater-dependent vegetation in the Sierra Nevada Protected Area (Southern Spain) based on NDVI-derived",
+                          "X":  194,
+                          "Y":  1098
+                      },
+                      {
+                          "Text":  "ecohydrological attributes [Data set], Zenodo （ 2024 ） ， dOi ： 10 ． 5281 / zenodo ． 15315192 ·",
+                          "X":  194,
+                          "Y":  1135
+                      },
+                      {
+                          "Text":  "卩 2 ] B.P. CazorIa, J. Cabello, A. Reyes, E. Guirado, J. Pefias, A.J. Pérez-Luque, D. AIcaraz-Segura, A d ataset on ecosystem",
+                          "X":  124,
+                          "Y":  1173
+                      },
+                      {
+                          "Text":  "functional diversity in Sierra Nevada ()E Spain) derived from Earth observation data, Earth Syst. Sci. Data 15 （ 4 ）",
+                          "X":  195,
+                          "Y":  1211
+                      },
+                      {
+                          "Text":  "（ 2023 ） 1749 一 1772 ， doi: 10 ． 5194 / essd 一 15 一 1749 一 2023 ．",
+                          "X":  194,
+                          "Y":  1249
+                      },
+                      {
+                          "Text":  "卩 3 ] S. Martos-RosiIIo, A. Ruiz-Constån, A. GonzåIez-Ram6n, R. MediaviIIa, J.M. Martfn-Civantos, F.J. Martfnez-Moreno,",
+                          "X":  125,
+                          "Y":  1286
+                      },
+                      {
+                          "Text":  "J. J6dar, C. Marfn-Lechado, A. MediaIdea, J. Galind0-ZaIdfvar, A. Pedrera, J.J. Durån, The oldest managed aquifer",
+                          "X":  191,
+                          "Y":  1325
+                      },
+                      {
+                          "Text":  "recharge system in Europe: New insights from the Espino recharge channel (Sierra Nevada, southern Spain), J. Hy-",
+                          "X":  195,
+                          "Y":  1362
+                      },
+                      {
+                          "Text":  "drol. 578 （ 2019 ） 124047 ， doi ： 10 ． 1016 / j.jhydrol.2019 ． 124047 ．",
+                          "X":  194,
+                          "Y":  1399
+                      },
+                      {
+                          "Text":  "卩 4 ] T. ZakaIuk, J. J6dar, A. GonzåIez-Ram6n, J.M. Martfn-Civantos, L.J. Lambån, S. Martos-RosiIIo, Ancestral managed",
+                          "X":  125,
+                          "Y":  1437
+                      },
+                      {
+                          "Text":  "aquifer recharge systems and their impacts on the flOW regime Of a semi-arid alpine basin (Sierra Nevada, Spain),",
+                          "X":  194,
+                          "Y":  1475
+                      },
+                      {
+                          "Text":  "J. HydroI. 54 （ 2024 ） 101870 ， doi: 10 · 1016 / j ． ejrh · 2024 ． 101870 ．",
+                          "X":  191,
+                          "Y":  1513
+                      },
+                      {
+                          "Text":  "卩 5 ] Juan LO ri te, CarIos SaIazar, And rea Ros-Candeira, D. AIcaraz-Segura, A trait database Of the vascular flora Of Sierra",
+                          "X":  125,
+                          "Y":  1550
+                      },
+                      {
+                          "Text":  "Nevada ()E Spain), PANGAEA （ 2020 ） ， doi ： 10 ． 1594 / PANGAEA ， 917883 ．",
+                          "X":  195,
+                          "Y":  1588
+                      },
+                      {
+                          "Text":  "[ 16 ] Mateos, M.A., GiI, Y., Lagu na, D., ViIches, J., Sänchez, A., Giménez de Azcårate, F., Rodrfguez, C. ， Cäceres, F. y Moreira,",
+                          "X":  125,
+                          "Y":  1625
+                      },
+                      {
+                          "Text":  "J.M. （ 2010 ） ： FAM E. ApIicaci6n Web de apoyo al seguimiento, localizaci6n e integraci6n de la informaci6n sobre",
+                          "X":  191,
+                          "Y":  1664
+                      },
+                      {
+                          "Text":  "flora amenazada Y de interés generada en AndaIucfa. En: Ojeda, J., Pita, M.F. y Vallejo, I. (Eds.), Tecnologfas de la",
+                          "X":  195,
+                          "Y":  1701
+                      },
+                      {
+                          "Text":  "lnformaci6n Geogråfica: La lnformaci6n Geogråfica al servicio de IOS ciudadanos. Secretariado de Publicaciones de",
+                          "X":  195,
+                          "Y":  1738
+                      },
+                      {
+                          "Text":  "la Universidad de SeviIIa. SeviIIa. Pp. 222 一 229 ． ISBN: 978 一 84 一 472 一 1294 一 1",
+                          "X":  195,
+                          "Y":  1777
+                      }
+                  ]
+    }
+]

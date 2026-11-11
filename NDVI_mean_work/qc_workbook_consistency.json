@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-11",
+  "checked_generation": "ready workbook generation; before any later wording-only revisions",
+  "output_directory": "NDVI_区域平均值_20261111_核对版",
+  "scope": "Read-only output structure and cross-file consistency QA. Original rasters and original questionnaires were not reopened; pixel means were not independently recomputed.",
+  "anonymity": "No park names, addresses, coordinates, or original raster filenames appear in this report.",
+  "xlsx": {
+    "filename": "NDVI区域平均值_39公园_待4园影像确认.xlsx",
+    "required_zip_parts_exist": true,
+    "workbook_xml_parsed": true,
+    "worksheet_count": 4,
+    "sheet_names": [
+      "NDVI地域平均_39公園",
+      "重複影像4公園",
+      "全候補の統計",
+      "算出方法と確認事項"
+    ],
+    "sheet_data_row_counts": [
+      39,
+      8,
+      52,
+      13
+    ],
+    "numeric_looking_text_cells": [],
+    "formula_count": 0,
+    "forbidden_privacy_headers": [],
+    "sheet1_mean_values_stored_as_numbers": 70,
+    "sheet2_numeric_fields_stored_as_numbers": true,
+    "sheet3_numeric_fields_stored_as_numbers": true,
+    "sheet4_pending_sem_warning_detected": true
+  },
+  "main_table": {
+    "row_count": 39,
+    "unique_park_id_count": 39,
+    "park_ids_cover_1_to_39_once": true,
+    "confirmed_row_count": 35,
+    "choose_source_row_count": 4,
+    "pending_park_ids": [
+      9,
+      18,
+      28,
+      32
+    ],
+    "inside_outside_missingness_mismatch_park_ids": [],
+    "pending_mean_cells_blank_not_zero": true,
+    "both_z_columns_all_39_cells_blank": true,
+    "total_blank_z_cells": 78,
+    "blank_z_cells_not_imputed_as_zero": true,
+    "not_a_complete_final_sem_input": true,
+    "mean_outside_unit_ndvi_range_park_ids": []
+  },
+  "candidates": {
+    "row_count": 8,
+    "park_id_source_option_groups": [
+      {
+        "ParkID": 9,
+        "row_count": 2,
+        "source_options": [
+          1,
+          2
+        ],
+        "unique_source_count": 2
+      },
+      {
+        "ParkID": 18,
+        "row_count": 2,
+        "source_options": [
+          1,
+          2
+        ],
+        "unique_source_count": 2
+      },
+      {
+        "ParkID": 28,
+        "row_count": 2,
+        "source_options": [
+          1,
+          2
+        ],
+        "unique_source_count": 2
+      },
+      {
+        "ParkID": 32,
+        "row_count": 2,
+        "source_options": [
+          1,
+          2
+        ],
+        "unique_source_count": 2
+      }
+    ],
+    "every_candidate_mean_and_pixel_count_matches_sheet3": true,
+    "mismatches_vs_sheet3": []
+  },
+  "csv_files": [
+    {
+      "filename": "NDVI_area_means_39_review.csv",
+      "row_count": 39,
+      "headers": [
+        "ParkID",
+        "ndvi_inside_area_mean",
+        "ndvi_outside_100m_ring_area_mean",
+        "z_inside_area_mean",
+        "z_outside_area_mean",
+        "inside_valid_pixels",
+        "outside_valid_pixels",
+        "inside_nodata_pixels",
+        "outside_nodata_pixels",
+        "status"
+      ],
+      "forbidden_privacy_headers": []
+    },
+    {
+      "filename": "overlap_sources_4parks.csv",
+      "row_count": 8,
+      "headers": [
+        "ParkID",
+        "source_option",
+        "source_raster",
+        "inside_mean",
+        "outside_mean",
+        "inside_valid_pixels",
+        "outside_valid_pixels"
+      ],
+      "forbidden_privacy_headers": []
+    }
+  ],
+  "cross_file_checks": {
+    "numeric_tolerance": 1e-12,
+    "csv_vs_xlsx": [
+      {
+        "check": "MainCSV_vs_XLSX_Sheet1",
+        "rowsCSV": 39,
+        "rowsXLSX": 39,
+        "cellMismatchCount": 0,
+        "numericTolerance": 1e-12
+      },
+      {
+        "check": "CandidateCSV_vs_XLSX_Sheet2",
+        "rowsCSV": 8,
+        "rowsXLSX": 8,
+        "cellMismatchCount": 0,
+        "numericTolerance": 1e-12
+      }
+    ],
+    "main35_vs_qc52_numeric_and_pixel_count_mismatches": [],
+    "all_35_main_rows_have_one_matching_full_extent_qc_row": true,
+    "three_new_dbf_schemas_and_status_counts_match": true
+  },
+  "gis_attributes": [
+    {
+      "filename": "park_boundaries.dbf",
+      "active_row_count": 39,
+      "deleted_row_count": 0,
+      "fields": [
+        "ParkID",
+        "MeanIn",
+        "MeanOut",
+        "NIn",
+        "NOut",
+        "Status"
+      ],
+      "unique_park_id_count": 39,
+      "park_ids_cover_1_to_39_once": true,
+      "no_name_address_or_coordinate_attribute_fields": true,
+      "mean_fields_numeric_35_blank_4": true,
+      "pending_mean_fields_not_imputed_as_zero": true,
+      "status_counts": [
+        {
+          "status": "CONFIRMED",
+          "count": 35,
+          "ParkIDs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            29,
+            30,
+            31,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        },
+        {
+          "status": "CHOOSE_SOURCE",
+          "count": 4,
+          "ParkIDs": [
+            9,
+            18,
+            28,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "outer_100m_rings.dbf",
+      "active_row_count": 39,
+      "deleted_row_count": 0,
+      "fields": [
+        "ParkID",
+        "MeanIn",
+        "MeanOut",
+        "NIn",
+        "NOut",
+        "Status"
+      ],
+      "unique_park_id_count": 39,
+      "park_ids_cover_1_to_39_once": true,
+      "no_name_address_or_coordinate_attribute_fields": true,
+      "mean_fields_numeric_35_blank_4": true,
+      "pending_mean_fields_not_imputed_as_zero": true,
+      "status_counts": [
+        {
+          "status": "CONFIRMED",
+          "count": 35,
+          "ParkIDs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            29,
+            30,
+            31,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        },
+        {
+          "status": "CHOOSE_SOURCE",
+          "count": 4,
+          "ParkIDs": [
+            9,
+            18,
+            28,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "filename": "full_100m_buffers.dbf",
+      "active_row_count": 39,
+      "deleted_row_count": 0,
+      "fields": [
+        "ParkID",
+        "MeanIn",
+        "MeanOut",
+        "NIn",
+        "NOut",
+        "Status"
+      ],
+      "unique_park_id_count": 39,
+      "park_ids_cover_1_to_39_once": true,
+      "no_name_address_or_coordinate_attribute_fields": true,
+      "mean_fields_numeric_35_blank_4": true,
+      "pending_mean_fields_not_imputed_as_zero": true,
+      "status_counts": [
+        {
+          "status": "CONFIRMED",
+          "count": 35,
+          "ParkIDs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            29,
+            30,
+            31,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ]
+        },
+        {
+          "status": "CHOOSE_SOURCE",
+          "count": 4,
+          "ParkIDs": [
+            9,
+            18,
+            28,
+            32
+          ]
+        }
+      ]
+    }
+  ],
+  "privacy_caveat": "GIS geometry necessarily retains private locations even though its attribute fields are anonymous.",
+  "extrema_match_caveat": {
+    "qc52_true_count": 1,
+    "qc52_false_count": 51,
+    "main35_true_count": 1,
+    "main35_false_count": 34,
+    "meaning": "CONFIRMED must not be described as successful verification against the four previously recorded extrema. This report confirms output consistency only."
+  },
+  "full_extent_definition_caveat": {
+    "intended_definition": "All pixel centers included in the selected region fall inside the raster extent.",
+    "unsupported_stronger_claim": "The entire continuous park or buffer geometry is completely covered by the raster.",
+    "wording_review_status": "Present sheet4 and NDVI_mean_work/README.md were checked before the parent agent's wording-only revision; no explicit stronger continuous-geometry coverage claim was found. The parent's subsequent wording-only changes were not rechecked, as instructed.",
+    "observed_sheet4_pixel_rule": "Original 30 m grid pixel centers fall within the polygon; no resampling; boundary-overlap area weights were not estimated separately.",
+    "subsequent_parent_change_report": "Parent reported unified full_extent wording and script-comment revisions only, with the 35 confirmed means, 4 pending rows, and 78 blank Z cells unchanged; no numerical QA was repeated."
+  }
+}

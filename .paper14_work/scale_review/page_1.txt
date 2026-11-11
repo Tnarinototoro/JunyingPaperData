@@ -1,0 +1,80 @@
+ELSEVI ER
+Computers, Environment and Urban Systems 82 〔 2020 ） 101501
+Contents lists available at ScienceDirect
+Computers, Environment and Urb an Systems
+journal homepage:
+www.elsevier.com/locate/ceus
+COMPUTE RS
+ENVIRONMENT
+uRB 磊 SYSTEMS
+Check for
+updates
+Scale effects in remotely sensed greenspace metrics and hOW tO miti gate
+them for environmental health exposure assessment
+S.M. Labib ， Sarah Lindley, Jonny J. Huck
+Department 可 Geography, School 硕 Environment, Education and Development (SEED), University 可 Manchester, Arthur Lewis building （ 严 00 0 brd R 皿 磋
+Manchester M73 9P UK
+A R T I C L E I N F O
+Keywords:
+Urban
+Greenness exposure
+Health
+GIS
+Buffer distance
+Lacunarity
+1 · lntroduction
+A B S T R A C T
+Metrics representing exposure tO the natural environment are widely used in environmental health-related
+studies. They are calculated using a variety Of different data sources representlng greenspace and a range 0f
+buffer sizes representing human interaction with the envlronment. Previous studies have identified issues re-
+lating tO buffer distance and scaling effects on greenspace exposure assessments when using satellite image-
+derived metrics. We evaluate the spatial scale sensitivity of three common greenspace metrics (i.e., Normalised
+Difference Vegetation lndex- NDVI ， Leaf Area lndex- LAI, and Land Use and Land Cover-LULC), using lacunarity
+analysis ， as a scale-dependent measure Of heterogeneity based on the principles Of fractals. By producing a
+'lacunarity curve' across multiple spatial scales, we defined the scale-vanances for specific greenspace metrics,
+including the upper scale limit at which the metrics become invariant ， approximately 640 m for Sentinel-2 and
+480 m for Landsat-8. Each Of the greenspace metrics we considered exhibited scale sensitivities ， meaning that
+each is expected tO have a different influence on the strength and significance Of the statistical associations found
+between greenspace exposure and health depending on the spatial scale Of analysis 〔 e ， 8 ” buffer distance). Using
+lacunarity curves, we produced a novel composite ， multi-scale greenspace exposure index' in which each input
+scale is weighted according tO its relative scale sensitivity. We also created a multi-scale, multi-metric map
+combining the different vegetation measures while accounting for scale. We found that cumulative exposure
+gradients across a large urban conurbation are even more marked when using our multl-scale 'exposure index ，
+maps compared tO traditional approaches. Our multi-scale ， composite greenspace exposure index ， mapping
+techniques are not as vulnerable tO scale effects as traditional approaches and can be readily transferred tO the
+analysis Of other environmental exposure variables such as air pollution.
+Emerging scholarly literature has, in the past decade ， focused on the
+direct and indirect benefits Of the urban natural environment on human
+health and wellbeing (Hartig, Mitchell, De Vries ， & Frumkin ， 2014
+James, Banay ， Hart, & Laden ， 2015 Kondo, Fluehr, McKeon, & Branas,
+2018 Nieuwenhuijsen, Khreis, Triguero-Mas, Gascon, & Dadvand,
+） ． Multiple original studies, as well as scholarly reviews of the
+2017
+extant literature ， have indicated that green or blue space (hereafter
+greenspace) exposure generally produces net positive benefits on health
+Gascon et al. ， 2015 Helbich, De Beurs, Kwan ， O'Connor ， &
+Groenewegen ， 2018 ， LindIey ， COOk ， Dennis ， & GiIchrist ， 2019 ， ROjas-
+Rueda, Nieuwenhuij sen, Gascon, Perez-Leon, & Mudu, 2019
+Nieuwenhuijsen et al ” 2019 ） ． These benefits accrue both from the
+* Corresponding author.
+therapeutic qualities 0f greenspace and its inherent ability t0 provide
+essential ecosystem functions related tO human survival (Bratman et al.,
+2019 Costanza et al., 2017 Kabisch ， Qureshi ， & Haase, 2015 LindIey ，
+Pauleit ， Yeshitela ， Cilliers ， & Shackleton, 2018 ） ，
+lt must be noted, however, that some researchers have recently
+found insignificant and negative or mixed associations between green
+blue space exposure and health indicators (Ali, Di Nardo, Harrison, &
+Verma, 2017 ， Fuertes et al ” 2014 Kond0 et al ” 2018 Markevych et al.,
+2016 ， Picavet et al. ， 2016 ） ． Labib, Lindley, and Huck （ 2020 ） and
+Markevych et al. （ 2017 ） argued that such conflicting results and in-
+consistency reqtllre more specific and process-oriented research tO gain
+a better understanding Of the underlying complexities between green
+space exposure and health. ln line with this argument, several recent
+studies have investigated the impact of differences in methodological
+E-mail addresses: sm.labib@manchester.ac.uk labib.l.m@gmail.com (S.M. Labib), sarah.lindley@manchester.ac.uk (). LindIey) ，
+jonathan.huck@manchester.ac.uk (J.J. Huck).
+https://doi.org/10.1016/j.com/envurbsys.2020.101501
+Received 19 December 2019 ； Received in revised form 18 March 2020 ； Accepted 3 May 2020
+AvailabIe online 21 May 2020
+0198 四 715 / @ 2020 The Authors. Published by EIsevier Ltd. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/BY/4.0/).

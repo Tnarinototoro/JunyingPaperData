@@ -1,0 +1,84 @@
+{
+  "journal": "Restoration Ecology",
+  "checked_date": "2026-11-09",
+  "publisher": "Wiley / Society for Ecological Restoration",
+  "mdpi": false,
+  "fit": "Conditional: official scope explicitly includes policy and governance research, but this manuscript must establish an actual ecological-restoration implementation/governance contribution. Absence of ecological outcome measurement does not automatically exclude social research.",
+  "official_scope_url": "https://www.wiley.com/en-us/Restoration+Ecology-p-1526100X",
+  "official_scope_status": 200,
+  "official_acceptance_metric": "Not verified: Online Library journal metrics page returned403",
+  "received_to_accepted_sample": {
+    "source": "Publisher-deposited Crossref publication_history assertions, not direct Wiley article-page reading",
+    "n": 5,
+    "median_days": 112,
+    "range_days": [
+      71,
+      274
+    ],
+    "rule": "Latest Crossref publication order until 2026-11-09; excluded first item rec.70598 (conceptual/perspective governance examples; exact Wiley subtype unverified); next five with empirical original content.",
+    "items": [
+      {
+        "doi": "10.1111/rec.70589",
+        "received": "2026-04-05",
+        "accepted": "2026-10-13",
+        "days": 191,
+        "article_type_status": "Original empirical content verified from publisher-deposited abstract; Wiley article subtype page not readable (403)."
+      },
+      {
+        "doi": "10.1111/rec.70599",
+        "received": "2026-07-10",
+        "accepted": "2026-10-26",
+        "days": 108,
+        "article_type_status": "Original empirical content verified from publisher-deposited abstract; Wiley article subtype page not readable (403)."
+      },
+      {
+        "doi": "10.1111/rec.70595",
+        "received": "2026-07-02",
+        "accepted": "2026-10-22",
+        "days": 112,
+        "article_type_status": "Original empirical content verified from publisher-deposited abstract; Wiley article subtype page not readable (403)."
+      },
+      {
+        "doi": "10.1111/rec.70596",
+        "received": "2026-01-22",
+        "accepted": "2026-10-23",
+        "days": 274,
+        "article_type_status": "Original empirical content verified from publisher-deposited abstract; Wiley article subtype page not readable (403)."
+      },
+      {
+        "doi": "10.1111/rec.70590",
+        "received": "2026-08-05",
+        "accepted": "2026-10-15",
+        "days": 71,
+        "article_type_status": "Original empirical content verified from publisher-deposited abstract; Wiley article subtype page not readable (403)."
+      }
+    ]
+  },
+  "apc": {
+    "type": "optional hybrid open access APC",
+    "USD": 3460,
+    "GBP": 2310,
+    "EUR": 2880,
+    "tax": "excluded where applicable",
+    "price_list_updated": "2026-10-12",
+    "online_verified": true,
+    "price_list_url": "https://authors.wiley.com/asset/Wiley-Journal-APCs-OnlineOpen.xlsx",
+    "file": "restoration_authors_retry.xlsx",
+    "row": 1059,
+    "non_oa_subscription_available": true,
+    "non_oa_avoids_OA_APC": true,
+    "other_mandatory_page_color_or_member_charges": "not verified; journal author instructions403"
+  },
+  "saitama": {
+    "evidence": "User-supplied university guide; not an individual funding approval",
+    "eligible_author": "Saitama affiliated corresponding author",
+    "eligible_articles": "original research and reviews in publisher-designated hybrid OA journals",
+    "agreement_until": "2026-12-31",
+    "date_basis": "acceptance date",
+    "after_2026": "undetermined in current institutional guide",
+    "personal_contribution": "internal-only guide; not verified",
+    "remaining_quota": "not verified",
+    "funding_guaranteed": false
+  },
+  "summary_file": "restoration_summary_20261109.md"
+}

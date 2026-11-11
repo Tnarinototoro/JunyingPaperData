@@ -1,0 +1,668 @@
+[
+  {
+    "key": "home",
+    "url": "https://www.sciencedirect.com/journal/city-and-environment-interactions",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/journal/city-and-environment-interactions",
+    "length": 832979,
+    "contexts": []
+  },
+  {
+    "key": "insights",
+    "url": "https://www.sciencedirect.com/journal/city-and-environment-interactions/about/insights",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/journal/city-and-environment-interactions/about/insights",
+    "length": 832979,
+    "contexts": []
+  },
+  {
+    "key": "gfa",
+    "url": "https://www.sciencedirect.com/journal/city-and-environment-interactions/publish/guide-for-authors",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/journal/city-and-environment-interactions/publish/guide-for-authors",
+    "length": 832979,
+    "contexts": []
+  },
+  {
+    "key": "oa",
+    "url": "https://www.sciencedirect.com/journal/city-and-environment-interactions/publish/open-access-options",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/journal/city-and-environment-interactions/publish/open-access-options",
+    "length": 832979,
+    "contexts": []
+  },
+  {
+    "key": "crossref",
+    "url": "https://api.crossref.org/journals/2590-2520/works?sort=published&order=desc&rows=12&filter=until-pub-date:2026-11-09",
+    "status": 200,
+    "final_url": "https://api.crossref.org/journals/2590-2520/works?sort=published&order=desc&rows=12&filter=until-pub-date:2026-11-09",
+    "length": 396967,
+    "contexts": [],
+    "candidates": [
+      {
+        "doi": "10.1016/j.cacint.2026.100524",
+        "title": [
+          "Mapping local resilience and its spatial patterns: Jakarta metropolitan area during COVID-19 pandemic"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Mapping local resilience and its spatial patterns: Jakarta metropolitan area during COVID-19 pandemic",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100524",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002345?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002345?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      {
+        "doi": "10.1016/j.cacint.2026.100528",
+        "title": [
+          "RiverScan and the third mission: Community engagement and challenge-based learning for urban water governance in metropolitan Cebu"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "RiverScan and the third mission: Community engagement and challenge-based learning for urban water governance in metropolitan Cebu",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100528",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002382?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002382?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      {
+        "doi": "10.1016/j.cacint.2026.100520",
+        "title": [
+          "Estimation of PM2.5 source contribution at rural area, downwind of Seoul, Korea during seasonal fine dust management system in 2023 using the positive matrix factorization model"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Estimation of PM2.5 source contribution at rural area, downwind of Seoul, Korea during seasonal fine dust management system in 2023 using the positive matrix factorization model",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100520",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002278?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002278?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      {
+        "doi": "10.1016/j.cacint.2026.100525",
+        "title": [
+          "Long-term evolution of congestion–emission coupling in an electrifying urban transport network: A link-level analysis of Budapest"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Long-term evolution of congestion–emission coupling in an electrifying urban transport network: A link-level analysis of Budapest",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100525",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002357?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002357?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      {
+        "doi": "10.1016/j.cacint.2026.100519",
+        "title": [
+          "Latitude, cities and health: What do we know and need to do about daylight?"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Latitude, cities and health: What do we know and need to do about daylight?",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100519",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002266?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002266?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      {
+        "doi": "10.1016/j.cacint.2026.100518",
+        "title": [
+          "Converging but uneven: Spatial dynamics and nonlinear predictive associations of county-level urban-rural integration in China"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Converging but uneven: Spatial dynamics and nonlinear predictive associations of county-level urban-rural integration in China",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100518",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002254?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002254?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      {
+        "doi": "10.1016/j.cacint.2026.100513",
+        "title": [
+          "PM2.5 variability after long-term improvement in Shanghai: meteorological sensitivity and spatial urban-form associations"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "PM2.5 variability after long-term improvement in Shanghai: meteorological sensitivity and spatial urban-form associations",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100513",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002205?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026002205?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      {
+        "doi": "10.1016/j.cacint.2026.100415",
+        "title": [
+          "Mapping heat-related risk in three mid-sized European cities"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Mapping heat-related risk in three mid-sized European cities",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100415",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026001224?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026001224?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      {
+        "doi": "10.1016/j.cacint.2026.100422",
+        "title": [
+          "Explanatory Grounded Theory (EGT): An integrated methodological protocol for explaining the complex interaction of the city and the environment"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Explanatory Grounded Theory (EGT): An integrated methodological protocol for explaining the complex interaction of the city and the environment",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100422",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026001297?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026001297?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      {
+        "doi": "10.1016/j.cacint.2026.100458",
+        "title": [
+          "Participatory environmentalism in practice: a mixed-methods analysis of stakeholder perceptions, participation and governance of urban green stewardship in a secondary city in Ghana"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Participatory environmentalism in practice: a mixed-methods analysis of stakeholder perceptions, participation and governance of urban green stewardship in a secondary city in Ghana",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100458",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026001650?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026001650?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      {
+        "doi": "10.1016/j.cacint.2026.100436",
+        "title": [
+          "Historical population exposure to compound dry-hot extremes over the China-Pakistan economic corridor region"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Historical population exposure to compound dry-hot extremes over the China-Pakistan economic corridor region",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100436",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026001431?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026001431?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      },
+      {
+        "doi": "10.1016/j.cacint.2026.100425",
+        "title": [
+          "Spatial strategies for urban data centres"
+        ],
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Spatial strategies for urban data centres",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "City and Environment Interactions",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.cacint.2026.100425",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "© 2026 The Authors. Published by Elsevier Ltd.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026001327?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S2590252026001327?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ]
+      }
+    ]
+  }
+]

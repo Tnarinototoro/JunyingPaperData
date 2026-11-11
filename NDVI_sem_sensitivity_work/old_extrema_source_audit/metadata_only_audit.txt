@@ -1,0 +1,43 @@
+Old NDVI extrema source trace: metadata-only audit
+
+Scope: supplied NDVI_nagoya.tif, NDVI_nara.tif, NDVI_fukushima.tif,
+NDVI_fukushima_up.tif; existing related auxiliary metadata; old S1 rows
+P09/P18/P28/P32. Source files were read-only. No SEM was run or source selected.
+
+Each of the four TIFF files contains GDAL statistics marked
+STATISTICS_APPROXIMATE=YES. These are raster-wide statistics, not the four
+park-interior/exterior extrema associated with an old S1 row:
+
+Raster | stored approximate minimum | stored approximate maximum
+NDVI_nagoya.tif | -0.12518016993999 | 0.53206968307495
+NDVI_nara.tif | -0.12278895825148 | 0.50092250108719
+NDVI_fukushima.tif | -0.20380158722401 | 0.99583721160889
+NDVI_fukushima_up.tif | -0.22689804434776 | 0.99531066417694
+
+There are no matching per-raster .aux.xml files for these four TIFFs in the
+supplied NDVI directory. Their examined TIFF/GDAL metadata has no original
+ParkID, park sampling geometry/extent, extraction log, acquisition/compositing
+date, satellite-product identifier, or previous four-extrema table.
+The raster bounding extent is not an original park-level sampling extent.
+Filesystem modification/upload times are not imagery acquisition dates.
+
+The supplied directory's only .qmd file is parks_metric.qmd. It describes a
+vector dataset, not NDVI statistics. Its title, abstract, links, dates, and
+extent are empty; it carries geographic EPSG:4326 metadata. This does not
+provide a TIFF-source/old-ParkID association and does not supersede the
+current vector .prj used in the separate geometry audit.
+
+Important numbering caution:
+The parent investigation detected that old S1 numbering may differ from the
+address/GIS-record order (for example old P03 interior extrema coincide with
+GIS record 1). Therefore comparison of old P09 with GIS record 9, etc., cannot
+by itself identify the original source. A numbering crosswalk must be verified
+before merging new regional means into the old SEM input matrix.
+
+Status: metadata does not uniquely trace an old S1 row to a source or original
+sampling extent. Whole-raster Float32 fingerprint scanning was not started;
+it was paused by the parent to prioritize the numbering-crosswalk audit.
+Even a value occurring somewhere in a whole raster would not establish that
+it came from the old park's interior/exterior sampling region.
+
+No park names, addresses, or identity key are included in this report.

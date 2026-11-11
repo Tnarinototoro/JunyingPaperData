@@ -1,0 +1,172 @@
+[
+  {
+    "path": "0_重要更正_暂停按同号用于SEM.txt",
+    "bytes": 2162,
+    "sha256": "e41c81b69084c91f82068c0a83ea51933f4b5ad4e8b5eeb948b714e3b3b0d0c9"
+  },
+  {
+    "path": "scripts/audit_amw_structure.py",
+    "bytes": 2252,
+    "sha256": "fdda59477a84ae7a806cd808d073dd19b944301c68290e78d3a2a7a5177d973b"
+  },
+  {
+    "path": "scripts/build_sem_sensitivity_package.py",
+    "bytes": 11296,
+    "sha256": "8f142e3d57a15972752f4656b4e8238fda676d51fdb1d97357097891d17e5f70"
+  },
+  {
+    "path": "scripts/finalize_sensitivity_package.py",
+    "bytes": 2865,
+    "sha256": "9c0ec67baa976625e856e8482abac0f70663c54f9dddfbad44876866db6bc4bf"
+  },
+  {
+    "path": "scripts/qa_baseline_reproduction.py",
+    "bytes": 8962,
+    "sha256": "cc38d70cd94a33747667ea849d61c54401a48202a26c3f8fba6d5861b655db0c"
+  },
+  {
+    "path": "scripts/qc_four_ndvi_scenarios.py",
+    "bytes": 8555,
+    "sha256": "9e1243fba4807311fe1634d106d79a29c425cc7a655a0fb1f2e7f708a761a714"
+  },
+  {
+    "path": "scripts/read_numeric_sav.py",
+    "bytes": 8277,
+    "sha256": "6654bb1a24eeda73832bcffd92454fee7f6d41b54ccd72d4b9e0ea759765b7c3"
+  },
+  {
+    "path": "scripts/sem_covariance_ml.py",
+    "bytes": 21337,
+    "sha256": "3d54f9b5cc2206e6262f1f3fc6323fee79ccad2d2836d4e42ef9993583635fcc"
+  },
+  {
+    "path": "scripts/verify_sem_inputs.py",
+    "bytes": 2260,
+    "sha256": "865b2f99d41ad110293ecab8d47ca0a0bd605ec647d39c69ef94901840bc1297"
+  },
+  {
+    "path": "SEM输入/原输入_仅用于基线复现.sav",
+    "bytes": 6283,
+    "sha256": "54cca5a9e38faf59635ebcd9d645d7d77083ac30c7f2d8f46751d809c47d2737"
+  },
+  {
+    "path": "SEM输入/组合1_SEM输入.csv",
+    "bytes": 4917,
+    "sha256": "333a1d72091e42630763366c596344327e73ca5cc62e4aeca4e2fcd16fc212d4"
+  },
+  {
+    "path": "SEM输入/组合1_SEM输入.sav",
+    "bytes": 7507,
+    "sha256": "7a1c81e5dac915ad467662c736146d4fd015540d67b8d93096ede42b728fb556"
+  },
+  {
+    "path": "SEM输入/组合2_SEM输入.csv",
+    "bytes": 4924,
+    "sha256": "a7ff8aa68369dc880a5b71e7f509cc748c70232c43064de06e3ee03fbe5e1b30"
+  },
+  {
+    "path": "SEM输入/组合2_SEM输入.sav",
+    "bytes": 7507,
+    "sha256": "5849cf69743fdf0fe8e35134dc61b3a2f026f290e82f8977401b1df6f3527783"
+  },
+  {
+    "path": "SEM输入/组合3_SEM输入.csv",
+    "bytes": 4915,
+    "sha256": "eca0dee27e07c5fe6ff20c7f0f8ffc99af37979d02b79413f86de7262aa7b5b1"
+  },
+  {
+    "path": "SEM输入/组合3_SEM输入.sav",
+    "bytes": 7507,
+    "sha256": "2c3fce4aa83ba87a3588358cae46f696782653385bf046287a8dae10fb5123cf"
+  },
+  {
+    "path": "SEM输入/组合4_SEM输入.csv",
+    "bytes": 4921,
+    "sha256": "8a137492f1b5fa559d73e7683701053bc0394ed17015aa3c70004af1c7714066"
+  },
+  {
+    "path": "SEM输入/组合4_SEM输入.sav",
+    "bytes": 7507,
+    "sha256": "a3b58c3582d8d23dd293efb8e20d669aefd22390af90b26c580e9ff3d3886afc"
+  },
+  {
+    "path": "原模型_保持结构.amw",
+    "bytes": 51992,
+    "sha256": "19410f39905c9ea51909b5bb2fad3e6cad35f32dde2c3bd859c968de014371a1"
+  },
+  {
+    "path": "四组合NDVI与SEM输入_待Amos复核.xlsx",
+    "bytes": 31747,
+    "sha256": "1b5ac58cb354f04adceffe4df3e22689be92b9fe28a8b31f1d5941ae6f71f21f"
+  },
+  {
+    "path": "四组合NDVI均值与Z值.csv",
+    "bytes": 17036,
+    "sha256": "fef8325ca0b708e9a17ef6387e47d1ad9657e12b6d31fa791e22194c6c17f235"
+  },
+  {
+    "path": "四组合试算状态_非正式SEM结果.csv",
+    "bytes": 763,
+    "sha256": "ebb38211f7969aed6b072a3a6b16afdbe32c295a2f5a7ad096f197dc15ed21c9"
+  },
+  {
+    "path": "复核说明_先读.md",
+    "bytes": 5001,
+    "sha256": "53905d2df762da83f1e025ba6faa0bd1731ddc2cc232dbc3b62ed12b61c3ebdf"
+  },
+  {
+    "path": "复算记录与QC/amw_structure_audit.json",
+    "bytes": 18021,
+    "sha256": "b8cac8fd3827464c5d97089c703657a4685ecc53eb69e5c12bdf463c300a5bd2"
+  },
+  {
+    "path": "复算记录与QC/independent_ml_baseline_checks.json",
+    "bytes": 15603,
+    "sha256": "3ed7ebb45bc9b709275037818c56aaf104c756820f5df5e3fdd23d845273fd88"
+  },
+  {
+    "path": "复算记录与QC/independent_ml_baseline_information.json",
+    "bytes": 7692,
+    "sha256": "fd4436132ddf4090185391f12aaa6542b1fddfebf4eaa999413a8a426269c6f5"
+  },
+  {
+    "path": "复算记录与QC/qa_baseline_reproduction.json",
+    "bytes": 16686,
+    "sha256": "94160b5d431bbf9823492414ae0ed420e294cb3a8bf0bd984ad72ab2b33932c0"
+  },
+  {
+    "path": "复算记录与QC/qa_delivery_four_inputs.json",
+    "bytes": 4012,
+    "sha256": "dab74ef28cbed2b479c3f00d66e3700ca134dbfab785e3dd62c350796bf38c7c"
+  },
+  {
+    "path": "复算记录与QC/qa_four_scenario_diagnostics.json",
+    "bytes": 19581,
+    "sha256": "bc151f528e1687832860f298da6162527b94c66bb41a7f88de5555a5b4a01d3f"
+  },
+  {
+    "path": "复算记录与QC/qc_four_ndvi_scenarios.json",
+    "bytes": 6651,
+    "sha256": "522ebc01415202838c88f03ca9fbeb81cfebbc05eda595bcc2c98002574bb5e0"
+  },
+  {
+    "path": "复算记录与QC/sem_model_specification.json",
+    "bytes": 6629,
+    "sha256": "354b21e85aad5c560d9b5cd7111c69d192aa21c23ab7469ba42a20bc135179d1"
+  },
+  {
+    "path": "复算记录与QC/包内四组输入复核.json",
+    "bytes": 1221,
+    "sha256": "324a65c969843f339be98ca90143c4873bfea8f9f88b698c5b30b6155b379603"
+  },
+  {
+    "path": "复算记录与QC/四组合诊断迭代值_不能用于论文.json",
+    "bytes": 71907,
+    "sha256": "2e53616a10e283eeb72b03767ddfc3f4dc1fcb9472a8033ffe3c2c226ccd16d6"
+  },
+  {
+    "path": "复算记录与QC/输入与交付QA.json",
+    "bytes": 1727,
+    "sha256": "af65b279f0c073f3ab6a9d17abe83e68280e62486b31ebb864d9e52e1d56bada"
+  }
+]

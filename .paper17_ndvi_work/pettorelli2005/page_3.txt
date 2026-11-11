@@ -1,0 +1,163 @@
+Review
+Box 1 ． AVHRR data
+TRENDS EcoIogy and EvoIution v0L20 No ． 9 September 2005
+505
+Since 1994 ， NDVI data from the AVHRR data set have been made
+publicly available over the 》 nternet (http://www.noaa.gov). Different
+AVHRR-based NDVI data sets a re also available (Table l), with
+differences in corrections applied or in the spatial and temporal
+resolutions available. They a re all de rived fro m the 4-km GlobaI Area
+Coverage (GAC) d ata collected daily by the NOAA satellites: over the
+pa st 20 yea rs, five satellites have been launched and d ata h ave been
+i nte rca li brated across the N OAA-7, 9 ， 1 1 14 and 16 satellites [ 57L
+AVHRR data are a n invaluable and irreplaceable a rch ive Of historical
+land su rface information and have literally revolutionized vegetation
+studies. Nowadays, this is the only freely available d ata set th at g ives
+daily cove rage over a n exte nsive time period (1981—present), and the
+data produced by the GlobaI lnventory M0deIIing and Mapping
+Studies (GIMMS) group show good correlation with data fro m higher
+quality sensors, such as S POT VGT and MODIS TE R RA [ 58L Such
+featu res Of these data should promote their use in ecological studies,
+particularly, fO r example, i n studies Of global climate change.
+TabIe I. The d ifferent N DVI data sets
+H owever, the spatial resolution is coa rse, making AVHRR data
+suitable fO r regional studies but limiting its usefulness for detailed
+studies i n landscapes with important heterogeneity at finer scal es [ 59L
+GAC data are g ene rated by 0 n boa rd sampling Of the full-resolution
+（ 1 ． 1 (m) data ： for a given sca n line, the firstfour pixels out Of every five
+a re averaged and only every third sca n line is processed. NDVI
+products are then generated fro m the G AC data ， using the MVC
+(Table 1 ， main text) spatial aggregation proced u re directly based
+0 n the NVDI [ 58 ， 60 ] or based on the difference betwee n NIR and
+RED [ 61L This point is of little consequence a s long as the
+resolution Of the study 0 bj ects is greater than that Of the cell size
+of the AVHRR [ 59 ] ．
+Finally, the quality of AVHRR d ata is far lower than the quality
+of the d ata collected by MODIS 0 r S POT VGT: if the biological
+question requires a smaller spatial resol ution and does not need
+vegetation data befO re 1998 ， data from MODIS 0 r S POT VGT should
+Data set
+PAL
+GVI
+GIMMS
+MOD13
+SateIlite
+NOAA
+NOAA
+NOAA
+TE RRA
+(EOS AM)
+TM/ETM
+VGT
+lnstrument Temporal span
+AVHRR
+AVHRR
+AVHRR
+MODIS
+Landsat
+SPOT
+July 1981 一
+Septem ber 2001
+May 1982—Present
+July 1981 —Present
+February 2000 一
+Present
+1984 一 2003
+April 1998—Present
+Temporal resolution
+1 day, 10-d ay,
+monthly, seasonal
+Week, monthly,
+seasonal
+BimonthIy index
+(10-day for Africa ）
+1 6 days
+1 6 days
+10 days
+be used.
+Missing data
+September 1994 一
+January 1995
+September 1994 一
+January 1995
+None
+NOne
+Range
+8 km
+16 km
+8 km
+250 m—l km
+< 1 一 30 m
+1 km
+Website
+http://daac.gsfc.nasa.gov/guides/GSFC/
+guide/avhrr_dataset.gd.html
+http://www2.ncdc.noaa.gov/docs/gviug/
+index.htm
+http://ltpwww.gsfc.nasa.gov/gimms/
+htdocs/
+http://modis.gsfc.nasa.gov/
+http://landsat.usgs.gov/
+http://www.spotimage.fr
+However ， the NDVI could also be used t0 gam novel
+insight into trophic inter-linkages ． The use of the NVDI
+as a covariate rather than a response variable has
+opened up new areas Of research in trophic interactions ．
+Recently, studies have coupled vegetation dynamics, as
+assessed by the NVDI, with biodiversity [ 35 ， 40 ， 41L animal
+species distribution [ 42 一 44L the movement patterns of
+animals [ 45 ， 46 ] and the performance 0f animal popu-
+lations [ 24 47 一 49L Examples include the mean arrival
+date for yearling barn swallows Hirundo rustLca in Algeria
+[ 45 ] and the expansion rate of roe deer Capre01us
+capreolus populations in Norway [ 46L ln addition ，
+NDVI-based estimates 0f productivity in the USA were
+reported tO explain up tO 61 ％ of avian species richness
+[ 40 ] ． ln Eritrea ， the home ranges of the grivet monkey
+Cercopithec us aethiops exhibited a significantly higher
+average NDVI value compared with the average of the
+survey area [ 44 ] ． ln Mauritania and on the Red Sea coast ，
+high resource abundance ， indicated by high NDVI values ，
+w as shown tO promote locust Schistocerca gre 0
+multiplication, whereas contraction Of resources intO
+small patches (reflected by the spatial aggregation of
+pixels with high NDVI values) increased locust concen-
+tration [ 50L These results have direct implications for the
+understanding of the spatial distribution of locust out-
+breaks [ 50L Body mass and calf survival of reindeer
+Rangifer tarandus was shown to be positively correlated
+with the NVDI in spring [ 24 ， 48L whereas the timing ofthe
+sprmg vegetation flush ， identified from NDVI time-series ，
+and the rutting and calving of red deer Cervus elaphus
+were all found to be later in Norway than in France [ 51L
+www.sciencedirect.com
+For the pied flycatcher Ficedula 九 ， 况 e c the NVDI has
+been successfully linked to breeding success 49 ] ； in barn
+swallows ， it was related tO clutch size ， breeding date, tail
+and wing lengths [ 47L
+As demonstrated by the previous examples, NDVI
+enables ecologlsts t0 quantify at vanous spatial scales
+how changes in vegetation distribution, phenology and
+productivity will affect upper trophic levels ． This makes it
+possible, for example ， to determine how much of the
+climatic effects on herbivore behavior ， performances
+and dynamics are operating through the effects of climate
+on vegetation distribution ， phenology and productivity,
+(i.e. through trophic interactions) ， Such insight might help
+in efforts tO manage and conserve herbivores and the
+community associated tO their presence ， one
+can then target the right factor, if it is feasible to do · To
+know the actual mechanisms and pathways by which
+environmental changes affect herbivores will also enable
+better predictions of further changes. For example ， if
+global warming mainly operates through decreasing
+snow depth, we are likely tO see no further responses tO
+mcreased temperature once there iS no permanent
+cover established. However ， if climate operates through
+plants ， detailed knowledge about how plants respond t0
+temperature will enable more robust predictions to future
+scenarios Of envn•onmental change ．
+EcoIogicaIIy relevant measures that can be derived fro m
+NDVI time-series
+lt can be complicated to couple information 什 om two
+trophic levels when each is assessed at different temporal

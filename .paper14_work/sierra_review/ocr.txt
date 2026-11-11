@@ -1,0 +1,471 @@
+@@ PAGE 1 / 8 @@
+Data in Brief 61 （ 2025 ） 111760
+Contents lists available at ScienceDirect
+Data in Brief
+journal homepage: www.elsevier.com/locate/dib
+ELSEVIER
+Data Article
+ata
+n Brief
+Check for
+updates
+A dataset on potentially
+groundwater-dependent vegetation in the
+Sierra Nevada Protected Area (Southern Spain)
+and its underlying NDVI-derived
+ecohydrological attributes
+Javier CabeIIo a'b'*, Montserrat Escudero-Clares ，
+a d e
+SergiO Martos-RosiIIoC, J. Jesfis Casas ，
+， Juanma Cintas ，
+Thomas Zakalul<C, Marfa J. Salinas-Boni110 ，
+aAndaIusian Center for GIobaI Change (ENGLOBA 丿 ， Ctra. de Sacramento s/n, La Cafiada de San Urbano, 04120 ，
+AImerfa Spain
+b Dept. 可 Biology and Geology, University 可 AImerfa, Ctra. de Sacramento s/n, 忉 Cafiada de San Urbano, 04720 ，
+AImerfa Spain
+IGME-CSIC, GeoIogicaI and Mining lnstitute Spain - Spanish NationaI ResecII ℃ h Council, Urb. AIcåzar del Genil,
+4-Edif. ZuIema, B 可 0 and 7 OC, Granada 18006 ， Spain
+dEEZA, CSIC. Ctra. de Sacramento s/n, 忉 Cafiada de San Urbano, 04720 ， Almerfa Spain
+月 soci 茈 n SO mb. Ca LOS Naranjos, AIhama de AImerfa 04400 ， Spain
+A R T I C L E
+ArticIe history:
+I N F 0
+Received 9 May 2025
+Revised 28 May 2025
+Acce pted 2 June 2025
+AvaiIabIe online 9 June 2025
+Corresponding author.
+A B S T R A C T
+This dataset provides a spatially explicit classification 0f PO-
+tentially groundwater-dependent vegetatio n (pGDV) in the
+Sierra Nevada Protected Area (Southern Spain), generated us-
+ing Sentinel-2 i magery （ 2019 一 2023 ） and ecohydrological at
+tributes derived from NDVI time series. NDVI metrics we re
+calculated from cloud- and snow-filtered Sentinel-2 Level 2A
+images processed in Google Earth Engine. Monthly NDVI val-
+ues were used tO extract three ecohydrological indicators:
+dry-season NDVI ， d ry-wet seasonal NDVI difference, and in-
+terannual NDVI variability. Based on quartile classifications
+Of these indicators, 64 ecohydrological vegetation classes
+E-mail address: jcabello@ual.es (). CabeIIo).
+· @jcabellopi (). CabeIIo), · @MontseEscuderoC (). Escudero-CIares), ： @MJSalinas222
+Social media:
+Salinas-BoniIIo)
+https ：//doi.org/10 · 1016 / j · dib ． 2025 ． 111760
+2352 一 3409 / 0 2025 The Authors. PubIished by EIsevier lnc. This is an open access article under the CC BY license
+http://creativecommons.org/licenses/by/4.O/
+
+@@ PAGE 2 / 8 @@
+2
+J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60
+Dataset link: Map Of potential
+groundwater-dependent vegetation in the
+Sierra Nevada Protected Area (Southern
+Spain) based on NDVI-derived
+ecohydrological attributes (Original data)
+Keywords:
+Dryland mountains
+Ec0hydr010gy
+Groundwater
+NDVI time serles
+Remote sensing
+Specifications Table
+SubJect
+Specific subject area
+Type Of data
+Data collection
+Data source location
+Data accessibility
+Related reseal ℃ h article
+were defined. These were further clustered intO
+three levels Of potential groundwater dependence LIS-
+i ng hierarchical
+clustering techniques, differentiating
+between alpine and lower-elevation aquifer zones.
+The dataset includes raster layers (GeoTIFF) of the ecohydro-
+logical classes and pGDV type s at 10 m spatial resolution, a
+CSV file with descriptive statistics for each class, and com-
+plete metadata. AII spatial I ayers a re projected in ETRS89 /
+UTM Zone 30N (EPSG: 25830 ） and are ready for visualization
+and analysis in standard GIS platforms. PartiaI validation Of
+the classification was performed using spring location data
+and the distribution 0f hygrophilous plant species from Ofi-
+cial conservation databases. This available dataset enables re-
+producible analysis Of vegetation—groundwater relationships
+in dryland mountain ecosystems. lt supports comparative re-
+search across regions, facilitates the study Of groundwater
+buffering effects on vegetation function, and offers a trans-
+ferable framework for ecohydrological classification based on
+remote sensing. The data can be reused tO inform biodi-
+versity conservation, groundwater management ， and climate
+cha nge adaptation strategies in the Mediterranean and other
+water-limited mountain reglons.
+0 2025 The Authors. PubIished by EIsevier lnc.
+This is an open access article under the CC BY license
+http://creativecommons.org/licenses/by/4.O/
+Earth & Environmental Sciences
+Ecohyd ro 1 ogy.
+GeoTIFF files （ raster layers), ShapefiIes (vector layers), CSV tables, Metadata
+documentation. The dataset consists Of processed, a na lyzed ， and derived
+data products
+SentineI-2 LeveI 2A imagery （ 2019 一 2023 ） downloaded from the Copernicus
+Open Access H ub (https://scihub.copernicus.eu/) was processed in Google
+Earth Engine tO compute NDVI time series, filtering pixels with > 10 ％ cloud
+and > 1 ％ snow probability. Areas with NDVI < 0 · 1 were excluded. QuartiIes
+categori ze d NDVI-based attributes intO 64 ecohydrological classes, then
+clustered using hierarchical analysis (EucIidean distance, complete linkage)
+i ntO three pGDV levels. Spatial and statistical analyses were done in QGIS
+Desktop (v 3 一 2 & 4 ） and R （ V423 〗
+Sierra Nevada Protected Area (NaturaI and NationaI Parks), southern Spain
+（ 37 · 0 。 一 37 · 2 。 N ， 2 · 5 。 一 3 ． 5 。 W ） (Fig. 1 〗 Data were generated and processed at
+the AndaIusian Centre for GlobaI Change （ Centro Andaluz para el Cambio
+GIobaI, University Of AImerfa) and are publicly available in Zenodo.
+Repository name: ZENODO
+Data identification number: 10 ． 5281 / zenodo ． 15315192
+Direct URL to data ： https://zenodo.org/records/15315192
+lnstructions for accessing these data: Open access; all files ca n be freely
+downloaded from the Zenodo repository.
+CabeIIo, J., Escudero-CIares, M., Martos-RosiIIo, S., Casas, J. J., Cintas, J.,
+ZakaIuk, T ” & SaIinas-BoniIIo, M. J. （ 2025 〗 Groundwater-dependent
+vegetati on in semi-arid Mediterranean mountains: The hidden role Of
+hard-rock aquifers. Submitted t0 the Journal 0f Hydrology.
+
+@@ PAGE 3 / 8 @@
+J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 / Data Brief 61 （ 2025 丿 717 / 60
+1 · Value of the Data
+3
+· Groundwater-dependent ecosystems (GDVs) provide essential ecosystem services but a re in-
+creasingly threatened by water overextraction and climate ch a nge · Effective conservation Of
+GDVs requires the ability t0 detect and map vegetation potentially supported by groundwa-
+ter. Unlike most studies focus solely on vegetation distribution, the dataset enables users
+tO explore hOW underlying aquifer characteristics (e.g., fractured metamorphic VS. carbonate
+systems) may shape the persistence and ecological function Of GDVs.
+· This dataset provides a spatially explicit classification 0f potentially groundwater-dependent
+vegetation (pGDV) in a semi-arid Mediterranean mountain SYSte m [ 1 ] · By linking functional
+vegetation traits tO spatial patterns Of groundwater influence, the dataset offers a nove 1 ap
+proach tO understanding ecohydrological functioning in dryland mountain ecosystems.
+· The NDVI-based ecohydrological attributes included in the dataset (dry-season N DVI, dry-
+we t seasonal NDVI difference, and interannual NDVI variability) allow researchers t0 assess
+vegetation resilience and potential groundwater buffering across spatial and temporal scales.
+。 The dataset supports CO m p a rative research across mountain systems by offering a replicable
+frameworl< tO analyze vegetation—groundwater interactions. lt facilitates the identification Of
+functional vegetation patterns and their vulnerability tO climate-driven changes, contributing
+tO broader assessments Of ecosystem resilience in water-limited environments.
+。 This dataset ca n inform climate adaptation strategies and conservation by highlighting areas
+where groundwater maintains ecological stability under increasing drought and snowpacl<
+decline in Mediterranean mountain regions.
+2 · Background
+Recharge in mountain aquifers through snowmelt and rainfall runoff creates favourable con-
+ditions for vegetated areas likely reliant on groundwater [
+] · However, despite their critical
+role in the water cycle, research on groundwater-dependent vegetation (GDV) remains limited
+in mountain environments [41. This ga p is particularly relevant in arid regions, where alpine
+aquifers [ 5 ] and fractured hard-rock aquifers, b0th with limited storage capacity [6], ca n sustain
+mountain vegetation under conditions Of I OW precipitation and high evapotranspiration demand
+in arid regions [
+MOSt studies focus on GDV distribution, overlool<ing the influence Of aquifer types on their
+persistence and function [e.g.,
+] · Mountain landscapes host diverse aquifer types that differ
+8 一 10
+in recharge mechanisms, retention capacity, and ecological influence. Mapping areas Of potential
+GDV (pGDV) considering aquifer types is essential tO understanding spatial patterns Of ground-
+wate r dependence and assessing GDV vulnerability tO climate change. This dataset provides a
+spatially explicit classification Of pGDV in the Sierra Nevada protected area (Southern Spain),
+based on NDVI-derived ecohydrological indicators and a reclassified vegetation map. Th e region
+hosts three hydrological units: Alpine aquifer zone (AAZ), Slope aquifer zone (SAZ), and Car-
+bonate aquifer zone (CAZ). lt complements the associated research article by mal<ing the data,
+methods, and classification outputs accessible for reuse ， replication, and application in Other re 一
+glons.
+3 · Data Description
+Th e dataset is organized intO s eve ra I files that provide the classification Of potentially
+groundwater-dependent vegetation (pGDV) in th e Sierra Nevada Protected Area and the ecohy-
+drological indicators used t0 generate it [ 11 ] (Fig. 1 ） · The files a re provided in GeoTIFF and CSV
+formats, accompanied by metadata in PDF and TXT format. The dataset includes:
+
+@@ PAGE 4 / 8 @@
+J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60
+OE
+500000E
+1000 開 OE
+OE
+AAZ
+490000E
+SAZ
+2200000E
+CAZ
+4400000E
+10 km
+0
+455000E
+Orthophoto
+0 m
+525000E
+The 3 pGDV
+The 64 ecohydrological classes of pGDV
+0 謁
+pGDV2 0 pGDV3
+211
+311
+111
+411 444
+Fig. 1 · Location and spatial structure Of the dataset on groundwater-dependent vegetation (pGDV) in Sierra Nevada,
+southeastern Spain. Top: location maps at the European and lberian PeninsuIa scales. Middle: distribution Of aquifers
+zones ()A 乙 alpine—azonal zone ， SA 乙 subalpine—azonal zone ， CA 乙 colline—azonal zone) across Sierra Nevada. Bottom:
+detailed view Of a representative area showing 0 ） orthophoto, (ii) the 64 ecohydrological vegetati on classes (pGDV)
+derive d from structural and functional (NDVI-based) characteristics, and (iii) a simplified classification intO three main
+pGDV types.
+· pGDV—map—SierraNevada—IOm.tif: raster I aye r (GeoTIFF) showing the final classification Of
+vegetation int0 three levels 0f potential groundwater dependence (pGDV1 ： low, pGDV2:
+moderate, pGDV3: high), at 10 m spatial resolution.
+。 ec0Hydr064_cIasses—SierraNevada IOm.tif: raster laye r with 64 ecohydrological classes de-
+rive d from N DVI metrics.
+。 ecoHydro_attributes_SierraNevada.csv: table with descriptive statistics (mean, SD, min,
+max) for each Of the 64 classes across the three NDVI-based variables.
+
+@@ PAGE 5 / 8 @@
+J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 / Data Brief 61 （ 2025 丿 717 / 60
+· README.txt: brief description Of the dataset content and file structure.
+5
+· metadata—pGDV—dataset.pdf: full metadata including methodological summary, variable
+descriptions, and legend fO 「 map interpretation.
+AII spatial files use the ETRS 89 / UTM zone 30N projection (EPSG: 25830 ） · The data can be vi-
+sualized in standard GIS software (e.g., QGIS, ArcGIS) and analyzed using geospatial or statistical
+tOOls.
+4 · Experimental Design ， Materials and Methods
+Th e pGDV dataset was generated through a multi-step approach integrating remote sensing
+time series, ecohydrological metrics, and existing aquifers maps (Fig. 2 ） · Th e process wa S struc-
+9
+0
+匚 >
+0
+0
+0
+0
+Snow mask （ > 1 ％ ）
+monthly Of each year
+Apply SOil and s now masks
+Sentinel-2
+COllection （ 2019 · 2023 ）
+QuaIity filtering
+NDVI monthly Of
+each year
+V e10
+SOil mask
+(NDVI<O.I)
+Dry-wet NDVI
+t Dry NDVI
+difference in the AAZ
+(August)
+(August - June)
+Setting thresholés by
+Reclassification
+Dry-wet NDVI
+Dry NDVI
+difference
+（ 100 ， 200 ， 300 ）
+（ 10 ， 20 ， 30 ）
+CV NDVI
+interannual
+（ 1 ， 2 ， 3 ）
+《 Dry-wet NDVI
+difference in the SAZ and
+CAZ (August - May)
+Reclassification
+Dry-wet NDVI
+Dry N DVI
+difference
+（ 100 ， 200 ， 300 ）
+（ 10 ， 20 ， 30 ）
+！ CV NDVI
+interanual
+CV NDVI
+interannual
+〈 1 ， 2 ， 3 ）
+SPEI
+0
+0 ·
+0
+0
+0
+0
+FAME
+0
+0
+0
+0
+0
+0
+Springs
+0
+0
+0
+0
+0
+64 classes for alpine zone
+Hlerarchical
+Springs analysis
+64 classes for sloping and carbonate zone
+Hierarchical clustering
+3 potencial G DV
+Hygrophilous vegetation analysis
+Fig. 2 · Workflow fO 「 generating the pGDV dataset through a multi-step approach integrating remote sensing time series,
+ecohydrological metrics, and aquifer mapping.
+tured in five main phases:
+1 · Data acquisition: SentineI-2 Leve 1 2A i m age ry from January 2019 tO December 2023 wa s
+obtained from the Copernicus Open Access Hub. A tota I of 2 537 images covering the
+Sierra Nevada Protected Are a were used. CIoud and snow masl<ing were applied using
+SentineI-2 QA bands (MSK_CLDPRB, MSK_SNWPRB), excluding pixels with > 10 ％ cloud
+probability and > 1 ％ snow probability. A minimum NDVI threshold of 0 · 1 wa s used t0
+masl< non-vegetated areas ， validated using high-resolution orthophotos (PNOA).
+2 · CaIculation Of NDVI-based ecohydrological attributes: Monthly NDVI wa s calculated using
+SentineI-2 bands B4 (red) and B8 (NIR). Three attributes we re derived: Dry-season NDVI
+（ N DVI in August), Dry-wet N DVI difference (May/June vs August, altitudinally adjusted),
+and lnterannual NDVI coeficient 0f variation （ CV from 2019 一 2023 ）
+3 · CIassification int0 ecohydrological classes and pGDV levels: F0110wing th e functional clas-
+sification approach proposed by [ 12L each NDVI-derived ecohydrological attribute wa s di-
+vided intO four quartile-based categories, representing gradients Of ecosystem functioning.
+TO facilitate class labeling and subsequent interpretation, numerical codes we re assigned
+tO each category (e.g., 100 一 400 for dry-season NDVI, 10 一 40 for dry-wet N DVI difference,
+
+@@ PAGE 6 / 8 @@
+6
+J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60
+and 1 一 4 for interannual N DVI (V). The combination Of the three attributes resulted in
+64 unique ecohydrological classes, each reflecting a distinct functional profile potentially
+linked tO groundwater availability. FO r each class, summary statistics (mean, SD, min, max)
+we re calculated and used as input for hierarchical clustering (Euclidean distance, com-
+plete linkage). Th e resulting dendrogram wa s pruned t0 define three levels 0f potential
+groundwater dependence: pGDV1 00w ） ， pGDV2 (moderate), and pGDV3 (high). Separate
+clustering wa s applied tO low-elevation （ SA 乙 CAZ ） and high-elevation （ AAZ ） zones.
+4 · Spatial analysis and mapping: Raster I aye 巧 we re generated at 10 m spatial resolution for
+both the 64 ecohydrological classes and the three-level pGDV classification. A CSV file wa s
+also produced containing descriptive statistics for each class. AII layers use the ETRS 89 /
+UTM Zone 30N coordinate system (EPSG: 25830 ） ·
+5 · TOOIS and software used: NDVI processing and filtering were performed in Google Earth
+Engine. Statistical and clustering analyses we re conducted in R （ v4 · 2 · 3 ） ， using the pacl<-
+ages: raster, sp, terra, rgdal, cluster, factoextra, FactoMineR, NbClust, and ggplot2. Spatial vi-
+sualization and map export were done in QGIS Desktop 3 · 28 · 4 ·
+6 · PartiaI validation Of the pGDV classification: TO assess the ability Of the pGDV map tO de-
+tect known groundwater-dependent vegetation, a partial validation wa S conducted using
+tWO spatial indicators: i) Springs georeferenced across S eve n rive r catchments (Nechite,
+Mecina, Bérchules, Alhorf, Bernal, Ohanes), compiled from published sources [
+] and
+13 14
+field data; and (i) Occurrence records 0f hygrophilous plant species, selected based on ex-
+pert classifications [
+] from th e Sierra Nevada Endangered FIora Database (FAME), an Of-
+ficial database managed by the Andalusian EnvironmentaI lnformation Ne tWO rl< (REDIAM)
+that compiles validated records Of threatened plant species across the region [
+7 · Spatial intersections between these indicators and the pGDV map we re used tO compute
+Producer ， S Accuracy, focusing on omission e 「 ro rs (i.e., known groundwater-dependent IO-
+cations not classified as pGDV3). Th e analysis considered only presence data, as absence
+records we re not reliable for validation purposes. Records with imprecise georeferencing
+we re excluded. A chi-square （ 天 2 ） test wa S used tO evaluate whether the spatial association
+between indicators and pGDV3 class wa S statistically significant. Analyses were conducted
+separately by hydrological zone （ AA 乙 SA 乙 CAZ).
+Limitations
+S eve ra I limitations should be considered when using this dataset. First, the N DVI time series
+used t0 derive ecohydrological attributes are based on Sentinel-2 imagery with a 10 m spatial
+resolution, which m ay not fully capture narrow rlparian corridors or small groundwater dis-
+ch a rge areas. Cloud and snow filtering, although applied systematically, may lead t0 data gaps
+in high-elevation zones ， especially during winter months.
+Th e NDVI threshold of 0 · 1 used t0 masl< non-vegetated areas may exclude low-biomass
+ecosystems with some degree Of groundwater dependence, such as sparsely vegetated wetlands
+or early-successional habitats. Th e classification intO pGDV levels is based on remotely sensed
+proxies, which, although validated using spatial indicators (springs and hygrophilous species),
+dO not directly measure groundwater use.
+Vegetation typologies we re derived from a reclassification Of an existing regional map
+(VEGEIO), which, although detailed, may contain classification uncertainties at ecotones or
+mixed land cover types. Finally, the validation wa s based on presence-only data, which limits
+the ability tO assess overall classification accuracy.
+Despite these limitations, the dataset provides a consistent and reproducible framework fO 「
+identifying and comparing groundwater-dependent vegetation in semi-arid mountain environ-
+ments.
+
+@@ PAGE 7 / 8 @@
+J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 / Data Brief 61 （ 2025 丿 717 / 60
+Ethics Statement
+7
+Th e authors confirm that they have read and follow the ethical requirements for publication
+in Data in Brief. The current 叭 ℃ rk does not i nvo lve human subjects, animal experiments, or any
+data collected from social media platforms.
+CRediT Author Statement
+Javier Cabello: conceptualization, methodology design, formal analysis, investigation, writing
+- reviwing and editing, and funding. Montserrat Escudero-CIares: methodology, software, data
+curation, formal analysis, revi ewi ng and editing. SergiO Martos-Rosillo: conceptualization, lnves-
+tigation, writing 一 reviewing and editing. J. Jesüs Casas: conceptualization, investigation, funding,
+revlewing and editing. Juanma Cintas: software, data curation, revi ew and editing. Thomas Za-
+kaluk: investigation, reviewing and editing. Marfa J. Salinas-Bonillo: conceptualization, formal
+analysis, investigation, funding, writing and reviewing
+Data AvaiIabiIity
+Map Of potential groundwater-dependent vegetation in the Sierra Nevada Protected Area
+(Southern Spain) based on NDVI-derived ecohydrological attributes (Original data) (ZEN-
+0D0 ） ·
+Acknowledgments
+This study wa s supported by the project "Nature-Based Solutions for resilient management
+Of the hydrological cycl e in mountain areas: the traditional wate r management systems Of Sierra
+Nevada (NBS4Water)" （ 2768 / 2021 〗 funded by the Organismo Aut6nomo Parques Nacionales
+(OAPN). Additional support wa s provided by the "PIan Complementario de I+D+i en Biodiver-
+sidad (PCBIO)" through the Recovery PIan 一 NextGenerationEU, the Spanish Ministry Of Science,
+and the Regional Government Of Andalusia （ PID2022 一 1400920B 一 100 ， MCIN/AEI/FEDER, (E), and
+by the INDALO Project, co-funded by ERDF and the Regional Government Of Andalusia in collab-
+oration with LifeWatch ERIC. AdditionaI funding wa s WaSHa proyect, funded by Fundaci6n BiO-
+diversidad Of the Ministerio para la Transici6n Ec016gica Y el Re tO Demogräfico (Spain), through
+the call for projects that contribute tO the implementation Of the NationaI Plan for Adaptation tO
+Climate Change （ 2021 一 2030 ） ； and the project "lmpact, monitoring and assessment Of glObal and
+climate change on wate r resources in high-mountain NationaI Pa rl< s (CCPM)" （ SPIP2021 一 02741 ，
+OAPN).
+Declaration Of Competing lnterest
+Th e authors declare that they have no known competing financial interests or personal rela-
+tionships that could have appeared t0 influence the WO rl< reported in this paper.
+References
+卩 ] CabeIIo, J. ， Escudero-CIares, M., Martos-RosiIIo, S., Casas, J. J., Cintas, J., ZakaIuk, T., & SaIinas-BoniIIo, M. J. (under re-
+view). Groundwater-dependent vegetation in semi-arid Mediterranean mountains.• The hidden role 可 hard-rock aquifers.
+Manuscript under review in JournaI Of HydI ℃ logy.
+
+@@ PAGE 8 / 8 @@
+8
+J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60
+[ 2 ] D. Eamus, R. Froend, R. Loomes, G. Hose, B. Murray, A functional methodology fO 「 determining the gro undwa-
+ter regime needed tO maintain the health Of gr ℃ undwater-dependent vegetatio n, AustraI. J. Bot. 54 （ 2006 ） 97 一 114 ，
+doi ： 10 ， 1071 / BT0503L
+卩 ] I.C. Pérez Hoyos, N.Y. Krakauer, R. l<hanbilvardi R.A. Armstrong, A review Of advances in the identification and
+characterization Of groundwater dependent ecosystems using geospatial technologies, Geosciences 6 （ 2 ） （ 2016 ） 17 ，
+doi: 103390 / geosciences6020017 ·
+[ 4 ] L. El-Hokayem, P. De Vita, C. Conrad, LocaI identification Of groundwater dependent vegetation using high-resolution
+SentineI-2 data 一 a Mediterranean case study, ECOI. lndicat. 146 （ 2023 ） 109784 ， doi: 10 ． 1016 / J ． ecolind ． 2022 ． 109784 ．
+[ 5 ] M. Hayashi, Alpine hydrogeology: the critical role Of groundwater in sourcing the headwaters Of the world, Ground-
+water 58 （ 4 ） （ 2020 ） 498 一 510 ， doi ： 10 ， 1111 / gwat ， 12965 ，
+[ 6 ] A. Rodhe, N. Bockgård, Groundwater recharge in a hard rock aquifer: a conceptual model including surface-loading
+effects, J. HydroI. 330 （ 3 一 4 ） （ 2006 ） 389 一 401 ， doi ： 10 · 1016 / j.jhydrol.2006 ． 03 ． 032 ．
+[ 7 ] M.M. Rohde, C.M. Albano, X. Huggins, K.R. l<lausmeyer, C. Morton, A. Sharman, E. Zaveri, L. Saito, 乙 Freed,
+J.K. Howard, N. JOb, H. Richter, K. Toderich, A.-S. Rodella, T. GIeeson, J. Huntington, H.A. Chandanpurkar, A.J. Purdy,
+J.S. Famiglietti, M.B. Singer, D.A. Roberts, K. CayI or, J ℃ ． SteIIa, Groundwater-dependent ecosystem map exposes
+global dryland protecti on needs, Nature 632 （ 2024 ） 101 一 107 ， doi: 10 ． 1038 / S41586 一 024 一 07702 一 8 ．
+[ 8 ] 0 ， Barron, I. EmeIyanova, T. Van Niel, D. Pollock, G. Hodgson, Mapping groundwater-dependent ecosystems using
+remote sensing measures Of vegetati on and moisture dynamics, Hydrol. Process. 28 （ 2014 ） 372 一 385 ， doi ： 10 ． 1002 /
+hyp · 9609 ·
+[ 9 ] D. Eamus, S. ZoIfaghar, R. Villalobos-Vega, J. CIeverIy, A. Huete, Groundwater-dependent ecosystems: rece nt insights
+from satellite and field-based studies, HydroI. Earth Syst. Sci. 19 （ 2015 ） 4229 一 4256 ， doi: 10 ， 5194 / hess 一 19 一 4229 一 2015 ·
+[ 10 ] S. Gou, S. GonzaIes, G.R. Miller, Mapping potential groundwater-dependent ecosystems for sustainable management,
+Groundwater 53 （ 1 ） （ 2015 ） 99 一 110 ， doi ： 10 ． 1111 / gwat ． 12169 ·
+[ 11 ] J. Cabello, M. Escudero-CIares, M.J. SaIinas-BoniIIo, J. Cintas, JJ. Casas, S. Martos-RosiIIo, Map Of potential
+groundwater-dependent vegetation in the Sierra Nevada Protected Area (Southern Spain) based on NDVI-derived
+ecohydrological attributes [Data set], Zenodo （ 2024 ） ， dOi ： 10 ． 5281 / zenodo ． 15315192 ·
+卩 2 ] B.P. CazorIa, J. Cabello, A. Reyes, E. Guirado, J. Pefias, A.J. Pérez-Luque, D. AIcaraz-Segura, A d ataset on ecosystem
+functional diversity in Sierra Nevada ()E Spain) derived from Earth observation data, Earth Syst. Sci. Data 15 （ 4 ）
+（ 2023 ） 1749 一 1772 ， doi: 10 ． 5194 / essd 一 15 一 1749 一 2023 ．
+卩 3 ] S. Martos-RosiIIo, A. Ruiz-Constån, A. GonzåIez-Ram6n, R. MediaviIIa, J.M. Martfn-Civantos, F.J. Martfnez-Moreno,
+J. J6dar, C. Marfn-Lechado, A. MediaIdea, J. Galind0-ZaIdfvar, A. Pedrera, J.J. Durån, The oldest managed aquifer
+recharge system in Europe: New insights from the Espino recharge channel (Sierra Nevada, southern Spain), J. Hy-
+drol. 578 （ 2019 ） 124047 ， doi ： 10 ． 1016 / j.jhydrol.2019 ． 124047 ．
+卩 4 ] T. ZakaIuk, J. J6dar, A. GonzåIez-Ram6n, J.M. Martfn-Civantos, L.J. Lambån, S. Martos-RosiIIo, Ancestral managed
+aquifer recharge systems and their impacts on the flOW regime Of a semi-arid alpine basin (Sierra Nevada, Spain),
+J. HydroI. 54 （ 2024 ） 101870 ， doi: 10 · 1016 / j ． ejrh · 2024 ． 101870 ．
+卩 5 ] Juan LO ri te, CarIos SaIazar, And rea Ros-Candeira, D. AIcaraz-Segura, A trait database Of the vascular flora Of Sierra
+Nevada ()E Spain), PANGAEA （ 2020 ） ， doi ： 10 ． 1594 / PANGAEA ， 917883 ．
+[ 16 ] Mateos, M.A., GiI, Y., Lagu na, D., ViIches, J., Sänchez, A., Giménez de Azcårate, F., Rodrfguez, C. ， Cäceres, F. y Moreira,
+J.M. （ 2010 ） ： FAM E. ApIicaci6n Web de apoyo al seguimiento, localizaci6n e integraci6n de la informaci6n sobre
+flora amenazada Y de interés generada en AndaIucfa. En: Ojeda, J., Pita, M.F. y Vallejo, I. (Eds.), Tecnologfas de la
+lnformaci6n Geogråfica: La lnformaci6n Geogråfica al servicio de IOS ciudadanos. Secretariado de Publicaciones de
+la Universidad de SeviIIa. SeviIIa. Pp. 222 一 229 ． ISBN: 978 一 84 一 472 一 1294 一 1

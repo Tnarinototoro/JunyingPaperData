@@ -1,0 +1,1147 @@
+[
+  {
+    "key": "wiley_home",
+    "url": "https://onlinelibrary.wiley.com/journal/1526100x",
+    "checked_date": "2026-11-09",
+    "status": 403,
+    "final_url": "https://onlinelibrary.wiley.com/journal/1526100x",
+    "bytes": 5515,
+    "title": [
+      "Just a moment..."
+    ],
+    "contexts": []
+  },
+  {
+    "key": "wiley_scope",
+    "url": "https://onlinelibrary.wiley.com/page/journal/1526100x/homepage/productinformation.html",
+    "checked_date": "2026-11-09",
+    "status": 403,
+    "final_url": "https://onlinelibrary.wiley.com/page/journal/1526100x/homepage/productinformation.html",
+    "bytes": 5693,
+    "title": [
+      "Just a moment..."
+    ],
+    "contexts": []
+  },
+  {
+    "key": "wiley_author",
+    "url": "https://onlinelibrary.wiley.com/page/journal/1526100x/homepage/forauthors.html",
+    "checked_date": "2026-11-09",
+    "status": 403,
+    "final_url": "https://onlinelibrary.wiley.com/page/journal/1526100x/homepage/forauthors.html",
+    "bytes": 5648,
+    "title": [
+      "Just a moment..."
+    ],
+    "contexts": []
+  },
+  {
+    "key": "wiley_metrics",
+    "url": "https://onlinelibrary.wiley.com/page/journal/1526100x/homepage/journalmetrics.html",
+    "checked_date": "2026-11-09",
+    "status": 403,
+    "final_url": "https://onlinelibrary.wiley.com/page/journal/1526100x/homepage/journalmetrics.html",
+    "bytes": 5681,
+    "title": [
+      "Just a moment..."
+    ],
+    "contexts": []
+  },
+  {
+    "key": "wiley_oa",
+    "url": "https://onlinelibrary.wiley.com/page/journal/1526100x/homepage/openaccess.html",
+    "checked_date": "2026-11-09",
+    "status": 403,
+    "final_url": "https://onlinelibrary.wiley.com/page/journal/1526100x/homepage/openaccess.html",
+    "bytes": 5648,
+    "title": [
+      "Just a moment..."
+    ],
+    "contexts": []
+  },
+  {
+    "key": "ser_journal",
+    "url": "https://www.ser.org/page/RestorationEcology",
+    "checked_date": "2026-11-09",
+    "status": 403,
+    "final_url": "https://www.ser.org/page/RestorationEcology",
+    "bytes": 5459,
+    "title": [
+      "Just a moment..."
+    ],
+    "contexts": []
+  },
+  {
+    "key": "ser_journal_alt",
+    "url": "https://www.ser.org/page/REJournal",
+    "checked_date": "2026-11-09",
+    "status": 403,
+    "final_url": "https://www.ser.org/page/REJournal",
+    "bytes": 5432,
+    "title": [
+      "Just a moment..."
+    ],
+    "contexts": []
+  },
+  {
+    "key": "crossref",
+    "url": "https://api.crossref.org/journals/1526-100X/works?sort=published&order=desc&rows=15&filter=until-pub-date:2026-11-09",
+    "checked_date": "2026-11-09",
+    "status": 200,
+    "final_url": "https://api.crossref.org/journals/1526-100X/works?sort=published&order=desc&rows=15&filter=until-pub-date:2026-11-09",
+    "bytes": 216112,
+    "items": [
+      {
+        "DOI": "10.1111/rec.70598",
+        "title": [
+          "Including the action of inaction in restoration decision‐making: a coastal perspective"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              8
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-05-11",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-26",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-11-08",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70598",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70598",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70598",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70589",
+        "title": [
+          "Water availability mediates the effectiveness of precision and bet‐hedging seeding strategies in wetland restoration"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              5
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-04-05",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-13",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-11-05",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70589",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70589",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70589",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70599",
+        "title": [
+          "Native grass cover as a field indicator of mycorrhizal inoculum potential in southwestern drylands"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              5
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-07-10",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-26",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-11-05",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70599",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70599",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70599",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70595",
+        "title": [
+          "Cost‐effective assessment of forest restoration projects: merging advanced techniques with comprehensive analysis"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              3
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-07-02",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-22",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-11-03",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70595",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70595",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70595",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70596",
+        "title": [
+          "Nursery fertilization shapes physiological drought responses but does not enhance field survival in\n                    <i>Cryptocarya alba</i>\n                    from Mediterranean central Chile"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              3
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-01-22",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-23",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-11-03",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70596",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70596",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70596",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70590",
+        "title": [
+          "Responses of peatland waders to large‐scale, non‐native forestry removal: measuring changes in edge effects after 20 years"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              3
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-08-05",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-15",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-11-03",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70590",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70590",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70590",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70593",
+        "title": [
+          "Trophic relationships at a restoration reference site identify key plant resources for a declining songbird"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              11,
+              3
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-03-13",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-21",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-11-03",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70593",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70593",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70593",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70592",
+        "title": [
+          "Deciduous forest restoration alters but does not restore functional and phylogenetic diversity of saproxylic beetles"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              28
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-04-20",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-19",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-28",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70592",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70592",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70592",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70591",
+        "title": [
+          "Large‐scale rewetting and shading experiment reveals optimum conditions for tropical peat swamp forest restoration"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              27
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2025-09-02",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-16",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-27",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70591",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70591",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70591",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70568",
+        "title": [
+          "From overgrazing to restoration: recovery strategies of dryland species after biomass removal"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              26
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2025-11-20",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-09-24",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-26",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70568",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70568",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70568",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70588",
+        "title": [
+          "Variation in the effectiveness of native microbial amendments for coastal dune restoration"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              23
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-01-22",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-12",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-23",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70588",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70588",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70588",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70580",
+        "title": [
+          "Long‐term restoration outcomes in biodiversity offsetting: evaluating 20 years of habitat development and target attainment"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              22
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-03-02",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-07",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-22",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70580",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70580",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70580",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70584",
+        "title": [
+          "Restoration age, landscape diversity, and connectivity affect epigeic beetle diversity in multiple aggregates' quarries of Cyprus"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              21
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-02-11",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-09",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-21",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70584",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70584",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70584",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70582",
+        "title": [
+          "Long‐term restoration of river connectivity drives recovery of a diadromous fish in southern Australia"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              21
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-04-19",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-07",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-21",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70582",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70582",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70582",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      },
+      {
+        "DOI": "10.1111/rec.70566",
+        "title": [
+          "Performance of\n                    <i>Acropora</i>\n                    species on the Great Barrier Reef's first coral tree nursery"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              20
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "2026-06-11",
+            "order": 0,
+            "name": "received",
+            "label": "Received",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-09-23",
+            "order": 2,
+            "name": "accepted",
+            "label": "Accepted",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          },
+          {
+            "value": "2026-10-20",
+            "order": 3,
+            "name": "published",
+            "label": "Published",
+            "group": {
+              "name": "publication_history",
+              "label": "Publication History"
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70566",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/rec.70566",
+            "content-type": "application/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rec.70566",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "wiley_product",
+    "url": "https://www.wiley.com/en-us/Restoration+Ecology-p-1526100X",
+    "checked_date": "2026-11-09",
+    "status": 200,
+    "final_url": "https://www.wiley.com/en-us/Restoration+Ecology-p-1526100X",
+    "bytes": 249292,
+    "title": [
+      "Restoration Ecology | Wiley"
+    ],
+    "contexts": [
+      "cts Permissions Restoration Ecology Edited By:Stephen Murphy Print ISSN: 1061-2971 Online ISSN: 1526-100X Impact Factor: 2.7 Selected type: Journal View on Wiley Online Library Society for Ecological Restoration To Purchase this product, please visit https://www.wiley.com/en-us/restoration-ecology-p-1526100X Restoration Ecology Edited By:Stephen Murphy Journal 1526100X Available on Wiley Online Library Description Restoration Ecology facilitates interdisciplinary advances in ecological restoration from regional to global scales. We are paving the way to a crucial shift in restoration ecology, by publishing original papers on the full range",
+      "Purchase this product, please visit https://www.wiley.com/en-us/restoration-ecology-p-1526100X Restoration Ecology Edited By:Stephen Murphy Journal 1526100X Available on Wiley Online Library Description Restoration Ecology facilitates interdisciplinary advances in ecological restoration from regional to global scales. We are paving the way to a crucial shift in restoration ecology, by publishing original papers on the full range of experimental, theoretical, technical, practical, policy, governance, and strategic research and applications across all terrestrial and aquatic ecosystems and taxa. Restoration Ecology is an internationally reco",
+      "a crucial shift in restoration ecology, by publishing original papers on the full range of experimental, theoretical, technical, practical, policy, governance, and strategic research and applications across all terrestrial and aquatic ecosystems and taxa. Restoration Ecology is an internationally recognized journal of the Society for Ecological Restoration, publishing research contributing to restoring damaged ecosystems. To Purchase this product, please visit https://www.wiley.com/en-us/restoration-ecology-p-1526100X",
+      "egic research and applications across all terrestrial and aquatic ecosystems and taxa. Restoration Ecology is an internationally recognized journal of the Society for Ecological Restoration, publishing research contributing to restoring damaged ecosystems. To Purchase this product, please visit https://www.wiley.com/en-us/restoration-ecology-p-1526100X"
+    ]
+  },
+  {
+    "key": "wiley_finder",
+    "url": "https://journalfinder.wiley.com/journal/1526100x",
+    "checked_date": "2026-11-09",
+    "status": 200,
+    "final_url": "https://www.wiley.com/en-cn/journal-finder/abstract",
+    "bytes": 418478,
+    "title": [
+      "Journal Finder Abstract | Wiley",
+      "Search"
+    ],
+    "contexts": [
+      "Journal Finder Abstract | Wiley Skip to main content Publishing Back to main menu Publishing Journals, books, and services for authors, editors, and society partners. Explore publishing Explore publishing Publish your articles Publish your articles Find a journal Open Access Author resources Editor and Reviewer resources AI guidelines: Research Research Integrity Publish your book Publish your book Steps to publishing your book AI guidelines: books Resources Trade publishing Author success stories Publ",
+      "Journal Finder Abstract | Wiley Skip to main content Publishing Back to main menu Publishing Journals, books, and services for authors, editors, and society partners. Explore publishing Explore publishing Publish your articles Publish your articles Find a journal Open Access Author resources Editor and Reviewer resources AI guidelines: Research Research Integrity Publish your book Publish your book Steps to publishing your book AI guidelines: books Resources Trade publishing Author success stories Publish your journals Publish your journals Wiley Journal Insights Society revenue services Socie",
+      "rvices for authors, editors, and society partners. Explore publishing Explore publishing Publish your articles Publish your articles Find a journal Open Access Author resources Editor and Reviewer resources AI guidelines: Research Research Integrity Publish your book Publish your book Steps to publishing your book AI guidelines: books Resources Trade publishing Author success stories Publish your journals Publish your journals Wiley Journal Insights Society revenue services Society revenue services Advertising & content management Madgex career centres Reprints & licensing Partner Solutions Partner Solutions AI Products Enrichment, licensi",
+      "ur book Publish your book Steps to publishing your book AI guidelines: books Resources Trade publishing Author success stories Publish your journals Publish your journals Wiley Journal Insights Society revenue services Society revenue services Advertising & content management Madgex career centres Reprints & licensing Partner Solutions Partner Solutions AI Products Enrichment, licensing & AI discovery Research Exchange Submission to publication, one workflow Atypon Experience Platform Powers 50M+ scholarly articles Publishing Services Production, consulting & peer review Contact us Talk to our publishing team Featured The Advancers Meet th",
+      "ook Steps to publishing your book AI guidelines: books Resources Trade publishing Author success stories Publish your journals Publish your journals Wiley Journal Insights Society revenue services Society revenue services Advertising & content management Madgex career centres Reprints & licensing Partner Solutions Partner Solutions AI Products Enrichment, licensing & AI discovery Research Exchange Submission to publication, one workflow Atypon Experience Platform Powers 50M+ scholarly articles Publishing Services Production, consulting & peer review Contact us Talk to our publishing team Featured The Advancers Meet the researchers pushing ",
+      "blishing your book AI guidelines: books Resources Trade publishing Author success stories Publish your journals Publish your journals Wiley Journal Insights Society revenue services Society revenue services Advertising & content management Madgex career centres Reprints & licensing Partner Solutions Partner Solutions AI Products Enrichment, licensing & AI discovery Research Exchange Submission to publication, one workflow Atypon Experience Platform Powers 50M+ scholarly articles Publishing Services Production, consulting & peer review Contact us Talk to our publishing team Featured The Advancers Meet the researchers pushing scientific boun",
+      "to main menu Research Trusted content, databases, and AI tools for researchers and institutions. Explore Research Explore Research Subjects Social science & humanities Life sciences Physical sciences Health sciences Library & Institution Solutions Library & Institution Solutions Access & collections Open access & agreements Hospitals & healthcare Customer Success Hub Products Wiley Online Library 9M+ articles, chapters & reference works Cochrane Library Systematic reviews & trusted evidence Current Protocols Peer-reviewed laboratory methods Scholar Gateway AI research assistant Wiley Digital Archives Primary-source historical collections ",
+      "porate R&D and enterprise teams. Explore research intelligence Explore research intelligence Content solutions Content solutions Scientific journal access Online books access Reprints & licensing ISPE guidance documents Clinical Outcome Assessments (COAs) Database solutions Database solutions KnowitAll software Spectral databases AI solutions Wiley Applied Research Intelligence (ARI) ARI Knowledge Feeds ARI Professional Services Commercial Licensing and Partnerships Audience solutions Audience solutions Advertising Content and events Medical education Wiley Focus Featured Wiley Applied Research Intelligence (ARI) Faster insight for corpora",
+      "ase solutions Database solutions KnowitAll software Spectral databases AI solutions Wiley Applied Research Intelligence (ARI) ARI Knowledge Feeds ARI Professional Services Commercial Licensing and Partnerships Audience solutions Audience solutions Advertising Content and events Medical education Wiley Focus Featured Wiley Applied Research Intelligence (ARI) Faster insight for corporate R&D teams, with answers you can trace and defend. LEARN MORE LEARN MORE About Back to main menu About Who we are, how we work, and where Wiley is headed after two centuries. Learn more about Wiley Learn more about Wiley Company About us AI at Wiley Inves",
+      ") Asia Pacific Australia China (English) Hong Kong India Japan (English) New Zealand Singapore South Korea Middle East United Arab Emirates Journal Finder Still deciding where to submit? Let our Journal Finder do the work. Search and filter across 1,800+ journals to find the perfect journal for your work. If you have an article title and abstract ready, use our AI-powered abstract matching feature and make your choice with confidence. Search by keywords Match my abstract Search Search Filters Journal filters No results found Clear Search Top Footer © 2000-2026 by John Wiley & Sons, Inc., or related companies. All rights reserved, including",
+      "a Japan (English) New Zealand Singapore South Korea Middle East United Arab Emirates Journal Finder Still deciding where to submit? Let our Journal Finder do the work. Search and filter across 1,800+ journals to find the perfect journal for your work. If you have an article title and abstract ready, use our AI-powered abstract matching feature and make your choice with confidence. Search by keywords Match my abstract Search Search Filters Journal filters No results found Clear Search Top Footer © 2000-2026 by John Wiley & Sons, Inc., or related companies. All rights reserved, including rights for text and data mining and training of artifi",
+      "ast United Arab Emirates Journal Finder Still deciding where to submit? Let our Journal Finder do the work. Search and filter across 1,800+ journals to find the perfect journal for your work. If you have an article title and abstract ready, use our AI-powered abstract matching feature and make your choice with confidence. Search by keywords Match my abstract Search Search Filters Journal filters No results found Clear Search Top Footer © 2000-2026 by John Wiley & Sons, Inc., or related companies. All rights reserved, including rights for text and data mining and training of artificial intelligence technologies or similar technologies. Help",
+      "nal Finder Still deciding where to submit? Let our Journal Finder do the work. Search and filter across 1,800+ journals to find the perfect journal for your work. If you have an article title and abstract ready, use our AI-powered abstract matching feature and make your choice with confidence. Search by keywords Match my abstract Search Search Filters Journal filters No results found Clear Search Top Footer © 2000-2026 by John Wiley & Sons, Inc., or related companies. All rights reserved, including rights for text and data mining and training of artificial intelligence technologies or similar technologies. Help CONTACT US Sitemap Copyright",
+      "e our AI-powered abstract matching feature and make your choice with confidence. Search by keywords Match my abstract Search Search Filters Journal filters No results found Clear Search Top Footer © 2000-2026 by John Wiley & Sons, Inc., or related companies. All rights reserved, including rights for text and data mining and training of artificial intelligence technologies or similar technologies. Help CONTACT US Sitemap Copyright Rights & Permissions Privacy policy Terms of use Modern Slavery Act",
+      "nd training of artificial intelligence technologies or similar technologies. Help CONTACT US Sitemap Copyright Rights & Permissions Privacy policy Terms of use Modern Slavery Act"
+    ]
+  }
+]

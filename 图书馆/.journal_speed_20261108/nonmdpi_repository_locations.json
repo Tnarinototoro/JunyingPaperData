@@ -1,0 +1,1718 @@
+[
+  {
+    "journal": "jort",
+    "url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS2764702529%2Copen_access.any_repository_has_fulltext%3Atrue%2Cfrom_publication_date%3A2026-01-01%2Cto_publication_date%3A2026-11-08&sort=publication_date:desc&per-page=8",
+    "status": 200,
+    "count": 16,
+    "works": [
+      {
+        "doi": "https://doi.org/10.1016/j.jort.2026.101101",
+        "title": "Tànxiǎn lǚyóu: Progress and prospects for adventure tourism research in China",
+        "date": "2026-09-12",
+        "locations": [
+          {
+            "id": "pmh:oai:cronfa.swan.ac.uk:cronfa71003",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://cronfa.swan.ac.uk/Record/cronfa71003",
+            "pdf_url": "https://cronfa.swan.ac.uk/Record/cronfa71003/Download/71003__37598__0e1b1f7d96a04ddc81d901e24b7877d4.pdf",
+            "source": {
+              "id": "https://openalex.org/S4306401612",
+              "display_name": "Cronfa (Swansea University)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I39586589",
+              "host_organization_name": "Swansea University",
+              "host_organization_lineage": [
+                "https://openalex.org/I39586589"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Journal article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jort.2026.101102",
+        "title": "Adapting for solitude: Stress-coping, substitution behaviors, and intentions to return in wilderness recreation",
+        "date": "2026-09-02",
+        "locations": [
+          {
+            "id": "doi:10.31235/osf.io/cp2bj_v1",
+            "doi": "https://doi.org/10.31235/osf.io/cp2bj_v1",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.31235/osf.io/cp2bj_v1",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401238",
+              "display_name": "SocArXiv (OSF Preprints)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I2799848540",
+              "host_organization_name": "Center for Open Science",
+              "host_organization_lineage": [
+                "https://openalex.org/I2799848540"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:share.osf.io:273f700a-c579-4cc5-948d-e5cb68955f7a",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://osf.io/cp2bj",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401238",
+              "display_name": "SocArXiv (OSF Preprints)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I2799848540",
+              "host_organization_name": "Center for Open Science",
+              "host_organization_lineage": [
+                "https://openalex.org/I2799848540"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Preprint"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jort.2026.101079",
+        "title": "Analysis of carrying capacity by environmental units and uses: application to the management of a peri-urban beach (Gran Canaria, Spain)",
+        "date": "2026-08-20",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.jort.2026.101079",
+            "doi": "https://doi.org/10.1016/j.jort.2026.101079",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.jort.2026.101079",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2213078026000678/pdf",
+            "source": {
+              "id": "https://openalex.org/S2764702529",
+              "display_name": "Journal of Outdoor Recreation and Tourism",
+              "issn_l": "2213-0780",
+              "issn": [
+                "2213-0780",
+                "2213-0799"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "abdc-b",
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "fnege-4",
+                "jufo-1",
+                "norway-1",
+                "poland-70",
+                "russia-white-list-2",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc",
+            "license_id": "https://openalex.org/licenses/cc-by-nc",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of Outdoor Recreation and Tourism",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.5281/zenodo.19161057",
+            "doi": "https://doi.org/10.5281/zenodo.19161057",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.5281/zenodo.19161057",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400562",
+              "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I67311998",
+              "host_organization_name": "European Organization for Nuclear Research",
+              "host_organization_lineage": [
+                "https://openalex.org/I67311998"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Dataset"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jort.2026.101078",
+        "title": "The skin of sorrow. The controversies between protected areas and tourism in a context of glacial retreat: Grande Motte (Tignes) and Girose (La Grave), France",
+        "date": "2026-08-07",
+        "locations": [
+          {
+            "id": "pmh:oai:HAL:hal-05724989v1",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://hal.science/hal-05724989",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306402512",
+              "display_name": "HAL",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I4405252976",
+              "host_organization_name": "Centre pour la Communication Scientifique Directe",
+              "host_organization_lineage": [
+                "https://openalex.org/I4405252976"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Journal of Outdoor Recreation and Tourism, 2026, 55, pp.101078. &#x27E8;10.1016/j.jort.2026.101078&#x27E9;",
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jort.2026.101089",
+        "title": "Impacts of outdoor recreation on mammals and birds in mountain landscapes: A systematic review of the past two decades and directions for future research",
+        "date": "2026-08-06",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.jort.2026.101089",
+            "doi": "https://doi.org/10.1016/j.jort.2026.101089",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.jort.2026.101089",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2213078026000770/pdf",
+            "source": {
+              "id": "https://openalex.org/S2764702529",
+              "display_name": "Journal of Outdoor Recreation and Tourism",
+              "issn_l": "2213-0780",
+              "issn": [
+                "2213-0780",
+                "2213-0799"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "abdc-b",
+                "anvur-class-a",
+                "anvur-scientific",
+                "cwts-core",
+                "fnege-4",
+                "jufo-1",
+                "norway-1",
+                "poland-70",
+                "russia-white-list-2",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of Outdoor Recreation and Tourism",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.1101/2022.09.08.507092",
+            "doi": "https://doi.org/10.1101/2022.09.08.507092",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1101/2022.09.08.507092",
+            "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/12/2022.09.08.507092.full.pdf",
+            "source": {
+              "id": "https://openalex.org/S4306402567",
+              "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I2750212522",
+              "host_organization_name": "Cold Spring Harbor Laboratory",
+              "host_organization_lineage": [
+                "https://openalex.org/I2750212522"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": "bioRxiv",
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:digitalcollection.zhaw.ch:11475/37303",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://hdl.handle.net/11475/37303",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401811",
+              "display_name": "Zürcher Hochschule für Angewandte Wissenschaften digital collection (Zurich University of Applied Sciences)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I858936495",
+              "host_organization_name": "ZHAW Zurich University of Applied Sciences",
+              "host_organization_lineage": [
+                "https://openalex.org/I858936495"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Text"
+          },
+          {
+            "id": "doi:10.21256/zhaw-37303",
+            "doi": "https://doi.org/10.21256/zhaw-37303",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.21256/zhaw-37303",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407051289",
+              "display_name": "ZHAW Digital Collection",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "article-journal"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jort.2026.101070",
+        "title": "“I appreciate birding more”: Exploring and reframing experiences of disabled birders using a strengths-based approach",
+        "date": "2026-06-17",
+        "locations": [
+          {
+            "id": "doi:10.31235/osf.io/evc4m",
+            "doi": "https://doi.org/10.31235/osf.io/evc4m",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.31235/osf.io/evc4m",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401238",
+              "display_name": "SocArXiv (OSF Preprints)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I2799848540",
+              "host_organization_name": "Center for Open Science",
+              "host_organization_lineage": [
+                "https://openalex.org/I2799848540"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "doi:10.31235/osf.io/evc4m_v2",
+            "doi": "https://doi.org/10.31235/osf.io/evc4m_v2",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.31235/osf.io/evc4m_v2",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401238",
+              "display_name": "SocArXiv (OSF Preprints)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I2799848540",
+              "host_organization_name": "Center for Open Science",
+              "host_organization_lineage": [
+                "https://openalex.org/I2799848540"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "doi:10.31235/osf.io/evc4m_v1",
+            "doi": "https://doi.org/10.31235/osf.io/evc4m_v1",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.31235/osf.io/evc4m_v1",
+            "pdf_url": "https://osf.io/evc4m_v1/download",
+            "source": {
+              "id": "https://openalex.org/S4306401238",
+              "display_name": "SocArXiv (OSF Preprints)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I2799848540",
+              "host_organization_name": "Center for Open Science",
+              "host_organization_lineage": [
+                "https://openalex.org/I2799848540"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:vtechworks.lib.vt.edu:10919/143448",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://hdl.handle.net/10919/143448",
+            "pdf_url": "https://vtechworks.lib.vt.edu/bitstreams/44c9f36e-18f7-47fb-8bcd-ee20d516e8b1/download",
+            "source": {
+              "id": "https://openalex.org/S4306400248",
+              "display_name": "VTechWorks (Virginia Tech)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I859038795",
+              "host_organization_name": "Virginia Tech",
+              "host_organization_lineage": [
+                "https://openalex.org/I859038795"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Article - Refereed"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jort.2026.101052",
+        "title": "Outdoor recreation in a changing climate: Visitors’ impacts, coping strategies, and intent to return to Parks and Protected Areas in New Hampshire, USA",
+        "date": "2026-05-17",
+        "locations": [
+          {
+            "id": "pmh:oai:pure.ed.ac.uk:openaire/dc6d0ffa-ecf3-49bc-b90e-38b479d55586",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://www.research.ed.ac.uk/en/publications/dc6d0ffa-ecf3-49bc-b90e-38b479d55586",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400321",
+              "display_name": "Edinburgh Research Explorer (University of Edinburgh)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I98677209",
+              "host_organization_name": "University of Edinburgh",
+              "host_organization_lineage": [
+                "https://openalex.org/I98677209"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Smith, M, Ferguson, M D, Ferguson, L A, Burakowski, E, Contosta, A, Rogers, S, Levine, D, Evensen, D & Gorman, M 2026, 'Outdoor recreation in a changing climate : Visitors’ impacts, coping strategies, and intent to return to Parks and Protected Areas in New Hampshire, USA', Journal of Outdoor Recreation and Tourism, vol. 54, 101052, pp. 1-10. https://doi.org/10.1016/j.jort.2026.101052",
+            "raw_type": "info:eu-repo/semantics/publishedVersion"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jort.2026.101046",
+        "title": "Psychological well-being among European tourists on the Spanish Mediterranean coast: Results from the BlueTORRE study",
+        "date": "2026-05-06",
+        "locations": [
+          {
+            "id": "pmh:oai:idus.us.es:11441/186188",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://hdl.handle.net/11441/186188",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401665",
+              "display_name": "Deposito de Investigacion Universidad de Sevilla (University of Seville)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I79238269",
+              "host_organization_name": "Universidad de Sevilla",
+              "host_organization_lineage": [
+                "https://openalex.org/I79238269"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "journal article"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "journal": "jnc",
+    "url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS77407326%2Copen_access.any_repository_has_fulltext%3Atrue%2Cfrom_publication_date%3A2026-01-01%2Cto_publication_date%3A2026-11-08&sort=publication_date:desc&per-page=8",
+    "status": 200,
+    "count": 69,
+    "works": [
+      {
+        "doi": "https://doi.org/10.1016/j.jnc.2026.127479",
+        "title": "Projected range contractions threaten mammal-driven ecosystem functions in a conservation mosaic of southeastern Amazonia",
+        "date": "2026-11-03",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.jnc.2026.127479",
+            "doi": "https://doi.org/10.1016/j.jnc.2026.127479",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.jnc.2026.127479",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1617138126002712/pdf",
+            "source": {
+              "id": "https://openalex.org/S77407326",
+              "display_name": "Journal for Nature Conservation",
+              "issn_l": "1617-1381",
+              "issn": [
+                "1617-1381",
+                "1618-1093"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "anvur-scientific",
+                "cwts-core",
+                "jufo-1",
+                "norway-1",
+                "poland-100",
+                "russia-white-list-1",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal for Nature Conservation",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5432746",
+            "doi": "https://doi.org/10.2139/ssrn.5432746",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5432746",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jnc.2026.127472",
+        "title": "Dendrocalamus hamiltonii Nees & Arn. Ex Munro as a driver of forest structure and community livelihoods",
+        "date": "2026-10-29",
+        "locations": [
+          {
+            "id": "doi:10.2139/ssrn.6182204",
+            "doi": "https://doi.org/10.2139/ssrn.6182204",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6182204",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jnc.2026.127475",
+        "title": "Integrating parasite and host molecular diversity to delineate priority conservation areas in Mexico",
+        "date": "2026-10-28",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.jnc.2026.127475",
+            "doi": "https://doi.org/10.1016/j.jnc.2026.127475",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.jnc.2026.127475",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1617138126002670/pdf",
+            "source": {
+              "id": "https://openalex.org/S77407326",
+              "display_name": "Journal for Nature Conservation",
+              "issn_l": "1617-1381",
+              "issn": [
+                "1617-1381",
+                "1618-1093"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "anvur-scientific",
+                "cwts-core",
+                "jufo-1",
+                "norway-1",
+                "poland-100",
+                "russia-white-list-1",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc",
+            "license_id": "https://openalex.org/licenses/cc-by-nc",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal for Nature Conservation",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.7134748",
+            "doi": "https://doi.org/10.2139/ssrn.7134748",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.7134748",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jnc.2026.127471",
+        "title": "Ecological and anthropogenic factors predicting occupancy of seven ungulate species in Gautala Autramghat Wildlife Sanctuary, Western India",
+        "date": "2026-10-21",
+        "locations": [
+          {
+            "id": "doi:10.2139/ssrn.4896414",
+            "doi": "https://doi.org/10.2139/ssrn.4896414",
+            "is_oa": true,
+            "landing_page_url": "http://doi.org/10.2139/ssrn.4896414",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jnc.2026.127469",
+        "title": "Provenance influences seed & germination characteristics of ecologically and culturally relevant restoration species from the Yukon Territory",
+        "date": "2026-10-15",
+        "locations": [
+          {
+            "id": "doi:10.2139/ssrn.6479754",
+            "doi": "https://doi.org/10.2139/ssrn.6479754",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6479754",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jnc.2026.127463",
+        "title": "Potential impact of the incipient invasion of Pinus halepensis on surface fuels in high mountain grasslands of Argentina",
+        "date": "2026-10-08",
+        "locations": [
+          {
+            "id": "doi:10.2139/ssrn.6928059",
+            "doi": "https://doi.org/10.2139/ssrn.6928059",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.6928059",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jnc.2026.127457",
+        "title": "Quantifying the importance of ecosystem services in the context of agricultural carbon dioxide removal and rewetting – A deliberative choice experiment",
+        "date": "2026-10-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.jnc.2026.127457",
+            "doi": "https://doi.org/10.1016/j.jnc.2026.127457",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.jnc.2026.127457",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1617138126002499/pdf",
+            "source": {
+              "id": "https://openalex.org/S77407326",
+              "display_name": "Journal for Nature Conservation",
+              "issn_l": "1617-1381",
+              "issn": [
+                "1617-1381",
+                "1618-1093"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "anvur-scientific",
+                "cwts-core",
+                "jufo-1",
+                "norway-1",
+                "poland-100",
+                "russia-white-list-1",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal for Nature Conservation",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5152055",
+            "doi": "https://doi.org/10.2139/ssrn.5152055",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5152055",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "doi:10.25673/126066",
+            "doi": "https://doi.org/10.25673/126066",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.25673/126066",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401651",
+              "display_name": "Digitalen Hochschulbibliothek Sachsen-Anhalt (Universitäts- und Landesbibliothek Sachsen-Anhalt)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I4210122374",
+              "host_organization_name": "Universitäts Frauenklinik",
+              "host_organization_lineage": [
+                "https://openalex.org/I4210122374"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": null,
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "article-journal"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.jnc.2026.127387",
+        "title": "Identifying climatic disease refuges from the fungal skin pathogen Batrachochytrium dendrobatidis for Harlequin toads (Atelopus spp.) in Panama",
+        "date": "2026-09-30",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.jnc.2026.127387",
+            "doi": "https://doi.org/10.1016/j.jnc.2026.127387",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.jnc.2026.127387",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1617138126001792/pdf",
+            "source": {
+              "id": "https://openalex.org/S77407326",
+              "display_name": "Journal for Nature Conservation",
+              "issn_l": "1617-1381",
+              "issn": [
+                "1617-1381",
+                "1618-1093"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "anvur-scientific",
+                "cwts-core",
+                "jufo-1",
+                "norway-1",
+                "poland-100",
+                "russia-white-list-1",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by-nc",
+            "license_id": "https://openalex.org/licenses/cc-by-nc",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal for Nature Conservation",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5817802",
+            "doi": "https://doi.org/10.2139/ssrn.5817802",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5817802",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "journal": "jem",
+    "url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS17743007%2Copen_access.any_repository_has_fulltext%3Atrue%2Cfrom_publication_date%3A2026-01-01%2Cto_publication_date%3A2026-11-08&sort=publication_date:desc&per-page=8",
+    "status": 200,
+    "count": 0,
+    "works": []
+  },
+  {
+    "journal": "cres",
+    "url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4210178349%2Copen_access.any_repository_has_fulltext%3Atrue%2Cfrom_publication_date%3A2026-01-01%2Cto_publication_date%3A2026-11-08&sort=publication_date:desc&per-page=8",
+    "status": 200,
+    "count": 27,
+    "works": [
+      {
+        "doi": "https://doi.org/10.1016/j.crsust.2026.100352",
+        "title": "Adapting across generations: Livelihood pathways in environmentally stressed rural coastal regions of Bangladesh and India",
+        "date": "2026-01-01",
+        "locations": [
+          {
+            "id": "doi:10.2139/ssrn.5338193",
+            "doi": "https://doi.org/10.2139/ssrn.5338193",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5338193",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:dspace.library.uu.nl:1874/484551",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://dspace.library.uu.nl/handle/1874/484551",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401649",
+              "display_name": "Utrecht University Repository (Utrecht University)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I193662353",
+              "host_organization_name": "Utrecht University",
+              "host_organization_lineage": [
+                "https://openalex.org/I193662353"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "Article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.crsust.2026.100344",
+        "title": "Co-producing gender knowledge in energy transitions: A grey literature perspective",
+        "date": "2026-01-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.crsust.2026.100344",
+            "doi": "https://doi.org/10.1016/j.crsust.2026.100344",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.crsust.2026.100344",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2666049026000125/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210178349",
+              "display_name": "Current Research in Environmental Sustainability",
+              "issn_l": "2666-0490",
+              "issn": [
+                "2666-0490"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "doaj",
+                "dongbi-c",
+                "jufo-1",
+                "norway-1",
+                "poland-20"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Current Research in Environmental Sustainability",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5360991",
+            "doi": "https://doi.org/10.2139/ssrn.5360991",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5360991",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:ruj.uj.edu.pl:item/572894",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://ruj.uj.edu.pl/handle/item/572894",
+            "pdf_url": "http://ruj.uj.edu.pl/bitstreams/d98e64cd-b2d8-4082-bc84-97c30f0586a0/download",
+            "source": {
+              "id": "https://openalex.org/S4306401249",
+              "display_name": "Jagiellonian University Repository (Jagiellonian University)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I126596746",
+              "host_organization_name": "Jagiellonian University",
+              "host_organization_lineage": [
+                "https://openalex.org/I126596746"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.crsust.2026.100348",
+        "title": "Bridging the gap between knowledge and practice: The mediating role of attitudes in energy efficiency behaviour in Tanzania",
+        "date": "2026-01-01",
+        "locations": [
+          {
+            "id": "doi:10.2139/ssrn.5395779",
+            "doi": "https://doi.org/10.2139/ssrn.5395779",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5395779",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.crsust.2026.100373",
+        "title": "Integrating qualitative perspectives in holistic assessments of sustainability in agriculture water management practices",
+        "date": "2026-01-01",
+        "locations": [
+          {
+            "id": "doi:10.1016/j.crsust.2026.100373",
+            "doi": "https://doi.org/10.1016/j.crsust.2026.100373",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.crsust.2026.100373",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2666049026000411/pdf",
+            "source": {
+              "id": "https://openalex.org/S4210178349",
+              "display_name": "Current Research in Environmental Sustainability",
+              "issn_l": "2666-0490",
+              "issn": [
+                "2666-0490"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "doaj",
+                "dongbi-c",
+                "jufo-1",
+                "norway-1",
+                "poland-20"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Current Research in Environmental Sustainability",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "doi:10.2139/ssrn.5912770",
+            "doi": "https://doi.org/10.2139/ssrn.5912770",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5912770",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.crsust.2026.100334",
+        "title": "Editorial: Reinterpreting sustainability discourses around the globe",
+        "date": "2026-01-01",
+        "locations": [
+          {
+            "id": "pmh:oai:repository.ubn.ru.nl:2066/332858",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://hdl.handle.net/2066/332858",
+            "pdf_url": "https://repository.ubn.ru.nl/bitstream/handle/2066/332858/1/332858.pdf",
+            "source": {
+              "id": "https://openalex.org/S4306401067",
+              "display_name": "Radboud Repository (Radboud University)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I145872427",
+              "host_organization_name": "Radboud University Nijmegen",
+              "host_organization_lineage": [
+                "https://openalex.org/I145872427"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "https://pdf.sciencedirectassets.com/321456/1-s2.0-S2666049025X00037/1-s2.0-S2666049026000022/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIFpa7absu7Yfel7a6KzMuiwDdLcDh0kgaH7Hfq1md34zAiADgBTGuUP2aY7J9CqUr%2FNOhDiX3h5sOJf0pFVXbPNlzCqzBQhkEAUaDDA1OTAwMzU0Njg2NSIMO4FCy%2FM8srx00eAAKpAFZqmVPUGffLi10ErheSViepvR%2BmMZgDgD8LduAXsPGRlPFkLwfHgrDo6YGNyZ8KYHgUETF1mJ%2FCS7ugPq5%2BXuaM2VRdt%2FTFuRm84dQlVzvsYD%2B0zRMmdNnm3s9Xmdsp%2BYfuNh%2FBwpdiPBkZ6W2cM",
+            "raw_type": "Article / Letter to editor"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:618d5e080f3f441685e21e0511611b08",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/618d5e080f3f441685e21e0511611b08",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Current Research in Environmental Sustainability, Vol 11, Iss , Pp 100334- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.crsust.2026.100335",
+        "title": "From experience to action: Correlates of Lithuanian citizens' engagement in climate adaptation",
+        "date": "2026-01-01",
+        "locations": [
+          {
+            "id": "doi:10.2139/ssrn.5418331",
+            "doi": "https://doi.org/10.2139/ssrn.5418331",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.2139/ssrn.5418331",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172589",
+              "display_name": "SSRN Electronic Journal",
+              "issn_l": "1556-5068",
+              "issn": [
+                "1556-5068"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1318003438",
+              "host_organization_name": "RELX Group (Netherlands)",
+              "host_organization_lineage": [
+                "https://openalex.org/I1318003438"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "posted-content"
+          },
+          {
+            "id": "pmh:oai:ktu.edu:elaba:274172697",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://vb.ktu.edu/KTU:ELABAPDB274172697&prefLang=en_US",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4406922255",
+              "display_name": "KTUePubl (Repository of Kaunas University of Technology)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "eISSN 2666-0490",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:cf50210511fc4235bee8e222b70a4976",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/cf50210511fc4235bee8e222b70a4976",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-sa",
+            "license_id": "https://openalex.org/licenses/cc-by-sa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Current Research in Environmental Sustainability, Vol 11, Iss , Pp 100335- (2026)",
+            "raw_type": "article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.crsust.2026.100336",
+        "title": "A meta-analysis of soil organic carbon dynamics under climate-smart agricultural systems in the Amazonian region",
+        "date": "2026-01-01",
+        "locations": [
+          {
+            "id": "pmh:oai:ris.utwente.nl:openaire/a846cd5b-8532-419a-9eb0-fa05c3b5a037",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://research.utwente.nl/en/publications/a846cd5b-8532-419a-9eb0-fa05c3b5a037",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4406922991",
+              "display_name": "University of Twente Research Information",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Nwaogu, C, Chukwudi, M A O, Diagi, B E, Ekweogu, C V, Vahid, K, Ahado, S K, Okeke, O J, Amangabara, G T, Izunobi, L, Aigbedion, I P, Ugwu, J O, Diagi, D O, Okoro, M U, Iwuji, M C, Ejiogu, C C, Minasny, B, Cherubin, M R & Eneche, P S U 2026, 'A meta-analysis of soil organic carbon dynamics under climate-smart agricultural systems in the Amazonian region', Current Research in Environmental Sustainability, vol. 11, 100336. https://doi.org/10.1016/j.crsust.2026.100336",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:gfzpublic.gfz.de:item_5038270",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://gfzpublic.gfz.de/pubman/item/item_5038270",
+            "pdf_url": "https://gfzpublic.gfz.de/pubman/item/item_5038270_1/component/file_5038332/5038270.pdf",
+            "source": {
+              "id": "https://openalex.org/S4306401313",
+              "display_name": "Publication Database GFZ (GFZ German Research Centre for Geosciences)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I4210152878",
+              "host_organization_name": "GFZ Helmholtz Centre for Geosciences",
+              "host_organization_lineage": [
+                "https://openalex.org/I4210152878"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Current Research in Environmental Sustainability",
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      },
+      {
+        "doi": "https://doi.org/10.1016/j.crsust.2026.100337",
+        "title": "Evaluating socioeconomic and equity outcomes in livelihood interventions: Insights from Community Resource Management Areas (CREMAs) in northern Ghana",
+        "date": "2026-01-01",
+        "locations": [
+          {
+            "id": "pmh:oai:dare.uva.nl:openaire/b34ffc8d-4669-40a5-84ac-fc9c90b6ea59",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://handle.uba.uva.nl/personal/pure/en/publications/evaluating-socioeconomic-and-equity-outcomes-in-livelihood-interventions(b34ffc8d-4669-40a5-84ac-fc9c90b6ea59).html",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400088",
+              "display_name": "UvA-DARE (University of Amsterdam)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I887064364",
+              "host_organization_name": "University of Amsterdam",
+              "host_organization_lineage": [
+                "https://openalex.org/I887064364"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Adeyanju, S, Ros-Tonen, M A F, Bulkan, J, Baatuuwie, B N & Sunderland, T 2026, 'Evaluating socioeconomic and equity outcomes in livelihood interventions : Insights from Community Resource Management Areas (CREMAs) in northern Ghana', Current Research in Environmental Sustainability, vol. 11, 100337. https://doi.org/10.1016/j.crsust.2026.100337",
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "emr_esa_journals_retry",
+    "url": "https://www.ecolsoc.org.au/publications/journals/",
+    "final_url": "https://www.ecolsoc.org.au/publications/journals/",
+    "status": 200,
+    "chars": 4226
+  },
+  {
+    "name": "emr_esa_journals_plain",
+    "url": "https://ecolsoc.org.au/publications/journals/",
+    "final_url": "https://www.ecolsoc.org.au/publications/journals/",
+    "status": 200,
+    "chars": 4226
+  },
+  {
+    "name": "emr_esa_journals_reader",
+    "url": "https://r.jina.ai/https://www.ecolsoc.org.au/publications/journals/",
+    "final_url": "https://r.jina.ai/https://www.ecolsoc.org.au/publications/journals/",
+    "status": 200,
+    "chars": 2768
+  },
+  {
+    "name": "emr_wiley_corporate",
+    "url": "https://www.wiley.com/en-us/Ecological+Management+and+Restoration-p-14428903",
+    "final_url": "https://www.wiley.com/en-us/Ecological+Management+and+Restoration-p-14428903",
+    "status": 403,
+    "chars": 59
+  },
+  {
+    "name": "emr_wiley_current",
+    "url": "https://onlinelibrary.wiley.com/toc/14428903/2026/27/3",
+    "final_url": "https://onlinelibrary.wiley.com/toc/14428903/2026/27/3",
+    "status": 403,
+    "chars": 59
+  },
+  {
+    "name": "emr_era_journal",
+    "url": "https://www.seraustralasia.com/pages/emr.html",
+    "final_url": "https://www.seraustralasia.com/pages/emr.html",
+    "status": 404,
+    "chars": 246
+  }
+]

@@ -1,0 +1,155 @@
+S.M. Labib ，
+lnput Image(GI
+matlices)
+BinaIY
+Convel 、 ion?
+Yes
+Conve1ted
+Bina1Y lmage
+NO
+Continuous
+VaIue lmage
+Runmng FocaI
+Statistics/ Gliding
+BOX opeNtion
+Focal Statistics propelties:
+声 月 值 ： e ， r = 3 ， 5 一 2049
+》 月 值 Shape: RectangIe
+》 Neighbourhood unit: Cell
+声 S 忉 s 0 e ： Sum/ Range
+Running Focal
+Statistics/ GIiding
+丿
+Box Mass image
+output of the
+binmy image
+Adjustment
+Lacuna1ity
+Calculation for
+binaIY image
+input
+r ： 3 ， A （ 3 ）
+r 一 5 ， A （ 5 ）
+r = 2049 ， A （ 2049 ）
+BOX Mass image
+output Of the
+continuous image
+Edge
+Adjustment
+LacunaIity
+Calculation for
+continuous image
+input
+ln [A(r)l
+Output
+№ (r)
+0
+0
+0
+0
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+estimate lacunarity for the bOX sizes we considered (for each r).
+3 ， 3 ． 25 ， Step 5 ： representing scale dependent lacunanty. At Step 5 (F
+we calculated the relationship between scale (gliding box size) and
+lacunarity for each greenspace metric. As discussed earlier ， lacunarity is
+a scale dependent variable, and the most meaningful information is
+obtained by plotting lacunarity values against their respective different
+box sizes in order tO create a lacunarlty curve. The most widely
+established procedural method is tO plOt the natural logarithm ()n 〕 Of
+bo 山 lacunanty (Y-axis) and box size (X-axis) in a log-log plot
+(Hoechstetter et al ” 2011 Malhi & Romån-Cuesta, 2008 Roces-Dfaz
+et al., 2015 ）
+3 ． 4 ． Scale-specific and multi-scale composite mapping
+After estimating lacunarity, we used the results tO identify the upper
+scale limit beyond which the measurement 0f each greenspace metric
+became invariant due t0 landscape homogeneity due t0 aggregation.
+Then, we prepared greenspace exposure index ， maps for each metric
+for the whole study area using multiple specific scales below the de-
+fined upper limit. Here we use the term 'exposure index ， map tO mean
+areas 0f potential exposure should a receptor be located in each grid cell
+Of the map. For each specific scale ， mean values Of NDVI ， LAI ， and green
+percentage (for LULC) were estimated. Finally, a single multi-scale
+exposure ， map for each greenspace metric was created using a
+weighted average method based on weights obtained from the lacu-
+narity analysis (Table 1
+） ． Lacunarity values were used as weights due tO
+their objective representafion Of the relative spatial heterogeneity and
+scale-sensitivity Of each Of the metrics. Combined multi-scale 'exposure'
+maps for each greenspace metric were calculated using (Eq. 8 〕 ．
+〗 《 1 (GSi × ）
+CGSm
+〔 8 ）
+ln 〔 eq8 〗 CGSm is the combined multi-scale 'exposure' value for each
+greenspace metric m (m = NDVI ， LAI ， LULC); GSI is the individual value
+for the metric at scale i; and is the weight of the scale i (i can be 1 to
+numbers 0f scales, in our case L = 5 ） ． This procedure produced three
+multi-scale greenspace exposure index ， maps 0 ． e ” CGSNDv1, CGSLAI,
+and CGSLULC) for our study area.
+Finally ， the metrics were combined intO a single result ， completing
+the third objective of the study. The resultant multi-scale, multi-metric
+composite greenspace exposure index ， map was prepared from the
+three multi-scale composite maps for each metric. The CGSNDVI, CGSLAI,
+and CGSLULC were reclassified intO nine categories using a natural
+breaks classification method (Jenks ， 1977L with the lowest 'exposure ，
+range reclassified as 1 and the highest range as 9 (though a continuous
+standardised scale could alternatively be used). The three reclassified
+maps were then combined using (Eq. 9 ） tO produce a composite multi-
+scale, multi-metric, greenspace exposure index ， map.
+Input/Output GeneraI Step lterative lnput Key Operation Decision
+Fig. 1. FIow diagram for estimation Of lacunarity for different greenspace
+metrics and presentation Of results in relation to different scales.
+r = 2049 (where. ， P = (1) at which point the size 0f the gliding box
+became half of the width of the study area.
+3 ． 3 ． 23 ． Step 3 ： edge a 打 e 吡 The irregular shape 0f the study area
+(being neither a square nor a rectangle) means that the presence Of 'NO
+Data' pixels outside the study area effectively reduces the size 0f the box
+at the study area boundary. Step 3 (Fig. 1 ） corrects for these edge effects
+using the procedure identified in Sui and Wu （ 2006 ） · Accordingly, a
+weighting factor was applied t0 adjust the box mass 0f the gliding boxes
+containing areas including NO Data ， pixels (see Supplementary 0 把 ． 2 ） ．
+3 ． 3 ． 24 ． Step 4 ： calculation “ a After edge adjustment, at Step
+4 (Fig. 1 〕 we estimated the lacunarity value for each box size for all
+three datasets. ln the case 0f the binary LULC map we applied Eq.
+（ 2 ） 一 （ 6 ） Section 3 ． 3 彐 〗 and for the NDVI and LAI we used Eq. （ 7 ）
+(CGSNDV1r + CGSLA1r + CGS
+LULCr)
+GSin
+〔 9 ）
+ln (Eq. 9 ） ， GSin is the composite greenspace exposure index ， value ，
+Table 1
+ScaIes, box size and weights for the five scales considered in the multi-scale
+composite maps.
+SI. scales 巨 ] Box size ()n metres) Weighting- [w] (Lacunarity value)
+1
+2
+3
+4
+5
+100
+200
+300
+400
+500
+1
+2
+3
+4
+5
+NDVI
+0 ． 070
+0 ． 036
+0 ． 027
+0 ． 023
+0 ， 024
+0 ． 201
+0 ． 111
+0 ． 081
+0 ． 067
+0 ， 060
+LULC
+0 ． 671
+0 ． 655
+0 ． 646
+0 ． 638
+0 ． 631
+5

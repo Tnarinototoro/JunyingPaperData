@@ -1,0 +1,347 @@
+Aesthetic preference evaluation of residential outdoor landscapes: based on deep learning and landscape element analysis | Landscape and Ecological Engineering | Springer Nature Link
+Skip to main content
+Advertisement
+Log in
+Menu
+Find a journal
+Publish with us
+Track your research
+Search
+Saved research
+Cart
+Home
+Landscape and Ecological Engineering
+Article
+Aesthetic preference evaluation of residential outdoor landscapes: based on deep learning and landscape element analysis
+Original Paper
+Published: 21 October 2026
+(2026)
+Cite this article
+Save article
+View saved research
+Landscape and Ecological Engineering
+Aims and scope
+Submit manuscript
+Zhuo Liu1
+36 Accesses
+Explore all metrics
+Abstract
+Residential outdoor landscapes constitute the most frequently encountered visual environment for urban residents, yet systematic evaluation of their aesthetic quality and ecological service value remains lacking. This study developed an integrated three-stage framework combining deep learning semantic segmentation, the Scenic Beauty Estimation method, and machine learning regression modeling to assess public visual aesthetic preference for residential outdoor landscapes, understood as one measurable component of the cultural ecosystem services provided by urban residential green spaces. A PSPNet model performed pixel-level semantic segmentation on 2816 field-collected landscape images from 32 residential communities in central Chengdu (mIoU = 0.763), extracting 13 element categories to construct a residential landscape feature indicator system. Public aesthetic preference scores were obtained through 276 valid questionnaires. Pearson correlation analysis identified the Green Visual Index (GVI) as the strongest positive predictor (r = 0.57), while the Interference Factor Index (IFI) showed the most pronounced negative correlation (r = − 0.46). The random forest model achieved R2 = 0.796, substantially outperforming the stepwise OLS regression (adjusted R2 = 0.517). SHAP interpretability analysis revealed a marginal contribution saturation effect for GVI at approximately 35–40%, an inverted U-shaped threshold for Building Visual Index at approximately 30%, and accelerating negative effects when IFI exceeded 5%. These nonlinear thresholds represent exploratory, model-derived perceptual benchmarks that can inform the optimization of residential green space configuration, pending further validation with ecological performance data. Residential landscapes were classified into three aesthetic preference levels with differentiated improvement strategies proposed, offering data-driven decision support for urban green infrastructure planning and the enhancement of visual aesthetic quality in residential environments.
+This is a preview of subscription content, log in via an institution
+to check access.
+Access this article
+Log in via an institution
+Subscribe and save
+Springer+
+from €37.37 /Month
+Receive 10 units per month
+Download 1 article/chapter for 1 unit
+Get selected eBooks for 7 units
+Cancel anytime
+View plans
+Buy Now
+Buy article PDF 39,95 €
+Price includes VAT (China (P.R.))
+Instant access to the full article PDF.
+Institutional subscriptions
+Fig. 1
+Fig. 2
+Fig. 3
+Fig. 4
+Fig. 5
+Fig. 6
+Fig. 7
+Fig. 8
+Similar content being viewed by others
+Study on rural landscape design strategies integrating computer vision and deep learning: an analysis based on human perception and visual aesthetics
+Article
+Open access
+13 October 2025
+An AI-based urban environmental monitoring framework for green view index assessment using street-level imagery in a hot-arid pedestrian corridor
+Article
+10 July 2026
+Unraveling nonlinear effects of environment features on green view index using multiple data sources and explainable machine learning
+Article
+Open access
+04 December 2024
+Explore related subjects
+Discover the latest articles, books and news in related subjects, suggested using machine learning.
+Aesthetics
+Landscape Ecology
+Analytical Aesthetics
+Landscape/Regional and Urban Planning
+Psychology of Aesthetics
+Landscape Architecture
+Urban Green Spaces and Public Health Outcomes
+Data availability
+The datasets generated and analysed during the current study, including landscape images, questionnaire response data, semantic segmentation outputs, and model prediction results, are not publicly available due to ongoing related research but are available from the corresponding author on reasonable request.
+References
+Appleton J (1975) The experience of landscape. Wiley, London
+Google Scholar
+Breiman L (2001) Random forests. Mach Learn 45:5–32
+Article
+Google Scholar
+Chen LC, Zhu Y, Papandreou G, Schroff F, Adam H (2018) Encoder-decoder with atrous separable convolution for semantic image segmentation. In: Proceedings of the European conference on computer vision (ECCV), pp 801–818
+Chen C, Chen D, Wu S (2025) Investigating the relationship between public community landscape space and older adults’ health using structural equation modeling. Front Public Health 13
+Dai L, Zheng C, Dong Z, Yao Y, Wang R, Zhang X et al (2021) Analyzing the correlation between visual space and residents’ psychology in Wuhan, China using street-view images and deep-learning technique. City Environ Interact 11:100069
+Article
+Google Scholar
+Daniel TC (1976) Measuring landscape esthetics: the scenic beauty estimation method. USDA Forest Service, Rocky Mountain Forest and Range Experiment Station, Fort Collins
+Google Scholar
+Daniel TC, Muhar A, Arnberger A, Aznar O, Boyd JW, Chan KMA et al (2012) Contributions of cultural services to the ecosystem services agenda. Proc Natl Acad Sci 109:8812–8819
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Dubey A, Naik N, Parikh D, Raskar R, Hidalgo CA (2016) Deep learning the city: quantifying urban perception at a global scale. In: Leibe B, Matas J, Sebe N, Welling M (eds) Computer Vision – ECCV 2016. Springer, Cham, pp 196–212
+Chapter
+Google Scholar
+Fan R, Chen Y, Yocom KP (2024) A new approach to landscape visual quality assessment from a fine-tuning perspective. Land 13:673
+Article
+Google Scholar
+Fang YN, Tian J, Namaiti A, Zhang S, Zeng J, Zhu X (2024) Visual aesthetic quality assessment of the streetscape from the perspective of landscape-perception coupling. Environ Impact Assess Rev 106:107535
+Article
+Google Scholar
+Florio P, Leduc T, Sutter Y, Bremond R (2023) Visual complexity of urban streetscapes: human vs computer vision. Mach Vis Appl 35:7
+Article
+Google Scholar
+Guo Z, Xu H, Lin Q, Li X (2025) Deep learning assessment of street spatial quality in old residential communities of Wuchang. Wuhan China Sci Rep 15:45176
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Han X, Wang L, He J, Jung T (2023) Restorative perception of urban streets: interpretation using deep learning and MGWR models. Front Public Health 11
+Harvey C, Aultman-Hall L, Hurley SE, Troy A (2015) Effects of skeletal streetscape design on perceived safety. Landsc Urban Plan 142:18–28
+Article
+Google Scholar
+Hu K, Xu Z, Wang X, Wang Y, Li H, Zhang Y (2023) Research on street color environment perception based on CEP-KASS framework. Buildings 13:2649
+Article
+Google Scholar
+Huang Y, Zhong C, He T, Jiang Y (2025) Dynamics of street environmental features and emotional responses in urban areas: implications for public health and sustainable development. Front Public Health 13
+Kaplan R, Kaplan S (1989) The experience of nature: a psychological perspective. Cambridge University Press, Cambridge
+Google Scholar
+Ki D, Lee S (2021) Analyzing the effects of green view index of neighborhood streets on walking time using Google Street View and deep learning. Landsc Urban Plan 205:103920
+Article
+Google Scholar
+Kuper R (2017) Evaluations of landscape preference, complexity, and coherence for designed digital landscape models. Landsc Urban Plan 157:407–421
+Article
+Google Scholar
+Lee DH, Park HY, Lee J (2024) A review on recent deep learning-based semantic segmentation for urban greenness measurement. Sensors 24:2245
+Article
+PubMed
+PubMed Central
+Google Scholar
+Li Z (2022) Extracting spatial effects from machine learning model using local interpretation method: an example of SHAP and XGBoost. Comput Environ Urban Syst 96:101845
+Article
+Google Scholar
+Li K (2024) Research on the factors influencing the spatial quality of high-density urban streets: a framework using deep learning, street scene images, and principal component analysis. Land 13:1161
+Article
+CAS
+Google Scholar
+Li X, Wang X, Jiang X, Han J, Wang Z, Wu D et al (2022a) Prediction of riverside greenway landscape aesthetic quality of urban canalized rivers using environmental modeling. J Clean Prod 367:133066
+Article
+Google Scholar
+Li Y, Yabuki N, Fukuda T (2022b) Measuring visual walkability perception using panoramic street view images, virtual reality, and deep learning. Sustain Cities Soc 86:104140
+Article
+Google Scholar
+Liu Y, Chen M, Wang M, Huang J, Thomas F, Rahimi K et al (2023) An interpretable machine learning framework for measuring urban perceptions from panoramic street view images. iScience 26(3):106080
+Article
+PubMed
+PubMed Central
+Google Scholar
+Lundberg SM, Lee SI (2017) A unified approach to interpreting model predictions. Adv Neural Inf Process Syst 30:4765–4774
+Google Scholar
+Luo W, Chen C, Li H, Hou Y (2024) How do residential open spaces influence the older adults’ emotions: a field experiment using wearable sensors. Landsc Urban Plan 251:105152
+Article
+Google Scholar
+Ma X, Ma C, Wu C, Xi Y, Yang R, Peng N et al (2021) Measuring human perceptions of streetscapes to better inform urban renewal: a perspective of scene semantic parsing. Cities 110:103086
+Article
+Google Scholar
+Ma H, Li J, Ye X (2025) Deep learning meets urban design: assessing streetscape aesthetic and design quality through AI and cluster analysis. Cities 162:105939
+Article
+Google Scholar
+Minaee S, Boykov Y, Porikli F, Plaza A, Kehtarnavaz N, Terzopoulos D (2022) Image segmentation using deep learning: a survey. IEEE Trans Pattern Anal Mach Intell 44:3523–3542
+PubMed
+Google Scholar
+Qin B, Choi S, Dou W, Hao M (2024) Understanding the relationship between neighbourhood built environment and older adults’ health from the perspective of housing differentiation. Health Soc Care Community 2024:3065803
+Article
+Google Scholar
+Qiu W, Li W, Liu X, Huang X (2021) Subjectively measured streetscape perceptions to inform urban design strategies for Shanghai. ISPRS Int J Geo-Inf 10:493
+Article
+CAS
+Google Scholar
+Shi J, Mei L, Meng Y, Gao W (2025) Revealing the relationship between urban park landscape features and visual aesthetics by deep learning-driven and spatial analysis. Buildings 15:2487
+Article
+Google Scholar
+Song M, Xiao Y (2025) Does streetscape color matter for urban perceptions? A deep learning approach to street view images. Land Use Policy 155:107581
+Article
+Google Scholar
+Song J, Zhu X, Yu X (2023) Monitoring and mapping vegetation greenery in residential communities using street view images and a normalized vegetation greenery index: a case study in Beijing, China. Front For Glob Change 6
+Sun D, Li Q, Gao W, Huang G, Tang N, Lyu M et al (2021) On the relation between visual quality and landscape characteristics: a case study application to the waterfront linear parks in Shenyang, China. Environ Res Commun 3:115013
+Article
+Google Scholar
+Tang J, Long Y (2019) Measuring visual quality of street space and its temporal variation: methodology and its application in the Hutong area in Beijing. Landsc Urban Plan 191:103436
+Article
+Google Scholar
+Ulrich RS (1983) Aesthetic and affective response to natural environment. In: Altman I, Wohlwill JF (eds) Behavior and the natural environment. Springer, Boston, pp 85–125
+Chapter
+Google Scholar
+Wang J, Liu W, Gou A (2022a) Numerical characteristics and spatial distribution of panoramic street green view index based on SegNet semantic segmentation in Savannah. Urban Urban Green 69:127488
+Article
+Google Scholar
+Wang L, Han X, He J, Jung T (2022b) Measuring residents’ perceptions of city streets to inform better street planning through deep learning and space syntax. ISPRS J Photogramm Remote Sens 190:215–230
+Article
+Google Scholar
+Wang L, Sun C, Wang M (2024) Optimization strategies for waterfront plant landscapes in traditional villages: a scenic beauty estimation–entropy weighting method analysis. Sustainability 16:7140
+Article
+Google Scholar
+Wei J, Yue W, Li M, Gao J (2022) Mapping human perception of urban landscape from street-view images: a deep-learning approach. Int J Appl Earth Obs Geoinf 112:102886
+Google Scholar
+Xia Y, Yabuki N, Fukuda T (2021) Development of a system for assessing the quality of urban street-level greenery using street view images and deep learning. Urban Urban Green 59:126995
+Article
+Google Scholar
+Xu Y, Fan X (2025) Street view image-based emotional perception modeling of old residential communities: an explainable framework integrating random forest and SHAP. ISPRS Int J Geo-Inf 14:471
+Article
+Google Scholar
+Xu H, Yang T, Guo Z (2025) Exploring nonlinear effects of visual elements on perceived landscape quality in historical and cultural districts: a deep learning case from Wuhan. China Build 15:4338
+Article
+Google Scholar
+Ye Y, Zeng W, Shen Q, Zhang X, Lu Y (2019) The visual quality of streets: a human-centred continuous measurement based on machine learning algorithms and street view images. Environ Plan B Urban Anal City Sci 46:1439–1457
+Article
+Google Scholar
+Yu M, Chen X, Zheng X, Cui W, Ji Q, Xing H (2025) Evaluation of spatial visual perception of streets based on deep learning and spatial syntax. Sci Rep 15:18439
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Zhang X, Xiong X, Chi M, Yang S, Liu L (2024) Research on visual quality assessment and landscape elements influence mechanism of rural greenways. Ecol Indic 160:111844
+Article
+Google Scholar
+Zhang Y, Xiong X, Yang S, Zhang Q, Chi M, Wen X et al (2025a) Enhancing the visual environment of urban coastal roads through deep learning analysis of street-view images: a perspective of aesthetic and distinctiveness. PLoS ONE 20:e0317585
+Article
+CAS
+PubMed
+PubMed Central
+Google Scholar
+Zhang Y, Wang X, Ye Y, Wang L, Zhang Y, Qin W et al (2025b) Nonlinear relationships and interaction effects of urban built environment on urban vitality based on explainable machine learning. City Environ Interact 28:100244
+Article
+Google Scholar
+Zhao H, Shi J, Qi X, Wang X, Jia J (2017) Pyramid scene parsing network. In: Proceedings of the IEEE conference on computer vision and pattern recognition, pp 2881–2890
+Zhao X, Lu Y, Lin G (2024) An integrated deep learning approach for assessing the visual qualities of built environments utilizing street view images. Eng Appl Artif Intell 130:107805
+Article
+Google Scholar
+Zhou B, Zhao H, Puig X, Fidler S, Barriuso A, Torralba A (2017) Scene parsing through ADE20K dataset. In: Proceedings of the IEEE conference on computer vision and pattern recognition, pp 633–641
+Zhou X, Cen Q, Qiu H (2023) Effects of urban waterfront park landscape elements on visual behavior and public preference: evidence from eye-tracking experiments. Urban Urban Green 82:127889
+Article
+Google Scholar
+Zhu J, Wang S, Ma H, Shan T, Xu D, Sun F (2025) Nonlinear effect of urban visual environment on residents’ psychological perception: an analysis based on XGBoost and SHAP interpretation model. City Environ Interact 27:100202
+Article
+Google Scholar
+Download references
+Funding
+The authors did not receive support from any organization for the submitted work.
+Author information
+Authors and Affiliations
+School of Art and Design, Liaoning Vocational College of Light Industry, Dalian, Liaoning, China
+Zhuo Liu
+Authors
+Zhuo Liu
+View author publications
+Search author on:PubMed Google Scholar
+Corresponding author
+Correspondence to
+Zhuo Liu.
+Ethics declarations
+Competing interests
+The authors have no relevant financial or non-financial interests to disclose.
+Ethics approval
+The survey protocol was approved by the Ethics Review Committee of Liaoning Vocational College of Light Industry (Approval No.: 2025-IRB-082). All respondents provided written informed consent prior to participation.
+Supplementary Information
+Below is the link to the electronic supplementary material.
+Supplementary Material 1. (download DOCX )
+Rights and permissions
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.
+Reprints and permissions
+About this article
+Cite this article
+Liu, Z. Aesthetic preference evaluation of residential outdoor landscapes: based on deep learning and landscape element analysis.
+Landscape Ecol Eng (2026). https://doi.org/10.1007/s11355-026-00765-x
+Download citation
+Received: 12 May 2026
+Revised: 24 August 2026
+Accepted: 25 September 2026
+Published: 21 October 2026
+Version of record: 21 October 2026
+DOI: https://doi.org/10.1007/s11355-026-00765-x
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Sorry, a shareable link is not currently available for this article.
+Copy shareable link to clipboard
+Provided by the Springer Nature SharedIt content-sharing initiative
+Keywords
+Scenic beauty estimation
+Cultural ecosystem services
+Green visual index
+Random forest
+SHAP interpretability
+Urban green infrastructure
+Access this article
+Log in via an institution
+Subscribe and save
+Springer+
+from €37.37 /Month
+Receive 10 units per month
+Download 1 article/chapter for 1 unit
+Get selected eBooks for 7 units
+Cancel anytime
+View plans
+Buy Now
+Buy article PDF 39,95 €
+Price includes VAT (China (P.R.))
+Instant access to the full article PDF.
+Institutional subscriptions
+Advertisement
+Search
+Search by keyword or author
+Search
+Navigation
+Find a journal
+Publish with us
+Track your research
+Footer Navigation
+Discover content
+Journals A-Z
+Books A-Z
+Subjects A-Z
+Publish with us
+Journal finder
+Publish your research
+Language editing
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our brands
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Discover
+Corporate Navigation
+Your privacy choices/Manage cookies
+Your US state privacy rights
+Accessibility statement
+Terms and conditions
+Privacy policy
+Help and support
+Legal notice
+Cancel contracts here
+112.65.219.231
+Not affiliated
+© 2026 Springer Nature

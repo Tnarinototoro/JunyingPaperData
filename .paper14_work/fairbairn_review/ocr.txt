@@ -1,0 +1,958 @@
+@@ PAGE 1 / 14 @@
+www.nature.com/scientificreports
+scientific reports
+' 过 ） Check for updates
+OPEN NDVI and vegetation volume a s
+predictors of urban bird diversity
+0
+0
+1 网
+2
+Andrew 上 Fairbairn
+， Sophia Kath01nigg ， Tobias Leichtle
+Lisa Merkens '
+0
+Louis Schrolll'4 WOIfgang W. Weisserl & SebastianT. M eye
+1
+Urban expansion and densification pose a challenge tO urban biodiversity. Rapid estimation 0f
+biodiversity （ OU 尾 help urban planners balance development and conservation goals. WhiIe the
+Normalised Difference Vegetation lndex (NDVI) has proven UsefUl for predicting urban bird diversity,
+new products derived fro m remote sensing, SUCh as vegetation volume, （ OU 尾 provide m 0 re deta•led
+descriptions of available habitat, potentially improving biodiversity predictions. We evaluated the
+effectiveness of NDVI and vegetation volume a S predictors Of urban bird diversity and | 0 （ 引 community
+composition for different buffers around 86 sampling po•nts in Munich, Germany. Using linear models
+we showed that a 100 m bUffer best described bird diversity (highest (2) for both NDVI and vegetation
+volume compared tO the other buffers. Contrary tO expectations, NDVI wa s better than vegetation
+volume in predicting bird diversity (mean R2 NDVI = 0 ． 47 ， m e a n R2 vegetation volume 0 ． 3 刀 ． We found
+a shift in community composition fro m species associated with human-modified landscapes tO those
+associated with fO re sts along a n urban greenness gradient. ln contrast tO d•versity, we found that
+vegetat•on volume wa 5 slightly better at predicting community composition. Using NDVI to predict
+b•rd d•versity across Munich, we demonstrated its potential for predicting city-wide bird diversity. We
+discuss hOW SUCh predictive maps ca n be fO r urban planning and conservation. AS urbanisation
+continues to impact global biod•versity, refining e （ 0 《 ogi （ 引 models for urban planning will be crucial t0
+developing m 0 re biodiverse urban envlronments.
+Keywords NDVI, Urban ecology, Remote sensing, Bi0diversity
+CurrentIy, over half of the global population resides in urban areas ， with proj ections indicating that this figure
+will reach nearly 60 ％ or more before the end Of the century This rapid urbanisation is reducing the amount Of
+nature and green accessible t() urban residents. iS a growing awareness ()f the importance Of nature,
+both for human well-being _ and its role in maintaining bi0diversity6 lndeed, as much as 50 ％ of the regional
+biodiversity can aISO be found in cities ， and cities can serve habitats for rare or endangered species ， · Given
+that urban nature is Often the only nature that city residents are exposed tO on a daily basis, it plays a crucial
+role in connecting people with nature while simultaneously supporting diverse species and contributing tO local
+and global conservation efforts. Birds ， in particular, contribute significantly tO urban residents' daily nature
+experiences and are indicators Of biodiversity alSO.
+TO preserve and enhance urban bi()diversity, urban planners and conservationists can prioritise bi()diversity
+in both the planning process and ongoing conservation efforts11'12 This can be achieved through various
+strategies, biodiversity-rich urban sites can be strategically protected from densification ， and stepping stones
+can be established tO make more resources accessible tO support urban biodiversity · Conservation strategies
+targeting urban birds can include creating and maintaining diverse green spaces, preserving mature trees,
+installing artificial nest boxes, and reducing threats such as window collisions and outdoor cats 5 ， 16
+However,
+for biodiversity conservation tO become integrated intO urban planning, more technical knowledge about
+where biodiversity is high and how tO estimate it is needed · Therefore ， providing planners and conservation
+practitioners with a simple tOOl tO estimate the biodiversity Of urban sites and assess the potential impact Of
+various interventions could help them predict the outcomes Of planning and conservation actions and prioritise
+urban biodiversity conservation ． This need for new, simple and rapid biodiversity assessment tOOls is particularly
+evldent when considering the drawbacks Of current monitoring methods.
+1
+Te rrestri 引 Ecology Research Group, Department of Life Science Systems/ School of Life Sciences, Technical
+University 0f Munich, 85354 Freising, Germany. 2German Remote Sensing Data Center, German Aerospace
+Center, 82234 Oberpfaffenhoferll Germany. 3Studi0 Animal-Aided Design, 10999 Berlin, Germany. 4 亡 co | e Normale
+Supérieure de Lyo n, Université Claude Bernard Lyon 1 ， Université de Lyon, 69342 Lyon Ce d ex 0 乙 France. email.
+andrew.fairbairn@tum.de
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+
+@@ PAGE 2 / 14 @@
+www.nature.com/scientificreports/
+Traditional approaches to monitoring urban birds typically use field methods such as point counts or
+transects With recent years seeing increased adoption Of acoustic monitoring. Advancements bioacoustics,
+computing, and machine learning, particularly through tools such as BirdNET18 now allow for the simultaneous
+monitoring 0f hundreds 0f sites. ln Germany, BirdNET has coverage for 407 out of 527 species tracked by the
+19
+German Ornith010gists Society including rare or incidental species and can detect species confidently up t0
+20
+and beyond 50 m from recording devices ． BirdNET has proven itself as the de facto standard, being successfully
+21 一 26
+tested and employed in a variety 0f environments t0 a high degree 0f accuracy
+However, with bioacoustics, unlike point counts ， measures Of abundance are not readily available. TO address
+this limitation, ecologists have examined acoustic-based metrics as proxies for abundance particularly Vocal
+Activ1ty Rate (VAR). VAR and variations 0f it have been demonstrated t0 be a good proxy for abundance for
+27 一 31
+a number 0f species · However, the context is also important for the goodness 0f fit; for example, VAR has
+27 ， 30
+been shown tO be well suited for estimating seabird population size and territorial songbird abundance ， but
+for solitary raptors, it may reflect behavioural changes rather than abundance 庵 ln addition ， a short recordmg
+length, the species' behaviour ， the time Of year ， and the surrounding environment can influence the reliability Of
+these measurements. For example, short-term changes in vocal activity may influence VAR when derived from
+29 ， 31
+short recordings
+Traditional and acoustic monitoring methods can provide an accurate and detailed picture Of urban
+diversity at single sites. However, a city-wide scale monitoring Of diversity remains challenging because
+measurements are time ． consuming and require considerable expertise in bird identification. limitations
+have prompted researchers tO explore alternative approaches for rapidly assessing urban diversity using indirect
+proxies based on a small number Of monitoring sites. Models based on multispectral satellite imagery have
+emerged as a promising t001 in this regard. Specifically, vegetation indices derived from satellite data, such as
+the Normalised Difference Vegetation lndex (NDVI), have been shown t0 be predictive for various urban bird
+32 一 35
+diversity metrics
+NDVI quantifies the ratio 0f the red and infrared reflectance 0f diverse surfaces ， which is correlated with
+certain physical properties Of the vegetation canopy: leaf area index (LAI), fractional vegetation cover, vegetation
+condition ， and biomass36. While NDVI can be employed t0 describe and classify diverse vegetation types when
+37 一 39
+utilising time series (e.g
+） ． ， a single snapshot or average across time ofNDVI may only indicate the presence
+Of vegetation in contrast tO other surfaces with different reflectance values. While NDVI can provide valuable
+information about the physiological status Of vegetation, such as stress, phenology, and vegetation density40, it
+provides limited insights int0 other attributes 0f urban vegetation, such as height or type. Although NDVI has
+been established as an effective measure of urban green4 ， which is generally correlated with higher biodiversity,
+the specific components that comprise this green and the characteristics Of the remainder Of the urban matrix
+significantly influence the diversity of an area · "lhus, for predicting the diversity of birds, exploring additional
+data derived from remote sensing is crucial for comprehensively understanding urban biodiversity and providing
+practitioners with accurate tOOls for rapidly estimating biodiversity.
+While other common metrics, such as Leaf Area lndex （ LAI) or Enhanced Vegetation lndex (EVI), may be
+considered by some ， LAI is not readily available globally at very high resolutions ， and EVI has been found by
+others t0 not be as good as NDVI for predicting different aspects ofbird diversity in cities32. A three-dimensional
+approach tO vegetation assessment could be particularly relevant tO bird diversity studies, as different species
+43
+utilise multiple and varied vegetation strata ， and suitable vegetation volume and density are important for
+maintaining native bird communities44. Recent advances in satellite and aerial imagery technologies, coupled
+with improvements in digital surface models, have opened new possibilities for describing urban vegetation in
+more dimensions ． One particularly promising metric is vegetation volume ， which includes bOth the area and
+height Of vegetation. Further, bird species respond differently tO vegetation composition and structure ， with
+45 ， 46 lncorporating height adds another dimension that
+varying responses between species and functional groups
+should better describe the habitat available t0 birds. For instance, areas with similar NDVI values might have
+vastly different vertical structures and, therefore ， vegetation volume, which could influence local bird diversity.
+Consequently, vegetation volume likely offers a more accurate prediction 0f urban bird diversity than NDVI.
+We aim t0 evaluate the efficacy of NDVI and vegetation volume for describing bird biodiversity in Munich,
+Germany and discuss the utility of vegetation index proxies of bird diversity for urban planning. Specifically, we
+examine the extent tO WhiCh can describe bird richness ， vocal activity, diversity and community composition
+using NDVI and vegetation volume. Our objectives are t0 (a) determine the optimal buffer around each point
+that best describes the species recorded there, (b) compare NDVI and vegetation volume as proxies for bird
+diversity, and (c) examine how well NDVI and vegetation volume represent local community composition.
+Using these findings, we generate predictions 0f bird diversity across Munich and discuss applications for urban
+planning and biodiversity conservation.
+Methods
+Site selection
+We selected 86 sites in Munich ， Bavaria, southern Germany, spanning two orthogonal gradients in NDVI
+and distance from the city centre (Marienplatz, latitude 48 彐 3 不 longitude 1 L576 ） ， Starting with a very high
+resolution 20 × 20 cm pixel NDVI map 0f Munich derived from data obtained from the Bavarian State Offce
+for Digitization, Broadband and Surveying (https://www.ldbv.bayern.de/index.html) ， we aggregated the map
+47
+to 100 m (aggregate function terra package in R ） and zeroed all negative values t0 reduce the range 0f non-
+vegetated pixels. We created five even bins spanning the range 0f NDVI values （ 0 to 0 ． (1) ． We then separated
+the city into five three-kilometre distance rings （ 0 一 3 km, 3 一 6 km, 6 一 9 km ， 9 一 12 km, 12 一 巧 (m) around the city
+centre. Next ， we conducted a random stratified sampling tO select 100 raster cells ， with ten sites per distance
+ring and tWO per NDVI, with the constraint that there was a minimum Of 300 m between sites tO ensure
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+丿
+
+@@ PAGE 3 / 14 @@
+www.nature.com/scientificreports/
+independence (Fig. 1). Raster cells where more than 25 ％ 0f the cell were outside 0f the city boundary were
+removed ， resulting in 86 cells. We selected a streetlamp closest tO the centre Of each selected raster cell as the
+sampling point using Google Maps and on- site surveys.
+Bird s U rveys
+We deployed a single Frontier Labs Bioacoustic Recorder （ BAR) or BAR long-term (BAR_LT) on each sampling
+point. Recorders were set tO record for one week, 24 h a day, with a sample rate Of 48 kHz and a gain Of 40 ，
+Recorders were deployed at a standardised height 0f approximately 4 m. We used 25 recorders and needed four
+weeks for recording (recording started on weeks 14 ， 27 ， 29 ， and 31 of 2023 ） ． Each sampling point was sampled
+once. A continuous and long recordmg periOd increases the likelihood Of detecting species that may vocalise
+26
+infrequently or would be missed by shorter schedules or short, infrequent visits, as with point counts · However,
+like any ecological survey method ， is subject to biases. SpecificaIIy, the detectability of species can vary due to
+multiple factors, including the structure Of the surrounding environment ， ambient noise, weather conditions,
+and distance fi ℃ m the microphone.
+Bird diverslty metr•cs
+To calculate bird richness, activity, and diversity, we analysed all the recordings with BirdNET- Analyzer18 （ v2 ， 4 ） ，
+including the week of the year, location ， a default sensitivity of I.O ， a default overlap of 0 s and the results filtered
+by a minimum confidence Of 0 ． 8 following Fairbairn et al.26. We removed singletons (species only detected on an
+individual site once) as they are likely incidental and the species not a resident 0f that site. AII species detected
+ten times or fewer overall were manually checked, and incorrect identifications were removed. The filtered and
+validated results were compared tO species occurrence data since 2000 from the Global Biodiversity lnformation
+49 ， 50
+FaciIity (GBIF) using the rgbifpackage in R and the NABU (Naturschutzbund DeutschIand e.V.) 40 most
+common garden birds (https ： //www.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/stunde-der-gartenvoeg
+el/portraets/index.html) ， We then calculated the species richness per site by summing all species detected. As a
+measure Of vocal activity which can be used tO approximate relative abundance, we calculated the vocal activity
+ndvi
+0 ． 7
+0 ． 3
+0 ． 2
+5 km
+Fig. 1. SpatiaI distribution and NDVI 0f acoustic monitoring points in Munich, Germany. Map 0f 86 points in
+the City Of Munich, Bavaria ， Germany, where acoustic monitoring ofbirds was undertaken. The green gradient
+represents the average NDVI value within a 100 m buffer around each point. 咀 open red dot is the historic
+city centre ， Marienplatz. Grey dashed circles represent three-kilometre-wide rings within which the point
+selection was undertaken.
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+
+@@ PAGE 4 / 14 @@
+www.nature.com/scientificreports/
+rate (VAR ， Eq. 1 ） as the ratio Of the number Of 15-minute periods a species was detected vocalising at least once
+to the total number of days recorded.
+“ 15 一 rn e periods
+VAR =
+days recorded
+0 ）
+While VAR is typically calculated as the total number of vocalisations of a species over the recording length, we
+count multiple vocalisations only once in a 15 -minute periOd in an effort tO reduce the overestimation Of species
+that vocalise frequentIy31 ． We summed the by-species vocal activity rates t0 get a VAR per site. lt should be noted
+that while our implementation ofVAR may be more robust31 ， acoustic abundance indices can be affected by the
+29 ， 31
+recording length and schedule and individual species' life histories
+as such it may not be a direct proxy for
+abundance for some species. Finally, we calculated the Shannon diversity index for each site by using the VAR
+0f a species in place of abundance.
+Mapping NDVI and vegetation volume
+While site selection was done on an NDVI map from 2017 ， we obtained newer remote sensing data from 2019
+for all further analyses. Optical satellite imagery with very high spatial resolution of 30 × 30 cm2 was acquired by
+WorldView- 3 on 04 ． 07 ． 2019 ． Based on these data, the NDVI was calculated (range 一 I t0 Fig. 2 ） for the single
+date. We also calculated the Enhanced Vegetation lndex (EVI) as an additional vegetation index based on the
+WorldView-3 data51 ， However, EVI was strongly correlated with NDVI （ Pearson's r = 0 ， 99 ； Supplementary Fig.
+(I), so we retained NDVI as the primary vegetation index for further analyses.
+Using the WorIdView- 3 imagery, a normalised digital surface model (nDSM) with very high spatial resolution
+of 50 × 50 cm2 and data from OpenStreetMap, a land cover map was generated based on the approach presented
+in Taubenböck et al 52 and Wurm et al. 53 For the calculation 0f vegetation volume, all vegetated pixels were
+extracted from the land cover map ， and vegetation volume in m3 was calculated based on the volume below the
+surface model (i.e. representation of the vegetation canopy) provided through the nDSM (Range 0 to 4 Fig. 2 ． ） ．
+Site characteristics at differing Spatial scales
+TO characterise the area surrounding each sampling point ， we calculated mean NDVI and mean vegetation
+volume (henceforth NDVI and vegetation volume) within several buffers around each sampling point （ 25 m,
+50 m ， 100 m ， 200 m ， 400 m ， 800 m) ． These buffer sizes were chosen t0 capture local variation in vegetation
+characteristics at scales relevant tO urban planning (e.g. within a city block54 or urban square42) and typical home
+5s56
+ranges Of urban bird species
+while also including the distances typically used in traditional point counts.
+Mean NDVI was calculated using the 巳 丷 ra 酗 function in the 了 ra package using a summary function Of mean.
+Mean vegetation volume was calculated similarly, using a sum function and dividing the total vegetation volume
+by the buffer area for each buffer to account for NA values in the non-vegetated pixels (Supplementary TabIe
+(I). To meet the linearity assumptions 0f the linear models, vegetation volume was then log-transformed for all
+analyses.
+Minimum and maximum values for NDVI and vegetation volume varied considerably across buffers (Fig. 3 ） ．
+NDVI ranged from 0 ， 103 tO 0 ． 782 across all buffers, with the lowest minimum observed at the 200 m buffer and
+the highest maximum at the 25 m buffer. For vegetation volume, the range was more pronounced, spanning
+from 0 ． 026 tO 17 ． 898 m3/m2, with the lowest minimum at the 100 m buffer and the highest maximum at the
+25 m buffer (Fig. 3 ） ， B oth NDVI and vegetation volume generally showed lower range and mean values as the
+size buffer increased; however ， the median value remained similar. NDVI and log vegetation volume correlate at
+small buffers, but this decreased with increasing buffer size （ Supplementary Fig. S2).
+40
+30
+20
+1 0
+0
+Fig. 2 ． NDVI and vegetation volume maps 0f Munich, Germany. (a) 30 cm resolution NDVI map (b) 50 cm
+resolution green volume map. Maps plotted at 5 m resolution.
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+4
+
+@@ PAGE 5 / 14 @@
+www.nature.com/scientificreports/
+0
+0
+0
+0 丿
+1 5
+5
+0
+0
+0
+25
+50
+8
+0
+100
+200
+Buffer
+0
+400
+800
+0 ． 6
+0
+0 ． 4
+0 ， 2
+25
+50
+100
+200
+Buffer
+400
+800
+Fig. 3 ， Variation in NDVI and vegetation volume around monitoring points. Boxp10ts showing the
+distribution 0f mean NDVI ()e and mean vegetation volume (right) at six different radius buffers （ 25 ， 50 ，
+100 ， 200 ， 400 ） 800 m) around 86 bird monitoring points in Munich, Germany.
+Analysis
+TO determine what buffer around each point best describes the bird diversity metrics (richness, VAR, and
+diversity) ， we compared the partial r- squared 仂 ． 行 一 r2 from the sensemakr package57) from linear models
+for each dlversity metric and buffer (bi) for both NDVI and vegetation volume as explanatory variables and
+recording week and distance fi ℃ m the city centre as covariates tO account for temporal and spatial variation
+(Eq. 2 ） ． TO ensure the independence of predlctors and covariates ， we checked for collinearity using the 喱 卜 t 叩
+function from the usdm package58, ensuring a variance inflation factor Of less than 5 was maintained. All models
+were assessed tO ensure they met the assumptions Of linear regression, including linearity, homoscedasticity,
+normality 0f residuals, and absence 0f multicollinearity. Vegetation volume was log-transformed for all models
+and NDVI was transformed for the Shannon diversity models. We selected the best buffer as the one with the
+highest r-squared, which appeared most frequently across all diversity metrics.
+lm （ 砌 ℃ rs metric ～ week 十 砌 5 a “ t0 c centre + (ndvi or ℃ g a 昆 0 “ 省 視 me
+（ 2 ）
+TO compare NDVI and vegetation volume as predictors for bird diversity, we compared the best buffer models
+from before for each diversity metric and NDVI and vegetation volume based on the model r-squared values.
+models with the highest r- squared were selected. We tested for spatial autocorrelation in the best models using
+59
+Moran's I test implemented in the DHARMa package tO ensure the spatial independence Of our observations.
+TO test hOW much Of the total variation in community composition (the diversity and abundance Of different
+species within a site) can be explained by NDVI and vegetation volume ， we utilised non -metric multidimensional
+60
+scaling (NMDS; metaMDS function in the vegan package ） using VAR as a proxy for abundance and a Bray-
+Curtis dissimilarity matrix with a log plus one transformation to reduce the effect of highly abundant (vocal)
+species. TO compare if NDVI or vegetation volume best describes community composition, we conducted an
+environmental fit (envfit function 0f the g01 package) ， including NDVI, vegetation volume ， recording week,
+and distance t0 the city centre as environmental variables. 咀 NMDS was rotated t0 align NDVI with NMDSI
+for visualisation purposes. We compared variables based on their r- squared and significance. TO understand
+hOW species habitat preference drives community composition, we assigned each identified species a habitat
+preference using the AVONET database · Species with a habitat preference for rock were reassigned t0 human
+modified as many urban species would originate from cliff and mountain habitats · AdditionaIIy, as Munich is
+inland ， any species with a coastal habitat preference were also reassigned tO human -modified. Species associated
+with water (riverine & wetland) were combined intO a single category aquatic ， and open land species (grassland
+& shrubland) were combined intO a single category open. "lhe species scores were then plotted in the ordination
+plot, and their names were coloured by habitat preference for visual inspection Of patterns.
+As VAR can be hard t0 compare between bird species because they depend not only on the abundance 0f
+species but also on how frequently they vocalize ， assessed how much the patterns observed in the NMDS
+were driven by vocal activity rate (VAR) ， we conducted an additional NMDS with the community matrix
+converted tO presence ． absence using the decostand function from the vegan package and Jaccard distance. TO
+further compare the spatial relationships between the two ordinations, we performed a Procrustes analysis
+and applied the Mantel test 仂 ro 囗 卫 然 and m 7 / functions in 1 ℃ g 7 ） tO assess the alignment and correlation
+between the Bray-Curtis distance matrix (from the VAR-based NMDS) and the Jaccard distance matrix (from
+the presence- absence NMDS).
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+5
+
+@@ PAGE 6 / 14 @@
+www.nature.com/scientificreports/
+FinaIIy, we predicted all three diversity metrics across Munich using the spatial data we determined as the
+best predictor. We first split the data using an 80 / 20 train 仂 = (9)/test = 17 ） split. Using the training data, we
+produced linear models for each diversity metric ， including covariates (Eq. 2 ） ． We then mapped the results by
+aggregating the NDVI map to a 100 m resolution (aggregate function terra package in R47 ） and calculated the
+distance from the city centre for each cell. FinaIIy, we predicted the three diversity metrics averaging over the
+temporal block (week of recording) for each 100 m grid cell.
+TO evaluate the predictive models ， we used the test data as new data in the predict function from the s 卜
+package in base R. TO quantify the average discrepancies between the actual and predicted values ， we calculated
+the R Mean S quared Error （ RMSE) and the Mean Absolute Error (MAE) for each model. As an additional test
+of model fit, we conducted a Standardized （ reduced) maj or axis model II linear regression （ 历 10 12 function
+/ mo / 2 package in R6 ） for each set of predicted and observed values in the test dataset.
+Results
+Recording and bird results
+After cleaning and validating 13 ， 399 h of recordings from 86 sites （ 73 sites with at least 6 full days of recording,
+66 with the full seven; mean 6 ． 49 ± l.11 days per site), we obtained a tOtal Of about 337 ， 000 detections Of 86 bird
+species across all sites (Supplementary Table (2). Species richness on our observation points ranged from 5 t0
+48 (mean 27 ． 06 ± 9 ． 95 ） ． Vocal activity rate ranged from 2 tO 273 (mean 9L99 ± 66 ． (I) ， while Shannon diversity
+ranged from L06 to 3 ， 05 (mean 2 ， 46 ± 0 ， 47 ） （ SuppIementary Table (I). Ofthe 86 species we detected ， 85 are also
+found in the GBIF data, representing a high overlap between the datasets. However, GBIF lists 106 additional
+species that were not detected in our study. Notably, nearly 50 ％ Of these are aquatic species, a habitat type not
+targeted by our monitoring. Additionally, our results contain 39 of the 40 most common garden birds listed by
+NABU. The species observed on most sites were the Carrion crow CO 门 s corone 07 = 78 sites) and the Green
+woodpecker Picis r 仂 ： 78 sites) ， 咀 species with the highest vocal activity rates the Yellowhammer
+Emberiza c 山 · 仂 e 脆 (mean VAR = 13 ． 43 ） ， followed by the Common chiffchaff (mean VAR= 8 ． 78 ； Supplementary
+Table (2). The mean VAR per site provides an estimate 0f how frequently a species is vocalizing, on average ， at
+each site where it is present. Given that there are 96 15-minute periods in a full day, this means that, on average,
+the Yellowhammer vocalized during about 13 Of those intervals at each site where it was detected.
+Optimal buffer for vegetation metrics
+How well NDVI and vegetation volume could predict properties of the bird community in Munich depended on
+the buffer around sampling points over which the measures Of vegetation were considered. This was indicated
+by substantial differences in r-squared values across linear models with varying buffers. Generally, diversity
+metrics were best predicted by vegetation variables at intermediate buffers. For all diversity metrics, we identified
+a 100 m buffer around each point as the optimal buffer (Fig. 4 ） ． Although the 50 m buffer initially appeared
+preferable for VAR and vegetation volume ， we ultimately selected the 100 m buffer for consistency. We decided
+this for two reasons: the difference in model performance between 50 m and 100 m buffer for vegetation volume
+minimal, and maintaining consistency across variables facilitated easier comparison Of results (Fig. 4 ． ，
+Supplementary Table S3).
+NDVI and vegetation volume as predictors of bird diversity
+For the 100 m buffer, the best-performing models for all biodiversity metrics were those based on mean NDVI,
+explaining 23 ． 6 ％ more Of the variance in the data than vegetation volume (mean R2 NDVI = 0 ． 47 mean R2
+vegetation volume 0 ， 37 ； Fig. 4 ， Supplementary Table (3). Partial R2 were also higher for NDVI models (partial
+R2 = 0 ． 22 一 0 ． 32 ） than vegetation volume models （ 0 彐 0 一 0 彐 7)(Fig. 4 ） ． NO spatial autocorrelation was found for any
+of the best models (DHARMa Moran ， S I test ， 0 彐 4 for all models) ， AII measures of bird diversity increased
+with higher values ofNDVI and vegetation volume ， with species richness and Shannon diversity about doubling
+and VAR increasing from approximately zero tO 100 over the range Of the tWO greenness measures (Fig. 5 ） ， which
+performed best predicting VAR ()2 = 0 ， 53 ， 0 ， 45 ） followed by species richness （ R2 = 0 ， 48 ， 0 ． 40 ） and then Shannon
+diversity ()2 = 0 ． 40 ， 0 ． 27 ） ．
+Community composition
+Our ordination （ R2 = 0 ． 61, stress = 0 ． 19 ） showed a clear shift in community composition among the sampling sites.
+Species that occurred mostly at high values of nmds 1 typically inhabit forest habitats （ Fig. 6 ， dark green), such as
+the Eurasian treecreeper ， C “ 确 m the Eurasian bullfinch ， P 尹 7 / lu 亇 裱 7 and the Dunnock 衍 田
+Od司@．氐 "lhese species cluster tO the right Of the ordination. ln contrast, species on the other end of NMDSI
+are more associated with human-modified landscapes (Fig. 6 ， black) ， such as agricultural lands and urban areas,
+including the Western jackdaw CO 邝 然 one 山 ` ， the Barn swallow H 尹 ． 田 7 南 r 然 行 ca ， and the Eurasian magpie
+Pica pica. "lhe central area Of the ordination space is occupied by those with intermediate habitat preferences
+(open woodland, parks, etc.), suggesting a continuous gradient of vegetation and particularly tree dependence
+across the bird community （ Fig. 6 ） ． TO ensure that these patterns were not driven solely by differences in vocal
+activity among species, we conducted an additional NMDS using a presence-absence transformation Of the
+community matrix (Supplementary Fig. (2). The resulting ordination ()2 = 0 ． 50 ， stress = 0 ． 20 ） showed a similar
+structure, with species composition and habitat-preference shifting along NMDSI in response tO vegetation
+gradients. Further validation 0f these patterns through Procrustes analysis and the Mantel test revealed a strong
+correlation between the ordinations and the distance matrices (Supplementary lnformation SI).
+咀 environmental fit supports this pattern, showing significant relationships between NDVI, vegetation
+volume ， and community composition (Fig. 6 ） ． Due t0 the rotation ， the NMDSI axis primarily corresponded t0
+a gradient Of increasing vegetation volume and NDVI, reflecting a transition from open and human-modified
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+6
+
+@@ PAGE 7 / 14 @@
+www.nature.com/scientificreports/
+25
+NDVI
+VegetatiOn volume
+100
+200
+400
+800
+Buffer
+50
+100
+200
+Model
+Shannon dlversity
+。 。 - VAR
+Spedes richness
+400
+Fig. 4 ． Buffer size optimization using partial r-squared for diversity metrics. R-squared-based best buffer
+selection for models based on mean NDVI and log mean vegetation volume at six buffers around each
+observation point for each Of three diversity metrics. The y-axis is the partial r-squared for log vegetation
+volume and NDVI. Dashed lines represent the best-performing buffer based on r-squared. NDVI is log-
+transformed in the Shannon diversity models.
+habitats t0 more densely vegetated habitats with trees. NMDS2 may reflect distance from the city centre, shifting
+community over time, and Other unmeasured environmental factors. 咀 vectors for NDVI and vegetation
+volume from the environmental fit pointed stl ℃ ngly towards the upper right quadrant Of the ordination space,
+aligning with a gradient in habitat preferences of the bird species. UnIike for the measures of bird diversity,
+vegetation volume showed a slightly stronger association with community composition 0 ' = 0 ． 54 ， p < 0 ． 00D
+compared t0 NDVI 0 ． ： 0 ． 50 ， 户 < 0 ． 00D ． While vegetation emerged as the primary driver 0f community
+composition, other factors, such as distance from the city centre 0 ． ： 0 彐 5 ， p < 0 ． 00D ， also showed a significant,
+albeit weaker, relationship.
+Predictive modelling results
+Our predictive maps for all diversity metrics showed clear distinctions between the heavily populated or
+developed areas, for example, near the city centre (white) and the greener regions (coloured) ． Species richness,
+VAR ， and Shannon diversity tended t0 increase further from the city centre with notable variability and some
+exceptions of high bird diversity also relatively close to the city centre, such as the English Garden northeast
+of the city centre (Fig. 7 ） ． Given the inherent complexity and variability in ecological systems the models fit
+the training data well （ r2 0 ． 37 一 0 ． 49 ， Supplementary TabIe (4). The evaluation of the predictive models showed
+good correlation with the actual values; however, there was some variability in the predictions. 咀 root mean
+square error (RMSE) and mean absolute error (MAE) were as follows: RMSE (richness= 7 ． 82 ， VAR = 48 ． 22 ，
+Shannon=O.36) and MAE (richness ： 6 ， 45 ， VAR= 40 ， 52 ， Shannon ： 0 ， 30 ） ， lhe standardised (reduced) major
+axis model II linear regression lines were plotted against a 45 -degree line representing perfect correlation
+(Supplementary Fig. (3). The observed deviations from this line indicated discrepancies between the actual
+and predicted values. AII models showed a significant relationship between the predicted and actual values
+(Supplementary TabIe S5).
+DISCUSSIon
+Our study represents a test case for a spatial product other than NDVI as a predictor for urban bird diversity. We
+determined that a 100 m buffer around the observation points best described the bird diversity occurring there
+When bird communities were characterised using passive acoustic monitoring. Contrary tO What we expected,
+we found vegetation volume was not a better predictor than NDVI ， which performed better for every diversity
+metric calculated. However ， vegetation volume performed slightly better in predicting community composition
+than NDVI. These results lend further support t0 other studies32'34 which showed NDVI to be a good predictor
+for urban bird diversity.
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+
+@@ PAGE 8 / 14 @@
+www.nature.com/scientificreports/
+NDVI
+2 ． 0
+1 ． 5
+Vegetation volume
+40
+200
+100
+07
+NDVI
+200
+Vegetation volume
+到 到
+思 到
+0 ． 7
+NDVI
+到 到
+Vegetation volume
+Fig. 5 ． lhe performance ofNDVI and vegetation volume as predictors for bird diversity in Munich, Germany.
+Each point represents one 0f 86 points surveyed between N'Ia1 ℃ h and August 2023 ， AII models are significant
+仂 < = 0 ． 05 ） ． Lines are model predictions; shaded areas are 95 ％ confidence intervals. N0te the logged axis for
+vegetation volume. NDVI is log-transformed for the Shannon diversity model.
+Optimal buffer for vegetation metrics
+We found that a 100 m buffer around our observation points best described the bird diversity using b0th NDVI
+and vegetation volume. "lhis buffer is larger than those used in other studies32, who found a 50 m buffer to be the
+most suitable. However, their surveys were based on a 50 m point count at each observation point 庵 Here ， we
+used acoustic recordings with automated identification via BirdNET to determine the species occurring at our
+sites. The range at WhiCh an acoustic recorder can detect a species varies based on the environment ， the traits Of
+the species' vocalisations ， and the recording hardware used65. Nonetheless, acoustic recorders typically detect
+66
+species within a range of less than 100m ， yet larger than 50 m ， especially when combined with automated
+identification using BirdNET20 Therefore ， at other buffer sizes, we may be seeing reduced explanatory power due
+tO a mismatch in the scales Of the biodiversity metrics and the vegetation measures ， such as when vegetation data
+are only available for a 50 m buffer while acoustic recorders capture diversity within a 100 m radius. Conversely,
+irrelevant variability may be included if the buffer is too large, diminishing its explanatory power. This aligns
+with previous findings that local conditions are more important than the surrounding environment for bird
+diversity4 ， ， suggesting that while very small buffers may miss important resources, larger buffers incorporate
+less influential landscape features. lt is worth noting that while we used the same buffer for all species, there is
+34
+likely an effect of scale when investigating species individually, as others have found · Thus ， our findings suggest
+that using passive acoustic monitoring, a 100 m buffer effectively describes the spatial relationship between
+vegetation characteristics and overall bird diversity.
+NDVI as a better predictor Of bird diversity
+Although vegetation volume was expected tO be a superior predictor ofbird diversity, given its ability tO describe
+urban vegetation in three dimensions ， we found NDVI to be more effective. This is especially interesting
+considering NDVI and vegetation volume correlate well at the smaller buffers ， including the 100 m buffer. While
+NDVI and vegetation volume show strong correlations at smaller buffer sizes (e.g., 100 m) ， this correlation
+weakens at larger scales. lrrespective Of this divergence at larger scales, NDVI consistently explained more
+variance in our diversity metrics than vegetation volume ， even at smaller buffer Sizes where the tWO measures
+are highly correlated. lhis suggests that the additional information contained in NDVI values, beyond just
+vegetation presence and volume, contributes meaningfully tO its predictive power for bird diversity.
+Here, we suggest two potential explanations for this: 0 ） as suggested above, NDVI also quantifies properties
+of the non-vegetated pixels, and （ 2 ） NDVI quantifies additional properties of the vegetation beyond volume.
+Regarding explanation one ， a key difference between our NDVI and vegetation volume maps is that NDVI
+provldes values area-wide. ln contrast, the vegetation volume map only provides data for pixels identified as
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+
+@@ PAGE 9 / 14 @@
+www.nature.com/scientificreports/
+0 怕 怕
+Habitat
+0
+0
+0
+Apus apus
+到
+Aquatic
+0
+巫
+Forest
+0
+的
+0
+Human Modified
+Open
+的
+Woodland
+0
+Larus michahellis
+0
+Strix
+0
+0
+0
+Columba livia
+CN
+0
+MysdiCapa stri
+5
+以
+0
+CONLIS corone
+Corvus corax
+0
+0
+S
+TrogIodytes troglodytes
+nser anser
+0
+Certhia familiaris
+Tringa nebularia
+Alcedo atthis
+Pru nella modularis
+。 到 》 ； 呻 0 | 0 pyrrhula R4ulus re ulus
+anellus vanellus
+0 ater
+0 platyrhync\s Sylvia borin
+0
+Oriolus oriolus
+Charadrius dubius 到
+Streptopelia decaocto otåcillatl erea
+Phoenicurus ochruros
+Corvus frugilegus
+Passer.domesticu
+Actitis hypoleucos
+Curruca cu rruca FalCO tinnunculus
+0
+seri nus
+Motacilla alba
+passer montanus
+0
+Emberiza citrinella
+0
+Alauda arvensis
+Sturnus vulgaris
+0
+Motacilla fl ava
+1 ． 5
+NMDSI
+． ． ． ． > Distance from centre ． ． ． ． > NDVI
+Vegetation volume
+一 week
+Fig. 6 ， Community dissimilarity across NDVI and vegetation volume gradients in Munich ， Germany.
+Non 一 metric multidimensional scaling (NMDS) ordination p10t with environmental variables indicating the
+dissimilarity Of communities across green mean NDVI and blue log tOtal vegetation volume for 86 sites in
+Munich, Germany. Grey points represent sites. Species points and labels are coloured by their dominant habitat
+type. N0t all sites or species names are displayed.
+Predicted Shannon diversity
+Predicted VAR
+Pred icted richness
+1
+2
+3
+0
+50
+100
+150
+20
+30
+40
+Fig. 7 ． Maps for three bird diversity metrics (richness, VAR, and Shannon diversity) in Munich ， Germany.
+Predictions from linear models for the relationship between bird diversity and NDVI based on 69 measured
+points.
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+9
+
+@@ PAGE 10 / 14 @@
+www.nature.com/scientificreports/
+having vegetation. Since NDVI provides a reflectance value for all surfaces ， it may capture aspects 0f the urban
+environment that our vegetation volume measure does not. ThiS distinction iS important because non-vegetated
+68 ， 69
+areas in cities alSO provide resources for SLICh nesting sites and potential fOOd sources
+ln addition ， NDVI captures water areas, which are not included in the vegetation volume measure. Non-
+vegetated areas alSO include buildings, roads ， and Other structures that may act as barriers tO movement ） areas
+Of increased mortality and sources Of disturbance that may affect species occurrence or activity at our sites ．
+Regarding explanation two, NDVI can contain additional information about the vegetation that vegetation
+36 ， 40
+volume does not, for example, vegetation density or its physiological status
+If these vegetation properties
+are relevant for describing the habitat for birds ， this could explain the higher predictive power of NDVI-based
+models. Obviously, the two explanations are not exclusive and can j 0intly contribute t0 the higher explanatory
+power of NDVI.
+Community composition
+Our NMDS and environmental fit showed a clear shift in community composition along a gradient 0f urban
+green. The habitat preferences Of the species driving our community composition also support this, with species
+more associated with human-modified landscapes opposite those more associated with forest or dense vegetation.
+This gradient, reflected primarily in NMDSI, demonstrates a continuum from open ， urban habitats tO densely
+巧 ， 72
+vegetated areas. This underscores the strong influence Of urban habitat structure on bird communities
+Consistent patterns were observed in an ordination using a presence- absence community matrix ， supporting
+that shifts in community composition along vegetation gradients rather than sole differences in species' vocal
+activity. While bOth vegetation volume and NDVI were good predictors for community composition ， vegetation
+volume proved t0 be slightly better here. 咀 alignment 0f both vectors towards the forest- associated species in
+the ordination space further emphasises the importance Of vegetation occurrence and volume in shaping urban
+bird communities.
+咀 better performance Of vegetation volume in predicting community composition than diversity may
+indicate that the volume Of vegetated habitat available is more important in determining which species can
+inhabit an area rather than how many. 咀 relationship between vegetation volume and community composition
+may be explained by its representation Of the occurrence Of trees, which contribute tO the species- specific
+habitat requirements (forest or dense vegetation ） ． These habitat requirements include factors such as preferred
+nesting heights, foraging strategies, and predator avoidance behaviours that are crucial for determining species
+presence ． The clustering Of forest-associated species like the Eurasian treecreeper and Eurasian bullfinch
+in the high vegetation volume area supports this. "lhe areas Of high vegetation volume are found mainly in
+remnant forest areas and large parks, such as the English Garden. lhis is consistent with Other studies findings
+on community composition in urban areas, showing an increase in the number Of forest specialists in areas With
+remnant forests
+NDVI as a planning and conservation t00 |
+We demonstrated that NDVI could reasonably predict bird diversity across an urban environment. lt's worth
+noting that our study represents a Western European city, and results may vary in Other regions. However,
+the significance 0f our findings extends beyond this geographical constraint. Our study provides a robust
+methodological framework that can be adapted and tested in urban environments globally. Additionally,
+our findings contributed to a growing body of evidence supporting NDVI's utility in predicting urban bird
+diversity3 一 The relationships between NDVI and biodiversity metrics are inherently complex. Previous
+studies reported varying strengths Of correlation. While we observed similar patterns tO previous studies, our
+results were, in some cases, slightly better. NotabIy, while Leveau （ 2019 ） did not find a link between abundance
+and NDVI ， we identified a significant relationship between NDVI and VocaI Activity Rate, which may represent
+abundance for many species. ln our models ， partial R2 values for mean NDVI ranged fi ℃ m 0 彐 41 to 0 ． 266 ，
+comparable t0 or exceeding those reported by Benedetti et al.32 whose marginal R2 ranged from 0 ． 006 to 0 ． 219 ．
+While these values may appear modest ， they reflect the multifaceted nature 0f urban ecosystems ， where bird
+diversity is influenced by numerous factors beyond vegetation alone.
+Despite these limitations ， NDVI remains valuable as an accessible and standardized predictor for rapid
+biodiversity assessment in urban planning contexts ， particularly when more detailed ecological data are
+unavailable. Therefore ， this approach offers a valuable tool for modelling potential changes in biodiversity due
+t0 urban conservation or building proj ects. Our method is compelling as NDVI measures are widely available
+for cities worldwide (e.g. WorldView- 3 https://earth.esa.int/eogateway/missions/worIdview-3), and as our
+work showed ， accurate bird diversity models can be produced even with limited bird monitoring data. Such
+predictive maps can help identify areas of high bird diversity that should be protected and areas of low diversity
+that could benefit from improvement. Urban planners and conservationists can use this information tO guide
+efforts, minimising impacts on biodiversity- riCh areas and ensuring that current diversity iS either maintained
+or improved32. By assigning average NDVI values t0 different urban features, planners can model how proposed
+changes might affect the overall NDVI map, allowing them to predict and quantify potential consequences for
+bird diversity. ln addition, these maps can be used to identify and link areas of high diversity, creating wildlife
+75
+corridors within the urban fabric ． Ultimately, this approach allows urban planners t0 put a numerical value on
+potential biodiversity losses or gains, providmg a powerful tool for balancing urban development with ecological
+conservation.
+However, using NDVI as a metric might be challenging as it does not provlde something tangible that can
+be easily interpreted or implemented. For example, while an NDVI value of 0 ． 6 may indicate high bird diversity,
+it does not provide the information a landscape architect needs tO determine the exact number or area Of trees
+or shrubs required to achieve this goal. This is important, as it has been shown that while urban green generally
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+
+@@ PAGE 11 / 14 @@
+www.nature.com/scientificreports/
+equates tO more diversity, the composition Of that green and Other local features have a significant impact on the
+species found there · Additionally, as our community composition shows ， species react differently tO increasing
+green, and for conservation efforts targeting a specific species, just increasing NDVI will likely not have the
+desired outcomes. Furthermore, accurately predicting a site's NDVI and, therefore, bird diversity following
+certain interventions could prove challenging. Consequently, we suggest several avenues for future research tO
+improve the applicability of this type of modelling in urban planning.
+FUWre research
+WhiIe our predictive models for NDVI showed reasonable accuracy ， they deviate from the actual values ， possibly
+due tO the complexity Of urban ecosystems where a simple measure such as NDVI may not represent all factors
+influencing local diversity. lncreasing the number Of observation points will provide more training data and
+produce more robust models. Additionally, investigating what non-vegetative NDVI values represent in the
+urban environment could provide insights int0 why NDVI proved t0 be a better predictor than vegetation
+volume and help tO advance a mechanistic understanding Of why and where bird species can live in cities. The
+same holds true for additional vegetation properties that are (partially) represented by NDVI but not vegetation
+volume ， like vegetation density, structure, or distribution. Further, understanding what NDVI values represent
+would allow concrete recommendations tO be made for urban planners tO implement. This could also include
+76
+using indlces explicitly developed for urban environments 庵 Furthermore, including additional measures and
+variables (e.g. building and neighbourhood typologies ， vegetation types42, water bodies78) could significantly
+improve the predictive power Of the models, leading tO more comprehensive and accurate assessments Of urban
+biodiversity and a refined understanding of drivers of urban biodiversity. Lastly, as our community analysis
+suggested, investigating individual bird species or functional groups by building species-specific models could
+provlde valuable insights intO the drivers Of urban bird diversity and inform targeted conservation efforts.
+ConcIusion
+We found compelling evidence for the effectiveness of NDVI as a predictor for urban bird diversity,
+outperforming vegetation volume in all diversity measures except community composition, further supporting
+previous research showing that NDVI is a good predictor for bird diversity. Contrary t0 our hypothesis, the
+better performance ofNDVI may be due t0 its ability t0 capture a broader range 0f urban environmental factors,
+including vegetation density or physiological status and information on non-vegetated areas that provide
+resources or act as barriers for birds. While NDVI is proving t0 be a powerful t001 for predicting bird diversity
+across an entire city, its practical application in urban planning and conservation faces challenges due tO the
+abstract nature ofNDVI values. Future research investigating species- specific differences and finer descriptors Of
+the urban fabric may give more insight intO the drivers Of urban bird diversity and improve assessment tOOls. As
+urbanisation continues t0 impact biodiversity globally, refining our understanding and application of ecological
+models for urban planning will be crucial to developing more biodiverse cities.
+Data availability
+咀 le research data supporting the main findings of this study are provided in the supplementary information files
+included with this manuscript.
+Received: 23 November 2024 ； Accepted: 26 March 2025
+PubIished online ： 巧 ApriI 2025
+References
+l. UNHSP. 衍 C 洧 然 R 叩 0 2022 （ 2022 ） ． https://unhabitat.org/wcr/.
+2 ． Lai ， H ” Flies ， E. J., Weinstein ， P. & Woodward ， A. The impact 0f green space and biodiversity on health. 尹 ÉO ． ECOI. Environ. 17 ，
+383 一 390 （ 2019 ） ．
+3 ， Marselle, M. R., Lindley, & J., Cook, P. A. & Bonn ， A. Biodiversity and health in the urban environment. C 团 工 Environ. Health Rep.
+8 ） 146 一 巧 6 （ 202D ．
+4 ． Gianfredi ， V. et al. Urban green spaces and public health outcomes: A systematic review Of literature. 0 伍 7 ． ` b ． Health 31
+ckab164638 （ 202D ．
+5 ， Wang, J. et al. Long-term exposure tO residential greenness and decreased risk Of depression and anxiety. Nat. M 忉 ／ HeaIth 2 ，
+525 一 534 （ 2024 ） ．
+Grabowski ， Z. et al. Cosmopolitan conservation: 'lhe multi-scalar contributions Of urban green infrastructure tO biodiversity
+6 ．
+protection. B 嘲 巧 ． Cot 巧 卫 32 ， 3595 一 3606 （ 2023 ） ．
+7 ， Sweet, F. & T., Apfelbeck, B ” Hanusch, M., Garland Monteagudo, C. & Weisser ， W W. Data from public and governmental
+databases show that a large proportion Of the regional animal species POOI occur in cities in Germany. 美 仂 五 m co 乙 8 ， （ 2022 ） ，
+& Olive, A. & Minichiello, A. Wild things in urban places: America's largest cities and multi-scales 0f governance for endangered
+species conservation. 尹 尹 ／ ． Geogr. 43 ， 56 一 66 （ 2013 ） ．
+9 ． Planchuelo ， G ” von Der Lippe ， M. & Kowarik ， I. Untangling the role Of urban ecosystems as habitats for endangered plant species.
+L 7 小 匚 Urban P 忉 189 ， 320 一 334 （ 2019 〗
+10 ． Lepczyk, C. et al. GIobaI patterns and drivers ofurban bird diversity. ln EcoIogy CO 肭 可 r 小 仂 Urban Environments
+13 一 33 （ 2017 ） ．
+11. Garrard ， G. E ” Williams ， N. S. G ” Mata ， L. ， lhomas ， J. & Bekessy, S. A. Biodiversity sensitive urban design. Conserv. e 能 11,
+e124H （ 2018 ） ．
+12 ． Weisser ， W. W. & Hauck, T. E. AnimaI-Aided l)esign—planning for biodiversity in the built environment by embedding a species'
+life-cycle intO landscape architectural and urban design processes. Lan 小 匚 Res. I 一 22 （ 2024 ） ．
+13. Bekessy, & A. et al. Transparent planning for biodiversity and development in the urban fringe. 羌 1 小 匚 仂 ． b 1 尹 汛 108 ， 140 一 149
+（ 2012 ） ．
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+
+@@ PAGE 12 / 14 @@
+www.nature.com/scientificreports/
+14. De Martino, R., Franchino, R. & Frettoloso, C. A. Stepping stone approach tO exploiting urban density. ln Technological lmq & 仂 五
+仂 the Green DigitaI 7 、 Ya （ 用 (eds Arbizzani, E. et al.) 639 一 647 (Springer, 2023 ） http 丷／doi.org/ 10 彐 007 / 978 ． 3 ． 03 摔 295 巧 ． 7
+57 ．
+巧 ． Aronson ， M. F. J. et al. A global analysis Of the impacts Of urbanization on bird and plant diversity reveals key anthropogenic
+drivers. Proc. R. SO 匚 B. 28L 20133330 （ 2014 ） ．
+16 ， Lepczyk, C. A. et al. Biodiversity in the city: Fundamental questions for understan 山 ng the ecology of urban green spaces for
+biodiversity conservation. BioScience 67 ， 799 一 807 （ 2017 ） ．
+17 ． Sandström, U. G., AngeIstam, P. & Khakee ， A. Urban comprehensive planning—identifying barriers for the maintenance Of
+functional habitat networks. 嵇 zn 小 匚 Urban P 忉 75 ， 43 一 57 （ 2006 ） ．
+18 ． Kahl, S. Wood, C. M ” Eibl, M. & KIinck, H. BirdNET: A deep learning solution for avian diversity monitoring. EcoI. 坦 不 61, （ 202D ．
+19 ． Barthel, P. H. & Krüger, T. Liste der VögeI Deutschlands: Version 32 （ 2019 ） ，
+20 ． Pérez-Granados, C. A. First assessment Of Birdnet performance at varying distances: A playback experiment. Ar 壶 0 70 ， 221 一 233
+（ 2023 ） ．
+21. Arif ， M., HedIey, R. & Bayne, E. Testing the accuracy of a BirdNET. Automatic 猕 Song CIassifier 7 （ 2020 ） ．
+22 ， Manzano-Rubio, R. LOW cost open-source recorders and ready-to-use machine learning approaches provide effective monitoring
+Of threatened species. Ecol. 不 72 ， （ 2022 ） ．
+23 ． Cole ， J. S ” Michel, N. L ” Emerson ， & A. & SiegeI, R. B. Automated bird sound classifications 0f long-duration recordings produce
+occupancy model outputs similar t0 manually annotated data. 0 了 廟 仂 况 尹 ． 124 ， 1- 巧 （ 2022 ） ．
+24 ． BOta ， G ” Manzano-Rubio ， R. ， Catalån ， L. & Gömez-Catasüs, J. Pérez-Granados, C. Hearing tO the unseen: Audiomoth and
+birdNET as a cheap and easy method for monitoring cryptic bird species. Se 小 0 巧 23 ， 7176 （ 2023 ） ，
+25 ． McGinn, K., Kahl, S., Peery, M. Z., Klinck, H. & Wood, C. M. Feature embeddings from the BirdNET algorithm provide insights
+intO avian ecology. ECOI. 7 可 ： 74 ， IO 四 95 （ 2023 ） ．
+26 ． Fairbairn ， A. J. ， Burmeister ， J. S ” Weisser ， W. W. & Meyer, S. 工 BirdNET is as good as experts for acoustic bird monitoring m a
+European city. 09 ． 17 ． 613451 Preprint at http丷／doi.org/ 10 彐 101 / 202 生 09 ． 17 ． 613451 （ 2024 ） ．
+27 ． Borker, A. L. et al. VocaI activity as a IOW cost and scalable index Of seabird colony size. Conserv. 勝 况 28 ， H00 一 1 108 （ 2014 ） ．
+2 & Pérez-Granados, C. et al. Vocal activity rate index: A useful method tO infer terrestrial bird abundance with acoustic monitoring.
+lbis 161, 901 一 907 （ 2019 ） ．
+29 ， Pérez-Granados, C. et al. Effort needed tO accurately estimate vocal activlty rate index using acoustic monitoring: A case studywith
+a dawn-time singmg passerine. CO 乙 仂 匚 107 ， 105608 （ 2019 ） ，
+30 ． Zhao, K ” Chen, G ” Liu, Y., MØller, A. P. & Zhang, Y. Population size assessment of adélie Penguin (Pygoscelis adeliae) chicks based
+on vocal activity rate index. G ／ CO 钇 38 ， e02263 （ 2022 ） ．
+31. Hutschenreiter ， A. et al. HOW tO count bird calls? Vocal activity indices May provide different insights intO bird abundance and
+behaviour depending on species traits. Me 叻 0 小 EcoI. Evol. 巧 ， 1071 一 1083 （ 2024 ） ．
+32 ． Benedetti, Y. et al. EVI and NDVI as proxies for multifaceted avian diversity in urban areas. ECOI. N/a, e2808 （ 2023 ） ．
+33 ． Bino ， G. et al. Accurate prediction Of bird species richness patterns in an urban environment using Landsat-derived NDVI and
+spectral unmixmg. lnt. 7 ． Remote Sens. 29 ， 3675 一 3700 （ 2008 ） ．
+34 ， Kontsiotis, V. J., Chatzigiovanakis, S., Valsamidis, E., Xofis, P. & Liordos, V. Normalized difference vegetation index as a proxy Of
+urban bird species presence and distribution at different Spatial scales. Di1 ℃ 巧 0 15 ， 1 139 （ 2023 ） ．
+35 ． Leveau ， L. M. Primary productivity and habitat diversity predict bird species richness and composition along urban-rural gradients
+Of central Argentina. 仂 ． b 1 仂 ． b 1 Green. 43 ， 126349 （ 2019 ） ．
+36 ． Carlson ， T. N. & Ripley, D. A. On the relation between NDVI ， fractional vegetation cover, and leaf area index. emo S 巧 ．
+07 ro 62 ， 241 一 252 0997 ） ．
+37 ． Van Wagtendonk, J. W. & Root, R. R. The use Of multi-temporal Landsat normalized difference vegetation index (NDVI) data for
+mapping fuel models in Yosemite NationaI park, USA. lnt. 7 ． Remote Sens. 24 ， 1639 一 1651 （ 2003 ） ．
+38 ． Geerken ， R. ， Zaitchik ， B. & Evans ， J. 2 Classifying rangeland vegetation type and coverage from NDVI time series using fourier
+filtered cycle similarity. 仂 上 美 Remote Sens. 26 ， 5535 一 5554 （ 2005 ） ．
+39 ． Yan, E., Wang, G ” Lin ， H., Xia ， C. & Sun ， H. PhenoIogy-based classification Of vegetation cover types in Northeast China using
+MODIS NDVI and EVI time series. lnt. 美 emo Sens. 36 ， 489 一 512 （ 20 巧 ） ．
+40 ． Huang ， S. ， Tang, L., Hupy, J. P. ， Wang ， Y. & Shao ， G. A commentary review on the use Of normallzed difference vegetation index
+(NDVI) in the era Of popular remote sensing. 美 For. Res. 32 ， 1 一 6 （ 202D ，
+41. Hashim, H., Abd Latif, Z. & Adnan, N. A. Urban vegetation classification with NDVI threshold value method with very high
+resolution (VHR) pleiades. ln lhe •na 依 用 司 Archives 可 ． the Photogrammetry, Remote Se1 哣 卸 忉 I 疖 rma 用 Sciences
+vol. XLII-4-W 16 237 一 240 (Copernicus GmbH ， 2019 ） ．
+42 ． Fairbairn ， A. J. et al. Urban biodiversity is affected by human-designed features 0f public squares. Nat. C 然 ． I—IO （ 2024 ） ．
+43 ， MühIbauer, M. ， Weisser ， W. W., Müller, N. &Meyer, & T. A green design of City squares increases abundance and diversity ofbirds.
+Basic. p CO 乙 56 ） 446 一 459 （ 202D ．
+44 ． Chace ， J. F. & Walsh ， J. J. Urban effects on native avifauna. A review. 0 忉 小 匚 Urban 尹 74 ， 46 一 69 （ 2006 ） ．
+45 ． Gebremichael, G. et al. Bird community composition and functional guilds response tO vegetation structure in Southwest Ethiopia.
+尹 仞 ℃ 豆 s 13 ， 2068 （ 2022 ） ，
+46 ． Zhang, Q., Han, R ” Huang, Z. & Zou, F. Linking vegetation structure and bird organization: Response Of mixed-species bird flocks
+tO forest succession in subtropical China. 刀 巧 ． Conserv. 22 ， 1965 一 1989 （ 2013 ） ．
+47 ． Hijmans, R. J. 7 ra ： S 声 D 口 AnaIysis. https://rspatial.org/ （ 2024 ） ．
+48 ． Martin ， T. E. et al. Variability in the effectiveness Of tWO ornithological survey methods between tropical forest ecosystems. PLoS
+ONE. 12 ， e0169786 （ 2017 ） ．
+49 ． ChamberIain ， & A. & Boettiger, C. R. Python, and Ruby clients for GBIF species occurrence data. Preprint at https://doi.org/10． 72
+87/peerj.preprints.3304v1 （ 2017 ） ．
+50 ． ChamberIain, S. et al. Rgbif: lnterface to the GIobaI Biodiversity lnformation FaciIity API. （ 2025 ） ．
+51. Mondal, P. Quantifying surface gradients with a 2-band enhanced vegetation index (EV12). 况 ． lnd. 11, 918 一 924 （ 201D ，
+52 ． Taubenböck, H., Esch, ' 以 Wurm ， M ” Roth, A. & Dech, & Object-based feature extraction using high SpatiaI resolution satellite
+data Of urban areas. 美 S 声 Sci. 55 ， 117 一 132 （ 2010 ） ．
+53 ． Wurm ， M., Taubenböck, H ” Schardt ， M. ， Esch, T. & Dech, S. Object-based image information fusion using multlsensor Earth
+observatlon data over urban areas. 仁 儿 方 ng Data Fus. 2 ， 121—147 （ 2011).
+54 ， Depans, M. et al. Linking plant diversity and urban uses at the City-BIock scale to inform urban planning. L 14 ， 3 （ 2025 ） ，
+55 ． Snow, D. W. The migration and dispersal Of British Blackbirds. 猕 S 忉 ． 13 ， 237 一 255 0966 ） ．
+56 ． Ferry, C ” Frochot ， B. & Leruth ， Y. Territory and home range Of the BIackcap (SyIvia Atricapilla) and some 0ther passerines ，
+assessed and compared by mapping and Capture-Recapture. Stud. Avian Biol. 6 ， 119 一 120 098D ．
+57 ， Cinelli, C ” Ferwerda, J. & Hazlett, C. Sensemakr ： & 0 Analysis 7b0卜@r Reg 化 5 ModeIs. （ 2024 ） ．
+5 & Naimi, B., Hamm, N ” Groen, T. A ” Skidmore, A. K. & Toxopeus, A. G. Where is positional uncertainty a problem for species
+distribution modelling. CQ 灯叩@37， 四 1 一 203 （ 2014 ） ．
+59 ． Hart1g ， F. DHARMa ： R 然 “ Di嗯”0酾cs@了 HierarchicaI （ M 司 雄 “ ／ / M e 刃 化 s ModeIs. （ 2024 ） ．
+60 ， Oksanen, J., et al. 鞔 能 Co ” ltnu 用 0 co / 0 罗 Package. （ 2020 ） ． https://CRAN.R-project.org/package=vegan
+61. Tobias, J. A. et al. AVONET: Morph010gical, ecological and geographical data for all birds. EcoI. 25 ） 581 一 597 （ 2022 ） ．
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+
+@@ PAGE 13 / 14 @@
+www.nature.com/scientificreports/
+62 ． Croci ， S ” Butet ， A. & Clergeau, P. Does urbanization filter birds on the basis Of their biological traits. CO 月 r 110 ， 223 一 240 （ 2008 ） ．
+63 ， Legendre, P. Lmode12: Mo ／ II Regression. （ 2018 ） ． https://CRAN.R-pr0ject.org/package=lmode12
+64 ． Winiarska, D., Szymafiski, P. & Osiejuk, T. & Detection ranges Of forest bird vocalisations: GuideIines for passive acoustic
+monitoring. Sci. 叩 ． 14 ， 894 （ 2024 ） ．
+65 ． Pérez Granados, C ” Bota ， G. Albarracin ， J., Giralt, D. & Traba, J. Cost-Effectiveness assessment offive audio recording systems for
+wildlife monitoring: Differences between recording distances and singing direction. ArdeoIa 66 ， 311 一 325 （ 2019 ） ．
+66 ． Budka ， M ” Jobda ， M ” SzaIafiski ， P. & Pi6rkowski, H. Acoustic approach as an alternative to human-based survey in bird biodiversity
+monitoring in agricultural meadows. PLOS ONE. 17 ， e0266557 （ 2022 ） ．
+67 ． James ReynoIds, S ” Ibåfiez-ÅIamo, J. D. ， Sumasgutner, P. & Mainwaring, M. C. Urbanisation and nest BuiIding in birds: A review
+of threats and opportunities. 儿 Orni 嘞 視 ． 160 ， 841 一 860 （ 2019 ） ．
+6 & Derryberry, E. P. & Coomes ， C. M. Providing urban birds nutritious fOOd to feed chicks reduces urban versus rural breeding
+success disparities. 美 Anim. ECOI. 89 ， 1546 一 1548 （ 2020 ） ．
+69 ． Burt ， & A ” Vos ， C. J., Buijs, J. A. & Corbee ， R. J. Nutritional implications Of feeding free-living birds in public urban areas.J. Animm
+P / 9 型 ol ． 用 m ． Nutr. 105 ， 385 一 393 （ 202D ．
+70 ， TrembIay, M. A. & St. Clair, C. C. PermeabiIity of a heterogeneous urban landscape to the movements of forest songbirds. 美 p.
+Ecol. 48 ， 679 一 688 （ 20H ） ．
+71. LOSS ， & R ” Will ， T. & Marra ， P. P. Direct mortality Of birds from anthropogenic causes. Annu. Rev. Ecol. EVOI. S 丿 ． 46 ， 99 一 120
+（ 20 巧 ） ．
+72 ． Dale ， S. Urban bird community composition influenced by size Of urban green spaces ， presence ofnative forest, and urbanization.
+仂 五 忉 co 21, 1 一 14 （ 2018 ） ．
+l)yson, K. Conserving native trees increases native bird diversity and community composition on commercial Office developments.
+73 ．
+丿 ． Urban ECOI. 6 ， juaa033 （ 2020 ） ．
+74 ． Campos-Silva, L. A. & Piratelli, A. J. Vegetation structure drives taxonomic diversity and functional traits Of birds in urban private
+native forest fragments. 仂 ． b 7 五 CO 24 ， 375 一 390 （ 202D ．
+75 ． Lee ， T. & et al. A framework tO identify priority wetland habitats and movement corridors for urban amphibian conservation. ECOI.
+SOIut. 刀 v 3 ， e12139 （ 2022 ） ．
+76 ． Lee ， G. Hwang ， J. & Cho, S. A novel index tO detect vegetation in urban areas using UAV-Based multlspectral images. p ． Sci. 11,
+3472 （ 2021) ．
+77 ， van den Berg, A. Staatsbroeders: Hoe Leefomgeving 07 BouwstijI Be 仂 诃 oe 壶 gel 市 巧 e (Natuurhistorisch Museum Rotterdam,
+202D ．
+7 & Curipaco Quinto ， P. Z. & Quispe-MeIgar, H. R. Siguas RobIes ， 0 PIant composition, water resources and built structures influence
+bird diversity: A case study in a high Andean City W1th homogeneous soundscape. Urban Ecosyst. 27 ， 1—14 （ 2024 ） ．
+Acknowledgements
+We want t0 thank the German Resea1 ℃ h Foundation （ DFG) Resea1 ℃ h Training Group 2679 一 Urban Green ln ．
+frastructure for funding this work. AdditionaIIy, this work was supported by the TUM lnternational Graduate
+School of Science and Engineering. We want to thank the City of Munich for permitting this work. Finally, we
+would like to thank Andreas WinkIer for assisting with deploying the acoustic recorders.
+Author contributions
+咀 le study was conceptualized by A.J.F. ， S.K ” L.S., and S.T.M. Data collection and analysis were conducted by A.
+J.F., S.K ” L.S ” L.M ” and T.L. The first draft ofthe manuscript was written by A.J.F. and S.T.M. AII authors contrib-
+uted tO the writing, review, and editing ofthe manuscript. All authors read and approved the final manuscript.
+Funding
+Open Access funding enabled and organized by Proj ekt DEAL.
+This work was funded by the Research Training Group 2679—Urban Green lnfrastructure （ German Re-
+search Foundation GRK2679 ， W.W.W.). This work was further supported by the TUM lnternational Graduate
+Sch001 0f Science and Engineering （ IGSSE, PROTOHAB P2104 ， W.W.W.).
+DecIarations
+Competing interests
+咀 le authors declare no competing interests.
+Additional informat•on
+Supplementary lnformation "lhe online version contains supplementary material available at https://doi.org/l
+0 彐 038 / S41598 一 025 一 96098 一 0 ．
+Correspondence and requests for materials should be addressed t0 A.J.F.
+Reprints and permissions information is available at www.nature.com/reprints.
+PubIisher's note Springer Nature remains neutral with regard t0 jurisdictional claims in published maps and
+institutional afflliations.
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+
+@@ PAGE 14 / 14 @@
+www.nature.com/scientificreports/
+Open Access This article is licensed under a Creative Commons Attribution 4 ． 0 lnternational License, which
+permits use ， sharing, adaptation, distribution and reproduction in any medium or format ， as long as you give
+appropriate credit tO the original author(s) and the source, provide a link tO the Creative Commons licence, and
+indicate if changes were made. The images or other third party material in this article are included in the article's
+Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or
+exceeds the permitted use ， you will need to obtain permission directly from the copyright holder. To view a COPY
+of this licence ， visit http://creativecommons.org/licenses/by/4.O/．
+0 The Author(s) 2025
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio

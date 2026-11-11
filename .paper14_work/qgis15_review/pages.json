@@ -1,0 +1,895 @@
+[
+    {
+        "Page":  1,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\qgis15_review\\page_1.png",
+        "Text":  "lnformation\nSource\n； 》 / Symb010gy\nTransparency\nHistogram\nRendering\nTemporaI\nPyramids\nElevation\nMetadata\nLegend\nQGIS Server\nGeneral\nName\nPath\nSize\nLast modified\nprovider\nHokka test\n/Users/chenjunying/Desktop/ 第 二 編 訁 侖 文 /OK NDVI \u0026 ND 引 / 0k6 ． 8 original QGIS data (w) / 6 ． 13NDVl/Hokka_test.tif\n229 ． 85 MB\n2025 年 5 月 13 日 JST 15 ： 54 ： 48\ngdal\nlnformation fro m provider\nExte nt\nWidth\nHeight\nData type\nGDAL Driver\nDescription\nGDAL Driver\nMetadata\nDataset Description\nCompression\nBand 1\n493485 ， 0000000000000000 ， 4664385 ， 0000000000000000 ·\n724515 ， 0000000000000000 ， 4899015 ， 0000000000000000\n7701\n7821\nFloat32 - Thirty tWO bit floating point\nGTiff\nGeoTlFF\n/Users/chenjunying/Desktop/ 第 二 編論 文 /OK N DVI \u0026 NDBl/ok6.8 original QGIS data\n(w) / 6 ． 13NDVl/Hokka test.tif\nSTATIST ℃ S APPROXIMATE=YES\nSTATIST ℃ S MA 刈 MUM = 0 ， 97934764623642\nSTATIST ℃ S MEAN = 0 ． 079569375517209\nSTATIST ℃ S M | NIMUM = · 0 ． 36805903911591\nSTATIST ℃ S STDDEV=O.1062017436854\nSTATIST ℃ S VA 凵 D PERCENT=67.35\nScale: 1\nOffset: 0",
+        "Lines":  [
+                      {
+                          "Text":  "lnformation",
+                          "X":  72,
+                          "Y":  91
+                      },
+                      {
+                          "Text":  "Source",
+                          "X":  65,
+                          "Y":  165
+                      },
+                      {
+                          "Text":  "； 》 / Symb010gy",
+                          "X":  5,
+                          "Y":  235
+                      },
+                      {
+                          "Text":  "Transparency",
+                          "X":  64,
+                          "Y":  313
+                      },
+                      {
+                          "Text":  "Histogram",
+                          "X":  65,
+                          "Y":  387
+                      },
+                      {
+                          "Text":  "Rendering",
+                          "X":  65,
+                          "Y":  460
+                      },
+                      {
+                          "Text":  "TemporaI",
+                          "X":  64,
+                          "Y":  534
+                      },
+                      {
+                          "Text":  "Pyramids",
+                          "X":  65,
+                          "Y":  608
+                      },
+                      {
+                          "Text":  "Elevation",
+                          "X":  65,
+                          "Y":  682
+                      },
+                      {
+                          "Text":  "Metadata",
+                          "X":  65,
+                          "Y":  756
+                      },
+                      {
+                          "Text":  "Legend",
+                          "X":  65,
+                          "Y":  830
+                      },
+                      {
+                          "Text":  "QGIS Server",
+                          "X":  65,
+                          "Y":  904
+                      },
+                      {
+                          "Text":  "General",
+                          "X":  334,
+                          "Y":  60
+                      },
+                      {
+                          "Text":  "Name",
+                          "X":  375,
+                          "Y":  159
+                      },
+                      {
+                          "Text":  "Path",
+                          "X":  375,
+                          "Y":  201
+                      },
+                      {
+                          "Text":  "Size",
+                          "X":  374,
+                          "Y":  244
+                      },
+                      {
+                          "Text":  "Last modified",
+                          "X":  375,
+                          "Y":  288
+                      },
+                      {
+                          "Text":  "provider",
+                          "X":  375,
+                          "Y":  330
+                      },
+                      {
+                          "Text":  "Hokka test",
+                          "X":  705,
+                          "Y":  158
+                      },
+                      {
+                          "Text":  "/Users/chenjunying/Desktop/ 第 二 編 訁 侖 文 /OK NDVI \u0026 ND 引 / 0k6 ． 8 original QGIS data (w) / 6 ． 13NDVl/Hokka_test.tif",
+                          "X":  702,
+                          "Y":  198
+                      },
+                      {
+                          "Text":  "229 ． 85 MB",
+                          "X":  703,
+                          "Y":  245
+                      },
+                      {
+                          "Text":  "2025 年 5 月 13 日 JST 15 ： 54 ： 48",
+                          "X":  703,
+                          "Y":  288
+                      },
+                      {
+                          "Text":  "gdal",
+                          "X":  702,
+                          "Y":  330
+                      },
+                      {
+                          "Text":  "lnformation fro m provider",
+                          "X":  336,
+                          "Y":  505
+                      },
+                      {
+                          "Text":  "Exte nt",
+                          "X":  375,
+                          "Y":  605
+                      },
+                      {
+                          "Text":  "Width",
+                          "X":  372,
+                          "Y":  685
+                      },
+                      {
+                          "Text":  "Height",
+                          "X":  375,
+                          "Y":  729
+                      },
+                      {
+                          "Text":  "Data type",
+                          "X":  375,
+                          "Y":  773
+                      },
+                      {
+                          "Text":  "GDAL Driver",
+                          "X":  374,
+                          "Y":  816
+                      },
+                      {
+                          "Text":  "Description",
+                          "X":  375,
+                          "Y":  854
+                      },
+                      {
+                          "Text":  "GDAL Driver",
+                          "X":  374,
+                          "Y":  898
+                      },
+                      {
+                          "Text":  "Metadata",
+                          "X":  375,
+                          "Y":  936
+                      },
+                      {
+                          "Text":  "Dataset Description",
+                          "X":  375,
+                          "Y":  980
+                      },
+                      {
+                          "Text":  "Compression",
+                          "X":  374,
+                          "Y":  1061
+                      },
+                      {
+                          "Text":  "Band 1",
+                          "X":  375,
+                          "Y":  1104
+                      },
+                      {
+                          "Text":  "493485 ， 0000000000000000 ， 4664385 ， 0000000000000000 ·",
+                          "X":  702,
+                          "Y":  604
+                      },
+                      {
+                          "Text":  "724515 ， 0000000000000000 ， 4899015 ， 0000000000000000",
+                          "X":  703,
+                          "Y":  643
+                      },
+                      {
+                          "Text":  "7701",
+                          "X":  703,
+                          "Y":  686
+                      },
+                      {
+                          "Text":  "7821",
+                          "X":  703,
+                          "Y":  729
+                      },
+                      {
+                          "Text":  "Float32 - Thirty tWO bit floating point",
+                          "X":  705,
+                          "Y":  772
+                      },
+                      {
+                          "Text":  "GTiff",
+                          "X":  704,
+                          "Y":  815
+                      },
+                      {
+                          "Text":  "GeoTlFF",
+                          "X":  704,
+                          "Y":  898
+                      },
+                      {
+                          "Text":  "/Users/chenjunying/Desktop/ 第 二 編論 文 /OK N DVI \u0026 NDBl/ok6.8 original QGIS data",
+                          "X":  702,
+                          "Y":  979
+                      },
+                      {
+                          "Text":  "(w) / 6 ． 13NDVl/Hokka test.tif",
+                          "X":  721,
+                          "Y":  1017
+                      },
+                      {
+                          "Text":  "STATIST ℃ S APPROXIMATE=YES",
+                          "X":  785,
+                          "Y":  1105
+                      },
+                      {
+                          "Text":  "STATIST ℃ S MA 刈 MUM = 0 ， 97934764623642",
+                          "X":  785,
+                          "Y":  1144
+                      },
+                      {
+                          "Text":  "STATIST ℃ S MEAN = 0 ． 079569375517209",
+                          "X":  785,
+                          "Y":  1183
+                      },
+                      {
+                          "Text":  "STATIST ℃ S M | NIMUM = · 0 ． 36805903911591",
+                          "X":  785,
+                          "Y":  1222
+                      },
+                      {
+                          "Text":  "STATIST ℃ S STDDEV=O.1062017436854",
+                          "X":  785,
+                          "Y":  1261
+                      },
+                      {
+                          "Text":  "STATIST ℃ S VA 凵 D PERCENT=67.35",
+                          "X":  785,
+                          "Y":  1300
+                      },
+                      {
+                          "Text":  "Scale: 1",
+                          "X":  785,
+                          "Y":  1368
+                      },
+                      {
+                          "Text":  "Offset: 0",
+                          "X":  786,
+                          "Y":  1407
+                      }
+                  ]
+    },
+    {
+        "Page":  2,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\qgis15_review\\page_2.png",
+        "Text":  "lnformation\n0 气 Source\n． 《 / ． Symb010gy\nTransparency\n到 Histogram\nRendering\nTemporaI\n0 Pyramids\n忄\nElevation\nMetadata\nLegend\n一 过 QGIS Server\nMore information\nDimensions\nOrigin\nPixeI Size\n． AREA OR POlNT=Area\nX: 7701 Y: 7821 Bands: 1\n493485 ， 0000000000000000 ， 4899015 ， 0000000000000000\n30 疒 30\nCoordinate Reference Syste m (CRS)\nName\nUnits\nMethod\nCeIestiaI bOdy\nAccu racy\nReference\nldentification\nldentifier\nParent ldentifier\nTitIe\nType\nLanguage\nAbstract\nCategories\nKeywo rds\nEPSG ： 32654 - WG S 84 / UTM zone 54N\nm ete rs\nUniversaI Tra n sve rse M e rcator (UTM)\nEarth\nBased on World Geodetic System 7984 ensemble (EPSG:6326), which has a limited accuracy Of at best 2 m ete rs.\nDynamic (relies on a datum which is n 0t plate-fixed)",
+        "Lines":  [
+                      {
+                          "Text":  "lnformation",
+                          "X":  78,
+                          "Y":  109
+                      },
+                      {
+                          "Text":  "0 气 Source",
+                          "X":  7,
+                          "Y":  169
+                      },
+                      {
+                          "Text":  "． 《 / ． Symb010gy",
+                          "X":  12,
+                          "Y":  252
+                      },
+                      {
+                          "Text":  "Transparency",
+                          "X":  71,
+                          "Y":  327
+                      },
+                      {
+                          "Text":  "到 Histogram",
+                          "X":  5,
+                          "Y":  388
+                      },
+                      {
+                          "Text":  "Rendering",
+                          "X":  72,
+                          "Y":  471
+                      },
+                      {
+                          "Text":  "TemporaI",
+                          "X":  71,
+                          "Y":  543
+                      },
+                      {
+                          "Text":  "0 Pyramids",
+                          "X":  6,
+                          "Y":  610
+                      },
+                      {
+                          "Text":  "忄",
+                          "X":  20,
+                          "Y":  673
+                      },
+                      {
+                          "Text":  "Elevation",
+                          "X":  72,
+                          "Y":  688
+                      },
+                      {
+                          "Text":  "Metadata",
+                          "X":  72,
+                          "Y":  761
+                      },
+                      {
+                          "Text":  "Legend",
+                          "X":  72,
+                          "Y":  833
+                      },
+                      {
+                          "Text":  "一 过 QGIS Server",
+                          "X":  24,
+                          "Y":  922
+                      },
+                      {
+                          "Text":  "More information",
+                          "X":  375,
+                          "Y":  65
+                      },
+                      {
+                          "Text":  "Dimensions",
+                          "X":  375,
+                          "Y":  135
+                      },
+                      {
+                          "Text":  "Origin",
+                          "X":  374,
+                          "Y":  177
+                      },
+                      {
+                          "Text":  "PixeI Size",
+                          "X":  375,
+                          "Y":  219
+                      },
+                      {
+                          "Text":  "． AREA OR POlNT=Area",
+                          "X":  740,
+                          "Y":  68
+                      },
+                      {
+                          "Text":  "X: 7701 Y: 7821 Bands: 1",
+                          "X":  695,
+                          "Y":  136
+                      },
+                      {
+                          "Text":  "493485 ， 0000000000000000 ， 4899015 ， 0000000000000000",
+                          "X":  696,
+                          "Y":  178
+                      },
+                      {
+                          "Text":  "30 疒 30",
+                          "X":  696,
+                          "Y":  220
+                      },
+                      {
+                          "Text":  "Coordinate Reference Syste m (CRS)",
+                          "X":  335,
+                          "Y":  391
+                      },
+                      {
+                          "Text":  "Name",
+                          "X":  375,
+                          "Y":  488
+                      },
+                      {
+                          "Text":  "Units",
+                          "X":  375,
+                          "Y":  529
+                      },
+                      {
+                          "Text":  "Method",
+                          "X":  375,
+                          "Y":  571
+                      },
+                      {
+                          "Text":  "CeIestiaI bOdy",
+                          "X":  374,
+                          "Y":  613
+                      },
+                      {
+                          "Text":  "Accu racy",
+                          "X":  373,
+                          "Y":  656
+                      },
+                      {
+                          "Text":  "Reference",
+                          "X":  375,
+                          "Y":  697
+                      },
+                      {
+                          "Text":  "ldentification",
+                          "X":  336,
+                          "Y":  869
+                      },
+                      {
+                          "Text":  "ldentifier",
+                          "X":  375,
+                          "Y":  965
+                      },
+                      {
+                          "Text":  "Parent ldentifier",
+                          "X":  375,
+                          "Y":  1008
+                      },
+                      {
+                          "Text":  "TitIe",
+                          "X":  373,
+                          "Y":  1049
+                      },
+                      {
+                          "Text":  "Type",
+                          "X":  373,
+                          "Y":  1093
+                      },
+                      {
+                          "Text":  "Language",
+                          "X":  375,
+                          "Y":  1135
+                      },
+                      {
+                          "Text":  "Abstract",
+                          "X":  372,
+                          "Y":  1176
+                      },
+                      {
+                          "Text":  "Categories",
+                          "X":  374,
+                          "Y":  1218
+                      },
+                      {
+                          "Text":  "Keywo rds",
+                          "X":  375,
+                          "Y":  1262
+                      },
+                      {
+                          "Text":  "EPSG ： 32654 - WG S 84 / UTM zone 54N",
+                          "X":  698,
+                          "Y":  487
+                      },
+                      {
+                          "Text":  "m ete rs",
+                          "X":  697,
+                          "Y":  535
+                      },
+                      {
+                          "Text":  "UniversaI Tra n sve rse M e rcator (UTM)",
+                          "X":  698,
+                          "Y":  571
+                      },
+                      {
+                          "Text":  "Earth",
+                          "X":  698,
+                          "Y":  613
+                      },
+                      {
+                          "Text":  "Based on World Geodetic System 7984 ensemble (EPSG:6326), which has a limited accuracy Of at best 2 m ete rs.",
+                          "X":  698,
+                          "Y":  655
+                      },
+                      {
+                          "Text":  "Dynamic (relies on a datum which is n 0t plate-fixed)",
+                          "X":  698,
+                          "Y":  698
+                      }
+                  ]
+    },
+    {
+        "Page":  3,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\qgis15_review\\page_3.png",
+        "Text":  "忄\nlnformation\nSource\nSymb010gy\nTransparency\nHistogram\nRendering\nTemporaI\nPyramids\nElevation\nMetadata\nLegend\nQGIS Server\nExtent\n（ RS\nSpatiaI Extent\nTemporaI Extent\nAccess\nFees\nLicenses\nRights\nConstraints\nBands\nBand count\nNumber\n1\nContacts\n1\nBand 1\nApply\nBand\nNo-Data\n． 3 ． 40282e + 38\nMin\n． 0 ． 3680590391\nHeIp\nStyle\nMax\n0 ． 9793476462\nCancel\nOK",
+        "Lines":  [
+                      {
+                          "Text":  "忄",
+                          "X":  8,
+                          "Y":  650
+                      },
+                      {
+                          "Text":  "lnformation",
+                          "X":  67,
+                          "Y":  80
+                      },
+                      {
+                          "Text":  "Source",
+                          "X":  60,
+                          "Y":  153
+                      },
+                      {
+                          "Text":  "Symb010gy",
+                          "X":  60,
+                          "Y":  226
+                      },
+                      {
+                          "Text":  "Transparency",
+                          "X":  60,
+                          "Y":  300
+                      },
+                      {
+                          "Text":  "Histogram",
+                          "X":  61,
+                          "Y":  373
+                      },
+                      {
+                          "Text":  "Rendering",
+                          "X":  61,
+                          "Y":  446
+                      },
+                      {
+                          "Text":  "TemporaI",
+                          "X":  60,
+                          "Y":  519
+                      },
+                      {
+                          "Text":  "Pyramids",
+                          "X":  61,
+                          "Y":  592
+                      },
+                      {
+                          "Text":  "Elevation",
+                          "X":  61,
+                          "Y":  665
+                      },
+                      {
+                          "Text":  "Metadata",
+                          "X":  61,
+                          "Y":  739
+                      },
+                      {
+                          "Text":  "Legend",
+                          "X":  61,
+                          "Y":  812
+                      },
+                      {
+                          "Text":  "QGIS Server",
+                          "X":  60,
+                          "Y":  885
+                      },
+                      {
+                          "Text":  "Extent",
+                          "X":  328,
+                          "Y":  119
+                      },
+                      {
+                          "Text":  "（ RS",
+                          "X":  366,
+                          "Y":  214
+                      },
+                      {
+                          "Text":  "SpatiaI Extent",
+                          "X":  366,
+                          "Y":  256
+                      },
+                      {
+                          "Text":  "TemporaI Extent",
+                          "X":  365,
+                          "Y":  299
+                      },
+                      {
+                          "Text":  "Access",
+                          "X":  324,
+                          "Y":  474
+                      },
+                      {
+                          "Text":  "Fees",
+                          "X":  367,
+                          "Y":  570
+                      },
+                      {
+                          "Text":  "Licenses",
+                          "X":  367,
+                          "Y":  612
+                      },
+                      {
+                          "Text":  "Rights",
+                          "X":  367,
+                          "Y":  654
+                      },
+                      {
+                          "Text":  "Constraints",
+                          "X":  366,
+                          "Y":  697
+                      },
+                      {
+                          "Text":  "Bands",
+                          "X":  328,
+                          "Y":  960
+                      },
+                      {
+                          "Text":  "Band count",
+                          "X":  367,
+                          "Y":  1057
+                      },
+                      {
+                          "Text":  "Number",
+                          "X":  451,
+                          "Y":  1146
+                      },
+                      {
+                          "Text":  "1",
+                          "X":  331,
+                          "Y":  1192
+                      },
+                      {
+                          "Text":  "Contacts",
+                          "X":  326,
+                          "Y":  1368
+                      },
+                      {
+                          "Text":  "1",
+                          "X":  693,
+                          "Y":  1058
+                      },
+                      {
+                          "Text":  "Band 1",
+                          "X":  695,
+                          "Y":  1191
+                      },
+                      {
+                          "Text":  "Apply",
+                          "X":  692,
+                          "Y":  1435
+                      },
+                      {
+                          "Text":  "Band",
+                          "X":  837,
+                          "Y":  1146
+                      },
+                      {
+                          "Text":  "No-Data",
+                          "X":  1179,
+                          "Y":  1147
+                      },
+                      {
+                          "Text":  "． 3 ． 40282e + 38",
+                          "X":  1057,
+                          "Y":  1204
+                      },
+                      {
+                          "Text":  "Min",
+                          "X":  1575,
+                          "Y":  1146
+                      },
+                      {
+                          "Text":  "． 0 ． 3680590391",
+                          "X":  1421,
+                          "Y":  1204
+                      },
+                      {
+                          "Text":  "HeIp",
+                          "X":  351,
+                          "Y":  1435
+                      },
+                      {
+                          "Text":  "Style",
+                          "X":  509,
+                          "Y":  1435
+                      },
+                      {
+                          "Text":  "Max",
+                          "X":  1935,
+                          "Y":  1147
+                      },
+                      {
+                          "Text":  "0 ． 9793476462",
+                          "X":  1786,
+                          "Y":  1192
+                      },
+                      {
+                          "Text":  "Cancel",
+                          "X":  1907,
+                          "Y":  1435
+                      },
+                      {
+                          "Text":  "OK",
+                          "X":  2105,
+                          "Y":  1436
+                      }
+                  ]
+    },
+    {
+        "Page":  4,
+        "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper14_work\\qgis15_review\\page_4.png",
+        "Text":  "Band\n忄\nlnformation\nSource\nSymb010gy\nTransparency\nHistogram\nRendering\nTemporaI\nPyramids\nElevation\nMetadata\nLegend\nQGIS Server\nBands\nBand count\nNumber\n1\nContacts\nNO contact yet.\nReferences\nNO links yet.\nHistory\nNO history yet.\n1\nBand 1\nApply\nNo-Data\n． 3 ． 40282e + 38\nMin\n． 0 ． 3680590391\nHelp\nStyle\nMax\n0 ． 9793476462\nCancel\nOK",
+        "Lines":  [
+                      {
+                          "Text":  "Band",
+                          "X":  827,
+                          "Y":  286
+                      },
+                      {
+                          "Text":  "忄",
+                          "X":  6,
+                          "Y":  656
+                      },
+                      {
+                          "Text":  "lnformation",
+                          "X":  64,
+                          "Y":  91
+                      },
+                      {
+                          "Text":  "Source",
+                          "X":  57,
+                          "Y":  164
+                      },
+                      {
+                          "Text":  "Symb010gy",
+                          "X":  57,
+                          "Y":  236
+                      },
+                      {
+                          "Text":  "Transparency",
+                          "X":  57,
+                          "Y":  309
+                      },
+                      {
+                          "Text":  "Histogram",
+                          "X":  58,
+                          "Y":  381
+                      },
+                      {
+                          "Text":  "Rendering",
+                          "X":  58,
+                          "Y":  454
+                      },
+                      {
+                          "Text":  "TemporaI",
+                          "X":  57,
+                          "Y":  526
+                      },
+                      {
+                          "Text":  "Pyramids",
+                          "X":  58,
+                          "Y":  599
+                      },
+                      {
+                          "Text":  "Elevation",
+                          "X":  58,
+                          "Y":  671
+                      },
+                      {
+                          "Text":  "Metadata",
+                          "X":  58,
+                          "Y":  744
+                      },
+                      {
+                          "Text":  "Legend",
+                          "X":  58,
+                          "Y":  816
+                      },
+                      {
+                          "Text":  "QGIS Server",
+                          "X":  57,
+                          "Y":  889
+                      },
+                      {
+                          "Text":  "Bands",
+                          "X":  323,
+                          "Y":  101
+                      },
+                      {
+                          "Text":  "Band count",
+                          "X":  362,
+                          "Y":  197
+                      },
+                      {
+                          "Text":  "Number",
+                          "X":  444,
+                          "Y":  286
+                      },
+                      {
+                          "Text":  "1",
+                          "X":  326,
+                          "Y":  331
+                      },
+                      {
+                          "Text":  "Contacts",
+                          "X":  321,
+                          "Y":  506
+                      },
+                      {
+                          "Text":  "NO contact yet.",
+                          "X":  322,
+                          "Y":  616
+                      },
+                      {
+                          "Text":  "References",
+                          "X":  323,
+                          "Y":  822
+                      },
+                      {
+                          "Text":  "NO links yet.",
+                          "X":  322,
+                          "Y":  934
+                      },
+                      {
+                          "Text":  "History",
+                          "X":  323,
+                          "Y":  1141
+                      },
+                      {
+                          "Text":  "NO history yet.",
+                          "X":  322,
+                          "Y":  1252
+                      },
+                      {
+                          "Text":  "1",
+                          "X":  685,
+                          "Y":  198
+                      },
+                      {
+                          "Text":  "Band 1",
+                          "X":  686,
+                          "Y":  330
+                      },
+                      {
+                          "Text":  "Apply",
+                          "X":  684,
+                          "Y":  1433
+                      },
+                      {
+                          "Text":  "No-Data",
+                          "X":  1166,
+                          "Y":  287
+                      },
+                      {
+                          "Text":  "． 3 ． 40282e + 38",
+                          "X":  1045,
+                          "Y":  343
+                      },
+                      {
+                          "Text":  "Min",
+                          "X":  1558,
+                          "Y":  286
+                      },
+                      {
+                          "Text":  "． 0 ． 3680590391",
+                          "X":  1406,
+                          "Y":  343
+                      },
+                      {
+                          "Text":  "Help",
+                          "X":  346,
+                          "Y":  1433
+                      },
+                      {
+                          "Text":  "Style",
+                          "X":  503,
+                          "Y":  1433
+                      },
+                      {
+                          "Text":  "Max",
+                          "X":  1915,
+                          "Y":  287
+                      },
+                      {
+                          "Text":  "0 ． 9793476462",
+                          "X":  1767,
+                          "Y":  331
+                      },
+                      {
+                          "Text":  "Cancel",
+                          "X":  1887,
+                          "Y":  1433
+                      },
+                      {
+                          "Text":  "OK",
+                          "X":  2083,
+                          "Y":  1434
+                      }
+                  ]
+    }
+]

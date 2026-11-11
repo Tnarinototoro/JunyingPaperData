@@ -1,0 +1,2335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">diversity</journal-id>
+      <journal-title-group>
+        <journal-title>Diversity</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Diversity</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Diversity</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1424-2818</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/d18110686</article-id>
+      <article-id pub-id-type="publisher-id">diversity-18-00686</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Most Successful Species Among Spiny Hedgehogs: Mitochondrial Phylogeography of <italic>Hemiechinus auritus</italic> (Gmelin, 1770) (Erinaceidae, Mammalia)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bannikova</surname>
+            <given-names>Anna A.</given-names>
+          </name>
+          <xref rid="af1-diversity-18-00686" ref-type="aff">1</xref>
+          <xref rid="c1-diversity-18-00686" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0001-8211-8154</contrib-id>
+          <name>
+            <surname>Leveshchina</surname>
+            <given-names>Elena V.</given-names>
+          </name>
+          <xref rid="af1-diversity-18-00686" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5075-7349</contrib-id>
+          <name>
+            <surname>Shenbrot</surname>
+            <given-names>Georgy I.</given-names>
+          </name>
+          <xref rid="af2-diversity-18-00686" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-3118-424X</contrib-id>
+          <name>
+            <surname>Lisenkova</surname>
+            <given-names>Alexandra A.</given-names>
+          </name>
+          <xref rid="af1-diversity-18-00686" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stukalov</surname>
+            <given-names>Andrey S.</given-names>
+          </name>
+          <xref rid="af1-diversity-18-00686" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Undrakhbayar</surname>
+            <given-names>Enkhbat</given-names>
+          </name>
+          <xref rid="af3-diversity-18-00686" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8059-4889</contrib-id>
+          <name>
+            <surname>&#x10C;. Bolf&#xED;kov&#xE1;</surname>
+            <given-names>Barbora</given-names>
+          </name>
+          <xref rid="af4-diversity-18-00686" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>G&#xFC;nd&#xFC;z</surname>
+            <given-names>&#x130;slam</given-names>
+          </name>
+          <xref rid="af5-diversity-18-00686" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lebedev</surname>
+            <given-names>Vladimir S.</given-names>
+          </name>
+          <xref rid="af6-diversity-18-00686" ref-type="aff">6</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Wink</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-diversity-18-00686"><label>1</label>Department of Vertebrate Zoology, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/010pmpe69</institution-id><institution>Lomonosov Moscow State University</institution></institution-wrap>, Leninskiye Gory 1, Bld. 12, 119234 Moscow, Russia; <email>leveshchina@yandex.ru</email> (E.V.L.); <email>biolisenkova@yandex.ru</email> (A.A.L.); <email>andreysukalov@gmail.com</email> (A.S.S.)</aff>
+      <aff id="af2-diversity-18-00686"><label>2</label>Mitrani Department of Desert Ecology, Jacob Blaustein Institutes for Desert Research, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/05tkyf982</institution-id><institution>Ben-Gurion University of the Negev</institution></institution-wrap>, Midreshet Ben-Gurion 8499000, Israel; <email>shenbrot@bgu.ac.il</email></aff>
+      <aff id="af3-diversity-18-00686"><label>3</label>Laboratory of Mammalian Ecology, Institute of Biology, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/04qfh2k37</institution-id><institution>Mongolian Academy of Sciences</institution></institution-wrap>, Peace Avenue-54B, Ulaanbaatar 13330, Mongolia; <email>undrakh.mbio@gmail.com</email></aff>
+      <aff id="af4-diversity-18-00686"><label>4</label>Faculty of Tropical AgriSciences, Czech University of Life Sciences, Kam&#xFD;ck&#xE1; 129, Praha-Suchdol, 165 00 Prague, Czech Republic</aff>
+      <aff id="af5-diversity-18-00686"><label>5</label>Department of Biology, Faculty of Sciences, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/028k5qw24</institution-id><institution>Ondokuz May&#x131;s University</institution></institution-wrap>, Samsun 55139, T&#xFC;rkiye; <email>gunduzi@omu.edu.tr</email></aff>
+      <aff id="af6-diversity-18-00686"><label>6</label>Zoological Museum, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/010pmpe69</institution-id><institution>Lomonosov Moscow State University</institution></institution-wrap>, Bolshaya Nikitskaya 2, 125009 Moscow, Russia; <email>wslebedev@gmail.com</email></aff>
+      <author-notes>
+        <corresp id="c1-diversity-18-00686"><label>*</label>Correspondence: <email>hylomys@mail.ru</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>18</volume>
+      <issue>11</issue>
+      <elocation-id>686</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>09</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>29</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>02</day>
+          <month>11</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the authors.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The long-eared hedgehog, <italic>Hemiechinus auritus,</italic> has the broadest distribution among Erinaceidae, yet its intraspecific taxonomy remains contentious, with three to six subspecies recognized. We examined the phylogeographic structure of the species across nearly its entire distribution range using two mitochondrial genes (<italic>cytb</italic>, <italic>COI</italic>) for 153 specimens from 103 localities, complemented by complete mitogenomes for seven individuals. Phylogenetic reconstructions recovered five deeply divergent, well-supported mitochondrial lineages (<italic>p</italic>-distances 2&#x2013;4%): Northern, Eastern, Transcaucasian, South-western and Southern. The Southern lineage, which includes specimens from the type locality of <italic>H. a. megalotis</italic>, was recovered as the basal branch, whereas the Northern and Eastern lineages formed a derived clade. Demographic analyses indicated recent postglacial expansion in the Northern and Eastern lineages, but not in the Southern and South-western lineages. Species distribution modelling reconstructed Pleistocene range fragmentation during glacial maxima, with divergence among lineages dated to the late Middle and Late Pleistocene. The mitochondrial lineages are partly congruent with the main morphological subspecies, although the status of <italic>H. a. megalotis</italic> and <italic>H. collaris</italic> requires further scrutiny. Our results indicate that <italic>H. auritus</italic> may represent a complex of several divergent lineages, whose evolutionary independence and taxonomic status should be tested with nuclear genomic data.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>long-eared hedgehog</kwd>
+        <kwd>mitogenome</kwd>
+        <kwd>genetic diversity</kwd>
+        <kwd>biogeographic paleo-reconstructions</kwd>
+        <kwd>Central Asia</kwd>
+        <kwd>Middle East</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="ROR">https://ror.org/03y2gwe85</institution-id>
+              <institution>Russian Scientific Foundation</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>26-14-00006</award-id>
+        </award-group>
+        <funding-statement>This research was funded by the grant of the Russian Scientific Foundation (No. RSF 26-14-00006).</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-diversity-18-00686" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Compared to rodents, the order Eulipotyphla contains significantly fewer species adapted to open, arid landscapes. Among the most well-known of these are the spiny hedgehogs of the genera <italic>Paraechinus</italic>, <italic>Hemiechinus</italic>, and <italic>Mesechinus</italic>. The evolutionary history of these genera is inextricably linked to the development of arid biomes across the Palearctic. Originating in the Late Miocene [<xref ref-type="bibr" rid="B1-diversity-18-00686">1</xref>], they have evolved through the colonization of steppe and desert habitats. Consequently, studying the range dynamics of these groups provides valuable insights into the biogeographic and paleoclimatic history of the landscapes they inhabit.</p>
+      <p>The long-eared hedgehog <italic>Hemiechinus auritus</italic> (Gmelin, 1770) occupies vast areas of the western Palearctic and has the broadest distribution of any species within both the subfamily Erinaceinae and the family Erinaceidae as a whole. Its range extends across north-eastern Africa, the Middle East (including Asia Minor and Cyprus), south-eastern Europe, Iran, Afghanistan, and most of Central Asia northward to western Siberia and eastward to Mongolia, reaching as far east as northern China [<xref ref-type="bibr" rid="B2-diversity-18-00686">2</xref>,<xref ref-type="bibr" rid="B3-diversity-18-00686">3</xref>]. Ecologically, it is widespread across steppe and desert landscapes, and frequently occupies anthropogenic environments such as gardens and urban parks [<xref ref-type="bibr" rid="B4-diversity-18-00686">4</xref>]. The genus <italic>Hemiechinus</italic> contains one additional species, the Indian long-eared hedgehog <italic>H. collaris</italic> Gray, 1830 [<xref ref-type="bibr" rid="B3-diversity-18-00686">3</xref>,<xref ref-type="bibr" rid="B5-diversity-18-00686">5</xref>,<xref ref-type="bibr" rid="B6-diversity-18-00686">6</xref>], which, in stark contrast, is restricted to a much smaller range in Pakistan and north-western and north-central India.</p>
+      <p>The long-eared hedgehog exhibits substantial intraspecific morphological variation, which has resulted in a rather unstable and debated subspecific taxonomy. Different authors recognize anywhere from three to six subspecies [<xref ref-type="bibr" rid="B2-diversity-18-00686">2</xref>,<xref ref-type="bibr" rid="B3-diversity-18-00686">3</xref>,<xref ref-type="bibr" rid="B6-diversity-18-00686">6</xref>,<xref ref-type="bibr" rid="B7-diversity-18-00686">7</xref>]. This taxonomic ambiguity is most pronounced regarding the southern form, currently recognized as the subspecies <italic>H. a. megalotis</italic>. It was originally described as a distinct species, <italic>H. megalotis</italic> Blyth, 1845; however, many researchers have since downgraded it to a subspecies [<xref ref-type="bibr" rid="B8-diversity-18-00686">8</xref>,<xref ref-type="bibr" rid="B9-diversity-18-00686">9</xref>], whereas others have advocated its full species status [<xref ref-type="bibr" rid="B10-diversity-18-00686">10</xref>].</p>
+      <p>Given the complex patterns of intraspecific morphological variability and the historically debated subspecific taxonomy across its vast range, <italic>H. auritus</italic> is hypothesized to exhibit significant genetic structuring. While previous genetic studies have been restricted to specific geographic regions&#x2014;such as Iran [<xref ref-type="bibr" rid="B9-diversity-18-00686">9</xref>,<xref ref-type="bibr" rid="B11-diversity-18-00686">11</xref>], the Anatolian Peninsula, northern Cyprus, and Azerbaijan [<xref ref-type="bibr" rid="B12-diversity-18-00686">12</xref>], as well as Central Asia, south-eastern Europe, and Africa [<xref ref-type="bibr" rid="B1-diversity-18-00686">1</xref>]&#x2014;they consistently demonstrate considerable phylogeographic structure within the species.</p>
+      <p>In the present study, we examine the phylogeographic structure of the long-eared hedgehog across nearly its entire range. We use a large dataset comprising two mitochondrial gene fragments, complemented by complete mitogenomes for a subset of samples. Furthermore, we estimate the timing of divergence among the major geographical lineages and perform biogeographic reconstructions to elucidate the evolutionary history of <italic>H. auritus</italic>. Recognizing that geographically defined mitochondrial haplogroups are not necessarily equivalent to morphological subspecies or valid species, we nevertheless compare the distribution of these haplogroups with the ranges of known subspecies to evaluate the relationship between genetic and morphological variation.</p>
+    </sec>
+    <sec id="sec2-diversity-18-00686">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-diversity-18-00686" sec-type="methods">
+        <title>2.1. Molecular Procedures</title>
+        <p>The whole dataset for <italic>Hemiechinus auritus</italic> comprises 153 specimens from 104 localities across the species&#x2019; distribution in Eurasia and Africa (<xref ref-type="fig" rid="diversity-18-00686-f001">Figure 1</xref>, <xref ref-type="app" rid="app1-diversity-18-00686">Supplementary Materials SI Table S1-A</xref>). Among them, 38 sequences of the <italic>c</italic>ytochrome <italic>b</italic> gene (<italic>cytb</italic>), 5 sequences of the cytochrome c oxidase subunit I (<italic>COI</italic>) gene, and two complete mitochondrial genomes were retrieved from GenBank. We also analyzed <italic>cytb</italic>, <italic>COI</italic>, and complete mitochondrial genome sequences of the following taxa used as outgroups: <italic>Paraechinus aethiopicus</italic>, <italic>P. hypomelas</italic>, <italic>P. micropus</italic>, <italic>P. nudiventris</italic>, <italic>Mesechinus dauuricus</italic>, <italic>M. hughi</italic>, <italic>M. miodon</italic>, <italic>M. wangi</italic>, and <italic>M. orientalis</italic>. For the phylogenetic analysis of the mitogenomes, additional outgroups were included: <italic>Atelerix albiventris</italic>, <italic>Erinaceus europaeus</italic>, <italic>E. concolor</italic>, and <italic>E. amurensis</italic> (<xref ref-type="app" rid="app1-diversity-18-00686">Table S1-B</xref>).</p>
+        <p>The material primarily consisted of tissue samples preserved in 96% ethanol, housed in the tissue collection of the Zoological Museum and the Department of Vertebrate Zoology at Moscow State University (ZMMU). Additionally, 11 specimens of <italic>H. auritus</italic> and one historical specimen of <italic>H. collaris</italic> were represented by archival DNA extracted from museum skins (age of historical specimens ranging from 50 to 135 years).</p>
+        <p>Genomic DNA was isolated from ethanol-fixed tissues following the conventional procedure of proteinase K digestion, purification with phenol&#x2013;chloroform, and precipitation with isopropanol [<xref ref-type="bibr" rid="B13-diversity-18-00686">13</xref>]. For museum specimens, DNA was isolated from fragments of dried skin with the DNeasy Blood &amp; Tissue and QIAamp DNA Investigator kits (Qiagen, Hilden, Germany) according to the manufacturer&#x2019;s instructions and the guidelines of Yang et al. [<xref ref-type="bibr" rid="B14-diversity-18-00686">14</xref>] with several modifications: samples were lysed overnight at 56 &#xB0;C; the elution buffer was pre-warmed to 56 &#xB0;C, and after it had been applied, the column was left at room temperature for 7&#x2013;10 min and then centrifuged for 1 min at 14,000 rpm (Eppendorf Minispin benchtop centrifuge; Eppendorf, Hamburg, Germany).</p>
+        <p>We sequenced the complete cytochrome <italic>b</italic> gene (<italic>cytb</italic>) for 97 recent specimens and fragments (180&#x2013;600 bp) for 12 historical museum specimens. A 687 bp fragment of <italic>COI</italic> was sequenced for 49 specimens. In addition, nearly complete mitochondrial genomes were obtained for 7 specimens of <italic>H. auritus</italic>.</p>
+        <p>The entire <italic>cytb</italic> gene (1140 bp) was amplified with primers L-hemi_glu/H-hemi_pro from Bannikova et al. [<xref ref-type="bibr" rid="B1-diversity-18-00686">1</xref>] according to the corresponding PCR protocols, and sequenced using primers H625 and L535 designed specifically for this study (<xref ref-type="app" rid="app1-diversity-18-00686">Table S2</xref>). Amplification conditions consisted of an initial denaturation at 94 &#xB0;C for 3 min, followed by 35 cycles of 94 &#xB0;C for 1 min, 57 &#xB0;C for 1 min, and 72 &#xB0;C for 1 min, with a final extension at 72 &#xB0;C for 6 min.</p>
+        <p>A fragment of the <italic>COI</italic> gene was amplified and sequenced in a single PCR using primers L11b/H742 (<xref ref-type="app" rid="app1-diversity-18-00686">Table S2</xref>). Reaction conditions were identical to those for <italic>cytb</italic>, except that the extension step was shortened to 30 s. PCR products were visualized on 1% agarose gels and purified using the Diatom DNA Clean-Up kit (Isogen, Moscow, Russia).</p>
+        <p>Purified amplicons (10&#x2013;40 ng) of <italic>cytb</italic> and <italic>COI</italic> were sequenced in both directions using Sanger sequencing on an ABI 3100-Avant automated sequencer using ABI PRISM<sup>&#xAE;</sup> BigDye&#x2122; Terminator v3.1 chemistry (Applied Biosystems, Waltham, MA, USA). To obtain complete mitogenomes, total DNA libraries were sequenced using SURFSeq (GeneMind Biosciences, Shenzhen, Guangdong, China) and NovaSeq 6000 (Illumina, San Diego, CA, USA) platforms with paired-end read lengths of 150 bp and 100 bp, respectively.</p>
+        <p>Because DNA from museum specimens was strongly degraded, short overlapping fragments were amplified for most historical samples, as well as for degraded tissues of road-killed animals, using various combinations of the internal primers mentioned above together with additional primers developed for this study (<xref ref-type="app" rid="app1-diversity-18-00686">Table S2</xref>). Short fragments were amplified under the following cycling conditions: 95 &#xB0;C for 3 min; 45 cycles of 30 s at 95 &#xB0;C, 30 s at 51&#x2013;58 &#xB0;C (the annealing temperature depended on the primer pair, <xref ref-type="app" rid="app1-diversity-18-00686">Table S3</xref>), and 30 s at 72 &#xB0;C; and a final step of 6 min at 72 &#xB0;C. A negative control was processed in parallel at every stage of DNA extraction. To prevent contamination, all extractions and amplifications of DNA from museum material were performed in the ZMMU Laboratory of Historical DNA, a facility used exclusively for museum samples and never for work with fresh tissues. Aliquots of the extracts (10 &#xB5;L) were checked by electrophoresis in a 1% agarose gel against a 100 bp ladder.</p>
+        <p>The newly obtained sequences are available in GenBank under accession numbers: <italic>cytb</italic> QB057467&#x2013;QB057575; <italic>COI</italic> QB047202&#x2013;QB047250; mitogenomes QB082343&#x2013;QB082345, QB133264, QB133265, QB144923, QB147350 (<xref ref-type="app" rid="app1-diversity-18-00686">Tables S1-A and S1-B</xref>).</p>
+      </sec>
+      <sec id="sec2dot2-diversity-18-00686">
+        <title>2.2. Phylogenetic Analysis</title>
+        <p>All sequences were aligned using ClustalW in BioEdit 7.0.9.0 [<xref ref-type="bibr" rid="B15-diversity-18-00686">15</xref>]. The final <italic>cytb</italic> alignment included 1140 bp for 139 sequences of <italic>H. auritus</italic>, one sequence of <italic>H. collaris</italic> and 7 outgroups. The concatenated alignment of <italic>cytb</italic> and <italic>COI</italic> (1827 bp in total, including 687 bp of <italic>COI</italic>) included 49 specimens of <italic>H. auritus</italic> and two outgroups (<italic>Mesechinus dauuricus</italic> and <italic>M. miodon</italic>). Of these, both markers were available for 47 specimens of <italic>H. auritus</italic> and for both outgroups. Two specimens from Afghanistan (USNM:MAMM:602259 and USNM:MAMM:602256) were represented by <italic>COI</italic> sequences from GenBank only. In the phylogenetic analysis of mitogenomes, we used a concatenated alignment of 12 protein-coding genes (PCGs) (10809 bp, <italic>ND6</italic> excluded).</p>
+        <p>Maximum likelihood (ML) trees were reconstructed using IQTree version 1.6 [<xref ref-type="bibr" rid="B16-diversity-18-00686">16</xref>]. The ModelFinder routine [<xref ref-type="bibr" rid="B17-diversity-18-00686">17</xref>] was applied to select the optimum partitioning schemes and substitution models for each data subset according to the Bayesian information criterion (BIC). For single-gene analyses, the <italic>cytb</italic> dataset was partitioned by three codon positions (1st, 2nd, and 3rd), and <italic>COI</italic> was partitioned into two subsets (1st + 2nd and 3rd). In the phylogenetic analysis of mitogenomes, the concatenated alignment of 12 PCGs was partitioned by the three codon positions (<xref ref-type="app" rid="app1-diversity-18-00686">Table S4</xref>). Node support was assessed with the ultrafast bootstrap approximation [<xref ref-type="bibr" rid="B18-diversity-18-00686">18</xref>] with 10,000 replicates.</p>
+        <p>Bayesian ultrametric trees were reconstructed with BEAST 1.10 [<xref ref-type="bibr" rid="B19-diversity-18-00686">19</xref>,<xref ref-type="bibr" rid="B20-diversity-18-00686">20</xref>] with a relaxed lognormal clock and a birth&#x2013;death tree prior. No calibrations were applied, and the ucld.mean parameter was set to 1.0. The substitution models were the same as in the ML analysis, and default priors were retained for the remaining parameters. The chain was run for 50 million generations, sampling every 25,000 generations, with a burn-in of 10%. Chain convergence was checked in Tracer v1.7 [<xref ref-type="bibr" rid="B21-diversity-18-00686">21</xref>]; effective sample sizes (ESS) were above 200 for all parameters. The maximum clade credibility tree was generated in TreeAnnotator v1.10.4.</p>
+        <p>Relationships among haplotypes were illustrated using median-joining networks constructed in SplitsTree App 6.0.0 [<xref ref-type="bibr" rid="B22-diversity-18-00686">22</xref>]. The network was reconstructed based on 60 specimens, each contributing a single sequence of at least 1113 bp. Sequences lacking a precise locality were excluded from the analysis, as were sequences from historical specimens, because they are substantially shorter.</p>
+      </sec>
+      <sec id="sec2dot3-diversity-18-00686">
+        <title>2.3. Mitogenome Assembly and Annotation</title>
+        <p>The quality of the raw reads was assessed with FastQC v0.12.1 [<xref ref-type="bibr" rid="B23-diversity-18-00686">23</xref>]. Adapter sequences and low-quality bases were removed using Trimmomatic v0.41 (SLIDINGWINDOW: 4:20; MINLEN:36) [<xref ref-type="bibr" rid="B24-diversity-18-00686">24</xref>], followed by a second quality assessment with FastQC. The nearly complete mitochondrial genomes were assembled using two independent de novo approaches. First, an assembly was performed with NOVOPlasty v3.4.5 [<xref ref-type="bibr" rid="B25-diversity-18-00686">25</xref>] using a partial <italic>COI</italic> gene sequence of <italic>H. auritus</italic> (KX859285) as a seed.</p>
+        <p>In parallel, for some specimens the reads were assembled with MEGAHIT v1.2.9 [<xref ref-type="bibr" rid="B26-diversity-18-00686">26</xref>,<xref ref-type="bibr" rid="B27-diversity-18-00686">27</xref>]. MEGAHIT generated multiple contigs for each sample. We selected those matching the expected mitochondrial genome size for <italic>Hemiechinus</italic> (approximately 17,000&#x2013;18,000 bp) and verified them by BLASTn searches against the NCBI nucleotide database (<uri>https://blast.ncbi.nlm.nih.gov/Blast.cgi</uri>) (accessed on 1 November 2026). The results produced by both methods were consistent with each other. Raw reads for each specimen were then mapped onto their respective assembled sequences as references using BWA-MEM v0.7.17 [<xref ref-type="bibr" rid="B28-diversity-18-00686">28</xref>].</p>
+        <p>Alignments were processed, and sequencing depth was calculated using SAMtools v1.17 [<xref ref-type="bibr" rid="B29-diversity-18-00686">29</xref>]; the average coverage exceeded 40&#xD7;, indicating sufficient read support for the reconstructed mitochondrial genomes. Coverage variation was observed mainly in the control region (D-loop), which contains short tandem repeats and represents a challenging region for assembly from short-read data. Therefore, the region was trimmed at the point where read depth dropped sharply to approximately 20&#xD7;, as the assembly beyond this position was considered unreliable. Variant calling and consensus sequence generation were performed using BCFtools v1.17 [<xref ref-type="bibr" rid="B29-diversity-18-00686">29</xref>].</p>
+        <p>The mitochondrial genome sequences obtained were annotated using the MITOS2 tool [<xref ref-type="bibr" rid="B30-diversity-18-00686">30</xref>,<xref ref-type="bibr" rid="B31-diversity-18-00686">31</xref>] on the Galaxy platform using default parameters. Their arrangement and orientation were then verified to be consistent with those of typical mammalian mitochondrial genomes. The 12 PCGs (excluding <italic>ND6</italic>) were extracted from the annotations and concatenated into a single alignment for each specimen. The concatenated PCGs were subsequently used for phylogenetic analyses and tree reconstruction. A full description of the mitogenomes obtained in our study is presented in <xref ref-type="app" rid="app1-diversity-18-00686">Table S5</xref>.</p>
+      </sec>
+      <sec id="sec2dot4-diversity-18-00686">
+        <title>2.4. Molecular Dating</title>
+        <p>To mitigate potential bias caused by substitution rate decay in the <italic>cytb</italic> gene, we implemented a two-step dating procedure. First, we inferred a time-calibrated phylogeny for Erinaceinae in BEAST using an alignment of slowly evolving third-codon-position transversions (tv3) from 12 mitochondrial protein-coding genes. We applied secondary calibrations based on intergeneric divergence dates from Bannikova et al. [<xref ref-type="bibr" rid="B1-diversity-18-00686">1</xref>], which allowed us to estimate the age and 95% highest posterior density (HPD) interval of the basal <italic>Hemiechinus</italic> node. In the second step, we estimated divergence times within <italic>H. auritus</italic> s. l. using the <italic>cytb</italic> alignment. This was accomplished by rescaling an uncalibrated <italic>cytb</italic> tree to the age of the basal <italic>Hemiechinus</italic> node estimated in the first step. The details of the procedure are given in <xref ref-type="app" rid="app1-diversity-18-00686">Supplementary Materials SII</xref>: Molecular dating, text and <xref ref-type="app" rid="app1-diversity-18-00686">Table S6</xref>.</p>
+      </sec>
+      <sec id="sec2dot5-diversity-18-00686">
+        <title>2.5. Genetic Diversity and Demographic Parameters</title>
+        <p>Genetic <italic>p</italic>-distances were computed using MEGA6 [<xref ref-type="bibr" rid="B32-diversity-18-00686">32</xref>]. Genetic diversity indices (nucleotide and gene diversity for sample sets with N &#x2265; 10), mismatch distribution parameters (SSD for the sudden expansion model (SEM), raggedness index), the expansion parameter &#x3C4; [<xref ref-type="bibr" rid="B33-diversity-18-00686">33</xref>] together with its confidence interval (CI), as well as Tajima&#x2019;s D [<xref ref-type="bibr" rid="B34-diversity-18-00686">34</xref>] and Fu&#x2019;s Fs [<xref ref-type="bibr" rid="B35-diversity-18-00686">35</xref>] neutrality statistics, were determined in Arlequin 3.5 [<xref ref-type="bibr" rid="B36-diversity-18-00686">36</xref>] on the basis of the cytb alignment. The significance of these statistics was assessed by producing 1000 random samples under the null hypothesis. An overall pattern of demographic history was characterized by means of the Bayesian Skyline Plot (BSP) approach [<xref ref-type="bibr" rid="B37-diversity-18-00686">37</xref>], which permits estimation of changes in effective population size through time. Independent analyses were performed in BEAST v1.10.4 on several <italic>cytb</italic> alignments with N &gt; 20 corresponding to separate haplogroups and population groups. A Bayesian skyline tree prior with ten groups and a strict clock model were applied. All other parameters were set as described above (see <xref ref-type="sec" rid="sec2dot2-diversity-18-00686">Section 2.2</xref> Phylogenetic analysis). The resulting skyline plots were visualized in Tracer v1.7.2. To estimate the timing of expansions, the results were rescaled using the <italic>cytb</italic> substitution rate estimate obtained from the molecular dating analysis.</p>
+      </sec>
+      <sec id="sec2dot6-diversity-18-00686">
+        <title>2.6. Biogeographic Paleo-Reconstructions</title>
+        <p>Locality data were obtained from GBIF.org (GBIF Occurrence Download <uri>https://www.gbif.org/citation-guidelines</uri> (accessed on 21 April 2026), data set &#x2116; 0037860-260409193756587) [<xref ref-type="bibr" rid="B38-diversity-18-00686">38</xref>], the collections of ZMMU and ZIN (Zoological Institute, St. Petersburg, Russia), iNaturalist, the publications listed in <xref ref-type="app" rid="app1-diversity-18-00686">Supplementary Materials SIII</xref>, and our field data (<xref ref-type="app" rid="app1-diversity-18-00686">Tables S1-A and S7</xref>). This yielded 806 locality records spanning the species range (<xref ref-type="app" rid="app1-diversity-18-00686">Figure S1</xref>); however, not all locations were genetically sampled to confirm the species identity and clade assignment.</p>
+        <p>We spatially filtered (thinned) the occurrence data prior to MaxEnt modelling. For each occurrence point, we calculated the distance to the nearest point and removed one point from each pair separated by less than 5 km. This spatial thinning partially mitigates spatial sampling bias. Because the thinned data were distributed relatively evenly across geographic space, we did not apply an additional sampling-bias correction. Background sampling was performed using the default MaxEnt settings (10,000 random points) within the study area (defined below) for each species or clade.</p>
+        <p>Species distribution models (SDMs) were based on climatic layers with a spatial resolution of 30 arc-seconds (ca. 1 km). Present-day bioclimatic variables (BioClim 1-19) were obtained from WorldClim version 2.1 [<xref ref-type="bibr" rid="B39-diversity-18-00686">39</xref>]; paleoclimate data for the intervals 350&#x2013;200 Kya were taken from the Oscillayers dataset [<xref ref-type="bibr" rid="B40-diversity-18-00686">40</xref>].</p>
+        <p>The SDMs were built using the MaxEnt 3.4.0 software [<xref ref-type="bibr" rid="B41-diversity-18-00686">41</xref>]. Data preparation for SDM with MaxEnt and operations with the resulting models were carried out using ArcGIS Pro 3.6: Copyright &#xA9; 2025 Esri. The extent of the study area or of the &#x201C;landscape of interest&#x201D; significantly affects SDM results [<xref ref-type="bibr" rid="B42-diversity-18-00686">42</xref>,<xref ref-type="bibr" rid="B43-diversity-18-00686">43</xref>]. The study area was delimited by clipping the environmental layers to a rectangle that encompassed all occurrence points with a buffer of 4 degrees on each side. The present-day model was built using the default MaxEnt settings, which have been shown to be optimal for wide-ranging data [<xref ref-type="bibr" rid="B44-diversity-18-00686">44</xref>]. The default MaxEnt settings include a regularization multiplier of 1, 10,000 background points, and automatic feature selection. The MaxEnt logistic output, which provides estimates of relative habitat suitability [<xref ref-type="bibr" rid="B43-diversity-18-00686">43</xref>], was used. Most bioclimatic variables are correlated with one another, and including the full set may result in model overprediction. To prevent this, pairwise correlation coefficients among the 19 bioclimatic variables within the study area were computed with the &#x201C;Band Collection Statistics&#x201D; tool (Spatial Analyst Tools, standard ArcToolbox, ArcGIS Pro 3.6).</p>
+        <p>Based on this correlation matrix, the pairs of variables with the highest correlation coefficients were identified. For each such pair, two models were built (<xref ref-type="app" rid="app1-diversity-18-00686">Table S8</xref>), each lacking one of the two variables, and their performance was compared using the area under the receiver operating characteristic curve (AUC); the variable whose inclusion yielded the lower AUC was discarded. The procedure was repeated for successive pairs of strongly correlated variables until the exclusion of a variable caused a sharp drop in AUC.</p>
+        <p>Model performance and transferability were assessed by partitioning the data into training (75% of occurrence points) and testing (25%) subsets. SDM performance was evaluated on the testing subset using the standard evaluation metric provided in the MaxEnt output (corrected AUCROC). Spatially structured validation was not performed.</p>
+        <p>The present-day model built with the final reduced set of environmental variables was projected onto the paleoenvironmental datasets. Our analysis focused on scenarios of diversification among the main phylogeographic lineages. For each node, the time window to be examined was defined by the 95% HPD interval of its divergence time estimated by molecular dating. Within each window, we obtained models of relative habitat suitability (RHS) at 10-ky intervals. Among these models, we identified the earliest time slice showing a continuous distribution that was followed by several consecutive slices showing stable range fragmentation. We hypothesized that the onset of this fragmentation corresponds to the divergence at the respective node.</p>
+        <p>The continuous model output (values from 0 to 1) was converted into binary maps (0 or 1) delimiting the areas of actual species occurrence. For this conversion, we applied the &#x201C;maximum training sensitivity plus specificity&#x201D; threshold, which has been shown experimentally to give optimal results [<xref ref-type="bibr" rid="B45-diversity-18-00686">45</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec3-diversity-18-00686" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-diversity-18-00686">
+        <title>3.1. Cytb Data: Phylogenetic Trees, Network and Genetic Distances</title>
+        <p>Phylogenetic analyses of the <italic>cytb</italic> dataset using maximum likelihood (ML) and BEAST (<xref ref-type="fig" rid="diversity-18-00686-f002">Figure 2</xref> and <xref ref-type="app" rid="app1-diversity-18-00686">Figures S2 and S3</xref>) recovered five highly supported main lineages, some of which are additionally structured at a finer scale. Their geographic distribution is presented in <xref ref-type="fig" rid="diversity-18-00686-f001">Figure 1</xref>. The level of divergence (<italic>p</italic>-distance) between the main lineages ranged from 2 to 4.23% (<xref ref-type="app" rid="app1-diversity-18-00686">Table S9</xref>). The rationale for this structuring is provided below.</p>
+        <p>Northern phylogroup (N): southern Russia, the Crimean Peninsula, Kazakhstan, Uzbekistan, northern Turkmenistan, Western Siberia, Mongolian Dzungaria. This is the most widespread clade of <italic>H. auritus</italic>, exhibiting a relatively complex, albeit shallow, genetic structure (see also <xref ref-type="fig" rid="diversity-18-00686-f003">Figure 3</xref> showing haplotype network). In the BEAST tree it is subdivided into North-western (NW) and North-central (NC) sublineages without reliable support, which differ by a <italic>p</italic>-distance of 1% and are recovered on the haplotype network (<xref ref-type="fig" rid="diversity-18-00686-f003">Figure 3</xref>). The NW and NC sublineages comprise specimens collected westwards and eastwards of the Lower Volga region, respectively. The former includes specimens from the North Caucasus, the Lower Volga region and Crimea. The latter is distributed in Central Asia, extending westwards to the Volga and eastwards to Mongolian Dzungaria. These sublineages are poorly supported, which may be partly explained by the unstable position of a smaller subclade comprising several specimens from the left bank of the Volga (A16-38, A22-02, A22-05). On the ML tree, this structure is less obvious.</p>
+        <p>Eastern phylogroup (E): most of Gobi, Alashan and adjacent deserts of south-eastern and central Mongolia and China. This is the most homogeneous clade, with haplotypes from the Govi Altai (&#xD6;mn&#xF6;govi, south-central Mongolia) and Dornogovi (south-eastern Mongolia) occupying a basal position in the phylogroup.</p>
+        <p>South-western phylogroup (SW): the south-western part of the range. It includes four sublineages divergent by 0.7&#x2013;1.5%: (1) north-eastern Africa (Egypt), (2) Cyprus and Israel, (3) the east bank of the Jordan River (Jordan) and the north-eastern edge of the Arabian Peninsula (Kuwait), (4) the south-central part of eastern Anatolia (T&#xFC;rkiye).</p>
+        <p>Transcaucasian (T): north of eastern Anatolia (T&#xFC;rkiye) and likely Armenia.</p>
+        <p>Southern phylogroup (S): Middle Asia (Afghanistan, Iran, Turkmenistan) and East Transcaucasia (Azerbaijan). The affiliation of the samples from Afghanistan with this clade was determined based on the analysis of <italic>COI</italic> sequences (<xref ref-type="app" rid="app1-diversity-18-00686">Figure S4</xref>, see below). The position of <italic>H. collaris</italic> in the phylogenetic tree is unstable and receives low support in both the BEAST (<xref ref-type="fig" rid="diversity-18-00686-f002">Figure 2</xref> and <xref ref-type="app" rid="app1-diversity-18-00686">Figure S3</xref>) and ML (<xref ref-type="app" rid="app1-diversity-18-00686">Figure S2</xref>) analyses; however, it is clearly associated with the Southern phylogroup. Thus, on present evidence, <italic>H. auritus</italic> mtDNA is not monophyletic with respect to <italic>H. collaris</italic>.</p>
+        <p>In general, haplotypes belonging to different phylogroups are distributed allopatrically; however, in one case, haplotypes of different lineages were found at the same locality (<xref ref-type="fig" rid="diversity-18-00686-f001">Figure 1</xref>). At a locality in south-western Mongolia (Govi-Altai, south-east of Lake Alag Nuur, loc. 49), adjacent to Mongolian Dzungaria, one of the three sampled hedgehogs carried a haplotype from the N phylogroup, whereas the other two carried haplotypes from the E phylogroup. Among Mongolian hedgehogs, a haplotype of the N clade was also found in Yolkhon (Mongolian Dzungaria, loc. 48).</p>
+      </sec>
+      <sec id="sec3dot2-diversity-18-00686">
+        <title>3.2. Data from Concatenation of cytb and COI</title>
+        <p>To examine in greater detail the evolutionary relationships among specimens from Turkmenistan, Iran, and Afghanistan we analyzed concatenated <italic>cytb</italic> and <italic>COI</italic> sequences using a limited dataset. The data on Afghan hedgehogs are restricted to two <italic>COI</italic> sequences from GenBank (MN326051 and MN326061). These sequences belong to specimens USNM:MAMM:602259 and USNM:MAMM:602256 from Kandahar, which is cited as the type locality for <italic>H. a. megalotis</italic> [<xref ref-type="bibr" rid="B46-diversity-18-00686">46</xref>].</p>
+        <p>On the whole, the topology of the <italic>cytb</italic> + <italic>COI</italic> tree (<xref ref-type="app" rid="app1-diversity-18-00686">Figure S4</xref>) corresponds to that of the <italic>cytb</italic> tree, demonstrating the same five main clades. We found that our specimens from the Kopetdag and Qazvin Province of Iran grouped with the Afghan hedgehogs, which indicates that the Southern lineage includes topotypical <italic>megalotis</italic>.</p>
+      </sec>
+      <sec id="sec3dot3-diversity-18-00686">
+        <title>3.3. Mitogenomic Phylogenetic Tree</title>
+        <p>Mitogenomic ML and Bayesian trees were reconstructed based on the dataset including representatives of each of the five <italic>cytb</italic> phylogroups (<xref ref-type="fig" rid="diversity-18-00686-f004">Figure 4</xref>). The phylogenetic analysis of the mitogenomic dataset recovered the same five distinctive lineages, albeit with higher support. The position of the S clade as the sister group to all other lineages was fully corroborated. Specimens of the N and E clades formed a well-supported group, whereas the specimen from the T clade (north-eastern T&#xFC;rkiye) was placed as the sister branch to the specimen of the SW clade (Egypt), albeit with moderate support in the ML analysis. The sister relationship between the N + E and SW + T groupings is highly supported.</p>
+      </sec>
+      <sec id="sec3dot4-diversity-18-00686">
+        <title>3.4. Genetic Diversity and Demographic History</title>
+        <p>The haplotype diversity was approximately the same in all tested groups, whereas nucleotide diversity was highest in the SW phylogroup and lowest in the E phylogroup. Both Fu&#x2019;s Fs and Tajima&#x2019;s D neutrality statistics were significantly negative for the N phylogroup (<xref ref-type="table" rid="diversity-18-00686-t001">Table 1</xref>), thus indicating population growth in this part of the range. Mismatch distribution analysis showed a near-bell-shaped profile for the N sample (<xref ref-type="fig" rid="diversity-18-00686-f005">Figure 5</xref>A, <xref ref-type="app" rid="app1-diversity-18-00686">Table S10</xref>). The skyline plot (<xref ref-type="fig" rid="diversity-18-00686-f006">Figure 6</xref>A) is consistent with demographic expansion peaking at ca. 12 Kya. We also performed neutrality tests and mismatch distribution analysis for the two subgroups of the N phylogroup (NW and NC). Tajima&#x2019;s D and Fu&#x2019;s Fs tests indicated demographic expansion in both the NW and NC samples (<xref ref-type="table" rid="diversity-18-00686-t001">Table 1</xref>). However, a deviation from the bell-shaped mismatch distribution was detected in the NW sample (<xref ref-type="fig" rid="diversity-18-00686-f005">Figure 5</xref>E), whereas the bell-shaped mismatch distribution in the NC sample (<xref ref-type="fig" rid="diversity-18-00686-f005">Figure 5</xref>F) suggests a sudden population expansion in the past (<xref ref-type="app" rid="app1-diversity-18-00686">Table S10</xref>). The skyline plot (<xref ref-type="fig" rid="diversity-18-00686-f006">Figure 6</xref>B) for the NC subgroup is also consistent with demographic expansion peaking at ~12.5 Kya.</p>
+        <p>A significant deviation from the null hypothesis of population stability was also found for the E sample, but only in Fu&#x2019;s neutrality test. The skyline plot (<xref ref-type="fig" rid="diversity-18-00686-f006">Figure 6</xref>C) showed a smooth pattern of population growth with the highest rate at ca. 4 Kya. Mismatch distribution analysis showed a unimodal profile for the E sample and no deviation from the sudden-expansion model based on the SSD and raggedness index (<xref ref-type="fig" rid="diversity-18-00686-f005">Figure 5</xref>B).</p>
+        <p>In contrast, the S and SW phylogroups showed no deviation from the null hypothesis in Tajima&#x2019;s and Fu&#x2019;s Fs neutrality tests (<xref ref-type="table" rid="diversity-18-00686-t001">Table 1</xref>) and a multimodal distribution in the mismatch distribution analysis (<xref ref-type="fig" rid="diversity-18-00686-f005">Figure 5</xref>C,D). The skyline plot for the SW clade shows no clear signal of expansion or decline (<xref ref-type="fig" rid="diversity-18-00686-f006">Figure 6</xref>D).</p>
+      </sec>
+      <sec id="sec3dot5-diversity-18-00686">
+        <title>3.5. Divergence Times</title>
+        <p>The divergence among lineages of <italic>H. auritus</italic> was estimated to have occurred during the late Middle and Late Pleistocene (<xref ref-type="table" rid="diversity-18-00686-t002">Table 2</xref>). The radiation of subclades within the N clade represents the most recent diversification event in the species.</p>
+      </sec>
+      <sec id="sec3dot6-diversity-18-00686">
+        <title>3.6. Biogeographic Paleo-Range Reconstructions</title>
+        <p>We modelled potential past distributions and produced hypothetical diversification scenarios for all Pleistocene nodes. The nodes corresponding to the sequence of major divergence events are numbered in <xref ref-type="fig" rid="diversity-18-00686-f002">Figure 2</xref>. </p>
+        <sec id="sec3dot6dot1-diversity-18-00686">
+          <title>3.6.1. Node 1&#x2014;Divergence of the S Clade</title>
+          <p>The model was based on occurrence records of <italic>H. auritus</italic> and <italic>H. collaris.</italic> Reconstructions of potential paleo-ranges using SDM revealed that a common ancestor of <italic>H. auritus</italic> s. l. with a continuous distribution across the area of the current range could have existed during the warm and wet climate of the interglacial stage of the 330 Kya glacial cycle (<xref ref-type="fig" rid="diversity-18-00686-f007">Figure 7</xref>A). According to the model, under the cold and dry climate of the glacial maximum at 250 Kya, the range may have contracted and become fragmented into two potential isolates: a south-eastern one, probably corresponding to the S clade, and a north-western one, probably corresponding to the remaining populations of <italic>H. auritus</italic> (<xref ref-type="fig" rid="diversity-18-00686-f007">Figure 7</xref>B).</p>
+        </sec>
+        <sec id="sec3dot6dot2-diversity-18-00686">
+          <title>3.6.2. Node 2&#x2014;Subdivision of the Northern + Eastern and South-Western Clades of <italic>H. auritus</italic></title>
+          <p>The model was based on occurrence records of <italic>H. auritus.</italic> During the thermal and precipitation maxima of the interglacial stage of the glacial cycle at 200 Kya, the potential geographic range of <italic>H. auritus</italic> was reconstructed as continuous across an area largely coinciding with the current range of the species, although less extensive eastward in Mongolia and China than at present (<xref ref-type="fig" rid="diversity-18-00686-f007">Figure 7</xref>C). According to the model, the range was constricted and fragmented into two isolates, a northern one (the N clade) and a south-western one (the SW + T clade), at the beginning of the cold and dry climate of the glaciation phase at 180 Kya (<xref ref-type="fig" rid="diversity-18-00686-f007">Figure 7</xref>D).</p>
+        </sec>
+        <sec id="sec3dot6dot3-diversity-18-00686">
+          <title>3.6.3. Node 3&#x2014;Subdivision of the South-Western Range of <italic>H. auritus</italic> into the SW and T Clades</title>
+          <p>The model was based on occurrence records of hedgehogs of the SW and T clades. According to the model, as the glaciation phase continued at 180&#x2013;150 Kya, the south-western part of the potential range of <italic>H. auritus</italic> may have contracted at 180 Kya (<xref ref-type="app" rid="app1-diversity-18-00686">Figure S5A</xref>) and become fragmented at 170 Kya into two potential isolates: a south-western one, probably corresponding to the SW clade and less extensive westward in Egypt and Libya than at present, and a small northern one, probably corresponding to the T clade (<xref ref-type="app" rid="app1-diversity-18-00686">Figure S5B</xref>). During the thermal and precipitation maxima of the interglacial stage of the glacial cycle at 120 Kya (<xref ref-type="fig" rid="diversity-18-00686-f008">Figure 8</xref>A), the range of the SW clade was subdivided into three fragments, western, central and eastern. At the Last Glacial Maximum (LGM), the eastern fragment disappeared (<xref ref-type="fig" rid="diversity-18-00686-f008">Figure 8</xref>B).</p>
+        </sec>
+        <sec id="sec3dot6dot4-diversity-18-00686">
+          <title>3.6.4. Node 4&#x2014;Subdivision of the Northern Clades of <italic>H. auritus</italic> into the N and E Clades</title>
+          <p>The model was based on occurrence records of hedgehogs of the N and E clades. The potential geographic range of the northern fragment of <italic>H. auritus</italic> was continuous across an area coinciding with the current range of the species during the thermal and precipitation maxima of the interglacial stage of the glacial cycle at 120 Kya (<xref ref-type="fig" rid="diversity-18-00686-f009">Figure 9</xref>A). At the beginning of the glacial phase, this part of the range began to constrict and fragment into several isolates: two western and six eastern at 110 Kya (<xref ref-type="fig" rid="diversity-18-00686-f009">Figure 9</xref>B), four western and eight eastern at 70 Kya (<xref ref-type="fig" rid="diversity-18-00686-f009">Figure 9</xref>C) and finally one western (in the northern Caspian lowlands, the Kyzylkum and northern Karakum Deserts) and one eastern (in the foothills of the Eastern Tianshan) at the LGM (<xref ref-type="fig" rid="diversity-18-00686-f009">Figure 9</xref>D).</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot7-diversity-18-00686">
+        <title>3.7. Paleorange of the S Clade</title>
+        <p>At the same time, the potential distribution of the S clade, as estimated from environmental suitability, was continuous across an area coinciding with the current range of the species (although significantly less extensive westward than at present) during the thermal and precipitation maxima of the interglacial stage of the glacial cycle at 200 Kya (<xref ref-type="fig" rid="diversity-18-00686-f010">Figure 10</xref>A). The reconstruction for the onset of the cold and dry glacial phase at 180 Kya suggests that the range may have contracted and become fragmented into two potential isolates: a south-western one, probably corresponding to the S clade, and an eastern one, probably corresponding to <italic>H. collaris</italic> (<xref ref-type="fig" rid="diversity-18-00686-f010">Figure 10</xref>B). At this time, the potential range of the S clade appears to have extended considerably westward and north-westward into Iran and south-western Turkmenistan. During the thermal and precipitation maxima of the interglacial stage of the glacial cycle at 120 Kya (<xref ref-type="fig" rid="diversity-18-00686-f010">Figure 10</xref>C) the range of the S clade expanded further northward into southern Turkmenistan and eastern Transcaucasia. At the LGM, the modelled range was constricted and fragmented into four isolates (<xref ref-type="fig" rid="diversity-18-00686-f010">Figure 10</xref>D).</p>
+      </sec>
+    </sec>
+    <sec id="sec4-diversity-18-00686" sec-type="discussion">
+      <title>4. Discussion</title>
+      <sec id="sec4dot1-diversity-18-00686">
+        <title>4.1. Phylogeographic Structure and Phylogeographic Gaps</title>
+        <p>The evolutionary success of the long-eared hedgehog is reflected in its vast range&#x2014;the largest in the entire family Erinaceidae&#x2014;and, as is now evident, in a remarkable phylogeographic structure, which is more differentiated than reported in previous studies [<xref ref-type="bibr" rid="B1-diversity-18-00686">1</xref>,<xref ref-type="bibr" rid="B12-diversity-18-00686">12</xref>]. <italic>H. auritus</italic> was recovered as a complex of five deeply divergent, reciprocally monophyletic lineages, three of which are, in turn, structured at a finer scale. The two phylogroups distributed in the northern part of the range (N and E) form a clade, whereas the phylogroups endemic to the southern part of the range (S, SW, and T) appear as a paraphyletic assemblage.</p>
+        <p>The E phylogroup, which consists mainly of Mongolian samples, is particularly distinctive. The distinctness of the Mongolian population relative to those of Kazakhstan and western Central Asia is not unique to long-eared hedgehogs; a similar phylogeographic pattern, whether within a single species or between closely related species, has been observed in these regions for <italic>Phodopus campbelli</italic>/<italic>Phodopus sungorus</italic> [<xref ref-type="bibr" rid="B47-diversity-18-00686">47</xref>], phylogroups of <italic>Ellobius tancrei</italic> [<xref ref-type="bibr" rid="B48-diversity-18-00686">48</xref>], and the species complex <italic>Meriones meridianus</italic> [<xref ref-type="bibr" rid="B49-diversity-18-00686">49</xref>].</p>
+        <p>Our data also reveal several potential contact zones and barriers between genetic lineages. The first is the area where the N and E clades co-occur, in the Alag Nuur Lake depression in south-western Mongolia. This area is directly adjacent to Mongolian Dzungaria, where an N-clade haplotype was found (Yolkhon), suggesting that Dzungaria is inhabited by the western N lineage, a pattern also observed in other desert mammals, such as <italic>Meriones ex gr. meridianus</italic> [<xref ref-type="bibr" rid="B49-diversity-18-00686">49</xref>] and <italic>Dipus sagitta</italic> s. l. [<xref ref-type="bibr" rid="B50-diversity-18-00686">50</xref>].</p>
+        <p>Second, our data tentatively suggest that the Amu Darya River separates the N and S clades along its upper and middle reaches. The S clade is common on the left (western) bank, while the N clade inhabits the right (eastern) bank. However, in the lower reaches of the river, a hedgehog from the left bank (loc. 18: Tashauz) carried an N-clade haplotype, suggesting that the river is not a complete barrier in its lower course.</p>
+        <p>Third, the N clade shows an east&#x2013;west subdivision in the Lower Volga valley, suggesting that the river may act as a barrier between western and eastern populations of hedgehogs. Although the haplogroups on the left and right banks of the Volga lack statistical support, a similar east&#x2013;west dichotomy has been reported for other small mammals in this region, including <italic>Spermophilus pygmaeus</italic> [<xref ref-type="bibr" rid="B51-diversity-18-00686">51</xref>], <italic>Ellobius talpinus</italic> [<xref ref-type="bibr" rid="B52-diversity-18-00686">52</xref>], and <italic>Nothocricetulus migratorius</italic> [<xref ref-type="bibr" rid="B53-diversity-18-00686">53</xref>]. These examples suggest that the Volga is an important barrier separating sibling species, subspecies or populations of steppe and semidesert mammals.</p>
+      </sec>
+      <sec id="sec4dot2-diversity-18-00686">
+        <title>4.2. Potential Scenario of Diversification and Historical Range Dynamics</title>
+        <p>Our phylogenetic reconstruction suggests that <italic>H. auritus</italic> s. l. originated in south-western Asia: the southern lineages (S, SW and T) form a paraphyletic assemblage with the S clade at the base of the tree, whereas the two northern lineages (N and E) occupy a derived position as sister clades. The pronounced phylogeographic subdivision of the S and SW lineages suggests a long evolutionary history, during which these lineages persisted as multiple populations. Neither the neutrality tests, the mismatch distributions (multimodal profiles), nor the skyline plot for the SW clade revealed a statistically detectable signal of population expansion in these lineages. In contrast, the E phylogroup and the subclades of the N phylogroup lack pronounced structure across their extensive ranges, and the neutrality tests and demographic analyses (S-shaped skylines and unimodal mismatch distributions) reveal stronger signatures consistent with rapid, likely postglacial expansion and relatively recent colonization of the eastern and northern parts of the range. All these demographic inferences should nevertheless be interpreted with caution, as they are based on a single maternally inherited locus, and it is currently difficult to distinguish spatial from demographic expansion and to partial out the effects of population structure and sampling heterogeneity [<xref ref-type="bibr" rid="B54-diversity-18-00686">54</xref>].</p>
+        <p>The hypothesis of a south-western Asian origin is further supported by the paleo-reconstructions, which indicate that at ~250 Kya (the time of separation of the S lineage) the potential range included large areas in the Middle East, north-eastern Africa, South Asia, and Iran, but only a few parts of Central Asia. It should be noted that the absence of spatially structured validation in cases where the study area is large and the distribution of occurrence records is heterogeneous limits confidence in model robustness and transferability, particularly for nodes 1 and 2. Also, one should acknowledge that the uncertainty in the initial lineage assignments may have propagated into the lineage-specific SDMs. The reconstructed paleodistributions should therefore be regarded as biologically plausible scenarios consistent with the genetic data, rather than definitive reconstructions of past ranges.</p>
+        <p>In the two northern lineages, range contraction and fragmentation coincided with cold stages: both the N and E lineages had continuous distributions during the Last Interglacial, whereas their ranges were substantially reduced and fragmented during the LGM. This agrees with the demographic signals of recent, likely postglacial expansion in these lineages. Our results are thus consistent with the view that glacial maxima promoted range fragmentation in desert and steppe mammals, despite the simultaneous expansion of arid open landscapes, and that this fragmentation was followed by postglacial recolonization, as reported in several recent studies [<xref ref-type="bibr" rid="B55-diversity-18-00686">55</xref>,<xref ref-type="bibr" rid="B56-diversity-18-00686">56</xref>]. Nevertheless, alternative phylogeographic patterns have been suggested for other small mammal taxa [<xref ref-type="bibr" rid="B57-diversity-18-00686">57</xref>]. The extent to which this discrepancy reflects interspecific variation in responses to identical climatic shifts, rather than inconsistencies in molecular clock estimates, warrants further investigation.</p>
+      </sec>
+      <sec id="sec4dot3-diversity-18-00686">
+        <title>4.3. Genetic Lineages and Morphological Subspecies</title>
+        <p>Comparison between mitochondrial lineages and morphological subspecies is hampered by the lack of a universally accepted subspecies taxonomy. In the most recent edition of Mammal Species of the World (MSW3), five subspecies are listed: <italic>auritus</italic>, <italic>albulus</italic>, <italic>aegyptius</italic>, <italic>libycus</italic>, and <italic>megalotis</italic> [<xref ref-type="bibr" rid="B6-diversity-18-00686">6</xref>]. More recently, however, Best [<xref ref-type="bibr" rid="B3-diversity-18-00686">3</xref>] reduced this number to three: <italic>auritus</italic>, <italic>albulus</italic>, and <italic>megalotis</italic>. Here, we primarily follow the comprehensive revision of intraspecific morphological variation and taxonomy of the long-eared hedgehog by Zaitsev [<xref ref-type="bibr" rid="B7-diversity-18-00686">7</xref>]. He recognized six subspecies: <italic>H. a. auritus</italic> (northern parts of the species range), <italic>H. a. aegyptius</italic> (south-western parts of the species range), <italic>H. a. persicus</italic> (southern Turkmenistan and adjacent parts of Iran), <italic>H. a. minor</italic> (south-west Siberia), <italic>H. a. megalotis</italic> (Afghanistan, Balochistan), and <italic>H. a. collaris</italic> (India, Pakistan), thereby subsuming <italic>H. collaris</italic> into <italic>H. auritus</italic>. As a modification of this system, we also consider <italic>H. a. albulus</italic> (eastern part of the range), following Corbet [<xref ref-type="bibr" rid="B2-diversity-18-00686">2</xref>], and <italic>H. a. calligoni</italic> (Transcaucasia and potentially some parts of the Middle East), following Harrison and Bates [<xref ref-type="bibr" rid="B58-diversity-18-00686">58</xref>].</p>
+        <p>Our data indicate, consistent with &#xD6;zmen et al. [<xref ref-type="bibr" rid="B12-diversity-18-00686">12</xref>], that the phylogeographic structure of the long-eared hedgehog is partly congruent with the principal morphological subspecies. The N clade corresponds to <italic>H. a. auritus</italic> Gmelin, 1770, whose type locality (Astrakhan) lies within the range of this clade. However, it also includes a specimen from Altai, where Zaitsev recognized a distinct subspecies, <italic>H. a. minor</italic> [<xref ref-type="bibr" rid="B7-diversity-18-00686">7</xref>], as well as specimens from Ciscaucasia, which, according to Niethammer [<xref ref-type="bibr" rid="B8-diversity-18-00686">8</xref>] and Zaitsev [<xref ref-type="bibr" rid="B7-diversity-18-00686">7</xref>], should be inhabited by <italic>H. a. aegyptius.</italic> The available name for the E clade could be <italic>H. a. albulus</italic> Stoliczka, 1872. For now, however, this remains merely a supposition, since the type locality of <italic>H. a. albulus</italic> is in south-western Xinjiang (Sanju, Yarkand), an area that remains unstudied. At the same time, Zaitsev [<xref ref-type="bibr" rid="B7-diversity-18-00686">7</xref>] and Corbet [<xref ref-type="bibr" rid="B2-diversity-18-00686">2</xref>] suggested that <italic>albulus</italic> is distributed in south-eastern Kazakhstan, which does not agree with the mtDNA pattern, because only the N haplogroup was found in Kazakhstan. The assumption that <italic>H. a. albulus</italic> occurs in Kazakhstan is probably the reason why Zaitsev included it in the nominotypical subspecies, as he did not examine Mongolian or Chinese specimens [<xref ref-type="bibr" rid="B7-diversity-18-00686">7</xref>].</p>
+        <p>The SW clade likely corresponds to <italic>H. a. aegyptius</italic> Fischer, 1829, whose type locality is in Egypt. However, the range of this clade is smaller than that of the subspecies as treated by Niethammer [<xref ref-type="bibr" rid="B8-diversity-18-00686">8</xref>] or Zaitsev [<xref ref-type="bibr" rid="B7-diversity-18-00686">7</xref>], as it does not include Ciscaucasia or Transcaucasia.</p>
+        <p>The known range of the Transcaucasian lineage includes the type locality of <italic>H. a. calligoni</italic> Satunin, 1901 (the foothills of Mount Ararat) [<xref ref-type="bibr" rid="B12-diversity-18-00686">12</xref>]. Most authors [<xref ref-type="bibr" rid="B6-diversity-18-00686">6</xref>,<xref ref-type="bibr" rid="B7-diversity-18-00686">7</xref>] have synonymized <italic>calligoni</italic> with <italic>aegyptius</italic>, while others [<xref ref-type="bibr" rid="B58-diversity-18-00686">58</xref>] consider it distinct and suggest that it is distributed in eastern and southern Anatolia, the Levant, and Mesopotamia. This view is not supported by the mitochondrial data: the T lineage is probably restricted to north-eastern Anatolia and parts of Transcaucasia, whereas the areas further south belong to the range of the SW lineage. Additional sampling is needed to establish the limits of the T lineage.</p>
+        <p>The S clade most likely corresponds to <italic>H. a. megalotis</italic>; however, this is the most complex case, as the taxonomic status of the <italic>megalotis</italic> form has itself been repeatedly debated. Originally described from Kandahar as <italic>H. megalotis</italic> Blyth, 1845, and formerly regarded as a distinct species, its species status was later questioned by Niethammer [<xref ref-type="bibr" rid="B8-diversity-18-00686">8</xref>] who suggested that it intergrades with more northern forms. While some researchers continued to treat <italic>megalotis</italic> as a species [<xref ref-type="bibr" rid="B10-diversity-18-00686">10</xref>,<xref ref-type="bibr" rid="B46-diversity-18-00686">46</xref>,<xref ref-type="bibr" rid="B58-diversity-18-00686">58</xref>,<xref ref-type="bibr" rid="B59-diversity-18-00686">59</xref>], others supported Niethammer&#x2019;s treatment [<xref ref-type="bibr" rid="B2-diversity-18-00686">2</xref>,<xref ref-type="bibr" rid="B6-diversity-18-00686">6</xref>,<xref ref-type="bibr" rid="B7-diversity-18-00686">7</xref>], which is the prevailing view at present. Although <italic>megalotis</italic> is now unanimously recognized as a valid taxon, its content and distribution remain unclear (i.e., how far westwards it extends in Iran and whether it includes the populations of southern Turkmenistan). For example, Zaitsev considered <italic>H. a. megalotis</italic> proper to be restricted to Balochistan and Afghanistan, and recognized the populations of southern Turkmenistan (Kopetdag) and parts of Iran as a related but distinct subspecies, <italic>H. a. persi</italic>cus (syn. <italic>chorassanicus</italic>) [<xref ref-type="bibr" rid="B7-diversity-18-00686">7</xref>]. The existence in southern Turkmenistan of a subspecies separate from <italic>H. a. auritus</italic> and <italic>H. a. megalotis</italic> was also acknowledged by other authors [<xref ref-type="bibr" rid="B8-diversity-18-00686">8</xref>,<xref ref-type="bibr" rid="B60-diversity-18-00686">60</xref>].</p>
+        <p>The range of the S mitochondrial lineage is much wider than the range of <italic>megalotis</italic>, regardless of the taxonomic treatment. It includes not only Afghanistan and southern Turkmenistan but also most of the Karakum Desert and eastern Transcaucasia&#x2014;areas that were never considered part of the <italic>H. a. megalotis</italic> range. The S lineage is also found in northern Iran and is likely to occur in the eastern and southern parts of the country; however, the details of its phylogeography on the Iranian Plateau remain poorly known.</p>
+        <p>Regarding the other genetic lineages, the subspecies status and origin of the Cypriot population have been in dispute. The name <italic>dorotheae</italic> [<xref ref-type="bibr" rid="B61-diversity-18-00686">61</xref>] was initially applied to hedgehogs from Cyprus, and it was previously assumed that long-eared hedgehogs were introduced to Cyprus by humans [<xref ref-type="bibr" rid="B62-diversity-18-00686">62</xref>]. In our phylogeny, haplotypes from Cyprus and Israel formed a joint subclade within the South-western clade and this grouping was recovered as sister to the Egyptian subclade. This similarity between Cypriot, Israeli and Egyptian haplotypes supports an origin of this subclade in North Africa or the Levant rather than Anatolia.</p>
+        <p>The distribution of the five mitochondrial phylogroups (based on our data) and their potentially corresponding morphological subspecies (inferred from the analysis of literature, GBIF.org, iNaturalist, museum collections, and our data) is shown in <xref ref-type="app" rid="app1-diversity-18-00686">Figure S1</xref>. Note that non-genotyped localities were assigned to genetic lineages a priori; these assignments are therefore provisional.</p>
+        <p>Although mitochondrial data alone are insufficient for a taxonomic revision of species complexes such as <italic>H. auritus</italic> s. l., they provide a foundation for hypotheses that can be tested by future genomic studies. First, the genetic divergence between the lineages corresponding to <italic>H. a. auritus</italic> and <italic>H. a. megalotis</italic> (<italic>p</italic>-distance 3.84%) as well as between <italic>auritus</italic> and <italic>aegyptius</italic> (3.31%) or <italic>calligoni</italic> and <italic>megalotis (</italic>4.23%) falls within the range reported both for closely related species and for highly divergent subspecies (2&#x2013;11%) [<xref ref-type="bibr" rid="B63-diversity-18-00686">63</xref>]. These lineages might therefore tentatively be regarded as species in <italic>statu nascendi</italic>; however, their true taxonomic status can only be determined by assessing gene flow across their contact zones, which are probably located in Transcaucasia, western Iran, eastern T&#xFC;rkiye, and northern Turkmenistan.</p>
+        <p>Second, the taxonomic status of <italic>H. collaris</italic>, which appears to be closely related to <italic>H. a. megalotis</italic>, requires further scrutiny, as it is represented in our dataset by a single specimen (ZIN6328), whose position in the phylogenetic trees is poorly supported. Furthermore, the morphological identification of this specimen is incomplete because the skull has been lost, although its external dimensions (hindfoot length of ca. 33 mm) and spine coloration correspond to <italic>H. collaris</italic>. The locality of this specimen (between Hyderabad and Rohri) falls within the species range reported in the literature [<xref ref-type="bibr" rid="B5-diversity-18-00686">5</xref>,<xref ref-type="bibr" rid="B59-diversity-18-00686">59</xref>], but lies at its western boundary. Moreover, <italic>H. a. megalotis</italic> also occurs in Pakistan, where it is restricted to western regions (mainly Balochistan), whereas <italic>H. collaris</italic> has been recorded in the Indus Valley [<xref ref-type="bibr" rid="B59-diversity-18-00686">59</xref>]. Thus, the proximity of the range boundaries of <italic>H. a. megalotis</italic> and <italic>H. collaris</italic> increases both the risk of misidentification and the possibility of mitochondrial introgression in a potential contact zone.</p>
+      </sec>
+      <sec id="sec4dot4-diversity-18-00686">
+        <title>4.4. Conservation Implications</title>
+        <p>The present phylogeographic results for <italic>H. auritus</italic> identify geographic components of evolutionary diversity that may deserve particular attention in future conservation assessments. The long-eared hedgehog is globally classified as Least Concern (LC) on the IUCN Red List [<xref ref-type="bibr" rid="B3-diversity-18-00686">3</xref>]. However, the geographically structured and deeply divergent mitochondrial lineages identified within the species represent an important component of intraspecific evolutionary diversity that could be overlooked if the species is treated as a single homogeneous unit. Lineages with restricted ranges (the Transcaucasian lineage and the population of Cyprus) deserve special attention.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-diversity-18-00686" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>In conclusion, our data suggest that <italic>H. auritus</italic> comprises several divergent lineages, some of which may represent early stages of speciation. However, the evolutionary history of the long-eared hedgehog proposed here should be interpreted with caution, given the limitations of relying on a single maternally inherited locus, the provisional assignment of non-genotyped populations to genetic lineages, and the assumptions inherent in SDM reconstructions. Determining the taxonomic rank of the phylogroups within <italic>H. auritus</italic> will require a careful analysis of multilocus nuclear data. Furthermore, morphological variation within the genus <italic>Hemiechinus</italic> is considerable, and several morphologically distinct taxa (e.g., <italic>Hemiechinus microtis</italic> Laptev, 1925 from Uzbekistan) remain genetically unstudied. Future studies should also aim to identify contact zones between the phylogroups precisely and to determine whether, and to what extent, gene flow among them is restricted.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-diversity-18-00686">
+        <title>Supplementary Materials</title>
+        <p>The following supporting information can be downloaded at: <uri>https://www.mdpi.com/article/10.3390/d18110686/s1</uri>: Supplementary Materials SI: Materials and Methods: Sampling, sequencing, and phylogenetic analysis. Table S1-A. List of specimens used in the genetic analysis with geographic information and GenBank Accession numbers. Table S1-B. Specimens used as outgroups in phylogenetic reconstructions. Table S2. Newly designed primers used for amplification and sequencing of short <italic>cytb</italic> fragments and barcoding fragment of <italic>COI</italic>. Table S3. PCR conditions and primer combinations for amplifying short DNA fragments of <italic>cytb</italic> from the historical museum specimens. Table S4. Substitution models selected for the <italic>cytb</italic> and <italic>COI</italic> mitochondrial genes and for the concatenated alignment of 12 mitochondrial genes in the maximum likelihood analysis. Table S5. Description of the mitogenomes sequenced in this study. Supplementary Materials SII: Materials and Methods: Molecular dating. Supplementary text: 1 Molecular dating of Erinaceinae based on third-codon-position transversions; 2 Divergence times within <italic>Hemiechinus auritus</italic> s. l. Table S6. Calibration priors for node ages in the Erinaceinae tree. Supplementary Materials SIII: Materials and Methods: Biogeographic paleo-reconstructions. Table S7. The occurrence records used for modelling are provided in the Supplementary xlsx file. Supplementary text: 1 Selection of localities for modeling; 2 The assignment of localities to clades. Table S8. Results of variable selection and model performance. Supplementary Materials SIV: Results. Figure S1. Distribution of genetic lineages and potential subspecies of <italic>H. auritus</italic> s.l., compiled from GBIF.org and iNaturalist records, the museum collections of ZMMU and ZIN (Zoological Institute, St. Petersburg, Russia), literature data (Table S7), and genetic data (Table S1-A). Localities with genotyped material are marked with squares; all localities from Table S1-A are shown in addition to those listed in Table S7: green&#x2014;<italic>H. a. auritus</italic>, blue&#x2014;<italic>H. a. albulus</italic>, violet&#x2014;<italic>H. a. aegyptius</italic>, red<italic>&#x2014;H. a. megalotis</italic>, orange&#x2014;<italic>H. a. calligoni</italic>, and black<italic>&#x2014;H. collaris</italic>. Figure S2. The expanded ML phylogenetic tree based on the <italic>cytb</italic> dataset. Numbers at nodes correspond to ML ultrafast bootstrap support. In the outgroup, the species of the genus <italic>Paraechinus</italic> are not shown. Figure S3. The expanded BEAST phylogenetic tree based on the <italic>cytb</italic> dataset. Numbers at nodes correspond to Bayesian posterior probabilities. Figure S4. The ML tree based on concatenated sequences of <italic>cytb</italic> and <italic>COI</italic> data. Numbers at nodes correspond to ML ultrafast bootstrap support. The outgroup (<italic>Mesechinus dauuricus</italic> and <italic>M. miodon</italic>) is omitted. Figure S5. Subdivision of the south-western populations of <italic>H. auritus</italic> into the SW and T clades: A&#x2014;180 Kya, B&#x2014;170 Kya. Table S9. Genetic distances (%, &#xB1;SE) among phylogroups of <italic>H. auritus</italic>: <italic>p</italic>-distances below the diagonal, net-distances above the diagonal, and mean intragroup distances on the diagonal. Table S10. The results of Mismatch analysis based on the <italic>cytb</italic> data in the phylogroups of <italic>H. auritus</italic>: number of individuals (n), time in substitutions (<italic>tau</italic>), SSD, Raggedness index (Rg) and <italic>p</italic>-values.</p>
+        <supplementary-material xmlns:xlink="http://www.w3.org/1999/xlink" id="diversity-18-00686-s001" xlink:href="diversity-18-00686-s001.zip"/>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization and methodology: A.A.B., G.I.S. and V.S.L.; collection of material: A.A.B., V.S.L., E.V.L., E.U., B.&#x10C;.B. and &#x130;.G.; molecular experiments: E.V.L., A.A.L. and A.A.B.; bioinformatic and phylogenetic analysis: V.S.L. and E.V.L.; biogeographical analysis: G.I.S.; writing&#x2014;original draft preparation: A.A.B., V.S.L. and G.I.S.; preparation of illustrations: A.S.S., E.V.L. and A.A.B.; review and editing: B.&#x10C;.B., &#x130;.G., V.S.L., A.A.B. and A.A.L.; project administration and funding acquisition: A.A.B. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>Not applicable. No live animals were used in this study. The research was conducted using ethanol-preserved tissue samples from existing collections and historical dried skin specimens.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The data analysed in this study are available in NCBI GenBank (<uri>https://www.ncbi.nlm.nih.gov/genbank</uri>, accessed on 23 September 2026).</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We are grateful to the Joint Russia-Mongolian Complex Biological Expedition of the Russian Academy of Sciences and the Academy of Sciences of Mongolia for granting access to the Mongolian samples. We would also like to thank R. Nazarov, K. Zolotareva, and A. Raspopova for providing additional tissue samples and L. Voyta for assistance with the collection of specimen ZIN6328.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-diversity-18-00686">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bannikova</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Lebedev</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Abramov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Rozhnov</surname>
+              <given-names>V.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Contrasting evolutionary history of hedgehogs and gymnures (Mammalia: Erinaceomorpha) as inferred from a multigene study</article-title>
+          <source>Biol. J. Linn. Soc.</source>
+          <year>2014</year>
+          <volume>112</volume>
+          <fpage>499</fpage>
+          <lpage>519</lpage>
+          <pub-id pub-id-type="doi">10.1111/bij.12299</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-diversity-18-00686">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corbet</surname>
+              <given-names>G.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>The family Erinaceidae: A synthesis of its taxonomy, phylogeny, ecology and zoogeography</article-title>
+          <source>Mamm. Rev.</source>
+          <year>1988</year>
+          <volume>18</volume>
+          <fpage>117</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2907.1988.tb00082.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-diversity-18-00686">
+        <label>3.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Best</surname>
+              <given-names>T.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Family Erinaceidae (Hedgehogs and Gymnures)</article-title>
+          <source>Handbook of the Mammals of the World, Volume 8: Insectivores, Sloths and Colugos</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Wilson</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Mittermeier</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Lynx Edicions</publisher-name>
+          <publisher-loc>Barcelona, Spain</publisher-loc>
+          <year>2018</year>
+          <fpage>288</fpage>
+          <lpage>330</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4-diversity-18-00686">
+        <label>4.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reeve</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <source>Hedgehogs</source>
+          <publisher-name>T &amp; A. D Poyser</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>1994</year>
+        </element-citation>
+      </ref>
+      <ref id="B5-diversity-18-00686">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frost</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Wozencraft</surname>
+              <given-names>W.C.</given-names>
+            </name>
+            <name>
+              <surname>Hoffmann</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phylogenetic relationships of hedgehogs and gymnures (Mammalia, Insectivora, Erinaceidae)</article-title>
+          <source>Smithson. Contrib. Zool.</source>
+          <year>1991</year>
+          <volume>518</volume>
+          <fpage>1</fpage>
+          <lpage>69</lpage>
+          <pub-id pub-id-type="doi">10.5479/si.00810282.518</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-diversity-18-00686">
+        <label>6.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hutterer</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Order Erinaceomorpha</article-title>
+          <source>Mammal Species of the World</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Wilson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Reeder</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Johns Hopkins University Press</publisher-name>
+          <publisher-loc>Baltimore, MD, USA</publisher-loc>
+          <year>2005</year>
+          <fpage>212</fpage>
+          <lpage>219</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B7-diversity-18-00686">
+        <label>7.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zaitsev</surname>
+              <given-names>M.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Systematic Analysis of the Taxa of Hedgehogs (Mammalia, Erinaceinae) of the USSR</article-title>
+          <source>Ph.D. Thesis</source>
+          <publisher-name>Zoological Institute of USSR Academy of Sciences</publisher-name>
+          <publisher-loc>Leningrad, Russia</publisher-loc>
+          <year>1982</year>
+        </element-citation>
+      </ref>
+      <ref id="B8-diversity-18-00686">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Niethammer</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Zur Kenntnis Der Igel (Erinaceidae) Afghanistans</article-title>
+          <source>Z. S&#xE4;ugetierkd.</source>
+          <year>1973</year>
+          <volume>38</volume>
+          <fpage>271</fpage>
+          <lpage>276</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B9-diversity-18-00686">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morshed</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Patton</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>New records of mammals from Iran with systematic comments on hedgehogs (Erinaceidae) and mouse-like hamsters (<italic>Calomyscus</italic>, Muridae)</article-title>
+          <source>Zool. Middle East</source>
+          <year>2002</year>
+          <volume>26</volume>
+          <fpage>49</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="doi">10.1080/09397140.2002.10637921</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-diversity-18-00686">
+        <label>10.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ellerman</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Morrison-Scott</surname>
+              <given-names>T.S.</given-names>
+            </name>
+          </person-group>
+          <source>Checklist of Palearctic and Indian Mammals, 1758 to 1946</source>
+          <publisher-name>British Museum (Natural History)</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>1951</year>
+        </element-citation>
+      </ref>
+      <ref id="B11-diversity-18-00686">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kashani</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rezaei</surname>
+              <given-names>H.R.</given-names>
+            </name>
+            <name>
+              <surname>Naderi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Khorasani</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic diversity, population structure and demographic history of Brandt and Long Eared hedgehogs in Iran</article-title>
+          <source>Pak. J. Zool.</source>
+          <year>2021</year>
+          <volume>53</volume>
+          <fpage>643</fpage>
+          <lpage>651</lpage>
+          <pub-id pub-id-type="doi">10.17582/journal.pjz/20190803220849</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-diversity-18-00686">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>&#xD6;zmen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Demirta&#x15F;</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Herman</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>G&#xFC;nd&#xFC;z</surname>
+              <given-names>&#x130;.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitochondrial genetic variation in Long-Eared hedgehogs, <italic>Hemiechinus auritus</italic>, from the Anatolian Peninsula and Cyprus</article-title>
+          <source>Mammalia</source>
+          <year>2024</year>
+          <volume>88</volume>
+          <fpage>52</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="doi">10.1515/mammalia-2023-0083</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-diversity-18-00686">
+        <label>13.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sambrook</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Fritsch</surname>
+              <given-names>E.F.</given-names>
+            </name>
+            <name>
+              <surname>Maniatis</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <source>Molecular Cloning: A Laboratory Manual</source>
+          <publisher-name>Cold Spring Harbor</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>1989</year>
+        </element-citation>
+      </ref>
+      <ref id="B14-diversity-18-00686">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>D.Y.</given-names>
+            </name>
+            <name>
+              <surname>Eng</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Waye</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Dudar</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Saunders</surname>
+              <given-names>S.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improved DNA extraction from ancient bones using silica-based spin columns</article-title>
+          <source>Am. J. Phys. Anthropol.</source>
+          <year>1998</year>
+          <volume>105</volume>
+          <fpage>539</fpage>
+          <lpage>543</lpage>
+          <pub-id pub-id-type="doi">10.1002/(SICI)1096-8644(199804)105:4&lt;539::AID-AJPA10&gt;3.0.CO;2-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-diversity-18-00686">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hall</surname>
+              <given-names>T.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>BioEdit: A user-friendly biological sequence alignment editor and analysis program for Windows 95/98/NT</article-title>
+          <source>Nucleic Acids Symp. Ser.</source>
+          <year>1999</year>
+          <volume>41</volume>
+          <fpage>95</fpage>
+          <lpage>98</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B16-diversity-18-00686">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>L.-T.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>von Haeseler</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Minh</surname>
+              <given-names>B.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>IQ-TREE: A fast and effective stochastic algorithm for estimating Maximum-Likelihood Phylogenies</article-title>
+          <source>Mol. Biol. Evol.</source>
+          <year>2015</year>
+          <volume>32</volume>
+          <fpage>268</fpage>
+          <lpage>274</lpage>
+          <pub-id pub-id-type="doi">10.1093/molbev/msu300</pub-id>
+          <pub-id pub-id-type="pmid">25371430</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-diversity-18-00686">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalyaanamoorthy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Minh</surname>
+              <given-names>B.Q.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>T.K.F.</given-names>
+            </name>
+            <name>
+              <surname>von Haeseler</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jermiin</surname>
+              <given-names>L.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>ModelFinder: Fast model selection for accurate phylogenetic estimates</article-title>
+          <source>Nat. Methods</source>
+          <year>2017</year>
+          <volume>14</volume>
+          <fpage>587</fpage>
+          <lpage>589</lpage>
+          <pub-id pub-id-type="doi">10.1038/nmeth.4285</pub-id>
+          <pub-id pub-id-type="pmid">28481363</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-diversity-18-00686">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoang</surname>
+              <given-names>D.T.</given-names>
+            </name>
+            <name>
+              <surname>Chernomor</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>von Haeseler</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Minh</surname>
+              <given-names>B.Q.</given-names>
+            </name>
+            <name>
+              <surname>Vinh</surname>
+              <given-names>L.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>UFBoot2: Improving the Ultrafast Bootstrap Approximation</article-title>
+          <source>Mol. Biol. Evol.</source>
+          <year>2018</year>
+          <volume>35</volume>
+          <fpage>518</fpage>
+          <lpage>522</lpage>
+          <pub-id pub-id-type="doi">10.1093/molbev/msx281</pub-id>
+          <pub-id pub-id-type="pmid">29077904</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-diversity-18-00686">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Drummond</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Suchard</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Rambaut</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bayesian phylogenetics with BEAUti and the BEAST 1.7</article-title>
+          <source>Mol. Biol. Evol.</source>
+          <year>2012</year>
+          <volume>29</volume>
+          <fpage>1969</fpage>
+          <lpage>1973</lpage>
+          <pub-id pub-id-type="doi">10.1093/molbev/mss075</pub-id>
+          <pub-id pub-id-type="pmid">22367748</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-diversity-18-00686">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Suchard</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Lemey</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Baele</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ayres</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Drummond</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Rambaut</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bayesian phylogenetic and phylodynamic data integration using BEAST 1.10</article-title>
+          <source>Virus Evol.</source>
+          <year>2018</year>
+          <volume>4</volume>
+          <fpage>vey016</fpage>
+          <pub-id pub-id-type="doi">10.1093/ve/vey016</pub-id>
+          <pub-id pub-id-type="pmid">29942656</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-diversity-18-00686">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rambaut</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Drummond</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Baele</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Suchard</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Posterior summarization in Bayesian phylogenetics using Tracer 1.7</article-title>
+          <source>Syst. Biol.</source>
+          <year>2018</year>
+          <volume>67</volume>
+          <fpage>901</fpage>
+          <lpage>904</lpage>
+          <pub-id pub-id-type="doi">10.1093/sysbio/syy032</pub-id>
+          <pub-id pub-id-type="pmid">29718447</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-diversity-18-00686">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huson</surname>
+              <given-names>D.H.</given-names>
+            </name>
+            <name>
+              <surname>Bryant</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The SplitsTree App: Interactive analysis and visualization using phylogenetic trees and networks</article-title>
+          <source>Nat. Methods</source>
+          <year>2024</year>
+          <volume>21</volume>
+          <fpage>1773</fpage>
+          <lpage>1774</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41592-024-02406-3</pub-id>
+          <pub-id pub-id-type="pmid">39223398</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-diversity-18-00686">
+        <label>23.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andrews</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>FastQC: A quality control tool for high throughput sequence data 2023</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.bioinformatics.babraham.ac.uk/projects/fastqc/" ext-link-type="uri">https://www.bioinformatics.babraham.ac.uk/projects/fastqc/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-11-01">(accessed on 1 November 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B24-diversity-18-00686">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bolger</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Lohse</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Usadel</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Trimmomatic: A flexible trimmer for Illumina sequence data</article-title>
+          <source>Bioinformatics</source>
+          <year>2014</year>
+          <volume>30</volume>
+          <fpage>2114</fpage>
+          <lpage>2120</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btu170</pub-id>
+          <pub-id pub-id-type="pmid">24695404</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-diversity-18-00686">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dierckxsens</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Mardulyn</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Smits</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>NOVOPlasty: De Novo assembly of organelle genomes from whole genome data</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2017</year>
+          <volume>45</volume>
+          <fpage>e18</fpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkw955</pub-id>
+          <pub-id pub-id-type="pmid">28204566</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-diversity-18-00686">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.-M.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sadakane</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>T.-W.</given-names>
+            </name>
+          </person-group>
+          <article-title>MEGAHIT: An Ultra-Fast Single-Node solution for large and complex metagenomics assembly via Succinct de Bruijn Graph</article-title>
+          <source>Bioinformatics</source>
+          <year>2015</year>
+          <volume>31</volume>
+          <fpage>1674</fpage>
+          <lpage>1676</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btv033</pub-id>
+          <pub-id pub-id-type="pmid">25609793</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-diversity-18-00686">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.-M.</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>C.-M.</given-names>
+            </name>
+            <name>
+              <surname>Ting</surname>
+              <given-names>H.-F.</given-names>
+            </name>
+            <name>
+              <surname>Sadakane</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yamashita</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>T.-W.</given-names>
+            </name>
+          </person-group>
+          <article-title>MEGAHIT v1.0: A fast and scalable metagenome assembler driven by advanced methodologies and community practices</article-title>
+          <source>Methods</source>
+          <year>2016</year>
+          <volume>102</volume>
+          <fpage>3</fpage>
+          <lpage>11</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ymeth.2016.02.020</pub-id>
+          <pub-id pub-id-type="pmid">27012178</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-diversity-18-00686">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM</article-title>
+          <source>arXiv</source>
+          <year>2013</year>
+          <pub-id pub-id-type="arxiv">1303.3997</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-diversity-18-00686">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Danecek</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bonfield</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Liddle</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Marshall</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ohan</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Pollard</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Whitwham</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Keane</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>McCarthy</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Twelve years of SAMtools and BCFtools</article-title>
+          <source>Gigascience</source>
+          <year>2021</year>
+          <volume>10</volume>
+          <fpage>giab008</fpage>
+          <pub-id pub-id-type="doi">10.1093/gigascience/giab008</pub-id>
+          <pub-id pub-id-type="pmid">33590861</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-diversity-18-00686">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Al Arab</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>H&#xF6;ner zu Siederdissen</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tout</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sahyoun</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Stadler</surname>
+              <given-names>P.F.</given-names>
+            </name>
+            <name>
+              <surname>Bernt</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Accurate annotation of protein-coding genes in mitochondrial genomes</article-title>
+          <source>Mol. Phylogenet. Evol.</source>
+          <year>2017</year>
+          <volume>106</volume>
+          <fpage>209</fpage>
+          <lpage>216</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ympev.2016.09.024</pub-id>
+          <pub-id pub-id-type="pmid">27693569</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-diversity-18-00686">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Donath</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>J&#xFC;hling</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Al-Arab</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bernhart</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Reinhardt</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Stadler</surname>
+              <given-names>P.F.</given-names>
+            </name>
+            <name>
+              <surname>Middendorf</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bernt</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improved annotation of protein-coding genes boundaries in metazoan mitochondrial genomes</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2019</year>
+          <volume>47</volume>
+          <fpage>10543</fpage>
+          <lpage>10552</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkz833</pub-id>
+          <pub-id pub-id-type="pmid">31584075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-diversity-18-00686">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tamura</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Stecher</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Peterson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Filipski</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>MEGA6: Molecular evolutionary genetics analysis Version 6.0</article-title>
+          <source>Mol. Biol. Evol.</source>
+          <year>2013</year>
+          <volume>30</volume>
+          <fpage>2725</fpage>
+          <lpage>2729</lpage>
+          <pub-id pub-id-type="doi">10.1093/molbev/mst197</pub-id>
+          <pub-id pub-id-type="pmid">24132122</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-diversity-18-00686">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schneider</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Excoffier</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimation of past demographic parameters from the distribution of pairwise differences when the mutation rates vary among sites: Application to human mitochondrial DNA</article-title>
+          <source>Genetics</source>
+          <year>1999</year>
+          <volume>152</volume>
+          <fpage>1079</fpage>
+          <lpage>1089</lpage>
+          <pub-id pub-id-type="doi">10.1093/genetics/152.3.1079</pub-id>
+          <pub-id pub-id-type="pmid">10388826</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-diversity-18-00686">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tajima</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistical method for testing the neutral mutation hypothesis by DNA polymorphism</article-title>
+          <source>Genetics</source>
+          <year>1989</year>
+          <volume>123</volume>
+          <fpage>585</fpage>
+          <lpage>595</lpage>
+          <pub-id pub-id-type="doi">10.1093/genetics/123.3.585</pub-id>
+          <pub-id pub-id-type="pmid">2513255</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-diversity-18-00686">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fu</surname>
+              <given-names>Y.-X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistical tests of neutrality of mutations against population growth, hitchhiking and background selection</article-title>
+          <source>Genetics</source>
+          <year>1997</year>
+          <volume>147</volume>
+          <fpage>915</fpage>
+          <lpage>925</lpage>
+          <pub-id pub-id-type="doi">10.1093/genetics/147.2.915</pub-id>
+          <pub-id pub-id-type="pmid">9335623</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-diversity-18-00686">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Excoffier</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lischer</surname>
+              <given-names>H.E.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Arlequin Suite Ver 3.5: A new series of programs to perform population genetics analyses under Linux and Windows</article-title>
+          <source>Mol. Ecol. Resour.</source>
+          <year>2010</year>
+          <volume>10</volume>
+          <fpage>564</fpage>
+          <lpage>567</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1755-0998.2010.02847.x</pub-id>
+          <pub-id pub-id-type="pmid">21565059</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-diversity-18-00686">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Drummond</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bayesian Coalescent Inference of past population dynamics from molecular sequences</article-title>
+          <source>Mol. Biol. Evol.</source>
+          <year>2005</year>
+          <volume>22</volume>
+          <fpage>1185</fpage>
+          <lpage>1192</lpage>
+          <pub-id pub-id-type="doi">10.1093/molbev/msi103</pub-id>
+          <pub-id pub-id-type="pmid">15703244</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-diversity-18-00686">
+        <label>38.</label>
+        <element-citation publication-type="web">
+          <article-title>GBIF: The Global Biodiversity Information Facility</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.gbif.org" ext-link-type="uri">https://www.gbif.org</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-04-21">(accessed on 21 April 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B39-diversity-18-00686">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fick</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Hijmans</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>WorldClim 2: New 1-km spatial resolution climate surfaces for global land areas</article-title>
+          <source>Int. J. Climatol.</source>
+          <year>2017</year>
+          <volume>37</volume>
+          <fpage>4302</fpage>
+          <lpage>4315</lpage>
+          <pub-id pub-id-type="doi">10.1002/joc.5086</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-diversity-18-00686">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gamisch</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Oscillayers: A dataset for the study of climatic oscillations over Plio-Pleistocene time-scales at high spatial-temporal resolution</article-title>
+          <source>Glob. Ecol. Biogeogr.</source>
+          <year>2019</year>
+          <volume>28</volume>
+          <fpage>1552</fpage>
+          <lpage>1560</lpage>
+          <pub-id pub-id-type="doi">10.1111/geb.12979</pub-id>
+          <pub-id pub-id-type="pmid">31762691</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-diversity-18-00686">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Phillips</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Schapire</surname>
+              <given-names>R.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Maximum entropy modeling of species geographic distributions</article-title>
+          <source>Ecol. Model.</source>
+          <year>2006</year>
+          <volume>190</volume>
+          <fpage>231</fpage>
+          <lpage>259</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolmodel.2005.03.026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-diversity-18-00686">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anderson</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Raza</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of the extent of the study region on GIS models of species geographic distributions and estimates of niche evolution: Preliminary tests with montane rodents (genus <italic>Nephelomys</italic>) in Venezuela</article-title>
+          <source>J. Biogeogr.</source>
+          <year>2010</year>
+          <volume>37</volume>
+          <fpage>1378</fpage>
+          <lpage>1393</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2699.2010.02290.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-diversity-18-00686">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elith</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Hastie</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dud&#xED;k</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chee</surname>
+              <given-names>Y.E.</given-names>
+            </name>
+            <name>
+              <surname>Yates</surname>
+              <given-names>C.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Statistical explanation of MaxEnt for ecologists</article-title>
+          <source>Divers. Distrib.</source>
+          <year>2011</year>
+          <volume>17</volume>
+          <fpage>43</fpage>
+          <lpage>57</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1472-4642.2010.00725.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-diversity-18-00686">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Phillips</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Dud&#xED;k</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modeling of species distributions with MaxEnt: New extensions and a comprehensive evaluation</article-title>
+          <source>Ecography</source>
+          <year>2008</year>
+          <volume>31</volume>
+          <fpage>161</fpage>
+          <lpage>175</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.0906-7590.2008.5203.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-diversity-18-00686">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Newell</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Selecting thresholds for the prediction of species occurrence with presence-only data</article-title>
+          <source>J. Biogeogr.</source>
+          <year>2013</year>
+          <volume>40</volume>
+          <fpage>778</fpage>
+          <lpage>789</lpage>
+          <pub-id pub-id-type="doi">10.1111/jbi.12058</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-diversity-18-00686">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lay</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A study of the mammals of Iran resulting from the Street Expedition of 1962&#x2013;63</article-title>
+          <source>Fieldiana Zool.</source>
+          <year>1967</year>
+          <volume>54</volume>
+          <fpage>1</fpage>
+          <lpage>281</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B47-diversity-18-00686">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meshchersky</surname>
+              <given-names>I.G.</given-names>
+            </name>
+            <name>
+              <surname>Feoktistova</surname>
+              <given-names>N.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intraspecific organization of Dwarf hamsters <italic>Phodopus campbelli</italic> and <italic>Phodopus sungorus</italic> (Rodentia: Cricetinae) basing on mtDNA analysis</article-title>
+          <source>Dokl. Biol. Sci.</source>
+          <year>2009</year>
+          <volume>424</volume>
+          <fpage>35</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="doi">10.1134/S0012496609010116</pub-id>
+          <pub-id pub-id-type="pmid">19341080</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-diversity-18-00686">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lebedev</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Bogdanov</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Brandler</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Melnikova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Enkhbat</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Tukhbatullin</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Abramov</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Surov</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bakloushinskaya</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Bannikova</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cryptic variation in mole voles <italic>Ellobius</italic> (Arvicolinae, Rodentia) of Mongolia</article-title>
+          <source>Zool. Scr.</source>
+          <year>2020</year>
+          <volume>49</volume>
+          <fpage>535</fpage>
+          <lpage>548</lpage>
+          <pub-id pub-id-type="doi">10.1111/zsc.12440</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-diversity-18-00686">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nanova</surname>
+              <given-names>O.G.</given-names>
+            </name>
+            <name>
+              <surname>Lebedev</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Matrosova</surname>
+              <given-names>V.A.</given-names>
+            </name>
+            <name>
+              <surname>Adiya</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Undrakhbayar</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Surov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Shenbrot</surname>
+              <given-names>G.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phylogeography, phylogeny, and taxonomical revision of the <italic>Midday jird</italic> (<italic>Meriones meridianus</italic>) species complex from Dzungaria</article-title>
+          <source>J. Zool. Syst. Evol. Res.</source>
+          <year>2020</year>
+          <volume>58</volume>
+          <fpage>1335</fpage>
+          <lpage>1358</lpage>
+          <pub-id pub-id-type="doi">10.1111/jzs.12372</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-diversity-18-00686">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lebedev</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Bannikova</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Snytnikov</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Adiya</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Solovyeva</surname>
+              <given-names>E.N.</given-names>
+            </name>
+            <name>
+              <surname>Abramov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Surov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Shenbrot</surname>
+              <given-names>G.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phylogeographical study reveals high genetic diversity in a widespread desert rodent, <italic>Dipus sagitta</italic> (Dipodidae: Rodentia)</article-title>
+          <source>Biol. J. Linn. Soc.</source>
+          <year>2018</year>
+          <volume>123</volume>
+          <fpage>445</fpage>
+          <lpage>462</lpage>
+          <pub-id pub-id-type="doi">10.1093/biolinnean/blx090</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-diversity-18-00686">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ermakov</surname>
+              <given-names>O.A.</given-names>
+            </name>
+            <name>
+              <surname>Titov</surname>
+              <given-names>S.V.</given-names>
+            </name>
+            <name>
+              <surname>Savinetsky</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Surin</surname>
+              <given-names>V.L.</given-names>
+            </name>
+            <name>
+              <surname>Zborovsky</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Lyapunova</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Brandler</surname>
+              <given-names>O.V.</given-names>
+            </name>
+            <name>
+              <surname>Formozov</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular genetic and palaeoecological arguments for conspecificity of little (<italic>Spermophilus pygmaeus</italic>) and Caucasian mountain (<italic>S. musicus</italic>) Ground squirrels</article-title>
+          <source>Zool. Zhurnal</source>
+          <year>2006</year>
+          <volume>85</volume>
+          <fpage>1474</fpage>
+          <lpage>1483</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B52-diversity-18-00686">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bogdanov</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Lebedev</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Zykov</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Bakloushinskaya</surname>
+              <given-names>I.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Variability of cytochrome b gene and Aajacent part of TRNA-Thr gene of mitochondrial DNA in the Northern Mole Vole <italic>Ellobius talpinus</italic> (Mammalia, Rodentia)</article-title>
+          <source>Russ. J. Genet.</source>
+          <year>2015</year>
+          <volume>51</volume>
+          <fpage>1243</fpage>
+          <lpage>1248</lpage>
+          <pub-id pub-id-type="doi">10.1134/S1022795415120042</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-diversity-18-00686">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lebedev</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Poplavskaya</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Bannikova</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ryurikov</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Surov</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic differentiation in <italic>Cricetulus migratorius</italic> Pallas, 1773 (Rodentia, Cricetidae)</article-title>
+          <source>Mamm. Biol.</source>
+          <year>2018</year>
+          <volume>92</volume>
+          <fpage>115</fpage>
+          <lpage>119</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mambio.2018.05.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-diversity-18-00686">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heller</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Chikhi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Siegismund</surname>
+              <given-names>H.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The confounding effect of population structure on Bayesian skyline plot inferences of demographic history</article-title>
+          <source>PLoS ONE</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <elocation-id>e62992</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0062992</pub-id>
+          <pub-id pub-id-type="pmid">23667558</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-diversity-18-00686">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lv</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wen</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Qu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Continental refugium in the Mongolian plateau during Quaternary Glacial Oscillations: Phylogeography and niche modelling of the endemic desert hamster, <italic>Phodopus roborovskii</italic></article-title>
+          <source>PLoS ONE</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <elocation-id>e0148182</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0148182</pub-id>
+          <pub-id pub-id-type="pmid">26839955</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-diversity-18-00686">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lebedev</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Maslova</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Lisenkova</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Bannikova</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Sheftel</surname>
+              <given-names>B.I.</given-names>
+            </name>
+            <name>
+              <surname>Feoktystova</surname>
+              <given-names>N.Y.</given-names>
+            </name>
+            <name>
+              <surname>Qu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Phylogeographic pattern and Pleistocene range reconstruction in the Long-Tailed hamster <italic>Cricetulus longicaudatus</italic> (Rodentia, Cricetidae) support its Tibetan origin</article-title>
+          <source>Mammal Res.</source>
+          <year>2021</year>
+          <volume>66</volume>
+          <fpage>635</fpage>
+          <lpage>648</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13364-021-00585-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-diversity-18-00686">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jing</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative phylogeography of <italic>Meriones meridianus</italic>, <italic>Dipus sagitta</italic>, and <italic>Allactaga sibirica</italic>: Potential indicators of the impact of the Qinghai-Tibetan Plateau Uplift</article-title>
+          <source>Mamm. Biol.</source>
+          <year>2016</year>
+          <volume>81</volume>
+          <fpage>31</fpage>
+          <lpage>39</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mambio.2015.05.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-diversity-18-00686">
+        <label>58.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harrison</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Bates</surname>
+              <given-names>P.J.J.</given-names>
+            </name>
+          </person-group>
+          <source>The Mammals of Arabia</source>
+          <edition>2nd ed.</edition>
+          <publisher-name>Harrison Zoological Museum</publisher-name>
+          <publisher-loc>Kent, UK</publisher-loc>
+          <year>1991</year>
+        </element-citation>
+      </ref>
+      <ref id="B59-diversity-18-00686">
+        <label>59.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roberts</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <source>Mammals of Pakistan</source>
+          <publisher-name>Ernest Benn Limited</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>1977</year>
+        </element-citation>
+      </ref>
+      <ref id="B60-diversity-18-00686">
+        <label>60.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zykov</surname>
+              <given-names>A.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative Faunistic and Zoogeographical Analysis of Small Mammals (Insectivora, Rodentia, Lagomorpha) of the Kopet Dagh</article-title>
+          <source>Ph.D. Thesis</source>
+          <publisher-name>Institute of Zoology, Academy of Sciences of Ukraine</publisher-name>
+          <publisher-loc>Kyiv, Ukraine</publisher-loc>
+          <year>1991</year>
+        </element-citation>
+      </ref>
+      <ref id="B61-diversity-18-00686">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Spitzenberger</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Die S&#xE4;ugetierfauna Zyperns Teil I: Insectivora und Rodentia</article-title>
+          <source>Ann. Naturhistorischen Mus. Wien</source>
+          <year>1978</year>
+          <volume>81</volume>
+          <fpage>401</fpage>
+          <lpage>441</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B62-diversity-18-00686">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boye</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Notes on the morphology, ecology and geographic origin of the Cyprus Long-Eared hedgehog (<italic>Hemiechinus auritus dorotheae</italic>)</article-title>
+          <source>Bonn. Zool. Beitr&#xE4;ge</source>
+          <year>1991</year>
+          <volume>42</volume>
+          <fpage>115</fpage>
+          <lpage>123</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B63-diversity-18-00686">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bradley</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Baker</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Test of the genetic species concept: Cytochrome-<italic>b</italic> sequences and mammals</article-title>
+          <source>J. Mammal.</source>
+          <year>2001</year>
+          <volume>82</volume>
+          <fpage>960</fpage>
+          <lpage>973</lpage>
+          <pub-id pub-id-type="doi">10.1644/1545-1542(2001)082&lt;0960:ATOTGS&gt;2.0.CO;2</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="diversity-18-00686-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Distribution of sampling localities and phylogroups of <italic>Hemiechinus auritus</italic>. Northern phylogroup 1&#x2212;49, Eastern phylogroup 49&#x2212;65, Transcaucasian 66&#x2212;68, South-western phylogroup 69&#x2212;92, Southern phylogroup 93&#x2212;103, <italic>H. collaris</italic>&#x2014;104. Locality 49 contains individuals from both the Northern and Eastern phylogroups. The description of localities with detailed geographic information is given in <xref ref-type="app" rid="app1-diversity-18-00686">Table S1</xref>-A.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00686-g001.tif"/>
+      </fig>
+      <fig id="diversity-18-00686-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Phylogenetic relationships among <italic>cytb</italic> haplogroups of <italic>H. auritus</italic> inferred using BEAST. Node values represent Bayesian posterior probabilities (BPP) and maximum likelihood (ML) ultrafast bootstrap support (BPP/ML); a hyphen indicates no support. Numbers adjacent to arrows indicate mean posterior estimates of divergence times (Kya), with 95% HPD intervals in brackets. Nodes corresponding to the sequence of major divergence events are numbered. The outgroup (<italic>Paraechinus aethiopicus</italic>, <italic>P. hypomelas</italic>, <italic>P. micropus</italic>, <italic>P. nudiventris</italic>, <italic>Mesechinus dauuricus</italic>, <italic>M. hughi</italic>, <italic>M. miodon</italic>, <italic>M. wangi</italic>, and <italic>M. orientalis</italic>) is not shown. Expanded ML and BEAST trees are provided in <xref ref-type="app" rid="app1-diversity-18-00686">Supplementary Materials SIV, Figures S2 and S3</xref>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00686-g002.tif"/>
+      </fig>
+      <fig id="diversity-18-00686-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Median-joining networks (SplitsTree App 6.0.0) reconstructed from 60 specimens, showing relationships among haplotypes of the N phylogroup in <italic>H. auritus</italic>. Circle size corresponds to the number of specimens with identical haplotypes. Colors denote geographical distribution of haplotypes.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00686-g003.tif"/>
+      </fig>
+      <fig id="diversity-18-00686-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Maximum-likelihood (ML) tree of <italic>H. auritus</italic> based on the mitogenomic dataset (12 PCGs). Numbers and symbols above the branches correspond to Bayesian posterior probabilities (BEAST) and ultrafast bootstrap support (10,000 pseudoreplicates; ML), given as BPP/ML. Nodes with high support in all analyses (BPP 1.0/ML 100%) are marked with asterisks. Species of <italic>Paraechinus</italic>, <italic>Erinaceus</italic>, and <italic>Atelerix</italic> are not shown.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00686-g004.tif"/>
+      </fig>
+      <fig id="diversity-18-00686-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Mismatch distribution graphs for geographical samples of <italic>H. auritus</italic>. (<bold>A&#x2013;D</bold>): Northern, Eastern, Southern and South-western phylogroups, respectively; (<bold>E</bold>,<bold>F</bold>): the two subgroups of the Northern phylogroup, North-western and North-central. X-axis: number of pairwise differences; Y-axis: number of comparisons.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00686-g005.tif"/>
+      </fig>
+      <fig id="diversity-18-00686-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Skyline plots produced by BEAST. (<bold>A</bold>)&#x2014;Northern clade, (<bold>B</bold>)&#x2014;North-central subclade, (<bold>C</bold>)&#x2014;Eastern clade, (<bold>D</bold>)&#x2014;South-western clade. The middle bold blue line represents the median of the Ne estimate, while the pale lines denote the 95% HPD.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00686-g006.tif"/>
+      </fig>
+      <fig id="diversity-18-00686-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Reconstruction of paleoranges of <italic>Hemiechinus</italic> spp. using SDM: (<bold>A</bold>)&#x2014;330 Kya, continuous distribution of the common ancestor of <italic>Hemiechinus</italic> spp.; (<bold>B</bold>)&#x2014;250 Kya, divergence of the S clade (red) from the common ancestor of the other lineages (green); (<bold>C</bold>)&#x2014;200 Kya, before the subdivision of <italic>H. auritus</italic> into intraspecific forms after divergence of the S clade; (<bold>D</bold>)&#x2014;180 Kya, subdivision of N+E (green) and SW + T (violet) clades.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00686-g007.tif"/>
+      </fig>
+      <fig id="diversity-18-00686-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Subdivision of the south-western populations of <italic>H. auritus</italic> into the SW and T clades: (<bold>A</bold>)&#x2014;120 Kya, potential distribution of the common ancestor; (<bold>B</bold>)&#x2014;20 Kya, reconstructed distribution of the SW clade (violet) and the T clade (orange).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00686-g008.tif"/>
+      </fig>
+      <fig id="diversity-18-00686-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Subdivision of the northern populations of <italic>H. auritus</italic> into the N and E clades: (<bold>A</bold>)&#x2014;the common ancestor of the N and E clades at 120 Kya (green); (<bold>B</bold>)&#x2014;initial subdivision of the N (green) and E (blue) clades at 110 Kya; (<bold>C</bold>)&#x2014;gradual decrease in the area of the N and E clade isolates at 70 Kya; (<bold>D</bold>)&#x2014;final decrease in the area of the N and E clade isolates in the LGM, 20 Kya.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00686-g009.tif"/>
+      </fig>
+      <fig id="diversity-18-00686-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>Reconstruction of the past range of the S clade (including <italic>H. collaris</italic>) (<bold>A</bold>&#x2013;<bold>D</bold>) from 200 to 20 Kya; red color shows potential distribution of the common ancestor of the S clade (<bold>A</bold>) or the range of the S clade clade excluding <italic>H. collaris</italic> (<bold>B</bold>&#x2013;<bold>D</bold>), black color shows potential distribution of <italic>H. collaris.</italic></p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00686-g010.tif"/>
+      </fig>
+      <table-wrap id="diversity-18-00686-t001" position="float">
+        <object-id pub-id-type="pii">diversity-18-00686-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Summary statistics of the <italic>cytb</italic> diversity in the phylogroups of <italic>H. auritus</italic> (n &#x2265; 10) and the results of neutrality tests: number of individuals (n), haplotype diversity (<italic>h</italic>), nucleotide diversity (&#x3C0;), Tajima&#x2019;s D, Fu&#x2019;s Fs neutrality tests and <italic>p</italic>-values.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">n</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">h</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x3C0;</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Tajima&#x2019;s D</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Tajima&#x2019;s D <italic>p</italic>-Value </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fu&#x2019;s Fs</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fu&#x2019;s Fs <italic>p</italic>-Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Northern</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.964 &#xB1; 0.010</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.007 &#xB1; 0.004</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;1.749</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.013</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;24.879</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.000</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">&#x2003;North-western subgroup</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.961 &#xB1; 0.024</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.004 &#xB1; 0.002</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;1.726</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.022</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;6.726</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.000</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">&#x2003;North-central subgroup</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">39</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.996 &#xB1; 0.006</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.006 &#xB1; 0.003</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;1.918</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.008</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;25.154</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.000</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Eastern</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.858 &#xB1; 0.054</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.003 &#xB1; 0.002</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;1.385</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.066</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;5.477</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.007</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">South-Western</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.887 &#xB1; 0.045</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.009 &#xB1; 0.005</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.359</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.429</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;1.332</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.315</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Southern</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.936 &#xB1; 0.051</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.005 &#xB1; 0.003</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;1.370</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.080</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;2.981</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.039</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="diversity-18-00686-t002" position="float">
+        <object-id pub-id-type="pii">diversity-18-00686-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Estimated dates of lineage splits in <italic>H. auritus</italic> (median and 95% HPD), derived from <italic>cytb</italic> sequences.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">TMRCA (Time to the Most Recent Common Ancestor)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Age (Posterior Median) Kya</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">95% HPD<break/>Lower 95&#x2013;Upper 95</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin"><italic>H. auritu</italic>s s.l._root</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">228.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">136.2&#x2013;355.7</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">(South-western + Transcaucasian) + (Northern + Eastern clades)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">191.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">113.0&#x2013;323.7</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">South-western + Transcaucasian clades</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">167.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">97.0&#x2013;289.7</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Northern + Eastern clades</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">122.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">67.6&#x2013;221.7</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Northern clade</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">56.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.1&#x2013;104.7</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

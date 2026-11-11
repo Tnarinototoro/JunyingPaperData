@@ -1,0 +1,97 @@
+[
+  {
+    "key": "jort_pdf",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2213078026000630/pdf",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/article/pii/S2213078026000630/pdf",
+    "length": 832979,
+    "content_type": "text/html; charset=UTF-8",
+    "filetype": ".txt",
+    "snippets": []
+  },
+  {
+    "key": "jort_pdfft",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2213078026000630/pdfft?isDTMRedir=true&download=true",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/article/pii/S2213078026000630/pdfft?isDTMRedir=true&download=true",
+    "length": 832979,
+    "content_type": "text/html; charset=UTF-8",
+    "filetype": ".txt",
+    "snippets": []
+  },
+  {
+    "key": "jort_abs",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S2213078026000630",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/article/abs/pii/S2213078026000630",
+    "length": 832979,
+    "content_type": "text/html; charset=UTF-8",
+    "filetype": ".txt",
+    "snippets": []
+  },
+  {
+    "key": "jort_api_pdf",
+    "url": "https://api.elsevier.com/content/article/PII:S2213078026000630?httpAccept=application/pdf",
+    "status": 406,
+    "final_url": "https://api.elsevier.com/content/article/PII:S2213078026000630?httpAccept=application/pdf",
+    "length": 162,
+    "content_type": "text/xml",
+    "filetype": ".txt",
+    "snippets": []
+  },
+  {
+    "key": "cres_api_pdf",
+    "url": "https://api.elsevier.com/content/article/PII:S266604902600037X?httpAccept=application/pdf",
+    "status": 406,
+    "final_url": "https://api.elsevier.com/content/article/PII:S266604902600037X?httpAccept=application/pdf",
+    "length": 162,
+    "content_type": "text/xml",
+    "filetype": ".txt",
+    "snippets": []
+  },
+  {
+    "key": "jort_reader",
+    "url": "https://reader.elsevier.com/reader/sd/pii/S2213078026000630",
+    "error": "HTTPSConnectionPool(host='reader.elsevier.com', port=443): Max retries exceeded with url: /reader/sd/pii/S2213078026000630 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))"
+  },
+  {
+    "key": "jnc_xml",
+    "url": "https://api.elsevier.com/content/article/PII:S1617138126002864?httpAccept=text/xml",
+    "status": 200,
+    "final_url": "https://api.elsevier.com/content/article/PII:S1617138126002864?httpAccept=text/xml",
+    "length": 1881,
+    "content_type": "text/xml;charset=UTF-8",
+    "filetype": ".txt",
+    "snippets": []
+  },
+  {
+    "key": "jnc_html",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1617138126002864",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/article/pii/S1617138126002864",
+    "length": 832979,
+    "content_type": "text/html; charset=UTF-8",
+    "filetype": ".txt",
+    "snippets": []
+  },
+  {
+    "key": "jort_elsevierscope",
+    "url": "https://www.elsevier.com/journals/journal-of-outdoor-recreation-and-tourism/2213-0780/guide-for-authors",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/journal/22130780/publish/guide-for-authors",
+    "length": 832981,
+    "content_type": "text/html; charset=UTF-8",
+    "filetype": ".txt",
+    "snippets": []
+  },
+  {
+    "key": "jort_sd_json",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2213078026000630?via=ihub",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/article/pii/S2213078026000630?via=ihub",
+    "length": 832981,
+    "content_type": "text/html; charset=UTF-8",
+    "filetype": ".txt",
+    "snippets": []
+  }
+]

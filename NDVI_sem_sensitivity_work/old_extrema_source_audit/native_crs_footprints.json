@@ -1,0 +1,330 @@
+{
+  "numbering_policy": "Accept the author's explicit confirmation that all park numbers 1–39 refer to the same parks; no renumbering or inferred crosswalk.",
+  "source_files_modified": false,
+  "resampling_or_crs_reassignment": false,
+  "utm_inverse_routine": "Existing local standard-library WGS84 UTM implementation; no network or package installation.",
+  "source_raster_count": 10,
+  "rasters": [
+    {
+      "source_raster": "NDVI_fukushima.tif",
+      "projected_epsg": 32654,
+      "utm_central_meridian_degrees": 141,
+      "projected_units_are_metres": true,
+      "raster_pixel_is_area": true,
+      "dimensions": [
+        7731,
+        7851
+      ],
+      "pixel_spacing_m": [
+        30.0,
+        30.0
+      ],
+      "coarse_geographic_corner_bounds_lonlat": [
+        139.61371696739258,
+        37.83160976166425,
+        142.32893365616314,
+        39.95416071846444
+      ],
+      "footprint_within_broad_japanese_region": true,
+      "northup_rows_move_south": true,
+      "columns_move_east": true,
+      "max_forward_inverse_check_difference_m": 4.381779581308365e-05,
+      "logical_row_storage": {
+        "rows_per_strip": 1,
+        "strip_count": 7851,
+        "strip_address_order_is_monotonic": false,
+        "byte_order": "<"
+      },
+      "interpretation": "Coarse consistency of declared native CRS/grid only; not independent imagery geolocation or park identity proof."
+    },
+    {
+      "source_raster": "NDVI_fukushima_up.tif",
+      "projected_epsg": 32654,
+      "utm_central_meridian_degrees": 141,
+      "projected_units_are_metres": true,
+      "raster_pixel_is_area": true,
+      "dimensions": [
+        7811,
+        7921
+      ],
+      "pixel_spacing_m": [
+        30.0,
+        30.0
+      ],
+      "coarse_geographic_corner_bounds_lonlat": [
+        138.42523710966384,
+        39.2373752008814,
+        141.22749304562777,
+        41.4047526843501
+      ],
+      "footprint_within_broad_japanese_region": true,
+      "northup_rows_move_south": true,
+      "columns_move_east": true,
+      "max_forward_inverse_check_difference_m": 0.00012195168528705835,
+      "logical_row_storage": {
+        "rows_per_strip": 1,
+        "strip_count": 7921,
+        "strip_address_order_is_monotonic": false,
+        "byte_order": "<"
+      },
+      "interpretation": "Coarse consistency of declared native CRS/grid only; not independent imagery geolocation or park identity proof."
+    },
+    {
+      "source_raster": "NDVI_hokka_test.tif",
+      "projected_epsg": 32654,
+      "utm_central_meridian_degrees": 141,
+      "projected_units_are_metres": true,
+      "raster_pixel_is_area": true,
+      "dimensions": [
+        7701,
+        7821
+      ],
+      "pixel_spacing_m": [
+        30.0,
+        30.0
+      ],
+      "coarse_geographic_corner_bounds_lonlat": [
+        140.91840374582847,
+        42.099441972872235,
+        143.810231403627,
+        44.244340307252564
+      ],
+      "footprint_within_broad_japanese_region": true,
+      "northup_rows_move_south": true,
+      "columns_move_east": true,
+      "max_forward_inverse_check_difference_m": 0.0002313544973731041,
+      "logical_row_storage": {
+        "rows_per_strip": 1,
+        "strip_count": 7821,
+        "strip_address_order_is_monotonic": false,
+        "byte_order": "<"
+      },
+      "interpretation": "Coarse consistency of declared native CRS/grid only; not independent imagery geolocation or park identity proof."
+    },
+    {
+      "source_raster": "NDVI_island.tif",
+      "projected_epsg": 32652,
+      "utm_central_meridian_degrees": 129,
+      "projected_units_are_metres": true,
+      "raster_pixel_is_area": true,
+      "dimensions": [
+        7661,
+        7801
+      ],
+      "pixel_spacing_m": [
+        30.0,
+        30.0
+      ],
+      "coarse_geographic_corner_bounds_lonlat": [
+        126.97160678551421,
+        24.920188985122877,
+        129.28853147957423,
+        27.04646998321731
+      ],
+      "footprint_within_broad_japanese_region": true,
+      "northup_rows_move_south": true,
+      "columns_move_east": true,
+      "max_forward_inverse_check_difference_m": 5.076033994555473e-05,
+      "logical_row_storage": {
+        "rows_per_strip": 1,
+        "strip_count": 7801,
+        "strip_address_order_is_monotonic": false,
+        "byte_order": "<"
+      },
+      "interpretation": "Coarse consistency of declared native CRS/grid only; not independent imagery geolocation or park identity proof."
+    },
+    {
+      "source_raster": "NDVI_kyoto.tif",
+      "projected_epsg": 32653,
+      "utm_central_meridian_degrees": 135,
+      "projected_units_are_metres": true,
+      "raster_pixel_is_area": true,
+      "dimensions": [
+        7761,
+        7901
+      ],
+      "pixel_spacing_m": [
+        30.0,
+        30.0
+      ],
+      "coarse_geographic_corner_bounds_lonlat": [
+        132.2240581026316,
+        33.51702513641389,
+        134.80088505941944,
+        35.683958696642776
+      ],
+      "footprint_within_broad_japanese_region": true,
+      "northup_rows_move_south": true,
+      "columns_move_east": true,
+      "max_forward_inverse_check_difference_m": 0.00018695791368372738,
+      "logical_row_storage": {
+        "rows_per_strip": 1,
+        "strip_count": 7901,
+        "strip_address_order_is_monotonic": false,
+        "byte_order": "<"
+      },
+      "interpretation": "Coarse consistency of declared native CRS/grid only; not independent imagery geolocation or park identity proof."
+    },
+    {
+      "source_raster": "NDVI_nagoya.tif",
+      "projected_epsg": 32653,
+      "utm_central_meridian_degrees": 135,
+      "projected_units_are_metres": true,
+      "raster_pixel_is_area": true,
+      "dimensions": [
+        7611,
+        7741
+      ],
+      "pixel_spacing_m": [
+        30.0,
+        30.0
+      ],
+      "coarse_geographic_corner_bounds_lonlat": [
+        135.3273783967295,
+        33.53688115437734,
+        137.8568201928956,
+        35.66202464594409
+      ],
+      "footprint_within_broad_japanese_region": true,
+      "northup_rows_move_south": true,
+      "columns_move_east": true,
+      "max_forward_inverse_check_difference_m": 0.0002283973153680563,
+      "logical_row_storage": {
+        "rows_per_strip": 1,
+        "strip_count": 7741,
+        "strip_address_order_is_monotonic": false,
+        "byte_order": "<"
+      },
+      "interpretation": "Coarse consistency of declared native CRS/grid only; not independent imagery geolocation or park identity proof."
+    },
+    {
+      "source_raster": "NDVI_nara.tif",
+      "projected_epsg": 32653,
+      "utm_central_meridian_degrees": 135,
+      "projected_units_are_metres": true,
+      "raster_pixel_is_area": true,
+      "dimensions": [
+        7681,
+        7811
+      ],
+      "pixel_spacing_m": [
+        30.0,
+        30.0
+      ],
+      "coarse_geographic_corner_bounds_lonlat": [
+        133.80119030336022,
+        33.5423358960873,
+        136.34681039226794,
+        35.656525337272384
+      ],
+      "footprint_within_broad_japanese_region": true,
+      "northup_rows_move_south": true,
+      "columns_move_east": true,
+      "max_forward_inverse_check_difference_m": 2.72984616458416e-05,
+      "logical_row_storage": {
+        "rows_per_strip": 1,
+        "strip_count": 7811,
+        "strip_address_order_is_monotonic": false,
+        "byte_order": "<"
+      },
+      "interpretation": "Coarse consistency of declared native CRS/grid only; not independent imagery geolocation or park identity proof."
+    },
+    {
+      "source_raster": "NDVI_tokyo.tif",
+      "projected_epsg": 32654,
+      "utm_central_meridian_degrees": 141,
+      "projected_units_are_metres": true,
+      "raster_pixel_is_area": true,
+      "dimensions": [
+        7741,
+        7871
+      ],
+      "pixel_spacing_m": [
+        30.0,
+        30.0
+      ],
+      "coarse_geographic_corner_bounds_lonlat": [
+        138.78677807429113,
+        34.958719301401246,
+        141.399707346652,
+        37.106079892915936
+      ],
+      "footprint_within_broad_japanese_region": true,
+      "northup_rows_move_south": true,
+      "columns_move_east": true,
+      "max_forward_inverse_check_difference_m": 3.9629172533750534e-05,
+      "logical_row_storage": {
+        "rows_per_strip": 1,
+        "strip_count": 7871,
+        "strip_address_order_is_monotonic": false,
+        "byte_order": "<"
+      },
+      "interpretation": "Coarse consistency of declared native CRS/grid only; not independent imagery geolocation or park identity proof."
+    },
+    {
+      "source_raster": "NDVI_tokyo_down.tif",
+      "projected_epsg": 32654,
+      "utm_central_meridian_degrees": 141,
+      "projected_units_are_metres": true,
+      "raster_pixel_is_area": true,
+      "dimensions": [
+        7831,
+        7961
+      ],
+      "pixel_spacing_m": [
+        30.0,
+        30.0
+      ],
+      "coarse_geographic_corner_bounds_lonlat": [
+        136.82014375466161,
+        33.49578273812404,
+        139.45329744349914,
+        35.706124080351515
+      ],
+      "footprint_within_broad_japanese_region": true,
+      "northup_rows_move_south": true,
+      "columns_move_east": true,
+      "max_forward_inverse_check_difference_m": 0.0032793409773148596,
+      "logical_row_storage": {
+        "rows_per_strip": 1,
+        "strip_count": 7961,
+        "strip_address_order_is_monotonic": false,
+        "byte_order": "<"
+      },
+      "interpretation": "Coarse consistency of declared native CRS/grid only; not independent imagery geolocation or park identity proof."
+    },
+    {
+      "source_raster": "NDVI_west.tif",
+      "projected_epsg": 32652,
+      "utm_central_meridian_degrees": 129,
+      "projected_units_are_metres": true,
+      "raster_pixel_is_area": true,
+      "dimensions": [
+        7621,
+        7761
+      ],
+      "pixel_spacing_m": [
+        30.0,
+        30.0
+      ],
+      "coarse_geographic_corner_bounds_lonlat": [
+        128.77291694677623,
+        32.10670721541363,
+        131.25448997481516,
+        34.22579092100935
+      ],
+      "footprint_within_broad_japanese_region": true,
+      "northup_rows_move_south": true,
+      "columns_move_east": true,
+      "max_forward_inverse_check_difference_m": 4.2204512283205986e-05,
+      "logical_row_storage": {
+        "rows_per_strip": 1,
+        "strip_count": 7761,
+        "strip_address_order_is_monotonic": false,
+        "byte_order": "<"
+      },
+      "interpretation": "Coarse consistency of declared native CRS/grid only; not independent imagery geolocation or park identity proof."
+    }
+  ],
+  "scope_caveat": "Plausible Japanese footprint does not prove the correct park outline or acquisition product/date. Filenames are not reliable geographic pairing evidence."
+}

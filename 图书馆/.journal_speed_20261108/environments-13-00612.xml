@@ -1,0 +1,2126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">environments</journal-id>
+      <journal-title-group>
+        <journal-title>Environments</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Environments</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Environments</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2076-3298</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/environments13110612</article-id>
+      <article-id pub-id-type="publisher-id">environments-13-00612</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Research on Emission Inventory and Emission Reduction Benefits Assessment of Non-Road Construction Machinery in Tangshan Port</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Zhiwei</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <xref rid="af1-environments-13-00612" ref-type="aff">1</xref>
+          <xref rid="af2-environments-13-00612" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gui</surname>
+            <given-names>Huaqiao</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <xref rid="af1-environments-13-00612" ref-type="aff">1</xref>
+          <xref rid="af2-environments-13-00612" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Jiguang</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+          <xref rid="af3-environments-13-00612" ref-type="aff">3</xref>
+          <xref rid="af4-environments-13-00612" ref-type="aff">4</xref>
+          <xref rid="c1-environments-13-00612" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lu</surname>
+            <given-names>Jialiang</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+          <xref rid="af5-environments-13-00612" ref-type="aff">5</xref>
+          <xref rid="c1-environments-13-00612" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Ning</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <xref rid="af5-environments-13-00612" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Tongzhu</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <xref rid="af1-environments-13-00612" ref-type="aff">1</xref>
+          <xref rid="af2-environments-13-00612" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bai</surname>
+            <given-names>Zhenyu</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <xref rid="af6-environments-13-00612" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Yang</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <xref rid="af4-environments-13-00612" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Yingzhi</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <xref rid="af7-environments-13-00612" ref-type="aff">7</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Da Silva</surname>
+            <given-names>Joaquim Esteves</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-environments-13-00612"><label>1</label>School of Environmental Science and Optoelectronic Technology, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/04c4dkn09</institution-id><institution>University of Science and Technology of China</institution></institution-wrap>, Hefei 230026, China</aff>
+      <aff id="af2-environments-13-00612"><label>2</label>Anhui Institute of Optics and Fine Mechanics, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/046n57345</institution-id><institution>Hefei Institutes of Physical Science</institution></institution-wrap>, Chinese Academy of Sciences, Hefei 230031, China</aff>
+      <aff id="af3-environments-13-00612"><label>3</label>CATARC Automotive Test Center (Kunming) Co., Ltd., Kunming 651700, China</aff>
+      <aff id="af4-environments-13-00612"><label>4</label><institution-wrap><institution-id institution-id-type="ROR">https://ror.org/00r5r6807</institution-id><institution>China Automotive Technology and Research Center</institution></institution-wrap> Co., Ltd., Tianjin 300300, China</aff>
+      <aff id="af5-environments-13-00612"><label>5</label>Tianjin Eco-Environmental Monitoring Center, Tianjin 300191, China</aff>
+      <aff id="af6-environments-13-00612"><label>6</label>Tangshan Vehicle Pollution Prevention and Control Center, Tangshan 063015, China</aff>
+      <aff id="af7-environments-13-00612"><label>7</label>College of Ecology and Environment, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/05pejbw21</institution-id><institution>Chengdu University of Technology</institution></institution-wrap>, Chengdu 610059, China</aff>
+      <author-notes>
+        <corresp id="c1-environments-13-00612"><label>*</label>Correspondence: <email>wangjiguang@catarc.ac.cn</email> (J.W.); <email>lujl2026@163.com</email> (J.L.)</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>02</day>
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>13</volume>
+      <issue>11</issue>
+      <elocation-id>612</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>30</day>
+          <month>09</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>29</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the authors.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>This study investigated the emission inventory and reduction strategies of non-road construction machinery in Tangshan Port. A Portable Emission Measurement System (PEMS) was used to collect operating condition data and measure pollutant emissions from 16 pieces of machinery under real-world operating conditions. Based on the field measurements, emission factors for typical construction machinery in Tangshan Port were established. The emission reduction effects and cost-effectiveness of different scenarios of phase-out and Diesel Particulate Filter (DPF) emission control ratios for China III emission standard non-road construction machinery at Tangshan Port were analyzed. The results showed that the estimated annual operating hours of excavators, loaders, forklifts, and bulldozers in the port were 3.51, 4.87, 3.44, and 2.34 times the corresponding values recommended in the &#x201C;Technical Guidelines for the Compilation of Emission Inventories of Non-road Mobile Pollution Sources (Trial)&#x201D;, respectively, indicating relatively high utilization intensity. Emissions of PM, NOx, HC, and CO from port construction machinery were mainly attributable to excavators and loaders, with combined contribution rates of 66.65%, 68.58%, 60.89%, and 59.85%, respectively. For China III emission standard machinery, the combined phase-out and DPF retrofit strategies showed that, for every 10% increase in the phase-out ratio, the average annual investment in emission control increased by RMB 98 million (converted at the current exchange rate, it is approximately: USD 14.58 million and EUR 13.02 million), the average annual NOx reduction increased by 85.5 tons, whereas the average annual PM reduction increased by 2.5 tons.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>non-road construction machinery</kwd>
+        <kwd>PEMS testing</kwd>
+        <kwd>emission inventory</kwd>
+        <kwd>DPF treatment</kwd>
+        <kwd>emission reduction benefits</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>National Key Research and Development Project</funding-source>
+          <award-id>2023YFC3705400</award-id>
+        </award-group>
+        <funding-statement>This work was supported by the National Key Research and Development Project (No. 2023YFC3705400).</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-environments-13-00612" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Emission inventories and assessments of emission reduction benefits [<xref ref-type="bibr" rid="B1-environments-13-00612">1</xref>,<xref ref-type="bibr" rid="B2-environments-13-00612">2</xref>,<xref ref-type="bibr" rid="B3-environments-13-00612">3</xref>] are important tools for studying emissions from mobile sources and evaluating the environmental benefits of control policies. As crucial hubs for domestic and international freight transport, ports rely heavily on non-road construction machinery (hereinafter referred to as &#x201C;construction machinery&#x201D;) for port operational activities. These machines are also a major source of air pollutant emissions within port areas. Therefore, establishing the pollutant emission inventory of port non-road construction machinery is fundamental for quantifying emission levels, identifying major emission sources, developing targeted reduction measures, and continuously assessing their effectiveness [<xref ref-type="bibr" rid="B4-environments-13-00612">4</xref>,<xref ref-type="bibr" rid="B5-environments-13-00612">5</xref>]. Ma et al. [<xref ref-type="bibr" rid="B6-environments-13-00612">6</xref>] investigated methods for compiling emission inventories of port mobile sources and proposed preferred inventory compilation approaches for different types of mobile sources by considering inventory accuracy and data availability. Xu et al. [<xref ref-type="bibr" rid="B7-environments-13-00612">7</xref>] developed an air pollutant emission inventory for port-owned mobile sources in Tianjin Port and found that, in 2020, road and non-road mobile sources accounted for 6.66% and 93.34% of the total mobile source emissions, respectively, indicating the dominant contribution of non-road mobile sources. Using emission inventory data for cargo handling equipment at Nanjing Longtan Container Port, Zhang et al. [<xref ref-type="bibr" rid="B8-environments-13-00612">8</xref>] found that PM and HC emissions from cargo handling equipment exceeded those from other source categories within the port. Yang [<xref ref-type="bibr" rid="B9-environments-13-00612">9</xref>] researched air pollutant emissions from non-road mobile machinery in Pudong Port and identified NOx, CO, and VOCs as the major pollutants, with quay cranes and rubber-tired gantry cranes being the primary emission sources. Wang et al. [<xref ref-type="bibr" rid="B10-environments-13-00612">10</xref>] analyzed the emission reductions and economic benefits of different phase-out and retrofit scenarios for China III and earlier diesel vehicles in Tangshan City. Their results showed that, as the phase-out ratio of high-emission vehicles increased, both the investment cost and annual NOx reduction increased approximately linearly, whereas the PM reduction decreased. Specifically, for every 10% increase in the high-emission vehicle phase-out rate, the annual investment cost increased by 113 million yuan; the annual PM reduction decreased by 7.56 tons; and the annual NOx reduction increased by 892.41 tons. Existing studies mainly rely on the emission factors recommended in the &#x201C;Technical Guidelines for the Compilation of Emission Inventories of Non-road Mobile Pollution Sources (Trial)&#x201D; (hereinafter referred to as the &#x201C;Guidelines&#x201D;) [<xref ref-type="bibr" rid="B11-environments-13-00612">11</xref>] issued by the Ministry of Ecology and Environment, while localized emission factors remain limited [<xref ref-type="bibr" rid="B12-environments-13-00612">12</xref>]. Given the wide variety of port construction machinery, and the substantial differences in engine power and operating conditions, it is necessary to investigate their actual emission characteristics under real-world operating conditions [<xref ref-type="bibr" rid="B13-environments-13-00612">13</xref>,<xref ref-type="bibr" rid="B14-environments-13-00612">14</xref>,<xref ref-type="bibr" rid="B15-environments-13-00612">15</xref>,<xref ref-type="bibr" rid="B16-environments-13-00612">16</xref>,<xref ref-type="bibr" rid="B17-environments-13-00612">17</xref>,<xref ref-type="bibr" rid="B18-environments-13-00612">18</xref>].</p>
+      <p>As an important freight port in Northern China, Tangshan Port has been gradually promoting the use of new energy technologies, such as battery-electric power, to replace conventional gasoline- and diesel-powered trucks and construction machinery as part of its efforts to develop a green port. To strengthen the supervision of emissions from construction machinery in the port area, the Administrative Committee of Tangshan Haigang Development Zone has designated the Jingtang Port Area of Tangshan Port as a low-emission control zone in which the use of high-emission non-road mobile machinery is prohibited [<xref ref-type="bibr" rid="B19-environments-13-00612">19</xref>]. However, for port construction machinery with relatively high residual value and short service life, it is difficult to update through phase-out and replacement. Therefore, retrofit measures, such as installing Diesel Particulate Filter (DPF) emission control devices, are commonly adopted to upgrade emission-control performance and reduce pollutant emissions [<xref ref-type="bibr" rid="B13-environments-13-00612">13</xref>,<xref ref-type="bibr" rid="B20-environments-13-00612">20</xref>,<xref ref-type="bibr" rid="B21-environments-13-00612">21</xref>,<xref ref-type="bibr" rid="B22-environments-13-00612">22</xref>].</p>
+      <p>This study focuses on construction machinery operating in Tangshan Port. A Portable Emission Measurement System (PEMS) was used to collect operating condition data and measure pollutant emissions from 16 pieces of machinery under real-world operating conditions. Based on these measurements, emission factors inventory for typical construction machinery in Tangshan Port were established. The study further evaluates the emission-reduction effects and investment cost-effectiveness of different phase-out and DPF retrofit scenarios for China III construction machinery, with the aim of providing support for emission control and pollution management decision-making in Tangshan Port [<xref ref-type="bibr" rid="B13-environments-13-00612">13</xref>,<xref ref-type="bibr" rid="B15-environments-13-00612">15</xref>,<xref ref-type="bibr" rid="B23-environments-13-00612">23</xref>,<xref ref-type="bibr" rid="B24-environments-13-00612">24</xref>].</p>
+    </sec>
+    <sec id="sec2-environments-13-00612">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-environments-13-00612">
+        <title>2.1. Inventory of Construction Machinery in Tangshan Port</title>
+        <p>According to statistics from Tangshan port, a total of 1936 units of construction machinery were in operation by the end of December 2025. Among them, no machinery met China II and earlier emission standards, while 1255 units met the China III emission standard, accounting for 64.8%. A further 352 units met the China IV emission standard, accounting for 18.2%; and 329 units of new energy machinery such as battery-electric equipment, accounting for 17.0%. These data indicate that construction machinery in Tangshan Port is still dominated by internal combustion engine machinery meeting China III and China IV emission standards; such machinery is also a key focus for pollutant emission monitoring and control.</p>
+        <p>In terms of machinery composition, for China III, there were 524 loaders, 227 excavators (including coal grabbers), 155 forklifts, 79 bulldozers and 70 cranes; the remainder consisted of wheel starters, sweepers, and other equipment. For China IV, there were 249 loaders, 50 forklifts, 40 excavators (including coal grabbers); the remainder consisted of cranes, sweepers, and other equipment. Overall, loaders, excavators, forklifts, and bulldozers accounted for 82.4% of the combined China III and China IV machinery population in Tangshan Port.</p>
+      </sec>
+      <sec id="sec2dot2-environments-13-00612">
+        <title>2.2. Tested Machinery Samples</title>
+        <p>Based on the construction machinery inventory of Tangshan Port, 16 representative units, including excavators, loaders, bulldozers, and forklifts, with different engine power ranges were selected for pollutant emission factor testing under real-world operating conditions. Of these, bulldozers are mainly used for the daily operations of bulk cargo yards, while excavators are mainly used for hold-cleaning operations of bulk carriers, and port construction, etc. Considering the distribution of machinery across different emission standards and power ranges in Tangshan Port, the samples were selected to major machinery categories with relatively large population sizes and a broad range of rated power. Details of the test samples are presented in <xref ref-type="table" rid="environments-13-00612-t001">Table 1</xref>.</p>
+      </sec>
+      <sec id="sec2dot3-environments-13-00612">
+        <title>2.3. Test Equipment and Operating Conditions</title>
+        <p>This study employed a Portable Emission Measurement System (PEMS) consisting of a SEMTECH-DS portable exhaust analyzer manufactured by SENSORS Inc., Saline, MI, USA, and an Electrical Low Pressure Impactor (ELPI+) particulate matter analyzer manufactured by DEKATI Ltd., Kangasala, Finland.</p>
+        <p>The SEMTECH-DS mainly consists of an exhaust gas analyzer, an onboard exhaust flow meter, ambient information sensors, and a GPS module. It uses Non-Dispersive Infrared (NDIR) to measure CO and CO<sub>2</sub>, Heated Flame Ionization Detector (HFID) to measure HC, and Non-Dispersive Ultraviolet (NDUV) to measure NO and NO<sub>2</sub>. The main specifications are shown in <xref ref-type="table" rid="environments-13-00612-t002">Table 2</xref>. The ELPI+ is primarily used for real-time measurement of the particle size distribution and mass concentration of particulate matter in exhaust emissions from construction machinery. The particle size measurement range of ELPI+ is 0.007~10 &#x3BC;m, and typically operates at a sampling flow rate of 10 L/min. To increase the dilution ratio of the diluter, the ELPI+ features a two-stage diluter in series, with a total dilution ratio k1&amp;k2 of approximately 64, as shown in Equation (3). The first-stage diluter and dilution air were heated to 190 &#xB0;C to prevent the condensation of HC and other pollutants in the sample gas into particles, whereas the second-stage diluter was maintained at normal ambient temperature.</p>
+        <p>Given the differences in operating modes among different types of construction machinery&#x2014;forklifts, loaders, and bulldozers generally operate while moving, whereas excavators typically work continuously at fixed locations&#x2014;different PEMS test equipment installation and testing methods were adopted. Field PEMS testing of construction machinery is shown in <xref ref-type="fig" rid="environments-13-00612-f001">Figure 1</xref>.</p>
+        <p>Regarding the test cycles, the operating cycles of different types of machinery vary. Considering that relevant domestic standards have not yet defined vehicle emission test cycles for construction machinery, the test cycles in this study were primarily defined according to the actual operating characteristics of each machinery type. Excavators typically operate under two idle modes, namely high idle and low idle, to accommodate different working conditions and environments. When the workload is not heavy, the excavator may operate at high idle for economic efficiency to complete different tasks; when work is temporarily interrupted, it generally operate at low idle (normal idle). High idle operation is therefore a characteristic operating mode that distinguishes excavators from other machinery types considered in this study. Accordingly, the excavator test cycle included startup, low idle, high idle, free acceleration and deceleration, and simulated working conditions. For loaders, forklifts, and bulldozers, the test cycles were defined according to their operating characteristics and included startup, idle, and simulated working conditions Refer to HJ 1014-2020 &#x201C;Emissions control technical requirements of non-road diesel mobile machinery&#x201D; [<xref ref-type="bibr" rid="B25-environments-13-00612">25</xref>] and the relevant literature [<xref ref-type="bibr" rid="B26-environments-13-00612">26</xref>], sampling is conducted continuously throughout the entire test process and instantaneous data are recorded after the engineering machinery starts emission testing according to machinery normal actual operating conditions. The test duration is calculated based on the mechanical work performed. When the cumulative mechanical work reaches approximately 7 times the engine NRTC cycle work, the test is stopped, and the entire test duration shall not be less than 2 h. Each piece of engineering machinery shall be tested once [<xref ref-type="bibr" rid="B13-environments-13-00612">13</xref>,<xref ref-type="bibr" rid="B23-environments-13-00612">23</xref>,<xref ref-type="bibr" rid="B24-environments-13-00612">24</xref>].</p>
+      </sec>
+      <sec id="sec2dot4-environments-13-00612">
+        <title>2.4. Establishment of Emission Factors and Emission Inventory</title>
+        <p>Emission factors for pollutants from construction machinery were calculated using the carbon balance method. This method mainly calculates the pollutant emissions per unit mass of diesel fuel based on the carbon mass balance before and after combustion. In this study, all carbon in the diesel fuel was assumed to be emitted in the form of CO<sub>2</sub>, CO, and HC after combustion. The average diesel fuel consumption of the tested construction machinery during operation was calculated using Equation (1):<disp-formula id="FD1-environments-13-00612"><label>(1)</label><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mi>EU</mml:mi><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:msub><mml:mo>&#x2211;</mml:mo><mml:mi mathvariant="normal">t</mml:mi></mml:msub><mml:mrow><mml:mfenced><mml:mrow><mml:mn>0.273</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mrow><mml:mstyle displaystyle="true"><mml:mi mathvariant="italic">ER</mml:mi></mml:mstyle></mml:mrow><mml:mrow><mml:msub><mml:mstyle displaystyle="true"><mml:mrow><mml:mi mathvariant="italic">CO</mml:mi></mml:mrow></mml:mstyle><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mn>0.429</mml:mn><mml:mo>&#xD7;</mml:mo><mml:mrow><mml:msub><mml:mstyle displaystyle="true"><mml:mrow><mml:mi mathvariant="italic">ER</mml:mi></mml:mrow></mml:mstyle><mml:mstyle displaystyle="true"><mml:mrow><mml:mi mathvariant="italic">CO</mml:mi></mml:mrow></mml:mstyle></mml:msub></mml:mrow><mml:mo>+</mml:mo><mml:mn>0.866</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mstyle displaystyle="true"><mml:mrow><mml:mi mathvariant="italic">ER</mml:mi></mml:mrow></mml:mstyle><mml:mrow><mml:mi mathvariant="italic">THC</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where EU is the fuel consumption of the tested construction machinery under the operating condition, g; t is the sampling time; <italic>ER<sub>CO</sub></italic><sub>2</sub> is the instantaneous emission rate of CO<sub>2</sub>, g/s; <italic>ER<sub>CO</sub></italic> is the instantaneous emission rate of CO, g/s; and <italic>ER<sub>THC</sub></italic> is the instantaneous emission rate of THC, g/s.</p>
+        <p>The emission factors of CO, NOx, HC were calculated using Equation (2):<disp-formula id="FD2-environments-13-00612"><label>(2)</label><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>EF</mml:mi></mml:mrow></mml:mstyle><mml:mi mathvariant="normal">x</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mstyle displaystyle="true"><mml:msub><mml:mo>&#x2211;</mml:mo><mml:mi mathvariant="normal">t</mml:mi></mml:msub><mml:mrow><mml:msub><mml:mstyle displaystyle="true"><mml:mrow><mml:mi mathvariant="italic">ER</mml:mi></mml:mrow></mml:mstyle><mml:mi>x</mml:mi></mml:msub></mml:mrow></mml:mstyle></mml:mrow><mml:mrow><mml:mi>EU</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mn>1000</mml:mn></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where EF<sub>x</sub> is the emission factor of pollutant X, g/kg fuel; t is the filter sampling time, s; <italic>ER<sub>CO</sub></italic><sub>2</sub>, <italic>ER<sub>CO</sub></italic>, and <italic>ER<sub>THC</sub></italic> are as defined above.</p>
+        <p>The emission factors of PM were calculated using Equation (3):<disp-formula id="FD3-environments-13-00612"><label>(3)</label><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>EF</mml:mi></mml:mrow></mml:mstyle><mml:mrow><mml:mi>PM</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mfrac><mml:mrow><mml:mstyle displaystyle="true"><mml:msub><mml:mo>&#x2211;</mml:mo><mml:mi mathvariant="normal">t</mml:mi></mml:msub><mml:mrow><mml:msub><mml:mstyle displaystyle="true"><mml:mi>E</mml:mi></mml:mstyle><mml:mrow><mml:mi mathvariant="italic">PM</mml:mi></mml:mrow></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mstyle displaystyle="true"><mml:mi>L</mml:mi></mml:mstyle><mml:mrow><mml:mi mathvariant="italic">PM</mml:mi></mml:mrow></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mstyle displaystyle="true"><mml:mi>k</mml:mi></mml:mstyle><mml:mn>1</mml:mn></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mstyle displaystyle="true"><mml:mi>k</mml:mi></mml:mstyle><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mstyle></mml:mrow><mml:mrow><mml:mn>60</mml:mn><mml:mo>&#xA0;</mml:mo><mml:mo>&#xD7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msup><mml:mstyle displaystyle="true"><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:mstyle><mml:mn>6</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow><mml:mrow><mml:mi>EU</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mn>1000</mml:mn></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where EF<sub>PM</sub> is the emission factor of pollutant PM, g/kg fuel; <italic>E<sub>PM</sub></italic> is the instantaneous emission rate of PM, mg/m<sup>3</sup>. <italic>L<sub>PM</sub></italic> is the instantaneous exhaust flow rate, L/min. <italic>k</italic><sub>1</sub> and <italic>k</italic><sub>2</sub> are the dilution ratios of the two-stage dilution of the ELPI (test settings are approximately both 8); and t is the filter sampling time, s.</p>
+        <p>Referring to the &#x201C;Technical Guidelines for the Compilation of Emission Inventories of Non-road Mobile Pollution Sources (Trial)&#x201D;, a simplified method was used to calculate pollutant emissions from non-road construction machinery:<disp-formula id="FD4-environments-13-00612"><label>(4)</label><mml:math id="mm8" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="normal">E</mml:mi><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi mathvariant="normal">n</mml:mi></mml:munderover><mml:mrow><mml:mfenced><mml:mrow><mml:msub><mml:mstyle displaystyle="true"><mml:mrow><mml:mi mathvariant="italic">EU</mml:mi></mml:mrow></mml:mstyle><mml:mi>i</mml:mi></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mstyle displaystyle="true"><mml:mrow><mml:mi mathvariant="italic">EF</mml:mi></mml:mrow></mml:mstyle><mml:mi>i</mml:mi></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mstyle displaystyle="true"><mml:mi mathvariant="normal">N</mml:mi></mml:mstyle><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mstyle><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mstyle displaystyle="true"><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:mstyle><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>6</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where E is the total pollutant emission from non-road construction machinery (tons); <italic>i</italic> is the type of construction machinery; N<italic><sub>i</sub></italic> is the number of the type <italic>i</italic> of construction machinery. <italic>EU<sub>i</sub></italic> is the fuel consumption of the type <italic>i</italic> machinery for a specific use (kg); <italic>EF<sub>i</sub></italic> is the average emission factor for machinery of that use (g/kg fuel); and n is the number of different types of construction machinery.</p>
+      </sec>
+      <sec id="sec2dot5-environments-13-00612">
+        <title>2.5. Scenario Setting for Emission Reduction and Economic Benefit Analysis</title>
+        <p>Given the high value and long service life of port construction machinery, it is difficult to adopt measures such as phasing out old machinery or replacing them with new-energy equipment to upgrade and control their high emissions. Drawing on emission-control practices for heavy-duty diesel vehicles in Europe and China, where after-treatment technologies such as DPF are commonly used for emission retrofitting, this paper developed management scenarios combining the phase-out of outdated machinery with DPF retrofitting. In the study, scenarios were established based on different proportions of scrapping and DPF retrofitting for port construction machinery, and the resulting pollutant emission reductions and associated investment costs were analyzed [<xref ref-type="bibr" rid="B13-environments-13-00612">13</xref>,<xref ref-type="bibr" rid="B20-environments-13-00612">20</xref>,<xref ref-type="bibr" rid="B21-environments-13-00612">21</xref>].</p>
+        <p>Scenarios were set based on different phase-out and retrofit ratios for China III and below non-road construction machinery in Tangshan City, compared with the current management measures scenario (baseline scenario), to study and analyze the pollutant reduction effects and economic impacts (investment costs) of different scenario plans. The scenarios set in the study were single-policy scenarios, using the control variable method, keeping other related scenarios unchanged.</p>
+        <p>The economic performance of emission reduction was evaluated primarily based on the ratio of the investment costs borne by construction machinery owners to the corresponding reductions in pollutant emissions under different scenarios. This ratio was used to assess both the environmental and economic benefits of emission reduction measures, thus providing a scientific basis for port construction machinery management departments to formulate control policies such as emission treatment or replacement.</p>
+        <p>In this study, to quantitatively assess the &#x201C;emission reduction-economic&#x201D; benefits, the following assumptions were proposed with reference to relevant documents, including the Work Plan for Pollution Control of Heavy-duty Diesel Vehicles in Tangshan City:<list list-type="order"><list-item><label>(1)</label><p>Machinery owners adopt DPF retrofitting for emission control. The cost of installing the DPF device is RMB 30,000 per unit, and its emission reduction efficiency does not decline over time.</p></list-item><list-item><label>(2)</label><p>After scrapping old machinery, the owners purchase new China VI standard construction machinery of the same type. Considering the significant differences in purchase costs among various machinery types and power ranges, the cost is estimated at an average of RMB 1,000,000 per unit, covering both purchase and maintenance costs, with a machinery service life of 10 years.</p></list-item></list></p>
+        <p>All data were processed and visualized using OriginPro 2024 (OriginLab Corporation, Northampton, MA, USA).</p>
+      </sec>
+    </sec>
+    <sec id="sec3-environments-13-00612" sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec id="sec3dot1-environments-13-00612">
+        <title>3.1. Emission Factor Characteristics of Non-Road Construction Machinery in Tangshan Port</title>
+        <p>In the field tests, pollutant emissions were expressed as the mass of pollutant emitted per unit mass of fuel consumed. Selected test results are presented in <xref ref-type="table" rid="environments-13-00612-t003">Table 3</xref>.</p>
+        <p>As shown in <xref ref-type="table" rid="environments-13-00612-t003">Table 3</xref>, for the 37~75 kW power range, the emission factors of CO, NOx, PM, and THC for China III machinery were 0.5, 40.0, 1.3, and 0.1 g/kg fuel, respectively. For the 75~130 kW power range, the emission factors for China III machinery ranged from 1.2 to 13.6 g/kg fuel for CO, 33.6 to 74.6 g/kg fuel for NOx, 0.1 to 0.9 g/kg fuel for PM, and 1.5 to 12.5 g/kg fuel for THC. The corresponding ranges for China IV machinery were 2.8&#x2013;17.1, 29.5&#x2013;35.9, 0.1&#x2013;2.2, 2.2&#x2013;9.5 g/kg fuel, respectively. For machinery with rated power &gt;130 kW, the emission factors for China III machinery ranged from 6.6 to 8.9 g/kg fuel for CO, 30.2 to 128.9 g/kg fuel for NOx, 0.4 to 0.8 g/kg fuel for PM, and 1.6&#x2013;2.7 g/kg fuel for THC, whereas the corresponding ranges for China IV machinery were 0.5&#x2013;13.2, 30.4&#x2013;83.3, 0.1&#x2013;1.4, and 1.1&#x2013;2.8 g/kg fuel, respectively. Specifically, the higher PM test results in the China IV stage compared to the China III stage are primarily attributed to two factors: the larger engine power of the tested China IV construction machinery and the absence of Diesel Particulate Filter (DPF). During actual operations, the increased engine load leads to elevated particulate matter emissions. Compared with References [<xref ref-type="bibr" rid="B27-environments-13-00612">27</xref>,<xref ref-type="bibr" rid="B28-environments-13-00612">28</xref>], with the exception of the relatively high NOx emissions from Loader 01, CO emissions from Excavator 04, and THC emissions from Excavator 01, the emission factors for the other construction machinery and pollutants fall within the data ranges reported in the references [<xref ref-type="bibr" rid="B13-environments-13-00612">13</xref>,<xref ref-type="bibr" rid="B15-environments-13-00612">15</xref>,<xref ref-type="bibr" rid="B23-environments-13-00612">23</xref>,<xref ref-type="bibr" rid="B24-environments-13-00612">24</xref>,<xref ref-type="bibr" rid="B29-environments-13-00612">29</xref>,<xref ref-type="bibr" rid="B30-environments-13-00612">30</xref>].</p>
+        <p>For various types of construction machinery, pollutant emissions generally decreased with increasingly stringent emission standards [<xref ref-type="bibr" rid="B31-environments-13-00612">31</xref>,<xref ref-type="bibr" rid="B32-environments-13-00612">32</xref>]. However, due to differences in engine power, displacement, after-treatment technology, and actual operating conditions among different types of machinery, there were significant variations in emission factors across different emission standards and machinery types.</p>
+        <p>In addition, <xref ref-type="table" rid="environments-13-00612-t003">Table 3</xref> shows that the fuel consumption of construction machinery generally increases with engine power. The average fuel consumption of machinery in the &gt;130 kW power range was approximately 6 times that of machinery in the 37~75 kW range and 1.25 times that of machinery in the 75~130 kW range. However, pollutant emission characteristics were determined not only by engine power but also by factors such as engine and after-treatment control technologies [<xref ref-type="bibr" rid="B31-environments-13-00612">31</xref>].</p>
+        <p>NOx emissions increase notably with engine power. The average NOx emission factor in the &gt;130 kW power range reached 72 g/kg fuel, which was 1.68 times that in the 75~130 kW range and 1.8 times that in the 37~75 kW range, indicating that NOx was the pollutant most sensitive to engine power among the four pollutant considered. By contrast, CO and THC emission factors first increased and then decreased with increasing engine power. The 75~130 kW power range exhibited the highest CO and THC emission factors, which were 1.68 and 2.76 times those in the &gt;130 kW range, respectively, and 16.9 and 53 times those in the low-power range. This suggests that this power range is therefore the core interval for gaseous pollutant control.</p>
+        <p>PM emissions factors showed an overall decreasing trend with increasing engine power. The average PM emission factor in the 37~75 kW range was 2.5 times that in the &gt;130 kW range. This difference may be related to the application of DPF after-treatment technology in high-power construction machinery, which can effectively reduce particulate emissions. In addition, upgrading emission standards can also effectively control pollutants. Compared with China III standard machinery, the average NOx, CO, and THC emission factors of China IV standard machinery decreased by 15.8%, 19.1%, and 18.0%, respectively, demonstrating a significant emission control effect [<xref ref-type="bibr" rid="B33-environments-13-00612">33</xref>].</p>
+        <p>In the Technical Guidelines for the Compilation of Non-road Mobile Source Emission Inventories (Trial), emission factors for non-road machinery are primarily categorized according to engine power and emission stage. However, the guidelines only cover emission factors from the pre-China I to China III stages and do not cover China IV or later emission stages. Furthermore, notable differences exist in the operating conditions (i.e., idle, traveling, and working conditions, as well as their respective proportions) across different types of machinery. This leads to considerable variations in real-world emission factors, directly affecting the scientific assessment of construction machinery emissions [<xref ref-type="bibr" rid="B14-environments-13-00612">14</xref>,<xref ref-type="bibr" rid="B15-environments-13-00612">15</xref>,<xref ref-type="bibr" rid="B16-environments-13-00612">16</xref>,<xref ref-type="bibr" rid="B17-environments-13-00612">17</xref>,<xref ref-type="bibr" rid="B18-environments-13-00612">18</xref>].</p>
+      </sec>
+      <sec id="sec3dot2-environments-13-00612">
+        <title>3.2. Emission Characteristics Under Different Operating Conditions</title>
+        <p>To conduct an in-depth analysis of pollutant emission characteristics under three operating conditions&#x2014;idling, traveling, and operating, eight typical construction machinery units with different power ranges and emission stages were selected in this study for pollutant emission characteristic analysis. The data results are shown in <xref ref-type="table" rid="environments-13-00612-t004">Table 4</xref>.</p>
+        <p>As shown in <xref ref-type="table" rid="environments-13-00612-t004">Table 4</xref>, non-road construction machinery including loaders, excavators, forklifts, and bulldozers exhibited substantial differences in pollutant emissions across operating conditions. Overall, emission levels were highest during work operations, followed by travel mode, and lowest during idling. Compared with idling, most equipment showed increases of approximately 100% during the moving mode and 200% during the operating mode for NOx, PM, and THC. Under working conditions, engines generally operated at higher loads, resulting in increased fuel injection and higher combustion temperatures, which in turn led to elevated pollutant emissions. Idling involved minimal load, leading to relatively low fuel emissions per unit, whereas traveling represented a transitional operating state. Compared with China III models, China IV models reduced pollutant emissions by approximately 30&#x2013;85% under both idling and traveling conditions; however, emissions still increased significantly under high-load operating conditions.</p>
+        <p>Different machine types exhibited distinct emission characteristics owing to their different operational modes. Loaders showed the most pronounced absolute increase in NOx emissions during operation because of heavy-duty loading cycles (e.g., Loader 01 increased from 50.55 to 151.65 g/kg fuel). Excavators frequently experience fluctuating loads and intermittent start-stop cycles, which may reduce combustion efficiency and result in relatively high THC emissions (e.g., Excavator 01 reached 14.71 g/kg fuel during operation). Forklifts frequently lift heavy loads, contributing to increased PM emissions. For bulldozers, China III models showed notably high CO emissions during operation, whereas China IV models exhibited significant reductions. Overall, NOx remained the dominant pollutant emitted by various types of construction machinery. These findings indicate that idle testing alone may not adequately represent real-world emissions. High-load operating conditions are therefore key areas for pollution control in non-road mobile machinery, necessitating differentiated regulatory approaches tailored to the emission profiles of different machine types [<xref ref-type="bibr" rid="B13-environments-13-00612">13</xref>,<xref ref-type="bibr" rid="B15-environments-13-00612">15</xref>,<xref ref-type="bibr" rid="B23-environments-13-00612">23</xref>,<xref ref-type="bibr" rid="B24-environments-13-00612">24</xref>].</p>
+      </sec>
+      <sec id="sec3dot3-environments-13-00612">
+        <title>3.3. Activity Characteristics of Construction Machinery in Tangshan Port</title>
+        <p>Activity level data for non-road construction machinery are mainly obtained from statistical yearbooks, field surveys, and published literature. Currently, the recommended average annual operating hours for construction machinery in China are primarily based on the values suggested in the &#x201C;Guidelines&#x201D;. To characterize the real-world activity patterns of major machinery types, including their operating time periods and durations, four types of non-road construction machinery with relatively large fleet sizes in Tangshan Port were selected for monitoring, namely excavator, loader, forklift, and bulldozer. A total of 100 machinery units were equipped with onboard terminals for remote online monitoring at a data acquisition frequency of 1 Hz. Based on continuous monitoring over 12 consecutive months, a database of actual annual operating hours for different machinery types in the port was established. The actual average annual operating hours of the four machinery types were then calculated from the monitoring data and compared with the recommended values in the Guidelines, as shown in <xref ref-type="table" rid="environments-13-00612-t005">Table 5</xref>.</p>
+        <p>As shown in <xref ref-type="table" rid="environments-13-00612-t005">Table 5</xref>, the average annual operating hours estimated from the monitoring data were substantially higher than the values recommended in the &#x201C;Guidelines&#x201D;. Specifically, the estimated annual operating hours of excavators, loaders, forklifts, and bulldozers were 3.51, 4.87, 3.44, and 2.34 times the recommended values in the &#x201C;Guidelines&#x201D;, respectively. Among the use-based categories defined in the Guidelines, this study focuses on diesel construction machinery and agricultural machinery. The recommended annual operating hours for these two categories are generally lower than the monitoring-based values obtained in this study, which may lead to an underestimation of emissions from non-road diesel machinery. The working hours for agricultural machinery surveyed by Fu Mingliang [<xref ref-type="bibr" rid="B34-environments-13-00612">34</xref>], Wang Kai [<xref ref-type="bibr" rid="B35-environments-13-00612">35</xref>] et al., were also generally lower than those observed in this study, possibly because of differences in diesel machinery activity levels between the surveyed regions and the eastern region. Overall, the monitoring-based operating hours obtained in this study were relatively close to those adopted in the U.S. NONROAD model [<xref ref-type="bibr" rid="B14-environments-13-00612">14</xref>,<xref ref-type="bibr" rid="B15-environments-13-00612">15</xref>,<xref ref-type="bibr" rid="B16-environments-13-00612">16</xref>,<xref ref-type="bibr" rid="B18-environments-13-00612">18</xref>,<xref ref-type="bibr" rid="B20-environments-13-00612">20</xref>,<xref ref-type="bibr" rid="B36-environments-13-00612">36</xref>].</p>
+        <p>As shown in <xref ref-type="fig" rid="environments-13-00612-f002">Figure 2</xref>, the average cumulative operating time of excavators and loaders was 6&#x2013;8 h/day, with most activity concentrated between 09:00 and 11:00 and 14:00 and 17:00, accounting for 88&#x2013;92% of the total daily operating time. The average cumulative operating time of forklifts was 3&#x2013;5 h/day, with 92&#x2013;95% of the daily operating time concentrated between 09:00 and 16:00. The reason is that the activity time intervals and periods of diesel machinery are mainly influenced by the operating schedules of machinery users. Ports typically operate 24 h a day, with ship arrivals and departures and cargo handling, resulting in frequent intermittent use of machinery such as excavators and forklifts. This also provides a useful reference for management departments conducting on-site emission inspections of port diesel construction machinery.</p>
+      </sec>
+      <sec id="sec3dot4-environments-13-00612">
+        <title>3.4. Emission Contribution Rates by Machinery Type</title>
+        <p>Based on the construction machinery population in Tangshan Port as of the end of December 2025, together with the emission factors obtained from PEMS testing under real-world operating conditions and the corresponding operating time data, the annual emissions of PM, NOx, HC, and CO were calculated. Subsequently, the contribution rates of different machinery types to pollutant emissions were calculated, as shown in <xref ref-type="table" rid="environments-13-00612-t006">Table 6</xref> [<xref ref-type="bibr" rid="B14-environments-13-00612">14</xref>,<xref ref-type="bibr" rid="B15-environments-13-00612">15</xref>,<xref ref-type="bibr" rid="B16-environments-13-00612">16</xref>].</p>
+        <p>As shown in <xref ref-type="table" rid="environments-13-00612-t006">Table 6</xref>, emissions of PM, NOx, HC, and CO from port construction machinery were mainly attributable to excavators and loaders. The combined contribution rates of these two machinery types were 66.65%, 68.58%, 60.89%, and 59.85% for PM, NOx, HC, and CO, respectively. Therefore, priority should be given to emission control and treatment for excavators and loaders [<xref ref-type="bibr" rid="B16-environments-13-00612">16</xref>,<xref ref-type="bibr" rid="B17-environments-13-00612">17</xref>].</p>
+      </sec>
+      <sec id="sec3dot5-environments-13-00612">
+        <title>3.5. Analysis of Different Emission Reduction and Economic Benefit Scenarios</title>
+        <p>This study evaluates the emission reduction effects and cost-effectiveness of construction machinery in Tangshan Port under different scrapping and DPF retrofit ratio scenarios. In accordance with the requirements of the China Association of Environmental Protection Industry group standard T/CAEPI 12.3-2017 [<xref ref-type="bibr" rid="B37-environments-13-00612">37</xref>], Technical Requirements for Diesel Vehicle Exhaust After-treatment Devices&#x2014;Part 3: Diesel Particulate Filter (DPF), two DPF products were selected for aging and emission reduction performance testing and evaluation at the National Plateau Motor Vehicle Quality Inspection and Testing Center. The results showed that the filtration efficiencies of the DPF devices for both PM and PN exceeded 95%. Moreover, since the Diesel Oxidation Catalyst (DOC) can effectively reduce THC and CO pollutant emissions, the reduction efficiencies for THC and CO reached 75&#x2013;80% [<xref ref-type="bibr" rid="B13-environments-13-00612">13</xref>,<xref ref-type="bibr" rid="B21-environments-13-00612">21</xref>,<xref ref-type="bibr" rid="B23-environments-13-00612">23</xref>].</p>
+        <p>This study focuses on the emission reduction effects and investment cost&#x2013;benefit under different scenarios of phase-out and DPF emission control ratios for China III non-road construction machinery in Tangshan Port. By calculating the ratio of the annual investment cost associated with either post-phase-out replacement purchase or retrofit to the pollutant reduction achieved, the relationship between various pollutants and investment cost under different phase-out ratios was determined, as shown in <xref ref-type="fig" rid="environments-13-00612-f003">Figure 3</xref>. The results show that as the phase-out ratio of high-emission machinery increased (i.e., as the proportion of DPF retrofits decreased), the investment cost per unit of NOx reduction gradually decreased. This indicates that phasing out old machinery and replacing it with new equipment is more cost-effective for NOx reduction. As the phase-out ratio of high-emission machinery increased from 10% to 90%, the economic benefit for PM reduction increased from 0.005 billion yuan/ton-year to 0.01 billion yuan/ton-year; for CO reduction, it increases from 0.0005 billion yuan/ton-year to 0.001 billion yuan/ton-year; for HC reduction, it increases from 0.002 billion yuan/ton-year to 0.005 billion yuan/ton-year. This trend can be explained by two main factors: (1) phasing out high-emission machinery with new equipment reduces CO, HC, NOx, and PM emissions to varying degrees, but the NOx reduction efficiency is the lowest; and (2)DPF retrofitting can substantially reduce PM, CO, and HC emissions but has only a limited effect on NOx reduction [<xref ref-type="bibr" rid="B20-environments-13-00612">20</xref>,<xref ref-type="bibr" rid="B21-environments-13-00612">21</xref>].</p>
+        <p>Considering that PM and NOx are the major pollutants emitted by high-emission machinery, the cost-effectiveness analysis for these two pollutants showed that, as the phase-out ratio increased, both the total investment cost and the amount of NOx reduction increased approximately linearly, whereas the amount of PM reduction decreased slightly. Based on the assessment the relationship between pollutant reductions and investment costs for PM and NOx under different phase-out ratios, it can be concluded that for every 10% increase in the phase-out ratio, the average annual investment cost for emission control increased by RMB 98 million, the average annual reduction in NOx emissions increased by 85.5 tons, while the average annual reduction in PM emissions decreased by 2.5 tons.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-environments-13-00612" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <list list-type="order">
+        <list-item>
+          <label>(1)</label>
+          <p>By the end of December 2025, a total of 1936 units of construction machinery were in operation within Tangshan Port. The machinery was still dominated by internal combustion engines meeting China III and China IV emission standards. Loaders, excavators, forklifts, and bulldozers accounted for 82.4% of the China III and IV machinery population, indicating that these four machinery types should be the primary focus of pollutant emission monitoring and control.</p>
+        </list-item>
+        <list-item>
+          <label>(2)</label>
+          <p>For various types of construction machinery, pollutant emissions generally decreased as emission standards were upgraded. However, due to differences in engine power, displacement, after-treatment technology, and actual operating conditions among different types of machinery, emission factors varied significantly across emission standards and machinery types.</p>
+        </list-item>
+        <list-item>
+          <label>(3)</label>
+          <p>The estimated annual operating hours for construction machinery based on sample monitoring were substantially higher than the values recommended in the &#x201C;Guidelines&#x201D;. The estimated annual operating hours of excavators, loaders, forklifts, and bulldozers were 3.51, 4.87, 3.44, and 2.34 times the corresponding recommended values, respectively, indicating that previous estimates of emissions from non-road diesel machinery may have been underestimated. It is recommended to refer to HJ 1014-2020 &#x201C;Emissions control technical requirements of non-road diesel mobile machinery&#x201D; and install &#x201C;on-board machinery terminals&#x201D; on engineering machinery within the port to obtain real-time operating status, then estimate the annual operating hours of the machinery through big-data statistical analysis, so as to address the errors identified in the estimation of annual operating hours of engineering machinery.</p>
+        </list-item>
+        <list-item>
+          <label>(4)</label>
+          <p>As the phase-out ratio of high-emission machinery increased, the investment cost and the average annual NOx reduction increased approximately linearly, whereas the average annual PM reduction increased slightly. For every 10% increase in the phase-out ratio, the average annual investment in emission control increased by RMB 98 million, the average annual NOx reduction increased by 85.5 tons, and the average annual PM reduction increased by 2.5 tons.</p>
+        </list-item>
+      </list>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, Z.W., J.W. and J.L.; methodology, Z.W., H.G. and J.W.; validation, H.G., Z.B. and Y.Y.; formal analysis, Z.W., H.G. and Z.B.; investigation, Z.W., N.Y., T.Y., Y.Y. and Y.Z.; resources, J.W., J.L. and N.Y.; data curation, Z.W., H.G., T.Y. and Y.Z.; writing&#x2014;original draft preparation, Z.W.; writing&#x2014;review and editing, H.G., J.W., J.L., N.Y. and Y.Z.; visualization, Z.W. and T.Y.; supervision, J.W. and J.L.; project administration, J.W. and J.L.; funding acquisition, J.W. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Informed Consent Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The data used in this study are available from the corresponding author upon reasonable request and with permission from the data provider.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>Author Jiguang Wang was employed by CATARC Automotive Test Center (Kunming) Co., Ltd. and China Automotive Technology and Research Center Co., Ltd. Author Yang Yu was employed by China Automotive Technology and Research Center Co., Ltd. Neither company provided funding for this study. The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-environments-13-00612">
+        <label>1.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <source>Urban Vehicle Emission Pollution Control-International Experience Analysis and Chinese Research Results</source>
+          <publisher-name>China Environmental Science Press</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2011</year>
+        </element-citation>
+      </ref>
+      <ref id="B2-environments-13-00612">
+        <label>2.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>U.S. Environmental Protection Agency</collab>
+          </person-group>
+          <source>Description and History of the MOBILE Highway Vehicle Emission Factor Model [N/OL]</source>
+          <publisher-name>U.S. Environmental Protection Agency</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2017</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.epa.gov/moves/description-and-history-mobile-highway-vehicle-emission-factor-model" ext-link-type="uri">https://www.epa.gov/moves/description-and-history-mobile-highway-vehicle-emission-factor-model</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-03-30">(accessed on 30 March 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B3-environments-13-00612">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ji</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Overview of Foreign Vehicle Emission Models</article-title>
+          <source>Environ. Sustain. Dev.</source>
+          <year>2020</year>
+          <volume>5</volume>
+          <fpage>159</fpage>
+          <lpage>164</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4-environments-13-00612">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Andr&#xE9;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of Pollutant Emission Inventory for Non-road Mobile Sources in Tianjin</article-title>
+          <source>Environ. Sci.</source>
+          <year>2017</year>
+          <volume>38</volume>
+          <fpage>4447</fpage>
+          <lpage>4453</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5-environments-13-00612">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of Emission Inventory for Non-road Mobile Sources in the Pearl River Delta</article-title>
+          <source>Environ. Sci.</source>
+          <year>2010</year>
+          <volume>31</volume>
+          <fpage>886</fpage>
+          <lpage>891</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B6-environments-13-00612">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ma</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Overview of Compilation Techniques for Port Mobile Source Pollutant Emission Inventory</article-title>
+          <source>Transp. Energy Conserv. Environ. Prot.</source>
+          <year>2024</year>
+          <volume>12</volume>
+          <fpage>100</fpage>
+          <lpage>105</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B7-environments-13-00612">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Air Pollutant Emission Inventory of Port-owned Mobile Sources</article-title>
+          <source>Environ. Sci.</source>
+          <year>2023</year>
+          <volume>3</volume>
+          <fpage>1357</fpage>
+          <lpage>1367</lpage>
+          <pub-id pub-id-type="doi">10.13227/j.hjkx.202204226</pub-id>
+          <pub-id pub-id-type="pmid">36922197</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-environments-13-00612">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>Y.Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>X.J.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>X.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Air emission inventory of container ports&#x2019; cargo handling equipment with activity-based &#x201C;bottom-up&#x201D; method</article-title>
+          <source>Adv. Mech. Eng.</source>
+          <year>2017</year>
+          <volume>9</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.1177/1687814017711389</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-environments-13-00612">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study on Air Pollutant Emissions from Non-road Mobile Machinery in Pudong Port</article-title>
+          <source>Environ. Prot. Circ. Econ.</source>
+          <year>2017</year>
+          <volume>37</volume>
+          <fpage>60</fpage>
+          <lpage>63</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B10-environments-13-00612">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gui</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research on Vehicle Emission Inventory and Emission Reduction Economic Benefits in Tangshan City</article-title>
+          <source>Environ. Sci.</source>
+          <year>2021</year>
+          <volume>41</volume>
+          <fpage>5114</fpage>
+          <lpage>5124</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B11-environments-13-00612">
+        <label>11.</label>
+        <element-citation publication-type="book">
+          <source>Technical Guidelines for the Compilation of Air Pollutant Emission Inventories for Non-Road Mobile Sources (Trial)</source>
+          <publisher-name>Ministry of Environmental Protection of the People&#x2019;s Republic of China</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B12-environments-13-00612">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study on Air Pollutant Emission Inventory of Port Machinery</article-title>
+          <source>Environ. Sci. Manag.</source>
+          <year>2013</year>
+          <volume>38</volume>
+          <fpage>82</fpage>
+          <lpage>87</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B13-environments-13-00612">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Desouza</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Marsh</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Beevers</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Molden</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Real-world emissions from non-road mobile machinery in London</article-title>
+          <source>Atmos. Environ.</source>
+          <year>2020</year>
+          <volume>223</volume>
+          <fpage>117301</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.atmosenv.2020.117301</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-environments-13-00612">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Desouza</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Marsh</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Beevers</surname>
+              <given-names>S.D.</given-names>
+            </name>
+            <name>
+              <surname>Molden</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>A spatial and fleet disaggregated approach to calculating the NOx emissions inventory for non-road mobile machinery in London</article-title>
+          <source>Atmos. Environ. X</source>
+          <year>2021</year>
+          <volume>12</volume>
+          <fpage>100125</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.aeaoa.2021.100125</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-environments-13-00612">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Moon</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ham</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yoo</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modernizing load and emission factors for construction machinery based on real-world operation: Estimation of emission data in Korea</article-title>
+          <source>Environ. Pollut.</source>
+          <year>2025</year>
+          <volume>366</volume>
+          <fpage>125530</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.envpol.2024.125530</pub-id>
+          <pub-id pub-id-type="pmid">39674253</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-environments-13-00612">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pirhadi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Krasowsky</surname>
+              <given-names>T.S.</given-names>
+            </name>
+            <name>
+              <surname>Gatt</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Quiros</surname>
+              <given-names>D.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Criteria pollutant and greenhouse gas emissions from cargo handling equipment operating at the Ports of Los Angeles and Long Beach</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2024</year>
+          <volume>927</volume>
+          <fpage>172084</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2024.172084</pub-id>
+          <pub-id pub-id-type="pmid">38556023</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-environments-13-00612">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kara</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Emecen Kara</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Ok&#x15F;a&#x15F;</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimation of land-based emissions during container terminal operations in the Ambarl&#x131; Port, Turkey</article-title>
+          <source>Proc. Inst. Mech. Eng. Part M J. Eng. Marit. Environ.</source>
+          <year>2022</year>
+          <volume>236</volume>
+          <fpage>779</fpage>
+          <lpage>788</lpage>
+          <pub-id pub-id-type="doi">10.1177/14750902211052223</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-environments-13-00612">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lon&#x10D;arevi&#x107;</surname>
+              <given-names>&#x160;.</given-names>
+            </name>
+            <name>
+              <surname>Ilin&#x10D;i&#x107;</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>&#x160;agi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Luli&#x107;</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Problems and directions in creating a national non-road mobile machinery emission inventory: A critical review</article-title>
+          <source>Sustainability</source>
+          <year>2022</year>
+          <volume>14</volume>
+          <elocation-id>3471</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su14063471</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-environments-13-00612">
+        <label>19.</label>
+        <element-citation publication-type="gov">
+          <source>Notice on Designating the Jingtang Port Area of Tangshan Port as a Zone Prohibiting the Use of High-Emission Non-Road Mobile Machinery</source>
+          <publisher-name>Administrative Committee of Tangshan Haigang Development Zone</publisher-name>
+          <publisher-loc>Tangshan, China</publisher-loc>
+          <year>2021</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.tshg.gov.cn/tshaigang/tshgtzggf/20211126/1381167.html" ext-link-type="uri">https://www.tshg.gov.cn/tshaigang/tshgtzggf/20211126/1381167.html</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-03-29">(accessed on 29 March 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B20-environments-13-00612">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sparrevik</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Stokke</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Borge</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>de Boer</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigating the potential for reduced emissions from non-road mobile machinery in construction activities through disruptive innovation</article-title>
+          <source>Environ. Technol. Innov.</source>
+          <year>2023</year>
+          <volume>31</volume>
+          <fpage>103187</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.eti.2023.103187</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-environments-13-00612">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mayer</surname>
+              <given-names>A.C.R.</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wyser</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Legerer</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Czerwinski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lutz</surname>
+              <given-names>T.W.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>T.V.</given-names>
+            </name>
+            <name>
+              <surname>Jacobson</surname>
+              <given-names>M.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Particulate filters for combustion engines to mitigate global warming. Estimating the effects of a highly efficient but underutilized tool</article-title>
+          <source>Emiss. Control Sci. Technol.</source>
+          <year>2024</year>
+          <volume>10</volume>
+          <fpage>10</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="doi">10.1007/s40825-023-00236-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-environments-13-00612">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Z.G.</given-names>
+            </name>
+            <name>
+              <surname>Wall</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Ottinger</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>McGuffin</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitigation of PAH and Nitro-PAH Emissions from Non-road Diesel Engines</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>2015</year>
+          <volume>49</volume>
+          <fpage>3662</fpage>
+          <lpage>3671</lpage>
+          <pub-id pub-id-type="doi">10.1021/es505434r</pub-id>
+          <pub-id pub-id-type="pmid">25668360</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-environments-13-00612">
+        <label>23.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Scora</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Karavalakis</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Durbin</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <source>Real World Emissions from Tier 4F Off-Road Construction Equipment</source>
+          <comment>SAE Technical Paper 2022-01-0577</comment>
+          <publisher-name>SAE International</publisher-name>
+          <publisher-loc>Warrendale, PA, USA</publisher-loc>
+          <year>2022</year>
+        </element-citation>
+      </ref>
+      <ref id="B24-environments-13-00612">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>D.I.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characteristics of real-world gaseous emissions from construction machinery</article-title>
+          <source>Energies</source>
+          <year>2022</year>
+          <volume>15</volume>
+          <elocation-id>9543</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/en15249543</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-environments-13-00612">
+        <label>25.</label>
+        <element-citation publication-type="standard">
+          <std>HJ 1014-2020</std>
+          <source>Emissions Control Technical Requirements of Non-Road Diesel Mobile Machinery</source>
+          <publisher-name>Ministry of Ecology and Environment</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2020</year>
+        </element-citation>
+      </ref>
+      <ref id="B26-environments-13-00612">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Kan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Emission characteristics of a diesel engine for a construction machinery based on PEMS test</article-title>
+          <source>Intern. Combust. Engine Powerpl.</source>
+          <year>2024</year>
+          <volume>41</volume>
+          <fpage>59</fpage>
+          <lpage>64</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B27-environments-13-00612">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zavala</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Huertas</surname>
+              <given-names>J.I.</given-names>
+            </name>
+            <name>
+              <surname>Prato</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Jazcilevich</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Aguilar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Balam</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Misra</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Molina</surname>
+              <given-names>L.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Real-world emissions of in-use off-road vehicles in Mexico</article-title>
+          <source>J. Air Waste Manag. Assoc.</source>
+          <year>2017</year>
+          <volume>67</volume>
+          <fpage>958</fpage>
+          <lpage>972</lpage>
+          <pub-id pub-id-type="doi">10.1080/10962247.2017.1310677</pub-id>
+          <pub-id pub-id-type="pmid">28379119</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-environments-13-00612">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Real-world emission for in-use non-road construction machinery in Wuhan, China</article-title>
+          <source>Environ. Sci. Pollut. Res.</source>
+          <year>2023</year>
+          <volume>30</volume>
+          <fpage>46414</fpage>
+          <lpage>46425</lpage>
+          <comment>Correction in <italic>Environ. Sci. Pollut. Res.</italic> <bold>2023</bold>, <italic>30</italic>, 46426</comment>
+          <pub-id pub-id-type="doi">10.1007/s11356-023-25453-3</pub-id>
+          <pub-id pub-id-type="pmid">36717414</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-environments-13-00612">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frey</surname>
+              <given-names>H.C.</given-names>
+            </name>
+            <name>
+              <surname>Rasdorf</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lewis</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comprehensive Field Study of Fuel Use and Emissions of Non-road Diesel Construction Equipment</article-title>
+          <source>Transp. Res. Rec. J. Transp. Res. Board</source>
+          <year>2010</year>
+          <volume>2158</volume>
+          <fpage>69</fpage>
+          <lpage>76</lpage>
+          <pub-id pub-id-type="doi">10.3141/2158-09</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-environments-13-00612">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cui</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Measurement of PM and its chemical composition in real-world emissions from non-road and on-road diesel vehicles</article-title>
+          <source>Atmos. Chem. Phys.</source>
+          <year>2017</year>
+          <volume>17</volume>
+          <fpage>6779</fpage>
+          <lpage>6795</lpage>
+          <pub-id pub-id-type="doi">10.5194/acp-17-6779-2017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-environments-13-00612">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yao</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Yoon</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Herner</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Scora</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Durbin</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of an Engine Power Binning Method for Characterizing PM2.5 and NOx Emissions for Off-Road Construction Equipment with DPF and SCR</article-title>
+          <source>Atmosphere</source>
+          <year>2022</year>
+          <volume>13</volume>
+          <elocation-id>975</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/atmos13060975</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-environments-13-00612">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Impact of China&#x2019;s Green Emission Policies on Non-Road Mobile Construction Machinery</article-title>
+          <source>Nat. Resour. Forum</source>
+          <year>2025</year>
+          <volume>49</volume>
+          <fpage>2111</fpage>
+          <lpage>2123</lpage>
+          <pub-id pub-id-type="doi">10.1111/1477-8947.70003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-environments-13-00612">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of the chemical composition of PM2.5 emitted from on-road China III and China IV diesel trucks in Beijing, China</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2016</year>
+          <volume>551&#x2013;552</volume>
+          <fpage>579</fpage>
+          <lpage>589</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2016.02.048</pub-id>
+          <pub-id pub-id-type="pmid">26897401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-environments-13-00612">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characteristics of typical non-road machinery emissions in China by using portable emission measurement system</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2012</year>
+          <volume>437</volume>
+          <fpage>255</fpage>
+          <lpage>261</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2012.07.095</pub-id>
+          <pub-id pub-id-type="pmid">22944217</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-environments-13-00612">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Qi</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Emission Factors and Emission Inventory of Agricultural Machinery in Beijing Under Real-world Operation</article-title>
+          <source>Environ. Sci.</source>
+          <year>2020</year>
+          <volume>41</volume>
+          <fpage>2602</fpage>
+          <lpage>2608</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B36-environments-13-00612">
+        <label>36.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>U.S. Environmental Protection Agency</collab>
+          </person-group>
+          <article-title>MOVES Nonroad Technical Reports</article-title>
+          <year>2024</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.epa.gov/moves/moves-nonroad-technical-reports" ext-link-type="uri">https://www.epa.gov/moves/moves-nonroad-technical-reports</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-03-29">(accessed on 29 March 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B37-environments-13-00612">
+        <label>37.</label>
+        <element-citation publication-type="standard">
+          <std>T/CAEPI 12.3-2017</std>
+          <source>Technical Requirements for Diesel Vehicle Exhaust After-Treatment Devices&#x2014;Part 3: Diesel Particulate Filter (DPF)</source>
+          <publisher-name>China Association of Environmental Protection Industry (CAEPI)</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="environments-13-00612-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>PEMS testing of non-road construction machinery.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00612-g001.tif"/>
+      </fig>
+      <fig id="environments-13-00612-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Distribution of working hours for excavators, loaders, and forklifts.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00612-g002.tif"/>
+      </fig>
+      <fig id="environments-13-00612-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>The relationship between various pollutants and input costs under different phase-out ratios.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="environments-13-00612-g003.tif"/>
+      </fig>
+      <table-wrap id="environments-13-00612-t001" position="float">
+        <object-id pub-id-type="pii">environments-13-00612-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Distribution of tested machinery samples by engine power range.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Emission Standard &amp;<break/>Machinery Samples Type</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">37~75 kW</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">75~130 kW</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&gt;130 kW</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Forklift</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Excavator</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Forklift</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Bulldozer</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Loader</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Forklift</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Bulldozer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="environments-13-00612-t002" position="float">
+        <object-id pub-id-type="pii">environments-13-00612-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Specifications of SEMTECH-DS.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Gas Component</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Range</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Range Drift</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Zero Drift</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Resolution</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CO</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0~8%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#xB1;20 ppm or &#xB1;2% Range</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#xB1;0.005%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10 ppm</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CO<sub>2</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0~20%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#xB1;0.1% or &#xB1;2% Range</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#xB1;0.1%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.01%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NO</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0~2500 ppm</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">&#xB1;2% Range</td>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">&#x2264;2 ppm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1 ppm</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NO<sub>2</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0~500 ppm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1 ppm</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">HC</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0~1000 ppm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#xB1;1% Range</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#xB1;0.1%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1 ppm</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="environments-13-00612-t003" position="float">
+        <object-id pub-id-type="pii">environments-13-00612-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Measured emission factors for non-road construction machinery samples.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Machinery Type</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Rated Power/kW</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Engine Capacity<break/>/L</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Emission Standard</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fuel Consumption</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">CO</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">NOx</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">PM</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">THC</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">kg/h</th>
+              <th colspan="4" align="center" valign="middle" style="border-bottom:solid thin">Emission Factor g/kg</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Loader 01</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">145</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.1 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.6 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">128.9 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.8 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.8 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Loader 02</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">162</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.9 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.7 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">93.7 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.4 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.6 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Loader 03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">178</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.8 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.9 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">81.1 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Loader 04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">199</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.1 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.7 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">83.3 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Excavator 01</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">83</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.6 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.7 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">35.8 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.9 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12.5 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Excavator 02</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">118</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.3 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33.6 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.1 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Excavator 03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">114</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.6 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.7 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">35.9 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.1 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.2 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Excavator 04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">110</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.6 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.1 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.3 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.2 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.5 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Forklift 01</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">39</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.5 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">40.0 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.1 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Forklift 02</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">117</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.1 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.1 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">60.6 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.4 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.5 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Forklift 03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">117</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.9 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.8 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.5 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.7 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Forklift 04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">209</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.6 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.8 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.4 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.1 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.5 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Bulldozer 01</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">120</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.0 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.6 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">74.6 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.4 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.2 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Bulldozer 02</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">170</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.3 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.9 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.2 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.6 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.7 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Bulldozer 03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">174</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.0 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.5 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">65.7 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.8 </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Bulldozer 04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">212</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.6 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.2 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">62.7 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.7 </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.6 </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="environments-13-00612-t004" position="float">
+        <object-id pub-id-type="pii">environments-13-00612-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Pollutant emission factors of four types of construction machinery under different operating conditions (g/kg fuel).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Machinery Type</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Rated Power (kW)</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Engine Displacement (L)</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Engine Emission Standard</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Operating Condition</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">CO</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">NOx</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">PM</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">THC</th>
+            </tr>
+            <tr>
+              <th colspan="4" align="center" valign="middle" style="border-bottom:solid thin">g/kg Fuel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Loader 01</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">145</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">9.7</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Idling</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.59</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">50.55</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.31</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.71</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Moving</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.18</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">101.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.63</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.41</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Operating</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.76</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">151.65</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.94</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.12</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Loader 03</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">178</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">9.7</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Idling</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.43</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Moving</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.49</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">63.61</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.08</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.86</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Operating</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.24</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">95.41</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.29</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Excavator 01</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">83</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">3.9</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Idling</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14.04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.35</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Moving</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.61</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.08</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.71</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Operating</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11.41</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">42.12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.06</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14.71</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Excavator 03</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">114</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">5.1</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Idling</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.63</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14.08</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.86</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Moving</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.08</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.73</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Operating</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.88</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">42.24</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.59</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Forklift 03</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">117</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">6.5</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Idling</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11.57</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.43</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.06</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Moving</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.14</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.86</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.12</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Operating</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.29</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.71</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.29</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.18</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Forklift 04</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">209</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">5.7</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Idling</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.31</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11.92</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.98</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Moving</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.63</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.84</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.08</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.96</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Operating</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.94</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">35.76</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.94</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Bulldozer 01</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">120</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">10.5</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">China III</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Idling</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.33</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.65</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Moving</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.67</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">58.51</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.31</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.29</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Operating</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">87.76</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.47</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.94</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Bulldozer 03</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">174</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">9.8</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">China IV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Idling</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.22</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.76</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.55</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Moving</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.43</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">51.53</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Operating</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.59</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">50.55</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.31</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.71</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="environments-13-00612-t005" position="float">
+        <object-id pub-id-type="pii">environments-13-00612-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Estimated average annual operating hours based on actual online monitoring.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Type</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Recommended Value per Year in &#x201C;Guidelines&#x201D; (Hours)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Estimated Value per Year from Sample Monitoring (Hours)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Excavator</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">770</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2700</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Loader</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">770</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3750</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Forklift</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">770</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2650</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Bulldozers</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">770</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1800</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="environments-13-00612-t006" position="float">
+        <object-id pub-id-type="pii">environments-13-00612-t006_Table 6</object-id>
+        <label>Table 6</label>
+        <caption>
+          <p>Pollutant emission contribution rates by machinery type.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Pollutant</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">PM</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">NOx</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">HC</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">CO</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Excavator</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">38.58%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36.44%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36.41%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">37.33%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Loader</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.07%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.14%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.48%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.52%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Forklift</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.53%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.41%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.71%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.20%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Bulldozers</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.94%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.85%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.48%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.31%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Crane</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.73%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.60%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.07%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.88%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Other</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.15%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15.57%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.84%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.76%</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

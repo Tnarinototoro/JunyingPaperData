@@ -1,0 +1,123 @@
+R. Teeuwen
+Table 4
+Summary Of quantitative and qualitative findings.
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+HI
+H2
+H3
+Perceived greenness in relation tO NDVI
+hypothesis t 然 疒
+e 回 ora
+analysis
+sens 访 皿 冚 Y
+qualitative
+analysis
+NO evidence for a strong correlation with median NDVI.
+Significant moderate correlation instead weak correlation for Barcelona, while moderate for Rotterdam and Gothenburg, and moderate but less strong
+correlation with maximum NDVI.
+NDVI within 43 m radius distance yields strongest correlation.
+Places pel ℃ eived not-green, but with high NDVI: have two distinctive sides; or the greenspace is physically inaccessible. Places perceived green, but with
+lOW NDVI: have va1Ying vegetation; other natural features nearby; absent built-up features; are rated in context.
+perceived greenness in relation to OSM
+hypothesis 怊 5
+sensitivity analysis
+qualitative
+analysis
+Regular-size greenspaces are pel ℃ eived as greener than pocket-size greenspace, open public spaces ， and streets, but not greener than play spaces. Pocket-
+Size greenspaces are oftentimes perceived aS greenspaces.
+OSM within 15 m radius distance yields best outcomes.
+Places perceived not-green, but in OSM: are still equipped for people; have dominant built-up features; or tWO distinctive sides. Places perceived green ， but
+not in OSM: have large amount and good configuration Of vegetation; are rated in context; have other natural and SOft features.
+Perceived greenness III relation tO NDVI and OSM
+hypothesis 怊 s 疒
+Algorithm combining OSM and NDVI data yields better results than NDVI-based algorithm but no significant difference with OSM-based algorithm.
+sensitivity analysis Combination- and OSM-based algorithm perform best with 15 m radius distance ， while NDVI-based algorithm with 43 m radius distance scores highest
+one single point in place, rather than an entire residential neighborhood,
+and unlike Kothencz and BIaschke 〔 2017 〕 ， we collected data for a
+broader range 0f ptlblic spaces, potentially with a wider range 0f NDVI
+investigated influence Of radit1S distances, discov-
+ered that the stl ℃ ngest correlation was 0 ， 600 when using median NDVI
+values within a 43-meter radius distance. We saw the greatest change in
+strength increasing radius Barcelona, r1Sing
+from 0 ． 269 to 0 ． 577 ， implying that perceptions 0f places in Barcelona
+are based on greenery located further away: One cotlld hypothesize that
+Barcelona ， S ptlblic spaces are more spaciot1S or have more mature trees
+that can be seen from a distance, as opposed tO grasslands or small
+vegetation that is more evenly distrlbuted in spac 巳
+We found evidence tO support our hypothesis that OSM regular-size
+greenspaces are perceived significantly greener than pocket-size
+greenspaces, streets, and public open spaces, while OSM seems t0 use
+open space tags almost exclusively for places where vegetation is not
+dominant. We also discovered that nearly half of OSM pocket-size
+greenspaces are perceived as green, adding t0 the b0dy 0f evidence
+that pocket-size greenspaces are important for green cities as well
+(Wood et al., 2017 ； Labib et al., 2020 ； Peschardt et al. ， 2014 〗 Surpris-
+ingly, no significant difference in greenness perception was found be-
+tween OSM regtllar-size greenspaces and play spaces. We discovered
+that many play spaces are unanimously perceived by people as green,
+even though OSM does not provide any indication 0f the presence 0f
+greenery. Furthermore, examples 0f greenery that are unexpectedly
+missing from OSM include forests and groves located on the outskirts of
+cities that are not represented in OSM. Other deviations were not due tO
+a lack 0f greenery in OSM data, but rather t0 how we filtered our
+greenspaces. That is, we selected greenspaces Of significant size based on
+a minimum size of 0 ． 5 ha 0f adJ acent green land (Ambiente ltalia ， 2003 ）
+Some greenspaces, however ， are mapped in st1Ch grantllarity in OSM
+for example, every individual patch of grass separated from others by
+narrow footpaths 一 that our algorithm filtered them out.
+We also observed that some places in OSM are labeled as green but
+are not perceived as st1Ch. When we 100k at these places in OSM, we see
+that half of them are tagged as parks. The term park is explicitly included
+in the WHO definition 0f greenspace that we used (WHO RegionaI Office
+for Europe, 2017a ） ， and many 0ther definitions 0f greenspace in the
+literature (TayIor and Hochuli, 2017 〕 ， and participants often seemed to
+regard parks eqtllvalent tO greenspaces. According tO OSM, a park is "an
+area 可 open spacefor recreational use. ， usually designed and 洫 semi-natural
+s 恤 with grassy areas. ， trees and bushes ” (OpenStreetMap ， 2023 〗 As this
+definition and our findings suggest, OSM parks are typically btlt not
+always vegetated.
+We demonstrated that combining OSM categories and NDVI values
+can help tO better select perceived greenspaces from these data in many
+cases ， providing an ansl•'ver t() question raised I)Y
+Liao et al. 〔 2021 〕
+whether combining mtlltiple datasets improves performance. Surpris-
+ingly, we observed that the NDVI based selection algorithm out-
+performed all others at a 43-meter distance. Qualitative restllts
+suggested refining these algorithms with information on other spatial
+characteristics from OSM has great potential, such as proximity tO water
+or presence Of greenery in all directions; proximity tO traffic infra
+structure or high-rise btlildings; and presence 0f private gardens. Other
+qualities ， st1Ch as vegetation variety ， qtlietness, attractiveness, and
+safety, may be more diffictllt tO capture in large-scale data, btlt are
+studied in related work (Milias et al., 2023 ； Candeia et al., 2017 ； Salesses
+et al., 2013 ； Quercia et al., 2014
+Our qualitative findings indicated that people seem t0 Jt1dge the
+greenness 0f a place contextually rather than absolutely. Specifically,
+people stated ， for example, that 亨 br 皿 urban setting, more trees an I
+would have expected " （ Q 一 28 ） ， suggesting that people have different ex
+pectations Of greenspaces within cities opposed tO otltside Of them.
+Furthermore, they stated "considering it's the middle 可 a man made
+square seems quite green ” 〔 Q 一 9 〗 indicating that within the constraints
+Of type or function Of a given space 〔 e ， 8 ” a crossroads a
+major road) ， people sometimes simply considered a place as green as can
+be.
+5 ． 2 仂 甲 五 ca 五 ons for research and practice
+According t0 our findings, NDVI maps are only moderately associ-
+ated with hOW green people perceive places tO be. For optlmum restllts,
+perception data should only be exchanged for NDVI maps while keeping
+this limitation in mind, ideally utilizing median NDVI values within 43
+m. When using OSM data, similar limitations arise, btlt we suggest using
+a short radius distance Of 15 m instead.
+Our restllts further suggest that incorporating NDVI data int0 OSM
+based analyses produces more accurate restllts. ln the case informal
+and small-scale greenspaces are Of interest, NDVI values may help tO
+filter Ot1t those parks that are not perceived green, or tO identify pocket
+parks and play spaces that are often perceived as green.
+Our qualitative findings suggest that when identifying locations for
+greenspace interventions, urban planners C()t11d consider prioritizing
+greenspaces that appear in large-scale data btlt are not perceived as
+such ， e.g., where btlilt-up features are tOO dominant.
+Our findings cotlld also serve as guidance when aiming tO make citles
+'JIISt green e 0 gh " ： greenspace strategies that limit adverse effects of
+interventions tO make neighborhoods healthier and more attractive,
+9

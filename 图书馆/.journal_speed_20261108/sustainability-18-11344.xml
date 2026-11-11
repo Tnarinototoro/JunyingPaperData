@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">sustainability</journal-id>
+      <journal-title-group>
+        <journal-title>Sustainability</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Sustainability</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Sustainability</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2071-1050</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/su182111344</article-id>
+      <article-id pub-id-type="publisher-id">sustainability-18-11344</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Freeze&#x2013;Thaw Performance of Marl Soil Stabilized with Iron and Steel Cooling Water Sludge and Polypropylene Fibers: Toward Sustainable By-Product Reuse</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2977-4352</contrib-id>
+          <name>
+            <surname>Keskin</surname>
+            <given-names>&#x130;nan</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <xref rid="af1-sustainability-18-11344" ref-type="aff">1</xref>
+          <xref rid="c1-sustainability-18-11344" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7984-6217</contrib-id>
+          <name>
+            <surname>Kahraman</surname>
+            <given-names>Selman</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">Software</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role>
+          <xref rid="af1-sustainability-18-11344" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Raddad</surname>
+            <given-names>Mohamed Bashir S.</given-names>
+          </name>
+          <xref rid="af1-sustainability-18-11344" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8920-172X</contrib-id>
+          <name>
+            <surname>Vakili</surname>
+            <given-names>Amir Hossein</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Validation" vocab-term-identifier="https://credit.niso.org/contributor-roles/validation/">Validation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <xref rid="af2-sustainability-18-11344" ref-type="aff">2</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Ao</surname>
+            <given-names>Wai-Kei</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-sustainability-18-11344"><label>1</label>Faculty of Engineering and Natural Sciences, Department of Civil Engineering, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/04wy7gp54</institution-id><institution>Karab&#xFC;k University</institution></institution-wrap>, 78050 Karab&#xFC;k, T&#xFC;rkiye</aff>
+      <aff id="af2-sustainability-18-11344"><label>2</label>Department of Civil Engineering, Faculty of Engineering, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/055qhny09</institution-id><institution>Zand Institute of Higher Education</institution></institution-wrap>, Shiraz 7187961138, Iran</aff>
+      <author-notes>
+        <corresp id="c1-sustainability-18-11344"><label>*</label>Correspondence: <email>inankeskin@karabuk.edu.tr</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>18</volume>
+      <issue>21</issue>
+      <elocation-id>11344</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>09</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>21</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>11</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the authors.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>This study investigates the mechanical performance, freeze&#x2013;thaw durability, and microstructural characteristics of marl soil treated with iron and steel cooling water sludge (CWS) and polypropylene fibers (PPFs). The CWS used in this study is an Fe-rich industrial by-product generated from the cooling water circulation system of an iron and steel production facility. In an initial screening stage, mixtures containing 5&#x2013;30% CWS and 0.2&#x2013;1.4% PPF were evaluated using 7-day unconfined compressive strength (UCS) tests. The highest UCS values within the investigated ranges were obtained at 15% CWS and 1% PPF, increasing the UCS of untreated marl from approximately 254 kPa to 430 kPa with 15% CWS and 450 kPa with 1% PPF. These dosages were subsequently selected for the freeze&#x2013;thaw durability program. Untreated and treated specimens were conditioned or cured for 7, 28, and 90 days and subjected to up to 10 freeze&#x2013;thaw cycles. Repeated freeze&#x2013;thaw exposure reduced the UCS of all the specimens; however, the magnitude of deterioration depended strongly on the treatment type and the curing duration. Untreated marl exhibited strength losses of 27.7&#x2013;31.5% after 10 cycles. The 15% CWS-treated specimens showed comparatively stable freeze&#x2013;thaw resistance, with strength losses of 20.5&#x2013;22.6%, whereas the performance of 1% PPF was strongly curing-time dependent, with the strength loss decreasing from 58.2% at 7 days to 27.5% at 90 days. The combined 15% CWS + 1% PPF treatment exhibited the most favorable response at 90 days, with a strength loss of 20.7% after 10 freeze&#x2013;thaw cycles. The SEM observations qualitatively indicated a comparatively more compact and continuous matrix in the treated specimens, while the XRD patterns showed mineralogical differences associated with CWS incorporation; however, specific cementitious or hydration products could not be conclusively confirmed. Overall, the combined CWS&#x2013;PPF treatment improved the mechanical integrity and freeze&#x2013;thaw durability of marl soil and may provide a practical route for the beneficial reuse of an iron and steel industry by-product, provided that its environmental suitability is confirmed.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>sustainable soil stabilization</kwd>
+        <kwd>marl soil</kwd>
+        <kwd>freeze&#x2013;thaw</kwd>
+        <kwd>iron and steel cooling water sludge</kwd>
+        <kwd>polypropylene fiber</kwd>
+        <kwd>industrial by-product reuse</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="ROR">https://ror.org/04wy7gp54</institution-id>
+              <institution>Scientific Research Projects Coordination Unit of Karab&#xFC;k University (KB&#xDC;BAP), T&#xFC;rkiye</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>KB&#xDC;BAP-25-YL-041</award-id>
+        </award-group>
+        <funding-statement>This research was funded by the Scientific Research Projects Coordination Unit of Karab&#xFC;k University (KB&#xDC;BAP), T&#xFC;rkiye, grant number KB&#xDC;BAP-25-YL-041. The APC was funded by the authors.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-sustainability-18-11344" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Freeze&#x2013;thaw (FT) cycling is an important environmental factor governing the long-term performance of soils used in transportation infrastructure, embankments, retaining structures, and foundation systems in cold regions. During freezing, the phase transition of pore water and the associated redistribution of moisture can alter interparticle contacts and generate stresses within the soil skeleton. Repeated exposure may consequently lead to progressive changes in soil structure, mechanical strength, and deformation characteristics [<xref ref-type="bibr" rid="B1-sustainability-18-11344">1</xref>,<xref ref-type="bibr" rid="B2-sustainability-18-11344">2</xref>,<xref ref-type="bibr" rid="B3-sustainability-18-11344">3</xref>]. The severity of these changes depends on soil composition, moisture conditions, stabilization method, and exposure history. Previous investigations have demonstrated that FT cycling can reduce the mechanical resistance of untreated and modified soils, with implications for soil durability, erosion, and the performance of geotechnical infrastructure [<xref ref-type="bibr" rid="B4-sustainability-18-11344">4</xref>,<xref ref-type="bibr" rid="B5-sustainability-18-11344">5</xref>,<xref ref-type="bibr" rid="B6-sustainability-18-11344">6</xref>,<xref ref-type="bibr" rid="B7-sustainability-18-11344">7</xref>].</p>
+      <p>Marl soils present particular challenges under repeated freezing and thawing because their engineering behavior is influenced by the interaction between clayey constituents, carbonate minerals, and moisture variations. Depending on their composition and initial condition, these soils may undergo softening, structural degradation, and a progressive reduction in load-bearing capacity when exposed to unfavorable environmental conditions. Such behavior is particularly relevant when marl is used in road subgrades, embankment fills, and foundation layers. Experimental investigations have demonstrated the susceptibility of marl to changes in mechanical properties under repeated FT exposure [<xref ref-type="bibr" rid="B2-sustainability-18-11344">2</xref>,<xref ref-type="bibr" rid="B8-sustainability-18-11344">8</xref>]. Improving the ability of marl to retain strength after cyclic freezing and thawing is therefore an important consideration in evaluating stabilization strategies for cold-region geotechnical applications.</p>
+      <p>The deterioration of fine-grained soils under FT exposure is commonly associated with ice formation, moisture redistribution, and the progressive weakening of particle contacts. Repeated cycles can facilitate the development of microcracks and changes in pore structure, although the relative importance of these processes depends on the initial soil condition and the imposed thermal and hydraulic boundaries [<xref ref-type="bibr" rid="B5-sustainability-18-11344">5</xref>,<xref ref-type="bibr" rid="B9-sustainability-18-11344">9</xref>]. Several approaches have been investigated to reduce these adverse effects. Aiban et al. [<xref ref-type="bibr" rid="B10-sustainability-18-11344">10</xref>] examined the engineering performance of a stabilized marl base, providing evidence of the practical relevance of marl stabilization. Shafiei et al. [<xref ref-type="bibr" rid="B8-sustainability-18-11344">8</xref>] investigated the mechanical behavior of marl treated with cement and lignosulfonate under FT cycling, demonstrating the importance of treatment composition and curing conditions. Khoshbakht et al. [<xref ref-type="bibr" rid="B11-sustainability-18-11344">11</xref>] explored electrokinetic injection of calcium chloride as an alternative method for reducing FT-related deterioration in marl. Although these methods offer potential improvements, their applicability depends on material requirements, treatment procedures, environmental considerations, and the conditions under which the stabilized soil is expected to perform. Recent studies have demonstrated the potential of industrial by-products and fiber reinforcement for improving freeze&#x2013;thaw (FT) performance. Sengul et al. [<xref ref-type="bibr" rid="B12-sustainability-18-11344">12</xref>] investigated fly ash and polypropylene fiber stabilization of clayey subgrade soils, while Arasteh-Khoshbin et al. [<xref ref-type="bibr" rid="B13-sustainability-18-11344">13</xref>] examined the FT behavior of nano-SiO<sub>2</sub>-modified concrete. Although these studies highlight the benefits of mineral modification and reinforcement, their materials and underlying mechanisms differ from those of Fe-rich industrial cooling water sludge (CWS). Therefore, the combined influence of CWS and polypropylene fibers on the FT durability of marl soil requires further investigation.</p>
+      <p>Alternative binders and discrete-fiber reinforcement have also been investigated to improve the durability of problematic soils. Jamalimoghadam and Bahmyari [<xref ref-type="bibr" rid="B14-sustainability-18-11344">14</xref>] examined the FT response of marl stabilized with an alkali-activated recycled-glass-powder binder, highlighting the potential of alternative binding systems for modifying the behavior of moisture-sensitive marl. Fiber reinforcement provides a different approach by introducing discrete elements that can contribute to stress redistribution and resistance to deformation. Investigations involving fiber-reinforced loess, cement-stabilized clay, and treated clayey sand have demonstrated that the mechanical response depends on the reinforcing material, the surrounding soil matrix, and the stabilization conditions [<xref ref-type="bibr" rid="B15-sustainability-18-11344">15</xref>,<xref ref-type="bibr" rid="B16-sustainability-18-11344">16</xref>,<xref ref-type="bibr" rid="B17-sustainability-18-11344">17</xref>]. Related studies on reinforced sludge, embankment soils, and cement-stabilized clayey soils further illustrate the influence of fiber incorporation on mechanical behavior and deformation characteristics [<xref ref-type="bibr" rid="B18-sustainability-18-11344">18</xref>,<xref ref-type="bibr" rid="B19-sustainability-18-11344">19</xref>,<xref ref-type="bibr" rid="B20-sustainability-18-11344">20</xref>]. Nevertheless, the presence of polypropylene fibers (PPFs) does not necessarily ensure uniform improvements in FT resistance across different soil types and curing periods. Their contribution may depend on fiber distribution, mechanical anchorage, and the interaction between the fibers and the evolving soil matrix.</p>
+      <p>The use of industrial by-products in soil stabilization offers an additional opportunity to investigate alternative treatment materials while exploring potential pathways for waste utilization. Previous studies have considered agricultural and industrial residues as substitutes or supplementary materials in ground improvement, although their effectiveness varies considerably with chemical composition and soil characteristics [<xref ref-type="bibr" rid="B21-sustainability-18-11344">21</xref>]. One such material is cooling water sludge (CWS), generated during iron and steel production when suspended solids, metal oxides, and mineral precipitates accumulate in cooling water circulation and sedimentation systems. Unlike conventional steel slag or manufactured cementitious additives, the characteristics of CWS are closely related to its industrial origin and the conditions under which the sludge is collected. The material investigated in this study is predominantly Fe-rich, with additional Ca-, Si-, and Al-bearing constituents. Its introduction into marl may influence the arrangement and packing of soil particles and the characteristics of the compacted matrix. However, the extent to which these changes contribute to FT resistance requires experimental evaluation. From a sustainability perspective, the beneficial reuse of CWS in geotechnical applications may reduce disposal demand and promote more resource-efficient use of industrial by-products. However, such reuse should remain conditional on environmental validation, including leaching behavior and long-term field performance.</p>
+      <p>A particularly relevant comparison is the investigation by Vakili et al. [<xref ref-type="bibr" rid="B22-sustainability-18-11344">22</xref>], who examined marl modified with lignosulfonate and polypropylene fibers under FT exposure and reported improvements in mechanical performance using their combined treatment. Their findings demonstrate that incorporating fibers alongside a soil-modifying agent can be beneficial, but they do not establish whether similar behavior can be achieved with an Fe-rich industrial sludge having different chemical and physical characteristics. The present CWS system differs from lignosulfonate-based and alkali-activated treatments because no external alkaline activator, lime, or Portland cement is introduced. Consequently, improved strength cannot be attributed a priori to conventional hydration or pozzolanic reactions. Changes in particle packing, matrix continuity, and fiber&#x2013;soil interactions are plausible contributions, while any additional physicochemical effects require supporting evidence. This distinction is important when assessing the applicability of CWS as a soil-treatment material rather than treating all industrial by-products as functionally equivalent stabilizers.</p>
+      <p>Against this background, the unresolved question is whether Fe-rich CWS, used alone or in combination with PPFs, can improve the retention of marl strength under repeated FT exposure and how the response varies with the curing duration. The investigation first evaluates CWS contents of 5&#x2013;30% and PPF contents of 0.2&#x2013;1.4% through 7-day unconfined compressive strength (UCS) testing to identify the best-performing dosages within the investigated ranges. The selected mixtures are then examined after 7, 28, and 90 days of curing and exposure to up to 10 FT cycles. Mean UCS values are used to evaluate strength deterioration and retention, while representative stress&#x2013;strain responses provide complementary information on deformation behavior. Scanning electron microscopy (SEM) and X-ray diffraction (XRD) are further employed to examine the observable microstructural and mineralogical characteristics of the treated soil. By considering the individual and combined CWS and PPF treatments within the same experimental program, this study provides evidence of their relative performance under the investigated conditions without assuming a specific stabilization mechanism or a statistically established synergistic effect.</p>
+    </sec>
+    <sec id="sec2-sustainability-18-11344" sec-type="materials">
+      <title>2. Materials</title>
+      <sec id="sec2dot1-sustainability-18-11344">
+        <title>2.1. Sampling Location and Soil Characterization</title>
+        <p>The marl samples used in this study were obtained from the central district of Karab&#xFC;k, T&#xFC;rkiye, located at 41.2166&#xB0;N and 32.6481&#xB0;E. The geographical location of the study area and the sampling site are shown in <xref ref-type="fig" rid="sustainability-18-11344-f001">Figure 1</xref>a,b, while representative field views of the exposed marl formation and sampling zone are presented in <xref ref-type="fig" rid="sustainability-18-11344-f001">Figure 1</xref>c,d. After collection, the soil was air-dried under laboratory conditions. The particle-size distribution was determined following ASTM D422, and the resulting grading curve is presented in <xref ref-type="fig" rid="sustainability-18-11344-f001">Figure 1</xref>e. The principal physical, geotechnical, and chemical characteristics of the marl soil are summarized in <xref ref-type="table" rid="sustainability-18-11344-t001">Table 1</xref>. The physical and geotechnical properties are presented in <xref ref-type="table" rid="sustainability-18-11344-t001">Table 1</xref>a, while the XRF-determined chemical composition is given in <xref ref-type="table" rid="sustainability-18-11344-t001">Table 1</xref>b. Prior to specimen preparation, the air-dried marl was gently disaggregated and passed through a 2 mm sieve to obtain a more uniform testing material. The chemical composition of the marl was determined by X-ray fluorescence (XRF) at the MARGEM Laboratory of Karab&#xFC;k University. X-ray diffraction (XRD) analysis was also performed to identify the principal mineral phases of the soil, and the corresponding XRD pattern is shown in <xref ref-type="fig" rid="sustainability-18-11344-f001">Figure 1</xref>f.</p>
+      </sec>
+      <sec id="sec2dot2-sustainability-18-11344">
+        <title>2.2. Reinforcement Materials</title>
+        <sec id="sec2dot2dot1-sustainability-18-11344">
+          <title>2.2.1. Iron and Steel Cooling Water Sludge (CWS)</title>
+          <p>The cooling water sludge (CWS) used in this study was obtained from the cooling water circulation system of the Karab&#xFC;k Iron and Steel Plant in Karab&#xFC;k, T&#xFC;rkiye. The location of the plant, the cooling-water sludge accumulation basin, and the CWS used in this study are shown in <xref ref-type="fig" rid="sustainability-18-11344-f002">Figure 2</xref>a&#x2013;c. Unlike drinking-water treatment sludge or municipal wastewater sludge, the material investigated herein is an industrial residue generated during iron and steel production. Cooling water used in the production process is recirculated and subsequently directed to sedimentation units, where suspended solids, metal oxides, and precipitated mineral constituents accumulate and form a concentrated sludge. Similar wet-handling and sedimentation processes in the iron and steel industry are known to generate Fe-rich sludge and scale residues containing iron oxides together with variable amounts of other mineral and metallic constituents [<xref ref-type="bibr" rid="B23-sustainability-18-11344">23</xref>].</p>
+          <p>Following collection, the CWS was naturally air-dried under ambient conditions and stored for subsequent laboratory use without grinding, chemical modification, or other pretreatment, in accordance with the experimental procedure adopted in this study. Its chemical composition was determined by X-ray fluorescence (XRF), and the results are presented in <xref ref-type="table" rid="sustainability-18-11344-t002">Table 2</xref>. Fe<sub>2</sub>O<sub>3</sub> was the dominant oxide, accounting for 68.79% of the measured composition, followed by CaO (13.64%) and SiO<sub>2</sub> (5.96%). Smaller amounts of ZnO (4.39%), SO<sub>3</sub> (3.28%), Al<sub>2</sub>O<sub>3</sub> (1.24%), P<sub>2</sub>O<sub>5</sub> (1.24%), MgO (0.86%), MnO (0.79%), and CuO (0.13%) were also detected. The predominance of Fe-bearing phases is consistent with the general characteristics of several sludges and fine residues generated in iron and steelmaking operations, although their composition can vary substantially depending on the production stage and process conditions [<xref ref-type="bibr" rid="B23-sustainability-18-11344">23</xref>,<xref ref-type="bibr" rid="B24-sustainability-18-11344">24</xref>].</p>
+          <p>The high Fe<sub>2</sub>O<sub>3</sub> content of the CWS, together with the presence of CaO, SiO<sub>2</sub>, and Al<sub>2</sub>O<sub>3</sub>, suggests that its incorporation may alter the particle-size framework, packing characteristics, and physicochemical interactions within the marl matrix. Previous research has demonstrated that steel-industry residues can be incorporated into construction materials and, depending on their composition and processing, may contribute to changes in matrix density and mechanical behavior [<xref ref-type="bibr" rid="B24-sustainability-18-11344">24</xref>,<xref ref-type="bibr" rid="B25-sustainability-18-11344">25</xref>]. Nevertheless, the CWS used in the present study should not be directly equated with conventional steel slag or assumed to behave as a cementitious binder. In particular, no external alkaline activator, lime, or Portland cement was added. Accordingly, its contribution is interpreted primarily in terms of physical filling, modification of particle packing, and physicochemical interactions between the sludge particles and the marl matrix. Any curing-related chemical contribution is considered a secondary possibility and is evaluated cautiously in conjunction with the mechanical, SEM, and XRD results.</p>
+          <p>The beneficial use of iron- and steel-industry by-products in construction has received increasing attention because these materials are generated in substantial quantities and their disposal or long-term storage can create both resource-management and environmental concerns. Reviews of steel-industry by-products indicate that slags, dusts, sludges, and mill-scale residues have been investigated for applications including road construction, cementitious materials, concrete, soil improvement, and internal metallurgical recycling, although their suitability depends strongly on chemical composition, mineralogy, volumetric stability, and potential contaminant release [<xref ref-type="bibr" rid="B23-sustainability-18-11344">23</xref>,<xref ref-type="bibr" rid="B25-sustainability-18-11344">25</xref>,<xref ref-type="bibr" rid="B26-sustainability-18-11344">26</xref>]. In this context, the present study investigates CWS as an alternative additive for improving the mechanical performance and freeze&#x2013;thaw durability of marl soil while exploring a potential beneficial-use route for an iron and steel industry by-product.</p>
+        </sec>
+        <sec id="sec2dot2dot2-sustainability-18-11344">
+          <title>2.2.2. Polypropylene Monofibers</title>
+          <p>Polypropylene fibers (PPFs) were used as the discrete reinforcing component in the stabilized marl mixtures. PPFs are commonly employed in geotechnical and construction applications because of their low density, chemical stability, corrosion resistance, and ability to improve tensile resistance and crack control. When randomly distributed within a soil matrix, the fibers can bridge developing cracks, redistribute tensile stresses, and reduce brittle behavior, thereby contributing to improved ductility and resistance to environmentally induced damage such as shrinkage and freeze&#x2013;thaw deterioration. In the present study, commercially available polypropylene fibers supplied by Polyfibers Company were used. The fibers consisted of 100% polypropylene and were used in discrete form. The fibers had a nominal length of 12 mm, an average diameter of 0.034 mm, and a unit weight of 0.91 g/cm<sup>3</sup>. Their breaking tensile strength and modulus of elasticity were 350 MPa and 3500 MPa, respectively. The melting and burning points were 165 &#xB0;C and 590 &#xB0;C, respectively, and the fibers exhibited strong resistance to acidic and alkaline environments. The physical and mechanical properties of the polypropylene fibers used in this study are summarized in <xref ref-type="table" rid="sustainability-18-11344-t003">Table 3</xref>.</p>
+        </sec>
+        <sec id="sec2dot2dot3-sustainability-18-11344">
+          <title>2.2.3. Mixing and Sample Preparation</title>
+          <p>In this study, marl soil specimens were prepared by incorporating varying proportions of iron and steel cooling water sludge (CWS) and polypropylene fibers (PPFs). The CWS and PPF contents were calculated as percentages of the dry mass of the marl soil. The CWS-only and PPF-only mixtures were prepared using the compaction conditions established separately for the corresponding additive contents, as summarized in <xref ref-type="table" rid="sustainability-18-11344-t004">Table 4</xref>. For the combined 15% CWS + 1% PPF specimens, the CWS-modified and PPF-reinforced components were first prepared according to their respective individual compaction conditions and were subsequently combined and thoroughly homogenized before specimen compaction. A separate Standard Proctor test was not conducted for the combined CWS + PPF mixture; consequently, an independent OMC&#x2013;MDD pair is not reported for the hybrid mixture in <xref ref-type="table" rid="sustainability-18-11344-t004">Table 4</xref>. Prior to mixing, the air-dried marl was gently disaggregated and passed through a 2 mm sieve. The required amounts of marl, CWS, and PPFs were then prepared according to the specified mixture proportions. For the individually modified CWS and PPF mixtures, water was added according to the optimum moisture contents determined from the corresponding Standard Proctor tests. The prepared materials were thoroughly mixed by hand to achieve uniform additive and moisture distribution. The moist mixtures were subsequently sealed in plastic bags and conditioned for approximately 24 h to promote uniform moisture distribution before compaction.</p>
+          <p>The prepared mixtures were compacted in three layers using compactive energy equivalent to that required to achieve the corresponding maximum dry density determined from the Standard Proctor tests conducted in accordance with ASTM D698. The compacted material was then formed into cylindrical UCS specimens measuring 37 mm in diameter and 78 mm in height. Following specimen preparation, the samples were sealed to minimize moisture exchange with the surrounding environment during the prescribed conditioning or curing periods. The specimens were cured under controlled laboratory conditions at 20 &#xB1; 2 &#xB0;C. Target moisture and compaction conditions were controlled during specimen preparation; however, specimen-specific moisture contents and achieved dry densities were not independently recorded before and after FT cycling. Internal specimen temperature was not monitored during freezing and thawing; therefore, complete freezing and thawing were imposed through the prescribed chamber temperatures and exposure durations rather than independently verified from internal temperature measurements.</p>
+          <p>In the preliminary stage of the experimental program, specimens containing 5&#x2013;30% CWS and 0.2&#x2013;1.4% PPF were cured for 7 days and subjected to unconfined compressive strength (UCS) testing. The 7-day curing period was used as a comparative screening stage to evaluate all candidate additive contents under the same curing condition before conducting the more extensive freeze&#x2013;thaw durability program. Among the investigated mixtures, 15% CWS and 1% PPF produced the highest 7-day UCS values, reaching approximately 430 and 450 kPa, respectively, compared with 254 kPa for untreated marl. Therefore, these dosages were selected as the best-performing contents within the investigated ranges for subsequent freeze&#x2013;thaw testing. This selection should not be interpreted as demonstrating a universal optimum for all curing periods or field conditions (<xref ref-type="fig" rid="sustainability-18-11344-f003">Figure 3</xref>).</p>
+          <p>UCS tests were performed in triplicate (<italic>n</italic> = 3), and the results are reported as arithmetic means. For specimens subjected to 10 freeze&#x2013;thaw cycles, the individual measurements were used to calculate sample standard deviations (SDs) and coefficients of variation (CVs). The corresponding SD values are presented as error bars in <xref ref-type="fig" rid="sustainability-18-11344-f003">Figure 3</xref> to illustrate experimental variability. However, the limited number of replicates and the unavailability of complete specimen-level records for all experimental conditions restrict comprehensive statistical comparisons. Therefore, the observed differences are interpreted descriptively, without claiming statistical significance.</p>
+          <p>After the designated curing periods, the specimens were subjected to repeated freeze&#x2013;thaw (FT) cycles. The durability program included four specimen groups: untreated marl, marl treated with 15% CWS, marl reinforced with 1% PPF, and marl treated with the combined 15% CWS + 1% PPF mixture. These groups were evaluated after 7, 28, and 90 days of curing. During the durability testing, the specimens remained sealed with stretch film and aluminum foil to minimize moisture exchange. Each FT cycle consisted of freezing at &#x2212;18 &#xB0;C for 24 h followed by thawing in air at +20 &#xB0;C for 8 h. A maximum of 10 FT cycles was applied. UCS tests were conducted before FT exposure and after 1, 2, 4, 6, 8, and 10 FT cycles to evaluate the progressive change in strength. The values obtained after the tenth cycle were used to determine residual UCS, strength retention, and strength loss (<xref ref-type="fig" rid="sustainability-18-11344-f003">Figure 3</xref>). For the microstructural and mineralogical investigations, specimens representing the 90-day curing condition were selected based on the highest UCS performance observed in the experimental program. SEM and XRD analyses were conducted on untreated marl and the 15% CWS + 1% PPF mixture before and after 10 freeze&#x2013;thaw cycles to qualitatively evaluate changes in morphology and crystalline characteristics.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec3-sustainability-18-11344" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-sustainability-18-11344">
+        <title>3.1. Preliminary Evaluation of Mix Ratio Results</title>
+        <p>The effects of CWS and polypropylene fibers (PPFs) on the 7-day unconfined compressive strength (UCS) of marl soil were evaluated over CWS contents of 5&#x2013;30% and PPF contents of 0.2&#x2013;1.4%. <xref ref-type="table" rid="sustainability-18-11344-t005">Table 5</xref> presents the mean UCS values, whereas <xref ref-type="table" rid="sustainability-18-11344-t006">Table 6</xref> presents the corresponding strength improvement (SI) values calculated using Equation (1):<disp-formula id="FD1-sustainability-18-11344"><label>(1)</label><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="italic">Soil</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mi mathvariant="italic">improvement</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mo>%</mml:mo><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="italic">UCS</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">CWS</mml:mi><mml:mo>/</mml:mo><mml:mi mathvariant="italic">PPF</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="italic">UCS</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">Marl</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="italic">UCS</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">Marl</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mstyle><mml:mo>&#xD7;</mml:mo><mml:mn>100</mml:mn></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p><xref ref-type="table" rid="sustainability-18-11344-t005">Table 5</xref> and <xref ref-type="table" rid="sustainability-18-11344-t006">Table 6</xref> show that increasing CWS content from 5% to 15% raised the mean UCS from 338 to 430 kPa, with an SI of 69.3% relative to untreated marl (254 kPa). At higher CWS contents, UCS decreased to 305 kPa at 30% CWS. Thus, 15% CWS was the best-performing dosage within the investigated range based on the 7-day UCS screening. For PPFs, the UCS increased from 345 kPa at 0.2% to 450 kPa at 1.0%, corresponding to an SI of 77.2%; a higher PPF content produced a lower UCS, reaching 427 kPa at 1.4%. Accordingly, 1.0% PPF was the best-performing content within the investigated range based on the 7-day UCS screening. The possible effects of particle arrangement or fiber distribution remain hypotheses because they were not measured directly.</p>
+        <sec id="sec3dot1dot1-sustainability-18-11344">
+          <title>3.1.1. Performance Under Freeze&#x2013;Thaw Cycles</title>
+          <p>The variation in unconfined compressive strength (UCS) with freeze&#x2013;thaw (FT) cycles for untreated marl, 15% CWS-treated marl, 1% PPF-reinforced marl, and the hybrid mixture containing 15% CWS + 1% PPF is presented in <xref ref-type="fig" rid="sustainability-18-11344-f004">Figure 4</xref>. Regardless of curing duration and treatment method, all specimens exhibited a gradual reduction in UCS as the number of FT cycles increased. This trend is consistent with FT-related deterioration reported for marl and fine-grained soils [<xref ref-type="bibr" rid="B5-sustainability-18-11344">5</xref>,<xref ref-type="bibr" rid="B7-sustainability-18-11344">7</xref>]. The present tests did not directly quantify the underlying pore-scale damage mechanisms.</p>
+          <p><xref ref-type="fig" rid="sustainability-18-11344-f004">Figure 4</xref>a shows that untreated marl lost strength as FT cycling progressed at each curing period. After 10 FT cycles, the UCS decreased from 254 to 174 kPa at 7 days, from 296 to 214 kPa at 28 days, and from 335 to 231 kPa at 90 days, corresponding to strength losses of 31.5%, 27.7%, and 31.0%, respectively. This response indicates susceptibility to FT-induced deterioration under the investigated sealed-specimen protocol. Since pore structure and crack evolution were not quantified during cycling, the relative contributions of ice expansion, moisture redistribution, and microcracking cannot be separated from the present UCS data.</p>
+          <p>The response of the specimens reinforced with 1% PPF (<xref ref-type="fig" rid="sustainability-18-11344-f004">Figure 4</xref>b) was strongly dependent on curing duration. At 7 days, the UCS decreased from 450 to 188 kPa after 10 cycles, corresponding to a strength loss of 58.2%. At 28 and 90 days, the residual UCS values increased to 352 and 404 kPa, respectively, while the corresponding strength losses decreased to 33.7% and 27.5%. Thus, PPF reinforcement alone provided relatively limited early-age resistance to FT deterioration, whereas its strength-retention performance improved markedly with increasing curing duration. This pattern may be compatible with the crack-bridging role commonly reported for discrete fibers [<xref ref-type="bibr" rid="B15-sustainability-18-11344">15</xref>], although the development of fiber&#x2013;soil interaction during curing was not measured directly in the present study.</p>
+          <p>The specimens treated with 15% CWS (<xref ref-type="fig" rid="sustainability-18-11344-f004">Figure 4</xref>c) exhibited higher initial UCS values than untreated marl and retained a comparatively stable proportion of their strength after repeated FT exposure. The UCS values decreased from 430 to 342 kPa, from 483 to 379 kPa, and from 501 to 388 kPa after 10 FT cycles at curing periods of 7, 28, and 90 days, respectively. The corresponding strength losses were 20.5%, 21.5%, and 22.6%. This relatively narrow range indicates that CWS addition provided comparatively stable resistance to FT-induced strength deterioration across the investigated curing periods. The SEM observations also showed a comparatively more compact and continuous appearance in the treated specimens; however, the exact contributions of pore filling, particle interaction, matrix densification, or possible chemical reactions cannot be quantified from the present experimental data alone.</p>
+          <p>The hybrid specimens containing 15% CWS and 1% PPF consistently exhibited the highest residual UCS values at all curing periods. The residual UCS values after 10 FT cycles were 368, 430, and 480 kPa at 7, 28, and 90 days, respectively, compared with initial UCS values of 495, 589, and 605 kPa. The corresponding strength losses were 25.7%, 27.0%, and 20.7%. However, the CWS-only specimens showed slightly higher percentage strength retention than the hybrid specimens at 7 and 28 days. At 90 days, the hybrid system achieved a strength retention of approximately 79.3%, corresponding to the lowest strength loss (20.7%) among the investigated treatment systems. The favorable residual-strength response of the combined treatment may be associated with complementary contributions: CWS may contribute to modification and stabilization of the soil matrix, whereas PPFs may contribute to crack restraint and maintenance of structural continuity during cyclic freezing and thawing. These mechanisms were not directly quantified.</p>
+          <p>The influence of curing duration was also evident across all stabilization systems. In general, specimens cured for longer periods exhibited higher initial and residual UCS values. The effect of curing duration was particularly pronounced for the PPF-containing specimens, for which strength loss decreased from 58.2% at 7 days to 27.5% at 90 days. In contrast, the strength loss of the CWS-only specimens remained comparatively stable, varying from approximately 20.5% to 22.6%. The improved response of the hybrid CWS + PPF system at longer curing durations is consistent with potentially complementary matrix and fiber contributions. Consequently, the 90-day hybrid specimens maintained the highest residual strength after FT cycling under the investigated conditions.</p>
+          <p><xref ref-type="fig" rid="sustainability-18-11344-f005">Figure 5</xref> presents the residual unconfined compressive strength (UCS) values of untreated and treated marl specimens after 10 freeze&#x2013;thaw (FT) cycles, while <xref ref-type="table" rid="sustainability-18-11344-t007">Table 7</xref> summarizes the corresponding pre-FT UCS, residual UCS, strength retention, strength loss, and strength improvement values. The results show that both the curing period and the treatment type influenced the post-freeze&#x2013;thaw mechanical response. For all the mixtures, the residual UCS increased with the curing duration, although the degree of strength retention varied considerably among the treatment systems. Untreated marl exhibited the lowest residual UCS values, increasing from 174 kPa at 7 days to 214 kPa at 28 days and 231 kPa at 90 days. The corresponding strength losses were 31.5%, 27.7%, and 31.0%. These results indicate that prolonged curing alone did not substantially improve the freeze&#x2013;thaw resistance of untreated marl, as approximately one-third of its initial strength was lost after 10 FT cycles.</p>
+          <p>The response of the 1% PPF-treated specimens was strongly dependent on curing duration. At 7 days, the residual UCS was 188 kPa, corresponding to a strength retention of 41.8% and a strength loss of 58.2%. Thus, PPF reinforcement alone provided limited early-age resistance to freeze&#x2013;thaw deterioration under the investigated conditions. However, its performance improved markedly with curing, with residual UCS values increasing to 352 kPa at 28 days and 404 kPa at 90 days. The corresponding strength losses decreased to 33.7% and 27.5%. Relative to untreated marl subjected to the same number of FT cycles, the residual strength improvements were 8.0%, 64.5%, and 74.9% at 7, 28, and 90 days, respectively.</p>
+          <p>The specimens treated with 15% CWS exhibited a more consistent freeze&#x2013;thaw response across the investigated curing periods. The residual UCS values increased from 342 kPa at 7 days to 379 kPa at 28 days and 388 kPa at 90 days. The strength retention remained relatively stable at 79.5%, 78.5%, and 77.4%, corresponding to strength losses of 20.5%, 21.5%, and 22.6%, respectively. Compared with untreated marl, the residual UCS improvements were 96.6%, 77.1%, and 68.0% at 7, 28, and 90 days, respectively. Although the relative improvement decreased with curing duration, the absolute residual UCS of the CWS-treated specimens continued to increase, indicating that the reduction in relative improvement mainly resulted from the simultaneous increase in the residual strength of untreated marl.</p>
+          <p>The combined 15% CWS + 1% PPF treatment produced the highest residual UCS at all curing periods. The residual UCS values reached 368, 430, and 480 kPa at 7, 28, and 90 days, respectively. However, the hybrid mixture did not exhibit the lowest percentage strength loss at every curing age; the CWS-only specimens showed slightly lower strength losses at 7 and 28 days. The strength retention values of the hybrid specimens were 74.3%, 73.0%, and 79.3%, corresponding to strength losses of 25.7%, 27.0%, and 20.7% at 7, 28, and 90 days, respectively. Relative to the untreated marl after the same FT exposure, the residual strength improvements were 111.5%, 100.9%, and 107.8%. At 90 days, the hybrid treatment achieved the highest residual UCS and the lowest strength loss among the investigated mixtures.</p>
+        </sec>
+        <sec id="sec3dot1dot2-sustainability-18-11344">
+          <title>3.1.2. Effect of Additive Type and Curing Time on the Stress&#x2013;Strain Behavior of Marl Soils</title>
+          <p>The stress&#x2013;strain responses presented in <xref ref-type="fig" rid="sustainability-18-11344-f006">Figure 6</xref> provide a qualitative comparison of the deformation characteristics of the untreated and treated marl specimens. The figure includes a representative 7-day untreated marl reference curve and selected 28- and 90-day specimens treated with 15% CWS, 1% PPF, and 15% CWS + 1% PPF after 10 freeze&#x2013;thaw (FT) cycles. Since the original exposure history of the untreated marl curve could not be independently verified, it is not considered a confirmed post-FT response. Furthermore, the curves do not represent identical curing and FT exposure conditions; therefore, they are used for illustrative assessment of stress&#x2013;strain behavior rather than direct quantitative comparison of FT resistance. The quantitative evaluation of strength deterioration is based on the mean UCS values presented in <xref ref-type="table" rid="sustainability-18-11344-t007">Table 7</xref>. A summary of the freeze&#x2013;thaw strength response and the corresponding stress&#x2013;strain characteristics of untreated and treated marl is provided in <xref ref-type="table" rid="sustainability-18-11344-t008">Table 8</xref>.</p>
+          <p>The representative untreated marl curve in <xref ref-type="fig" rid="sustainability-18-11344-f006">Figure 6</xref> exhibited a peak stress of approximately 251.9 kPa, which closely agrees with the mean pre-freeze&#x2013;thaw UCS of 254 kPa reported in <xref ref-type="table" rid="sustainability-18-11344-t007">Table 7</xref>, with a difference of approximately 0.8%. This agreement suggests that the curve may represent the initial reference condition rather than the residual strength after 10 freeze&#x2013;thaw cycles. However, the original specimen-level identification record is unavailable, and the exposure history of this curve cannot be conclusively established. Therefore, the untreated marl curve is considered only as a possible baseline reference, while the quantitative evaluation of freeze&#x2013;thaw-induced strength deterioration is based on the mean UCS values reported in <xref ref-type="table" rid="sustainability-18-11344-t007">Table 7</xref>. The mean UCS of untreated marl decreased from 254 to 174 kPa after 10 cycles, corresponding to a strength loss of 31.5%.</p>
+          <p>The response of the 1% PPF-reinforced marl was strongly dependent on the curing duration. At 7 days, the specimen exhibited the highest strength loss among the investigated systems (58.2% after 10 FT cycles). With increasing curing duration, however, the strength loss decreased to 33.7% at 28 days and 27.5% at 90 days. This curing dependence is also reflected in the representative stress&#x2013;strain curves: the peak stress increased from approximately 352.0 kPa at 28 days to 407.6 kPa at 90 days. This progressive improvement indicates that the mechanical contribution of PPFs became more effective as curing proceeded. The curves are compatible with a fiber-reinforcement mechanism capable of maintaining stress transfer after crack initiation; however, neither crack propagation nor fiber&#x2013;soil interfacial behavior was measured directly. Therefore, crack bridging should be treated as a mechanistic interpretation rather than as directly demonstrated evidence.</p>
+          <p>In contrast, the 15% CWS-treated marl exhibited the most stable percentage strength retention across the investigated curing periods. The corresponding strength losses after 10 FT cycles were approximately 20.5%, 21.5%, and 22.6% at 7, 28, and 90 days, respectively. The representative CWS-treated curves reached peak stresses of approximately 391.8 kPa at 28 days and 398.5 kPa at 90 days. The relatively small increase between these two curing periods contrasts with the more pronounced curing-related increase observed for the PPF-containing specimens and is consistent with the comparatively stable FT strength-retention response of the CWS-treated material. CWS incorporation therefore appears to have increased the load-carrying capacity and stability of the marl matrix. However, the stress&#x2013;strain curves alone do not allow the relative contributions of particle filling, matrix densification, physicochemical interaction, or curing-related reactions to be distinguished quantitatively.</p>
+          <p>The combined 15% CWS + 1% PPF treatment exhibited the highest representative peak stresses among the selected treated specimens. The peak stress increased from approximately 456.9 kPa at 28 days to 479.2 kPa at 90 days. These values are consistent with the corresponding mean residual UCS trend and, in particular, the 90-day representative peak stress closely agrees with the mean residual UCS of 480 kPa. After 10 FT cycles, the mean residual UCS values of the combined specimens were 368, 430, and 480 kPa at curing periods of 7, 28, and 90 days, respectively, and the corresponding strength losses were 25.7%, 27.0%, and 20.7%. Although CWS alone provided slightly better percentage strength retention at 7 and 28 days, the combined treatment consistently maintained the highest absolute residual UCS. At 90 days, the hybrid mixture exhibited both the highest residual UCS and the lowest strength loss among the investigated systems.</p>
+          <p>The comparison of the representative stress&#x2013;strain curves reveals distinct responses depending on additive type and curing duration. The CWS-treated specimens exhibited relatively similar peak stresses at 28 and 90 days, whereas the PPF-reinforced and combined CWS + PPF specimens showed more pronounced curing-related increases in peak stress. Among the treated specimens exposed to 10 freeze&#x2013;thaw cycles, the combined CWS + PPF system exhibited the highest representative peak stresses at both curing periods. However, the untreated marl reference curve is not directly comparable with the post-freeze&#x2013;thaw curves because its exposure history could not be independently verified. Furthermore, these representative curves illustrate the observed mechanical trends and should not be interpreted as evidence of statistically significant differences between treatment systems.</p>
+          <p>The post-peak portions of the treated curves also indicate that substantial load-carrying capacity was retained beyond the peak stress. However, the present curves do not provide sufficient evidence to rank the treatment systems quantitatively in terms of ductility or toughness without a dedicated and internally consistent calculation of peak strain, failure strain, and energy absorption. Accordingly, the stress&#x2013;strain response is interpreted here primarily in terms of peak stress, curing dependence, and post-peak load retention rather than by assigning a definitive ductility hierarchy.</p>
+          <p>Overall, the stress&#x2013;strain responses provide qualitative insight into the different mechanical contributions of CWS and PPFs, while the mean UCS results presented in <xref ref-type="table" rid="sustainability-18-11344-t007">Table 7</xref> demonstrate their influence on freeze&#x2013;thaw resistance. The CWS-treated specimens exhibited comparatively stable strength retention across the investigated curing periods, whereas the effectiveness of PPF reinforcement increased with curing duration. The combined CWS + PPF treatment achieved the highest mean residual UCS at all curing ages, reaching 480 kPa after 90 days and 10 freeze&#x2013;thaw cycles. Nevertheless, CWS alone exhibited slightly higher percentage strength retention at 7 and 28 days. These findings suggest potentially complementary contributions from matrix modification and fiber reinforcement. However, the available mechanical and microstructural evidence does not permit the independent quantification of these mechanisms or establish a statistically significant synergistic effect.</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot2-sustainability-18-11344">
+        <title>3.2. Microstructural and Mineralogical Analysis</title>
+        <sec id="sec3dot2dot1-sustainability-18-11344">
+          <title>3.2.1. Microstructural Evolution Analyzed by Scanning Electron Microscopy</title>
+          <p>Scanning electron microscopy (SEM) was used to qualitatively examine the untreated marl and the combined 15% CWS + 1% PPF mixture before and after freeze&#x2013;thaw (FT) exposure. Representative micrographs at different magnifications are presented in <xref ref-type="fig" rid="sustainability-18-11344-f007">Figure 7</xref>. The observations were used to qualitatively compare particle arrangement, visible voids, matrix continuity, fiber occurrence, and localized damage features. No quantitative image analysis was performed; therefore, the micrographs were not used to determine porosity, crack density, surface roughness, or reaction-product content.</p>
+          <p>The untreated marl specimen (<xref ref-type="fig" rid="sustainability-18-11344-f007">Figure 7</xref>a) exhibited a relatively loose and heterogeneous microstructure. Plate-like particles, visible interparticle voids, relatively smooth particle surfaces, and loose particle packing can be distinguished in the examined areas. These features are qualitatively consistent with the comparatively low strength and brittle response of the untreated marl. However, the observed morphology represents localized regions only and cannot be interpreted as a quantitative characterization of the bulk pore structure.</p>
+          <p>The combined 15% CWS + 1% PPF specimen before FT exposure (<xref ref-type="fig" rid="sustainability-18-11344-f007">Figure 7</xref>b) showed a comparatively more compact and integrated appearance than the untreated marl. PPFs were clearly visible within the soil matrix, and locally dense matrix zones and particle aggregates were observed adjacent to the fibers and surrounding soil particles. The visible fiber&#x2013;matrix contact is compatible with a mechanical reinforcing role of the PPF, while the comparatively compact matrix is consistent with the higher strength measured for the treated specimens. Nevertheless, the SEM images alone do not demonstrate flocculation, cementation, or a specific chemical bonding mechanism.</p>
+          <p>Following FT exposure (<xref ref-type="fig" rid="sustainability-18-11344-f007">Figure 7</xref>c), localized voids, crack-like discontinuities, and local gaps adjacent to the fiber&#x2013;matrix interface became visible in the examined areas. At the same time, PPFs remained embedded within portions of the matrix. The coexistence of localized damage and retained fiber&#x2013;matrix contact is qualitatively consistent with partial deterioration of the stabilized matrix while some structural continuity was maintained after repeated FT cycling. However, the SEM observations do not quantify the extent of damage or establish whether the observed local gaps resulted exclusively from FT action rather than specimen preparation or localized fracture during testing.</p>
+          <p>Overall, the SEM observations indicate that the combined CWS&#x2013;PPF treatment was associated with a comparatively denser and more continuous matrix appearance before FT exposure, whereas FT cycling was accompanied by localized void development, crack-like discontinuities, and apparent fiber&#x2013;matrix gaps. The persistence of embedded fibers may have contributed to maintaining local continuity across damaged regions, but crack bridging and interfacial stress transfer were not directly measured. Similarly, the comparatively compact morphology of the treated specimen is consistent with modification of particle packing and matrix organization, but SEM alone cannot distinguish physical filling from physicochemical interactions. The treated matrix exhibited a comparatively denser and more integrated appearance, whereas FT exposure was associated with localized cracking, void development, and particle or fiber&#x2013;matrix separation in the examined regions. These observations are consistent with the mechanical trends but should not be interpreted as quantitative evidence of a specific stabilization mechanism.</p>
+        </sec>
+        <sec id="sec3dot2dot2-sustainability-18-11344">
+          <title>3.2.2. Phase Composition Evolution Analyzed by X-Ray Diffraction</title>
+          <p>An x-ray diffraction (XRD) analysis was performed to qualitatively compare untreated marl and the 15% CWS + 1% PPF-treated specimens before and after freeze&#x2013;thaw (FT) exposure. The diffraction patterns are presented in <xref ref-type="fig" rid="sustainability-18-11344-f008">Figure 8</xref>. The analysis was used to compare the principal crystalline features and relative changes in diffraction response; no quantitative phase analysis or Rietveld refinement was performed. The untreated marl exhibited several prominent diffraction peaks associated with its natural mineralogical framework. The principal reflections were observed in the 26&#x2013;30&#xB0; 2&#x3B8; region, with the peak near 26.6&#xB0; assigned to quartz (Q) and the prominent reflection near 29.4&#xB0; assigned to calcite (C). Additional calcite-related reflections were observed in the approximately 43&#x2013;49&#xB0; 2&#x3B8; range, as indicated in <xref ref-type="fig" rid="sustainability-18-11344-f008">Figure 8</xref>. These principal reflections remained identifiable in the treated specimens both before and after FT exposure, indicating that the dominant crystalline framework of the marl was largely preserved during treatment and subsequent thermal cycling. A separate XRD pattern of the raw CWS was not available in the original experimental dataset. Consequently, crystalline phases originating specifically from the CWS, particularly Fe-bearing phases, could not be independently distinguished from those of the marl matrix.</p>
+          <p>Following treatment with 15% CWS + 1% PPF, changes in relative peak intensity and background level were observed compared with untreated marl. These differences indicate modification of the mineralogical and microstructural environment of the soil matrix after additive incorporation and curing. However, the absence of clearly resolved new diffraction peaks means that no newly formed crystalline reaction product can be identified with confidence from the present qualitative patterns alone. Accordingly, the XRD results do not provide direct evidence for the formation of specific hydration products such as C&#x2013;S&#x2013;H, C&#x2013;A&#x2013;H, Ca(OH)<sub>2</sub>, or brucite. Although weak or overlapping reflections may occur in angular ranges where such phases can also be present, poorly crystalline or amorphous products cannot be reliably distinguished from the background or from overlapping peaks of the existing mineral phases without complementary phase-identification methods.</p>
+          <p>After FT exposure, the overall diffraction pattern remained broadly similar to that of the treated specimen before cycling. The principal reflections remained detectable, while only moderate changes in relative peak intensity were observed. This suggests that repeated FT exposure did not cause an obvious transformation or disappearance of the major crystalline constituents within the sensitivity of the present XRD analysis. However, variations in peak intensity should not be interpreted directly as mineral degradation or phase growth, because such changes may also arise from preferred orientation, particle-size effects, sample preparation, or differences in packing of the powdered specimens.</p>
+          <p>Overall, the XRD results indicate that CWS + PPF treatment modified the relative diffraction response of the marl without producing a clearly identifiable new crystalline phase assemblage. The dominant crystalline framework remained recognizable after both treatment and FT cycling. When considered together with the SEM and mechanical results, the observed improvement in strength and freeze&#x2013;thaw resistance is therefore more conservatively attributed to modification of particle arrangement, matrix densification, fiber reinforcement, and possible physicochemical interactions rather than to confirmed formation of new crystalline cementitious products. The XRD evidence should consequently be regarded as supporting mineralogical continuity and matrix modification, rather than as direct proof of a specific hydration or cementation mechanism.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec4-sustainability-18-11344" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>The results demonstrate that the freeze&#x2013;thaw durability of marl soil depends not only on its initial strength but also on its ability to retain mechanical integrity during repeated freezing and thawing. All specimens exhibited progressive UCS reduction with increasing FT cycles; however, the magnitude of deterioration varied depending on treatment type and curing duration. This behavior is consistent with previous studies showing that stabilization and reinforcement can modify the response of fine-grained soils to cyclic freezing and thawing [<xref ref-type="bibr" rid="B5-sustainability-18-11344">5</xref>,<xref ref-type="bibr" rid="B6-sustainability-18-11344">6</xref>,<xref ref-type="bibr" rid="B27-sustainability-18-11344">27</xref>].</p>
+      <p>The 7-day screening results showed that the highest UCS within the investigated CWS range was obtained at 15% CWS. Increasing the CWS content from 5% to 15% increased UCS, whereas a higher content resulted in a gradual reduction. The UCS increased from 254 kPa for untreated marl to 430 kPa at 15% CWS and subsequently decreased to 305 kPa at 30% CWS. This trend may be associated with changes in particle arrangement, packing, and matrix heterogeneity at higher sludge contents. Therefore, 15% CWS was selected as the best-performing dosage within the investigated range rather than being considered a universally optimum content. During FT exposure, the CWS-treated specimens exhibited relatively stable strength retention, with strength losses of 20.5%, 21.5%, and 22.6% after 7, 28, and 90 days of curing, respectively.</p>
+      <p>This comparatively narrow variation in strength loss suggests that the contribution of CWS was less sensitive to curing duration than that of PPFs. The mechanical response may be related to modification of particle packing and matrix organization following CWS incorporation. However, neither the SEM nor the XRD results provide sufficient evidence to attribute the strength development to a specific cementitious or hydration reaction. This interpretation is particularly important given the Fe-rich composition of the CWS and the absence of an external alkaline or conventional cementitious activator.</p>
+      <p>The effect of PPFs was strongly dependent on the curing duration. Although 1% PPF produced the highest 7-day UCS within the investigated fiber-content range, its early-age FT performance was comparatively poor, with a strength loss of 58.2% after 10 cycles at 7 days. However, this loss decreased to 33.7% at 28 days and 27.5% at 90 days. This trend suggests that the contribution of fiber reinforcement became more effective with increasing curing duration. The observed behavior is consistent with the commonly reported role of discrete fibers in restricting crack propagation and maintaining stress transfer after crack initiation [<xref ref-type="bibr" rid="B15-sustainability-18-11344">15</xref>,<xref ref-type="bibr" rid="B20-sustainability-18-11344">20</xref>,<xref ref-type="bibr" rid="B28-sustainability-18-11344">28</xref>]. Nevertheless, fiber&#x2013;soil interfacial behavior was not measured directly in the present study, and the proposed crack-bridging mechanism should therefore be considered an interpretation of the observed mechanical response rather than direct experimental evidence.</p>
+      <p>An important distinction emerges when the freeze&#x2013;thaw performance of the hybrid and CWS-only mixtures is evaluated in terms of both absolute residual strength and relative strength loss. After 90 days of curing and 10 freeze&#x2013;thaw cycles, the hybrid mixture exhibited a higher mean residual UCS (480 kPa) than the CWS-only mixture (388 kPa). However, their corresponding strength losses were relatively close, at 20.7% and 22.6%. This distinction indicates that the higher residual strength of the hybrid mixture should not necessarily be interpreted as evidence of substantially greater resistance to freeze&#x2013;thaw-induced deterioration, since residual strength also depends on the initial strength before cycling. Furthermore, the difference of 1.9 percentage points in strength loss cannot be considered statistically established because complete replicate-level data were not available for all pre- and post-freeze&#x2013;thaw conditions, preventing a comprehensive statistical assessment of strength-loss differences. Consequently, the observed performance differences are interpreted as descriptive trends rather than statistically verified advantages. Further investigations incorporating specimen-level variability and statistical analyses are required to establish the reproducibility and significance of these differences.</p>
+      <p>These findings indicate that CWS and PPFs contributed differently to the mechanical response of the marl. CWS was associated with comparatively stable strength retention throughout the investigated curing periods, whereas the effectiveness of PPFs increased markedly with the curing duration. Their combined use therefore provided a more balanced response, particularly after prolonged curing. However, the present data support a complementary rather than a conclusively synergistic interpretation, because the individual physicochemical and fiber&#x2013;matrix contributions were not independently quantified.</p>
+      <p>The SEM observations are consistent with these mechanical trends. Compared with untreated marl, the treated specimens exhibited a comparatively more continuous and compact microstructural appearance in the examined regions. Localized cracks, voids, and apparent local fiber&#x2013;matrix gaps were observed following FT exposure, although fibers remained embedded within several areas of the treated matrix. Since SEM provides localized qualitative observations, these images should not be interpreted as quantitative evidence of pore-volume reduction or as direct confirmation of specific reaction mechanisms. Accordingly, the SEM results support the mechanical observations at a morphological level but do not establish pore reduction, interfacial bonding strength, or a specific stabilization mechanism.</p>
+      <p>The XRD results also indicated differences between untreated and treated specimens. The principal crystalline reflections remained recognizable following CWS + PPF treatment and after FT exposure, while differences were mainly observed in relative peak intensity and background characteristics. No clearly resolved new crystalline phase was identified that could be unequivocally attributed to hydration or pozzolanic reactions. Accordingly, C&#x2013;S&#x2013;H, C&#x2013;A&#x2013;H, brucite, or similar secondary products cannot be confirmed from the present qualitative XRD patterns alone. The persistence of the principal reflections after FT exposure indicates that the dominant crystalline constituents remained detectable, but this should not be interpreted as proof of long-term mineralogical stability because relative peak intensity may also be influenced by sample preparation, preferred orientation, and particle-size effects.</p>
+      <p>Taken together, the mechanical, SEM, and XRD findings indicate that the improved FT response of the treated marl is more appropriately explained by a combination of matrix modification, particle rearrangement, fiber reinforcement, and possible physicochemical interactions than by the confirmed formation of new crystalline cementitious phases.</p>
+      <p>From an engineering perspective, the combined CWS&#x2013;PPF treatment shows potential for marl soils subjected to seasonal freezing and thawing because it provided the highest residual UCS within the investigated experimental conditions. The present study focused primarily on compressive strength and freeze&#x2013;thaw durability; therefore, direct tensile or splitting tensile tests were not included in the experimental program. Accordingly, the contribution of PPFs to tensile resistance was not quantified directly, and its crack-control role was interpreted qualitatively from the stress&#x2013;strain response and the SEM observations. The sealed freeze&#x2013;thaw testing conditions minimized external moisture exchange but did not reproduce natural field processes such as water infiltration, drainage, temperature gradients, and variations in saturation. Therefore, the findings should be interpreted within the investigated laboratory conditions, and further field-representative testing is required.</p>
+      <p>The environmental suitability of CWS-based soil stabilization remains an important limitation of this study. Although XRF analysis identified 4.39% ZnO in the sludge, bulk oxide composition alone does not establish zinc mobility or environmental risk. As no leaching or ecotoxicological tests were conducted, the observed mechanical improvements cannot be considered evidence of environmental safety. Furthermore, variations in steelmaking operations and cooling water treatment may influence sludge composition, requiring batch-specific characterization. The long-term persistence and potential release of polypropylene fibers also warrant consideration, particularly under repeated freeze&#x2013;thaw exposure. Consequently, practical reuse of CWS&#x2013;PPF-treated marl should remain conditional on standardized leaching assessments, environmental compliance, and further evaluation of long-term durability and field performance.</p>
+      <p>Previous studies have demonstrated that the FT response of marl and other fine-grained soils can be improved through stabilization, alternative binders, electrokinetic treatment, and fiber reinforcement [<xref ref-type="bibr" rid="B5-sustainability-18-11344">5</xref>,<xref ref-type="bibr" rid="B8-sustainability-18-11344">8</xref>,<xref ref-type="bibr" rid="B11-sustainability-18-11344">11</xref>,<xref ref-type="bibr" rid="B14-sustainability-18-11344">14</xref>,<xref ref-type="bibr" rid="B16-sustainability-18-11344">16</xref>,<xref ref-type="bibr" rid="B22-sustainability-18-11344">22</xref>,<xref ref-type="bibr" rid="B27-sustainability-18-11344">27</xref>,<xref ref-type="bibr" rid="B28-sustainability-18-11344">28</xref>]. These studies collectively demonstrate that both matrix modification and discrete-fiber reinforcement can influence strength retention under repeated FT exposure, although the governing mechanisms and magnitudes of improvement vary with soil type, stabilizer chemistry, fiber characteristics, curing regime, and FT protocol. Direct quantitative comparison among these studies is therefore difficult. Unlike the lignosulfonate&#x2013;PPF system investigated by Vakili et al. [<xref ref-type="bibr" rid="B22-sustainability-18-11344">22</xref>], the present study examines an Fe-rich cooling water sludge generated by the iron and steel industry in combination with PPFs. The distinction lies in the origin and composition of the stabilizing material and its evaluation under different curing periods and freeze&#x2013;thaw exposure. Unlike conventional reactive binders, CWS was incorporated without alkaline activation or cement addition. Its contribution is therefore interpreted primarily through changes in particle packing, matrix structure, and possible physicochemical interactions. Since experimental conditions differ among studies, the present results do not establish superior performance over previously reported stabilizers.</p>
+      <p>Unlike the fly ash&#x2013;PPF stabilization of clayey soils investigated by Sengul et al. [<xref ref-type="bibr" rid="B12-sustainability-18-11344">12</xref>], the present study employs Fe-rich industrial CWS (68.79% Fe<sub>2</sub>O<sub>3</sub> and 13.64% CaO) without cementitious binders or alkaline activation. CWS-treated marl exhibited relatively consistent strength losses (20.5&#x2013;22.6%) across curing periods, whereas PPF-only specimens showed greater curing dependence. The hybrid mixture achieved the highest mean residual UCS (480 kPa) at 90 days, although its slightly lower strength loss compared with CWS alone cannot establish statistically significant superiority. Arasteh-Khoshbin et al. [<xref ref-type="bibr" rid="B13-sustainability-18-11344">13</xref>] investigated nano-SiO<sub>2</sub>-modified concrete, whose mechanisms cannot be directly transferred to soil stabilization. Thus, this study extends existing freeze&#x2013;thaw research to CWS&#x2013;PPF-treated marl, while the environmental suitability and long-term field performance of CWS require further investigation.</p>
+    </sec>
+    <sec id="sec5-sustainability-18-11344" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>This study investigated the mechanical performance, freeze&#x2013;thaw durability, and microstructural characteristics of marl soil treated with iron and steel cooling water sludge (CWS) and polypropylene fibers (PPFs). Based on the experimental results, the following conclusions can be drawn:<list list-type="bullet"><list-item><p>The 7-day UCS screening identified 15% CWS and 1% PPF as the best-performing individual dosages within the investigated ranges. A higher additive content resulted in reduced strength, indicating that further increases did not provide additional mechanical benefits under the tested conditions. These dosages were therefore selected for the subsequent freeze&#x2013;thaw durability investigation.</p></list-item><list-item><p>Repeated freeze&#x2013;thaw exposure reduced the UCS of all the specimens. Untreated marl exhibited strength losses of 31.5%, 27.7%, and 31.0% after 10 FT cycles at curing periods of 7, 28, and 90 days, respectively, demonstrating its susceptibility to freeze&#x2013;thaw-induced deterioration.</p></list-item><list-item><p>The freeze&#x2013;thaw performance of the 1% PPF-treated specimens was strongly dependent on the curing duration. The strength loss decreased from 58.2% at 7 days to 33.7% at 28 days and 27.5% at 90 days. Thus, PPFs alone provided limited early-age freeze&#x2013;thaw resistance but became progressively more effective with increasing curing duration.</p></list-item><list-item><p>The 15% CWS-treated specimens exhibited relatively stable freeze&#x2013;thaw resistance, with strength losses of 20.5%, 21.5%, and 22.6% at 7, 28, and 90 days, respectively. The residual UCS increased from 342 kPa at 7 days to 379 kPa at 28 days and 388 kPa at 90 days, indicating that CWS treatment maintained a comparatively consistent level of strength retention during freeze&#x2013;thaw exposure.</p></list-item><list-item><p>The combined 15% CWS + 1% PPF treatment produced the highest residual UCS values at all curing periods, reaching 368, 430, and 480 kPa after 10 FT cycles at 7, 28, and 90 days, respectively. The corresponding strength losses were 25.7%, 27.0%, and 20.7%. The 90-day hybrid specimen exhibited the highest residual UCS and retained approximately 79.3% of its pre-FT strength.</p></list-item><list-item><p>The SEM observations qualitatively indicated a comparatively more compact and continuous appearance in the examined treated specimens, while localized voids, microcracks, and apparent fiber&#x2013;matrix gaps were visible after FT exposure. The XRD showed changes in relative diffraction characteristics, but no clearly identifiable new crystalline hydration product could be confirmed from the qualitative patterns alone. The dominant crystalline framework remained recognizable before and after FT exposure.</p></list-item><list-item><p>Overall, the combined use of CWS and PPFs shows potential as an alternative marl-treatment approach for applications exposed to seasonal freeze&#x2013;thaw conditions, while also providing a possible beneficial reuse pathway for an iron and steel industry by-product. However, the present findings demonstrate mechanical performance under controlled laboratory conditions and should not be interpreted as evidence of environmental safety or long-term field durability. Further studies should investigate tensile behavior, hydraulic and durability properties, larger numbers of freeze&#x2013;thaw cycles, field-scale performance, leaching/environmental compatibility, and economic assessment before broader practical implementation.</p></list-item></list></p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, &#x130;.K.; methodology, &#x130;.K. and M.B.S.R.; validation, &#x130;.K., S.K. and A.H.V.; formal analysis, M.B.S.R.; investigation, S.K. and M.B.S.R.; resources, &#x130;.K.; data curation, M.B.S.R.; writing&#x2014;original draft preparation, &#x130;.K.; writing&#x2014;review and editing, &#x130;.K. and A.H.V.; supervision, &#x130;.K.; project administration, &#x130;.K.; funding acquisition, &#x130;.K. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Informed Consent Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The data supporting the findings of this study are included in the article. Additional available data can be obtained from the corresponding author upon reasonable request.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-sustainability-18-11344">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>T.T.H.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>Y.-J.</given-names>
+            </name>
+            <name>
+              <surname>Ferber</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Herrier</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ozturk</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Plier</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Puiatti</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Salager</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of freeze&#x2013;thaw cycles on mechanical strength of lime-treated fine-grained soils</article-title>
+          <source>Transp. Geotech.</source>
+          <year>2019</year>
+          <volume>21</volume>
+          <fpage>100281</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.trgeo.2019.100281</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-sustainability-18-11344">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Amiri</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Shahriari</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Porhonar</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microstructural investigation of the effect of freeze&#x2013;thaw cycles on engineering characteristics of southern Iran marl soil</article-title>
+          <source>Int. J. Geosynth. Ground Eng.</source>
+          <year>2025</year>
+          <volume>11</volume>
+          <fpage>34</fpage>
+          <pub-id pub-id-type="doi">10.1007/s40891-025-00642-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-sustainability-18-11344">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gali</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Khan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Khan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Khalil</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shah</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Khan</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental study on the effects of freeze-thaw progressions and performance of soil with non-toxic bio-enzyme</article-title>
+          <source>J. ICT Des. Eng. Technol. Sci.</source>
+          <year>2023</year>
+          <volume>7</volume>
+          <fpage>12</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="doi">10.33150/JITDETS-7.1.3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-sustainability-18-11344">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yadav</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Bag</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of prolong curing, freeze thaw cycles on strength and compaction condition on water retention behaviour of bamboo biochar amended soils</article-title>
+          <source>Sci. Rep.</source>
+          <year>2025</year>
+          <volume>15</volume>
+          <fpage>9</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-024-84659-8</pub-id>
+          <pub-id pub-id-type="pmid">39747546</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-sustainability-18-11344">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zaimoglu</surname>
+              <given-names>A.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Freezing&#x2013;thawing behavior of fine-grained soils reinforced with polypropylene fibers</article-title>
+          <source>Cold Reg. Sci. Technol.</source>
+          <year>2010</year>
+          <volume>60</volume>
+          <fpage>63</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.coldregions.2009.07.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-sustainability-18-11344">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>The influence mechanism of freeze&#x2013;thaw on soil erosion: A review</article-title>
+          <source>Water</source>
+          <year>2021</year>
+          <volume>13</volume>
+          <elocation-id>1010</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/w13081010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-sustainability-18-11344">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of freeze&#x2013;thaw cycles on the mechanical properties and microstructure of a dispersed soil</article-title>
+          <source>Appl. Sci.</source>
+          <year>2023</year>
+          <volume>13</volume>
+          <elocation-id>9849</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/app13179849</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-sustainability-18-11344">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shafiei</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Aminpour</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hasanzadehshooiili</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ghorbani</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nazem</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical characterization of marl soil treated by cement and lignosulfonate under freeze&#x2013;thaw cycles: Experimental studies and machine-learning modeling</article-title>
+          <source>Bull. Eng. Geol. Environ.</source>
+          <year>2023</year>
+          <volume>82</volume>
+          <fpage>200</fpage>
+          <pub-id pub-id-type="doi">10.1007/s10064-023-03226-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-sustainability-18-11344">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qiu</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental investigation of shear strength of carbonate saline soil under freeze&#x2013;thaw cycles</article-title>
+          <source>Atmosphere</source>
+          <year>2022</year>
+          <volume>13</volume>
+          <elocation-id>2063</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/atmos13122063</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-sustainability-18-11344">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aiban</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Al-Abdul Wahhab</surname>
+              <given-names>H.I.</given-names>
+            </name>
+            <name>
+              <surname>Al-Amoudi</surname>
+              <given-names>O.S.B.</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>H.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Performance of a stabilized marl base: A case study</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>1998</year>
+          <volume>12</volume>
+          <fpage>329</fpage>
+          <lpage>340</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0950-0618(98)00023-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-sustainability-18-11344">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khoshbakht</surname>
+              <given-names>E.B.</given-names>
+            </name>
+            <name>
+              <surname>Vakili</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Farhadi</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Salimi</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reducing the negative impact of freezing and thawing cycles on marl by means of the electrokinetical injection of calcium chloride</article-title>
+          <source>Cold Reg. Sci. Technol.</source>
+          <year>2019</year>
+          <volume>157</volume>
+          <fpage>196</fpage>
+          <lpage>205</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.coldregions.2018.10.010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-sustainability-18-11344">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sengul</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Akray</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Vitosoglu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigating the effects of stabilization carried out using fly ash and polypropylene fiber on the properties of highway clay soils</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2023</year>
+          <volume>400</volume>
+          <fpage>132590</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2023.132590</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-sustainability-18-11344">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arasteh-Khoshbin</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Seyedpour</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Brodbeck</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lambers</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ricken</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>On effects of freezing and thawing cycles of concrete containing nano-SiO<sub>2</sub>: Experimental study of material properties and crack simulation</article-title>
+          <source>Sci. Rep.</source>
+          <year>2023</year>
+          <volume>13</volume>
+          <fpage>22278</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-023-48211-4</pub-id>
+          <pub-id pub-id-type="pmid">38097661</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-sustainability-18-11344">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jamalimoghadam</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bahmyari</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Freeze&#x2013;thaw characteristics of slaking marl clay stabilized with a binder based on alkali-activated recycled glass powder</article-title>
+          <source>J. Mater. Civ. Eng.</source>
+          <year>2023</year>
+          <volume>35</volume>
+          <fpage>04023394</fpage>
+          <pub-id pub-id-type="doi">10.1061/JMCEE7.MTENG-15432</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-sustainability-18-11344">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The influence of freeze&#x2013;thaw cycles on unconfined compressive strength of lignin fiber-reinforced loess</article-title>
+          <source>J. Renew. Mater.</source>
+          <year>2022</year>
+          <volume>10</volume>
+          <fpage>1063</fpage>
+          <lpage>1080</lpage>
+          <pub-id pub-id-type="doi">10.32604/jrm.2022.017374</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-sustainability-18-11344">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sahlabadi</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Bayat</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mousivand</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Saadat</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Freeze&#x2013;thaw durability of cement-stabilized soil reinforced with polypropylene/basalt fibers</article-title>
+          <source>J. Mater. Civ. Eng.</source>
+          <year>2021</year>
+          <volume>33</volume>
+          <fpage>04021232</fpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)MT.1943-5533.0003905</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-sustainability-18-11344">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bayoumy</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>El Sawwaf</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nasr</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Elsawwaf</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Strength characteristics of clayey sand stabilized using polypropylene fiber or Portland cement</article-title>
+          <source>Transp. Infrastruct. Geotechnol.</source>
+          <year>2024</year>
+          <volume>11</volume>
+          <fpage>1249</fpage>
+          <lpage>1271</lpage>
+          <pub-id pub-id-type="doi">10.1007/s40515-023-00325-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-sustainability-18-11344">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhan</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research about the effect of polypropylene fiber on mechanical properties of curing sludge</article-title>
+          <source>Adv. Mater. Res.</source>
+          <year>2011</year>
+          <volume>250&#x2013;253</volume>
+          <fpage>788</fpage>
+          <lpage>794</lpage>
+          <pub-id pub-id-type="doi">10.4028/www.scientific.net/amr.250-253.788</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-sustainability-18-11344">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stability analysis of soil embankment slope reinforced with polypropylene fiber under freeze&#x2013;thaw cycles</article-title>
+          <source>Adv. Mater. Sci. Eng.</source>
+          <year>2019</year>
+          <volume>2019</volume>
+          <fpage>5725708</fpage>
+          <pub-id pub-id-type="doi">10.1155/2019/5725708</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-sustainability-18-11344">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Strength and mechanical behavior of short polypropylene fiber reinforced and cement stabilized clayey soil</article-title>
+          <source>Geotext. Geomembr.</source>
+          <year>2007</year>
+          <volume>25</volume>
+          <fpage>194</fpage>
+          <lpage>202</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geotexmem.2006.11.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-sustainability-18-11344">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mishra</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Shukla</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mittal</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stabilization of subgrade with expansive soil using agricultural and industrial by-products: A review</article-title>
+          <source>Mater. Today Proc.</source>
+          <year>2022</year>
+          <volume>65</volume>
+          <fpage>1418</fpage>
+          <lpage>1424</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.matpr.2022.04.397</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-sustainability-18-11344">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vakili</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Salimi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shamsi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nazari</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Strength and post-freeze&#x2013;thaw behavior of a marl soil modified by lignosulfonate and polypropylene fiber: An environmentally friendly approach</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2022</year>
+          <volume>332</volume>
+          <fpage>127364</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2022.127364</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-sustainability-18-11344">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Binnemans</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>P.T.</given-names>
+            </name>
+            <name>
+              <surname>Manj&#xF3;n Fern&#xE1;ndez</surname>
+              <given-names>&#xC1;.</given-names>
+            </name>
+            <name>
+              <surname>Masaguer Torres</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hydrometallurgical Processes for the Recovery of Metals from Steel Industry By-Products: A Critical Review</article-title>
+          <source>J. Sustain. Metall.</source>
+          <year>2020</year>
+          <volume>6</volume>
+          <fpage>505</fpage>
+          <lpage>540</lpage>
+          <pub-id pub-id-type="doi">10.1007/s40831-020-00306-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-sustainability-18-11344">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roslan</surname>
+              <given-names>N.H.</given-names>
+            </name>
+            <name>
+              <surname>Ismail</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Abdul-Majid</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ghoreishiamiri</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Muhammad</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Performance of Steel Slag and Steel Sludge in Concrete</article-title>
+          <source>Constr. Build. Mater.</source>
+          <year>2016</year>
+          <volume>104</volume>
+          <fpage>16</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.conbuildmat.2015.12.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-sustainability-18-11344">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Piemonti</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Conforti</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cominoli</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sorlini</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Luciano</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Plizzari</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Use of Iron and Steel Slags in Concrete: State of the Art and Future Perspectives</article-title>
+          <source>Sustainability</source>
+          <year>2021</year>
+          <volume>13</volume>
+          <elocation-id>556</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su13020556</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-sustainability-18-11344">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soliman</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Roghani</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Aghayan</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Omran</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sobolev</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Utilization of Steelmaking By-Products in the Construction Industry: A Comprehensive Review of Steel Slag and Steel Mill Scale</article-title>
+          <source>Case Stud. Constr. Mater.</source>
+          <year>2025</year>
+          <volume>23</volume>
+          <fpage>e05077</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.cscm.2025.e05077</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-sustainability-18-11344">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gullu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Hazirbaba</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unconfined compressive strength and post-freeze&#x2013;thaw behavior of fine-grained soils treated with geofiber and synthetic fluid</article-title>
+          <source>Cold Reg. Sci. Technol.</source>
+          <year>2010</year>
+          <volume>62</volume>
+          <fpage>142</fpage>
+          <lpage>150</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.coldregions.2010.04.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-sustainability-18-11344">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ding</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ling</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of freeze&#x2013;thaw cycles on mechanical properties of polypropylene fiber and cement stabilized clay</article-title>
+          <source>Cold Reg. Sci. Technol.</source>
+          <year>2018</year>
+          <volume>154</volume>
+          <fpage>155</fpage>
+          <lpage>165</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.coldregions.2018.07.004</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="sustainability-18-11344-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Study area and characterization of the investigated marl soil: (<bold>a</bold>) location map, (<bold>b</bold>) sampling location, (<bold>c</bold>,<bold>d</bold>) field views, (<bold>e</bold>) particle-size distribution, and (<bold>f</bold>) XRD pattern.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11344-g001.tif"/>
+      </fig>
+      <fig id="sustainability-18-11344-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>(<bold>a</bold>) Location of the Karab&#xFC;k Iron and Steel Plant in Karab&#xFC;k, T&#xFC;rkiye, (<bold>b</bold>) cooling water sludge accumulation basin, and (<bold>c</bold>) cooling water sludge (CWS) used in this study.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11344-g002.tif"/>
+      </fig>
+      <fig id="sustainability-18-11344-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Experimental procedure for specimen preparation, curing, freeze&#x2013;thaw exposure, and UCS testing.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11344-g003.tif"/>
+      </fig>
+      <fig id="sustainability-18-11344-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Effect of freeze&#x2013;thaw cycles and curing period on the unconfined compressive strength (UCS) of (<bold>a</bold>) untreated marl, (<bold>b</bold>) 1% PPF-reinforced marl, (<bold>c</bold>) 15% CWS-treated marl, and (<bold>d</bold>) marl treated with 15% CWS + 1% PPF.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11344-g004.tif"/>
+      </fig>
+      <fig id="sustainability-18-11344-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Residual unconfined compressive strength (UCS) of untreated and treated marl specimens after 10 freeze&#x2013;thaw cycles after different curing periods. Error bars represent &#xB1;1 standard deviation from three independent measurements (n = 3).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11344-g005.tif"/>
+      </fig>
+      <fig id="sustainability-18-11344-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Representative stress&#x2013;strain responses of untreated marl at 7 days and selected specimens treated with 15% CWS, 1% PPF, and 15% CWS + 1% PPF after 10 freeze&#x2013;thaw cycles at 28 and 90 days of curing. The untreated marl curve is interpreted as a possible pre-freeze&#x2013;thaw baseline reference based on its agreement with the initial UCS; its exposure history could not be independently verified.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11344-g006.tif"/>
+      </fig>
+      <fig id="sustainability-18-11344-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>SEM micrographs of (<bold>a</bold>) untreated marl, (<bold>b</bold>) marl treated with 15% CWS + 1% PPF after 90 days of curing, before freeze&#x2013;thaw exposure, and (<bold>c</bold>) the corresponding treated mixture after 10 freeze&#x2013;thaw cycles.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11344-g007.tif"/>
+      </fig>
+      <fig id="sustainability-18-11344-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>XRD patterns of untreated marl and marl treated with 15% CWS + 1% PPF after 90 days of curing, before and after 10 freeze&#x2013;thaw cycles.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11344-g008.tif"/>
+      </fig>
+      <table-wrap id="sustainability-18-11344-t001" position="float">
+        <object-id pub-id-type="pii">sustainability-18-11344-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Physical, geotechnical, and chemical characteristics of the tested marl soil. (<bold>a</bold>) Physical and geotechnical properties, (<bold>b</bold>) chemical composition determined by XRF.</p>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">(<bold>a</bold>)</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Property</bold>
+              </td>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Value</bold>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">Passing No. 200 sieve (%)</td>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">98.5</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">USCS classification</td>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">CH</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">AASHTO classification</td>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">A-7-6</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">Liquid limit, LL (%)</td>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">52</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">Plastic limit, PL (%)</td>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">28</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">Plasticity index, PI (%)</td>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">24</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">Color</td>
+              <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin">Light gray</td>
+            </tr>
+            <tr>
+              <td colspan="4" align="center" valign="middle" style="border-bottom:solid thin">(<bold>b</bold>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Component</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Content (wt.%)</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Component</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Content (wt.%)</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">SiO<sub>2</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">35.09</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CaO</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41.06</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Al<sub>2</sub>O<sub>3</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.70</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Fe<sub>2</sub>O<sub>3</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.26</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MgO</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.07</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">K<sub>2</sub>O</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.75</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">TiO<sub>2</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.68</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Na<sub>2</sub>O</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.54</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">SO<sub>3</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.42</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">SrO</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.23</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-18-11344-t002" position="float">
+        <object-id pub-id-type="pii">sustainability-18-11344-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Chemical composition of the iron and steel cooling water sludge (CWS) determined by XRF.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Component</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">MgO</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Al<sub>2</sub>O<sub>3</sub></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">SiO<sub>2</sub></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">P<sub>2</sub>O<sub>5</sub></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">SO<sub>3</sub></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">CaO</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">MnO</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fe<sub>2</sub>O<sub>3</sub></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">CuO</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">ZnO</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Result %</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.86</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.24</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.96</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.24</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.28</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.64</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.79</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68.79</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.13</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.39</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-18-11344-t003" position="float">
+        <object-id pub-id-type="pii">sustainability-18-11344-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Physical and mechanical properties of polypropylene fibers.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Property</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fiber Type</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Unit Weight (g/cm<sup>3</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Average Diameter (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Length (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Breaking Tensile Strength (MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Modulus of Elasticity (MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fusion Point (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Burning Point (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Acid and Alkali <break/> Resistance</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Value</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Discrete</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.91</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.034</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">350</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3500</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">165</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">590</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Strong</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-18-11344-t004" position="float">
+        <object-id pub-id-type="pii">sustainability-18-11344-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Optimum moisture content and maximum dry density values for clay soils and mixtures.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Contents</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Marl</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">M + 5% CWS</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">M + 10% CWS</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">M + 15% CWS</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">M + 20% CWS</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">M + 25% CWS</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">M + 30% CWS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">OMC (%)</td>
+              <td align="center" valign="middle">16.6</td>
+              <td align="center" valign="middle">17.90</td>
+              <td align="center" valign="middle">18.70</td>
+              <td align="center" valign="middle">20.30</td>
+              <td align="center" valign="middle">21.90</td>
+              <td align="center" valign="middle">23.50</td>
+              <td align="center" valign="middle">25.50</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">MDD (g/cm<sup>3</sup>)</td>
+              <td align="center" valign="middle">1.79</td>
+              <td align="center" valign="middle">1.76</td>
+              <td align="center" valign="middle">1.73</td>
+              <td align="center" valign="middle">1.70</td>
+              <td align="center" valign="middle">1.67</td>
+              <td align="center" valign="middle">1.64</td>
+              <td align="center" valign="middle">1.61</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Contents</td>
+              <td align="center" valign="middle">M + 0.2% PPF</td>
+              <td align="center" valign="middle">M + 0.4% PPF</td>
+              <td align="center" valign="middle">M + 0.6% PPF</td>
+              <td align="center" valign="middle">M + 0.8% PPF</td>
+              <td align="center" valign="middle">M + 1% PPF</td>
+              <td align="center" valign="middle">M + 1.2% PPF</td>
+              <td align="center" valign="middle">M + 1.4% PPF</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">OMC (%)</td>
+              <td align="center" valign="middle">16.80</td>
+              <td align="center" valign="middle">17.00</td>
+              <td align="center" valign="middle">17.20</td>
+              <td align="center" valign="middle">17.40</td>
+              <td align="center" valign="middle">17.60</td>
+              <td align="center" valign="middle">17.80</td>
+              <td align="center" valign="middle">18.00</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MDD (g/cm<sup>3</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.78</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.77</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.73</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.71</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.69</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.67</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-18-11344-t005" position="float">
+        <object-id pub-id-type="pii">sustainability-18-11344-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Unconfined compressive strength (UCS) values of marl soil and the mixtures.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Content (%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Marl</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">5</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">10</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">15</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">20</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">25</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">30</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CWS&#x2014;UCS (kPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">254</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">338</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">384</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">430</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">417</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">380</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">305</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Content (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PPF&#x2014;UCS (kPa)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">345</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">369</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">381</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">402</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">450</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">443</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">427</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-18-11344-t006" position="float">
+        <object-id pub-id-type="pii">sustainability-18-11344-t006_Table 6</object-id>
+        <label>Table 6</label>
+        <caption>
+          <p>Percentage improvement values of additive ratios relative to marl soil.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Content (%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Marl</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">5</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">10</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">15</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">20</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">25</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">30</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CWS&#x2014;SI (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">51.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">69.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">64.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">49.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Content (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PPF&#x2014;SI (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">35.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">45.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">50.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">58.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">77.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">74.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68.1</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-18-11344-t007" position="float">
+        <object-id pub-id-type="pii">sustainability-18-11344-t007_Table 7</object-id>
+        <label>Table 7</label>
+        <caption>
+          <p>Unconfined compressive strength before and after 10 freeze&#x2013;thaw cycles, together with strength retention and strength loss values.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mixture</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Curing Period (Days)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">UCS Before FT, UCS<sub>0</sub> (kPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Residual UCS After 10 FT Cycles, UCS<sub>10</sub> (kPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Strength Retention (%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Strength Loss (%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Strength Improvement, SI (%)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Untreated marl</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">254</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">174</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">296</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">214</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">72.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">90</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">335</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">231</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">69.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Marl + 1% PPF</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">450</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">188</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">58.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">531</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">352</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">66.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">64.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">90</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">557</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">404</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">72.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">74.9</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Marl + 15% CWS</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">430</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">342</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">79.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">96.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">483</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">379</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">78.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">77.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">90</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">501</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">388</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">77.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68.0</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Marl + 15% CWS + 1% PPF</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">495</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">368</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">74.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">111.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">589</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">430</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">73.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">90</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">605</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">480</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">79.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">107.8</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-18-11344-t008" position="float">
+        <object-id pub-id-type="pii">sustainability-18-11344-t008_Table 8</object-id>
+        <label>Table 8</label>
+        <caption>
+          <p>Summary of the freeze&#x2013;thaw strength response and stress&#x2013;strain characteristics of untreated and treated marl.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mixture</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Curing Period (Days)</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">UCS Before FT (kPa)</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">UCS After 10 FT Cycles (kPa)</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Strength Loss (%)</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Stress&#x2013;Strain Response</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Untreated marl</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">7</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">254</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">174</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">31.5</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Representative untreated marl reference curve (peak stress &#x2248; 251.9 kPa; FT exposure history not independently verified)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">28</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">296</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">214</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">27.7</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">90</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">335</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">231</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">31.0</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Marl + 1% PPF</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">7</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">450</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">188</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">58.2</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">28</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">531</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">352</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">33.7</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Higher post-FT load-carrying capacity than untreated marl</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">90</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">557</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">404</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">27.5</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Higher peak stress than the corresponding 28-day representative specimen</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Marl + 15% CWS</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">7</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">430</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">342</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">20.5</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">28</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">483</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">379</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">21.5</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Relatively high and stable post-FT stress response</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">90</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">501</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">388</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">22.6</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Similar peak-stress level to the 28-day representative specimen</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="left" valign="middle" style="border-bottom:solid thin">Marl + 15% CWS + 1% PPF</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">7</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">495</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">368</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">25.7</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">28</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">589</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">430</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">27.0</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Highest representative peak stress among the 28-day treated specimens</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">90</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">605</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">480</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">20.7</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Highest representative peak stress and residual UCS among the plotted specimens</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: UCS values represent the mean of three specimens, whereas stress&#x2013;strain curves represent individual specimens.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

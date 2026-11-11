@@ -1,0 +1,71 @@
+www.nature.com/scientificreports/
+FinaIIy, we predicted all three diversity metrics across Munich using the spatial data we determined as the
+best predictor. We first split the data using an 80 / 20 train 仂 = (9)/test = 17 ） split. Using the training data, we
+produced linear models for each diversity metric ， including covariates (Eq. 2 ） ． We then mapped the results by
+aggregating the NDVI map to a 100 m resolution (aggregate function terra package in R47 ） and calculated the
+distance from the city centre for each cell. FinaIIy, we predicted the three diversity metrics averaging over the
+temporal block (week of recording) for each 100 m grid cell.
+TO evaluate the predictive models ， we used the test data as new data in the predict function from the s 卜
+package in base R. TO quantify the average discrepancies between the actual and predicted values ， we calculated
+the R Mean S quared Error （ RMSE) and the Mean Absolute Error (MAE) for each model. As an additional test
+of model fit, we conducted a Standardized （ reduced) maj or axis model II linear regression （ 历 10 12 function
+/ mo / 2 package in R6 ） for each set of predicted and observed values in the test dataset.
+Results
+Recording and bird results
+After cleaning and validating 13 ， 399 h of recordings from 86 sites （ 73 sites with at least 6 full days of recording,
+66 with the full seven; mean 6 ． 49 ± l.11 days per site), we obtained a tOtal Of about 337 ， 000 detections Of 86 bird
+species across all sites (Supplementary Table (2). Species richness on our observation points ranged from 5 t0
+48 (mean 27 ． 06 ± 9 ． 95 ） ． Vocal activity rate ranged from 2 tO 273 (mean 9L99 ± 66 ． (I) ， while Shannon diversity
+ranged from L06 to 3 ， 05 (mean 2 ， 46 ± 0 ， 47 ） （ SuppIementary Table (I). Ofthe 86 species we detected ， 85 are also
+found in the GBIF data, representing a high overlap between the datasets. However, GBIF lists 106 additional
+species that were not detected in our study. Notably, nearly 50 ％ Of these are aquatic species, a habitat type not
+targeted by our monitoring. Additionally, our results contain 39 of the 40 most common garden birds listed by
+NABU. The species observed on most sites were the Carrion crow CO 门 s corone 07 = 78 sites) and the Green
+woodpecker Picis r 仂 ： 78 sites) ， 咀 species with the highest vocal activity rates the Yellowhammer
+Emberiza c 山 · 仂 e 脆 (mean VAR = 13 ． 43 ） ， followed by the Common chiffchaff (mean VAR= 8 ． 78 ； Supplementary
+Table (2). The mean VAR per site provides an estimate 0f how frequently a species is vocalizing, on average ， at
+each site where it is present. Given that there are 96 15-minute periods in a full day, this means that, on average,
+the Yellowhammer vocalized during about 13 Of those intervals at each site where it was detected.
+Optimal buffer for vegetation metrics
+How well NDVI and vegetation volume could predict properties of the bird community in Munich depended on
+the buffer around sampling points over which the measures Of vegetation were considered. This was indicated
+by substantial differences in r-squared values across linear models with varying buffers. Generally, diversity
+metrics were best predicted by vegetation variables at intermediate buffers. For all diversity metrics, we identified
+a 100 m buffer around each point as the optimal buffer (Fig. 4 ） ． Although the 50 m buffer initially appeared
+preferable for VAR and vegetation volume ， we ultimately selected the 100 m buffer for consistency. We decided
+this for two reasons: the difference in model performance between 50 m and 100 m buffer for vegetation volume
+minimal, and maintaining consistency across variables facilitated easier comparison Of results (Fig. 4 ． ，
+Supplementary Table S3).
+NDVI and vegetation volume as predictors of bird diversity
+For the 100 m buffer, the best-performing models for all biodiversity metrics were those based on mean NDVI,
+explaining 23 ． 6 ％ more Of the variance in the data than vegetation volume (mean R2 NDVI = 0 ． 47 mean R2
+vegetation volume 0 ， 37 ； Fig. 4 ， Supplementary Table (3). Partial R2 were also higher for NDVI models (partial
+R2 = 0 ． 22 一 0 ． 32 ） than vegetation volume models （ 0 彐 0 一 0 彐 7)(Fig. 4 ） ． NO spatial autocorrelation was found for any
+of the best models (DHARMa Moran ， S I test ， 0 彐 4 for all models) ， AII measures of bird diversity increased
+with higher values ofNDVI and vegetation volume ， with species richness and Shannon diversity about doubling
+and VAR increasing from approximately zero tO 100 over the range Of the tWO greenness measures (Fig. 5 ） ， which
+performed best predicting VAR ()2 = 0 ， 53 ， 0 ， 45 ） followed by species richness （ R2 = 0 ， 48 ， 0 ． 40 ） and then Shannon
+diversity ()2 = 0 ． 40 ， 0 ． 27 ） ．
+Community composition
+Our ordination （ R2 = 0 ． 61, stress = 0 ． 19 ） showed a clear shift in community composition among the sampling sites.
+Species that occurred mostly at high values of nmds 1 typically inhabit forest habitats （ Fig. 6 ， dark green), such as
+the Eurasian treecreeper ， C “ 确 m the Eurasian bullfinch ， P 尹 7 / lu 亇 裱 7 and the Dunnock 衍 田
+Od司@．氐 "lhese species cluster tO the right Of the ordination. ln contrast, species on the other end of NMDSI
+are more associated with human-modified landscapes (Fig. 6 ， black) ， such as agricultural lands and urban areas,
+including the Western jackdaw CO 邝 然 one 山 ` ， the Barn swallow H 尹 ． 田 7 南 r 然 行 ca ， and the Eurasian magpie
+Pica pica. "lhe central area Of the ordination space is occupied by those with intermediate habitat preferences
+(open woodland, parks, etc.), suggesting a continuous gradient of vegetation and particularly tree dependence
+across the bird community （ Fig. 6 ） ． TO ensure that these patterns were not driven solely by differences in vocal
+activity among species, we conducted an additional NMDS using a presence-absence transformation Of the
+community matrix (Supplementary Fig. (2). The resulting ordination ()2 = 0 ． 50 ， stress = 0 ． 20 ） showed a similar
+structure, with species composition and habitat-preference shifting along NMDSI in response tO vegetation
+gradients. Further validation 0f these patterns through Procrustes analysis and the Mantel test revealed a strong
+correlation between the ordinations and the distance matrices (Supplementary lnformation SI).
+咀 environmental fit supports this pattern, showing significant relationships between NDVI, vegetation
+volume ， and community composition (Fig. 6 ） ． Due t0 the rotation ， the NMDSI axis primarily corresponded t0
+a gradient Of increasing vegetation volume and NDVI, reflecting a transition from open and human-modified
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+6

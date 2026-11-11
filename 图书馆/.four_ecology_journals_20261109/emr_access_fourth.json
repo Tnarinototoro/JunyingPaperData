@@ -1,0 +1,44 @@
+[
+  {
+    "name": "emr_projects_home",
+    "url": "https://emrprojects.wordpress.com/",
+    "final_url": "https://emrprojects.wordpress.com/",
+    "status": 200,
+    "chars": 7247
+  },
+  {
+    "name": "emr_projects_about",
+    "url": "https://emrprojects.wordpress.com/about/",
+    "final_url": "https://emrprojects.wordpress.com/about/",
+    "status": 404,
+    "chars": 2263
+  },
+  {
+    "name": "emr_projects_submissions",
+    "url": "https://emrprojects.wordpress.com/submissions/",
+    "final_url": "https://emrprojects.wordpress.com/submissions/",
+    "status": 200,
+    "chars": 12108
+  },
+  {
+    "name": "emr_wiley_journalfinder",
+    "url": "https://journalfinder.wiley.com/journal-search?query=Ecological%20Management%20%26%20Restoration",
+    "final_url": "https://www.wiley.com/journal-finder/abstract",
+    "status": 403,
+    "chars": 59
+  },
+  {
+    "name": "emr_wiley_gfa_pdf",
+    "url": "https://onlinelibrary.wiley.com/pb-assets/assets/14428903/EMR_Author_Guidelines.pdf",
+    "final_url": "https://onlinelibrary.wiley.com/pb-assets/assets/14428903/EMR_Author_Guidelines.pdf",
+    "status": 403,
+    "chars": 59
+  },
+  {
+    "name": "emr_reader_wiley_shortauthor",
+    "url": "https://r.jina.ai/https://onlinelibrary.wiley.com/page/journal/14428903/homepage/ForAuthors.html",
+    "final_url": "https://r.jina.ai/https://onlinelibrary.wiley.com/page/journal/14428903/homepage/ForAuthors.html",
+    "status": 200,
+    "chars": 528
+  }
+]

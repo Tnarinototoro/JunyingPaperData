@@ -1,0 +1,70 @@
+R. Teeuwen
+0
+0
+0
+0
+5
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+ldentify urban centres
+Of 3 case study cities
+0
+0
+0
+Recru it participants
+0
+Collect OSM data
+Collect N DVI data
+0
+0
+0
+0
+0
+0
+Collect GSV metadata
+ldentify locations with
+- OSM category
+- median NDVI
+- GSV panorama
+Stratify locations
+- OSM category
+- NDVI quantile
+Sample locations
+Reset geometry tO GSV
+point & generate buffer
+CoIIect perceptions
+- OSM category
+- median NDVI
+C heck quality
+median NDVI
+OSM category
+Test hypotheses
+Perform exploratory &
+sensitivity analyses
+reason
+Perform q ual itative
+analyses
+Fig. 1. Overview Of methodological steps.
+centrally located Kungsparken, nature reserves such as 烈 理 緦 小 berge
+and other types 0f greenspaces. R0tterdam is distingtlished by modern
+morphology and architecture restllting from the city's reconstruction
+following significant bombing dunng WorId War II. lt has several well-
+known parks such as the Kralingse Bos forest and lake, and The Park
+located on the Meuse riverside. Both Rotterdam and Gothenburg have
+temperate maritime climates, while Barcelona has a warmer Mediter
+ranean climate.
+3 ． 2 CoIIecting OSM, NDVI, and GSV data
+As candidate locations for analysis, we identified urban public spaces
+with relevant OSM categories ， NDVI values, and GSV imagery available.
+We scoped t0 ptlblic spaces located within walking distance fi ℃ m the
+urban centers Of these case-sttldy cities, based on the European Com
+nnssion ， s Human Settlement Layer models and gtlldelines (Schiavina
+et al., 2022 ； Waddell and Ulfarsson, 2003 〕
+OSM data ： We collected public space and pedestrian street network
+data from OSM using the 0 s 烈 and the Osmnx library (Boeing,
+〗 We collected a variety 0f ptlblic spaces ， represented as polygons ：
+2017
+vegetated spaces, typically referred t0 as greenspace; and 0ther spaces
+that may - 一 depending on their character 亠 一 be perceived as st1Ch ac-
+cording to the WHO definition (VVHO RegionaI Office for Europe, 201 刁 ．
+We excltlded spaces that are inaccessible via the pedestrian street
+4

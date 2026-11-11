@@ -1,0 +1,267 @@
+{
+    "Page":  1,
+    "ImagePath":  "C:\\Users\\happyelements\\Desktop\\Paper\\.paper17_work\\anon_4\\page_1.png",
+    "Text":  "lnternational Journal of\nE 罗 me ／ Research\nand 尹 “ 况 Health\nReview\nMDPI\nWithin What Distance Does \"Greenness\" Best Predict\nPhysical Health? A Systematic Review of Articles\nwith GIS Buffer Analyses across the Lifespan\n0\n2 0\nMatthew Browning 1 \u0027 2 “\nand KangJae Lee\n1\n2\nDepartment of Recreation, Sport and Tourism, University of lllmois at Urbana-Champaign,\nChampaign, IL 61820 / USA\nlllinois lnformatics lnstitute, University of lllinois at Urbana-Champaign, Champaign, IL 61802 ／ USA;\nkleel 71@illinois.edu\nCorrespondence ： brownin@illinois.edu/ Tel.: + 1 一 217 一 300 一 3496\nAcademic Editor. Paul B. Tchounwou\nReceived ： 31 May 201 乙 Accepted ： 21 June 201 乙 Published: 23 June 2017\nAb stract: ls the amount 0f \"greenness \" within a 250 一 m ／ 500 一 m / 1000 一 m or a 2000 一 m buffer surrounding\na person\u0027s home a good predictor Of their physical health? The evidence is lnconclusive. We reviewed\nWeb of Science articles that used geographic information system buffer analyses to identify trends\nbetween physical health, greenness, and distance within which greenness is measured. Our inclusion\ncriteria were: （ 1 ） use Of buffers tO estimate residential greenness; （ 2 ） statistical analyses that calculated\nsignificance of the greenness-physical health relationship; and （ 3 ） peer-reviewed articles published in\nEnglish b etween 2007 and 2017 ． To capture multiple findings from a single article, we selected our\nunit of inquiry as the analysis, not the article ． Our final sample included 260 analyses in 47 articles.\nAII aspects of the review were in accordance with PRISMA guidelines. Analyses were independently\njudged as more, less, or least likely to be biased b ased on the inclusion of objective health measures\nand income / education controls ． 、 We found evidence that larger buffer sizes, up to 2000 m, better\npredicted physical health than smaller ones ． We recommend that future analyses use nested rather\nthan overlapping buffers tO evaluate tO what extent greenness IIOt immediately around a person\u0027s\nhome (i.e., within 1000 一 2000 m) predicts physical health.\nKeyword s ： systematic review; greenness; Geographic lnformation System (GIS); physical health;\nbuffers; green space; park; health outcomes; Normalized Difference Vegetation lndex (NDVI)\n1 · lntroduction\nAs a result Of rapid urbanization, a growing disconnect from nature, and rising rates Of disease\nand illness, many group s are increasingly interested in the effects of greenspaces on physical health.\nGreensp aces provide daily opportunities for physical exercise and stress relief [ 1 ] ． The distance\nwithin which greenspaces provide these opportunities t0 any meaningful degree, however, is not well\nunderstood. ls there a stronger correlation between health and greenspaces within 250 m of someone\u0027 s\nhome, than those within 1000 m Of someone\u0027s home? The empirical evidence needed tO answer such\nquestions is lacking.\nOur current understanding Of the distance within which greenness matters is based largely\non expert opinion. ln the United States, some practitioners suggest that having greenspace within\na five-minute walk (approximately 0 ， 2 miles or 0 ． 32 (m) is most important for physical health, while\nothers assert that a 0 ． 50 一 or 0 ． 75-miIe （ 0 ． 80 or 1 ． 20 (m) range is more accurate [ 2 ] ． A better understanding\nof the maximum distance t0 consider when analyzing greenspace would help urban planners and\nlnt. / ． E 月 ro Res. Public Health 2017 / 74 / 675 ； doi: 10 ． 3390 / ijerPh14070675\nwww.mdpi.com/journal/ijerph",
+    "Lines":  [
+                  {
+                      "Text":  "lnternational Journal of",
+                      "X":  390,
+                      "Y":  174
+                  },
+                  {
+                      "Text":  "E 罗 me ／ Research",
+                      "X":  389,
+                      "Y":  211
+                  },
+                  {
+                      "Text":  "and 尹 “ 况 Health",
+                      "X":  389,
+                      "Y":  242
+                  },
+                  {
+                      "Text":  "Review",
+                      "X":  256,
+                      "Y":  340
+                  },
+                  {
+                      "Text":  "MDPI",
+                      "X":  1615,
+                      "Y":  216
+                  },
+                  {
+                      "Text":  "Within What Distance Does \"Greenness\" Best Predict",
+                      "X":  255,
+                      "Y":  386
+                  },
+                  {
+                      "Text":  "Physical Health? A Systematic Review of Articles",
+                      "X":  259,
+                      "Y":  454
+                  },
+                  {
+                      "Text":  "with GIS Buffer Analyses across the Lifespan",
+                      "X":  255,
+                      "Y":  522
+                  },
+                  {
+                      "Text":  "0",
+                      "X":  632,
+                      "Y":  635
+                  },
+                  {
+                      "Text":  "2 0",
+                      "X":  937,
+                      "Y":  638
+                  },
+                  {
+                      "Text":  "Matthew Browning 1 \u0027 2 “",
+                      "X":  258,
+                      "Y":  643
+                  },
+                  {
+                      "Text":  "and KangJae Lee",
+                      "X":  675,
+                      "Y":  643
+                  },
+                  {
+                      "Text":  "1",
+                      "X":  278,
+                      "Y":  701
+                  },
+                  {
+                      "Text":  "2",
+                      "X":  276,
+                      "Y":  783
+                  },
+                  {
+                      "Text":  "Department of Recreation, Sport and Tourism, University of lllmois at Urbana-Champaign,",
+                      "X":  328,
+                      "Y":  707
+                  },
+                  {
+                      "Text":  "Champaign, IL 61820 / USA",
+                      "X":  328,
+                      "Y":  747
+                  },
+                  {
+                      "Text":  "lllinois lnformatics lnstitute, University of lllinois at Urbana-Champaign, Champaign, IL 61802 ／ USA;",
+                      "X":  328,
+                      "Y":  788
+                  },
+                  {
+                      "Text":  "kleel 71@illinois.edu",
+                      "X":  328,
+                      "Y":  828
+                  },
+                  {
+                      "Text":  "Correspondence ： brownin@illinois.edu/ Tel.: + 1 一 217 一 300 一 3496",
+                      "X":  328,
+                      "Y":  869
+                  },
+                  {
+                      "Text":  "Academic Editor. Paul B. Tchounwou",
+                      "X":  275,
+                      "Y":  930
+                  },
+                  {
+                      "Text":  "Received ： 31 May 201 乙 Accepted ： 21 June 201 乙 Published: 23 June 2017",
+                      "X":  277,
+                      "Y":  970
+                  },
+                  {
+                      "Text":  "Ab stract: ls the amount 0f \"greenness \" within a 250 一 m ／ 500 一 m / 1000 一 m or a 2000 一 m buffer surrounding",
+                      "X":  275,
+                      "Y":  1048
+                  },
+                  {
+                      "Text":  "a person\u0027s home a good predictor Of their physical health? The evidence is lnconclusive. We reviewed",
+                      "X":  277,
+                      "Y":  1101
+                  },
+                  {
+                      "Text":  "Web of Science articles that used geographic information system buffer analyses to identify trends",
+                      "X":  275,
+                      "Y":  1138
+                  },
+                  {
+                      "Text":  "between physical health, greenness, and distance within which greenness is measured. Our inclusion",
+                      "X":  275,
+                      "Y":  1184
+                  },
+                  {
+                      "Text":  "criteria were: （ 1 ） use Of buffers tO estimate residential greenness; （ 2 ） statistical analyses that calculated",
+                      "X":  277,
+                      "Y":  1230
+                  },
+                  {
+                      "Text":  "significance of the greenness-physical health relationship; and （ 3 ） peer-reviewed articles published in",
+                      "X":  277,
+                      "Y":  1274
+                  },
+                  {
+                      "Text":  "English b etween 2007 and 2017 ． To capture multiple findings from a single article, we selected our",
+                      "X":  277,
+                      "Y":  1320
+                  },
+                  {
+                      "Text":  "unit of inquiry as the analysis, not the article ． Our final sample included 260 analyses in 47 articles.",
+                      "X":  277,
+                      "Y":  1367
+                  },
+                  {
+                      "Text":  "AII aspects of the review were in accordance with PRISMA guidelines. Analyses were independently",
+                      "X":  275,
+                      "Y":  1411
+                  },
+                  {
+                      "Text":  "judged as more, less, or least likely to be biased b ased on the inclusion of objective health measures",
+                      "X":  275,
+                      "Y":  1456
+                  },
+                  {
+                      "Text":  "and income / education controls ． 、 We found evidence that larger buffer sizes, up to 2000 m, better",
+                      "X":  277,
+                      "Y":  1502
+                  },
+                  {
+                      "Text":  "predicted physical health than smaller ones ． We recommend that future analyses use nested rather",
+                      "X":  275,
+                      "Y":  1547
+                  },
+                  {
+                      "Text":  "than overlapping buffers tO evaluate tO what extent greenness IIOt immediately around a person\u0027s",
+                      "X":  277,
+                      "Y":  1592
+                  },
+                  {
+                      "Text":  "home (i.e., within 1000 一 2000 m) predicts physical health.",
+                      "X":  276,
+                      "Y":  1638
+                  },
+                  {
+                      "Text":  "Keyword s ： systematic review; greenness; Geographic lnformation System (GIS); physical health;",
+                      "X":  277,
+                      "Y":  1723
+                  },
+                  {
+                      "Text":  "buffers; green space; park; health outcomes; Normalized Difference Vegetation lndex (NDVI)",
+                      "X":  275,
+                      "Y":  1768
+                  },
+                  {
+                      "Text":  "1 · lntroduction",
+                      "X":  258,
+                      "Y":  1942
+                  },
+                  {
+                      "Text":  "As a result Of rapid urbanization, a growing disconnect from nature, and rising rates Of disease",
+                      "X":  329,
+                      "Y":  2006
+                  },
+                  {
+                      "Text":  "and illness, many group s are increasingly interested in the effects of greenspaces on physical health.",
+                      "X":  258,
+                      "Y":  2051
+                  },
+                  {
+                      "Text":  "Greensp aces provide daily opportunities for physical exercise and stress relief [ 1 ] ． The distance",
+                      "X":  258,
+                      "Y":  2096
+                  },
+                  {
+                      "Text":  "within which greenspaces provide these opportunities t0 any meaningful degree, however, is not well",
+                      "X":  256,
+                      "Y":  2142
+                  },
+                  {
+                      "Text":  "understood. ls there a stronger correlation between health and greenspaces within 250 m of someone\u0027 s",
+                      "X":  257,
+                      "Y":  2187
+                  },
+                  {
+                      "Text":  "home, than those within 1000 m Of someone\u0027s home? The empirical evidence needed tO answer such",
+                      "X":  257,
+                      "Y":  2232
+                  },
+                  {
+                      "Text":  "questions is lacking.",
+                      "X":  257,
+                      "Y":  2279
+                  },
+                  {
+                      "Text":  "Our current understanding Of the distance within which greenness matters is based largely",
+                      "X":  329,
+                      "Y":  2323
+                  },
+                  {
+                      "Text":  "on expert opinion. ln the United States, some practitioners suggest that having greenspace within",
+                      "X":  258,
+                      "Y":  2377
+                  },
+                  {
+                      "Text":  "a five-minute walk (approximately 0 ， 2 miles or 0 ． 32 (m) is most important for physical health, while",
+                      "X":  258,
+                      "Y":  2422
+                  },
+                  {
+                      "Text":  "others assert that a 0 ． 50 一 or 0 ． 75-miIe （ 0 ． 80 or 1 ． 20 (m) range is more accurate [ 2 ] ． A better understanding",
+                      "X":  258,
+                      "Y":  2459
+                  },
+                  {
+                      "Text":  "of the maximum distance t0 consider when analyzing greenspace would help urban planners and",
+                      "X":  258,
+                      "Y":  2504
+                  },
+                  {
+                      "Text":  "lnt. / ． E 月 ro Res. Public Health 2017 / 74 / 675 ； doi: 10 ． 3390 / ijerPh14070675",
+                      "X":  257,
+                      "Y":  2667
+                  },
+                  {
+                      "Text":  "www.mdpi.com/journal/ijerph",
+                      "X":  1365,
+                      "Y":  2666
+                  }
+              ]
+}

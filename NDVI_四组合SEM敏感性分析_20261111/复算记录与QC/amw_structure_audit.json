@@ -1,0 +1,841 @@
+{
+  "source": "amos模型.amw",
+  "source_modified": false,
+  "estimated": false,
+  "attribute_count": 43,
+  "object_count": 86,
+  "object_types": {
+    "2": 25,
+    "1": 16,
+    "4": 44,
+    "16": 1
+  },
+  "settings": [
+    "$domods=1",
+    "$dobootstrap=0",
+    "$doconfidencebc=0",
+    "$doconfidencepc=0",
+    "$dopermute=0",
+    "$DoPermuteRandom",
+    "$ml",
+    "$IncFitBoth",
+    "$noemulisrel6",
+    "$nomeansintercepts",
+    "$chicorrect=",
+    "$crit1=1E-05",
+    "$crit2=.001",
+    "$iterations=200",
+    "$fisher=0",
+    "$nononpositive",
+    "$nounidentified",
+    "$unbiased",
+    "$usebiased",
+    "$technical",
+    "$standardized",
+    "$smc",
+    "$samplemom",
+    "$nodseparation",
+    "$noimpliedmoments",
+    "$nobigfittedmom",
+    "$residualmoments",
+    "$totaleffects",
+    "$factorscores",
+    "$covest",
+    "$corest",
+    "$nocrdiff",
+    "$normalitycheck",
+    "$noobservedinfo",
+    "$mods=4",
+    "$bootstrap=200",
+    "$nobootverify",
+    "$nobootnormal",
+    "$nobootadf",
+    "$nobootml",
+    "$nobootgls",
+    "$nobootsls",
+    "$nobootuls",
+    "$nobootbs",
+    "$confidencepc=90",
+    "$confidencebc=90",
+    "$bootfactor=1",
+    "$nopermutedetail",
+    "$permute=500",
+    "$seed=1",
+    "$nospecran",
+    "$model",
+    "Default model",
+    ""
+  ],
+  "nodes": [
+    {
+      "id": 1,
+      "type": 2,
+      "name": "SocialNorms",
+      "longlabel": "社会的規範",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 2,
+      "type": 2,
+      "name": "UserAttitude",
+      "longlabel": "利用者態度",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 3,
+      "type": 1,
+      "name": "S3_1",
+      "longlabel": "公的・指定管理主導度",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 4,
+      "type": 2,
+      "name": "e1",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 6,
+      "type": 1,
+      "name": "S3_2",
+      "longlabel": "市民・専門家協働度",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 7,
+      "type": 2,
+      "name": "e5",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 10,
+      "type": 1,
+      "name": "S8_2",
+      "longlabel": "コンフリクト対応難易度",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 11,
+      "type": 2,
+      "name": "e6",
+      "longlabel": "",
+      "value1_raw": "\u0001.12",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 16,
+      "type": 1,
+      "name": "S8_1",
+      "longlabel": "生態的苦情件数",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 17,
+      "type": 1,
+      "name": "S7",
+      "longlabel": "苦情の種類の多さ",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 18,
+      "type": 2,
+      "name": "e9",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 19,
+      "type": 2,
+      "name": "e19",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 24,
+      "type": 1,
+      "name": "Z内部NDVI平均値",
+      "longlabel": "公園内部緑化度",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 25,
+      "type": 1,
+      "name": "Z外部NDVI平均値",
+      "longlabel": "公園外部緑化度",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 26,
+      "type": 2,
+      "name": "e8",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 27,
+      "type": 2,
+      "name": "e16",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 30,
+      "type": 1,
+      "name": "S4_1",
+      "longlabel": "基礎的利便安全整備度",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 31,
+      "type": 2,
+      "name": "e24",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 33,
+      "type": 1,
+      "name": "S4_2",
+      "longlabel": "動的高負荷利用許容度",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 34,
+      "type": 2,
+      "name": "e25",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 36,
+      "type": 1,
+      "name": "S2_1",
+      "longlabel": "直接的生態管理行動",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 37,
+      "type": 2,
+      "name": "e26",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 39,
+      "type": 1,
+      "name": "S2_2",
+      "longlabel": "社会的啓発管理行動",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 40,
+      "type": 2,
+      "name": "e27",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 42,
+      "type": 2,
+      "name": "Environment",
+      "longlabel": "環境重視的行動",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 43,
+      "type": 2,
+      "name": "User",
+      "longlabel": "利用者重視的行動",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 48,
+      "type": 2,
+      "name": "d3",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 49,
+      "type": 2,
+      "name": "d1",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 51,
+      "type": 2,
+      "name": "Balanced",
+      "longlabel": "両立的行動",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 52,
+      "type": 1,
+      "name": "S5_1",
+      "longlabel": "空間設計利用規律の調和度",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 53,
+      "type": 2,
+      "name": "e32",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 56,
+      "type": 1,
+      "name": "S5_2",
+      "longlabel": "管理運営体験共感の調和度",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 57,
+      "type": 2,
+      "name": "e33",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 60,
+      "type": 2,
+      "name": "EnvironmentalQuality",
+      "longlabel": "環境的質",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 64,
+      "type": 1,
+      "name": "S6",
+      "longlabel": "環境管理資源基盤充実度",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 65,
+      "type": 2,
+      "name": "e34",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 68,
+      "type": 1,
+      "name": "S2_3",
+      "longlabel": "環境保全意識の高さ",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 69,
+      "type": 2,
+      "name": "e35",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 72,
+      "type": 1,
+      "name": "S9",
+      "longlabel": "安全対策実施率",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 73,
+      "type": 2,
+      "name": "e36",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    },
+    {
+      "id": 76,
+      "type": 2,
+      "name": "d2",
+      "longlabel": "",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u00010"
+    }
+  ],
+  "arrows": [
+    {
+      "id": 5,
+      "type": 4,
+      "obj1_id": 4,
+      "obj2_id": 3,
+      "obj1_name": "e1",
+      "obj2_name": "S3_1",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 8,
+      "type": 4,
+      "obj1_id": 1,
+      "obj2_id": 6,
+      "obj1_name": "SocialNorms",
+      "obj2_name": "S3_2",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 9,
+      "type": 4,
+      "obj1_id": 7,
+      "obj2_id": 6,
+      "obj1_name": "e5",
+      "obj2_name": "S3_2",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 12,
+      "type": 4,
+      "obj1_id": 2,
+      "obj2_id": 10,
+      "obj1_name": "UserAttitude",
+      "obj2_name": "S8_2",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 13,
+      "type": 4,
+      "obj1_id": 11,
+      "obj2_id": 10,
+      "obj1_name": "e6",
+      "obj2_name": "S8_2",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 14,
+      "type": 4,
+      "obj1_id": 1,
+      "obj2_id": 3,
+      "obj1_name": "SocialNorms",
+      "obj2_name": "S3_1",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 20,
+      "type": 4,
+      "obj1_id": 18,
+      "obj2_id": 17,
+      "obj1_name": "e9",
+      "obj2_name": "S7",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 21,
+      "type": 4,
+      "obj1_id": 19,
+      "obj2_id": 16,
+      "obj1_name": "e19",
+      "obj2_name": "S8_1",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 22,
+      "type": 4,
+      "obj1_id": 2,
+      "obj2_id": 17,
+      "obj1_name": "UserAttitude",
+      "obj2_name": "S7",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 23,
+      "type": 4,
+      "obj1_id": 2,
+      "obj2_id": 16,
+      "obj1_name": "UserAttitude",
+      "obj2_name": "S8_1",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 28,
+      "type": 4,
+      "obj1_id": 26,
+      "obj2_id": 24,
+      "obj1_name": "e8",
+      "obj2_name": "Z内部NDVI平均値",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 29,
+      "type": 4,
+      "obj1_id": 27,
+      "obj2_id": 25,
+      "obj1_name": "e16",
+      "obj2_name": "Z外部NDVI平均値",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 32,
+      "type": 4,
+      "obj1_id": 31,
+      "obj2_id": 30,
+      "obj1_name": "e24",
+      "obj2_name": "S4_1",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 35,
+      "type": 4,
+      "obj1_id": 34,
+      "obj2_id": 33,
+      "obj1_name": "e25",
+      "obj2_name": "S4_2",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 38,
+      "type": 4,
+      "obj1_id": 37,
+      "obj2_id": 36,
+      "obj1_name": "e26",
+      "obj2_name": "S2_1",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 41,
+      "type": 4,
+      "obj1_id": 40,
+      "obj2_id": 39,
+      "obj1_name": "e27",
+      "obj2_name": "S2_2",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 44,
+      "type": 4,
+      "obj1_id": 42,
+      "obj2_id": 36,
+      "obj1_name": "Environment",
+      "obj2_name": "S2_1",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 45,
+      "type": 4,
+      "obj1_id": 42,
+      "obj2_id": 39,
+      "obj1_name": "Environment",
+      "obj2_name": "S2_2",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 46,
+      "type": 4,
+      "obj1_id": 43,
+      "obj2_id": 30,
+      "obj1_name": "User",
+      "obj2_name": "S4_1",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 47,
+      "type": 4,
+      "obj1_id": 43,
+      "obj2_id": 33,
+      "obj1_name": "User",
+      "obj2_name": "S4_2",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 50,
+      "type": 4,
+      "obj1_id": 49,
+      "obj2_id": 42,
+      "obj1_name": "d1",
+      "obj2_name": "Environment",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 54,
+      "type": 4,
+      "obj1_id": 51,
+      "obj2_id": 52,
+      "obj1_name": "Balanced",
+      "obj2_name": "S5_1",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 55,
+      "type": 4,
+      "obj1_id": 53,
+      "obj2_id": 52,
+      "obj1_name": "e32",
+      "obj2_name": "S5_1",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 58,
+      "type": 4,
+      "obj1_id": 51,
+      "obj2_id": 56,
+      "obj1_name": "Balanced",
+      "obj2_name": "S5_2",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 59,
+      "type": 4,
+      "obj1_id": 57,
+      "obj2_id": 56,
+      "obj1_name": "e33",
+      "obj2_name": "S5_2",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 61,
+      "type": 4,
+      "obj1_id": 60,
+      "obj2_id": 42,
+      "obj1_name": "EnvironmentalQuality",
+      "obj2_name": "Environment",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 62,
+      "type": 4,
+      "obj1_id": 60,
+      "obj2_id": 24,
+      "obj1_name": "EnvironmentalQuality",
+      "obj2_name": "Z内部NDVI平均値",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 63,
+      "type": 4,
+      "obj1_id": 60,
+      "obj2_id": 25,
+      "obj1_name": "EnvironmentalQuality",
+      "obj2_name": "Z外部NDVI平均値",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 66,
+      "type": 4,
+      "obj1_id": 42,
+      "obj2_id": 64,
+      "obj1_name": "Environment",
+      "obj2_name": "S6",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 67,
+      "type": 4,
+      "obj1_id": 65,
+      "obj2_id": 64,
+      "obj1_name": "e34",
+      "obj2_name": "S6",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 70,
+      "type": 4,
+      "obj1_id": 42,
+      "obj2_id": 68,
+      "obj1_name": "Environment",
+      "obj2_name": "S2_3",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 71,
+      "type": 4,
+      "obj1_id": 69,
+      "obj2_id": 68,
+      "obj1_name": "e35",
+      "obj2_name": "S2_3",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 74,
+      "type": 4,
+      "obj1_id": 43,
+      "obj2_id": 72,
+      "obj1_name": "User",
+      "obj2_name": "S9",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 75,
+      "type": 4,
+      "obj1_id": 73,
+      "obj2_id": 72,
+      "obj1_name": "e36",
+      "obj2_name": "S9",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 77,
+      "type": 4,
+      "obj1_id": 76,
+      "obj2_id": 51,
+      "obj1_name": "d2",
+      "obj2_name": "Balanced",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 78,
+      "type": 4,
+      "obj1_id": 1,
+      "obj2_id": 42,
+      "obj1_name": "SocialNorms",
+      "obj2_name": "Environment",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 79,
+      "type": 4,
+      "obj1_id": 60,
+      "obj2_id": 51,
+      "obj1_name": "EnvironmentalQuality",
+      "obj2_name": "Balanced",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 80,
+      "type": 4,
+      "obj1_id": 1,
+      "obj2_id": 51,
+      "obj1_name": "SocialNorms",
+      "obj2_name": "Balanced",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 81,
+      "type": 4,
+      "obj1_id": 2,
+      "obj2_id": 30,
+      "obj1_name": "UserAttitude",
+      "obj2_name": "S4_1",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 82,
+      "type": 4,
+      "obj1_id": 51,
+      "obj2_id": 39,
+      "obj1_name": "Balanced",
+      "obj2_name": "S2_2",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 83,
+      "type": 4,
+      "obj1_id": 1,
+      "obj2_id": 17,
+      "obj1_name": "SocialNorms",
+      "obj2_name": "S7",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 84,
+      "type": 4,
+      "obj1_id": 2,
+      "obj2_id": 25,
+      "obj1_name": "UserAttitude",
+      "obj2_name": "Z外部NDVI平均値",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 85,
+      "type": 4,
+      "obj1_id": 1,
+      "obj2_id": 43,
+      "obj1_name": "SocialNorms",
+      "obj2_name": "User",
+      "value1_raw": "\u0002",
+      "value2_raw": "\u0002"
+    },
+    {
+      "id": 86,
+      "type": 4,
+      "obj1_id": 48,
+      "obj2_id": 43,
+      "obj1_name": "d3",
+      "obj2_name": "User",
+      "value1_raw": "\u00011",
+      "value2_raw": "\u0002"
+    }
+  ]
+}

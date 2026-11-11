@@ -1,0 +1,230 @@
+{
+  "checked_date": "2026-11-09",
+  "journal": "Ecological Management & Restoration",
+  "evidence_type": "Wiley-supplied Crossref publication_history assertions; not a successful direct article page inspection",
+  "selection_method": "From latest 10 Crossref records sorted by published descending, exclude journal-issue and Issue Information. Then take the first five whose publisher-supplied abstract clearly describes empirical investigation, including the two-case empirical tree-hollow relocation study70062. Exclude70072 because publisher abstract is absent and precise type could not be confirmed. Sixth empirical article70068 remains in complete seven-record file. Selection is fixed by publication order and ascertainable research content, not speed. Full-text publisher subtype not independently confirmed because Wiley pages returned challenges.",
+  "overall_journal_acceptance_metric_verified": false,
+  "n": 5,
+  "median_days": 275,
+  "range_days": [
+    225,
+    508
+  ],
+  "samples": [
+    {
+      "title": "Landscape Context Influences the Use of Nest Boxes by a Black‐Cockatoo",
+      "doi": "10.1111/emr.70071",
+      "received": "2025-12-19",
+      "accepted": "2026-09-20",
+      "published": "2026-10-21",
+      "received_to_accepted_days": 275,
+      "crossref_url": "https://api.crossref.org/works/10.1111/emr.70071",
+      "official_article_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/emr.70071",
+      "abstract_from_publisher_metadata": "ABSTRACT Temperate forest ecosystems globally are experiencing declines in tree hollow abundance. Nest boxes are often installed as a management response to overcome tree hollow shortages for cavity nesting birds. However, for many species it is not known how the position of a nest box in the broader landscape influences its use. We investigated nest box use by yellow‐tailed black‐cockatoos, a species associated with more intact forests but also observed feeding on Pinus plantations, a novel food source the species has not coevolved with. We sought to determine whether nest box use by yellow‐tailed black‐cockatoos was influenced by proximity to native and novel foods, extent of native vegetation in the landscape, and fire impacts to vegetation. Nest boxes were monitored in two time periods: pre‐fire (2015–2017) and after a largescale wildfire (2021–2023). The mean annual proportional rate of nest box occupancy was 0.27 pre‐fire and 0.23 post‐fire. Nesting attempts in nest boxes yielded 0.76 fledglings per attempt ( n = 59 attempts monitored from egg stage to nest completion). Pre‐fire, nest boxes that were closer to Pinus radiata plantations were more likely to be used. The 2019–2020 wildfires burnt substantial areas of P. radiata plantations and Banksia dominated vegetation. In post‐fire years, nest box use was positively associated with proximity to native Banksia dominated vegetation (a preferred native food source), and more native vegetation and a higher proportion of burnt native vegetation in a 10 km radius of nest boxes. The importance of Pinus plantations to nest site selection pre‐fire suggests that yellow‐tailed black‐cockatoos could be unintentionally impacted by forestry harvesting. Post‐fire reductions in P. radiata plantations and Banksia dominated vegetation may have increased the importance of proximity to native food resources. Our results suggest that nest boxes could play a role in the conservation of yellow‐tailed black‐cockatoos but highlight the need to consider the broader landscape matrix when selecting nest box installation sites.",
+      "date_assertions": [
+        {
+          "value": "2025-12-19",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-09-20",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-10-21",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Spatial and Temporal Vegetation and Peat Depth Patterns in Alpine, Subalpine and Montane Peatlands of South‐Eastern Australia",
+      "doi": "10.1111/emr.70070",
+      "received": "2025-12-29",
+      "accepted": "2026-09-20",
+      "published": "2026-10-21",
+      "received_to_accepted_days": 265,
+      "crossref_url": "https://api.crossref.org/works/10.1111/emr.70070",
+      "official_article_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/emr.70070",
+      "abstract_from_publisher_metadata": "ABSTRACT Alpine, subalpine and montane peatlands provide important ecosystem services, including carbon storage, water regulation and habitat provision, and are threatened by a range of disturbance and degradation processes that impact these services. However, long‐term vegetation monitoring and comprehensive peat depth assessments remain rare for peatlands in the southern hemisphere, limiting our understanding of how these ecosystems are changing over time. Here, we present an assessment of peatland vegetation data from south‐eastern Australia, analysing temporal changes across 58 sites in seven regions between 2012 and 2025, alongside spatial patterns of peat depth across 27 sites. Analysis revealed strong spatial structuring, where the dominant drivers identified by redundancy analysis (RDA) were, time since grazed (RDA: F = 17.70; p = 0.001), minimum temperature variabilit y (RDA: F = 13.53; p = 0.001) and fire history (RDA: F = 10.98; p = 0.001). Variation partitioning showed the strong spatial structuring in peatland vegetation, with regional setting explaining the largest proportion of variation (10.5%), followed by climate (3.3%), survey (2.4%), and disturbance (1.4%). Temporal change was proportionally smaller (RDA: F = 4.52; p = 0.001) with linear mixed models revealing that directional trends in plant functional groups across regions and surveys were not universal. The most disturbed peatland region (Dargo‐Dinner Plain) had significantly shallower and flatter peat depths (generalised additive model: −40.80 cm, p &lt; 0.001, EDF = 1) compared to all other regions, while substantial heterogeneity existed both within‐ and between sites. The pronounced site‐level variation indicates that vegetation composition and peat depth patterns were driven by site‐specific factors including elevation, climate (temperature and precipitation) and disturbance (fire and grazing) histories, and that even at the site level, these ecosystems are highly heterogeneous. For effective conservation outcomes, management strategies should consider site‐specific conditions where resources allow, rather than relying on broad‐scale classifications to inform interventions. Our findings underscore the importance of long‐term vegetation and peat depth monitoring in understanding climate responses, recovery trajectories and carbon storage in mountain peatlands.",
+      "date_assertions": [
+        {
+          "value": "2025-12-29",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-09-20",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-10-21",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Relocating Large Hollow‐Bearing Tree Trunk Sections to Restore Forest Owl Breeding Habitat: When Is It Warranted?",
+      "doi": "10.1111/emr.70062",
+      "received": "2025-07-18",
+      "accepted": "2026-07-17",
+      "published": "2026-10-06",
+      "received_to_accepted_days": 364,
+      "crossref_url": "https://api.crossref.org/works/10.1111/emr.70062",
+      "official_article_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/emr.70062",
+      "abstract_from_publisher_metadata": "ABSTRACT Relocating large hollows to minimise the potential impacts of development on threatened species is generally considered too difficult and/or too costly. Small and medium‐sized hollows are commonly relocated, recreated by carving into a living surrogate tree, or replaced with nest boxes; however, larger hollows, which take much longer to form naturally, are far less represented in the landscape, are preferred over nest boxes by large forest owls, are being destroyed during vegetation clearing and are not being replaced. Biodiversity offsetting legislation in NSW Australia aims to place a dollar value on biodiversity and its habitat, yet does not place any direct value on good quality large hollows or their protection. This study offers considerations that support the relocation or recreation of large hollows in landscapes where they are locally scarce. We describe two case studies involving hollow‐bearing trees that showed evidence of previous owl use and were unique in their respective landscapes. In both cases, the entire hollow‐bearing tree trunk sections were relocated into nearby forests and installed vertically against large living host trees. These case studies demonstrate that, following secure installation and preparation to improve structural longevity, large hollows can be successfully relocated and that size alone is not necessarily a limiting factor. The second case study had a variety of hollows recreated, which have been used by other hollow‐dependent fauna. The result was a natural looking, low maintenance and long‐lasting apartment block for wildlife set within the foliage of a living tree. Powerful Owl ( Ninox strenua ) has successfully bred in the relocated tree for two breeding seasons. We propose survey methods that enable the consistent application of three clear considerations for assessing the value of large hollows and determining when their relocation is warranted.",
+      "date_assertions": [
+        {
+          "value": "2025-07-18",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-07-17",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-10-06",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Food for the Future: Identifying and Prioritising Feeding Habitat for South‐Eastern Glossy Black‐Cockatoos to Guide Strategic Ecological Restoration in North‐Eastern NSW",
+      "doi": "10.1111/emr.70069",
+      "received": "2026-02-05",
+      "accepted": "2026-09-18",
+      "published": "2026-10-06",
+      "received_to_accepted_days": 225,
+      "crossref_url": "https://api.crossref.org/works/10.1111/emr.70069",
+      "official_article_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/emr.70069",
+      "abstract_from_publisher_metadata": "ABSTRACT Habitat loss and fragmentation are causing major global biodiversity declines. Strategic ecological restoration can mitigate native vegetation decline, and is especially important for fauna with habitat and dietary specialisations, for which restoring key ecosystem features may be more critical than increasing revegetated area. The nationally threatened south‐eastern glossy black‐cockatoo ( Calyptorhynchus lathami lathami ) occurs in forests and woodlands of eastern Australia. It has declined due to habitat loss and fragmentation. Climate change‐driven increases in fire frequency and severity now threaten the remaining habitat. Glossy black‐cockatoos are dietary specialists, relying exclusively on she‐oak seeds ( Allocasuarina spp., Casuarina spp.), a food resource highly sensitive to fire. Following extensive feeding habitat loss during the 2019–2020 Black Summer fires, improving food security for this species, including via strategic ecological restoration, is a conservation priority. We investigated relationships between soils, vegetation types and glossy black‐cockatoo observations in north‐eastern New South Wales, and used these relationships to prioritise areas for feeding habitat restoration. Vegetation types containing Allocasuarina species on red or yellow podzolic soils had disproportionately high numbers of glossy black‐cockatoo observations, including feeding records. These results support earlier reports and recent mechanistic studies linking geology and soil properties to she‐oak cone productivity. The Black Summer fires severely burnt 19% of high‐value vegetation‐soil combinations in north‐eastern New South Wales, causing a substantial, sudden loss of glossy black‐cockatoo food resources. We developed a spatial prioritisation framework to guide ecological restoration planning, that integrates preferred soil‐vegetation combinations with other design considerations. The spatial prioritisation, combined with practical planting design guidance, was made available to landholders through local government portals and Landcare groups. Our study demonstrates how ecological understanding can be translated into strategic restoration guidance, providing a practical framework for improving restoration outcomes for a threatened dietary specialist under climate‐driven fire regime changes.",
+      "date_assertions": [
+        {
+          "value": "2026-02-05",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-09-18",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-10-06",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Developing Habitat Descriptors for a Threatened Cryptic Worm‐Lizard to Determine Potential Habitat Under the NSW Biodiversity Offset Scheme in Australia",
+      "doi": "10.1111/emr.70067",
+      "received": "2025-04-16",
+      "accepted": "2026-09-06",
+      "published": "2026-09-23",
+      "received_to_accepted_days": 508,
+      "crossref_url": "https://api.crossref.org/works/10.1111/emr.70067",
+      "official_article_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/emr.70067",
+      "abstract_from_publisher_metadata": "ABSTRACT Understanding the habitat requirements and potential distribution of threatened species is fundamental to mitigating threats and protecting significant populations. In Australia, a range of studies have been undertaken into the ecology and habitat requirements for the nationally threatened pink‐tailed worm‐lizard ( Aprasia parapulchella ) in the past 30+ years, with a primary focus on well‐studied locations close to major population centres. Findings from these locations have biased the broad understanding of habitat and suitable survey techniques over time, with a focus largely on dacite geology and detection methods using rock‐rolling under suitable environmental conditions. However, the occurrence of the species in non‐rocky environments and detectability challenges more generally suggests that established survey techniques are unlikely to provide confidence in survey outcomes across the species' geographical range over time. For this reason, the NSW Biodiversity Offset Scheme now utilises the process outlined in this paper to determine presence when assessing development impacts and offsets. This study aims to review key literature and spatial information to understand the broader habitat variability of this cryptic species, document the range of habitats the species is known to occur in and produce an occupiable footprint and measurable habitat parameters to consider the potential for species occurrence. Information within this paper provides a standardised approach to assessing Aprasia parapulchella habitat suitability in NSW. Our approach could also be applied to underpin planning and policy considerations for other cryptic threatened species.",
+      "date_assertions": [
+        {
+          "value": "2025-04-16",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-09-06",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2026-09-23",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    }
+  ]
+}

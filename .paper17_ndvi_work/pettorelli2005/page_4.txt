@@ -1,0 +1,162 @@
+506
+Review
+TRENDS EcoIogy and EvoIution v0L20 No ． 9 September 2005
+Table 1 ． Overview the main adva ntages and disadvantages the principal N DVI smoothers
+Procedure
+Maximum
+Value
+Compositing
+(MVC)
+Cu rve-fitti ng
+Step-wise
+logistic
+regresslon
+Best lndex
+SIope
+Extraction
+method
+(BISE)
+Weig hted
+| east-squ a res
+linear
+regresslon
+What it does
+NDVI values a re temporally O r spatially
+agg regated ． Th e highest N DVI value for
+the period and area considered iS
+retained
+PolynomiaI 0 r Fourier functions a re fitted
+to NDVI time-series
+A series Of piecewise logistic functions
+a re used tO represent intra-annual
+vegetation dynamics. Four key transition
+dates a re estimated: green-up, m atu rity
+()h e date at which plant green leaf area is
+maximal), senescence and dormancy
+NDVI o bservatio ns a re judged as
+trustworthy O r not depending on
+whether th e rate-of-change in the NVDI is
+plausible
+A sliding-window combination Of
+piecewise linear approximations tO the
+NDVI ti m e-series, putting more weight
+on 'local pea ks' (NDVI values higher
+than the preceding and following
+observations). Tuning pa ra meters a re
+the weights affected tO the local peaks
+and window widths
+Advantages
+Easy; n 0 modelling, Often WO rks well
+because most errors are negative （ BOX 2 ）
+Easy, th e trajectory ca n be pred icted and
+the ti me-series n be summarized by
+severa 1 indices linked tO th e function
+Because the method treats each pixel
+individually with out setti ng th resholds O r
+empirical consta nts, it is globally
+applicable, it enables vegetatio n types tO
+exhibit multiple modes Of growth and
+senescence With i n a single annual cycl e
+Th e algorithm is robust tO false highs
+that cau se implausibly rapid i ncreases in
+the NDVI （ > 0 ． 1 in the NDVI value per
+day)
+Works well when successive false ] OWS
+are ra re, SO th at local valleys OCCU r
+sepa rately, such as in the biweekly MVCs
+Disadvantages
+Temporal ag g regates might still be
+contaminated by cloud cover, the
+procedu re will be biased by a single false
+high
+Medium-order polynomials can be t00
+inflexible tO recreate a n entire seasonal
+N DVI pattern, and ca n smooth the data
+t00 much; Fourier analysis fails tO
+characterize each annual NDVI trajecto ry
+separately; it can generate spurious
+oscillations in the NDVI ti me-series [ 72L
+neither approach accommodates the
+skewed error Structure (BOX 2), and a re
+therefore h eavi ly affected by fa lse IOWS
+O r high
+Does not accommodate the skewed
+stru ctu re (BOX 2), and will therefore be
+heavily affected by false IOWS or high
+The sen sitive point Of this method is tO
+estimate CO rrectly tO what extent a rate-
+of-change in the NVDI is plausible,
+according tO the temporal resolution
+under consideration [ 72 ]
+When severa | false IOWS OCCU r in
+sequence, they result in fa lse loca 《 pea ks,
+which bias the esti mated value
+downwards. Thus, this approach might
+not be suitable for daily data, and its
+applicability will depend 0 n the
+freq uency Of cloud contamination and
+the strength Of seasonality
+Refs
+[ 71 ]
+[ 72 一 74 ]
+[ 75 ]
+[ 63 ]
+[ 76 ， 77 ]
+or spatial scales ． For example, it is possible t0 get up to 365
+pictures a ， whereas some animal responses can
+be gathered only once a year. However ， depending on the
+biological question asked (e.g. the impact of a delayed or
+early start or end of the growmg season ， or vegetation
+availability in summer ， on the performance Of an animal
+population), only part of the information might be of
+relevance.
+After smoothing (Figure 1 ； TabIe 1 ） ， the properties of
+NDVI time-senes can be summarized in a variety Of
+related indices [ 21 ] (Figure 1 ； TabIe 2 ） ． Measures of overall
+productivity and biomass ， such as the lntegrated NDVI
+(INDVI) or the annual maxlmum NDVI value ， measures
+of variability in productivity (e.g. the relative annual
+Box 2 ． Noise in NDVI data
+Th a re many complications, limitations and causes Of
+associated with satellite data, including sensor resolution and
+calibration [ 62L digital quantization errors [ 63L ground and atmos-
+pheric conditions [ 64L and orbital and se n s 0 r degradation [ 65 ] ． NDVI
+data setS a re generally well-documented, quality-controlled d ata
+sou rces that have been pre-processed tO reduce many Of these
+problems [ 57 ， 58 ， 60 ， 61L
+Howeve r, some noise is still present in the downloadable d ata sets
+and, therefore, NDVI time-series need tO be smoothed before being
+used (Table 1, main text) ． Such noise is mainly due tO remnant cloud
+cover, wate r, snow, O r shadow, SO u rces Of that tend tO decrease
+the NDVI values. Fa ] se highs, although much 》 ess frequent [ 63L can
+alSO OCCUr at high SOlar 0 r SCa n angles ()n which the numerator
+and denominator in the NDVI rati 0 a re bOth near zero) 0 r beca use Of
+www.sciencedirect.com
+range of the NVDI) and a variety 0f phenological measures
+can be derived from NDVI time-semes. Examples of
+measures include the rate Of increase and decrease Of
+the NVDI; the dates of the beginning, end and peak(s)
+of the growing season; the length of the growing season;
+the timing of the annual maximum NDVI ； and the NDVI
+value at a fixed date ， which might be relevant for animals
+that accumulate few reserves and are sensitive to the start
+Of growth for their own reproductive success or
+for migrant animals matching the start Of their migration
+with the resource dynanucs ．
+Examples of successful applications of these measures
+include the correlation between the NVDI on the 1 st of
+May and the bOdy mass Of reindeer calves in autumn in
+transmission errors, such drop-out [ 63L TO minimize the
+problem of false highs, the downloadable products are generally
+based O n low-angle observations whe reve r possible.
+Most errors thus tend tO decrease NDVI values. This unusual error
+structure, with high NDVI values being more trustworthy than IOW
+ones, breaks the assumptions Of many standard statistical
+approaches. Further complications ca n arise because the error
+structure ca n va ry in time and space. The most common approaches
+tO smoothing NDVI time-series are p resented i n Table 1 (main text) ．
+FO r many purposes, the choice Of smoothing method might not be
+crucial. FO r example, in a recent ecological study, similar esti mates Of
+spring phenology were obtained using either locally weighted
+regressions 0 r a simple cumulative maximum throughout the
+season [ 51 ] ．

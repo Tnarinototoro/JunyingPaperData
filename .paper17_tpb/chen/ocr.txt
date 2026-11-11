@@ -1,0 +1,1818 @@
+@@ PAGE 1 / 12 @@
+气 ．
+ELSEVIER
+Original article
+Urban Forestry & Urban Greening 124 〔 2026 ） 129577
+Contents lists available at ScienceDirect
+Urb an Forestry & Urb an Greening
+journal homepage: www.elsevier.com/locate/ufug
+FORESTRY
+G R E E N I N G
+Check for
+updates
+Balancing biodiversity conservation and recreational use in nature-oriented
+p arks in Saitama Prefecture, Jap an
+Junying Chen ， l<iyotaka Fukahori ' 0
+Graduate School Of Science and Engineering ， Saitama University, 255 Shimo-Okubo, Sakura ku, Saitama 338 一 85 / 0 ， Japan
+A R T I C L E I N F O
+Keywords:
+Biodiversity
+Urban parks
+Peri tllban parks
+Park management
+Conservation COnfliCt
+Text mining
+CO-OCCt1rrence analysis
+1 · lntroduction
+7 ， 1. Co e
+A B S T R A C T
+Urban parks play critlcal roles in balancing biodiversity conservation and ptlblic recreation ， yet the mtlltifunc-
+tional demands they face frequently create tensions between ecological objectives and recreational uses. ln
+practice, prioritising one goal can constrain the Other, and managers must mitigate the resulting disadvantages
+while consennng urban biodiversity. ThiS sttldy investigates the strategies that park managers use tO manage
+biodiversity consewation—recreation trade OffS across five nature-oriented parks in Saitama prefecture, Japan
+(Kamogawa Mizubenosato Park, Sayama Hill Flora & Fauna lnteraction Centre, Saitama Green Forest Museum,
+Kitamoto Nature Observation Park ， and Ageo Maruyama Park) ． These strategies are grouped intO three analyt
+ically derived orientations: Environmental Foct1S ， Balanced Focus ， and User Focus. A mixed methods approach
+integrating text mimng ， co-occurrence network analysis ， and thematic content analysis Of semi-strt1Ctured in
+terviews was employed. A novel 30 一 level Conservation and Utilisation Management Framework was developed
+that classifies management orientations, defined here as managers' dominant strategic direction for handling
+conservation—recreation trade-offs. Orientations are associated With external environmental conditions (e.g.,
+land use context), internal site character1Stics 〔 e ． 8 ” scale and naturalness), and management perspectives (e.g.,
+policy mandates and partnerships). Across all sites, user communication methods ， incltlding regtllation,
+collaboration, and experiential programming—played a central role in reconciling conservation with recrea-
+tional use. This analytical framework provides a practical and adaptable t001 for diagnosing park governance
+orientations ， gtliding policy development ， and integrating biodiversity conservation and recreational objectives
+in urban and peri urban park management.
+Rapid g10bal population growth has accelerated urban expansion
+SetO et al., 2012 ） ， significantly reducing green spaces as cities strive tO
+meet demands for housing, infrastructure, and resources 〔
+Haaland and
+Konijnendijk van den Bosch, 2015 ； C01ding et al., 2020 〗 This trend
+highlights the urgent need for conservation strategies that integrate
+ecological sustainability and urban development. TWO core frameworks
+have emerged in this context: green infrastructure, referring tO strate-
+gically planned networks of natural and semi-natural areas that provide
+envlronmental, economic, SOCial 〔
+Malik and Ali, 2023 ） and
+ecosystem services, which emphasise hOW ecological processes support
+human well-being through functions such as air purification, climate
+regtllation ， and recreation (Torabi et al., 2020 ） ， ln this sttldy, urban
+* Corresponding author.
+parks are conceptualized as governance settings in which management
+strategies shape b0th ecological functions and ptlblic benefits, and in
+which ptlblic understanding of the value of biodiversity can be fostered
+(Nesbitt et al., 2017 ； Miller, 2005 ）
+Urban parks ， as central elements Of green infrastructure ， deliver
+multifunctional value. They provide psychological, social, and health
+benefits (Kaoma and ShackIeton, 2014 ； Haq, 2011 ） ， while also sup-
+porting biodiversity, stress mitigation, and ecological corridors (Nesbitt
+et al., 2017 ； Ugolini et al. ， 2018 ； Lit1 et al., 2018 ） ． However, they also
+face the persistent challenge Of balancing recreational use with envi-
+ronmental conservation. ， refers tO negotiating COII
+servation—recreation trade-offs (and, where feasible, synergies) through
+context-sensitlve management instruments that protect ecological
+values while maintaining public benefits 〔 McShane et al., 2011 ； Young
+et al., 2016 〗 ln this sttldy, management orientation refers tO a man
+ager' S primary strategic direction for navigating trade-offs along a
+E-mail addresses: chin.s.889@ms.saitama-u.ac.jp
+(). Chen), fukahori@mail.saitama-u.ac.jp (). Fukahori).
+https ： / / dOi ． org/10 ． 1016 / j ． ufug ． 2026 ． 129577
+Received 8 September 2025 ； Received in revised form 10 June 2026 ； Accepted 24 June 2026
+Available online 26 June 2026
+1618 ． 8667 / 0 2026 The At1thor(s).
+PubIished by EIsevier GmbH. This is
+(http://creativecommons.org/licenses/by/4.O/).
+an
+open
+access
+article
+the
+CC
+BY
+license
+
+@@ PAGE 2 / 12 @@
+J. Chen and K. Fukahori
+conservation—use spectrum. Specifically ， it denotes positioning a park
+within a 30-level ordered contintlttm, where each level reflects the
+relative priority given tO envlronmental protection verst1S freedom Of
+t1Se.
+on conservation—recreation coeXIStence C011fliCt reso-
+ltltion shows that recreation can degrade sensitive habitats 〔
+BaIIantyne
+et al., 2014 ） and that managing these tensions Often depends on
+governance processes, St1Ch rtlles, spatial differentiation 〔
+Nepal and
+Weber ， 1995 ； Gobster ， 2007 ） ， and trust-btlilding (Young et al. ， 2016 ）
+Conflicts emerge from the introduction Of non native species, user safety
+concerns and tensions between conservation advocates and recreational
+users. Overharvesting of cicadas in wetlands, discarded fishing gear in
+aquatic systems, and restricted-access restoration zones illustrate the
+diffictllties Of reconciling ecological protection with diverse user needs.
+ln aligned with international targets ， st1Ch as the Kunming-Montreal
+Global Bi0diversity Framework （ 2022 〕 ， calling for the conservation 30 ％
+0f global land and marine areas by 2030 ， Japan has enacted domestic
+policies tO strengthen local biodiversity. The Act on the Promotion Of
+Activities for Enhancing Biodiversity 〔 Government Of Japan, 2024
+prioritizes green spaces, forests, zones 〔
+Watanabe
+et al. 2024 〗 This legislation encourages collaboration among public
+atlthorities ， private stakeholders, and civil society ， reaffirming the
+mtlltifunctional role Of parks for localised conservation action.
+7 ， 2 Literature review
+Despite the increasing recognition Of the ecological value Of urban
+parks, conflicts between human activity and wildlife remain complex
+(Nepal and Weber, 1995 ； Nyhus, 2016
+〗 Recreational activities st1Ch as
+dog walking, sports, and picnicking can degrade habitats ， cause biodi-
+versity loss, and contribute tO littering 〔
+Ballantyne et al., 2014 〕 ． These
+impacts are ecological awareness among users,
+insufficient staff training (Schipperijn et al. ， 2010 ； Talal and Santel-
+mann ， 2020 〗 and spatial constraints that fragment habitats. Addressing
+these conflicts reqtlires integrated ， mtllti-stakeholder strategies.
+Previous sttldies identify four mam approaches.
+1 ． Stakeholder Collaboration
+Engaging authorities, researchers, residents, and park users helps
+reconcile ecological and recreational demands 〔 Haq, 2011 ； Huang,
+） ， supported by trust-btlilding (Young et al. ， 2016 ） ， partnerships
+2009
+with NGOs and government (Scholz and Steiner, 2015 〗 and participa-
+tory learning (Ugolini et al., 2018 ） ，
+2 ． Governmental Measures
+Policies, legislation, and enforcement encourage responsible use and
+help ensure that development aligns with biodiversity 80a1S (Haq, 2011 ；
+Huang, 2009 ； Nyhus, 2016 ）
+3 ． Technical Measures
+T001S St1Ch as zoning ， btlffer zones, seasonal restrictions, ecological
+restoration, and biodiversity monitoring enhance resilience 〔
+Cascante
+et al., 2014 ； Jim, 2004 ； Akter and Dhar, 2017
+4 ． Cogmtive Approaches
+Education, awareness campaigns, and volunteer participation pro
+mote long-term stewardship (Gobster, 2007 ； Miller, 2005 ）
+Despite these advances ， no universally adaptable model has been
+developed. While many frameworks emphasise tailoring strategies t0
+ecological, SOCial, and cultural contexts (Cascante et al., 2014 ； Eagles
+et al., 2013 ； Torabi et al., 2020 〗 they tend to reflect traditional urban
+park planning and management—amenity-oriented provision, fixed
+zoning or regtllatory approaches grounded in relatively stable missions,
+resources ， and 0bj ectives that leave them ill-eqtlipped t0 handle
+changing circumstances and complex stakeholder dynamics. Amid
+evolving expectations for biodiversity and green infrastructure (e.g.,
+more ambitiot1S biodiversity targets ， pressures from invaslve species,
+and shlfting GI functions), few guidelines exist for revising the priorities
+of park functions.
+Another concern is the tendency tO treat stakeholder involvement as
+Urban re & Urban Greening 724 （ 2026 丿 1295 / /
+a formal constlltation reqtlirement rather than an ongoing negotiation Of
+rights, responsibilities, and legitimacy. ln practice, financial constraints
+have reduced management capacity and shiftied objectives, even
+from increasingly diverse user groups 8r0 、 V ． These pressures
+manifest in conflicts such as disputes over the ntlisance factor of ball
+games, changing power balances associated with population aging that
+may disadvantage either older adults or children, barrier-free in
+terventions degrade natural areas ， excessive accessi-
+bility improvements that threaten habitats, and the neglect 0f green
+spaces restllting in the dominance Of a single invasive herbaceot1S spe-
+cies. Consequently, tensions between biodiversity conservation and park
+use in park management are lncreasing.
+Urban parks are embedded within wider institutional, ecological,
+and social systems. Recent scholarship emphasises adaptive, place-based
+approaches reflecting site-specific feattlres ， community relations ， and
+management roles (Takyi and Seidel, 2017 〕 ． Much research quantifies
+stakeholder perspectives t1Sing Likert scales for analytical purposes
+(Eagles et al., 2013L although generalised questlons may overlook
+context-specific issues critical at the local level. ln contrast, sttldies that
+integrate the qualitative perspectives Of managers and conservatlon
+volunteers are limited 〔 e ， 8 ” interview/participatory sttldies ：
+Eagles
+et al., 2013 ； Ugolini et al., 2018
+and survey-based use sttldies ：
+Schipperijn et al., 2010 ） ， restllting in a gap in understanding the
+evoltltionary processes Of governance models.
+This study addresses that gap by analysing localised strategies in five
+urban parks in Saitama Prefecture, Japan, Managers' and stakeholders
+narratives are examined t() determine h()W conservation and
+reational needs are balanced.
+Meth0d010gically, prior KH C0der applications combine frequency
+analysis with Jaccard-based CO occurrence mapping and interpret 〔 or
+refine) co-occurrence patterns by checking keyword usage in the orig-
+inal text 〔 Koga ， 2019 ） ． Th1S study applies this approach to park-manager
+interviews, integrating frequency/Jaccard outptlts with close reading
+and thematic COding tO support cross-park interpretation.
+儿 3 ． Objectives
+This sttldy examines five nature-oriented parks in Saitama: three in
+urban areas, Kamogawa Mizt1benosato Park (Kamogawa), Kitamoto
+Nature Observation Park (Kitamot0), and Ageo Maruyama Park (Mar-
+uyama), and a regional park with tW0 independently managed zones:
+Sayama Hill Flora and Fauna lnteraction Centre (Sayama) and Saitama
+Green Forest Museum (Museum).
+Through interviews with park managers and conservation volun-
+teers, text mining, and contextual analysis, the sttldy seeks tO determine
+the factors that shape park managers ' management orientations and
+strategic choices in balancing biodiversity conservation and recreation.
+TO address the lack 0f comparable cross-park evidence, this sttldy
+combines interviews, text mining, and the Conservation and Utilisation
+Management Framework tO classify orientations across parks. The
+study's contribtltion is primarily empincal: it presents an intervlew-
+grounded organising scheme that arranges interview statements along
+a conservation—tltilisation axiS for cross-park comparison. sttldy
+purstles ()bj ectives:
+1. Develop a mtllti-level framework for classifying park management
+policies along a spectrum from Environmental Focus tO User FOCt1S, with
+intermediate Balanced orientations.
+tO environmental conservation t1Ser C011Ve-
+nience in environments through interviews
+condttcted in five parks and organised intO a mtllti-level framework
+Strt1Ctured from an environmental conservatl()ll perspective.
+2 ． Apply the framework t0 analyse how external factors (e.g., rivers,
+surrounding forest cover ， and topography), internal conditions （ 巳 g ”
+naturalness habitat diversity, and infrastructure), and management
+factors 〔 巳 g ． ， policy mandates, institutional arrangements, and manager
+perspectives) shape management orientations, t1Sing Conservation
+2
+
+@@ PAGE 3 / 12 @@
+J. Chen and K. Fukahori
+and Utilisation Management Framework （
+This objective tests the hypothesis that the relative levels Of man
+agement measures along the conservation—use spectrum are shaped
+internal and external envlronmental conditions as well as management
+factors.
+3 ， ldentify strategies for reconciling biodiversity conservation with
+across and regional park COIItextS (management
+and governance strategies).
+2 ． Methods
+21. S 恤 〔 area
+lnterviews were conducted with those responsible for managing and
+conserving five parks ， referred t0 as "managers." At Sayama ， Museum,
+and Kitamoto ， designated managers were interviewed, whereas at
+Kamogawa and Maruyama, respondents were active volunteers engaged
+in habitat restoratlon.
+Sayama and Museum are reponal parks in the Sayama Hills, a
+corridor that connects fragmented natural habitats between the urban
+and suburban areas 0f Saitama and Tokyo. This landscape, a mosaic 0f
+secondary forests, grasslands, and wetlands ， supports high biodiversity
+and facilitates wildlife movement and genetic exchange, maintaining
+essential ecological connectlvity amid increasing urbanisation. The two
+sites differ in context: Sayama borders residential neighborhoods, while
+the Museum is more isolated and surrounded by forested land, illus
+trating hOW external settings influence management approaches.
+urban parks were tO capture contrasts in SIZ,e,
+governance, and ecological—recreational balance. Kamogawa park is
+within a riparian area associated a stormwater drainage
+channel converted from a former river course. Located along a branch of
+the Arakawa River, it retains a relatlvely natural setting yet is adjacent
+tO dense residential areas, fostering strong community engagement.
+Kitamoto, in a stlburban urbanisation control zone surrounded by
+farmland and natural areas ， is managed by the Saitama Ecosystem
+Conservation Society, a foundation specialising in biodiversity protec
+tion envlronmental education With foct1S on and species
+conservatlon; it alSO operates a regional for envlronmental
+Maruyama has experienced conflicts user
+〔 e ． 8 ” fishing) and conservation efforts, especially during pond
+restoration.
+five parks represent diverse combinations Of ecological COII
+ditions, spatial infrastructure, user dynamics ， and management frame-
+works. This diversity allows for the examination Of hOW internal,
+external, and management factors, ranging from park size, ownership,
+ser
+peratlona
+Urban re & Urban Greening 724 （ 2026 丿 1295 / /
+and ecological sensitivity tO volunteer involvement and professional
+management ， shape conservation—utilisation strategies in bOth urban
+and regional park contexts.
+Table 1
+summarises the parks' essential attributes, incltlding park
+name, area, park type, organisations involved in nattlre resto-
+ration, ' S ， surrounding
+22 Framework development
+A 30 一 level Conservation and Utilisation Management Framework
+was derived by categorising interview statements according tO their
+emphasis on environmental protection ptlblic use, or a balance Of both.
+statements tO elaborate a pre-conceived EIlVir011
+mental Focus—Balanced—User Focus framework ， structured as a 30-level
+coding ladder. Although atypical, the 30-level representation is inten
+tionally fine-grained tO retain case-derived distinctions and tO Offer
+adaptable reference points for 0ther parks. The levels indicate stepwise
+shifts in conservation stringency along the conservation—use contintltllll,
+a normative ' better—worse ” ranking Of adjacent items.
+Conservat10n strictness is the primary ordering principle Of the frame
+With more regtllatory measures indicating a stronger envlron
+mental orientation. presence or Of activity restrictions iS
+key criterion for distingtlishing between conservation priority and
+freedom of use. The framework was broadly organised into three bands,
+each comprising 10 levels: User Focus, Balanced, and Environmental
+Focus:
+0 IJser Foct1S 1 一 10 ） ： prioritising visitor convenience ， recrea
+tion ， and amenity features.
+· Balanced (Levels 11 一 20 〕 ： Harmonising public use with conserva
+tion concerns.
+· Environmental Focus (Levels 21 一 30 ） ： Emphasising biodiversity,
+ecologlcal integrity, and habitat preservation. Each level is linked to
+characteristic keywords and themes derived from interview data.
+The wording 0f each level was intentionally derived from empirically
+grounded insights obtained through practitioner interviews ， preserving
+context-specific meanings rather than lmposing generalised
+terminology.
+lnterview transcripts were segmented intO paragraphs, each treated
+as a "statement ” and assigned tO one Of the 30 content-based levels.
+Statements falling outside the three categories were excltlded. For cross-
+park comparisons ， a proportional index was calctllated for each park t0
+summarise relative emphasis on Environmental F()Ct1S,
+l_Jser FOCt1S categories:
+Proportional value = (Category Score/Total Statements) × 100 ％
+External Environmental Factors
+Surroun 山 ng Env1ronmental Character1st1cs
+Development, Nearby Residents and Farmland
+Conservation and Utilisation
+Management Framework
+Environmental Focus Balanced User Focus
+Connectivity Analysis
+ltem C 《 a ” 山 曲 on A ltem Classificat10n B
+Text Mining
+MethodoIogy
+Manag
+lmpact on
+· Management Polic
+Research
+Findings
+P 《 op 长
+Words from Managers ' Statements
+Park
+Park
+Park
+Park
+lnternal EnvironmentaI Factors
+Degree ofNaturalness
+Scale
+Ownership 卟 甲 e (Public or Pnvate)
+Management Factors
+Stakeholder lnvolvement
+Volunteer and Collaboration
+Policy Orientation
+Professional EX rtise
+Park
+Fig. 1 · Overall structure Of the study.
+3
+
+@@ PAGE 4 / 12 @@
+J. Chen and K. Fukahori
+Table 1
+Summary Of park features ， management ， and context.
+Urban re & Urban Greening 724 （ 2026 丿 1295 / /
+Park Name
+(Abbreviated
+Kamogawa
+Mizubenosato
+Park
+(Kamogawa)
+Sayama Hill Flora
+Fauna
+lnteraction
+Centre
+(Sayama)
+Saitama Green
+Forest Museum
+(Museum)
+Kitamoto Nature
+Observation
+Park
+(Kitamoto)
+Ageo Mmuyama
+Park
+(Maruyama)
+Area (ha)
+L59
+48 ． 5
+(Centre
+area)
+85 ． 5
+(Museum
+area)
+32 ． 9
+14 ． 9
+Park Type
+Urban park
+(municipal)
+Regional Park
+(prefectural ， total
+designated
+area ： 1807 ． 8 ha)
+Located within the
+same regional park aS
+Sayama
+Urban Park
+(prefectural,
+Exceptionally focused
+on nature
+conselvation)
+Urban park
+(municipal)
+Related Organisations
+for Nat111 e
+Restoration
+(interviewee
+affiliation)
+Kamogawa Mizube
+Wakuwaku Network
+(community-based
+organisation
+collaborating with the
+city government)
+Totoro no Furusato
+Foundation
+(land trust
+organisation)
+Centre for
+Environmental
+Studies
+(private
+environmental
+consulting firm)
+Ecosystem
+Conservation Society
+Saitama
+(professional
+conservation
+organisation)
+NPO eco-works
+(Seitaik0b0,
+collaborating with
+city government)
+Ageo Mizubemori
+(waterfi ℃ nt
+volunteers)
+Role of the lnterviewee
+an advisor from NPO eco-works
+collaborating with community
+based organisation, designated
+manager and city government
+a representative Of the
+designated management
+organisation
+a representative Of the
+designated management
+organisation
+a representative Of the
+designated management
+orgamsation
+a specialist ecological
+restoration organisation
+contracted tO undertake
+restoration; coordinator Kaibori
+(pond draining) and restoration
+with the city government
+Table 3
+Organisational expertise
+(keywords)
+grassland management•
+habitat creation;
+nature observation
+events
+national-trust
+conservation;
+satoyama woodland
+management•
+biodiversity surveys
+nature interpretation;
+envlronmental
+education; satoyama
+management
+biodiversity
+conservation;
+envlronmental
+education• volunteer-
+supported management
+restoration;
+lnvasive specles COntrOl•
+biodiversity monitoring;
+collaboration support
+Surrounding Land
+Conditions
+Adjacent tO residential
+areas and the Kamogawa
+River
+RuraI-urban fringe
+Adjacent tO residential
+areas
+a satoyama landscape
+dominated by secondmy
+forest, Rural-urban fringe
+Located within the
+Sayama Hills ， featurmg a
+high natural enuronment
+with a satoyama landscape
+of secondary forest
+Adjacent tO the Arakawa
+River ， fannland, and a
+hospital, a traditional
+satoyama valley landscape
+and wetland environments
+Adjacent tO the Arakawa
+River and residential areas
+featured by rural
+landscape
+(wetland and farmland)
+where Category Score is the number Of statements in a category ， and
+Total Statements is the total number of statements across all levels.
+Results are presented in Fig. 2 as a stacked bar chart, illustrating each
+park's relative emphasis on conservation versus ptlblic tltilisation. This
+framework enables systematic ， comparative analysis while preserving
+differences in management orientations across parks.
+2 ， 3 ， 0 恤 五 0 cl s 重 ca 五 0
+TO interpret the parks ' management orientations, operational di-
+Table 2
+〕 ， which specify core management practices, and user
+mensions 〔
+Table 3 〗 whlch guide vlsitor behaviour,
+communication strategles 〔
+were defined. The items classified in these tables were analyzed ac-
+cording t0 whether they supported an Environmental Focus, Balanced,
+or User Focus orientation, reflecting the strategic positions adopted in
+park management in response tO internal conditions.
+TO identify strategies that reconcile biodiversity conservation with
+recreational t1Se, interview content was classified across five operational
+dimensions summarized in
+Table 2
+MethodoIogically, each operational dimension was organized by its
+regulatory and spatial scope: measures affecting broader spatial areas,
+such as zoning, were assigned t0 higher regulatory levels (reflecting a
+Table 2
+Operational dimension and definitions.
+User communication classification and definitions.
+Communication
+Regulations
+Collaboration
+lnformation
+Dissemination
+Laissez-faire
+Definition
+Rules or guidelines tO manage park use
+Engaging users in jOint activities with park managers
+Providing guidance tO ensure appropnate visitor
+behaviour
+Minimal intervention; t1Ser interactions develop
+organically
+Operational dimension
+Zoning and Land Use
+Management Practices
+RuIes and Signage
+Hardware and Facility
+Development
+Experiential Activities
+Definition
+Decisions on spatial organisation designated areas
+for conservation or ptlbliC use
+Maintenance schedules, ecological restoration efforts
+Regulations and informational guidance for park users
+PhysicaI infrastructure and facility improvements
+Programmes and activities engaging visitors
+stronger environmental orientation) ， supporting measures were
+assigned tO lower levels.
+Complementing the implementation Of measures classified under the
+operational dimensions ， user communication represents the types Of
+management approaches tO gtlide influence VISitor behavlotll'.
+OII transcripts, communication practices
+classified according tO h()W managers convey messages tO users or
+engage in dialogue When addressing conservation—use tensions in park
+management. These approaches incltlde one-vvay communication from
+administrators ， interactive dialogue With users, and decisions
+intentionally allow user actlvities without direct regulatlon. Accord-
+ingly, user communication practices were categorised intO f()tlr strate-
+gies: regtllations, collaboration, information dissemination, laissez-
+faire (TabIe 3 〗
+These component classifications were integrated tO construct the
+comprehensive framework 〔
+Table 5
+〗 serving as the baseline for evaltl
+ating hOW managers balance visitor engagement with ecological con
+servation along the conservatlon—use contintltllll 〔
+Fig. 1 ） ．
+Through this dual-classification approach, the operational di-
+Table 2
+identify the types Of management measures ， while
+mensl()ns lll
+user communication strategies in
+Table 3
+h()W these mea
+sures are practically implemented through interactions with users.
+4
+
+@@ PAGE 5 / 12 @@
+J. Chen and K. Fukahori
+Therefore, user communication provides a more practlce-oriented
+for understanding hOW managers address conservation—use conflicts in
+park management.
+24 ． lnterviews
+Under Japan' s designated management system, local governments
+oversee policy targets, while appointed managers 0f the parks handle
+operations ， ensuring the translation Of policy intO practice. This is a
+qualitative interview sttldy ， not a questionnaire survey or statistical
+analysis. Since envlronmental otltsourcing precludes specialised an
+swers from the administration, expert respondents from entrusted/
+comnussioned restoration organisations Kamogawa
+and Maruyama, rather than designated managers; their accounts reflect
+implementation and collaboration-oriented perspectives within the
+governance system.
+The interviews were conducted between December 2019 tO
+November 2020 ， W1th each session lasting approximately 90 mln. The
+seml-structured interviews covered 24 thematic items (Table A. 2 ） and
+were conducted in an interactive format tO gtlide discussion toward
+management tO environmental conservation and park
+use. For example ， under the theme Of "responses tO hazardous species, '
+participants were asked: "lf evidence 0f potentially hazardous species,
+such as a wasp nest, is found within the park would it be removed to
+ensure VISitor safety, or retained for environmental conservation pur-
+poses? ln either case, would additional measures be taken for the benefit
+()f the species or park tlsers? ”
+The interviewer engaged respondents in open dialogue and probed
+whenever disct1SSions tOt1Ched management de-
+CISions leaned toward stronger environmental protection or greater user
+orientation. During the interviews, the interviewer probed further tO
+obtain more detailed information and a deeper understanding of the
+respondents' reasoning. These concepts formed the conceptual basis Of
+the stlbsequent orientation classification.
+Prior tO this sttldy ， one Of the atlthors conducted coursework-based
+surveys on environmental edtlcation and habitat management With
+umversity sttldents at tWO of the sttldy sites,Kitamoto for six years and
+Sayama for four years. Through these educational and field-based ac-
+tivities, a range Of practical challenges associated with adaptive habitat
+management, facility development, and envlronmental education in
+park green spaces were identified.
+interview questions were from cottrsework diSCt1S-
+sions that addressed these challenges by organising facility elements and
+human activities tO recreational park use and examining their
+potential influences on adaptive habitat management.
+Within the 30-level framework, narrative descriptions related to
+these themes were evaluated t0 determine whether they could be clas
+sified intO the pre-established orientations Of Environmental Foct1S,
+Balanced, or User FOCt1S. Furthermore, the framework ， s operational di-
+mensions were derived by 81 ℃ uping all descriptions extracted from the
+orientation-based analysis.
+questions were posed consistently across intervlews tO ensure
+analytical rigor. TO facilitate subsequent text mining, core keywords
+were systematically responses. Conversations
+atldio-recorded and transcribed for analysis.
+TWO academic researchers, bOth atlthors Of this paper and present
+during the interviews, specialising in Urban Landscape Planning and
+Environmental Management, analysed the transcripts in tWO stages.
+First the first author reviewed the textual data line by line, classifying
+each segment according tO whether the primary tone concerned envi-
+ronmental conservation, park use ， the relationship between the tWO, or
+Other topics, and extracted relevant keywords. The second atlthor then
+reviewed the interpretive restllts. Any differences in interpretation were
+reconciled through disct1SSion.
+Urban re & Urban Greening 724 （ 2026 丿 1295 / /
+25 ， A ' s 和 酗 ors i i 嗯 park management policies
+Text mining and network analysis were conducted using KH Coder
+BOÅusoklu, 2024 ； Higuchi, 2016 〗 ln contrast with research
+(version 3 ；
+focusing on user-generated content (lshizuka, 2018 ； lto and Sowa, 2010 ；
+Yasuhara and Liu, 2021 ； Yoshida, 2019 ） ， this study applies these
+methods tO institutional narratives tO describe urban park management
+discourses.
+Data Preparation and Morph010gical Analysis
+Transcripts were preprocessed by removing interviewer prompts and
+segmented into paragraphs as analyücal units ("statements ” 〕 ． These
+were imported into the KH Coder for morphological analysis using the
+built-in ChaSen parser. Compound expressions 〔 e ． 8 ” "Mizube-no-Sat0, ，
+"Maruyama Park") were registered tO preserve semantic clarity.
+Frequency Analysis and Keyword C0ding
+For each park, the top ten terms by frequency were automatically
+identified. The three most salient keywords were examined within their
+sentence contexts and COded Environmental Foct1S, Foct1S, or
+BaIanced orientations, based on keyword usage and paragraph meanmg.
+C0ding was performed manually, followed by iterative reflection and
+internal validation tO ensure consistency across all statements.
+26 ， A ' 庇 S 亇 e for the 30-LeveI Framework
+This study analysed the balance between environmental conserva-
+tion and recreational use, by developing the analytical strategy illus-
+trated in
+· This strategy is based on the premise that a park's
+tendency tO adopt partictllar measures or policies across the 30 orien
+tation levels is governed by the following three factors.
+． External environmental factors
+． lnternal park conditions
+· Management factors
+Management orientations were categorised ()II combina
+tion Of keyword frequency, contextual interpretation ， and interview
+narratives, as supported by the content analysis described in
+2 ． 6 ． 3
+2 ， 6 ， 1. 7 ' 耵 mining me 山 od 0
+KH Coder was used t0 conduct three types 0f analysis ：
+1. Frequency analysis tO extract the most salient terms;
+2 ． Keyword connect1Vity analysis t1Sing co-occurrence networks;
+3 ． Categorisation Of thematlc orientation for each park.
+Paragraphs were coded as "statements ” and served as the basic unit
+for analysis. These statements were classified intO one Of the three
+management orientations, ()II usage and semantic C011text Of
+the extracted keywords.
+26 ． 2 Cons 丑 c 五 0 榄 0 丆 co-occurrence nefivorks and connectivity analysis
+TO examlne hOW keywords are semantlcally linked in interviews, CO-
+OCCt1rrence for park t1Sing Jaccard
+coefficient:
+Jaccard(A,B) = n(AQB)/n(AUB)
+〔 2 〕
+Here, A and B denote sets 0f paragraphs containing each term. The
+numerator Of CO occurrences, denomi-
+nator represents occurrences ()f term.
+The Jaccard coefficient ranges from 0 tO 1 and is interpreted relative
+tO comparison.
+Only pairs with coefficients 0 ． 1 were retained tO reduce visual
+cltltter and focus on stronger links, as threshold values are not uniform
+and are selected to ensure visual readability 〔 Nishio et al., 2016 ） ． Each
+network included nodes scaled by keyword frequency, edges weighted
+5
+
+@@ PAGE 6 / 12 @@
+J. Chen and K. Fukahori
+by co-occurrence strength (with line thickness proportional t0 the Jac
+card coefficient), and clusters identified by modtllarity to reveal the-
+mat1C groupings. This enabled comparisons across parks ， ensurmg that
+distinctive management emphases were not lost in aggregation.
+2 ， 6 ． 3 ， Co [ s
+Content analysis was used tO validate classifications derived from
+text mining. This method, widely applied in behavioural and manage-
+ment studies (Krippendorff, 2004 ； Zhang and Wildemt1th ， 2009 〗 inter-
+preted hOW managers described their practices in relation tO ecological
+protection, user participatlon and infrastructure development.
+Statements were categorised intO the three orientations defined in
+the Conservation and Utilisation Management Framework. This step
+enabled triangtllation with keyword-based analysis and added inter-
+pretive depth t0 the understanding 0f park-specific orientations.
+These three complementary approaches—frequency analysis ， CO
+occurrence network analysis, and content analysis—were tlsed in par
+allel to classify management orientations. Their relatlonships and
+analytical are stlmmarised
+Table 4
+3 ． Results and discussion
+3.1. R 然
+3 ． 1.7 ． 刀 “ opme 可 the conservation and u 五 五 Sa 五 0 management
+framework
+()II concept Of balancing environmental conservation and
+park use within the Conservation and Utilisation Management Frame-
+work, interview transcripts from all five parks were analysed tO develop
+standardized descriptions for the 30-level management orientations.
+Table 5 summarlses the results, in whlch the 30 ordered levels were
+further aggregated intO three broader management orientations ： Envi-
+ronmental Focus, Balanced, and User Focus.
+For instance, Level 21 statements typically are interpreted as
+ecological commitments where eco-friendly natural materials are
+preferred ， yet some artificial elements are permitted. Level 22 state-
+ments are interpreted exclt1Sive use Of nattlral materials tO mmi-
+mise infrastrt1Cture and maximise biodiversity conservation 〔
+Table 5 〕 ．
+3 ， 1.2 ， Aggregated r 湿 可 management 07 讠 “ 恤 五 0 0 2 丿
+The broader distribtltion Of management priorities is visualised in
+Fig. 2 which shows the proportions 0f Environmental Focus ， Balanced
+and User Foct1S by park ， obtained by counting the classified descriptions
+for each management orientation across five parks.
+3 ． 1.3 ． g 酣 ed results 可 叩 era 皿 ／ dimensions 0
+The proportion 0f operational dimensions by park is illustrated in
+These dimension distribtltions were obtained by counting the
+classified descriptions for each operational dimension ℃ SS the five
+parks.
+Table 4
+AnaIyticaI basis for interpreting t0P keywords by frequency and connectivity.
+Urban re & Urban Greening 724 （ 2026 丿 1295 / /
+Table 5
+Rest11ts Of the Conservation and Utilisation Management Framework.
+UF
+BF
+EF
+Operational
+dimension
+Experiential
+Activities
+Hardware
+/FaciIity
+Development
+RuIes/Signage
+Management
+practices
+Zoning/Land
+USe
+Experiential
+Activities
+Hardware
+/FaciIity
+Development
+RuIes/Signage
+Management
+practices
+Zoning/Land
+t1Se
+Hardware
+/FaciIity
+Development
+RuIes/Signage
+Management
+practices
+I_Jser
+Communicat1011
+Laissez-faire
+lnformation
+Dissemination
+Collaboration
+Laissez-faire
+Regulations
+lnformation
+Dissemination
+Collaboration
+Regulations
+lnformation
+Dissemination
+Objective
+Unit of
+Analysis
+lntelpretive
+Foct1S
+Frequency Analysis
+ldentify distinctions in
+management discourse and
+highlight themes characteristlc
+“ shared among parks.
+Sentence containing the
+keyword.
+CIassify underlying
+management perspective aS
+Environmental Focus, User
+Focus, or Balanced.
+Connectivity
+()O occurrence) Analysis
+lnterpret contextual meaning
+of frequently co-occt11Ting
+word pairs tO reveal thematic
+associations and reasoning.
+Paragraph containing both co
+occt11Ting terms.
+Explain relational significance
+Of connections hOVV
+they reflect specific
+management orientations.
+Categorisation Of Statements
+Regarding Conflict Responses
+1 .All activities permitted.
+2.Events held regardless of
+biodiversity impact （ 巳 8 ． ， dining ，
+music, sports).
+3.Harmful substances or artificial
+facilities installed, minimal
+ecological care.
+4.Conservation rules exist but are
+not ShOWn tO tlSerS.
+5.Informational displays provided
+on local nature, without direct
+conservation
+6.Users involved in non-
+conservation management
+decisions (design ， events,
+facilities) ．
+7 .Harmful or dangerous species
+eradicated immediately.
+8.Woodland/waterfront
+management ignores biodiversity
+(pruning ， dredging ， etc.).
+9.No buffer between natural areas
+and playgrounds/dining/facilities.
+10.No zoning for biological
+conservation.
+11 .Activities offered for
+biodiversity learning and
+experlence.
+12.Facilities allow biodiversity
+observation while considering
+conservation.
+13.Usage regulations include
+provisions for nature and
+biodiversity protection.
+14.Signage informs users Of
+biodiversity-friendly use.
+15.Conservation rtlles exist and are
+communicated, no strict aCCeSS
+limits.
+16 ℃ ollaborative management with
+users,/residents/organisations.
+17.Monitoring conducted• rare
+species information shared with
+users when appropriate.
+18.Buffer zones created between
+conservation and user
+19.Conselvation areas normally
+closed, opened for events/
+activities.
+20.Restricted access tO paths in
+designated conservation ZOneS.
+21.Ec0-friendly natural materials
+used where possible.
+22.No harmful substances or
+artificial facilities; structures built
+from natural materials (limited
+administrative exceptlons
+permitted).
+23 ℃ onservation policy exists but
+not ViSil)ly communicated
+enf01 ℃ ed.
+24.Users asked, out Of courtesy, tO
+avoid harnful behaviour.
+25.Conservation rules exist;
+warnings Via signage, not
+confrontation.
+26.Patrols and direct warnings
+enforce conselvation rtlles.
+27.Management led by experts or
+follows expert advice.
+28.Monitoring conducted• rare
+species info withheld for
+protection.
+(continued on next page)
+6
+
+@@ PAGE 7 / 12 @@
+J. Chen and K. Fukahori
+Table 5 (continued ）
+Operational
+dimension
+Zoning/Land
+use
+Urban re & Urban Greening 724 （ 2026 丿 1295 / /
+Table 6
+Top three keywords interpreted under the theme Of urban park planning.
+User
+Communication
+Regulations
+Categorisation Of Statements
+Regarding Conflict Responses
+29.Temporary access restrictlons
+for biological protection or
+restoration.
+30.Areas permanently closed to
+non-management/non-research
+ent1Y•
+*UF: User Focus, BF: Balanced Focus, EF: Environmental Focus
+0 Environmental Focus
+48 ％
+68 ％
+43 ％
+42 ％
+。 Balanced
+47 ％
+到 User Focus
+24 ％
+0 ％
+52 ％
+20 ％
+40 ％
+80 ％
+1 佣 ％
+Park Name
+Kamogawa
+Sayama
+Muset1m
+Kitamoto
+Maruyama
+Top Three
+Words
+(Frequency)
+People （ 40 ）
+Park 〔 35 ）
+Meadow 08 ）
+Centre （ 52 ）
+Management
+（ 52 ）
+People （ 50 ）
+PeopIe （ 37 ）
+Management
+（ 35 ）
+TO Create 〔 30 ）
+Park 〔 51 ）
+Nature （ 38 ）
+AnimaIs （ 29 ）
+Park a04 ）
+People 〔 37 ）
+Nature （ 35 ）
+Urban Park Planning
+Discussion of Urban Park
+PoIicy
+Meadow based play;
+respect for local nature
+and heritage;
+participat01Y zoning and
+rule-making
+Satoyama conservation;
+resident—volunteer
+councils; expert-advisor
+guidance
+Citizen involvement in
+conservation; volunteer
+partnership;
+collaborative restoration
+Nature-oriented design ，
+hist01Y-infonned;
+biodiversity protection;
+integrate adjacent
+biotopes (Arakawa)
+Hannony Of Water &
+GreenelY ； water-cycle
+management; protect
+water-edge landscapes
+Discussion Of
+Maintenance POlicy
+Meadow creation &
+upkeep; community
+workshops; featme
+projects (e.g.,
+dragonfly pond)
+Cooperative
+maintenance;
+consensus-building;
+resident feedback
+integration
+Biodiversity &
+visitor safety; area
+specific monitoring;
+event-based
+education
+Wetland &
+woodland
+conservation;
+scientific
+monitoring;
+restr1Cted access
+Kaibori pond
+restoration• adaptive
+water-use rules•
+contl ℃ lled water-
+based activities
+Fig. 2 · Proportion Of Environmental Focus, Balanced and User Foct1S by park.
+到 Zoning and Land Use
+Management Practices
+到 RuIes and Signage
+的 Hardware and FaciIity DeveIopment
+。 ExperientiaI Activities
+Maruyama
+Kitamoto
+Museum
+Sayama
+Kamogawa
+20 ％
+40 ％
+80 ％
+100 ％
+Fig. 3 ． Proportion Of operational dimensions by park.
+3 ， 1. 亻 ， ResuIts ofkeywordfrequency analysis 0 、 åble 6 丿
+Keyword frequency analysis was conducted using KH Coder. The top
+three keywords interpreted under the theme 0f urban park planning for
+each park ， along with their frequencyles ， were obtained fi ℃ m the CO
+occurrence networks and presented in
+Table 6
+3 ， 1.5 ， Results 0 丆 co occurrence eft 07 * and Jaccard coefficients (Fig. 4
+Co-occurrence network analysis was conducted t1Sing KH Coder tO
+generate diagrams, with Sayama featured as a representative case
+4 〗 as well as Figs. A. 1 一 4 (partially in the Appendix) ． From these
+networks ， the top-ranked Jaccard coefficient pairs representing the
+connectivlty for each park were obtained as presented in the Keyword
+Connect1vity lnterpretatlon Table (Table A.3a-e).
+3 ， 2 Discussion
+3 ． 2 儿 Comparison 可 0 en 恤 profiles across parks
+TO evaluate and compare the proportlons Of management orienta-
+tions across contexts, framework ， S classification restllts were
+aggregated for each site. As shown in Fig. 2
+the distributions Of
+Note: Full details of Tab1e 6
+are provided in Appendix Table A. 1.
+Environmental Foct1S, Balanced and User Foct1S vary among the parks.
+Kamogawa 〔 52 ％ EnvironmentaI Focus ， 24 ％ User Focus) is charac
+terised by clear spatial zoning that separates conservation and recrea
+tional areas.
+lntervlew evldence indicates community-based
+management arrangements, and the park is adj acent tO residential areas
+with strong recreational demand.
+ln contrast, Kitamoto ， with a dominant Environmental FOCt1S （ 68 ％ ）
+and minimal User Foct1S （ 1 ％ 〗 adopts an exclusionary management
+style. The park lies within a sensitive wetland corridor and was designed
+biodiversity conservation a primary allll. interviews indicate
+relatively limlted direct demand for recreatlon.
+B0th Sayama and Maruyama display higher Balanced orientations
+〔 47 ％ ） ， but their underlying strategies differ. Sayama emphasises SUS-
+tainable ptlblic engagement, 0ften partnering with schools and volun
+teers for restoration prOJ ects, yet deliberately limits the development Of
+user-focused facilities tO safeguard ecological priorities. Maruyama,
+which was formerly more user-oriented, has shifted towards conserva
+tion by phasing out activities incompatible with ecological goals. The
+accotlllts refer tO restoration progress (St1Ch revital-
+isation 0f aquatic habitats) and changing policy priorities alongside this
+shift.
+Muset1111 ， With itS extensive natural areas and IOW visitor density ，
+combines user amenitles (St1Ch as interpretlve signage and observation
+events) with a minimum-intervention approach leveraging flexible
+spatial zomng tO protect biodiversity and accommodate moderate ptlblic
+use.
+These restllts vary across ecological context, park history, user de
+mands, and instittltional priorities. They are discussed in relation tO
+integrating quantitative findings with qualitative insights for under
+standing urban park governance. The Keyword Connect1vity lnterpre-
+tation Table is a reference for identifying park management priorities.
+3 ， 2 ， 2 External environmentalfactors
+External factors ， st1Ch as surrounding ecosystems ， proximity tO resi-
+dential areas, and agrictlltural land, are important for understanding
+management decisions.
+7
+
+@@ PAGE 8 / 12 @@
+J. Chen and K. Fukahori
+Saitama
+， 29
+， 33
+Design
+， 3
+Signboard
+Urban re & Urban Greening 724 （ 2026 丿 1295 / /
+Subgraph ：
+囗 01 囗 04
+囗 02 囗 05
+囗 03
+Coefficient:
+Touse
+29
+TO create
+． 29
+． 25
+． 29
+25
+Activity
+Landscape
+2
+5
+． 5
+@5
+． 2
+cation
+， 33
+Fund
+． 25
+． 25
+25
+Even
+． 4
+． 3
+． 5
+0 ration
+36
+． 4
+Sa ama Hills
+， 25
+Volunteer 26
+． 25
+， 27
+． 25
+， 33
+Environment
+27 Community
+@25
+26
+． 25
+Facili
+， 25
+． 27
+Centre
+Frequency ：
+Together
+6
+Management
+． 29
+Elementary Sch001
+0 enter
+、 33
+29
+． 33
+S lution
+ble
+h 1
+Utilisation
+8
+25
+Talk
+PeopIe
+20
+30
+40
+50
+60
+Fig. 生 Co-occurrence network diagram for Sayama.
+． Surrounding Ecosystems: K1tamoto, designed from its inceptlon as an
+park a primary fOCt1S on nature conservation, iS
+along the Arakawa River Basin ecological network and adj acent t0
+the Arakawa Biotope, a pioneering large-scale restoration project.
+Fig. 2 shows a strong conservation-oriented profile 〔 68 ％ Environ
+mental Focus; 1 ％ User Foct1S) The site is situated within approxi-
+mately 50 ha of wetland habitat under conservation management.
+· Proximity tO Residential Areas: Kamogawa and Sayama are bOth
+situated near residential communities. Kamogawa has a significantly
+notably higher proportion 0f User Focus 〔 24 ％ ） 0i8 ． 2 〗 Sayama,
+meanwhile, shows the highest proportion Of Balanced orientation
+among all parks 〔 47 ％ ） ， alongside a stlbstantial share 0f Environ
+mental Focus 〔 42 ％ ） and a moderate User Focus 〔 11 ％ 〗 lntervlew
+evidence indicates diverse expectations commtlllitles
+reported efforts tO harmonise ptlblic use and ecological care.
+Agricultural Proximity ： Kitamoto is adj acent tO agrictlltural land, and
+0
+interview accounts indicate the inflow Of ntltrient-rich runoff that
+poses ongoing challenges for wetland conservation and water qual-
+ity. WetIand protection and management are repeatedly described as
+central priorities. As presented in the top word pairs in the Keyword
+Connectivity lnterpretation Table (Table A. 3d 〗 such as "Mainte-
+nance × Wetland ” and "Organisms × Problem", management efforts
+fOCt1S on sustaining wetland functions and addressing related
+ecological issues. The frequent pairing 0f "Cat1tion × Signboard"
+involves the park' s use Of rtlles and signage tO regtllate visitor
+behaviour and minimise further impacts on sensitive habitats.
+These spatial SOCial environmental influences are discussed
+relation to the need for adaptive, place-based management.
+3 ， 2 ， 3 ， 加 怊 rn 湿 e e
+lnternal factors, incltlding ecological naturalness ， spatial scale, and
+ownership, are discussed in relation tO operational dimensions
+(Fig. 3 〕
+． Naturalness and Scale: Museum located deep in the Sayama Hills
+has the highest ecological naturalness. lts large area permits partic
+ipatory programmes and signage, while concentrating visitor facil-
+ities 06 ％ ） in less-sensitive zones. Staffing is limited; management
+relies on rtlles and signage 〔 30 ％ 〕 ． The park is remote and experi-
+ences relatlvely IOW visitor pressure, a configuration that is discussed
+alongside a balance between conservation and use.
+By contrast, Kitamoto, a compact valley park, is prone tO distur-
+and prioritises conservation, With Of management
+practices （ 38 ％ ） and rtlles （ 25 ％ 〗
+Urban parks st1Ch as Maruyama and Kitamot0 depend heavily on
+signage （ 41 ％ and 25 ％ ） under strict environmental policies. ln
+Maruyama ， S1gnage iS used tO reinforce gains in aquatic restoratlon
+in a dense settlng.
+Kamogawa, the smallest and most linear site, applies zoning 〔 8 ％ 〕
+and facility investment （ 23 ％ 〕 tO separate conservation from recre-
+ation ， an adaptation tO its residential adjacency.
+Sayama, a large regional park ， devotes the highest share t0 man
+agement practices （ 55 ％ 〗 Zoning distingtlishes accessible forests
+from unmanaged woodlands, balancing commumty use and habitat
+8
+
+@@ PAGE 9 / 12 @@
+J. Chen and K. Fukahori
+protection. AS emphasised by its manager, zoning is necessary for
+managing the diverse landscape.
+· Ownership: Sayama has fragmented tenure, with private p10ts
+interspersed with Foundation-owned parcels. The Foundation ， s
+National Trust ” has conserved 52 lOts, a process that reqtlires con-
+stant negotiation among landowners, governments, residents, and
+the Foundation. lnterviews describe a polycentric arrangement with
+Fig. 3 shows a high share 0f management
+ongoing negotiation.
+practices 〔 55 ％ ） ．
+Kitamoto ， s unlfied public ownership is reported alongside central-
+ised, conservation-led management. Maruyama and Kamogawa, also
+public, benefit from streamlined administration but risk limited stake-
+holder diversity. Museum, with extensive ptlblic land, relies on visitor
+self-regtllation through zoning and signage.
+Overall, fragmented tenure and collaboration are frequently re-
+ported together ， while unified tenure is frequently reported with
+admlnistrative efficiency. These patterns are highly context-dependent.
+． Exper1ential Act1vities: Lower proporüons Of Experiential Activ-
+ities at Kamogawa 05 ％ 〕 and Maruyama 〔 8 ％ ） are discussed in relation
+t0 classification overlap within the analytical framework. Many expe-
+riential interactions in these parks are categorised Environmental
+Education or Management Practices rather than as standalone experi-
+entlal programmes; thus the data dO not necessarily indicate fewer ac-
+tivlties. This is interpreted in light of the importance Of integrating
+quantitative results with qualitative insights tO accurately capture the
+complexity Of on-site management.
+3 ． 2 亻 ． 、 Managementfactors
+Management factors, incltlding stakeholder involvement, volunteer
+participaüon, collaboration, policy orientation, and professional
+expertise, are in management strategies and otltcomes across
+five parks. This section synthesises evidence (Tab1e 6 ' Tables A.4-A.6)
+and interview data tO shOW hOW each management factor is imple
+mented at each site and hOW internal and external conditions relate tO
+cross-site variation.
+· Management Perspectives on Stakeholder lnvolvement and Exper-
+tise ： Kitamoto exemplifies a conservation first approach, prioritising
+biodiversity protection through expert driven strategies and profes
+sional ecological knowledge. lnterviews emphasise targeted conser-
+vation goals and relatively compact areas, as well as the need for
+specialist inptlt tO achieve their objectives （
+Table 6 ． Tables A. 5 and
+A ． 6 〗
+Museum, though also ecologically oriented adopts a minimal
+intervenüon approach (TabIe A. 5 ） ， relymg heavlly on skilled vol-
+unteers t0 maintain ecological quality (Tab1e 6 ' Table A.4) and
+deliver curated educational activities, st1Ch as the annual "Green
+Forest Festa ” (Table A. 6 ） ， across a much larger park area.
+Maruyama adopts a philosophy 0f "restoration through community
+participaüon. ln this model, trained local volunteers (such as
+miztlbe-mamori) serve intermediaries ecological spe-
+cialists and general park users, playing a key role particularly during
+restoration initiatives, st1Ch as pond regeneration 〔 Kaibori) 〔
+Table 6
+Table A. 5 〗 These proj ects rotltinely attract significant involvement
+from bOth trained and general volunteers ， WhO facilitate communi-
+cation, gtlidance ， and on-the ground collaboration. St1Ch collabora-
+tive efforts are reinforced by management' s emphasis on phased
+envlronmental education and broad-based citizen engagement
+(Tables A. 5 and A ． 6 〕 ， tO sustain restoration and conservation Objec
+tives over time.
+These variations are interpreted in light Of hOW internal priorities,
+st1Ch as ecological value, park history, or ownership complexity ， and
+surrounding social conditlons collectively shape management phi-
+losophies. Conservation-oriented parks tend toward expert or
+volunteer-driven approaches, while socially complex or urban parks
+Urban re & Urban Greening 724 （ 2026 丿 1295 / /
+favour participatory and adaptive perspectives. This is discussed in
+relation tO the for context-sensitive governance in urban
+park management ， ensuring that management approaches respond
+to both ecological conditions and social realities.
+． PoIicies: The implementation of these philosophies Y1eIds distinctive
+policy frameworks tailored t0 each park's context. Kitamot0 imple
+ments strict ecological rtlles, habitat-sensitive infrastructure, and
+restricted access ， with daily maintenance and intervention gtlided by
+expert constlltation and scientific monitoring (Table 6 ． Tables A. 5
+and A. 6 ） ． The museum maintains clear, area-specific rtlles and
+nnnimal intervenüon, gtllded by a small but skilled volunteer group
+and selectively offered educational programming 〔
+Table 6
+TabIes A. 4-A.6 〗
+Maruyama employs explicit signage and adaptive policies t0
+manage aquatic habitats ， strictly ℃ hibiting fishing and 0ther water-
+recreational activities tO safeguard restoration otltcomes ach-
+ieved through pond restoration (Kaibori) ． The stringent regtllations
+are interpreted as intended tO limit potential ecological disturbances
+from fishing, thereby clearly communicating conservation-focused
+management tO visitors, and tO support the maintenance Of the
+ecological gains from periodic Kaibori activities (Table 6 ' Tables A.4
+and A ， 6 〗 Kamogawa' s policies are shaped by participatory rtlle
+making, consensus-based decision making, and collective safety
+management, with policy adjustments responding flexlbly to user
+input gathered through workshops and open dialogue (TabIe 6
+Tables A. 5 and A.6). Sayama employs ongoing consultation, collab-
+orative maintenance ， and proactive responsiveness tO resident
+user needs ， with adaptive management grounded in regtllar dialogue
+among managers ， residents, and expert advisors (Tables A.4 and
+Parks adj acent tO residential areas (Sayama, Kamogawa) typically
+adopt more participatory and adaptive policies, while parks with
+higher ecological sensitivity or remoteness (Kitamoto, Museum)
+enforce stricter, conservation-oriented rtlles. Reflecting its urban
+location and mission driven history, Maruyama uniquely balances
+restoration and recreation through policy models tailored tO bOth
+ecologlcal and social realiües.
+． Collaborators and Expertise: Collaboration structures and the
+mobilisation 0f expertise further distinguish the five parks. Sayama
+demonstrates the most embedded, multi-level collaborative network,
+with managers ， residents, volunteers ， and external experts partici-
+pating through community councils, J Oint maintenance, and regtllar
+constlltation （
+Table 6 ． Tables A. 4 一 A ， 6 〕 ． lnterviews describe this
+structure in relation tO fragmented landownership and complex SO
+cial settings.
+The museum is maintained by a small, highly committed volunteer
+core, supplemented by specialist partners (Table 6 ' Tables A. 4 and
+A ， 5 ） ， and volunteers are formally acknowledged for their essential
+roles. Maruyama features broad citizen participation, with volun
+teers, 10ca1 groups, and city agencies JOintly coordinating efforts on
+river restoratlon, mvaslve species environmental edtl-
+cation (Tables A. 4 and A. 6 〕 ． Kitamoto, by contrast relies on pro-
+fessional ecological advice, scientific monitoring, and formal
+management contracts, with less dependence on general volunteer
+networks. Kamogawa integrates structured management and regtllar
+informal user involvement, blending participatory mechanisms with
+management-led safety and ecological care 〔
+Table 6 ． Tables A.5 and
+These patterns are interpreted in the context of broad parücipa-
+tory WhiCh iS more ownership iS
+fragmented or urban access is high (Sayama ， Maruyama ， Kamo
+gawa). At the same time, expert networks and focused volunteer
+teams dominate in ecologically sensitive or less accessible parks
+(Kitamot0, Museum). Thus, collaboration reflects both the physical
+and institutional context, tlltimately informing each park' s gover-
+nance capacity and adaptability.
+9
+
+@@ PAGE 10 / 12 @@
+J. Chen and K. Fukahori
+。 Theoretical and Meth0d010gical Reflection: This cross-park analysis
+is conducted in light Of hOW management orientations and policy
+frameworks are shaped by site-specific ecological and social condi-
+tions and dynanncally co-constructed through adaptive, multi-actor
+collaboration. By integrating keyword data (Table 6 ． Tables A. 4 一
+A.6) and interview evidence, this study provides an adaptable
+framework for evaluating management strategies in urban green
+spaces. The diversity 0f approaches observed ， from expert-driven
+ecological sanctuaries tO participatory, community-based models,
+iS discussed in relation tO necessity Of context sensitive gover-
+nance. This 30-leveI framework provides a unified, standardised
+expression Of diverse management approaches, enhancing cross-case
+referential value. lts practical relevance is supported by interviews
+With experienced professionals possessing extensive expertise in
+biodiversity conservation and habitat management, whose knowl-
+edge has been applied tO urban park contexts. The interviews were
+conducted in 2019 一 2020 ． CruciaIIy, Japan' s NationaI Bi0diversity
+Strategy 2023 一 2030 ， adopted followlng COPI 5 ， has positloned
+urban parks and green spaces as one of the relevant settlngs for
+advancing Positive ()l)jectives. on-site conservation
+initiatives remain acrOSS mtlllicipalities, drawing OII
+experience Of these professionals externalises scarce ， practice-based
+conservation management knowledge ， providing adaptable refer-
+ence points for local atlthorities responding tO emerging biodiversity
+conservatlon goals.
+Theoretically, this sttldy demonstrates that ， in urban parks aiming t0
+actively restore nature, as well as in peri-urban parks seeking integrated
+conservatlon With stlrrounding ecosystems, conflicts may arise between
+the free use 0f parks by urban residents and the pr ℃ tection 0f biodiver-
+sity. ln such situatlons, the findings suggest that an appropriate level of
+conservatlon emphasis can be adjusted and adjusted in response tO in
+environmental management COII
+straints. ln practice, the research underscores the critical importance Of
+adaptive management strategies that integrate bOth biological adaptive
+management—the responsive and flexible adjt1Stment Of ecological
+processes—and social adaptive management which entails ongoing
+negotiation and mediation among diverse stakeholder values and
+sometimes conflicting
+As substantiated by Table 6
+and A ， 4 一 6 and interview testimony, the
+diversity 0f management perspectives, policy frameworks ， and collab-
+orative structures helps explain the observed variation in park man
+agement strategies. Kitamoto and Museum exemplify expert driven,
+conservation-focused management, especially where ecological valtte or
+remoteness shapes priorities. Maruyama, Kamogawa, and Sayama
+demonstrate the importance Of participatory, adaptlve governance ln
+parks situated within urban or socially complex contexts. Ultimately, the
+alignment between management vision, policy design, and collaborative
+practice is key tO assessing each park' S capacity tO balance environ
+mental conservation with ptlblic use ， offering valuable lessons for urban
+park governance globally.
+More broadly, the analysis demonstrates that external envlronmental
+factors, internal park conditions, and management factors dO not oper-
+ate in isolation. Rather, they interact within each park, collectively
+informing management orientations and specific strategies. This mtllti-
+layered ， context-dependent interplay is discussed in relation tO the
+need for integrative and adaptive approaches in urban park governance,
+ensuring that management practices remam responsive tO complex
+realitles of each site.
+3 ， 25 ． C0-occurrence 加 rk and connectivlty analysis
+This section explains hOW park management reconciles biodiversity
+conservation with ptlblic use by applying co-occurrence network anal-
+ysis. ln each park, the top-ranked Jaccard coefficient pairs not only are
+presented most salient semantic associations in management
+discourse but alSO encapsulate the management fOCt1S and unique
+Urban re & Urban Greening 724 （ 2026 丿 1295 / /
+character of that park @
+； Figs. A. 1 一 4 ） ． The Keyword Connectivity
+lnterpretation Table with Jaccard coefficients provides information for
+interpreting relationships among objects ， ideas ， purposes, and chal
+lenges, thereby infornnng the understanding of management
+orientations.
+Kamogawa (Fig. A ， 1 〗 a relatively small, linear park in proximity t0
+residential areas, emphasises participatory management through
+community-led workshops, as indicated by the stl ℃ ng association
+organisation × workshop' (Jaccard coefficient: 0 ． 33 ， ranked second).
+As observed in the Keyword Connectivity lnterpretatlon
+TabIe (TabIe A. (a), these workshops are described as direct platforms
+for dialogue between residents and management and for collective
+decision-making. lnterview evidence indicates robust stakeholder
+involvement and consensus disct1SSion Of
+ecological priorities.
+Sayama (Fig. 4 ） prominently connects the associations "landscape
+× activity" (Jaccard coefficient: 0 ． 57 ， ranked first) ，
+"landscape
+× educaüon ， 〔 0 ． 50 ， ranked second), and "event × volunteer 〔 0 ． 45 ，
+ranked third), as observed in the Keyword Connecüvity lnterpretation
+Table (Table A. 3b 〗 The network places "landscape" at the centre of
+these links. lnterviews describe an emphasis on stewardship Of
+Satoyama landscapes ， with schools and volunteers participating in
+events and educational activities. The prominence Of "landscape" IS
+interpreted in light of targeted community-based educational activiües
+and the preservation Of traditional rural ecological settings.
+Museum (Fig. A.2) features the keyword pair
+'t0 appear
+× tltilisation ” (Jaccard coefficient: 0 ． 35 ， ranked first) ， lnterview evi-
+dence indicates spontaneous vegetation growth st1Ch as seasonal plant
+emergence, as opportunities for V1sitors tO observe and learn abotlt
+natural dynamics. While the network diagram highlights the statistical
+strength of this connection the connectivity interpretation table
+(Table A.3c) provides its management context, indicating that this CO-
+OCCt1rrence reflects repeated disct1SSions linking seasonal
+changes VVith visitor experiences.
+Regarding the keyword pair "nature × t0 create ” (Jaccard coeffi
+cient: 0 ． 33 ， ranked second) ， interview data indicates a commitment tO
+maintaimng the site's existmg natural conditions and a reluctance tO
+introduce new roads or facilitles. A conflict between facility constructlon
+and the preservation 0f the park's ecological integrity is noted, with
+priority given tO protecting the site ， S natural state over enhancing visitor
+convenience through additional infrastructure. This management phi-
+losophy is fundamental t0 the museum' s identity as an ecological
+sanctuary and setS it apart from more interventionist or user-oriented
+parks in the study.
+Kitamoto (Fig. A. 3 〕 is interpreted as a distinct, restoration-oriented
+management philosophy. The keyword pairs 'hnaintenance × wetland ”
+(Jaccard coefficient: 0 ， 29 ， ranked first) and 'organisms × problem"
+（ 0 ． 27 ， ranked third) are partictllarly prominent in the Keyword Con
+nectivity lnterpretation Table (Table A.3d). The interview content in
+dicates that wetland ecosystem management ， incltlding seasonal
+maintenance tO sustain biodiversity and ecological stability, is a core
+fOCt1S, alongside actlve responses tO biodiversity issues, St1Ch invasive
+alien species and water quality.
+Unlike Museum and Sayama, which favour preserving natural con
+ditions through minimal intervention ， Kitamoto actively identifies and
+responds t0 biological and ecological challenges, st1Ch as the manage-
+ment Of invasive species and water quality ， WhiCh are closely monitored
+and managed by specialists. This is interpreted in light of Kitamot0's
+restoration-orlented management philosophy, in contrast W1th the non-
+interventionist approach Of Museum and Sayama.
+Maruyama (Fig. A. 4 ） prominently features the keyword pairs 'tmature
+× park" (Jaccard coefficient: 0 ， 43 ， ranked first) ， "convenience × t0
+consider ” （ 0 ． 42 ， ranked second) ， and "location × tltilisation ” 〔 0 ． 42 ，
+ranked thlrd), all emphasised in the Keyword Connecüvity lnterpreta-
+tion Table (Table A. (e) ． lnterview evidence indicates an ecological
+restoration and observation focused philosophy, including pond
+
+@@ PAGE 11 / 12 @@
+J. Chen and K. Fukahori
+draining (Kaibori) ， and frames convenience and safety in relation tO
+facilitating safe nature observation (e.g., lighting and open pathways t0
+prevent accidents). lnterviews alSO reported reservations abotlt leisure-
+oriented use and a preference tO restrict facilities and programming tO
+ecological observation.
+ln sum, these networks, anchored by quantitative co-occurrence
+rankings, a Keyword Connectivity lnterpretation Table, and interview
+evidence ， are presented word pairs associate each park's
+management emphases and local contexts （
+； Figs. A 彐 一 4 〗 The di-
+versity Of semantic associations further reflects hOW geographic loca-
+tion, park history, stakeholder structure, and local needs shape tallored
+strategies. These patterns are examined in relation tO the value of the
+connectiV1ty interpretation table as a tO 引 for cross-case comparison and
+context-sensitive, adaptive management in urban park governance.
+More broadly, these findings underscore the value of mixed-method,
+℃ ss-case analysis for advancing b0th the theory and practice 0f adap
+tive green space governance.
+At a strategic level, this keyword connectivlty provldes insights intO
+managers ' repeated emphasis and thematlc clusters, as reflected in the
+relationships among frequently connected terms. These patterns help
+interpret hOW different management orientations—represented in this
+sttldy as Environmental FOCt1S ， Balanced, and User Focus—are priori-
+tised and combined within specific park contexts. The restllts suggest
+that managers dO not rely exclusively on a single orientation; instead
+they flexibly combine multiple orientations (Fig. 2 ） depending on
+ecological conditions, user relationships, and challenges, reflecting
+characteristics consistent with adaptive management approaches.
+Moving forward, ftlture research involving a larger number 0f parks
+cotlld use these recurrent keyword networks tO examine further the re-
+lationships between park environmental conditions and prioritised
+management measures interactions between surrounding commtl-
+nity contexts and management constraints, and the processes through
+WhiCh adaptive conservation practices engage tlrban communiues
+generate broader social benefits.
+St1Ch adaptive processes may provide opportunities tO experimen
+tally involve urban residents in biodiversity-oriented management
+practices.
+3 ， 2 ， 6 ， Lanæuse co e 耵 and stakeholder involvement
+External factors, st1Ch as ecological settings and residential contexts,
+generally steer parks toward either conservation-oriented or
+community-oriented directions. lnternal factors related tO land owner-
+ship patterns play a partictllarly decisive role in shaping forms 0f envi-
+ronmental governance. extensive area and fragmented private
+ownership observed in Sayama reqture collaborative governanc 巳 ln
+contrast, the integrated public ownership of a relatively compact, geo-
+morphologically fragile wetland landscape, as seen in Kitamot0, enables
+an expert-led, conservation-oriented, centralised management model.
+Management perspectives and stakeholder involvement, mediated
+through land ownership structures ， generate diverse governance ar
+rangements ranging from highly community-driven collaboration, as in
+Sayama and Kamogawa, to volunteer-supported models, as exemplified
+by Museum and Maruyama. ln Kamogawa, the influence of the adjacent
+residential areas were associated with expert-led collaboration largely
+limited tO neighboring communities.
+3 ． 2.7. General discussion
+Taken together these findings indicate that environmental man-
+agement in sustainable parks depends not only on technical in
+terventions btlt alSO on adaptive and collaborative communication with
+users. A main contribtltion Of this sttldy is the development Of a con
+ceptual tOOl tO gtlide environmental governance in parks across diverse
+local contexts.
+This study identlfies the various barriers tO, and countermeasures
+for nature conservation efforts implemented through the instittltional
+framework 0f public parks. The analysis 0f five cases in Saitama
+Urban re & Urban Greening 724 （ 2026 丿 1295 / /
+Prefecture, Japan, inevitably, has limited generalizability.
+For example ， tWO Of the parks are regional, with extensive areas
+largely comprising privately owned land with highly fragmented
+ownership. This condition presents challenges tO advancing envlron-
+conservation act1Vities and promotlng recreatlonal t1Se, reflect-
+ing land tenure patterns historically rooted in Japan.
+At the same time, however, the challenge Of balancing conservation
+and use when artificially developed urban spaces or agrictlltural lands
+with high ecological restoration potential are influenced by their prox-
+lmity and accessibility tO urban residents is not unique tO Japan. If
+further examined from the perspective of parks as green infrastructure
+that delivers ecosystem services, this issue could facilitate the sharing Of
+common challenges at the international level.
+Additionally, longittldinal perspectives on "Balanced ” cases and on
+the long-term sustainability 0f st1Ch balance ， as evaluated by managers ，
+remain unresolved. More critically, further research is needed tO
+examine lessons five parks ， advanced initiatives,
+have drawn from the continuatlon and evolution Of their practices and
+from adaptive management responses. Furthermore, incorporating user
+perspectives and scientifically examining the biophysical and social
+conditions within and around parks will be essential for optimizing
+location-sensitive conservation strategies Within urban planning and
+park management.
+生 Conclusions
+Drawing on interview data ， this study developed a 30 一 level Conser-
+vation and Utilisation Management Framework and used it tO examine
+how five parks in Saitama Prefecture balance environmental conserva-
+tion and recreational use. Additionally, interview transcripts were
+analysed t1Sing an integrated approach combining keyword frequency
+analysis with CO occurrence network analysis, based on the premise that
+speech characteristics reflect each park's priorltised environmental
+management orientations and challenges.
+The extracted keyword sets were categorised intO Environmental
+Focus, Balanced Focus, and User Focus using the 30-level framework,
+enabling a proportional analysis Of each park's orientation. These
+findings were cross-validated against independently documented park
+conditions, incltlding internal park conditions and external envlron
+mental contexts. reSt11tS revealed several POintS Of convergence
+between speech patterns and internal/external environmental and
+management factors, suggesting that the tendencies somewhat align
+with each park's orientation toward Environmental Focus, Balanced
+FOCt1S, User Foct1S.
+CRediT authorship contribution statement
+Junying Chen ： Writing 一 review & editing ， Writing 一 original draft,
+VisuaIization, Meth0d010gy, lnvestigation ， Formal analysis ， Data cura-
+tion ， Conceptualization. Kiyotaka Fukahori ： Writing 一 review & edit-
+ing, Superv1sion, Resources, Project adminlstratlon Methodology,
+Conceptualization.
+Funding
+This research did not receive any specific grant from funding
+agencies in the public, commercial, or not-for-profit sectors.
+Declaration Of Generative AI and AI-assisted technologies in the
+writing process
+During the preparation 0f this work, the atlthors used ChatGPT
+(OpenAI) in order t0 improve the readability ， clarity ， and grammatical
+accuracy Of the manuscript. After using this t001, the authors reviewed
+and edited the content as needed and take full responsibility for the
+content of the published article.
+11
+
+@@ PAGE 12 / 12 @@
+J. Chen and K. Fukahori
+Declaration 0f Competing lnterest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared tO influence
+the work reported in this paper.
+Acknowledgements
+We conducted interviews between 2019 and 2020 with experts
+representing the management organizations and related bodies that
+contribute to habitat management at the following park and green space
+facilities in Saitama Prefecture, Japan. We sincerely thank them for
+providing the invaluable insights that form the foundation of this study.
+Sayama Hill Flora & Fauna lnteraction Centre / Saitama Green Forest
+Mt1set11n / Saitama Nature Stt1dy Centre at Kitamoto Natt1re ()bservation
+Park / NPO eco works at Kamogawa Mizt1benosat0 Park / NPO eco
+works at Ageo Maruyama Park
+Appendix A. Supporting information
+Supplementary data associated with this article can be found in the
+online version at
+doi ： 10 ， 1016 / j ． ufug ． 2026 彐 29577
+References
+Akter ， S., Dhar, T.K., 2017 ． SustainabiIity of urban parks planning policies in BangIadesh:
+A comparative analysis [Conference paper] ． ln. ln: Rajapaksha ， U., et al. (Eds.) ，
+Design that cares 一 MultidiscipIinary appl ℃ aches to creating sustainable and
+meaningful btlilt environment: Proceedings Of the 1 Oth lnternational Conference Of
+FARU, 2 ． University Of Moratuwa ， Sri Lanka, pp. 78 一 92 ．
+Ballantyne ， M., Gudes ， O., Pickering ， C.M., 201 生 Recreational trails are an important
+cause Of fragmentation in endangered urban forests: A case study fi ℃ m Australia.
+Lqndsc. Urban. Plan. 130 ， 112 一 124 ． https://d0i.org/10.1016/j.
+IandurbpIan.2014.07 ． 004 ．
+Bogusoglt1 ， I. ， 2024 ． The use Of KH Coder in comparative translation analysis: Le Petit
+Prince translations. Lisaniyat Stud. 4 ， 8 一 25 ． 〈 https://lisaniyatstudies.com/lisan
+iyat/article/view/37 〉 ．
+Cascante, I., Turney, J., Nam, D., & S01anki A. 〔 2014 ） ． Parks ， people, and participation:
+The Toronto experience. Toronto Public Space lnitiative. Available at: 〈 https://ptlb
+licspaces.ca/wp-content/upIoads/2011 / 12/Parks-PeopIe-and-Participation The-Tor
+onto-Experience.pdf) (accessed 16 FebruaLY 2026 〗
+Colding, J., Gren, A., Barthel, S., 2020 ． The incremental demise Of urban green spaces.
+Lqnd 9 （ 5 ） ， 162 ． https://doi.org/10 ． 3390 / land9050162 ．
+Eagles ， P.F.J., Romagosa ， F., Buteau-Duitschaever ， W ℃ ” Hav1tz ， M., Glover ， T.D.
+McCutcheon, B., 2013 ． Good govemance in protected areas: An evaluation Of
+stakeholders ， perceptions in British C01umbia and Ontari0 provmcial parks.
+J. Sustain. Tour. 21 〔 1) ， 60 一 79 ． https ： / / doi ． org/10 ． 1080 / 09669582 ． 2012 ． 67133L
+Gobster, P.H ” 2007 ． Urban park restoration and the "museumification ” Of nature. Nat.
+Cult. 2 （ 2 ） ， 95 一 114 ． https://doi.org/10 ． 3167 / nc2007 ． 02020L
+Government Of Japan, 2024 ， Act on Promoting Activities tO Enhance Regional
+Bi0diversity (Act No. 18 of 2024 ） ． Japan.
+Haaland, C., Konijnendijk van den Bosch ， C., 2015 ． Challenges and strategies for urban
+green-space planning in cities undergoing densification: A review. Urban. For. &
+Urban. Green. 14 （ 4 ） ， 760 一 77L https://doi.org/10.1016/j.ufug.2015.07.009.
+Haq, S.M.A., 201L Urban green spaces and an integrative approach tO sustainable
+environment. J. Environ. Prot. 2 〔 5 〗 601 一 608 ． https://doi.org/lO.4236/
+jep.2011 ． 25069
+Higuchi ， K., 2016 ． KH Coder 3 reference manual. Ritsumeikan University. 〈 https://khco
+der.net/en/manual en_v3.pdf)
+Huang, D. （ 2009 ， October). lntegrated management Of urban green space 一 The case in
+Guangzhot1, China [Conference paper] ． ln 45th ISOCARP Congress. Available at:
+〈 htt
+ps://www.isocarp.net/data/case_studies/1434.pdf) (accessed 16 February 2026 ） ．
+lshizuka ， T., 2018 ． A study on the morphology and management of urban parks for
+diverse users [Master ， s thesis, Graduate School Of Creative Science and Engineering.
+Waseda University] ．
+lto ， I., Sowa, H ” 2010 ． Evaluation Of Japanese gardens from blogs. Landscape Resea1 ℃ h
+73 〔 5 ） ， 377 一 380 ． https://doi.org/10 ． 5632 / jila ． 73 ． 377
+Jim ， C.Y., 200 生 Green-space preservation and allocation for sustainable greening Of
+compact cities. Cities 21 〔 4 ） ， 311 一 320 ． https://doi.org/10 ． 1016/j.
+cities.2004.04 ． 004 ．
+Kaoma, H., ShackIeton ， C.M ” 2014 ． CoIIection of urban tree products by households in
+poorer residential areas Of three South African towns. Urban. For. & Urban. Green.
+13 〔 2 ） ， 244 一 252 ， https： ／ / doi ． org/10 ． 1016 / j ． ufug ． 201 生 02 ． 002 ·
+Koga, S., 2019 ． Review Of "lntermediated Consciousness Hypothesis ” linking gender role
+consciousness and COmmunitY service consciousness —Stt1dy based on quantitative
+Urban re & Urban Greening 724 （ 2026 丿 1295 / /
+text analysis Of student attitude stllvey at Showa Women's University— ()n Japanese).
+Showa Women's. Univ. lnst. Contemp. Bt1S. Stud. （ 4 〗 1 一 1 &
+Krippendorf( ， K., 2004 ． Content Analysis: An introduction tO its methodology ， 2nd ed.).
+Sage Publications
+Litl ， H ” Hu, Y ” Li, F., Yuan ， L ” 2018 ． Associations Of multiple ecosystem services and
+disservices of urban park ecological infrastructure and the linkages with
+socioeconomic factors. J. Clean. Prod. 174 ， 868 一 879 ， https://doi.org/10.1016/j.
+jclepro ． 2017 ． 10 ． 139 ·
+Malik, A., Ali ， H., 2023 ． Green spaces and biodiversity: Linking consewation success and
+psychological well-being. lnt. J. SociaI. AnaI. 8 （ 7 ） ， 1 一 16 ．
+McShane, T.O., Hirsch ， P.D., Trung, T.C ” Song01wa, A.N ” Kinzig, A., Monteferri, B.,
+Mutekanga, D., Thang ， H.V. ， Dammert ， J.L., Pulgar-Vidal ， M., Welch-Devine ， M.
+Brosius, J.P ” Coppolillo, P., O'Connor, S., 201L Hard choices: Making trade-offs
+between biodiversity consewation and human well-being. BiOl. Conserv. 144 （ 3 ） ，
+https://d0i.org/10.1016/j.biocon.2010.04.038.
+966 一 972 ．
+Miller ， J.R., 2005 ． Biodiversity conservation and the extinctlon Of experience. Trends
+Ecol. & Evol. 20 （ 8 ） ， 430 一 434 ． https ： / / doi ． org/10 彐 016 / j ． tree ． 2005 ． 05 ． 013 ·
+Nepal ， S.K., Weber, K.W., 1995 ． Managmg resources and resolving conflicts: National
+parks and local people. lnt. J. Sustain Dev. & World Ecol. 2 0 〗 11 一 25 ． https://doi.
+org/10． 1080 / 13504509 ． 1995 ． 10590662 ．
+Nesbitt ， L., HOtte, N., Ba1Ton ， S., Cowan ， J., Sheppard ， S.R.J., 2017 ． The social and
+economic value Of cultural ecosystem services provided by urban forests in North
+America: A review and suggestions for future reseal ℃ h. Urban. For. & Urban. Green.
+25 ， 103 一 111 ． https://d0i.org/10.1016/j.ufug.2017.05.005.
+Nishio ， T., Tsukada ， S., Morita ， T., Yuzawa ， A., 2016 ． Activities Of community
+development for tourism preceding placement of Tomioka Silk Mill by using text
+mining ()n Japanese). J. Jpn. lnst. Landsc. AI ℃ hit. 79 〔 5 〗 519 一 524 ． https://doi.org/
+10 ． 5632 / jila ． 79 ． 519 ．
+Nyhus ， P.J., 2016 ． Human—wildlife conflict and coexistence. Annt1. Rev. Env1ron. Resour.
+41 0 〗 143 一 171 ． https://doi.org/10 ． 1146/annurev-environ-110615 ． 085634 ·
+Schipperijn, J. ， Ekholm, O., Stigsdotter, U.K., Toftager, M., Bentsen, P., Kamper-
+Jørgensen, F., Randrup ， T.B., 2010 ． Factors influencing the use Of green space:
+Results fi ℃ m a Danish national representative survey. Landsc. Urban. Plan. 95 〔 3 ） ，
+https://doi.org/10.1016/j.IandurbpIan.2009.12.010.
+130 一 137 ，
+Scholz, R.W., Steiner, G., 2015 ， The real type and ideal type of transdisciplinary
+processes: Part II—What constraints and obstacles dO we meet in practice? Sustain.
+Sci. 10 ， 653 一 67L https://doi.org/10 ． 1007 / sl 1625 一 015 一 0327 一 3 ．
+SetO, K ℃ ” Giineralp, B., Hutyra, L.R., 2012 ． Global forecasts Of urban expansion tO 2030
+and direct impacts on biodiversity and carbon pools. Proc. Natl. Acad. Sci. USA 109
+〔 40 ） ， 16083 一 16088 ． https： ／ / doi ． org/10 ． 1073 / pnas 彐 211658109 ．
+Takyi S.A., Seidel, A.D., 2017 ． Adaptive management in sustainable park planning and
+management: Case study Of the City Of Vancouver Parks. juw009 J. Urban. ECOI. 3
+〔 1 〕 ． https://doi.org/10 ． 1093/jue/juw009.
+Talal, M.L. ， Santelmann, M.V., 2020 ， Vegetation management for urban park visitors: A
+mixed methods approach in P01tland, Oregon. EcoI. AppI. 30 〔 4 ） ， e02079 ． https://
+doi.org/10 ． 1002 / eap ． 2079 ．
+Torabi ， N., Lindsay, J ” Smith, J., Khor ， L.-A., Sainsbt11Y ， O ” 2020 ． Widening the lens:
+Understanding urban parks as a network. Cities 98 ， 102527 ． https://doi.org/
+10 ． 1016 / j ． cities ． 2019 彐 02527 ，
+Ugolini, F. ， Sanesi, G. ， Steidle, A., Pearlmutter, D., 201 & Speaking "green": A worldwide
+survey on collaboration among stakeholders in urban park design and management.
+Forests 9 （ 8 〕 ， 45 & https ： / / doi ． org/10． 3390 / f9080458 ．
+Watanabe, Y. 〔 2024 ， July). OveIvievv Of sustainability-related regulations enacted in
+2024 ordinary session Of Diet [Newsletter] ． NO&T lnfrastructure, Energy &
+Environment Legal Update, 0 ） ． Nagashima Ohno & Tsunematsu. Available at: 〈 https
+://www.nagashima.com/en/publications/pubIication20240703-1/〉 (accessed 16
+Februa1Y 2026 ） ．
+Yasuhara, A ” Liu, M., 202L A study Of the differences between Japanese and foreigners'
+tour experiences Of Hama rikyu Gardens by analysing review site [Conference
+paper] (December). Proc. 35th Environ. lnf. Sci. Res. Conf. 227 一 232 ． https://doi.
+org/10 ． 11492/ceispapers.ceis35.O_227.
+Yoshida ， Y. （ 2019 ） ． study on the attention factors 可 waterfront e users: A case study 可
+Zenpukuji Park, Suginami Ward_ ， TOkyo [Master ， s thesis, Graduate School Of Creative
+Science and Engineering ， Waseda University] ． Available at: 〈 https://www.yohlab.
+sci.waseda.ac.jp/contents/research/2019 / ml 9yoshida.pdf) (accessed 16 February
+2026 ） ．
+Young, J ℃ ” Searle ， K., Butler, A., Simmons ， P., Watt ， A.D., Jordan ， A., 2016 ． The role Of
+trust in the resolution Of conservation conflicts. BiOl. Conserv. 195 ， 196 一 202 ．
+https://d0i.org/10.1016 / j ． biocon ． 2015 ． 12 ． 030 ．
+Zhang ， Y ” Wildemuth ， B.M., 2009 ． Qualitative analysis Of content. ln: Wildemuth ， ln. B.
+M. (Ed.), Applications Of Social Research Methods tO Questions in lnformation and
+Library Science. Libraries Unlimited, pp. 318 一 329 ，
+Glossary
+Satoyama: A traditional Japanese rural landscape characterised by a continuous mosaic Of
+secondary forests, grasslands, and wetlands.
+K bO A traditional Japanese pond-draining practice in which water is removed from
+ponds or marshes ， mtld is cleared, aquatic organisms such as fish are harvested, and
+the pond bed is left to dry in the sun.
+12

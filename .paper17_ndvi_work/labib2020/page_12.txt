@@ -1,0 +1,136 @@
+S.M. Labib ，
+0 · 口 ．
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+1 ． 00
+0 ． 90
+0
+0
+0 ， 80
+0
+0 ． 70
+0
+0 ． 60
+0
+8 0 ． 50
+0 0 ． 40
+0
+0 ． 30
+0
+0 ． 10
+0 ． 00
+Le ast Deprived
+MOSt Deprived
+0
+1 ． 00
+0 ． 90
+0 ， 80
+0 ． 70
+0 ． 60
+0 ． 50
+0 ． 40
+0 ． 30
+0 ． 20
+0 ． 10
+0 ． 00
+0
+5
+0
+0
+0
+0
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+IMD Decile
+Mean NDVI
+- Composite Exposure Mean
+LSOA Aggregation
+Mea n Green%
+Multiscale
+NDVI
+0 ． 378
+0 ． 371
+—Mean LAI
+| M D
+Health D
+LULC
+0 ． 371
+0 ． 363
+NDVI
+0 ． 344
+034
+0 ． 28
+0 ． 28
+LULC
+0 ． 416
+卫
+0 ． 402
+0 ． 306
+0 ． 307
+Composite GS
+lndex
+0 ． 384
+0 ． 375
+/ / CO e / 0 ons are significant at the 0 刀 1 level · ed, 丿
+Fig. 7 · 〔 a 〕 Comparisons of the lndex of MuItipIe Deprivation (IMD) with traditional greenspace metrics ， and the new outputs for urban neighbourhoods (LSOA), (b)
+correlations aggregated at neighbourhood scale (i.e. LSOA) ， new multi-scale metrics ， and the overall multi-scale ， multi-metric composite index.
+exposure metrics (see
+Section 4 ． 6 ） ． These initial results are important
+because they imply that traditional methods may underestimate the
+differences in exposures which exist between urban communities ， and
+that inequalities in beneficial exposures may in fact be larger than is
+frequently reported. Of particular note is the markedly lower exposure
+t0 greenspace seen in the most socially deprived areas (Category 1 ，
+） in the new multi-scale index maps compared tO maps using
+traditional non-scaled metrics. We therefore conclude that our novel
+multi-scale exposure maps and composite multi metric, multi-scale
+greenspace exposure index ， map have the potential tO reduce errors in
+greenspace exposure estimatlon.
+5 ． 3 ． Strengths and 五 m 祉 a ons 可 山 study
+Our multi-scale and composite index methods and maps provide
+opportunities tO overcome scale issues in the Of moderate resolution
+satellite images for greenspace exposure assessment in typical urban
+contexts. These maps can be used as a standardised method for bOth
+static and dynamic exposure assessment and are easy tO understand for
+non-experts.
+There are several areas in which this study could be further devel-
+oped. For example, we have only included NDVI LAI and LULC metrics,
+meaning that our results dO not account for exposure tO blue spaces.
+The addition of suitable measures such as the Normalised Difference
+Water lndex int0 the analysis would remedy this. Secondly, because 0f
+limitations in computational resource and time, we have only tested the
+methods on moderate-coarse resolution satellite images (Sentinel-2,
+Landsat-8). Future research should include the application 0f this
+method tO high-resolution satellite rmages such as GeoEye- 1 or
+WorldView-3. Based on our experimental observations ， we would ex
+pect that the upper limits of scale variance would be slightly larger for
+h•gher resolution imagery, though this requires further investlgation.
+Thirdly, we only investigated scale effects in satellite image based ex-
+posure metrics a measure Of greenspace
+utilised street view images tO measure hOW people actually observe
+greenspace (HeIbich et al. ， 2019 ， Li & GhOSh ， 2018 ， Lu ， 2019 ， Wang
+et al. ， 2019 〕 · Scaling effects in observational metrics (e.g ” derived 什 om
+street view images) should therefore also be explored in future studies.
+Fourth, we have only presented an analysis from a single case study
+region. research Sh()L11d examine across several different cities
+ln several different parts 0f the world in order t0 better understand the
+variafion in scale sensitivity that arises from the spatial configuration Of
+the study reglon. Finally ， we did not test our new exposure index with
+explicit health indicators tO test its robustness. lnstead we compared
+with IMD and health deprivauon ， which are pseudo indicators for
+health and wellbeing (Cebrecos et al ” 2018 ） ． Future research might
+include an analysis Of various explicit health indicators in order tO use
+the benefits 0f this new methodology in order t0 better understand the
+relationship between greenspace and health and wellbeing.
+6 ． Conclusion
+The main focus Of this study was tO investigate scale sensitivity and
+scaling effects in greenspace exposure assessments. Of
+12

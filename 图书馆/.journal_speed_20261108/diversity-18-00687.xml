@@ -1,0 +1,2658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">diversity</journal-id>
+      <journal-title-group>
+        <journal-title>Diversity</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Diversity</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Diversity</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1424-2818</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/d18110687</article-id>
+      <article-id pub-id-type="publisher-id">diversity-18-00687</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Expanding the Known Diversity of the Truffle Genus <italic>Genea</italic>: One New Species and Two New Records from Hungary</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0009-6545-797X</contrib-id>
+          <name>
+            <surname>Chakraborty</surname>
+            <given-names>Swagata</given-names>
+          </name>
+          <xref rid="af1-diversity-18-00687" ref-type="aff">1</xref>
+          <xref rid="af2-diversity-18-00687" ref-type="aff">2</xref>
+          <xref rid="c1-diversity-18-00687" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kocsub&#xE9;</surname>
+            <given-names>S&#xE1;ndor</given-names>
+          </name>
+          <xref rid="af3-diversity-18-00687" ref-type="aff">3</xref>
+          <xref rid="af4-diversity-18-00687" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0003-0196-8486</contrib-id>
+          <name>
+            <surname>Tirpude</surname>
+            <given-names>Shruti Anand</given-names>
+          </name>
+          <xref rid="af2-diversity-18-00687" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>P&#xE9;ter</surname>
+            <given-names>Bal&#xE1;zs Domonkos</given-names>
+          </name>
+          <xref rid="af2-diversity-18-00687" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0001-6885-9001</contrib-id>
+          <name>
+            <surname>Kedves</surname>
+            <given-names>Alfonz</given-names>
+          </name>
+          <xref rid="af5-diversity-18-00687" ref-type="aff">5</xref>
+          <xref rid="af6-diversity-18-00687" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-9406-8596</contrib-id>
+          <name>
+            <surname>K&#xF3;nya</surname>
+            <given-names>Zolt&#xE1;n</given-names>
+          </name>
+          <xref rid="af6-diversity-18-00687" ref-type="aff">6</xref>
+          <xref rid="af7-diversity-18-00687" ref-type="aff">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bratek</surname>
+            <given-names>Zolt&#xE1;n</given-names>
+          </name>
+          <xref rid="af1-diversity-18-00687" ref-type="aff">1</xref>
+          <xref rid="af2-diversity-18-00687" ref-type="aff">2</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Karunarathna</surname>
+            <given-names>Samantha C.</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-diversity-18-00687"><label>1</label>Doctoral School of Biology, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/01pnej532</institution-id><institution>University of Szeged</institution></institution-wrap>, Dugonics Square 13, H-6720 Szeged, Hungary; <email>bratek.zoltan@ttk.elte.hu</email></aff>
+      <aff id="af2-diversity-18-00687"><label>2</label>Department of Plant Physiology and Molecular Plant Biology, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/01jsq2704</institution-id><institution>E&#xF6;tv&#xF6;s Lor&#xE1;nd University</institution></institution-wrap>, P&#xE1;zm&#xE1;ny P&#xE9;ter Lane 1/C, H-1117 Budapest, Hungary; <email>shrutitirpude978@gmail.com</email> (S.A.T.); <email>peterbalazs02@gmail.com</email> (B.D.P.)</aff>
+      <aff id="af3-diversity-18-00687"><label>3</label>Department of Biotechnology and Microbiology, Faculty of Science and Informatics, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/01pnej532</institution-id><institution>University of Szeged</institution></institution-wrap>, H-6726 Szeged, Hungary; <email>shigsanyi@gmail.com</email></aff>
+      <aff id="af4-diversity-18-00687"><label>4</label>HUN-REN-SZTE Fungal Pathomechanisms Research Group, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/01pnej532</institution-id><institution>University of Szeged</institution></institution-wrap>, H-6726 Szeged, Hungary</aff>
+      <aff id="af5-diversity-18-00687"><label>5</label>Institute of Animal Science and Wildlife Management, Faculty of Agriculture, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/01pnej532</institution-id><institution>University of Szeged</institution></institution-wrap>, Andr&#xE1;ssy &#xFA;t 15, H-6800 H&#xF3;dmez&#x151;v&#xE1;s&#xE1;rhely, Hungary; <email>kedvesalfonz@chem.u-szeged.hu</email></aff>
+      <aff id="af6-diversity-18-00687"><label>6</label>Department of Applied and Environmental Chemistry, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/01pnej532</institution-id><institution>University of Szeged</institution></institution-wrap>, Rerrich B&#xE9;la t&#xE9;r 1, H-6720 Szeged, Hungary; <email>konya@chem.u-szeged.hu</email></aff>
+      <aff id="af7-diversity-18-00687"><label>7</label>HUN-REN-SZTE Reaction Kinetics and Surface Chemistry Research Group, Rerrich B&#xE9;la t&#xE9;r 1, H-6720 Szeged, Hungary</aff>
+      <author-notes>
+        <corresp id="c1-diversity-18-00687"><label>*</label>Correspondence: <email>cswagata1516@gmail.com</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>18</volume>
+      <issue>11</issue>
+      <elocation-id>687</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>06</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>30</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>02</day>
+          <month>11</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the authors.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The truffle genus <italic>Genea</italic> plays an important role as an ectomycorrhizal fungus, yet its taxonomy, evolutionary relationships, and ecological behaviour remain poorly understood globally. This study describes <italic>Genea budensis</italic> sp. nov. and reports <italic>G. arenaria</italic> and <italic>G. zamorana</italic> for the first time from Hungary, based on morphological examination and phylogenetic analyses of ITS and LSU sequences. The new species <italic>Genea budensis</italic> sp. nov., found in the Buda Mountains in Hungary, is characterized by a warty, scale-covered surface peridium; spores ornamented with dense, cone-shaped projections, with some of them being blunt-tipped or bud-like in form. This discovery also marks the first documented occurrence of both <italic>Genea zamorana</italic> and <italic>G. arenaria</italic> within Hungary. These findings expand the documented diversity and geographic distribution of <italic>Genea</italic> in Hungary and provide additional morphological and molecular data for future taxonomic studies of the genus.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Ascomycota</kwd>
+        <kwd>
+          <italic>Genea</italic>
+        </kwd>
+        <kwd>molecular phylogeny</kwd>
+        <kwd>taxonomy</kwd>
+        <kwd>truffles</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="ROR">https://ror.org/03vhmm238</institution-id>
+              <institution>Ministry of Culture and Innovation of Hungary</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>C2268483</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="ROR">https://ror.org/01pnej532</institution-id>
+              <institution>University of Szeged</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>9039</award-id>
+        </award-group>
+        <funding-statement>This research was funded by the Ministry of Culture and Innovation of Hungary through the National Research, Development and Innovation Fund, under the KDP-2023 funding scheme (grant number C2268483). This article is supported by the University of Szeged Open Access Fund, Grant Nr. 9039.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-diversity-18-00687" sec-type="intro">
+      <title>1. Introduction</title>
+      <p><italic>Genea</italic> Vittad., a group of hypogeous ascomycetes fungi, was first proposed by Carlo Vittadini [<xref ref-type="bibr" rid="B1-diversity-18-00687">1</xref>]. This genus, characterised by lobed ascomata, a tuft of basal hyphae, and usually containing eight verrucose spores [<xref ref-type="bibr" rid="B2-diversity-18-00687">2</xref>], was dedicated to the renowned Italian zoologist Carlo Giuseppe Gen&#xE9;, after whom it was named. <italic>Genea</italic> displays a black, brownish, sometimes reddish to tan-brown peridium with an organized hymenium, warts and an apical opening [<xref ref-type="bibr" rid="B3-diversity-18-00687">3</xref>]. The genus <italic>Genea</italic> is documented primarily in North America, Europe, Turkey and some parts of Asia. Primarily, the genus <italic>Genea</italic> was assigned to Geneaceae by Trappe [<xref ref-type="bibr" rid="B4-diversity-18-00687">4</xref>], and it was subsequently placed in Pyronemataceae following reassessments of its morphological and molecular relationships [<xref ref-type="bibr" rid="B5-diversity-18-00687">5</xref>,<xref ref-type="bibr" rid="B6-diversity-18-00687">6</xref>,<xref ref-type="bibr" rid="B7-diversity-18-00687">7</xref>]. Integrative taxonomic studies combining molecular and morphological data have progressively refined species delimitation in <italic>Genea</italic> [<xref ref-type="bibr" rid="B1-diversity-18-00687">1</xref>,<xref ref-type="bibr" rid="B2-diversity-18-00687">2</xref>,<xref ref-type="bibr" rid="B4-diversity-18-00687">4</xref>,<xref ref-type="bibr" rid="B6-diversity-18-00687">6</xref>,<xref ref-type="bibr" rid="B8-diversity-18-00687">8</xref>,<xref ref-type="bibr" rid="B9-diversity-18-00687">9</xref>,<xref ref-type="bibr" rid="B10-diversity-18-00687">10</xref>,<xref ref-type="bibr" rid="B11-diversity-18-00687">11</xref>,<xref ref-type="bibr" rid="B12-diversity-18-00687">12</xref>,<xref ref-type="bibr" rid="B13-diversity-18-00687">13</xref>,<xref ref-type="bibr" rid="B14-diversity-18-00687">14</xref>,<xref ref-type="bibr" rid="B15-diversity-18-00687">15</xref>,<xref ref-type="bibr" rid="B16-diversity-18-00687">16</xref>,<xref ref-type="bibr" rid="B17-diversity-18-00687">17</xref>,<xref ref-type="bibr" rid="B18-diversity-18-00687">18</xref>,<xref ref-type="bibr" rid="B19-diversity-18-00687">19</xref>,<xref ref-type="bibr" rid="B20-diversity-18-00687">20</xref>,<xref ref-type="bibr" rid="B21-diversity-18-00687">21</xref>,<xref ref-type="bibr" rid="B22-diversity-18-00687">22</xref>,<xref ref-type="bibr" rid="B23-diversity-18-00687">23</xref>,<xref ref-type="bibr" rid="B24-diversity-18-00687">24</xref>,<xref ref-type="bibr" rid="B25-diversity-18-00687">25</xref>,<xref ref-type="bibr" rid="B26-diversity-18-00687">26</xref>,<xref ref-type="bibr" rid="B27-diversity-18-00687">27</xref>,<xref ref-type="bibr" rid="B28-diversity-18-00687">28</xref>,<xref ref-type="bibr" rid="B29-diversity-18-00687">29</xref>,<xref ref-type="bibr" rid="B30-diversity-18-00687">30</xref>,<xref ref-type="bibr" rid="B31-diversity-18-00687">31</xref>,<xref ref-type="bibr" rid="B32-diversity-18-00687">32</xref>]. A comparison of nomenclatural records in Species Fungorum recognises 49 currently accepted species in the genus. The substantially larger numbers of names recorded in Index Fungorum (75) and MycoBank (96) represent nomenclatural entries, including synonyms, infraspecific names and combinations which have been placed in other genera (e.g., <italic>Genabea</italic>, <italic>Hydnocystis</italic>), and do not correspond to the number of accepted species. Apart from being common colonizers of EM roots, they have also evolved to withstand harsh environments [<xref ref-type="bibr" rid="B33-diversity-18-00687">33</xref>,<xref ref-type="bibr" rid="B34-diversity-18-00687">34</xref>,<xref ref-type="bibr" rid="B35-diversity-18-00687">35</xref>].</p>
+      <p>Accurate species delimitation in <italic>Genea</italic> requires an integrative approach combining morphology with molecular phylogenetics. However, for a cryptic fungal genus like <italic>Genea</italic>, the internal transcribed spacer (ITS) [<xref ref-type="bibr" rid="B36-diversity-18-00687">36</xref>] has been the most effective for resolving species-level phylogenetic relationships, along with the large subunit (LSU) of nuclear ribosomal DNA. Morphological parameters such as spore length, width, and ornamentation size, along with perdium and gleba structures, are also equally important for species delimitation.</p>
+      <p>The Carpathian region is one of the most important hotspots for species biodiversity [<xref ref-type="bibr" rid="B37-diversity-18-00687">37</xref>]. Our previous study [<xref ref-type="bibr" rid="B32-diversity-18-00687">32</xref>], spanning mostly the Carpatho-Pannonian region, resulted in the discovery of <italic>Genea szemerei</italic> as a novel species, along with the first report of <italic>G. pinicola</italic> from Hungary. Since then, field surveys have continued, and additional herbarium materials have been examined. These newly collected materials, along with older materials that were overlooked or not previously revised, formed the backbone of this work as part of a broader taxonomic revision. As a result, this study considered morphological and molecular parameters from old and newly collected material, revealing a new species, <italic>Genea budensis,</italic> along with the first report of <italic>G. arenaria</italic> and <italic>G. zamorana</italic> from Hungary.</p>
+    </sec>
+    <sec id="sec2-diversity-18-00687">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-diversity-18-00687">
+        <title>2.1. Studied Specimen</title>
+        <p>New specimens analyzed in this study were collected chiefly from Hungary, supplemented by additional material from various sites across the Carpatho-Pannonian region. Both the newly collected and previously deposited specimens were examined for morphological observation (<xref ref-type="app" rid="app1-diversity-18-00687">Supplementary File S1, Table S1</xref>), and a subset of these specimens were included in the phylogenetic analyses. The holotype of the new species is deposited in the Hungarian Natural History Museum (Magyar Term&#xE9;szettudom&#xE1;nyi M&#xFA;zeum), under accession number HNHM-MYC 075478 (voucher number 113790).</p>
+      </sec>
+      <sec id="sec2dot2-diversity-18-00687">
+        <title>2.2. Morphological Observation</title>
+        <p>The morphological features of the species, such as the peridium and gleba&#x2019;s macroscopic appearance and the shape of the ascomata, along with their surface texture, were taken into account and coloring was assessed on the basis of the Royal Botanic Garden Edinburgh&#x2019;s standardized colour chart [<xref ref-type="bibr" rid="B38-diversity-18-00687">38</xref>]. Morphological terminologies were reported according to the Fungi Identification Manual [<xref ref-type="bibr" rid="B39-diversity-18-00687">39</xref>]. Micromorphological characteristics were examined and photographed with a Nikon Optiphot 2 research microscope (Optiphot 2, Nikon Co., Tokyo, Japan). The surface ornamentation of the ascospores was observed with a Thermo Fisher Scientific Apreo C scanning electron microscope operating at 10 kV. Dried samples were gold-coated beforehand with a Quorum SC7620 sputter coater (Apreo C, Thermo Fisher Scientific Ltd., Waltham, MA, USA, Quorum Technologies, New Haven, CT, USA). Spore sizes were measured with the Pixim&#xE9;tre Version 6.1 R 560 program. Furthermore, to test the boundaries of the new species with the other frequently occurring taxa from <italic>Genea</italic>, thirty randomly selected ascospores were studied to compare the spore length, width and ornamentation amongst the seven most dominant taxa. All statistical analyses and descriptive statistics were performed using GraphPad Prism version 10.0 (GraphPad Software, Boston, MA, USA).</p>
+      </sec>
+      <sec id="sec2dot3-diversity-18-00687">
+        <title>2.3. DNA Extraction, Amplification and Sequencing</title>
+        <p>We amplified two nuclear ribosomal loci for all specimens: the internal transcribed spacer (ITS) using primers ITS1F and ITS4 [<xref ref-type="bibr" rid="B40-diversity-18-00687">40</xref>,<xref ref-type="bibr" rid="B41-diversity-18-00687">41</xref>], and the 28S large subunit using primers LR0R and LR5 [<xref ref-type="bibr" rid="B42-diversity-18-00687">42</xref>,<xref ref-type="bibr" rid="B43-diversity-18-00687">43</xref>]. Total genomic DNA was extracted using the DNeasy Plant Mini Kit (Qiagen, Hilden, Germany), PCR products were purified with the QIAquick PCR Purification Kit (Qiagen, Hilden, Germany), and Sanger sequencing was performed by BIOMI Ltd. (G&#xF6;d&#xF6;ll&#x151;, Hungary). The molecular procedures, including DNA extraction, PCR amplification, and sequencing, were performed exactly as described in our previous study [<xref ref-type="bibr" rid="B32-diversity-18-00687">32</xref>].</p>
+      </sec>
+      <sec id="sec2dot4-diversity-18-00687">
+        <title>2.4. Molecular Phylogeny</title>
+        <p>To determine the exact taxonomic placement of the isolates examined in this study, partial ITS and LSU sequences of members of the genus <italic>Genea</italic> were retrieved from the NCBI database (<uri>https://www.ncbi.nlm.nih.gov/</uri>) [<xref ref-type="bibr" rid="B44-diversity-18-00687">44</xref>]. Closely related taxa <italic>Humaria hemisphaerica</italic> and <italic>H. cazaresii</italic> were chosen as the outgroup. In compiling the dataset, we aimed to achieve the broadest possible taxon sampling while ensuring that sequences from all available type materials were included. The accession numbers of the ITS and LSU sequences used in the analysis are provided in <xref ref-type="table" rid="diversity-18-00687-t001">Table 1</xref>. Sequences were aligned using PRANK version 170703 [<xref ref-type="bibr" rid="B45-diversity-18-00687">45</xref>] with default settings. As there were no incongruent topologies resulting from the individual loci (<xref ref-type="app" rid="app1-diversity-18-00687">Supplementary File S1, Figures S1 and S2</xref>), the resulting alignments were subsequently concatenated and partitioned. Missing data were treated as gaps. Three partitions were defined within the MSA, where the 5.8s rDNA regions and the ITS1&#x2013;ITS2 regions were treated as separate partitions, while the third partition consisted of the LSU alignment. Model selection was performed on the partitioned dataset using the built-in model-testing algorithm implemented in RAxML-NG version 2.0.2 [<xref ref-type="bibr" rid="B46-diversity-18-00687">46</xref>]. Phylogenetic inference was then conducted using the best-fitting substitution model identified for each partition. Statistical support for the phylogram was calculated by performing bootstrap analysis with 1000 replicates. Bayesian analyses were performed on the partitioned dataset using MrBayes 3.2.9 [<xref ref-type="bibr" rid="B47-diversity-18-00687">47</xref>] with best-fit models selected by ModelTest-NG [<xref ref-type="bibr" rid="B48-diversity-18-00687">48</xref>]. The analysis was run for 5 &#xD7; 10<sup>6</sup> generations with four chains and two replicates, sampling every 1000th generation. The burn-in proportion was set to 0.25. Fig Tree 1.4.4 was used to visualize the tree.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-diversity-18-00687" sec-type="results">
+      <title>3. Results</title>
+      <sec>
+        <title>Phylogenetic Analysis</title>
+        <p>The combined ITS and LSU sequence data included 91 <italic>Genea</italic> species, with <italic>H. hemisphaerica</italic> and <italic>H. cazaresii</italic> as outgroups. <italic>Genea budensis</italic> sp. nov. forms a strongly supported monophyletic clade (BS: 100; BPP: 1.00), sister to <italic>G. fragrans</italic> (BS: 98; BPP: 1.00). Branch lengths separating <italic>G. budensis</italic> and the main <italic>G. fragrans</italic> clade indicate substantial divergence between the two lineages. At a broader phylogenetic scale, <italic>G. budensis</italic> was also recovered as a sister clade to <italic>G. pseudoverrucosa</italic>, whereas <italic>G. pseudobalsleyi</italic>, <italic>G. szemerei</italic> and <italic>G. balsleyi</italic> represent independently diverged clades within <italic>Genea</italic>. The resulting topology indicated that <italic>G. budensis</italic> is not closely allied with any of its nearest relatives, thereby justifying its recognition as a distinct phylogenetic entity within the genus. In the case of ITS sequences, BLASTn (<uri>https://blast.ncbi.nlm.nih.gov/</uri>, accessed on 27 October 2026) yielded <italic>G. verrucosa</italic> with 99.58% identity and 99&#x2013;100% query coverage as the closest match for <italic>G. budensis</italic> (ZB 1323, ZB 1585, ZB 3833) with overlaps of 719 bp and 712 bp, respectively. The LSU sequence of <italic>G. budensis</italic> showed the highest values to <italic>G. fragrans</italic> (98.33%, 97% coverage), <italic>G. vagans</italic> (97.88%), undetermined <italic>Genea</italic> spp. (up to 97.89%) and <italic>G. arenaria</italic> accessions (96.28&#x2013;96.40% identity). The second phylogenetic novelty was the recognition of <italic>G. arenaria</italic> and <italic>G. zamorana</italic>. The examined materials, ZB 6074, grouped together with the type material of <italic>G. zamorana</italic> with high confidence, while ZB 3324 formed a well-supported clade together with previously identified materials of <italic>G. arenaria</italic>. Furthermore, BLASTn searches against the NCBI nucleotide collection (accessed 27 October 2026) demonstrated that the <italic>G. zamorana</italic> (ZB 6074) sequence showed 96.27% identity with the type sequence at 99% query coverage. The next closest hits belonged to unidentified <italic>Genea</italic> spp. (95.11&#x2013;97.76% identity) and <italic>G. szemerei</italic> (82.81% identical). The sequence overlapped the type material over 402 bp (98.8% of the query; 46.5% of the reference). As for <italic>G. arenaria</italic>, no sequence from the type was available. The highest identities were observed to be uncultured <italic>Genea</italic> clones (98.25&#x2013;98.83%), with the closest match being a <italic>G. arenaria</italic> voucher AH44101 (97.67%). All top BLASTn hits covered 100% of the query sequence. <italic>G. zamorana,</italic> originally reported from Spain [<xref ref-type="bibr" rid="B31-diversity-18-00687">31</xref>], is now confirmed for the first time from Hungary based on its genetic cohesion and partial LSU and ITS sequence data. Previously found in the USA, Greece, Germany, Spain, and France [<xref ref-type="bibr" rid="B26-diversity-18-00687">26</xref>], <italic>G. arenaria</italic> was reported for the first time in Hungary and remains nested within the <italic>arenaria</italic> clade, with minor differences from the American or European isolates. The above phylogenetic analysis highlights the pattern of divergence, which supports the formal recognition of <italic>G. budensis</italic> sp. nov. within <italic>Genea</italic> (<xref ref-type="fig" rid="diversity-18-00687-f001">Figure 1</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="sec4-diversity-18-00687">
+      <title>4. Taxonomy</title>
+      <p><italic>Genea budensis</italic> S. Chakraborty &amp; Z. Bratek, sp. nov. (<xref ref-type="fig" rid="diversity-18-00687-f002">Figure 2</xref>).</p>
+      <p>Mycobank: MB865637</p>
+      <p>Etymology: Named after the Buda Mountains in Hungary, where the species was discovered, fruiting together with <italic>Tuber aestivum</italic> in the same habitat.</p>
+      <p>Diagnosis: Subglobose to irregularly lobed hypogeous ascomata with a black, scale-like, polygonal/pyramidal, warted, single-layered peridium, morphologically similar to <italic>G. pseudobalsleyi</italic> and <italic>G. szemerei.</italic> Ascospores generally measure less than 38 &#xB5;m and greater than 30 &#xB5;m in diameter. They are densely covered by mainly truncated, conical, and sometimes with blunt and bud-like ornaments about 3.6&#x2013;5 &#xB5;m high.</p>
+      <p>Type: Farkas-v&#xF6;lgy, Buda Mountains, Hungary, 47&#xB0;28&#x2032;22&#x2033; N, 18&#xB0;56&#x2032;45&#x2033; E, 17 February 1998, Leg: P&#xE1;lfy. B, collected from brown forest soil in Farkas-v&#xF6;lgy, Holotype ZB-1323, GenBank accession numbers KJ938829 (ITS), PZ631854 (LSU).</p>
+      <p>Description: Subglobose, hypogeous, black ascomata and moderately lobed, up to 5&#x2013;8 mm in diam., covered homogeneously with small polygonal black warts that measure around 0.21 &#xD7; 0.23 mm, along with a small basal tuft of hyphae. Single-layered pseudoparenchymatous peridium around 142 &#xB5;m thick, usually composed of darker angular cells in the outer part and subglobose hyaline cells in the inner part measuring 39.7 &#xD7; 35.8 &#xB5;m wide. It consists of a simple, unfolded glebal chamber. Hymenium is pale whitish yellow to yellowish. The inner chamber also displayed small polygonal warts similar to those on the outer peridium surface. Brownish to brownish hyaline pseudoparenchymatous epithecium is around 40 &#xB5;m thick with angular cells that measure 18&#x2013;22 &#xB5;m in diameter. Asci 291&#x2013;250 &#xD7; 40&#x2013;35 &#xB5;m are cylindrical and irregular, containing eight, rarely six, uniseriate spores. Paraphyses are cylindrical, septate, 1.9&#x2013;2.5 &#xB5;m wide. Ascospores measure (30.9&#x2013;)31.8&#x2013;35.9(&#x2013;38.4) &#xD7; (25.8&#x2013;)26.4&#x2013;30.3(&#x2013;33.2) &#xB5;m (mean: 33.8 &#xD7; 28.9, Qav = 1.2, <italic>n</italic> = 30) and are broadly ellipsoidal, light yellow or hyaline in color and are ornamented with mostly crowded blunt, truncated, conical and bud-like elements measuring 3.6&#x2013;5 &#xB5;m high and 4.1&#x2013;8 &#xB5;m wide. Odour present.</p>
+      <p>Ecology: The studied material was collected under <italic>Carpino-Quercetum</italic>, usually occurring from winter to early summer (November to May).</p>
+      <p>Distribution: The formally described material originated from Hungary. However, according to GenBank, the species is also found in Germany (KJ938822 as <italic>G. fragrans</italic>).</p>
+      <p>Additional materials examined&#x2014;HUNGARY:<list list-type="order"><list-item><p>ZB-1585, Farkas-v&#xF6;lgy, Buda Mountains, Hungary, 47&#xB0;28&#x2032;22&#x2033; N, 18&#xB0;56&#x2032;45&#x2033; E, 1 May 1999, GenBank accession number KJ938830 (ITS)</p></list-item><list-item><p>ZB-3833, Nagykov&#xE1;csi, Kutya-hegy, Buda Mountains, Hungary, 47&#xB0;35&#x2032;26&#x2033; N, 18&#xB0;51&#x2032;15&#x2033; E, 10 November 1996, GenBank accession number KJ938833 (ITS)</p></list-item></list></p>
+      <p>Notes: <italic>Genea budensis</italic> is sister to <italic>G. fragrans</italic> lineage and differs from it in its simple, unfolded glebal chamber (winding and labyrinth-like in <italic>G. fragrans</italic>), smaller ascospores ((30.9&#x2013;)31.8&#x2013;35.9(&#x2013;38.4) &#xD7; (25.8&#x2013;)26.4&#x2013;30.3(&#x2013;33.2) &#xB5;m vs. (29)31&#x2013;41(43) &#xD7; (27)28&#x2013;36(38) &#xB5;m) and crowded, coalescent, blunt to conical warts 3.6&#x2013;5 &#xD7; 4.1&#x2013;8 &#xB5;m, whereas <italic>G. fragrans</italic> demonstrates scattered ornamentation. In a minority of spores, the ornaments are noted to be less crowded. This species closely resembles <italic>G. szemerei</italic>, <italic>G. fageticola</italic> and <italic>G. pseudobalsleyi</italic> because of its polygonal, scaled warts and blackish peridium; however, these species are not closely related to it in the phylogeny. It differs from <italic>G. fageticola</italic> in its single-layered peridium (142 &#xB5;m vs. bilayered, 200&#x2013;400 &#xB5;m) and broader spores (Qav 1.2 vs. 1.41), from <italic>G. pseudoverrucosa</italic> in its larger spores with broader ornaments (4.1&#x2013;8 vs. 3&#x2013;4.5 &#xB5;m wide) and its unfolded chamber (uniformly labyrinthine in <italic>G. pseudoverrucosa</italic>), and from <italic>G. pseudobalsleyi</italic> in terms of its ascospores as well as its digitate and truncated warts [<xref ref-type="bibr" rid="B2-diversity-18-00687">2</xref>].</p>
+      <p><italic>Genea arenaria</italic> Harkn., Proc. Calif. Acad. Sci. 1 (8): 263 (1899) [<xref ref-type="bibr" rid="B13-diversity-18-00687">13</xref>] [MB172939] (<xref ref-type="fig" rid="diversity-18-00687-f003">Figure 3</xref>).</p>
+      <p>Description: The ascomata of the specimen were lobed and subglobose, with an irregular to round chamber with an apical orifice. It also has an attached mycelial tuft. The peridium is single-layered, with a thickness of around 100&#x2013;148 &#xB5;m and warts measuring 250&#x2013;300 &#xB5;m. The hymenium is white to light yellowish, with the inner chamber being simple and unfolded. Asci are hyaline, cylindrical, measuring about 175&#x2013;200 &#xD7; 35 &#xB5;m, containing eight uniseriate spores. It gradually tapers below into a narrow, flexuous, hyaline pedicel. Paraphyses are septate and 1.51&#x2013;2 &#xB5;m broad. The ascospores were broadly ellipsoidal, (25.7&#x2013;)29.6 &#xD7; (15.8&#x2013;) 16.4&#x2013;20.30 &#xB5;m, ornamented with anvil or fork tips, obtuse to truncated warts measuring 1.7&#x2013;2.3 &#xB5;m high and around 2 &#xB5;m wide. Setai were absent.</p>
+      <p>Habitat: Under <italic>Carici pilosae-Carpinetum</italic>, in the soil (pH 6.7) of a truffle bed of <italic>Tuber excavatum</italic> aggr. (ZB-3291). Based on soil metabarcoding research in the H&#xF3;r Valley [<xref ref-type="bibr" rid="B49-diversity-18-00687">49</xref>], we expected fruiting bodies of <italic>G. arenaria</italic> there and subsequently collected them.</p>
+      <p>Distribution: Known from the USA (California), Germany, Greece, Spain, France [<xref ref-type="bibr" rid="B26-diversity-18-00687">26</xref>] and Hungary.</p>
+      <p>Material examined: ZB-3324, Hungary, B&#xFC;kk Mountains, H&#xF3;r Valley, 48&#xB0;04&#x2032;59&#x2033; N, 20&#xB0;30&#x2032;00&#x2033; E, 20 August 2006, I. Zagyva, Z. Bratek, A. Bath&#xF3;. GenBank accession: PZ387145 (ITS).</p>
+      <p>Notes: Phylogenetic analysis also supports the placement of our specimen nested within the <italic>G. arenaria</italic> clade, supported by maximal statistical values (BS: 100%; BPP: 1.00). Ascospore size and ornamentation remain consistent with the original description, which is about 20&#x2013;28 &#xD7; 15&#x2013;23 &#xB5;m, excluding the ornamentation of cones 0.5&#x2013;2.5 (&#x2013;4) &#xD7; 0.5&#x2013;2 (&#x2013;3) &#xB5;m with obtuse to truncate, anvil-topped or forked tips [<xref ref-type="bibr" rid="B13-diversity-18-00687">13</xref>]. We consistently observed a narrow, flexuous ascus pedicel, not mentioned in the original description. Young or freshly collected <italic>G. arenaria</italic> can often be confused or misidentified as <italic>G. pinicola</italic> or <italic>G. thaxteri</italic> due to its brownish ascomata. <italic>Genea compacta</italic>, another brown species, differs from <italic>G. arenaia</italic> because of its larger spores and crowded ornamentation. It is also often compared with the rare <italic>G. asperula</italic>; however, unlike <italic>G. arenaria</italic>, it demonstrates rounder warts.</p>
+      <p><italic>Genea zamorana</italic> Cabero, P. Alvarado &amp; B. Mart&#xED;n, Persoonia 47: 315 (2021) [<xref ref-type="bibr" rid="B31-diversity-18-00687">31</xref>] [MB841174] (<xref ref-type="fig" rid="diversity-18-00687-f004">Figure 4</xref>).</p>
+      <p>Description: The ascomata of the specimen were black to brownish in colour, subglobose, with the surface covered in polygonal warts measuring about 0.7&#x2013;1 mm. The peridium is two-layered, 103&#x2013;170 &#xB5;m thick, and the outer layer is composed of subglobose to angular hyaline elements (about 22&#x2013;29 &#xD7; 33&#x2013;39 &#xB5;m), mostly arranged perpendicularly to the peridium surface, which is usually observed to be dark brown, while the inner layer gradually merges with the hymenium. The inner chamber is folded and consists of a whitish hymenium which remains arranged in a palisade, with asci and septate paraphyses. The asci are cylindrical, measuring about 127.8&#x2013;165 &#xD7; 15&#x2013;17.2 &#xB5;m. The ascospores are uniseriate, 6&#x2013;8 per ascus, subglobose to ovoid, measuring (20.5&#x2013;) 22&#x2013;24.2 (&#x2013;26) &#xD7; 17.6&#x2013;20(&#x2013;20.5) &#xB5;m, ornamented with trunco-conical or almost cubical warts measuring 1.9&#x2013;2.4 &#xD7; 2&#x2013;2.8 &#xB5;m.</p>
+      <p>Habitat: Found under sub-<italic>Quercus petraea</italic>, <italic>Carpinus betulus</italic>, <italic>Larix decidua</italic>; in silva mixta (with a <italic>Carpino-quercetum</italic>-like association).</p>
+      <p>Distribution: Known from Spain [<xref ref-type="bibr" rid="B31-diversity-18-00687">31</xref>] and Hungary.</p>
+      <p>Material examined: ZB-6074, Hungary, M&#xE1;tra Mountains, Par&#xE1;dsasv&#xE1;r, 47&#xB0;56&#x2032;9.047&#x2033; N, 19&#xB0;57&#x2032;15.118&#x2033; E, alt. 463 m, 6 July 2024, P. Kov&#xE1;cs, B. P&#xE9;ter, Z. Bratek. GenBank accession: PX756460 (ITS).</p>
+      <p>Notes: Phylogenetically, <italic>G. zamorana</italic> (ZB-6074) clustered with the type (AH 49255) with full support (BS 100%; BPP: 1.00). It is sister to another fully supported group containing <italic>G. balsleyi</italic>, <italic>G. pseudobalsleyi</italic> and <italic>G. szemerei</italic> and is also closer to the clades including <italic>G. fragrans</italic>, <italic>G. anthracina</italic>, <italic>G. amici</italic>, <italic>G. compressa</italic> and <italic>G. pseudoverrucosa</italic>. Ascospore shape, size, and warts description remain consistent with the type, stating ascospores length and width (21.5&#x2013;)23&#x2013;25.5(&#x2013;26) &#xD7; 18.5&#x2013;20(&#x2013;20.5) &#xB5;m (ornamentation excluded) and ornamented with tronco-conical or almost cubical warts measuring 2.3&#x2013;2.8 &#xD7; 2&#x2013;3 &#xB5;m [<xref ref-type="bibr" rid="B31-diversity-18-00687">31</xref>]. However, ZB-6074 differs from the type because it lacks conspicuous innermost reddish elements between the external pseudoparenchymatic layer and the inner prosenchymatic layer. <italic>Genea zamorana</italic> can be confused with <italic>G. pseudobalsleyi</italic> because of its polygonal, warted surface and similar ascospore dimensions.</p>
+      <p>Updated Dichotomous Key to European <italic>Genea</italic> species
+	  
+	  <list list-type="order"><list-item><label>1a.</label><p>Ascomata black or reddish &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. 2</p></list-item><list-item><label>1b.</label><p>Ascomata brown, tan or yellowish &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.. 16</p></list-item><list-item><label>2a.</label><p>Ascomata regularly lobed &#x2026;.&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. 3</p></list-item><list-item><label>2b.</label><p>Ascomata irregularly or moderately lobed &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.. 5</p></list-item><list-item><label>3a.</label><p>Spore warts flat &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.. <italic>G. lespiaultii</italic></p></list-item><list-item><label>3b.</label><p>Spore warts not flat &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.. 4</p></list-item><list-item><label>4a.</label><p>Spore warts hemispherical &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. <italic>G. sphaerica</italic></p></list-item><list-item><label>4b.</label><p>Spore warts small and irregular &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.. <italic>G. lobulata</italic></p></list-item><list-item><label>5a.</label><p>Spores &gt; 32 &#xB5;m long &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; 6</p></list-item><list-item><label>5b.</label><p>Spores &#x2264; 32 &#xB5;m long &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. 8</p></list-item><list-item><label>6a.</label><p>Warts conical &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. <italic>G. vagans</italic></p></list-item><list-item><label>6b.</label><p>Warts anvil-shaped or polygonal &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.. 7</p></list-item><list-item><label>7a.</label><p>Ascomata moderately lobed, with an abundant tuft of hyphae &#x2026;&#x2026; <italic>G. fageticola</italic></p></list-item><list-item><label>7b.</label><p>Ascomata irregularly lobed, without a tuft of hyphae &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.. 7*</p></list-item><list-item><label>7*a.</label><p>Glebal chamber folded; warts tiny, blunt, papillate &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. <italic>G. fragrans</italic></p></list-item><list-item><label>7*b.</label><p>Glebal chamber not folded; warts polygonal &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; <italic>G. budensis</italic></p></list-item><list-item><label>8a.</label><p>Sporal warts &lt; 2 &#xB5;m broad &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; <italic>G. pseudobalsleyi</italic></p></list-item><list-item><label>8b.</label><p>Sporal warts &#x2265; 2 &#xB5;m broad &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. 9</p></list-item><list-item><label>9a.</label><p>Sporal warts uniformly truncated &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. <italic>G. pseudoverrucosa</italic></p></list-item><list-item><label>9b.</label><p>Sporal warts not uniformly truncated &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. 10</p></list-item><list-item><label>10a.</label><p>Spores with mucronate, with tooth-like ornaments &#x2026;&#x2026;&#x2026;.. <italic>G. coronata</italic></p></list-item><list-item><label>10b.</label><p>Warts not mucronate &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; 11</p></list-item><list-item><label>11a.</label><p>Warts fang-like or molar-like &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. <italic>G. dentata</italic></p></list-item><list-item><label>11b.</label><p>Warts not fang- or molar-like &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. 12</p></list-item><list-item><label>12a.</label><p>Warts pyramidal or pointed, mixed with truncated ones &#x2026;&#x2026;.. <italic>G. cephalonicae</italic></p></list-item><list-item><label>12b.</label><p>Warts conical, irregular, pointed or rounded &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; 13</p></list-item><list-item><label>13a.</label><p>Fruiting in spring or early summer &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; <italic>G. verrucosa</italic></p></list-item><list-item><label>13b.</label><p>Fruiting from late summer to winter &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. 14</p></list-item><list-item><label>14a.</label><p>Sporal warts irregular, occasionally truncated or conical &#x2026;&#x2026;&#x2026; <italic>G. szemereiensis</italic></p></list-item><list-item><label>14b.</label><p>Sporal warts uniformly conical or irregular &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.&#x2026; 15</p></list-item><list-item><label>15a.</label><p>Fruiting in autumn &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. <italic>G. compressa</italic></p></list-item><list-item><label>15b.</label><p>Fruiting in winter &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.. <italic>G. subbaetica</italic></p></list-item><list-item><label>16a.</label><p>Spores &gt; 36 &#xB5;m long, warts obtuse and roundish &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.. <italic>G. hispidula</italic></p></list-item><list-item><label>16b.</label><p>Spores &#x2264; 36 &#xB5;m long &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; 17</p></list-item><list-item><label>17a.</label><p>Warts small and pointed &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; <italic>G. tuberculata</italic></p></list-item><list-item><label>17b.</label><p>Warts not small and pointed &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. 18</p></list-item><list-item><label>18a.</label><p>Warts large and hemispherical &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; <italic>G. oxygala</italic></p></list-item><list-item><label>18b.</label><p>Warts not hemispherical &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.. 19</p></list-item><list-item><label>19a.</label><p>Warts large, conical, digitate or truncate &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; <italic>G. amici</italic></p></list-item><list-item><label>19b.</label><p>Warts about 3&#x2013;4 &#xB5;m wide, or truncated &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;.&#x2026; 20</p></list-item><list-item><label>20a.</label><p>Warts higher, with rounded tips, rarely truncated, 3&#x2013;4 &#xB5;m wide &#x2026;. <italic>G. gorii</italic></p></list-item><list-item><label>20b.</label><p>Warts truncated &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. 21</p></list-item><list-item><label>21a.</label><p>Warts anvil- or fork-shaped, irregular &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. <italic>G. arenaria</italic></p></list-item><list-item><label>21b.</label><p>Warts trunco-conical, almost cubical, or medium truncated &#x2026;&#x2026;&#x2026;&#x2026; 22</p></list-item><list-item><label>22a.</label><p>Sometimes reddish layer present between the pseudoparenchymatic and prosenchymatic layers &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;. <italic>G. zamorana</italic></p></list-item><list-item><label>22b.</label><p>Medium truncated sporal warts without any occasional reddish layer &#x2026;&#x2026;&#x2026;. 23</p></list-item><list-item><label>23a.</label><p>Associated with Pinus &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; <italic>G. pinicola</italic></p></list-item><list-item><label>23b.</label><p>Associated with Quercus &#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026;&#x2026; <italic>G. brunneocarpa</italic></p></list-item></list></p>
+    </sec>
+    <sec id="sec5-diversity-18-00687" sec-type="discussion">
+      <title>5. Discussion</title>
+      <p>In this study, we described <italic>G. budensis</italic> as a new species and report <italic>G. arenaria</italic> and <italic>G. zamorana</italic> for the first time from Hungary, based on morphological and phylogenetic evidence. <italic>Genea budensis</italic> was observed to be clearly discernible from all its closely related taxa due to its ascospore dimensions and ornamentation (<xref ref-type="table" rid="diversity-18-00687-t002">Table 2</xref>). The closest related species to <italic>G. budensis</italic>, i.e., <italic>G. fragrans,</italic> is the most commonly occurring species in Hungary and is denoted by a blackish peridium covered with papillate warts, a convoluted inner chamber, and ascospores usually measuring greater than 32 &#xB5;m (mean: 37 &#xD7; 33.6) [<xref ref-type="bibr" rid="B26-diversity-18-00687">26</xref>,<xref ref-type="bibr" rid="B50-diversity-18-00687">50</xref>]. The most debatable species in the genus due to its lack of type lineage and varying morphological descriptions, <italic>G. verrucosa</italic>, usually demonstrates a blackish or reddish peridium with mainly conical warts and ascospores less than 32 &#xB5;m [<xref ref-type="bibr" rid="B12-diversity-18-00687">12</xref>,<xref ref-type="bibr" rid="B51-diversity-18-00687">51</xref>]. <italic>Genea pseudobalsleyi</italic> and <italic>G. szemerei</italic> remain distinguished due to their specific irregular-polygonal ornamentation, with the latter demonstrating majorly truncated and conical sporal ornamentation. <italic>Genea lespiaultii</italic>, by contrast, is most easily recognised by its flat spores, although there are no strong features that separate <italic>G. lespiaultii</italic> from <italic>G. sphaerica</italic>. <italic>Genea pseudoverrucosa</italic> differs from <italic>G. verrucosa</italic> in terms of its uniform and truncated ornamentation.</p>
+      <p>An earlier study by Alvarado et al. [<xref ref-type="bibr" rid="B26-diversity-18-00687">26</xref>] showed that <italic>G. fragrans</italic> comprises several genetic lineages that can be separated by quantitative spore characters together with ornamentation and DNA data, which in turn supports the view of including multiple lines of evidence for cryptic fungal species [<xref ref-type="bibr" rid="B52-diversity-18-00687">52</xref>]. As a result, to establish a reliable range for species diagnosis and strengthen the concept of spore dimensions as a primary taxonomic character, Welch&#x2019;s ANOVA followed by Dunnett&#x2019;s T3 post hoc test was employed to examine significant statistical differences in the ascospore dimensions (<italic>p</italic> &lt; 0.05) (<xref ref-type="fig" rid="diversity-18-00687-f005">Figure 5</xref>) (<xref ref-type="app" rid="app1-diversity-18-00687">Supplementary File S1, Table S2</xref>).</p>
+      <p><italic>Genea budensis</italic> had spores significantly shorter (33.85 vs. 38.33 &#xB5;m, <italic>p</italic> &lt; 0.0001) and narrower (28.37 vs. 30.52 &#xB5;m, <italic>p</italic> = 0.0092) than those of <italic>G. fragrans</italic>, its closest sister lineage in the phylogeny. <italic>G. fragrans</italic> had the largest spores in the dataset, significantly longer than all other species (<italic>p</italic> &lt; 0.0001) and wider than all others (<italic>p</italic> &#x2264; 0.0092). These ascospore dimensions for both <italic>G. budensis</italic> and <italic>G. fragrans</italic> were validated by effect sizes, where values above 0.8 are conventionally considered large [<xref ref-type="bibr" rid="B53-diversity-18-00687">53</xref>]. <italic>G. szemerei</italic> differed significantly in spore length from both <italic>G. pseudobalsleyi</italic> (25.55 vs. 28.40 &#xB5;m, <italic>p</italic> &lt; 0.0001; <italic>g</italic> = &#x2212;1.79) and <italic>G. pseudoverrucosa</italic> (27.13 &#xB5;m, <italic>p</italic> = 0.0117), and also from <italic>G. verrucosa</italic> (<italic>p</italic> = 0.0103). No statistically significant differences in mean ascospore width were detected between <italic>G. szemerei</italic> and <italic>G. pseudobalsleyi</italic> (<italic>p</italic> = 0.8556) or between <italic>G. szemerei</italic> and <italic>G. pseudoverrucosa</italic> (<italic>p</italic> &gt; 0.9999). However, the absence of significant differences does not establish equivalence in ascospore dimensions. Likewise, the overlap in spore-size distributions among some taxa [<xref ref-type="bibr" rid="B3-diversity-18-00687">3</xref>,<xref ref-type="bibr" rid="B7-diversity-18-00687">7</xref>] indicates that ascospore dimensions alone may be insufficient for distinguishing all species of <italic>Genea</italic>.</p>
+      <p>Phylogenetic analysis involving the ITS and LSU regions recognize <italic>Genea budensis</italic> sp. nov. as a distinct taxon due to its genetic cohesiveness and absence of intraspecific ITS variation. The primary accepted barcode for species identification is the ITS region [<xref ref-type="bibr" rid="B54-diversity-18-00687">54</xref>]; however, due to insertions and deletions, it is prone to make alignment errors as well. [<xref ref-type="bibr" rid="B55-diversity-18-00687">55</xref>]. In this study, sequences were aligned with PRANK, which differentiates insertions from deletions to produce valid homologies, as retaining gap information also preserves phylogenetic signal [<xref ref-type="bibr" rid="B56-diversity-18-00687">56</xref>]. Pairwise sequence identity was calculated over PRANK-aligned positions, which showed that no <italic>G. budensis</italic> sequence was more than 93.4% identical to any <italic>G. fragrans</italic> sequence, whereas sequences within each species were at least 95.3% identical. Morphologically, it is quite distinct from <italic>G. fragrans</italic> in terms of its unfolded glebal chamber and uniformly smaller ascospores with dense conical and bud-like ornaments. The new collection of <italic>G. zamorana</italic> (ZB 6074) clustered with the type (AH 49255) from Spain with full support (BS 100%; BPP: 1.00) and is also sister (BS 100%) to a fully supported group containing <italic>G. balsleyi</italic>, <italic>G. pseudobalsleyi</italic> and <italic>G. szemerei.</italic> The sequence ZB 6074 is close to the type (96.3%) and far from all other species (&#x2264;85.1%). Morphological features of these specimens also support the designation of this new record. The ascomata of our studied specimen is black to brownish, subglobose and lobed, with polygonal warts and a folded inner chamber. The ascospores are uniseriate, subglobose to ovoid, typically less than 30 &#xB5;m, with trunco-conical to almost cubical warts, similar to the type description [<xref ref-type="bibr" rid="B31-diversity-18-00687">31</xref>]. It differs from <italic>G. pseudobalsleyi</italic> in terms of its warts, which are under 2 &#xB5;m broad [<xref ref-type="bibr" rid="B26-diversity-18-00687">26</xref>] and from <italic>G. szemerei</italic> in terms of its single-layered peridium [<xref ref-type="bibr" rid="B32-diversity-18-00687">32</xref>]. The only notable deviation of ZB 6074 from the type is the absence of inner reddish elements between the two layers of the peridium, which is considered a diagnostic for this species. Since the sequence data and spore characters agree with the type, we interpret the absence of the innermost reddish elements as intraspecific variation whose stability needs additional collections and examination. <italic>Genea arenaria</italic> (ZB 3324), on the other hand, nests within the <italic>G. arenaria</italic> clade (BS 100%), and its ITS variation (about 97&#x2013;100%) is higher than in some other <italic>Genea</italic> species. According to the alignment of the sequences, ZB 3324 (<italic>G. arenaria</italic>) was 99.7% and 99.2% identical to AH 44102 and AH 44104, 97.8% and 97.7% identical to Trappe 13005 and FDS-CA-03540, and at most 95.4% identical to the nearest other species (<italic>G. thaxteri</italic>, <italic>G. hispidula</italic>; 24 mismatches over 518 positions). The sequence labelled <italic>G.</italic> aff. <italic>arenaria</italic> (GO 2008-195) was 96.8% identical and was not treated as a reference for the species. The identification of this species rests mainly on clustering, along with a morphology that matches the original description [<xref ref-type="bibr" rid="B13-diversity-18-00687">13</xref>] in the absence of type material. ZB-3324 demonstrated lobed, subglobose, brownish ascomata with a mycelial tuft; a single-layered brownish peridium. It has a simple, unfolded chamber with a white to light yellowish hymenium; uniseriate, eight-spored asci and broadly ellipsoidal ascospores, ornamented with anvil- or fork-tipped, obtuse to truncated warts about 1.7&#x2013;2.3 &#xB5;m high and about 2 &#xB5;m wide. Our specimen differs from the original description in lacking peridial hairs and in having a narrow, flexuous, hyaline ascus pedicel, which we observed consistently. It is also clearly distinguished from <italic>G. hispidula</italic> by the absence of peridial hairs, as <italic>G. hispidula</italic> has an ascoma surface densely covered with rigid, adpressed hairs [<xref ref-type="bibr" rid="B26-diversity-18-00687">26</xref>]. However, this is a common trait for this species, as huge variations were observed among different specimens regarding tomentum and setae [<xref ref-type="bibr" rid="B6-diversity-18-00687">6</xref>]. Previously described more broadly from California and Oregon, USA, <italic>G. arenaria</italic> is confirmed from Hungary based on strong molecular evidence. To objectively assess species boundaries in <italic>Genea</italic>, a taxonomically challenging genus placed in the <italic>Humaria</italic> lineage of Pyronemataceae s. str. in previous phylogenetic studies [<xref ref-type="bibr" rid="B57-diversity-18-00687">57</xref>] and characterised by heterogeneous levels of genetic divergence among its lineages, we applied the multi-rate PTP method (mPTP; <uri>http://mptp.h-its.org</uri>; accessed 26 September 2026) [<xref ref-type="bibr" rid="B58-diversity-18-00687">58</xref>] and the single-rate Poisson Tree Processes model (PTP; <uri>http://species.h-its.org</uri>; accessed 26 September 2026) [<xref ref-type="bibr" rid="B59-diversity-18-00687">59</xref>]. These analyses supported <italic>G. budensis</italic> as a distinct evolutionary lineage, reciprocally separated from <italic>G. fragrans</italic> (<xref ref-type="app" rid="app1-diversity-18-00687">Supplementary File S1, Figures S3 and S4</xref>). Two accessions reported as <italic>G. fragrans</italic> (AH_44125, AH_44127) were recovered within the <italic>G. budensis</italic> cluster, indicating prior unresolved species boundaries. Using additional markers to more rigorously define species boundaries could strongly benefit future work, especially for the <italic>G. lespiaultii/sphaerica</italic> clade, where the only differentiating factor is the length of ornamentation, which is higher in the case of <italic>G. sphaerica</italic> and also in <italic>G. pseudobalsleyi</italic> and <italic>G. szemerei</italic>.</p>
+      <p>In summary, <italic>G. budensis</italic> is a well-supported lineage within the <italic>G. fragrans</italic> clade, distinguished by DNA, spore size and ornamentation. New records of <italic>G. zamorana</italic> and <italic>G. arenaria</italic> extend the known range of both species and highlight recurring convergence in spore morphology across the genus, reinforcing that integrative, multi-character approaches remain essential for resolving species boundaries in <italic>Genea</italic> [<xref ref-type="bibr" rid="B26-diversity-18-00687">26</xref>,<xref ref-type="bibr" rid="B60-diversity-18-00687">60</xref>].</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-diversity-18-00687">
+        <title>Supplementary Materials</title>
+        <p>The following supporting information can be downloaded at <uri>https://www.mdpi.com/article/10.3390/d18110687/s1</uri>: File S1: Table S1. List of materials involved in the morphological studies. Species names were denoted according to phylogeny and morphology. The basis of identification includes herbarium vouchers, taxon name by the original identification, location of origin etc. Table S2. Dunnett&#x2019;s T3 pairwise comparisons following Welch&#x2019;s ANOVA. Bold: adjusted <italic>p</italic> &lt; 0.05. Figure S1. Phylogenetic reconstructions of <italic>Genea</italic> based on maximum likelihood analysis of ITS. Figure S2. Phylogenetic reconstructions of <italic>Genea</italic> based on maximum likelihood analysis of LSU. Figure S3. mPTP analysis for the genus <italic>Genea.</italic> Substitutions from green to red-coloured branches suggest putative species clusters. Figure S4. Single PTP analyses for the genus <italic>Genea</italic> based on Bayesian and maximum-likelihood topology. Substitutions from blue to red-coloured branches suggest putative species clusters. File S2: Specimens used in multi-locus phylogenetic (ITS, LSU) analysis. File S3. Specimens used in the single-locus phylogenetic (ITS) analysis. File S4. Specimens used in the single-locus phylogenetic (LSU) analysis.</p>
+        <supplementary-material xmlns:xlink="http://www.w3.org/1999/xlink" id="diversity-18-00687-s001" xlink:href="diversity-18-00687-s001.zip"/>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>S.C. and Z.B. contributed to the concept and methodology. S.A.T. and S.C. performed morphological measurements; S.C. performed morphometric analysis and statistics; A.K. and Z.K. took SEM photographs; S.C. and S.A.T. carried out DNA extraction, primer selection, and PCR. The phylogenetic tree, along with the GenBank table, was constructed by S.K. and S.C.; image editing was done by S.K.; the Materials and Methods section was drafted by S.K. and S.C.; B.D.P. did the initial sequence cleanup and fieldwork and managed funding. S.C. organised, wrote, and followed up on the overall manuscript. Z.B. supervised this work. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>Not Applicable.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>All sequence data generated for this study can be accessed via GenBank: <uri>https://www.ncbi.nlm.nih.gov/genbank/</uri> (accessed on 22 September 2026). All alignments and additional data have been submitted as <xref ref-type="app" rid="app1-diversity-18-00687">Supplementary Materials</xref>. Any raw data will be made available upon reasonable request.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to express their gratitude to Biomi Ltd. for the sequencing of our samples, the members of EMSzE, and other truffle collectors for sample collection.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-diversity-18-00687">
+        <label>1.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vittadini</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <source>Monographia Tuberacearum</source>
+          <publisher-name>Ex Typographia Felicis Rusconi</publisher-name>
+          <publisher-loc>Milan, Italy</publisher-loc>
+          <year>1831</year>
+        </element-citation>
+      </ref>
+      <ref id="B2-diversity-18-00687">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alvarado</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Moreno</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Bratek</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Species Diversity of <italic>Genea</italic> (Ascomycota, Pezizales) in Europe</article-title>
+          <source>Ascomycete</source>
+          <year>2014</year>
+          <volume>6</volume>
+          <fpage>41</fpage>
+          <lpage>51</lpage>
+          <pub-id pub-id-type="doi">10.25664/art-0098</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-diversity-18-00687">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>L&#xE6;ss&#xF8;e</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Truffle Trouble: What Happened to the Tuberales?</article-title>
+          <source>Mycol. Res.</source>
+          <year>2007</year>
+          <volume>111</volume>
+          <fpage>1075</fpage>
+          <lpage>1099</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mycres.2007.08.004</pub-id>
+          <pub-id pub-id-type="pmid">18022534</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-diversity-18-00687">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trappe</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Orders, Families, and Genera of Hypogeous Ascomycotina (Truffles and Their Relatives)</article-title>
+          <source>Mycotaxon</source>
+          <year>1979</year>
+          <volume>9</volume>
+          <fpage>297</fpage>
+          <lpage>340</lpage>
+          <pub-id pub-id-type="doi">10.5962/p.417189</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-diversity-18-00687">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pfister</surname>
+              <given-names>D.H.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Genea-Jafneadelphus</italic>&#x2014;A Tuberalean-Pezizalean Connection</article-title>
+          <source>Mycologia</source>
+          <year>1984</year>
+          <volume>76</volume>
+          <fpage>170</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1080/00275514.1984.12023823</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-diversity-18-00687">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Trappe</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Rizzo</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Genea</italic>, <italic>Genabea</italic> and <italic>Gilkeya</italic> Gen. Nov.: Ascomata and Ectomycorrhiza Formation in a Quercus Woodland</article-title>
+          <source>Mycologia</source>
+          <year>2006</year>
+          <volume>98</volume>
+          <fpage>699</fpage>
+          <lpage>716</lpage>
+          <pub-id pub-id-type="doi">10.1080/15572536.2006.11832642</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-diversity-18-00687">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perry</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Pfister</surname>
+              <given-names>D.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Phylogenetic Overview of the Family <italic>Pyronemataceae</italic> (<italic>Ascomycota</italic>, <italic>Pezizales</italic>)</article-title>
+          <source>Mycol. Res.</source>
+          <year>2007</year>
+          <volume>111</volume>
+          <fpage>549</fpage>
+          <lpage>571</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mycres.2007.03.014</pub-id>
+          <pub-id pub-id-type="pmid">17572335</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-diversity-18-00687">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berkeley</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Broome</surname>
+              <given-names>C.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>IX Notices of British hypog&#x153;ous Fungi</article-title>
+          <source>Ann. Mag. Nat. Hist.</source>
+          <year>1846</year>
+          <volume>18</volume>
+          <fpage>73</fpage>
+          <lpage>82</lpage>
+          <pub-id pub-id-type="doi">10.1080/037454809496568</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-diversity-18-00687">
+        <label>9.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tulasne</surname>
+              <given-names>L.R.</given-names>
+            </name>
+            <name>
+              <surname>Tulasne</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <source>Fungi Hypogaei: Histoire et Monographie des Champignons Hypog&#xE9;s</source>
+          <publisher-name>F. Klincksieck</publisher-name>
+          <publisher-loc>Paris, France</publisher-loc>
+          <year>1851</year>
+        </element-citation>
+      </ref>
+      <ref id="B10-diversity-18-00687">
+        <label>10.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corda</surname>
+              <given-names>A.C.I.</given-names>
+            </name>
+          </person-group>
+          <source>Icones Fungorum Hucusque Cognitorum</source>
+          <publisher-name>F. Ehrlich</publisher-name>
+          <publisher-loc>Prague, Czech Republic</publisher-loc>
+          <year>1854</year>
+          <volume>Volume 6</volume>
+        </element-citation>
+      </ref>
+      <ref id="B11-diversity-18-00687">
+        <label>11.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saccardo</surname>
+              <given-names>P.A.</given-names>
+            </name>
+          </person-group>
+          <source>Sylloge Fungorum Hucusque Cognitorum</source>
+          <comment>Pars VIII</comment>
+          <publisher-name>Typis Seminarii</publisher-name>
+          <publisher-loc>Padua, Italy</publisher-loc>
+          <year>1889</year>
+          <volume>Volume 8</volume>
+        </element-citation>
+      </ref>
+      <ref id="B12-diversity-18-00687">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bresadola</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mycetes australienses novi, ct emendanda ad Floram Mycologicam Australiae</article-title>
+          <source>Hedwigw</source>
+          <year>1893</year>
+          <volume>32</volume>
+          <fpage>118</fpage>
+          <lpage>119</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B13-diversity-18-00687">
+        <label>13.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harkness</surname>
+              <given-names>H.W.</given-names>
+            </name>
+          </person-group>
+          <source>California Hypogaeous Fungi</source>
+          <publisher-name>California Academy of Sciences</publisher-name>
+          <publisher-loc>San Francisco, CA, USA</publisher-loc>
+          <year>1899</year>
+          <volume>Volume 1</volume>
+        </element-citation>
+      </ref>
+      <ref id="B14-diversity-18-00687">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mattirolo</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Elenco dei &#x201C;fungi hypogaei&#x201D; raccolti nelle Foreste di Vallombrosa negli anni 1899&#x2013;1900</article-title>
+          <source>Malpighia</source>
+          <year>1990</year>
+          <volume>14</volume>
+          <fpage>247</fpage>
+          <lpage>270</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B15-diversity-18-00687">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mattirolo</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gli ipogei di Sardegna e di Sicilia</article-title>
+          <source>Malpighia</source>
+          <year>1990</year>
+          <volume>14</volume>
+          <fpage>39</fpage>
+          <lpage>110</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B16-diversity-18-00687">
+        <label>16.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Velenovsk&#xFD;</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <source>&#x10C;esk&#xE9; Houby</source>
+          <publisher-name>&#x10C;esk&#xE9; Botanick&#xE9; Spole&#x10D;nosti</publisher-name>
+          <publisher-loc>Prague, Czech Republic</publisher-loc>
+          <year>1992</year>
+          <volume>Volumes 4&#x2013;5</volume>
+        </element-citation>
+      </ref>
+      <ref id="B17-diversity-18-00687">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Imai</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>On Two New Species of Tuberaceae</article-title>
+          <source>Proc. Imp. Acad.</source>
+          <year>1933</year>
+          <volume>9</volume>
+          <fpage>182</fpage>
+          <lpage>185</lpage>
+          <pub-id pub-id-type="doi">10.2183/pjab1912.9.182</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-diversity-18-00687">
+        <label>18.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gilkey</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <source>Tuberales of North America</source>
+          <publisher-name>Oregon State College</publisher-name>
+          <publisher-loc>Corvallis, OR, USA</publisher-loc>
+          <year>1939</year>
+          <volume>Volume 1</volume>
+        </element-citation>
+      </ref>
+      <ref id="B19-diversity-18-00687">
+        <label>19.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cribb</surname>
+              <given-names>J.W.</given-names>
+            </name>
+          </person-group>
+          <source>Two New Species of Subterranean Ascomycetes from Queensland</source>
+          <comment>Papers from the Department of Botany</comment>
+          <publisher-name>The University of Queensland</publisher-name>
+          <publisher-loc>Brisbane, Australia</publisher-loc>
+          <year>1960</year>
+          <volume>Volume 4</volume>
+          <fpage>35</fpage>
+          <lpage>37</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B20-diversity-18-00687">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trappe</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Guzm&#xE1;n</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Notes on Some Hypogeous Fungi from Mexico</article-title>
+          <source>Mycologia</source>
+          <year>1971</year>
+          <volume>63</volume>
+          <fpage>317</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="doi">10.1080/00275514.1971.12019112</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-diversity-18-00687">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stewart</surname>
+              <given-names>E.L.</given-names>
+            </name>
+            <name>
+              <surname>Heblack</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hypogeous fungi of Minnesota: <italic>Genea anthracina</italic> sp. nov</article-title>
+          <source>Mycotaxon</source>
+          <year>1979</year>
+          <volume>9</volume>
+          <fpage>451</fpage>
+          <lpage>458</lpage>
+          <pub-id pub-id-type="doi">10.5962/p.417184</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-diversity-18-00687">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Taxonomic Status of <italic>Genabea</italic>, with Two New Species of <italic>Genea</italic> (Pezizales)</article-title>
+          <source>Mycol. Res.</source>
+          <year>1991</year>
+          <volume>95</volume>
+          <fpage>986</fpage>
+          <lpage>994</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0953-7562(09)80096-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-diversity-18-00687">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moreno-Arroyo</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>G&#xF3;mez</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Calonge</surname>
+              <given-names>F.D.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Genea subbaetica</italic>, sp. nov., from Spain</article-title>
+          <source>Bol. Soco Mico/Madr.</source>
+          <year>1998</year>
+          <volume>23</volume>
+          <fpage>85</fpage>
+          <lpage>89</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B24-diversity-18-00687">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>M.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>NATS truffle and truffle-like fungi 15: <italic>Genea balsleyi</italic> sp. nov. (Pyronemataceae), a new hypogeous ascomycete from New Jersey</article-title>
+          <source>Mycotaxon</source>
+          <year>2007</year>
+          <volume>99</volume>
+          <fpage>239</fpage>
+          <lpage>244</lpage>
+          <pub-id pub-id-type="doi">10.5962/p.419193</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-diversity-18-00687">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guevara-Guerrero</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Stielow</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Tamm</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>C&#xE1;zares-Gonzalez</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>G&#xF6;ker</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Genea Mexicana</italic>, Sp. Nov., and <italic>Geopora Tolucana</italic>, Sp. Nov., New Hypogeous <italic>Pyronemataceae</italic> from Mexico, and the Taxonomy of Geopora Reevaluated</article-title>
+          <source>Mycol. Prog.</source>
+          <year>2011</year>
+          <volume>11</volume>
+          <fpage>711</fpage>
+          <lpage>724</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11557-011-0781-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-diversity-18-00687">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alvarado</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Cabero</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Moreno</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Bratek</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>van Vooren</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kaounas</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Konstantinidis</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Agnello</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mer&#xE9;nyi</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Phylogenetic Overview of the Genus <italic>Genea</italic> (Pezizales, Ascomycota) with an Emphasis on European Taxa</article-title>
+          <source>Mycologia</source>
+          <year>2016</year>
+          <volume>108</volume>
+          <fpage>441</fpage>
+          <lpage>456</lpage>
+          <pub-id pub-id-type="doi">10.3852/15-199</pub-id>
+          <pub-id pub-id-type="pmid">26740538</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-diversity-18-00687">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Agnello</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kaounas</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Alvarado</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genea gorii, una nuova specie descritta dall&#x2019;Italia meridionale</article-title>
+          <source>Riv. Micol.</source>
+          <year>2016</year>
+          <volume>59</volume>
+          <fpage>195</fpage>
+          <lpage>202</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B28-diversity-18-00687">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paz</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chautrand</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lavoise</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genea amici una especie nueva encontrada en C&#xF3;rcega</article-title>
+          <source>Yesca</source>
+          <year>2016</year>
+          <volume>28</volume>
+          <fpage>139</fpage>
+          <lpage>150</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B29-diversity-18-00687">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaounas</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Agnello</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Alvarado</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Genea cephalonicae</italic> sp. nov. Ascomycota, Pezizales, a new hypogeous species from Greece</article-title>
+          <source>Ascomycete.org J.</source>
+          <year>2016</year>
+          <volume>8</volume>
+          <fpage>105</fpage>
+          <lpage>110</lpage>
+          <pub-id pub-id-type="doi">10.25664/art-0179</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-diversity-18-00687">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paz</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chautrand</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lavoise</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genea darii une nouvelle esp&#xE8;ce du sud de l&#x2019;Europe</article-title>
+          <source>Bull. F&#xE9;d&#xE9;ration Des Assoc. Mycol. M&#xE9;diterran&#xE9;enes</source>
+          <year>2019</year>
+          <volume>55</volume>
+          <fpage>3</fpage>
+          <lpage>14</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B31-diversity-18-00687">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crous</surname>
+              <given-names>P.W.</given-names>
+            </name>
+            <name>
+              <surname>Osieck</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Jurjevi&#x107;</surname>
+              <given-names>&#x17D;.</given-names>
+            </name>
+            <name>
+              <surname>Boers</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>van Iperen</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Starink-Willemse</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dima</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Balashov</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bulgakov</surname>
+              <given-names>T.S.</given-names>
+            </name>
+            <name>
+              <surname>Johnston</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Fungal Planet Description Sheets: 1284&#x2013;1382</article-title>
+          <source>Persoonia Mol. Phylogeny Evol. Fungi</source>
+          <year>2021</year>
+          <volume>47</volume>
+          <fpage>178</fpage>
+          <lpage>374</lpage>
+          <pub-id pub-id-type="doi">10.3767/persoonia.2021.47.06</pub-id>
+          <pub-id pub-id-type="pmid">37693795</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-diversity-18-00687">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chakraborty</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tirpude</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>P&#xE9;ter</surname>
+              <given-names>B.D.</given-names>
+            </name>
+            <name>
+              <surname>Walle</surname>
+              <given-names>G.C.</given-names>
+            </name>
+            <name>
+              <surname>Habtemariam</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Kedves</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Balogh</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>K&#xF3;nya</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Bratek</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Taxonomy, Phylogeny and Ecological Assessment of the Truffle Genus <italic>Genea</italic> in Central Europe with a New Species and a New Record</article-title>
+          <source>Diversity</source>
+          <year>2026</year>
+          <volume>18</volume>
+          <elocation-id>360</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/d18060360</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-diversity-18-00687">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bidartondo</surname>
+              <given-names>M.I.</given-names>
+            </name>
+            <name>
+              <surname>Baar</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bruns</surname>
+              <given-names>T.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Low Ectomycorrhizal Inoculum Potential and Diversity from Soils in and near Ancient Forests of Bristlecone Pine (<italic>Pinus longaeva</italic>)</article-title>
+          <source>Can. J. Bot.</source>
+          <year>2001</year>
+          <volume>79</volume>
+          <fpage>293</fpage>
+          <lpage>299</lpage>
+          <pub-id pub-id-type="doi">10.1139/b01-006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-diversity-18-00687">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Izzo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Agbowo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bruns</surname>
+              <given-names>T.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Detection of Plot-Level Changes in Ectomycorrhizal Communities across Years in an Old-Growth Mixed-Conifer Forest</article-title>
+          <source>New Phytol.</source>
+          <year>2005</year>
+          <volume>166</volume>
+          <fpage>619</fpage>
+          <lpage>630</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1469-8137.2005.01354.x</pub-id>
+          <pub-id pub-id-type="pmid">15819924</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-diversity-18-00687">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Izzo</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Meyer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Trappe</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>North</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bruns</surname>
+              <given-names>T.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hypogeous Ectomycorrhizal Fungal Species on Roots and in Small Mammal Diet in a Mixed-Conifer Forest</article-title>
+          <source>For. Sci.</source>
+          <year>2005</year>
+          <volume>51</volume>
+          <fpage>243</fpage>
+          <lpage>254</lpage>
+          <pub-id pub-id-type="doi">10.1093/forestscience/51.3.243</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-diversity-18-00687">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Korhonen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sathiya Seelan</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Miettinen</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cryptic Species Diversity in Polypores: The Skeletocutis Nivea Species Complex</article-title>
+          <source>MycoKeys</source>
+          <year>2018</year>
+          <volume>36</volume>
+          <fpage>45</fpage>
+          <lpage>82</lpage>
+          <pub-id pub-id-type="doi">10.3897/mycokeys.36.27002</pub-id>
+          <pub-id pub-id-type="pmid">30057481</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-diversity-18-00687">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pu&#x15F;ca&#x15F;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ronikier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mr&#xE1;z</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Hurdu</surname>
+              <given-names>B.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biogeography of the Carpathians: Towards a Better Understanding of Biodiversity Patterns</article-title>
+          <source>Plant Syst. Evol.</source>
+          <year>2021</year>
+          <volume>307</volume>
+          <fpage>29</fpage>
+          <pub-id pub-id-type="doi">10.1007/s00606-021-01754-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-diversity-18-00687">
+        <label>38.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>Royal Botanic Garden Edinburgh</collab>
+          </person-group>
+          <source>Flora of British Fungi: Colour Identification Chart</source>
+          <publisher-name>Her Majesty&#x2019;s Stationery Office</publisher-name>
+          <publisher-loc>Edinburgh, UK</publisher-loc>
+          <year>1969</year>
+        </element-citation>
+      </ref>
+      <ref id="B39-diversity-18-00687">
+        <label>39.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wei</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <source>Handbook of Fungal Identification</source>
+          <publisher-name>Shanghai Science and Technology Press</publisher-name>
+          <publisher-loc>Shanghai, China</publisher-loc>
+          <year>1979</year>
+        </element-citation>
+      </ref>
+      <ref id="B40-diversity-18-00687">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gardes</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bruns</surname>
+              <given-names>T.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>ITS Primers with Enhanced Specificity for Basidiomycetes&#x2014;Application to the Identification of Mycorrhizae and Rusts</article-title>
+          <source>Mol. Ecol.</source>
+          <year>1993</year>
+          <volume>2</volume>
+          <fpage>113</fpage>
+          <lpage>118</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-294X.1993.tb00005.x</pub-id>
+          <pub-id pub-id-type="pmid">8180733</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-diversity-18-00687">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toju</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tanabe</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>High-Coverage ITS Primers for the DNA-Based Identification of Ascomycetes and Basidiomycetes in Environmental Samples</article-title>
+          <source>PLoS ONE</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <elocation-id>e40863</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0040863</pub-id>
+          <pub-id pub-id-type="pmid">22808280</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-diversity-18-00687">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hopple</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Vilgalys</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phylogenetic Relationships in the Mushroom Genus Coprinus and Dark-Spored Allies Based on Sequence Data from the Nuclear Gene Coding for the Large Ribosomal Subunit RNA: Divergent Domains, Outgroups, and Monophyly</article-title>
+          <source>Mol. Phylogenet. Evol.</source>
+          <year>1999</year>
+          <volume>13</volume>
+          <fpage>1</fpage>
+          <lpage>19</lpage>
+          <pub-id pub-id-type="doi">10.1006/mpev.1999.0634</pub-id>
+          <pub-id pub-id-type="pmid">10508535</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-diversity-18-00687">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vilgalys</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hester</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapid Genetic Identification and Mapping of Enzymatically Amplified Ribosomal DNA from Several Cryptococcus Species</article-title>
+          <source>J. Bacteriol.</source>
+          <year>1990</year>
+          <volume>172</volume>
+          <fpage>4238</fpage>
+          <lpage>4246</lpage>
+          <pub-id pub-id-type="doi">10.1128/jb.172.8.4238-4246.1990</pub-id>
+          <pub-id pub-id-type="pmid">2376561</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-diversity-18-00687">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sayers</surname>
+              <given-names>E.W.</given-names>
+            </name>
+            <name>
+              <surname>Beck</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bolton</surname>
+              <given-names>E.E.</given-names>
+            </name>
+            <name>
+              <surname>Brister</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Connor</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Feldgarden</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fine</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Funk</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hoffman</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Database Resources of the National Center for Biotechnology Information in 2025</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2025</year>
+          <volume>53</volume>
+          <fpage>D20</fpage>
+          <lpage>D29</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkae979</pub-id>
+          <pub-id pub-id-type="pmid">39526373</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-diversity-18-00687">
+        <label>45.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>L&#xF6;ytynoja</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phylogeny-Aware Alignment with PRANK</article-title>
+          <source>Multiple Sequence Alignment Methods</source>
+          <comment>Methods in Molecular Biology</comment>
+          <publisher-name>Humana Press</publisher-name>
+          <publisher-loc>Totowa, NJ, USA</publisher-loc>
+          <year>2014</year>
+          <volume>Volume 1079</volume>
+          <fpage>155</fpage>
+          <lpage>170</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-1-62703-646-7_10</pub-id>
+          <pub-id pub-id-type="pmid">24170401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-diversity-18-00687">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kozlov</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Darriba</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Flouri</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Morel</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Stamatakis</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>RAxML-NG: A Fast, Scalable and User-Friendly Tool for Maximum Likelihood Phylogenetic Inference</article-title>
+          <source>Bioinformatics</source>
+          <year>2019</year>
+          <volume>35</volume>
+          <fpage>4453</fpage>
+          <lpage>4455</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btz305</pub-id>
+          <pub-id pub-id-type="pmid">31070718</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-diversity-18-00687">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ronquist</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Teslenko</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>van der Mark</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ayres</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Darling</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>H&#xF6;hna</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Larget</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Suchard</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Huelsenbeck</surname>
+              <given-names>J.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>MrBayes 3.2: Efficient Bayesian Phylogenetic Inference and Model Choice Across a Large Model Space</article-title>
+          <source>Syst. Biol.</source>
+          <year>2012</year>
+          <volume>61</volume>
+          <fpage>539</fpage>
+          <lpage>542</lpage>
+          <pub-id pub-id-type="doi">10.1093/sysbio/sys029</pub-id>
+          <pub-id pub-id-type="pmid">22357727</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-diversity-18-00687">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Darriba</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Posada</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kozlov</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Stamatakis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Morel</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Flouri</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>ModelTest-NG: A New and Scalable Tool for the Selection of DNA and Protein Evolutionary Models</article-title>
+          <source>Mol. Biol. Evol.</source>
+          <year>2019</year>
+          <volume>37</volume>
+          <fpage>291</fpage>
+          <lpage>294</lpage>
+          <pub-id pub-id-type="doi">10.1093/molbev/msz189</pub-id>
+          <pub-id pub-id-type="pmid">31432070</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-diversity-18-00687">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geml</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Leal</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Nagy</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sulyok</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Abiotic Environmental Factors Drive the Diversity, Compositional Dynamics and Habitat Preference of Ectomycorrhizal Fungi in Pannonian Forest Types</article-title>
+          <source>Front. Microbiol.</source>
+          <year>2022</year>
+          <volume>13</volume>
+          <elocation-id>1007935</elocation-id>
+          <pub-id pub-id-type="doi">10.3389/fmicb.2022.1007935</pub-id>
+          <pub-id pub-id-type="pmid">36312934</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-diversity-18-00687">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>T&#xFC;rko&#x11F;lu</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Castellano</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>New Records of Some Ascomycete Truffle Fungi from Turkey</article-title>
+          <source>Turk. J. Bot.</source>
+          <year>2014</year>
+          <volume>38</volume>
+          <fpage>406</fpage>
+          <lpage>416</lpage>
+          <pub-id pub-id-type="doi">10.3906/bot-1303-24</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-diversity-18-00687">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bertolini</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Funghi ipogei: Uno sguardo alle Genea</article-title>
+          <source>Boll. Del Circ. Micol. G. Carini</source>
+          <year>2014</year>
+          <volume>67</volume>
+          <fpage>21</fpage>
+          <lpage>40</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B52-diversity-18-00687">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Struck</surname>
+              <given-names>T.H.</given-names>
+            </name>
+            <name>
+              <surname>Feder</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Bendiksby</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Birkeland</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cerca</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gusarov</surname>
+              <given-names>V.I.</given-names>
+            </name>
+            <name>
+              <surname>Kistenich</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Larsson</surname>
+              <given-names>K.-H.</given-names>
+            </name>
+            <name>
+              <surname>Liow</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Nowak</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Finding Evolutionary Processes Hidden in Cryptic Species</article-title>
+          <source>Trends Ecol. Evol.</source>
+          <year>2018</year>
+          <volume>33</volume>
+          <fpage>153</fpage>
+          <lpage>163</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tree.2017.11.007</pub-id>
+          <pub-id pub-id-type="pmid">29241941</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-diversity-18-00687">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lakens</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Calculating and Reporting Effect Sizes to Facilitate Cumulative Science: A Practical Primer for t-Tests and ANOVAs</article-title>
+          <source>Front. Psychol.</source>
+          <year>2013</year>
+          <volume>4</volume>
+          <elocation-id>863</elocation-id>
+          <pub-id pub-id-type="doi">10.3389/fpsyg.2013.00863</pub-id>
+          <pub-id pub-id-type="pmid">24324449</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-diversity-18-00687">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schoch</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Seifert</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Huhndorf</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Robert</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Spouge</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Levesque</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Bolchacova</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Voigt</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Crous</surname>
+              <given-names>P.W.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Nuclear Ribosomal Internal Transcribed Spacer (ITS) Region as a Universal DNA Barcode Marker for Fungi</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2012</year>
+          <volume>109</volume>
+          <fpage>6241</fpage>
+          <lpage>6246</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1117018109</pub-id>
+          <pub-id pub-id-type="pmid">22454494</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-diversity-18-00687">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nilsson</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Kristiansson</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ryberg</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hallenberg</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Larsson</surname>
+              <given-names>K.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intraspecific ITS Variability in the Kingdom Fungi as Expressed in the International Sequence Databases and Its Implications for Molecular Species Identification</article-title>
+          <source>Evol. Bioinform.</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>193</fpage>
+          <lpage>201</lpage>
+          <pub-id pub-id-type="doi">10.4137/EBO.S653</pub-id>
+          <pub-id pub-id-type="pmid">19204817</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-diversity-18-00687">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dessimoz</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gil</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phylogenetic Assessment of Alignments Reveals Neglected Tree Signal in Gaps</article-title>
+          <source>Genome Biol.</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>R37</fpage>
+          <pub-id pub-id-type="doi">10.1186/gb-2010-11-4-r37</pub-id>
+          <pub-id pub-id-type="pmid">20370897</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-diversity-18-00687">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hansen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Perry</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Dranginis</surname>
+              <given-names>A.W.</given-names>
+            </name>
+            <name>
+              <surname>Pfister</surname>
+              <given-names>D.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Phylogeny of the Highly Diverse Cup-Fungus Family Pyronemataceae (Pezizomycetes, Ascomycota) Clarifies Relationships and Evolution of Selected Life History Traits</article-title>
+          <source>Mol. Phylogenetics Evol.</source>
+          <year>2013</year>
+          <volume>67</volume>
+          <fpage>311</fpage>
+          <lpage>335</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ympev.2013.01.014</pub-id>
+          <pub-id pub-id-type="pmid">23403226</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-diversity-18-00687">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kapli</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lutteropp</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kobert</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Pavlidis</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Stamatakis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Flouri</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multi-Rate Poisson Tree Processes for Single-Locus Species Delimitation under Maximum Likelihood and Markov Chain Monte Carlo</article-title>
+          <source>Bioinformatics</source>
+          <year>2017</year>
+          <volume>33</volume>
+          <fpage>1630</fpage>
+          <lpage>1638</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btx025</pub-id>
+          <pub-id pub-id-type="pmid">28108445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-diversity-18-00687">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kapli</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Pavlidis</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Stamatakis</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A General Species Delimitation Method with Applications to Phylogenetic Placements</article-title>
+          <source>Bioinformatics</source>
+          <year>2013</year>
+          <volume>29</volume>
+          <fpage>2869</fpage>
+          <lpage>2876</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btt499</pub-id>
+          <pub-id pub-id-type="pmid">23990417</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-diversity-18-00687">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taylor</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Jacobson</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Kroken</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kasuga</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Geiser</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Hibbett</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Fisher</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phylogenetic Species Recognition and Species Concepts in Fungi</article-title>
+          <source>Fungal Genet. Biol.</source>
+          <year>2000</year>
+          <volume>31</volume>
+          <fpage>21</fpage>
+          <lpage>32</lpage>
+          <pub-id pub-id-type="doi">10.1006/fgbi.2000.1228</pub-id>
+          <pub-id pub-id-type="pmid">11118132</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="diversity-18-00687-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Maximum likelihood phylogram of the examined isolates of the genus <italic>Genea</italic>. Bootstrap percentages (BSs) and Bayesian posterior probabilities (BPPs) are shown above branches (BS/BPP). Only values higher than 70 (BS) and 0.95 (BPP) are indicated. Hyphens denote values below the threshold for the corresponding statistic (BS/BPP). <italic>H. hemisphaerica</italic> and <italic>H. cazaresii</italic> are used as outgroups. (<sup>T</sup>) denotes type specimen. The new species and records are highlighted in red font.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00687-g001.tif"/>
+      </fig>
+      <fig id="diversity-18-00687-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p><italic>Genea budensis</italic>. (<bold>a</bold>,<bold>b</bold>) Ascomata; (<bold>c</bold>) microscopic cross-section of ascomata; (<bold>d</bold>) ascospores; (<bold>e</bold>) septa of paraphyses; (<bold>f</bold>) SEM micrograph of spores; scale bars 1 mm (<bold>a</bold>,<bold>b</bold>), 100 &#xB5;m (<bold>c</bold>), 20 &#xB5;m (<bold>d</bold>,<bold>e</bold>) and 10 &#xB5;m (<bold>f</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00687-g002.tif"/>
+      </fig>
+      <fig id="diversity-18-00687-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p><italic>Genea arenaria</italic> (<bold>a</bold>) spores contained within the ascus; (<bold>b</bold>) cross-section of ascomata; (<bold>c</bold>) single ascospore; (<bold>d</bold>) septa of paraphyses; (<bold>e</bold>) SEM image of a single ascospore; scale bars 50 &#xB5;m (<bold>a</bold>)<bold>,</bold> 100 &#xB5;m (<bold>b</bold>), 20 &#xB5;m (<bold>c</bold>,<bold>d</bold>) and 10 &#xB5;m (<bold>e</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00687-g003.tif"/>
+      </fig>
+      <fig id="diversity-18-00687-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p><italic>Genea zamorana</italic>. (<bold>a</bold>) cross-section of ascomata; (<bold>b</bold>) spores contained within the ascus; (<bold>c</bold>) single ascospore; (<bold>d</bold>) septa of paraphyses; (<bold>e</bold>) SEM image of ascospores; scale bars 100 &#xB5;m (<bold>a</bold>) and 20 &#xB5;m (<bold>b</bold>&#x2013;<bold>e</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00687-g004.tif"/>
+      </fig>
+      <fig id="diversity-18-00687-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Ascospore length (<bold>a</bold>) and width (<bold>b</bold>) differences were determined using one-way Welch&#x2019;s ANOVA, followed by Dunnett&#x2019;s T3 post hoc test for multiple comparisons. Different lowercase letters in the figure indicate significant differences (<italic>p</italic> &lt; 0.05).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="diversity-18-00687-g005.tif"/>
+      </fig>
+      <table-wrap id="diversity-18-00687-t001" position="float">
+        <object-id pub-id-type="pii">diversity-18-00687-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>List of isolates included in the analysis and their corresponding GenBank accession numbers. New species and records reported in this study are highlighted in bold red font.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Isolate</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">ITS</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">LSU</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Origin/Collection Localities</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> aff. <italic>arenaria</italic> GO 2008 195</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ594997</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mexico</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea amici</italic> IC20111401</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KX827603</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">OK618460</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">France</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea anthracina</italic> E Stewart 3651</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KT950256</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>-</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea arenaria</italic> AH 44102</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938787</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Greece</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea arenaria</italic> AH 44104</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938789</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938722</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea arenaria</italic> FDS CA 03540</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PQ211216</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea arenaria</italic> Trappe13005</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">DQ206840</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <named-content content-type="color:#bf0000">
+                  <bold><italic>Genea arenaria</italic> ZB 3324</bold>
+                </named-content>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ387145</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea balsleyi</italic> FLAS F 58932</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938797</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938723</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea balsleyi</italic> OSC 111704</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_121316</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea brunneocarpa</italic> AH 44112</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_155117</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NG_060657</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea cephalonicae</italic> MCVE 29055</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_155132</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NG_060675</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Greece</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> cf. <italic>anthracina</italic> AH 44115</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938803</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938721</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> cf. <italic>brachytheca</italic> FLAS F 58933</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938805</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938724</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> cf. <italic>subbaetica</italic> AH 44117</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938806</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Greece</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> cf. <italic>subbaetica</italic> SP62a</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">OQ418539</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Canada</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea compressa</italic> AH 44118</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_155118</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938728</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea coronata</italic> KR M 0005917</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MT351135</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NG_153920</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">France</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea coronata</italic> KR M 0044458</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MT351138</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MT351145</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Germany</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea darii</italic> 1882CAA000 1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MK390987</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea dentata</italic> AH 44120</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938813</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938729</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea dentata</italic> AH 44121</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938814</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NG_060658</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">France</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fageticola</italic> AH 44122</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_155119</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NG_060659</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Greece</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fragrans</italic> AH 39100</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938818</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938733</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Morocco</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fragrans</italic> AH 44125</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938822</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Germany</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fragrans</italic> AH 44126</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938823</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Greece</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fragrans</italic> AH 44127</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938824</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938735</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Greece</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fragrans</italic> AH 44128</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938825</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fragrans</italic> AH 44130</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938827</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938734</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">France</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fragrans</italic> AH 44131</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938828</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">France</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <named-content content-type="color:#bf0000">
+                  <bold><italic>Genea budensis</italic> ZB 1323</bold>
+                </named-content>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938829</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ631854</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <named-content content-type="color:#bf0000">
+                  <bold><italic>Genea budensis</italic> ZB 1585</bold>
+                </named-content>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938830</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <named-content content-type="color:#bf0000">
+                  <bold><italic>Genea budensis</italic> ZB 3833</bold>
+                </named-content>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938833</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fragrans</italic> ZB 5458</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PX756455</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fragrans</italic> ZB 5643</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PX756456</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fragrans</italic> ZB 5645</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PX756457</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea fragrans</italic> ZB 6109</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PX756458</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea gardneri</italic> Trappe13007</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">DQ206860</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">DQ206860</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea gardneri</italic> src867</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">DQ206851</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ522909</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea gorii</italic> MCVE 29080</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KX580177</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KX580178</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Italy </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea harknessii</italic> FLAS F 58938</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938834</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938736</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea harknessii</italic> SOC1418</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">JN022508</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea hispidula</italic> AH 44134</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938838</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938737</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">France</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea lespiaultii</italic> AH 44139</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938843</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938740</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea lobulata</italic> AH 44141</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938850</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cyprus</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea lobulata</italic> AH 44144</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938853</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938744</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea lobulata</italic> AH 44148</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938857</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea oxygala</italic> AH 44175</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938894</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938759</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea oxygala</italic> AH 44177</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_155123</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea papillosa</italic> 16982</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">JF908020</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea pinicola</italic> AH 44153</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_155120</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NG_060660</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea pinicola</italic> ZB 6097</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PX756463</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea pseudobalsleyi</italic> AH 44156</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_155121</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NG_060661</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Italy </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea pseudoverrucosa</italic> AH 44160</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_155122</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NG_060662</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">France</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea pseudoverrucosa</italic> ZB 5195</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PX756459</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp CS207 CSNM</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PQ409109</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV062032</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. FLAS F 61557</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">OM672765</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MG019787</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. FLAS F 68406</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MG019752</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>-</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1036</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV834920</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV834937</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1059</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV832752</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV832918</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1072</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV832755</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV832921</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1084</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV832759</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV832925</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1459</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV832853</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1482</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV832867</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PV833032</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1562</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ511918</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1583</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ511923</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ522882</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1614</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ496850</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ519279</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1665</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ499442</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ522919</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1725</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ491537</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ519411</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1733</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ491545</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ519419</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1756</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ491566</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ519439</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1757</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ491567</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ519440</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1842</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ491655</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ519522</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1865</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ499443</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. HAD1870</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ499447</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ522968</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea</italic> sp. JLF14971 UT</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ559934</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea sphaerica</italic> AH 44161</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938878</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938753</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Germany</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea szemerei</italic> ZB 6043</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PX756462</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PZ341863</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea thaxteri</italic> AH 44167</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938884</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea thaxteri</italic> AH 44173</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938890</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938758</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea thaxteri</italic> FLAS F 68191</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">OR762703</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PP337390</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea tuberculata</italic> AH 44178</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_155124</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NG_060663</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea vagans</italic> AH 44184</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938904</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938764</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea verrucosa</italic> AH 44200</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938927</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea verrucosa</italic> AH 44203</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938930</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea verrucosa</italic> AH 44207</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938934</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Greece</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea verrucosa</italic> AH 44208</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938935</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">KJ938766</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Greece</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Genea zamorana</italic> AH 49255</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_176177</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">OK138913</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Spain</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <named-content content-type="color:#bf0000">
+                  <bold><italic>Genea zamorana</italic> ZB 6074</bold>
+                </named-content>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PX756460</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hungary</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Humaria cazaresii</italic> OSC 111670</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NR_182778</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">USA</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>Humaria hemisphaerica</italic> HKAS 82077</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MG871304</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">MG871339</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="diversity-18-00687-t002" position="float">
+        <object-id pub-id-type="pii">diversity-18-00687-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Comparative micromorphological traits of the ascospores of the most frequently occurring <italic>Genea</italic> species of Hungary. Measurements are presented as mean &#xB1; standard deviation (SD) with minimum&#x2013;maximum ranges.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Species</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>n</italic>
+              </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Spore Length (&#xB5;m)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Spore Width (&#xB5;m)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Qav</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Spore Shape</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Spore Ornamentation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Genea budensis</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33.85 &#xB1; 2.08 (30.90&#x2013;38.40) </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.37 &#xB1; 1.97 (25.80&#x2013;33.20) </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">broadly ellipsoid</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">bud-like/conical projections</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Genea fragrans</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">38.33 &#xB1; 2.83 (33.00&#x2013;46.90) </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.52 &#xB1; 2.58 (24.70&#x2013;36.50) </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.32</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ellipsoid</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">truncated/irregular</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Genea verrucosa</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.53 &#xB1; 1.42 (26.00&#x2013;33.20)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.03 &#xB1; 1.56 (21.80&#x2013;27.00)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.23</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">broadly ellipsoid</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">mainly conical</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Genea lespiaulti/sphaerica</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36.14 &#xB1; 1.80 (32.00&#x2013;40.20)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.48 &#xB1; 1.83 (23.20&#x2013;32.00)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.36</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ellipsoid</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">flat/hemisphaerical warts</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Genea szemereiensis</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.77 &#xB1; 1.16 (23.33&#x2013;28.33)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">19.51 &#xB1; 1.87 (16.67&#x2013;22.37)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.32</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ellipsoid</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">conical, irregular and occasionally truncated</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Genea pseudobalsleyi</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.36 &#xB1; 1.91 (25.00&#x2013;32.20)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.02 &#xB1; 3.09 (15.00&#x2013;27.80)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.42</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ellipsoid</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">polygonal/irregular</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>Genea pseudoverrucosa</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.15 &#xB1; 2.16 (21.67&#x2013;30.00)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">19.72 &#xB1; 2.09 (14.27&#x2013;23.70)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.38</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ellipsoid</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">majorly truncated</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

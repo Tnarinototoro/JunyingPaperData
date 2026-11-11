@@ -1,0 +1,22 @@
+{
+  "final_current_spatial_source_selection_complete": true,
+  "historical_source_identification_claimed": false,
+  "parks": 39,
+  "mean_values": 78,
+  "Z_values": 78,
+  "missing_park_NDVI_values": 0,
+  "cross_park_mean_median_imputation": false,
+  "selected_native_valid_pixel_rows": 48085,
+  "QGIS_layers": 80,
+  "QGIS_XML_paths_checked": true,
+  "QGIS_GUI_opened": false,
+  "all_pixel_means_reproduced_exactly": true,
+  "root_SAV_XLSX_updated_with_verified_original_backups": true,
+  "ParkID_and_14_other_columns_preserved_exactly": true,
+  "source_selection_excluded_SEM_fit": true,
+  "new_AMW_structure_and_constraints_unchanged": true,
+  "native_Amos_run": false,
+  "independent_same_model_ML_run": true,
+  "valid_final_standardized_SEM_figure_generated": false,
+  "reason_no_final_SEM_figure": "Inadmissible negative EQ latent variance in the independent original-model refit"
+}

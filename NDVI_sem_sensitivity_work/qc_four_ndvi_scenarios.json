@@ -1,0 +1,170 @@
+{
+  "scope": "Independent four-scenario NDVI data and sample-SD Z-standardization QC; no SEM estimated",
+  "source_file": "最终用于sem的匿名39✖16输入矩阵.sav",
+  "source_sha256": "54cca5a9e38faf59635ebcd9d645d7d77083ac30c7f2d8f46751d809c47d2737",
+  "original_sav_matches_prior_decoded_json": true,
+  "original_rows": 39,
+  "original_columns_with_ParkID": 17,
+  "original_observed_variable_count_excluding_ParkID": 16,
+  "ndvi_column_mapping": {
+    "inside": {
+      "name": "Z内部NDVI平均値",
+      "zero_based_column": 15,
+      "one_based_excel_column": 16
+    },
+    "outside": {
+      "name": "Z外部NDVI平均値",
+      "zero_based_column": 16,
+      "one_based_excel_column": 17
+    }
+  },
+  "standardization_rule": "For every scenario and each region separately, z=(park area mean - mean of 39 park area means)/sample SD using denominator 38",
+  "all_39_z_values_recomputed_per_scenario": true,
+  "unchanged_14_non_NDVI_observed_variables": true,
+  "missing_value_rule": "No missing means in scenario tables; pending sources are filled only from their exact identified candidate, not by 0 or by mixing imagery",
+  "source_selection_by_old_SEM_agreement": false,
+  "old_input_statistics": {
+    "inside": {
+      "mean": -7.604760838147556e-16,
+      "sample_sd": 1.0000000000000002,
+      "min": -2.4065964471255943,
+      "max": 2.12773413571958
+    },
+    "outside": {
+      "mean": 2.973382757957939e-16,
+      "sample_sd": 1.0000000000000002,
+      "min": -2.923698143009296,
+      "max": 2.867809620491023
+    }
+  },
+  "scenarios": [
+    {
+      "scenario": 1,
+      "ParkID_9_18_28_source": "NDVI_nagoya.tif",
+      "ParkID_32_source": "NDVI_fukushima.tif",
+      "region_statistics": {
+        "inside": {
+          "raw_min": -0.006638381713626562,
+          "raw_max": 0.40475685628942953,
+          "raw_mean_across_39": 0.2522097914716239,
+          "raw_sample_sd_across_39": 0.09538008821842787,
+          "z_mean": -1.8076708221460882e-16,
+          "z_sample_sd": 1.0,
+          "z_min": -2.7138596537305344,
+          "z_max": 1.5993596532272112,
+          "old_input_correlation_descriptive_only": 0.38437602202321186
+        },
+        "outside": {
+          "raw_min": -0.0016292507939327221,
+          "raw_max": 0.3893658426134666,
+          "raw_mean_across_39": 0.18452501896799026,
+          "raw_sample_sd_across_39": 0.08719346660045141,
+          "z_mean": 1.9571239216148592e-16,
+          "z_sample_sd": 0.9999999999999999,
+          "z_min": -2.134956631727259,
+          "z_max": 2.34926803156162,
+          "old_input_correlation_descriptive_only": -0.06354068409108805
+        }
+      },
+      "inside_outside_correlation": 0.7870988271595389,
+      "all_39_in_each_side": true,
+      "no_missing_values_or_zero_imputation": true
+    },
+    {
+      "scenario": 2,
+      "ParkID_9_18_28_source": "NDVI_nagoya.tif",
+      "ParkID_32_source": "NDVI_fukushima_up.tif",
+      "region_statistics": {
+        "inside": {
+          "raw_min": -0.006638381713626562,
+          "raw_max": 0.40475685628942953,
+          "raw_mean_across_39": 0.25022607227053145,
+          "raw_sample_sd_across_39": 0.0971243613764517,
+          "z_mean": 7.75732754385526e-17,
+          "z_sample_sd": 0.9999999999999999,
+          "z_min": -2.6446964525054386,
+          "z_max": 1.5910610049721765,
+          "old_input_correlation_descriptive_only": 0.38383830305984384
+        },
+        "outside": {
+          "raw_min": -0.0016292507939327221,
+          "raw_max": 0.3893658426134666,
+          "raw_mean_across_39": 0.18329324863768004,
+          "raw_sample_sd_across_39": 0.08853202514937977,
+          "z_mean": 8.184336399480321e-17,
+          "z_sample_sd": 0.9999999999999999,
+          "z_min": -2.0887639147482924,
+          "z_max": 2.3276615849245625,
+          "old_input_correlation_descriptive_only": -0.04902589648257283
+        }
+      },
+      "inside_outside_correlation": 0.7954278277320176,
+      "all_39_in_each_side": true,
+      "no_missing_values_or_zero_imputation": true
+    },
+    {
+      "scenario": 3,
+      "ParkID_9_18_28_source": "NDVI_nara.tif",
+      "ParkID_32_source": "NDVI_fukushima.tif",
+      "region_statistics": {
+        "inside": {
+          "raw_min": -0.006638381713626562,
+          "raw_max": 0.40475685628942953,
+          "raw_mean_across_39": 0.24560526821400813,
+          "raw_sample_sd_across_39": 0.10115330097788636,
+          "z_mean": -7.917455864714658e-17,
+          "z_sample_sd": 1.0,
+          "z_min": -2.4936768992124043,
+          "z_max": 1.5733701870017505,
+          "old_input_correlation_descriptive_only": 0.3609914207031763
+        },
+        "outside": {
+          "raw_min": -0.0016292507939327221,
+          "raw_max": 0.3893658426134666,
+          "raw_mean_across_39": 0.18055797422813968,
+          "raw_sample_sd_across_39": 0.08897609848763115,
+          "z_mean": -8.540177112501205e-18,
+          "z_sample_sd": 1.0,
+          "z_min": -2.047597367369382,
+          "z_max": 2.346786068781763,
+          "old_input_correlation_descriptive_only": -0.0708368468148776
+        }
+      },
+      "inside_outside_correlation": 0.8074652645365274,
+      "all_39_in_each_side": true,
+      "no_missing_values_or_zero_imputation": true
+    },
+    {
+      "scenario": 4,
+      "ParkID_9_18_28_source": "NDVI_nara.tif",
+      "ParkID_32_source": "NDVI_fukushima_up.tif",
+      "region_statistics": {
+        "inside": {
+          "raw_min": -0.006638381713626562,
+          "raw_max": 0.40475685628942953,
+          "raw_mean_across_39": 0.2436215490129157,
+          "raw_sample_sd_across_39": 0.10266877836074512,
+          "z_mean": -8.69140941553508e-17,
+          "z_sample_sd": 1.0,
+          "z_min": -2.4375465913036307,
+          "z_max": 1.5694674646885942,
+          "old_input_correlation_descriptive_only": 0.36168449248741613
+        },
+        "outside": {
+          "raw_min": -0.0016292507939327221,
+          "raw_max": 0.3893658426134666,
+          "raw_mean_across_39": 0.17932620389782947,
+          "raw_sample_sd_across_39": 0.09023267036793514,
+          "z_mean": -1.145807095927245e-16,
+          "z_sample_sd": 1.0,
+          "z_min": -2.0054316685286318,
+          "z_max": 2.3277559874840663,
+          "old_input_correlation_descriptive_only": -0.056551752510995416
+        }
+      },
+      "inside_outside_correlation": 0.8143928804566277,
+      "all_39_in_each_side": true,
+      "no_missing_values_or_zero_imputation": true
+    }
+  ]
+}
