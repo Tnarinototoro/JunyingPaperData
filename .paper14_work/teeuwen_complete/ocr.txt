@@ -1,0 +1,1422 @@
+@@ PAGE 1 / 12 @@
+气 ．
+ELSEVIER
+Landscape and Urban Planning 245 （ 2024 ） 105009
+Contents lists available at ScienceDirect
+Landscape and Urb an Planning
+journal homepage: www.elsevier.com/locate/landurbplan
+Landscape and
+Urban Planning
+Check for
+u dates
+How well do NDVI an d OpenStreetMap data cap ture people's visual
+perceptions Of urban greenspace?
+Roos Teeuwen ， Vasileios Milias ， Alessandro Bozzon ， Achilleas Psyllidis
+Faculty 可 lndustrial Design Engineering, Delft University 可 Tech11010u, Landbergstraat 15 ， 2628CE Delft, the Netherlands
+H I G H L I G H T S
+· We compared NDVI and OpenStreetMap data tO people' s visual perceptions Of greenness.
+· NDVI and OpenStreetMap data often diverge 什 om human perceptions Of greenness.
+· OpenStreetMap captures greenness best in short distance, NDVI best in longer distance.
+· Vegetation configuration, variety ， and natural elements enhance perceived greenness.
+． Vegetated space dominated by btlilt-environment elements may not be perceived as green.
+A R T I C L E I N F O
+Keywords:
+Urban greenspace
+Visual perception
+OpenStreetMap
+NDVI
+Crowdsourcing
+1 · lntroduction
+A B S T R A C T
+The study Of urban greenspaces typically relies on three types Of data: people s subjective perceptions collected
+via questionnaires ， vegetation indices derived from satellite imagery, such as the Normalized Difference Vegetation
+lndex (NDVI), and Land Use or Land Cover maps, such as OpenStreetMap (OSM). Data on people' s perceptions are
+essential when researching human activities, yet they scale poorly. NDVI and OSM data ， on the Other hand, are
+freely available worldW1de ， tht1S valuable for assessing cities at scale or prioritizing locations for interventions.
+However ， it is unclear hOW effectively NDVI and OSM data capture people's usual perceptions Of urban
+greenspaces. ln this work ， we collect people' s visual perceptions Of ptlblic spaces in three major European cities
+through crowdsourcing, quantitatively compare them to NDVI and OSM data, and qualitatively investigate
+disparities. We found that NDVI moderately correlates with perceived greenness and that not only OSM
+greenspaces but also pocket parks and play spaces are Often considered green. Furthermore ， we found that
+people' s perceptions correspond best tO OSM data in small radius distances and NDVI data in larger radius
+distances and that combining NDVI and OSM data can improve identification Of places in OSM that are
+commonly considered green. Our qualitative analysis revealed that configuration and variety Of vegetation ， and
+presence Of Other natural or btlilt-up features ， influence people' s perceptions Of greenspace. With our findings we
+aim tO help researchers and practitioners make more informed decisions when collecting greenspace data for
+their specific context, ultimately contributing tO green urban environments that reflect people 'S perspectives.
+Urban greenspaces are widely associated with positive effects on
+human health and well-being. Depending on the discipline, pathway,
+and context, they are typically examined using one of three types of data
+Labib et al., 2020 ； Nieuwenhuijsen et al., 2017 ； Markevych
+SOt1rces 〔
+et al., 2017 ； Zhang et al., 2021 〗 First, data collected through large-scale
+questionnaires that reflect individual people ' S perceptions Of greenspace,
+for example of their residential neighborhood, are typical of
+* Corresponding author.
+environmental psychology research (Krt1ize et al., 2020 ； Zhang et al.,
+〗 Second, vegetation indices derived from satellite imagery, st1Ch
+2021
+as the Normalized Difference Vegetation 加 d 吖 (NDVI), are commonly
+employed in epidemiological studies t0 sttldy the abundance 0f vege-
+tation around people ' s homes (Larkin and Hystad, 2019 ； HeIbich et al.
+2019 ； Roberts and Helbich, 2021 ； Dadvand et al., 2015 〗 Finally, Land
+Use / Land Cover (LULC) maps that describe the land surface in distinct
+categories, such as OpenStreetMap (OSM) ， are frequently used in city
+planning or policy assessment t0 quantify the availability, accessibility ，
+E-mail addresses: r.f.l.teeuwen@tudelft.nl (). Teeuwen), v.milias@tudelft.nl (). MiIias), a.bozzon@tudelft.nl (). Bozzon) ， a.psyllidis@tudelft.nl (). PsyIIidis) ，
+https://doi.org/10 ． 1016 / j ． landurbplan ． 2024 ． 105009
+Received 15 September 2023 ； Received in revised form 6 December 2023 ； Accepted 15 January 2024
+Available online 3 February 2024
+0169 一 2046/@ 2024 The Author(s). Published by EIsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0刀 ．
+
+@@ PAGE 2 / 12 @@
+R. Teeuwen
+or size 0f formal greenspaces 〔 Larkin and Hystad, 2019 ； Kabisch and
+Haase, 2014 ； W00d et al. ， 2017 ； Zhang et al. ， 2021 ； Tat1benböck et al.,
+2021 ）
+environmental perceptlons from questionnmres are essential
+when investigating human activitles 〔 Flowers et al., 2016 ； Fongar et al.
+头 such data scale poorly due t0 time, costs, geographical coverage,
+2019
+and spatial extent constraints. NDVI and LULC maps such as OSM, on the
+other hand, are freely available worldwide and routinely updated over
+time, making them valuable t0 assess the availability or accessibility 0f
+greenspaces at scale ， or tO prioritize locations for interventions （
+Larkin
+and Hystad, 2019 ； Nieuwenhuijsen et al., 2017 ； Markevych et al., 2017 ；
+Labib et al., 2020 ） ． Even though LULC maps often only represent formal
+greenspaces such as parks and urban forests, informal and small-scale
+greenspaces or green streets have alSO been found tO benefit people
+Lt10 and Patuano ， 2023 ； Wolch et al., 2014 ； Rao et al. ， 2007 ； Markevych
+et al., 2017 〗 Furthermore ， while both NDVI and LULC maps are
+essential in greenspace sttldies, they may not ℃ r stlbjective human
+perceptions (LesIie et al ” 2010 ； Kothencz and BIaschke, 2017 ； Zhang
+et al., 2021 ； Labib et al., 2020 ； Markevych et al., 2017 ） ． AIthough recent
+works have attempted tO incorporate the human perspectlve intO large-
+scale greenspace studies using street-level imagery 〔
+Rzotkiewicz et al.
+2018 ； Larkin and Hystad ， 2019 ； Bilj ecki and lto, 2021 ； Lu ， 2019 〗 t0 the
+best 0f our knowledge ， these have primarily employed comptlter vision
+techniques such as atltomated Object detection and scene recognition,
+which do not acknowledge the subj ectlvity of human perception.
+We aim tO contribtlte tO a better understanding Of hOW well large
+scale open datasets, specifically NDVI and OSM LULC maps ， capture
+people ' S visual perceptions Of urban greenspace. Our goal is tO evaluate
+how well these datasets match with each other, and where they deviate,
+and tO explain st1Ch disparities t1Sing the spatial features Of investigated
+locations, tO inform the design Of future greenspace studies.
+To that end, we follow a two-step approach. First, we collect large-
+scale open-source NDVI and OSM data for three major European cit-
+ies. We apply a crowdsourcing approach t0 obtain people' s visual
+greenness perceptions Of variot1S sorts ()f pt11)liC spaces. SeC()T1d
+assess hOW these visual perceptions correspond tO diverge from
+the information included in NDVI and OSM data. We hypothesize that:
+〔 HI 〕 there is a strong positive correlation between NDVI values and
+perceived greenness, as these are bOth commonly used tO quantify
+environmental greenness, 〔 H2 〕 perceived greenness is higher for
+regtllar-size OSM greenspaces than for pocket parks, play spaces ， open
+ptlblic spaces ， and streets ， as definitions Of greenspace are Often limited
+tO greenspaces larger than a certain threshold area, whereas pocket
+parks, play spaces, open ptlblic spaces, and streets can also be perceived
+as (informal) greenspaces, as other studies suggest, and 〔 H3 〕 perceived
+greenspaces are better reflected in data when they are selected using a
+combination of OSM categories and NDVI values, rather than simply
+OSM categories or j t1St NDVI values. To test our hypotheses, we employ
+statistical analyses, followed by a qualitative thematic analysis t0
+discover which spatial qualities explain differences between NDVI and
+OSM data and people' s visual perceptions.
+ln the remainder Of th1S paper, we explore greenspace data sources
+used in related work, detail what data sources we collect and hOW we
+analyze them, present and discuss our findings and their implications,
+and concltlde with our key conclusions and ftlture lines Of research.
+2 · Greenspace SOL1rces
+ln this work, we adapt the definition 0f greenspace by the
+WHO
+Regional Office for Europe （ 2017 ） t0 "urban space characterized by
+vegetation 0 丆 any kind" ， incltlding street trees and roadside vegetation,
+green roofs and facades, greenspace on private grounds ， and parks,
+playgrounds, or greenways. We narrow Ot1r fOCt1S tO greenspaces that are
+publicly accessible, thereby allowing people to engage in outdoor
+activities.
+TO study greenspaces, researchers use data Of varying types and
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+scales, depending on hypotheses and otltcomes Of interest 〔 Markevych
+et al. ， 2017 ） ， Examples incltlde measures 0f availability, accessibility ，
+visibility, and use 0f greenspace (Labib et al. ， 2020 ； Markevych et al.
+〕 ． Large-scale data are essential for informmg policy, measuring
+2017
+how well cities adhere to such rules, and stt1dY1ng the epidemiological
+consequences Of greenspace 〔
+Markevych et al., 2017 ； Larkin and Hystad,
+2019 ； Kabisch and Haase, 2014 ）
+Other sttldies collect data on people ' s perceptions regarding green
+spaces, which are critical when sttldying people ' s behavior in green
+spaces 〔 Markevych et al., 2017
+） ， for instance through questionnaires
+among residents or intervlews W1th park visitors 〔
+Sundevall and Jans-
+son, 2020 ； Talal and Santelmann, 2021 ； Kabisch and Haase, 2014
+this work, we focus on people ' s 访 Su subjective perceptions, which we
+define as perceptions generated by visual stimtlli ， st1Ch as a phOtO Of a
+place, and further influenced by the individual ， s experiences, prefer
+ences, emotions, and context.
+The following sections go over various data sources and collection
+methods and discuss their differences and simllarities that motivate our
+study.
+2 ， 7 ， Objective measures 可 greenspace using a 五 data
+Among all vegetation indices derived from satellite imagery ， the
+NormaIized Difference 鞔 ge 五 0 忉 d (NDVI) is the most widely used
+(Markevych et al., 2017 ） ． NDVI is an objective remote sensing index that
+captures vegetation by calctllating the difference between red and near-
+infrared light reflected by the land surface. NDVI maps are often ob-
+tained from Landsat or Sentinel satellite missions. BOth Of these missions
+provide open data at regtllar intervals worldwide, with the European
+Sentinel-2 mission providing data at a high resoltltion 0f 10 m (Labib
+et al., 2020 ； Markevych et al., 2017 ） ． Alternatives to NDVI include the
+Green Ratio Vegetation lndex (GVRI) (Sripada et al., 2006L SOil-
+Adjusted Vegetation lndex (SAVI) (Huete, 1988 ） ， and Enhanced Vege
+tation lndex (EVI) (Huete et al., 2002 ） ， lndices such as NDVI are
+partictllarly relevant for sttldying the presence or availability 0f green
+space, for instance around people' S home locations or along the rotltes
+they take as captured in GPS tracks 〔 Markevych et al., 2017 ； Robinson
+et al., 2018 ； Spotswood et al., 2021 ； Roberts and Helbich, 2021 ） ．
+Land Use / Land Cover (LULC) maps represent the land surface in
+distinct classes, such as buildings, roads, parks, and forests, allowing t0
+sttldy the size, shape ， kind ， accessibility, or spatial layotlt 0f designated
+Markevych et al., 2017 ； Nieuwenht1ijsen et al. ， 2017
+greenspaces （
+LULC maps are commonly tltilized for greenspace accessibility sttldies;
+they account for a large share Of obJective studies on greenspace for
+human actlvities 〔 Labib et al., 2020 〕 ． OSM, in parüctllar, is a type Of
+LULC map that is increasingly being used in academic studies as an
+open-source and 810ba1 alternative tO local commercial or authoritative
+LULC datasets 〔 Barrington-Leigh and Millard-Ball, 2017 ） and is an
+effective alternative tO local data in terms Of its accuracy and preciS10n
+(Liao et al., 2021 〗 AIternative LULC maps incltlde, for example ， the
+Urban AtIas in Europe (used by Turunen et al., 〔 2023 〕 〕 and local data
+repstries (e.g., municipal canopy cover and street tree data used by Bar6
+et al. 〔 2021 ） ）
+Geo located street / 巴 回 imagery is gaining importance for urban an
+alyses, incltlding sttldies on urban greenery (Biljecki and lto ， 2021 ； Labib
+et al. ， 2020 ） ． Examples incltlde measuring the Green View lndex in
+lmages ()i et al. ， 2015 ； Lu, 2019 ） ， detecting vegetation 0bj ects through
+Song et al., 2022 ； Chen and Biljecki, 2023 〗 or merging
+comptlter vision 〔
+street-level imagery with LULC data (Zhang et al., 2021 〕 · LastIy, various
+studies make use 0f social media data, such as the frequency 0f Flickr
+ph0t0S and Tweets posted per location (Hamstead et al. ， 2018
+） ， the
+contents Of Tweets (Roberts, 2017 〗 and the categories Of Obj ects
+detected in lnstagram ph0t0S (Song et al., 2022 〕
+2
+
+@@ PAGE 3 / 12 @@
+R. Teeuwen
+2 ， 2 Capturing subjective perceptions through 怊 n ， questionnatres ，
+and al 宿
+People ' S subjective environmental perceptions are typically obtained
+through interviews or questionnmres (Nieuwenhuijsen et al., 2017 ；
+Markevych et al., 2017 〗 Examples include in-situ interviews with park
+TaIaI and Santelmann 〔 2021 ）
+ViSitors. For instance,
+with park visitors tO understand their motivations for visiting, experi-
+ences ， perceptions Of accessil)ility, and suggestions for improvements,
+and Sundevall and Jansson 〔 2020 ）
+conduct walking interviews with
+greenspace users tO learn about their desired use content, atmosphere
+inclt1Sivity, and management Of a greenspace.
+Questionnaires often employ Likert scales t0 obtain quantified sub-
+J ective measurements, for instance asking respondents tO rate the
+perceived quality and amount Of greenspace in their surroundings 〔
+lema et al., 2018 〗 the perceived amount Of greenness and hOW satisfied
+people are with its quality, amount, maintenance, and safety 〔
+Krt1ize
+et al., 2020 〕 ， or the perceived quantity and usage quality of greenspaces
+homes 〔
+Zhang et al., 2021 〕 ．
+Alternatively, researchers conduct audits tO measure the quantity
+and quality 0f greenspace (Nieuwenhuij sen et al., 2017 〗 A subset 0f
+greenspace sttldies employs street-level imagery tO elicit perceptions or
+tO condt1Ct atldits, St1Ch assessing the existence Of features in green-
+spaces through street-level imagery (Rzotkiewicz et al., 2018 〕 ． Other
+examples include work by Du et al. 〔 2021 〕 who provided park visitors
+with photos 0f park scenes t0 help them recall their visiting experience
+while answering a questionnaire abotlt their health and well-being ， or
+Van Vliet et al. （ 2021 ） WhO conducted a video-based choice experiment
+on park attribtltes st1Ch as trees ， furniture, cleanliness ， facilities ， and
+biodiversity.
+AIthough subjective data prove important when stt1dY1ng use of
+(FIowers et al., 2016 ； Fongar et al., 2019 〗 their collection is
+greenspace
+typically constrained by time, money, and geographical extent.
+2 ， 3 ． Capturing subjective perceptions through crowdsourcing campatgns
+TO address these temporal, monetary or geographic limitations, re-
+searchers collect people ' s visual environmental perceptions from many
+people through crowdsourcing campaigns, typically elicited through
+street-level imagery. Crowdsourcing is a method of recruiting a group 0f
+participants tO exectlte a task online, i.e., ex-sittl or remotely, whereas
+street-level imagery allows tO remotely mimic at scale what pedestrians
+may observe (Larkin and Hystad ， 2019 ； Lu ， 2019 ； Markevych et al.,
+〕 ． As such street-level imagery-based crowdsourcing campmgns
+2017
+researchers tO source perceptions from a vast diverse
+of places and individuals worldwide in a time- and labor-efficient
+Milias et al., 2023
+manner 〔
+Examples incltlde sttldies that collect perceptions by asking their
+participants in questlonnaires tO choose which location they prefer or tO
+rate places on a Likert scale and then inviting them tO explain their re-
+sponses by selecüng optlons from a list or inputting keywords. Examples
+include asking people t0 choose the most safe, upper class, or unique-
+looking place 0t1t 0f two places presented in imagery （
+Salesses et al.,
+） ； or the most happy ， beatltiftll, or qtliet place (Quercia et al., 2014
+2013
+letting participants select the least and most safe or attractive looking
+place 0t1t 0f four images (Candeia et al. ， 2017 ） ； and by asking people t0
+virtually navigate city streets while rating how safe and attractive they
+perceive their path in variot1S places 〔
+Milias et al., 2023
+2 ， 4 ． Differences and similarities between subjective and objective
+greenspace data
+Few studies have investigated the extent tO which large-scale spatial
+data and people ' s perceptions Of greenspaces match. These studies
+suggest, however that consistency is limited.
+Leslie et al. 〔 2010 ）
+discovered a lack Of agreement with overall perceived greenness and a
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+significant btlt modest correlation only for greenness expanse and not for
+street greenness, green sports facilities, and green amenities when
+comparing NDVI maps with people' s perceptions 0f their residential
+surroundings captured in four greenspace components.
+Zhang et al.
+〔 2021 〕 found no correlation of people' s perceived quantlty and usage
+quality Of greenspaces near their homes with canopy cover and at best
+very weak correlation with park area, vegetation cover, and Green View
+lndex. K0thencz and BIaschke 〔 201 刀
+assessed park visitors ， ratings Of
+greenness ， accessibility, and functions 0f parks, and found no correla
+tions with NDVI or park area, while they did find a moderate correlation
+of people ' s impression of greenness with the percentage of vegetated
+surface.
+Hyam 〔 2017 ）
+rating Of perceived naturalness, and natural components in street-view
+imagery detected through comptlter vision; And Helbich et al. 〔 2019 〕
+found no correlation between NDVI and deep-learning-based metrics 0f
+street View greenness.
+Our sttldy aims t0 add t0 our understanding 0f the prevlously re
+ported (lack (f) associations between large-scale greenspace data, such
+as NDVI and LULC maps, and people ' s visual perceptions 0f greenspaces.
+That is, we dO not necessarily presume that these data are comparable,
+tO provide OII differences
+in WhiCh circumstances St11)Stantial differences arise.
+factors distingtlish our work. First, we incltlde in our sttldy a diverse
+range of public spaces that differ in terms of type, geographical setüng,
+and vegetation level. Second we collect multiple people' s perceptions
+on the same locations. Third, we investigate potential causes Of dataset
+differences by qualitatively analyzing the reasons people give for their
+assessments and the spatial characteristics Of each location tO ftlrther
+strengthen Ot1r quantitative findings.
+3 ． Methods
+We collected and analyzed greenspace data in three European cities:
+Barcelona, R0tterdam, and G0thenburg. We used Python t0 collect NDVI
+data, and LULC data from OSM and we used a crowdsourcing approach
+with GoogIe Street View (GSV) imagery to collect people' s visual per-
+ceptions 0f greenspaces. We then tested our hypotheses and conducted
+additional exploratory and sensitivity analyses, and qualitatively
+investigated what spatial characteristics explain deviations between
+people ' s perceptions 0f greenspace and what is captured in the map
+data.
+ShOWS a summary Of Ot1r steps and
+Fig. 2 depicts the data we
+collected for each location: median NDVI values, OSM categories, and
+people ' S visual perceptions Of greenness. Links tO repositories contain
+ing our code and 〔 pseudonymized) data are provided in the data avail-
+ability statement at the bottom Of this article.
+3 ． 7 ， 7 、 hree casæstudy cities
+We selected three case-sttldy cities in Europe: G0thenburg (Sweden) ，
+Rotterdam (The NetherIands), and BarceIona 〔 Spain) ． OSM data in
+Europe is found to be relatively complete (Zhou et al., 2022
+〕 ． The
+cities major cities respective COt111tries, With
+G0thenburg and R0tterdam having comparable populations 0f approx.
+583 ， 000 ()n 2021 ） and approx. 592 ， 000 ()n 2022 ） ， respectively, while
+Barcelona has a stlbstantially larger poptllation 0f over 1 ， 640 ， 000 (in
+2022 〕 (Ajuntament de Barcelona ， 2022 ； CBS, 2022 ； Statistikmyndigh-
+eten, 2021 〕 ． AII three ciües have an important harbor. By selecting case-
+study cities from Northern, Western, and Southern European regions
+(UN, 2019L different vegetation zones (ROY et al., 2012 ） ， and diverse
+coverage 0f green land (Zhou et al. ， 2022 ） ， we account for varying
+enuronmental qualities. Barcelona is situated between a seaside with
+beaches and a forested mountain range inland, with a variety 0f parks ，
+including historic parks st1Ch as the Montjuic hill and architect Antoni
+Gaudf ， s Park GiieII, complemented by trees distributed along its streets.
+Gothenburg is strategically placed at a river outlet into the sea, and it has
+several greenspaces within its borders, incltlding parks such as the
+3
+
+@@ PAGE 4 / 12 @@
+R. Teeuwen
+0
+0
+0
+0
+5
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+ldentify urban centres
+Of 3 case study cities
+0
+0
+0
+Recru it participants
+0
+Collect OSM data
+Collect N DVI data
+0
+0
+0
+0
+0
+0
+Collect GSV metadata
+ldentify locations with
+- OSM category
+- median NDVI
+- GSV panorama
+Stratify locations
+- OSM category
+- NDVI quantile
+Sample locations
+Reset geometry tO GSV
+point & generate buffer
+CoIIect perceptions
+- OSM category
+- median NDVI
+C heck quality
+median NDVI
+OSM category
+Test hypotheses
+Perform exploratory &
+sensitivity analyses
+reason
+Perform q ual itative
+analyses
+Fig. 1. Overview Of methodological steps.
+centrally located Kungsparken, nature reserves such as 烈 理 緦 小 berge
+and other types 0f greenspaces. R0tterdam is distingtlished by modern
+morphology and architecture restllting from the city's reconstruction
+following significant bombing dunng WorId War II. lt has several well-
+known parks such as the Kralingse Bos forest and lake, and The Park
+located on the Meuse riverside. Both Rotterdam and Gothenburg have
+temperate maritime climates, while Barcelona has a warmer Mediter
+ranean climate.
+3 ． 2 CoIIecting OSM, NDVI, and GSV data
+As candidate locations for analysis, we identified urban public spaces
+with relevant OSM categories ， NDVI values, and GSV imagery available.
+We scoped t0 ptlblic spaces located within walking distance fi ℃ m the
+urban centers Of these case-sttldy cities, based on the European Com
+nnssion ， s Human Settlement Layer models and gtlldelines (Schiavina
+et al., 2022 ； Waddell and Ulfarsson, 2003 〕
+OSM data ： We collected public space and pedestrian street network
+data from OSM using the 0 s 烈 and the Osmnx library (Boeing,
+〗 We collected a variety 0f ptlblic spaces ， represented as polygons ：
+2017
+vegetated spaces, typically referred t0 as greenspace; and 0ther spaces
+that may - 一 depending on their character 亠 一 be perceived as st1Ch ac-
+cording to the WHO definition (VVHO RegionaI Office for Europe, 201 刁 ．
+We excltlded spaces that are inaccessible via the pedestrian street
+4
+
+@@ PAGE 5 / 12 @@
+R. Teeuwen
+0
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+NDVI value
+median ： 0 ． 190
+maximum: 0 ． 364
+OSM categories ：
+0
+regular-size greenspace
+到
+play space
+Pe rceived greenness:
+median: 4 (fai rly)
+reasons, e.g.
+“ / find this place.
+lOOks like a 、
+has lOts 00
+Fig. 2 ． Collected data per sampled location: NDVI values and OSM categories within radius distance, perceived greenness, and reasons. Example in Parc del Turö del
+Pt1txet, Barcelona.
+network or that are smaller than 200 square meters (i.e., the size Of a
+typical tennis court). For vegetated spaces, we merged overlapping or
+adjacent spaces intO one ， such as shrtlbbery adj acent tO a forest ， and
+differentiated between different sizes. As a result, we obtained OSM
+polygons of five OS 八 彦 categories: regular-size greenspaces (specifically
+parks, nature reserves, forests, woods, scrtlbs, shrtlbbery, heath,
+meadows, grass(lands) village greenery, and fells, at least 0 ． 5 ha in size
+(Teeuwen, Psyllidis, & Bozzon, 2023 ； Ambiente ltalia ， 2003
+刀 ； pock-
+et-size greenspaces (same categories ， t1P tO 0 ． 5 ha in size 0V00d et al.,
+2017 ； Labib et al., 2020 ； Peschardt et al., 2014 ） ） ； public 叩 e spaces
+(specifically squares, pedestrian areas ， marketplaces ， and common
+grounds); play spaces (specifically playgrounds and public schoolyards);
+and streets accessible to pedestrians 〔 i.e., for walking as defined by
+Boeing 〔 2017 ） ）
+NDVI data ： We used Google' s Earth Engine API t0 collect high-
+resoltltion satellite vegetation indices from the Copernicus Sentinel-2
+Markevych et al., 2017 ； Labib et al., 2020 〕 ． We used all im
+mission 〔
+agery between May and September 2021 ， i.e., the growing season for
+Roberts and Helbich, 2021 〗 and calculated the
+vegetation in Europe 〔
+average NDVI value per raster cell. We then calculated the average NDVI
+value per OSM polygon, while ignoring values less than 0 (i.e., water)
+Markevych et al. ， 2017 ）
+GSV metadata ： Using Google' s Street View Static API, we looked for
+the nearest GSV imagery for up t0 10 random points within each OSM
+polygon, with a maximum search radius of 15 m (Amiri and Crain,
+〕 ． When we found an image captured from 2018 to 2022 in May tO
+2019
+September (i.e., the vegetation growing season 〔
+Roberts and Helbich,
+2021 ； Turunen et al. ， 2023 ） 〗 we stored its metadata. We considered
+imagery sourced by Google, and 360-degree panoramas uploaded by
+GSV users ， as particularly in green urban areas that are inaccessible by
+car, user-contributed lmagery is a widespread alternative tO imagery
+sotu ℃ ed by Google.
+ldentifying candidate locations ： Our candidate locations are OSM
+polygons 0f various categories for which we have b0th an NDVI value
+and GSV imagery available. We then t00k a random sample 0f 140
+candidate locations per case-sttldy city ， while ensuring equal spread
+between b0th OSM categories (i.e., sampling equal numbers 0f regtllar
+size greenspaces, pocket-size greenspaces, ptlblic open spaces ， etc. ） and
+NDVI-value quarters. We manually checked if their associated GSV im
+agery is suitable for collecüng visual perceptions: we excluded images
+captured indoors or underground, during night-time or events, Of poor
+image quality, taken from bird' s or frog's view perspective, or when
+sight t0 the location they were sampled for was obstructed （ e ， 8 ” by a
+wall) ． We replaced these locations with another randomly sampled
+candidate from the same OSM category, NDVI quartile ， and city, until all
+sampled locations passed the check.
+Finally, we reset the geometry 0f these sampled locations t0 the point
+from which the GSV image was taken. We recalculated the median NDVI
+and determlned which OSM place categories were located wlthin 15 m
+buffer zone around this point (Amiri and Crain, 2019 ） ， By d0ing SO, we
+ensured that people' s perceptions ， NDVI values ， and OSM categories all
+referred t0 the same location. We also investigated buffers of 25 ， 29 ， 43
+and 100 m tO define a location ， s immediate surroundings tO assess the
+sensitivity Of our restllts tO the radius distance chosen. ln related sttldies
+25 m were found to be relevant for capturing greenery visible from a
+location (Kuo et al. ， 2018 ） ； 29 and 43 m for observing events in urban
+Amiri and Crain, 2019 ） ； and 100 m for representing the
+envlronments 〔
+individual human scale in greenspace health research (Labib et al.,
+2020 〕
+3 ． 3 ． C011ecting people's 访 S perceptions
+We then collected people' s visual perceptions of the sampled loca-
+through a questionnaire prolific ： crowdsourcing
+platform designed for academic research (Peer et al., 2017
+） ， We
+recrtlited participants WhO currently live in Europe and are proficient in
+the English language. We ensured diversity in age and gender and paid
+participants minimum wage in the NetherIands ， the country 0f the atl
+thors' affiliation. Participants provided informed consent tO participate
+and cotlld only stlbmit a single questlonnaire.
+Crowdsourcing task ： Our questionnaire, implemented using the
+Qualtrics platform, took about fifteen mintltes t0 complete. On average,
+5
+
+@@ PAGE 6 / 12 @@
+R. Teeuwen
+Use your mouse tO turn the panorama around.
+You dO not need tO walk away.
+ln a bit ， the question will appear below.
+NOW, answer the question below
+NotataJl A 匦 tt 地
+I find thiS pta 帕
+0
+0
+0
+0
+0
+What characteristics Of the place made you decide this?
+ExpIain in a few words.
+Fig. 3 ． lmpression of crowdsourcing interface.
+we expected each location t0 be rated by five people. We formtllated our
+questions based on related questionnaires used in environmental health
+research 〔
+Krt1ize et al., 2020 ； Zijlema et al., 2018 〗 while keeping them
+simple and straightforward for crowdsourcing (Salesses et al., 2013 ；
+Quercia et al., 2014 ； Milias et al., 2023 ； Candeia et al., 2017 〕 ． Fig. 3
+depicts an impression Of the interface. First, we introduced the topic and
+asked participants t0 ℃ vide some demographics. Second ， for each
+participant ， we randomly sampled five locations from the same case-
+sttldy city. For each location, we showed them the panoramic GSV
+image and instructed them t0 pan around for at least 10 s. We then
+collect participants' vlsual perceptlons of greenness by asking them to
+indicate 加 what extent they 尹 d the place vegetated ()n a 5-point Likert
+scale ： not at all 〔 1 ） to very 〔 5 ） ） ； and what characteristics 可 山 e loca 五 0
+motivated their choice ()n open text). We included quality checks con
+sisting 0f a reCAPTCHA bot test and an attention check and collected the
+number 0f panning clicks participants made. Finally ， we asked partici-
+pants some more demographics and asked how clear they found the
+crowd-sourcing tasks.
+3 ． 4 ． Data analysis
+After collecting all necessary data (see Fig.
+Table 1
+Overview Of hypotheses and statistical methods.
+Hypothesis
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+well NDVI and OSM capture people ' s visual perceptions 0f greenspaces.
+Quantitative (statistical) analysis ： First ， we filtered Ot1t partici-
+pantS or visual perceptions that did not meet our quality standards （ 巳 g ”
+through bot detecüon and an attention check and checking if partici-
+pants panned around in the panorama). We then calculated descriptive
+statistics based on the NDVI value, OSM category, and perceived vege-
+tation level Of each location, and aggregated ratings intO a median value
+per location for further analysis. TO compare perceived vegetation levels
+to the binary OSM data categories (i.e., something either is tagged as a
+greenspace, or not 〕 ， we alSO converted perceived vegetation levels intO
+binary values, by defining perceived greenspaces as locations with a me-
+dian perceived vegetation level of 4 (fairly) t0 5 (very) vegetated (Zij 一
+lema et al., 2018 〗 We statistically tested our hypotheses and conducted
+several exploratory analyses.
+Table 1
+summarizes our hypotheses 〔 HI 一 3 ）
+and the non-parametric methods we used tO test them. First ， we tested
+for correlations between visual perceptions ()n a 5-point Likert scale)
+and NDVI data t1Sing Spearman' s p （ HI 〗 Second, we compared the
+perceived greenness distribtltions ()n a 5-point Likert scale) Of various
+OSM categories using the Mann Whitney U and Kruskal-Wallis tests
+()2 ， 1 ） ； and calculated the percentage of OSM regular-size greenspaces
+that are perceived as greenspaces ()n binary values) 〔 H2 ， 2 ） ， Third, we
+implemented three algorithms t0 select greenspaces from the different
+data sources and compared them on hOW well they captured perceptions
+Of greenspace using McNemar' s test. We also performed sensitivity an-
+alyses tO identify hOW our restllts change when we increase the buffer
+zone radius from which we identify the median NDVI value and the
+presence of OSM greenspaces. Given that we performed 8 different
+significance tests (i.e., 1 for HI 5 for H2 ， and 2 for H3 ） ， we applied a
+0 05
+Bonferroni correction tO our significance threshold Of
+= 0 ， 006 ， 、 e
+8
+used the same cutoff for exploratory analyses.
+Qualitative analysis ： TO understand potential causes of differences
+between visual perceptions and map data, we conducted a reflexive
+thematic analysis (Clarke and Braun, 2013 ） ． Based on our quantitative
+findings, we identified the places for which perceptions notably deviated
+fi ℃ m NDVI and OSM map data and analyzed the spatial characteristics 0f
+these places that participants mentioned as reasons. We used Atlas TI to
+conduct our thematic analysis, employing inductlve coding and iterative
+identification Of themes.
+生 Results
+亻 ． Descriptive statistics
+This section describes the number Of perceptions we collected, the
+number 0f places we included in our analysis, and the number 0f people
+WhO participated in our sttldy.
+Between March and May 2023 ， 423 Prolific participants ， living in 21
+different European countries, completed our crowdsourcing task. Of
+these people, 409 passed our quality checks and were therefore included
+in our study. A majorlty found the tasks clear 〔 100 ％ ） ， panned the
+panoramas around as requested 〔 93 ％ 〗 did move away t0 adj acent
+places 〔 71 ％ ） and were not familiar with the places presented 〔 95 ％ ） ，
+Participant genders vary （ 49 ％ female ， 49 ％ male, and 2 ％ non-binary,
+third gender, or prefer t0 self-describe or not t0 say), as well as ages 〔 12
+％ age 18 一 24 ， 19 ％ 25 一 34 ， 20 ％ 35 一 44 ， 20 ％ 45 一 54 ， 18 ％ 55 一 64 ， and
+2
+〗 COt11d assess hOW
+H2 ． 1
+H2 · 2
+H3
+There is a strong positive correlation between NDVI and perceived greenness.
+Perceived greenness is higher for OSM regular-size greenspaces than for pocket parks, play spaces, open public spaces ，
+and streets.
+Pocket parks, play spaces, open public spaces, and streets can be perceived as greenspaces.
+Perceived greenspaces are better captured in data when selecting them based on a combination of OSM categones and
+NDVI values, opposed tO only OSM categories, or only NDVI values.
+6
+Method
+Spearman's RhO
+Mann—Whitney U & KruskaI-Wallis
+Descriptive statistics (percentages)
+Descriptive statistics (true positives and
+negatives) & McNemar's test
+
+@@ PAGE 7 / 12 @@
+R. Teeuwen
+10 ％ 65 years or older). Most participants are city dwellers （ 61 ％ 〗
+When testing differences in perceptions among pairs 0f demographic
+groups using the Mann Whitney U test, we did not find any statistically
+significant differences.
+From these 409 partlcipants, we obtalned a total of 1956 perceptions
+on greenness, after filtering Ot1t data in case Of technical issues （ e ， 8 ” the
+panorama did not load in time) or in case the participant did not interact
+at all with the panorama (i.e., made no clicks t0 pan the panorama
+around or Z()OIII in).
+Out of 420 places, 413 received valid perceptions fi ℃ m our partici-
+pants. On average, each place was rated on greenness by 5 peopl 巳
+Table 2
+shows descriptive statistics on the places, their NDVI values and
+OSM categories, and associated perceptions per city. People perceived
+180 of the places 〔 44 ％ ） as green.
+亻 ． 2 Quantitative analyses
+4 ． 27 ． HI: Perceived greenness 0 NDVI values
+Hypothesis and ou 忙 ome ： We hypothesized t0 find a strong positive
+correlation between NDVI and perceived greenness. Using Spearman' s p,
+we tested the correlation between hOW green places are perceived tO be,
+and their NDVI values, and found a statistically significant correlation 0f
+moderate strength 〔 p ： 0 ． 459 ， p-value < 0 ． 006 ） ， tht1S not supporting our
+hypothesis.
+E ra analyses ： NO apparent NDVI value threshold that differ-
+entiates greenspaces from other spaces could be identified. When
+comparmg correlations between cities, we found that correlation is
+much weaker in Barcelona 〔 p ： 0 ， 269 ， p-value < 0 ． 006 ） than in R0tter-
+dam (): 0 ， 540 ， p-value < 0 ． 006 ） and G0thenburg (): 0 ， 570 ， p-value <
+0 ． 006 ） Furthermore ， we did not find stronger correlations when using
+the maximum NDVI value in a place' s proximity, as opposed tO the
+median (i.e., p: 0 ， 47 ， p-value < 0 ， 006 〗
+SensitiVlty analyses: TO analyze hOW sensitive our correlation restllts
+are tO the radius distance used tO calctllate a place' s NDVI valtle ， we
+found that by increasing the radius distance t0 25 ， 29 ， and 43 m, cor-
+relation strengths increase fi ℃ m 0 ， 459 to 0 ． 556 ， 0 ， 585 and 0 ． 600 (all p
+value < 0 ． 006 〕 ， while decreasing again for larger distances. Further-
+more, from 25 up tO 100 m, the differences in correlations among case-
+study cities largely disappeared.
+亻 ， 22 H2 ： Perceived greenness 沅 re 陋 0 OSM categones
+刃 ） 0 es and outcome H2. We hypothesized （ H2 ， 1 〕 that perceived
+greenness is higher for OSM regular size greenspaces than for pocket-
+size greenspaces, play spaces, open public spaces, and streets. Using
+the Kruskal-Wallis test, we found significant difference in perceived
+greenness occurs between OSM categories 〔 H ： 107 ， p-value < 0 ， 006 〗
+Using a one-tailed Mann Whitney U test ， with the alternative hypothesis
+regtllar-size greenspaces are perceived more green ()thers,
+found that regtllar size greenspaces (median perceived greenness: 4 ． 0 ， n:
+112 〕 are indeed perceived greener than: pocket-size greenspaces (me-
+dian ： 4 ． 0 ， U: 5878 ， n: 86 ， p-value < 0 ． 006 〕 ； open public spaces (median ：
+2 ． 0 ， U: 9723 ， n: 102 ， p-value < 0 ． 006 ） ； and streets (median ： 3 ． 0 ， U: 8741 ，
+n: 107 ， p-value < 0 ． 006 ） ； while no significant difference was found with
+play spaces (median: 生 0 ， n: 78 ） ； showing that OSM regtllar-size green-
+spaces are only perceived greener than pocket-size greenspaces ， open
+ptlblic spaces, and streets.
+Table 2
+Descriptive statistics Of places and associated perceptions per case-study city.
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+llypothesis and outcome H22 ： We further hypothesized 〔 H2 ． 2 ） that
+also pocket-size greenspaces, play spaces, open ptlblic spaces ， and
+streets can be perceived greenspaces, some literature suggests.
+considered a place tO be perceived as greenspace when it was rated on
+median 4 (fairly) or 5 (very) vegetated. We found that 70 ％ of all OSM
+regtllar Size greenspaces are perceived as greenspaces. Furthermore, 47
+％ 0f pocket-size greenspaces, 11 ％ 0f open public spaces, 36 ％ 0f play
+spaces, and 23 ％ of streets (all excltlding those that also lie within direct
+proximity Of a regtllar-size greenspace) are perceived greenspaces.
+Tht1S, we can confirm that not only regtllar-size greenspaces ， btlt alSO
+pocket-size greenspaces are perceived as green more often than 40 ％ of
+times (i.e., if greenness ratings were distribtlted equally over our 5-point
+scale, 2 ／ 5 or 40 ％ would be considered green).
+Sensitiv1ty analyses: When we gradually increased the radius distance
+which we use t0 define if a place lies in proximity t0 an OSM greenspace ，
+we observed that restllts for H2.1 remain rather stable up t0 43 m. Yet for
+H2 ， 2 ， we observed that percentages decline: with a radius 0f 15 m, 70 ％
+of places located near OSM greenspace are indeed perceived by people
+as green; while with 25 ， 29 ， and 43 m, the percentages declined to 67 ％ ，
+66 ％ ， and 63 ％ ， respectively.
+亻 ． 23 ． H3 ： Perceived greenness relation 加 bo 山 NDVI values and OSM
+categones
+HI ） 0 山 es and 0.com/ We hypothesized that if perceived green-
+spaces are selected using a comb 海 皿 五 0 of OSM categories and NDVI
+values, they are better recorded in data than when only OSM categories
+or only NDVI values are used. To test our hypothesis ， we implemented
+three greenspace selection algorithms based on our findings in HI and
+H2: 1 ） OSM based, selecting all locations near OSM regular size green-
+spaces; 2 ） NDVI based ， selecting places with an NDVI value larger than
+the median NDVI value of all sampled locations in the same city• and 3 ）
+combination-based, selectlng locations near OSM regular-size green-
+spaces, and pocket-size greenspaces and play spaces with an NDVI larger
+than the median. We compared their restllts tO the crowdsourced per-
+ceptions 0f greenspace. ln 67 ． 8 ％ of cases ， the OSM-based algorithm
+correctly captured perceptions 0f greenspace, compared to 65 ， 6 ％ for
+the NDVI-based algorithm and 7L8 ％ for the combination-based al-
+gorithm. McNemar S one-tailed test revealed that the combination-
+based algorithm performed significantly better than the NDVI based
+algorithm (): 40L p-value < 0 ， 006 〗 while no significant difference
+was found with the OSM-based algorithm.
+Sensitiv1ty analyses ： When we repeated our analysis with NDVI values
+and OSM categories within larger radius distances, we discovered that
+the percentages 0f the OSM-based and combination based algorithms
+gradually decreased with distance, while they increased for the NDVI-
+based algorithm, which is consistent with the findlngs in HI and H2
+Table 3 〗 Regardless 0f radius distance, the combination based al
+gorithm otltperformed the OSM-based algorithm ， while at a 43 meter
+radius distance ， the NDVI-based algorithm achieved the highest score
+of 72 ． 3 ％ ． Using McNemar ， s test ， we observed the NDVI-based algo
+rithm outperforms the OSM-based algorlthm significantly (): 412 ， p-
+value < 0 ． 006 〗 while the difference with the combination-based algo-
+rithm was not statistically significant.
+Case
+city
+Barce1011a
+Rotterdam
+G0thenburg
+Total
+places
+139
+137
+137
+413
+NDVI [ 0 一 1 ]
+med.
+0 ． 139
+0 彐 88
+0 ． 140
+0 · 151
+mln
+0 ． 017
+0 ． 023
+0 ． 019
+0 · 017
+maX
+0 ． 379
+0 ， 539
+0 ． 492
+0 ． 539
+OSM category [ ％ ]
+-SIZe
+30 ． 9 ％
+26 ， 3 ％
+24 ． 1 ％
+27 ． 1 ％
+POC.—SIZe
+20 ． 1 ％
+2L9 ％
+20 ． 4 ％
+20 ． 8 ％
+3L7 ％
+2L9 ％
+20 ． 4 ％
+24 · 7 ％
+play space
+20 ． 1 ％
+19 ， 7 ％
+16 ． 8 ％
+18 ． 9 ％
+street
+28 彐 ％
+27 ． 0 ％
+22 ． 6 ％
+25 · 9 ％
+perceptions
+647
+645
+664
+1956
+7
+
+@@ PAGE 8 / 12 @@
+R. Teeuwen
+Table 3
+Quantitative restllts per radit1S distance. Per row ， highest scores are emphasized in bOld.
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+H2 ． 2
+H3
+correlation perception & NDVI
+per ℃ entage OSM greenspaces perceived as such
+correctness OSM-based algorithm
+correctness NDVI-based algorithm
+correctness combination-based algorithm
+radius distance [ml
+15
+0 ． 459
+69 ． 6 ％
+67 ． 8 ％
+65 ． 6 ％
+7L8 ％
+25
+0 ． 556
+66 ． 9 ％
+67 ． 0 ％
+69 ． 7 ％
+70 ． 2 ％
+29
+0 ． 585
+66 ． 4 ％
+66 ． 8 ％
+70 ． 8 ％
+70 ． 0 ％
+43
+0 ． 600
+62 ． 9 ％
+65 ． 3 ％
+72 · 3 ％
+68 ． 2 ％
+亻 ． 3 ． Qualitative analyses
+The following paragraphs present qualitative findings following up
+on testing hypotheses HI and H2. Exemplary quotes denoted as Q-i are
+included in the
+supplementary material, as is exemplary street-level
+lmagery•
+亻 ． 3 ． 儿 刀 “ ons between perceived greenness and NDVI values 00n0w g
+HI)
+To understand deviations between perceived greenness and NDVI
+values, we explored why people regardplaces e while NDVI values are
+IOW, and vice versa. We selected places for analysis based on our quan-
+titative restllts, t1Sing a 43 meter radius distance ， l.e. where correlations
+were strongest.
+Regarding places that do have a high surrounding NDVI value but are
+not deemed green (n = 6 ， see Table AI and
+Fig. AI ln supplementary
+material
+） ， we identified that these are typically characterized by the
+place being in between / 0 distinctive sides ， restllting in mixed opinions
+among participants 〔 Q 一 7 ） ， Specifically, these places are characterized by
+greenness on one Side ， With graSS ， trees ， and occasionally other vege-
+tation or natural features. However, the Other side is generally domi-
+nated by btlllt-up elements 〔 巳 g ” buildings, concrete, and infrastructure)
+iS some vegetation present 〔 e.g., trees, grass, greenery, or
+private gardens, sometimes located further away or combined with
+other natural features), it remains t00 little or t00 barren (Q-2, Q-3). Less
+often ， we observed that greenery may be present ， btlt is physically
+inaccessible, for instance due to height difference (Q-4).
+Regarding places that are perceived by people as green but have a
+low NDVI value (n = 10 ， see Table A2 and Fig. A2 m supplementary
+material), first, we identified that vegetation is Often present and varying
+in type, but only on a IOW level 〔 e ． 8 ” only grass, 0ther ground-covering
+greenery ， or 10w level bushes) ， still young 〔 e ， 8 ” tiny trees) ， or scattered
+around in small bits （ 巳 8 ” stand-alone trees, some vegetation in every
+garden) 〔 Q 一 5 〕 ， We also observed that vegetation may be lush, btlt only
+on a limited area, in private gardens, or located further-on 〔 Q 一 5 〕 ， Sec-
+ond, participants also mentioned Other a 伊 a / features: riverfronts, sand
+or small tiles on the ground wooden fences, or a seemingly good local
+climate 〔 e ， 8 ” shaded, clean air) 〔 Q 一 6 ， (7). Third, we observed spaces
+are characterized by a lack offeatures ， for example: distant fi ℃ m traffic,
+secltlded ， or qtliet （ Q 一 8 〗 We do note, however ， that some participants
+still characterized places dominated by btlilt-up elements as ' greenfor 皿
+urban 1 访 ro “ m “ 疒 ” 〔 Q 刁 0 〕 ， in which cases the judgment seemed
+co e 恤 rather than absolute 〔 Q 一 9 〕 ． LastIy, mentions of attractiveness
+more prevalent among places perceived green, Vice
+亻 ， 3 ． 2 刀 e 访 a 0 between perceived greenness and OSM categones
+伽 w g H2 丿
+Subsequently, we explored why 尹 eop regard places green, while OSM
+dO Ot tag them such, and VlCe versa. Again, we selected our cases
+based on quantitative restllts, now using the 15-meter radius distance at
+which OSM performed best.
+As t0 places tagged by OSM as greenspaces, btlt not perceived as such
+by people (n = 12 ， see Table A3 and
+Fig. A3 supplementary material),
+we identified tWO main reasons. First, despite being tagged in OSM as
+green and seemingly equipped for use by people, e.g., with benches or an
+elevated pedestrian walkway, some places were not perceived by people
+as green 〔 Q 一 72 ） ． PeopIe state vegetation is t00 low, young 〔 巳 g ” tiny
+trees), scattered, dry, constrained, located tOO far away, or only on one
+side ， or the space is t00 open and empty ()- 73 ， Q 一 74 ， Q-15 ， Q 一 76 〗 ln
+these cases ， the vegetation was overruled by built-up structures: major
+roads or tramways, high btlilding blocks ， concrete and 0ther paved
+areas, and associated sense of a bad local climate 〔 Q 一 77 ， Q 刁 8 ， Q 9 ） ，
+Second, again, we observed that some places are characterized by 0
+distinct sides ： major apartment btlildings on one side, versus a natural
+rock landscape with vegetation on the Other; concrete and constructions
+works, versus a carefully designed green looking space; and a maJ0r
+， versus an extensive vegetated differences sometimes
+caused disagreement among people ， depending on what attracted their
+attention the most （ Q 一 20 versus Q 一 2 刀 ．
+Places that are not tagged as greenspaces Of regular size in OSM but
+still are perceived as green by people, otltnumbered all other qualitative
+cases: 102 places. We identified two main themes (see
+Table A4 and
+Fig. A4 supplementary material) · First ， presence and ntunber Of trees,
+other greenery such as bushes, shrubs, and smaller plants, and t0 a lesser
+extent grass played a major role, while people also mentioned variation
+in vegetaüon, flowers, and fields 〔 Q 一 22 ， Q 一 23 ， Q 一 24 ） ． We also observed
+vegetation COI 贞 伊 a 五 0 was explicitly or implicitly referred to 〔 Q 一 25 〕 ：
+vegetation on different heights 〔 e ， 8 ” grass fields, tree canopies, and
+vegetated walls) 〔 Q26 ） ； and places that are spacious or have vegetation
+all around and far extending 〔 Q ． 2 刀 ， Second ， we see again that people
+Jt1dged urban greenspace contextually rather than absoltltely: they are
+green 'for “ urban setting （ Q 一 28 ） ． These included residential neigh-
+borhoods with lots of private greenspace and natural buildings materials
+〔 Q 一 29 〕 ； and regular or dense road-side vegetation 〔 Q 一 30 〗 AIso, other
+qualities were associated with greenness: water, shade and fresh air, and
+qtlietness ， attractiveness, and safety 〔 Q37 ， Q 一 32 ， Q 一 33 〗 Yet we d0 note
+that the conflict between btlilt-up and greenspace remained, with people
+motivating their greenness by the lack or presence 0f built-up elements,
+such as btlildings, traffic, concrete, and parking 10ts （ Q 一 34 ， Q 一 35 ， Q 一 36 ，
+Q 一 3 刀 ．
+Table 4
+stlmmarizes otltcomes Of our hypothesis tests and
+exploratory, sensitivity, and thematic analyses.
+5 ． DiSCt1SS10n
+5 ． 儿 忉 恤 五 0 可 results
+Our findings suggest that NDVI and OSM data capture how green
+people find places t0 be rather well, yet significant discrepancies remain.
+shows exemplary locations where perceptions Of greenspace
+deviate from NDVI and OSM map data.
+We found no evidence for a strong correlation between hOW green
+places are perceived and the NDVI values in their immediate vicinlty.
+However, discover a significant ()tlr
+findings Of a significant correlation contrast with those Of Kothencz and
+BIaschke （ 201 刀 and Les1ie et al. （ 2010 ）
+WhO found no significant cor-
+relation of NDVI values with park visitor ， s perceptions 0f greenspace, or
+with people' S perceptions Of their home environment. What distin
+guished our method from Leslie et al. 〔 2010 ）
+is that we collected data for
+8
+
+@@ PAGE 9 / 12 @@
+R. Teeuwen
+Table 4
+Summary Of quantitative and qualitative findings.
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+HI
+H2
+H3
+Perceived greenness in relation tO NDVI
+hypothesis t 然 疒
+e 回 ora
+analysis
+sens 访 皿 冚 Y
+qualitative
+analysis
+NO evidence for a strong correlation with median NDVI.
+Significant moderate correlation instead weak correlation for Barcelona, while moderate for Rotterdam and Gothenburg, and moderate but less strong
+correlation with maximum NDVI.
+NDVI within 43 m radius distance yields strongest correlation.
+Places pel ℃ eived not-green, but with high NDVI: have two distinctive sides; or the greenspace is physically inaccessible. Places perceived green, but with
+lOW NDVI: have va1Ying vegetation; other natural features nearby; absent built-up features; are rated in context.
+perceived greenness in relation to OSM
+hypothesis 怊 5
+sensitivity analysis
+qualitative
+analysis
+Regular-size greenspaces are pel ℃ eived as greener than pocket-size greenspace, open public spaces ， and streets, but not greener than play spaces. Pocket-
+Size greenspaces are oftentimes perceived aS greenspaces.
+OSM within 15 m radius distance yields best outcomes.
+Places perceived not-green, but in OSM: are still equipped for people; have dominant built-up features; or tWO distinctive sides. Places perceived green ， but
+not in OSM: have large amount and good configuration Of vegetation; are rated in context; have other natural and SOft features.
+Perceived greenness III relation tO NDVI and OSM
+hypothesis 怊 s 疒
+Algorithm combining OSM and NDVI data yields better results than NDVI-based algorithm but no significant difference with OSM-based algorithm.
+sensitivity analysis Combination- and OSM-based algorithm perform best with 15 m radius distance ， while NDVI-based algorithm with 43 m radius distance scores highest
+one single point in place, rather than an entire residential neighborhood,
+and unlike Kothencz and BIaschke 〔 2017 〕 ， we collected data for a
+broader range 0f ptlblic spaces, potentially with a wider range 0f NDVI
+investigated influence Of radit1S distances, discov-
+ered that the stl ℃ ngest correlation was 0 ， 600 when using median NDVI
+values within a 43-meter radius distance. We saw the greatest change in
+strength increasing radius Barcelona, r1Sing
+from 0 ． 269 to 0 ． 577 ， implying that perceptions 0f places in Barcelona
+are based on greenery located further away: One cotlld hypothesize that
+Barcelona ， S ptlblic spaces are more spaciot1S or have more mature trees
+that can be seen from a distance, as opposed tO grasslands or small
+vegetation that is more evenly distrlbuted in spac 巳
+We found evidence tO support our hypothesis that OSM regular-size
+greenspaces are perceived significantly greener than pocket-size
+greenspaces, streets, and public open spaces, while OSM seems t0 use
+open space tags almost exclusively for places where vegetation is not
+dominant. We also discovered that nearly half of OSM pocket-size
+greenspaces are perceived as green, adding t0 the b0dy 0f evidence
+that pocket-size greenspaces are important for green cities as well
+(Wood et al., 2017 ； Labib et al., 2020 ； Peschardt et al. ， 2014 〗 Surpris-
+ingly, no significant difference in greenness perception was found be-
+tween OSM regtllar-size greenspaces and play spaces. We discovered
+that many play spaces are unanimously perceived by people as green,
+even though OSM does not provide any indication 0f the presence 0f
+greenery. Furthermore, examples 0f greenery that are unexpectedly
+missing from OSM include forests and groves located on the outskirts of
+cities that are not represented in OSM. Other deviations were not due tO
+a lack 0f greenery in OSM data, but rather t0 how we filtered our
+greenspaces. That is, we selected greenspaces Of significant size based on
+a minimum size of 0 ． 5 ha 0f adJ acent green land (Ambiente ltalia ， 2003 ）
+Some greenspaces, however ， are mapped in st1Ch grantllarity in OSM
+for example, every individual patch of grass separated from others by
+narrow footpaths 一 that our algorithm filtered them out.
+We also observed that some places in OSM are labeled as green but
+are not perceived as st1Ch. When we 100k at these places in OSM, we see
+that half of them are tagged as parks. The term park is explicitly included
+in the WHO definition 0f greenspace that we used (WHO RegionaI Office
+for Europe, 2017a ） ， and many 0ther definitions 0f greenspace in the
+literature (TayIor and Hochuli, 2017 〕 ， and participants often seemed to
+regard parks eqtllvalent tO greenspaces. According tO OSM, a park is "an
+area 可 open spacefor recreational use. ， usually designed and 洫 semi-natural
+s 恤 with grassy areas. ， trees and bushes ” (OpenStreetMap ， 2023 〗 As this
+definition and our findings suggest, OSM parks are typically btlt not
+always vegetated.
+We demonstrated that combining OSM categories and NDVI values
+can help tO better select perceived greenspaces from these data in many
+cases ， providing an ansl•'ver t() question raised I)Y
+Liao et al. 〔 2021 〕
+whether combining mtlltiple datasets improves performance. Surpris-
+ingly, we observed that the NDVI based selection algorithm out-
+performed all others at a 43-meter distance. Qualitative restllts
+suggested refining these algorithms with information on other spatial
+characteristics from OSM has great potential, such as proximity tO water
+or presence Of greenery in all directions; proximity tO traffic infra
+structure or high-rise btlildings; and presence 0f private gardens. Other
+qualities ， st1Ch as vegetation variety ， qtlietness, attractiveness, and
+safety, may be more diffictllt tO capture in large-scale data, btlt are
+studied in related work (Milias et al., 2023 ； Candeia et al., 2017 ； Salesses
+et al., 2013 ； Quercia et al., 2014
+Our qualitative findings indicated that people seem t0 Jt1dge the
+greenness 0f a place contextually rather than absolutely. Specifically,
+people stated ， for example, that 亨 br 皿 urban setting, more trees an I
+would have expected " （ Q 一 28 ） ， suggesting that people have different ex
+pectations Of greenspaces within cities opposed tO otltside Of them.
+Furthermore, they stated "considering it's the middle 可 a man made
+square seems quite green ” 〔 Q 一 9 〗 indicating that within the constraints
+Of type or function Of a given space 〔 e ， 8 ” a crossroads a
+major road) ， people sometimes simply considered a place as green as can
+be.
+5 ． 2 仂 甲 五 ca 五 ons for research and practice
+According t0 our findings, NDVI maps are only moderately associ-
+ated with hOW green people perceive places tO be. For optlmum restllts,
+perception data should only be exchanged for NDVI maps while keeping
+this limitation in mind, ideally utilizing median NDVI values within 43
+m. When using OSM data, similar limitations arise, btlt we suggest using
+a short radius distance Of 15 m instead.
+Our restllts further suggest that incorporating NDVI data int0 OSM
+based analyses produces more accurate restllts. ln the case informal
+and small-scale greenspaces are Of interest, NDVI values may help tO
+filter Ot1t those parks that are not perceived green, or tO identify pocket
+parks and play spaces that are often perceived as green.
+Our qualitative findings suggest that when identifying locations for
+greenspace interventions, urban planners C()t11d consider prioritizing
+greenspaces that appear in large-scale data btlt are not perceived as
+such ， e.g., where btlilt-up features are tOO dominant.
+Our findings cotlld also serve as guidance when aiming tO make citles
+'JIISt green e 0 gh " ： greenspace strategies that limit adverse effects of
+interventions tO make neighborhoods healthier and more attractive,
+9
+
+@@ PAGE 10 / 12 @@
+R. Teeuwen
+A.
+C.
+Perceived on median very g ree n
+（ 5 / 5 ） by 6 participants whO rated it,
+but with a 《 OW median NDVI of 0 ． 076
+(BarceIona).
+Perceived g reen by 6 out Of 7 partici
+pants whO rated it, but surround
+ings not tagged in OSM as green-
+space ， tagged as play space
+(colored pink) i nstead (Rotterdam).
+B.
+D.
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+Unanimously perceived a little
+g ree n （ 5 ） by 3 participants whO
+rated it, but with a high median
+NDVI of 0 ． 296 (Gothenburg).
+N 0 囊 perceived g reen by any Of the
+5 participants whO rated it ， but
+surroundings tagged in OSM as
+regular Size greenspace (colored
+green ， specifically ， a park), as well
+as open public space (orange) and
+play space (pink) (Barcelona).
+Fig. 生 Exemplary locations where perceptions deviate from NDVI or OSM data.
+such as increased property values, so-called green gentrification, and
+displacement Of the residents in whose interests these interventions
+were originally designed (Curran & Hamilton, 2012 ； Wolch et al., 2014 〕
+Potential soltltions are green interventions that are small-scale, in scat-
+tered locations, and evenly distribtlted rather than concentrated projects
+in one focal place that may kick start gentrification (W01ch et al., 2014 〗
+Our qualitative findings regarding what it is that makes a location be
+perceived as green, while not formally tagged or depicted as such in data
+registries, may inspire st1Ch interventions. Examples incltlde selecting
+varying vegetation extending in mtlltiple directions; combining vege-
+tation with Other natural features st1Ch as water fronts or pervious sur-
+faces; greening roadsides or traffic squares that may be perceived as
+green within their specific urban context; and limiting concrete or hid-
+ing built-up structures from view by tree canopies and hedges.
+5 ， 3 ， Limitations and 尹 血 e work
+Several remaining limitations in this sttldy cotlld be addressed in
+ftlture research. First, we collected only visual perceptions using street-
+level imagery ， which shotlld be interpreted as a proxy for perceptions in
+environments （
+Salesses et al., 2013 〕 ． Nonetheless, street-level
+imagery is becommg more important in urban analyses and is a prom-
+ising SOt1rce efficient environment atlditing 〔
+Bilj ecki and lto,
+2021 ； Rzotkiewicz et al., 2018 〕 ． Second the participants of our study
+cannot be considered a representative sample Of the general population
+or Of the case-sttldy cities. We did, however, recruit European partici-
+pants ， balanced in age and gender ， and found no significant differences
+in greenness perceptions among different groups. Third ， regarding our
+questionnaire implementation ， due tO random chance, not all locations
+were rated as Often as others. Furthermore, participants' perceptions
+may be influenced by the locations they have previously seen or the
+places they are familiar with (Mehta, 2008 ） ， although we expect the
+effect of familiarity bias t0 be small given that less than 5 ％ 0f partici-
+pants reported knowing some places from personal experience. Fourth
+we limited Ot1r sttldy tO three European cities, btlt our method can be
+applied t0 any city in the world. We did notice some differences between
+Barcelona, and Rotterdam and Gothenburg. Future work could research
+hOW our findings hOld across continents, climates, and cultures 〔
+Mar-
+kevych et al., 2017 ； Catterall, 2009 ； Zhou et al., 2022 〕 ， for LULC maps
+other than OSM, and for case study cities dominated by hills and
+viewpoints. Fifth, NDVI values are stlbject tO change over time 〔
+Helbich
+et al., 2019 ） ， and the lushness Of vegetation in street-level imagery is
+0 司 y a snapshot in time. While we used NDVI data and street-level im
+agery from simllar years and months, we cannot rtlle Ot1t the effects of
+temporal changes. Sixth, we only analyzed places that were at least 200
+square meters 111 Size ， WhiCh means that places
+
+@@ PAGE 11 / 12 @@
+R. Teeuwen
+approximately the size Of a tennis court were not sttldied. Finally, ftlture
+work cotlld assess hOW people' s visual perceptions are captured in Other
+quantitative data, st1Ch as the Green View lndex or comptlter-detected
+objects in street-level imagery; or to develop refined algorithms to
+select potenüal perceived greenspaces by combimng NDVI and LULC
+maps, potentially using viewsheds and incorporating 0ther spatial
+6 · Conclusion
+ln this study we looked at how well NDVI and LULC data captured
+people ' s visual perceptions 0f urban greenspaces. While NDVI and LULC
+data are widely used in greenspace sttldies and planning, insight int0
+their representation Of visual perceptions has remained lacking tO date.
+We ℃ wdsourced perceptions 0f public spaces in three European
+cities and quantitatively compared them to NDVI and to LULC data
+sourced from OSM and qualitative explored reasons for deviations.
+Although we discovered an overall match between NDVI and OSM data
+and people' s perceptions 0f greenness, notable deviations remain. NDVI
+values moderately correlate with perceived greenness, and OSM
+greenspaces are perceived tO be greener than Other types Of ptlblic
+spaces except for play spaces, while pocket-size greenspaces are
+frequently perceived to be green as well. SeIecting perceived green-
+spaces based on both OSM and NDVI yields better results in many cases.
+Furthermore, bt1iltA11) elements may overpower the presence Of vege-
+tation ， while a space may still be considered green given its urban
+context. NOt only the amount Of vegetation btlt alSO its configuration and
+variety influence people' S perceptions Of greenness, as dO Other natural
+features and perceptual qualities.
+Our findings can help researchers and practltioners tO make more
+informed decisions when collecting data for greenspace sttldies and
+planning. Ft1ture work cotlld improve greenspace data collection by
+incltlding more qualities that influence greenspace perceptlon or test the
+transferability 0f our findings t0 0ther geographical contexts around the
+world.
+Declaration Of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared tO influence
+the work reported in this paper.
+Data availability
+Repositories containing our COde and (psetldonynnzed) data are
+available at https ： / / doi ． org/10 ． 4121 / 558f6150 一 a3e9 一 4960 一 82b2 一
+cd2115c070d4 and https://doi.org/10 ． 4121 / 5c3ad699 一 5ed4 一 4e91 一
+8435 一 伟 537e01f325 ， respectively.
+AcknowIedgments
+This research has received funding from the European Union ， s HO
+rizon 2020 research and innovation program under grant agreement NO
+874724 ． We thank all participants for contribtlting t0 our sttldy.
+Appendix A. Supplementary data
+Supplementary data t0 this article can be found online at https://doi.
+org/10 ． 1016/j ． landurbplan.2024.105009
+References
+Ajuntament de Ba1 ℃ elona （ 2022 ） ． Padr6n municipal de habitantes, secciones censales
+(municipal register Of inhabitants, censal sections).
+Ambiente ltalia （ 2003 ） ． European common indicators: Towards a local sustainability
+pro 行 1 巳 Ambiente ltalia ReseaI ℃ h lnstitute: Report.
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+Amiri ， S ” & Crain ， D. R. 〔 2019 ） ． Quantifying jacobs' notion Of 'eyes upon the street ， in 3 ．
+dimensions. Journal 可 Urban Design ， 25 （ 4 ） ， 467 一 485 ．
+Bar6, F., Camacho ， D. A ” Pérez Del Pulgar ， C., Triguero-Mas, M., & Anguelovski, I.
+〔 202D ， SchooI greening: Right or pfivilege? Examining urban nature within and
+around primary schools through an eqtllty lens. Landscape and Urban P m 丿 08 ．
+https://d0i.org/10.1016/j .landurbplan. 2020 ． 104019
+Barrington-Leigh, C., & Millard-Ball ， A. （ 2017 ） ． The world 's user-generated road map is
+more than 80 ％ complete. PLOS ONE, 72 〔 8 ） ， e018069 &
+Biljecki, F. ， & lto, K. 〔 202D ． Street view imageIY in urban analytics and gis: A review.
+Landscape and Urban PIanning, 215 ．
+Boeing ， G. 〔 2017 ） ． Osmnx: New methods for acquiring ， constlllcting ， analyzing ， and
+visualizing complex street networks. C00 u Environment and Urban Systems, 65 ，
+126 一 139 ，
+Candeia, D., Figueired0, F., Andrade ， N., & Quercia, D. 〔 2017 ） ． Multiple images of the
+city: Unveiling group-specific urban perceptions though a crowdsourcing game. ln
+Proceedings 可 the 28 山 ACM Conference on Hypertext and SociaI Media (pp. 135 一 144 ） ．
+Catterall ， C. P. （ 2009 ） ． Responses 歹 åun assemblages 地 “ bal 小 a 直 0 Global research
+paradigms and an avian case study, book section 8 ． Cambridge University Press.
+CBS 〔 2022 ） ． Wijk- en bututkaart 2022 (neighborhood map 2022 ） ． https://www.cbs.nl/
+nl-nl/dossier/ nederland•egionaal/geografische-data/wijk-en buurtkaart-2022.
+Chen ， S. and Biljecki ， F. （ 2023 ） ． Automatic assessment Of public open spaces using street
+view image1Y. C 重 es ， 137 ， [ 12 ] Chiesura, A. 〔 2004 ） ， The role of urban parks for the
+sustainable city. Landscape and Urban Planning ， 68 （ 1) ： 129 一 138 ．
+Clarke, V., & Braun ， V. 〔 2013 ） ． Successful qualitative reseal ℃ h. SAGE. Publications.
+Curran ， W., & Hamilton, T. （ 2012 ） ． Just green enough: Contest1ng envwonmental
+gentlification in Greenpoint. Brooklyn. Local Environment, 17 〔 9 ） ， 1027 一 1042 ．
+https://d0i.org/10.1080/13549839 ． 2012 ． 729569
+Dadvand, P., Nieuwenhuijsen, M. J., Esnaola, M., Forns ， J., Basagana, X., Alvarez-
+Pedrerol, M ” Rivas ， I. ， Lopez-Vicente ， M., De Castro Pascual ， M., Su, J., Jerrett, M.,
+Querol ， X., & Sunyer ， J. 〔 2015 ） ． Green spaces and cognitive development in primary
+schoolchildren. Proceedings 可 the Na Academy Sciences the United States 可
+America, 172 〔 26 〗 7937 一 7942 ．
+Du ， H ” Zhou ， F., Cai, Y. ， Li, C ” & Xu ， Y. （ 2021 〗 Resea1 ℃ h on public health and well-being
+associated tO the vegetation configuration Of urban green space ， a case stlldy Of
+shanghai ， china. Urban Forestry & Urban Greening 59 ．
+Flowers, E. P., Freeman, P., & Gladwell, V. F. 〔 2016 ） ． A cross-sectional study examining
+predictors of visit frequency to local green space and the impact this has on physical
+activity levels. BMC Public HeaIth, 16 ， 420 ．
+Fongar ， C., Aamodt, G., Rand111p ， T. B., & Solfjeld ， I. 〔 2019 ） ． Does perceived green space
+quality matter? linking norwegian adult perspectives on perceived quality to
+motivation and frequency of visits. lnt J Environ Res Public Health, 16 〔 13 ） ．
+Hamstead, Z. A., Fisher ， D ” llieva ， R. T ” Wood ， S. A., McPhearson, T ” & Kremer, P.
+（ 2018 ） ． Geolocated social media as a rapid indicator Of park visitation and equitable
+park access. Con 甲 u 怊 0 Environment and Urban Sys 怊 ms ， / 2 ， 38 一 50 ， https://doi.org/
+10 ． 1016 / j ． compenvurbsys ． 2018 ． 0L007
+Helbich, M., Yao, Y., Liu, Y., Zhang ， J., Liu ， P., & Wang, R. 〔 2019 ） ． Using deep learning t0
+examine street View green and blue spaces and their associations With geriatric
+depression in beijing ， china. Environ 仂 126 ， 107 一 117 ．
+Huete ， A. R. 〔 1988 〗 A Soil-Adjusted Vegetation lndex (SAVI). Remote Sensing 可
+Environment, 25 ， 295 一 309 ，
+Huete ， A ” Didan, K. ， Miura ， T ” Rodriguez, E. P ” Gao ， X ” & Ferreira ， L. G. 〔 2002 ） ．
+Overview Of the radiometric and biophysical performance Of the MODIS vegetation
+indices. Remote Sensing 可 Environment, 83 ， 195 一 213 ，
+Hyam ， R. （ 2017 ） ． Automated image sampling and classification can be used to explore
+perceived naturalness Of urban spaces. PLoS One, 72 〔 1 ） ， e0169357 ．
+Kabisch, N. ， & Haase ， D. （ 2014 ） ． Green justice or just green? provision Of urban green
+spaces in berlin ， germany. Landscape and Urban Planning 122 ， 129 一 139 ．
+Kothencz ， G., & Blaschke, T. 〔 2017 ） ． Urban parks: Visitors ， perceptions versus spatial
+indicators. Land Use POlicy, 64 ， 233 一 244
+Kruize ， H., Van Kamp, I., Van den Berg ， M., Van Kempen, E., Wendel-Vos, W.
+Ruijsbroek ， A ” Swart, W., Maas ， J. ， Gidlow, C. ， Smith ， G ” Ellis ， N ” Hurst ， G ”
+Masterson ， D., Triguero-Mas, M., Cirach, M ” Grazuleviciene ， R., Van den Hazel ， P., &
+Nieuwenhuijsen, M. （ 2020 ） ． ExpIoring mechanisms underlying the relationship
+between the natural outdoor environment and health and well-being _ results from
+the phenotype project. Environment lnternational, 134 ， Article 105173 ．
+Kuo, M., Browning, M ” Sachdeva, S., Lee, K ” & Westphal ， L. 〔 2018 ） ． Might school
+performance grOW on examining the and academic
+achievement in urban, high-povelty schools. Front Psych01, 9 ， 1669 ．
+Labib, S. M., Lindley ， S., & Huck, J. J. 〔 2020 ） ． Spatial dimensions of the influence of
+urban green-blue spaces on human health: A systematic review. E 访 ronm 1 7
+Research, 780 ， Article 108869 ．
+Larkin, A., & Hystad, P. 〔 2019 ） ． Evaluating street view exposure measures Of visible
+green space for health research. J Expo Sci Environ Epidemi01, 丿 9 〔 4 〗 447 一 456 ．
+Leslie, E., Sugiyama, T., lerodiaconou, D., & Kremer, P. 〔 2010 ） ． Perceived and objectively
+measured greenness Of neighbourhoods: Are they measuring the same thing?
+Landscape and Urban P 恸 tn 95 （ 1 一 2 〗 28 一 33 ．
+Li, X., Zhang, C., Li ， W. ， Ricard, R., Meng, Q., & Zhang, W. 〔 2015 ） ． Assessing street-level
+urban greene-1Y using google street view and a modified green view index. Urban
+Forestry & Urban Greening, 14 〔 3 ） ， 675 一 685 ．
+Liao ， Y., Zhou ， Q., & Jing ， X. （ 202D ． A comparison of global and regional open datasets
+for urban greenspace mapping. Urban Forestry & Urban Greening, 62 ． https://doi.org/
+10 ． 1016 / j ． ufug ． 202L127132
+Lu, Y. 〔 2019 ） ． Using google street view tO investigate the association between street
+greenery and physical activity. 羌 “ 小 c 叩 e and Urban PIanning 19L
+Luo ， S., & Patuano ， A. （ 2023 ） ． Multiple ecosystem services Of informal green spaces: A
+literature review. Urban Forestry & Urban Greening 81.
+11
+
+@@ PAGE 12 / 12 @@
+R. Teeuwen
+Markevych ， I ” Schoierer, J., Hartig ， T., Chudnovsky, A., Hystad ， P ” Dzhambov, A. M ” de
+Vries, S ” Triguero-Mas, M., Brauer ， M ” Nieuwenhuijsen ， M. J ” Lupp, G.,
+Richardson, E. A., Astell-Burt ， T. ， Dimitrova, D., Feng, X. ， Sadeh ， M., Standl ， M.
+Heinrich, J., & Fuertes ， E. 〔 2017 ） ． ExpIoring pathways linking greenspace to health:
+TheoreticaI and methodological guidance. Environ Res, 158 ， 301 一 317 ．
+Mehta ， V. （ 2008 ） ． Walkable streets: Pedestrian behavior ， perceptions and attitudes.
+Journal 可 Urbanism, 7 〔 3 ） ， 217 一 245 ·
+Milias, V. ， Sharifi Noorian, S., Bozzon ， A. ， & Psyllidis, A. （ 2023 ） ． ls it safe tO be
+attractive? disentangling the influence Of streetscape features on the perceived safety
+and attractiveness Of city streets. AGILE: GIScience Series, 4 ， 1 一 12 ．
+Nieuwenhuijsen, M. J. ， Khreis ， H., Triguero-Mas, M., Gascon ， M ” & Dadvand ， P. （ 201 刀 ．
+Fifty shades of green: Pathway to healthy urban living. EpidemioIou ， 28 （ 1 ） ， 63 一 71.
+OpenStreetMap 〔 2023 ） ． Openstreetmap wiki: Map features (accessed july 6 ， 2023 〗
+Peer, E., Brandimalte, L., Samat ， S., & Acquisti, A. 〔 2017 ） ． Beyond the Turk: Alternative
+platforms for crowdsotll ℃ ing behavioral research. Journal 可 Experimental Social
+PsychoIogy, / 0 ， 153 一 163 ， https://doi.org/10.1016/j.jesp.2017.01.006
+Peschardt, K. K. ， Stigsdotter ， U. K. ， & Schipperrijn, J. 〔 2014 ） ． ldentifying features of
+pocket parks that may be related to health promoting use. Landscape Research, 410 ） ，
+79 一 94 ．
+Quercia ， D., SchifaneIIa ， R., and Aiello ， L. M. 〔 2014 ） ． The shortest path to happiness:
+recommending beautiful ， quiet ， and happy routes in the city.
+Rao, M. ， Prasad ， S., Adshead, F., & Tissera ， H. （ 2007 ） ． The built environment and health.
+The Lancet, 3 / 0 〔 9593 ） ， 1111 一 1113 ．
+Roberts, H. V. 〔 2017 ） ． Using Twitter data in urban green space research: A case study and
+critical evaluation. AppIied Geography ， 8 厶 13 一 20 ． https://doi.org/10.1016/j.
+apgeog. 2017 ． 02 ． 008
+Roberts, H., & Helbich ， M. 〔 202D ． Multiple environmental exposures along daily
+mobility paths and depressive symptoms: A smaftphonebased tracking study.
+Environment 仂 怊 rn iona 156 ， Article 106635 ·
+Robinson, O., Tamayo, I., de Castro, M., Valentin ， A., Giorgis-Allemand ， L., Hjertager
+Krog ， N., Marit Aasvang ， G., Ambros ， A., Ballester, F. ， Bird, P., Chatzi ， L., Cirach, M.
+Dedele ， A., Donaire-Gonzalez ， D., Grazuleviciene, R., lakovidis, M., lbarluzea, J.
+Kampouri ， M ” Lepeule ， J ” Maitre ， L., McEachan ， R. ， Oftedal ， B. ， Siroux ， V.,
+Slama ， R., Stephanou, E. G., Sunyer, J ” Urquiza ， J., Vegard Weyde, K., Wright ， J.,
+Vrijheid ， M. ， Nieuwenhuijsen, M., & Basagana ， X. 〔 2018 〗 The urban exposome
+during pregnancy and its socioeconomic determinants. E 访 ro Health Perspect, 126
+〔 7 ） ， Article 077005 ．
+ROY ， S. ， Byrne ， J ” & Pickering ， C. （ 2012 ） ． A systematic quantitative review Of urban tree
+COStS, and assessment methods across cities in climatic ZOneS.
+Urbanforestry & urban ee ' 山 ， 〔 4 ） ， 351 一 363 ·
+Rzotkiewicz, A., Pearson, A. L., Dougherty, B. V., Sh01tridge, A., & Wilson, N. 〔 2018 ） ．
+Systematic review Of the use Of google street view in health research: Major themes ，
+strengths, weaknesses and possibilities for future research. Health & Place, 52 ，
+240 一 246 ．
+Salesses ， P., Schechtner ， K., & HidaIgo ， C. A. （ 2013 ） ． The collaborative image of the city:
+Mapping the inequality of urban perception. PLoS On 8 〔 7 ） ．
+Schiavina, M ” Melchiorri, M., and Pesaresi, M. （ 2022 〕 ． Ghs-smod r2022a - ghs settlement
+layers ， application of the degree of urbanisation methodology (stage i) t0 ghs-pop
+r2022a and ghs-built-s r2022a ， multitemporal 0975 一 2030 ） ．
+Song ， Y., Ning ， H., Ye, X. ， Chandana ， D., & Wang, & 〔 2022 ） ． ' ze the usage urban
+greenways through social media images and co " “ vision. Environment and PIanning
+B: Urban Analytics and City Science.
+Spotswood, E. N., Benjamin ， M., Stoneburner ， L. ， Wheeler ， M. M., Beller ， E. E., Balk, D.,
+McPhearson, T., Kt10, M., & McDonald, R. I. 〔 2021 ） ． Nature inequity and higher
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+covid-19 case rates in less-green neighbourhoods in the united states. a 伊 e
+SustainabiIity.
+Sripada, R. P., Heiniger, R. W., White, J. G ” & Meijer, A. D. 〔 2006 ） ． Aerial color infrared
+photography for determining early in-season nitrogen requirements in corn.
+Agronomy JournaI, 98 〔 4 〗 968 一 977 ． https://doi.org/10 ． 2134 / agronj2005 ． 0200
+Statistikmyndigheten 〔 2021 ） ． lkmängden per region efter ålder och kön (population per
+region by age and sex)
+Sundevall, E. P. ， & Jansson, M. （ 2020 ） ． lnclusive parks across ages: Multi function and
+urban open space management for children, adolescents, and the elderly.
+仂 rna 五 on 禳 JournaI 可 EnvironmentaI Research and PubIic HeaIth, 1 / 〔 24 ） ．
+Talal ， M. L. ， & Santelmann ， M. V. 〔 202D ． Visitor access ， use, and desired improvements
+in urban parks. Urban Forestry & Urban Greening 63 ．
+Taubenböck, H., Reiter, M., Dosch ， F., Leichtle, T., Weigand ， M. ， & Wurm ， M. 〔 2021 ） ．
+Which 画 is the greenest? a multi-dimensional deconstruction 可 画 rankings (). 89 ） ．
+Environment and Urban Systems: Computers.
+Taylor, L., & Hochuli ， D. F. （ 2017 ） ． Defining greenspace: Multiple uses across multiple
+disciplines. Landscape and Urban P n 山 & 158 ， 25 一 3 &
+Teeuwen, R., Psyllidis ， A., & Bozzon ， A. 〔 2023 ） ． Measuring children's and adolescents
+accessibility tO greenspaces from different locations and commuting settings.
+Computers ， EnviI ℃ nment and Urban. Systems, 70 https://doi.org/1().1016/j.
+compenvurbsys.2022.101912
+Turunen ， A. W., Halonen ， J., KOIpela ， K. ， Ojala ， A., Pasanen ， T. ， Siponen ， T., Tiittanen ， P.,
+Tywäinen ， L., Yli-Tuomi, T., & Lanki, T. 〔 2023 ） ． Cross-sectional associations Of
+different types 0f nature exposure with psychotropic ， antihypertensive and asthma
+medication. Oc 囗 甲 Environ Med, 80 〔 2 ） ， 111 一 118 ．
+UN （ 2019 ） ， Standard country or area codes for statistical use （ m49 ） ．
+Van Vliet, E., Dane, G., Weijs-Perree, M., Van Leeuwen, E., Van Dinter, M., Van den
+Berg ， P., Borgers, A., & Chami10thori, K. 〔 2021 ） ． The influence of urban park
+attributes on user preferences: Evaluation Of virtual parks in an online stated-choice
+experiment. rna № n JournaI 可 Em 仞 tm “ Research and Public Health, 18 （ 1) ．
+Waddell, P. and Ulfarsson ， G. F. 〔 2003 ） ． Accessibility and agglomeration: Discrete-choice
+models of employment location by indust1Y sector.
+Wolch ， J. R ” Byrne ， J ” & Newell ， J. P. 〔 2014 ） ． Urban green space ， public health ， and
+environmental justice: The challenge of making cities 'just green enough' ． Landscape
+and Urban Planning 125 ， 234 一 244 ·
+WOOd ， L., Hooper ， P., Foster, S., & Bull, F. 〔 2017 ） ． Public green spaces and positive
+mental health - investigating the relationship between access, quantity and types of
+parks and mental wellbeing. HeaIth & 尹 c 48 ， 63 一 71.
+WHO RegionaI Office for Europe. 〔 2017 ） ． Urban green space interventions and health:
+review 可 甲 and effectiveness. Report: WHO.
+Zhang, L., Tan, P. Y., & Richards, D. 〔 202D ． Relative impoftance of quantitative and
+qualitative aspects of urban green spaces in promoting health. Landscape and Urban
+PIanning 213 ．
+Zhou, Q., Liao, Y., & Wang ， J. 〔 2022 ） ， Mapping global urban greenspace: An analysis
+based on open land-cover data. Urban 炻 re & Urban Greening, / 4 ． https://doi.org/
+10 ． 1016 / j ． ufug ． 2022 ． 127638
+Zhou, Q ” Wang, S., & Litl ， Y. （ 2022 〕 ． Exploring the accuracy and completeness patterns
+of global land-cover/land-use data in OpenStreetMap. AppIied Geography, 145 ．
+https://doi.org/10.1016/j ． apgeog ． 2022 ． 102742
+Zijlema, W. L., Avila-Palencia, I., Triguero-Mas, M., Gidlow ， C., Maas, J., Kruize, H.,
+Andrusaityte, S ” Grazuleviciene, R., & Nieuwenhuijsen ， M. J. 〔 2018 ） ． Active
+commuting through natural environments is associated with better mental health:
+Results from the phenotype project. Environment 加 怊 rna 互 0 127 〔 Pt 1) ， 721 一 727 ·
+12

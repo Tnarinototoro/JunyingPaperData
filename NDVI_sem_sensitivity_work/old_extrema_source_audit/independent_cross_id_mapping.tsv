@@ -1,0 +1,40 @@
+old_s1_code	classification	matched_current_geometry_ids	matched_source_pair_count	matches_same_number_geometry	unique_match_different_id	candidate_sources_and_definitions
+P01	unique_geometry	4	1	false	true	4:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P02	unique_geometry	16	1	false	true	16:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P03	unique_geometry	1	1	false	true	1:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P04	unique_geometry	7	1	false	true	7:NDVI_tokyo.tif:park_plus_exterior_ring|7:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P05	no_match		0	false	false	
+P06	no_match		0	false	false	
+P07	unique_geometry	15	1	false	true	15:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P08	no_match		0	false	false	
+P09	unique_geometry	20	1	false	true	20:NDVI_tokyo_down.tif:park_plus_full_expanded_buffer
+P10	unique_geometry	27	1	false	true	27:NDVI_hokka_test.tif:park_plus_exterior_ring|27:NDVI_hokka_test.tif:park_plus_full_expanded_buffer
+P11	unique_geometry	11	1	true	false	11:NDVI_tokyo_down.tif:park_plus_exterior_ring|11:NDVI_tokyo_down.tif:park_plus_full_expanded_buffer
+P12	unique_geometry	23	1	false	true	23:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P13	unique_geometry	17	1	false	true	17:NDVI_tokyo.tif:park_plus_exterior_ring|17:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P14	unique_geometry	19	1	false	true	19:NDVI_tokyo.tif:park_plus_exterior_ring|19:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P15	unique_geometry	2	1	false	true	2:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P16	unique_geometry	3	1	false	true	3:NDVI_tokyo.tif:park_plus_exterior_ring|3:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P17	unique_geometry	38	1	false	true	38:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P18	no_match		0	false	false	
+P19	unique_geometry	36	1	false	true	36:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P20	no_match		0	false	false	
+P21	no_match		0	false	false	
+P22	unique_geometry	32	1	false	true	32:NDVI_fukushima.tif:park_plus_full_expanded_buffer
+P23	unique_geometry	37	1	false	true	37:NDVI_tokyo.tif:park_plus_exterior_ring|37:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P24	no_match		0	false	false	
+P25	no_match		0	false	false	
+P26	unique_geometry	26	1	true	false	26:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P27	unique_geometry	35	1	false	true	35:NDVI_hokka_test.tif:park_plus_full_expanded_buffer
+P28	no_match		0	false	false	
+P29	no_match		0	false	false	
+P30	unique_geometry	30	1	true	false	30:NDVI_fukushima_up.tif:park_plus_full_expanded_buffer
+P31	unique_geometry	31	1	true	false	31:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P32	unique_geometry	22	1	false	true	22:NDVI_fukushima.tif:park_plus_exterior_ring|22:NDVI_fukushima.tif:park_plus_full_expanded_buffer
+P33	no_match		0	false	false	
+P34	no_match		0	false	false	
+P35	unique_geometry	10	1	false	true	10:NDVI_hokka_test.tif:park_plus_full_expanded_buffer
+P36	unique_geometry	12	1	false	true	12:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P37	unique_geometry	14	1	false	true	14:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P38	unique_geometry	13	1	false	true	13:NDVI_tokyo.tif:park_plus_full_expanded_buffer
+P39	no_match		0	false	false	

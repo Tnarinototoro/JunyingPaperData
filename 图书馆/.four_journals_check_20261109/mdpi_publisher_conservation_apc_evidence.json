@@ -1,0 +1,96 @@
+{
+  "checked_date": "2026-11-09",
+  "journal": "Conservation",
+  "publisher": "MDPI",
+  "eissn": "2673-7159",
+  "publisher_evidence": {
+    "official_xml_url": "https://mdpi-res.com/d_attachment/conservation/conservation-06-00134/article_deploy/conservation-06-00134.xml",
+    "snapshot": "mdpi_conservation_xml.xml",
+    "publisher_name_in_xml": "MDPI",
+    "official_directory_url": "https://mdpi.cn/api/journals",
+    "directory_snapshot": "mdpi_api_journals.html",
+    "selected_directory_records": "mdpi_official_journals_selected.json"
+  },
+  "apc": {
+    "amount": 1200,
+    "currency": "CHF",
+    "source_url": "https://www.mdpi.com/journal/conservation/apc",
+    "access_method": "Official-page text transcription obtained by root agent through public text reader; original site direct requests returned HTTP 403.",
+    "snapshot": "root_reader_conservation.txt",
+    "official_quote": "An article processing charge (APC) of CHF 1200 (Swiss francs) applies to papers accepted after peer review.",
+    "tax_quote": "Local VAT or Sales Tax will be added if applicable.",
+    "invoice_quote": "Invoices are emailed shortly after acceptance to the payment contact provided by the authors.",
+    "other_accepted_currencies": [
+      "EUR",
+      "USD",
+      "GBP",
+      "JPY",
+      "CAD"
+    ],
+    "price_effective_date_specified": false
+  },
+  "saitama_ioap": {
+    "school_document": "../.journal_review_20261108/pdf02_saitama/ocr.txt",
+    "relevant_lines": [
+      38,
+      39,
+      40,
+      41,
+      44,
+      45
+    ],
+    "discount_percent": 10,
+    "corresponding_and_coauthors_eligible_in_school_document": true,
+    "institution_email_required_for_reliable_identification": true,
+    "generic_official_ioap_url": "https://mdpi.cn/ioap",
+    "generic_official_ioap_snapshot": "mdpi_ioap_cn.html",
+    "conditional_base_after_discount_chf": 1080,
+    "caution": "Conditional estimate, subject to affiliation recognition and agreement application; applicable tax additional."
+  },
+  "journals_confirmed_mdpi": [
+    {
+      "title": "Conservation",
+      "url": "https://www.mdpi.com/journal/conservation"
+    },
+    {
+      "title": "Land",
+      "url": "https://www.mdpi.com/journal/land"
+    },
+    {
+      "title": "Urban Science",
+      "url": "https://www.mdpi.com/journal/urbansci"
+    },
+    {
+      "title": "Environments",
+      "url": "https://www.mdpi.com/journal/environments"
+    },
+    {
+      "title": "Sustainability",
+      "url": "https://www.mdpi.com/journal/sustainability"
+    }
+  ],
+  "name_distinction": {
+    "title": "Journal for Nature Conservation",
+    "publisher": "Elsevier",
+    "issn": "1617-1381",
+    "official_homepage": "https://www.sciencedirect.com/journal/journal-for-nature-conservation",
+    "metadata_evidence_url": "https://api.crossref.org/journals/1617-1381",
+    "metadata_snapshot": "mdpi_distinction_jnc_crossref.json",
+    "different_journal": true
+  },
+  "outdated_or_conflicting_metadata": [
+    {
+      "source": "DOAJ",
+      "apc_chf": 1000,
+      "record_updated": "2026-09-17T10:40:26Z",
+      "snapshot": "mdpi_conservation_doaj.json"
+    },
+    {
+      "source": "OpenAlex",
+      "apc_chf": 1000,
+      "record_updated": "2026-11-08T13:48:25",
+      "snapshot": "mdpi_conservation_openalex.json"
+    }
+  ],
+  "conflict_resolution": "Use 1200 CHF from retrieved official page transcription over 1000 CHF directory metadata. No inferred effective date."
+}

@@ -1,0 +1,1220 @@
+{
+  "purpose": "Forensic exact-value comparison against NDBI-labelled supplied rasters; not a calculation of NDVI, not a source selection and not proof of the labelled index formula",
+  "method": "Independent sixth-order Krueger UTM, bisection Albers inverse, nonzero winding masks, original Float32 reads; only audited TIFF header and SHP decoding shared. Fixed park interior plus exterior ring / full expanded buffer. Per-field Decimal rounding at old S1 textual precision.",
+  "input_gis_files_modified": false,
+  "ndvi_or_sem_inputs_modified": false,
+  "source_selection_or_id_remapping_performed": false,
+  "sem_run_performed": false,
+  "coordinates_or_park_attributes_output": false,
+  "old_s1_sha256": "0126ee20b73ffaa3cc0c92c91d8c513504e2a6061e02f551c463315d2a842154",
+  "target_unoccupied_geometry_ids": [
+    5,
+    6,
+    8,
+    9,
+    18,
+    21,
+    24,
+    25,
+    28,
+    29,
+    33,
+    34,
+    39
+  ],
+  "target_old_s1_ids": [
+    5,
+    6,
+    8,
+    18,
+    20,
+    21,
+    24,
+    25,
+    28,
+    29,
+    33,
+    34,
+    39
+  ],
+  "existing_labelled_file_geometry_candidates_checked": 19,
+  "candidates_with_valid_pixels_in_both_zones": 16,
+  "missing_corresponding_labelled_files": [],
+  "failures": [],
+  "old_s1_ids_with_four_extrema_matches": [],
+  "old_s1_ids_with_no_four_extrema_match": [
+    5,
+    6,
+    8,
+    18,
+    20,
+    21,
+    24,
+    25,
+    28,
+    29,
+    33,
+    34,
+    39
+  ],
+  "old_s1_ids_with_multiple_geometry_matches": [],
+  "cross_id_results": [
+    {
+      "old_s1_park_code": "P05",
+      "old_s1_id": 5,
+      "old_extrema_text": [
+        "-0.0342",
+        "0.3928",
+        "0.0123",
+        "0.4185"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P06",
+      "old_s1_id": 6,
+      "old_extrema_text": [
+        "0.0834",
+        "0.4471",
+        "0.0542",
+        "0.4623"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P08",
+      "old_s1_id": 8,
+      "old_extrema_text": [
+        "-0.0567",
+        "0.3783",
+        "-0.0239",
+        "0.4012"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P18",
+      "old_s1_id": 18,
+      "old_extrema_text": [
+        "0.0045",
+        "0.4067",
+        "0.0198",
+        "0.4321"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P20",
+      "old_s1_id": 20,
+      "old_extrema_text": [
+        "0.1175",
+        "0.4552",
+        "0.0934",
+        "0.4728"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P21",
+      "old_s1_id": 21,
+      "old_extrema_text": [
+        "0.195931941",
+        "0.332990915",
+        "0.153819188",
+        "0.343271881"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P24",
+      "old_s1_id": 24,
+      "old_extrema_text": [
+        "-0.0789",
+        "0.3456",
+        "-0.0451",
+        "0.3674"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P25",
+      "old_s1_id": 25,
+      "old_extrema_text": [
+        "0.0512",
+        "0.4409",
+        "0.0367",
+        "0.467"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        3
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P28",
+      "old_s1_id": 28,
+      "old_extrema_text": [
+        "0.0953",
+        "0.4885",
+        "0.0784",
+        "0.5123"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P29",
+      "old_s1_id": 29,
+      "old_extrema_text": [
+        "0.0632",
+        "0.4214",
+        "0.0417",
+        "0.4435"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P33",
+      "old_s1_id": 33,
+      "old_extrema_text": [
+        "-0.0876",
+        "0.5123",
+        "-0.0554",
+        "0.5348"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P34",
+      "old_s1_id": 34,
+      "old_extrema_text": [
+        "0.0789",
+        "0.4452",
+        "-0.0458",
+        "0.395"
+      ],
+      "decimal_places_by_field": [
+        4,
+        4,
+        4,
+        3
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    },
+    {
+      "old_s1_park_code": "P39",
+      "old_s1_id": 39,
+      "old_extrema_text": [
+        "-0.028754697",
+        "0.548623579",
+        "-0.014756285",
+        "0.475218734"
+      ],
+      "decimal_places_by_field": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "classification": "no_match",
+      "matched_geometry_ids": [],
+      "matched_source_pair_count": 0,
+      "multiple_sources_match": false,
+      "same_number_geometry_among_matches": false,
+      "unique_numeric_geometry_has_different_id": false,
+      "four_extrema_matches": [],
+      "inside_extrema_only_matches": []
+    }
+  ],
+  "independently_recomputed_labelled_candidates": [
+    {
+      "current_geometry_park_id": 5,
+      "candidate_label": "P05_NDBIlabel_candidate1",
+      "source_raster": "NDBI_nara.tif",
+      "corresponding_ndvi_basename": "NDVI_nara.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 518,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 518,
+          "mean": -0.09321111637365066,
+          "minimum": -0.23746997117996216,
+          "maximum": 0.08490996062755585,
+          "valid_fraction": 1,
+          "sd_population": 0.08470387738909861
+        },
+        "outside": {
+          "eligible_n": 435,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 435,
+          "mean": -0.09996050821641332,
+          "minimum": -0.2493596374988556,
+          "maximum": 0.0923275426030159,
+          "valid_fraction": 1,
+          "sd_population": 0.08732523202600467
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.0000913669475017424
+    },
+    {
+      "current_geometry_park_id": 6,
+      "candidate_label": "P06_NDBIlabel_candidate1",
+      "source_raster": "NDBI_nara.tif",
+      "corresponding_ndvi_basename": "NDVI_nara.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 84,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 84,
+          "mean": -0.045336803975000554,
+          "minimum": -0.16110385954380035,
+          "maximum": 0.08039695024490356,
+          "valid_fraction": 1,
+          "sd_population": 0.05589632683642833
+        },
+        "outside": {
+          "eligible_n": 173,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 173,
+          "mean": 0.00204132522019454,
+          "minimum": -0.1191268265247345,
+          "maximum": 0.0939771756529808,
+          "valid_fraction": 1,
+          "sd_population": 0.03511280079850043
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00009006239017259423
+    },
+    {
+      "current_geometry_park_id": 8,
+      "candidate_label": "P08_NDBIlabel_candidate1",
+      "source_raster": "NDBI_nara.tif",
+      "corresponding_ndvi_basename": "NDVI_nara.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 890,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 890,
+          "mean": -0.03353014680019186,
+          "minimum": -0.22326752543449402,
+          "maximum": 0.1288973093032837,
+          "valid_fraction": 1,
+          "sd_population": 0.06461429314131985
+        },
+        "outside": {
+          "eligible_n": 469,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 469,
+          "mean": -0.04492077909289054,
+          "minimum": -0.23970913887023926,
+          "maximum": 0.1519269198179245,
+          "valid_fraction": 1,
+          "sd_population": 0.07687084498181852
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00008987643760566989
+    },
+    {
+      "current_geometry_park_id": 9,
+      "candidate_label": "P09_NDBIlabel_candidate1",
+      "source_raster": "NDBI_nagoya.tif",
+      "corresponding_ndvi_basename": "NDVI_nagoya.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 159,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 159,
+          "mean": -0.08201850009913726,
+          "minimum": -0.21544766426086426,
+          "maximum": 0.027643077075481415,
+          "valid_fraction": 1,
+          "sd_population": 0.06042692967466553
+        },
+        "outside": {
+          "eligible_n": 227,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 227,
+          "mean": -0.09155977400181824,
+          "minimum": -0.222462460398674,
+          "maximum": 0.08228038251399994,
+          "valid_fraction": 1,
+          "sd_population": 0.07508326476539644
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00009107254293499713
+    },
+    {
+      "current_geometry_park_id": 9,
+      "candidate_label": "P09_NDBIlabel_candidate2",
+      "source_raster": "NDBI_nara.tif",
+      "corresponding_ndvi_basename": "NDVI_nara.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 159,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 159,
+          "mean": 0.0038706208664357204,
+          "minimum": -0.11844054609537125,
+          "maximum": 0.09304840862751007,
+          "valid_fraction": 1,
+          "sd_population": 0.045508494212133786
+        },
+        "outside": {
+          "eligible_n": 227,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 227,
+          "mean": -0.025624771568347752,
+          "minimum": -0.14023816585540771,
+          "maximum": 0.1269044578075409,
+          "valid_fraction": 1,
+          "sd_population": 0.05999894704821516
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00009107254293499713
+    },
+    {
+      "current_geometry_park_id": 18,
+      "candidate_label": "P18_NDBIlabel_candidate1",
+      "source_raster": "NDBI_nagoya.tif",
+      "corresponding_ndvi_basename": "NDVI_nagoya.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 490,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 490,
+          "mean": -0.07784935688966414,
+          "minimum": -0.23520183563232422,
+          "maximum": 0.07211343944072723,
+          "valid_fraction": 1,
+          "sd_population": 0.06509100657911135
+        },
+        "outside": {
+          "eligible_n": 368,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 368,
+          "mean": 0.007253096888294037,
+          "minimum": -0.09754578024148941,
+          "maximum": 0.14999748766422272,
+          "valid_fraction": 1,
+          "sd_population": 0.038510963853613994
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00009006784269067946
+    },
+    {
+      "current_geometry_park_id": 18,
+      "candidate_label": "P18_NDBIlabel_candidate2",
+      "source_raster": "NDBI_nara.tif",
+      "corresponding_ndvi_basename": "NDVI_nara.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 490,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 490,
+          "mean": -0.00214363329806864,
+          "minimum": -0.1783939003944397,
+          "maximum": 0.14235764741897583,
+          "valid_fraction": 1,
+          "sd_population": 0.04941802435885237
+        },
+        "outside": {
+          "eligible_n": 368,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 368,
+          "mean": 0.02814949570341449,
+          "minimum": -0.07906928658485413,
+          "maximum": 0.15356074273586273,
+          "valid_fraction": 1,
+          "sd_population": 0.03059159488517973
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00009006784269067946
+    },
+    {
+      "current_geometry_park_id": 21,
+      "candidate_label": "P21_NDBIlabel_candidate1",
+      "source_raster": "NDBI_kyoto.tif",
+      "corresponding_ndvi_basename": "NDVI_kyoto.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 906,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 906,
+          "mean": -0.028829025772343534,
+          "minimum": -0.1469942331314087,
+          "maximum": 0.11254244297742844,
+          "valid_fraction": 1,
+          "sd_population": 0.05906050660512729
+        },
+        "outside": {
+          "eligible_n": 598,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 598,
+          "mean": -0.04486403114744316,
+          "minimum": -0.13541968166828156,
+          "maximum": 0.09338988363742828,
+          "valid_fraction": 1,
+          "sd_population": 0.038843849017205286
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00009177129830093139
+    },
+    {
+      "current_geometry_park_id": 24,
+      "candidate_label": "P24_NDBIlabel_candidate1",
+      "source_raster": "NDBI_nagoya.tif",
+      "corresponding_ndvi_basename": "NDVI_nagoya.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 339,
+          "nodata_n": 339,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "valid_fraction": 0,
+          "sd_population": null
+        },
+        "outside": {
+          "eligible_n": 335,
+          "nodata_n": 335,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "valid_fraction": 0,
+          "sd_population": null
+        }
+      },
+      "has_valid_pixels_in_both_zones": false,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00009025942149484687
+    },
+    {
+      "current_geometry_park_id": 24,
+      "candidate_label": "P24_NDBIlabel_candidate2",
+      "source_raster": "NDBI_nara.tif",
+      "corresponding_ndvi_basename": "NDVI_nara.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 339,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 339,
+          "mean": 0.004716196614005095,
+          "minimum": -0.1505722999572754,
+          "maximum": 0.10235045105218887,
+          "valid_fraction": 1,
+          "sd_population": 0.045899150048332976
+        },
+        "outside": {
+          "eligible_n": 335,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 335,
+          "mean": 0.0043117573466534215,
+          "minimum": -0.05166342109441757,
+          "maximum": 0.1316123604774475,
+          "valid_fraction": 1,
+          "sd_population": 0.035694946906592015
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00009025942149484687
+    },
+    {
+      "current_geometry_park_id": 25,
+      "candidate_label": "P25_NDBIlabel_candidate1",
+      "source_raster": "NDBI_nara.tif",
+      "corresponding_ndvi_basename": "NDVI_nara.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 3842,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 3842,
+          "mean": -0.06800120622594354,
+          "minimum": -0.2555180490016937,
+          "maximum": 0.1297297328710556,
+          "valid_fraction": 1,
+          "sd_population": 0.056459181616427545
+        },
+        "outside": {
+          "eligible_n": 1301,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 1301,
+          "mean": -0.046052205098744504,
+          "minimum": -0.2420857697725296,
+          "maximum": 0.11945541203022003,
+          "valid_fraction": 1,
+          "sd_population": 0.061177791162052145
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.000090947590074478
+    },
+    {
+      "current_geometry_park_id": 28,
+      "candidate_label": "P28_NDBIlabel_candidate1",
+      "source_raster": "NDBI_nagoya.tif",
+      "corresponding_ndvi_basename": "NDVI_nagoya.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 2182,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 2182,
+          "mean": -0.08586392938135931,
+          "minimum": -0.2841239869594574,
+          "maximum": 0.11476533114910126,
+          "valid_fraction": 1,
+          "sd_population": 0.0715150764923358
+        },
+        "outside": {
+          "eligible_n": 1949,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 1949,
+          "mean": -0.025346373051170868,
+          "minimum": -0.22851385176181793,
+          "maximum": 0.4204336404800415,
+          "valid_fraction": 1,
+          "sd_population": 0.05648042667383132
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00008988209246346858
+    },
+    {
+      "current_geometry_park_id": 28,
+      "candidate_label": "P28_NDBIlabel_candidate2",
+      "source_raster": "NDBI_nara.tif",
+      "corresponding_ndvi_basename": "NDVI_nara.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 2182,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 2182,
+          "mean": 0.006469811845041238,
+          "minimum": -0.22224505245685577,
+          "maximum": 0.16033005714416504,
+          "valid_fraction": 1,
+          "sd_population": 0.044582417524922334
+        },
+        "outside": {
+          "eligible_n": 1949,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 1949,
+          "mean": 0.020933208240097343,
+          "minimum": -0.14065463840961456,
+          "maximum": 0.14612019062042236,
+          "valid_fraction": 1,
+          "sd_population": 0.03631081458560784
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00008988209246346858
+    },
+    {
+      "current_geometry_park_id": 29,
+      "candidate_label": "P29_NDBIlabel_candidate1",
+      "source_raster": "NDBI_nagoya.tif",
+      "corresponding_ndvi_basename": "NDVI_nagoya.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 424,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 424,
+          "mean": -0.10494808331121983,
+          "minimum": -0.2726123332977295,
+          "maximum": 0.028764905408024788,
+          "valid_fraction": 1,
+          "sd_population": 0.08048792407226121
+        },
+        "outside": {
+          "eligible_n": 322,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 322,
+          "mean": -0.15411867968367865,
+          "minimum": -0.262456476688385,
+          "maximum": 0.005795351695269346,
+          "valid_fraction": 1,
+          "sd_population": 0.07321658000597073
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00009701519288830263
+    },
+    {
+      "current_geometry_park_id": 29,
+      "candidate_label": "P29_NDBIlabel_candidate2",
+      "source_raster": "NDBI_tokyo_down.tif",
+      "corresponding_ndvi_basename": "NDVI_tokyo_down.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 426,
+          "nodata_n": 426,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "valid_fraction": 0,
+          "sd_population": null
+        },
+        "outside": {
+          "eligible_n": 316,
+          "nodata_n": 316,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "valid_fraction": 0,
+          "sd_population": null
+        }
+      },
+      "has_valid_pixels_in_both_zones": false,
+      "tiff_metadata": {
+        "epsg": 32654,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.001270438550609101
+    },
+    {
+      "current_geometry_park_id": 33,
+      "candidate_label": "P33_NDBIlabel_candidate1",
+      "source_raster": "NDBI_nagoya.tif",
+      "corresponding_ndvi_basename": "NDVI_nagoya.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 988,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 988,
+          "mean": -0.1791920409510044,
+          "minimum": -0.2992943227291107,
+          "maximum": 0.01612176187336445,
+          "valid_fraction": 1,
+          "sd_population": 0.0784521180776178
+        },
+        "outside": {
+          "eligible_n": 482,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 482,
+          "mean": -0.09074535380733244,
+          "minimum": -0.289614200592041,
+          "maximum": 0.060295458883047104,
+          "valid_fraction": 1,
+          "sd_population": 0.08592807533207292
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32653,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00009300176981569215
+    },
+    {
+      "current_geometry_park_id": 33,
+      "candidate_label": "P33_NDBIlabel_candidate2",
+      "source_raster": "NDBI_tokyo_down.tif",
+      "corresponding_ndvi_basename": "NDVI_tokyo_down.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 987,
+          "nodata_n": 987,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "valid_fraction": 0,
+          "sd_population": null
+        },
+        "outside": {
+          "eligible_n": 479,
+          "nodata_n": 479,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "valid_fraction": 0,
+          "sd_population": null
+        }
+      },
+      "has_valid_pixels_in_both_zones": false,
+      "tiff_metadata": {
+        "epsg": 32654,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.0019616173788204235
+    },
+    {
+      "current_geometry_park_id": 34,
+      "candidate_label": "P34_NDBIlabel_candidate1",
+      "source_raster": "NDBI_island.tif",
+      "corresponding_ndvi_basename": "NDVI_island.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 780,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 780,
+          "mean": -0.24557573295270022,
+          "minimum": -0.3356485366821289,
+          "maximum": -0.05614783242344856,
+          "valid_fraction": 1,
+          "sd_population": 0.05012700394173778
+        },
+        "outside": {
+          "eligible_n": 509,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 509,
+          "mean": -0.22431456382351622,
+          "minimum": -0.3171933889389038,
+          "maximum": 0.03420310467481613,
+          "valid_fraction": 1,
+          "sd_population": 0.06591455364418568
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32652,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00006691153499943367
+    },
+    {
+      "current_geometry_park_id": 39,
+      "candidate_label": "P39_NDBIlabel_candidate1",
+      "source_raster": "NDBI_west.tif",
+      "corresponding_ndvi_basename": "NDVI_west.tif",
+      "stats": {
+        "inside": {
+          "eligible_n": 381,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 381,
+          "mean": -0.08635676182964462,
+          "minimum": -0.23948559165000916,
+          "maximum": 0.09621850401163101,
+          "valid_fraction": 1,
+          "sd_population": 0.05918260268268908
+        },
+        "outside": {
+          "eligible_n": 331,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 331,
+          "mean": -0.09624467487159002,
+          "minimum": -0.3170015811920166,
+          "maximum": 0.06748781353235245,
+          "valid_fraction": 1,
+          "sd_population": 0.08361313590514176
+        }
+      },
+      "has_valid_pixels_in_both_zones": true,
+      "tiff_metadata": {
+        "epsg": 32652,
+        "bits_per_sample": 32,
+        "sample_format": 3,
+        "raster_pixel_is_area": true,
+        "compression": 1,
+        "value_scale": 1,
+        "value_offset": 0,
+        "byte_order": "<"
+      },
+      "maximum_inverse_transform_difference_m": 0.00008603919703290668
+    }
+  ],
+  "interpretation_limits": [
+    "A match means the supplied NDBI-labelled file has matching scalar values under the audited fixed geometry at the old display precision. It is not proof of the actual spectral-index formula or of historical layer use.",
+    "NDBI-labelled values must never be substituted as NDVI into the new data or SEM.",
+    "No-match excludes only reproduction by these supplied labelled files and two fixed definitions, not every possible past layer, geometry or processing operation.",
+    "No closest-error candidate, tuned distance, invented mask, row assignment, final source selection or SEM re-estimation is performed.",
+    "Park identity alignment remains an author-confirmation requirement even if a numeric fingerprint matches."
+  ]
+}

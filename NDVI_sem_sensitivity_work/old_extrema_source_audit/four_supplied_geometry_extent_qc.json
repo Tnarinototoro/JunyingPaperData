@@ -1,0 +1,486 @@
+{
+  "purpose": "Inspect supplied same-number whole-park outlines for four clarified identities; accept author numbering, no identity reordering or boundary invention",
+  "input_file_sha256": "e919ae97fc3a146f58bdad7e0855b8126d40199e9fe25841757341b3b3cc2507",
+  "records": [
+    {
+      "ParkID": 9,
+      "author_confirmed_numbering_accepted": true,
+      "physical_record_number": 9,
+      "shape_type": 15,
+      "ring_count": 1,
+      "closed_exterior_ring_count": 1,
+      "polygon_connected_components_from_audited_single_ring": 1,
+      "holes_from_audited_geometry": 0,
+      "vertex_count_including_closure": 20,
+      "self_intersection_count": 0,
+      "equal_area_native_projection_area_m2": 145927.56174147138,
+      "equal_area_native_projection_area_ha": 14.592756174147137,
+      "local_utm_epsg_for_relative_outline": 32653,
+      "local_utm_polygon_area_m2": 145837.14341395197,
+      "utm_vs_native_equal_area_percent_difference": -0.06196110346829986,
+      "local_utm_east_west_extent_m": 387.5591918925056,
+      "local_utm_north_south_extent_m": 615.9704430606216,
+      "maximum_vertex_to_vertex_distance_m": 618.343292893663,
+      "local_utm_exterior_perimeter_m": 1669.8923625465882,
+      "compactness_4pi_area_perimeter_squared": 0.6572052985573609,
+      "principal_dimension_description": {
+        "vertex_pca_major_span_m": 618.3249962882567,
+        "vertex_pca_minor_span_m": 396.2609910484207,
+        "vertex_pca_span_ratio": 1.5603983492099556,
+        "method": "Vertex-PCA descriptive dimensions, not a minimum-area rectangle or river reach length"
+      },
+      "author_reported_multi_area_count": null,
+      "separate_area_or_administrative_boundaries_available_in_supplied_shapefile": false,
+      "can_certify_complete_coverage_of_all_reported_areas_from_local_outline_alone": null,
+      "relative_plot_vertices_m": [
+        [
+          214.662641,
+          0
+        ],
+        [
+          194.580903,
+          54.813703
+        ],
+        [
+          141.024997,
+          119.626344
+        ],
+        [
+          50.16616,
+          234.507027
+        ],
+        [
+          3.311758,
+          321.153597
+        ],
+        [
+          22.394627,
+          372.896453
+        ],
+        [
+          0,
+          428.834071
+        ],
+        [
+          76.458544,
+          499.448764
+        ],
+        [
+          83.084837,
+          529.303569
+        ],
+        [
+          160.543872,
+          615.970443
+        ],
+        [
+          194.254605,
+          580.764199
+        ],
+        [
+          263.215142,
+          591.723699
+        ],
+        [
+          336.186971,
+          543.135279
+        ],
+        [
+          387.559192,
+          465.697646
+        ],
+        [
+          334.959056,
+          428.536545
+        ],
+        [
+          376.391451,
+          306.317208
+        ],
+        [
+          320.61777,
+          239.334137
+        ],
+        [
+          284.410368,
+          172.534496
+        ],
+        [
+          323.723914,
+          30.814866
+        ],
+        [
+          214.662641,
+          0
+        ]
+      ],
+      "relative_plot_origin": "Arbitrary local-UTM minimum x/y; absolute origin and geographic coordinates intentionally withheld"
+    },
+    {
+      "ParkID": 18,
+      "author_confirmed_numbering_accepted": true,
+      "physical_record_number": 18,
+      "shape_type": 15,
+      "ring_count": 1,
+      "closed_exterior_ring_count": 1,
+      "polygon_connected_components_from_audited_single_ring": 1,
+      "holes_from_audited_geometry": 0,
+      "vertex_count_including_closure": 9,
+      "self_intersection_count": 0,
+      "equal_area_native_projection_area_m2": 433896.49891175266,
+      "equal_area_native_projection_area_ha": 43.38964989117527,
+      "local_utm_epsg_for_relative_outline": 32653,
+      "local_utm_polygon_area_m2": 433579.41525889,
+      "utm_vs_native_equal_area_percent_difference": -0.07307817732060684,
+      "local_utm_east_west_extent_m": 695.5649065581383,
+      "local_utm_north_south_extent_m": 863.4783729766496,
+      "maximum_vertex_to_vertex_distance_m": 1102.8961385292587,
+      "local_utm_exterior_perimeter_m": 3032.5493212828787,
+      "compactness_4pi_area_perimeter_squared": 0.5924651010319817,
+      "principal_dimension_description": {
+        "vertex_pca_major_span_m": 1074.1024007429355,
+        "vertex_pca_minor_span_m": 774.5834484102248,
+        "vertex_pca_span_ratio": 1.3866839046812207,
+        "method": "Vertex-PCA descriptive dimensions, not a minimum-area rectangle or river reach length"
+      },
+      "author_reported_multi_area_count": 3,
+      "separate_area_or_administrative_boundaries_available_in_supplied_shapefile": false,
+      "can_certify_complete_coverage_of_all_reported_areas_from_local_outline_alone": false,
+      "relative_plot_vertices_m": [
+        [
+          0,
+          863.478373
+        ],
+        [
+          223.678455,
+          856.034662
+        ],
+        [
+          231.427223,
+          653.104244
+        ],
+        [
+          680.86734,
+          655.69361
+        ],
+        [
+          695.564907,
+          7.575719
+        ],
+        [
+          138.721301,
+          0
+        ],
+        [
+          114.257828,
+          440.726007
+        ],
+        [
+          26.548075,
+          442.403163
+        ],
+        [
+          0,
+          863.478373
+        ]
+      ],
+      "relative_plot_origin": "Arbitrary local-UTM minimum x/y; absolute origin and geographic coordinates intentionally withheld"
+    },
+    {
+      "ParkID": 28,
+      "author_confirmed_numbering_accepted": true,
+      "physical_record_number": 28,
+      "shape_type": 15,
+      "ring_count": 1,
+      "closed_exterior_ring_count": 1,
+      "polygon_connected_components_from_audited_single_ring": 1,
+      "holes_from_audited_geometry": 0,
+      "vertex_count_including_closure": 30,
+      "self_intersection_count": 0,
+      "equal_area_native_projection_area_m2": 1973175.792438168,
+      "equal_area_native_projection_area_ha": 197.3175792438168,
+      "local_utm_epsg_for_relative_outline": 32653,
+      "local_utm_polygon_area_m2": 1971755.6467435374,
+      "utm_vs_native_equal_area_percent_difference": -0.0719725885586664,
+      "local_utm_east_west_extent_m": 886.611260206555,
+      "local_utm_north_south_extent_m": 7465.970292121172,
+      "maximum_vertex_to_vertex_distance_m": 7491.820904469083,
+      "local_utm_exterior_perimeter_m": 16203.92236004687,
+      "compactness_4pi_area_perimeter_squared": 0.0943675435043065,
+      "principal_dimension_description": {
+        "vertex_pca_major_span_m": 7489.927101024336,
+        "vertex_pca_minor_span_m": 817.8677984743033,
+        "vertex_pca_span_ratio": 9.157870153338312,
+        "method": "Vertex-PCA descriptive dimensions, not a minimum-area rectangle or river reach length"
+      },
+      "author_reported_multi_area_count": 5,
+      "separate_area_or_administrative_boundaries_available_in_supplied_shapefile": false,
+      "can_certify_complete_coverage_of_all_reported_areas_from_local_outline_alone": false,
+      "relative_plot_vertices_m": [
+        [
+          0,
+          162.969596
+        ],
+        [
+          195.848012,
+          393.337759
+        ],
+        [
+          312.606297,
+          1005.062104
+        ],
+        [
+          318.817208,
+          1768.789772
+        ],
+        [
+          315.623769,
+          2281.508783
+        ],
+        [
+          420.716094,
+          3002.163644
+        ],
+        [
+          404.643528,
+          3820.220883
+        ],
+        [
+          323.767946,
+          4485.146753
+        ],
+        [
+          88.917646,
+          5236.389574
+        ],
+        [
+          435.751313,
+          5849.464219
+        ],
+        [
+          640.121946,
+          6461.667033
+        ],
+        [
+          636.620092,
+          7018.048869
+        ],
+        [
+          732.432656,
+          7465.970292
+        ],
+        [
+          886.61126,
+          7346.915725
+        ],
+        [
+          877.437284,
+          7063.190867
+        ],
+        [
+          785.188601,
+          6048.012119
+        ],
+        [
+          513.557705,
+          5675.402793
+        ],
+        [
+          341.100029,
+          5216.146749
+        ],
+        [
+          420.273986,
+          4823.922096
+        ],
+        [
+          693.411495,
+          4956.535126
+        ],
+        [
+          793.539837,
+          4717.168213
+        ],
+        [
+          521.018483,
+          4486.380439
+        ],
+        [
+          633.197777,
+          4072.55199
+        ],
+        [
+          681.535728,
+          3352.880931
+        ],
+        [
+          751.64686,
+          2655.154828
+        ],
+        [
+          571.340458,
+          1694.0112
+        ],
+        [
+          618.231592,
+          1203.366737
+        ],
+        [
+          447.908197,
+          394.927507
+        ],
+        [
+          110.606264,
+          0
+        ],
+        [
+          0,
+          162.969596
+        ]
+      ],
+      "relative_plot_origin": "Arbitrary local-UTM minimum x/y; absolute origin and geographic coordinates intentionally withheld"
+    },
+    {
+      "ParkID": 32,
+      "author_confirmed_numbering_accepted": true,
+      "physical_record_number": 32,
+      "shape_type": 15,
+      "ring_count": 1,
+      "closed_exterior_ring_count": 1,
+      "polygon_connected_components_from_audited_single_ring": 1,
+      "holes_from_audited_geometry": 0,
+      "vertex_count_including_closure": 24,
+      "self_intersection_count": 0,
+      "equal_area_native_projection_area_m2": 164432.894339038,
+      "equal_area_native_projection_area_ha": 16.4432894339038,
+      "local_utm_epsg_for_relative_outline": 32654,
+      "local_utm_polygon_area_m2": 164324.20767572284,
+      "utm_vs_native_equal_area_percent_difference": -0.06609788373065362,
+      "local_utm_east_west_extent_m": 466.370259010524,
+      "local_utm_north_south_extent_m": 589.2965657850727,
+      "maximum_vertex_to_vertex_distance_m": 681.8928729704054,
+      "local_utm_exterior_perimeter_m": 2010.8657506932182,
+      "compactness_4pi_area_perimeter_squared": 0.51067577481197,
+      "principal_dimension_description": {
+        "vertex_pca_major_span_m": 624.8624800691146,
+        "vertex_pca_minor_span_m": 384.5723020476926,
+        "vertex_pca_span_ratio": 1.6248244523642852,
+        "method": "Vertex-PCA descriptive dimensions, not a minimum-area rectangle or river reach length"
+      },
+      "author_reported_multi_area_count": null,
+      "separate_area_or_administrative_boundaries_available_in_supplied_shapefile": false,
+      "can_certify_complete_coverage_of_all_reported_areas_from_local_outline_alone": null,
+      "relative_plot_vertices_m": [
+        [
+          157.628444,
+          457.963078
+        ],
+        [
+          180.163636,
+          589.296566
+        ],
+        [
+          224.156002,
+          585.842876
+        ],
+        [
+          228.518127,
+          566.14286
+        ],
+        [
+          331.638298,
+          554.551569
+        ],
+        [
+          415.083337,
+          549.20087
+        ],
+        [
+          466.370259,
+          515.434068
+        ],
+        [
+          456.672214,
+          455.044581
+        ],
+        [
+          454.003354,
+          337.126701
+        ],
+        [
+          440.664396,
+          214.776557
+        ],
+        [
+          416.537067,
+          75.898108
+        ],
+        [
+          381.461191,
+          59.607017
+        ],
+        [
+          344.54433,
+          165.815104
+        ],
+        [
+          318.723679,
+          164.554839
+        ],
+        [
+          293.520917,
+          71.049817
+        ],
+        [
+          243.382863,
+          67.002663
+        ],
+        [
+          203.427859,
+          17.49242
+        ],
+        [
+          136.458625,
+          0
+        ],
+        [
+          0,
+          17.963795
+        ],
+        [
+          63.390293,
+          135.291317
+        ],
+        [
+          141.015145,
+          155.703814
+        ],
+        [
+          115.66669,
+          202.826434
+        ],
+        [
+          114.665241,
+          255.760117
+        ],
+        [
+          157.628444,
+          457.963078
+        ]
+      ],
+      "relative_plot_origin": "Arbitrary local-UTM minimum x/y; absolute origin and geographic coordinates intentionally withheld"
+    }
+  ],
+  "private_plot_caveat": "Relative outlines have no names, addresses or absolute coordinates and are for internal root inspection only; not official maps",
+  "input_gis_files_modified": false,
+  "geometry_or_id_reordering_performed": false,
+  "source_selection_based_on_sem_or_extrema": false,
+  "sem_run_performed": false,
+  "interpretation": [
+    "All four supplied records use one closed exterior ring. A connected whole-park outline can include several administrative or management areas; one ring does not prove an area was omitted.",
+    "The shapefile contains no component boundaries or area-specific labels. Extent/shape alone cannot certify coverage of every one of the reported three or five areas.",
+    "The earlier same-number address-region screen shows no obvious regional contradiction. It does not independently geocode a precise street address, park entrance or legal boundary.",
+    "No raw address is converted into a supposedly exact boundary, and no existing geometry is expanded or adjusted to chase an old statistic or improve SEM.",
+    "These properties describe the author's supplied boundary as it stands. A complete-area claim must follow the author's intended selection rather than the number of rings or a bibliographic assumption."
+  ]
+}

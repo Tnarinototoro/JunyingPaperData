@@ -1,0 +1,749 @@
+{
+  "purpose": "Provisional equal-weight two-source four-park NDVI ML diagnostic; not a final source choice",
+  "source_grid_mask_equality_to_be_confirmed_by_root": true,
+  "independent_not_Amos_output": true,
+  "no_model_constraints_released": true,
+  "original_files_modified": false,
+  "gradient_check_initial": {
+    "F": 4.5896868434781375,
+    "maximum_relative_gradient_error": 3.002088543252804e-09
+  },
+  "original_covariance_equivalence_max_error": 0.0,
+  "observed_count": 16,
+  "cases": 39,
+  "covariance_divisor": 39,
+  "likelihood_multiplier": 38,
+  "means_and_z_for_check": [
+    {
+      "ParkID": 1,
+      "inside_mean": 0.35206616650423106,
+      "outside_mean": 0.22434130494977222,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 1.0601368569451168,
+      "z_outside": 0.480219777066499
+    },
+    {
+      "ParkID": 2,
+      "inside_mean": 0.21473220908328106,
+      "outside_mean": 0.1119487462338151,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": -0.3377709322398981,
+      "z_outside": -0.7922604069260911
+    },
+    {
+      "ParkID": 3,
+      "inside_mean": 0.2711417811882237,
+      "outside_mean": 0.28112740055207286,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 0.2364161203358097,
+      "z_outside": 1.1231376197223688
+    },
+    {
+      "ParkID": 4,
+      "inside_mean": 0.2724677534243064,
+      "outside_mean": 0.19755042454233215,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 0.24991305111587575,
+      "z_outside": 0.17690019061292794
+    },
+    {
+      "ParkID": 5,
+      "inside_mean": 0.24535783186094642,
+      "outside_mean": 0.25357485211443626,
+      "sources": [
+        "NDVI_nara.tif"
+      ],
+      "z_inside": -0.02603596564081007,
+      "z_outside": 0.8111946200617438
+    },
+    {
+      "ParkID": 6,
+      "inside_mean": 0.1693673867377497,
+      "outside_mean": 0.06515584884526349,
+      "sources": [
+        "NDVI_nara.tif"
+      ],
+      "z_inside": -0.7995346482408378,
+      "z_outside": -1.3220377815030864
+    },
+    {
+      "ParkID": 7,
+      "inside_mean": 0.2649628271659215,
+      "outside_mean": 0.20378391598425213,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 0.17352120258202597,
+      "z_outside": 0.24747420750115112
+    },
+    {
+      "ParkID": 8,
+      "inside_mean": 0.18915480616191152,
+      "outside_mean": 0.14422021248867598,
+      "sources": [
+        "NDVI_nara.tif"
+      ],
+      "z_inside": -0.598120604253731,
+      "z_outside": -0.42689101070586083
+    },
+    {
+      "ParkID": 9,
+      "inside_mean": 0.1474224511032804,
+      "outside_mean": 0.1811112131829074,
+      "sources": [
+        "NDVI_nagoya.tif",
+        "NDVI_nara.tif"
+      ],
+      "z_inside": -1.0229098209416336,
+      "z_outside": -0.009220411447570673
+    },
+    {
+      "ParkID": 10,
+      "inside_mean": 0.06537684301096734,
+      "outside_mean": 0.009877880821413599,
+      "sources": [
+        "NDVI_hokka_test.tif"
+      ],
+      "z_inside": -1.8580433652923292,
+      "z_outside": -1.9478809843390614
+    },
+    {
+      "ParkID": 11,
+      "inside_mean": 0.2712702324820889,
+      "outside_mean": 0.2598548239801784,
+      "sources": [
+        "NDVI_tokyo_down.tif"
+      ],
+      "z_inside": 0.23772361243461176,
+      "z_outside": 0.8822948765776878
+    },
+    {
+      "ParkID": 12,
+      "inside_mean": 0.3621415248761574,
+      "outside_mean": 0.2743143225443505,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 1.1626928613845386,
+      "z_outside": 1.0460016700129906
+    },
+    {
+      "ParkID": 13,
+      "inside_mean": 0.310114933415721,
+      "outside_mean": 0.16546347202258369,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 0.6331197040017157,
+      "z_outside": -0.18638018766619135
+    },
+    {
+      "ParkID": 14,
+      "inside_mean": 0.27271902864292014,
+      "outside_mean": 0.151783034964982,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 0.25247075491998766,
+      "z_outside": -0.3412666433447247
+    },
+    {
+      "ParkID": 15,
+      "inside_mean": 0.28815264244225214,
+      "outside_mean": 0.1438410849079514,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 0.40956787314566806,
+      "z_outside": -0.4311833974900812
+    },
+    {
+      "ParkID": 16,
+      "inside_mean": 0.3213462208661374,
+      "outside_mean": 0.15108390469369454,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 0.7474417879520755,
+      "z_outside": -0.34918201982877606
+    },
+    {
+      "ParkID": 17,
+      "inside_mean": 0.34935224727467373,
+      "outside_mean": 0.2252195861886491,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 1.032512160901526,
+      "z_outside": 0.49016345559122865
+    },
+    {
+      "ParkID": 18,
+      "inside_mean": 0.16821797208727468,
+      "outside_mean": 0.06737549062218615,
+      "sources": [
+        "NDVI_nagoya.tif",
+        "NDVI_nara.tif"
+      ],
+      "z_inside": -0.8112344180798251,
+      "z_outside": -1.2969075575010307
+    },
+    {
+      "ParkID": 19,
+      "inside_mean": 0.3243561849076047,
+      "outside_mean": 0.24561814059812698,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 0.7780798927424067,
+      "z_outside": 0.7211107403999517
+    },
+    {
+      "ParkID": 20,
+      "inside_mean": 0.22404565263325582,
+      "outside_mean": 0.22139611481464502,
+      "sources": [
+        "NDVI_tokyo_down.tif"
+      ],
+      "z_inside": -0.24297037797684454,
+      "z_outside": 0.44687507766775014
+    },
+    {
+      "ParkID": 21,
+      "inside_mean": 0.2106495573294347,
+      "outside_mean": 0.21019105452391626,
+      "sources": [
+        "NDVI_kyoto.tif"
+      ],
+      "z_inside": -0.37932781150274736,
+      "z_outside": 0.3200142130047387
+    },
+    {
+      "ParkID": 22,
+      "inside_mean": 0.2693852384969511,
+      "outside_mean": 0.11398813686616882,
+      "sources": [
+        "NDVI_fukushima.tif"
+      ],
+      "z_inside": 0.21853645855165615,
+      "z_outside": -0.7691709408908117
+    },
+    {
+      "ParkID": 23,
+      "inside_mean": 0.32052991073578596,
+      "outside_mean": 0.20068059784153963,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 0.7391326536997859,
+      "z_outside": 0.2123392227090868
+    },
+    {
+      "ParkID": 24,
+      "inside_mean": 0.13114342678291585,
+      "outside_mean": 0.018253677509639955,
+      "sources": [
+        "NDVI_nara.tif"
+      ],
+      "z_inside": -1.188612283210433,
+      "z_outside": -1.8530523281301197
+    },
+    {
+      "ParkID": 25,
+      "inside_mean": 0.23439169487984443,
+      "outside_mean": 0.19444103726199682,
+      "sources": [
+        "NDVI_nara.tif"
+      ],
+      "z_inside": -0.13765911108155898,
+      "z_outside": 0.14169649257643535
+    },
+    {
+      "ParkID": 26,
+      "inside_mean": 0.3356966891009873,
+      "outside_mean": 0.2293768336881051,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 0.8935136823376708,
+      "z_outside": 0.5372307625681937
+    },
+    {
+      "ParkID": 27,
+      "inside_mean": -0.006638381713626562,
+      "outside_mean": 0.03174631460195051,
+      "sources": [
+        "NDVI_hokka_test.tif"
+      ],
+      "z_inside": -2.591078701002112,
+      "z_outside": -1.7002920962613977
+    },
+    {
+      "ParkID": 28,
+      "inside_mean": 0.18236186492731954,
+      "outside_mean": 0.1231052285671213,
+      "sources": [
+        "NDVI_nagoya.tif",
+        "NDVI_nara.tif"
+      ],
+      "z_inside": -0.6672652327319287,
+      "z_outside": -0.6659495296368457
+    },
+    {
+      "ParkID": 29,
+      "inside_mean": 0.2812571917607818,
+      "outside_mean": 0.2984938356238678,
+      "sources": [
+        "NDVI_nagoya.tif"
+      ],
+      "z_inside": 0.3393798118781779,
+      "z_outside": 1.3197560146403189
+    },
+    {
+      "ParkID": 30,
+      "inside_mean": 0.13865586560843407,
+      "outside_mean": 0.1446491219591172,
+      "sources": [
+        "NDVI_fukushima_up.tif"
+      ],
+      "z_inside": -1.1121439650523937,
+      "z_outside": -0.422035005930291
+    },
+    {
+      "ParkID": 31,
+      "inside_mean": 0.3880703958408478,
+      "outside_mean": 0.263179803358569,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 1.4266200893403578,
+      "z_outside": 0.9199394539369302
+    },
+    {
+      "ParkID": 32,
+      "inside_mean": 0.16875399452747425,
+      "outside_mean": 0.09087734012930783,
+      "sources": [
+        "NDVI_fukushima.tif",
+        "NDVI_fukushima_up.tif"
+      ],
+      "z_inside": -0.8057783025028438,
+      "z_outside": -1.030825548810695
+    },
+    {
+      "ParkID": 33,
+      "inside_mean": 0.319671098210732,
+      "outside_mean": 0.20176214892880923,
+      "sources": [
+        "NDVI_nagoya.tif"
+      ],
+      "z_inside": 0.7303908920789307,
+      "z_outside": 0.2245842711557933
+    },
+    {
+      "ParkID": 34,
+      "inside_mean": 0.40475685628942953,
+      "outside_mean": 0.3893658426134666,
+      "sources": [
+        "NDVI_island.tif"
+      ],
+      "z_inside": 1.5964698007522402,
+      "z_outside": 2.348585943373701
+    },
+    {
+      "ParkID": 35,
+      "inside_mean": 0.020713904151206306,
+      "outside_mean": -0.0016292507939327221,
+      "sources": [
+        "NDVI_hokka_test.tif"
+      ],
+      "z_inside": -2.3126626837219444,
+      "z_outside": -2.078161824302214
+    },
+    {
+      "ParkID": 36,
+      "inside_mean": 0.18207972887016477,
+      "outside_mean": 0.2331206716083247,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": -0.6701370657389518,
+      "z_outside": 0.5796175506259256
+    },
+    {
+      "ParkID": 37,
+      "inside_mean": 0.36617251290008423,
+      "outside_mean": 0.27598092449439127,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 1.2037238610191505,
+      "z_outside": 1.0648705166720458
+    },
+    {
+      "ParkID": 38,
+      "inside_mean": 0.37247059108303476,
+      "outside_mean": 0.2814999072459237,
+      "sources": [
+        "NDVI_tokyo.tif"
+      ],
+      "z_inside": 1.2678313309718054,
+      "z_outside": 1.1273550464963933
+    },
+    {
+      "ParkID": 39,
+      "inside_mean": 0.264822303797815,
+      "outside_mean": 0.2173738448029128,
+      "sources": [
+        "NDVI_west.tif"
+      ],
+      "z_inside": 0.17209083011968976,
+      "z_outside": 0.40133595174098874
+    }
+  ],
+  "fit": {
+    "raw_parameters_reduced": [
+      0.10305351309308725,
+      -0.0103763505642997,
+      0.43329657761965457,
+      -0.08107282349091836,
+      0.1238882537172491,
+      0.08524783967124291,
+      0.0759654887508668,
+      0.3261355004557048,
+      0.09432646610972244,
+      0.3912804743942034,
+      0.8744384193049015,
+      1.2661008425342253,
+      0.1250753707706507,
+      0.4187213058927389,
+      -0.4555349771529448,
+      0.04891049492772535,
+      0.5787986339324084,
+      -0.11747055528724604,
+      0.003984110074461847,
+      0.40351665637229855,
+      0.5717181579227897,
+      0.03414694364871258,
+      0.019384450383271103,
+      0.12004394248821758,
+      0.8184908834492193,
+      0.9735272015068653,
+      0.6604403426133809,
+      0.04816916771743127,
+      0.07685895254687455,
+      0.16138731126536446,
+      0.062136646900260314,
+      1.0984220286722048,
+      0.6019761124339995,
+      0.6002324782475256,
+      0.7281758866845539,
+      0.03028435202233376
+    ],
+    "F_ml": 3.6888760616752663,
+    "iterations": 72,
+    "termination": "gradient_converged",
+    "maximum_scaled_gradient": 1.2795130827456413e-07,
+    "trace": [
+      {
+        "iteration": 0,
+        "F": 4.51475210266549,
+        "max_scaled_gradient": 0.3361504223586219
+      }
+    ],
+    "elapsed_seconds": 0.14222260005772114,
+    "same_model_original_F_difference": 0.0,
+    "same_model_sigma_max_difference": 1.1102230246251565e-16,
+    "original_parameterization_max_scaled_gradient": 2.399036349107487e-07,
+    "original_model_diagnostics": {
+      "raw_parameters": [
+        0.10305351309308725,
+        -0.0103763505642997,
+        0.43329657761965457,
+        -0.08107282349091836,
+        0.1238882537172491,
+        0.08524783967124291,
+        0.0759654887508668,
+        0.3261355004557048,
+        0.09432646610972244,
+        -3.330881287122726,
+        0.8744384193049015,
+        1.2661008425342253,
+        0.1250753707706507,
+        0.4187213058927389,
+        -0.4555349771529448,
+        0.04891049492772535,
+        0.5787986339324084,
+        -0.11747055528724604,
+        0.003984110074461847,
+        0.40351665637229855,
+        0.5717181579227897,
+        0.018798644239603098,
+        0.012117256214657167,
+        0.05270963804421401,
+        0.2396922495168109,
+        2.271686161135159,
+        0.777910897900627,
+        0.03357767897836622,
+        0.06226746380780951,
+        0.15023003811993807,
+        0.016806105801280904,
+        0.624630003410247,
+        0.12818408717204166,
+        0.3787344224135759,
+        0.14988492605297465,
+        0.02890094327055136
+      ],
+      "scaled_parameters": [
+        0.6870234206205816,
+        -0.017676917486030154,
+        1.9875989799066722,
+        -0.5404854899394558,
+        0.8259216914483274,
+        0.5683189311416195,
+        0.5064365916724454,
+        0.9973562705067424,
+        0.16995759659409446,
+        -1.151358896343839,
+        1.5341024900085993,
+        2.1605816425498725,
+        0.3058077524954785,
+        0.8146328908419045,
+        -1.001175773962516,
+        0.32606996618483564,
+        1.001381719606243,
+        -3.9156851762415346,
+        0.13280366914872824,
+        8.772101225484752,
+        1.2537678901815563,
+        0.6266214746534366,
+        0.4039085404885722,
+        0.9945214725323398,
+        0.9945736494473482,
+        3.473526240267827,
+        0.8373637221750558,
+        1.1192559659455408,
+        1.020778095209992,
+        0.9818956739865233,
+        0.5602035267093635,
+        1.1016402176547566,
+        0.7768732555881313,
+        1.0638607371167863,
+        0.5832098289999014,
+        0.9633647756850454
+      ],
+      "F_ml": 3.6888760616752663,
+      "max_abs_scaled_gradient": 1.2795130827456413e-07,
+      "iterations": 72,
+      "termination": "gradient_converged",
+      "covariance_divisor": null,
+      "likelihood_multiplier": 38,
+      "independent_implementation_not_Amos_output": true,
+      "fit_indices": {
+        "chi_square": 140.1772903436601,
+        "df": 100,
+        "chi_square_div_df": 1.401772903436601,
+        "GFI": 0.7260617033466328,
+        "AGFI": 0.6274439165514205,
+        "CFI": 0.7770888697800153,
+        "TLI": 0.7325066437360184,
+        "RMR": 0.10068224529942398,
+        "RMSEA": 0.10282495389285837,
+        "independence_chi_square": 300.23904999274953,
+        "independence_df": 120
+      },
+      "main_paths": [
+        {
+          "path": "SN -> ENV",
+          "B": 0.10305351309308725,
+          "beta": 0.8531256493991167,
+          "fixed": false
+        },
+        {
+          "path": "EQ -> ENV",
+          "B": -0.0103763505642997,
+          "beta": null,
+          "fixed": false
+        },
+        {
+          "path": "SN -> BAL",
+          "B": 0.43329657761965457,
+          "beta": 0.6294936963717324,
+          "fixed": false
+        },
+        {
+          "path": "SN -> USR",
+          "B": -0.08107282349091836,
+          "beta": -0.10661101948236712,
+          "fixed": false
+        },
+        {
+          "path": "EQ -> BAL",
+          "B": 1.0,
+          "beta": null,
+          "fixed": true
+        },
+        {
+          "path": "UA -> O14",
+          "B": -0.4555349771529448,
+          "beta": -0.44732763823545985,
+          "fixed": false
+        }
+      ],
+      "measurement_paths": [
+        {
+          "path": "SN -> O01",
+          "B": 0.1238882537172491,
+          "beta": 0.6704311929876033,
+          "fixed": false
+        },
+        {
+          "path": "SN -> O02",
+          "B": 0.08524783967124291,
+          "beta": 0.6122892522271882,
+          "fixed": false
+        },
+        {
+          "path": "SN -> O03",
+          "B": 0.0759654887508668,
+          "beta": 0.21925333666670108,
+          "fixed": false
+        },
+        {
+          "path": "UA -> O03",
+          "B": 0.3261355004557048,
+          "beta": 0.7161297218325546,
+          "fixed": false
+        },
+        {
+          "path": "UA -> O04",
+          "B": 1.0,
+          "beta": 0.8409241510954445,
+          "fixed": true
+        },
+        {
+          "path": "UA -> O05",
+          "B": 1.0,
+          "beta": 0.9100970885940691,
+          "fixed": true
+        },
+        {
+          "path": "UA -> O06",
+          "B": 0.09432646610972244,
+          "beta": 0.07273162108475585,
+          "fixed": false
+        },
+        {
+          "path": "EQ -> O06",
+          "B": -3.3308812871227262,
+          "beta": null,
+          "fixed": false
+        },
+        {
+          "path": "EQ -> O07",
+          "B": 1.0,
+          "beta": null,
+          "fixed": true
+        },
+        {
+          "path": "ENV -> O08",
+          "B": 1.0,
+          "beta": 0.5503832785262424,
+          "fixed": true
+        },
+        {
+          "path": "ENV -> O09",
+          "B": 1.0,
+          "beta": 0.43571506031504464,
+          "fixed": true
+        },
+        {
+          "path": "ENV -> O10",
+          "B": 0.8744384193049015,
+          "beta": 0.26293254163736896,
+          "fixed": false
+        },
+        {
+          "path": "ENV -> O11",
+          "B": 1.2661008425342253,
+          "beta": 0.6135418523143421,
+          "fixed": false
+        },
+        {
+          "path": "BAL -> O11",
+          "B": 0.1250753707706507,
+          "beta": 0.3453756898982746,
+          "fixed": false
+        },
+        {
+          "path": "BAL -> O12",
+          "B": 1.0,
+          "beta": 0.6567638744771926,
+          "fixed": true
+        },
+        {
+          "path": "BAL -> O13",
+          "B": 1.0,
+          "beta": 0.8871646820925013,
+          "fixed": true
+        },
+        {
+          "path": "UA -> O14",
+          "B": -0.4555349771529448,
+          "beta": -0.44732763823545985,
+          "fixed": false
+        },
+        {
+          "path": "USR -> O14",
+          "B": 0.4187213058927389,
+          "beta": 0.41099687154153663,
+          "fixed": false
+        },
+        {
+          "path": "USR -> O15",
+          "B": 1.0,
+          "beta": 0.8911587081507657,
+          "fixed": true
+        },
+        {
+          "path": "USR -> O16",
+          "B": 0.04891049492772535,
+          "beta": 0.2137303104246233,
+          "fixed": false
+        }
+      ],
+      "latent_variances": {
+        "SN": 1.0,
+        "UA": 0.5787986339324084,
+        "EQ": -0.11747055528724604,
+        "ENV": 0.014591488739065048,
+        "BAL": 0.47379202526195785,
+        "USR": 0.5782909606315793
+      },
+      "R_squared": {
+        "ENV": 0.726956574088606,
+        "BAL": 0.1483253519322203,
+        "USR": 0.011365909475069658
+      },
+      "negative_variance_parameters": [
+        {
+          "parameter": "EQ",
+          "value": -0.11747055528724604
+        }
+      ],
+      "solution_admissible_nonnegative_variances": false
+    },
+    "gradient_check_at_final_reduced": {
+      "F": 3.6888760616752663,
+      "maximum_relative_gradient_error": 3.533416705161926e-09
+    }
+  }
+}

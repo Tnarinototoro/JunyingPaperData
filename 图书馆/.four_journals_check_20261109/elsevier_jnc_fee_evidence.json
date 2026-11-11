@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-11-09T15:24:30",
+  "api_url": "https://journalfinder.elsevier.com/api/journals/search",
+  "request": {
+    "query": "Journal for Nature Conservation",
+    "mode": "search",
+    "goldOpenAccess": true,
+    "subscription": true,
+    "sortBy": "default",
+    "sortOrder": "asc",
+    "ecrId": "",
+    "agreementsFilter": "all-journals"
+  },
+  "status": 200,
+  "result_page": "https://journalfinder.elsevier.com/results?query=Journal%20for%20Nature%20Conservation&mode=search",
+  "exact_journal": [
+    {
+      "title": "Journal for Nature Conservation",
+      "issn": "1617-1381",
+      "openAccessType": "HYBRID",
+      "goldOpenAccessFee": {
+        "value": 3160,
+        "currency": "USD",
+        "discountedValue": null,
+        "discountExpiryDate": null
+      },
+      "editorInChief": "Nir Becker | María Vanessa Lencinas | Angel Pérez-Ruzafa | Stefan Schindler",
+      "links": {
+        "submission": "https://submit.elsevier.com/JNC",
+        "guideForAuthors": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/publish/guide-for-authors"
+      },
+      "hasAgreements": false
+    }
+  ],
+  "official_pages": [
+    {
+      "key": "gfa",
+      "url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/publish/guide-for-authors",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/publish/guide-for-authors",
+      "length": 832981,
+      "contexts": []
+    },
+    {
+      "key": "open_access",
+      "url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/publish/open-access-options",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/publish/open-access-options",
+      "length": 832981,
+      "contexts": []
+    },
+    {
+      "key": "publishing_options",
+      "url": "https://www.elsevier.com/researcher/author/open-access",
+      "status": 200,
+      "final_url": "https://www.elsevier.com/researcher/author/open-access",
+      "length": 261950,
+      "contexts": [
+        "t, efficient and positive as possible, and ensure we present you with the lowest possible article publishing charge (APC) to publish an OA article in your chosen journal. Get started opens in new tab/window Watch our video ( opens in new tab/window ) When you publish open access with us you benefit from the world-class expertise of our ed",
+        "s possible, and ensure we present you with the lowest possible article publishing charge (APC) to publish an OA article in your chosen journal. Get started opens in new tab/window Watch our video ( opens in new tab/window ) When you publish open access with us you benefit from the world-class expertise of our editors and reviewers, state-",
+        "ality Rigorous standards and quality journals across the board While offering competitive article publishing charges (APCs), our expert editors and reviewers ensure that all our open access publications maintain the highest standards of quality through a rigorous peer review process With the assurance that you are publishing the best work",
+        " quality journals across the board While offering competitive article publishing charges (APCs), our expert editors and reviewers ensure that all our open access publications maintain the highest standards of quality through a rigorous peer review process With the assurance that you are publishing the best work possible, choosing Elsevier",
+        "eamless publishing experience with the assurance that you’ll be shown the lowest possible APC for your article, including any discounts for which you might be eligible With Elsevier’s PlumX metrics opens in new tab/window , you can track who’s talking about your article in the news or on social media, as well as who is citing and download",
+        "ve the options you need to comply, and the support to make it easy We automatically apply APC waivers or discounts to those articles in fully open access journals for which all authors are based in a country eligible for the Research4Life program opens in new tab/window , in addition, we will consider individual waiver requests on a case-",
+        "hors’ Update Connect Advancing open access Sep 3, 2024 Connect Seven top tips on stopping APC scams Sep 8, 2022 Connect Faces of Elsevier - Bharath Aradhyula, Open Access Business Development Manager Feb 15, 2022 Connect A helping hand with your open access journey Jun 16, 2021 Connect Beware of fraudulent emails requesting payment Sep 23"
+      ]
+    },
+    {
+      "key": "finder_result",
+      "url": "https://journalfinder.elsevier.com/results?query=Journal%20for%20Nature%20Conservation&mode=search",
+      "status": 200,
+      "final_url": "https://journalfinder.elsevier.com/results?query=Journal%20for%20Nature%20Conservation&mode=search",
+      "length": 107107,
+      "contexts": []
+    }
+  ]
+}

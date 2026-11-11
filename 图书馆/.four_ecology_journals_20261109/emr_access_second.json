@@ -1,0 +1,35 @@
+[
+  {
+    "name": "emr_esa_journals",
+    "url": "https://www.ecolsoc.org.au/publications/journals/",
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "name": "emr_reader_home",
+    "url": "https://r.jina.ai/https://onlinelibrary.wiley.com/journal/14428903",
+    "final_url": "https://r.jina.ai/https://onlinelibrary.wiley.com/journal/14428903",
+    "status": 200,
+    "chars": 498
+  },
+  {
+    "name": "emr_reader_scope",
+    "url": "https://r.jina.ai/https://onlinelibrary.wiley.com/page/journal/14428903/homepage/productinformation.html",
+    "final_url": "https://r.jina.ai/https://onlinelibrary.wiley.com/page/journal/14428903/homepage/productinformation.html",
+    "status": 200,
+    "chars": 536
+  },
+  {
+    "name": "emr_reader_author",
+    "url": "https://r.jina.ai/https://onlinelibrary.wiley.com/page/journal/14428903/homepage/forauthors.html",
+    "final_url": "https://r.jina.ai/https://onlinelibrary.wiley.com/page/journal/14428903/homepage/forauthors.html",
+    "status": 200,
+    "chars": 528
+  },
+  {
+    "name": "emr_wiley_newhome",
+    "url": "https://onlinelibrary.wiley.com/journal/14428903/homepage/overview",
+    "final_url": "https://onlinelibrary.wiley.com/journal/14428903/homepage/overview",
+    "status": 403,
+    "chars": 59
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "scope": "Read-only final QA of four scenario SAV/CSV/XLSX and original AMW copy; not SEM estimation",
+  "all_checks_pass": true,
+  "original_files_modified": false,
+  "package_files_modified": false,
+  "xlsx_sheet_count": 8,
+  "scientific_numeric_cells_are_numeric": true,
+  "scenario_data_checks": [
+    {
+      "scenario": 1,
+      "sav": "组合1_SEM输入.sav",
+      "sha256": "7a1c81e5dac915ad467662c736146d4fd015540d67b8d93096ede42b728fb556",
+      "uncompressed_case_data_directly_decoded": true,
+      "rows": 39,
+      "columns": 17,
+      "dictionary_byte_identical_to_original": true,
+      "long_names_preserved": true,
+      "exactly_matches_CSV_Excel_and_independent_NDVI_QC": true,
+      "ParkID_and_14_non_NDVI_observed_columns_preserved": true,
+      "all_78_Z_values_recomputed": true,
+      "z_statistics": {
+        "Z内部NDVI平均値": {
+          "mean": -1.8076708221460882e-16,
+          "sample_sd": 1.0
+        },
+        "Z外部NDVI平均値": {
+          "mean": 1.9571239216148592e-16,
+          "sample_sd": 0.9999999999999999
+        }
+      }
+    },
+    {
+      "scenario": 2,
+      "sav": "组合2_SEM输入.sav",
+      "sha256": "5849cf69743fdf0fe8e35134dc61b3a2f026f290e82f8977401b1df6f3527783",
+      "uncompressed_case_data_directly_decoded": true,
+      "rows": 39,
+      "columns": 17,
+      "dictionary_byte_identical_to_original": true,
+      "long_names_preserved": true,
+      "exactly_matches_CSV_Excel_and_independent_NDVI_QC": true,
+      "ParkID_and_14_non_NDVI_observed_columns_preserved": true,
+      "all_78_Z_values_recomputed": true,
+      "z_statistics": {
+        "Z内部NDVI平均値": {
+          "mean": 7.75732754385526e-17,
+          "sample_sd": 0.9999999999999999
+        },
+        "Z外部NDVI平均値": {
+          "mean": 8.184336399480321e-17,
+          "sample_sd": 0.9999999999999999
+        }
+      }
+    },
+    {
+      "scenario": 3,
+      "sav": "组合3_SEM输入.sav",
+      "sha256": "2c3fce4aa83ba87a3588358cae46f696782653385bf046287a8dae10fb5123cf",
+      "uncompressed_case_data_directly_decoded": true,
+      "rows": 39,
+      "columns": 17,
+      "dictionary_byte_identical_to_original": true,
+      "long_names_preserved": true,
+      "exactly_matches_CSV_Excel_and_independent_NDVI_QC": true,
+      "ParkID_and_14_non_NDVI_observed_columns_preserved": true,
+      "all_78_Z_values_recomputed": true,
+      "z_statistics": {
+        "Z内部NDVI平均値": {
+          "mean": -7.917455864714658e-17,
+          "sample_sd": 1.0
+        },
+        "Z外部NDVI平均値": {
+          "mean": -8.540177112501205e-18,
+          "sample_sd": 1.0
+        }
+      }
+    },
+    {
+      "scenario": 4,
+      "sav": "组合4_SEM输入.sav",
+      "sha256": "a3b58c3582d8d23dd293efb8e20d669aefd22390af90b26c580e9ff3d3886afc",
+      "uncompressed_case_data_directly_decoded": true,
+      "rows": 39,
+      "columns": 17,
+      "dictionary_byte_identical_to_original": true,
+      "long_names_preserved": true,
+      "exactly_matches_CSV_Excel_and_independent_NDVI_QC": true,
+      "ParkID_and_14_non_NDVI_observed_columns_preserved": true,
+      "all_78_Z_values_recomputed": true,
+      "z_statistics": {
+        "Z内部NDVI平均値": {
+          "mean": -8.69140941553508e-17,
+          "sample_sd": 1.0
+        },
+        "Z外部NDVI平均値": {
+          "mean": -1.145807095927245e-16,
+          "sample_sd": 1.0
+        }
+      }
+    }
+  ],
+  "original_model_copy_byte_identical": true,
+  "original_baseline_input_copy_byte_identical": true,
+  "original_sav_sha256": "54cca5a9e38faf59635ebcd9d645d7d77083ac30c7f2d8f46751d809c47d2737",
+  "original_amw_sha256": "19410f39905c9ea51909b5bb2fad3e6cad35f32dde2c3bd859c968de014371a1",
+  "trial_status_and_documentation_label_nonconvergence_negative_variance_and_nonformal_results": true,
+  "primary_imagery_selected": false,
+  "new_native_Amos_results_verified": false
+}

@@ -1,0 +1,2047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">urbansci</journal-id>
+      <journal-title-group>
+        <journal-title>Urban Science</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Urban Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Urban Science</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2413-8851</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/urbansci10110639</article-id>
+      <article-id pub-id-type="publisher-id">urbansci-10-00639</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Land Surface Temperature Patterns and Their Statistical Association with Land Use/Land Cover in Sundernagar Tehsil, Himachal Pradesh: A Multi-Date Remote Sensing Analysis</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0009-0006-4322-9106</contrib-id>
+          <name>
+            <surname>Dhiman</surname>
+            <given-names>Atul</given-names>
+          </name>
+          <xref rid="af1-urbansci-10-00639" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2199-9066</contrib-id>
+          <name>
+            <surname>Sharma</surname>
+            <given-names>Aashish</given-names>
+          </name>
+          <xref rid="af1-urbansci-10-00639" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7012-1815</contrib-id>
+          <name>
+            <surname>Singh</surname>
+            <given-names>Kanwarpreet</given-names>
+          </name>
+          <xref rid="af2-urbansci-10-00639" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-9037-1379</contrib-id>
+          <name>
+            <surname>Ogra</surname>
+            <given-names>Aurobindo</given-names>
+          </name>
+          <xref rid="af3-urbansci-10-00639" ref-type="aff">3</xref>
+          <xref rid="c1-urbansci-10-00639" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Qian-Cheng</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-urbansci-10-00639"><label>1</label>Department of Civil Engineering, JNGEC, Distt. Mandi, Sundernagar 175018, Himachal Pradesh, India; <email>atul12ce@gmail.com</email> (A.D.); <email>aashishsharma99@gmail.com</email> (A.S.)</aff>
+      <aff id="af2-urbansci-10-00639"><label>2</label>Department of Civil Engineering, Bahra Research Innovation &amp; Knowledge Cluster (BRIKC), <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/03564kq40</institution-id><institution>Rayat Bahra University</institution></institution-wrap>, Greater Mohali 140103, Punjab, India; <email>singhkanwarpreetnit@gmail.com</email></aff>
+      <aff id="af3-urbansci-10-00639"><label>3</label>Department of Urban and Regional Planning, Faculty of Engineering and the Built Environment, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/04z6c2n17</institution-id><institution>University of Johannesburg</institution></institution-wrap>, Johannesburg 2094, Gauteng, South Africa</aff>
+      <author-notes>
+        <corresp id="c1-urbansci-10-00639"><label>*</label>Correspondence: <email>aogra@uj.ac.za</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>11</issue>
+      <elocation-id>639</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>12</day>
+          <month>09</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>30</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>04</day>
+          <month>11</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the authors.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Land surface temperature (LST) is an important parameter for monitoring the thermal condition of the land surface, especially in rapidly urbanizing mountain areas. This study examines the spatial pattern of LST and its statistical association with land use/land cover (LULC) in Sundernagar Tehsil, Himachal Pradesh, India, using Landsat 8 OLI/TIRS Collection 2 Level 2 scenes of 23 March 2015, 4 March 2020 and 18 March 2025. The three scenes were acquired on different dates within March; therefore, each scene is treated as a separate cross-sectional observation, and differences in absolute LST among dates are not interpreted as long-term change. LST was taken from the Surface Temperature band (ST_B10) and summarised for five LULC classes: Protected Area, Agricultural Area, Build-up Area, Barren Land and Water Bodies. Zonal statistics gave the same thermal order in all three scenes, with Barren Land showing the highest mean LST (29.74 &#xB0;C, 22.20 &#xB0;C, 25.21 &#xB0;C) and Water Bodies the lowest (24.05 &#xB0;C, 18.18 &#xB0;C, 20.72 &#xB0;C). Neighboring pixels are spatially autocorrelated and cannot be treated as independent observations. Therefore, the pixel-level Pearson correlations between LST and the spectral indices (NDVI, NDWI, and NDBI) are interpreted as descriptive measures of association, while nominal <italic>p</italic>-values and confidence intervals are not treated as inferential statistics. On the full raster, NDBI had positive correlations with LST (r = 0.3671, 0.2406, and 0.3154), while NDWI had negative correlations (r = &#x2212;0.2790, &#x2212;0.2988, and &#x2212;0.2801). Across the three spectral indices, the unadjusted relationships explained approximately 2&#x2013;13% of LST variance. NDVI showed weak positive unadjusted correlations with LST (r = 0.1315&#x2013;0.1879), but its regression coefficient became negative in all three scenes after adjustment for elevation, slope, and aspect. Adding terrain variables to the LULC models increased R<sup>2</sup> from 0.148&#x2013;0.315 to 0.598&#x2013;0.632, indicating that interpretation of land cover thermal associations was sensitive to terrain adjustment. The results show a consistent association between land cover and surface temperature within each date and can support land use planning in Himalayan towns, but they do not show a causal effect or a long-term trend.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>land surface temperature</kwd>
+        <kwd>LULC change</kwd>
+        <kwd>Landsat 8</kwd>
+        <kwd>NDVI</kwd>
+        <kwd>NDBI</kwd>
+        <kwd>NDWI</kwd>
+        <kwd>Sundernagar</kwd>
+        <kwd>Himachal Pradesh</kwd>
+        <kwd>urban heat island</kwd>
+        <kwd>remote sensing</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>This research received no external funding.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-urbansci-10-00639" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Rapid development and land use alteration have become leading drivers of local and regional climate modification, mainly through their effect on Land Surface Temperature (LST) [<xref ref-type="bibr" rid="B1-urbansci-10-00639">1</xref>,<xref ref-type="bibr" rid="B2-urbansci-10-00639">2</xref>]. LST is the radiative skin temperature of the land and is an important variable in the study of surface energy balance, urban heat island (UHI) effects, evapotranspiration, drought monitoring and ecosystem health [<xref ref-type="bibr" rid="B3-urbansci-10-00639">3</xref>,<xref ref-type="bibr" rid="B4-urbansci-10-00639">4</xref>]. As urban areas expand at the cost of natural land cover such as forests, wetlands and agricultural land, the loss of evapotranspiration, the increase in impervious surface and the change in albedo together raise surface temperatures, a phenomenon widely known as the Urban Heat Island (UHI) effect [<xref ref-type="bibr" rid="B5-urbansci-10-00639">5</xref>,<xref ref-type="bibr" rid="B6-urbansci-10-00639">6</xref>]. Study [<xref ref-type="bibr" rid="B7-urbansci-10-00639">7</xref>] confirmed that impervious urban materials are the main thermal source of UHI formation, while [<xref ref-type="bibr" rid="B8-urbansci-10-00639">8</xref>] linked rapid urban development to heat and moisture island intensification in Indian cities.</p>
+      <p>In mountain regions, the interaction between development and LST is particularly complex because of topographic variation, elevation gradients, aspect-driven changes in solar radiation and heterogeneous land cover [<xref ref-type="bibr" rid="B9-urbansci-10-00639">9</xref>,<xref ref-type="bibr" rid="B10-urbansci-10-00639">10</xref>,<xref ref-type="bibr" rid="B11-urbansci-10-00639">11</xref>]. Temperature changes with elevation, and the rate of warming itself can differ with elevation, so land cover and elevation are often tangled together, and a simple LST-LULC comparison can be misleading. Other known problems in mountain LST studies are the need for topographic normalization of reflectance, mixed pixels at 30 m resolution on steep and fragmented land, the strong effect of season and vegetation phenology on spectral indices, and the spatial dependence between neighboring pixels, which affects the significance tests used in most correlation studies. Previous studies have reported a consistent negative relationship between LST and elevation in Himalayan environments, indicating that elevation can strongly influence surface thermal patterns [<xref ref-type="bibr" rid="B9-urbansci-10-00639">9</xref>,<xref ref-type="bibr" rid="B12-urbansci-10-00639">12</xref>]. The Himalayan area of India is experiencing accelerated urban growth driven by population rise, infrastructure development, tourism and economic expansion, which makes it a sensitive zone for studying LST-LULC connections [<xref ref-type="bibr" rid="B9-urbansci-10-00639">9</xref>,<xref ref-type="bibr" rid="B12-urbansci-10-00639">12</xref>]. Despite the ecological sensitivity and rapid growth of Himalayan towns, dedicated LST studies on small and medium-sized urban centers in Himachal Pradesh are still scarce in the literature.</p>
+      <p>Previous studies in Himachal Pradesh have examined LST-LULC relations in specific valleys and districts but have not looked closely at small urban centres such as Sundernagar. Lata and Ghosh [<xref ref-type="bibr" rid="B13-urbansci-10-00639">13</xref>] measured spatio-temporal land cover changes and their influence on LST in the Beas Valley, and Thakur et al. [<xref ref-type="bibr" rid="B14-urbansci-10-00639">14</xref>] assessed landscape dynamics and LST variation in the Parbati watershed. Husain et al. [<xref ref-type="bibr" rid="B15-urbansci-10-00639">15</xref>] examined the effect of LULC change on LST in Lahaul and Spiti and confirmed the thermal sensitivity of Himalayan land cover changes. Several of these studies compare LST between land cover classes or between dates, but separating the effect of land cover from terrain effects and accounting for spatial dependence remain important methodological considerations in mountainous LST analysis. Together, these findings show the need for dedicated LST assessments at tehsil level in this area.</p>
+      <p>Satellite-based LST retrieval from thermal infrared data has become the most widely accepted approach for spatio-temporal LST analysis, as it gives pixel-level information at landscape scales that cannot be obtained from ground-based measurement networks alone [<xref ref-type="bibr" rid="B16-urbansci-10-00639">16</xref>,<xref ref-type="bibr" rid="B17-urbansci-10-00639">17</xref>]. Landsat series satellites, particularly Landsat 8 OLI/TIRS, have been widely used for LST mapping because of their 30 m resolution (the thermal band is acquired at 100 m and resampled to 30 m in the Level 2 product), regular revisit and free availability through the USGS Earth Explorer portal [<xref ref-type="bibr" rid="B11-urbansci-10-00639">11</xref>,<xref ref-type="bibr" rid="B18-urbansci-10-00639">18</xref>,<xref ref-type="bibr" rid="B19-urbansci-10-00639">19</xref>,<xref ref-type="bibr" rid="B20-urbansci-10-00639">20</xref>,<xref ref-type="bibr" rid="B21-urbansci-10-00639">21</xref>].</p>
+      <p>Spectral indices derived from multispectral images, including the Normalised Difference Vegetation Index (NDVI), Normalized Difference Built-up Index (NDBI), and Normalized Difference Water Index (NDWI), have been widely used as proxies of land cover type and surface biophysical condition, and their relations with LST have been widely studied [<xref ref-type="bibr" rid="B22-urbansci-10-00639">22</xref>,<xref ref-type="bibr" rid="B23-urbansci-10-00639">23</xref>,<xref ref-type="bibr" rid="B24-urbansci-10-00639">24</xref>]. Zhang et al. [<xref ref-type="bibr" rid="B25-urbansci-10-00639">25</xref>] showed that NDVI, NDBI and impervious surface area have bi-temporal relations with LST using sub-pixel analysis, confirming that these indices are useful parameters for LST assessment. NDVI captures vegetation greenness and photosynthetic activity, with higher NDVI typically associated with lower LST due to evapotranspiration cooling [<xref ref-type="bibr" rid="B2-urbansci-10-00639">2</xref>]. NDBI identifies built-up and impervious surfaces, with positive NDBI generally associated with higher LST due to the high heat capacity and low albedo of urban materials [<xref ref-type="bibr" rid="B22-urbansci-10-00639">22</xref>]. NDWI detects surface water and soil moisture, and its negative correlation with LST reflects the cooling influence of water bodies and moist soils [<xref ref-type="bibr" rid="B16-urbansci-10-00639">16</xref>].</p>
+      <p>Several studies across Indian cities and Himalayan towns have shown a link between LULC change and LST dynamics. Gogoi et al. [<xref ref-type="bibr" rid="B26-urbansci-10-00639">26</xref>] showed that land use changes significantly affect surface temperature patterns in Eastern India. Mehra and Swain [<xref ref-type="bibr" rid="B12-urbansci-10-00639">12</xref>] documented urban growth dynamics in the Western Himalayan city of Dharamshala and the role of built-up expansion in altering the thermal environment. However, Sundernagar Tehsil, a rapidly growing administrative and commercial centre in Mandi district of Himachal Pradesh, has not been the subject of a dedicated LST analysis, although the LULC maps of the area show visible changes over the past decade.</p>
+      <p>The classified maps of Sundernagar Tehsil  show spatial differences in land cover distribution between 2015 and 2025. However, a quantitative transition matrix was not prepared in the present study; therefore, these differences are not interpreted as quantified class-to-class land cover transitions. The three Landsat scenes were acquired on different dates, so this study treats each scene as a separate cross-section and looks at how LST is associated with land cover, spectral indices and terrain within each date, and not at change in LST over time. The analytical contribution of this study is a comparison of unadjusted and terrain-adjusted thermal associations within three individual March acquisitions. Rather than treating the absence of a previous Sundernagar assessment as the principal research gap, the study examines whether accounting for elevation, slope, and aspect changes the magnitude of LULC-class contrasts and the direction of spectral-index associations with LST [<xref ref-type="bibr" rid="B13-urbansci-10-00639">13</xref>,<xref ref-type="bibr" rid="B15-urbansci-10-00639">15</xref>]. Its contribution is case-based rather than methodological: it evaluates the interpretive consequences of terrain adjustment in a small Himalayan settlement where land cover distribution and topographic position are closely associated. The findings are restricted to the observed scenes and do not establish causal effects, representative annual thermal conditions, or universal relationships for mountainous towns. The study aims to (1) describe the spatial distribution of LST within each acquisition; (2) compare unadjusted and terrain-adjusted LST differences among LULC classes; and (3) determine whether the direction and magnitude of LST&#x2013;spectral-index associations change after adjustment for elevation, slope, and aspect.</p>
+    </sec>
+    <sec id="sec2-urbansci-10-00639">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-urbansci-10-00639">
+        <title>2.1. Study Area</title>
+        <p>Mandi is one of the 12 districts of Himachal Pradesh and is situated in the central part of the state [<xref ref-type="bibr" rid="B9-urbansci-10-00639">9</xref>]. Sundernagar Tehsil is in the southern part of Mandi district, Himachal Pradesh, India, forming part of the Lesser Western Himalaya (<xref ref-type="fig" rid="urbansci-10-00639-f001">Figure 1</xref>). Mandi district, covering an area of approximately 3951 km<sup>2</sup>, is situated in the central region of Himachal Pradesh and is characterised by steep terrain, large elevation gradients, and heterogeneous land use patterns [<xref ref-type="bibr" rid="B27-urbansci-10-00639">27</xref>]. Sundernagar Tehsil is administratively centred on Sundernagar town, situated along National Highway NH-154 between Mandi and Bilaspur, and extends roughly between 31&#xB0;28&#x2032; N to 31&#xB0;42&#x2032; N latitude and 76&#xB0;45&#x2032; E to 77&#xB0;02&#x2032; E longitude (Sundar Nagar, n.d.; Approved Development Plans, n.d.). The entire area of the tehsil is about 256 km<sup>2</sup>.</p>
+        <p>Topographically, the tehsil is marked by a deeply dissected Balh-Sundernagar valley and its corresponding fragmented hill slopes with elevations ranging between ~482 m above mean sea level (AMSL) on the lower valley floor to ~2341 m AMSL on the complex ridges [<xref ref-type="bibr" rid="B9-urbansci-10-00639">9</xref>,<xref ref-type="bibr" rid="B27-urbansci-10-00639">27</xref>]. Such a wide altitudinal gradient leads to considerable topographic heterogeneity, which is expected to influence land cover distribution and surface thermal patterns in the tehsil. The complex hydrogeological and topographic conditions of the larger Mandi district lead to heterogeneous surface conditions that are likely to influence spatial LST distributions [<xref ref-type="bibr" rid="B28-urbansci-10-00639">28</xref>].</p>
+        <p>Climatically, Sundernagar lies in a monsoon-influenced humid subtropical zone, classified under the K&#xF6;ppen&#x2013;Geiger climate classification system as a humid semi-tropical monsoon climate. The area experiences hot and wet summers and cool, relatively dry winters, with mean daily temperatures of approximately 12 &#xB0;C in winter and 26 &#xB0;C in summer. Annual rainfall is approximately 1400&#x2013;1700 mm, most of which occurs during June&#x2013;September [<xref ref-type="bibr" rid="B27-urbansci-10-00639">27</xref>]. June is the warmest month and January the coldest. Wani et al. [<xref ref-type="bibr" rid="B29-urbansci-10-00639">29</xref>,<xref ref-type="bibr" rid="B30-urbansci-10-00639">30</xref>] also reported clear variability and trends in rainfall and temperature across Mandi district, which affect vegetation cover and surface moisture conditions relevant to LST in this region.</p>
+      </sec>
+      <sec id="sec2dot2-urbansci-10-00639">
+        <title>2.2. Data Acquisition and Preprocessing</title>
+        <p>Landsat 8 OLI/TIRS Collection 2 Level 2 scenes were obtained for 23 March 2015, 4 March 2020, and 18 March 2025 from the USGS EarthExplorer portal. The acquisitions share path/row 147/038 and were selected within March to limit broad seasonal differences while obtaining scenes with low reported cloud cover. Scene-level cloud cover was 0.69%, 4.22%, and 1.16%, respectively (<xref ref-type="table" rid="urbansci-10-00639-t001">Table 1</xref>). These scenes were used as individual cross-sectional observations, not as representative annual or seasonal thermal conditions. Selection within the same month does not establish equivalent meteorological, phenological, or surface-moisture conditions. Details of satellite imagery are displayed in <xref ref-type="table" rid="urbansci-10-00639-t001">Table 1</xref>.</p>
+        <p>The image selection was not presented as an exhaustive assessment of all available acquisitions. With one observation for each selected year, the study cannot quantify within-season variability or establish that the observed thermal patterns are typical of March or of the year as a whole. Agreement among the three scenes is interpreted only as consistency across the sampled dates. Generalisation to summer conditions, other seasons, or annual heat exposure requires additional observations.</p>
+        <p>Collection 2 Level 2 products include Surface Reflectance (SR) bands and Surface Temperature (ST) products, which are atmospherically corrected by USGS using its own algorithms [<xref ref-type="bibr" rid="B31-urbansci-10-00639">31</xref>,<xref ref-type="bibr" rid="B32-urbansci-10-00639">32</xref>]. The thermal band is acquired by the sensor at 100 m and resampled by USGS to 30 m, so the effective resolution of LST is coarser than that of the reflectance bands. All images were reprojected to WGS 1984 UTM Zone 43N to guarantee spatial uniformity and were clipped to the Sundernagar Tehsil administrative boundary using a shapefile in ArcGIS 10.8. The overall methodology adopted in this study is summarised in <xref ref-type="fig" rid="urbansci-10-00639-f002">Figure 2</xref>. The LULC maps used for zonal statistics were derived from Random Forest (RF) classification of the same Landsat 8 imagery, producing five thematic classes (<xref ref-type="table" rid="urbansci-10-00639-t002">Table 2</xref>): Protected Area (PA), Agricultural Area (AA), Build-up Area (BA), Barren Land (BL), and Water Bodies (WB).</p>
+        <p>The Landsat 8 overpass time, atmospheric conditions, antecedent precipitation, soil moisture, snow cover, and phenological stage can influence LST and spectral-index values. These acquisition-context variables were not directly measured at field scale in the present study. Therefore, the three scenes are treated as separate cross-sectional observations, and comparisons of absolute LST among dates are interpreted with caution. Future studies should incorporate meteorological-station or gridded climate data, soil-moisture products, snow-cover maps, and phenological observations to better control these effects.</p>
+        <p>The LULC maps for 2015, 2020, and 2025 were produced in QGIS 3.44.5 using Random Forest classification through the Semi-Automatic Classification Plugin (SCP), version 8.5.0. Landsat 8 Collection 2 Level 2 (Bands 1&#x2013;7) was used as predictor variables. NDVI, NDWI, and NDBI were calculated separately using Raster Calculator and were not included as classification predictors. Training samples were manually delineated as polygons, with separate training datasets prepared for each year. Google Earth Pro imagery dated May 2014, January 2020, and June 2025 provided reference information for the 2015, 2020, and 2025 classifications, respectively. These reference-image dates were used for both training and assessment. Field observations were collected in April 2025 and do not constitute contemporaneous ground truth for the historical acquisitions.</p>
+        <p>Random assessment points were generated over the classified rasters and checked using Google Earth Pro. The assessment comprised 502 observations for 2015 and 501 observations each for 2020 and 2025. Overall reference-label agreement was 90.44%, 95.21%, and 94.61%, with corresponding Kappa coefficients of 0.862, 0.932, and 0.920. Because assessment observations were also used in classifier training, these statistics are not independent validation estimates and may overstate performance at unseen locations. Temporal differences between the reference observations and Landsat acquisitions introduce additional label uncertainty. The confusion matrices and class-specific user&#x2019;s and producer&#x2019;s accuracies are provided in <xref ref-type="app" rid="app1-urbansci-10-00639">Supplementary Tables S1&#x2013;S4</xref>. The classified maps (<xref ref-type="fig" rid="urbansci-10-00639-f003">Figure 3</xref>) were exported to ArcGIS 10.8 for map preparation.</p>
+        <fig id="urbansci-10-00639-f003" position="anchor">
+          <label>Figure 3</label>
+          <caption>
+            <p>LULC distribution in Sundernagar Tehsil for (<bold>a</bold>) 2015, (<bold>b</bold>) 2020, and (<bold>c</bold>) 2025.</p>
+          </caption>
+          <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g003.tif"/>
+        </fig>
+      </sec>
+      <sec id="sec2dot3-urbansci-10-00639" sec-type="methods">
+        <title>2.3. LST Retrieval Methodology</title>
+        <p>For Landsat 8 Collection 2 Level 2 data, the Surface Temperature band (ST_B10) provides land surface temperature as a scaled integer digital number (DN). The change to real temperature units followed the standard USGS rescaling formula in two steps.</p>
+        <p>Step 1&#x2014;Convert ST_B10 DN to Kelvin:<disp-formula id="FD1-urbansci-10-00639"><label>(1)</label>LST(K) = ST<sub>B10</sub> &#xD7; 0.00341802 + 149.0</disp-formula></p>
+        <p>Step 2&#x2014;Convert Kelvin to Celsius:<disp-formula id="FD2-urbansci-10-00639"><label>(2)</label>LST(&#xB0;C) = LST(K) &#x2212; 273.15</disp-formula></p>
+        <p>The LST values were not retrieved independently in this study using a single-channel or split-window algorithm. Instead, the ready-to-use USGS Landsat Collection 2 Level 2 Surface Temperature product (ST_B10) was used. In this product, LST is derived by USGS from the top-of-atmosphere thermal radiance using the single-channel algorithm, atmospheric correction parameters, and surface emissivity estimated from the ASTER Global Emissivity Database (ASTER GED). The product also includes uncertainty-related layers, including estimated emissivity and emissivity standard deviation. Therefore, no additional user-side emissivity adjustment was performed. However, the LST estimates remain subject to uncertainty arising from atmospheric correction, emissivity estimation, sensor calibration, and the resampling of the native 100 m thermal observation to a 30 m grid. These uncertainties were not independently validated using ground measurements in the present study.</p>
+        <p>The USGS Landsat Collection 2 Level 2 Surface Temperature product is generated using the ST algorithm and includes per-pixel emissivity and emissivity standard-deviation products. The emissivity standard deviation provides an indication of uncertainty in the emissivity input, but it does not represent the total uncertainty in LST. Because no in situ LST measurements were available, the overall accuracy of the retrieved LST could not be independently assessed in this study.</p>
+        <p>Quality-assessment bands, including QA_PIXEL, QA_AEROSOL, and ST_QA, are provided with the Landsat Collection 2 Level-2 products and can be used to identify clouds, cloud shadow, aerosol interference, and unreliable surface-temperature retrievals. In the present study, scenes with low overall cloud cover were selected, and visual inspection was used to check the study-area subset for major cloud contamination. However, pixel-level QA masking was not systematically applied. This is acknowledged as a limitation, and future analyses should apply explicit QA_PIXEL, QA_AEROSOL, and ST_QA masking before statistical analysis.</p>
+      </sec>
+      <sec id="sec2dot4-urbansci-10-00639">
+        <title>2.4. Spectral Indices Calculation</title>
+        <p>Three spectral indices were computed from Surface Reflectance (SR) bands after applying the Collection 2 Level 2 standard scale factor [<xref ref-type="bibr" rid="B33-urbansci-10-00639">33</xref>]:<disp-formula id="FD3-urbansci-10-00639"><label>(3)</label>SR<sub>scaled</sub> = SR<sub>DN</sub> &#xD7; 0.0000275 &#x2212; 0.2</disp-formula></p>
+        <sec id="sec2dot4dot1-urbansci-10-00639">
+          <title>2.4.1. Normalized Difference Vegetation Index (NDVI)</title>
+          <p>The NDVI, used to detect vegetation cover in the region of interest, is calculated using Band 4 (RED band) and Band 5 (NIR non-infrared band) of Landsat-8 imagery. The NDVI formula, as presented in Equation (4); [<xref ref-type="bibr" rid="B14-urbansci-10-00639">14</xref>,<xref ref-type="bibr" rid="B34-urbansci-10-00639">34</xref>]:
+            <disp-formula id="FD4-urbansci-10-00639"><label>(4)</label><mml:math display="block" id="mm1"><mml:semantics><mml:mrow><mml:mrow><mml:mi mathvariant="normal">NDVI</mml:mi><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">Band</mml:mi><mml:mn>5</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi mathvariant="normal"> Band</mml:mi><mml:mn>4</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">Band</mml:mi><mml:mn>5</mml:mn><mml:mo>+</mml:mo><mml:mi mathvariant="normal"> Band</mml:mi><mml:mn>4</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        </sec>
+        <sec id="sec2dot4dot2-urbansci-10-00639">
+          <title>2.4.2. Normalized Difference Water Index (NDWI)</title>
+          <p>The NDWI, used to detect surface water bodies and soil moisture in the region of interest, is calculated using Band 3 (Green band) and Band 5 (NIR Near-Infrared band) of Landsat-8 imagery. The NDWI formula, as presented in Equation (5); [<xref ref-type="bibr" rid="B24-urbansci-10-00639">24</xref>]):
+            <disp-formula id="FD5-urbansci-10-00639"><label>(5)</label><mml:math display="block" id="mm2"><mml:semantics><mml:mrow><mml:mrow><mml:mi mathvariant="normal">NDWI</mml:mi><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">Band</mml:mi><mml:mn>3</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi mathvariant="normal"> Band</mml:mi><mml:mn>5</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">Band</mml:mi><mml:mn>3</mml:mn><mml:mo>+</mml:mo><mml:mi mathvariant="normal"> Band</mml:mi><mml:mn>5</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        </sec>
+        <sec id="sec2dot4dot3-urbansci-10-00639">
+          <title>2.4.3. Normalized Difference Built-Up Index (NDBI)</title>
+          <p>The NDBI, used to detect built-up and impervious surfaces in the region of interest, is calculated using Band 5 (NIR Near-Infrared band) and Band 6 (SWIR-1 Shortwave Infrared band) of Landsat-8 imagery. The NDBI formula, as presented in Equation (6); [<xref ref-type="bibr" rid="B21-urbansci-10-00639">21</xref>,<xref ref-type="bibr" rid="B22-urbansci-10-00639">22</xref>,<xref ref-type="bibr" rid="B35-urbansci-10-00639">35</xref>]):
+            <disp-formula id="FD6-urbansci-10-00639"><label>(6)</label><mml:math display="block" id="mm3"><mml:semantics><mml:mrow><mml:mrow><mml:mi mathvariant="normal">NDBI</mml:mi><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">Band</mml:mi><mml:mn>6</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi mathvariant="normal"> Band</mml:mi><mml:mn>5</mml:mn><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">Band</mml:mi><mml:mn>6</mml:mn><mml:mo>+</mml:mo><mml:mi mathvariant="normal"> Band</mml:mi><mml:mn>5</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula> where Bands 3, 4, 5, and 6 correspond to Green (0.53&#x2013;0.59 &#x3BC;m), Red (0.64&#x2013;0.67 &#x3BC;m), Near-Infrared/NIR (0.85&#x2013;0.88 &#x3BC;m), and Shortwave Infrared-1/SWIR1 (1.57&#x2013;1.65 &#x3BC;m) respectively for Landsat 8 OLI. All calculations were performed in ArcGIS Raster Calculator for each study year independently.</p>
+        </sec>
+      </sec>
+      <sec id="sec2dot5-urbansci-10-00639">
+        <title>2.5. Zonal Statistics Analysis</title>
+        <p>Mean LST per LULC class was computed using Zonal Statistics as Table tool in ArcGIS Spatial Analyst, with LULC classification maps for 2015, 2020, and 2025 serving as zone rasters and the respective LST maps as value rasters. Statistical parameters extracted included minimum, maximum, mean, standard deviation, and pixel count of LST values per class per year across the full study area of 284,914 total pixels.</p>
+      </sec>
+      <sec id="sec2dot6-urbansci-10-00639">
+        <title>2.6. Correlation Analysis</title>
+        <p>The statistical association between LST and each spectral index (NDBI, NDVI, and NDWI) was examined using Pearson correlation for each of the three study years. Correlations were computed using all valid pixels (n = 284,914 per year) in Python 3.13 using the SciPy Stats library. Because neighbouring pixels are spatially autocorrelated, they do not represent independent observations. Therefore, the full-raster Pearson correlation coefficients and coefficients of determination are interpreted as descriptive measures of the direction, strength, and explanatory power of the associations. The nominal <italic>p</italic>-values, t-statistics, and confidence intervals calculated using the full pixel count are reported for completeness only and are not interpreted as conventional inferential tests. Linear regression was used to estimate the slope, intercept, and standard error of the slope, and RMSE and MAE were used to describe model fit.</p>
+        <p>The 95% confidence interval (CI) for each correlation coefficient was calculated with the Fisher Z-transformation method [<xref ref-type="bibr" rid="B36-urbansci-10-00639">36</xref>], where the correlation r is first converted as shown below. For the nominal confidence intervals, <italic>n</italic> denotes the number of valid pixels. These intervals assume independent observations and are not used for statistical inference because neighbouring pixels are spatially autocorrelated:
+          <disp-formula id="FD7-urbansci-10-00639"><label>(7)</label><mml:math display="block" id="mm4"><mml:semantics><mml:mrow><mml:mrow><mml:mi mathvariant="normal">z </mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal"> arctanh </mml:mi><mml:mfenced open="(" close=")"><mml:mi mathvariant="normal">r</mml:mi></mml:mfenced><mml:mo>,</mml:mo><mml:mi mathvariant="normal"> SE </mml:mi><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mn>1</mml:mn><mml:msqrt><mml:mrow><mml:mi mathvariant="normal">n</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msqrt></mml:mfrac></mml:mstyle></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The CI was then back-converted as:<disp-formula id="FD8-urbansci-10-00639"><label>(8)</label>CI<sup>95</sup> = (tanh(z &#x2212; 1.96 &#xB7; SE), tanh(z + 1.96 &#xB7; SE))</disp-formula></p>
+        <p>Correlation calculations, regression diagnostics, and confidence interval calculations were all performed in Python 3.13 using the pandas, scipy, and numpy libraries. Density (hexbin) plots with fitted linear-regression lines were generated for all nine index&#x2013;LST pairs (three indices &#xD7; three years) and exported at 600 DPI for journal quality visualization.</p>
+      </sec>
+      <sec id="sec2dot7-urbansci-10-00639">
+        <title>2.7. Terrain Covariates and Terrain-Adjusted Regression Analysis</title>
+        <p>To examine whether the observed associations between land use/land cover (LULC) and land surface temperature (LST) were partly related to topographic variation, elevation, slope, and aspect were incorporated as covariates in separate analyses for the 2015, 2020, and 2025 scenes. The terrain rasters were aligned with the corresponding LST and LULC rasters using a common projected coordinate system and grid. Analyses were restricted to pixels with valid observations for all variables included in each model.</p>
+        <p>Terrain information was obtained from the Shuttle Radar Topography Mission (SRTM) 1 Arc-Second Global Version 3 digital elevation model, with an approximate grid spacing of 30 m. Elevation values were obtained directly from the DEM, while slope and aspect rasters were derived using the corresponding terrain-analysis tools in ArcGIS 10.8.</p>
+        <p>Three nested regression models were compared for each acquisition date: (i) a model containing LULC class only; (ii) a model containing LULC class and elevation; and (iii) a model containing LULC class, elevation, slope, and aspect. Protected Area was used as the reference LULC category. Elevation was scaled to units of 100 m to facilitate interpretation of its regression coefficient. Because aspect is a circular variable, it was represented using sine and cosine transformations of aspect in degrees rather than entered as a single linear predictor.</p>
+        <p>Model performance was evaluated using the coefficient of determination (R<sup>2</sup>), adjusted R<sup>2</sup>, and root mean square error (RMSE). In addition, separate regression models were fitted for NDVI, NDBI, and NDWI, with each index entered individually alongside elevation, slope, and the transformed aspect terms. This approach was used to assess whether the index&#x2013;LST associations persisted after adjustment for measured terrain characteristics.</p>
+        <p>Because neighbouring raster pixels may be spatially autocorrelated, conventional pixel-level uncertainty estimates may overstate statistical precision. The terrain-adjusted regression coefficients and model-fit measures are therefore presented descriptively. Spatially adjusted uncertainty was not quantified, and no claims of statistical significance are made for the terrain-adjusted coefficients. These estimates represent conditional associations rather than causal effects.</p>
+      </sec>
+      <sec id="sec2dot8-urbansci-10-00639">
+        <title>2.8. LST Difference Map</title>
+        <p>Spatial LST change was calculated by streaming a pixel-wise difference map [<xref ref-type="bibr" rid="B37-urbansci-10-00639">37</xref>] using ArcGIS Raster Calculator:<disp-formula id="FD9-urbansci-10-00639"><label>(9)</label>LST_Change(2015 &#x2212; 2025) = LST_2025 &#x2212; LST_2015</disp-formula></p>
+        <p>Positive values indicate a higher LST in 2025 than in 2015, and negative values indicate a lower LST. Because the two scenes differ in acquisition date and weather, the difference map is shown for description only and is not used to infer warming or cooling caused by land cover change. The resulting difference map was classified into five categories for cartographic visualization and spatial understanding.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-urbansci-10-00639" sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec id="sec3dot1-urbansci-10-00639">
+        <title>3.1. Spatial Distribution of LST (2015, 2020, and 2025)</title>
+        <p>The LST maps of 2015, 2020 and 2025 clearly depict the spatial patterns over Sundernagar Tehsil and are in good agreement with the basic LULC distribution (<xref ref-type="fig" rid="urbansci-10-00639-f004">Figure 4</xref>). The LST values in 2015 varied from minimum of 15.96 &#xB0;C over water bodies to maximum of 41.50 &#xB0;C over barren land and visible rocky exteriors in the sun-exposed southern slopes. In 2020, the overall LST range was smaller, from 5.79 &#xB0;C to 30.62 &#xB0;C, whereas in 2025 it ranged from 12.06 &#xB0;C to 35.82 &#xB0;C.</p>
+        <p>The spatial patterns consistently show higher LST concentrated in the central valley corresponding to built-up and barren land cover, while lower LST zones are associated with the forested hill slopes in the northern and eastern portions of the tehsil and the water bodies of the Uhl reservoir system. These spatial patterns are consistent with findings from similar studies in Himalayan urban centres, where topographic position, vegetation cover, and proximity to water bodies collectively modulate surface thermal patterns [<xref ref-type="bibr" rid="B12-urbansci-10-00639">12</xref>,<xref ref-type="bibr" rid="B26-urbansci-10-00639">26</xref>].</p>
+        <p>The three LST maps are therefore treated as separate cross-sectional observations. According to the Landsat scene metadata, the scene-centre acquisition times were 10:53:47 IST on 23 March 2015, 10:54:11 IST on 4 March 2020, and 10:53:57 IST on 18 March 2025, rounded to the nearest second. Although the scenes were acquired at nearly identical local clock times, this does not establish equivalent seasonal, illumination, or meteorological conditions. Absolute LST values, class means, and the 2015&#x2013;2025 difference are therefore not interpreted as evidence of long-term change [<xref ref-type="bibr" rid="B27-urbansci-10-00639">27</xref>]. Antecedent air temperature, rainfall, soil moisture, atmospheric humidity, and snow cover may also have influenced the retrieved LST on each acquisition date. However, these variables were not directly measured or systematically quantified in the present study. With one scene per year, the effect of acquisition date cannot be separated from the effects of day-specific weather, surface moisture, and snow-cover conditions. Absolute LST values, class means, and the 2015&#x2013;2025 difference are not interpreted as evidence of long-term change. Comparisons within a year, such as the class ranking and the correlations with indices and terrain, are much less affected, because all pixels of a scene are observed at the same moment under the same weather. Seasonal consistency of image acquisition is essential for reliable multi-temporal LST comparison [<xref ref-type="bibr" rid="B37-urbansci-10-00639">37</xref>], and our scenes satisfy this only partly (same month, but up to 19 days apart), so no conclusion about change over time is drawn.</p>
+      </sec>
+      <sec id="sec3dot2-urbansci-10-00639">
+        <title>3.2. Class-Wise Mean LST Analysis</title>
+        <p>Mean LST per LULC class obtained from zonal statistics is presented in <xref ref-type="table" rid="urbansci-10-00639-t003">Table 3</xref> and <xref ref-type="fig" rid="urbansci-10-00639-f005">Figure 5</xref>. The results show the same thermal ranking of LULC classes within each acquisition date. Because the three scenes were acquired on different dates and under potentially different meteorological conditions, this ranking is interpreted as a within-scene pattern rather than evidence of a temporal trend.</p>
+        <p>Barren Land had the highest mean LST in all three years (29.74 &#xB0;C, 22.20 &#xB0;C, and 25.21 &#xB0;C), which fits the high solar absorption of exposed rock, bare soil, landslide zones, and construction sites that have no vegetation shade or moisture. The maximum LST of 41.50 &#xB0;C found over barren land in 2015 is consistent with strong solar heating of exposed dark surfaces before the monsoon [<xref ref-type="bibr" rid="B11-urbansci-10-00639">11</xref>,<xref ref-type="bibr" rid="B26-urbansci-10-00639">26</xref>]; it is a single-pixel maximum and may also be affected by slope orientation and emissivity error.</p>
+        <p>Build-up Area had the second highest mean LST in all years (28.38 &#xB0;C, 21.32 &#xB0;C, and 24.13 &#xB0;C). Build-up surfaces such as rooftops, roads, concrete structures, and paved areas have high thermal mass, low reflectance, and almost no evapotranspiration, all of which raise surface temperature and contribute to urban heat islands [<xref ref-type="bibr" rid="B5-urbansci-10-00639">5</xref>,<xref ref-type="bibr" rid="B6-urbansci-10-00639">6</xref>]. The maximum LST over build-up areas reached 37.27 &#xB0;C in 2015, which shows the heat load of impervious surfaces even in a small Himalayan town. The higher LST of Build-up Area in all three years is consistent with patterns expected for urban heat island development in similar Himalayan small towns, although this study does not isolate UHI intensity, and Build-up Area also differs from other classes in elevation. Similar associations between built-up land and higher LST have been reported in the Himalayan region by [<xref ref-type="bibr" rid="B15-urbansci-10-00639">15</xref>] for Lahaul and Spiti, and by [<xref ref-type="bibr" rid="B13-urbansci-10-00639">13</xref>] for Beas Valley, Himachal Pradesh.</p>
+        <p>Agricultural Area had an intermediate meaning LST (26.41 &#xB0;C, 20.38 &#xB0;C, and 23.13 &#xB0;C in 2015, 2020, and 2025, respectively). These values were higher than those of Protected Area but lower than those of Build-up Area and Barren Land. During the March acquisitions, this pattern may reflect differences in crop cover, exposed soil, and surface moisture. However, agricultural land is concentrated mainly on the valley floor, whereas much of the protected forest cover occurs on surrounding slopes. Therefore, the raw class-wise differences may partly reflect topographic variation in addition to land cover characteristics. To investigate this possibility, terrain-adjusted regression models incorporating elevation, slope, and aspect were fitted separately for each acquisition date. The adjusted class contrasts are presented separately from the raw zonal means and are interpreted as conditional statistical associations rather than causal effects.</p>
+        <p>Protected Area exhibited mean LST values of 25.87 &#xB0;C, 19.31 &#xB0;C, and 22.43 &#xB0;C in 2015, 2020, and 2025, respectively. These values were lower than those observed for Agricultural Area, Build-up Area, and Barren Land in all three acquisitions. However, protected forest cover is distributed partly across elevated and sloping terrain, where surface temperature may differ from that of the valley floor. Consequently, the raw difference in mean LST between Protected Area and other land cover classes cannot be attributed exclusively to land cover characteristics. Elevation, slope, and aspect need to be considered when interpreting these class-wise differences. The terrain-adjusted analysis should therefore be used alongside the raw class-wise means to distinguish the association of land cover class with LST from the influence of topographic variation.</p>
+        <p>Water Bodies had the lowest mean LST in all three years (24.05 &#xB0;C, 18.18 &#xB0;C, and 20.72 &#xB0;C), which shows the cooling effect of the Uhl reservoir and the related river systems. Water has a high specific heat capacity and loses energy by evaporation, so its surface temperature stays below that of nearby land surfaces, as found in earlier remote sensing studies [<xref ref-type="bibr" rid="B6-urbansci-10-00639">6</xref>,<xref ref-type="bibr" rid="B16-urbansci-10-00639">16</xref>].</p>
+        <p>The negative difference in mean LST between the 2015 and 2025 scenes (from &#x2212;3.28 &#xB0;C for Agricultural Area to &#x2212;4.54 &#xB0;C for Barren Land) should not be interpreted as real surface cooling. The difference reflects the combined influence of acquisition date, day-specific meteorological conditions, surface moisture, and possible differences in atmospheric correction and sensor calibration. The March calendar dates of the 2015 and 2025 acquisitions differ by five days, but the scenes were acquired in different years and under unquantified meteorological and surface conditions. The available observations do not establish the relative contributions of acquisition timing, weather, surface moisture, land cover, and retrieval uncertainty to the between-scene differences. To describe within-scene thermal contrasts, the mean LST of each LULC class was compared with the mean LST of Protected Area within the same scene. This approach reduces, but does not remove, the influence of scene-level acquisition conditions. Build-up Area was warmer than Protected Area by 2.51 &#xB0;C, 2.01 &#xB0;C and 1.70 &#xB0;C, Barren Land by 3.87 &#xB0;C, 2.89 &#xB0;C and 2.78 &#xB0;C, and Agricultural Area by 0.54 &#xB0;C, 1.07 &#xB0;C and 0.70 &#xB0;C, while Water Bodies were cooler by 1.82 &#xB0;C, 1.13 &#xB0;C and 1.71 &#xB0;C, in 2015, 2020 and 2025 respectively. These within-scene contrasts show a consistent class ordering across the three acquisitions, but they cannot be interpreted as a temporal trend because only three scenes were available and their acquisition dates and meteorological conditions differed. The between-scene LST differences in <xref ref-type="table" rid="urbansci-10-00639-t003">Table 3</xref> are therefore provided for descriptive comparison only [<xref ref-type="bibr" rid="B3-urbansci-10-00639">3</xref>,<xref ref-type="bibr" rid="B37-urbansci-10-00639">37</xref>].</p>
+      </sec>
+      <sec id="sec3dot3-urbansci-10-00639">
+        <title>3.3. Correlation Analysis: LST vs. Spectral Indices</title>
+        <p>Full Pearson correlation statistics between LST and spectral indices (NDVI, NDWI, NDBI) for all three study years are presented in <xref ref-type="table" rid="urbansci-10-00639-t004">Table 4</xref>. All correlations were computed using all valid pixels for each year (n = 284,914). Because neighbouring pixels are spatially autocorrelated, they do not represent independent observations. Therefore, the reported <italic>p</italic>-values, t-statistics, and confidence intervals are nominal values calculated under an independence assumption and are not valid for conventional statistical inference. They are retained in <xref ref-type="table" rid="urbansci-10-00639-t004">Table 4</xref> for completeness only. The discussion focuses on the sign, magnitude, and explanatory power of the correlations, particularly the coefficient of determination (R<sup>2</sup>).</p>
+        <sec id="sec3dot3dot1-urbansci-10-00639">
+          <title>3.3.1. LST vs. NDBI</title>
+          <p>NDBI exhibited the strongest positive correlation with LST across all study years (r = 0.3671 in 2015, r = 0.2406 in 2020, and r = 0.3154 in 2025). The corresponding R<sup>2</sup> values were 0.1348, 0.0579, and 0.0995, respectively, indicating that NDBI explained approximately 6&#x2013;13% of the spatial variation in LST. Because the pixels are spatially autocorrelated, the nominal t-statistics and <italic>p</italic>-values should not be interpreted as evidence based on independent observations. The positive association between NDBI and LST is interpreted primarily through its direction and explanatory power, with R<sup>2</sup> values of 0.1348, 0.0579, and 0.0995 in 2015, 2020, and 2025, respectively. The regression slope indicates that a unit increase in NDBI is associated with a 28.38 &#xB0;C, 17.41 &#xB0;C, and 24.31 &#xB0;C increase in LST for 2015, 2020, and 2025 respectively, confirming that pixels with higher NDBI values are statistically associated with higher LST in Sundernagar across all three study years (<xref ref-type="fig" rid="urbansci-10-00639-f006">Figure 6</xref>). The highest NDBI-LST correlation observed in 2015 (r = 0.3671, R<sup>2</sup> = 0.1348) compared to 2020 (r = 0.2406) and 2025 (r = 0.3154) may reflect the concentration of built-up surfaces in thermally exposed low-elevation valley positions during 2015, where solar gain is maximum (<xref ref-type="fig" rid="urbansci-10-00639-f007">Figure 7</xref>). The spatial heterogeneity of built-up expansion across topographically diverse terrain by 2025 may contribute to variability in the NDBI&#x2013;LST correlation strength, though this interpretation requires further investigation. These results are consistent with [<xref ref-type="bibr" rid="B38-urbansci-10-00639">38</xref>,<xref ref-type="bibr" rid="B39-urbansci-10-00639">39</xref>] who documented similar patterns in tropical mountain cities. The authors of [<xref ref-type="bibr" rid="B40-urbansci-10-00639">40</xref>] further confirmed that expanding impervious surfaces in metropolitan areas are significantly associated with increased LST through NDBI-based analysis.</p>
+          <table-wrap id="urbansci-10-00639-t004" position="anchor">
+            <object-id pub-id-type="pii">urbansci-10-00639-t004_Table 4</object-id>
+            <label>Table 4</label>
+            <caption>
+              <p>Complete statistical summary of LST-spectral index correlation analysis (n = 284,914 pixels per year).</p>
+            </caption>
+            <table>
+              <thead>
+                <tr>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Year</th>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Index</th>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">r</th>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">R<sup>2</sup></th>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>p</italic>-Value</th>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">95% CI for r</th>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Slope</th>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Intercept</th>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Std Error</th>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">t-Stat</th>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">RMSE (&#xB0;C)</th>
+                  <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">MAE (&#xB0;C)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="center" valign="middle">2015</td>
+                  <td align="center" valign="middle">NDVI</td>
+                  <td align="center" valign="middle">+0.1315</td>
+                  <td align="center" valign="middle">0.0173</td>
+                  <td align="center" valign="middle">&lt;0.0001</td>
+                  <td align="center" valign="middle">[0.1279, 0.1351]</td>
+                  <td align="center" valign="middle">9.01</td>
+                  <td align="center" valign="middle">26.18</td>
+                  <td align="center" valign="middle">0.1272</td>
+                  <td align="center" valign="middle">70.82</td>
+                  <td align="center" valign="middle">3.21</td>
+                  <td align="center" valign="middle">2.59</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">2015</td>
+                  <td align="center" valign="middle">NDWI</td>
+                  <td align="center" valign="middle">&#x2212;0.2790</td>
+                  <td align="center" valign="middle">0.0779</td>
+                  <td align="center" valign="middle">&lt;0.0001</td>
+                  <td align="center" valign="middle">[&#x2212;0.2824, &#x2212;0.2756]</td>
+                  <td align="center" valign="middle">&#x2212;20.60</td>
+                  <td align="center" valign="middle">24.49</td>
+                  <td align="center" valign="middle">0.1328</td>
+                  <td align="center" valign="middle">&#x2212;155.10</td>
+                  <td align="center" valign="middle">3.11</td>
+                  <td align="center" valign="middle">2.51</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">2015</td>
+                  <td align="center" valign="middle">NDBI</td>
+                  <td align="center" valign="middle">+0.3671</td>
+                  <td align="center" valign="middle">0.1348</td>
+                  <td align="center" valign="middle">&lt;0.0001</td>
+                  <td align="center" valign="middle">[0.3640, 0.3703]</td>
+                  <td align="center" valign="middle">28.38</td>
+                  <td align="center" valign="middle">28.43</td>
+                  <td align="center" valign="middle">0.1347</td>
+                  <td align="center" valign="middle">210.69</td>
+                  <td align="center" valign="middle">3.01</td>
+                  <td align="center" valign="middle">2.39</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">2020</td>
+                  <td align="center" valign="middle">NDVI</td>
+                  <td align="center" valign="middle">+0.1879</td>
+                  <td align="center" valign="middle">0.0353</td>
+                  <td align="center" valign="middle">&lt;0.0001</td>
+                  <td align="center" valign="middle">[0.1843, 0.1914]</td>
+                  <td align="center" valign="middle">12.05</td>
+                  <td align="center" valign="middle">18.78</td>
+                  <td align="center" valign="middle">0.1180</td>
+                  <td align="center" valign="middle">102.10</td>
+                  <td align="center" valign="middle">2.98</td>
+                  <td align="center" valign="middle">2.35</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">2020</td>
+                  <td align="center" valign="middle">NDWI</td>
+                  <td align="center" valign="middle">&#x2212;0.2988</td>
+                  <td align="center" valign="middle">0.0893</td>
+                  <td align="center" valign="middle">&lt;0.0001</td>
+                  <td align="center" valign="middle">[&#x2212;0.3022, &#x2212;0.2955]</td>
+                  <td align="center" valign="middle">&#x2212;20.65</td>
+                  <td align="center" valign="middle">17.52</td>
+                  <td align="center" valign="middle">0.1235</td>
+                  <td align="center" valign="middle">&#x2212;167.13</td>
+                  <td align="center" valign="middle">2.89</td>
+                  <td align="center" valign="middle">2.28</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">2020</td>
+                  <td align="center" valign="middle">NDBI</td>
+                  <td align="center" valign="middle">+0.2406</td>
+                  <td align="center" valign="middle">0.0579</td>
+                  <td align="center" valign="middle">&lt;0.0001</td>
+                  <td align="center" valign="middle">[0.2372, 0.2441]</td>
+                  <td align="center" valign="middle">17.41</td>
+                  <td align="center" valign="middle">21.09</td>
+                  <td align="center" valign="middle">0.1316</td>
+                  <td align="center" valign="middle">132.33</td>
+                  <td align="center" valign="middle">2.94</td>
+                  <td align="center" valign="middle">2.30</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">2025</td>
+                  <td align="center" valign="middle">NDVI</td>
+                  <td align="center" valign="middle">+0.1506</td>
+                  <td align="center" valign="middle">0.0227</td>
+                  <td align="center" valign="middle">&lt;0.0001</td>
+                  <td align="center" valign="middle">[0.1470, 0.1542]</td>
+                  <td align="center" valign="middle">10.29</td>
+                  <td align="center" valign="middle">22.01</td>
+                  <td align="center" valign="middle">0.1266</td>
+                  <td align="center" valign="middle">81.31</td>
+                  <td align="center" valign="middle">3.19</td>
+                  <td align="center" valign="middle">2.57</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle">2025</td>
+                  <td align="center" valign="middle">NDWI</td>
+                  <td align="center" valign="middle">&#x2212;0.2801</td>
+                  <td align="center" valign="middle">0.0784</td>
+                  <td align="center" valign="middle">&lt;0.0001</td>
+                  <td align="center" valign="middle">[&#x2212;0.2835, &#x2212;0.2767]</td>
+                  <td align="center" valign="middle">&#x2212;20.62</td>
+                  <td align="center" valign="middle">20.50</td>
+                  <td align="center" valign="middle">0.1324</td>
+                  <td align="center" valign="middle">&#x2212;155.74</td>
+                  <td align="center" valign="middle">3.10</td>
+                  <td align="center" valign="middle">2.51</td>
+                </tr>
+                <tr>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">2025</td>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">NDBI</td>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">+0.3154</td>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">0.0995</td>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">&lt;0.0001</td>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">[0.3120, 0.3187]</td>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">24.31</td>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">24.30</td>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">0.1371</td>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">177.38</td>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">3.06</td>
+                  <td align="center" valign="middle" style="border-bottom:solid thin">2.43</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </sec>
+        <sec id="sec3dot3dot2-urbansci-10-00639">
+          <title>3.3.2. LST vs. NDWI</title>
+          <p>NDWI had the most consistent negative correlation with LST across all three years (r = &#x2212;0.2790, &#x2212;0.2988, and &#x2212;0.2801 for 2015, 2020, and 2025 respectively), with regression slopes of approximately &#x2212;20.6 in all three years (&#x2212;20.60, &#x2212;20.65 and &#x2212;20.62), which shows that the association between surface moisture and LST was very similar in the three scenes. A constant offset in LST between scenes does not change a regression slope, so this similarity is not affected by the date differences in the way absolute LST is, but with only three dates it cannot be said that the relationship is independent of season. The nominal 95% confidence intervals are narrow ([&#x2212;0.2824, &#x2212;0.2756] in 2015; [&#x2212;0.3022, &#x2212;0.2955] in 2020; [&#x2212;0.2835, &#x2212;0.2767] in 2025), but they assume independent pixels and should not be interpreted as inferential confidence intervals. The RMSE of the NDWI-LST regression models varied from 2.89 &#xB0;C to 3.11 &#xB0;C, which is a moderate prediction error that reflects the varied topography of the study area (<xref ref-type="fig" rid="urbansci-10-00639-f008">Figure 8</xref> and <xref ref-type="fig" rid="urbansci-10-00639-f009">Figure 9</xref>). The cooling pattern is mainly linked to the Uhl reservoir and the connected river systems, which agrees with the well-known role of water bodies in urban heat islands and in controlling surface energy balance [<xref ref-type="bibr" rid="B6-urbansci-10-00639">6</xref>,<xref ref-type="bibr" rid="B16-urbansci-10-00639">16</xref>].</p>
+        </sec>
+        <sec id="sec3dot3dot3-urbansci-10-00639">
+          <title>3.3.3. LST vs. NDVI</title>
+          <p>The NDVI-LST relationship was weakly positive in all study years (r = +0.1315, +0.1879, and +0.1506 for 2015, 2020, and 2025 respectively), which is the opposite of the theoretically expected negative relationship in which higher vegetation density corresponds to lower surface temperature through evapotranspiration cooling. The nominal <italic>p</italic>-values are below 0.0001, but this results from the large number of spatially autocorrelated pixels and does not indicate a strong relationship. The R<sup>2</sup> values (0.0173, 0.0353, and 0.0227) show that NDVI explains less than 4% of LST variance in all three years, so the practical significance of these correlations is very limited. The spatial distribution of NDVI across the study area for all three years is shown in <xref ref-type="fig" rid="urbansci-10-00639-f010">Figure 10</xref>.</p>
+          <p>The initially observed positive NDVI&#x2013;LST correlations may partly reflect the influence of topography and other surface characteristics. To investigate this possibility, separate regression models were fitted for NDVI, NDBI, and NDWI, with elevation, slope, and aspect included as covariates. The terrain-adjusted NDVI slopes were &#x2212;8.606, &#x2212;2.956, and &#x2212;4.817 &#xB0;C per unit NDVI in 2015, 2020, and 2025, respectively. This change from the weakly positive unadjusted correlations to negative adjusted coefficients indicates that the original relationship was sensitive to the inclusion of terrain covariates. Nevertheless, these are conditional associations rather than causal estimates, and their interpretation depends on the regression specification and the treatment of spatial dependence. The March acquisition dates may also limit the ability of NDVI to represent peak-season vegetation cooling. Study [<xref ref-type="bibr" rid="B30-urbansci-10-00639">30</xref>] observed that vegetation cover alone does not sufficiently explain thermal variability in complex mountainous terrain, and this elevation&#x2013;aspect&#x2013;vegetation confounding is a recognised limitation of pixel-level correlation analysis without topographic normalization, as noted in earlier Himalayan remote sensing studies [<xref ref-type="bibr" rid="B11-urbansci-10-00639">11</xref>]. Additionally, spectral mixing in heterogeneous mountain landscapes may affect the index&#x2013;temperature relationships, particularly because the thermal observations have a native resolution of 100 m. Future studies using topographic normalization of reflectance data and seasonal peak-greenness scenes would help test whether the direction and magnitude of the NDVI&#x2013;LST association vary across seasons and processing approaches. Density plots of the LST-NDVI relationship for all three study years are shown in <xref ref-type="fig" rid="urbansci-10-00639-f011">Figure 11</xref>.</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot4-urbansci-10-00639">
+        <title>3.4. Terrain-Adjusted Regression Analysis</title>
+        <p>To examine whether the observed LST&#x2013;LULC associations were influenced by topographic variation, three nested regression models were compared for each acquisition date. The models included LULC class alone, LULC class with elevation, and LULC class with elevation, slope, and aspect. The results showed that model fit improved after terrain variables were incorporated. For 2015, the coefficient of determination (R<sup>2</sup>) increased from 0.315 for the LULC-only model to 0.405 after adding elevation and to 0.598 after including slope and aspect. For 2020, R<sup>2</sup> increased from 0.179 to 0.447 and then to 0.632. For 2025, R<sup>2</sup> increased from 0.148 to 0.356 and finally to 0.603. The corresponding RMSE values for the full terrain-adjusted models were 2.05 &#xB0;C, 1.84 &#xB0;C, and 2.03 &#xB0;C, respectively.</p>
+        <p>Elevation showed a negative conditional association with LST in all three scenes. Holding the other model variables constant, a 100 m increase in elevation was associated with an estimated LST decrease of approximately 0.28 &#xB0;C in 2015, 0.45 &#xB0;C in 2020, and 0.43 &#xB0;C in 2025. These results indicate that topographic variation accounts for an important part of the spatial LST pattern and should be considered when interpreting raw differences between land cover classes. The terrain-adjusted class contrasts also differed from the unadjusted zonal means. With Protected Area as the reference class, the estimated difference for Agricultural Area was &#x2212;0.79 &#xB0;C in 2015, &#x2212;0.20 &#xB0;C in 2020, and &#x2212;0.13 &#xB0;C in 2025. The corresponding adjusted differences for Build-up Area were +1.21 &#xB0;C, +0.59 &#xB0;C, and +0.69 &#xB0;C, while those for Barren Land were +2.38 &#xB0;C, +1.93 &#xB0;C, and +2.05 &#xB0;C. Water Bodies remained cooler than Protected Area in all three scenes. These estimates represent conditional associations after accounting for the included terrain variables; they should not be interpreted as causal effects of land cover.</p>
+        <p>As shown in <xref ref-type="table" rid="urbansci-10-00639-t005">Table 5</xref>, model fit improved when terrain variables were added to the LULC-only model in all three scenes. The full model, incorporating LULC class, elevation, slope, and aspect, achieved R<sup>2</sup> values of 0.598, 0.632, and 0.603 for 2015, 2020, and 2025, respectively. The corresponding RMSE values decreased to 2.052 &#xB0;C, 1.835 &#xB0;C, and 2.031 &#xB0;C. These results indicate that terrain variables provide additional explanatory information about the spatial distribution of LST beyond that provided by LULC class alone. However, the improvement in model fit does not establish a causal effect, and spatial dependence among neighbouring pixels must be considered when interpreting uncertainty estimates. Terrain-adjusted LULC coefficients relative to Protected Area (PA) are given in <xref ref-type="table" rid="urbansci-10-00639-t006">Table 6</xref>.</p>
+        <table-wrap id="urbansci-10-00639-t005" position="anchor">
+          <object-id pub-id-type="pii">urbansci-10-00639-t005_Table 5</object-id>
+          <label>Table 5</label>
+          <caption>
+            <p>Comparison of regression model performance.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Year</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Regression Model</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">R<sup>2</sup></th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Adjusted R<sup>2</sup></th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">RMSE (&#xB0;C)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">2015</td>
+                <td align="center" valign="middle">LULC class only</td>
+                <td align="center" valign="middle">0.315</td>
+                <td align="center" valign="middle">0.315</td>
+                <td align="center" valign="middle">2.677</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2015</td>
+                <td align="center" valign="middle">LULC + elevation</td>
+                <td align="center" valign="middle">0.405</td>
+                <td align="center" valign="middle">0.405</td>
+                <td align="center" valign="middle">2.496</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2015</td>
+                <td align="center" valign="middle">LULC + elevation + slope + aspect</td>
+                <td align="center" valign="middle">0.598</td>
+                <td align="center" valign="middle">0.598</td>
+                <td align="center" valign="middle">2.052</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2020</td>
+                <td align="center" valign="middle">LULC class only</td>
+                <td align="center" valign="middle">0.179</td>
+                <td align="center" valign="middle">0.179</td>
+                <td align="center" valign="middle">2.740</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2020</td>
+                <td align="center" valign="middle">LULC + elevation</td>
+                <td align="center" valign="middle">0.447</td>
+                <td align="center" valign="middle">0.447</td>
+                <td align="center" valign="middle">2.249</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2020</td>
+                <td align="center" valign="middle">LULC + elevation + slope + aspect</td>
+                <td align="center" valign="middle">0.632</td>
+                <td align="center" valign="middle">0.632</td>
+                <td align="center" valign="middle">1.835</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2025</td>
+                <td align="center" valign="middle">LULC class only</td>
+                <td align="center" valign="middle">0.148</td>
+                <td align="center" valign="middle">0.148</td>
+                <td align="center" valign="middle">2.978</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2025</td>
+                <td align="center" valign="middle">LULC + elevation</td>
+                <td align="center" valign="middle">0.356</td>
+                <td align="center" valign="middle">0.356</td>
+                <td align="center" valign="middle">2.588</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">2025</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">LULC + elevation + slope + aspect</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.603</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.603</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">2.031</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="urbansci-10-00639-t006" position="anchor">
+          <object-id pub-id-type="pii">urbansci-10-00639-t006_Table 6</object-id>
+          <label>Table 6</label>
+          <caption>
+            <p>Terrain-adjusted LULC coefficients relative to Protected Area (PA).</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Year</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">LULC Class</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Coefficient (&#xB0;C)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">2015</td>
+                <td align="center" valign="middle">Agricultural Area (AA)</td>
+                <td align="center" valign="middle">&#x2212;0.789</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2015</td>
+                <td align="center" valign="middle">Built-Up Area (BA)</td>
+                <td align="center" valign="middle">+1.206</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2015</td>
+                <td align="center" valign="middle">Barren Land (BL)</td>
+                <td align="center" valign="middle">+2.380</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2015</td>
+                <td align="center" valign="middle">Water Body (WB)</td>
+                <td align="center" valign="middle">&#x2212;3.275</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2020</td>
+                <td align="center" valign="middle">Agricultural Area (AA)</td>
+                <td align="center" valign="middle">&#x2212;0.197</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2020</td>
+                <td align="center" valign="middle">Built-Up Area (BA)</td>
+                <td align="center" valign="middle">+0.591</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2020</td>
+                <td align="center" valign="middle">Barren Land (BL)</td>
+                <td align="center" valign="middle">+1.925</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2020</td>
+                <td align="center" valign="middle">Water Body (WB)</td>
+                <td align="center" valign="middle">&#x2212;3.391</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2025</td>
+                <td align="center" valign="middle">Agricultural Area (AA)</td>
+                <td align="center" valign="middle">&#x2212;0.128</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2025</td>
+                <td align="center" valign="middle">Built-Up Area (BA)</td>
+                <td align="center" valign="middle">+0.692</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">2025</td>
+                <td align="center" valign="middle">Barren Land (BL)</td>
+                <td align="center" valign="middle">+2.048</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">2025</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Water Body (WB)</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;3.467</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn>
+              <p>Note: Protected Area is the reference category. Coefficients represent estimated LST differences conditional on elevation, slope, and transformed aspect. Results are presented descriptively; no statistical-significance claims are made.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>After adjustment for elevation, slope, and aspect, the estimated temperature differences among LULC classes varied across the three study dates. Barren land remained warmer than the protected-area reference category in all three scenes, with adjusted coefficients of 2.38 &#xB0;C in 2015, 1.93 &#xB0;C in 2020, and 2.05 &#xB0;C in 2025. Built-up areas also exhibited higher adjusted LST, although the estimated differences were smaller, ranging from 0.59 &#xB0;C to 1.21 &#xB0;C. In contrast, water bodies showed lower adjusted LST than protected areas across all three dates, with coefficients ranging from &#x2212;3.28 &#xB0;C to &#x2212;3.47 &#xB0;C. The adjusted Agricultural Area coefficient was negative in each scene, with the smallest absolute magnitude in 2025. These findings indicate that the observed LST differences cannot be interpreted solely from unadjusted class means: accounting for terrain changes the estimated magnitude and, in some cases, the direction of the LULC associations. Nevertheless, the results represent conditional statistical associations and do not establish that land cover type alone caused the observed temperature differences.</p>
+      </sec>
+      <sec id="sec3dot5-urbansci-10-00639">
+        <title>3.5. Spatial LST Differences Between the 2015 and 2025 Scenes</title>
+        <p>The pixel-wise difference between the 2015 and 2025 LST scenes shows spatially variable positive and negative values across Sundernagar Tehsil (<xref ref-type="fig" rid="urbansci-10-00639-f012">Figure 12</xref>). with values from a maximum of +2.73 &#xB0;C to a minimum of &#x2212;11.28 &#xB0;C. The mean difference is negative in all classes (<xref ref-type="sec" rid="sec3dot2-urbansci-10-00639">Section 3.2</xref>), and the two scenes differ in date and weather, so the map mainly reflects differences between the two scenes and cannot be used to infer warming or cooling caused by land cover change.</p>
+        <p>The highest positive or least negative difference values are found mainly in the northern parts of the tehsil and along the valley axis. These areas overlap with locations where built-up development has been reported, but the present study does not quantify built-up expansion or establish a causal relationship between land cover change and LST difference. This spatial coincidence is noted only as an observation. Because of the acquisition-date effect, the influence of terrain, and the fact that neither was controlled for in the map, it is not evidence of built-up-driven warming. Similar patterns have been discussed for urbanising Himalayan areas [<xref ref-type="bibr" rid="B12-urbansci-10-00639">12</xref>,<xref ref-type="bibr" rid="B13-urbansci-10-00639">13</xref>,<xref ref-type="bibr" rid="B15-urbansci-10-00639">15</xref>], but those studies used different data and designs.</p>
+        <p>Negative difference values are concentrated in parts of the central and eastern forested hill slopes. These values indicate lower retrieved LST in the 2025 scene than in the 2015 scene at those locations [<xref ref-type="bibr" rid="B2-urbansci-10-00639">2</xref>,<xref ref-type="bibr" rid="B26-urbansci-10-00639">26</xref>]. They do not establish vegetation-induced cooling, because the difference map also reflects acquisition-date and weather-related differences between the two scenes, as well as terrain-related variation. The available observations do not separate the contributions of land cover, terrain, acquisition timing, and meteorological conditions [<xref ref-type="bibr" rid="B30-urbansci-10-00639">30</xref>].</p>
+        <p>As noted in <xref ref-type="sec" rid="sec3dot1-urbansci-10-00639">Section 3.1</xref>, differences in acquisition date and day-specific meteorological conditions may have contributed substantially to the negative mean LST difference observed in all LULC classes. Therefore, the difference map is presented for descriptive purposes only and is not used to draw conclusions about LULC-driven warming or cooling or to support planning decisions. A reliable analysis of temporal LST change would require images from comparable dates and similar meteorological conditions, or a longer time series such as several scenes per year or a same-season median composite. Such an analysis is recommended for future work.</p>
+      </sec>
+      <sec id="sec3dot6-urbansci-10-00639">
+        <title>3.6. Implications for Urban Planning and Sustainable Development</title>
+        <p>The findings are relevant for environmental management and urban planning in Sundernagar Tehsil and similar fast-growing Himalayan towns. However, they describe within-scene associations at three acquisition dates and do not establish causal effects or long-term thermal trends. In all three scenes Barren Land and Build-up Area had the highest class-mean LST and Protected Area and Water Bodies the lowest, which suggests that land cover configuration is one of the factors shaping surface thermal conditions in the tehsil. The size of the contrast is modest, however: about 1.70 to 2.51 &#xB0;C between Build-up Area and Protected Area, and 2.78 to 3.87 &#xB0;C between Barren Land and Protected Area. Continued expansion of impervious surfaces without thermal considerations may add to surface warming in urban areas, as seen in other Himalayan-type settings [<xref ref-type="bibr" rid="B13-urbansci-10-00639">13</xref>,<xref ref-type="bibr" rid="B15-urbansci-10-00639">15</xref>].</p>
+        <p>The following planning points follow from the results. (i) Forest protection: forest on the slopes around the town had the lowest LST among the vegetated classes (1.70 to 2.51 &#xB0;C below Build-up Area), so keeping forest cover in the peri-urban zone, especially on south-facing slopes where solar gain is highest, is a sensible heat-related measure; Because part of the observed contrast may be associated with elevation, the present study does not establish that forest directly cools the built-up area. (ii) Barren and developing land: Barren Land, which includes landslide zones and construction sites, was the warmest class, so leaving ground bare for long periods during construction should be avoided, for example by phasing the work and covering exposed ground with vegetation. (iii) Urban expansion: the positive association between NDBI and LST (r = 0.3671, 0.2406, and 0.3154) suggests that areas with higher built-up index values tend to have higher LST within each scene. This association may support planning measures that link new construction with green roofs, buffer strips, and tree planting, particularly along the valley axis and NH-154, where built-up land is concentrated. However, NDBI explains only approximately 6&#x2013;13% of LST variance, and the present study does not establish that built-up expansion causes warming. The effectiveness of any such measure should therefore be evaluated locally. (iv) Blue-green infrastructure: the negative NDWI-LST correlation (&#x2212;0.2790 to &#x2212;0.2988) and the lowest mean LST of Water Bodies suggest that the Uhl reservoir and the river corridors act as thermal buffers and should be protected from encroachment, and small water and green areas inside the town are worth retaining or creating. (v) Heat-sensitive zoning: this study is based on March scenes and describes within-scene LST patterns rather than seasonal heat exposure. Therefore, it cannot describe summer heat stress, when resident exposure is likely to be most important. Summer satellite scenes and field-based air-temperature measurements would be needed before thermal criteria are incorporated into zoning regulations. These points are in line with SDG 11 (Sustainable Cities and Communities), SDG 15 (Life on Land), and SDG 13 (Climate Action) and with findings of LST studies in other urban settings [<xref ref-type="bibr" rid="B41-urbansci-10-00639">41</xref>,<xref ref-type="bibr" rid="B42-urbansci-10-00639">42</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec4-urbansci-10-00639" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>This study analysed the pattern of LST and its statistical association with LULC classes and spectral indices at three dates (2015, 2020 and 2025), using Landsat 8 Collection 2 Level 2 data for Sundernagar Tehsil, Himachal Pradesh. Because the scenes were acquired on different dates in March (4 to 23 March), each year was treated as a separate cross-section, and no temporal trend was inferred. In every scene the LST pattern followed the LULC distribution, and the class ranking was the same (Barren Land &gt; Build-up Area &gt; Agricultural Area &gt; Protected Area &gt; Water Bodies). The highest and lowest class-mean LST values occurred in different scenes: 29.74 &#xB0;C for Barren Land in 2015 and 18.18 &#xB0;C for Water Bodies in 2020. Because these values come from different acquisition dates, they should not be compared directly as evidence of temporal change; within-scene class contrasts are more informative: Build-up Area was 1.70 to 2.51 &#xB0;C warmer than Protected Area, and Barren Land was 2.78 to 3.87 &#xB0;C warmer.</p>
+      <p>Differences in absolute LST among scenes may reflect acquisition timing, meteorological conditions, surface conditions, and retrieval uncertainty; their individual contributions were not quantified. For this reason the 2015&#x2013;2025 LST difference map is descriptive only and does not show built-up-driven warming. The lower LST of Protected Area than of Build-up Area indicates a cooling association with forest, but elevation and aspect are closely related to both forest cover and LST in this mountain landscape. Terrain-adjusted models indicated that the built-up&#x2013;Protected Area contrast was smaller than the corresponding raw class-mean difference, with adjusted coefficients of +1.206 &#xB0;C, +0.591 &#xB0;C, and +0.692 &#xB0;C in 2015, 2020, and 2025, respectively. These estimates describe associations conditional on the included terrain variables and do not establish causal effects of land cover.</p>
+      <p>NDBI had a positive correlation with LST in all years (2015: r = 0.3671, 2020: r = 0.2406, 2025: r = 0.3154), and NDWI a negative one (r = &#x2212;0.2790, &#x2212;0.2988, and &#x2212;0.2801) with a nearly constant regression slope of approximately &#x2212;20.6. NDVI showed a weak positive correlation with LST (r = +0.13 to +0.19, R<sup>2</sup> &lt; 0.04), contrary to the theoretically expected negative correlation. After adjustment for elevation, slope, and aspect, the NDVI regression slopes became negative in all three scenes. This reversal indicates that the direction of the NDVI&#x2013;LST association was sensitive to terrain adjustment and should not be interpreted from the unadjusted correlations alone. These indices explain only a small part of the LST variance (R<sup>2</sup> from 0.017 to 0.135), so their practical importance is limited, and the very small nominal <italic>p</italic>-values reflect the large number of spatially autocorrelated pixels and should not be given weight. The contribution of this work is a small-town, topographically constrained Himalayan case in which elevation, aspect and land cover are closely tied; it shows that class-level thermal contrasts are modest (about 2 to 4 &#xB0;C) and that simple index-LST correlations explain little of the spatial LST pattern. The main limitations are the use of one March scene per year, the 100 m native resolution of the thermal band, uncertainty in the USGS Level 2 emissivity and atmospheric-correction inputs, the lack of systematic pixel-level QA masking, the lack of in situ LST validation, and the overlap between index-based classification and index&#x2013;LST correlation. Future work should use several scenes per year including summer, topographic normalisation, and ground temperature data.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-urbansci-10-00639">
+        <title>Supplementary Materials</title>
+        <p>The following supporting information can be downloaded at: <uri>https://www.mdpi.com/article/10.3390/urbansci10110639/s1</uri>, Table S1: Confusion matrix for the 2015 LULC classification; Table S2: Confusion matrix for the 2020 LULC classification; Table S3: Confusion matrix for the 2025 LULC classification; Table S4: Number of validation observations per LULC class used for accuracy assessment of the Random Forest classifications.</p>
+        <supplementary-material xmlns:xlink="http://www.w3.org/1999/xlink" id="urbansci-10-00639-s001" xlink:href="urbansci-10-00639-s001.zip"/>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, A.D., A.S., K.S. and A.O.; Methodology, A.D. and A.S.; Data Analysis and Visualisation, A.D.; Investigation, A.D. and A.S.; Writing&#x2014;Original Draft Preparation, A.D.; Writing&#x2014;Reviewing and Editing, A.S., K.S. and A.O.; Supervision, A.S. and K.S. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The Landsat 8 Collection 2 Level 2 data used in this study are openly available from the USGS Earth Explorer portal. Processed LULC and LST datasets generated during the study are available from the corresponding author upon reasonable request.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors acknowledge JNGEC, Sundernagar, Himachal Pradesh; Rayat Bahra University, Mohali, Punjab; and the University of Johannesburg, South Africa, for institutional support and research facilities. The authors also acknowledge the use of Landsat satellite data and geospatial datasets for the study.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <glossary>
+      <title>Abbreviations</title>
+      <p>The following abbreviations are used in this manuscript:
+        <array><tbody><tr><td align="left" valign="middle">LST</td><td align="left" valign="middle">Land Surface Temperature</td></tr><tr><td align="left" valign="middle">LULC</td><td align="left" valign="middle">Land Use/Land Cover</td></tr><tr><td align="left" valign="middle">UHI</td><td align="left" valign="middle">Urban Heat Island</td></tr><tr><td align="left" valign="middle">NDVI</td><td align="left" valign="middle">Normalized Difference Vegetation Index</td></tr><tr><td align="left" valign="middle">NDWI</td><td align="left" valign="middle">Normalized Difference Water Index</td></tr><tr><td align="left" valign="middle">NDBI</td><td align="left" valign="middle">Normalized Difference Built-up Index</td></tr><tr><td align="left" valign="middle">PA</td><td align="left" valign="middle">Protected Area</td></tr><tr><td align="left" valign="middle">AA</td><td align="left" valign="middle">Agricultural Area</td></tr><tr><td align="left" valign="middle">BA</td><td align="left" valign="middle">Build-up Area</td></tr><tr><td align="left" valign="middle">BL</td><td align="left" valign="middle">Barren Land</td></tr><tr><td align="left" valign="middle">WB</td><td align="left" valign="middle">Water Bodies</td></tr><tr><td align="left" valign="middle">SR</td><td align="left" valign="middle">Surface Reflectance</td></tr><tr><td align="left" valign="middle">ST</td><td align="left" valign="middle">Surface Temperature</td></tr><tr><td align="left" valign="middle">DN</td><td align="left" valign="middle">Digital Number</td></tr><tr><td align="left" valign="middle">RMSE</td><td align="left" valign="middle">Root Mean Square Error</td></tr><tr><td align="left" valign="middle">MAE</td><td align="left" valign="middle">Mean Absolute Error</td></tr><tr><td align="left" valign="middle">CI</td><td align="left" valign="middle">Confidence Interval</td></tr><tr><td align="left" valign="middle">RF</td><td align="left" valign="middle">Random Forest</td></tr><tr><td align="left" valign="middle">OLI</td><td align="left" valign="middle">Operational Land Imager</td></tr><tr><td align="left" valign="middle">TIRS</td><td align="left" valign="middle">Thermal Infrared Sensor</td></tr><tr><td align="left" valign="middle">USGS</td><td align="left" valign="middle">United States Geological Survey</td></tr><tr><td align="left" valign="middle">ASTER</td><td align="left" valign="middle">Advanced Spaceborne Thermal Emission and Reflection Radiometer</td></tr></tbody></array></p>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-urbansci-10-00639">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Voogt</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Oke</surname>
+              <given-names>T.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal remote sensing of urban climates</article-title>
+          <source>Remote Sens. Environ.</source>
+          <year>2003</year>
+          <volume>86</volume>
+          <fpage>370</fpage>
+          <lpage>384</lpage>
+          <pub-id pub-id-type="doi">10.1016/s0034-4257(03)00079-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-urbansci-10-00639">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weng</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Schubring</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimation of land surface temperature&#x2013;vegetation abundance relationship for urban heat island studies</article-title>
+          <source>Remote Sens. Environ.</source>
+          <year>2004</year>
+          <volume>89</volume>
+          <fpage>467</fpage>
+          <lpage>483</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.rse.2003.11.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-urbansci-10-00639">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sobrino</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Jim&#xE9;nez-Mu&#xF1;oz</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Paolini</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Land surface temperature retrieval from LANDSAT TM 5</article-title>
+          <source>Remote Sens. Environ.</source>
+          <year>2004</year>
+          <volume>90</volume>
+          <fpage>434</fpage>
+          <lpage>440</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.rse.2004.02.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-urbansci-10-00639">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.-L.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>B.-H.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wan</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Trigo</surname>
+              <given-names>I.F.</given-names>
+            </name>
+            <name>
+              <surname>Sobrino</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Satellite-derived land surface temperature: Current status and perspectives</article-title>
+          <source>Remote Sens. Environ.</source>
+          <year>2013</year>
+          <volume>131</volume>
+          <fpage>14</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.rse.2012.12.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-urbansci-10-00639">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oke</surname>
+              <given-names>T.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The energetic basis of the urban heat island</article-title>
+          <source>Q. J. R. Meteorol. Soc.</source>
+          <year>1982</year>
+          <volume>108</volume>
+          <fpage>1</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="doi">10.1002/qj.49710845502</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-urbansci-10-00639">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bonafoni</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Deilami</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Frolking</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Qiao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Sobrino</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Satellite remote sensing of surface urban heat islands: Progress, challenges, and perspectives</article-title>
+          <source>Remote Sens.</source>
+          <year>2018</year>
+          <volume>11</volume>
+          <elocation-id>48</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/rs11010048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-urbansci-10-00639">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kumar</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Bhaskar</surname>
+              <given-names>P.U.</given-names>
+            </name>
+            <name>
+              <surname>Padmakumari</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimation of land surface temperature to study urban heat island effect using Landsat ETM+ image</article-title>
+          <source>Int. J. Eng. Sci. Technol.</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <fpage>771</fpage>
+          <lpage>778</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B8-urbansci-10-00639">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deosthali</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of rapid urban growth on heat and moisture islands in Pune City, India</article-title>
+          <source>Atmos. Environ.</source>
+          <year>2000</year>
+          <volume>34</volume>
+          <fpage>2745</fpage>
+          <lpage>2754</lpage>
+          <pub-id pub-id-type="doi">10.1016/s1352-2310(99)00370-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-urbansci-10-00639">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharma</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of land use/land cover dynamics in the Indian Himalayan region using GIS: A case study of Mandi district, Himachal Pradesh</article-title>
+          <source>Proc. Indian Natl. Sci. Acad.</source>
+          <year>2026</year>
+          <pub-id pub-id-type="doi">10.1007/s43538-026-00716-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-urbansci-10-00639">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thakur</surname>
+              <given-names>P.K.</given-names>
+            </name>
+            <name>
+              <surname>Verma</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Thakur</surname>
+              <given-names>P.K.</given-names>
+            </name>
+            <name>
+              <surname>Mallick</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Pradhan</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessing Landscape Dynamics and Variations in Land Surface Temperature in the Parbati Watershed of the Himalayas</article-title>
+          <source>Int. J. Environ. Res.</source>
+          <year>2026</year>
+          <volume>20</volume>
+          <fpage>79</fpage>
+          <pub-id pub-id-type="doi">10.1007/s41742-025-01030-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-urbansci-10-00639">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Firozjaei</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Sedighi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kiavarz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Qureshi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Haase</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Alavipanah</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Automated built-up extraction index: A new technique for mapping surface built-up areas using LANDSAT 8 OLI imagery</article-title>
+          <source>Remote Sens.</source>
+          <year>2019</year>
+          <volume>11</volume>
+          <elocation-id>1966</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/rs11171966</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-urbansci-10-00639">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mehra</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Swain</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>GIS and remote sensing based analysis for monitoring urban growth dynamics in Western Himalayan city of Dharamshala, India</article-title>
+          <source>Urban Lifeline</source>
+          <year>2025</year>
+          <volume>3</volume>
+          <fpage>4</fpage>
+          <pub-id pub-id-type="doi">10.1007/s44285-024-00033-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-urbansci-10-00639">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lata</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessing the impact of spatio-temporal land cover changes on land surface temperature using satellite data in Beas Valley, Himachal Pradesh, India</article-title>
+          <source>IOP Conf. Ser. Earth Environ. Sci.</source>
+          <year>2022</year>
+          <volume>986</volume>
+          <fpage>012050</fpage>
+          <pub-id pub-id-type="doi">10.1088/1755-1315/986/1/012050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-urbansci-10-00639">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thakur</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Maity</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mondal</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Basumatary</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>P.B.</given-names>
+            </name>
+            <name>
+              <surname>Das</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>De</surname>
+              <given-names>T.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of changes in land use, land cover, and land surface temperature in the mangrove forest of Sundarbans, northeast coast of India</article-title>
+          <source>Environ. Dev. Sustain.</source>
+          <year>2020</year>
+          <volume>23</volume>
+          <fpage>1917</fpage>
+          <lpage>1943</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10668-020-00656-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-urbansci-10-00639">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Husain</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Gonencgil</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of spatio-temporal land use/cover change and its effect on land surface temperature in Lahaul and Spiti, India</article-title>
+          <source>Land</source>
+          <year>2023</year>
+          <volume>12</volume>
+          <elocation-id>1294</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/land12071294</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-urbansci-10-00639">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McFeeters</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The use of the Normalized Difference Water Index (NDWI) in the delineation of open water features</article-title>
+          <source>Int. J. Remote Sens.</source>
+          <year>1996</year>
+          <volume>17</volume>
+          <fpage>1425</fpage>
+          <lpage>1432</lpage>
+          <pub-id pub-id-type="doi">10.1080/01431169608948714</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-urbansci-10-00639">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jim&#xE9;nez-Mu&#xF1;oz</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Sobrino</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A generalized single-channel method for retrieving land surface temperature from remote sensing data</article-title>
+          <source>J. Geophys. Res. Atmos.</source>
+          <year>2003</year>
+          <volume>108</volume>
+          <fpage>D22</fpage>
+          <comment>Correction in <italic>J. Geophys. Res. Atmos.</italic> <bold>2004</bold>, <italic>109</italic>, D8. <uri>https://doi.org/10.1029/2004JD004804</uri></comment>
+          <pub-id pub-id-type="doi">10.1029/2003jd003480</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-urbansci-10-00639">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jimenez-Munoz</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Sobrino</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Skokovi&#x107;</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mattar</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Cristobal</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Land surface temperature retrieval methods from Landsat-8 thermal infrared sensor data</article-title>
+          <source>IEEE Geosci. Remote Sens. Lett.</source>
+          <year>2014</year>
+          <volume>11</volume>
+          <fpage>1840</fpage>
+          <lpage>1843</lpage>
+          <pub-id pub-id-type="doi">10.1109/lgrs.2014.2312032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-urbansci-10-00639">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roy</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Wulder</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Loveland</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Woodcock</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Allen</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Helder</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Irons</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Kennedy</surname>
+              <given-names>R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Landsat-8: Science and product vision for terrestrial global change research</article-title>
+          <source>Remote Sens. Environ.</source>
+          <year>2014</year>
+          <volume>145</volume>
+          <fpage>154</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.rse.2014.02.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-urbansci-10-00639">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barbieri</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Despini</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Teggi</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Multi-Temporal Analyses of Land Surface Temperature Using Landsat-8 Data and Open Source Software: The Case Study of Modena, Italy</article-title>
+          <source>Sustainability</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <elocation-id>1678</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su10051678</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-urbansci-10-00639">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guha</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Govil</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Dey</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gill</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analytical study of land surface temperature with NDVI and NDBI using Landsat 8 OLI and TIRS data in Florence and Naples city, Italy</article-title>
+          <source>Eur. J. Remote Sens.</source>
+          <year>2018</year>
+          <volume>51</volume>
+          <fpage>667</fpage>
+          <lpage>678</lpage>
+          <pub-id pub-id-type="doi">10.1080/22797254.2018.1474494</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-urbansci-10-00639">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zha</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ni</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Use of normalized difference built-up index in automatically mapping urban areas from TM imagery</article-title>
+          <source>Int. J. Remote Sens.</source>
+          <year>2003</year>
+          <volume>24</volume>
+          <fpage>583</fpage>
+          <lpage>594</lpage>
+          <pub-id pub-id-type="doi">10.1080/01431160304987</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-urbansci-10-00639">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.-L.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>H.-M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>P.-X.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>Z.-Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Remote sensing image-based analysis of the relationship between urban heat island and land use/cover changes</article-title>
+          <source>Remote Sens. Environ.</source>
+          <year>2006</year>
+          <volume>104</volume>
+          <fpage>133</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.rse.2005.11.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-urbansci-10-00639">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery</article-title>
+          <source>Int. J. Remote Sens.</source>
+          <year>2006</year>
+          <volume>27</volume>
+          <fpage>3025</fpage>
+          <lpage>3033</lpage>
+          <pub-id pub-id-type="doi">10.1080/01431160600589179</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-urbansci-10-00639">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Odeh</surname>
+              <given-names>I.O.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bi-temporal characterization of land surface temperature in relation to impervious surface area, NDVI and NDBI, using a sub-pixel image analysis</article-title>
+          <source>Int. J. Appl. Earth Obs. Geoinf.</source>
+          <year>2009</year>
+          <volume>11</volume>
+          <fpage>256</fpage>
+          <lpage>264</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jag.2009.03.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-urbansci-10-00639">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gogoi</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Vinoj</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Swain</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Roberts</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Dash</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tripathy</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Land use and land cover change effect on surface temperature over Eastern India</article-title>
+          <source>Sci. Rep.</source>
+          <year>2019</year>
+          <volume>9</volume>
+          <fpage>8859</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-019-45213-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-urbansci-10-00639">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wani</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Sarda</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Jain</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of trends and variability of rainfall and temperature for the district of Mandi in Himachal Pradesh, India</article-title>
+          <source>Slovak J. Civ. Eng.</source>
+          <year>2017</year>
+          <volume>25</volume>
+          <fpage>15</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="doi">10.1515/sjce-2017-0014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-urbansci-10-00639">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharma</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Determining prospective zones for groundwater recharge using remote sensing, GIS, and AHP modelling techniques: An investigation of the Mandi district in Himachal Pradesh, India</article-title>
+          <source>Environ. Earth Sci.</source>
+          <year>2025</year>
+          <volume>84</volume>
+          <fpage>123</fpage>
+          <pub-id pub-id-type="doi">10.1007/s12665-025-12137-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-urbansci-10-00639">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharma</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>ARIMA-Based forecasting of monthly rainfall in Mandi district, Himachal Pradesh</article-title>
+          <source>Water Supply</source>
+          <year>2024</year>
+          <volume>24</volume>
+          <fpage>3226</fpage>
+          <lpage>3237</lpage>
+          <pub-id pub-id-type="doi">10.2166/ws.2024.200</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-urbansci-10-00639">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kumar</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Husain</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of land cover change on land surface temperature: A case study of Spiti Valley</article-title>
+          <source>J. Mt. Sci.</source>
+          <year>2018</year>
+          <volume>15</volume>
+          <fpage>1658</fpage>
+          <lpage>1670</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11629-018-4902-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-urbansci-10-00639">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rajeshwari</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mani</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimation of land surface temperature of Dindigul district using Landsat 8 data</article-title>
+          <source>Int. J. Res. Eng. Technol.</source>
+          <year>2014</year>
+          <volume>3</volume>
+          <fpage>122</fpage>
+          <lpage>126</lpage>
+          <pub-id pub-id-type="doi">10.15623/ijret.2014.0305025</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-urbansci-10-00639">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malakar</surname>
+              <given-names>N.K.</given-names>
+            </name>
+            <name>
+              <surname>Hulley</surname>
+              <given-names>G.C.</given-names>
+            </name>
+            <name>
+              <surname>Hook</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Laraby</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Cook</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Schott</surname>
+              <given-names>J.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>An operational land surface temperature product for Landsat thermal data: Methodology and validation</article-title>
+          <source>IEEE Trans. Geosci. Remote Sens.</source>
+          <year>2018</year>
+          <volume>56</volume>
+          <fpage>5717</fpage>
+          <lpage>5735</lpage>
+          <pub-id pub-id-type="doi">10.1109/tgrs.2018.2824828</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-urbansci-10-00639">
+        <label>33.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>U.S. Geological Survey</collab>
+          </person-group>
+          <article-title>How Do I Use a Scale Factor with Landsat Level-2 Science Products. U.S. Geological Survey</article-title>
+          <year>2021</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.usgs.gov/faqs/how-do-i-use-a-scale-factor-landsat-level-2-science-products" ext-link-type="uri">https://www.usgs.gov/faqs/how-do-i-use-a-scale-factor-landsat-level-2-science-products</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-06-19">(accessed on 19 June 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B34-urbansci-10-00639">
+        <label>34.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rouse</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Haas</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Schell</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Deering</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Monitoring Vegetation Systems in the Great Plains with ERTS</article-title>
+          <source>Proceedings of the Third ERTS-1 Symposium NASA, NASA SP-351</source>
+          <conf-loc>Washington, DC, USA</conf-loc>
+          <conf-date>10&#x2013;14 December 1974</conf-date>
+          <volume>Volume 1</volume>
+          <fpage>309</fpage>
+          <lpage>317</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B35-urbansci-10-00639">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karaku&#x15F;</surname>
+              <given-names>C.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Impact of Land Use/Land Cover (LULC) Changes on Land Surface Temperature in Sivas City Center and Its Surroundings and Assessment of Urban Heat Island</article-title>
+          <source>Asia-Pac. J. Atmos. Sci.</source>
+          <year>2019</year>
+          <volume>55</volume>
+          <fpage>669</fpage>
+          <lpage>684</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13143-019-00109-w</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-urbansci-10-00639">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fisher</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Frequency distribution of the values of the correlation coefficient in samples from an indefinitely large population</article-title>
+          <source>Biometrika</source>
+          <year>1915</year>
+          <volume>10</volume>
+          <fpage>507</fpage>
+          <lpage>521</lpage>
+          <pub-id pub-id-type="doi">10.2307/2331838</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-urbansci-10-00639">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mausel</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Brondizio</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Moran</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Change detection techniques</article-title>
+          <source>Int. J. Remote Sens.</source>
+          <year>2004</year>
+          <volume>25</volume>
+          <fpage>2365</fpage>
+          <lpage>2401</lpage>
+          <pub-id pub-id-type="doi">10.1080/0143116031000139863</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-urbansci-10-00639">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Estoque</surname>
+              <given-names>R.C.</given-names>
+            </name>
+            <name>
+              <surname>Murayama</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Monitoring surface urban heat island formation in a tropical mountain city using Landsat data (1987&#x2013;2015)</article-title>
+          <source>ISPRS J. Photogramm. Remote Sens.</source>
+          <year>2017</year>
+          <volume>133</volume>
+          <fpage>18</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.isprsjprs.2017.09.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-urbansci-10-00639">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Estoque</surname>
+              <given-names>R.C.</given-names>
+            </name>
+            <name>
+              <surname>Murayama</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Myint</surname>
+              <given-names>S.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of landscape composition and pattern on land surface temperature: An urban heat island study in the megacities of Southeast Asia</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2017</year>
+          <volume>577</volume>
+          <fpage>349</fpage>
+          <lpage>359</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2016.10.195</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-urbansci-10-00639">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rousta</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Sarif</surname>
+              <given-names>M.O.</given-names>
+            </name>
+            <name>
+              <surname>Gupta</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Olafsson</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ranagalage</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Murayama</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mushore</surname>
+              <given-names>T.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatiotemporal analysis of land use/land cover and its effects on surface urban heat island using Landsat data: A case study of Metropolitan City Tehran (1988&#x2013;2018)</article-title>
+          <source>Sustainability</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <elocation-id>4433</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su10124433</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-urbansci-10-00639">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Priyankara</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ranagalage</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dissanayake</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Morimoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Murayama</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial process of surface urban heat island in rapidly growing Seoul metropolitan area for sustainable urban planning using Landsat data (1996&#x2013;2017)</article-title>
+          <source>Climate</source>
+          <year>2019</year>
+          <volume>7</volume>
+          <elocation-id>110</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/cli7090110</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-urbansci-10-00639">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sinha</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gupta</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimation of Land Surface Temperature of Sahibzada Ajit Singh Nagar, Punjab, India</article-title>
+          <source>J. Min. Environ.</source>
+          <year>2023</year>
+          <volume>14</volume>
+          <fpage>527</fpage>
+          <lpage>544</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="urbansci-10-00639-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Location map of Sundernagar.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g001.tif"/>
+      </fig>
+      <fig id="urbansci-10-00639-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Methodological flowchart of the study.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g002.tif"/>
+      </fig>
+      <fig id="urbansci-10-00639-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Spatial distribution of Land Surface Temperature (LST) in Sundernagar Tehsil for (<bold>a</bold>) 2015, (<bold>b</bold>) 2020, and (<bold>c</bold>) 2025.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g004.tif"/>
+      </fig>
+      <fig id="urbansci-10-00639-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Mean LST per LULC class in Sundernagar Tehsil for 2015, 2020, and 2025.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g005.tif"/>
+      </fig>
+      <fig id="urbansci-10-00639-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Spatial distribution of NDBI in Sundernagar Tehsil for (<bold>a</bold>) 2015, (<bold>b</bold>) 2020, and (<bold>c</bold>) 2025.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g006.tif"/>
+      </fig>
+      <fig id="urbansci-10-00639-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Density (hexbin) plots of LST against NDBI for (<bold>a</bold>) 2015, (<bold>b</bold>) 2020, and (<bold>c</bold>) 2025. Colour indicates the number of pixels per bin; the line represents the least-squares linear fit.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g007.tif"/>
+      </fig>
+      <fig id="urbansci-10-00639-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Spatial distribution of NDWI for (<bold>a</bold>) 2015, (<bold>b</bold>) 2020, and (<bold>c</bold>) 2025.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g008.tif"/>
+      </fig>
+      <fig id="urbansci-10-00639-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Density (hexbin) plots of LST against NDWI for (<bold>a</bold>) 2015, (<bold>b</bold>) 2020, and (<bold>c</bold>) 2025. Colour shows the number of pixels per bin, and the line is the least-squares fit.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g009.tif"/>
+      </fig>
+      <fig id="urbansci-10-00639-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>Spatial distribution of NDVI in Sundernagar Tehsil for (<bold>a</bold>) 2015, (<bold>b</bold>) 2020, and (<bold>c</bold>) 2025.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g010.tif"/>
+      </fig>
+      <fig id="urbansci-10-00639-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Density (hexbin) plots of LST against NDVI for (<bold>a</bold>) 2015, (<bold>b</bold>) 2020, and (<bold>c</bold>) 2025. Colour shows the number of pixels per bin, and the line is the least squares fit.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g011.tif"/>
+      </fig>
+      <fig id="urbansci-10-00639-f012" position="float">
+        <label>Figure 12</label>
+        <caption>
+          <p>Spatial distribution of LST differences between the 2015 and 2025 scenes in Sundernagar Tehsil.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00639-g012.tif"/>
+      </fig>
+      <table-wrap id="urbansci-10-00639-t001" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00639-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Description of satellite images applied in study area.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Satellite</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sensor</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Path/Row</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Date of Acquisition</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cloud Cover</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Spatial Resolution</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Landsat 8</td>
+              <td align="center" valign="middle">OLI/TIRS</td>
+              <td align="center" valign="middle">147/038</td>
+              <td align="center" valign="middle">23 March 2015</td>
+              <td align="center" valign="middle">0.69%</td>
+              <td align="center" valign="middle">30 m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Landsat 8</td>
+              <td align="center" valign="middle">OLI/TIRS</td>
+              <td align="center" valign="middle">147/038</td>
+              <td align="center" valign="middle">4 March 2020</td>
+              <td align="center" valign="middle">4.22%</td>
+              <td align="center" valign="middle">30 m</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Landsat 8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">OLI/TIRS</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">147/038</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18 March 2025</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.16%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30 m</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="urbansci-10-00639-t002" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00639-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Description of LULC classes.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">LULC Class</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Protected Areas (PA)</td>
+              <td align="center" valign="middle">Dense forests, reserved forests, and protected plantations</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Agricultural Areas (AA)</td>
+              <td align="center" valign="middle">Croplands and horticultural land</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Build-up areas (BA)</td>
+              <td align="center" valign="middle">Settlements and roads</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Barren Land (BL)</td>
+              <td align="center" valign="middle">Uncultivable area, exposed soil, landslide zones, construction sites</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Water Bodies (WB)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Rivers, streams, lake, reservoirs, and ponds</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="urbansci-10-00639-t003" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00639-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Mean LST (&#xB0;C) per LULC class for 2015, 2020, and 2025 with full zonal statistics.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">LULC Class</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean LST 2015 (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean LST 2020 (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean LST 2025 (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Change 2025 Minus 2015 (&#xB0;C)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Protected Area</td>
+              <td align="center" valign="middle">25.87</td>
+              <td align="center" valign="middle">19.31</td>
+              <td align="center" valign="middle">22.43</td>
+              <td align="center" valign="middle">&#x2212;3.44</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Agricultural Area</td>
+              <td align="center" valign="middle">26.41</td>
+              <td align="center" valign="middle">20.38</td>
+              <td align="center" valign="middle">23.13</td>
+              <td align="center" valign="middle">&#x2212;3.28</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Build-up Area</td>
+              <td align="center" valign="middle">28.38</td>
+              <td align="center" valign="middle">21.32</td>
+              <td align="center" valign="middle">24.13</td>
+              <td align="center" valign="middle">&#x2212;4.25</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Barren Land</td>
+              <td align="center" valign="middle">29.74</td>
+              <td align="center" valign="middle">22.20</td>
+              <td align="center" valign="middle">25.21</td>
+              <td align="center" valign="middle">&#x2212;4.54</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Water Bodies</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24.05</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.18</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20.72</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;3.33</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: Between-scene differences are descriptive comparisons of the two acquisitions and should not be interpreted as long-term warming or cooling or as effects attributable to land cover change. The thermal rank across all years follows a consistent pattern: Barren Land &gt; Build-up Area &gt; Agricultural Area &gt; Protected Area &gt; Water Bodies.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

@@ -1,0 +1,109 @@
+Management behavior and associated factors in urban parks engaged in nature restoration
+An exploratory analysis using a questionnaire survey of 39 parks in Japan and structural equation modeling
+
+
+Abstract
+
+Nature restoration in urban parks requires the coordination of conservation activities and recreational use. This study used a questionnaire survey of park managers at 39 parks in Japan to examine conservation activities, responses to recreational use, efforts to balance conservation and recreational use, and stakeholder involvement. Associations with management conditions were explored using structural equation modeling (SEM). Efforts to balance conservation and recreational use centered on engagement with users through experiential and educational activities, whereas spatial separation and related measures were less common. The categories of nonimplementation differed across items in the relative proportions of responses indicating a recognized need for action and those indicating the absence of an established policy. Conservation activities were widely implemented, although non-native species removal and habitat management were also frequently identified as management issues. In the SEM, the coefficients linking social norms, which primarily represented stakeholder involvement, to environment-focused behavior and balance-oriented behavior were both positive. Associations with environmental quality, representing greenness, differed in sign between these two behaviors, and the proportion of variance explained in user-focused behavior was low. These findings were used to interpret management orientations in terms of six types: nature restoration, conservation, experience-and-education, spatial separation, integrated, and selective-use. The study provides insights for examining park-specific approaches to balancing conservation and recreational use by considering management arrangements and environmental conditions alongside managers' policies.
+
+Keywords
+Urban parks; Nature restoration; Park management; Conservation–recreation conflict; Structural equation modeling
+
+
+1. Introduction
+
+1.1. Background
+
+Biodiversity conservation emphasizes the restoration of degraded ecosystems alongside the protection of existing natural environments. The Kunming–Montreal Global Biodiversity Framework, adopted in 2022, aims to halt and reverse biodiversity loss by 2030. Alongside the effective conservation and management of at least 30% of terrestrial and inland water areas and coastal and marine areas (Target 3), the framework calls for improvements in the area, quality, connectivity, and accessibility of green and blue spaces in urban and densely populated areas (Target 12) (Convention on Biological Diversity [CBD], 2022). Japan has also adopted the 30by30 Roadmap and the National Biodiversity Strategy and Action Plan of Japan 2023–2030 to advance efforts toward a nature-positive future (Ministry of the Environment, 2022, 2023).
+
+Urban parks provide opportunities for recreation and contact with nature (Chiesura, 2004) and serve as habitats for plants and animals within cities (Nielsen et al., 2014). Because urban biodiversity is associated with factors such as green space area, connectivity, and vegetation structure (Beninde et al., 2015), management within parks needs to be considered in relation to the surrounding environment. A decline in direct human interactions with nature has also been reported (Soga and Gaston, 2016). Against this background, this study focuses on the coordination of conservation and recreational use in parks that provide opportunities for contact with nature.
+
+However, nature restoration and recreational use are not always compatible. Changes in vegetation management or rules governing recreational use can generate conflict with established uses or users' perceptions of nature (Gobster, 2001). The impacts of recreation on organisms and their habitats may vary with the activities involved, use intensity, and environmental conditions (Monz et al., 2013; Larson et al., 2016). Park managers therefore need to combine routine management, facilities, rules governing recreational use, spatial arrangements, and information provision according to conservation targets and actual patterns of use.
+
+Linking ecological conditions with management practice remains a challenge in managing urban green spaces for biodiversity (Aronson et al., 2017). Research on participation and collaboration in environmental management has emphasized the importance of incorporating stakeholder knowledge into decision-making and examining decision-making processes and relationships among stakeholders (Reed, 2008; Bodin, 2017). Studies of green space managers have also examined the implementation of biodiversity measures and the management conditions associated with their implementation (Brocki et al., 2025).
+
+Understanding conservation–recreation conflict in urban parks therefore requires identifying the measures that managers implement and the issues they recognize. Even where policies favor conservation, necessary measures are not always implemented because user requests and complaints, as well as conditions for implementation, must also be considered. This study examines the conditions associated with efforts to balance conservation and recreational use in parks engaged in nature restoration, as well as the issues evident in both unimplemented measures and ongoing activities. By relating implementation, recognition of management issues, and management conditions, the study provides a basis for considering approaches suited to the conditions of individual parks.
+
+1.2. Previous research and the present study
+
+Research on biodiversity in urban parks has identified spatial and vegetation-related conditions that support species richness (Beninde et al., 2015; Nielsen et al., 2014). Studies of the ecological impacts of recreation also indicate that relationships between recreational use and conservation need to be examined in relation to the activities and environmental conditions involved, rather than treated uniformly (Monz et al., 2013; Larson et al., 2016). Applying these findings to park management requires attention not only to ecological conditions but also to the stakeholders responsible for implementation and the implementation process.
+
+Among studies using SEM to examine parks in relation to the living environment, Zhao et al. (2024) analyzed the relationships of private garden area, satisfaction with greenness in the city and around the place of residence, and the frequency of visits to urban parks and neighborhood open spaces with subjective well-being. Drawing on a questionnaire survey of residents, Tsukada et al. (2020) used factor analysis to organize items concerning interest in a greening policy vision, satisfaction with the living environment, and needs for improvements to block parks, and examined their relationships with park satisfaction and frequency of use. Whereas these studies focused on residents' evaluations and recreational use, the present study treats the park as the unit of analysis and examines associations between management practices and conditions for implementation.
+
+The theory of planned behavior (TPB) has been widely applied in research on pro-environmental behavior (Ajzen, 1991; Yuriev et al., 2020). In urban green spaces, studies have examined citizens' participation in governance (Huang et al., 2021) and park users' anti-littering behavior (Fenitra et al., 2023). Research on land managers has also analyzed biodiversity conservation intentions among farmers and forest owners (Maleksaeidi and Keshavarz, 2019; Koskela and Karppinen, 2024). In contrast to these studies of individual intentions, examining measures implemented by park management organizations requires consideration of decision-making authority, organizational policies, budgets, collaborating stakeholders, and existing facilities, in addition to respondents' perceptions.
+
+Our previous study (Chen and Fukahori, 2026) organized accounts from park managers and other respondents in five cases in Saitama Prefecture according to three management orientations: Environmental Focus, Balanced, and User Focus. It examined differences in management orientations in relation to surrounding land use, internal park conditions, management policies, and relationships with relevant stakeholders. This qualitative study compared policies expressed in the accounts and the relative emphasis placed on conservation and recreational use.
+
+The present study draws on that qualitative research to develop questionnaire items and compare management practices across 39 parks engaged in nature restoration. Using a common set of questions, it compares implementation, categories of nonimplementation, recognition of management issues, and stakeholder involvement, and explores their associations with management conditions. Its distinctive focus is on specific measures through which management responses associated with the three orientations are combined within the same park.
+
+1.3. Objectives and analytical framework
+
+This study aims to characterize the implementation of measures for coordinating conservation and recreational use in urban parks engaged in nature restoration and to examine management issues and associated conditions. Two research questions are addressed.
+
+First, what characteristics are evident in conservation activities, responses to recreational use, efforts to balance conservation and recreational use, and stakeholder involvement? This question concerns the distributions of implementation, categories of nonimplementation, and recognition of conservation-related management issues.
+
+Second, how are stakeholder involvement in conservation activities, user responses as reported by managers, and greenness within and outside parks associated with environment-focused behavior, balance-oriented behavior, and user-focused behavior? This question examines whether stakeholder involvement is associated with both conservation and balancing efforts, how user requests and complaints relate to responses concerning safety and amenities, and whether associations with environmental conditions differ according to the content of management behavior.
+
+TPB provides a perspective for organizing these associations. The theory explains relationships among attitudes, subjective norms, perceived behavioral control, behavioral intentions, and behavior (Ajzen, 1991). Park management requires coordination among conservation policies, user requests, and conditions for implementation. A perspective that distinguishes expectations from others concerning behavior, evaluations of behavior, and conditions for carrying it out is therefore used to examine associations with management responses. This survey addresses management responses at the park level and does not directly measure individual managers' attitudes, subjective norms, perceived behavioral control, or behavioral intentions. Accordingly, the study is positioned as an exploratory analysis of associations informed by a TPB perspective.
+
+In this study, nature restoration refers to efforts aimed at restoring natural environments; the analysis of management behavior also includes conservation activities that maintain existing natural environments. Recreational use encompasses the use of facilities, walking, collecting organisms, and visits with pets, among other activities. Park management is examined through three aspects: conservation and restoration of natural environments (environment-focused behavior), coordination of conservation and recreational use (balance-oriented behavior), and user safety, amenities, and the accommodation of recreational use (user-focused behavior). Operational definitions and calculation methods for the concepts are presented in Tables 1 and 2.
+
+Fig. 1 shows the relationships among the research questions, questionnaire content, and analytical methods. Descriptive statistics characterize the distribution of practices and issues, while exploratory factor analysis supports the examination of indicator composition. SEM examines associations between the three management behaviors and management conditions. The discussion relates these findings to comparisons of management issues and practices.
+
+Fig. 1. Analytical framework of the study.
+
+[Research objective]
+Identify management practices, issues, and associated conditions
+in coordinating nature restoration and recreational use
+                                      ↓
+[Questionnaire survey: park managers at 39 parks engaged in nature restoration in Japan]
+Unit of analysis: park
+• Conservation, recreational use, and balancing practices and issues (Q2, Q4, Q5, and Q9)
+• Stakeholder involvement and funding (Q3 and Q6)
+• Requests, complaints, and responses (Q7 and Q8)
+                                      │
+             ┌────────────────────────┴─────────────────────────┐
+             ↓                                                  ↓
+[Research question I]                              [Research question II]
+Characterize management                           Examine conditions associated
+practices and issues                              with management behavior
+
+Descriptive statistics (Q2–Q5)                     Indicator construction and reassessment
+• Implementation                                  (Tables 1 and 2)
+• Categories of nonimplementation                 ← Greenness within and outside parks (NDVI)
+• Recognition of management issues                └ Reassessment of Q5 items after the initial SEM
+• Stakeholder involvement                           (exploratory factor analysis: Table 7)
+                                                                 ↓
+                                                  Re-estimation of exploratory SEM (Fig. 2)
+                                                  Explanatory constructs:
+                                                  Social norms; User attitudes;
+                                                  Environmental quality
+                                                  Behavioral constructs:
+                                                  Environment-focused behavior;
+                                                  Balance-oriented behavior;
+                                                  User-focused behavior
+             │                                                  │
+             └────────────────────────┬─────────────────────────┘
+                                      ↓
+[Integration of results and discussion]
+Characterize efforts to balance conservation and recreational use and associated issues
+Examine associations of management arrangements and environmental conditions
+with management behavior
+Organize six types for comparing management orientations
+
+Note: Arrows indicate the correspondence between the data and the final analyses. Indicator definitions and calculation methods are presented in Tables 1 and 2; individual SEM paths and estimates are shown in Fig. 2.
+
+
+2. Methods
+
+2.1. Study parks and survey methods
+
+The study included 39 parks and green spaces engaged in nature restoration that were established and managed under the Urban Parks Act (Act No. 79 of 1956). Selection considered geographical coverage, environmental types such as forests, waterside environments, and satoyama landscapes, and diversity in management organizations. Priority was given to parks certified as, or considered candidates for, Nationally Certified Sustainably Managed Natural Sites. Where one organization managed several parks, a maximum of three parks with differing environmental conditions were selected.
+
+The parks were selected to compare differences in nature restoration practices and management conditions.
+
+The survey was conducted in Japanese between October 2024 and February 2025. The primary respondents were government officials and designated managers; in some cases, collaborating organizations or experts involved in nature restoration were asked to respond. Hereafter, these respondents are collectively referred to as park managers. Respondents were asked to report on management in their respective parks, and the park was the unit of analysis.
+
+The relevant departments and organizations were identified through local government and designated manager websites and related sources. Questionnaires were distributed and returned by post or email; in some cases, interviews were conducted online via Zoom or on site. Fig. 1 shows the correspondence between the main questionnaire topics and analytical methods. Rules governing recreational use (Q1) were treated as background information on park management. Questionnaire items were developed from management responses and issues identified in the previous study of five cases (Chen and Fukahori, 2026).
+
+The full questionnaire, including response options and instructions, is provided in Appendix A. Definitions of the indicators used in the analysis, their correspondence with questionnaire items, and their calculation methods are presented in Tables 1 and 2.

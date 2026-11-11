@@ -1,0 +1,48 @@
+{
+  "checked_date": "2026-11-09",
+  "journal": "City and Environment Interactions",
+  "publisher": "Elsevier",
+  "is_mdpi": false,
+  "issn": "2590-2520",
+  "apc": {
+    "value": 2700,
+    "currency": "USD",
+    "discountedValue": null,
+    "discountExpiryDate": null
+  },
+  "access_model": "FULL",
+  "overall_submission_to_acceptance": null,
+  "overall_timing_status": "unverified: ScienceDirect official pages returned 403; Finder timeToAcceptance field cannot safely be interpreted as submission-to-acceptance",
+  "fit": "conditional: urban environmental social science and stakeholder governance; emphasize park conservation-recreation management and policy outcomes",
+  "samples": [
+    {
+      "doi": "10.1016/j.cacint.2026.100434",
+      "received": "2026-03-30",
+      "accepted": "2026-07-20",
+      "source_url": "https://repository.naturalis.nl/pub/802279/Dorst-2026-Urban-airborne-allergenic-pollen-A.pdf",
+      "version": "publisher final PDF in institutional repository",
+      "days": 112
+    },
+    {
+      "doi": "10.1016/j.cacint.2026.100444",
+      "received": "2026-03-31",
+      "accepted": "2026-08-10",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13576388/fullTextXML",
+      "version": "publisher full text in Elsevier Sponsored Documents / PMC",
+      "days": 132
+    },
+    {
+      "doi": "10.1016/j.cacint.2026.100488",
+      "received": "2026-01-15",
+      "accepted": "2026-09-25",
+      "source_url": "https://infoscience.epfl.ch/bitstreams/5b4b086f-940f-41f9-8304-2655589537e5/download",
+      "version": "publisher Journal Pre-proof in institutional repository",
+      "days": 253
+    }
+  ],
+  "sample_median_days": 132,
+  "sample_limit": "Convenience sample, not journal-wide average or median and not a forecast. One pre-proof, two publisher full texts.",
+  "saitama_row": "sheet1 row2014 Gold / 2590-2520 / City and Environment Interactions / 0 / DISCOUNT / NO CHANGE",
+  "conditional_saitama_15percent_fee_usd": 2295,
+  "saitama_condition": "Parent verified pdf01_saitama: acceptance date 2024-04-01 through 2027-03-31 and eligible corresponding-author/institution conditions; not hybrid quota or internal 50000JPY rule."
+}

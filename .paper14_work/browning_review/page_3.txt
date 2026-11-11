@@ -1,0 +1,47 @@
+上 07 ron ． Res. Public Health 2017 ， 74 / 675
+2 主 0 ra 忉 Sem ℃ / 7
+3 of 21
+We searched Web of Science to identify relevant articles published in English b etween 2007 and
+May 2017 · Search terms included 丿 greenness" measures, GIS datasets and analytical techniques, and
+physical health outcomes (see Appendix A, TabIe AI for a list of all terms) ·
+22 Selection C1 者 初
+TO extract data from multiple analyses included in articles, we conducted a two-step selection
+process · First, we selected those articles with an overall focus and at least one reported analysis that
+was relevant for this review. Next, we selecte d the relevant analyses from each Of these articles ．
+2 ． 2 ． 1 · Article Selection
+lnitial eligibility of articles was determined by reviewmg their titles and ab stracts · The full text
+of the remaimng articles was then screened for three criteria · First, the focus Of the article had tO
+measure the lmpact 0f greenness on physical health using GIS buffer analyses · "Greenness" could
+include percent green cover, green SP ace, or parks; the numb er Of green SP aces, parks, or OP en space
+within the buffer; or the standard deviation Of greenness or landscape indices · Second, the authors
+conducted inferential statistical analyses tO measure the relationship b etween these variables; and,
+third, statistical significance tests (p-values) resulting from these analyses were performed.
+2 ， 2 · 2 · Analysis Selection
+Next, we screened analyses within eligible articles tO determine which analyses were appropriate
+tO examme in this review. Screemng criteria included: （ 1 ） GIS buffers used residential center p Oints
+in GIS buffer analyses, rather than school or workplace center points; and （ 2 ） the dependent variable
+was a physical, not a mental health outcome ． NO exclusionary criteria were set for the range Of ages
+studied. Analyses included, therefore, used buffers around physical addresses of homes or centers of
+politically defined geographic areas enclosmg homes (i.e., census tracts) and surveyed sample ages
+across the lifespan, from infants tO elders ．
+2 ． 3 ． Da 忉 E 厅 口 c 五 on
+Most data were extracted at the analysis, not the article, level. Only first author, pub lication year,
+and article title were identified at the article level. ln contrast, a wide range Of characteristics were
+identified at the analysis level, including article information (first author, publication year, and article
+title); greenness type ("greenness", tree canopy, greensp ace or OP en space, or p ark); physical health
+outcome; objectivity of physical health outcome; country / countries covered by sample population;
+age range (s) 0f sample p opulation; size 0f sample; confounds included (i.e., age, sex, race, income,
+employment, e ducation, urb anity, etc.); presence Of sp atial autocorrelation test(s); center point Of
+GIS buffer (home, postal code, or census tracts /blocks); type of GIS buffer (see below); size of buffer
+in meters; presence or absence Of statistically significant association between health outcome and
+greenness; and direction Of significant associations between health outcome and greenness.
+The type Of buffer data extracted concerned whether the buffer was made in one Of tWO ways ．
+R 口 市 b 吖 s estimate greenness "as the crow flies “ around a point. ln this case, when the researcher
+specified a radial distance, the GIS software drew a circle (circular buffer) with a radius equal to that
+value. The circle was centered on a specified point—often an individual's home address or the center
+Of a geographic zone within which the individual lives (i.e., census tract or postal code). ln contrast,
+77 m07 * 历 《 巧 estimate greenness along transportation pathways. The GIS software determines the
+network buffers, after the researcher specifies the distance, along all available walking or driving
+routes, based on road network GIS data · This process results in a polygon (network buffer), which is
+not perfectly cn-cular in shape, because the perimeter Of the buffer represents points that are within
+a set distance along trails and roads (Figure 1 ） ，

@@ -1,0 +1,2628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">conservation</journal-id>
+      <journal-title-group>
+        <journal-title>Conservation</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Conservation</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Conservation</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2673-7159</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/conservation6040130</article-id>
+      <article-id pub-id-type="publisher-id">conservation-06-00130</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Nature-Based Solutions: Examining the Effects of Small Artificial Ponds on Insect Diversity and Their Implications for the Brazilian Semi-Arid Region</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5915-6331</contrib-id>
+          <name>
+            <surname>Fagundes</surname>
+            <given-names>Marcilio</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Resources" vocab-term-identifier="https://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+          <xref rid="af1-conservation-06-00130" ref-type="aff">1</xref>
+          <xref rid="c1-conservation-06-00130" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2721-7010</contrib-id>
+          <name>
+            <surname>Cornelissen</surname>
+            <given-names>Tatiana</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Project administration" vocab-term-identifier="https://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <xref rid="af2-conservation-06-00130" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-3812-7712</contrib-id>
+          <name>
+            <surname>Mayrink</surname>
+            <given-names>Bruno Henrique Silva</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Methodology" vocab-term-identifier="https://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">Writing &#x2013; original draft</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <xref rid="af1-conservation-06-00130" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jorge</surname>
+            <given-names>Alessandre Cust&#xF3;dio</given-names>
+          </name>
+          <xref rid="af3-conservation-06-00130" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Figueiredo</surname>
+            <given-names>Luiz Henrique A.</given-names>
+          </name>
+          <xref rid="af4-conservation-06-00130" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fernandes</surname>
+            <given-names>Geraldo Wilson</given-names>
+          </name>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Supervision" vocab-term-identifier="https://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Funding acquisition" vocab-term-identifier="https://credit.niso.org/contributor-roles/funding-acquisition/">Funding acquisition</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Writing &#x2013; review &amp; editing" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-review-editing/">Writing &#x2013; review &amp; editing</role>
+          <role vocab="credit" vocab-identifier="https://credit.niso.org/" vocab-term="Conceptualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <xref rid="af5-conservation-06-00130" ref-type="aff">5</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Margalida</surname>
+            <given-names>Antoni</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-conservation-06-00130"><label>1</label>Insecta: Center for Insect Biology and Taxonomy, DBG/CCBS, 
+	  <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/01hewbk46</institution-id><institution>Universidade Estadual de Montes Claros</institution></institution-wrap>, Montes Claros 39401-089, MG, Brazil; <email>brunohmayrink@gmail.com</email></aff>
+      <aff id="af2-conservation-06-00130"><label>2</label>Centro de S&#xED;ntese Ecol&#xF3;gica e Conserva&#xE7;&#xE3;o, Departamento de Gen&#xE9;tica, Ecologia e Evolu&#xE7;&#xE3;o, 
+	  <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/0176yjw32</institution-id><institution>Universidade Federal de Minas Gerais</institution></institution-wrap>, Belo Horizonte 31270-901, MG, Brazil; <email>taticornelissen@gmail.com</email></aff>
+      <aff id="af3-conservation-06-00130"><label>3</label>Instituto Estadual de Florestas (MG), Escrit&#xF3;rio Regional Norte, Monte Azul 39401-070, MG, Brazil; <email>alessandre.custodio@meioambiente.mg.gov.br</email></aff>
+      <aff id="af4-conservation-06-00130"><label>4</label>Centro de Refer&#xEA;ncia em Recupera&#xE7;&#xE3;o de &#xC1;reas Degradadas da Mata Seca, Departamento de Ci&#xEA;ncias Agr&#xE1;rias, 
+	  <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/01hewbk46</institution-id><institution>Universidade Estadual de Montes Claros</institution></institution-wrap>, Jana&#xFA;ba 39440-000, MG, Brazil; <email>luiz.figueiredo@unimontes.br</email></aff>
+      <aff id="af5-conservation-06-00130"><label>5</label>Knowledge Center for Biodiversity, Departamento de Gen&#xE9;tica, Ecologia e Evolu&#xE7;&#xE3;o, 
+	  <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/0176yjw32</institution-id><institution>Universidade Federal de Minas Gerais</institution></institution-wrap>, Belo Horizonte 31270-901, MG, Brazil; <email>gwilson@icb.ufmg.br</email></aff>
+      <author-notes>
+        <corresp id="c1-conservation-06-00130"><label>*</label>Correspondence: <email>marcilio.fagundes@gmail.com</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>26</day>
+        <month>10</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>12</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>6</volume>
+      <issue>4</issue>
+      <elocation-id>130</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>31</day>
+          <month>08</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>14</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the authors.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Small artificial ponds, known as barraginhas, play a crucial role in providing essential ecosystem services such as soil and water conservation in semi-arid regions. Despite their effectiveness and widespread use in the Brazilian semi-arid region, their effects on biodiversity remain unexplored. Here, we conducted a field experiment to evaluate whether barraginhas constructed along roads to prevent soil erosion influence the diversity of terrestrial insects, specifically ants and beetles. A total of four sampling events were conducted at the beginning and end of both the dry and rainy seasons to assess the effects of the interaction between barraginhas and intra- and interseasonal variation on beetle and ant assemblages. Overall, ant species richness was higher at the end of the rainy season, whereas beetle species richness peaked at the beginning of the rainy season, followed by a secondary peak at the end of rainy season. Importantly, our results showed that barraginhas did not affect beetle richness, whereas ant species richness was significantly higher in barraginha treatment at the end of the rainy season. This seasonal pattern should be interpreted cautiously, as no consistent effect of barraginhas on ant species richness was detected across sampling periods. Ant species composition varied across all sampling months but was not influenced by barraginhas. Similarly, beetle species composition was unaffected by barraginhas and did not differ among the analyzed sampling moths. Given the ecological and economic importance of insects and their global decline across many taxa and functional groups, initiatives to promote conservation and enhance local biodiversity are critical. Finally, we suggest conducting similar studies in different environments and across various taxonomic groups, including plants, other invertebrates, and vertebrates, since barraginhas can also contribute to biodiversity enhancement specially in arid and semi-arid regions.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>biodiversity</kwd>
+        <kwd>ecosystem services</kwd>
+        <kwd>local humidity</kwd>
+        <kwd>semi-arid environments</kwd>
+        <kwd>small ponds</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="ROR">https://ror.org/00nc55f03</institution-id>
+              <institution>Funda&#xE7;&#xE3;o de Amparo a Pesquisa do Estado de Minas Gerais&#x2014;FAPEMIG</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>APQ 01375 21</award-id>
+          <award-id>APQ 02806 22</award-id>
+        </award-group>
+        <funding-statement>This research was funded by Funda&#xE7;&#xE3;o de Amparo a Pesquisa do Estado de Minas Gerais&#x2014;FAPEMIG, grant number APQ 01375 21 and APQ 02806 22.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-conservation-06-00130" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Semi-arid regions with unpredictable weather, long dry seasons, inconsistent rainfall, and soils poor in nutrients cover approximately 15% of the Earth&#x2019;s land surface and support 14.4% of the global population [<xref ref-type="bibr" rid="B1-conservation-06-00130">1</xref>,<xref ref-type="bibr" rid="B2-conservation-06-00130">2</xref>]. The semi-arid tropics include parts of 48 developing countries including India, locations in Southeast Asia, a swathe across sub-Saharan Africa, Southern and Eastern Africa, and disjunct areas of Latin America [<xref ref-type="bibr" rid="B2-conservation-06-00130">2</xref>,<xref ref-type="bibr" rid="B3-conservation-06-00130">3</xref>,<xref ref-type="bibr" rid="B4-conservation-06-00130">4</xref>,<xref ref-type="bibr" rid="B5-conservation-06-00130">5</xref>]. In Brazil, according to resolution number 150/2021 CONDEL/SUDENE (Deliberative Council of the Northeast Development Superintendence), the semi-arid region occupies an area of approximately 1.6 million km<sup>2</sup> distributed among 11 states of the Federation (see also <xref ref-type="fig" rid="conservation-06-00130-f001">Figure 1</xref>). It is home to around 53.1 million inhabitants, representing the world&#x2019;s most populous semi-arid region [<xref ref-type="bibr" rid="B6-conservation-06-00130">6</xref>]. This region is distinguished as a drought hotspot due to persistent large-scale disruptions in the tropospheric circulation patterns [<xref ref-type="bibr" rid="B7-conservation-06-00130">7</xref>], as well as deforestation and agricultural expansion that increase climate severity, soil degradation and biodiversity loss [<xref ref-type="bibr" rid="B8-conservation-06-00130">8</xref>].</p>
+      <p>The Brazilian semi-arid region harbors four different biomes: Caatinga, Cerrado, Amazon, and Atlantic Forest. The climate pattern varies from the dry inland to the humid Atlantic coast, with rainfall increasing steadily from the semi-arid interior toward the coast [<xref ref-type="bibr" rid="B9-conservation-06-00130">9</xref>]. Generally, the climate is marked by seasonality, with the wettest season typically occurring from December to April, while the dry season extends from May to October [<xref ref-type="bibr" rid="B10-conservation-06-00130">10</xref>]. The Caatinga and Cerrado are dominant in Brazilian semi-arid regions, covering approximately 71.5% and 20.6% of the region, respectively [<xref ref-type="bibr" rid="B2-conservation-06-00130">2</xref>] (<xref ref-type="fig" rid="conservation-06-00130-f001">Figure 1</xref>). The Caatinga, a restricted biome of Brazil, has vegetation that varies from deciduous low shrubs to small patches of tall dry forests. Rainfall in the Caatinga has extremely irregular temporal and geographical distributions [<xref ref-type="bibr" rid="B11-conservation-06-00130">11</xref>]. The Cerrado vegetation (Brazilian savanna) varies from closed- to open-canopy deciduous and semi-deciduous vegetation with a maximum height of 15 m, to shrubs and natural grasslands [<xref ref-type="bibr" rid="B12-conservation-06-00130">12</xref>].</p>
+      <p>Despite its high species diversity, extreme levels of endemism, and the essential ecosystem services provided by the Brazilian semi-arid ecosystem, this natural environment has been extensively converted, particularly into agricultural land, silviculture with exotic species, and pasture [<xref ref-type="bibr" rid="B2-conservation-06-00130">2</xref>,<xref ref-type="bibr" rid="B13-conservation-06-00130">13</xref>]. For instance, estimates show a 37.16% loss in forest cover in the Brazilian semi-arid between 2000 and 2018 [<xref ref-type="bibr" rid="B2-conservation-06-00130">2</xref>,<xref ref-type="bibr" rid="B4-conservation-06-00130">4</xref>]. Maintaining native vegetation cover is crucial for preserving moisture, ensuring soil formation, preventing erosion, and ultimately ecosystem functioning, particularly in semi-arid environments where rainfall is concentrated in short periods each year [<xref ref-type="bibr" rid="B4-conservation-06-00130">4</xref>]. Ecological restoration of deforested areas in the semi-arid region is also a highly complex task due to the unique characteristics of the soil, the severity of the climate, and the high species diversity and endemism [<xref ref-type="bibr" rid="B13-conservation-06-00130">13</xref>]. Furthermore, climate projections indicate an increase in the frequency, duration, and severity of droughts in the Brazilian semi-arid region [<xref ref-type="bibr" rid="B14-conservation-06-00130">14</xref>], leading to land degradation and desertification [<xref ref-type="bibr" rid="B15-conservation-06-00130">15</xref>,<xref ref-type="bibr" rid="B16-conservation-06-00130">16</xref>]. It is therefore urgent to develop a comprehensive understanding of techniques for the sustainable management of natural resources and the restoration of degraded areas. This knowledge is essential for ensuring both ecosystem preservation and the social development of this vast region.</p>
+      <p>Various edaphic, vegetation, and mechanical techniques have been employed to attempt mitigate the effects of prolonged droughts, preserve and restore degraded soils, aid in water retention, and recharge underground aquifers in semi-arid regions [<xref ref-type="bibr" rid="B3-conservation-06-00130">3</xref>,<xref ref-type="bibr" rid="B17-conservation-06-00130">17</xref>]. Among these, the EMBRAPA (Empresa Brasileira de Pesquisa Agropecu&#xE1;ria) has developed the &#x201C;Barraginhas Project&#x201D; which focuses on constructing small ponds strategically placed along runoff paths in fields, pastures, and road edges. These small ponds (hereafter referred to as barraginhas) reduce the speed of surface runoff, mitigating erosion processes that could lead to the formation of gullies and siltation of water bodies [<xref ref-type="bibr" rid="B18-conservation-06-00130">18</xref>]. Additionally, these barraginhas act as retention basins, collecting rainwater, thereby increasing local moisture and recharging groundwater reservoirs [<xref ref-type="bibr" rid="B19-conservation-06-00130">19</xref>]. Despite their effectiveness and widespread use for soil and water preservation, particularly in the Brazilian semi-arid region, the impact of barraginhas on local biodiversity has yet to be thoroughly assessed.</p>
+      <p>Humidity is a climatic factor that influences the fitness, reproductive behavior and geographic distribution of animals and plants worldwide [<xref ref-type="bibr" rid="B20-conservation-06-00130">20</xref>,<xref ref-type="bibr" rid="B21-conservation-06-00130">21</xref>,<xref ref-type="bibr" rid="B22-conservation-06-00130">22</xref>]. Insects are crucial components of biodiversity [<xref ref-type="bibr" rid="B23-conservation-06-00130">23</xref>,<xref ref-type="bibr" rid="B24-conservation-06-00130">24</xref>,<xref ref-type="bibr" rid="B25-conservation-06-00130">25</xref>], contributing significantly to ecosystem functioning and providing numerous ecosystem services [<xref ref-type="bibr" rid="B26-conservation-06-00130">26</xref>,<xref ref-type="bibr" rid="B27-conservation-06-00130">27</xref>,<xref ref-type="bibr" rid="B28-conservation-06-00130">28</xref>]. Given their generally small body size, and the fact that most insect species are ectothermic, these organisms are especially susceptible to changes in environmental conditions such as temperature and humidity [<xref ref-type="bibr" rid="B21-conservation-06-00130">21</xref>,<xref ref-type="bibr" rid="B29-conservation-06-00130">29</xref>]. Various natural factors, such as climatic seasonality, the presence of water bodies, and the type of soil vegetation cover, affect humidity and, consequently, the local insect fauna [<xref ref-type="bibr" rid="B30-conservation-06-00130">30</xref>,<xref ref-type="bibr" rid="B31-conservation-06-00130">31</xref>,<xref ref-type="bibr" rid="B32-conservation-06-00130">32</xref>]. For example, in semi-arid regions, generally insect species diversity tends to increase during the early rainy season [<xref ref-type="bibr" rid="B33-conservation-06-00130">33</xref>,<xref ref-type="bibr" rid="B34-conservation-06-00130">34</xref>,<xref ref-type="bibr" rid="B35-conservation-06-00130">35</xref>], but this pattern can be influenced by intra-seasonal climatic variations and guild-specific traits [<xref ref-type="bibr" rid="B34-conservation-06-00130">34</xref>,<xref ref-type="bibr" rid="B36-conservation-06-00130">36</xref>]. Additionally, abiotic changes associated with human activities, such as irrigation and the construction of water reservoirs, can also enhance humidity levels and increase local arthropod diversity [<xref ref-type="bibr" rid="B21-conservation-06-00130">21</xref>,<xref ref-type="bibr" rid="B32-conservation-06-00130">32</xref>].</p>
+      <p>Ants (Hymenoptera: Formicidae) and beetles (Coleoptera) are two highly diverse insect groups that respond quickly to microenvironmental changes at small scales [<xref ref-type="bibr" rid="B37-conservation-06-00130">37</xref>,<xref ref-type="bibr" rid="B38-conservation-06-00130">38</xref>,<xref ref-type="bibr" rid="B39-conservation-06-00130">39</xref>]. These characteristics, along with their relatively well-known taxonomy, enable researchers to characterize the relationship between changes in the community structure of these two insect groups and human-induced environmental alterations in their habitats [<xref ref-type="bibr" rid="B36-conservation-06-00130">36</xref>,<xref ref-type="bibr" rid="B40-conservation-06-00130">40</xref>,<xref ref-type="bibr" rid="B41-conservation-06-00130">41</xref>]. In this study, we conducted a field experiment during both the dry and wet seasons to investigate whether barraginhas constructed along roads to prevent soil erosion could influence the community structure of ants and beetles in a transitional Caatinga/Cerrado area in the Brazilian semi-arid region. Specifically, we expected that: (i) the presence of barraginhas will increase the local diversity of ants and beetles, as these structures accumulate rainwater and enhance environmental conditions for these animals; (ii) the positive influence of barraginhas on ant and beetle diversity will be stronger during the rainy season, given that these structures may lose their ecological functionality by desiccating during the extended dry season; and (iii) regardless of the presence of barraginhas, the diversity of these insect groups will increase during the rainy season, as they typically respond positively to seasonal increases in humidity.</p>
+    </sec>
+    <sec id="sec2-conservation-06-00130">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-conservation-06-00130">
+        <title>2.1. Study Area</title>
+        <p>Fieldwork was conducted in the Parque Estadual Caminho dos Gerais (PECG), located in the Serra Geral, southern portion of the Brazilian semi-arid region, at the extreme northern edge of Minas Gerais State, Brazil (<xref ref-type="fig" rid="conservation-06-00130-f001">Figure 1</xref>). The PECG covers approximately 56,000 hectares of plateaus, with an average elevation of 1090 m a.s.l., and features vegetation typical of the Caatinga and Cerrado Biomes. These biomes exhibit various vegetation types, including campos rupestres, seasonal dry forest, open Cerrado and Cerrado <italic>stricto sensu</italic>. The conservation unit was established in March 2007. Previously, much of the PECG area was used for the commercial cultivation of <italic>Eucalyptus</italic> species for charcoal production [<xref ref-type="bibr" rid="B42-conservation-06-00130">42</xref>]. Areas that were used for <italic>Eucalyptus</italic> cultivation are still in the early stages of regeneration and are often intersected by abandoned roads experiencing varying intensities of soil erosion. The climate is semi-arid with well-defined dry and rainy seasons. The average annual temperature is 24 &#xB0;C, and annual precipitation is about 830 mm, primarily concentrated between November and February [<xref ref-type="bibr" rid="B43-conservation-06-00130">43</xref>] (see also <xref ref-type="fig" rid="conservation-06-00130-f002">Figure 2</xref>).</p>
+        <p>Specifically, fieldwork was conducted in a 40-hectare area of Cerrado that has undergone natural regeneration since the removal of a former Eucalyptus plantation in 2007, approximately 14 years before our sampling. The vegetation in this area consists of grasses, scattered shrubs and tree species, with no canopy connection, reaching heights of up to 3.5 m. The most common tree species in this area include <italic>Anadenanthera colubrina</italic>, <italic>Brosinum gaudichaudii</italic>, <italic>Copaifera arenicola</italic>, <italic>Dimorphandra molis</italic>, <italic>Eugenia dysenterica</italic>, <italic>Jacaranda decurrens</italic>, <italic>Plathymenia reticulata</italic>, <italic>Qualea</italic> spp. and <italic>Tachigali subvelutina</italic> [<xref ref-type="bibr" rid="B43-conservation-06-00130">43</xref>]. This experimental area is intersected by two parallel abandoned roads, separated by 500 m. Originally, these roads were constructed to access <italic>Eucalyptus</italic> plantations and transport charcoal. However, with the establishment of the PECG, the roads were abandoned, and now exhibit gullies caused by surface runoff from rainwater. Between November and December 2021, eleven Barraginhas were constructed along the edges of one of these roads to mitigate soil erosion processes. These rectangular ponds, each measuring 5 m in length and 2 m in width, have a maximum depth of 2 m, and were spaced approximately 80 m apart.</p>
+      </sec>
+      <sec id="sec2dot2-conservation-06-00130">
+        <title>2.2. Experimental Design</title>
+        <p>A total of 60 pitfall traps were used to sample terrestrial insects, specifically ants and beetles, and assess the effects of barraginhas on their diversity. Each pitfall trap consisted of a 1 L plastic pot containing 500 mL of water and 5 mL of neutral detergent, buried level with the soil and left in the field for three consecutive days. During all sampling periods, pitfall traps were protected from rain and overflow by a cover suspended 5 cm above the rim of each trap using bamboo stakes, while still allowing insects to enter the traps. These 60 traps were evenly distributed between two transects, 500 m apart, along the two roads crossing in the experimental area. These two transects with 30 pitfall traps represent two different treatments (t<sub>1</sub> = presence of barraginhas and t<sub>2</sub> = absence of barraginhas). The pitfall traps were considered sampling units rather than independent experimental replicates, as each treatment was represented by a single transect. Therefore, the comparison between treatments is subject to pseudoreplication, and the results should be interpreted with caution. In each transect, the 30 traps were spaced approximately 30 m apart. In treatment t<sub>1</sub>, three pitfall traps were arranged linearly between two consecutive barraginhas (see <xref ref-type="fig" rid="conservation-06-00130-f003">Figure 3</xref> for details). Four seasonal samplings were conducted: two during the rainy season (March 2022 and January 2023, corresponding to end and beginning of the rainy season, respectively) and two during the dry season (July 2022 and September 2022, corresponding to the beginning and end of the dry season, respectively). The insects collected were stored in containers with 70% ethyl alcohol and sent to the Center for Insect Biology and Taxonomy (INSECTA) at the State University of Montes Claros (Unimontes), where ants and beetles were sorted and identified on the basis of external morphology using taxonomic keys [<xref ref-type="bibr" rid="B44-conservation-06-00130">44</xref>,<xref ref-type="bibr" rid="B45-conservation-06-00130">45</xref>], identification guides [<xref ref-type="bibr" rid="B46-conservation-06-00130">46</xref>], comparison with reference material deposited at INSECTA, and consultations with specialists.</p>
+      </sec>
+      <sec id="sec2dot3-conservation-06-00130">
+        <title>2.3. Statistical Analyses</title>
+        <p>Initially, we developed two different generalized linear models to test differences in ant and beetle richness among treatments and sampling periods as well as the interactions between these two variables. In these models, treatments, sampling period, and interactions were used as explanatory variables, while the richness of ants or beetles was used as the response variable. Respectively, for the models where ants or beetle richness was the response variable, the Poisson and Negative Binomial distributions were adopted. These models were tested using Analysis of Variance (ANOVA) with the &#x201C;Chisq&#x201D; test. When the ANOVA results were significant (<italic>p</italic> &lt; 0.05), contrast analyses were performed to group similar levels (<italic>p</italic> &#x2265; 0.05) and distinguish statistically different levels (<italic>p</italic> &lt; 0.05). All analyses were conducted using the R software, version 4.4.0 [<xref ref-type="bibr" rid="B47-conservation-06-00130">47</xref>].</p>
+        <p>To compare species composition of ants and beetles among treatments, sample period, and their interaction, we used a two-way permutational analysis of variance (PERMANOVA) with 10,000 permutations, employing a Chord distance calculated from an abundance matrix. For beetles, only the collections made during the rainy season were included in this analysis, although 14 beetle species were recorded during the dry season (see <xref ref-type="app" rid="app1-conservation-06-00130">Supplementary Material S2</xref>). Beetle activity was extremely low during this period. Of the 120 pitfall traps used to sample beetles, only 19 collected beetles, with just 7 and 12 traps containing beetles in July and September, respectively. Thus, most sampling units had zero captures during the dry season, resulting in an extremely sparse community matrix. Under these circumstances, we considered that including the dry-season samples in the PERMANOVA would provide limited and potentially unstable information about differences in community composition because the analysis would be strongly influenced by the predominance of zero values. When pairwise PERMANOVA indicated statistical differences (<italic>p</italic> &lt; 0.05), we graphically illustrated data distributions using Principal Coordinates Analysis (PCoA). These analyses were performed using Past software (Paleontological Statistics, version 4.03, [<xref ref-type="bibr" rid="B48-conservation-06-00130">48</xref>]).</p>
+      </sec>
+    </sec>
+    <sec id="sec3-conservation-06-00130" sec-type="results">
+      <title>3. Results</title>
+      <p>The ant fauna sampled in the study area comprised 11,338 individuals distributed across seven subfamilies, 23 genera, and 33 species. The ant subfamily with the greatest species diversity was Myrmicinae (16 species), followed by Formicinae (six species) and Ectatomminae (four species) (<xref ref-type="app" rid="app1-conservation-06-00130">Supplementary Material S1</xref>). The beetle fauna included 303 individuals belonging to 11 families, 26 genera, and 48 species. The most speciose Coleoptera families were Scarabaeidae and Curculionidae, with 15 and six species, respectively (<xref ref-type="app" rid="app1-conservation-06-00130">Supplementary Material S2</xref>).</p>
+      <p>The ant species richness was not affected by the barraginha treatment, but varied in function of sampling periods and the interaction between those variables (<xref ref-type="table" rid="conservation-06-00130-t001">Table 1</xref>). Contrast analyses revealed that ant richness was higher in March and did not vary across the other collection months. Additionally, the contrast analyses indicated that ant richness was positively affected by the barraginhas treatment only in March (<xref ref-type="fig" rid="conservation-06-00130-f004">Figure 4</xref>A, see also <xref ref-type="app" rid="app1-conservation-06-00130">Supplementary Material S3</xref>). Beetle richness varied significantly only in function sampling months (<xref ref-type="table" rid="conservation-06-00130-t001">Table 1</xref>). Contrast analyses revealed that beetle richness was highest in January, followed by March, with the lowest richness recorded in July and September (<xref ref-type="fig" rid="conservation-06-00130-f004">Figure 4</xref>B, see also <xref ref-type="app" rid="app1-conservation-06-00130">Supplementary Material S3</xref>).</p>
+      <p>The ant species composition varied according to the sampling months but did not change based on treatments or the interaction between sampling months and treatments (<xref ref-type="table" rid="conservation-06-00130-t002">Table 2</xref>). Pairwise PERMANOVA comparisons among months revealed that the ant species composition differed across all sampling months (<xref ref-type="fig" rid="conservation-06-00130-f005">Figure 5</xref>). In contrast, beetle species composition was not affected by barraginha treatments, sampling months, or the interaction between these variables during the rainy season. However, beetle species composition differed between rainy and dry seasons, with only 14 species recorded during the dry season compared with 40 species during the rainy season. This difference was accompanied by very low beetle activity during the dry season, with only 19 pitfall traps containing beetles, including 7 traps in July and 12 in September.</p>
+    </sec>
+    <sec id="sec4-conservation-06-00130" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>Barraginhas built along road edges to control soil erosion also collect rainwater, thereby increasing local humidity and mitigating the effects of droughts in the Brazilian semi-arid region [<xref ref-type="bibr" rid="B18-conservation-06-00130">18</xref>,<xref ref-type="bibr" rid="B49-conservation-06-00130">49</xref>]. Insects generally respond positively to increased humidity, which can lead to higher population abundance and species diversity [<xref ref-type="bibr" rid="B21-conservation-06-00130">21</xref>,<xref ref-type="bibr" rid="B30-conservation-06-00130">30</xref>]. Given this context, we anticipated that barraginhas would enhance the diversity of ants and beetles. However, our results indicate that the construction of barraginhas had a limited impact on ant community structure and did not affect the beetle community. Specifically, the effect on the ant community was confined to a 26.2% increase in mean ant species richness, observed only in March, at the end of the rainy season. These findings suggest that while barraginhas may provide localized benefits in terms of increased ant diversity during specific periods, their effects on insect biodiversity may vary among taxonomic groups and sampling periods. Nevertheless, the relatively short interval between the construction of the barraginhas and the beginning of sampling should be considered when interpreting these results. The approximately three-month period may have provided limited time for insects to detect and colonize the newly created resource. Therefore, longer-term studies are needed to determine whether the effects of barraginhas on insect biodiversity become more evident over time.</p>
+      <p>The Brazilian semi-arid region not only experiences rainfall concentrated in a few months of the year, but also faces significant intra-seasonal variation, with drought periods occurring within the rainy season [<xref ref-type="bibr" rid="B9-conservation-06-00130">9</xref>,<xref ref-type="bibr" rid="B19-conservation-06-00130">19</xref>]. Barraginhas accumulate water during intermittent rainy periods, promoting therefore greater uniformity in soil moisture throughout the rainy season [<xref ref-type="bibr" rid="B17-conservation-06-00130">17</xref>,<xref ref-type="bibr" rid="B18-conservation-06-00130">18</xref>]. Ant colonization of new habitats typically involves the production of winged queens that leave the mother colony to establish new nests [<xref ref-type="bibr" rid="B40-conservation-06-00130">40</xref>,<xref ref-type="bibr" rid="B50-conservation-06-00130">50</xref>]. In the semi-arid regions, the production of winged queens and the subsequent founding of new ant colonies typically occur at the beginning of the rainy season [<xref ref-type="bibr" rid="B51-conservation-06-00130">51</xref>]. Initially, the foraging activities of these new colonies are low and gradually increase over time [<xref ref-type="bibr" rid="B52-conservation-06-00130">52</xref>]. Thus, the increase in average ant species richness in areas with the construction of barraginhas, observed only at the end of the rainy season, could be attributed to the local increase in soil moisture, which may attract winged queens early in the rainy season. The observed increase in ant species richness aligns with the period when new colonies intensify their foraging activities. These results suggest that barraginhas could positively influence ant colonization and community organization by stabilizing soil moisture, especially during critical reproductive periods. However, this hypothesis remains to be tested by future studies combining measurements of soil moisture with ant colony density and foraging activity across the rainy season. This has important implications for habitat management as enhancing local soil moisture through barraginhas can support ant biodiversity and contribute to more resilient ecosystems. Ants are involved in several ecosystem services [<xref ref-type="bibr" rid="B53-conservation-06-00130">53</xref>] and effective implementation of nature-based solutions to habitat management could be a valuable strategy in habitat restoration and conservation efforts towards insect groups.</p>
+      <p>Our results also revealed significant intra- and inter-seasonal changes in the structure of ant and beetle communities. Overall, the average species richness of ants was higher at the end of the rainy season, while that of beetles was greater at the beginning of the season. It is also important to highlight the reduction in beetle species richness during the dry season, a pattern observed in other studies conducted in seasonal environments [<xref ref-type="bibr" rid="B36-conservation-06-00130">36</xref>]. In the Brazilian semi-arid region, the onset of the rainy season is marked by an increased availability of resources, particularly due to the emission of new leaves by plants [<xref ref-type="bibr" rid="B35-conservation-06-00130">35</xref>,<xref ref-type="bibr" rid="B36-conservation-06-00130">36</xref>,<xref ref-type="bibr" rid="B54-conservation-06-00130">54</xref>]. This period coincides with a rise in the abundance and activity of most insect species, which seek mating partners and more suitable sites for feeding and oviposition [<xref ref-type="bibr" rid="B55-conservation-06-00130">55</xref>]. Therefore, the higher species richness of beetle observed at the beginning of the rainy season may be shaped by the synchronization of organisms&#x2019; life cycles with the availability of suitable resources in the environment. These findings underscore the critical role of seasonal dynamics in shaping insect community organizations and highlight the importance of maintaining habitat conditions that support these ecological processes. Effective habitat management strategies in semi-arid regions should consider the timing of resource availability and its impact on insect biodiversity to ensure the conservation of these vital fauna and the ecosystem services they provide.</p>
+      <p>Moreover, we observed that the total species richness of ants exhibited smaller intra- and inter-seasonal variation compared to the total species richness of beetles. Specifically, we recorded 29, 23, 24, and 26 ant species in March, July, September, and January, respectively. Additionally, the ant species composition varied across all sampling periods, suggesting the presence of a local pool of ant species that adapt their foraging activities in response to intra- and inter-seasonal climate changes [<xref ref-type="bibr" rid="B56-conservation-06-00130">56</xref>]. Conversely, we sampled 17, 8, 9, and 34 beetle species in March, July, September, and January, respectively, indicating a significant decrease in beetle species richness during the dry season. The lack of difference in beetle species composition between the beginning and end of the wet season suggests strong intra-seasonal nesting within the beetle fauna, as evidenced by only five beetle species collected at the end of the rainy season that did not occur at the beginning. Overall, these findings highlight the varying responses of ants and beetles to seasonal changes, with ants showing more resilience to intra- and inter-seasonal fluctuations. This underscores the importance of considering species-specific responses and seasonal dynamics in habitat management and conservation strategies. By understanding these patterns, conservation efforts can be better tailored to maintain and enhance biodiversity to ensure stability and resilience in such semi-arid habitats.</p>
+      <p>The seasonal occurrence of insect species within the same habitat may be associated with behavioral variations in foraging and the organisms&#x2019; life cycle. For example, holo- or hemimetabolous species generally have low mobility during immature stages and are rarely captured by conventional traps used for sampling adult insects [<xref ref-type="bibr" rid="B30-conservation-06-00130">30</xref>]. Thus, the low number of individuals of these species sampled during specific seasons may not necessarily indicate their absence from the habitat, but rather a sampling bias [<xref ref-type="bibr" rid="B34-conservation-06-00130">34</xref>]. Conversely, short-term and non-seasonal changes in insect species richness within the same habitat likely involve events of local extinction or immigration. Several studies describe the loss of local insect diversity due to abrupt environmental changes, such as the conversion of natural areas into pastures [<xref ref-type="bibr" rid="B57-conservation-06-00130">57</xref>], agricultural systems [<xref ref-type="bibr" rid="B58-conservation-06-00130">58</xref>], homogeneous forests [<xref ref-type="bibr" rid="B59-conservation-06-00130">59</xref>], and natural or anthropogenic disasters [<xref ref-type="bibr" rid="B60-conservation-06-00130">60</xref>]. However, field experiments that manipulate abiotic factors such as humidity and temperature to create more favorable conditions for insects and promote the conservation or increase in local diversity remain quite rare. Initiatives of this kind should be prioritized, given the ecological and economic importance of insects, along with the current scenario of rapid declines in many insect populations across different taxa and functional groups worldwide (see [<xref ref-type="bibr" rid="B61-conservation-06-00130">61</xref>] and the references therein).</p>
+      <p>Indeed, insects are important components of biodiversity and significantly contribute to ecosystem functioning through a series of services such as pollination, nutrient cycling, seed dispersal, and pest control [<xref ref-type="bibr" rid="B28-conservation-06-00130">28</xref>,<xref ref-type="bibr" rid="B43-conservation-06-00130">43</xref>,<xref ref-type="bibr" rid="B62-conservation-06-00130">62</xref>]. Insects are particularly susceptible to changes in temperature and humidity, due to their small body mass and ectothermy [<xref ref-type="bibr" rid="B41-conservation-06-00130">41</xref>,<xref ref-type="bibr" rid="B63-conservation-06-00130">63</xref>]. In the current scenario of global climate change, coupled with the overuse of natural resources by humans in the Anthropocene, it is essential to move beyond traditional studies of species presence/absence in response to disturbances. This is necessary to protect and ensure the survival of insects and the essential services they provide. Developing new habitat management and restoration techniques will be vital for conserving insect species globally, especially in semi-arid regions that already face severe problems with desertification, soil overuse, and global warming. In this study, we found that barraginhas had limited effects on the diversity of two important insect groups (beetles and ants) in a regenerating Cerrado area in the Brazilian semi-arid region. Nevertheless, their well-documented benefits for soil conservation and the protection of water bodies provide important justification for their use as a complementary strategy for ecosystem conservation and restoration [<xref ref-type="bibr" rid="B3-conservation-06-00130">3</xref>,<xref ref-type="bibr" rid="B17-conservation-06-00130">17</xref>].</p>
+      <p>Finally, considering that this is the first study to investigate the relationship between barraginhas and local biodiversity in the Brazilian semi-arid region, as well as the potential for this soil and water conservation technique to serve as microclimatic refuges for biodiversity, we suggest some aspects that deserve attention in future studies: (i) characterizing the effects of barraginhas on different taxa, including plants, vertebrates, and other invertebrates, as well as on species interactions; (ii) assessing the effects of barraginha density (number per area) and spatial distribution (aligned, clustered, or random) on biodiversity; (iii) investigating the relationship between soil properties, especially the clay-to-sand ratio, and biodiversity, given their influence on water infiltration and local humidity; (iv) evaluating the influence of barraginhas on ecological succession over time; and (v) conducting studies with spatial replication, including multiple independent sampling sites with and without barraginhas, to disentangle the effects of barraginhas from potential differences among sites, such as soil properties, vegetation, and edge effects. This limitation should be considered when interpreting the results of the present study, as the sampling design did not allow us to fully separate the effects of barraginhas from those associated with differences among sites.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-conservation-06-00130">
+        <title>Supplementary Materials</title>
+        <p>The following supporting information can be downloaded at: <uri>https://www.mdpi.com/article/10.3390/conservation6040130/s1</uri>, Supplementary Material S1: Species/morphospecies richness and abundance of ants in relation to pond presence/absence and seasonal variation in Parque Estadual Caminhos dos Gerais, Minas Gerais, Brazil. Supplementary Material S2: Species/morphospecies richness and abundance of beetles in relation to pond presence/absence and seasonal variation in Parque Estadual Caminhos dos Gerais, Minas Gerais, Brazil. Supplementary Material S3: Rarefaction and extrapolation curves of ant (A) and beetle (B) species richness in relation to sampling abundance. Solid lines represent rarefaction, and dashed lines represent extrapolation. Shaded areas indicate 95% confidence intervals. Curves represent the four sampling periods (January, March, July, and September) under conditions with and without barraginhas. Different symbols indicate the observed species richness for each sampling period &#xD7; treatment combination. The curves indicate (1) satisfactory sampling completeness, particularly for ants; (2) a positive effect of barraginhas on ant species richness in March, consistent with the GLM results reported in the main text; and (3) no clear differences in beetle species richness between treatments, but pronounced variation among sampling periods, reflecting seasonal differences between the rainy and dry seasons, as also described in the main text.</p>
+        <supplementary-material xmlns:xlink="http://www.w3.org/1999/xlink" id="conservation-06-00130-s001" xlink:href="conservation-06-00130-s001.zip"/>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, M.F., L.H.A.F. and A.C.J.; methodology, M.F., B.H.S.M. and G.W.F.; validation, L.H.A.F. and T.C.; formal analysis, M.F., B.H.S.M. and G.W.F.; investigation, G.W.F. and A.C.J.; resources, G.W.F., L.H.A.F., M.F. and T.C.; data curation, B.H.S.M. and A.C.J.; writing&#x2014;original draft preparation, A.C.J. and B.H.S.M.; writing&#x2014;review and editing, G.W.F., M.F. and T.C.; visualization, B.H.S.M. and G.W.F.; supervision, M.F. and T.C.; project administration, L.H.A.F., M.F. and T.C.; funding acquisition, M.F. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The data will be made available by the corresponding author on request.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to thank the Parque Estadual Caminho dos Gerais (IEF-MG) and SENDAS (GEF terrestre) for all logistical support during the fieldwork. The authors are also grateful for grants provided by the CNPq, FAPEMIG (APQ 01375 21; APQ 02806 22) and SENDAS/FUNBIO.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-conservation-06-00130">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ji</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ran</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Global semi-arid climate change over last 60 years</article-title>
+          <source>Clim. Dyn.</source>
+          <year>2016</year>
+          <volume>46</volume>
+          <fpage>1131</fpage>
+          <lpage>1150</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00382-015-2636-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-conservation-06-00130">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Santos</surname>
+              <given-names>C.A.G.</given-names>
+            </name>
+            <name>
+              <surname>Do Nascimento</surname>
+              <given-names>T.V.M.</given-names>
+            </name>
+            <name>
+              <surname>Da Silva</surname>
+              <given-names>R.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of forest cover changes and trends in the Brazilian semiarid region between 2000 and 2018</article-title>
+          <source>Environ. Earth Sci.</source>
+          <year>2020</year>
+          <volume>79</volume>
+          <fpage>418</fpage>
+          <pub-id pub-id-type="doi">10.1007/s12665-020-09158-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-conservation-06-00130">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Katrin</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Boubacar</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>A review of in situ rainwater harvesting (RWH) practices modifying landscape functions in African drylands</article-title>
+          <source>Agric. Ecosyst. Environ.</source>
+          <year>2009</year>
+          <volume>131</volume>
+          <fpage>119</fpage>
+          <lpage>127</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.agee.2009.01.010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-conservation-06-00130">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Macedo</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Moro</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lambais</surname>
+              <given-names>E.O.</given-names>
+            </name>
+            <name>
+              <surname>Lambais</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Bakker</surname>
+              <given-names>A.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of degradation on soil attributes under caatinga in the Brazilian semi-arid</article-title>
+          <source>Rev. &#xC1;rvore</source>
+          <year>2023</year>
+          <volume>47</volume>
+          <fpage>e4702</fpage>
+          <pub-id pub-id-type="doi">10.1590/1806-908820230000002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-conservation-06-00130">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pratibha</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Srinivas</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Kundu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Indoria</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Srinivasa Rao</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Manjunath</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Islam</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Suvana</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Srinivas</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>K.V.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Conservation agriculture for sustainable intensification of rainfed semi-arid tropics</article-title>
+          <source>Adv. Agron.</source>
+          <year>2025</year>
+          <volume>189</volume>
+          <fpage>291</fpage>
+          <lpage>375</lpage>
+          <pub-id pub-id-type="doi">10.1016/bs.agron.2024.09.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-conservation-06-00130">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buriti</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Barbosa</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Paredes-Trejo</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>T.V.L.</given-names>
+            </name>
+            <name>
+              <surname>Thakur</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>K.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Un siglo de sequ&#xED;as: &#xBF;Por qu&#xE9; las pol&#xED;ticas de agua no desarrollaron la regi&#xF3;n semi&#xE1;rida brasile&#xF1;a?</article-title>
+          <source>Rev. Bras. Meteorol.</source>
+          <year>2020</year>
+          <volume>35</volume>
+          <fpage>683</fpage>
+          <lpage>688</lpage>
+          <pub-id pub-id-type="doi">10.1590/0102-77863540073</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-conservation-06-00130">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chaves</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Cavalcanti</surname>
+              <given-names>I.F.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Atmospheric circulation features associated with rainfall variability over southern Northeast Brazil</article-title>
+          <source>Mon. Weather Rev.</source>
+          <year>2001</year>
+          <volume>129</volume>
+          <fpage>2614</fpage>
+          <lpage>2626</lpage>
+          <pub-id pub-id-type="doi">10.1175/1520-0493(2001)129&lt;2614:acfawr&gt;2.0.co;2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-conservation-06-00130">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Espindola</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Silva Figueredo</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Pican&#xE7;o J&#xFA;nior</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Dos Reis Filho</surname>
+              <given-names>A.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cropland expansion as a driver of land-use change: The case of Cerrado-Caatinga transition zone in Brazil</article-title>
+          <source>Environ. Dev. Sustain.</source>
+          <year>2021</year>
+          <volume>23</volume>
+          <fpage>17146</fpage>
+          <lpage>17160</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10668-021-01387-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-conservation-06-00130">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barbosa</surname>
+              <given-names>H.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Understanding the rapid increase in drought stress and its connections with climate desertification since the early 1990s over the Brazilian semi-arid region</article-title>
+          <source>J. Arid Environ.</source>
+          <year>2024</year>
+          <volume>222</volume>
+          <fpage>105142</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jaridenv.2024.105142</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-conservation-06-00130">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marengo</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Alves</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Alvala</surname>
+              <given-names>R.C.</given-names>
+            </name>
+            <name>
+              <surname>Cunha</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Brito</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Moraes</surname>
+              <given-names>O.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Climatic characteristics of the 2010&#x2013;2016 drought in the semiarid Northeast Brazil region</article-title>
+          <source>An. Acad. Bras. Ci&#xEA;nc.</source>
+          <year>2018</year>
+          <volume>90</volume>
+          <fpage>1973</fpage>
+          <lpage>1985</lpage>
+          <pub-id pub-id-type="doi">10.1590/0001-3765201720170206</pub-id>
+          <pub-id pub-id-type="pmid">28813107</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-conservation-06-00130">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beuchle</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Grecchi</surname>
+              <given-names>R.C.</given-names>
+            </name>
+            <name>
+              <surname>Shimabukuro</surname>
+              <given-names>Y.E.</given-names>
+            </name>
+            <name>
+              <surname>Seliger</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Eva</surname>
+              <given-names>H.D.</given-names>
+            </name>
+            <name>
+              <surname>Sano</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Achard</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Land cover changes in the Brazilian Cerrado and Caatinga biomes from 1990 to 2010 based on a systematic remote sensing sampling approach</article-title>
+          <source>Appl. Geogr.</source>
+          <year>2015</year>
+          <volume>58</volume>
+          <fpage>116</fpage>
+          <lpage>127</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apgeog.2015.01.017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-conservation-06-00130">
+        <label>12.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fernandes</surname>
+              <given-names>G.W.</given-names>
+            </name>
+            <name>
+              <surname>Almeida</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Nunes</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Xavier</surname>
+              <given-names>J.H.A.</given-names>
+            </name>
+            <name>
+              <surname>Cobb</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Carneiro</surname>
+              <given-names>M.A.A.</given-names>
+            </name>
+            <name>
+              <surname>Cornelissen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Neves</surname>
+              <given-names>F.S.</given-names>
+            </name>
+            <name>
+              <surname>Ribeiro</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Nunes</surname>
+              <given-names>Y.R.F.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cerrado to rupestrian grasslands: Patterns of species distribution and the forces shaping them along an altitudinal gradient</article-title>
+          <source>Ecology and Conservation of Mountaintop Grasslands in Brazil</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Fernandes</surname>
+              <given-names>G.W.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Cham, Switzerland</publisher-loc>
+          <year>2016</year>
+          <fpage>345</fpage>
+          <lpage>377</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-3-319-29808-5_15</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-conservation-06-00130">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>da Silva</surname>
+              <given-names>L.A.P.</given-names>
+            </name>
+            <name>
+              <surname>Sano</surname>
+              <given-names>E.E.</given-names>
+            </name>
+            <name>
+              <surname>Parreiras</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Bolfe</surname>
+              <given-names>&#xC9;.L.</given-names>
+            </name>
+            <name>
+              <surname>Esp&#xED;rito-Santo</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Filgueiras</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>de Souza</surname>
+              <given-names>C.M.P.</given-names>
+            </name>
+            <name>
+              <surname>da Silva</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Leite</surname>
+              <given-names>M.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Climate change effects on land use and land cover suitability in the southern Brazilian semiarid region</article-title>
+          <source>Land</source>
+          <year>2024</year>
+          <volume>13</volume>
+          <elocation-id>2008</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/land13122008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-conservation-06-00130">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guti&#xE9;rrez</surname>
+              <given-names>A.P.A.</given-names>
+            </name>
+            <name>
+              <surname>Engle</surname>
+              <given-names>N.L.</given-names>
+            </name>
+            <name>
+              <surname>De Nys</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Molej&#xF3;n</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Martins</surname>
+              <given-names>E.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Drought preparedness in Brazil</article-title>
+          <source>Weather Clim. Extrem.</source>
+          <year>2014</year>
+          <volume>3</volume>
+          <fpage>95</fpage>
+          <lpage>106</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.wace.2013.12.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-conservation-06-00130">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paredes-Trejo</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Barbosa</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Daldegan</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Teich</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>T.V.L.</given-names>
+            </name>
+            <name>
+              <surname>Buriti</surname>
+              <given-names>C.d.O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of drought on land productivity and degradation in the Brazilian semiarid region</article-title>
+          <source>Land</source>
+          <year>2023</year>
+          <volume>12</volume>
+          <elocation-id>954</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/land12050954</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-conservation-06-00130">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Refati</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>da Silva</surname>
+              <given-names>J.L.B.</given-names>
+            </name>
+            <name>
+              <surname>Macedo</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Lima</surname>
+              <given-names>R.d.C.C.</given-names>
+            </name>
+            <name>
+              <surname>da Silva</surname>
+              <given-names>M.V.</given-names>
+            </name>
+            <name>
+              <surname>Pandorfi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Silva</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>de Oliveira-J&#xFA;nior</surname>
+              <given-names>J.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of drought and anthropogenic pressures on land use and land cover change in the Brazilian semiarid region</article-title>
+          <source>J. South Am. Earth Sci.</source>
+          <year>2023</year>
+          <volume>126</volume>
+          <fpage>104362</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jsames.2023.104362</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-conservation-06-00130">
+        <label>17.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mateus</surname>
+              <given-names>V.F.</given-names>
+            </name>
+            <name>
+              <surname>Florindo</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Repossi</surname>
+              <given-names>B.F.</given-names>
+            </name>
+            <name>
+              <surname>Carvalho</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Oliveira</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Malaquias</surname>
+              <given-names>J.O.S.</given-names>
+            </name>
+            <name>
+              <surname>Leal</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Reis</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Lima</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Souza</surname>
+              <given-names>M.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pr&#xE1;ticas de conserva&#xE7;&#xE3;o de solo e &#xE1;gua com &#xEA;nfase nas &#x201C;barraginhas&#x201D;</article-title>
+          <source>T&#xF3;picos em Recupera&#xE7;&#xE3;o de &#xC1;reas Degradadas</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Souza</surname>
+              <given-names>M.N.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>M&#xE9;rida Publishers</publisher-name>
+          <publisher-loc>Canoas, Brazil</publisher-loc>
+          <year>2021</year>
+          <volume>Volume 2</volume>
+          <fpage>206</fpage>
+          <lpage>242</lpage>
+          <pub-id pub-id-type="doi">10.4322/mp.978-65-994457-2-9.c5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-conservation-06-00130">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oliveira Filho</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>John</surname>
+              <given-names>N.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sustentabilidade ambiental e desenvolvimento regional: Um olhar para o projeto Barraginha na regi&#xE3;o noroeste do Estado de Minas Gerais</article-title>
+          <source>Braz. J. Dev.</source>
+          <year>2018</year>
+          <volume>4</volume>
+          <fpage>716</fpage>
+          <lpage>732</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B19-conservation-06-00130">
+        <label>19.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barros</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Ribeiro</surname>
+              <given-names>P.E.A.</given-names>
+            </name>
+          </person-group>
+          <source>Barraginhas: &#xC1;gua de Chuva para Todos</source>
+          <publisher-name>Embrapa Milho e Sorgo</publisher-name>
+          <publisher-loc>Bras&#xED;lia, Brazil</publisher-loc>
+          <year>2009</year>
+          <fpage>49</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B20-conservation-06-00130">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Enjin</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Humidity sensing in insects-from ecology to neural processing</article-title>
+          <source>Curr. Opin. Insect Sci.</source>
+          <year>2017</year>
+          <volume>24</volume>
+          <fpage>1</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cois.2017.08.004</pub-id>
+          <pub-id pub-id-type="pmid">29208217</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-conservation-06-00130">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hor&#xE1;k</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Rada</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lettenmaier</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Andreas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bogusch</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Jaworski</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Importance of meteorological and land use parameters for insect diversity in agricultural landscapes</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2021</year>
+          <volume>791</volume>
+          <fpage>148159</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2021.148159</pub-id>
+          <pub-id pub-id-type="pmid">34119779</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-conservation-06-00130">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Szab&#xF3;</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Kor&#xE1;nyi</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gall&#xE9;</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>L&#xF6;vei</surname>
+              <given-names>G.L.</given-names>
+            </name>
+            <name>
+              <surname>Bakonyi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Bat&#xE1;ry</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urbanization decreases species richness, and increases abundance in dry climates whereas decreases in wet climates: A global meta-analysis</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2023</year>
+          <volume>859</volume>
+          <fpage>160145</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2022.160145</pub-id>
+          <pub-id pub-id-type="pmid">36395843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-conservation-06-00130">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stork</surname>
+              <given-names>N.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>How many species of insects and other terrestrial arthropods are there on Earth?</article-title>
+          <source>Annu. Rev. Entomol.</source>
+          <year>2018</year>
+          <volume>63</volume>
+          <fpage>31</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev-ento-020117-043348</pub-id>
+          <pub-id pub-id-type="pmid">28938083</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-conservation-06-00130">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garc&#xED;a-Robledo</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kuprewicz</surname>
+              <given-names>E.K.</given-names>
+            </name>
+            <name>
+              <surname>Baer</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Clifton</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Hern&#xE1;ndez</surname>
+              <given-names>G.G.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>D.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Erwin equation of biodiversity: From little steps to quantum leaps in the discovery of tropical insect diversity</article-title>
+          <source>Biotropica</source>
+          <year>2020</year>
+          <volume>52</volume>
+          <fpage>590</fpage>
+          <lpage>597</lpage>
+          <pub-id pub-id-type="doi">10.1111/btp.12811</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-conservation-06-00130">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alzahrani</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Kehail</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Almannaa</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Alkhalifa</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Alqahtani</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Altalhi</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Alkhamis</surname>
+              <given-names>H.H.</given-names>
+            </name>
+            <name>
+              <surname>Alowaifeer</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Alrefaei</surname>
+              <given-names>A.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seasonal occurrence and biodiversity of insects in an arid ecosystem: An ecological study of the King Abdulaziz Royal Reserve, Saudi Arabia</article-title>
+          <source>Biology</source>
+          <year>2025</year>
+          <volume>14</volume>
+          <elocation-id>254</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/biology14030254</pub-id>
+          <pub-id pub-id-type="pmid">40136511</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-conservation-06-00130">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dangles</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Casas</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ecosystem services provided by insects for achieving sustainable development goals</article-title>
+          <source>Ecosyst. Serv.</source>
+          <year>2019</year>
+          <volume>35</volume>
+          <fpage>109</fpage>
+          <lpage>115</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2018.12.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-conservation-06-00130">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramos</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Cunha</surname>
+              <given-names>W.L.</given-names>
+            </name>
+            <name>
+              <surname>Evangelista</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lira</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Rocha</surname>
+              <given-names>M.V.C.</given-names>
+            </name>
+            <name>
+              <surname>Gomes</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Frizzas</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Togni</surname>
+              <given-names>P.H.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ecosystem services provided by insects in Brazil: What do we really know?</article-title>
+          <source>Neotrop. Entomol.</source>
+          <year>2020</year>
+          <volume>49</volume>
+          <fpage>783</fpage>
+          <lpage>794</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13744-020-00781-y</pub-id>
+          <pub-id pub-id-type="pmid">32462421</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-conservation-06-00130">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McConnell</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Britton</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Khanna</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Argaez</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Rohner</surname>
+              <given-names>P.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>A review on true dung beetles&#x2019; evolutionary and ecological responses to temperature and impacts on ecosystem functions</article-title>
+          <source>Ecol. Entomol.</source>
+          <year>2026</year>
+          <volume>51</volume>
+          <fpage>621</fpage>
+          <lpage>638</lpage>
+          <pub-id pub-id-type="doi">10.1111/een.70088</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-conservation-06-00130">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buchholz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rolfsmeyer</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Schirmel</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simulating small-scale climate change effects&#x2014;Lessons from a short-term field manipulation experiment on grassland arthropods</article-title>
+          <source>Insect Sci.</source>
+          <year>2013</year>
+          <volume>20</volume>
+          <fpage>662</fpage>
+          <lpage>670</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1744-7917.2012.01556.x</pub-id>
+          <pub-id pub-id-type="pmid">23956202</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-conservation-06-00130">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vasconcellos</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Andreazze</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Almeida</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Araujo</surname>
+              <given-names>E.F.P.</given-names>
+            </name>
+            <name>
+              <surname>Oliveira</surname>
+              <given-names>E.S.</given-names>
+            </name>
+            <name>
+              <surname>Oliveira</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seasonality of insects in the semi-arid Caatinga of northeastern Brazil</article-title>
+          <source>Rev. Bras. Entomol.</source>
+          <year>2010</year>
+          <volume>54</volume>
+          <fpage>471</fpage>
+          <lpage>476</lpage>
+          <pub-id pub-id-type="doi">10.1590/S0085-56262010000300019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-conservation-06-00130">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kirichenko-Babko</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Danko</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Franus</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>St&#x119;pniewski</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of Soil Moisture on the Epigeic Arthropods Diversity in Steppe Landscape</article-title>
+          <source>J. Ecol. Eng.</source>
+          <year>2020</year>
+          <volume>21</volume>
+          <fpage>137</fpage>
+          <lpage>147</lpage>
+          <pub-id pub-id-type="doi">10.12911/22998993/122375</pub-id>
+          <pub-id pub-id-type="pmid">30333314</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-conservation-06-00130">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Plant and herbivorous insect communities respond in complex ways to rainfall manipulation in an oak savanna grassland</article-title>
+          <source>J. Ecol.</source>
+          <year>2023</year>
+          <volume>111</volume>
+          <fpage>655</fpage>
+          <lpage>665</lpage>
+          <pub-id pub-id-type="doi">10.1111/1365-2745.14053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-conservation-06-00130">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anu</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sabu</surname>
+              <given-names>T.K.</given-names>
+            </name>
+            <name>
+              <surname>Vineesh</surname>
+              <given-names>P.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seasonality of litter insects and relationship with rainfall in a wet evergreen forest in south Western Ghats</article-title>
+          <source>J. Insect Sci.</source>
+          <year>2009</year>
+          <volume>9</volume>
+          <fpage>46</fpage>
+          <pub-id pub-id-type="doi">10.1673/031.009.4601</pub-id>
+          <pub-id pub-id-type="pmid">19619036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-conservation-06-00130">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mayrink</surname>
+              <given-names>B.H.S.</given-names>
+            </name>
+            <name>
+              <surname>Cornelissen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Moreira</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Cuevas-Reyes</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Siqueira</surname>
+              <given-names>W.K.</given-names>
+            </name>
+            <name>
+              <surname>Fagundes</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Long-term legacy effects of Eucalyptus plantation on soil properties, ant diversity, and ecosystem functioning in tropical montane ecosystems</article-title>
+          <source>For. Ecol. Manag.</source>
+          <year>2026</year>
+          <volume>622</volume>
+          <fpage>124313</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.foreco.2026.124313</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-conservation-06-00130">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Novais</surname>
+              <given-names>S.M.A.</given-names>
+            </name>
+            <name>
+              <surname>Monteiro</surname>
+              <given-names>G.F.</given-names>
+            </name>
+            <name>
+              <surname>Macedo-Reis</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Leal</surname>
+              <given-names>C.R.O.</given-names>
+            </name>
+            <name>
+              <surname>Neves</surname>
+              <given-names>F.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Changes in the insect herbivore fauna after the first rains in a tropical dry forest</article-title>
+          <source>Acol. Aust.</source>
+          <year>2019</year>
+          <volume>23</volume>
+          <fpage>381</fpage>
+          <lpage>387</lpage>
+          <pub-id pub-id-type="doi">10.4257/oeco.2019.2302.16</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-conservation-06-00130">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oliveira</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Oliveira</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Specht</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Frizzas</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seasonality and distribution of Coleoptera families (Arthropoda, Insecta) in the Cerrado of Central Brazil</article-title>
+          <source>Rev. Bras. Entomol.</source>
+          <year>2021</year>
+          <volume>65</volume>
+          <fpage>e20210025</fpage>
+          <pub-id pub-id-type="doi">10.1590/1806-9665-RBENT-2021-0025</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-conservation-06-00130">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ghannem</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Touaylia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Boumaiza</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Beetles (Insecta: Coleoptera) as bioindicators of the assessment of environmental pollution</article-title>
+          <source>Hum. Ecol. Risk Assess.</source>
+          <year>2018</year>
+          <volume>24</volume>
+          <fpage>456</fpage>
+          <lpage>464</lpage>
+          <pub-id pub-id-type="doi">10.1080/10807039.2017.1385387</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-conservation-06-00130">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schultheiss</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Nooten</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Brassard</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Gu&#xE9;nard</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>The abundance, biomass, and distribution of ants on Earth</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2022</year>
+          <volume>119</volume>
+          <fpage>e2201550119</fpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.2201550119</pub-id>
+          <pub-id pub-id-type="pmid">36122199</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-conservation-06-00130">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Medeiros</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mayrink</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Silva</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Campos</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Cornelissen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fagundes</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Central-marginal dynamics in <italic>Dinoponera quadriceps</italic> (Hymenoptera, Formicidae): Activity density, body reduction and functional divergence</article-title>
+          <source>Sci. Nat.</source>
+          <year>2026</year>
+          <volume>113</volume>
+          <fpage>71</fpage>
+          <pub-id pub-id-type="doi">10.1007/s00114-026-02124-0</pub-id>
+          <pub-id pub-id-type="pmid">42257846</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-conservation-06-00130">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parr</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Bishop</surname>
+              <given-names>T.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The response of ants to climate change</article-title>
+          <source>Glob. Change Biol.</source>
+          <year>2022</year>
+          <volume>28</volume>
+          <fpage>3188</fpage>
+          <lpage>3205</lpage>
+          <pub-id pub-id-type="doi">10.1111/gcb.16140</pub-id>
+          <pub-id pub-id-type="pmid">35274797</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-conservation-06-00130">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gardner</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Maclean</surname>
+              <given-names>I.M.D.</given-names>
+            </name>
+            <name>
+              <surname>Rodr&#xED;guez-Mu&#xF1;oz</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ojanguren</surname>
+              <given-names>A.F.</given-names>
+            </name>
+            <name>
+              <surname>Tregenza</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>How air temperature and solar radiation impact life history traits in a wild insect</article-title>
+          <source>Ecol. Evol.</source>
+          <year>2025</year>
+          <volume>15</volume>
+          <fpage>e71135</fpage>
+          <pub-id pub-id-type="doi">10.1002/ece3.71135</pub-id>
+          <pub-id pub-id-type="pmid">40083730</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-conservation-06-00130">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Almeida</surname>
+              <given-names>J.W.L.</given-names>
+            </name>
+            <name>
+              <surname>Leite</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Figueiredo</surname>
+              <given-names>L.H.A.</given-names>
+            </name>
+            <name>
+              <surname>Figueiredo</surname>
+              <given-names>M.A.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Conservation units in the semiarid region of Minas Gerais and their role in environmental preservation</article-title>
+          <source>Cad. Geogr.</source>
+          <year>2023</year>
+          <volume>33</volume>
+          <fpage>1257</fpage>
+          <pub-id pub-id-type="doi">10.5752/P.2318-2962.2023v33n75p1257</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-conservation-06-00130">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fagundes</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Silva</surname>
+              <given-names>A.P.M.F.</given-names>
+            </name>
+            <name>
+              <surname>Mayrink</surname>
+              <given-names>B.H.S.</given-names>
+            </name>
+            <name>
+              <surname>Figueiredo</surname>
+              <given-names>L.H.A.</given-names>
+            </name>
+            <name>
+              <surname>Jorge</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Gomes</surname>
+              <given-names>I.L.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seed germination of a myrmecochorous plant endemic to the Brazilian semiarid region: The wolf is not so bad</article-title>
+          <source>Acta Bot. Bras.</source>
+          <year>2022</year>
+          <volume>36</volume>
+          <fpage>e20220093</fpage>
+          <pub-id pub-id-type="doi">10.1590/1677-941X-ABB-2022-0093</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-conservation-06-00130">
+        <label>44.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baccaro</surname>
+              <given-names>F.B.</given-names>
+            </name>
+            <name>
+              <surname>Feitosa</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Fernandez</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Fernandes</surname>
+              <given-names>I.O.</given-names>
+            </name>
+            <name>
+              <surname>Izzo</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Souza</surname>
+              <given-names>J.L.P.</given-names>
+            </name>
+            <name>
+              <surname>Solar</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <source>Guia para os G&#xEA;neros de Formigas do Brasil</source>
+          <publisher-name>Instituto Nacional de Pesquisas da Amaz&#xF4;nia (INPA)</publisher-name>
+          <publisher-loc>Manaus, Brazil</publisher-loc>
+          <year>2015</year>
+          <fpage>318</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B45-conservation-06-00130">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vaz-de-Mello</surname>
+              <given-names>F.Z.</given-names>
+            </name>
+            <name>
+              <surname>Edmonds</surname>
+              <given-names>W.D.</given-names>
+            </name>
+            <name>
+              <surname>Ocampo</surname>
+              <given-names>F.C.</given-names>
+            </name>
+            <name>
+              <surname>Schoolmeesters</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>A multilingual key to the genera and subgenera of the subfamily Scarabaeinae of the New World (Coleoptera: Scarabaeidae)</article-title>
+          <source>Zootaxa</source>
+          <year>2011</year>
+          <volume>2854</volume>
+          <fpage>1</fpage>
+          <lpage>73</lpage>
+          <pub-id pub-id-type="doi">10.11646/zootaxa.2854.1.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-conservation-06-00130">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feitosa</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Dias</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>An illustrated guide for the identification of ant subfamilies and genera in Brazil</article-title>
+          <source>Insect Syst. Evol.</source>
+          <year>2024</year>
+          <volume>55</volume>
+          <fpage>451</fpage>
+          <lpage>571</lpage>
+          <pub-id pub-id-type="doi">10.1163/1876312X-bja10062</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-conservation-06-00130">
+        <label>47.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>R Core Team</collab>
+          </person-group>
+          <source>R: A Language and Environment for Statistical Computing</source>
+          <publisher-name>R Foundation for Statistical Computing</publisher-name>
+          <publisher-loc>Vienna, Austria</publisher-loc>
+          <year>2023</year>
+          <fpage>3940</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B48-conservation-06-00130">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hammer</surname>
+              <given-names>&#xD8;.</given-names>
+            </name>
+            <name>
+              <surname>Harper</surname>
+              <given-names>D.A.T.</given-names>
+            </name>
+            <name>
+              <surname>Ryan</surname>
+              <given-names>P.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>PAST: Paleontological Statistics Software Package for Education and Data Analysis</article-title>
+          <source>Palaeontol. Electron.</source>
+          <year>2001</year>
+          <volume>4</volume>
+          <fpage>9</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B49-conservation-06-00130">
+        <label>49.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barros</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Ribeiro</surname>
+              <given-names>P.E.A.</given-names>
+            </name>
+            <name>
+              <surname>Barros</surname>
+              <given-names>I.R.</given-names>
+            </name>
+            <name>
+              <surname>Tavares</surname>
+              <given-names>W.S.</given-names>
+            </name>
+          </person-group>
+          <source>Integra&#xE7;&#xE3;o entre Barraginhas e Lagos de M&#xFA;ltiplo Uso: O Aproveitamento Eficiente da &#xC1;gua de Chuva para o Desenvolvimento Rural</source>
+          <comment>Circular T&#xE9;cnica 177</comment>
+          <publisher-name>Embrapa Milho e Sorgo</publisher-name>
+          <publisher-loc>Sete Lagoas, Brazil</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B50-conservation-06-00130">
+        <label>50.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peeters</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Molet</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Colonial reproduction and life histories</article-title>
+          <source>Ant Ecology</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Lach</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Parr</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Abbott</surname>
+              <given-names>K.L.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>Oxford, UK</publisher-loc>
+          <year>2010</year>
+          <fpage>159</fpage>
+          <lpage>176</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B51-conservation-06-00130">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jorge</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Duarte</surname>
+              <given-names>A.F.V.</given-names>
+            </name>
+            <name>
+              <surname>Santos</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Freire</surname>
+              <given-names>E.M.X.</given-names>
+            </name>
+            <name>
+              <surname>Caliman</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Semi-arid&#x2019;s unsung heroes: Hymenoptera and the vital ecosystem services enabled by <italic>Encholirium spectabile</italic>, a rupicolous bromeliad in the Brazilian semi-arid region</article-title>
+          <source>Neotrop. Entomol.</source>
+          <year>2024</year>
+          <volume>53</volume>
+          <fpage>514</fpage>
+          <lpage>530</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13744-024-01152-7</pub-id>
+          <pub-id pub-id-type="pmid">38687425</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-conservation-06-00130">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pamminger</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Treanor</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>W.O.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pleiotropic effects of juvenile hormone in ant queens and the escape from the reproduction&#x2013;immunocompetence trade-off</article-title>
+          <source>Proc. R. Soc. B Biol. Sci.</source>
+          <year>2016</year>
+          <volume>283</volume>
+          <fpage>20152409</fpage>
+          <pub-id pub-id-type="doi">10.1098/rspb.2015.2409</pub-id>
+          <pub-id pub-id-type="pmid">26763704</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-conservation-06-00130">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perfecto</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Philpott</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ants (Hymenoptera: Formicidae) and ecosystem functions and services in urban areas: A reflection on a diverse literature</article-title>
+          <source>Myrmecol. News</source>
+          <year>2023</year>
+          <volume>33</volume>
+          <fpage>103</fpage>
+          <pub-id pub-id-type="doi">10.25849/myrmecol.news_033:103</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-conservation-06-00130">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fagundes</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Xavier</surname>
+              <given-names>R.C.F.</given-names>
+            </name>
+            <name>
+              <surname>Faria</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Lopes</surname>
+              <given-names>L.G.O.</given-names>
+            </name>
+            <name>
+              <surname>Cuevas-Reyes</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Reis-Junior</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Plant phenological asynchrony and community structure of gall-inducing insects associated with a tropical tree species</article-title>
+          <source>Ecol. Evol.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>10687</fpage>
+          <lpage>10697</lpage>
+          <pub-id pub-id-type="doi">10.1002/ece3.4477</pub-id>
+          <pub-id pub-id-type="pmid">30519398</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-conservation-06-00130">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silva</surname>
+              <given-names>P.G.</given-names>
+            </name>
+            <name>
+              <surname>Vaz-de-Mello</surname>
+              <given-names>F.Z.</given-names>
+            </name>
+            <name>
+              <surname>Di Mare</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Guia de identifica&#xE7;&#xE3;o das esp&#xE9;cies de Scarabaeinae (Coleoptera: Scarabaeidae) do munic&#xED;pio de Santa Maria, Rio Grande do Sul, Brasil</article-title>
+          <source>Biota Neotrop.</source>
+          <year>2011</year>
+          <volume>11</volume>
+          <fpage>329</fpage>
+          <lpage>345</lpage>
+          <pub-id pub-id-type="doi">10.1590/S1676-06032011000400027</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-conservation-06-00130">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Queiroz</surname>
+              <given-names>A.C.M.</given-names>
+            </name>
+            <name>
+              <surname>Marques</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <name>
+              <surname>Ribas</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Cornelissen</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <name>
+              <surname>Nogueira</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>F.A.</given-names>
+            </name>
+            <name>
+              <surname>Feitosa</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Sobrinho</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <name>
+              <surname>Quinet</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Baccaro</surname>
+              <given-names>F.B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Ant diversity decreases during the dry season: A meta-analysis of the effects of seasonality on ant richness and abundance</article-title>
+          <source>Biotropica</source>
+          <year>2023</year>
+          <volume>55</volume>
+          <fpage>29</fpage>
+          <lpage>39</lpage>
+          <pub-id pub-id-type="doi">10.1111/btp.13158</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-conservation-06-00130">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakahama</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hamano</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fujimoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Eto</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Utilization of abandoned land as cattle grazing restores butterfly and flowering plant diversities in Japan</article-title>
+          <source>Ecol. Res.</source>
+          <year>2024</year>
+          <volume>39</volume>
+          <fpage>730</fpage>
+          <lpage>743</lpage>
+          <pub-id pub-id-type="doi">10.1111/1440-1703.12494</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-conservation-06-00130">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Outhwaite</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>McCann</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Newbold</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Agriculture and climate change are reshaping insect biodiversity worldwide</article-title>
+          <source>Nature</source>
+          <year>2022</year>
+          <volume>605</volume>
+          <fpage>97</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41586-022-04644-x</pub-id>
+          <pub-id pub-id-type="pmid">35444282</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-conservation-06-00130">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martello</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>de Bello</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Morini</surname>
+              <given-names>M.S.d.C.</given-names>
+            </name>
+            <name>
+              <surname>Silva</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>de Souza-Campana</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Ribeiro</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Carmona</surname>
+              <given-names>C.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Homogenization and impoverishment of taxonomic and functional diversity of ants in <italic>Eucalyptus</italic> plantations</article-title>
+          <source>Sci. Rep.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>3266</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-20823-1</pub-id>
+          <pub-id pub-id-type="pmid">29459699</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-conservation-06-00130">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cardoso</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Barton</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Birkhofer</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Chichorro</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Deacon</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Fartmann</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fukushima</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Gaigher</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Habel</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Hallmann</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Scientists&#x2019; warning to humanity on insect extinctions</article-title>
+          <source>Biol. Conserv.</source>
+          <year>2020</year>
+          <volume>242</volume>
+          <fpage>108426</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2020.108426</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61-conservation-06-00130">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harvey</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Tougeron</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gols</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Heinen</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Abarca</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Abram</surname>
+              <given-names>P.K.</given-names>
+            </name>
+            <name>
+              <surname>Basset</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Berg</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Boggs</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Brodeur</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Scientists&#x2019; warning on climate change and insects</article-title>
+          <source>Ecol. Monogr.</source>
+          <year>2022</year>
+          <volume>93</volume>
+          <fpage>e1553</fpage>
+          <pub-id pub-id-type="doi">10.1002/ecm.1553</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62-conservation-06-00130">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leite</surname>
+              <given-names>P.A.M.</given-names>
+            </name>
+            <name>
+              <surname>Carvalho</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Wilcox</surname>
+              <given-names>B.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Good ant, bad ant? Soil engineering by ants in the Brazilian Caatinga differs by species</article-title>
+          <source>Geoderma</source>
+          <year>2018</year>
+          <volume>323</volume>
+          <fpage>65</fpage>
+          <lpage>73</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geoderma.2018.02.040</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63-conservation-06-00130">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Halsch</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Shapiro</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Fordyce</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Nice</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Thorne</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Waetjen</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Forister</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Insects and recent climate change</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2021</year>
+          <volume>118</volume>
+          <fpage>e2002543117</fpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.2002543117</pub-id>
+          <pub-id pub-id-type="pmid">33431560</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="conservation-06-00130-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Map showing the reach of the Brazilian semi-arid region and location of the Caminho dos Gerais State Park (PECG), in northern Minas Gerais State, Brazil.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="conservation-06-00130-g001.tif"/>
+      </fig>
+      <fig id="conservation-06-00130-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Historical monthly precipitation over the last 30 years (dashed line), and observed precipitation (solid line), and monthly average temperatures (&#xB0;C) (bars) in 2022 and 2023 in Caminho dos Gerais State Park, northern Minas Gerais State, Brazil.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="conservation-06-00130-g002.tif"/>
+      </fig>
+      <fig id="conservation-06-00130-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Sampling design used to evaluate the effects of barraginhas on the community structure of ants and beetles in an area of the Brazilian semi-arid region, Caminho dos Gerais State Park, northern Minas Gerais State, Brazil.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="conservation-06-00130-g003.tif"/>
+      </fig>
+      <fig id="conservation-06-00130-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Variations in species richness of ants (<bold>A</bold>) and beetles (<bold>B</bold>) among barraginhas treatments and sampling periods in the Brazilian semi-arid region, northern Minas Gerais State, Brazil (* = statistically significant differences between barraginhas treatments within sampling periods; n.s. = no statistically significant differences between barraginhas treatments within sampling periods; and different letters above vertical lines indicate statistical differences among sampling periods).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="conservation-06-00130-g004.tif"/>
+      </fig>
+      <fig id="conservation-06-00130-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Ordination (PCoA) of the ant assemblages in each sampling period in the Caminho dos Gerais State Park, Northeast of Minas Gerais State, Brazilian semi-arid region.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="conservation-06-00130-g005.tif"/>
+      </fig>
+      <table-wrap id="conservation-06-00130-t001" position="float">
+        <object-id pub-id-type="pii">conservation-06-00130-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Results of the Analysis of Deviance showing the effects of explanatory variables (barraginhas treatments, sampling periods and interactions) on response variables (richness of ants and beetles) in the Caminho dos Gerais State Park, Brazilian semi-arid, north of Minas Gerais State, Brazil.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Response Variables</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Explanatory Variables</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Df</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Deviance</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Residual Df</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Residual Dev</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>p</italic>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Ant richness</td>
+              <td align="center" valign="middle">Treatment</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.1517</td>
+              <td align="center" valign="middle">238</td>
+              <td align="center" valign="middle">437.27</td>
+              <td align="center" valign="middle">0.6969</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">Month</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">26.1879</td>
+              <td align="center" valign="middle">235</td>
+              <td align="center" valign="middle">411.08</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Interaction</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.2927</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">232</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">400.79</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0162</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Beetle richness</td>
+              <td align="center" valign="middle">Treatment</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.332</td>
+              <td align="center" valign="middle">238</td>
+              <td align="center" valign="middle">221.96</td>
+              <td align="center" valign="middle">0.5648</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">Month</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">48.950</td>
+              <td align="center" valign="middle">235</td>
+              <td align="center" valign="middle">173.01</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Interaction</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.842</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">232</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">167.16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.1196</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="conservation-06-00130-t002" position="float">
+        <object-id pub-id-type="pii">conservation-06-00130-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Results of Two-Way PERMANOVA comparing ant and beetle species composition among barraginhas treatments and sampling periods in the Caminho dos Gerais State Park, Brazilian semi-arid, north of Minas Gerais State, Brazil.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Group</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Source</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sum of Squares</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">d.f.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean Square</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">F</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>p</italic>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Ants</td>
+              <td align="center" valign="middle">Treatment</td>
+              <td align="center" valign="middle">0.7955</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.7955</td>
+              <td align="center" valign="middle">1.3895</td>
+              <td align="center" valign="middle">0.1833</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">Month</td>
+              <td align="center" valign="middle">14.173</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">4.7243</td>
+              <td align="center" valign="middle">8.2518</td>
+              <td align="center" valign="middle">0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">Interaction</td>
+              <td align="center" valign="middle">2.4584</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">0.8194</td>
+              <td align="center" valign="middle">1.4313</td>
+              <td align="center" valign="middle">0.0895</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">Residual</td>
+              <td align="center" valign="middle">132.82</td>
+              <td align="center" valign="middle">232</td>
+              <td align="center" valign="middle">0.5725</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Total</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">150.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">239</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Beetles</td>
+              <td align="center" valign="middle">Treatment</td>
+              <td align="center" valign="middle">0.5481</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.5481</td>
+              <td align="center" valign="middle">0.9547</td>
+              <td align="center" valign="middle">0.5640</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">Month</td>
+              <td align="center" valign="middle">0.6889</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.6889</td>
+              <td align="center" valign="middle">1.2001</td>
+              <td align="center" valign="middle">0.2557</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">Interaction</td>
+              <td align="center" valign="middle">0.5006</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.5006</td>
+              <td align="center" valign="middle">0.8720</td>
+              <td align="center" valign="middle">0.6888</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">Residual</td>
+              <td align="center" valign="middle">66.597</td>
+              <td align="center" valign="middle">116</td>
+              <td align="center" valign="middle">0.5741</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Total</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68.334</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">119</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

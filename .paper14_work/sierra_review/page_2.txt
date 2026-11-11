@@ -1,0 +1,73 @@
+2
+J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60
+Dataset link: Map Of potential
+groundwater-dependent vegetation in the
+Sierra Nevada Protected Area (Southern
+Spain) based on NDVI-derived
+ecohydrological attributes (Original data)
+Keywords:
+Dryland mountains
+Ec0hydr010gy
+Groundwater
+NDVI time serles
+Remote sensing
+Specifications Table
+SubJect
+Specific subject area
+Type Of data
+Data collection
+Data source location
+Data accessibility
+Related reseal ℃ h article
+were defined. These were further clustered intO
+three levels Of potential groundwater dependence LIS-
+i ng hierarchical
+clustering techniques, differentiating
+between alpine and lower-elevation aquifer zones.
+The dataset includes raster layers (GeoTIFF) of the ecohydro-
+logical classes and pGDV type s at 10 m spatial resolution, a
+CSV file with descriptive statistics for each class, and com-
+plete metadata. AII spatial I ayers a re projected in ETRS89 /
+UTM Zone 30N (EPSG: 25830 ） and are ready for visualization
+and analysis in standard GIS platforms. PartiaI validation Of
+the classification was performed using spring location data
+and the distribution 0f hygrophilous plant species from Ofi-
+cial conservation databases. This available dataset enables re-
+producible analysis Of vegetation—groundwater relationships
+in dryland mountain ecosystems. lt supports comparative re-
+search across regions, facilitates the study Of groundwater
+buffering effects on vegetation function, and offers a trans-
+ferable framework for ecohydrological classification based on
+remote sensing. The data can be reused tO inform biodi-
+versity conservation, groundwater management ， and climate
+cha nge adaptation strategies in the Mediterranean and other
+water-limited mountain reglons.
+0 2025 The Authors. PubIished by EIsevier lnc.
+This is an open access article under the CC BY license
+http://creativecommons.org/licenses/by/4.O/
+Earth & Environmental Sciences
+Ecohyd ro 1 ogy.
+GeoTIFF files （ raster layers), ShapefiIes (vector layers), CSV tables, Metadata
+documentation. The dataset consists Of processed, a na lyzed ， and derived
+data products
+SentineI-2 LeveI 2A imagery （ 2019 一 2023 ） downloaded from the Copernicus
+Open Access H ub (https://scihub.copernicus.eu/) was processed in Google
+Earth Engine tO compute NDVI time series, filtering pixels with > 10 ％ cloud
+and > 1 ％ snow probability. Areas with NDVI < 0 · 1 were excluded. QuartiIes
+categori ze d NDVI-based attributes intO 64 ecohydrological classes, then
+clustered using hierarchical analysis (EucIidean distance, complete linkage)
+i ntO three pGDV levels. Spatial and statistical analyses were done in QGIS
+Desktop (v 3 一 2 & 4 ） and R （ V423 〗
+Sierra Nevada Protected Area (NaturaI and NationaI Parks), southern Spain
+（ 37 · 0 。 一 37 · 2 。 N ， 2 · 5 。 一 3 ． 5 。 W ） (Fig. 1 〗 Data were generated and processed at
+the AndaIusian Centre for GlobaI Change （ Centro Andaluz para el Cambio
+GIobaI, University Of AImerfa) and are publicly available in Zenodo.
+Repository name: ZENODO
+Data identification number: 10 ． 5281 / zenodo ． 15315192
+Direct URL to data ： https://zenodo.org/records/15315192
+lnstructions for accessing these data: Open access; all files ca n be freely
+downloaded from the Zenodo repository.
+CabeIIo, J., Escudero-CIares, M., Martos-RosiIIo, S., Casas, J. J., Cintas, J.,
+ZakaIuk, T ” & SaIinas-BoniIIo, M. J. （ 2025 〗 Groundwater-dependent
+vegetati on in semi-arid Mediterranean mountains: The hidden role Of
+hard-rock aquifers. Submitted t0 the Journal 0f Hydrology.

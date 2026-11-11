@@ -1,0 +1,2199 @@
+{
+  "requested_title": "Applied Geography",
+  "status": 200,
+  "url": "https://journalfinder.elsevier.com/api/journals/search",
+  "request": {
+    "query": "Applied Geography",
+    "mode": "search",
+    "goldOpenAccess": true,
+    "subscription": true,
+    "sortBy": "default",
+    "sortOrder": "asc",
+    "ecrId": "",
+    "agreementsFilter": "all-journals"
+  },
+  "response": {
+    "results": [
+      {
+        "ranking": 1,
+        "title": "Applied Geography",
+        "acronym": "JAPG",
+        "emAcronym": "JAPG",
+        "issn": "0143-6228",
+        "subjectAreas": [
+          "Geography, Planning and Development",
+          "Forestry",
+          "Environmental Science (General)"
+        ],
+        "articleTypes": [
+          "Brief Communications",
+          "Full Length Article",
+          "Review Article",
+          "VSI: Uneven Green Transition"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01436228.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/JAPG",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/applied-geography/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 10
+          },
+          "impactFactor": {
+            "value": 7.4
+          },
+          "timeToFirstDecision": {
+            "value": 5
+          },
+          "timeToAcceptance": {
+            "value": 7
+          }
+        },
+        "scope": "<p>Putting the World&#39;s Human and Physical Resource Problems in a Geographical Perspective</p><p><i>Applied Geography</i> is a journal devoted to the publication of research which utilizes <b>geographic approaches</b> (human, physical, nature-society and GIScience) to resolve <b>human problems</b> that have a spatial dimension. These problems may be related to the assessment, management and allocation of the world&#39;s <b>physical</b> and/or <b>human resources</b>. The underlying rationale of the journal is that only through a clear understanding of the relevant societal, physical, and coupled natural-humans systems can we resolve such problems.</p><p>Papers are invited on any theme involving the application of geographical theory and methodology in the resolution of human problems. This may include papers on the techniques, problems and results of environmental and/or social research, as well as those concerned with the principles, policies and consequences of resource management and allocation. Articles are refereed before publication.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Jian Peng | Neil Reid",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "GEOGRAPHY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "GeoSciences",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3360,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 2,
+        "title": "Journal of Environmental Psychology",
+        "acronym": "YJEVP",
+        "emAcronym": "JEVP",
+        "issn": "0272-4944",
+        "subjectAreas": [
+          "Experimental and Cognitive Psychology",
+          "Applied Psychology",
+          "Geography, Planning and Development",
+          "Human Factors and Ergonomics"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Replication studies",
+          "Review Article",
+          "Research brief"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/02724944.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/JEVP",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-environmental-psychology/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 10.9
+          },
+          "impactFactor": {
+            "value": 7.3
+          },
+          "timeToFirstDecision": {
+            "value": 3
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p>The <i>Journal of Environmental Psychology (JEP)</i> is the premier journal in the field, publishing a wide range of interdisciplinary work from scholars around the world. <i>JEP</i> serves those who have an interest in the scientific study of the <b>psychological processes </b>engaged in the<b> reciprocal relations between individuals and the physical environment</b>. </p><p>As an important forum for a diverse discipline, the journal publishes influential papers that advance environmental psychology as a science and serve as a resource for practitioners. The Editors welcome original empirical research studies, including single- and multi-study articles, systematic literature reviews, and meta-analyses that contribute to theoretical, methodological, and practical aspects of human-environment relations. Brief empirical notes, replications, registered reports, and letters to the editor are also welcome. </p><p>Submissions are accepted within four categories:</p><ol><li><p>Sustainability, conservation, and climate change</p></li><li><p>Built settings, natural environments and restoration, design, and planning</p></li><li><p>Place attachment</p></li><li><p>Spatial cognition and wayfinding</p></li></ol><p>Specific research areas include (but are not limited to):</p><ul><li><p>How people perceive and connect with nature</p></li><li><p>Pro-environmental behavior, norms, attitudes, and personality </p></li><li><p>Ecological consequences of human action </p></li><li><p>Place identity and other theories of place </p></li><li><p>Perceptions and management of environmental risks and hazards</p></li><li><p>The effects of built and natural settings on human cognition, health, and wellbeing </p></li><li><p>Crowding, privacy, territoriality, and personal space </p></li><li><p>Environmental neuroscience</p></li><li><p>Virtual and extreme environments</p></li><li><p>Psychological influences of various built settings, such as workplaces, schools, residences, public buildings, and urban space</p></li></ul><p></p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Lindsay McCunn | P. Wesley Schultz",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 1
+            },
+            {
+              "name": "PSYCHOLOGY, MULTIDISCIPLINARY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Psychology",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4130,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 3,
+        "title": "Journal of Historical Geography",
+        "acronym": "YJHGE",
+        "emAcronym": "YJHGE",
+        "issn": "0305-7488",
+        "subjectAreas": [
+          "Archaeology",
+          "History",
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Feature article",
+          "Full Length Article",
+          "Historical Geography at Large",
+          "Review",
+          "VSI: Black Historical"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03057488.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/YJHGE",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-historical-geography/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 1.4
+          },
+          "impactFactor": {
+            "value": 1.2
+          },
+          "timeToFirstDecision": {
+            "value": 5
+          },
+          "timeToAcceptance": {
+            "value": 24
+          }
+        },
+        "scope": "<p>As the benchmark sub-disciplinary quarterly, the <i>Journal of Historical Geography</i> publishes articles on all aspects of historical geography and cognate fields in the social sciences, arts, and humanities. As well as hosting original research papers and special issues of interest to a wide international and interdisciplinary readership, the journal encourages agenda-setting interventions into methodological and conceptual debates and new challenges facing researchers in the field. Each issue includes a substantial review section (of books, exhibitions, databases, and others), and there is a regular feature on &#39;<a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fjournal%2Fjournal-of-historical-geography%2Fspecial-issue%2F104V9Z4THTL&data=05%7C02%7Ca.williams.5%40elsevier.com%7C1c3d41031f154596c02408de27913b4e%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638991701876081843%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=eoJxGi%2F8W3%2Fd2msoCsAWDzE%2FbKZZXfylrggIURae19Q%3D&reserved=0\"><u>Historical Geography at Large</u></a>&#39; devoted to engaged research, and its impact, beyond the academy. The journal is especially keen to expand its scholarship into those regions and academic communities beyond anglophone Europe and North America which have traditionally been underrepresented in the journal. We offer extra editorial support to students, early career researchers, underrepresented researchers, and those for whom English is not their first language<b>: please contact </b><a href=\"mailto:jhg@elsevier.com\"><b><u>jhg@elsevier.com</u></b></a><b>.</b></p><p>Questions commonly addressed in the journal include:</p><ul><li><p>How to describe, represent, and reconstruct past geographies (spaces, places, landscapes, environments, mobilities and networks)?</p></li><li><p>How is the presentness of the past produced through landscapes, texts, memories and archives? </p></li><li><p>How can we recognise diverse spatial and temporal imaginaries (for instance, ancestral, spiritual, religious, or environmental)? </p></li><li><p>What has been the reach and influence of different models and institutional hubs of historical geography? </p></li><li><p>How can the theories and methods used to study historical geography be applied to geography&#39;s disciplinary histories?</p></li></ul><p></p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Stephen Legg | André Novaes",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "HISTORY OF SOCIAL SCIENCES",
+              "tier": 2
+            },
+            {
+              "name": "GEOGRAPHY",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "History",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2500,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 4,
+        "title": "Spatial Statistics",
+        "acronym": "SPASTA",
+        "emAcronym": "SPASTA",
+        "issn": "2211-6753",
+        "subjectAreas": [
+          "Earth and Planetary Sciences (General)",
+          "Applied Mathematics",
+          "Ecological Modelling",
+          "Statistics and Probability",
+          "Geography, Planning and Development",
+          "Modelling and Simulation",
+          "Statistics, Probability and Uncertainty"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Short Communication",
+          "Technical Note",
+          "VSI:SPASTA_Dynamic Spatial Transport",
+          "VSI:SPASTA_Electoral Studies"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22116753.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/SPASTA",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/spatial-statistics/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 5.4
+          },
+          "impactFactor": {
+            "value": 2.7
+          },
+          "acceptanceRate": {
+            "value": 18
+          },
+          "timeToFirstDecision": {
+            "value": 3
+          },
+          "timeToAcceptance": {
+            "value": 10
+          }
+        },
+        "scope": "<p><b><i>Spatial Statistics</i></b> publishes articles on the theory and application of spatial and spatio-temporal statistics. It favours manuscripts that present theory generated by new applications, or in which new theory is applied to an important practical case. A purely theoretical study will only rarely be accepted. Pure case studies and algorithms without methodological development are not acceptable for publication.</p><p><b><i>Spatial Statistics</i></b> concerns the quantitative analysis of spatial and spatio-temporal data, including their statistical dependencies, heterogeneity, accuracy and uncertainties. Methodology for spatial statistics is typically found in probability theory, stochastic modelling and mathematical statistics as well as in information and computer science. Spatial statistics is used in mapping, assessing spatial data quality, sampling design optimisation, modelling of spatial structures, and drawing of valid inference and causality from a limited set of spatio-temporal data. Application fields include:</p><p>• The physical domains, e.g. environment, climate, agriculture, ecology, geosciences oceanography and remote sensing. <br/> • The social/economic domains, e.g. epidemiology, population characteristics, and disease mapping.</p><p><b><i>Spatial Statistics</i></b> encourages the submission of short communications and case studies in spatial statistics (i.e. manuscripts up to 3000 words presenting novel spatial statistical applications).</p><p><b><i>Spatial Statistics</i></b> aims to publish reproducible science. Authors are encouraged to submit and publish data, procedures, models and methods that support your research publication. It provides facilities to interlink those with your published articles.</p><p><b><i>Spatial Statistics</i></b> has an open attitude towards the latest developments in data science, deep learning and geoAI, as long as a substantial statistical component is present.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Jorge Mateu",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "GEOSCIENCES, MULTIDISCIPLINARY",
+              "tier": 3
+            },
+            {
+              "name": "MATHEMATICS, INTERDISCIPLINARY APPLICATIONS",
+              "tier": 3
+            },
+            {
+              "name": "STATISTICS & PROBABILITY",
+              "tier": 3
+            },
+            {
+              "name": "REMOTE SENSING",
+              "tier": 4
+            }
+          ],
+          "majorRanking": {
+            "name": "Mathematics",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4030,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 5,
+        "title": "Global Challenges & Regional Science",
+        "acronym": "GCRS",
+        "emAcronym": "GCRS",
+        "issn": "3050-502X",
+        "subjectAreas": [
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/3050502X.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/GCRS",
+          "guideForAuthors": null
+        },
+        "insights": {
+          "timeToFirstDecision": {
+            "value": 6
+          }
+        },
+        "scope": "<p><i>Global Challenges &amp; Regional Science</i> (GCRS) is a fully open access journal and welcomes submissions from all authors. Article Publishing Charges (APCs) are fully waived up to 1st June 2026.</p><p>GCRS is the official journal of the <a href=\"https://ersa.org/\">European Regional Science Association</a>. The journal encourages high quality scholarship on a broad range of topics dealing with the local (regional, spatial, urban) effects of, and responses to, structural changes caused by global challenges. These topics include, but are not limited to, the changing configuration of the local economy, of the locational patterns of firms, of a city or a territory caused by economic crises, climate change, technological advances, migration, geopolitical conflicts.</p><p>The journal publishes papers that make a new contribution to the interpretation of the new territorial configurations caused by structural changes through theory, methods, and models related to urban and regional science. The editors invite submissions of papers from diverse disciplines, including economics, geography, planning and development, that apply theoretical frameworks, methods, and models in regional science, useful to interpret the regional and urban effects of the major challenges affecting the world nowadays.</p><p><b>&#39;Announcement: </b>RSAI members are eligible for a 30% discount on the APC when submitting to GCRS. Please see our Open Access Options page for more information on discounts and waivers.’</p><p></p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Vicente Royuela",
+        "goldOpenAccessFee": {
+          "value": 1800,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 6,
+        "title": "International Journal of Disaster Risk Reduction",
+        "acronym": "IJDRR",
+        "emAcronym": "IJDRR",
+        "issn": "2212-4209",
+        "subjectAreas": [
+          "Environmental Science (General)",
+          "Geography, Planning and Development",
+          "Geophysics"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Short Report",
+          "Technical Note",
+          "VSI: Housing system resilience_Research Article",
+          "VSI: Training and Exercises: Research Paper",
+          "VSI: Housing system resilience_Review Article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22124209.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/IJDRR/default.aspx",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 9.1
+          },
+          "impactFactor": {
+            "value": 4.8
+          },
+          "timeToFirstDecision": {
+            "value": 2
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p>Affiliated with the <a href=\"http://www.grforum.org\">Global Risk Forum GRF Davos</a>.</p><p>The International Journal of Disaster Risk Reduction (IJDRR) is the journal for researchers, policymakers and practitioners across diverse disciplines: earth sciences and their implications; environmental sciences; engineering; urban studies; geography; and the social sciences. IJDRR publishes fundamental and applied research, critical reviews, policy papers and case studies with a particular focus on multi-disciplinary research that aims to reduce the impact of natural, technological, social and intentional disasters. IJDRR stimulates exchange of ideas and knowledge transfer on disaster research, mitigation, adaptation, prevention and risk reduction at all geographical scales: local, national and international.</p><p>Key topics:</p><ul><li><p>multifaceted disaster and cascading disasters</p></li><li><p>the development of disaster risk reduction strategies and techniques</p></li><li><p>discussion and development of effective warning and educational systems for risk management at all levels</p></li><li><p>disasters associated with climate change</p></li><li><p>vulnerability analysis and vulnerability trends</p></li><li><p>emerging risks</p></li><li><p>resilience against disasters</p></li></ul><p>The journal particularly encourages papers that approach risk from a multi-disciplinary perspective.</p><p><b>This journal welcomes contributions that support and advance the UN&#39;s </b><a href=\"https://sdgresources.relx.com/\"><b>sustainable development goals</b></a><b>, in particular SDG 5 (Gender Equality).</b></p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Carmine Galasso",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "METEOROLOGY & ATMOSPHERIC SCIENCES",
+              "tier": 2
+            },
+            {
+              "name": "GEOSCIENCES, MULTIDISCIPLINARY",
+              "tier": 2
+            },
+            {
+              "name": "WATER RESOURCES",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2760,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 7,
+        "title": "Landscape and Urban Planning",
+        "acronym": "LAND",
+        "emAcronym": "LANDUP",
+        "issn": "0169-2046",
+        "subjectAreas": [
+          "Development",
+          "Geography, Planning and Development",
+          "Ecology, Evolution, Behavior and Systematics",
+          "Nature and Landscape Conservation",
+          "Ecology"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Research note",
+          "Perspective article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01692046.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/LANDUP",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/landscape-and-urban-planning/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 19.6
+          },
+          "impactFactor": {
+            "value": 11.5
+          },
+          "timeToFirstDecision": {
+            "value": 10
+          },
+          "timeToAcceptance": {
+            "value": 9
+          }
+        },
+        "scope": "<p>An Interdisciplinary Journal of Landscape Science, Planning and Design.</p><p><i>Landscape and Urban Planning</i> is an international journal aimed at advancing conceptual, scientific, and applied understandings of <b>landscape</b> in order to promote <b>sustainable</b> solutions for <b>landscape change</b>. Landscapes are visible and integrative social-ecological systems with variable spatial and temporal dimensions. They have expressive aesthetic, natural, and cultural qualities that are perceived and valued by people in multiple ways and invite actions resulting in landscape change. Landscapes are increasingly urban in nature and ecologically and culturally sensitive to changes at local through global scales. Multiple disciplines and perspectives are required to understand landscapes and align social and ecological values to ensure the sustainability of landscapes. The journal is based on the premise that landscape science linked to <b>planning</b> and <b>design</b> can provide mutually supportive outcomes for people and nature.</p><p><i>Landscape science</i> brings <b>landscape ecology</b> and <b>urban ecology</b> together with other disciplines and cross-disciplinary fields to identify patterns and understand social-ecological processes influencing landscape change. <i>Landscape planning</i> brings landscape architecture, urban and regional planning, landscape and ecological engineering, and other practice-oriented fields to bear in processes for identifying problems and analyzing, synthesizing, and evaluating desirable alternatives for landscape change. <i>Landscape design</i> brings plans, designs, management prescriptions, policies and other activities and form-giving products to bear in effecting landscape change. The implementation of landscape planning and design also generates new patterns of evidence and hypotheses for further research, providing an integral link with landscape science and encouraging transdisciplinary collaborations to build robust knowledge and problem solving capacity.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Christian Albert | Iryna Dronova | Weiqi Zhou",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ECOLOGY",
+              "tier": 1
+            },
+            {
+              "name": "GEOGRAPHY, PHYSICAL",
+              "tier": 1
+            },
+            {
+              "name": "REGIONAL & URBAN PLANNING",
+              "tier": 1
+            },
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 1
+            },
+            {
+              "name": "URBAN STUDIES",
+              "tier": 1
+            },
+            {
+              "name": "GEOGRAPHY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4700,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 8,
+        "title": "Energy for Sustainable Development",
+        "acronym": "ESD",
+        "emAcronym": "ESD",
+        "issn": "0973-0826",
+        "subjectAreas": [
+          "Energy (General)",
+          "Renewable Energy, Sustainability and the Environment",
+          "Energy Engineering and Power Technology",
+          "Development",
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review Article",
+          "Short Communication",
+          "VSI: Advancing Energy for SD"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09730826.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/ESD",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/energy-for-sustainable-development/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 9.9
+          },
+          "impactFactor": {
+            "value": 5.2
+          },
+          "timeToFirstDecision": {
+            "value": 2
+          },
+          "timeToAcceptance": {
+            "value": 10
+          }
+        },
+        "scope": "<p><i>Energy for Sustainable Development</i> is published on behalf of the International Energy Initiative, which maintains regional offices in <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fiei-brasil.org%2F&data=05%7C02%7CS.Abdus-Sabuur%40Elsevier.Com%7C231232e586e746164bd808ddca8865a3%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638889409348219866%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=wxQiu8D6NDkYbPkBrRSlRGF1Ren4VKbu7ImRxQkdbwQ%3D&reserved=0\"><u>Brazil</u></a> and <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.iei-asia.org%2Finternational-energy-initiative&data=05%7C02%7CS.Abdus-Sabuur%40Elsevier.Com%7C231232e586e746164bd808ddca8865a3%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638889409348241361%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=erMDYM2f955AFSrvq2vYCyVnrIRtI81dIdMaFgbYZV0%3D&reserved=0\"><u>India</u></a>. ESD aims to promote – initiate, strengthen and advance – the efficient and clean production and use of energy for sustainable development of developing nations (i.e. any country outside the high income category as per the World Bank definition). It publishes original, applied, interdisciplinary research, commentaries and reviews about <b>energy</b> as an instrument of sustainable development and focuses on energy systems, clean resources, efficient technologies, end uses, policies and governance arrangements. It is the journal for decision makers, managers, consultants, policy makers, planners and researchers in both government and non-government organizations. Accordingly, the Editorial Board does not consider highly specialized works in a specific discipline appropriate for this journal.</p><p>The Editorial Board of ESD views energy, not as an end, but as an instrument of sustainable development. The Editorial Board particularly wishes to encourage papers that are (1) in line with the scope outlined above, (2) likely to be of interest to more than one professional group, and (3) contributing significantly to knowledge through analysis, synthesis and critical review and evaluation. The board also welcomes papers on North-South, South-South or multilateral cooperation in <b>energy technology development, governance, training </b>and applications. The Board considers the publication of highly specialized work more appropriate to other professional journals.</p><p>The criteria for acceptance of the papers in <i>Energy for Sustainable Development </i>are 1) relevance of the work and breadth of interest; 2) originality and contribution to knowledge; 3) methodological robustness; 4) quality of analysis and 5) the quality of presentation, irrespective of the type of paper (full length research papers, short communications or review articles).</p><p>Please see our <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fjournal%2Fenergy-for-sustainable-development%2Fpublish%2Fguide-for-authors&data=05%7C02%7CS.Abdus-Sabuur%40Elsevier.Com%7C231232e586e746164bd808ddca8865a3%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638889409348256951%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=CiXl3XIDivyDd6Pjw9IRH2ox1qG8bB6xdxSuTrvarII%3D&reserved=0\">Guide for Authors</a> for information on article submission. If you require any further information or help, please visit our <a href=\"https://service.elsevier.com/app/home/supporthub/publishing/\">Support Center</a></p><p><b>This journal welcomes contributions that support and advance the UN&#39;s </b><a href=\"https://sdgresources.relx.com/\"><b>sustainable development goals</b></a><b>, in particular SDG 7 (Affordable and clean energy) and SDG 11 (Sustainable cities and communities)</b></p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Subhes C. Bhattacharyya",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENERGY & FUELS",
+              "tier": 3
+            },
+            {
+              "name": "GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "Engineering",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2750,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 9,
+        "title": "Next Sustainability",
+        "acronym": "NXSUST",
+        "emAcronym": "NXSUST",
+        "issn": "2949-8236",
+        "subjectAreas": [
+          "Chemistry (General)",
+          "Renewable Energy, Sustainability and the Environment",
+          "Environmental Science (General)",
+          "Materials Science (General)"
+        ],
+        "articleTypes": [
+          "Research Article",
+          "Review Article",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29498236.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/NXSUST",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/next-sustainability/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 2.1
+          },
+          "impactFactor": {
+            "value": 6
+          },
+          "timeToFirstDecision": {
+            "value": 3
+          },
+          "timeToAcceptance": {
+            "value": 7
+          }
+        },
+        "scope": "<p><i>Next Sustainability</i> is a peer-reviewed, open access journal publishing sustainability research in Physical Science.</p><p>The journal is part of the <i>Next</i> family, a new suite of multidisciplinary open access journals from Elsevier spanning all branches of science. Managed by our dedicated professional team of full-time inhouse Editors, <i>Next Sustainability</i> offers authors speed, consistency, innovation, flexibility and ease of submission, while providing readers in the field with seamless access.</p><p><i>Next Sustainability</i> publishes across the full spectrum of sustainable physical science, providing a single platform to unite research from the environmental, cultural, natural, fundamental and applied sciences that seeks to identify and understand what each stakeholder can do to build a sustainable future.</p><p><i>Next Sustainability</i> provides authors with rigorous peer review ensuring articles adhere to a high technical standard, with rapid decisions and a highly visible platform for scientists to share their research.</p><p>Our Editors welcome submissions on sustainability research including but not limited to:</p><ul><li><p>Atmospheric Science</p></li><li><p>Biogeochemistry</p></li><li><p>Catalysis</p></li><li><p>Chemistry</p></li><li><p>Civil Engineering</p></li><li><p>Energy</p></li><li><p>Environmental Science &amp; Engineering</p></li><li><p>Geography</p></li><li><p>Hydrology</p></li><li><p>Materials Science &amp; Engineering</p></li><li><p>Nanotechnology</p></li><li><p>Oceanography</p></li><li><p>Water Science and Studies</p></li></ul>",
+        "openAccessType": "FULL",
+        "editorInChief": "",
+        "isGuaranteedPeerReview": true,
+        "goldOpenAccessFee": {
+          "value": 1570,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 10,
+        "title": "Computers, Environment and Urban Systems",
+        "acronym": "CEUS",
+        "emAcronym": "CEUS",
+        "issn": "0198-9715",
+        "subjectAreas": [
+          "Development",
+          "Ecological Modelling",
+          "Computer Science Applications",
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Software Article",
+          "Review Article",
+          "VSI: GeoAI for fire research"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01989715.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CEUS",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/computers-environment-and-urban-systems/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 17.3
+          },
+          "impactFactor": {
+            "value": 8.9
+          },
+          "acceptanceRate": {
+            "value": 4
+          },
+          "timeToFirstDecision": {
+            "value": 4
+          },
+          "timeToAcceptance": {
+            "value": 12
+          }
+        },
+        "scope": "<p><i>Computers, Environment and Urban Systems</i> is an interdisciplinary journal publishing cutting-edge and innovative <b>computer-based research</b> on <b>urban systems, systems of cities, and built and natural environments</b> , that privileges the <b>geospatial</b> perspective. The journal provides a stimulating presentation of perspectives, research developments, overviews of important new technologies and uses of major computational, information-based, and visualization innovations. Applied and theoretical contributions demonstrate the scope of computer-based analysis fostering a better understanding of urban systems, the synergistic relationships between built and natural environments, their spatial scope and their dynamics.</p><p>Application areas include infrastructure and facilities management, physical planning and urban design, land use and transportation, business and service planning, coupled human and natural systems, urban planning, socio-economic development, emergency response and hazards, and land and resource management. Examples of methodological approaches include decision support systems, geocomputation, spatial statistical analysis, complex systems and artificial intelligence, visual analytics and geovisualization, ubiquitous computing, and space-time simulation.</p><p>Contributions emphasizing the development and enhancement of computer-based technologies for the analysis and modeling, policy formulation, planning, and management of environmental and urban systems that enhance sustainable futures are especially sought. The journal also encourages research on the modalities through which information and other computer-based technologies mold environmental and urban systems.</p><p>Audience: <br/> Urban and regional planners and policy analysts, environmental planners, economic geographers, geospatial information scientists and technologists, regional scientists and policy makers, architectural designers.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Tony Grubesic",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "REGIONAL & URBAN PLANNING",
+              "tier": 1
+            },
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 1
+            },
+            {
+              "name": "GEOGRAPHY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "GeoSciences",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4570,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 11,
+        "title": "Applied Computing and Geosciences",
+        "acronym": "ACAGS",
+        "emAcronym": "ACAGS",
+        "issn": "2590-1974",
+        "subjectAreas": [
+          "Computers in Earth Sciences",
+          "Earth and Planetary Sciences (General)"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review Article",
+          "VSI: AI for Deep-Time Earth",
+          "VSI: AI in Mineral Exploration",
+          "VSI: GEOLLM and GEOKG"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/25901974.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/ACAGS",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/applied-computing-and-geosciences/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 4.4
+          },
+          "impactFactor": {
+            "value": 4
+          },
+          "timeToFirstDecision": {
+            "value": 4
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p><i><b>Applied Computing &amp; Geosciences</b></i> is an <b>online-only, open access</b> journal focused on all aspects of computing in the geosciences. Like its companion title <a href=\"https://www.journals.elsevier.com/computers-and-geosciences\"><i>Computers &amp; Geosciences</i></a>, <i>Applied Computing &amp; Geosciences</i>&#39; mission is to advance and disseminate knowledge in all the related areas of at the interface between computer sciences and geosciences.</p><p><i>Applied Computing &amp; Geosciences</i> publishes original articles, review articles and case-studies. Alongside welcoming direct submissions, the journal will benefit from an <b>Article Transfer Service</b> which will allow the author(s) to transfer their manuscript online from <i>Computers &amp; Geosciences</i> thus saving authors time and effort spent on formatting and resubmitting.</p><p><i>Applied Computing &amp; Geosciences</i> offers the community an innovative, efficient and flexible route for the publication of scientifically and ethically sound articles which address problems in the geosciences which includes: <br/> Algorithms; Artificial Intelligence; Computational Methods; Computer Graphics; Computer Visualization; Data Models; Data Processing; Database Retrieval; Distributed Systems; E-Geoscience; Geocomputation; Geographical Information Systems; Geoinformatics; Geomathematics; Image Analysis; Information Retrieval; Modelling; Near and Remote Sensing Data Analysis; Ontologies; Parallel Systems; Programming Languages; Remote Sensing; Simulation; Social Media; Software Engineering; Spatial Analysis and The World-Wide Web.</p><p>The term <b>Geoscience</b> is used in a broad sense to refer to the physical Earth sciences including: <br/> Atmospheric Sciences; Climatology; Economic Geology; Environmental Science; Geochemistry; Geodesy; Geology; Geomatics; Geomorphology; Geological and Geotechnical Engineering; Geophysics; Glaciology; Hydrogeology; Hydrology; Meteorology; Mineralogy; Oceanography; Ore Geology; Paleogeography; Paleontology; Petrology; Physical Geography; Planetary Science; Sedimentology; Seismology; Soil Science; Stratigraphy and Structural Geology.</p><p>Our highly experienced and well-respected editorial team ensures that all papers are <b>promptly, rigorously and fairly peer-reviewed</b> by the experts in the field. <br/></p><ul><li><p>Research paper <b>(5,000 words)</b>: Providing an original contribution to the scientific fields of study outlined above.</p></li><li><p>Review paper <b>(10,000 words)</b>: Critically describing the state-of-the art of applications of computer science in the geosciences, as a stand-alone contribution or to frame a special issue.</p></li><li><p>Application article <b>(5,000 words)</b>: Describing a real-world case study on the scientific fields of study outlined above.</p></li></ul><p>Criteria for assessment shall be: completeness, depth, novelty, timeliness, quality, and interest to the Journal&#39;s readership. Before submitting review paper manuscripts, a review outline should be approved by one of the editors of the Journal.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Xiaogang Ma | Alessandra Menafoglio",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "GEOSCIENCES, MULTIDISCIPLINARY",
+              "tier": 3
+            },
+            {
+              "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "GeoSciences",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2230,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 12,
+        "title": "Social Science & Medicine",
+        "acronym": "SSM",
+        "emAcronym": "SSM",
+        "issn": "0277-9536",
+        "subjectAreas": [
+          "Health",
+          "Public Health and Health Policy",
+          "Sociology and Political Science",
+          "Social Psychology",
+          "Development"
+        ],
+        "articleTypes": [
+          "Research paper",
+          "Review article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/02779536.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/ssm",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/social-science-and-medicine/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 8.2
+          },
+          "impactFactor": {
+            "value": 4.1
+          },
+          "timeToFirstDecision": {
+            "value": 6
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p><i>Social Science &amp; Medicine</i> provides an international interdisciplinary forum for the dissemination of social science research on health. We publish original research articles (both empirical and theoretical), reviews, position papers and commentaries on health issues, to inform current research, policy and practice in all areas of common interest to social scientists, health practitioners, and policy makers. The journal publishes material relevant to any aspect of health from a wide range of social science disciplines (anthropology, economics, epidemiology, geography, policy, psychology, and sociology), and material relevant to the social sciences from any of the professions concerned with physical and mental health, health care, clinical practice, and health policy and organization.</p><p>All papers should be of broad interest to the international audience of general social science readers.</p><p>The journal publishes the following types of contribution:</p><ol><li><p>Peer-reviewed original research articles (including methodological, theoretical and conceptual papers) and critical analytical reviews in any area of social science research relevant to health and healthcare. These papers may be up to 9000 words including abstract, tables, figures, references and (printed) appendices as well as the main text. Papers below this limit are preferred.</p></li><li><p>Systematic and Scoping reviews (including Meta-analyses) of up to 15000 words including abstract, tables, figures, references and appendices as well as the main text. Review papers should use an established review methodology.</p></li><li><p>Invited commentaries and responses debating, and published alongside, selected articles. Uninvited commentaries are not normally considered by any office.</p></li><li><p>Special Issues bringing together collections of papers on a particular theme, and usually guest edited. If you wish to propose a Special Issue for consideration, please follow <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fjournal%2Fsocial-science-and-medicine%2Fabout%2Fspecial-issue-proposals%2Fssm-guidelines-for-special-issues&data=05%7C02%7Ca.k2%40elsevier.com%7C42cf035b30ec4717c75808de995c5b2e%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C639116819104542185%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=DKflErvpgN4cXPozrRMKaR419orL%2B2QiszCWH%2BYECWY%3D&reserved=0\">our proposal guidelines</a>. The special issue papers are handled by the Editor in Chief. The Guest Editor is not responsible for the peer review process. The GE is required to review and approve abstracts. Once approved, the authors are invited to submit their full paper to the SI - the Editor in Chief handles the peer review process.</p></li></ol><p><b>Office Descriptions </b></p><p>Authors will need to select their preferred Office when submitting to Social Science &amp; Medicine. Please refer to the descriptions below to identify the most appropriate Office and to identify the types of paper that they will consider:</p><p><b>Medical Anthropology (Senior Editor, Alex Brewis)</b></p><p><b>Topics: </b></p><p>The Medical Anthropology office welcomes papers related to the cultural, structural, linguistic, ecological, biocultural, evolutionary, ethical, or pedagogical contexts of health and (health care) wellbeing in a complex and globalized world.</p><p><b>Methods:</b></p><p>The Medical Anthropology office prioritizes theoretically-situated submissions using qualitative, quantitative, mixed, applied, and/or coproduced methodologies.</p><p><b>Outside of scope:</b></p><p>n/a</p><p><b>Health Economics (Senior Co-Editors Joanna Coast &amp; Richard Smith)</b></p><p><b>Topics: </b></p><p>The Health Economics office welcomes papers concentrating on the allocation of scarce resources in relation to health and health care, including primary, secondary, tertiary and community health and care systems, as well as papers that focus on economic aspects of public health. </p><p><b>Methods: </b></p><p>The Health Economics office will consider empirical papers using quantitative or qualitative methods, or a mix of the two, alongside economic or other theory relevant to resource allocation. Innovative methodological or theoretical papers must be clearly focused across both health and healthcare and economics.</p><p><b>Outside of scope:</b></p><p>Papers using econometric methods to explore questions unrelated to resource allocation and health or ‘data mining’, and those with a narrow domestic or clinical focus are not considered suitable for the health economics office.</p><p><b>Social Epidemiology (Senior Co-Editors Arjumand Siddiqi &amp; Jackie Hughto)</b></p><p><b>Topics: </b></p><p>The Social Epidemiology office welcomes papers related to the social distributions and determinants of health, particularly those that engage richly with social conditions and processes in relation to health and, particularly those that center population-level inferences.</p><p><b>Methods: </b></p><p>The Social Epidemiology office will consider primarily quantitative and mixed-methods research. Qualitative methods will occasionally be considered if they engage with population-level inferences. We are interested in the use of social science methodologies to understand social conditions and social processes linked to health outcomes. </p><p><b>Outside of scope:</b></p><p>n/a</p><p><b>Health Psychology (Senior Co-Editors Aleksandra Luszczynska &amp; Cecilia Cheng)</b></p><p><b>Topics:</b></p><p>The Health Psychology office welcomes papers that focus on the development, implementation, and rigorous evaluation of innovative interventions, with an emphasis on interdisciplinary approaches, mixed methods, health equity promotion, and contextual and cultural influences. Psychological research addressing outcomes related to health and health behaviors are of particular interest to the Health Psychology office.</p><p><b>Methods: </b></p><p>The Health Psychology office will consider papers employing mixed or quantitative methods, including meta-analyses.</p><p><b>Outside of scope:</b></p><p>Papers not grounded in psychological theory would be considered unsuitable for the Health Psychology office. Cross-sectional correlational studies using self-reported data only are typically not considered.</p><p><b>Medical Sociology (Senior Co-Editors Janet Shim &amp; Karen Spencer)</b></p><p><b>Topics:</b></p><p>The Medical Sociology office welcomes papers that engage with and contribute to the sociological literature on health, illness, and healthcare. Papers may address a wide range of health-related topics, including the structural, institutional/organizational, and cultural contexts of health and illness; social determinants of health; and social aspects of healthcare and health systems.</p><p><b>Methods:</b></p><p>The Medical Sociology office welcomes manuscripts using a broad array of qualitative methods. Review and quantitative papers that are agenda-setting for medical sociology will also be considered.</p><p><b>Outside of scope:</b></p><p>Papers that do not deeply engage sociological and/or medical sociological theory and literature are considered unsuitable for the Medical Sociology office. Review papers that do not utilize systematic methodologies and are not agenda-setting for medical sociology will not be considered.</p><p><b>Health Policy (Senior Co-Editors Justin Parkhurst &amp; Roland Bal)</b></p><p><b>Topics:</b></p><p>The Health Policy office welcomes papers that have a global orientation and bring rigorous theory and methods from social sciences to health policy and systems research. Of special interest are papers that address current policy debates affecting health and health systems, compare health politics and policies across countries and regions, and/or employ innovative theoretical perspectives.</p><p><b>Methods:</b></p><p>The Health Policy office will consider papers utilising a range of qualitative, quantitative, or mixed methods.</p><p><b>Outside of scope:</b></p><p>n/a</p><p><b>Health Geography (Senior Editor Jamie Pearce)</b></p><p><b>Topics:</b></p><p>The Health Geography office welcomes papers that consider the role of place-based processes in explaining health and health-related experiences. This includes work on the social, cultural, political and environmental practices shaping the distribution, diffusion, and delivery of health and health care systems at a range of spatial scales, from the global to the local. We are interested in papers with the potential for policy and practice impact and to improve population health and reduce inequity.</p><p><b>Methods:</b></p><p>The Health Geography office will consider quantitative, qualitative as well as mixed methodological approaches.</p><p><b>Outside of scope:</b></p><p>n/a</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Susan J. Elliott",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH",
+              "tier": 1
+            },
+            {
+              "name": "SOCIAL SCIENCES, BIOMEDICAL",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Medicine",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4060,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 13,
+        "title": "Environmental Impact Assessment Review",
+        "acronym": "EIR",
+        "emAcronym": "EIR",
+        "issn": "0195-9255",
+        "subjectAreas": [
+          "Management, Monitoring, Policy and Law",
+          "Renewable Energy, Sustainability and the Environment",
+          "Environmental Science (General)",
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Opinion Paper",
+          "Review Article",
+          "VSI: AI in Impact Assessment",
+          "VSI: LCSA"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01959255.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/EIR",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/environmental-impact-assessment-review/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 19.6
+          },
+          "impactFactor": {
+            "value": 12.2
+          },
+          "timeToFirstDecision": {
+            "value": 2
+          },
+          "timeToAcceptance": {
+            "value": 7
+          }
+        },
+        "scope": "<p><i>Environmental Impact Assessment Review</i> (EIA Review) is a peer-reviewed, interdisciplinary journal serving a global community of academics, practitioners, policymakers, and regulators engaged with impact assessment (IA) theory and practice. As defined by the International Association for Impact Assessment (iaia.org), impact assessment is a transformative process that informs and guides decisions and actions by governments, businesses, and individuals — aiming to maximize positive outcomes and minimize negative effects in support of sustainable development.</p><p>Since its mandatory introduction in the United States under the National Environmental Policy Act (NEPA) on January 1, 1970, IA has become one of the world&#39;s most widely adopted environmental policy tools. In the decades since, a broad range of IA policies, tools, and procedures has emerged, spanning multiple sustainability dimensions and objectives.</p><p>IA is now used across public and private sectors worldwide. What began as a forward-looking procedure for predicting impacts at the project and strategic level has grown into a broad theoretical and applied field, encompassing <i>ex-ante</i>, <i>ex-post</i>, life-cycle, and ecological evaluations of projects, policies, plans, programs, areas, ecosystems, products, materials, and services.</p><p>For EIA Review, IA covers assessment of impacts on or of the environment — including Environmental Impact Assessment (EIA) and Strategic Environmental Assessment (SEA) — as well as Social Impact Assessment (SIA), Health Impact Assessment (HIA), Risk Assessment (RA), Economic Impact Assessment (EIC), climate change assessment, and ecosystem assessment.</p><p>The journal publishes impactful studies grounded in innovative theory and practice across these areas, including but not limited to:</p><ol><li><p><b>Impact assessment theories and innovative assessment and decision-making methodologies</b>: e.g., theory building and testing for EIA/SEA and cumulative effects assessment (CEA), novel predictive assessment models, multi‑criteria system evaluation, quantification of energy values and ecosystem services, and optimized approaches to environmental decision-making, including algorithms for cost‑benefit analysis (CBA).</p></li><li><p><b>Impact assessment regulations, governance regimes and institutional comparisons: </b>e.g., national environmental legislative procedures, approval and supervision mechanisms, regional and national EIA reforms, comparative analyses of different EIA systems, and empirical studies on public participation within EIA governance.</p></li><li><p><b>Strategic environmental assessment and territorial‑spatial planning evaluation</b>: e.g., SEA for land development, industrial parks and regional planning, quantitative measurement of ecological constraints in territorial space, and effectiveness tracking for planned EIA implementation.</p></li><li><p><b>Life Cycle Assessment and carbon‑footprint accounting</b>: e.g., product life‑cycle environmental impacts, industrial‑scale carbon‑footprint calculation, energy‑value analysis for energy systems, and integrated environmental‑benefit evaluation for the circular economy.</p></li><li><p><b>Integrated cross‑impact assessments:</b> e.g., Social Impact Assessment, Health Impact Assessment, Landscape impact evaluation, Human‑rights‑related equity considerations, integrated climate‑risk assessment (RIA), and coupled models for multi‑dimensional composite impacts.</p></li><li><p><b>Ecological conservation and natural‑resource assessment:</b> e.g., biodiversity impact assessment, quantitative evaluation of watershed and forest ecosystem impacts, ecological gains and losses induced by land‑use change, and supporting‑tool development for ecological compensation.</p></li><li><p><b>Green industry, supply‑chain and environmental management:</b> e.g., corporate environmental‑management systems, supply‑chain sustainability assessment, environmental‑risk mitigation for large‑scale infrastructure and energy projects, and supporting evaluation mechanisms for green finance.</p></li><li><p><b>Systematic reviews and meta‑analyses related to impact assessment:</b> e.g., evidence synthesis of comprehensive IA practices, critical reviews of assessment methodologies, mapping of global EA research trends, and development of forward‑looking research frameworks.</p></li></ol><p></p><p><b>Manuscript Expectations</b></p><p>EIA Review is an international journal with a global readership; manuscripts should be contextualized to address geographical and political issues relevant to a broad audience. The journal accepts original research that may adopt a case-study design but does not accept papers that merely report or describe IA case studies applying existing methods within a single jurisdiction without wider learning points. Case studies must explicitly demonstrate innovative theory or practice and offer clear value to an international readership.</p><p>Despite its title, EIA Review is not limited to review articles. The journal welcomes three manuscript types: <b>Full-Length Research Articles, Literature Review Articles, and Opinion Articles</b>[AF1] . &quot;Review&quot; in the journal&#39;s name refers to its blind peer-review process — a minimum of two reviewers — which ensures every publication is reliable, insightful, innovative, topical, and coherent.</p><p>The journal receives far more submissions than it can accept. <b>Manuscripts within scope may still be desk-rejected for insufficient novelty or unclear potential to advance the field</b>. The International Advisory Board is consulted whenever necessary.</p><p>Authors are encouraged to review recent articles in the journal to understand how the editorial team evaluates novelty, contribution, and approach. Authors are encouraged to review recent articles in the journal to understand how the editorial team evaluates potential manuscripts concerning their innovation, contribution and approach</p><p>[AF1]We have different terminologies being used right now. 1) The Guide for authors webpage uses: Articles, Reviews of Current Literature, and Viewpoints; 2) The EM Submission system uses Full Length Article, Opinion Paper and Review Article.I suggest we harmonize everything using the following wording: <b>Full-Length Research Articles, Literature Review Articles and Opinion Articles.</b></p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Alberto Fonseca | He Xu",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Social Sciences",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4510,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 14,
+        "title": "Journal of Outdoor Recreation and Tourism",
+        "acronym": "JORT",
+        "emAcronym": "JORTOUR",
+        "issn": "2213-0780",
+        "subjectAreas": [
+          "Management, Monitoring, Policy and Law",
+          "Tourism, Leisure and Hospitality Management",
+          "Geography, Planning and Development",
+          "Forestry"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Commentaries and Rejoinders",
+          "Research Note",
+          "Review Article",
+          "VSI: Tourism in Mountain Areas"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22130780.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/JORTOUR",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-outdoor-recreation-and-tourism/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 8.2
+          },
+          "impactFactor": {
+            "value": 4.9
+          },
+          "timeToFirstDecision": {
+            "value": 15
+          },
+          "timeToAcceptance": {
+            "value": 12
+          }
+        },
+        "scope": "<p>Journal of Outdoor Recreation and Tourism offers a dedicated outlet for social science and natural resource research relevant to outdoor recreation and nature-based tourism.</p><p>The journal publishes peer-reviewed, original research that advances our understanding of outdoor recreation and nature-based tourism in the context of sustainable outdoor leisure sites and protected area management and planning. JORT covers the entire spectrum of settings, ranging from wilderness to urban outdoor recreation opportunities.</p><p>JORT is an interdisciplinary and transdisciplinary journal. Articles may focus on any aspect of theory, method, or concept of outdoor recreation or nature-based tourism research, planning, or management. Interdisciplinary work is especially welcome and may be of a theoretical and/or case study nature. Depending on the topic of investigation, articles may be positioned within a single academic discipline or drawn from multiple disciplines in an integrative manner. Submissions should have an overarching relevance to the social sciences and natural resources and demonstrate a clear connection to nature-based tourism or outdoor recreation in natural settings. Submissions may comprise fundamental or applied research but should offering insights into the relevance of the work for managers, planners, and policymakers. Therefore, each article is accompanied by an executive summary, written by the editors or authors, highlighting the aspects of the article most relevant to outdoor recreation and nature-based tourism planning and management.</p><p>JORT is international in scope and attracts scholars from all reaches of the world to facilitate the exchange of ideas. As such, the journal enhances the understanding and applied aspects of scientific knowledge, empirical results, and practitioners&#39; needs. </p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Ashley D’Antonio | Karolina Taczanowska",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "HOSPITALITY, LEISURE, SPORT & TOURISM",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Management Science",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3620,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 15,
+        "title": "Climate Risk Management",
+        "acronym": "CRM",
+        "emAcronym": "CLRM",
+        "issn": "2212-0963",
+        "subjectAreas": [
+          "Oceanography",
+          "Global and Planetary Change",
+          "Management, Monitoring, Policy and Law",
+          "Environmental Science (General)",
+          "Geography, Planning and Development",
+          "Atmospheric Science"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Perspective article",
+          "VSI: Adaptation Progress in AU",
+          "VSI: Adaptation progress/gaps",
+          "VSI: Cultural Heritage"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22120963.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLRM",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/climate-risk-management/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 10.4
+          },
+          "impactFactor": {
+            "value": 5.5
+          },
+          "acceptanceRate": {
+            "value": 9
+          },
+          "timeToFirstDecision": {
+            "value": 4
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p><i>Climate Risk Management</i> publishes original scientific contributions, state-of-the-art reviews and reports of practical experience on the use of knowledge and information regarding the consequences of climate variability and climate change in decision and policy making on climate change responses from the near- to long-term.</p><p>The concept of climate risk management refers to activities and methods that are used by individuals, organizations, and institutions to facilitate climate-resilient decision-making. Its objective is to promote sustainable development by maximizing the beneficial impacts of climate change responses and minimizing negative impacts across the full spectrum of geographies and sectors that are potentially affected by the changing climate.</p><p>Therefore, the scope of <i>Climate Risk Management</i> covers:</p><ul><li><p>Observed relationships between climate conditions and consequences in human and/or natural systems across multiple space and time scales;</p></li><li><p>Risk assessment and risk management approaches for climate-sensitive sectors such as agriculture, forestry and fire management, health, mining, natural resources management, water management, the built environment, and tourism;</p></li><li><p>Analysis of relevant institutional developments and arrangements relevant to adaptation; and</p></li><li><p>Exploration of connections between climate risk management, disaster risk management, and sustainable development.</p></li></ul><p>Topics of interest include, but are not limited to:</p><ul><li><p>The application of seasonal forecasting and regional climate change projections in the assessment of climate change vulnerability and risk;</p></li><li><p>Capacity building;</p></li><li><p>Infrastructure design;</p></li><li><p>Management and systematic reduction of climate-induced hazards and disasters;</p></li><li><p>Protection of lives, livelihoods and property;</p></li><li><p>Mitigation of environmental damage;</p></li><li><p>Sustainable resource use and production;</p></li><li><p>Impacts, vulnerability and adaptation at individual, community and institutional levels;</p></li><li><p>Regulatory risks associated with climate change;</p></li><li><p>Climate-sensitive interactions between economic, environmental and social systems; and</p></li><li><p>Monitoring and evaluation of climate risk management.</p></li></ul><p>Research papers should consider the practical application of the thesis advanced through case studies, experiments, or systematic comparisons with existing approaches. Special issues devoted to topics of particular interest will be published on an occasional basis, and proposals for such issues are invited. Submission of multi- and interdisciplinary studies, particularly those involving economics and the social sciences, is encouraged.</p><p>Intending authors should also note that there is a complementary journal: <a href=\"https://www.journals.elsevier.com/climate-services/\"><i>Climate Services</i></a> . <i>Climate Services</i> focuses solely on the use and usability of climate information for adaptation. It bridges the gap between information from climate change research and stakeholder action, and directly refers to how climate information can be applied in methodologies and tools for adaptation to climate change.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Dr. Katharine Mach | Dr. Meg Parsons",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 2
+            },
+            {
+              "name": "METEOROLOGY & ATMOSPHERIC SCIENCES",
+              "tier": 2
+            },
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3480,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 16,
+        "title": "Cities: Global Perspectives",
+        "acronym": "CGLOP",
+        "emAcronym": "CGLOP",
+        "issn": "3118-2623",
+        "subjectAreas": [
+          "Tourism, Leisure and Hospitality Management",
+          "Geography, Planning and Development",
+          "Sociology and Political Science",
+          "Development",
+          "Transportation"
+        ],
+        "articleTypes": [
+          "Research Article",
+          "Review Article",
+          "Short Communication",
+          "Case Report"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/31182623.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/cglop/Default.aspx",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p> <i>Cities: Global Perspectives</i> is a broad-scope, interdisciplinary, journal dedicated to the understanding, planning, design, management, and governance of urban and peri-urban environments worldwide. It publishes methodologically sound, evidence-based research spanning the full breadth of urban studies scholarship, welcoming contributions from any relevant discipline or using any robust methodology that make a genuine and lasting contribution to knowledge and to the practice of building better cities.</p><p><i>Cities: Global Perspectives</i> is interdisciplinary and transdisciplinary by design. It brings together perspectives from the wide spectrum of urban scholarship, including but not limited to, urban geography, urban planning and design, urban policy and governance, urban sociology and economics, land use and property, housing and human settlements, landscape architecture and ecology, transport and mobility, geospatial science and computation, environmental and sustainability science, and urban management. The journal welcomes submissions that draw on any combination of these fields. Contributions may focus on cities and urban regions in the developed or developing world, and comparative, cross-national, and global-perspective studies are especially encouraged. <i>Cities: Global Perspectives</i> provides a platform for the full diversity of research being conducted on cities worldwide, including confirmatory studies and in-depth regional and local case studies that expand the global evidence base on urban issues.</p><p>Submissions are evaluated on the soundness of their research question, study design, methodology, data, analysis, and the validity of the conclusions drawn, applied through a rigorous and constructive peer review process. </p>",
+        "openAccessType": "FULL",
+        "hasAgreements": false
+      },
+      {
+        "ranking": 17,
+        "title": "Scandinavian Journal of Management",
+        "acronym": "SCAMAN",
+        "emAcronym": "SJM",
+        "issn": "0956-5221",
+        "subjectAreas": [
+          "Strategy and Management",
+          "Applied Psychology"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Short Communication",
+          "Perspective Article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09565221.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/SJM",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/scandinavian-journal-of-management/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 4.4
+          },
+          "impactFactor": {
+            "value": 2.3
+          },
+          "timeToFirstDecision": {
+            "value": 10
+          },
+          "timeToAcceptance": {
+            "value": 12
+          }
+        },
+        "scope": "<p>The <i>Scandinavian Journal of Management</i> (SJM) provides an international forum for multifaceted aspects of management, and we specifically encourage authors to challenge existing knowledge.</p><p>We publish original empirical, theoretical and methodological material that contributes to enhance the understanding of management in any type of organization (e.g., small, large, private, public, non-profit, for-profit, entrepreneurial, craft or arts based, community based). We welcome non-mainstream research approaches in terms of methodology, epistemology and ontology and we also consider various fields of management application, but narrow technical discussions relevant only to specific sub-fields will not enter the peer review process. However, we remain open to classical approaches in the field of management, but it is the task of proponents of such approaches to prove their worth.</p><p>With this backdrop, we seek to promote dialogue rooted in openness, reasoned reflexivity and contextual awareness, and this is reflected in our fostering of constructive – critical yet respectful – conversations among researchers, as well as between authors and reviewers. </p><p>SJM was founded in 1984, and it has since then become a journal where scholars from all over the world publish their work. Well beyond referring to a particular place or geography, <i>Scandinavian</i> reflects a state of mind, expressed through the following principles:</p><p>1. <i>Openness</i>: Original research driven by curiosity over mundane organizational life predominate, and we invite inquiries that are challenging. Openness is also manifest in the broad thematic profile of the journal, relating to interdisciplinary approaches and novel ways of investigating and conceptualizing management-related phenomena.</p><p>2. <i>Reasoned reflexivity</i>: Openness needs to be rooted in serious and compelling consideration of the epistemological and ontological foundations of the research endeavor, and the methodological underpinnings of inquiry. We ask authors to address and reflect on the role, positioning, and impact of the researcher/s in researching and theorizing.</p><p>3. <i>Contextual awareness</i>: The reach and impact of modern management ideologies, ideas and practices is widespread, and can only be understood as entwined with society and nature; management is thus embedded <i>in</i> society, <i>in</i> nature. As such, SJM takes as one of its key tasks to contribute with knowledge about how management can be impactful <i>for</i> society and <i>for</i> nature, including the need for decentering management while foregrounding greater contextual sensitivity and humbleness.</p><p>On behalf of our Editorial Team, we would like to invite you to consider the <i>Scandinavian Journal of Management </i>as a potential outlet for your work, a relevant journal for which to review, or simply where to find and enjoy a good read!</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Elias | Jensen",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "MANAGEMENT",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "Management Science",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3190,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 18,
+        "title": "Transportation Research Part D: Transport and Environment",
+        "acronym": "TRD",
+        "emAcronym": "TRD",
+        "issn": "1361-9209",
+        "subjectAreas": [
+          "Geography, Planning and Development",
+          "Environmental Science (General)",
+          "Transportation"
+        ],
+        "articleTypes": [
+          "Papers on Disasters & Resilience",
+          "Research Paper",
+          "Short Communication",
+          "VSI: AI-Driven Resilience -TRD",
+          "VSI: Electric HDV",
+          "VSI: Integrated maritime",
+          "VSI: Multimodal Transport",
+          "VSI: Sustainable AV Infra",
+          "VSI: UAM City Sustainability"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/13619209.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/TRD",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 13.6
+          },
+          "impactFactor": {
+            "value": 8.7
+          },
+          "timeToFirstDecision": {
+            "value": 1
+          },
+          "timeToAcceptance": {
+            "value": 11
+          }
+        },
+        "scope": "<p><i>Transportation Research Part D</i>: Transport and Environment publishes original research on the environmental impacts of transportation, policy responses to those impacts, and their implications for the design, planning, and management of transportation systems. It covers broad aspects of the interaction between <b>transportation</b> and the <b>environment</b>, ranging from the environmental effects of a local transportation system to global implications of natural resource depletion and atmospheric pollution.</p><p>The journal invites submissions of research papers that analyze broad environmental impacts from all existing and emerging modes of both passenger and freight transportation. Papers dealing with transportation infrastructure and the environment are also considered. The emphasis of the journal is on original scientific findings and innovative policy responses of a regulatory, planning, technical or fiscal nature. Articles should demonstrate generalizable policy and methodological relevance to research and practice. Submissions of an interdisciplinary nature are encouraged and should appeal to readers from a wide range of disciplines. </p><p>TRD includes a section focusing on <b>Disasters</b> and <b>Resilience</b> with its own dedicated Section Editors. Transportation plays a critical role in the resilience of communities. Disasters are unexpected, low probability events which can overwhelm the capacity of systems to function and provide vital services supporting human health, environmental quality, and economic and social livelihoods. Transportation systems are essential to effective disaster response, relief, recovery, and mitigation. This section of TRD encourages transportation researchers from multiple disciplines to address the critical ways in which transportation science and the supporting theories, methods, and tools can be applied to increase societal resilience against all hazards, both natural and man-made.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Ying-En (Ethan) Ge | Jane Lin",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "TRANSPORTATION",
+              "tier": 1
+            },
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 2
+            },
+            {
+              "name": "TRANSPORTATION SCIENCE & TECHNOLOGY",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Engineering",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3600,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 19,
+        "title": "Urban Forestry & Urban Greening",
+        "acronym": "UFUG",
+        "emAcronym": "UFUG",
+        "issn": "1618-8667",
+        "subjectAreas": [
+          "Horticulture",
+          "Management, Monitoring, Policy and Law",
+          "Nature and Landscape Conservation",
+          "Forestry",
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article ( On invitation only)",
+          "Short Communication",
+          "VSI: Climate Extremes: Research Paper",
+          "VSI: WGIC26 Congress: Research Paper",
+          "VSI:Cemeteries as models ( Research Paper)",
+          "VSI:Evidence-to-Practice NbS: Research Paper",
+          "VSI:Greenness and city liveliness: Research Paper",
+          "VSI: Climate Extremes: Review",
+          "VSI: WGIC26 Congress: Review",
+          "VSI:Cemeteries as models: Review",
+          "VSI:Evidence-to-Practice NbS: Review",
+          "VSI:Greenness and city liveliness: Review",
+          "VSI: Climate Extremes: Short communication",
+          "VSI: WGIC26 Congress: Short communication",
+          "VSI:Cemeteries as models: Short Communication",
+          "VSI:Evidence-to-Practice NbS: Short communication",
+          "VSI:Greenness and city liveliness: Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/16188667.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/UFUG",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 11.3
+          },
+          "impactFactor": {
+            "value": 8.2
+          },
+          "acceptanceRate": {
+            "value": 16
+          },
+          "timeToFirstDecision": {
+            "value": 1
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p><i>Urban Forestry and Urban Greening</i> is a refereed, international journal aimed at presenting high-quality research with <b>urban</b> and <b>peri-urban woody</b> and <b>non-woody vegetation</b> and its use, <b>planning, design, establishment</b> and <b>management</b> as its main topics. Urban Forestry and Urban Greening concentrates on all tree-dominated (as joint together in urban forests) as well as <b>other green resources</b> in and around <b>urban areas</b>, such as <b>woodlands, public and private urban parks and gardens, urban nature areas, street tree</b> and <b>square plantations, botanical gardens</b> and <b>cemeteries</b>, <b>building envelop greening</b>, etc.</p><p>The journal welcomes basic and applied research papers, as well as review papers and short communications. Contributions should focus on one or more of the following aspects:</p><ul><li><p>Form, functions, and ecosystem services of urban forests and other vegetation, including aspects of urban environmental science and urban ecology.</p></li><li><p>Policy-making, planning and design related to urban forests and other vegetation.</p></li><li><p>Selection and establishment of tree resources and other vegetation for urban environments.</p></li><li><p>Management of urban forests and other vegetation.</p></li><li><p>The ecosystem services urban vegetation provides.</p></li></ul><p>Original contributions of a high academic standard are invited from a wide range of disciplines and fields, including forestry, biology, horticulture, arboriculture, landscape ecology, pathology, soil science, hydrology, landscape architecture, landscape planning, urban planning and design, environmental/ecological economics, environmental sociology, environmental psychology, public health, and education.</p><p>Special attention will be given to interdisciplinary research as developed under the approaches of, for example, <b>urban forestry, arboriculture, urban greening, urban ecology, urban health, urban agriculture, urban horticulture, urban silviculture</b>, and <b>community forestry</b>.</p><p>For <b>field research </b>or descriptive studies, a robust dataset made of multiple dates of measurement conducted over different growing seasons is required for publication. For<b> research conducted under controlled conditions</b> or research conducted using a mechanistic approach, multiple sampling dates are still required, although monitoring can be conducted over shorter time periods.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Wendy Chen",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 2
+            },
+            {
+              "name": "URBAN STUDIES",
+              "tier": 1
+            },
+            {
+              "name": "FORESTRY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3560,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 20,
+        "title": "International Journal of Critical Infrastructure Protection",
+        "acronym": "IJCIP",
+        "emAcronym": "IJCIP",
+        "issn": "1874-5482",
+        "subjectAreas": [
+          "Civil and Structural Engineering",
+          "Computer Science Applications",
+          "Hardware and Architecture",
+          "Sociology and Political Science",
+          "Computer Networks and Communications",
+          "Safety, Risk, Reliability and Quality",
+          "Electrical and Electronic Engineering",
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Full length article",
+          "Review article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/18745482.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/IJCIP",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/international-journal-of-critical-infrastructure-protection/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 11.9
+          },
+          "impactFactor": {
+            "value": 4.6
+          },
+          "timeToFirstDecision": {
+            "value": 5
+          },
+          "timeToAcceptance": {
+            "value": 4
+          }
+        },
+        "scope": "<p>The <i>International Journal of Critical Infrastructure Protection (IJCIP)</i> was launched in 2008, with the primary aim of publishing scholarly papers of the highest quality in all areas of <b>critical infrastructure protection</b>. Of particular interest are articles that weave science, technology, law and policy to craft sophisticated yet practical solutions for securing assets in the various critical infrastructure sectors. These critical infrastructure sectors include: information technology, telecommunications, energy, banking and finance, transportation systems, chemicals, critical manufacturing, agriculture and food, defense industrial base, public health and health care, national monuments and icons, drinking water and water treatment systems, commercial facilities, dams, emergency services, nuclear reactors, materials and waste, postal and shipping, and government facilities. Protecting and ensuring the continuity of operation of critical infrastructure assets are vital to national security, public health and safety, economic vitality, and societal wellbeing.</p><p>The scope of the journal includes, but is not limited to:</p><p>1. Analysis of <b>security challenges</b> that are unique or common to the various infrastructure sectors. <br/> 2. Identification of core <b>security principles</b> and <b>techniques</b> that can be applied to critical infrastructure protection. <br/> 3. Elucidation of the dependencies and interdependencies existing between infrastructure sectors and techniques for mitigating the devastating effects of cascading failures. <br/> 4. Creation of sophisticated, yet practical, solutions, for critical infrastructure protection that involve mathematical, scientific and engineering techniques, economic and social science methods, and/or legal and public policy constructs.</p><p>A unique aspect of the journal is the publication of opinion pieces from leading international scholars and high-ranking government officials that tackle controversial issues related to critical infrastructure protection that are of global significance.</p><p>The <i>International Journal of Critical Infrastructure Protection</i> is the official journal of <a href=\"http://www.ifip.org/\">International Federation for Information Processing (IFIP)</a> Working Group 11.10 on Critical Infrastructure Protection.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Roberto Setola",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENGINEERING, MULTIDISCIPLINARY",
+              "tier": 2
+            },
+            {
+              "name": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Computer Science",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3110,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 21,
+        "title": "Multimodal Transportation",
+        "acronym": "MULTRA",
+        "emAcronym": "MULTRA",
+        "issn": "2772-5863",
+        "subjectAreas": [
+          "Transportation",
+          "Geography, Planning and Development",
+          "Decision Sciences (General)"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "VSI: 2026 CICTP -Original Research",
+          "VSI: Innov. & Transl. in MT -  Original Research",
+          "VSI: Integrated Design & Opt - FLA",
+          "VSI: Transport APTE 2026- FLA",
+          "VSI: 2026 CICTP -Review",
+          "VSI: Innov. & Transl. in MT - Review",
+          "VSI: Integrated Design & Opt - REV",
+          "VSI: Transport APTE 2026 - REV"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27725863.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/MULTRA",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/multimodal-transportation/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 10.9
+          },
+          "impactFactor": {
+            "value": 5.1
+          },
+          "timeToFirstDecision": {
+            "value": 3
+          },
+          "timeToAcceptance": {
+            "value": 75
+          }
+        },
+        "scope": "<p><b>The APC for papers published from 2022 to 2025 will be fully covered by Southeast University. For 2026, a limited number of papers will also be covered. Please contact the editor via </b><a href=\"mailto:multra@163.com\"><b>multra@163.com</b></a><b> to get the waiver or discount.</b></p><p><i>MULTRA</i> provides a forum for high-quality, cutting-edge research in transportation science and technology. <i>MULTRA</i> covers all modes - road, rail, air, maritime - and the integration of multimodal transport. Papers concerning multimodal integration or emerging transportation technologies are particularly welcome, as is work focusing on Intelligent Transportation Systems, Smart Transportation, or Big Data, as applied to transport planning, network modeling or traffic safety. <i>MULTRA</i> is an interdisciplinary journal and embraces work from a wide range of disciplines, including, but not limited to, transportation, logistics, economics, operations research, and urban planning.</p><p><i>MULTRA</i> publishes papers in two categories:</p><ul><li><p>Theory and Methodology: Papers in this category employ mathematical modeling, optimization theory, etc., to develop new concepts and technologies, rather than the refinement of established theories.</p></li><li><p>Empirical Research: Papers in this category can either employ quantitative techniques from statistics, AI, machine learning etc., or qualitative research methods such as one-on-one interviews, focus groups, case study research etc., to obtain new insights into specific aspects of transportation science.</p></li></ul><p>Regardless of the category, <i>MULTRA</i> papers are expected to clearly articulate their expected impact on the practice of transportation science.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Qiang Meng | Pan Liu",
+        "goldOpenAccessFee": {
+          "value": 1800,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 22,
+        "title": "Biochemical Systematics and Ecology",
+        "acronym": "BSE",
+        "emAcronym": "BSE",
+        "issn": "0305-1978",
+        "subjectAreas": [
+          "Biochemistry",
+          "Ecology, Evolution, Behavior and Systematics",
+          "Organic Chemistry"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review Article",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03051978.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/BSE",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/biochemical-systematics-and-ecology/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 3.8
+          },
+          "impactFactor": {
+            "value": 2.2
+          },
+          "acceptanceRate": {
+            "value": 28
+          },
+          "timeToFirstDecision": {
+            "value": 6
+          },
+          "timeToAcceptance": {
+            "value": 6
+          }
+        },
+        "scope": "<p><i>Biochemical Systematics and Ecology</i> is devoted to the publication of original papers and reviews, both submitted and invited, in two subject areas: I) the application of <b>biochemistry</b> to problems relating to <b>systematic biology</b> of organisms (<b>biochemical systematics</b>); II) the role of biochemistry in interactions between organisms or between an organism and its environment (<b>biochemical ecology</b>).</p><p>In the Biochemical Systematics subject area, comparative studies of the distribution of (secondary) metabolites within a wider taxon (e.g., genus or family) are welcome. Comparative studies, encompassing multiple accessions of each of the taxa within their distribution are particularly encouraged. Welcome are also studies combining classical chemophenetic studies (such as comparative HPLC-MS or GC-MS investigations) with (macro-) molecular phylogenetic studies. Studies that involve the comparative use of compounds to help differentiate among species such as adulterants or substitutes that illustrate the applied use of chemophenetics are welcome. In contrast, studies solely employing macromolecular phylogenetic techniques (gene sequences, RAPD studies etc.) will be considered out of scope. Discouraged are manuscripts that report known or new compounds from a single source taxon without addressing a systematic hypothesis. Also considered out of scope are studies using outdated and hard to reproduce macromolecular techniques such as RAPDs in combination with standard chemophenetic techniques such as GC-FID and GC-MS.</p><p>In the Biochemical Ecology subject area, studies addressing the role compounds play in the ecology of the organisms producing them are invited. Moreover, manuscripts that address hypothesis associated with the influence of factors such as altitude, geography, and seasonal variation on the expression of primary and secondary metabolites are encouraged. Research papers should generally represent a complete investigation and not preliminary data. Preliminary reports will only be considered where findings are of sufficient interest to justify rapid publication. New Source Reports will only be considered in cases where a significant chemophenetic or ecological finding is reported. New Source Reports have to be written in a standard format <a href=\"https://www.elsevier.com/__data/promis_misc/examplebse.pdf\">(Example)</a>.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Severina Pacifico | Christian Zidorn",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ECOLOGY",
+              "tier": 4
+            },
+            {
+              "name": "EVOLUTIONARY BIOLOGY",
+              "tier": 4
+            },
+            {
+              "name": "BIOCHEMISTRY & MOLECULAR BIOLOGY",
+              "tier": 4
+            }
+          ],
+          "majorRanking": {
+            "name": "Biology",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3920,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      }
+    ],
+    "filterHistograms": {
+      "impactFactor": [
+        0,
+        1,
+        3,
+        0,
+        5,
+        3,
+        1,
+        2,
+        3,
+        0,
+        2
+      ],
+      "citeScore": [
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        10
+      ],
+      "publicationTime": [
+        0,
+        3,
+        3,
+        1,
+        0,
+        2,
+        3,
+        0,
+        1,
+        2,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "timeToFirstDecision": [
+        2,
+        3,
+        4,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "totalResults": 22,
+    "institute": {
+      "name": null,
+      "hasAgreements": false
+    }
+  }
+}

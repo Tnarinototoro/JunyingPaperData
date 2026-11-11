@@ -1,0 +1,814 @@
+{
+  "dbf": {
+    "file": "parks_metric.dbf",
+    "record_count": 39,
+    "fields": [
+      {
+        "name": "Name",
+        "type": "C",
+        "width": 254,
+        "decimal_places": 0
+      },
+      {
+        "name": "descriptio",
+        "type": "C",
+        "width": 254,
+        "decimal_places": 0
+      },
+      {
+        "name": "timestamp",
+        "type": "C",
+        "width": 24,
+        "decimal_places": 0
+      },
+      {
+        "name": "begin",
+        "type": "C",
+        "width": 24,
+        "decimal_places": 0
+      },
+      {
+        "name": "end",
+        "type": "C",
+        "width": 24,
+        "decimal_places": 0
+      },
+      {
+        "name": "altitudeMo",
+        "type": "C",
+        "width": 254,
+        "decimal_places": 0
+      },
+      {
+        "name": "tessellate",
+        "type": "N",
+        "width": 10,
+        "decimal_places": 0
+      },
+      {
+        "name": "extrude",
+        "type": "N",
+        "width": 10,
+        "decimal_places": 0
+      },
+      {
+        "name": "visibility",
+        "type": "N",
+        "width": 10,
+        "decimal_places": 0
+      },
+      {
+        "name": "drawOrder",
+        "type": "N",
+        "width": 10,
+        "decimal_places": 0
+      },
+      {
+        "name": "icon",
+        "type": "C",
+        "width": 254,
+        "decimal_places": 0
+      }
+    ],
+    "identifier_fields": [],
+    "nonidentifying_value_profiles": [
+      {
+        "field": "Name",
+        "nonblank_records": 39,
+        "integer_only_records": 0,
+        "unique_integer_only_values": [],
+        "labelled_embedded_identifier_records": []
+      },
+      {
+        "field": "descriptio",
+        "nonblank_records": 0,
+        "integer_only_records": 0,
+        "unique_integer_only_values": [],
+        "labelled_embedded_identifier_records": []
+      },
+      {
+        "field": "timestamp",
+        "nonblank_records": 0,
+        "integer_only_records": 0,
+        "unique_integer_only_values": [],
+        "labelled_embedded_identifier_records": []
+      },
+      {
+        "field": "begin",
+        "nonblank_records": 0,
+        "integer_only_records": 0,
+        "unique_integer_only_values": [],
+        "labelled_embedded_identifier_records": []
+      },
+      {
+        "field": "end",
+        "nonblank_records": 0,
+        "integer_only_records": 0,
+        "unique_integer_only_values": [],
+        "labelled_embedded_identifier_records": []
+      },
+      {
+        "field": "altitudeMo",
+        "nonblank_records": 0,
+        "integer_only_records": 0,
+        "unique_integer_only_values": [],
+        "labelled_embedded_identifier_records": []
+      },
+      {
+        "field": "tessellate",
+        "nonblank_records": 39,
+        "integer_only_records": 39,
+        "unique_integer_only_values": [
+          -1
+        ],
+        "labelled_embedded_identifier_records": []
+      },
+      {
+        "field": "extrude",
+        "nonblank_records": 39,
+        "integer_only_records": 39,
+        "unique_integer_only_values": [
+          0
+        ],
+        "labelled_embedded_identifier_records": []
+      },
+      {
+        "field": "visibility",
+        "nonblank_records": 39,
+        "integer_only_records": 39,
+        "unique_integer_only_values": [
+          -1
+        ],
+        "labelled_embedded_identifier_records": []
+      },
+      {
+        "field": "drawOrder",
+        "nonblank_records": 39,
+        "integer_only_records": 0,
+        "unique_integer_only_values": [],
+        "labelled_embedded_identifier_records": []
+      },
+      {
+        "field": "icon",
+        "nonblank_records": 0,
+        "integer_only_records": 0,
+        "unique_integer_only_values": [],
+        "labelled_embedded_identifier_records": []
+      }
+    ]
+  },
+  "workbook": {
+    "file": "39个公园地址.xlsx",
+    "worksheet_count": 1,
+    "worksheets": [
+      {
+        "sheet_index": 1,
+        "safe_generic_sheet_name": null,
+        "sheet_state": "visible",
+        "xml_part": "xl/worksheets/sheet1.xml",
+        "dimension": "A1:L66",
+        "populated_row_count": 66,
+        "safe_header_rows": [
+          {
+            "row": 1,
+            "columns": [
+              {
+                "column": "A",
+                "header": "NO"
+              }
+            ]
+          },
+          {
+            "row": 2,
+            "columns": []
+          },
+          {
+            "row": 3,
+            "columns": []
+          },
+          {
+            "row": 4,
+            "columns": []
+          },
+          {
+            "row": 5,
+            "columns": []
+          }
+        ],
+        "first_row_column_headers": [
+          {
+            "column": "A",
+            "header": "NO"
+          },
+          {
+            "column": "B",
+            "header": "Name"
+          },
+          {
+            "column": "C",
+            "header": "Address"
+          },
+          {
+            "column": "D",
+            "header": ""
+          },
+          {
+            "column": "E",
+            "header": ""
+          },
+          {
+            "column": "F",
+            "header": ""
+          },
+          {
+            "column": "G",
+            "header": ""
+          },
+          {
+            "column": "H",
+            "header": ""
+          },
+          {
+            "column": "I",
+            "header": ""
+          },
+          {
+            "column": "J",
+            "header": ""
+          },
+          {
+            "column": "K",
+            "header": ""
+          }
+        ],
+        "all_identifier_labels": [
+          {
+            "row": 1,
+            "column": "A",
+            "identifier_label": "NO"
+          }
+        ],
+        "integer_only_data_columns": [
+          {
+            "column": "A",
+            "integer_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64
+            ],
+            "worksheet_rows": [
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66
+            ]
+          }
+        ],
+        "nonblank_data_cell_count_by_column": {
+          "A": 64,
+          "B": 39,
+          "C": 39,
+          "D": 0,
+          "E": 0,
+          "F": 0,
+          "G": 0,
+          "H": 0,
+          "I": 0,
+          "J": 0,
+          "K": 0,
+          "L": 0
+        },
+        "column_visibility_metadata": [
+          {
+            "min": "1",
+            "max": "1",
+            "hidden": "0"
+          },
+          {
+            "min": "2",
+            "max": "2",
+            "hidden": "0"
+          },
+          {
+            "min": "3",
+            "max": "3",
+            "hidden": "0"
+          },
+          {
+            "min": "4",
+            "max": "4",
+            "hidden": "0"
+          },
+          {
+            "min": "5",
+            "max": "5",
+            "hidden": "0"
+          },
+          {
+            "min": "6",
+            "max": "8",
+            "hidden": "0"
+          },
+          {
+            "min": "9",
+            "max": "9",
+            "hidden": "0"
+          },
+          {
+            "min": "10",
+            "max": "10",
+            "hidden": "0"
+          },
+          {
+            "min": "11",
+            "max": "11",
+            "hidden": "0"
+          },
+          {
+            "min": "12",
+            "max": "16384",
+            "hidden": "0"
+          }
+        ],
+        "identifier_headers": [
+          {
+            "column": "A",
+            "header_row": 1,
+            "header": "NO",
+            "integer_values_in_sheet_order": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64
+            ],
+            "matches_1_to_39": false,
+            "all_integers": true
+          }
+        ],
+        "formula_count": 0,
+        "cross_sheet_formula_count": 0
+      }
+    ],
+    "defined_name_count": 0,
+    "external_link_part_count": 0,
+    "privacy": "Only identifier/header metadata and integer ID sequences emitted; no park names, addresses or coordinate values."
+  },
+  "gis_to_excel_name_match_numeric_only": [
+    {
+      "gis_record": 1,
+      "matching_excel_NO": [
+        1
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 2,
+      "matching_excel_NO": [
+        2
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 3,
+      "matching_excel_NO": [
+        3
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 4,
+      "matching_excel_NO": [
+        4
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 5,
+      "matching_excel_NO": [
+        5
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 6,
+      "matching_excel_NO": [
+        6
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 7,
+      "matching_excel_NO": [
+        7
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 8,
+      "matching_excel_NO": [
+        8
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 9,
+      "matching_excel_NO": [
+        9
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 10,
+      "matching_excel_NO": [
+        10
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 11,
+      "matching_excel_NO": [
+        11
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 12,
+      "matching_excel_NO": [
+        12
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 13,
+      "matching_excel_NO": [
+        13
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 14,
+      "matching_excel_NO": [
+        14
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 15,
+      "matching_excel_NO": [
+        15
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 16,
+      "matching_excel_NO": [
+        16
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 17,
+      "matching_excel_NO": [
+        17
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 18,
+      "matching_excel_NO": [
+        18
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 19,
+      "matching_excel_NO": [
+        19
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 20,
+      "matching_excel_NO": [
+        20
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 21,
+      "matching_excel_NO": [
+        21
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 22,
+      "matching_excel_NO": [
+        22
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 23,
+      "matching_excel_NO": [
+        23
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 24,
+      "matching_excel_NO": [
+        24
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 25,
+      "matching_excel_NO": [
+        25
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 26,
+      "matching_excel_NO": [
+        26
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 27,
+      "matching_excel_NO": [
+        27
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 28,
+      "matching_excel_NO": [
+        28
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 29,
+      "matching_excel_NO": [
+        29
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 30,
+      "matching_excel_NO": [
+        30
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 31,
+      "matching_excel_NO": [
+        31
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 32,
+      "matching_excel_NO": [
+        32
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 33,
+      "matching_excel_NO": [
+        33
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 34,
+      "matching_excel_NO": [
+        34
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 35,
+      "matching_excel_NO": [
+        35
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 36,
+      "matching_excel_NO": [
+        36
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 37,
+      "matching_excel_NO": [
+        37
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 38,
+      "matching_excel_NO": [
+        38
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    },
+    {
+      "gis_record": 39,
+      "matching_excel_NO": [
+        39
+      ],
+      "method": "Exact private Name equality after Unicode/whitespace normalization; no name value emitted."
+    }
+  ],
+  "source_files_modified": false,
+  "caution": "GIS record/Excel NO agreement does not prove equivalence to anonymous SEM ParkID or old S1 numbering."
+}

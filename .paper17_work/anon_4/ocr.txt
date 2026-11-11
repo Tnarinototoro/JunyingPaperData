@@ -1,0 +1,53 @@
+@@ PAGE 1 / 21 @@
+lnternational Journal of
+E 罗 me ／ Research
+and 尹 “ 况 Health
+Review
+MDPI
+Within What Distance Does "Greenness" Best Predict
+Physical Health? A Systematic Review of Articles
+with GIS Buffer Analyses across the Lifespan
+0
+2 0
+Matthew Browning 1 ' 2 “
+and KangJae Lee
+1
+2
+Department of Recreation, Sport and Tourism, University of lllmois at Urbana-Champaign,
+Champaign, IL 61820 / USA
+lllinois lnformatics lnstitute, University of lllinois at Urbana-Champaign, Champaign, IL 61802 ／ USA;
+kleel 71@illinois.edu
+Correspondence ： brownin@illinois.edu/ Tel.: + 1 一 217 一 300 一 3496
+Academic Editor. Paul B. Tchounwou
+Received ： 31 May 201 乙 Accepted ： 21 June 201 乙 Published: 23 June 2017
+Ab stract: ls the amount 0f "greenness " within a 250 一 m ／ 500 一 m / 1000 一 m or a 2000 一 m buffer surrounding
+a person's home a good predictor Of their physical health? The evidence is lnconclusive. We reviewed
+Web of Science articles that used geographic information system buffer analyses to identify trends
+between physical health, greenness, and distance within which greenness is measured. Our inclusion
+criteria were: （ 1 ） use Of buffers tO estimate residential greenness; （ 2 ） statistical analyses that calculated
+significance of the greenness-physical health relationship; and （ 3 ） peer-reviewed articles published in
+English b etween 2007 and 2017 ． To capture multiple findings from a single article, we selected our
+unit of inquiry as the analysis, not the article ． Our final sample included 260 analyses in 47 articles.
+AII aspects of the review were in accordance with PRISMA guidelines. Analyses were independently
+judged as more, less, or least likely to be biased b ased on the inclusion of objective health measures
+and income / education controls ． 、 We found evidence that larger buffer sizes, up to 2000 m, better
+predicted physical health than smaller ones ． We recommend that future analyses use nested rather
+than overlapping buffers tO evaluate tO what extent greenness IIOt immediately around a person's
+home (i.e., within 1000 一 2000 m) predicts physical health.
+Keyword s ： systematic review; greenness; Geographic lnformation System (GIS); physical health;
+buffers; green space; park; health outcomes; Normalized Difference Vegetation lndex (NDVI)
+1 · lntroduction
+As a result Of rapid urbanization, a growing disconnect from nature, and rising rates Of disease
+and illness, many group s are increasingly interested in the effects of greenspaces on physical health.
+Greensp aces provide daily opportunities for physical exercise and stress relief [ 1 ] ． The distance
+within which greenspaces provide these opportunities t0 any meaningful degree, however, is not well
+understood. ls there a stronger correlation between health and greenspaces within 250 m of someone' s
+home, than those within 1000 m Of someone's home? The empirical evidence needed tO answer such
+questions is lacking.
+Our current understanding Of the distance within which greenness matters is based largely
+on expert opinion. ln the United States, some practitioners suggest that having greenspace within
+a five-minute walk (approximately 0 ， 2 miles or 0 ． 32 (m) is most important for physical health, while
+others assert that a 0 ． 50 一 or 0 ． 75-miIe （ 0 ． 80 or 1 ． 20 (m) range is more accurate [ 2 ] ． A better understanding
+of the maximum distance t0 consider when analyzing greenspace would help urban planners and
+lnt. / ． E 月 ro Res. Public Health 2017 / 74 / 675 ； doi: 10 ． 3390 / ijerPh14070675
+www.mdpi.com/journal/ijerph

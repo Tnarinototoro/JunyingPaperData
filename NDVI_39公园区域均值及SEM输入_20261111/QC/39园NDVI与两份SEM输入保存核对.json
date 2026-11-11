@@ -1,0 +1,93 @@
+{
+  "source_rule": "NEW single-source rule applied identically to all 39 parks: among full-rectangle-coverage candidates with positive valid pixel counts in both zones and no out-of-range values, choose the greatest minimum net distance from the transformed full-buffer bounding box to the source TIFF rectangle's four sides; distances use each source's native UTM metres.",
+  "historical_source_restoration_claimed": false,
+  "ParkID_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "cases": 39,
+  "NDVI_region_means_are_actual_pixel_means": true,
+  "other_park_mean_or_median_imputation": false,
+  "inside_standardization": {
+    "n": 39,
+    "mean": 0.24609077536414978,
+    "sample_sd": 0.10023494331402998,
+    "sample_variance_divisor": 38,
+    "minimum": -0.006638381713626562,
+    "maximum": 0.40475685628942953
+  },
+  "outside_standardization": {
+    "n": 39,
+    "mean": 0.18142637081701546,
+    "sample_sd": 0.0902502242138061,
+    "sample_variance_divisor": 38,
+    "minimum": -0.0016292507939327221,
+    "maximum": 0.3893658426134666
+  },
+  "all_78_Z_values_recalculated": true,
+  "ParkID_and_other_14_columns_preserved_exactly": true,
+  "SAV_variable_dictionary_preserved": true,
+  "xlsx_only_78_Q4_R42_numeric_values_changed": true,
+  "SAV_and_XLSX_saved_then_read_back_identical": true,
+  "root_originals_updated_with_backups": [
+    {
+      "root_file": "最终用于sem的匿名39✖16输入矩阵.sav",
+      "original_sha256": "54cca5a9e38faf59635ebcd9d645d7d77083ac30c7f2d8f46751d809c47d2737",
+      "updated_sha256": "f3fe62f7b3520947204fc4ebc918421f27aae04e4286401c46ede6d8036ec8cd",
+      "backup_relative_path": "00_原始数据备份\\最终用于sem的匿名39✖16输入矩阵.sav"
+    },
+    {
+      "root_file": "公園番号ParkIDと16のSEM観測変数データ Supplementary Materials S2 Data for ParkID and 16 SEM observed variables.xlsx",
+      "original_sha256": "681c5807e4caae6e470d1646946ee9858af46cc65e804540b2aac6479a80e288",
+      "updated_sha256": "a937dccac7e95a12cf5f9afc1b2b4587038599b1692345a0d3f653883792d420",
+      "backup_relative_path": "00_原始数据备份\\公園番号ParkIDと16のSEM観測変数データ Supplementary Materials S2 Data for ParkID and 16 SEM observed variables.xlsx"
+    }
+  ],
+  "original_AMW_unchanged": true,
+  "new_AMW_data_binding": {
+    "data_binding_fields_updated": [
+      "dbname",
+      "dbtable"
+    ],
+    "model_paths_loadings_variance_constraints_and_settings_preserved": true,
+    "native_Amos_open_or_run_performed": false
+  },
+  "native_Amos_run_performed": false
+}

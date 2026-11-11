@@ -1,0 +1,45 @@
+{
+  "four_parallel_scenarios": true,
+  "primary_source_selected": false,
+  "original_14_non_NDVI_indicators_and_ParkID_preserved": true,
+  "all_39_z_values_recomputed_per_region_per_scenario": true,
+  "saved_SAV_read_back_checks": [
+    {
+      "file": "组合1_SEM输入.sav",
+      "rows": 39,
+      "columns": 17,
+      "saved_then_read_back_exact_match": true,
+      "original_numeric_dictionary_preserved": true,
+      "sha256": "7a1c81e5dac915ad467662c736146d4fd015540d67b8d93096ede42b728fb556"
+    },
+    {
+      "file": "组合2_SEM输入.sav",
+      "rows": 39,
+      "columns": 17,
+      "saved_then_read_back_exact_match": true,
+      "original_numeric_dictionary_preserved": true,
+      "sha256": "5849cf69743fdf0fe8e35134dc61b3a2f026f290e82f8977401b1df6f3527783"
+    },
+    {
+      "file": "组合3_SEM输入.sav",
+      "rows": 39,
+      "columns": 17,
+      "saved_then_read_back_exact_match": true,
+      "original_numeric_dictionary_preserved": true,
+      "sha256": "2c3fce4aa83ba87a3588358cae46f696782653385bf046287a8dae10fb5123cf"
+    },
+    {
+      "file": "组合4_SEM输入.sav",
+      "rows": 39,
+      "columns": 17,
+      "saved_then_read_back_exact_match": true,
+      "original_numeric_dictionary_preserved": true,
+      "sha256": "a3b58c3582d8d23dd293efb8e20d669aefd22390af90b26c580e9ff3d3886afc"
+    }
+  ],
+  "baseline_reproduced_to_original_reported_precision": true,
+  "new_native_Amos_results_generated": false,
+  "new_independent_trials_converged_admissible": false,
+  "original_sav_hash": "54cca5a9e38faf59635ebcd9d645d7d77083ac30c7f2d8f46751d809c47d2737",
+  "original_amw_hash": "19410f39905c9ea51909b5bb2fad3e6cad35f32dde2c3bd859c968de014371a1"
+}

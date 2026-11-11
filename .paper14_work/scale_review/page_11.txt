@@ -1,0 +1,86 @@
+S.M. Labib ，
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+丿 ～
+0
+Composite GS exposure index
+Exposure Level
+Extremely High ， 9
+Extremely LOW ． 1
+4
+0
+5
+Kilometers
+Fig. 6 · Composite multi-metric, multi-scale greenspace 'exposure index ， map.
+conducting any statistical analysis （ e ． 8 ” regression) ． Care should be
+taken in using larger buffers, as over-aggregation at larger buffer dis-
+tances tends tO variance and in inconsistent associa-
+tions with other variables in the models due tO the presence Of scale
+effects related t0 MAUP (Reid et al., 2018 ） ．
+5 ． 2 Con os 讹 greenspace exposure d ， mappzng
+PreviousIy Su et al. （ 2019 ） and Browning and Lee （ 2017 ） have
+proposed several approaches tO counter scale effects. Their re-
+commendations included utilising activlty space tO determine the ex
+posure area (with GPS data) ， investigating the sensitivity Of different
+buffer distances when determining the scale ， and using nested
+(doughnut-shaped) buffers rather than circular buffers. However ， using
+activity spaces for determining buffers remains quite subj ective and
+prone tO error as it depends on user mobility patterns, and the method
+is vulnerable tO selective mobility bias. Furthermore ， the approach is
+also highly resource-intensive (Chaix et al. ， 2013 ， Helbich ， 2018 ） Kuo,
+Browning, Sachdeva, Lee ， and WestphaI （ 2018)and Browning and
+Locke 〔 2020 ）
+suggested using a nested buffering approach; however,
+Zhang et al. （ 2018 ） indicated that because nested buffers are a subset of
+circular such approaches produce weak associations
+greenspace and health indicators. Considering all the above arguments,
+our approach provides a more comprehensive and less resource-in-
+tensive solution tO addressing scale effects in the analysis Of satellite
+data for the purposes Of greenspace-based studies.
+We produced maps for five equal interval buffer distances (i.e ”
+maps with box sizes of 100 ， 200 ， 300 ， 400 ， and 500 m). We then pro-
+duced a combined multi-scale exposure map for each metric by
+weighting the different box size maps using weights derived 什 om the
+lacunarity analysis. These multi-scale single metric exposure index ，
+maps were produced below the upper limit 0f scale variability. They
+provide opportunitles tO select one or more scales based on the path
+ways of health benefits under consideration (Labib et al., 2020
+Markevych et al., 2017 Su et al ” 2019 ） ． These maps facilitate city-wide
+dynamic greenspace exposure assessment ， as discussed by
+Helbich
+（ 2019b, 2018 ） ， Zhang et al. （ 2018 ） ； Park and Kwan （ 2017 ） · Further-
+more, because these maps assess and represent the potential exposure Of
+a11 locations (cells) across the area Of interest it means that greenspace
+exposure profiles can be readily generated for the different locations
+where the subject lives, works ， or travels by incorporating the data such
+as GPS data tracks ， participatory mapping data or spatial diary entries.
+We have alSO developed a composite multi-scale, multi-metric
+greenspace exposure index ， map (Fig. 6
+） ． nevv index has several
+benefits over the single multi-scale metrics. FirstIy ， it is scale-weighted
+()s above) and SO is not as susceptible t0 scale effects. Secondly ， our
+map includes multiple metrics (i.e ” NDVI ， LAI and LULC), which ac-
+count for different vegetation characteristics (e.g ” NDVI and LAI in
+dicate vegetation density and volume ， whereas percentage greenspace
+presence Of greenspace;
+James et al.,
+） ． combination, metrics provided a comprehensive mea-
+2015
+surement Of potential greenspace exposure across the study area. Con-
+sideration 0f b0th multiple scales 0f analysis and metrics supports the
+analysis 0f multifunctional benefits 0f greenspace (Labib, 2019L and
+reduces uncertainty regarding the geographic context problem noted by
+Kwan 〔 2012 ） ． Thirdly, our index standardises the greenspace exposure
+level, meaning that values can be directly compared across multiple
+study areas (unlike approaches such as interquartile or quantile ranges
+that are common in the literature). FinaIIy, the overall composite map
+can be used identify greenspace exposure levels for fixed points (e.g ”
+home ， 0 伍 ce 〕 ， for neighbourhoods (areas) ， and along the paths (lines)
+people travel. This eliminates the need tO use arbitrary buffer distances
+tO measure exposure at varying locations as each pixel has the value for
+， composite exposure measurement.
+We demonstrated an example 0f neighbourhood-based exposure
+profiling for LSOAs in Greater Manchester. Our example illustrated that
+the new exposure maps can be used tO study the spatial variation in
+exposure in different neighbourhoods and our multi-scale as well as
+multi-metrlc, multi-scale composite maps bOth showed stronger corre-
+lations with IMD and health deprivation than traditional non-scaled

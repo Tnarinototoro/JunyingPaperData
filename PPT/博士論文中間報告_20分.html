@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:,">
+<title>公園緑地における自然再生と施設利用の両立に関する研究</title>
+<style>
+:root{
+  --bg:#070B14;
+  --panel:#0D1424;
+  --fg:#E8F1FF;
+  --muted:#7E8BA8;
+  --accent:#7C3AED;
+  --accent2:#06B6D4;
+  --font-heading:Yu Gothic;
+  --font-body:Yu Gothic;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;background:var(--bg);color:var(--fg);
+  font-family:var(--font-body);overflow:hidden;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+}
+#stage{position:fixed;inset:0}
+.slide-frame{position:fixed;inset:0;pointer-events:none}
+.slide-frame.is-current,body.overview .slide-frame{pointer-events:auto}
+.slide{
+  position:absolute;inset:0;display:none;flex-direction:column;justify-content:center;
+  padding:clamp(34px,7vw,110px);overflow:hidden;
+}
+.slide::before{
+  content:"";position:absolute;inset:-20%;pointer-events:none;z-index:-1;
+  background:
+    radial-gradient(42% 34% at 82% 18%, rgba(124,58,237,0.22), transparent 70%),
+    radial-gradient(36% 30% at 12% 86%, rgba(6,182,212,0.16), transparent 70%),
+    radial-gradient(70% 60% at 50% 50%, rgba(13,20,36,0.55), transparent 100%);
+}
+.slide.is-active{display:flex}
+body.motion .slide.is-active{animation:slide-in .45s cubic-bezier(.22,.8,.36,1)}
+@keyframes slide-in{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+body.motion .bullets li{
+  opacity:0;animation:bullet-in .55s cubic-bezier(.22,.8,.36,1) forwards;
+  animation-delay:calc(var(--i, 0)*90ms + .12s);
+}
+@keyframes bullet-in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+.slide--image,.slide--image-left,.slide--image-right,.slide--chart{padding:0;align-items:center}
+.slide--image .slide-inner,.slide--image-left .slide-inner,.slide--image-right .slide-inner,.slide--chart .slide-inner{width:100%;display:flex;justify-content:center}
+.media-canvas{position:relative;width:min(100vw,177.7778vh);height:min(100vh,56.25vw);container-type:inline-size}
+.media-title,.media-image,.media-body,.media-chart,.media-caption{position:absolute;margin:0;max-width:none;box-sizing:border-box}
+.media-title{font-size:3.54cqw;line-height:1.17;overflow-wrap:anywhere}
+.media-image img{width:100%;height:100%;display:block}
+.media-body{font-size:2.083cqw;line-height:1.45;overflow-wrap:anywhere}
+.media-body p{margin:0 0 1.2em}.media-body ul{margin:0;padding-left:1.1em}.media-body li{margin-bottom:.6em}
+.media-caption{color:var(--muted);font-size:1.4cqw;line-height:1.2}
+.native-chart{width:100%;height:100%;font-family:var(--font-body)}
+.chart-data{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.brand-logo{position:absolute;right:6.2%;top:1.6%;width:7.1%;height:5.6%;object-fit:contain;pointer-events:none}
+.brand-footer{position:absolute;left:6.4%;bottom:3.4%;max-width:69%;font-size:clamp(10px,1vw,15px);color:var(--muted)}
+body.printing .brand-footer{display:block}
+
+
+.slide[style*="--ppt-titleSize"] h1,.slide[style*="--ppt-titleSize"] h2,.slide[style*="--ppt-titleSize"] .statement-title,.slide[style*="--ppt-titleSize"] .quote-text{font-size:clamp(24px,calc(var(--ppt-titleSize) * .12vw),calc(var(--ppt-titleSize) * 2px))}
+.slide[style*="--ppt-titleSize"] .media-title{font-size:calc(var(--ppt-titleSize) * .104167cqw)}
+.slide[style*="--ppt-bodySize"] li,.slide[style*="--ppt-bodySize"] .subtitle,.slide[style*="--ppt-bodySize"] .quote-attr{font-size:clamp(16px,calc(var(--ppt-bodySize) * .13vw),calc(var(--ppt-bodySize) * 2px))}
+.slide[style*="--ppt-bodySize"] .media-body,.slide[style*="--ppt-bodySize"] .media-body li{font-size:calc(var(--ppt-bodySize) * .104167cqw)}
+.slide[style*="--ppt-bodySize"] .deck-table{font-size:clamp(12px,calc(var(--ppt-bodySize) * .09vw),calc(var(--ppt-bodySize) * 1.35px))}
+.slide[style*="--ppt-chartLabelSize"] .native-chart text{font-size:calc(var(--ppt-chartLabelSize) * 1px)}
+
+.kicker{
+  color:var(--accent);font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  font-size:clamp(12px,1.3vw,18px);margin-bottom:22px;
+}
+h1,h2,.statement-title{font-family:var(--font-heading);line-height:1.06;letter-spacing:-.015em;margin:0}
+h1{font-size:clamp(44px,7.4vw,118px);max-width:20ch}
+h2{font-size:clamp(34px,5vw,82px);max-width:20ch}
+.subtitle{
+  color:var(--muted);font-size:clamp(18px,2.3vw,34px);line-height:1.5;
+  max-width:46em;margin-top:28px;
+}
+.meta{
+  color:var(--muted);font-size:clamp(12px,1.2vw,16px);margin-top:48px;
+  letter-spacing:.06em;
+}
+.bullets ul{margin:30px 0 0;padding:0;list-style:none;display:grid;gap:clamp(12px,1.6vw,24px)}
+.bullets li{
+  position:relative;padding-left:clamp(28px,2.6vw,44px);
+  font-size:clamp(20px,2.6vw,40px);line-height:1.35;max-width:24em;
+}
+.bullets li::before{
+  content:"";position:absolute;left:0;top:.58em;width:.5em;height:.5em;
+  background:var(--accent);border-radius:2px;box-shadow:.28em .28em 0 color-mix(in srgb, var(--accent2) 78%, transparent);
+}
+.section .kicker{margin-bottom:10px}
+.section .accent-line{width:min(180px,18vw);height:6px;background:var(--accent);margin:28px 0}
+.statement-title{
+  font-size:clamp(34px,5.4vw,88px);max-width:22ch;font-weight:800;
+  border-left:6px solid var(--accent);padding-left:clamp(22px,3vw,48px);
+}
+.closing{text-align:center;align-items:center}
+.closing h1,.closing .statement-title{font-size:clamp(52px,9vw,148px)}
+.closing .subtitle{color:var(--accent);font-weight:700}
+.cover h1{font-weight:900}
+.quote-mark{
+  font-family:var(--font-heading);font-size:clamp(90px,13vw,210px);line-height:.62;
+  color:var(--accent);margin-bottom:clamp(14px,2vw,30px);
+}
+.quote-text{
+  font-family:var(--font-heading);font-size:clamp(26px,4.2vw,62px);line-height:1.28;
+  font-weight:700;max-width:22ch;margin:0;
+}
+.quote-attr{color:var(--muted);margin-top:clamp(18px,2.6vw,34px);font-size:clamp(15px,1.8vw,26px);letter-spacing:.04em}
+table.deck-table{
+  border-collapse:collapse;margin-top:clamp(20px,3vw,42px);width:100%;max-width:100%;
+  font-size:clamp(14px,1.55vw,23px);
+}
+.deck-table th{
+  background:color-mix(in srgb, var(--accent) 26%, var(--bg));color:var(--fg);
+  text-align:left;font-weight:700;padding:.6em .9em;letter-spacing:.02em;
+  border-bottom:2px solid var(--accent);
+}
+.deck-table td{
+  padding:.55em .9em;border-bottom:1px solid color-mix(in srgb, var(--muted) 55%, transparent);
+  color:var(--fg);
+}
+.deck-table .num{text-align:right;font-variant-numeric:tabular-nums}
+.deck-table tbody tr:nth-child(even){background:color-mix(in srgb, var(--panel) 62%, transparent)}
+#progress{position:fixed;top:0;left:0;height:3px;width:0;background:var(--accent);z-index:30;transition:width .25s}
+#hud{
+  position:fixed;left:22px;right:22px;bottom:18px;z-index:50;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px;align-items:center;
+  color:var(--muted);font-size:13px;letter-spacing:.08em;font-variant-numeric:tabular-nums;
+}
+#hud button{
+  background:color-mix(in srgb, var(--panel) 88%, transparent);color:var(--fg);
+  border:1px solid color-mix(in srgb, var(--muted) 45%, transparent);border-radius:99px;
+  padding:8px 14px;min-height:34px;font:inherit;cursor:pointer;
+}
+#hud button:hover{border-color:var(--accent);color:var(--accent)}
+#notes-panel{
+  position:fixed;left:0;right:0;bottom:64px;z-index:40;display:none;
+  background:color-mix(in srgb, var(--panel) 96%, black 4%);
+  border-top:2px solid var(--accent);
+  padding:14px clamp(22px,4vw,64px) 18px;max-height:38vh;overflow:auto;
+}
+body.notes-open #notes-panel{display:block}
+#notes-panel .notes-head{display:flex;align-items:center;justify-content:space-between;gap:16px}
+#notes-close{
+  background:transparent;color:var(--muted);border:1px solid color-mix(in srgb, var(--muted) 45%, transparent);
+  border-radius:99px;padding:4px 12px;font:inherit;cursor:pointer;min-height:30px;
+}
+#notes-close:hover{color:var(--accent);border-color:var(--accent)}
+#notes-panel .notes-label{
+  color:var(--accent);font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  font-size:12px;margin-bottom:8px;
+}
+#notes-text{white-space:pre-wrap;line-height:1.65;font-size:clamp(15px,1.5vw,18px);color:var(--fg)}
+#notes-text.is-empty{color:var(--muted);font-style:italic}
+#help-panel{
+  position:fixed;right:22px;bottom:64px;z-index:60;max-width:390px;
+  background:color-mix(in srgb, var(--panel) 96%, black 4%);color:var(--fg);
+  border:1px solid color-mix(in srgb, var(--accent) 55%, transparent);border-radius:14px;
+  padding:16px 20px;box-shadow:0 18px 50px rgba(0,0,0,.45);font-size:14px;line-height:1.8;
+}
+#help-panel[hidden]{display:none}
+#help-panel kbd{
+  background:color-mix(in srgb, var(--accent) 22%, transparent);border-radius:5px;
+  padding:1px 6px;font-family:inherit;font-size:12px;
+}
+#toast{
+  position:fixed;left:50%;bottom:84px;transform:translateX(-50%);z-index:70;
+  background:color-mix(in srgb, var(--panel) 96%, black 4%);color:var(--fg);
+  border:1px solid color-mix(in srgb, var(--accent) 55%, transparent);border-radius:99px;
+  padding:9px 18px;font-size:13px;
+}
+#toast[hidden]{display:none}
+#blank{position:fixed;inset:0;z-index:80;display:none;pointer-events:none}
+body.blank-black #blank{display:block;background:#000}
+body.blank-white #blank{display:block;background:#fff}
+body.blank-black #hud,body.blank-white #hud{visibility:hidden;pointer-events:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+body.overview #stage{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;
+  grid-auto-rows:var(--deck-thumb-height,180px);
+  padding:18px 18px 92px;position:fixed;inset:0;overflow:auto;align-content:start;
+}
+body.overview .slide-frame{
+  position:relative;inset:auto;width:100%;aspect-ratio:16/9;overflow:hidden;
+  border:1px solid color-mix(in srgb, var(--muted) 35%, transparent);border-radius:12px;
+  cursor:pointer;background:var(--bg);outline:none;
+}
+body.overview .slide-frame:hover{border-color:var(--accent)}
+body.overview .slide-frame.is-current{outline:2px solid var(--accent);outline-offset:2px}
+body.overview .slide-frame:focus-visible{outline:2px solid var(--accent);outline-offset:-3px}
+body.overview .slide-frame::after{
+  content:attr(data-frame);position:absolute;right:8px;bottom:6px;z-index:2;
+  font-size:12px;color:var(--muted);background:color-mix(in srgb, var(--bg) 84%, transparent);
+  border:1px solid color-mix(in srgb, var(--muted) 40%, transparent);border-radius:6px;
+  padding:1px 7px;font-variant-numeric:tabular-nums;
+}
+body.overview .slide{
+  display:flex !important;position:absolute;inset:0;width:1280px;height:720px;
+  transform:scale(var(--deck-thumb-scale,.25));transform-origin:top left;pointer-events:none;
+  animation:none !important;
+}
+body.overview .bullets li{opacity:1 !important;animation:none !important}
+body.overview .media-canvas{width:1280px;height:720px}
+body.overview #notes-panel,body.presenting #notes-panel{display:none !important}
+body.presenting #notes-toggle{opacity:.55}
+body.presenting #hud{opacity:0;pointer-events:none;transition:opacity .25s}
+body.presenting #hud:hover{opacity:1;pointer-events:auto}
+@media (max-width:900px){
+  .slide{padding:clamp(22px,5vw,44px)}
+  h1{font-size:clamp(34px,8.5vw,64px)}
+  h2{font-size:clamp(26px,6.5vw,48px)}
+  .statement-title{font-size:clamp(26px,7vw,54px)}
+  .subtitle{font-size:clamp(16px,3.4vw,24px)}
+  .bullets li{font-size:clamp(16px,3.4vw,24px)}
+  .kicker{font-size:13px}
+  .deck-table{font-size:14px}
+  .deck-table th,.deck-table td{padding:.55em .6em}
+  #hud{left:10px;right:10px;bottom:10px;gap:6px;font-size:12px}
+  #hud button{padding:10px 16px;min-height:44px}
+  #notes-panel{bottom:68px;max-height:45vh}
+  #help-panel{right:10px;bottom:68px;left:10px;max-width:none}
+}
+@media (max-width:640px){
+  #theme-label{display:none}
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important}
+}
+@media print{
+  html,body{height:auto;overflow:visible;background:#fff}
+  .slide-frame{position:relative;display:block !important}
+  .slide{position:relative;display:block !important;height:100vh;page-break-after:always;padding:48px}
+  body.motion .bullets li{opacity:1 !important;animation:none !important}
+  #progress,#hud,#notes-panel,#help-panel,#toast{display:none !important}
+}
+
+#hud button:disabled{opacity:.4;cursor:default}
+#page-number{width:56px;padding:7px;border:1px solid var(--muted);border-radius:8px;background:var(--panel);color:var(--fg);font:inherit}
+#delivery-bar{position:fixed;top:18px;left:22px;right:22px;z-index:45;display:flex;align-items:center;gap:12px;font-size:13px}
+#delivery-status{flex:1;color:var(--muted)}
+#delivery-bar a,#delivery-bar button,.review-exports a{display:inline-block;text-decoration:none;border:1px solid var(--muted);border-radius:99px;padding:9px 14px;background:var(--panel);color:var(--fg);font:inherit;cursor:pointer}
+#delivery-bar a:hover,#delivery-bar button:hover,.review-exports a:hover{border-color:var(--accent);color:var(--accent)}
+#delivery-bar #download-pptx{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+#review-panel{background:var(--panel);color:var(--fg);border:1px solid var(--muted);border-radius:18px;width:min(620px,calc(100vw - 24px));max-height:85vh;padding:24px;overflow:auto}
+#review-panel::backdrop{background:rgba(0,0,0,.65)}
+.review-head{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.review-head h2{margin:0;font-size:24px}
+#review-close{border:1px solid var(--muted);border-radius:10px;background:transparent;color:var(--fg);padding:8px 12px;font:inherit;cursor:pointer}
+#review-panel p{line-height:1.65;color:var(--muted)}
+#review-panel h3{margin:24px 0 10px;font-size:17px}
+#review-panel ul,#review-panel ol{list-style:none;padding:0;margin:0}
+#review-panel li+li{margin-top:8px}
+#review-panel li button{width:100%;text-align:left;display:flex;gap:12px;align-items:center;background:var(--bg);color:var(--fg);border:1px solid transparent;border-radius:10px;padding:12px;font:inherit;cursor:pointer}
+#review-panel li button:hover{border-color:var(--accent)}
+#review-issues li button{display:block}
+#review-issues strong,#review-issues span{display:block;line-height:1.6}
+#review-issues span{color:var(--muted);font-size:13px;margin-top:4px}
+.review-exports{display:flex;flex-wrap:wrap;gap:8px}
+body.presenting #delivery-bar{display:none}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media(max-width:640px){
+  #delivery-bar{left:10px;right:10px;top:10px;gap:8px}
+  #delivery-status{display:none}
+  #delivery-bar a,#delivery-bar button{padding:10px 12px;min-height:44px}
+  #hud button{padding:9px 12px}
+  #notes-panel,#help-panel{bottom:160px}
+  #review-panel{padding:18px}
+}
+@media print{#delivery-bar,#review-panel{display:none!important}}
+
+
+</style>
+</head>
+<body class="motion">
+<div id="progress" aria-hidden="true"></div>
+<div id="delivery-bar">
+  <span id="delivery-status">Presentation · review before delivery</span>
+  <a id="download-pptx" href="./%E5%8D%9A%E5%A3%AB%E8%AB%96%E6%96%87%E4%B8%AD%E9%96%93%E5%A0%B1%E5%91%8A_20%E5%88%86.pptx" download>Download PPTX</a>
+  <button id="review-toggle" type="button" aria-haspopup="dialog">Review and export</button>
+</div>
+<dialog id="review-panel" aria-labelledby="review-title">
+  <div class="review-head"><h2 id="review-title">Review and export</h2><button id="review-close" type="button">Close</button></div>
+  <p id="review-summary">Static checks found 2 item(s); review the actual slides.</p>
+  <div class="review-exports"><a id="review-download-pptx" href="./%E5%8D%9A%E5%A3%AB%E8%AB%96%E6%96%87%E4%B8%AD%E9%96%93%E5%A0%B1%E5%91%8A_20%E5%88%86.pptx" download>Download PPTX</a><a id="download-project" href="./%E5%8D%9A%E5%A3%AB%E8%AB%96%E6%96%87%E4%B8%AD%E9%96%93%E5%A0%B1%E5%91%8A_20%E5%88%86.json" download>Save project</a></div>
+  <p>Open the PPTX in PowerPoint / WPS to edit text, images and charts. Use the saved project when asking your Agent to revise it.</p>
+  <h3>Review items · click to open slide</h3>
+  <ul id="review-issues"><li><button type="button" data-review-slide="21"><strong>Slide 21 · 图表类别较多或标签较长，可能相互遮挡</strong><span>减少类别，或使用横向条形图</span></button></li><li><button type="button" data-review-slide="23"><strong>Slide 23 · 图表类别较多或标签较长，可能相互遮挡</strong><span>减少类别，或使用横向条形图</span></button></li></ul>
+  <p>Text fit is estimated; this does not verify the rendered PowerPoint / WPS layout.</p>
+  <h3>Slides</h3><ol id="review-outline"><li><button type="button" data-review-slide="1"><span>1</span>公园绿地中自然再生与设施利用的兼顾研究</button></li><li><button type="button" data-review-slide="2"><span>2</span>背景から総合考察まで、五つの段階で進む</button></li><li><button type="button" data-review-slide="3"><span>3</span>自然を「守る」から「回復させる」へ</button></li><li><button type="button" data-review-slide="4"><span>4</span>都市公園は、保全と利用の二つの役割を抱える</button></li><li><button type="button" data-review-slide="5"><span>5</span>既往研究は三方向、管理者の行動は空白</button></li><li><button type="button" data-review-slide="6"><span>6</span>管理者は、何と関連づけて三つの行動を選ぶのか</button></li><li><button type="button" data-review-slide="7"><span>7</span>質的枠組みから、利用者の受容へ進む</button></li><li><button type="button" data-review-slide="8"><span>8</span>枠組みは条件・管理行動・利用者の三層で構成する</button></li><li><button type="button" data-review-slide="9"><span>9</span>TPBは公園管理の文脈で探索的に操作化した</button></li><li><button type="button" data-review-slide="10"><span>10</span>管理の方向性を30段階の尺度で測る</button></li><li><button type="button" data-review-slide="11"><span>11</span>論文は七章で、第3〜5章が三つの実証研究にあたる</button></li><li><button type="button" data-review-slide="12"><span>12</span>研究Ⅰは5公園で90分のヒアリングを行った</button></li><li><button type="button" data-review-slide="13"><span>13</span>逐語記録から三方向へ類型化する</button></li><li><button type="button" data-review-slide="14"><span>14</span>研究Ⅱは全国39公園の管理者に、二段階で質問した</button></li><li><button type="button" data-review-slide="15"><span>15</span>説明変数も行動変数も三つに絞った</button></li><li><button type="button" data-review-slide="16"><span>16</span>SEMは探索的検討であり、因果は確定しない</button></li><li><button type="button" data-review-slide="17"><span>17</span>研究Ⅲは利用者に認識・賛成・参加意向を尋ねる</button></li><li><button type="button" data-review-slide="18"><span>18</span>5公園の方向性は一様ではない</button></li><li><button type="button" data-review-slide="19"><span>19</span>外的要因・内的条件・管理要因と関連する</button></li><li><button type="button" data-review-slide="20"><span>20</span>方向性は公園ごとの条件と体制に関連し、次の問いは「どの程度か」である</button></li><li><button type="button" data-review-slide="21"><span>21</span>両立は体験・教育に偏り、規制は限定的</button></li><li><button type="button" data-review-slide="22"><span>22</span>両立はソフトな調整とハードな調整に分かれる</button></li><li><button type="button" data-review-slide="23"><span>23</span>公共性は確保し、高負荷利用は選別する</button></li><li><button type="button" data-review-slide="24"><span>24</span>保全活動は広く実施されるが、在来種植栽だけが低い</button></li><li><button type="button" data-review-slide="25"><span>25</span>保全は行政単独ではなく分業・協働で担われる</button></li><li><button type="button" data-review-slide="26"><span>26</span>39公園の全体像は三つの偏りとして整理できる</button></li><li><button type="button" data-review-slide="27"><span>27</span>体制の強さが環境重視と両立に正に関連した</button></li><li><button type="button" data-review-slide="28"><span>28</span>説明力は行動で異なり、利用者重視は残る</button></li><li><button type="button" data-review-slide="29"><span>29</span>管理行動は六つの解釈的類型に整理できる</button></li><li><button type="button" data-review-slide="30"><span>30</span>限界から示せるのは探索的な構造関連まで</button></li><li><button type="button" data-review-slide="31"><span>31</span>ここから視点を、管理者から利用者へ移す</button></li><li><button type="button" data-review-slide="32"><span>32</span>認識→賛成→協力の三段階で整理する</button></li><li><button type="button" data-review-slide="33"><span>33</span>研究Ⅲは設計が確定し、分析と執筆が進行中である</button></li><li><button type="button" data-review-slide="34"><span>34</span>三つの研究は枠組み→関連→受容へ接続する</button></li><li><button type="button" data-review-slide="35"><span>35</span>比較できる論点を限定して両者を突き合わせる</button></li><li><button type="button" data-review-slide="36"><span>36</span>示唆は五つ、鍵は体制とコミュニケーション</button></li><li><button type="button" data-review-slide="37"><span>37</span>結論は四点、利用者側は分析後に確定する</button></li><li><button type="button" data-review-slide="38"><span>38</span>主要参考文献は8点、いずれも本報告の根幹に関わる</button></li><li><button type="button" data-review-slide="39"><span>39</span>ご清聴ありがとうございました</button></li></ol>
+</dialog>
+
+<div id="stage">
+<div class="slide-frame" data-frame="1" tabindex="-1" role="button" aria-label="公园绿地中自然再生与设施利用的兼顾研究"><section class="slide slide--cover" data-index="01" data-notes="20秒。氏名・所属を名乗り、タイトルは読み上げず「都市公園の保全と利用を、管理者と利用者の両側から見る研究です」と一言で入る。表紙は中文表記（原題：公園緑地における自然再生と施設利用の両立に関する研究）。"><div class="slide-inner"><div class="kicker">博士論文中間報告｜20分</div><h1>公园绿地中自然再生与设施利用的兼顾研究</h1><div class="subtitle">——管理者与使用者视角的比较—— Balancing Nature Restoration and Facility Use in Parks and Green Spaces</div><div class="meta">Generated with dsh-ppt</div></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="2" tabindex="-1" role="button" aria-label="背景から総合考察まで、五つの段階で進む"><section class="slide slide--bullets" data-index="02" data-notes="25秒。時間配分を先に示す：背景5分、研究Ⅰ4分、研究Ⅱ6分、研究Ⅲ3分、総合2分。"><div class="slide-inner"><div class="kicker"></div><h2>背景から総合考察まで、五つの段階で進む</h2><ul><li style="--i:0">研究背景と目的</li><li style="--i:1">分析枠組みと論文構成</li><li style="--i:2">研究Ⅰ：5公園ヒアリング</li><li style="--i:3">研究Ⅱ：39公園アンケートとSEM</li><li style="--i:4">研究Ⅲ：利用者アンケート</li><li style="--i:5">総合考察と結論</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="3" tabindex="-1" role="button" aria-label="自然を「守る」から「回復させる」へ"><section class="slide slide--bullets" data-index="03" data-notes="30秒。出典：CBD(2022)、環境省(2022, 2023)。「量から質へ」の転換が本研究の前提。"><div class="slide-inner"><div class="kicker"></div><h2>自然を「守る」から「回復させる」へ</h2><ul><li style="--i:0">昆明・モントリオール生物多様性枠組（2022）</li><li style="--i:1">30by30：2030年までに陸域30%を保全</li><li style="--i:2">対象は面積だけでなく質・連結性・アクセス</li><li style="--i:3">日本では30by30ロードマップとOECM認定が進行</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="4" tabindex="-1" role="button" aria-label="都市公園は、保全と利用の二つの役割を抱える"><section class="slide slide--bullets" data-index="04" data-notes="30秒。具体例は口頭で：立入り、ペット、火気、水面利用、照明。ここで「管理者の判断」が研究対象だと示す。"><div class="slide-inner"><div class="kicker"></div><h2>都市公園は、保全と利用の二つの役割を抱える</h2><ul><li style="--i:0">生物多様性の保全：湿地・里山・水辺の再生</li><li style="--i:1">レクリエーション：散策・イベント・ペット・水面利用</li><li style="--i:2">両者は同じ空間をめぐって競合する</li><li style="--i:3">調整の判断は現場の管理者に委ねられている</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="5" tabindex="-1" role="button" aria-label="既往研究は三方向、管理者の行動は空白"><section class="slide slide--bullets" data-index="05" data-notes="35秒。3枚のカード→赤いGap枠、という構成を口頭で補う。Chen &amp; Fukahori (2026) も5公園の質的分析にとどまる点を明言。"><div class="slide-inner"><div class="kicker"></div><h2>既往研究は三方向、管理者の行動は空白</h2><ul><li style="--i:0">生態学：都市の生物多様性とレクリエーション影響</li><li style="--i:1">利用者研究：生態系サービス・緑地選好</li><li style="--i:2">環境配慮行動：TPB・規範・参加</li><li style="--i:3">空白：複数公園で管理行動を比較した研究は限られる</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="6" tabindex="-1" role="button" aria-label="管理者は、何と関連づけて三つの行動を選ぶのか"><section class="slide slide--statement" data-index="06" data-notes="25秒。二つの問いを区切って読む。ここが本報告の中心。"><div class="slide-inner"><div class="kicker"></div><div class="statement-title">管理者は、何と関連づけて三つの行動を選ぶのか</div><div class="subtitle">環境重視／両立／利用者重視を分ける条件は何か。管理者の考えと利用者の受け止めは、どこで一致し、どこでずれるのか。</div></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="7" tabindex="-1" role="button" aria-label="質的枠組みから、利用者の受容へ進む"><section class="slide slide--bullets" data-index="07" data-notes="35秒。研究Ⅰ→Ⅱ→Ⅲが「枠組み→関連→受容」と役割分担していることを強調。"><div class="slide-inner"><div class="kicker"></div><h2>質的枠組みから、利用者の受容へ進む</h2><ul><li style="--i:0">目的：管理行動の違いと両立へ向かう管理運営のあり方を示す</li><li style="--i:1">研究Ⅰ 5公園：質的分類</li><li style="--i:2">研究Ⅱ 39公園：探索的定量分析</li><li style="--i:3">研究Ⅲ 1公園：利用者の認識・賛成・参加意向</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="8" tabindex="-1" role="button" aria-label="枠組みは条件・管理行動・利用者の三層で構成する"><section class="slide slide--bullets" data-index="08" data-notes="35秒。縦の流れを指でなぞる。上段が説明側、中段が内生、下段が研究Ⅲの接続先。"><div class="slide-inner"><div class="kicker"></div><h2>枠組みは条件・管理行動・利用者の三層で構成する</h2><ul><li style="--i:0">条件：場所の環境的質</li><li style="--i:1">条件：管理体制・専門性・協働</li><li style="--i:2">条件：利用者からの要請・苦情</li><li style="--i:3">管理行動：環境重視／両立／利用者重視</li><li style="--i:4">反応：利用者の認識・賛成・参加意向</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="9" tabindex="-1" role="button" aria-label="TPBは公園管理の文脈で探索的に操作化した"><section class="slide slide--bullets" data-index="09" data-notes="35秒。「利用者態度」は管理者が感じる圧力であり、第5章の利用者の賛成とは別物。ここを混同すると後で突っ込まれる。"><div class="slide-inner"><div class="kicker"></div><h2>TPBは公園管理の文脈で探索的に操作化した</h2><ul><li style="--i:0">社会的規範：公的・指定管理主導度、市民・専門家協働度</li><li style="--i:1">利用者からの要請・苦情圧力（潜在変数名：利用者態度）</li><li style="--i:2">環境的質：公園内外のNDVIによる代理指標</li><li style="--i:3">標準モデルの検証ではなく、行動意図は測定しない</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="10" tabindex="-1" role="button" aria-label="管理の方向性を30段階の尺度で測る"><section class="slide slide--bullets" data-index="10" data-notes="35秒。連続尺度であることを強調。青→紫→緑の帯をイメージして説明。"><div class="slide-inner"><div class="kicker"></div><h2>管理の方向性を30段階の尺度で測る</h2><ul><li style="--i:0">1–10 利用者重視</li><li style="--i:1">11–20 両立</li><li style="--i:2">21–30 環境重視</li><li style="--i:3">目的：保全と利用の調整を公園間で比較する</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="11" tabindex="-1" role="button" aria-label="論文は七章で、第3〜5章が三つの実証研究にあたる"><section class="slide slide--bullets" data-index="11" data-notes="35秒。第3〜5章を強調。第5〜7章は執筆中であることも先に言っておく。"><div class="slide-inner"><div class="kicker"></div><h2>論文は七章で、第3〜5章が三つの実証研究にあたる</h2><ul><li style="--i:0">第1章 序論</li><li style="--i:1">第2章 既存研究</li><li style="--i:2">第3章 管理者ヒアリング（5公園）</li><li style="--i:3">第4章 管理者アンケート（39公園）</li><li style="--i:4">第5章 利用者アンケート（かすかべ夢の森公園）</li><li style="--i:5">第6章 総合考察</li><li style="--i:6">第7章 結論</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="12" tabindex="-1" role="button" aria-label="研究Ⅰは5公園で90分のヒアリングを行った"><section class="slide slide--bullets" data-index="12" data-notes="30秒。5公園は口頭で列挙：鴨川みずべの里、いきものふれあいの里センター、さいたま緑の森博物館、北本自然観察公園、上尾丸山公園。"><div class="slide-inner"><div class="kicker"></div><h2>研究Ⅰは5公園で90分のヒアリングを行った</h2><ul><li style="--i:0">対象：自然再生に取り組む5公園緑地の管理者・協力団体</li><li style="--i:1">時期：2019–2020年、各約90分</li><li style="--i:2">項目：環境保全と空間利用の競合23項目</li><li style="--i:3">観点：利用者の安全・快適性と環境保全の二面</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="13" tabindex="-1" role="button" aria-label="逐語記録から三方向へ類型化する"><section class="slide slide--bullets" data-index="13" data-notes="25秒。工具の操作説明はしない。判断の透明性だけ担保する。"><div class="slide-inner"><div class="kicker"></div><h2>逐語記録から三方向へ類型化する</h2><ul><li style="--i:0">逐語記録の作成</li><li style="--i:1">段落単位への分割</li><li style="--i:2">テキストマイニング・共起ネットワーク分析</li><li style="--i:3">内容分析による三方向の分類</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="14" tabindex="-1" role="button" aria-label="研究Ⅱは全国39公園の管理者に、二段階で質問した"><section class="slide slide--bullets" data-index="14" data-notes="35秒。n=39は小規模であることを隠さず、後の限界頁につなぐ。"><div class="slide-inner"><div class="kicker"></div><h2>研究Ⅱは全国39公園の管理者に、二段階で質問した</h2><ul><li style="--i:0">選定：全国、同一管理団体は上限3公園</li><li style="--i:1">優先：OECM認定地・候補地</li><li style="--i:2">時期：2024年10月–2025年2月</li><li style="--i:3">問1–問9：利用ルール、保全活動、体制、利便性、両立、経費、苦情、安全</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="15" tabindex="-1" role="button" aria-label="説明変数も行動変数も三つに絞った"><section class="slide slide--bullets" data-index="15" data-notes="35秒。全観測変数は出さない。表1・表2は論文に掲載する。"><div class="slide-inner"><div class="kicker"></div><h2>説明変数も行動変数も三つに絞った</h2><ul><li style="--i:0">外生：社会的規範／利用者からの要請・苦情圧力／環境的質</li><li style="--i:1">内生：環境重視的行動／両立的行動／利用者重視的行動</li><li style="--i:2">代表指標：指定管理主導度、市民・専門家協働度、NDVI</li><li style="--i:3">代表指標：直接的生態管理、体験共感、高負荷利用許容</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="16" tabindex="-1" role="button" aria-label="SEMは探索的検討であり、因果は確定しない"><section class="slide slide--bullets" data-index="16" data-notes="30秒。「探索的」を3回言う。ここは後半の結論の言い方に直結する。"><div class="slide-inner"><div class="kicker"></div><h2>SEMは探索的検討であり、因果は確定しない</h2><ul><li style="--i:0">記述統計</li><li style="--i:1">探索的因子分析</li><li style="--i:2">共分散構造分析（SEM）</li><li style="--i:3">境界：因果効果も母集団への一般化も確定しない</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="17" tabindex="-1" role="button" aria-label="研究Ⅲは利用者に認識・賛成・参加意向を尋ねる"><section class="slide slide--bullets" data-index="17" data-notes="35秒。「協力」は参加意向・希望する参加形態として測定したもので、実際の協力行為ではない。"><div class="slide-inner"><div class="kicker"></div><h2>研究Ⅲは利用者に認識・賛成・参加意向を尋ねる</h2><ul><li style="--i:0">対象：かすかべ夢の森公園の利用者</li><li style="--i:1">枠組み：広瀬モデルを参照した認識→賛成→協力</li><li style="--i:2">属性：年齢・居住地・利用頻度・滞在時間・利用形態</li><li style="--i:3">分析：単純集計・クロス集計・相関分析</li><li style="--i:4">※ 現在、分析執筆中</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="18" tabindex="-1" role="button" aria-label="5公園の方向性は一様ではない"><section class="slide slide--bullets" data-index="18" data-notes="35秒。数字のない項目は補わない。緑の森博物館は割合ではなく運営の記述で示す。"><div class="slide-inner"><div class="kicker"></div><h2>5公園の方向性は一様ではない</h2><ul><li style="--i:0">北本自然観察公園：環境重視68％／利用者重視1％</li><li style="--i:1">鴨川みずべの里：環境重視52％／利用者重視24％</li><li style="--i:2">いきものふれあいの里センター：両立47％／環境重視42％</li><li style="--i:3">上尾丸山公園：両立47％</li><li style="--i:4">さいたま緑の森博物館：最小限の管理＋観察イベント</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="19" tabindex="-1" role="button" aria-label="外的要因・内的条件・管理要因と関連する"><section class="slide slide--table" data-index="19" data-notes="35秒。三条件は「因果」ではなく「解釈の条件」。ここでも断定しない。"><div class="slide-inner"><div class="kicker">管理の方向性は、外的要因・内的条件・管理要因の三つと関連する</div><h2>外的要因・内的条件・管理要因と関連する</h2><table class="deck-table"><thead><tr><th>条件</th><th>内容</th></tr></thead><tbody><tr><td>外的要因</td><td>周辺環境・立地条件</td></tr><tr><td>内的条件</td><td>自然度・規模・土地所有</td></tr><tr><td>管理要因</td><td>方針・体制・専門性</td></tr><tr><td>利用者との関係</td><td>規制／協働／情報提供／放任</td></tr></tbody></table></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="20" tabindex="-1" role="button" aria-label="方向性は公園ごとの条件と体制に関連し、次の問いは「どの程度か」である"><section class="slide slide--statement" data-index="20" data-notes="30秒。ここが論理の折り返し。間を取って次頁へ。"><div class="slide-inner"><div class="kicker"></div><div class="statement-title">方向性は公園ごとの条件と体制に関連し、次の問いは「どの程度か」である</div><div class="subtitle">研究Ⅰは質的な枠組みをつくった。研究Ⅱは、その枠組みを39公園で探索的に検討する。</div></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="21" tabindex="-1" role="button" aria-label="両立は体験・教育に偏り、規制は限定的"><section class="slide slide--chart" data-index="21" data-notes="35秒。最も高い82.1％と最も低い43.6％の差は約40ポイント。無回答は分離配置で約18％と目立つ。"><div class="slide-inner"><div class="media-canvas"><h2 class="media-title" style="left:6.3750000000159375%;top:8.533333333333333%;width:87.0000000002175%;height:11.333333333333332%">両立は体験・教育に偏り、規制は限定的</h2><div class="media-chart" style="left:6.3750000000159375%;top:24.666666666666668%;width:87.0000000002175%;height:59.333333333333336%"><svg class="native-chart" viewBox="0 0 1120 430" role="img" aria-label="問5 8項目の実施率（n=39）。上4項目が体験・教育、下4項目が規制・分離。"><title>問5 8項目の実施率（n=39）。上4項目が体験・教育、下4項目が規制・分離。</title><line x1="170" y1="18" x2="170" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="170" y="368" text-anchor="middle" fill="#7E8BA8" font-size="16">0</text><line x1="400" y1="18" x2="400" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="400" y="368" text-anchor="middle" fill="#7E8BA8" font-size="16">20.52</text><line x1="630" y1="18" x2="630" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="630" y="368" text-anchor="middle" fill="#7E8BA8" font-size="16">41.05</text><line x1="860" y1="18" x2="860" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="860" y="368" text-anchor="middle" fill="#7E8BA8" font-size="16">61.57</text><line x1="1090" y1="18" x2="1090" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="1090" y="368" text-anchor="middle" fill="#7E8BA8" font-size="16">82.1</text><text x="156" y="44.125" text-anchor="end" fill="#E8F1FF" font-size="16">啓発・マナー遵守活動</text><text x="156" y="84.375" text-anchor="end" fill="#E8F1FF" font-size="16">危険生物の保全と利用者保護</text><text x="156" y="124.625" text-anchor="end" fill="#E8F1FF" font-size="16">保全体験イベント</text><text x="156" y="164.875" text-anchor="end" fill="#E8F1FF" font-size="16">自然素材を活用した施設</text><text x="156" y="205.125" text-anchor="end" fill="#E8F1FF" font-size="16">非立入区域と観察機会</text><text x="156" y="245.375" text-anchor="end" fill="#E8F1FF" font-size="16">レクリエーションの場所分け</text><text x="156" y="285.625" text-anchor="end" fill="#E8F1FF" font-size="16">外来種の調査・教育利用</text><text x="156" y="325.875" text-anchor="end" fill="#E8F1FF" font-size="16">分離配置・緩衝・光害抑制</text><rect x="170" y="24.0375" width="920" height="26.174999999999997" fill="#7C3AED"/><rect x="170" y="64.2875" width="861.7295980511572" height="26.174999999999997" fill="#7C3AED"/><rect x="170" y="104.5375" width="804.5797807551766" height="26.174999999999997" fill="#7C3AED"/><rect x="170" y="144.7875" width="804.5797807551766" height="26.174999999999997" fill="#7C3AED"/><rect x="170" y="185.0375" width="689.1595615103533" height="26.174999999999997" fill="#7C3AED"/><rect x="170" y="225.2875" width="632.0097442143727" height="26.174999999999997" fill="#7C3AED"/><rect x="170" y="265.5375" width="517.7101096224118" height="26.174999999999997" fill="#7C3AED"/><rect x="170" y="305.7875" width="488.57490864799036" height="26.174999999999997" fill="#7C3AED"/><line x1="170" y1="18" x2="170" y2="340" stroke="#E8F1FF" stroke-width="1"/><rect x="170" y="397" width="14" height="14" fill="#7C3AED"/><text x="192" y="410" text-anchor="start" fill="#E8F1FF" font-size="17">実施率</text><text x="1095" y="428" text-anchor="end" fill="#7E8BA8" font-size="16">%</text></svg><table class="chart-data"><caption>問5 8項目の実施率（n=39）。上4項目が体験・教育、下4項目が規制・分離。</caption><thead><tr><th></th><th>実施率</th></tr></thead><tbody><tr><th>啓発・マナー遵守活動</th><td>82.1</td></tr><tr><th>危険生物の保全と利用者保護</th><td>76.9</td></tr><tr><th>保全体験イベント</th><td>71.8</td></tr><tr><th>自然素材を活用した施設</th><td>71.8</td></tr><tr><th>非立入区域と観察機会</th><td>61.5</td></tr><tr><th>レクリエーションの場所分け</th><td>56.4</td></tr><tr><th>外来種の調査・教育利用</th><td>46.2</td></tr><tr><th>分離配置・緩衝・光害抑制</th><td>43.6</td></tr></tbody></table></div><div class="media-caption" style="left:6.3750000000159375%;top:85.06666666666666%;width:87.0000000002175%;height:4.666666666666666%">問5 8項目の実施率（n=39）。上4項目が体験・教育、下4項目が規制・分離。</div></div></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="22" tabindex="-1" role="button" aria-label="両立はソフトな調整とハードな調整に分かれる"><section class="slide slide--bullets" data-index="22" data-notes="30秒。都市公園は誰でも入れる公共空間だから、規制は反発を招きやすい、という解釈を口頭で。"><div class="slide-inner"><div class="kicker"></div><h2>両立はソフトな調整とハードな調整に分かれる</h2><ul><li style="--i:0">体験・教育・マナー：理解と協力を得る調整</li><li style="--i:1">空間分離・活動制限：正面の競合を扱う調整</li><li style="--i:2">「方針がなく実施していない」は場所分け・外来種で38.5％</li><li style="--i:3">規制・分離の判断は先送りされやすい</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="23" tabindex="-1" role="button" aria-label="公共性は確保し、高負荷利用は選別する"><section class="slide slide--chart" data-index="23" data-notes="35秒。ゴミ箱が25.6％と低い理由は公園ごとに異なる（保全の選択／処理費／収集体制）。"><div class="slide-inner"><div class="media-canvas"><h2 class="media-title" style="left:6.3750000000159375%;top:8.533333333333333%;width:87.0000000002175%;height:11.333333333333332%">公共性は確保し、高負荷利用は選別する</h2><div class="media-chart" style="left:6.3750000000159375%;top:24.666666666666668%;width:87.0000000002175%;height:59.333333333333336%"><svg class="native-chart" viewBox="0 0 1120 430" role="img" aria-label="問4 10項目の実施率（n=39）。安全・情報・アクセシビリティは高く、娯楽系は低い。"><title>問4 10項目の実施率（n=39）。安全・情報・アクセシビリティは高く、娯楽系は低い。</title><line x1="170" y1="18" x2="170" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="170" y="368" text-anchor="middle" fill="#7E8BA8" font-size="16">0</text><line x1="400" y1="18" x2="400" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="400" y="368" text-anchor="middle" fill="#7E8BA8" font-size="16">23.73</text><line x1="630" y1="18" x2="630" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="630" y="368" text-anchor="middle" fill="#7E8BA8" font-size="16">47.45</text><line x1="860.0000000000001" y1="18" x2="860.0000000000001" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="860.0000000000001" y="368" text-anchor="middle" fill="#7E8BA8" font-size="16">71.18</text><line x1="1090" y1="18" x2="1090" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="1090" y="368" text-anchor="middle" fill="#7E8BA8" font-size="16">94.9</text><text x="156" y="40.1" text-anchor="end" fill="#E8F1FF" font-size="16">危険生物の駆除</text><text x="156" y="72.3" text-anchor="end" fill="#E8F1FF" font-size="16">情報資料の提供</text><text x="156" y="104.5" text-anchor="end" fill="#E8F1FF" font-size="16">ペット連れ</text><text x="156" y="136.7" text-anchor="end" fill="#E8F1FF" font-size="16">非自然素材舗装</text><text x="156" y="168.9" text-anchor="end" fill="#E8F1FF" font-size="16">照明・楽器利用</text><text x="156" y="201.1" text-anchor="end" fill="#E8F1FF" font-size="16">昆虫採集の自由</text><text x="156" y="233.3" text-anchor="end" fill="#E8F1FF" font-size="16">飲食設備</text><text x="156" y="265.5" text-anchor="end" fill="#E8F1FF" font-size="16">外来生物の放流・餌付け</text><text x="156" y="297.7" text-anchor="end" fill="#E8F1FF" font-size="16">ゴミ箱の設置</text><text x="156" y="329.9" text-anchor="end" fill="#E8F1FF" font-size="16">水面利用</text><rect x="170" y="22.83" width="920" height="20.54" fill="#7C3AED"/><rect x="170" y="55.03" width="920" height="20.54" fill="#7C3AED"/><rect x="170" y="87.23" width="920" height="20.54" fill="#7C3AED"/><rect x="170" y="119.43" width="869.5890410958905" height="20.54" fill="#7C3AED"/><rect x="170" y="151.63000000000002" width="670.8535300316122" height="20.54" fill="#7C3AED"/><rect x="170" y="183.83" width="472.1180189673339" height="20.54" fill="#7C3AED"/><rect x="170" y="216.03000000000003" width="422.6765015806111" height="20.54" fill="#7C3AED"/><rect x="170" y="248.23000000000005" width="273.38250790305585" height="20.54" fill="#7C3AED"/><rect x="170" y="280.43" width="248.17702845100104" height="20.54" fill="#7C3AED"/><rect x="170" y="312.63" width="223.940990516333" height="20.54" fill="#7C3AED"/><line x1="170" y1="18" x2="170" y2="340" stroke="#E8F1FF" stroke-width="1"/><rect x="170" y="397" width="14" height="14" fill="#7C3AED"/><text x="192" y="410" text-anchor="start" fill="#E8F1FF" font-size="17">実施率</text><text x="1095" y="428" text-anchor="end" fill="#7E8BA8" font-size="16">%</text></svg><table class="chart-data"><caption>問4 10項目の実施率（n=39）。安全・情報・アクセシビリティは高く、娯楽系は低い。</caption><thead><tr><th></th><th>実施率</th></tr></thead><tbody><tr><th>危険生物の駆除</th><td>94.9</td></tr><tr><th>情報資料の提供</th><td>94.9</td></tr><tr><th>ペット連れ</th><td>94.9</td></tr><tr><th>非自然素材舗装</th><td>89.7</td></tr><tr><th>照明・楽器利用</th><td>69.2</td></tr><tr><th>昆虫採集の自由</th><td>48.7</td></tr><tr><th>飲食設備</th><td>43.6</td></tr><tr><th>外来生物の放流・餌付け</th><td>28.2</td></tr><tr><th>ゴミ箱の設置</th><td>25.6</td></tr><tr><th>水面利用</th><td>23.1</td></tr></tbody></table></div><div class="media-caption" style="left:6.3750000000159375%;top:85.06666666666666%;width:87.0000000002175%;height:4.666666666666666%">問4 10項目の実施率（n=39）。安全・情報・アクセシビリティは高く、娯楽系は低い。</div></div></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="24" tabindex="-1" role="button" aria-label="保全活動は広く実施されるが、在来種植栽だけが低い"><section class="slide slide--chart" data-index="24" data-notes="30秒。在来種植栽だけが約20ポイント低い。「見える作業は進むが、方針・基準は定着しにくい」とまとめる。"><div class="slide-inner"><div class="media-canvas"><h2 class="media-title" style="left:6.3750000000159375%;top:8.533333333333333%;width:87.0000000002175%;height:11.333333333333332%">保全活動は広く実施されるが、在来種植栽だけが低い</h2><div class="media-chart" style="left:6.3750000000159375%;top:24.666666666666668%;width:87.0000000002175%;height:59.333333333333336%"><svg class="native-chart" viewBox="0 0 1120 430" role="img" aria-label="問2 4項目の実施率。他に案内・展示84.6％、環境教育82.1％、環境調査74.4％、検討会議71.8％。"><title>問2 4項目の実施率。他に案内・展示84.6％、環境教育82.1％、環境調査74.4％、検討会議71.8％。</title><line x1="82" y1="340" x2="1090" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="70" y="346" text-anchor="end" fill="#7E8BA8" font-size="16">0</text><line x1="82" y1="259.5" x2="1090" y2="259.5" stroke="#7E8BA866" stroke-width="1"/><text x="70" y="265.5" text-anchor="end" fill="#7E8BA8" font-size="16">22.43</text><line x1="82" y1="179" x2="1090" y2="179" stroke="#7E8BA866" stroke-width="1"/><text x="70" y="185" text-anchor="end" fill="#7E8BA8" font-size="16">44.85</text><line x1="82" y1="98.5" x2="1090" y2="98.5" stroke="#7E8BA866" stroke-width="1"/><text x="70" y="104.5" text-anchor="end" fill="#7E8BA8" font-size="16">67.28</text><line x1="82" y1="18" x2="1090" y2="18" stroke="#7E8BA866" stroke-width="1"/><text x="70" y="24" text-anchor="end" fill="#7E8BA8" font-size="16">89.7</text><text x="208" y="370" text-anchor="middle" fill="#E8F1FF" font-size="16">環境調整活動</text><text x="460" y="370" text-anchor="middle" fill="#E8F1FF" font-size="16">外来生物の駆除</text><text x="712" y="370" text-anchor="middle" fill="#E8F1FF" font-size="16">野生動植物の保護</text><text x="964" y="370" text-anchor="middle" fill="#E8F1FF" font-size="16">在来種植栽</text><rect x="119.8" y="18" width="173.39999999999998" height="322" fill="#7C3AED"/><rect x="371.8" y="18" width="173.39999999999998" height="322" fill="#7C3AED"/><rect x="623.8" y="26.97435897435895" width="173.39999999999998" height="313.02564102564105" fill="#7C3AED"/><rect x="875.8" y="155.84615384615387" width="173.39999999999998" height="184.15384615384613" fill="#7C3AED"/><line x1="82" y1="340" x2="1090" y2="340" stroke="#E8F1FF" stroke-width="1"/><rect x="82" y="397" width="14" height="14" fill="#7C3AED"/><text x="104" y="410" text-anchor="start" fill="#E8F1FF" font-size="17">実施率</text><text x="1095" y="428" text-anchor="end" fill="#7E8BA8" font-size="16">%</text></svg><table class="chart-data"><caption>問2 4項目の実施率。他に案内・展示84.6％、環境教育82.1％、環境調査74.4％、検討会議71.8％。</caption><thead><tr><th></th><th>実施率</th></tr></thead><tbody><tr><th>環境調整活動</th><td>89.7</td></tr><tr><th>外来生物の駆除</th><td>89.7</td></tr><tr><th>野生動植物の保護</th><td>87.2</td></tr><tr><th>在来種植栽</th><td>51.3</td></tr></tbody></table></div><div class="media-caption" style="left:6.3750000000159375%;top:85.06666666666666%;width:87.0000000002175%;height:4.666666666666666%">問2 4項目の実施率。他に案内・展示84.6％、環境教育82.1％、環境調査74.4％、検討会議71.8％。</div></div></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="25" tabindex="-1" role="button" aria-label="保全は行政単独ではなく分業・協働で担われる"><section class="slide slide--bullets" data-index="25" data-notes="35秒。案内・展示は指定管理者14.4％、環境教育は専門家15.6％——運営の仕事と専門の仕事が分かれている。"><div class="slide-inner"><div class="kicker"></div><h2>保全は行政単独ではなく分業・協働で担われる</h2><ul><li style="--i:0">行政：検討会議20.7％を中心に全体をカバー</li><li style="--i:1">利用者・近隣住民：外来生物の駆除26.5％</li><li style="--i:2">教育機関：環境調査26.3％／専門家：環境教育15.6％</li><li style="--i:3">空白：在来種植栽はどの主体でも2.6〜13.0％</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="26" tabindex="-1" role="button" aria-label="39公園の全体像は三つの偏りとして整理できる"><section class="slide slide--bullets" data-index="26" data-notes="35秒。四象限の代わりに四枚のカードとして口頭で整理。最後の共通課題を次頁のSEMへつなぐ。"><div class="slide-inner"><div class="kicker"></div><h2>39公園の全体像は三つの偏りとして整理できる</h2><ul><li style="--i:0">環境重視：直接的な生態管理は活発</li><li style="--i:1">両立：体験・教育・マナーに偏る</li><li style="--i:2">利用者重視：公共性を確保し高負荷利用を選別</li><li style="--i:3">体制：多様な主体の分業・協働</li><li style="--i:4">共通課題：在来種植栽、規制・分離、専門性・人員・予算</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="27" tabindex="-1" role="button" aria-label="体制の強さが環境重視と両立に正に関連した"><section class="slide slide--table" data-index="27" data-notes="35秒。正の関連は緑、負は赤で示す想定。係数は標準化推定値。0.84が最も強い。"><div class="slide-inner"><div class="kicker">SEMでは、体制の強さが環境重視と両立に正に関連した</div><h2>体制の強さが環境重視と両立に正に関連した</h2><table class="deck-table"><thead><tr><th>パス</th><th>係数</th></tr></thead><tbody><tr><td>社会的規範 → 環境重視的行動</td><td class="num">0.84</td></tr><tr><td>社会的規範 → 両立的行動</td><td class="num">0.65</td></tr><tr><td>環境的質 → 環境重視的行動</td><td>−0.51</td></tr><tr><td>環境的質 → 両立的行動</td><td class="num">0.42</td></tr><tr><td>社会的規範 → 利用者重視的行動</td><td>−0.18</td></tr></tbody></table></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="28" tabindex="-1" role="button" aria-label="説明力は行動で異なり、利用者重視は残る"><section class="slide slide--chart" data-index="28" data-notes="30秒。0.98は共通方法分散の影響も疑う必要がある、と自分から言っておく。"><div class="slide-inner"><div class="media-canvas"><h2 class="media-title" style="left:6.3750000000159375%;top:8.533333333333333%;width:87.0000000002175%;height:11.333333333333332%">説明力は行動で異なり、利用者重視は残る</h2><div class="media-chart" style="left:6.3750000000159375%;top:24.666666666666668%;width:87.0000000002175%;height:59.333333333333336%"><svg class="native-chart" viewBox="0 0 1120 430" role="img" aria-label="決定係数 R²（n=39）。利用者重視的行動は現在のモデルでは説明されない。"><title>決定係数 R²（n=39）。利用者重視的行動は現在のモデルでは説明されない。</title><line x1="82" y1="340" x2="1090" y2="340" stroke="#7E8BA866" stroke-width="1"/><text x="70" y="346" text-anchor="end" fill="#7E8BA8" font-size="16">0</text><line x1="82" y1="259.5" x2="1090" y2="259.5" stroke="#7E8BA866" stroke-width="1"/><text x="70" y="265.5" text-anchor="end" fill="#7E8BA8" font-size="16">0.245</text><line x1="82" y1="179" x2="1090" y2="179" stroke="#7E8BA866" stroke-width="1"/><text x="70" y="185" text-anchor="end" fill="#7E8BA8" font-size="16">0.49</text><line x1="82" y1="98.5" x2="1090" y2="98.5" stroke="#7E8BA866" stroke-width="1"/><text x="70" y="104.5" text-anchor="end" fill="#7E8BA8" font-size="16">0.735</text><line x1="82" y1="18" x2="1090" y2="18" stroke="#7E8BA866" stroke-width="1"/><text x="70" y="24" text-anchor="end" fill="#7E8BA8" font-size="16">0.98</text><text x="250" y="370" text-anchor="middle" fill="#E8F1FF" font-size="16">環境重視的行動</text><text x="586" y="370" text-anchor="middle" fill="#E8F1FF" font-size="16">両立的行動</text><text x="922" y="370" text-anchor="middle" fill="#E8F1FF" font-size="16">利用者重視的行動</text><rect x="132.4" y="18" width="232.2" height="322" fill="#7C3AED"/><rect x="468.4" y="142.85714285714286" width="232.2" height="197.14285714285714" fill="#7C3AED"/><rect x="804.4" y="330.14285714285717" width="232.2" height="9.857142857142833" fill="#7C3AED"/><line x1="82" y1="340" x2="1090" y2="340" stroke="#E8F1FF" stroke-width="1"/><rect x="82" y="397" width="14" height="14" fill="#7C3AED"/><text x="104" y="410" text-anchor="start" fill="#E8F1FF" font-size="17">R²</text></svg><table class="chart-data"><caption>決定係数 R²（n=39）。利用者重視的行動は現在のモデルでは説明されない。</caption><thead><tr><th></th><th>R²</th></tr></thead><tbody><tr><th>環境重視的行動</th><td>0.98</td></tr><tr><th>両立的行動</th><td>0.6</td></tr><tr><th>利用者重視的行動</th><td>0.03</td></tr></tbody></table></div><div class="media-caption" style="left:6.3750000000159375%;top:85.06666666666666%;width:87.0000000002175%;height:4.666666666666666%">決定係数 R²（n=39）。利用者重視的行動は現在のモデルでは説明されない。</div></div></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="29" tabindex="-1" role="button" aria-label="管理行動は六つの解釈的類型に整理できる"><section class="slide slide--table" data-index="29" data-notes="35秒。これは公園の主たる特徴を整理する解釈的枠組みであり、因果的分類でも一般化でもない。"><div class="slide-inner"><h2>管理行動は六つの解釈的類型に整理できる</h2><table class="deck-table"><thead><tr><th>方向性</th><th>類型</th></tr></thead><tbody><tr><td>環境重視</td><td>再生型／保全型</td></tr><tr><td>両立</td><td>体験・教育型／空間分離型／総合型</td></tr><tr><td>利用者重視</td><td>選別型</td></tr></tbody></table></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="30" tabindex="-1" role="button" aria-label="限界から示せるのは探索的な構造関連まで"><section class="slide slide--bullets" data-index="30" data-notes="35秒。ここを先に言い切ると、質疑で「因果」を問われても答えやすい。"><div class="slide-inner"><div class="kicker"></div><h2>限界から示せるのは探索的な構造関連まで</h2><ul><li style="--i:0">n=39、GFI=0.749、AGFI=0.659</li><li style="--i:1">NDVIは生物多様性そのものではない</li><li style="--i:2">横断的・自己申告データである</li><li style="--i:3">観測変数が複数の潜在変数に負荷する</li><li style="--i:4">したがって因果決定や一般化は主張しない</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="31" tabindex="-1" role="button" aria-label="ここから視点を、管理者から利用者へ移す"><section class="slide slide--statement" data-index="31" data-notes="30秒。視点の転換。ここで一度、声を落として間を取る。"><div class="slide-inner"><div class="kicker"></div><div class="statement-title">ここから視点を、管理者から利用者へ移す</div><div class="subtitle">管理者が選ぶ三つの行動を確認した。次に問うのは、その方針が利用者にどう受け止められるかである。</div></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="32" tabindex="-1" role="button" aria-label="認識→賛成→協力の三段階で整理する"><section class="slide slide--bullets" data-index="32" data-notes="30秒。矢印は分析上の整理であり、時間順や因果を証明するものではない。"><div class="slide-inner"><div class="kicker"></div><h2>認識→賛成→協力の三段階で整理する</h2><ul><li style="--i:0">広瀬モデル：目標意図→行動意図→実行</li><li style="--i:1">本研究：認識→賛成→協力</li><li style="--i:2">分析：単純集計・クロス集計・相関分析</li><li style="--i:3">注意：協力は参加意向・希望形態として測定</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="33" tabindex="-1" role="button" aria-label="研究Ⅲは設計が確定し、分析と執筆が進行中である"><section class="slide slide--bullets" data-index="33" data-notes="25秒。結果がないことを曖昧にしない。ここを誤魔化すと全体の信頼を失う。"><div class="slide-inner"><div class="kicker"></div><h2>研究Ⅲは設計が確定し、分析と執筆が進行中である</h2><ul><li style="--i:0">調査設計：確定</li><li style="--i:1">分析・執筆：進行中</li><li style="--i:2">結果：本報告では提示しない</li><li style="--i:3">期待：管理者と利用者の受け止めを比較する基礎をつくる</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="34" tabindex="-1" role="button" aria-label="三つの研究は枠組み→関連→受容へ接続する"><section class="slide slide--bullets" data-index="34" data-notes="35秒。全篇で最も重要な構造頁。四段階を指で追いながら、各章が何を答えたかを一言ずつ。"><div class="slide-inner"><div class="kicker"></div><h2>三つの研究は枠組み→関連→受容へ接続する</h2><ul><li style="--i:0">研究Ⅰ：質的に枠組みをつくる</li><li style="--i:1">研究Ⅱ：39公園で管理行動との関連を探索する</li><li style="--i:2">研究Ⅲ：利用者の認識・賛成・参加意向を検討する</li><li style="--i:3">総合：管理者と利用者の視点を比較する</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="35" tabindex="-1" role="button" aria-label="比較できる論点を限定して両者を突き合わせる"><section class="slide slide--bullets" data-index="35" data-notes="35秒。比較できる範囲を先に限定する。第5章の分析前なので、差の内容は確定しない。"><div class="slide-inner"><div class="kicker"></div><h2>比較できる論点を限定して両者を突き合わせる</h2><ul><li style="--i:0">管理者側：体制・環境的質・要請→三つの行動</li><li style="--i:1">利用者側：認識・賛成・参加意向</li><li style="--i:2">比較論点：優先順位、コンセプトの受け止め、参加の可能性</li><li style="--i:3">限界：単園の利用者と全国の管理者は直接比較できない</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="36" tabindex="-1" role="button" aria-label="示唆は五つ、鍵は体制とコミュニケーション"><section class="slide slide--bullets" data-index="36" data-notes="35秒。「有効」「必ず成立する」といった因果語は使わない。示唆は条件つきで述べる。"><div class="slide-inner"><div class="kicker"></div><h2>示唆は五つ、鍵は体制とコミュニケーション</h2><ul><li style="--i:0">公的・指定管理と市民・専門家協働を含む体制</li><li style="--i:1">NDVI等の環境条件に応じた段階的目標</li><li style="--i:2">規制と体験・教育の組合せ</li><li style="--i:3">在来種植栽の継続的な担い手</li><li style="--i:4">中間支援組織の役割の検討</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="37" tabindex="-1" role="button" aria-label="結論は四点、利用者側は分析後に確定する"><section class="slide slide--bullets" data-index="37" data-notes="40秒。④は点線枠＝第5章の分析後に確定、と口頭で明示。"><div class="slide-inner"><div class="kicker"></div><h2>結論は四点、利用者側は分析後に確定する</h2><ul><li style="--i:0">管理行動は一様でなく、場所の条件・体制と関連する</li><li style="--i:1">環境重視と両立は社会的規範と関連し、環境的質との方向は異なる</li><li style="--i:2">両立は体験・教育に偏り、規制・分離と在来種植栽に課題が残る</li><li style="--i:3">利用者の認識・賛成・参加意向を加え、両者の関係を検討する（分析中）</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="38" tabindex="-1" role="button" aria-label="主要参考文献は8点、いずれも本報告の根幹に関わる"><section class="slide slide--bullets" data-index="38" data-notes="25秒。8点のみ。完全な文献表は論文末尾に置く。"><div class="slide-inner"><div class="kicker"></div><h2>主要参考文献は8点、いずれも本報告の根幹に関わる</h2><ul><li style="--i:0">Ajzen (1991) Theory of Planned Behavior</li><li style="--i:1">Gobster (2001) Urban park restoration conflict</li><li style="--i:2">Monz et al. (2013) Recreation ecology</li><li style="--i:3">Aronson et al. (2017) Urban biodiversity management</li><li style="--i:4">Brocki et al. (2025) Managers' biodiversity implementation</li><li style="--i:5">Chen &amp; Fukahori (2026) Urban Forestry &amp; Urban Greening, 100, 129577</li><li style="--i:6">Pettorelli et al. (2005) NDVI</li><li style="--i:7">環境省 (2022, 2023) 30by30・国家戦略</li></ul></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+<div class="slide-frame" data-frame="39" tabindex="-1" role="button" aria-label="ご清聴ありがとうございました"><section class="slide slide--closing" data-index="39" data-notes="15秒。質問を歓迎する姿勢で締める。想定質問：因果／n=39／利用者態度の定義／第5章の時期。"><div class="slide-inner"><h1>ご清聴ありがとうございました</h1><div class="subtitle">ご意見・ご質問をお待ちしています。詳細は論文第3〜5章でご確認ください。</div><div class="meta">Generated with dsh-ppt</div></div><div class="brand-footer">博士論文中間報告｜2026.10</div></section></div>
+</div>
+<div id="hud" aria-live="polite">
+  <span id="counter">Slide 1 / 39</span>
+  <button id="previous-slide" type="button" aria-label="Previous slide">←</button><input id="page-number" type="number" min="1" max="39" value="1" aria-label="Go to slide"><button id="next-slide" type="button" aria-label="Next slide">→</button>
+  <span id="theme-label">Theme · Data Drift</span>
+  <button id="notes-toggle" type="button" title="S · Notes" aria-controls="notes-panel" aria-expanded="false">Notes</button>
+  <button id="presenter-toggle" type="button" title="V · Presenter">Presenter</button>
+  <button id="overview-toggle" type="button" title="G · Overview" aria-pressed="false">Overview</button>
+  <button id="help-toggle" type="button" title="?" aria-label="Keyboard shortcuts">?</button>
+  <button id="fullscreen" type="button" title="F · Fullscreen" aria-label="Fullscreen">⛶</button>
+</div>
+<div id="notes-panel" role="region" aria-label="Speaker notes">
+  <div class="notes-head">
+    <span class="notes-label">Speaker notes</span>
+    <button id="notes-close" type="button" aria-label="Close notes">×</button>
+  </div>
+  <div id="notes-text"></div>
+</div>
+<div id="help-panel" hidden>
+  <div class="notes-label">Keyboard shortcuts</div>
+  <p><kbd>←</kbd> <kbd>→</kbd> / <kbd>Space</kbd> 翻页 · <kbd>Home</kbd> / <kbd>End</kbd> 首末页 · <kbd>S</kbd> Notes · <kbd>V</kbd> Presenter · <kbd>G</kbd> Overview · <kbd>F</kbd> 全屏 · <kbd>P</kbd> 打印 · <kbd>B</kbd> 黑屏 · <kbd>W</kbd> 白屏 · <kbd>Esc</kbd> Close · <kbd>?</kbd> Keyboard shortcuts</p>
+  <p>Notes: S shows them on top until a presenter window is open; afterwards only in the presenter window.</p>
+  <p>Click a thumbnail to jump; arrows move, Enter opens, Esc exits</p>
+</div>
+<div id="toast" role="status" hidden></div>
+<div id="blank" aria-hidden="true"></div>
+<script>
+(() => {
+  const frames = Array.from(document.querySelectorAll('.slide-frame'));
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const counter = document.getElementById('counter');
+  const progress = document.getElementById('progress');
+  const fullscreenBtn = document.getElementById('fullscreen');
+  const notesPanel = document.getElementById('notes-panel');
+  const notesText = document.getElementById('notes-text');
+  const notesBtn = document.getElementById('notes-toggle');
+  const notesClose = document.getElementById('notes-close');
+  const presenterBtn = document.getElementById('presenter-toggle');
+  const overviewBtn = document.getElementById('overview-toggle');
+  const helpBtn = document.getElementById('help-toggle');
+  const helpPanel = document.getElementById('help-panel');
+  const toastEl = document.getElementById('toast');
+  let index = 0;
+  let syncDelivery = () => {};
+  let presenterWin = null;
+  let presenterInitSent = false;
+  let toastTimer = 0;
+  const total = slides.length;
+  const ui = {"slide":"Slide","of":"/","theme":"Theme","help":"← → navigate · F fullscreen · G overview · S notes · P print","coverKicker":"Opening","pointKicker":"Key point","statementKicker":"Core idea","quoteKicker":"Quote","tableKicker":"Data","continuation":" (continued)","notesLabel":"Speaker notes","notesToggle":"Notes","closingTitle":"Thank You","closingSubtitle":"Discussion & Q&A","generatedBy":"Generated with dsh-ppt","overviewToggle":"Overview","presenterToggle":"Presenter","presenterLabel":"Presenter view","helpTitle":"Keyboard shortcuts","noNotes":"(No notes on this slide)","closeLabel":"Close","currentLabel":"Current","nextLabel":"Next","timerLabel":"Timer","presenterHint":"Notes: S shows them on top until a presenter window is open; afterwards only in the presenter window.","wrapHint":"Wrapped to","popupBlocked":"The presenter window was blocked. Allow pop-ups and press V to retry.","fullscreenUnavailable":"Fullscreen is unavailable here. Open the presentation in a browser tab and try again.","notesCloseLabel":"Close notes","overviewHint":"Click a thumbnail to jump; arrows move, Enter opens, Esc exits"};
+
+  function notesOf(i) { return slides[i] && slides[i].dataset ? (slides[i].dataset.notes || '') : ''; }
+  function titleOf(i) {
+    const el = slides[i] ? slides[i].querySelector('h1,h2,.statement-title,.quote-text') : null;
+    return el ? el.textContent.trim() : '';
+  }
+  function state() {
+    const next = (index + 1) % total;
+    return { index: index, total: total, title: titleOf(index), notes: notesOf(index), nextTitle: titleOf(next), nextNotes: notesOf(next) };
+  }
+  window.__dshPpt = { go: function (delta) { go(index + delta); }, jump: function (i) { go(i); }, state: state };
+
+  function toast(message) {
+    toastEl.textContent = message;
+    toastEl.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toastEl.hidden = true; }, 2600);
+  }
+
+  function syncNotes() {
+    const notes = notesOf(index);
+    notesText.textContent = notes || ui.noNotes;
+    notesText.classList.toggle('is-empty', notes === '');
+    notesBtn.setAttribute('aria-expanded', document.body.classList.contains('notes-open') ? 'true' : 'false');
+    updatePresenter();
+  }
+
+  function sendInit() {
+    if (!presenterOpen()) return;
+    try {
+      presenterWin.postMessage({
+        __dshPpt: 'init',
+        title: (document.title.split(' · ')[1] || document.title),
+        css: document.querySelector('style') ? document.querySelector('style').textContent : '',
+        total: total,
+        slides: slides.map(function (slide) { return slide.outerHTML; }),
+      }, '*');
+    } catch (_) { /* popup closing */ }
+  }
+
+  function sendState() {
+    if (!presenterOpen()) return;
+    const next = (index + 1) % total;
+    try {
+      presenterWin.postMessage({
+        __dshPpt: 'state',
+        index: index,
+        total: total,
+        title: titleOf(index),
+        nextTitle: titleOf(next),
+        notes: notesOf(index),
+        nextNotes: notesOf(next),
+        blank: document.body.classList.contains('blank-black') ? 'black' : (document.body.classList.contains('blank-white') ? 'white' : null),
+      }, '*');
+    } catch (_) { /* popup closing */ }
+  }
+
+  function updatePresenter() { sendState(); }
+
+  function go(next) {
+    if (document.body.classList.contains('blank-black') || document.body.classList.contains('blank-white')) setBlank(null);
+    const wrapped = next < 0 || next >= total;
+    index = (next + total) % total;
+    slides.forEach(function (slide, i) {
+      slide.classList.toggle('is-active', i === index);
+      if (frames[i]) frames[i].classList.toggle('is-current', i === index);
+    });
+    counter.textContent = ui.slide + ' ' + (index + 1) + ' ' + ui.of + ' ' + total;
+    syncDelivery(index);
+    progress.style.width = ((index + 1) / total * 100) + '%';
+    document.title = (index + 1) + ' / ' + total + ' · ' + "公園緑地における自然再生と施設利用の両立に関する研究";
+    try { history.replaceState?.(null, '', '#slide-' + (index + 1)); } catch (_) { /* file:// 下个别浏览器可能拒绝 */ }
+    if (wrapped) toast(ui.wrapHint + ' ' + (index + 1) + ' / ' + total);
+    syncNotes();
+  }
+
+  function notesOpen() { return document.body.classList.contains('notes-open'); }
+  function presenterOpen() { try { return !!(presenterWin && !presenterWin.closed); } catch (_) { return false; } }
+
+  function setNotes(on) {
+    document.body.classList.toggle('notes-open', on);
+    if (on) setOverview(false);
+    syncNotes();
+  }
+
+  function updateThumbScale() {
+    if (!document.body.classList.contains('overview')) return;
+    requestAnimationFrame(function () {
+      const width = frames[0] ? frames[0].getBoundingClientRect().width : 0;
+      if (width > 0) {
+        document.documentElement.style.setProperty('--deck-thumb-scale', String(width / 1280));
+        document.documentElement.style.setProperty('--deck-thumb-height', String(width * 9 / 16) + 'px');
+      }
+    });
+  }
+
+  function setOverview(on) {
+    document.body.classList.toggle('overview', on);
+    overviewBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    frames.forEach(function (frame) { frame.tabIndex = on ? 0 : -1; });
+    if (on) {
+      document.body.classList.remove('notes-open');
+      helpPanel.hidden = true;
+      syncNotes();
+      updateThumbScale();
+    }
+  }
+
+  function presenterHtml() {
+    const labelCurrent = "Current";
+    const labelNext = "Next";
+    const labelNotes = "Speaker notes";
+    const noNotes = "(No notes on this slide)";
+    const hintText = "← → 翻页 · P 暂停 · T 重置 · +/- 字号 · B/W 黑/白屏 · Esc 结束";
+    const deckTitle = "公園緑地における自然再生と施設利用の両立に関する研究";
+    const langAttr = "en-US";
+    const cs = getComputedStyle(document.documentElement);
+    const val = function (name, fallback) { const v = cs.getPropertyValue(name).trim(); return v || fallback; };
+    const css = [
+      ':root{--bg:' + val('--bg', '#070B14') + ';--panel:' + val('--panel', '#0D1424') + ';--fg:' + val('--fg', '#E8F1FF') + ';--muted:' + val('--muted', '#7E8BA8') + ';--accent:' + val('--accent', '#7C3AED') + ';--accent2:' + val('--accent2', '#06B6D4') + ';--font-heading:' + val('--font-heading', 'sans-serif') + ';--font-body:' + val('--font-body', 'sans-serif') + '}',
+      '*{box-sizing:border-box}',
+      'body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font-body);height:100vh;display:flex;flex-direction:column;overflow:hidden}',
+      'header{display:flex;align-items:center;gap:14px;padding:9px 16px;border-bottom:1px solid color-mix(in srgb, var(--muted) 40%, transparent);font-size:13px;color:var(--muted)}',
+      'header #ptitle{color:var(--fg);font-weight:700;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+      'header #pclock{font-variant-numeric:tabular-nums}',
+      'main{flex:1;display:grid;grid-template-columns:1.12fr .88fr;gap:12px;padding:12px 16px;min-height:0}',
+      '.col{display:flex;flex-direction:column;gap:10px;min-height:0}',
+      '.card{background:var(--panel);border:1px solid color-mix(in srgb, var(--muted) 30%, transparent);border-radius:12px;padding:10px 12px;min-height:0;display:flex;flex-direction:column;gap:6px}',
+      '.card-notes{flex:1}',
+      '.lbl{color:var(--accent);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}',
+      '.pv{position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:8px;background:var(--bg);border:1px solid color-mix(in srgb, var(--muted) 25%, transparent);--pv-scale:.3}',
+      '.pv-slide{position:absolute;left:0;top:0;transform:translate(var(--pv-x,0px),var(--pv-y,0px)) scale(var(--pv-scale,.25));transform-origin:top left}',
+      '.pv-slide .slide{display:flex !important;position:absolute;left:0;top:0;width:100vw;height:100vh;animation:none !important}',
+      '.pv-slide .bullets li{opacity:1 !important;animation:none !important}',
+      '#thumbs{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}',
+      '#thumbs .thumb{position:relative;flex:0 0 128px;aspect-ratio:16/9;border-radius:8px;overflow:hidden;border:1px solid color-mix(in srgb, var(--muted) 35%, transparent);cursor:pointer;background:var(--bg);--pv-scale:.09}',
+      '#thumbs .thumb.is-current{outline:2px solid var(--accent);outline-offset:1px}',
+      '#pnotes{font-size:var(--notes-size,19px);line-height:1.6;white-space:pre-wrap;overflow:auto;flex:1}',
+      'footer{display:flex;align-items:center;gap:8px;padding:9px 16px;border-top:1px solid color-mix(in srgb, var(--muted) 40%, transparent);flex-wrap:wrap}',
+      'button{background:color-mix(in srgb, var(--panel) 90%, transparent);color:var(--fg);border:1px solid color-mix(in srgb, var(--muted) 45%, transparent);border-radius:99px;padding:6px 12px;min-height:34px;font:inherit;font-size:13px;cursor:pointer}',
+      'button:hover{border-color:var(--accent);color:var(--accent)}',
+      'button[aria-pressed="true"]{background:var(--accent);color:var(--bg);border-color:var(--accent)}',
+      '#ptimer{font-variant-numeric:tabular-nums;font-size:20px;font-weight:700;color:var(--accent);margin-left:6px}',
+      '.bar{flex:1;min-width:100px;height:8px;background:color-mix(in srgb, var(--muted) 28%, transparent);border-radius:99px;overflow:hidden}',
+      '#pprog{height:100%;width:0;background:var(--accent);transition:width .2s}',
+      '.hint{color:var(--muted);font-size:11px;width:100%}',
+    ].join('');
+    const js = [
+      'var total=0,index=0,elapsed=0,started=Date.now(),paused=false,notesSize=19,slides=[],cssText="",curBlank=null,initialized=false,readyTries=0;',
+      'function q(id){return document.getElementById(id)}',
+      'function post(m){try{if(window.opener)window.opener.postMessage(m,"*")}catch(e){}}',
+      'function fmt(ms){var s=Math.max(0,Math.floor(ms/1000)),m=Math.floor(s/60);s=s%60;var h=Math.floor(m/60);m=m%60;return (h>0?(h<10?"0":"")+h+":":"")+(m<10?"0":"")+m+":"+(s<10?"0":"")+s}',
+      'function clock(){var d=new Date();return ("0"+d.getHours()).slice(-2)+":"+("0"+d.getMinutes()).slice(-2)+":"+("0"+d.getSeconds()).slice(-2)}',
+      'function tick(){if(!paused)elapsed=Date.now()-started;q("ptimer").textContent=fmt(elapsed);q("pclock").textContent=clock();if(window.requestAnimationFrame)requestAnimationFrame(tick);else setTimeout(tick,250)}',
+      'function fitBox(box){var rw=box.clientWidth||320,rh=box.clientHeight||180;var s=Math.min(rw/window.innerWidth,rh/window.innerHeight);var ox=(rw-window.innerWidth*s)/2,oy=(rh-window.innerHeight*s)/2;box.style.setProperty("--pv-scale",String(s));box.style.setProperty("--pv-x",ox+"px");box.style.setProperty("--pv-y",oy+"px")}',
+      'function fit(){fitBox(q("pv-cur"));fitBox(q("pv-next"));var th=q("thumbs").children;for(var i=0;i<th.length;i++){fitBox(th[i])}}',
+      'function setSlide(box,html){box.innerHTML="";var f=document.createElement("div");f.className="pv-slide";f.innerHTML=html;box.appendChild(f)}',
+      'function buildThumbs(){var box=q("thumbs");box.innerHTML="";slides.forEach(function(html,i){var t=document.createElement("div");t.className="thumb";var f=document.createElement("div");f.className="pv-slide";f.innerHTML=html;t.appendChild(f);t.addEventListener("click",function(){post({__dshPpt:"cmd",kind:"go",index:i})});box.appendChild(t)});fit()}',
+      'function renderState(st){index=st.index;total=st.total||total;q("pcounter").textContent=(index+1)+" / "+total;setSlide(q("pv-cur"),slides[index]||"");setSlide(q("pv-next"),slides[(index+1)%total]||"");q("pnotes").textContent=st.notes||' + JSON.stringify(ui.noNotes) + ';q("pprog").style.width=((index+1)/total*100)+"%";curBlank=st.blank||null;q("pv-black").setAttribute("aria-pressed",curBlank==="black"?"true":"false");q("pv-white").setAttribute("aria-pressed",curBlank==="white"?"true":"false");q("pv-black").textContent=curBlank==="black"?"取消黑屏":"黑屏";q("pv-white").textContent=curBlank==="white"?"取消白屏":"白屏";var th=q("thumbs").children;for(var i=0;i<th.length;i++){th[i].classList.toggle("is-current",i===index)}fit()}',
+      'function togglePause(){paused=!paused;if(!paused)started=Date.now()-elapsed;var b=q("pause");b.setAttribute("aria-pressed",paused?"true":"false");b.textContent=paused?"继续":"暂停"}',
+      'function resetTimer(){started=Date.now();elapsed=0}',
+      'function applyNotesSize(){document.documentElement.style.setProperty("--notes-size",notesSize+"px")}',
+      'window.addEventListener("message",function(e){var d=e.data||{};if(d.__dshPpt==="init"&&!initialized){initialized=true;slides=d.slides||[];total=d.total||slides.length;cssText=d.css||"";var st=document.createElement("style");st.textContent=cssText;document.head.appendChild(st);q("ptitle").textContent=d.title||"";buildThumbs()}else if(d.__dshPpt==="state"){renderState(d)}else if(d.__dshPpt==="close"){window.close()}});',
+      'window.addEventListener("resize",fit);',
+      'window.addEventListener("beforeunload",function(){post({__dshPpt:"cmd",kind:"closed"})});',
+      'document.addEventListener("keydown",function(e){var k=e.key;if(k==="ArrowRight"||k===" "){e.preventDefault();post({__dshPpt:"cmd",kind:"go",delta:1})}else if(k==="ArrowLeft"){e.preventDefault();post({__dshPpt:"cmd",kind:"go",delta:-1})}else if(k==="Escape"){post({__dshPpt:"cmd",kind:"end"});window.close()}else if(k.toLowerCase()==="p"){togglePause()}else if(k.toLowerCase()==="t"){resetTimer()}else if(k==="+"||k==="="){notesSize=Math.min(34,notesSize+2);applyNotesSize()}else if(k==="-"){notesSize=Math.max(12,notesSize-2);applyNotesSize()}else if(k.toLowerCase()==="b"){post({__dshPpt:"cmd",kind:"blank",color:curBlank==="black"?null:"black"})}else if(k.toLowerCase()==="w"){post({__dshPpt:"cmd",kind:"blank",color:curBlank==="white"?null:"white"})}});',
+      'q("prev").addEventListener("click",function(){post({__dshPpt:"cmd",kind:"go",delta:-1})});',
+      'q("next").addEventListener("click",function(){post({__dshPpt:"cmd",kind:"go",delta:1})});',
+      'q("pause").addEventListener("click",togglePause);',
+      'q("reset").addEventListener("click",resetTimer);',
+      'q("font-plus").addEventListener("click",function(){notesSize=Math.min(34,notesSize+2);applyNotesSize()});',
+      'q("font-minus").addEventListener("click",function(){notesSize=Math.max(12,notesSize-2);applyNotesSize()});',
+      'q("pv-black").addEventListener("click",function(){post({__dshPpt:"cmd",kind:"blank",color:curBlank==="black"?null:"black"})});',
+      'q("pv-white").addEventListener("click",function(){post({__dshPpt:"cmd",kind:"blank",color:curBlank==="white"?null:"white"})});',
+      'q("end").addEventListener("click",function(){post({__dshPpt:"cmd",kind:"end"});window.close()});',
+      'applyNotesSize();tick();function ready(){if(initialized)return;post({__dshPpt:"ready"});readyTries++;if(readyTries<5)setTimeout(ready,700)}setTimeout(ready,250);',
+    ].join('');
+    return '<!DOCTYPE html><html lang="' + langAttr + '"><head><meta charset="UTF-8"><title>' + deckTitle + ' · 演讲者视图</title><style>' + css + '</style></head><body>'
+      + '<header><div id="ptitle"></div><div id="pcounter"></div><div id="pclock" title="本地时间"></div></header>'
+      + '<main><div class="col">'
+      + '<div class="card"><div class="lbl">' + labelCurrent + '</div><div class="pv" id="pv-cur"></div></div>'
+      + '<div class="card"><div class="lbl">' + labelNext + '</div><div class="pv" id="pv-next"></div></div>'
+      + '<div class="card"><div class="lbl">SLIDES</div><div id="thumbs"></div></div>'
+      + '</div><div class="col"><div class="card card-notes"><div class="lbl">' + labelNotes + '</div><div id="pnotes"></div></div></div></main>'
+      + '<footer><button id="prev" title="上一页 (←)">◀</button><button id="next" title="下一页 (→)">▶</button><button id="pause" title="暂停 (P)" aria-pressed="false">暂停</button><button id="reset" title="重置计时 (T)">重置计时</button><button id="font-minus" title="备注字号减小 (-)">A−</button><button id="font-plus" title="备注字号增大 (+)">A+</button><button id="pv-black" title="黑屏 (B)">黑屏</button><button id="pv-white" title="白屏 (W)">白屏</button><button id="end" title="结束放映 (Esc)">结束放映</button><div id="ptimer">00:00</div><div class="bar"><div id="pprog"></div></div><div class="hint">' + hintText + '</div></footer>'
+      + '<scr' + 'ipt>' + js + '</scr' + 'ipt></body></html>';
+  }
+
+  async function toggleFullscreen() {
+    try {
+      if (document.fullscreenElement) { await document.exitFullscreen?.(); return; }
+      if (!document.documentElement.requestFullscreen || document.fullscreenEnabled === false) {
+        toast(ui.fullscreenUnavailable);
+        return;
+      }
+      await document.documentElement.requestFullscreen();
+      if (!document.fullscreenElement) toast(ui.fullscreenUnavailable);
+    } catch (_) { toast(ui.fullscreenUnavailable); }
+  }
+
+  function openPresenter() {
+    if (presenterOpen()) { try { presenterWin.focus(); } catch (_) { /* gone */ } return; }
+    let url = '';
+    try {
+      url = URL.createObjectURL(new Blob([presenterHtml()], { type: 'text/html' }));
+    } catch (_) { toast(ui.popupBlocked); return; }
+    presenterInitSent = false;
+    presenterWin = window.open(url, 'dsh-ppt-presenter', 'width=1180,height=760');
+    if (!presenterWin) {
+      try { URL.revokeObjectURL(url); } catch (_) { /* ignore */ }
+      toast(ui.popupBlocked);
+      return;
+    }
+    document.body.classList.add('presenting');
+    if (document.activeElement && typeof document.activeElement.blur === 'function') document.activeElement.blur();
+    setTimeout(function () { try { URL.revokeObjectURL(url); } catch (_) { /* ignore */ } }, 5000);
+  }
+
+  function closePresenter() {
+    if (presenterOpen()) {
+      try { presenterWin.postMessage({ __dshPpt: 'close' }, '*'); presenterWin.close(); } catch (_) { /* gone */ }
+    }
+    document.body.classList.remove('presenting');
+    presenterInitSent = false;
+    if (document.fullscreenElement) { try { document.exitFullscreen?.(); } catch (_) { /* ignore */ } }
+    setBlank(null);
+  }
+
+  function setBlank(color) {
+    document.body.classList.remove('blank-black', 'blank-white');
+    if (color === 'black') document.body.classList.add('blank-black');
+    else if (color === 'white') document.body.classList.add('blank-white');
+    sendState();
+  }
+
+  setInterval(function () {
+    if (!presenterOpen() && document.body.classList.contains('presenting')) {
+      document.body.classList.remove('presenting');
+      if (document.fullscreenElement) { try { document.exitFullscreen?.(); } catch (_) { /* ignore */ } }
+      setBlank(null);
+    }
+  }, 800);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== presenterWin) return;
+    const data = event.data || {};
+    if (data.__dshPpt === 'cmd' && (data.kind === 'end' || data.kind === 'closed')) { closePresenter(); return; }
+    if (!presenterOpen()) return;
+    if (data.__dshPpt === 'ready') {
+      if (!presenterInitSent) { presenterInitSent = true; sendInit(); }
+      sendState();
+      return;
+    }
+    if (data.__dshPpt !== 'cmd') return;
+    if (data.kind === 'go') {
+      setBlank(null);
+      if (typeof data.index === 'number') go(data.index);
+      else go(index + (data.delta || 0));
+      sendState();
+    } else if (data.kind === 'blank') {
+      setBlank(data.color || null);
+    } else if (data.kind === 'end') {
+      closePresenter();
+    } else if (data.kind === 'closed') {
+      document.body.classList.remove('presenting');
+      setBlank(null);
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    const key = event.key;
+    const lower = key.toLowerCase();
+    const targetEl = event.target;
+    if (document.getElementById('review-panel').open || event.ctrlKey || event.metaKey || event.altKey) return;
+    if (key !== 'Escape' && targetEl && (['INPUT', 'SELECT', 'TEXTAREA'].includes(targetEl.tagName) || targetEl.isContentEditable === true)) return;
+    const interactive = targetEl && (targetEl.tagName === 'BUTTON' || targetEl.tagName === 'INPUT' || targetEl.tagName === 'SELECT' || targetEl.tagName === 'TEXTAREA' || targetEl.isContentEditable === true);
+    if (key === ' ' && interactive) return;
+    if (key === 'Escape') {
+      if (!helpPanel.hidden) { helpPanel.hidden = true; return; }
+      if (document.body.classList.contains('overview')) { setOverview(false); return; }
+      if (notesOpen()) { setNotes(false); return; }
+      if (document.body.classList.contains('presenting') || document.body.classList.contains('blank-black') || document.body.classList.contains('blank-white')) { closePresenter(); return; }
+      if (document.fullscreenElement) { document.exitFullscreen?.(); return; }
+      return;
+    }
+    const inOverview = document.body.classList.contains('overview');
+    if (key === 'ArrowRight' || key === 'PageDown' || key === ' ' || (key === 'ArrowDown' && !inOverview)) {
+      event.preventDefault(); go(index + 1);
+    } else if (key === 'ArrowLeft' || key === 'PageUp' || (key === 'ArrowUp' && !inOverview)) {
+      event.preventDefault(); go(index - 1);
+    } else if (/^[1-9]$/.test(key) && !inOverview) {
+      const jumped = Number(key);
+      if (jumped <= total) { event.preventDefault(); go(jumped - 1); }
+    } else if (key === 'Home') {
+      event.preventDefault(); go(0);
+    } else if (key === 'End') {
+      event.preventDefault(); go(total - 1);
+    } else if (key === 'Enter' && inOverview) {
+      event.preventDefault(); setOverview(false);
+    } else if (lower === 'f') {
+      void toggleFullscreen();
+    } else if (lower === 'g') {
+      setOverview(!inOverview);
+    } else if (lower === 's') {
+      if (document.body.classList.contains('presenting')) { toast(ui.presenterHint); }
+      else { document.body.classList.toggle('notes-open'); syncNotes(); }
+    } else if (lower === 'v') {
+      if (presenterOpen()) closePresenter();
+      else openPresenter();
+    } else if (lower === 'b') {
+      setBlank(document.body.classList.contains('blank-black') ? null : 'black');
+    } else if (lower === 'w') {
+      setBlank(document.body.classList.contains('blank-white') ? null : 'white');
+    } else if (lower === 'p') {
+      window.print();
+    } else if (key === '?') {
+      helpPanel.hidden = !helpPanel.hidden;
+    }
+  });
+
+  let wheelLock = 0;
+  document.addEventListener('wheel', (event) => {
+    if (document.getElementById('review-panel').open || event.target.closest?.('#hud,#delivery-bar,#notes-panel,#help-panel')) return;
+    const now = Date.now();
+    if (now - wheelLock < 550 || document.body.classList.contains('overview') || notesOpen()) return;
+    wheelLock = now;
+    if (Math.abs(event.deltaY) > 12) go(index + (event.deltaY > 0 ? 1 : -1));
+  }, { passive: true });
+
+  let touchStartY = 0;
+  let touchOnStage = false;
+  document.addEventListener('touchstart', (event) => { touchOnStage = !document.getElementById('review-panel').open && !!event.target.closest?.('#stage'); touchStartY = event.touches[0].clientY; }, { passive: true });
+  document.addEventListener('touchend', (event) => {
+    const delta = event.changedTouches[0].clientY - touchStartY;
+    if (touchOnStage && Math.abs(delta) > 48 && !document.body.classList.contains('overview')) go(index + (delta < 0 ? 1 : -1));
+  }, { passive: true });
+
+  fullscreenBtn.addEventListener('click', () => { void toggleFullscreen(); });
+  notesBtn.addEventListener('click', () => {
+    if (document.body.classList.contains('presenting')) { toast(ui.presenterHint); return; }
+    setNotes(!notesOpen());
+  });
+  notesClose.addEventListener('click', () => setNotes(false));
+  presenterBtn.addEventListener('click', () => { if (presenterOpen()) closePresenter(); else openPresenter(); });
+  overviewBtn.addEventListener('click', () => setOverview(!document.body.classList.contains('overview')));
+  helpBtn.addEventListener('click', () => { helpPanel.hidden = !helpPanel.hidden; });
+  frames.forEach((frame, i) => {
+    frame.addEventListener('click', () => {
+      if (document.body.classList.contains('overview')) { go(i); setOverview(false); }
+    });
+    frame.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' && document.body.classList.contains('overview')) { go(i); setOverview(false); }
+    });
+  });
+  window.addEventListener('resize', updateThumbScale);
+  window.addEventListener('beforeunload', closePresenter);
+
+  syncDelivery = (function initDelivery(go, setOverview, current, total) {
+  const previous = document.getElementById('previous-slide')
+  const next = document.getElementById('next-slide')
+  const number = document.getElementById('page-number')
+  const panel = document.getElementById('review-panel')
+  const toggle = document.getElementById('review-toggle')
+  previous.addEventListener('click', () => go(Math.max(0, current() - 1)))
+  next.addEventListener('click', () => go(Math.min(total - 1, current() + 1)))
+  const jump = () => {
+    const value = Number(number.value)
+    if (Number.isInteger(value) && value >= 1 && value <= total) go(value - 1)
+    else number.value = String(current() + 1)
+  }
+  number.addEventListener('change', jump)
+  number.addEventListener('keydown', event => { if (event.key === 'Enter') { event.preventDefault(); jump() } })
+  toggle.addEventListener('click', () => panel.showModal())
+  document.getElementById('review-close').addEventListener('click', () => panel.close())
+  panel.querySelectorAll('[data-review-slide]').forEach(button => button.addEventListener('click', () => {
+    const slide = Number(button.dataset.reviewSlide)
+    if (Number.isInteger(slide) && slide >= 1 && slide <= total) { go(slide - 1); setOverview(false); panel.close() }
+  }))
+  return index => {
+    number.value = String(index + 1)
+    previous.disabled = index === 0
+    next.disabled = index === total - 1
+  }
+})(go, setOverview, () => index, total);
+  window.addEventListener('dsh-data-change', () => { syncNotes(); if (presenterOpen()) sendInit(); updatePresenter(); });
+  const start = Number.parseInt(location.hash?.replace('#slide-', ''), 10);
+  go(Number.isInteger(start) ? start - 1 : 0);
+})();
+</script>
+
+</body>
+</html>

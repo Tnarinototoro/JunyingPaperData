@@ -1,0 +1,97 @@
+R. Teeuwen
+0
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+NDVI value
+median ： 0 ． 190
+maximum: 0 ． 364
+OSM categories ：
+0
+regular-size greenspace
+到
+play space
+Pe rceived greenness:
+median: 4 (fai rly)
+reasons, e.g.
+“ / find this place.
+lOOks like a 、
+has lOts 00
+Fig. 2 ． Collected data per sampled location: NDVI values and OSM categories within radius distance, perceived greenness, and reasons. Example in Parc del Turö del
+Pt1txet, Barcelona.
+network or that are smaller than 200 square meters (i.e., the size Of a
+typical tennis court). For vegetated spaces, we merged overlapping or
+adjacent spaces intO one ， such as shrtlbbery adj acent tO a forest ， and
+differentiated between different sizes. As a result, we obtained OSM
+polygons of five OS 八 彦 categories: regular-size greenspaces (specifically
+parks, nature reserves, forests, woods, scrtlbs, shrtlbbery, heath,
+meadows, grass(lands) village greenery, and fells, at least 0 ． 5 ha in size
+(Teeuwen, Psyllidis, & Bozzon, 2023 ； Ambiente ltalia ， 2003
+刀 ； pock-
+et-size greenspaces (same categories ， t1P tO 0 ． 5 ha in size 0V00d et al.,
+2017 ； Labib et al., 2020 ； Peschardt et al., 2014 ） ） ； public 叩 e spaces
+(specifically squares, pedestrian areas ， marketplaces ， and common
+grounds); play spaces (specifically playgrounds and public schoolyards);
+and streets accessible to pedestrians 〔 i.e., for walking as defined by
+Boeing 〔 2017 ） ）
+NDVI data ： We used Google' s Earth Engine API t0 collect high-
+resoltltion satellite vegetation indices from the Copernicus Sentinel-2
+Markevych et al., 2017 ； Labib et al., 2020 〕 ． We used all im
+mission 〔
+agery between May and September 2021 ， i.e., the growing season for
+Roberts and Helbich, 2021 〗 and calculated the
+vegetation in Europe 〔
+average NDVI value per raster cell. We then calculated the average NDVI
+value per OSM polygon, while ignoring values less than 0 (i.e., water)
+Markevych et al. ， 2017 ）
+GSV metadata ： Using Google' s Street View Static API, we looked for
+the nearest GSV imagery for up t0 10 random points within each OSM
+polygon, with a maximum search radius of 15 m (Amiri and Crain,
+〕 ． When we found an image captured from 2018 to 2022 in May tO
+2019
+September (i.e., the vegetation growing season 〔
+Roberts and Helbich,
+2021 ； Turunen et al. ， 2023 ） 〗 we stored its metadata. We considered
+imagery sourced by Google, and 360-degree panoramas uploaded by
+GSV users ， as particularly in green urban areas that are inaccessible by
+car, user-contributed lmagery is a widespread alternative tO imagery
+sotu ℃ ed by Google.
+ldentifying candidate locations ： Our candidate locations are OSM
+polygons 0f various categories for which we have b0th an NDVI value
+and GSV imagery available. We then t00k a random sample 0f 140
+candidate locations per case-sttldy city ， while ensuring equal spread
+between b0th OSM categories (i.e., sampling equal numbers 0f regtllar
+size greenspaces, pocket-size greenspaces, ptlblic open spaces ， etc. ） and
+NDVI-value quarters. We manually checked if their associated GSV im
+agery is suitable for collecüng visual perceptions: we excluded images
+captured indoors or underground, during night-time or events, Of poor
+image quality, taken from bird' s or frog's view perspective, or when
+sight t0 the location they were sampled for was obstructed （ e ， 8 ” by a
+wall) ． We replaced these locations with another randomly sampled
+candidate from the same OSM category, NDVI quartile ， and city, until all
+sampled locations passed the check.
+Finally, we reset the geometry 0f these sampled locations t0 the point
+from which the GSV image was taken. We recalculated the median NDVI
+and determlned which OSM place categories were located wlthin 15 m
+buffer zone around this point (Amiri and Crain, 2019 ） ， By d0ing SO, we
+ensured that people' s perceptions ， NDVI values ， and OSM categories all
+referred t0 the same location. We also investigated buffers of 25 ， 29 ， 43
+and 100 m tO define a location ， s immediate surroundings tO assess the
+sensitivity Of our restllts tO the radius distance chosen. ln related sttldies
+25 m were found to be relevant for capturing greenery visible from a
+location (Kuo et al. ， 2018 ） ； 29 and 43 m for observing events in urban
+Amiri and Crain, 2019 ） ； and 100 m for representing the
+envlronments 〔
+individual human scale in greenspace health research (Labib et al.,
+2020 〕
+3 ． 3 ． C011ecting people's 访 S perceptions
+We then collected people' s visual perceptions of the sampled loca-
+through a questionnaire prolific ： crowdsourcing
+platform designed for academic research (Peer et al., 2017
+） ， We
+recrtlited participants WhO currently live in Europe and are proficient in
+the English language. We ensured diversity in age and gender and paid
+participants minimum wage in the NetherIands ， the country 0f the atl
+thors' affiliation. Participants provided informed consent tO participate
+and cotlld only stlbmit a single questlonnaire.
+Crowdsourcing task ： Our questionnaire, implemented using the
+Qualtrics platform, took about fifteen mintltes t0 complete. On average,
+5

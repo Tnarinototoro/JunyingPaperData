@@ -1,0 +1,402 @@
+{
+  "Forest Science": {
+    "url": "https://academic.oup.com/forestscience",
+    "fit": "弱",
+    "reason": "森林科学/森林经营不是现稿研究核心",
+    "first_decision": {
+      "days": null,
+      "kind": "未核得",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 403,
+    "checked_at": "2026-11-08"
+  },
+  "Discover Cities": {
+    "url": "https://link.springer.com/journal/44327",
+    "fit": "高",
+    "reason": "城市公园治理/城市绿地管理属于城市科学及政策实践",
+    "first_decision": {
+      "days": 17,
+      "kind": "submission to first decision (median)",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 5,
+      "sample_median": 121,
+      "sample_min": 79,
+      "sample_max": 259,
+      "note": "近期已接收原始文章小样本，不是全刊或预测"
+    },
+    "status": 200,
+    "checked_at": "2026-11-08"
+  },
+  "Journal of Environmental Planning and Management": {
+    "url": "https://www.tandfonline.com/journals/cjep20/about-this-journal",
+    "fit": "中高",
+    "reason": "需要突出规划、管理组织及实施机制；scope未最新核验",
+    "first_decision": {
+      "days": null,
+      "kind": "未核得",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 403,
+    "checked_at": "2026-11-08"
+  },
+  "Urban Ecosystems": {
+    "url": "https://link.springer.com/journal/11252",
+    "fit": "中高",
+    "reason": "scope明确收社会经济—生态关系、政策与社会/人类生态",
+    "first_decision": {
+      "days": 7,
+      "kind": "submission to first decision (median)",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 200,
+    "checked_at": "2026-11-08"
+  },
+  "Environmental Earth Sciences": {
+    "url": "https://link.springer.com/journal/12665",
+    "fit": "低",
+    "reason": "地球系统/地质过程与风险为核心，现稿未涉及",
+    "first_decision": {
+      "days": 37,
+      "kind": "submission to first decision (median)",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 200,
+    "checked_at": "2026-11-08"
+  },
+  "Environmental Education Research": {
+    "url": "https://www.tandfonline.com/journals/ceer20/about-this-journal",
+    "fit": "低",
+    "reason": "缺少环境教育/学习研究设计；scope未最新核验",
+    "first_decision": {
+      "days": null,
+      "kind": "未核得",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 403,
+    "checked_at": "2026-11-08"
+  },
+  "Environmental Management": {
+    "url": "https://link.springer.com/journal/267",
+    "fit": "高",
+    "reason": "scope明确收环境及自然资源保全管理、社会学科及国际相关案例",
+    "first_decision": {
+      "days": 9,
+      "kind": "submission to first decision (median)",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 5,
+      "sample_median": 164,
+      "sample_min": 112,
+      "sample_max": 350,
+      "note": "近期已接收原始文章小样本，不是全刊或预测"
+    },
+    "status": 200,
+    "checked_at": "2026-11-08"
+  },
+  "Landscape Research": {
+    "url": "https://www.tandfonline.com/journals/clar20/about-this-journal",
+    "fit": "中高",
+    "reason": "景观管理及社会维度相关；scope未最新核验",
+    "first_decision": {
+      "days": null,
+      "kind": "未核得",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 403,
+    "checked_at": "2026-11-08"
+  },
+  "Landscape Ecology": {
+    "url": "https://link.springer.com/journal/10980",
+    "fit": "低",
+    "reason": "scope要求空间显式格局—生态过程贡献，辅助NDVI不足",
+    "first_decision": {
+      "days": 10,
+      "kind": "submission to first decision (median)",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 200,
+    "checked_at": "2026-11-08"
+  },
+  "People and Nature": {
+    "url": "https://besjournals.onlinelibrary.wiley.com/journal/25758314",
+    "fit": "中",
+    "reason": "人—自然/保全治理相关，需加强概念贡献；scope未最新核验",
+    "first_decision": {
+      "days": null,
+      "kind": "未核得",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 403,
+    "checked_at": "2026-11-08"
+  },
+  "Land Degradation & Development": {
+    "url": "https://onlinelibrary.wiley.com/journal/1099145x",
+    "fit": "低",
+    "reason": "未研究退化过程或恢复成效；scope未最新核验",
+    "first_decision": {
+      "days": null,
+      "kind": "未核得",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 403,
+    "checked_at": "2026-11-08"
+  },
+  "Forestry: An International Journal": {
+    "url": "https://academic.oup.com/forestry",
+    "fit": "弱",
+    "reason": "需要以森林经营/森林科学为核心；scope未最新核验",
+    "first_decision": {
+      "days": null,
+      "kind": "未核得",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 403,
+    "checked_at": "2026-11-08"
+  },
+  "Journal of Environmental Law": {
+    "url": "https://academic.oup.com/jel",
+    "fit": "低",
+    "reason": "缺少环境法核心研究问题；scope未最新核验",
+    "first_decision": {
+      "days": null,
+      "kind": "未核得",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 403,
+    "checked_at": "2026-11-08"
+  },
+  "Architectural Research Quarterly": {
+    "url": "https://www.cambridge.org/core/journals/arq-architectural-research-quarterly",
+    "fit": "低",
+    "reason": "建筑研究与现稿公园保全管理受众不一致",
+    "first_decision": {
+      "days": null,
+      "kind": "未核得",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 200,
+    "checked_at": "2026-11-08"
+  },
+  "Environmental Conservation": {
+    "url": "https://www.cambridge.org/core/journals/environmental-conservation",
+    "fit": "高",
+    "reason": "scope明确保全科学与实践，需保全目标及国际贡献；6000词/6图表",
+    "first_decision": {
+      "days": null,
+      "kind": "未核得",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 200,
+    "checked_at": "2026-11-08"
+  },
+  "Discover Environment": {
+    "url": "https://link.springer.com/journal/44274",
+    "fit": "中高",
+    "reason": "scope含生态、生物多样性、保全恢复、城市环境及政策",
+    "first_decision": {
+      "days": 20,
+      "kind": "submission to first decision (median)",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 5,
+      "sample_median": 141,
+      "sample_min": 61,
+      "sample_max": 200,
+      "note": "近期已接收原始文章小样本，不是全刊或预测"
+    },
+    "status": 200,
+    "checked_at": "2026-11-08"
+  },
+  "Discover Sustainability": {
+    "url": "https://link.springer.com/journal/43621",
+    "fit": "高",
+    "reason": "scope含保全、城市化、环境行为、治理、资源管理及实施",
+    "first_decision": {
+      "days": 17,
+      "kind": "submission to first decision (median)",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 5,
+      "sample_median": 146,
+      "sample_min": 69,
+      "sample_max": 163,
+      "note": "近期已接收原始文章小样本，不是全刊或预测"
+    },
+    "status": 200,
+    "checked_at": "2026-11-08"
+  },
+  "Journal of Urban Ecology": {
+    "url": "https://academic.oup.com/jue",
+    "fit": "中",
+    "reason": "城市社会生态/管理相关，需要生态学问题；scope未最新核验",
+    "first_decision": {
+      "days": null,
+      "kind": "未核得",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 403,
+    "checked_at": "2026-11-08"
+  },
+  "Urban Design International": {
+    "url": "https://link.springer.com/journal/41289",
+    "fit": "中低",
+    "reason": "需要城市设计新知识，另有不收主要源于学位论文等明确规则",
+    "first_decision": {
+      "days": 15,
+      "kind": "submission to first decision (median)",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 200,
+    "checked_at": "2026-11-08"
+  },
+  "Environment, Development and Sustainability": {
+    "url": "https://link.springer.com/journal/10668",
+    "fit": "中高",
+    "reason": "需可持续管理多维度与可迁移地方实施贡献",
+    "first_decision": {
+      "days": 21,
+      "kind": "submission to first decision (median)",
+      "statistic_period": "官网未注明"
+    },
+    "acceptance": {
+      "official_journal_statistic": null,
+      "sample_n": 0,
+      "sample_median": null,
+      "sample_min": null,
+      "sample_max": null,
+      "note": "未核得"
+    },
+    "status": 200,
+    "checked_at": "2026-11-08"
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "scope": "Source-graph/independent-implementation parity QA; not native Amos execution or imagery selection",
+  "original_inputs_modified": false,
+  "scenario_models_estimated_by_this_QA": false,
+  "all_25_paths_checked": true,
+  "path_comparisons": [
+    {
+      "path": "SN -> O02",
+      "fixed": false,
+      "original_displayed_B": 0.073,
+      "reconstructed_B": 0.07261319141150763,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.522,
+      "reconstructed_beta": 0.5215413720258587,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "SN -> O01",
+      "fixed": false,
+      "original_displayed_B": 0.137,
+      "reconstructed_B": 0.1372381600649743,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.743,
+      "reconstructed_beta": 0.7426752695207078,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "UA -> O03",
+      "fixed": false,
+      "original_displayed_B": 0.327,
+      "reconstructed_B": 0.32661816841443386,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.718,
+      "reconstructed_beta": 0.7179725229152777,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "ENV -> O11",
+      "fixed": false,
+      "original_displayed_B": 0.586,
+      "reconstructed_B": 0.5856967067490985,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.409,
+      "reconstructed_beta": 0.40880999762127823,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "USR -> O14",
+      "fixed": false,
+      "original_displayed_B": 0.514,
+      "reconstructed_B": 0.5142388481676388,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.456,
+      "reconstructed_beta": 0.45580030239115893,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "EQ -> ENV",
+      "fixed": false,
+      "original_displayed_B": -0.587,
+      "reconstructed_B": -0.587401896500777,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": -0.515,
+      "reconstructed_beta": -0.5149662273078561,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "EQ -> O06",
+      "fixed": false,
+      "original_displayed_B": 2.893,
+      "reconstructed_B": 2.893082481020489,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.408,
+      "reconstructed_beta": 0.4079411585604087,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "ENV -> O10",
+      "fixed": false,
+      "original_displayed_B": 0.57,
+      "reconstructed_B": 0.5702659882752138,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.228,
+      "reconstructed_beta": 0.2278208866016977,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "USR -> O16",
+      "fixed": false,
+      "original_displayed_B": 0.058,
+      "reconstructed_B": 0.05818055149111159,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.23,
+      "reconstructed_beta": 0.229518541054081,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "SN -> ENV",
+      "fixed": false,
+      "original_displayed_B": 0.136,
+      "reconstructed_B": 0.1355385099482583,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.844,
+      "reconstructed_beta": 0.8435317542728183,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "SN -> BAL",
+      "fixed": false,
+      "original_displayed_B": 0.218,
+      "reconstructed_B": 0.21799985481344633,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.649,
+      "reconstructed_beta": 0.6488651326565653,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "UA -> O14",
+      "fixed": false,
+      "original_displayed_B": -0.455,
+      "reconstructed_B": -0.4546525499680967,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": -0.446,
+      "reconstructed_beta": -0.44644891278685095,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "BAL -> O11",
+      "fixed": false,
+      "original_displayed_B": 0.409,
+      "reconstructed_B": 0.40918979029661523,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.597,
+      "reconstructed_beta": 0.5971920408878815,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "SN -> O03",
+      "fixed": false,
+      "original_displayed_B": 0.074,
+      "reconstructed_B": 0.07363565382086161,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.213,
+      "reconstructed_beta": 0.212825729719695,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "UA -> O06",
+      "fixed": false,
+      "original_displayed_B": 0.555,
+      "reconstructed_B": 0.555093679280503,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.423,
+      "reconstructed_beta": 0.4226003168026382,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "SN -> USR",
+      "fixed": false,
+      "original_displayed_B": -0.124,
+      "reconstructed_B": -0.1241209802840091,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": -0.181,
+      "reconstructed_beta": -0.18079903480272957,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "UA -> O04",
+      "fixed": true,
+      "original_displayed_B": 1.0,
+      "reconstructed_B": 1.0,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.84,
+      "reconstructed_beta": 0.840001575819436,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "UA -> O05",
+      "fixed": true,
+      "original_displayed_B": 1.0,
+      "reconstructed_B": 1.0,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.91,
+      "reconstructed_beta": 0.9100494872975551,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "EQ -> O07",
+      "fixed": true,
+      "original_displayed_B": 1.0,
+      "reconstructed_B": 1.0,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.145,
+      "reconstructed_beta": 0.1446072830886417,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "ENV -> O08",
+      "fixed": true,
+      "original_displayed_B": 1.0,
+      "reconstructed_B": 1.0,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.738,
+      "reconstructed_beta": 0.7377676084989424,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "ENV -> O09",
+      "fixed": true,
+      "original_displayed_B": 1.0,
+      "reconstructed_B": 1.0,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.544,
+      "reconstructed_beta": 0.5438029597479391,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "BAL -> O12",
+      "fixed": true,
+      "original_displayed_B": 1.0,
+      "reconstructed_B": 1.0,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.407,
+      "reconstructed_beta": 0.4073880881771234,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "BAL -> O13",
+      "fixed": true,
+      "original_displayed_B": 1.0,
+      "reconstructed_B": 1.0,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.638,
+      "reconstructed_beta": 0.6377303523122606,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "USR -> O15",
+      "fixed": true,
+      "original_displayed_B": 1.0,
+      "reconstructed_B": 1.0,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.805,
+      "reconstructed_beta": 0.8045090048131387,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    },
+    {
+      "path": "EQ -> BAL",
+      "fixed": true,
+      "original_displayed_B": 1.0,
+      "reconstructed_B": 1.0,
+      "B_matches_three_decimals": true,
+      "original_displayed_beta": 0.419,
+      "reconstructed_beta": 0.41927880380728894,
+      "beta_matches_three_decimals": true,
+      "fixed_status_matches": true
+    }
+  ],
+  "all_22_variances_checked": true,
+  "variance_comparisons": [
+    {
+      "parameter": "SN",
+      "fixed": true,
+      "original_displayed": 1.0,
+      "reconstructed": 1.0,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "UA",
+      "fixed": false,
+      "original_displayed": 0.578,
+      "reconstructed": 0.5784462395882481,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "EQ",
+      "fixed": false,
+      "original_displayed": 0.02,
+      "reconstructed": 0.019843092134841294,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "d1",
+      "fixed": false,
+      "original_displayed": 0.001,
+      "reconstructed": 0.0006006289537627471,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "d2",
+      "fixed": false,
+      "original_displayed": 0.046,
+      "reconstructed": 0.04550947088654361,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "d3",
+      "fixed": false,
+      "original_displayed": 0.456,
+      "reconstructed": 0.45589478392114974,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e1",
+      "target": "O01",
+      "fixed": false,
+      "original_displayed": 0.015,
+      "reconstructed": 0.015312631928647472,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e5",
+      "target": "O02",
+      "fixed": false,
+      "original_displayed": 0.014,
+      "reconstructed": 0.014111776043023017,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e9",
+      "target": "O03",
+      "fixed": false,
+      "original_displayed": 0.053,
+      "reconstructed": 0.05257881544918371,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e19",
+      "target": "O04",
+      "fixed": false,
+      "original_displayed": 0.241,
+      "reconstructed": 0.2413441080483535,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e6",
+      "target": "O05",
+      "fixed": true,
+      "original_displayed": 0.12,
+      "reconstructed": 0.12,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e16",
+      "target": "O06",
+      "fixed": false,
+      "original_displayed": 0.654,
+      "reconstructed": 0.6536911081330927,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e8",
+      "target": "O07",
+      "fixed": false,
+      "original_displayed": 0.929,
+      "reconstructed": 0.9290756308647673,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e26",
+      "target": "O08",
+      "fixed": false,
+      "original_displayed": 0.022,
+      "reconstructed": 0.021615306982645903,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e34",
+      "target": "O09",
+      "fixed": false,
+      "original_displayed": 0.061,
+      "reconstructed": 0.061487061774820106,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e35",
+      "target": "O10",
+      "fixed": false,
+      "original_displayed": 0.153,
+      "reconstructed": 0.15337107941050743,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e27",
+      "target": "O11",
+      "fixed": false,
+      "original_displayed": 0.017,
+      "reconstructed": 0.016661763442390433,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e32",
+      "target": "O12",
+      "fixed": false,
+      "original_displayed": 0.567,
+      "reconstructed": 0.5672455906554461,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e33",
+      "target": "O13",
+      "fixed": false,
+      "original_displayed": 0.165,
+      "reconstructed": 0.16466591260531593,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e24",
+      "target": "O14",
+      "fixed": false,
+      "original_displayed": 0.356,
+      "reconstructed": 0.3556982666143708,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e25",
+      "target": "O15",
+      "fixed": false,
+      "original_displayed": 0.257,
+      "reconstructed": 0.2568751959974375,
+      "matches_three_decimals": true
+    },
+    {
+      "parameter": "e36",
+      "target": "O16",
+      "fixed": false,
+      "original_displayed": 0.029,
+      "reconstructed": 0.028689010593737168,
+      "matches_three_decimals": true
+    }
+  ],
+  "nine_fixed_regressions_match": true,
+  "two_fixed_variances_match": true,
+  "covariance_constraints": "All exogenous/disturbance/error covariances zero as in source graph",
+  "covariance_expression": "Independent 22-variable RAM (I+A+A^2) D (I+A+A^2)^T observed block matches root Lambda-T expression",
+  "maximum_covariance_difference": 0.0,
+  "gradient_checks_against_independent_RAM_objective": [
+    {
+      "point": "displayed_original_initial_point",
+      "all_36_free_parameters_checked": true,
+      "maximum_relative_gradient_difference": 4.670684446844708e-10,
+      "direct_RAM_objective_difference": 0.0,
+      "step_relative": 1e-05
+    },
+    {
+      "point": "reconstructed_baseline_optimum",
+      "all_36_free_parameters_checked": true,
+      "maximum_relative_gradient_difference": 3.770190915020048e-10,
+      "direct_RAM_objective_difference": 0.0,
+      "step_relative": 1e-05
+    }
+  ],
+  "covariance_divisor_verified_by_original_output": 39,
+  "fit_multiplier_verified_by_original_output": 38,
+  "fit_comparisons": [
+    {
+      "indicator": "chi_square",
+      "original_displayed": 119.555,
+      "reconstructed": 119.55481376948275,
+      "matches_three_decimals": true
+    },
+    {
+      "indicator": "GFI",
+      "original_displayed": 0.749,
+      "reconstructed": 0.7492493623298417,
+      "matches_three_decimals": true
+    },
+    {
+      "indicator": "AGFI",
+      "original_displayed": 0.659,
+      "reconstructed": 0.6589791327685848,
+      "matches_three_decimals": true
+    },
+    {
+      "indicator": "CFI",
+      "original_displayed": 0.854,
+      "reconstructed": 0.8539629124513886,
+      "matches_three_decimals": true
+    },
+    {
+      "indicator": "TLI",
+      "original_displayed": 0.825,
+      "reconstructed": 0.8247554949416662,
+      "matches_three_decimals": true
+    },
+    {
+      "indicator": "RMR",
+      "original_displayed": 0.063,
+      "reconstructed": 0.06256419718740067,
+      "matches_three_decimals": true
+    },
+    {
+      "indicator": "RMSEA",
+      "original_displayed": 0.072,
+      "reconstructed": 0.07173565099410538,
+      "matches_three_decimals": true
+    }
+  ],
+  "latent_R2_comparisons": [
+    {
+      "latent": "ENV",
+      "original_displayed": 0.977,
+      "reconstructed": 0.976736035734265,
+      "matches_three_decimals": true
+    },
+    {
+      "latent": "BAL",
+      "original_displayed": 0.597,
+      "reconstructed": 0.596820675699493,
+      "matches_three_decimals": true
+    },
+    {
+      "latent": "USR",
+      "original_displayed": 0.033,
+      "reconstructed": 0.03268829098559867,
+      "matches_three_decimals": true
+    }
+  ],
+  "all_displayed_paths_match": true,
+  "all_displayed_variances_match": true,
+  "all_displayed_fit_indices_match": true,
+  "all_displayed_R2_match": true,
+  "baseline_solution_nonnegative_variances": true,
+  "note": "This validates numerical baseline correspondence under the given fixed model, not substantive validity or universal optimizer convergence."
+}

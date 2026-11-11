@@ -1,0 +1,50 @@
+J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 / Data Brief 61 （ 2025 丿 717 / 60
+1 · Value of the Data
+3
+· Groundwater-dependent ecosystems (GDVs) provide essential ecosystem services but a re in-
+creasingly threatened by water overextraction and climate ch a nge · Effective conservation Of
+GDVs requires the ability t0 detect and map vegetation potentially supported by groundwa-
+ter. Unlike most studies focus solely on vegetation distribution, the dataset enables users
+tO explore hOW underlying aquifer characteristics (e.g., fractured metamorphic VS. carbonate
+systems) may shape the persistence and ecological function Of GDVs.
+· This dataset provides a spatially explicit classification 0f potentially groundwater-dependent
+vegetation (pGDV) in a semi-arid Mediterranean mountain SYSte m [ 1 ] · By linking functional
+vegetation traits tO spatial patterns Of groundwater influence, the dataset offers a nove 1 ap
+proach tO understanding ecohydrological functioning in dryland mountain ecosystems.
+· The NDVI-based ecohydrological attributes included in the dataset (dry-season N DVI, dry-
+we t seasonal NDVI difference, and interannual NDVI variability) allow researchers t0 assess
+vegetation resilience and potential groundwater buffering across spatial and temporal scales.
+。 The dataset supports CO m p a rative research across mountain systems by offering a replicable
+frameworl< tO analyze vegetation—groundwater interactions. lt facilitates the identification Of
+functional vegetation patterns and their vulnerability tO climate-driven changes, contributing
+tO broader assessments Of ecosystem resilience in water-limited environments.
+。 This dataset ca n inform climate adaptation strategies and conservation by highlighting areas
+where groundwater maintains ecological stability under increasing drought and snowpacl<
+decline in Mediterranean mountain regions.
+2 · Background
+Recharge in mountain aquifers through snowmelt and rainfall runoff creates favourable con-
+ditions for vegetated areas likely reliant on groundwater [
+] · However, despite their critical
+role in the water cycle, research on groundwater-dependent vegetation (GDV) remains limited
+in mountain environments [41. This ga p is particularly relevant in arid regions, where alpine
+aquifers [ 5 ] and fractured hard-rock aquifers, b0th with limited storage capacity [6], ca n sustain
+mountain vegetation under conditions Of I OW precipitation and high evapotranspiration demand
+in arid regions [
+MOSt studies focus on GDV distribution, overlool<ing the influence Of aquifer types on their
+persistence and function [e.g.,
+] · Mountain landscapes host diverse aquifer types that differ
+8 一 10
+in recharge mechanisms, retention capacity, and ecological influence. Mapping areas Of potential
+GDV (pGDV) considering aquifer types is essential tO understanding spatial patterns Of ground-
+wate r dependence and assessing GDV vulnerability tO climate change. This dataset provides a
+spatially explicit classification Of pGDV in the Sierra Nevada protected area (Southern Spain),
+based on NDVI-derived ecohydrological indicators and a reclassified vegetation map. Th e region
+hosts three hydrological units: Alpine aquifer zone (AAZ), Slope aquifer zone (SAZ), and Car-
+bonate aquifer zone (CAZ). lt complements the associated research article by mal<ing the data,
+methods, and classification outputs accessible for reuse ， replication, and application in Other re 一
+glons.
+3 · Data Description
+Th e dataset is organized intO s eve ra I files that provide the classification Of potentially
+groundwater-dependent vegetation (pGDV) in th e Sierra Nevada Protected Area and the ecohy-
+drological indicators used t0 generate it [ 11 ] (Fig. 1 ） · The files a re provided in GeoTIFF and CSV
+formats, accompanied by metadata in PDF and TXT format. The dataset includes:

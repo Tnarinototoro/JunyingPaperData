@@ -1,0 +1,74 @@
+[
+  {
+    "key": "jnc_crossref",
+    "url": "https://api.crossref.org/journals/1617-1381/works?sort=published&order=desc&rows=8&filter=until-pub-date:2026-11-08",
+    "status": 200,
+    "final_url": "https://api.crossref.org/journals/1617-1381/works?sort=published&order=desc&rows=8&filter=until-pub-date:2026-11-08",
+    "length": 234193,
+    "snippets": []
+  },
+  {
+    "key": "jort_xml",
+    "url": "https://api.elsevier.com/content/article/PII:S2213078026000630?httpAccept=text/xml",
+    "status": 200,
+    "final_url": "https://api.elsevier.com/content/article/PII:S2213078026000630?httpAccept=text/xml",
+    "length": 2071,
+    "snippets": []
+  },
+  {
+    "key": "cres_xml",
+    "url": "https://api.elsevier.com/content/article/PII:S266604902600037X?httpAccept=text/xml",
+    "status": 200,
+    "final_url": "https://api.elsevier.com/content/article/PII:S266604902600037X?httpAccept=text/xml",
+    "length": 1993,
+    "snippets": []
+  },
+  {
+    "key": "jort_html",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2213078026000630",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/article/pii/S2213078026000630",
+    "length": 832981,
+    "snippets": []
+  },
+  {
+    "key": "cres_html",
+    "url": "https://www.sciencedirect.com/science/article/pii/S266604902600037X",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/article/pii/S266604902600037X",
+    "length": 832981,
+    "snippets": []
+  },
+  {
+    "key": "jort_api_full",
+    "url": "https://api.elsevier.com/content/article/pii/S2213078026000630?view=FULL",
+    "status": 401,
+    "final_url": "https://api.elsevier.com/content/article/pii/S2213078026000630?view=FULL",
+    "length": 133,
+    "snippets": []
+  },
+  {
+    "key": "jort_api_meta",
+    "url": "https://api.elsevier.com/content/article/pii/S2213078026000630?view=META",
+    "status": 401,
+    "final_url": "https://api.elsevier.com/content/article/pii/S2213078026000630?view=META",
+    "length": 133,
+    "snippets": []
+  },
+  {
+    "key": "jort_linkinghub",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S2213078026000630",
+    "status": 200,
+    "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S2213078026000630",
+    "length": 2735,
+    "snippets": []
+  },
+  {
+    "key": "jem_xml",
+    "url": "https://api.elsevier.com/content/article/PII:S0301479726026563?httpAccept=text/xml",
+    "status": 200,
+    "final_url": "https://api.elsevier.com/content/article/PII:S0301479726026563?httpAccept=text/xml",
+    "length": 1932,
+    "snippets": []
+  }
+]

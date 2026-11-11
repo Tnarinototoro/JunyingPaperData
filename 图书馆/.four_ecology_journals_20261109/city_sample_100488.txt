@@ -1,0 +1,225 @@
+Journal Pre-proof
+Predicting environmental health-related search patterns using freely
+available digital and reanalysis data: A critical evaluation of google trends
+and global datasets for Morocco
+Ayoub Lahlouh, Jérôme Chenal, Naoufal El Hachlafi,
+Mariem Bounabi, Mohammed Dalli, Seyid Abdellahi Ebnou Abdem,
+Mohammed Hlal, Rida Azmi
+PII: S2590-2520(26)00195-9
+DOI: https://doi.org/10.1016/j.cacint.2026.100488
+Reference: CACINT 100488
+To appear in: City and Environment Interactions
+Received date : 15 January 2026
+Revised date : 1 June 2026
+Accepted date : 25 September 2026
+Please cite this article as: A. Lahlouh, J. Chenal, N.E. Hachlafi et al., Predicting environmental
+health-related search patterns using freely available digital and reanalysis data: A critical
+evaluation of google trends and global datasets for Morocco. City and Environment Interactions
+(2026), doi: https://doi.org/10.1016/j.cacint.2026.100488.
+This is a PDF of an article that has undergone enhancements after acceptance, such as the addition
+of a cover page and metadata, and formatting for readability. This version will undergo additional
+copyediting, typesetting and review before it is published in its final form. As such, this version is
+no longer the Accepted Manuscript, but it is not yet the definitive Version of Record; we are providing
+this early version to give early visibility of the article. Please note that Elsevier’s sharing policy for
+the Published Journal Article applies to this version, see: https://www.elsevier.com/about/policies-
+and-standards/sharing#4-published-journal-article. Please also note that, during the production pro-
+cess, errors may be discovered which could affect the content, and all legal disclaimers that apply to
+the journal pertain.
+© 2026 Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+Journal Pre-proof
+Journal Pre-proof
+1 INTRODUCTION
+Predicting Environmental Health-Related Search Patterns Using Freely
+Available Digital and Reanalysis Data: A Critical Evaluation of Google
+Trends and Global Datasets for Morocco
+Ayoub Lahlouh1a,∗, Jérôme Chenal2a,b, Naoufal El Hachlafi3c, Mariem Bounabi4a,
+Mohammed Dalli5d, Seyid Abdellahi Ebnou Abdem6a, Mohammed Hlal7a and Rida Azmi8a
+aCenter of Urban Systems (CUS), Mohammed VI Polytechnic University (UM6P), Benguerir, Morocco
+bUrban and Regional Planning Community (CEAT), Ecole Polytechnique Fédérale de Lausanne (EPFL), 1015, Lausanne, Switzerland
+cFaculty of Medicine and Pharmacy, Ibn Zohr University, Guelmim, Morocco
+dHigher Institute of Nursing Professions and Health Techniques of Oujda City, Oujda, Morocco
+ARTICLE INFO
+Keywords:
+Urban environmental health
+Urban Analytics
+AI-driven Monitoring
+digital epidemiology
+Google Trends
+Morocco
+ABSTRACT
+Climate change and environmental degradation increasingly threaten urban public health, yet mon-
+itoring infrastructure is often unavailable in resource-constrained settings. This study develops and
+critically evaluates a machine learning framework that predicts environmental health-relatedsearch
+behavior, used as a low-cost digital proxy rather than a measure of clinical burden, in Morocco
+using exclusively open-access global datasets. We integrated five years of weekly data (April 2020
+to April 2025) from ERA5 meteorological reanalysis, Copernicus Atmosphere Monitoring Service
+products, and Google Trends to model binary high-interest states for four search categories: air
+quality,respiratoryconditions,heat-relatedillness,andallergies.Ensemblemodelswith71engineered
+features achieved strong classification performance (ROC-AUC 0.92 to 0.96) with temporal stability
+over 52-week horizons. An ablation study showed that this discrimination is carried primarily by the
+autocorrelated search signal; the environmental reanalysis block added negligible incremental ROC-
+AUC at national scale, yet retained meaningful standalone signal for the respiratory and air-quality
+categories while collapsing to near-random for allergy and heat-related illness. This contrast tracks
+biological plausibility, which varied substantially across categories: respiratory predictions aligned
+withestablishedepidemiologicalpatterns,whereasheat-relatedpredictionsshowedweaktemperature
+correspondence and implausible winter peaks. We therefore frame the system as a complementary
+screening layer pending external validation against clinical endpoints, not as a validated disease-
+surveillance or operational warning system. Because it relies solely on freely available data, the
+framework offers a replicable national-scale prototype for environmental health monitoring across
+North Africa and the Global South, contributing to SDG 3, 11, and 13.
+1. Introduction1
+As global urbanization accelerates toward the 20502
+targets, cities in resource-constrained settings increasingly3
+need low-cost tools to monitor and safeguard urban public4
+health against climate volatility, often without the ground5
+infrastructure that established monitoring systems assume.6
+The intersection of environmental factors and public health7
+is therefore crucial to the modern urban agenda and the8
+pursuit of the United Nations Sustainable Development9
+Goals(SDGs)[1].Risingtemperatures,degradedairquality,10
+andalteredweatherpatternsareincreasingclimate-sensitive11
+disease burdens worldwide [2, 3]. These trends threaten12
+SDG3(GoodHealthandWell-being),SDG11(Sustainable13
+Cities and Communities), and SDG 13 (Climate Action).14
+The World Health Organization estimates that environmen-15
+tal risk factors contribute to approximately 24% of the16
+global disease burden, with disproportionate impacts on17
+low- and middle-income countries where urban monitoring18
+infrastructure is often lacking [4].19
+∗Corresponding author
+ayoub.lahlouh-ext@um6p.ma (A. Lahlouh)
+ORCID(s):
+In Morocco, these challenges are compounded by rapid20
+urbanization, limited healthcare infrastructure, and insuffi-21
+cient early warning systems [5]. Air quality degradation in22
+urban centers, driven by vehicular emissions, industrial ac-23
+tivities, and desert dust events, has been linked to increased24
+respiratory diseases [6, 7]. Similarly, heat-related illnesses25
+have increased in frequency and severity, particularly af-26
+fecting vulnerable populations [8]. These compound risks27
+emphasizetheurgentneedforinnovative,data-drivenurban28
+analytics to monitor and mitigate environmental health im-29
+pacts.30
+To tackle these limitations, researchers are moving be-31
+yond traditional surveillance methods, which often suffer32
+from delayed reporting and incomplete data coverage in33
+resource-constrained settings [9]. Machine learning offers a34
+scalable alternative for urban intelligence systems. Methods35
+including Random Forest [10], Gradient Boosting [11], and36
+XGBoost [12] have demonstrated superior performance in37
+capturingcomplexnonlinearrelationshipsinhealthapplica-38
+tions [13, 14, 15].39
+Concurrently, digital epidemiology has emerged as a40
+complement to traditional systems by leveraging internet-41
+based behavior as a proxy for health outcomes [16]. While42
+1
+Journal Pre-proof
+Journal Pre-proof
+2 MATERIALS AND METHODS
+promising, this approach faces fundamental criticism re-43
+garding its susceptibility to media-driven behavior, tempo-44
+ral instability, and unclear correlations with actual disease45
+burdens [17, 18, 19, 20].46
+Toovercomethesedatareliabilityissues,high-resolution47
+environmental data from satellite observations and reanal-48
+ysis products have expanded research possibilities. The49
+ERA5 reanalysis offers meteorological data at unprece-50
+dented resolution [21], while the Copernicus Atmosphere51
+Monitoring Service (CAMS) provides comprehensive at-52
+mospheric composition data [22]. Validation studies have53
+established the reliability of these satellite-derived inputs54
+[23,24],particularlyinregionswhereground-basedsensing55
+networks are sparse [25].56
+Although previous studies have combined subsets of57
+thesedatasources,forinstance,linkingGoogleTrendswith58
+meteorology[26]orairpollutionwithrespiratoryoutcomes59
+[27, 28], important methodological gaps remain. First, re-60
+lianceonrandomcross-validationratherthanrigoroustime-61
+series splitting frequently inflates performance estimates62
+[29, 30]. Second, the alignment between high technical63
+performance and biological plausibility is rarely systemati-64
+callyassessed[17].Third,modelstabilityunderoperational65
+forecastingconditionsandproperprobabilitycalibrationfor66
+risk-based decision-making remain inadequately addressed67
+[31, 32].68
+This study addresses these interconnected gaps by de-69
+velopingarobustmachinelearningframeworkforpredicting70
+environmentalhealth-relatedsearchpatternsinMorocco.By71
+integrating granular meteorological and atmospheric data72
+with digital health signals, we create predictive models for73
+air quality-related conditions, respiratory illnesses, heat-74
+related illnesses, and allergies. To disentangle the respec-75
+tive predictive contributions of environmental exposures76
+and digital search behavior, we pair the modeling with a77
+systematic ablation analysis and a tiered biological plausi-78
+bility assessment. This dual lens allows us to distinguish79
+statistically accurate predictions from those with genuine80
+epidemiological coherence, and to clarify what the models81
+are actually learning. The primary contributions of this82
+research are:83
+• Rigorous Temporal Validation:We implement an84
+expanding-window strategy across 26, 39, and 52-85
+week horizons to ensure the system’s reliability for86
+operational deployment [30, 31];87
+• Advanced Feature Engineering: We identify key88
+predictive drivers by incorporating temporal encod-89
+ings [33], lag structures [34], and seasonal anomaly90
+detection [35];91
+• Reliability&Calibration: Weensuremodeloutputs92
+are actionable for decision-makers by implementing93
+properprobabilitycalibrationforriskassessment[32];94
+and95
+• BiologicalPlausibility: Wecriticallyevaluatepredic-96
+tions against established environmental health rela-97
+tionships to determine the validity of digital signals98
+as proxies for actual health burdens in urban environ-99
+ments [17].100
+• Systematic Source Attribution:We isolate the rela-101
+tivecontributionofenvironmentalreanalysisanddigi-102
+talsearchsignalsthroughanablationstudy,clarifying103
+the primary drivers of predictive performance.104
+Byaddressingbothtechnicalfeasibilityandvalidity,this105
+work offers a replicable methodology for data-driven urban106
+health monitoring in low- and middle-income countries.107
+It establishes benchmarks for distinguishing accurate pre-108
+dictions from epidemiologically meaningful forecasts and109
+demonstrateshowopen-accessdatacansupporturbanenvi-110
+ronmental health monitoring aligned with SDGs 3, 11, and111
+13 across the Global South.112
+The remainder of this paper is organized as follows:113
+Section 2 presents the materials and methods, Section 3114
+describes the experimental setup and results, Section 4 pro-115
+vides a rigorous discussion of findings, and Section 5 con-116
+cludes with key takeaways and future directions.117
+2. Materials and Methods118
+This study develops a machine learning framework for119
+predicting environmental health search patterns in Morocco120
+usingfreelyavailableglobaldatasets.Followingestablished121
+best practices for environmental health prediction [14, 28],122
+the framework consists of: (1) data acquisition from ERA5123
+weather reanalysis, CAMS air quality products, and Google124
+Trends; (2) feature engineering incorporating temporal pat-125
+terns, environmental exposures, interaction terms, and lag126
+features;(3)modeltrainingwithtimeseriescross-validation,127
+probability calibration, and threshold optimization; and128
+(4) comprehensive evaluation using multiple metrics and129
+expanding-window backtesting. Figure 1 provides a com-130
+prehensive overview of this pipeline.131
+2.1. Study Area132
+Located in northwestern Africa (21°/36°N, -1°/-17°W),133
+Morocco covers approximately 710,850 km² with a popula-134
+tion exceeding 36 million, of which 64% resides in major135
+urban centers [36]. The country exhibits diverse climatic136
+conditions ranging from Mediterranean in the north to arid137
+desert in the south, with the Atlas Mountains creating dis-138
+tinct environmental zones [37]. Morocco faces significant139
+environmental health challenges including air pollution, pe-140
+riodic Saharan dust intrusions, and increasing extreme heat141
+events [38, 39], making it an ideal setting for develop-142
+ing predictive environmental health models in a resource-143
+constrained context.144
+2.2. Data Collection and Integration145
+This stage encompasses data acquisition from multiple146
+sources [28], temporal harmonization, and construction of147
+2

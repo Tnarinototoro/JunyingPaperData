@@ -1,0 +1,79 @@
+SEM English-language review: current English12 manuscript
+审校对象：英语12 10.31 txt.txt（全文543行）；本文件仅为修改建议，不修改原件。
+参考：Zhao et al. (2024), Sustainable Cities and Society, 101, 105094，已逐页查看10页原图。下列行号指本轮读取的原英稿。
+
+总体判断
+现稿已经正确区分探索性关联与因果解释，也已经将整体拟合、潜变量与指标的关系、结构路径分开报告。真正值得修改的是少数不够精确或不够自然的SEM英语，不需要重新翻译整篇，不需要套入Zhao的估计方法或统计检验。
+
+1. 优先修改：方法段区分路径、测量负荷和解释方差
+位置：2.3最后一段，原稿l181最后一句。
+Before:
+Path coefficients, loadings, and squared multiple correlations (SMCs) were interpreted on an exploratory basis as associations between management responses and conditions.
+After:
+The measurement model was examined using factor loadings and indicator squared multiple correlations (SMCs). Structural path coefficients were interpreted as exploratory associations, and R² values summarized the variance accounted for in the endogenous latent variables.
+理由：SMC是解释方差的指标，不宜与路径系数、负荷量一起统称为associations。这样也与3.6的测量模型、结构模型及观测指标SMC／内生潜变量R²的实际报告层级一致。
+Zhao依据：p.5, Section 4.2明确区分structural model与measurement models；Table 3 (p.6)报告测量负荷，Fig.3 (p.7)及Table 4 (p.8)报告结构关系。SMC解释本身是统计术语校正，不能说Zhao的表直接报告或验证了本研究的SMC。
+
+2. 建议修改：cross-loading及直接路径的自然表述
+位置：2.3最后一段，原稿l181前三句。
+Before:
+The model comprised three explanatory and three behavioral latent variables, with 16 unique observed variables. Breadth of complaint types, outside-park greenness, and outreach-oriented management behavior were each specified to receive loadings from two latent variables. For basic amenity and safety provision, a direct path from user attitudes was specified in addition to the loading from user-focused behavior.
+After:
+The model comprised three explanatory and three behavioral latent variables, with 16 unique observed variables. Three indicators—breadth of complaint types, outside-park greenness, and outreach-oriented management behavior—were specified to cross-load on two latent variables. A direct path from user attitudes to basic amenity and safety provision was specified in addition to the indicator's loading on user-focused behavior.
+理由：receive loadings from不够自然；指标通常说load on／cross-load on某个潜变量。最后一句明确区分额外直接路径和测量负荷，不把两者混写成同一种关系。
+Zhao依据：p.5, Section 4.2使用latent variables、indicators及measurement models区分两类模型；Table 3 (p.6)对应因子负荷，Table 4 (p.8)对应结构系数。cross-load on是对本稿真实设定的常规英语表达，不声称Zhao具有相同的交叉负荷设定。
+
+3. 建议修改：结果段用factor-loading语言，而不是模糊的corresponded
+位置：3.6.2，原稿l363第一句；第二句原样保留。
+Before:
+Among the behavioral latent variables, environment-focused behavior corresponded relatively strongly to direct ecological management behavior; balance-oriented behavior to outreach-oriented management behavior and to alignment of management operations, experience, and empathy; and user-focused behavior to tolerance of active, high-load recreational use.
+After:
+Direct ecological management behavior had the largest loading on environment-focused behavior. For balance-oriented behavior, the two largest loadings were for outreach-oriented management behavior and for alignment of management operations, experience, and empathy. Tolerance of active, high-load recreational use had the largest loading on user-focused behavior.
+理由：这一段报告的是测量负荷，不是一般的变量相关，也不是结构效应。largest只描述现稿已报告估计值的排序，不表示差异经过显著性检验。所有变量名称保持不变。
+Zhao依据：p.5, Section 4.2及Table 3 (p.6)，测量结果以factor loadings叙述，与后面的结构关系分开。
+
+4. 建议同步修改：交叉负荷结果的统一用语
+位置：3.6.2，原稿l365整段。
+Before:
+Among the cross-loading indicators, breadth of complaint types corresponded more strongly to user attitudes than to social norms, and outreach-oriented management behavior more strongly to balance-oriented behavior than to environment-focused behavior. Outside-park greenness had similar loadings on environmental quality and user attitudes. Thus, some shared indicators had similar relationships with two constructs, whereas others corresponded more strongly to one.
+After:
+Among the cross-loading indicators, breadth of complaint types had a higher loading on user attitudes than on social norms, whereas outreach-oriented management behavior had a higher loading on balance-oriented behavior than on environment-focused behavior. Outside-park greenness had similar loadings on environmental quality and user attitudes.
+理由：直接说loading较高，更清楚地限定为测量模型的估计结果；删除最后一句重复总结，不额外加入显著性或因果判断。
+Zhao依据：p.5, Section 4.2及Table 3 (p.6)对measurement model的语言层级；不能将这项措辞建议说成Zhao的模型也使用本稿这些交叉负荷。
+
+5. 建议修改：图注分开说明未显示显著性和无法确立因果
+位置：Fig.2图注，原稿l353最后一句；前两句保留。
+Before:
+The significance or causal effects of individual paths cannot be determined from this display alone.
+After:
+Statistical significance is not shown for individual paths, and the model does not establish causal relationships.
+理由：display alone容易让读者误以为补充另一张表即可证明因果。修改后明确说明当前图没有报告个别路径显著性，并将因果边界独立说明；不声称原分析没有做过检验。
+Zhao依据：p.9, Section 5.2明确指出横断面数据不能识别因果方向；其结论也再次限定因果推断。本稿已有探索性定位及单一时点管理者报告，采用相同层次的措辞边界即可，不能复制其显著性结果。
+
+6. 可选的简洁化：直接通向观测指标的结构路径
+位置：3.6.3，原稿l373。
+Before:
+The direct path from user attitudes to basic amenity and safety provision was negative (−0.45), indicating an association with this composite score for safety and amenities.
+After:
+The direct path from user attitudes to the observed composite basic amenity and safety provision was negative (−0.45).
+理由：原句后半重复前半；observed composite明确它不是潜变量user-focused behavior的同义名称。原稿4.5已经解释这两个分析层次，不需要在结果中再加一层推测。
+Zhao依据：p.5, Section 4.2区分latent variables和observed variables；结构路径与测量负荷分别报告。
+
+7. 可选的自然英语：概括Zhao的研究
+位置：1.2，原稿l31第一句；该段关于Tsukada的内容不在本子任务中重审。
+Before:
+Among studies using SEM to examine parks in relation to the living environment, Zhao et al. (2024) analyzed the relationships of private garden area, satisfaction with greenness in the city and around the place of residence, and the frequency of visits to urban parks and neighborhood open spaces with subjective well-being.
+After:
+Zhao et al. (2024) used SEM to examine how private garden size, satisfaction with green space at the city and neighborhood levels, and the frequency of use of urban parks and neighborhood open spaces were related to subjective well-being.
+理由：relationships of ... with ...嵌套过长；修改后保留其三种绿地及满意度、使用频率、主观幸福感之间的关系，不把所有路径概括为显著的直接效应。
+Zhao依据：p.3, Section 3.1及Fig.1；p.4, Section 3.2；p.5, Section 4.2；p.7, Fig.3。
+
+建议保留、不必为了模仿Zhao而改动的部分
+—3.6.1关于不同拟合指标提供不完全一致评估、χ²在5%水平未拒绝以及探索性解释的边界，可保留；不能改成model fit was confirmed或the model was validated。
+—保留现有explanatory／behavioral分组和作者自定义构念名称；不因英文习惯擅改其概念内容。
+—保留探索性EFA先后关系、principal axis factoring、Varimax、同一批样本重估等真实方法说明；不能包装为独立CFA验证。
+—不自行把本稿系数标成standardized／β；Zhao的Table 3、Table 4明确区分标准化与非标准化，但这不构成本稿标准化状态的证据。
+—不因Zhao使用maximum likelihood而在本稿添加ML，也不因其参考文献中有PLS文献而将任何模型称为PLS。
+—不复制Zhao的负荷阈值、信度值、拟合阈值或显著性；不把点估计大小差异说成显著更强。
+—Zhao也使用effects等词，但其p.9明确限定因果推断；本稿继续使用association／related to更符合自身的探索性定位。
+—Q8原选项及complaints／requests的翻译由问卷核对代理按原问卷校正。本审校不以Zhao或现稿概述替代原问卷，不修改选项、编码、系数或原数据。

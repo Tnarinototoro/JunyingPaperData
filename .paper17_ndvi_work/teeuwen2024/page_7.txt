@@ -1,0 +1,168 @@
+R. Teeuwen
+10 ％ 65 years or older). Most participants are city dwellers （ 61 ％ 〗
+When testing differences in perceptions among pairs 0f demographic
+groups using the Mann Whitney U test, we did not find any statistically
+significant differences.
+From these 409 partlcipants, we obtalned a total of 1956 perceptions
+on greenness, after filtering Ot1t data in case Of technical issues （ e ， 8 ” the
+panorama did not load in time) or in case the participant did not interact
+at all with the panorama (i.e., made no clicks t0 pan the panorama
+around or Z()OIII in).
+Out of 420 places, 413 received valid perceptions fi ℃ m our partici-
+pants. On average, each place was rated on greenness by 5 peopl 巳
+Table 2
+shows descriptive statistics on the places, their NDVI values and
+OSM categories, and associated perceptions per city. People perceived
+180 of the places 〔 44 ％ ） as green.
+亻 ． 2 Quantitative analyses
+4 ． 27 ． HI: Perceived greenness 0 NDVI values
+Hypothesis and ou 忙 ome ： We hypothesized t0 find a strong positive
+correlation between NDVI and perceived greenness. Using Spearman' s p,
+we tested the correlation between hOW green places are perceived tO be,
+and their NDVI values, and found a statistically significant correlation 0f
+moderate strength 〔 p ： 0 ． 459 ， p-value < 0 ． 006 ） ， tht1S not supporting our
+hypothesis.
+E ra analyses ： NO apparent NDVI value threshold that differ-
+entiates greenspaces from other spaces could be identified. When
+comparmg correlations between cities, we found that correlation is
+much weaker in Barcelona 〔 p ： 0 ， 269 ， p-value < 0 ． 006 ） than in R0tter-
+dam (): 0 ， 540 ， p-value < 0 ． 006 ） and G0thenburg (): 0 ， 570 ， p-value <
+0 ． 006 ） Furthermore ， we did not find stronger correlations when using
+the maximum NDVI value in a place' s proximity, as opposed tO the
+median (i.e., p: 0 ， 47 ， p-value < 0 ， 006 〗
+SensitiVlty analyses: TO analyze hOW sensitive our correlation restllts
+are tO the radius distance used tO calctllate a place' s NDVI valtle ， we
+found that by increasing the radius distance t0 25 ， 29 ， and 43 m, cor-
+relation strengths increase fi ℃ m 0 ， 459 to 0 ． 556 ， 0 ， 585 and 0 ． 600 (all p
+value < 0 ． 006 〕 ， while decreasing again for larger distances. Further-
+more, from 25 up tO 100 m, the differences in correlations among case-
+study cities largely disappeared.
+亻 ， 22 H2 ： Perceived greenness 沅 re 陋 0 OSM categones
+刃 ） 0 es and outcome H2. We hypothesized （ H2 ， 1 〕 that perceived
+greenness is higher for OSM regular size greenspaces than for pocket-
+size greenspaces, play spaces, open public spaces, and streets. Using
+the Kruskal-Wallis test, we found significant difference in perceived
+greenness occurs between OSM categories 〔 H ： 107 ， p-value < 0 ， 006 〗
+Using a one-tailed Mann Whitney U test ， with the alternative hypothesis
+regtllar-size greenspaces are perceived more green ()thers,
+found that regtllar size greenspaces (median perceived greenness: 4 ． 0 ， n:
+112 〕 are indeed perceived greener than: pocket-size greenspaces (me-
+dian ： 4 ． 0 ， U: 5878 ， n: 86 ， p-value < 0 ． 006 〕 ； open public spaces (median ：
+2 ． 0 ， U: 9723 ， n: 102 ， p-value < 0 ． 006 ） ； and streets (median ： 3 ． 0 ， U: 8741 ，
+n: 107 ， p-value < 0 ． 006 ） ； while no significant difference was found with
+play spaces (median: 生 0 ， n: 78 ） ； showing that OSM regtllar-size green-
+spaces are only perceived greener than pocket-size greenspaces ， open
+ptlblic spaces, and streets.
+Table 2
+Descriptive statistics Of places and associated perceptions per case-study city.
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+llypothesis and outcome H22 ： We further hypothesized 〔 H2 ． 2 ） that
+also pocket-size greenspaces, play spaces, open ptlblic spaces ， and
+streets can be perceived greenspaces, some literature suggests.
+considered a place tO be perceived as greenspace when it was rated on
+median 4 (fairly) or 5 (very) vegetated. We found that 70 ％ of all OSM
+regtllar Size greenspaces are perceived as greenspaces. Furthermore, 47
+％ 0f pocket-size greenspaces, 11 ％ 0f open public spaces, 36 ％ 0f play
+spaces, and 23 ％ of streets (all excltlding those that also lie within direct
+proximity Of a regtllar-size greenspace) are perceived greenspaces.
+Tht1S, we can confirm that not only regtllar-size greenspaces ， btlt alSO
+pocket-size greenspaces are perceived as green more often than 40 ％ of
+times (i.e., if greenness ratings were distribtlted equally over our 5-point
+scale, 2 ／ 5 or 40 ％ would be considered green).
+Sensitiv1ty analyses: When we gradually increased the radius distance
+which we use t0 define if a place lies in proximity t0 an OSM greenspace ，
+we observed that restllts for H2.1 remain rather stable up t0 43 m. Yet for
+H2 ， 2 ， we observed that percentages decline: with a radius 0f 15 m, 70 ％
+of places located near OSM greenspace are indeed perceived by people
+as green; while with 25 ， 29 ， and 43 m, the percentages declined to 67 ％ ，
+66 ％ ， and 63 ％ ， respectively.
+亻 ． 23 ． H3 ： Perceived greenness relation 加 bo 山 NDVI values and OSM
+categones
+HI ） 0 山 es and 0.com/ We hypothesized that if perceived green-
+spaces are selected using a comb 海 皿 五 0 of OSM categories and NDVI
+values, they are better recorded in data than when only OSM categories
+or only NDVI values are used. To test our hypothesis ， we implemented
+three greenspace selection algorithms based on our findings in HI and
+H2: 1 ） OSM based, selecting all locations near OSM regular size green-
+spaces; 2 ） NDVI based ， selecting places with an NDVI value larger than
+the median NDVI value of all sampled locations in the same city• and 3 ）
+combination-based, selectlng locations near OSM regular-size green-
+spaces, and pocket-size greenspaces and play spaces with an NDVI larger
+than the median. We compared their restllts tO the crowdsourced per-
+ceptions 0f greenspace. ln 67 ． 8 ％ of cases ， the OSM-based algorithm
+correctly captured perceptions 0f greenspace, compared to 65 ， 6 ％ for
+the NDVI-based algorithm and 7L8 ％ for the combination-based al-
+gorithm. McNemar S one-tailed test revealed that the combination-
+based algorithm performed significantly better than the NDVI based
+algorithm (): 40L p-value < 0 ， 006 〗 while no significant difference
+was found with the OSM-based algorithm.
+Sensitiv1ty analyses ： When we repeated our analysis with NDVI values
+and OSM categories within larger radius distances, we discovered that
+the percentages 0f the OSM-based and combination based algorithms
+gradually decreased with distance, while they increased for the NDVI-
+based algorithm, which is consistent with the findlngs in HI and H2
+Table 3 〗 Regardless 0f radius distance, the combination based al
+gorithm otltperformed the OSM-based algorithm ， while at a 43 meter
+radius distance ， the NDVI-based algorithm achieved the highest score
+of 72 ． 3 ％ ． Using McNemar ， s test ， we observed the NDVI-based algo
+rithm outperforms the OSM-based algorlthm significantly (): 412 ， p-
+value < 0 ． 006 〗 while the difference with the combination-based algo-
+rithm was not statistically significant.
+Case
+city
+Barce1011a
+Rotterdam
+G0thenburg
+Total
+places
+139
+137
+137
+413
+NDVI [ 0 一 1 ]
+med.
+0 ． 139
+0 彐 88
+0 ． 140
+0 · 151
+mln
+0 ． 017
+0 ． 023
+0 ． 019
+0 · 017
+maX
+0 ． 379
+0 ， 539
+0 ． 492
+0 ． 539
+OSM category [ ％ ]
+-SIZe
+30 ． 9 ％
+26 ， 3 ％
+24 ． 1 ％
+27 ． 1 ％
+POC.—SIZe
+20 ． 1 ％
+2L9 ％
+20 ． 4 ％
+20 ． 8 ％
+3L7 ％
+2L9 ％
+20 ． 4 ％
+24 · 7 ％
+play space
+20 ． 1 ％
+19 ， 7 ％
+16 ． 8 ％
+18 ． 9 ％
+street
+28 彐 ％
+27 ． 0 ％
+22 ． 6 ％
+25 · 9 ％
+perceptions
+647
+645
+664
+1956
+7

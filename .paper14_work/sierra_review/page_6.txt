@@ -1,0 +1,53 @@
+6
+J. Cabello, M. Escudero-CIares and S. Martos-RosiIIo 豇 aI./Data in Brief 67 （ 2025 丿 777 / 60
+and 1 一 4 for interannual N DVI (V). The combination Of the three attributes resulted in
+64 unique ecohydrological classes, each reflecting a distinct functional profile potentially
+linked tO groundwater availability. FO r each class, summary statistics (mean, SD, min, max)
+we re calculated and used as input for hierarchical clustering (Euclidean distance, com-
+plete linkage). Th e resulting dendrogram wa s pruned t0 define three levels 0f potential
+groundwater dependence: pGDV1 00w ） ， pGDV2 (moderate), and pGDV3 (high). Separate
+clustering wa s applied tO low-elevation （ SA 乙 CAZ ） and high-elevation （ AAZ ） zones.
+4 · Spatial analysis and mapping: Raster I aye 巧 we re generated at 10 m spatial resolution for
+both the 64 ecohydrological classes and the three-level pGDV classification. A CSV file wa s
+also produced containing descriptive statistics for each class. AII layers use the ETRS 89 /
+UTM Zone 30N coordinate system (EPSG: 25830 ） ·
+5 · TOOIS and software used: NDVI processing and filtering were performed in Google Earth
+Engine. Statistical and clustering analyses we re conducted in R （ v4 · 2 · 3 ） ， using the pacl<-
+ages: raster, sp, terra, rgdal, cluster, factoextra, FactoMineR, NbClust, and ggplot2. Spatial vi-
+sualization and map export were done in QGIS Desktop 3 · 28 · 4 ·
+6 · PartiaI validation Of the pGDV classification: TO assess the ability Of the pGDV map tO de-
+tect known groundwater-dependent vegetation, a partial validation wa S conducted using
+tWO spatial indicators: i) Springs georeferenced across S eve n rive r catchments (Nechite,
+Mecina, Bérchules, Alhorf, Bernal, Ohanes), compiled from published sources [
+] and
+13 14
+field data; and (i) Occurrence records 0f hygrophilous plant species, selected based on ex-
+pert classifications [
+] from th e Sierra Nevada Endangered FIora Database (FAME), an Of-
+ficial database managed by the Andalusian EnvironmentaI lnformation Ne tWO rl< (REDIAM)
+that compiles validated records Of threatened plant species across the region [
+7 · Spatial intersections between these indicators and the pGDV map we re used tO compute
+Producer ， S Accuracy, focusing on omission e 「 ro rs (i.e., known groundwater-dependent IO-
+cations not classified as pGDV3). Th e analysis considered only presence data, as absence
+records we re not reliable for validation purposes. Records with imprecise georeferencing
+we re excluded. A chi-square （ 天 2 ） test wa S used tO evaluate whether the spatial association
+between indicators and pGDV3 class wa S statistically significant. Analyses were conducted
+separately by hydrological zone （ AA 乙 SA 乙 CAZ).
+Limitations
+S eve ra I limitations should be considered when using this dataset. First, the N DVI time series
+used t0 derive ecohydrological attributes are based on Sentinel-2 imagery with a 10 m spatial
+resolution, which m ay not fully capture narrow rlparian corridors or small groundwater dis-
+ch a rge areas. Cloud and snow filtering, although applied systematically, may lead t0 data gaps
+in high-elevation zones ， especially during winter months.
+Th e NDVI threshold of 0 · 1 used t0 masl< non-vegetated areas may exclude low-biomass
+ecosystems with some degree Of groundwater dependence, such as sparsely vegetated wetlands
+or early-successional habitats. Th e classification intO pGDV levels is based on remotely sensed
+proxies, which, although validated using spatial indicators (springs and hygrophilous species),
+dO not directly measure groundwater use.
+Vegetation typologies we re derived from a reclassification Of an existing regional map
+(VEGEIO), which, although detailed, may contain classification uncertainties at ecotones or
+mixed land cover types. Finally, the validation wa s based on presence-only data, which limits
+the ability tO assess overall classification accuracy.
+Despite these limitations, the dataset provides a consistent and reproducible framework fO 「
+identifying and comparing groundwater-dependent vegetation in semi-arid mountain environ-
+ments.

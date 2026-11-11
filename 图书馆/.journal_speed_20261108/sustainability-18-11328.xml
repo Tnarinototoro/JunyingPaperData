@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">sustainability</journal-id>
+      <journal-title-group>
+        <journal-title>Sustainability</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Sustainability</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Sustainability</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2071-1050</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/su182111328</article-id>
+      <article-id pub-id-type="publisher-id">sustainability-18-11328</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Toward a Sustainable Urban Morphology: A Critical Examination of Atakum City Centre</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0008-5625</contrib-id>
+          <name>
+            <surname>Ay&#x131;k</surname>
+            <given-names>Cem</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Bathrellos</surname>
+            <given-names>George D.</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-sustainability-18-11328">City and Regional Planning Department, Architecture Faculty, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/028k5qw24</institution-id><institution>Ondokuz May&#x131;s University</institution></institution-wrap>, 55020 Samsun, Turkey; <email>cemayik@gmail.com</email> or <email>cem.ayik@omu.edu.tr</email></aff>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>18</volume>
+      <issue>21</issue>
+      <elocation-id>11328</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>09</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>29</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>11</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the author.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Urban areas are shaped by physical, social, cultural, and economic dynamics, requiring sustainable planning approaches that balance liveability, accessibility, and cultural continuity. This study examines Atakum, a rapidly urbanised district in Samsun, Turkey, which has evolved from a coastal resort into one of the densest urban areas in the Black Sea region. Focusing on the T&#xFC;rki&#x15F; region, Atakum&#x2019;s earliest intensively developed residential area, this study evaluates urban morphological sustainability through typo-morphological analysis within the framework of New Urbanism. The methodology integrates a literature review, spatial analysis, morphological mapping, and space syntax to assess building typologies, block structures, green space distribution, pedestrian accessibility, and transportation networks. The findings revealed imbalances in public and green space provision, inadequate pedestrian infrastructure, and challenges related to density, sunlight access, and street hierarchy. Despite mixed land uses and commercial vitality, deficiencies in walkability and environmental quality contribute to fragmented urban patterns, undermining sustainability and quality of life.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>urban morphology</kwd>
+        <kwd>New Urbanism</kwd>
+        <kwd>sustainability</kwd>
+        <kwd>land use</kwd>
+        <kwd>city centres</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>This research received no external funding.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-sustainability-18-11328" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Urban areas represent the largest built environment and embody complex socio-spatial relationships that shape human life on a large scale. Since the 1950s, cities have become places where individual buildings are discussed rather than areas consisting of building complexes [<xref ref-type="bibr" rid="B1-sustainability-18-11328">1</xref>] (p. 3). Beyond the built fabric, urban spaces also reflect the traditions, conditions, and aspirations of residents, thereby forming an essential dimension of urban identity [<xref ref-type="bibr" rid="B2-sustainability-18-11328">2</xref>] (p. 17). Nevertheless, cities are places created to organise human life, direct and surround human life, shape human relationships in social life, and bring social distances to the closest possible interaction network [<xref ref-type="bibr" rid="B3-sustainability-18-11328">3</xref>] (p. 103). Given their complexity, cities require interdisciplinary and comprehensive planning frameworks.</p>
+      <p>According to the United Nations (UN), more than half of the world&#x2019;s population lives in cities [<xref ref-type="bibr" rid="B4-sustainability-18-11328">4</xref>]. In addition to cities being the most crowded places, high energy consumption is common between buildings [<xref ref-type="bibr" rid="B5-sustainability-18-11328">5</xref>], transport, and industry [<xref ref-type="bibr" rid="B6-sustainability-18-11328">6</xref>] in cities where energy, such as resources, is one of the key factors of sustainability. This led to more sustainable use of resources in cities managed with scarce resources. Sustainable urban planning, as one of the outputs of the new urbanist movement, has become indispensable for balancing growth with the preservation of unique urban characteristics while challenging urban complexity and an increasing urban population. The importance of sustainable urban approaches is also clear because 65% of the global sustainable development goals concern local communities [<xref ref-type="bibr" rid="B7-sustainability-18-11328">7</xref>] while considering cities&#x2019; energy consumption. Currently, cities around the globe are focused on developing strategies and action plans that are more sustainable against global changes such as climate change [<xref ref-type="bibr" rid="B8-sustainability-18-11328">8</xref>]. While sudden global warming has occurred, 37% greenhouse gas emissions, which are the main factors causing this, come from construction, and another 23% come from transportation [<xref ref-type="bibr" rid="B9-sustainability-18-11328">9</xref>] (p. 15), the pillars of grand consumption.</p>
+      <p>Urban planning is a political and technical discipline that involves the management of economic, social, and environmental (common pillars of sustainability) resources while systematically allocating them for long-term sustainability [<xref ref-type="bibr" rid="B10-sustainability-18-11328">10</xref>]. Sustainability is a concept that challenges conventional thinking and practice [<xref ref-type="bibr" rid="B11-sustainability-18-11328">11</xref>]. Its objectives extend beyond the provision of basic needs&#x2014;housing, employment, education, healthcare, and recreation&#x2014;to encompass broader social requirements such as identity, belonging, and socialisation. Housing areas, which constitute a significant share of urban land, are particularly critical not only because they constitute a major energy-consumption pillar but also because they reflect the quality of the built environment. In addition to providing shelter, they foster social relations, strengthen urban identity, and shape socio-cultural life. By enabling efficient resource use and reducing energy consumption while enhancing the quality of settled areas, mixed-use development within residential areas, including commercial, educational, and healthcare facilities, supports community well-being and aligns with sustainable urbanisation principles.</p>
+      <p>However, as populations increase, residential zones face mounting pressure to accommodate higher densities while addressing environmental and resource constraints in the process. Ensuring liveable and sustainable residential environments requires strategies that integrate social, economic, environmental, and cultural (fourth pillar of sustainability) factors. The concept of sustainable urban development has emerged as a framework that necessitates rigorous urban planning and effective land use management to secure environmentally, socially, and economically sustainable future growth [<xref ref-type="bibr" rid="B12-sustainability-18-11328">12</xref>]. In recent years, accessibility to urban services has emerged as a top priority [<xref ref-type="bibr" rid="B13-sustainability-18-11328">13</xref>], and many X-minute city [<xref ref-type="bibr" rid="B14-sustainability-18-11328">14</xref>]-based approaches have been developed. These planning approaches not only adhere to regulatory norms but also adopt context-sensitive, sustainable strategies that enhance quality of life (from the perspective of environmental quality) in cities.</p>
+      <p>Urban studies are shaped by both quantified and qualified systematic approaches due to the complexity of cities. Urban morphological analysis can provide quantified and qualified data to understand cities via morphology. Urban morphology studies form human settlements [<xref ref-type="bibr" rid="B15-sustainability-18-11328">15</xref>], form relationships [<xref ref-type="bibr" rid="B16-sustainability-18-11328">16</xref>], and compositions of the urban fabric [<xref ref-type="bibr" rid="B17-sustainability-18-11328">17</xref>] while generating ideas and habits that give a form to cities [<xref ref-type="bibr" rid="B18-sustainability-18-11328">18</xref>]. The great challenge is transforming complicated qualified data to quantified data to measure urban areas in terms of quality of life and habits of urban movement.</p>
+      <p>Despite the extensive literature on urban morphology, sustainable urbanism, and neighbourhood accessibility, an important analytical challenge remains: understanding how the physical configuration of urban areas relates to the distribution and continuity of public spaces, pedestrian accessibility, environmental conditions, and planning implementation in rapidly urbanising contexts. These dimensions are often examined using distinct analytical approaches, making it difficult to understand how their interactions contribute to the overall quality of the urban environment. In particular, the assessment of urban sustainability requires more than identifying the presence of mixed land uses, transport infrastructure, or green spaces; it also requires examining their spatial relationships and integration within the urban fabric.</p>
+      <p>Atakum, a district in Samsun Province on Turkey&#x2019;s Black Sea coast, has recently experienced rapid demographic and spatial transformation and has become one of the country&#x2019;s most dynamic districts, according to the migration statistics of the Turkish Statistical Institute (TURKSTAT) [<xref ref-type="bibr" rid="B19-sustainability-18-11328">19</xref>]. Originally a low-density vacation area, Atakum has recently undergone intensive development characterised by multistorey, high-density housing while hosting scattered commercial areas. However, its mixed land use remains imbalanced, particularly in terms of public space distribution, undermining overall urban quality. The case of Atakum provides an opportunity to investigate the previously mentioned relationships in a coastal settlement that has undergone substantial transformation from a relatively low-density recreational area into a densely built urban district.</p>
+      <p>To address this issue, this study examines the T&#xFC;rki&#x15F; region of Atakum through an integrated typo-morphological framework based on New Urbanism. This research is guided by three questions: (1) How has the transformation of the urban fabric influenced land-use patterns, building and block configurations, and the distribution of public and green spaces? (2) To what extent do the street network, pedestrian infrastructure, and spatial configuration support the accessibility and continuity of movement within the study area? (3) How do building density, block geometry, solar access, and planning implementation processes explain the observed opportunities and constraints for urban liveability and morphological sustainability?</p>
+      <p>This study contributes to sustainable urbanism research by bringing together historical land-use analysis, two-dimensional morphological mapping, three-dimensional modelling and shadow simulation, space syntax analysis, and qualitative insights from municipal planning discussions. Rather than treating sustainability as a single measurable outcome, the study uses these complementary approaches to identify relationships between urban form, accessibility, environmental quality, and planning processes. By examining these relationships in an intensively urbanised coastal district, the research offers a context-sensitive analytical framework that may inform the assessment and planning of other rapidly transforming urban areas. The findings are intended to support more integrated planning strategies that connect development density with pedestrian accessibility, coherent public-space networks, green-space provision, and environmental quality.</p>
+      <sec>
+        <title>Approaches to Sustainability, Liveability, and Accessibility Within the New Urbanism Movement and Urban Form</title>
+        <p>The industrial era of the 18th century imposed new thinking on the understanding and organisation of time. This was actually the first step toward viewing increasingly crowded cities from a new perspective at that time. Creating high-quality living environments and promoting sustainable urbanisation constitute additional milestones in urban planning. The origins of these approaches can be traced back to post-war redevelopment policies in Western countries during the 1960s and even earlier, to the Industrial Revolution, from an ecological perspective. The 1960s were particularly significant, marked by social transformation, new artistic movements, urban theories, and the establishment of modern living norms in response to environmental degradation and social pressures following the World Wars. This period also witnessed accelerated urbanisation, which introduced significant socio-economic challenges. In addition, during the same period, it was argued that national income should be directed toward addressing these emerging social needs, reflecting early awareness of urban problems and their possible solutions [<xref ref-type="bibr" rid="B20-sustainability-18-11328">20</xref>].</p>
+        <p>Since the late 1980s and early 1990s, urban designers, architects, planners, developers, and engineers associated with the urban movement began to convene to address the deterioration of traditional urban forms. The New Urbanism movement, which arose during the 1980s in North America [<xref ref-type="bibr" rid="B21-sustainability-18-11328">21</xref>], sought to respond to the socio-cultural and spatial issues associated with rapid urbanisation. It addresses concerns such as the erosion of identity in built environments, declining quality of life, and broader issues of liveability. In fact, New Urbanism has attempted to propose solutions to the problems created by the rapidly developing modern urban fabric that started to develop in the mid-19th century, mostly in North America, via neo-traditional and neo-modernist methods [<xref ref-type="bibr" rid="B22-sustainability-18-11328">22</xref>]. As remedies, it advocated for walkable urban patterns, socially integrative public spaces, and diverse transportation alternatives. In 1993, initiatives gained global recognition through the congress for New Urbanism [<xref ref-type="bibr" rid="B23-sustainability-18-11328">23</xref>]. After the first three meetings of the CNU, which formed the outline of new urban principles [<xref ref-type="bibr" rid="B21-sustainability-18-11328">21</xref>], an interconnected network of streets and blocks, mixed land use, a variety of housing types, compact urban forms, pedestrian-oriented designs, and accessibility to amenities in walking distance have been expected to appear in projects that advocate New Urbanism [<xref ref-type="bibr" rid="B23-sustainability-18-11328">23</xref>].</p>
+        <p>New Urbanism focuses on human scale [<xref ref-type="bibr" rid="B24-sustainability-18-11328">24</xref>] while enhancing walkability, connectivity, mixed use and diversity, mixed housing, quality architecture and urban design, traditional neighbourhood structure, increased density, smart transportation, sustainability, and quality of life, as the Michigan Land Use Institute [<xref ref-type="bibr" rid="B25-sustainability-18-11328">25</xref>] recently redefined these principles. Even in the late 1990s, parallel thoughts about urban planning and architecture were noted with the Athens Charter in CIAM (Congr&#xE8;s Internationaux d&#x2019;Architecture Moderne) 4th Congress in 1933 [<xref ref-type="bibr" rid="B22-sustainability-18-11328">22</xref>] (pp. 44&#x2013;45).</p>
+        <p>As a theoretical framework, New Urbanism integrates sustainability, liveability, and accessibility across social, economic, environmental, and cultural dimensions, aligning with contemporary urban debates. Its emphasis on preserving local resources, enhancing environmental quality, and creating walkable communities illustrates a conceptual overlap with sustainability. While these ideas gained prominence after the 1960s, sustainability emerged as an independent global concern in the late 1980s. The Brundtland Report [<xref ref-type="bibr" rid="B26-sustainability-18-11328">26</xref>] provided a formal definition of sustainable development, emphasising intergenerational equity in resource utilisation. The report highlighted the potential of technology and social organisation to enable a new era of economic growth, underscoring planned resource management as the cornerstone of sustainable development.</p>
+        <p>There are several commonly known global initiatives for sustainable environment creation (<xref ref-type="table" rid="sustainability-18-11328-t001">Table 1</xref>). One of the most well-known of these is the Conference of the Parties (COP). Since 1995, COP annual summits have played a critical role in shaping global environmental strategies. COP reports illustrate the growing integration of sustainability into state policies, particularly in response to accelerating global urbanisation. According to the UN [<xref ref-type="bibr" rid="B4-sustainability-18-11328">4</xref>], 55% of the world&#x2019;s population is currently living in cities, and by 2050, approximately 68% of the world&#x2019;s population is expected to live in cities. The report stresses that sustainable urbanisation is essential for inclusive, resilient, and liveable settlements, aligning with the sustainable development goals (SDGs). However, sustainability assessment is emerging globally as a key decision-making tool, aligning with the development of national sustainable development strategies [<xref ref-type="bibr" rid="B27-sustainability-18-11328">27</xref>] to measure achievement. There are numerous sustainability assessment tools at different scales, such as building, neighbourhood, and city scales.</p>
+        <p>According to Sharifi et al. [<xref ref-type="bibr" rid="B8-sustainability-18-11328">8</xref>], LEED-ND, LEED-CEE, and LEED-CCPD are the most common and global sustainability assessment tools well integrated with the new urbanist movement, which was developed by the US Green Building Council (USGBC), Natural Resources Defence Council, and CNU. For example, LEED for Neighbourhood Development (LEED-ND) focuses on walkable streets, compact development, connected and open communities, mixed land use, street networks, and easy access to public facilities when investigating neighbourhood patterns [<xref ref-type="bibr" rid="B28-sustainability-18-11328">28</xref>]. The LEED-ND rating system includes smart locations and linkages, neighbourhood patterns and designs, and green infrastructure and building environmental categories. An additional category, innovation and design processes, encompasses sustainable design and construction considerations [<xref ref-type="bibr" rid="B29-sustainability-18-11328">29</xref>].</p>
+        <p>The Sustainable Infrastructure Tool Navigator [<xref ref-type="bibr" rid="B30-sustainability-18-11328">30</xref>] mentioned that LEED for Cities and Communities, which was developed in 2020, also addresses issues such as ecology and natural systems, transportation and land use, water efficiency, energy and GHG emissions, materials and resources, quality of life, innovation, and regional priorities. On the other hand, the use of neighbourhood sustainability assessment tools (NSATs) is recommended for developing countries with high populations to develop more sustainable communities [<xref ref-type="bibr" rid="B31-sustainability-18-11328">31</xref>]. Hacking and Guthrie [<xref ref-type="bibr" rid="B32-sustainability-18-11328">32</xref>] argued that sustainability assessment is most appropriately understood as an overarching concept that encompasses a broad spectrum of impact assessment practices.</p>
+        <p>The past quarter-century has further highlighted the importance of managing scarce urban resources, particularly in megacities with populations exceeding 10 million. Quality of life, a key concern of New Urbanism, has become central to contemporary research addressing urban challenges. Defined as a multidimensional concept, quality of life encompasses both essential human needs and broader socio-cultural, economic, and environmental conditions [<xref ref-type="bibr" rid="B33-sustainability-18-11328">33</xref>] (p. 117). Its frequent overlap with sustainability reinforces the interdependence of the two. Sustainable urbanisation, which also impacts the quality of life of cities, aims to create more liveable environments while balancing resource demands. Land, alongside other resources, is increasingly treated as scarce, requiring planned and equitable consumption to secure intergenerational transfer [<xref ref-type="bibr" rid="B26-sustainability-18-11328">26</xref>]. Educating society about resource constraints and developing professional solutions are therefore crucial. Furthermore, some approaches emphasise that sustainability should be understood both as a concept&#x2014;interpreting global dynamic systems and their vulnerabilities&#x2014;and as a professional discipline capable of responding rapidly to pressing challenges [<xref ref-type="bibr" rid="B34-sustainability-18-11328">34</xref>]. From a macro perspective, sustainability must address the social, economic, environmental, political, and spatial dimensions of urbanisation. In addition, when viewed at the micro level, sustainability is a topic closely related to urban design (as an art and science has the goal of enriching the quality of the physical environment [<xref ref-type="bibr" rid="B35-sustainability-18-11328">35</xref>] (p. 6) in terms of its strongly related built environment application capability.</p>
+        <p>In recent decades, the sustainability concept has been featured in political agendas [<xref ref-type="bibr" rid="B36-sustainability-18-11328">36</xref>]. In addition to these global and local concerns, accessibility has emerged as a key issue in contemporary city planning and management. Beyond transportation, accessibility encompasses resource efficiency and environmental impacts. Within New Urbanism, it is considered a central component of both liveability and sustainability. Recent debates on energy efficiency reinforce its importance [<xref ref-type="bibr" rid="B37-sustainability-18-11328">37</xref>] (p. 4), particularly under United Nations&#x2019; Sustainable Development Goal number 7 (<uri>https://sdgs.un.org/goals/goal7</uri> (accessed on 10 June 2026) &#x201C;ensure access to affordable, reliable, sustainable, and modern energy for all.&#x201D; Many European cities have implemented clean-energy, walkable, car-free, and bicycle-friendly urban models since the 1990s, as seen in pioneering examples such as Hammarby Sj&#xF6;stad (Stockholm) and Freiburg [<xref ref-type="bibr" rid="B38-sustainability-18-11328">38</xref>]. Approximately half a century ago, the idea that city centres should also be considered pedestrian areas was criticised [<xref ref-type="bibr" rid="B39-sustainability-18-11328">39</xref>] (p. 4). Their mixed-use (or mixed land-use) pedestrian-oriented designs demonstrate that urban functions&#x2014;such as housing, education, work, and recreation&#x2014;can be met locally, thereby promoting sustainability.</p>
+        <p>Residential areas and their associated public spaces remain fundamental to sustainable urban environments. Public spaces, including streets, squares, and parks, foster social interaction, cultural continuity, and civic expression. Their accessibility is a strong indicator of quality of life [<xref ref-type="bibr" rid="B40-sustainability-18-11328">40</xref>] (p. 16). Urban character emerges from the interplay of these public spaces and built environments, transportation networks, open spaces, and socio-cultural practices. Among these spaces, green spaces play a critical role by shaping urban morphology [<xref ref-type="bibr" rid="B41-sustainability-18-11328">41</xref>] (p. 30) and serving as social intersections. Standards for their provision are recognised globally; for example, playgrounds within 200 m and parks within 800 m of residential units [<xref ref-type="bibr" rid="B42-sustainability-18-11328">42</xref>] (pp. 153&#x2013;155). In addition to being accessible, recreational green lots are expected to be sufficient for residents in neighbourhoods. The World Health Organisation (WHO) [<xref ref-type="bibr" rid="B43-sustainability-18-11328">43</xref>] recommends at least 9 m<sup>2</sup> of accessible green space per capita, ideally up to 50 m<sup>2</sup>. Turkish legislation, such as the Regulation on the Preparation of Spatial Plans [<xref ref-type="bibr" rid="B44-sustainability-18-11328">44</xref>] and the Regulation on Planned Areas [<xref ref-type="bibr" rid="B45-sustainability-18-11328">45</xref>], further codifies active (utilised) and passive (non-utilised) green space standards that recommend at least 10 m<sup>2</sup> of active green area per capita.</p>
+        <p>Urban areas are complex systems in which the built environment and social structures interact to shape the identity of a city. The perception and cognitive formation of urban imagery depend on the design of these elements in accordance with sustainability and liveability principles. Lynch [<xref ref-type="bibr" rid="B46-sustainability-18-11328">46</xref>] identified key indicators of urban spatial quality, including clarity of form, legibility, continuity, focal points, and supportive visual spaces. Later, Lynch [<xref ref-type="bibr" rid="B47-sustainability-18-11328">47</xref>] emphasised the importance of preserving human presence, environmental perceptibility, spatial harmony, and accessible elements that encourage social interaction. Therefore, the analysis of existing and planned urban morphology is essential, forming the core focus of urban morphology as a discipline.</p>
+        <p>Urban morphology provides an analytical framework for the study of urban tissues. It is also defined as the study of the physical form, processes, and transformations of settlements [<xref ref-type="bibr" rid="B48-sustainability-18-11328">48</xref>] (p. 196). It examines built areas, transportation networks, and urban voids to identify spatial potential and constraints. Techniques such as space syntax facilitate the evaluation of spatial relationships, informing sustainable and liveable planning practices.</p>
+        <p>Access to urban facilities is primarily mediated through transportation networks, which constitute a fundamental component of urban infrastructure. The key factors that enhance the quality of life in urban areas include ease of access, the diversity of routes used to avoid monotony, and the integration of remaining areas along circulation paths. Within this context, space syntax theory emphasises the perceptibility of access routes as a determinant of spatial experience [<xref ref-type="bibr" rid="B49-sustainability-18-11328">49</xref>]. According to Hillier, uninterrupted visual axes and the legibility of long-distance perspectives improve spatial orientation and pedestrian movement. More broadly, space syntax can be defined as a body of theories and interdisciplinary methodologies concerned with the analysis of urban movement, accessibility, and spatial perception [<xref ref-type="bibr" rid="B49-sustainability-18-11328">49</xref>].</p>
+        <p>Governmental policies have recently emphasised the development of sustainable communities. These communities are characterised by economic stability, environmental quality and integrity, social cohesion, enhanced quality of life, and community empowerment [<xref ref-type="bibr" rid="B50-sustainability-18-11328">50</xref>]. While achieving these goals, cities are expected to be efficient, produce less waste, use less land, and be compact, and cities should be less depressive while maintaining vitality [<xref ref-type="bibr" rid="B51-sustainability-18-11328">51</xref>] (p. 201). Some topics, such as accessibility, mobility, food, walkability, quality of life, and smart cities, have gained more attention in urban development [<xref ref-type="bibr" rid="B14-sustainability-18-11328">14</xref>]. Additionally, over the last four decades, new urban sustainability indicators have increased in the dimensions of environmental, social, economic, cultural, spatial, and institutional sustainability.</p>
+        <p>According to recent research on urban sustainability indicator frameworks, the most frequently used sustainable city indicators can be separated into 21 thematic categories: governance, environmental management, urban planning, participation, culture, green and public space, social infrastructure, equity (socio-economic), safety and security, housing, health, education, employment (unemployment), economy, climate change, land use, energy, air quality, waste, mobility and transport, and water [<xref ref-type="bibr" rid="B52-sustainability-18-11328">52</xref>]. In the same research, &#x201C;urban planning (urban design or form)&#x201D; is located as a thematic category under the institutional dimension, highlighting the importance of urban planning and urban design to create sustainable environments.</p>
+        <p>In this study, theoretical perspectives of sustainable urbanism from the perspective of urban morphology and base code analysis (e.g., regulating-zoning plans, public standards, building standards, and administrative decisions) were applied to Atakum&#x2019;s T&#xFC;rki&#x15F; district in Samsun, Turkey&#x2019;s most populous Black Sea city, to determine whether the development of T&#xFC;rki&#x15F; was morphologically sustainable. Since the claims presented in this study are examined in light of the existing literature on sustainable urbanisation, this study aims to offer a new perspective on sustainable urbanisation rather than providing a metric comparison. Once a resort area, Atakum rapidly urbanised due to migration, with its urban form transforming significantly over the past two decades and becoming the adjacent second core of Samsun. In terms of multicore city approaches, which seem more sustainable than single-core approaches [<xref ref-type="bibr" rid="B53-sustainability-18-11328">53</xref>], Atakum is a proper case study area. By employing morphological analysis within the framework of New Urbanism, this research evaluates the sustainability, liveability, and accessibility of Atakum&#x2019;s evolving urban fabric.</p>
+      </sec>
+    </sec>
+    <sec id="sec2-sustainability-18-11328">
+      <title>2. Materials and Methods</title>
+      <p>This study adopts a spatially based, comparative, and typo-morphological approach to examine urban development in T&#xFC;rki&#x15F;, the central area of Atakum, Turkey, with particular emphasis on sustainability, liveability, and accessibility. The research framework was developed through a literature review focusing on the principles of New Urbanism and their relevance to contemporary urban challenges. This theoretical review informed the selection of six analytical criteria: (1) temporal changes in land use and facility distribution; (2) walkability and street-network structure; (3) pedestrian movement quality; (4) continuity of recreational urban green spaces; (5) natural lighting conditions within urban blocks; and (6) characteristic and recurring forms of the built-up area. To ensure methodological transparency, the research questions were operationalised through these six criteria, each addressing a specific dimension of urban morphology and examined using corresponding indicators and analytical methods. The indicators guide the identification and assessment of spatial conditions and changes, while the evaluation criteria provide a basis for interpreting their implications for urban sustainability. <xref ref-type="table" rid="sustainability-18-11328-t002">Table 2</xref> summarises the relationships between the research questions, analytical criteria, indicators, methods, and evaluation criteria, clarifying how the research questions are addressed through the methodological framework.</p>
+      <p>The empirical investigation combined historical and contemporary spatial data, two-dimensional urban morphological mapping, three-dimensional modelling, space syntax analysis, and information obtained from municipal meetings. These methods were used to examine the relationships between urban form, spatial accessibility, public open spaces, and environmental quality. Each analytical criterion was investigated using a specific procedure, as described below.</p>
+      <p>The study area was defined as an approximately 800 m radius around T&#xFC;rki&#x15F; which is informally called the centre of the district. This distance was selected with reference to the walking-distance thresholds commonly used in public transport accessibility assessments [<xref ref-type="bibr" rid="B54-sustainability-18-11328">54</xref>,<xref ref-type="bibr" rid="B55-sustainability-18-11328">55</xref>] and the perceptual scale of urban visual quality discussed by Moughtin [<xref ref-type="bibr" rid="B56-sustainability-18-11328">56</xref>] (p. 42). The selected area encompasses T&#xFC;rki&#x15F;, one of the earliest intensively developed parts of Atakum, and provides a spatial context for examining the morphological consequences of urban growth and densification.</p>
+      <p>The spatial analysis was based on historical Google Earth imagery, municipal zoning plans, cadastral maps, and field observations. Google Earth imagery from 1985 (accessible oldest image), 2010, 2015, 2020, and 2025 was used to examine temporal changes in the built environment. Cadastral and municipal datasets were used to identify and digitise building footprints, parcels, street networks, sidewalks, blocks, land uses, and green spaces. These spatial features were transferred into thematic layers through AutoCAD (Autodesk, Inc., San Francisco, CA, USA) version 2024 software. The most up-to-date cadastral data (2023 dated) available for the study was obtained from Atakum Municipality. A Cadastral file created in the Netcad GIS (Netcad Software Inc., Ankara, Turkey) version 8.5 software using the ITRF96 3-degree coordinate system was exported as a DXF file, and spatial analyses were performed with this base map in AutoCAD. The digitised layers were checked against field observations used for verification to assess their consistency and identify potential discrepancies. The spatial accuracy of the resulting analyses is therefore dependent on the accuracy and resolution of the source datasets.</p>
+      <p>Spatial mapping was used to examine the physical structure and functional organisation of this study area. The mapped layers included land use, street networks, sidewalks, buildings, parcels, blocks, and active and passive green spaces.</p>
+      <p>Green spaces were mapped and classified as active or passive according to Turkish planning legislation. Active green spaces comprised utilised spaces, whereas passive green spaces comprised non-utilised spaces. Their distribution, spatial extent, and relationship to the surrounding street and pedestrian networks were examined using planning standards. The analysis focused on the continuity and accessibility of recreational open spaces and the distribution of green infrastructure within the study area.</p>
+      <p>Green spaces were classified as active or passive according to their functional use within the study area. Active green spaces comprised areas designated and used for recreational activities, whereas passive green spaces comprised non-recreational or otherwise unused green areas, including landscaped medians where applicable. The two categories were mapped separately to distinguish spaces available for direct recreational use from other forms of green cover. The areas were calculated from the digitised spatial layers. The study-area population was estimated at approximately 47,300 residents across 225 ha, and this figure was used consistently for the per capita green-space calculations. Green-space provision was assessed in relation to the cited planning benchmark of 10 m<sup>2</sup> active green area per person. An approximate walkable 800 m radius focus on city centre (T&#xFC;rki&#x15F;), which overlaps with the study area, was used to examine the spatial distribution of green spaces in relation to residential areas and the surrounding street network. This radius represents the study&#x2019;s selected spatial assessment threshold and should not be interpreted as a verified 800 m walking distance unless route distances were calculated along the pedestrian network.</p>
+      <p>The street network and pedestrian routes were mapped to examine network continuity, connectivity, and to reveal the urban pattern and understand urban morphology in terms of ease of urban movement. The resulting maps were interpreted to identify spatial barriers, discontinuities, and potential limitations on pedestrian access.</p>
+      <p>Natural lighting conditions within urban blocks. The relationship between building configuration and potential solar access was examined using a created 3D model and solar simulations. Building footprints and heights were obtained from cadastral maps. The model was constructed using Google Sketchup (Trimble Inc., Westminster, CO, USA) version 2022, and the shadow analysis was performed using the same tool. The resulting representations were used to examine how building height, spacing, orientation, and block configuration influence potential direct sunlight exposure in streets and open spaces. These results were interpreted within the limitations of the selected simulation periods and modelling assumptions.</p>
+      <p>Characteristic and recurring forms of the built-up area. The typo-morphological analysis examined building typologies, parcel configurations, block structures, street patterns, and the relationship between built and unbuilt spaces. Recurring morphological patterns were identified through a comparative examination of building form, density, parcel organisation, and block configuration. The analysis was used to characterise the dominant urban forms and assess their implications for spatial permeability, public-space provision, and environmental quality.</p>
+      <p>Pedestrian movement patterns were examined through the configuration of the street network and space syntax analysis conducted using depthmapX (depthmapX Development Team, University College London, London, UK) version 0.8. The street network was represented by an axial map, and connectivity analysis through local integration (n, 3) were examined within an 800 m analytical radius. Connectivity values represents the power of axial lines within the selected spatial network. The resulting values were used to assess the structural characteristics of the street network and its potential to support pedestrian movement. Space syntax results were treated as indicators of configurational potential rather than direct measurements of observed pedestrian flows.</p>
+      <p>Three semi-structured meetings (between July and September 2026) were conducted with city planners involved in Atakum&#x2019;s zoning and planning processes. Participants were selected purposively based on their professional involvement in the preparation or implementation of zoning plans and their knowledge of the study area&#x2019;s urban development. The discussions addressed historical development, planning decisions, land-use changes, green-space distribution, and the factors influencing urban morphology. Data were documented through audio recording for one meeting and written notes for the other two meetings, as the participants did not want their voices to be recorded or their identities to be publicly disclosed. The information gathered was reviewed and organised according to the main topics addressed during the meetings and was used to contextualise and interpret the spatial analysis findings. The meetings provided supplementary qualitative evidence rather than a substitute for the spatial analyses. Ethical approval was obtained from the Ondokuz May&#x131;s University Social and Human Sciences Research Ethics Committee on 26 June 2026 (Decision No. 2026-849) before data collection.</p>
+      <p>The findings from the six analytical criteria were considered together to examine the relationship between urban morphology, land-use change, pedestrian accessibility, green-space continuity, and potential solar access. Historical comparisons provided evidence of morphological transformation, while spatial mapping and space syntax analysis supported the examination of the street-network structure and configurational accessibility. Three-dimensional modelling and shadow analysis, where applicable, were used to investigate the relationship between the built form and environmental conditions. Information obtained through municipal meetings provided additional planning context for interpreting the spatial evidence.</p>
+      <p>The combined analytical framework was used to identify the morphological characteristics and spatial conditions that may support or constrain sustainability, liveability, and accessibility in T&#xFC;rki&#x15F;. Rather than treating these concepts as directly measured outcomes, this study interpreted them through the spatial indicators and analytical criteria specified above.</p>
+    </sec>
+    <sec id="sec3-sustainability-18-11328">
+      <title>3. Evolution of the Atakum T&#xFC;rki&#x15F; Region</title>
+      <sec id="sec3dot1-sustainability-18-11328">
+        <title>3.1. Development and Urbanisation of Atakum</title>
+        <p>Atakum, located within Samsun Province, initiated its transformation into a recreational destination during the 1970s, with urban development primarily extending westward toward Sinop [<xref ref-type="bibr" rid="B57-sustainability-18-11328">57</xref>]. By the 1990s, the district had emerged as an alternative to the densely urbanised &#x130;lkad&#x131;m district, capitalising on its coastal recreational potential and strategic accessibility. Originally a seaside village, Atakum was formally established as a municipality in 1994. Its administrative boundaries were further expanded in 2008 to include Atakum, Atakent, Kurupelit, Alt&#x131;nkum, &#xC7;atal&#xE7;am, and Taflan.</p>
+        <p>The urbanisation process in Atakum was significantly influenced by early mass housing initiatives, notably the Turkish-&#x130;&#x15F; Federation&#x2019;s worker housing project in the 1980s. These developments were subsequently regulated under the 1987 zoning plan and its amendments. Prior to this period, the area was characterised by low building density and was predominantly used for secondary housing.</p>
+        <p>Currently, Atakum is one of the most densely populated districts in the Black Sea region, with a population exceeding 200,000. Over the past decade, the district has experienced a population increase of more than 40%. The initial linear development pattern along the coastline has progressively shifted inland, driven by the increasing construction density along coastal plots (<xref ref-type="fig" rid="sustainability-18-11328-f001">Figure 1</xref>). Although westward urban expansion persists, there is a discernible trend of perpendicular and inland development.</p>
+      </sec>
+      <sec id="sec3dot2-sustainability-18-11328">
+        <title>3.2. Demographic and Spatial Characteristics</title>
+        <p>Samsun Province has a population of 1,377,546 distributed across 9579 km<sup>2</sup>, according to the Samsun Governorship (<uri>http://www.samsun.gov.tr/ilcelerimiz</uri> (accessed on 5 May 2023)). Atakum, a district within Samsun, accommodates 245,328 residents over 35,400 hectares, as reported by the 2023 TURKSTAT (<uri>https://biruni.tuik.gov.tr/medas/</uri> (accessed on 5 May 2023)) census. The study area is defined as the T&#xFC;rki&#x15F; region, bounded by Mustafa Kemal Boulevard to the east, Recep Tayyip Erdo&#x11F;an Boulevard to the west, Abdullah G&#xFC;l Boulevard to the south, and the Black Sea to the north. This district functions as a commercial centre with heavy traffic, supporting an estimated population of 47,300 across 225 hectares which indicates 210 people-per-hectare population density.</p>
+        <p>Urbanisation in Atakum accelerated after the implementation of the Mass Housing Law in the 1980s, initiated by the Turkish-&#x130;&#x15F; Cooperative through the construction of 260 housing units [<xref ref-type="bibr" rid="B57-sustainability-18-11328">57</xref>]. This development catalysed concentrated growth, gradually extending westward into neighbourhoods such as Denizevleri, Esenevler, Mimarsinan, and Cumhuriyet. The resulting spatial configuration and density underscore the region&#x2019;s evolving function as a commercial and urban nucleus of the city.</p>
+        <p>In the Turkish urban governance system, the mahalle (neighbourhood) is the smallest unit of local government. However, the area within a radius of approximately 800 m and bounded by the boulevards was designated as the case area. Boulevards can act as a threshold for urban pedestrian access due to heavy traffic if there are no facilities, such as shopping. Recep Tayyip Erdo&#x11F;an Boulevard to the east and Mustafa Kemal Boulevard (not densely facilitated with shopping units like Alparslan Boulevard) to the west serve as thresholds in terms of land use in the study area. This area (<xref ref-type="fig" rid="sustainability-18-11328-f002">Figure 2</xref>) is situated at the intersection of the Cumhuriyet neighbourhood to the west and the Mimarsinan neighbourhood to the east, encompassing the most active sector of Atakum, which is known as the T&#xFC;rki&#x15F; region. This area exhibits mixed land use and provides a variety of urban amenities and transportation options.</p>
+        <p>An analysis of the built environment (in <xref ref-type="fig" rid="sustainability-18-11328-f003">Figure 3</xref>, the pink highlighted area) indicates that within the 225 hectares study area, the built-up land area averages 47 hectares. The study area is bisected by Alparslan Boulevard, which demarcates the two neighbourhoods. According to 2023 TURKSTAT data, these neighbourhoods share similar demographic characteristics, with 15% elderly, 30% youth, and 50% middle-aged residents, alongside a balanced gender distribution [<xref ref-type="bibr" rid="B19-sustainability-18-11328">19</xref>].</p>
+      </sec>
+      <sec id="sec3dot3-sustainability-18-11328">
+        <title>3.3. Urban Form and Morphology</title>
+        <p>Urban growth is influenced not only by social dynamics but also by topography, infrastructure, amenities, and existing land-use patterns, which function as constraints or thresholds in urban development [<xref ref-type="bibr" rid="B58-sustainability-18-11328">58</xref>]. According to the literature, numerous parameters shape urban form, including density, compactness, land-use diversity, provision of green spaces, spatial orientation, shading conditions, passive design features, connectivity, accessibility, and centrality [<xref ref-type="bibr" rid="B12-sustainability-18-11328">12</xref>]. In Atakum, these morphological constraints have significantly shaped urban expansion. The southern coastline has relatively uniform elevations with a gentle gradient of 2.4%, which contrasts with the steep terrain characteristic of much of the Black Sea region. Natural thresholds, including the Black Sea coastline and subterranean streams, have historically guided the direction and extent of urban development.</p>
+        <p>Urban form is shaped not only by physical thresholds but also by zoning regulations, which legally define built, open, green, and infrastructural areas. Zoning plans provide temporal insights into urban development patterns. The first zoning initiatives in Atakum were enacted in 1967, followed by subsequent attempts in 1978 and 1984 [<xref ref-type="bibr" rid="B57-sustainability-18-11328">57</xref>]. This study compares the 1987 zoning plan (unified and coloured by the author), which significantly influenced the current urban layout, with the 2016 plan (<xref ref-type="fig" rid="sustainability-18-11328-f004">Figure 4</xref>; <xref ref-type="table" rid="sustainability-18-11328-t003">Table 3</xref>). The comparison indicates that while both plans share structural similarities, the 1987 plan offered more accessible green spaces for residential users.</p>
+        <p>The commercial axis in the 2016 plan shifted approximately 500 m eastward, converting the former tram station area into an active green space. Additionally, several socio-cultural land uses from earlier plans were replaced with commercial areas in the latest plan. <xref ref-type="table" rid="sustainability-18-11328-t002">Table 2</xref>, linked with <xref ref-type="fig" rid="sustainability-18-11328-f004">Figure 4</xref>, provides a detailed analysis of differentiated land use and transformations over time, illustrating the dynamic interaction between urban growth and planning policy.</p>
+        <p>Contemporary land use patterns in the T&#xFC;rki&#x15F; region reveal several key characteristics. Alparslan Boulevard functions as the primary commercial corridor, attracting mixed-use developments. Residential&#x2013;commercial structures are distributed throughout most of the area, with major arteries being the exceptions. Pedestrian connectivity across the region is limited by fencing, except at tram stations, and overpasses are selected. Compared with pre-1987 developments, current residential parcels feature smaller garden areas, reflecting denser construction patterns.</p>
+        <p>The district exhibits a high-density residential fabric with comprehensive amenities, including healthcare facilities (one public hospital and one private hospital), educational institutions (three elementary schools, three middle schools, and a culture and arts centre), and administrative units. It also supports commercial activities that address both short-term needs, such as food shopping, and long-term consumption, including furniture, clothing, and electronics. The area experiences significant activity during both day and night, while the coastal strip, oriented toward gastronomy, extends nine kilometres from Atakum&#x2019;s eastern to western borders.</p>
+        <p>The tram line running along &#x130;smet &#x130;n&#xF6;n&#xFC; Boulevard represents a significant infrastructural barrier to pedestrian accessibility due to fencing and limited crossing points. While the study area is generally free from abrupt elevation changes typical of the region&#x2019;s southwest, the northeastern boundary is defined by the Black Sea, and many streams have been channelled underground following historical flood events. The mitigation of tramway-related accessibility constraints is partially achieved through designated boulevards, station access points, and occasional elevator-supported overpasses.</p>
+        <p>An analysis of the current zoning plans along the district&#x2019;s 20 km coastal strip indicates the existence of 711 ha of active and 867 ha of passive green spaces (<xref ref-type="fig" rid="sustainability-18-11328-f005">Figure 5</xref>, left). Considering the high building density, especially in the eastern 9 km coastal zone and adjacent residential neighbourhoods, the integration of additional green spaces presents a major urban planning challenge (<xref ref-type="fig" rid="sustainability-18-11328-f005">Figure 5</xref>, right).</p>
+        <p>A planar analysis of the study area (<xref ref-type="fig" rid="sustainability-18-11328-f006">Figure 6</xref>) revealed a hierarchical layering issue in both the block pattern and vehicular road network. The active green areas totalled 16 ha, whereas the passive green areas within parcels totalled 3.4 ha in the study area. Local regulations mandate 10 m<sup>2</sup> of green space per person, and international standards recommend green spaces within an 800 m (10 min walk) radius of residences (<uri>https://www.sustrans.org.uk/</uri> ((accessed on 3 June 2024)). Given the study area&#x2019;s population of approximately 47,000, the available active green space is only approximately one-third of what is required. Land-use analyses were conducted based on cadastral maps.</p>
+        <p>The analysis of the sidewalk network indicates a lack of hierarchical organisation, rhythm, or adherence to related basic design principles (similarity or pattern, continuity, rhythm of repetition, and hierarchy of movement). Pedestrian continuity is limited, and landmarks are insufficient, hindering wayfinding and visual orientation. Consequently, the region struggles to form a coherent mental image of the city as defined by Lynch [<xref ref-type="bibr" rid="B46-sustainability-18-11328">46</xref>] and fails to meet the criteria for a well-structured urban form outlined by Lynch [<xref ref-type="bibr" rid="B47-sustainability-18-11328">47</xref>].</p>
+        <p>Shadow simulations were conducted using a three-dimensional model of the T&#xFC;rki&#x15F; study area in Google SketchUp. The model was positioned using the study-area coordinates (41.336280N, 36.264370E). Simulations (<xref ref-type="fig" rid="sustainability-18-11328-f007">Figure 7</xref>) were performed on 21 December (longest shadow length) and 21 June (shortest shadow length) to compare shadow patterns under contrasting seasonal solar conditions. These dates were selected as representative dates of the winter and summer solstices. Building heights were defined based on cadastral maps. The simulations were conducted in three three-hour periods in the GMT+3 time zone. Rush hours (09:00 and 17:00) and solar noon periods were selected to represent the morning, evening, and midday shadows for both seasons. The resulting shadow patterns were examined in relation to building configuration, street geometry, and the availability of sunlight in streets and open spaces. The simulations revealed that dense and compact buildings, coupled with narrow streets, limit the amount of sunlight that reaches ground floors during winter, whereas summer conditions may result in excessive sun exposure.</p>
+        <p>The most influential elements shaping the urban form are densely built residential areas. The building heights, block patterns, and typologies (<xref ref-type="fig" rid="sustainability-18-11328-f008">Figure 8</xref>) are oriented to benefit from the north-eastern winds, with upper-level roads enhancing ventilation. Detached building arrangements dominate within blocks, in contrast with earlier block-style constructions, such as those by the T&#xFC;rki&#x15F; Housing Cooperative, which faced major boulevards. Morphological issues in the area include insufficient parking, limited in-parcel green spaces, and restricted sunlight for ground-floor units due to close building proximity.</p>
+        <p>In the densely developed residential&#x2013;commercial areas of the T&#xFC;rki&#x15F; region, four primary building block typologies were identified (<xref ref-type="fig" rid="sustainability-18-11328-f008">Figure 8</xref>, centre). These include uniformly sized parcels and blocks with wider facades oriented toward upper-level roads. Despite the high building density, interbuilding distances&#x2014;averaging approximately 6 m in detached zones&#x2014;and backyard spaces are limited. Parcel-level green areas are minimal, and parking provisions are insufficient, often complicating vehicular manoeuvring. Within a 400 m radius, the availability of children&#x2019;s playgrounds is inadequate, whereas adult-oriented social green spaces are unevenly distributed and generally inaccessible. Recreational needs are largely concentrated along coastal strips. Additionally, the presence of high-rise buildings in three locations disrupts the overall urban form, deviating from the prevalent architectural character and impairing the cohesion of the urban landscape.</p>
+        <p>An analysis of the street network and adjacent building masses in the study area (<xref ref-type="fig" rid="sustainability-18-11328-f009">Figure 9</xref>) revealed that boulevards and connector roads intersect predominantly at right angles, producing a grid-based urban pattern. The building heights along these axes were relatively uniform, reinforcing spatial regularity. However, pedestrian areas situated between building frontages and roadways are characterised by monotony, as they lack integrated green space corridors that could enhance accessibility and environmental quality. From a functional perspective, traffic and commercial intensity are most pronounced along Alparslan Boulevard (<xref ref-type="fig" rid="sustainability-18-11328-f009">Figure 9</xref>B), which serves as the primary commercial spine of the district. Additionally, Lozan Avenue (<xref ref-type="fig" rid="sustainability-18-11328-f009">Figure 9</xref>F), recently reconfigured from bidirectional to one-way traffic, has facilitated increased pedestrian space, emerging as a secondary commercial axis that connects directly to Alparslan Boulevard.</p>
+        <p>While the street patterns of the study area were analysed, several challenges were identified (<xref ref-type="fig" rid="sustainability-18-11328-f009">Figure 9</xref> and <xref ref-type="fig" rid="sustainability-18-11328-f010">Figure 10</xref>). These include the absence of a clear road hierarchy, with streets displaying similar levels and narrow sidewalks across the area. The existing street layout is predominantly vehicle-oriented, limiting pedestrian walkability. Moreover, uniform road widths adjacent to both high- and low-rise buildings reduce sunlight access along pedestrian paths. The lack of vegetation, particularly in areas extending inland, further diminishes pedestrian comfort. Accessibility issues are also evident, with missing or non-standard ramps, steep ramp slopes exceeding recommended gradients, and insufficient infrastructure for disabled and elderly people. In terms of spatial identity, streets lack identifiable yet harmonious design elements that could facilitate orientation, whereas signage for navigation is limited. The facades built along streets also display no shared design language, thereby weakening the visual and spatial identity of the urban environment.</p>
+        <p>Urban green spaces and squares analysis (<xref ref-type="fig" rid="sustainability-18-11328-f011">Figure 11</xref>) revealed that the green spaces within the study area lacked diversity and were not tailored to the needs of different user profiles. Moreover, these spaces did not follow a coherent design language, leading to the emergence of fragmented and amorphous forms rather than clearly defined typologies. The absence of continuity and cohesion within the green network further undermined the potential of these spaces to foster social interaction and contribute to the formation of urban memory.</p>
+        <p>The open access software depthmapX was developed by University College London (UCL) to conduct digital analyses based on space syntax theory, whose pioneering contributors include Lynch and Hillier. The software enables space syntax analyses at different spatial scales and was used to analyse the study area. The street network was examined through axial map analysis using a drawing initially prepared in AutoCAD and subsequently imported into depthmapX. The connectivity analysis available in the software was employed to determine the degree of connectivity between the streets. For local integration analysis, n and 3 values were selected, as these are considered proper for representing walkable distances.</p>
+        <p>As shown in <xref ref-type="fig" rid="sustainability-18-11328-f012">Figure 12</xref>, the Alparslan Boulevard exhibited the highest connectivity value. While the segments of Azerbaycan Avenue located near Alparslan Boulevard have relatively high values, connectivity decreases progressively towards Recep Tayyip Erdo&#x11F;an Boulevard, which intersects Azerbaycan Avenue perpendicularly. In contrast, Lozan Avenue maintained a relatively constant value along its entire length. Streets 37 and 23, which form two segments along the same axis, exhibit increasing connectivity values as they approach the Alparslan Boulevard. Street 144, located on the opposite side of Alparslan Boulevard, also stands out, demonstrating a connectivity level comparable to that of Streets 37 and 23. Conversely, &#x130;smet &#x130;n&#xF6;n&#xFC; Avenue, along which the tram line runs, and Mustafa Kemal, Recep Tayyip Erdo&#x11F;an, Abdullah G&#xFC;l, and Atat&#xFC;rk Boulevards, which define the boundaries of the study area, exhibit relatively low connectivity values. These analytical findings are consistent with the observations made during the on-site surveys (<xref ref-type="fig" rid="sustainability-18-11328-f010">Figure 10</xref>).</p>
+        <p>In addition to thematic mapping, on-site observations, the examination of development plans, and the analysis of street patterns using Space Syntax theory, consulting experts and drawing on their professional experience can contribute significantly to a deeper understanding of urban morphology and improve the quality of morphological analysis. Accordingly, face-to-face interviews were conducted with three urban planners who had played influential roles in Atakum&#x2019;s urban planning processes to gain insights into the area&#x2019;s urban development. One participant consented to being audio-recorded and to the publication of their identifying information, whereas the other two agreed to participate on the condition that no audio recordings would be made and their personal information would remain confidential. The interviews were conducted between June and September 2026. Following approval by the relevant ethics committee (see the Ethics Statement for details), the interviews were guided by questions designed to explore the following topics:</p>
+        <p>a. The underlying causes of discrepancies between past and present zoning plans and the challenges encountered during implementation;</p>
+        <p>b. Explanations for morphological variations in the built environment;</p>
+        <p>c. The rationale behind the creation of recreational areas on small-plot parcels and whether a unified strategy exists for designing public and recreational spaces;</p>
+        <p>d. Considerations regarding housing provision for diverse age groups and individuals with disabilities;</p>
+        <p>e. The extent to which sustainability and liveability principles are incorporated into spatial design.</p>
+        <p>The discussions revealed several critical issues in Atakum&#x2019;s urban development:</p>
+        <p>a. Difficulties in expropriation during the parcelling process, particularly in relation to the distribution of the land redistribution (readjustment) share (contribution) (LRS, DOP in Turkish planning literature), have necessitated frequent plan amendments and additional constructions, undermining the establishment of a coherent design language;</p>
+        <p>b. Concerns among land surveyors over equal distributions of LRS resulted in fragmented green spaces within blocks, disrupting continuity and cohesion in the urban green system;</p>
+        <p>c. Frequent plan revisions due to parcel-related objections and court decisions on rights redistribution created morphological inconsistencies, as zoning updates often occurred after construction had already begun;</p>
+        <p>d. While planning standards address the needs of various user groups, no evidence of participatory planning practices has been identified;</p>
+        <p>e. Although planning principles and legal frameworks were observed, aesthetic irregularities emerged in urban form.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-sustainability-18-11328" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>The urban transformation of Atakum, particularly in the T&#xFC;rki&#x15F; region, exemplifies the dynamics of demographic expansion, spatial restructuring, and infrastructural adaptation. Initially established as a coastal retreat in the 1970s [<xref ref-type="bibr" rid="B57-sustainability-18-11328">57</xref>], Atakum experienced rapid urbanisation after the early 2000s, driven by population growth and urban sprawl. While development first concentrated along the coastline, the saturation of coastal areas prompted an inland shift after 2010, reflecting a diminished influence of topographical thresholds on expansion.</p>
+      <p>In the T&#xFC;rki&#x15F; region, initial housing development through cooperative block structures, such as the Turkish-&#x130;&#x15F; Federation&#x2019;s projects, was later replaced by detached, privately owned buildings. Although early blocks incorporated green spaces, the increasing density and multistorey construction reduced the perceptibility of urban voids and undermined spatial legibility. Repetitive street patterns and uniform architectural facades further constrain spatial diversity and weaken the urban image, contradicting Lynch&#x2019;s [<xref ref-type="bibr" rid="B47-sustainability-18-11328">47</xref>,<xref ref-type="bibr" rid="B48-sustainability-18-11328">48</xref>] principles of urban legibility and quality. To address these issues, various architectural forms, enhanced urban open spaces, and landscape-based recreational elements are required.</p>
+      <p>Mobility presents additional challenges. While tram lines have improved connectivity, they have simultaneously introduced barriers, concentrating pedestrian flows along commercial corridors such as Alparslan Boulevard and thereby intensifying density. Limited greenery, uniform street widths, and vehicle-oriented designs continue to reduce walkability, contradicting New Urbanism principles of pedestrian-centred planning [<xref ref-type="bibr" rid="B10-sustainability-18-11328">10</xref>]. Space syntax analysis [<xref ref-type="bibr" rid="B49-sustainability-18-11328">49</xref>] confirms that Alparslan Boulevard is the dominant perceptible axis, with secondary activity shifting to the streets 23 and 37 owing to weekly markets and one-way conversions. Addressing these issues requires strengthening pedestrian infrastructure, integrating greenery, and balancing vehicular and pedestrian needs.</p>
+      <p>Recreational opportunities remain concentrated along coastal strips, creating overuse and accessibility challenges for the inland population. The development of inland recreational facilities, conversion of selected vehicular roads into pocket parks, and decentralisation of commercial hubs beyond Alparslan Boulevard could mitigate spatial inequalities.</p>
+      <p>Finally, persistent zoning revisions, property disputes, and frequent amendments related to LRS distribution have disrupted coherent urban growth (Atakum Municipality, 2026 meetings). These practices have fragmented green space networks, weakened morphological consistency, and hindered their sustainability. Therefore, future planning must prioritise equitable open space distribution, sustainable inland development, and participatory planning approaches. This study advocates for embedding sustainability, liveability, and accessibility as guiding principles to ensure a coherent urban morphology and resilient urban identity in Atakum.</p>
+    </sec>
+    <sec id="sec5-sustainability-18-11328" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>In rapidly urbanising regions, urban morphological dynamics are crucial for understanding the complexity of urban growth [<xref ref-type="bibr" rid="B59-sustainability-18-11328">59</xref>]. This study examined the morphological sustainability of the T&#xFC;rki&#x15F; region, the earliest intensively urbanised part of Atakum, Samsun, through the perspectives of New Urbanism, urban morphology, and spatial accessibility. By combining historical land-use analysis, two-dimensional morphological mapping, three-dimensional modelling, shadow simulations, space syntax analysis, and municipal planning discussions, this research investigated how urban form influences liveability, walkability, environmental quality, and access to public spaces. The findings indicate that although T&#xFC;rki&#x15F; functions as an active urban centre with mixed land uses and a wide range of commercial, educational, healthcare, and administrative facilities, its physical development has not consistently produced a coherent, accessible, and environmentally balanced urban structure.</p>
+      <p>The analysis of historical development reveals a transition from a relatively low-density coastal settlement to a compact urban fabric characterised by multistorey buildings and increasingly intensive land use. This transformation has increased the functional significance of T&#xFC;rki&#x15F; but has also intensified pressure on public spaces, pedestrian infrastructure, and the environmental quality of the built environment. The morphological analysis identified inconsistencies in block configurations, street hierarchy, and continuity of pedestrian spaces. Although Alparslan Boulevard functions as the principal commercial and spatial axis, the broader street network does not provide an equally legible and continuous pedestrian environment. Furthermore, restrictions on crossings along the tramway corridor create additional barriers to pedestrian movement, demonstrating that transport infrastructure can simultaneously support urban connectivity and constrain local accessibility.</p>
+      <p>The distribution of green spaces constitutes another significant challenge. Within the study area, approximately 16 hectares of active green space and 3.4 hectares of passive green space were identified. Given the estimated population of approximately 47,000, the available active green space is substantially below the provision implied by the national standard of 10 m<sup>2</sup> per person cited in this study. Moreover, the distribution of open spaces within individual blocks does not necessarily establish a continuous and accessible green network. Therefore, the findings suggest that green-space provision should be assessed not only in terms of total area but also through spatial distribution, public accessibility, continuity, and integration with pedestrian routes. The shadow simulations further indicate that dense building arrangements and narrow streets can restrict sunlight access at ground level during winter, illustrating the need to consider building geometry, street dimensions, and solar access together when evaluating urban environmental quality.</p>
+      <p>Municipal discussions provide additional context for these morphological outcomes. Difficulties associated with land readjustment and expropriation, objections to parcel redistribution, court decisions, and repeated zoning plan amendments were identified as factors contributing to fragmented green spaces and inconsistencies in the built environment. These findings highlight the relationship between urban form and the institutional processes through which it is produced. Compliance with planning regulations alone does not necessarily ensure spatial coherence, continuity of public space, or a high-quality pedestrian environment. Sustainable urban development therefore requires coordination between land-use decisions, parcel arrangements, building regulations, public-space design, and implementation processes. The needs of different age groups and people with disabilities should also be incorporated into these processes, alongside more systematic consideration of participatory planning.</p>
+      <p>Overall, the case of T&#xFC;rki&#x15F; demonstrates that urban sustainability cannot be evaluated solely based on density, land-use diversity, or the presence of urban facilities. It also depends on the relationships between buildings, blocks, streets, public spaces, green infrastructure and pedestrian movement. The contribution of this study lies in bringing these dimensions together within a typo-morphological framework that connects the physical characteristics of urban forms with accessibility and liveability concerns. For Atakum, future planning and urban regeneration should prioritise continuous pedestrian routes, safer crossings, equitable access to recreational green spaces, improved integration of open spaces, and greater consideration of solar access in building and street design. These interventions should be supported by consistent zoning decisions and coordinated public space strategies rather than isolated, parcel-based solutions.</p>
+      <p>This study focuses on a defined area of Atakum and uses morphological mapping, space syntax, shadow simulation, and qualitative planning discussions to interpret the urban structure. Therefore, its findings should be understood as a context-specific assessment rather than a comprehensive quantitative measurement of urban sustainability or a direct measurement of pedestrian behaviour. Future research could extend the analysis to other parts of Atakum, incorporate systematic field observations and pedestrian counts, and compare morphological indicators across different periods and neighbourhoods. Such work could further clarify how planning decisions and urban forms affect the accessibility, environmental performance, and equitable distribution of public resources. The experience of T&#xFC;rki&#x15F; offers a relevant case for rapidly urbanising coastal settlements seeking to reconcile compact development with environmental quality, public space continuity, and inclusive urban life.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>This study was conducted in accordance with the relevant ethical principles and received approval from the Social and Human Sciences Research Ethics Committee of Ondokuz May&#x131;s University, Turkey (Decision No. 2026-849, dated 26 June 2026).</p>
+    </notes>
+    <notes>
+      <title>Informed Consent Statement</title>
+      <p>Informed consent was obtained from all subjects involved in the study.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The original contributions presented in this study are included in the article. Further inquiries can be directed to the corresponding author.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The author declares no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-sustainability-18-11328">
+        <label>1.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gehl</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <source>Cities for People</source>
+          <publisher-name>Island Press</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2010</year>
+        </element-citation>
+      </ref>
+      <ref id="B2-sustainability-18-11328">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oktay</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urban Spatial Patterns and Local Identity: Evaluations in a Cypriot town</article-title>
+          <source>Open House Int.</source>
+          <year>1998</year>
+          <volume>23</volume>
+          <fpage>17</fpage>
+          <lpage>23</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3-sustainability-18-11328">
+        <label>3.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cansever</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <source>&#x130;sl&#xE2;m&#x2019;da &#x15E;ehir Ve Mimari</source>
+          <publisher-name>Tima&#x15F;</publisher-name>
+          <publisher-loc>&#x130;stanbul, T&#xFC;rkiye</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B4-sustainability-18-11328">
+        <label>4.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>United Nations, Department of Economic and Social Affairs, Population Division</collab>
+          </person-group>
+          <source>World Urbanization Prospects 2025: Summary of Results</source>
+          <publisher-name>United Nations</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2025</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://population.un.org/wup/assets/Publications/undesa_pd_2025_wup2025_summary_of_results_final.pdf?utm_source=chatgpt.com" ext-link-type="uri">https://population.un.org/wup/assets/Publications/undesa_pd_2025_wup2025_summary_of_results_final.pdf?utm_source=chatgpt.com</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-03-03">(accessed on 3 March 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5-sustainability-18-11328">
+        <label>5.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>International Energy Agency</collab>
+          </person-group>
+          <source>Global Energy Review 2021</source>
+          <publisher-name>IEA</publisher-name>
+          <publisher-loc>Paris, France</publisher-loc>
+          <year>2021</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://iea.blob.core.windows.net/assets/d0031107-401d-4a2f-a48b-9eed19457335/GlobalEnergyReview2021.pdf" ext-link-type="uri">https://iea.blob.core.windows.net/assets/d0031107-401d-4a2f-a48b-9eed19457335/GlobalEnergyReview2021.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2023-02-20">(accessed on 20 February 2023)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B6-sustainability-18-11328">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gonz&#xE1;lez-Torres</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>P&#xE9;rez-Lombard</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Coronel</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Maestre</surname>
+              <given-names>I.R.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Review on Buildings Energy Information: Trends, End-Uses, Fuels and Drivers</article-title>
+          <source>Energy Rep.</source>
+          <year>2022</year>
+          <volume>8</volume>
+          <fpage>626</fpage>
+          <lpage>637</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.egyr.2021.11.280</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-sustainability-18-11328">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garc&#xED;a</surname>
+              <given-names>M.&#xC1;.H.</given-names>
+            </name>
+            <name>
+              <surname>Miranda</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Medina</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Cossani</surname>
+              <given-names>C.V.</given-names>
+            </name>
+            <name>
+              <surname>Grin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Salda&#xF1;a</surname>
+              <given-names>V.U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Implementing the 2030 Agenda at Urban Level: Analysis of Policy Styles in Latin America and Europe</article-title>
+          <source>Cities</source>
+          <year>2025</year>
+          <volume>166</volume>
+          <fpage>106274</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.cities.2025.106274</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-sustainability-18-11328">
+        <label>8.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharifi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kawakubo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Milovidova</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urban Sustainability Assessment Tools: Toward Integrating Smart City Indicators</article-title>
+          <source>Urban System Designs: Creating Sustainable Smart Cities in the Internet of Things Era</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Yamagata</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>P.P.J.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Elsevier</publisher-name>
+          <publisher-loc>Amsterdam, The Netherlands</publisher-loc>
+          <year>2020</year>
+          <volume>Volume 1</volume>
+          <fpage>345</fpage>
+          <lpage>372</lpage>
+          <comment>Chapter 11</comment>
+          <pub-id pub-id-type="doi">10.1016/b978-0-12-816055-8.00011-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-sustainability-18-11328">
+        <label>9.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>United Nations Environment Programme</collab>
+          </person-group>
+          <source>2021 Global Status Report for Buildings and Construction: Towards a Zero-Emission, Efficient and Resilient Buildings and Construction Sector</source>
+          <publisher-name>UNEP</publisher-name>
+          <publisher-loc>Nairobi, Kenya</publisher-loc>
+          <year>2021</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://globalabc.org/sites/default/files/2021-10/GABC_Buildings-GSR-2021_BOOK.pdf" ext-link-type="uri">https://globalabc.org/sites/default/files/2021-10/GABC_Buildings-GSR-2021_BOOK.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2024-07-06">(accessed on 6 July 2024)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B10-sustainability-18-11328">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haghani</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sabri</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>De Gruyter</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ardeshiri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shahhoseini</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Sanchez</surname>
+              <given-names>T.W.</given-names>
+            </name>
+            <name>
+              <surname>Acuto</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Landscape and Evolution of Urban Planning Science</article-title>
+          <source>Cities</source>
+          <year>2023</year>
+          <volume>136</volume>
+          <fpage>104261</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.cities.2023.104261</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-sustainability-18-11328">
+        <label>11.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gibson</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Hassan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Holz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tansey</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Whitelaw</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <source>Sustainability Assessment: Criteria and Processes</source>
+          <publisher-name>Earthscan</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2005</year>
+        </element-citation>
+      </ref>
+      <ref id="B12-sustainability-18-11328">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ahmadian</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Sodagar</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Mills</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Byrd</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bingham</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zolotas</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sustainable Cities: The Relationships between Urban Built Forms and Density Indicators</article-title>
+          <source>Cities</source>
+          <year>2019</year>
+          <volume>95</volume>
+          <fpage>102382</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.cities.2019.06.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-sustainability-18-11328">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rebernik</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Goli&#x10D;nik Maru&#x161;i&#x107;</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Bahillo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Osaba</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>A 4-Dimensional Model and Combined Methodological Approach to Inclusive Urban Planning and Design for ALL</article-title>
+          <source>Sustain. Cities Soc.</source>
+          <year>2019</year>
+          <volume>44</volume>
+          <fpage>195</fpage>
+          <lpage>214</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scs.2018.10.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-sustainability-18-11328">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sepehri</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Sharifi</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>X-Minute Cities as a Growing Notion of Sustainable Urbanism: A Literature Review</article-title>
+          <source>Cities</source>
+          <year>2025</year>
+          <volume>161</volume>
+          <fpage>105902</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.cities.2025.105902</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-sustainability-18-11328">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schirmer</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Axhausen</surname>
+              <given-names>K.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Multiscale Classification of Urban Morphology</article-title>
+          <source>J. Transp. Land Use</source>
+          <year>2015</year>
+          <volume>9</volume>
+          <fpage>101</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.5198/jtlu.2015.667</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-sustainability-18-11328">
+        <label>16.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kropf</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <source>The Handbook of Urban Morphology</source>
+          <publisher-name>John Wiley &amp; Sons</publisher-name>
+          <publisher-loc>Chichester, UK</publisher-loc>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+      <ref id="B17-sustainability-18-11328">
+        <label>17.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chiaradia</surname>
+              <given-names>A.J.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urban Morphology/Urban Form</article-title>
+          <source>The Wiley Blackwell Encyclopedia of Urban and Regional Studies</source>
+          <publisher-name>Wiley-Blackwell</publisher-name>
+          <publisher-loc>Oxford, UK</publisher-loc>
+          <year>2019</year>
+          <fpage>1</fpage>
+          <lpage>6</lpage>
+          <pub-id pub-id-type="doi">10.1002/9781118568446.eurs0382</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-sustainability-18-11328">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fathi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sajadzadeh</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mohammadi Sheshkal</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Aram</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pinter</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Felde</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Mosavi</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Role of Urban Morphology Design on Enhancing Physical Activity and Public Health</article-title>
+          <source>Int. J. Environ. Res. Public Health</source>
+          <year>2020</year>
+          <volume>17</volume>
+          <elocation-id>2359</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ijerph17072359</pub-id>
+          <pub-id pub-id-type="pmid">32244358</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-sustainability-18-11328">
+        <label>19.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Turkish Statistical Institute (TURKSTAT)</collab>
+          </person-group>
+          <article-title>Central Distribution System (MEDAS)</article-title>
+          <year>2023</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://biruni.tuik.gov.tr/medas/" ext-link-type="uri">https://biruni.tuik.gov.tr/medas/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2023-05-05">(accessed on 5 May 2023)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B20-sustainability-18-11328">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hughes</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Kozlowski</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Threshold Analysis-an Economic Tool for Town and Regional Planning</article-title>
+          <source>Urban Stud.</source>
+          <year>1968</year>
+          <volume>5</volume>
+          <fpage>132</fpage>
+          <lpage>143</lpage>
+          <pub-id pub-id-type="doi">10.1080/00420986820080251</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-sustainability-18-11328">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garde</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>New Urbanism: Past, Present, and Future</article-title>
+          <source>Urban Plan.</source>
+          <year>2020</year>
+          <volume>5</volume>
+          <fpage>453</fpage>
+          <lpage>463</lpage>
+          <pub-id pub-id-type="doi">10.17645/up.v5i4.3478</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-sustainability-18-11328">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vanderbeek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Iraz&#xE1;bal</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>New Urbanism as a New Modernist Movement: A comparative look at Modernism and New Urbanism</article-title>
+          <source>Tradit. Dwell. Settl. Rev. (TDSR)</source>
+          <year>2007</year>
+          <volume>19</volume>
+          <fpage>41</fpage>
+          <lpage>57</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B23-sustainability-18-11328">
+        <label>23.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>Congress for the New Urbanism</collab>
+          </person-group>
+          <source>The Charter of the New Urbanism</source>
+          <publisher-name>CNU</publisher-name>
+          <publisher-loc>Chicago, IL, USA</publisher-loc>
+          <year>1999</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.cnu.org/sites/default/files/CNU04_CHARTER_0226.pdf" ext-link-type="uri">https://www.cnu.org/sites/default/files/CNU04_CHARTER_0226.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2024-08-07">(accessed on 7 August 2024)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B24-sustainability-18-11328">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Iravani</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Effects of New Urbanism on Public Health</article-title>
+          <source>J. Urban Des.</source>
+          <year>2019</year>
+          <volume>25</volume>
+          <fpage>218</fpage>
+          <lpage>235</lpage>
+          <pub-id pub-id-type="doi">10.1080/13574809.2018.1554997</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-sustainability-18-11328">
+        <label>25.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Michigan Land Use Institute</collab>
+          </person-group>
+          <article-title>Articles from 1995 to 2012</article-title>
+          <year>2006</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.mlui.org/mlui/news-views/articles-from-1995-to-2012.html?archive_id=678" ext-link-type="uri">www.mlui.org/mlui/news-views/articles-from-1995-to-2012.html?archive_id=678</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-10-19">(accessed on 19 October 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B26-sustainability-18-11328">
+        <label>26.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>United Nations</collab>
+          </person-group>
+          <source>Report of the World Commission on Environment and Development: Our Common Future</source>
+          <publisher-name>United Nations</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>1987</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://digitallibrary.un.org/record/139811?v=pdf" ext-link-type="uri">https://digitallibrary.un.org/record/139811?v=pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-08-20">(accessed on 20 August 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B27-sustainability-18-11328">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bond</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Morrison-Saunders</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pope</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sustainability Assessment: The State of the Art</article-title>
+          <source>Impact Assess. Proj. Apprais.</source>
+          <year>2012</year>
+          <volume>30</volume>
+          <fpage>53</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="doi">10.1080/14615517.2012.661974</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-sustainability-18-11328">
+        <label>28.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>Congress for the New Urbanism</collab>
+          </person-group>
+          <source>LEED 2009 for Neighborhood Development</source>
+          <publisher-name>U.S. Green Building Council</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2009</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.cnu.org/sites/default/files/LEED-ND-PROG.pdf" ext-link-type="uri">https://www.cnu.org/sites/default/files/LEED-ND-PROG.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2024-11-01">(accessed on 1 November 2024)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B29-sustainability-18-11328">
+        <label>29.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>U.S. Green Building Council</collab>
+          </person-group>
+          <article-title>LEED 2009 for Neighborhood Development Rating System</article-title>
+          <publisher-name>USGBC</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2009</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.usgbc.org/resources/leed-v4-neighborhood-development-current-version" ext-link-type="uri">https://www.usgbc.org/resources/leed-v4-neighborhood-development-current-version</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2024-11-01">(accessed on 1 November 2024)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B30-sustainability-18-11328">
+        <label>30.</label>
+        <element-citation publication-type="web">
+          <article-title>Sustainable Infrastructure Tool Navigator. LEED for Cities and Communities. n.d.</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sustainable-infrastructure-tools.org/tools/leed-for-cities-and-communities/#:~:text=Description" ext-link-type="uri">https://sustainable-infrastructure-tools.org/tools/leed-for-cities-and-communities/#:~:text=Description</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2024-12-04">(accessed on 4 December 2024)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B31-sustainability-18-11328">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Biqaraz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ghalehnoee</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mosammam</surname>
+              <given-names>H.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neighborhood Sustainability Assessment Tools: A Systematic Review and Typology of Research</article-title>
+          <source>Sustain. Futur.</source>
+          <year>2025</year>
+          <volume>10</volume>
+          <fpage>101173</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.sftr.2025.101173</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-sustainability-18-11328">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hacking</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Guthrie</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Framework for Clarifying the Meaning of Triple Bottom-Line, Integrated, and Sustain-Ability Assessment</article-title>
+          <source>Environ. Impact Assess. Rev.</source>
+          <year>2008</year>
+          <volume>28</volume>
+          <fpage>73</fpage>
+          <lpage>89</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.eiar.2007.03.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-sustainability-18-11328">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>&#x15E;eker</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutluluk ekonomisi (Happiness economy)</article-title>
+          <source>&#x130;ktisat Fak&#xFC;ltesi Sosyol. Konf.</source>
+          <year>2010</year>
+          <volume>39</volume>
+          <fpage>115</fpage>
+          <lpage>134</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B34-sustainability-18-11328">
+        <label>34.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robertson</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Sustainability Principles and Practice</source>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+      <ref id="B35-sustainability-18-11328">
+        <label>35.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hough</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Cities and Natural Process</source>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>1995</year>
+        </element-citation>
+      </ref>
+      <ref id="B36-sustainability-18-11328">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Defining and Measuring Urban Sustainability: A Review of Indicators</article-title>
+          <source>Landsc. Ecol.</source>
+          <year>2015</year>
+          <volume>30</volume>
+          <fpage>1175</fpage>
+          <lpage>1193</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10980-015-0208-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-sustainability-18-11328">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ayik</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ayatac</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sertyesilisik</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Gap Analysis on Urban Sustainability Studies and Urban Sustainability Assessment Tools</article-title>
+          <source>Archit. Res.</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <fpage>1</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="doi">10.5923/j.arch.20170701.01</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-sustainability-18-11328">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Minh</surname>
+              <given-names>N.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Application of &#x201C;Car-Free City&#x201D; and &#x201C;City of Short Walks&#x201D; to Living Quarters in Hanoi Towards Sustainable Mobility and Logistics</article-title>
+          <source>Procedia Eng.</source>
+          <year>2016</year>
+          <volume>142</volume>
+          <fpage>284</fpage>
+          <lpage>291</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.proeng.2016.02.043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-sustainability-18-11328">
+        <label>39.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burns</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quality in the Planning and Design of City Centres</article-title>
+          <source>Quality in the Planning and Design</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Creswell</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Butterworth-Heinemann</publisher-name>
+          <publisher-loc>Oxford, UK</publisher-loc>
+          <year>1979</year>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B40-sustainability-18-11328">
+        <label>40.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>G&#xF6;kg&#xFC;r</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <source>Kentsel Mek&#xE2;nda Kamusal Alan&#x131;n Yeri [The Place of Public Space in Urban Space]</source>
+          <publisher-name>Ba&#x11F;lam</publisher-name>
+          <publisher-loc>&#x130;stanbul, T&#xFC;rkiye</publisher-loc>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="B41-sustainability-18-11328">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>G&#xFC;l</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>ve K&#xFC;&#xE7;&#xFC;k</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kentsel A&#xE7;&#x131;k-Yes&#x327;il Alanlar ve Isparta Kenti &#xD6;rne&#x11F;inde &#x130;rdelenmesi [Urban Open-Green Spaces and Its Examination in the Case of Isparta City]. S.D.&#xDC;</article-title>
+          <source>Orman. Fak&#xFC;ltesi Derg.</source>
+          <year>2001</year>
+          <volume>2</volume>
+          <fpage>27</fpage>
+          <lpage>48</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B42-sustainability-18-11328">
+        <label>42.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ersoy</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Kentsel Planlamada Standartlar [Standards in Urban Planning]</source>
+          <publisher-name>Ninova</publisher-name>
+          <publisher-loc>Ankara, T&#xFC;rkiye</publisher-loc>
+          <year>2015</year>
+        </element-citation>
+      </ref>
+      <ref id="B43-sustainability-18-11328">
+        <label>43.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>World Health Organization</collab>
+          </person-group>
+          <source>Urban Planning, Environment and Health: From Evidence to Policy Action-Meeting Report</source>
+          <publisher-name>WHO Regional Office for Europe</publisher-name>
+          <publisher-loc>Copenhagen, Denmark</publisher-loc>
+          <year>2010</year>
+        </element-citation>
+      </ref>
+      <ref id="B44-sustainability-18-11328">
+        <label>44.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Republic of T&#xFC;rkiye, Ministry of Environment and Urbanization</collab>
+          </person-group>
+          <article-title>Mek&#xE2;nsal Planlar Yap&#x131;m Y&#xF6;netmeli&#x11F;i [Regulation on the Preparation of Spatial Plans]. T.C. Resm&#xEE; Gazete, No. 29030, 14 June 2014</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=19788&amp;mevzuatTur=KurumVeKurulusYonetmeligi&amp;mevzuatTertip=5" ext-link-type="uri">https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=19788&amp;mevzuatTur=KurumVeKurulusYonetmeligi&amp;mevzuatTertip=5</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-04-25">(accessed on 25 April 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B45-sustainability-18-11328">
+        <label>45.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Republic of T&#xFC;rkiye</collab>
+          </person-group>
+          <article-title>Planl&#x131; Alanlar &#x130;mar Y&#xF6;netmeli&#x11F;i [Regulation on Planned Areas]; T.C. Resm&#xEE; Gazete, No. 30113, 3 July 2017</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.resmigazete.gov.tr/eskiler/2017/07/20170703-8.htm" ext-link-type="uri">https://www.resmigazete.gov.tr/eskiler/2017/07/20170703-8.htm</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2026-04-25">(accessed on 25 April 2026)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B46-sustainability-18-11328">
+        <label>46.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lynch</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <source>The Image of the City</source>
+          <publisher-name>MIT Press</publisher-name>
+          <publisher-loc>Cambridge, MA, USA</publisher-loc>
+          <year>1960</year>
+        </element-citation>
+      </ref>
+      <ref id="B47-sustainability-18-11328">
+        <label>47.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lynch</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <source>A Theory of Good City Form</source>
+          <publisher-name>MIT Press</publisher-name>
+          <publisher-loc>Cambridge, MA, USA</publisher-loc>
+          <year>1981</year>
+        </element-citation>
+      </ref>
+      <ref id="B48-sustainability-18-11328">
+        <label>48.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carmona</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Public Spaces, Urban Spaces: The Dimension of Urban Design</source>
+          <edition>3rd ed.</edition>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2021</year>
+        </element-citation>
+      </ref>
+      <ref id="B49-sustainability-18-11328">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hillier</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cities as Movement Economies</article-title>
+          <source>Urban Des. Int.</source>
+          <year>1996</year>
+          <volume>1</volume>
+          <fpage>41</fpage>
+          <lpage>60</lpage>
+          <pub-id pub-id-type="doi">10.1057/udi.1996.5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-sustainability-18-11328">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grant</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Tsenkova</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>New Urbanism and Smart Growth Movements</article-title>
+          <source>Int. Encycl. Hous. Home</source>
+          <year>2012</year>
+          <volume>5</volume>
+          <fpage>120</fpage>
+          <lpage>126</lpage>
+          <pub-id pub-id-type="doi">10.1016/b978-0-08-047163-1.00494-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-sustainability-18-11328">
+        <label>51.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Talen</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <source>City Rules: How Regulations Affect Urban Form</source>
+          <publisher-name>Island Press</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B52-sustainability-18-11328">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Michalina</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mederly</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Diefenbacher</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Held</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sustainable Urban Development: A Review of Urban Sustainability Indicator Frameworks</article-title>
+          <source>Sustainability</source>
+          <year>2021</year>
+          <volume>13</volume>
+          <elocation-id>9348</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su13169348</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-sustainability-18-11328">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kang</surname>
+              <given-names>S.-W.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>M.-S.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>J.-C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of Sustainable Urban Forms for Climate Change Adaptation and Mitigation</article-title>
+          <source>Environ. Sustain. Indic.</source>
+          <year>2024</year>
+          <volume>22</volume>
+          <fpage>100337</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.indic.2024.100337</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-sustainability-18-11328">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>El-Geneidy</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Grimsrud</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wasfi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>T&#xE9;treault</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Surprenant-Legault</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>New Evidence on Walking Distances to Transit Stops: Identifying Redundancies and Gaps Using Variable Service Areas</article-title>
+          <source>Transportation</source>
+          <year>2014</year>
+          <volume>41</volume>
+          <fpage>193</fpage>
+          <lpage>210</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11116-013-9508-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-sustainability-18-11328">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dovey</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Pafka</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>What Is Walkability? The Urban DMA</article-title>
+          <source>Urban Stud.</source>
+          <year>2019</year>
+          <volume>57</volume>
+          <fpage>93</fpage>
+          <lpage>108</lpage>
+          <pub-id pub-id-type="doi">10.1177/0042098018819727</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-sustainability-18-11328">
+        <label>56.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moughtin</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <source>Urban Design: Street and Square</source>
+          <edition>3rd ed.</edition>
+          <publisher-name>Architectural Press</publisher-name>
+          <publisher-loc>Oxford, UK</publisher-loc>
+          <year>2003</year>
+        </element-citation>
+      </ref>
+      <ref id="B57-sustainability-18-11328">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Y&#x131;lmaz</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Samsun Kentinin Yeni Geli&#x15F;im Alanlari: Atakum, Atakent Ve Kurupelit [New Development Areas of Samsun: Atakum, Atakent and Kurupelit]</article-title>
+          <source>T&#xFC;rk Co&#x11F;rafya Derg.</source>
+          <year>2004</year>
+          <volume>42</volume>
+          <fpage>59</fpage>
+          <lpage>72</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B58-sustainability-18-11328">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <collab>Mimarl&#x131;k/Forum</collab>
+          </person-group>
+          <article-title>E&#x15F;ik Analizi, Bir Mek&#xE2;n Planlamas&#x131; Tekni&#x11F;i [Threshold analysis, a spatial planning technique]</article-title>
+          <source>Mimarl&#x131;k</source>
+          <year>1972</year>
+          <volume>10</volume>
+          <fpage>38</fpage>
+          <lpage>39</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B59-sustainability-18-11328">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Al-Shaar</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Bonin</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Al-Shaar</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Youssef</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessing Urban Morphological Dynamics and Landscape Fragmentation in Kuwait Using Integrated Fractal Analysis from 1985 to 2100</article-title>
+          <source>Discov. Cities</source>
+          <year>2026</year>
+          <volume>3</volume>
+          <fpage>70</fpage>
+          <pub-id pub-id-type="doi">10.1007/s44327-026-00229-9</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="sustainability-18-11328-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Changes in coastal strip development in Atakum between 1985 and 2025 (compiled from Google Earth 2026).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g001.tif"/>
+      </fig>
+      <fig id="sustainability-18-11328-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Study area (Basemap: Google Earth imagery 2026 Airbus. Spatial analysis and cartographic representation by the author).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g002.tif"/>
+      </fig>
+      <fig id="sustainability-18-11328-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Built (positive), open (negative) spaces and main roads (the author).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g003.tif"/>
+      </fig>
+      <fig id="sustainability-18-11328-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Implementation plans of Atakum: 1987 vs. 2016 (compiled by the author).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g004.tif"/>
+      </fig>
+      <fig id="sustainability-18-11328-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Distribution of active and passive green spaces in Atakum coastal zone (<bold>left</bold>) and within the study area (<bold>right</bold>) in 2024 (the author).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g005.tif"/>
+      </fig>
+      <fig id="sustainability-18-11328-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Urban pattern analysis of the T&#xFC;rki&#x15F; region in 2024 (the author).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g006.tif"/>
+      </fig>
+      <fig id="sustainability-18-11328-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Simulation of shadow lengths in the T&#xFC;rki&#x15F; region in 2024 (the author).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g007.tif"/>
+      </fig>
+      <fig id="sustainability-18-11328-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Stories, block layouts, and typologies in the T&#xFC;rki&#x15F; region in 2023 (map, <bold>left</bold>: the author; satellite imagery, <bold>right</bold>: Google Earth 2026).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g008.tif"/>
+      </fig>
+      <fig id="sustainability-18-11328-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Street overview and building mass relationships in the T&#xFC;rki&#x15F; region (the author).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g009.tif"/>
+      </fig>
+      <fig id="sustainability-18-11328-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>Street views of the study area (the author&#x2019;s photo archive, 2026).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g010.tif"/>
+      </fig>
+      <fig id="sustainability-18-11328-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Green space and square typologies within the study area in 2023, illustrating the distribution, form, and continuity of open spaces (map: the author; satellite imagery: Google Earth 2026).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g011.tif"/>
+      </fig>
+      <fig id="sustainability-18-11328-f012" position="float">
+        <label>Figure 12</label>
+        <caption>
+          <p>Space syntax analysis of the study area (the author).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-18-11328-g012.tif"/>
+      </fig>
+      <table-wrap id="sustainability-18-11328-t001" position="float">
+        <object-id pub-id-type="pii">sustainability-18-11328-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Commonly known initiatives include urban sustainability.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Year</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Event(s)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1972</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">United Nations Conference on the Human Environment; United Nations Conference on the Human Environment (UNCHE) or the Stockholm Conference</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1976</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Habitat I&#x2014;United Nations Conference on Human Settlements (repeated decennially)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1987</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Our Common Future Report (Brundtland) of United Nations</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1991</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Sustainable Cities Project (European Commission community-based urban sustainability project)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1992</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Earth Summits (repeated decennially) of United Nations Framework Convention on Climate Change (UNFCCC)); Agenda 21 (the Rio Declaration on Environment and Development) of United Nations Conference on Environment and Development (UNCED), creation of The Commission on Sustainable Development (CSD)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1995</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Conference of the Parties to the UN Framework Convention on Climate Change (repeated annually)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1996</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">European Commission published the European Sustainable Cities Report</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2001</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">World Urban Forum was established by United Nations (repeated biannually after first meeting in 2002)</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-18-11328-t002" position="float">
+        <object-id pub-id-type="pii">sustainability-18-11328-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Alignment of research questions, analytical criteria, indicators, methods, and evaluation focus.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Research Question Focus</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Analytical Criterion and Indicators</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Method</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Evaluation Focus</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">How has urban morphology changed over time?</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">1. Land-use and facility distribution: changes in land use, building footprints, and facility locations</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Historical Google Earth 7.x imagery, zoning plans, cadastral maps, and municipal meetings</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Changes in land-use patterns and facility distribution over time</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">How does urban form influence walkability and spatial accessibility?</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">2. Walkability and street-network structure: street-network continuity, connectivity, sidewalk provision, and spatial barriers</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">2D morphological mapping and street-network analysis</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Pedestrian accessibility and continuity of the street network</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">How does street configuration relate to potential pedestrian movement?</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">3. Pedestrian movement quality: axial integration, connectivity, and the relationship between street configuration and pedestrian infrastructure</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Space syntax analysis using depthmapX and mapped pedestrian infrastructure</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Configurational potential for pedestrian movement and potential barriers</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">How are recreational green spaces distributed and connected?</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">4. Continuity of recreational green spaces: distribution, spatial extent, continuity, accessibility, and active/passive green-space classification</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Green-space mapping, spatial analysis, and comparison with planning standards</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Green-space provision, continuity, and accessibility</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">How does built form affect natural lighting?</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">5. Natural lighting within urban blocks: building height, spacing, orientation, block configuration, and shadow patterns</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Three-dimensional modelling and shadow simulation using Google SketchUp</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Potential solar access to streets and open spaces</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">What recurring morphological patterns characterise the built-up area?</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">6. Characteristic and recurring built forms: building typologies, parcel configurations, block structures, density, and built&#x2013;unbuilt relationships</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Typo-morphological analysis and comparative spatial mapping</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Spatial permeability, public-space provision, and environmental quality</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-18-11328-t003" position="float">
+        <object-id pub-id-type="pii">sustainability-18-11328-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Comparison of land use functions in the 1987 and 2016 implementation plans for Atakum&#x2019;s T&#xFC;rki&#x15F; region (the author).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Land</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">1987 Land Use Function</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">2016 Land Use Function</th>
+              <th align="left" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ecological Evolution of the Site</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">A</td>
+              <td align="left" valign="middle">Tram station</td>
+              <td align="left" valign="middle">Park (open green spaces)</td>
+              <td align="left" valign="middle">Positive</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B</td>
+              <td align="left" valign="middle">Park (open green spaces)</td>
+              <td align="left" valign="middle">Mixed land use (ground floor retail, upper floor residential)</td>
+              <td align="left" valign="middle">Negative</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">C</td>
+              <td align="left" valign="middle">Socio-cultural space</td>
+              <td align="left" valign="middle">Shopping Mall</td>
+              <td align="left" valign="middle">Negative</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">D</td>
+              <td align="left" valign="middle">Park</td>
+              <td align="left" valign="middle">Mixed land use (ground floor retail, upper floor residential)</td>
+              <td align="left" valign="middle">Negative</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E</td>
+              <td align="left" valign="middle">T&#xFC;rki&#x15F; commercial centre axes</td>
+              <td align="left" valign="middle">Housing</td>
+              <td align="left" valign="middle">Neutral</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">F</td>
+              <td align="left" valign="middle">Mixed land use (housing, health and bazaar)</td>
+              <td align="left" valign="middle">T&#xFC;rki&#x15F; commercial centre axes</td>
+              <td align="left" valign="middle">Negative</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">G</td>
+              <td align="left" valign="middle">Government dispensary</td>
+              <td align="left" valign="middle">Private hospital</td>
+              <td align="left" valign="middle">Neutral</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">H</td>
+              <td align="left" valign="middle">Neighbourhood bazaar</td>
+              <td align="left" valign="middle">Mixed land use (ground floor retail, upper floor residential)</td>
+              <td align="left" valign="middle">Negative</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">I</td>
+              <td align="left" valign="middle">Education area</td>
+              <td align="left" valign="middle">Supermarket</td>
+              <td align="left" valign="middle">Negative</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">J</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Sport area</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Urban square</td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Negative</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

@@ -1,0 +1,150 @@
+{
+  "checked_date": "2026-11-09",
+  "overall_submission_to_acceptance_verified": false,
+  "official_overall_results": [
+    {
+      "journal": "Journal for Nature Conservation",
+      "submission_to_acceptance_days": null,
+      "reason": "Official Insights and alternate/legacy official routes all returned403; no correct overall metric obtained"
+    },
+    {
+      "journal": "Journal of Environmental Management",
+      "submission_to_acceptance_days": null,
+      "reason": "Official Insights and alternate/legacy official routes all returned403; no correct overall metric obtained"
+    }
+  ],
+  "access_log": [
+    {
+      "key": "jnc_insights",
+      "url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/about/insights",
+      "checked_at": "2026-11-09T15:17:48",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/about/insights",
+      "bytes": 832981,
+      "title": "ScienceDirect",
+      "contexts": []
+    },
+    {
+      "key": "jnc_publish_insights",
+      "url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/publish/insights",
+      "checked_at": "2026-11-09T15:17:48",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/publish/insights",
+      "bytes": 832981,
+      "title": "ScienceDirect",
+      "contexts": []
+    },
+    {
+      "key": "jnc_home",
+      "url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation",
+      "checked_at": "2026-11-09T15:17:48",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation",
+      "bytes": 832981,
+      "title": "ScienceDirect",
+      "contexts": []
+    },
+    {
+      "key": "jnc_elsevier_insights",
+      "url": "https://www.elsevier.com/journals/journal-for-nature-conservation/1617-1381/insights",
+      "checked_at": "2026-11-09T15:17:48",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/science/journal/16171381/publish/insights",
+      "bytes": 832981,
+      "title": "ScienceDirect",
+      "contexts": []
+    },
+    {
+      "key": "jnc_legacy_insights",
+      "url": "https://journalinsights.elsevier.com/journals/1617-1381/review_speed",
+      "checked_at": "2026-11-09T15:17:48",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation",
+      "bytes": 832981,
+      "title": "ScienceDirect",
+      "contexts": []
+    },
+    {
+      "key": "jem_insights",
+      "url": "https://www.sciencedirect.com/journal/journal-of-environmental-management/about/insights",
+      "checked_at": "2026-11-09T15:17:48",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/journal/journal-of-environmental-management/about/insights",
+      "bytes": 832981,
+      "title": "ScienceDirect",
+      "contexts": []
+    },
+    {
+      "key": "jem_publish_insights",
+      "url": "https://www.sciencedirect.com/journal/journal-of-environmental-management/publish/insights",
+      "checked_at": "2026-11-09T15:17:51",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/journal/journal-of-environmental-management/publish/insights",
+      "bytes": 832981,
+      "title": "ScienceDirect",
+      "contexts": []
+    },
+    {
+      "key": "jem_home",
+      "url": "https://www.sciencedirect.com/journal/journal-of-environmental-management",
+      "checked_at": "2026-11-09T15:17:52",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/journal/journal-of-environmental-management",
+      "bytes": 832981,
+      "title": "ScienceDirect",
+      "contexts": []
+    },
+    {
+      "key": "jem_elsevier_insights",
+      "url": "https://www.elsevier.com/journals/journal-of-environmental-management/0301-4797/insights",
+      "checked_at": "2026-11-09T15:17:52",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/science/journal/03014797/publish/insights",
+      "bytes": 832981,
+      "title": "ScienceDirect",
+      "contexts": []
+    },
+    {
+      "key": "jem_legacy_insights",
+      "url": "https://journalinsights.elsevier.com/journals/0301-4797/review_speed",
+      "checked_at": "2026-11-09T15:17:52",
+      "status": 403,
+      "final_url": "https://www.sciencedirect.com/journal/journal-of-environmental-management",
+      "bytes": 832981,
+      "title": "ScienceDirect",
+      "contexts": []
+    }
+  ],
+  "verified_article_histories": [
+    {
+      "journal": "Journal for Nature Conservation",
+      "doi": "10.1016/j.jnc.2026.127304",
+      "title": "Rewilding reshapes gut microbiomes and parasite exposure in European bison: a 17-month release from Wilder Blean",
+      "received": "2025-11-07",
+      "accepted": "2026-04-15",
+      "days": 159,
+      "source_type": "PMC official archive of Elsevier-published full text; is-manuscript=no",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13276717/",
+      "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13276717/fullTextXML",
+      "exact_quote": "Received 2025 Nov 7; Revised 2026 Apr 14; Accepted 2026 Apr 15.",
+      "local_snapshot": "elsevier_jnc_epmc_xml.txt",
+      "limitation": "单篇原始研究，欧洲野牛再野化/微生物组，题材不同；非全刊统计。"
+    },
+    {
+      "journal": "Journal of Environmental Management",
+      "doi": "10.1016/j.jenvman.2026.131156",
+      "title": "Understanding public preferences for urban wildflower meadows",
+      "received": "2026-07-13",
+      "accepted": "2026-10-10",
+      "days": 89,
+      "source_type": "Publisher PDF in Imperial College and University of Kent repositories; same article independently checked twice",
+      "source_url": "https://spiral.imperial.ac.uk/server/api/core/bitstreams/8ebd20d6-e37f-442d-bdbc-a35427f92681/content",
+      "second_source_url": "https://kar.kent.ac.uk/117287/1/1-s2.0-S0301479726026162-main.pdf",
+      "exact_quote": "Received 13 July 2026; Received in revised form 28 September 2026; Accepted 10 October 2026",
+      "local_snapshot": "elsevier_article_10_1016_j_jenvman_2026_131156_2.dat",
+      "limitation": "单篇Research article，都市野花草甸公众偏好，题材相关；两个机构库是同一篇，不可当n=2；非全刊统计。"
+    }
+  ],
+  "excluded_metrics": "First decision, decision after review and Finder timeToAcceptance with inconsistent labels were not used.",
+  "scope_limit": "本次只核两刊接收总历时，不重做选刊。已存新快照、未改旧报告。"
+}

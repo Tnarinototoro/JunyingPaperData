@@ -1,0 +1,1546 @@
+<?xml version='1.0' encoding='utf-8'?>
+<qgis version="3.28.13" projectname="NDVI Regional Mean Review">
+  <homePath path="" />
+  <title>NDVI Regional Mean Review: 35 sources selected, 4 parks awaiting source selection</title>
+  <projectCrs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCS["Asia_North_Albers_Equal_Area_Conic",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",95.0],PARAMETER["Standard_Parallel_1",15.0],PARAMETER["Standard_Parallel_2",65.0],PARAMETER["Latitude_Of_Origin",30.0],UNIT["Meter",1.0]]</wkt>
+      <proj4>+proj=aea +lat_1=15 +lat_2=65 +lat_0=30 +lon_0=95 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs</proj4>
+      <authid>ESRI:102025</authid>
+      <description>Asia North Albers Equal Area Conic</description>
+      <projectionacronym>aea</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <layer-tree-layer id="park_boundaries" name="39 park boundaries (ParkID)" source="./GIS/park_boundaries.shp" providerKey="ogr" expanded="1" checked="Qt::Checked" />
+    <layer-tree-layer id="outer_100m_rings" name="39 exterior rings (park interiors excluded)" source="./GIS/outer_100m_rings.shp" providerKey="ogr" expanded="1" checked="Qt::Checked" />
+    <layer-tree-group name="Original-pixel ROI crops and region masks (internal review)" expanded="0" checked="Qt::Unchecked">
+      <layer-tree-group name="P01 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P01_ndvi_crop" name="P01 NDVI" source="./GIS/rasters/P01_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P01_zone_mask" name="P01 zones: 1=inside, 2=outside" source="./GIS/rasters/P01_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P02 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P02_ndvi_crop" name="P02 NDVI" source="./GIS/rasters/P02_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P02_zone_mask" name="P02 zones: 1=inside, 2=outside" source="./GIS/rasters/P02_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P03 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P03_ndvi_crop" name="P03 NDVI" source="./GIS/rasters/P03_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P03_zone_mask" name="P03 zones: 1=inside, 2=outside" source="./GIS/rasters/P03_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P04 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P04_ndvi_crop" name="P04 NDVI" source="./GIS/rasters/P04_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P04_zone_mask" name="P04 zones: 1=inside, 2=outside" source="./GIS/rasters/P04_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P05 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P05_ndvi_crop" name="P05 NDVI" source="./GIS/rasters/P05_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P05_zone_mask" name="P05 zones: 1=inside, 2=outside" source="./GIS/rasters/P05_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P06 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P06_ndvi_crop" name="P06 NDVI" source="./GIS/rasters/P06_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P06_zone_mask" name="P06 zones: 1=inside, 2=outside" source="./GIS/rasters/P06_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P07 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P07_ndvi_crop" name="P07 NDVI" source="./GIS/rasters/P07_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P07_zone_mask" name="P07 zones: 1=inside, 2=outside" source="./GIS/rasters/P07_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P08 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P08_ndvi_crop" name="P08 NDVI" source="./GIS/rasters/P08_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P08_zone_mask" name="P08 zones: 1=inside, 2=outside" source="./GIS/rasters/P08_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P09_option1 CHOOSE_SOURCE" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P09_option1_ndvi_crop" name="P09_option1 NDVI" source="./GIS/rasters/P09_option1_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P09_option1_zone_mask" name="P09_option1 zones: 1=inside, 2=outside" source="./GIS/rasters/P09_option1_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P09_option2 CHOOSE_SOURCE" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P09_option2_ndvi_crop" name="P09_option2 NDVI" source="./GIS/rasters/P09_option2_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P09_option2_zone_mask" name="P09_option2 zones: 1=inside, 2=outside" source="./GIS/rasters/P09_option2_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P10 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P10_ndvi_crop" name="P10 NDVI" source="./GIS/rasters/P10_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P10_zone_mask" name="P10 zones: 1=inside, 2=outside" source="./GIS/rasters/P10_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P11 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P11_ndvi_crop" name="P11 NDVI" source="./GIS/rasters/P11_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P11_zone_mask" name="P11 zones: 1=inside, 2=outside" source="./GIS/rasters/P11_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P12 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P12_ndvi_crop" name="P12 NDVI" source="./GIS/rasters/P12_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P12_zone_mask" name="P12 zones: 1=inside, 2=outside" source="./GIS/rasters/P12_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P13 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P13_ndvi_crop" name="P13 NDVI" source="./GIS/rasters/P13_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P13_zone_mask" name="P13 zones: 1=inside, 2=outside" source="./GIS/rasters/P13_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P14 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P14_ndvi_crop" name="P14 NDVI" source="./GIS/rasters/P14_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P14_zone_mask" name="P14 zones: 1=inside, 2=outside" source="./GIS/rasters/P14_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P15 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P15_ndvi_crop" name="P15 NDVI" source="./GIS/rasters/P15_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P15_zone_mask" name="P15 zones: 1=inside, 2=outside" source="./GIS/rasters/P15_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P16 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P16_ndvi_crop" name="P16 NDVI" source="./GIS/rasters/P16_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P16_zone_mask" name="P16 zones: 1=inside, 2=outside" source="./GIS/rasters/P16_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P17 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P17_ndvi_crop" name="P17 NDVI" source="./GIS/rasters/P17_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P17_zone_mask" name="P17 zones: 1=inside, 2=outside" source="./GIS/rasters/P17_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P18_option1 CHOOSE_SOURCE" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P18_option1_ndvi_crop" name="P18_option1 NDVI" source="./GIS/rasters/P18_option1_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P18_option1_zone_mask" name="P18_option1 zones: 1=inside, 2=outside" source="./GIS/rasters/P18_option1_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P18_option2 CHOOSE_SOURCE" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P18_option2_ndvi_crop" name="P18_option2 NDVI" source="./GIS/rasters/P18_option2_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P18_option2_zone_mask" name="P18_option2 zones: 1=inside, 2=outside" source="./GIS/rasters/P18_option2_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P19 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P19_ndvi_crop" name="P19 NDVI" source="./GIS/rasters/P19_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P19_zone_mask" name="P19 zones: 1=inside, 2=outside" source="./GIS/rasters/P19_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P20 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P20_ndvi_crop" name="P20 NDVI" source="./GIS/rasters/P20_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P20_zone_mask" name="P20 zones: 1=inside, 2=outside" source="./GIS/rasters/P20_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P21 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P21_ndvi_crop" name="P21 NDVI" source="./GIS/rasters/P21_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P21_zone_mask" name="P21 zones: 1=inside, 2=outside" source="./GIS/rasters/P21_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P22 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P22_ndvi_crop" name="P22 NDVI" source="./GIS/rasters/P22_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P22_zone_mask" name="P22 zones: 1=inside, 2=outside" source="./GIS/rasters/P22_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P23 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P23_ndvi_crop" name="P23 NDVI" source="./GIS/rasters/P23_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P23_zone_mask" name="P23 zones: 1=inside, 2=outside" source="./GIS/rasters/P23_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P24 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P24_ndvi_crop" name="P24 NDVI" source="./GIS/rasters/P24_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P24_zone_mask" name="P24 zones: 1=inside, 2=outside" source="./GIS/rasters/P24_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P25 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P25_ndvi_crop" name="P25 NDVI" source="./GIS/rasters/P25_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P25_zone_mask" name="P25 zones: 1=inside, 2=outside" source="./GIS/rasters/P25_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P26 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P26_ndvi_crop" name="P26 NDVI" source="./GIS/rasters/P26_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P26_zone_mask" name="P26 zones: 1=inside, 2=outside" source="./GIS/rasters/P26_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P27 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P27_ndvi_crop" name="P27 NDVI" source="./GIS/rasters/P27_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P27_zone_mask" name="P27 zones: 1=inside, 2=outside" source="./GIS/rasters/P27_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P28_option1 CHOOSE_SOURCE" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P28_option1_ndvi_crop" name="P28_option1 NDVI" source="./GIS/rasters/P28_option1_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P28_option1_zone_mask" name="P28_option1 zones: 1=inside, 2=outside" source="./GIS/rasters/P28_option1_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P28_option2 CHOOSE_SOURCE" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P28_option2_ndvi_crop" name="P28_option2 NDVI" source="./GIS/rasters/P28_option2_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P28_option2_zone_mask" name="P28_option2 zones: 1=inside, 2=outside" source="./GIS/rasters/P28_option2_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P29 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P29_ndvi_crop" name="P29 NDVI" source="./GIS/rasters/P29_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P29_zone_mask" name="P29 zones: 1=inside, 2=outside" source="./GIS/rasters/P29_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P30 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P30_ndvi_crop" name="P30 NDVI" source="./GIS/rasters/P30_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P30_zone_mask" name="P30 zones: 1=inside, 2=outside" source="./GIS/rasters/P30_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P31 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P31_ndvi_crop" name="P31 NDVI" source="./GIS/rasters/P31_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P31_zone_mask" name="P31 zones: 1=inside, 2=outside" source="./GIS/rasters/P31_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P32_option1 CHOOSE_SOURCE" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P32_option1_ndvi_crop" name="P32_option1 NDVI" source="./GIS/rasters/P32_option1_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P32_option1_zone_mask" name="P32_option1 zones: 1=inside, 2=outside" source="./GIS/rasters/P32_option1_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P32_option2 CHOOSE_SOURCE" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P32_option2_ndvi_crop" name="P32_option2 NDVI" source="./GIS/rasters/P32_option2_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P32_option2_zone_mask" name="P32_option2 zones: 1=inside, 2=outside" source="./GIS/rasters/P32_option2_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P33 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P33_ndvi_crop" name="P33 NDVI" source="./GIS/rasters/P33_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P33_zone_mask" name="P33 zones: 1=inside, 2=outside" source="./GIS/rasters/P33_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P34 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P34_ndvi_crop" name="P34 NDVI" source="./GIS/rasters/P34_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P34_zone_mask" name="P34 zones: 1=inside, 2=outside" source="./GIS/rasters/P34_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P35 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P35_ndvi_crop" name="P35 NDVI" source="./GIS/rasters/P35_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P35_zone_mask" name="P35 zones: 1=inside, 2=outside" source="./GIS/rasters/P35_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P36 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P36_ndvi_crop" name="P36 NDVI" source="./GIS/rasters/P36_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P36_zone_mask" name="P36 zones: 1=inside, 2=outside" source="./GIS/rasters/P36_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P37 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P37_ndvi_crop" name="P37 NDVI" source="./GIS/rasters/P37_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P37_zone_mask" name="P37 zones: 1=inside, 2=outside" source="./GIS/rasters/P37_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P38 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P38_ndvi_crop" name="P38 NDVI" source="./GIS/rasters/P38_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P38_zone_mask" name="P38 zones: 1=inside, 2=outside" source="./GIS/rasters/P38_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+      <layer-tree-group name="P39 CONFIRMED" expanded="0" checked="Qt::Unchecked">
+        <layer-tree-layer id="P39_ndvi_crop" name="P39 NDVI" source="./GIS/rasters/P39_NDVI.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+        <layer-tree-layer id="P39_zone_mask" name="P39 zones: 1=inside, 2=outside" source="./GIS/rasters/P39_zones.tif" providerKey="gdal" expanded="0" checked="Qt::Unchecked" />
+      </layer-tree-group>
+    </layer-tree-group>
+  </layer-tree-group>
+  <projectlayers>
+    <maplayer type="vector" geometry="Polygon" autoRefreshEnabled="0">
+      <id>park_boundaries</id>
+      <datasource>./GIS/park_boundaries.shp</datasource>
+      <layername>39 park boundaries (ParkID)</layername>
+      <provider encoding="UTF-8">ogr</provider>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCS["Asia_North_Albers_Equal_Area_Conic",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",95.0],PARAMETER["Standard_Parallel_1",15.0],PARAMETER["Standard_Parallel_2",65.0],PARAMETER["Latitude_Of_Origin",30.0],UNIT["Meter",1.0]]</wkt>
+          <proj4>+proj=aea +lat_1=15 +lat_2=65 +lat_0=30 +lon_0=95 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs</proj4>
+          <authid>ESRI:102025</authid>
+          <description>Asia North Albers Equal Area Conic</description>
+          <projectionacronym>aea</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+    </maplayer>
+    <maplayer type="vector" geometry="Polygon" autoRefreshEnabled="0">
+      <id>outer_100m_rings</id>
+      <datasource>./GIS/outer_100m_rings.shp</datasource>
+      <layername>39 exterior rings (park interiors excluded)</layername>
+      <provider encoding="UTF-8">ogr</provider>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCS["Asia_North_Albers_Equal_Area_Conic",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",95.0],PARAMETER["Standard_Parallel_1",15.0],PARAMETER["Standard_Parallel_2",65.0],PARAMETER["Latitude_Of_Origin",30.0],UNIT["Meter",1.0]]</wkt>
+          <proj4>+proj=aea +lat_1=15 +lat_2=65 +lat_0=30 +lon_0=95 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs</proj4>
+          <authid>ESRI:102025</authid>
+          <description>Asia North Albers Equal Area Conic</description>
+          <projectionacronym>aea</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P01_ndvi_crop</id>
+      <datasource>./GIS/rasters/P01_NDVI.tif</datasource>
+      <layername>P01 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P01_zone_mask</id>
+      <datasource>./GIS/rasters/P01_zones.tif</datasource>
+      <layername>P01 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P02_ndvi_crop</id>
+      <datasource>./GIS/rasters/P02_NDVI.tif</datasource>
+      <layername>P02 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P02_zone_mask</id>
+      <datasource>./GIS/rasters/P02_zones.tif</datasource>
+      <layername>P02 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P03_ndvi_crop</id>
+      <datasource>./GIS/rasters/P03_NDVI.tif</datasource>
+      <layername>P03 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P03_zone_mask</id>
+      <datasource>./GIS/rasters/P03_zones.tif</datasource>
+      <layername>P03 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P04_ndvi_crop</id>
+      <datasource>./GIS/rasters/P04_NDVI.tif</datasource>
+      <layername>P04 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P04_zone_mask</id>
+      <datasource>./GIS/rasters/P04_zones.tif</datasource>
+      <layername>P04 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P05_ndvi_crop</id>
+      <datasource>./GIS/rasters/P05_NDVI.tif</datasource>
+      <layername>P05 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P05_zone_mask</id>
+      <datasource>./GIS/rasters/P05_zones.tif</datasource>
+      <layername>P05 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P06_ndvi_crop</id>
+      <datasource>./GIS/rasters/P06_NDVI.tif</datasource>
+      <layername>P06 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P06_zone_mask</id>
+      <datasource>./GIS/rasters/P06_zones.tif</datasource>
+      <layername>P06 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P07_ndvi_crop</id>
+      <datasource>./GIS/rasters/P07_NDVI.tif</datasource>
+      <layername>P07 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P07_zone_mask</id>
+      <datasource>./GIS/rasters/P07_zones.tif</datasource>
+      <layername>P07 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P08_ndvi_crop</id>
+      <datasource>./GIS/rasters/P08_NDVI.tif</datasource>
+      <layername>P08 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P08_zone_mask</id>
+      <datasource>./GIS/rasters/P08_zones.tif</datasource>
+      <layername>P08 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P09_option1_ndvi_crop</id>
+      <datasource>./GIS/rasters/P09_option1_NDVI.tif</datasource>
+      <layername>P09_option1 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P09_option1_zone_mask</id>
+      <datasource>./GIS/rasters/P09_option1_zones.tif</datasource>
+      <layername>P09_option1 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P09_option2_ndvi_crop</id>
+      <datasource>./GIS/rasters/P09_option2_NDVI.tif</datasource>
+      <layername>P09_option2 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P09_option2_zone_mask</id>
+      <datasource>./GIS/rasters/P09_option2_zones.tif</datasource>
+      <layername>P09_option2 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P10_ndvi_crop</id>
+      <datasource>./GIS/rasters/P10_NDVI.tif</datasource>
+      <layername>P10 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P10_zone_mask</id>
+      <datasource>./GIS/rasters/P10_zones.tif</datasource>
+      <layername>P10 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P11_ndvi_crop</id>
+      <datasource>./GIS/rasters/P11_NDVI.tif</datasource>
+      <layername>P11 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P11_zone_mask</id>
+      <datasource>./GIS/rasters/P11_zones.tif</datasource>
+      <layername>P11 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P12_ndvi_crop</id>
+      <datasource>./GIS/rasters/P12_NDVI.tif</datasource>
+      <layername>P12 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P12_zone_mask</id>
+      <datasource>./GIS/rasters/P12_zones.tif</datasource>
+      <layername>P12 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P13_ndvi_crop</id>
+      <datasource>./GIS/rasters/P13_NDVI.tif</datasource>
+      <layername>P13 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P13_zone_mask</id>
+      <datasource>./GIS/rasters/P13_zones.tif</datasource>
+      <layername>P13 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P14_ndvi_crop</id>
+      <datasource>./GIS/rasters/P14_NDVI.tif</datasource>
+      <layername>P14 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P14_zone_mask</id>
+      <datasource>./GIS/rasters/P14_zones.tif</datasource>
+      <layername>P14 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P15_ndvi_crop</id>
+      <datasource>./GIS/rasters/P15_NDVI.tif</datasource>
+      <layername>P15 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P15_zone_mask</id>
+      <datasource>./GIS/rasters/P15_zones.tif</datasource>
+      <layername>P15 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P16_ndvi_crop</id>
+      <datasource>./GIS/rasters/P16_NDVI.tif</datasource>
+      <layername>P16 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P16_zone_mask</id>
+      <datasource>./GIS/rasters/P16_zones.tif</datasource>
+      <layername>P16 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P17_ndvi_crop</id>
+      <datasource>./GIS/rasters/P17_NDVI.tif</datasource>
+      <layername>P17 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P17_zone_mask</id>
+      <datasource>./GIS/rasters/P17_zones.tif</datasource>
+      <layername>P17 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P18_option1_ndvi_crop</id>
+      <datasource>./GIS/rasters/P18_option1_NDVI.tif</datasource>
+      <layername>P18_option1 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P18_option1_zone_mask</id>
+      <datasource>./GIS/rasters/P18_option1_zones.tif</datasource>
+      <layername>P18_option1 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P18_option2_ndvi_crop</id>
+      <datasource>./GIS/rasters/P18_option2_NDVI.tif</datasource>
+      <layername>P18_option2 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P18_option2_zone_mask</id>
+      <datasource>./GIS/rasters/P18_option2_zones.tif</datasource>
+      <layername>P18_option2 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P19_ndvi_crop</id>
+      <datasource>./GIS/rasters/P19_NDVI.tif</datasource>
+      <layername>P19 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P19_zone_mask</id>
+      <datasource>./GIS/rasters/P19_zones.tif</datasource>
+      <layername>P19 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P20_ndvi_crop</id>
+      <datasource>./GIS/rasters/P20_NDVI.tif</datasource>
+      <layername>P20 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P20_zone_mask</id>
+      <datasource>./GIS/rasters/P20_zones.tif</datasource>
+      <layername>P20 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P21_ndvi_crop</id>
+      <datasource>./GIS/rasters/P21_NDVI.tif</datasource>
+      <layername>P21 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P21_zone_mask</id>
+      <datasource>./GIS/rasters/P21_zones.tif</datasource>
+      <layername>P21 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P22_ndvi_crop</id>
+      <datasource>./GIS/rasters/P22_NDVI.tif</datasource>
+      <layername>P22 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P22_zone_mask</id>
+      <datasource>./GIS/rasters/P22_zones.tif</datasource>
+      <layername>P22 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P23_ndvi_crop</id>
+      <datasource>./GIS/rasters/P23_NDVI.tif</datasource>
+      <layername>P23 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P23_zone_mask</id>
+      <datasource>./GIS/rasters/P23_zones.tif</datasource>
+      <layername>P23 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P24_ndvi_crop</id>
+      <datasource>./GIS/rasters/P24_NDVI.tif</datasource>
+      <layername>P24 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P24_zone_mask</id>
+      <datasource>./GIS/rasters/P24_zones.tif</datasource>
+      <layername>P24 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P25_ndvi_crop</id>
+      <datasource>./GIS/rasters/P25_NDVI.tif</datasource>
+      <layername>P25 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P25_zone_mask</id>
+      <datasource>./GIS/rasters/P25_zones.tif</datasource>
+      <layername>P25 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P26_ndvi_crop</id>
+      <datasource>./GIS/rasters/P26_NDVI.tif</datasource>
+      <layername>P26 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P26_zone_mask</id>
+      <datasource>./GIS/rasters/P26_zones.tif</datasource>
+      <layername>P26 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P27_ndvi_crop</id>
+      <datasource>./GIS/rasters/P27_NDVI.tif</datasource>
+      <layername>P27 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P27_zone_mask</id>
+      <datasource>./GIS/rasters/P27_zones.tif</datasource>
+      <layername>P27 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P28_option1_ndvi_crop</id>
+      <datasource>./GIS/rasters/P28_option1_NDVI.tif</datasource>
+      <layername>P28_option1 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P28_option1_zone_mask</id>
+      <datasource>./GIS/rasters/P28_option1_zones.tif</datasource>
+      <layername>P28_option1 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P28_option2_ndvi_crop</id>
+      <datasource>./GIS/rasters/P28_option2_NDVI.tif</datasource>
+      <layername>P28_option2 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P28_option2_zone_mask</id>
+      <datasource>./GIS/rasters/P28_option2_zones.tif</datasource>
+      <layername>P28_option2 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P29_ndvi_crop</id>
+      <datasource>./GIS/rasters/P29_NDVI.tif</datasource>
+      <layername>P29 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P29_zone_mask</id>
+      <datasource>./GIS/rasters/P29_zones.tif</datasource>
+      <layername>P29 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P30_ndvi_crop</id>
+      <datasource>./GIS/rasters/P30_NDVI.tif</datasource>
+      <layername>P30 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P30_zone_mask</id>
+      <datasource>./GIS/rasters/P30_zones.tif</datasource>
+      <layername>P30 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P31_ndvi_crop</id>
+      <datasource>./GIS/rasters/P31_NDVI.tif</datasource>
+      <layername>P31 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P31_zone_mask</id>
+      <datasource>./GIS/rasters/P31_zones.tif</datasource>
+      <layername>P31 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P32_option1_ndvi_crop</id>
+      <datasource>./GIS/rasters/P32_option1_NDVI.tif</datasource>
+      <layername>P32_option1 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P32_option1_zone_mask</id>
+      <datasource>./GIS/rasters/P32_option1_zones.tif</datasource>
+      <layername>P32_option1 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P32_option2_ndvi_crop</id>
+      <datasource>./GIS/rasters/P32_option2_NDVI.tif</datasource>
+      <layername>P32_option2 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P32_option2_zone_mask</id>
+      <datasource>./GIS/rasters/P32_option2_zones.tif</datasource>
+      <layername>P32_option2 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P33_ndvi_crop</id>
+      <datasource>./GIS/rasters/P33_NDVI.tif</datasource>
+      <layername>P33 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P33_zone_mask</id>
+      <datasource>./GIS/rasters/P33_zones.tif</datasource>
+      <layername>P33 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P34_ndvi_crop</id>
+      <datasource>./GIS/rasters/P34_NDVI.tif</datasource>
+      <layername>P34 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P34_zone_mask</id>
+      <datasource>./GIS/rasters/P34_zones.tif</datasource>
+      <layername>P34 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P35_ndvi_crop</id>
+      <datasource>./GIS/rasters/P35_NDVI.tif</datasource>
+      <layername>P35 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P35_zone_mask</id>
+      <datasource>./GIS/rasters/P35_zones.tif</datasource>
+      <layername>P35 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P36_ndvi_crop</id>
+      <datasource>./GIS/rasters/P36_NDVI.tif</datasource>
+      <layername>P36 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P36_zone_mask</id>
+      <datasource>./GIS/rasters/P36_zones.tif</datasource>
+      <layername>P36 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P37_ndvi_crop</id>
+      <datasource>./GIS/rasters/P37_NDVI.tif</datasource>
+      <layername>P37 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P37_zone_mask</id>
+      <datasource>./GIS/rasters/P37_zones.tif</datasource>
+      <layername>P37 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P38_ndvi_crop</id>
+      <datasource>./GIS/rasters/P38_NDVI.tif</datasource>
+      <layername>P38 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P38_zone_mask</id>
+      <datasource>./GIS/rasters/P38_zones.tif</datasource>
+      <layername>P38 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P39_ndvi_crop</id>
+      <datasource>./GIS/rasters/P39_NDVI.tif</datasource>
+      <layername>P39 NDVI</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>-1</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+    <maplayer type="raster" autoRefreshEnabled="0">
+      <id>P39_zone_mask</id>
+      <datasource>./GIS/rasters/P39_zones.tif</datasource>
+      <layername>P39 zones: 1=inside, 2=outside</layername>
+      <provider>gdal</provider>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" opacity="1" alphaBand="-1">
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2</maxValue>
+            <algorithm>1</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+      </pipe>
+    </maplayer>
+  </projectlayers>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>2968003.5213805675</xmin>
+      <ymin>112942.6966020135</ymin>
+      <xmax>3612105.360678868</xmax>
+      <ymax>2427959.5809584316</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCS["Asia_North_Albers_Equal_Area_Conic",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",95.0],PARAMETER["Standard_Parallel_1",15.0],PARAMETER["Standard_Parallel_2",65.0],PARAMETER["Latitude_Of_Origin",30.0],UNIT["Meter",1.0]]</wkt>
+        <proj4>+proj=aea +lat_1=15 +lat_2=65 +lat_0=30 +lon_0=95 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs</proj4>
+        <authid>ESRI:102025</authid>
+        <description>Asia North Albers Equal Area Conic</description>
+        <projectionacronym>aea</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+  </mapcanvas>
+  <properties>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+  </properties>
+</qgis>

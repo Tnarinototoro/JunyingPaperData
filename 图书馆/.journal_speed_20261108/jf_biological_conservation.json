@@ -1,0 +1,3121 @@
+{
+  "requested_title": "Biological Conservation",
+  "status": 200,
+  "url": "https://journalfinder.elsevier.com/api/journals/search",
+  "request": {
+    "query": "Biological Conservation",
+    "mode": "search",
+    "goldOpenAccess": true,
+    "subscription": true,
+    "sortBy": "default",
+    "sortOrder": "asc",
+    "ecrId": "",
+    "agreementsFilter": "all-journals"
+  },
+  "response": {
+    "results": [
+      {
+        "ranking": 1,
+        "title": "Biological Conservation",
+        "acronym": "BIOC",
+        "emAcronym": "BIOCON",
+        "issn": "0006-3207",
+        "subjectAreas": [
+          "Ecology",
+          "Nature and Landscape Conservation",
+          "Ecology, Evolution, Behavior and Systematics"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Policy Analysis",
+          "Review Article",
+          "Short Communication",
+          "Perspective article",
+          "VSI: From Lockdown to Legacy: Conservation After COVID-19_Research Article",
+          "VSI: From Lockdown to Legacy: Conservation After COVID-19_Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/00063207.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/BIOCON",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/biological-conservation/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 7.6
+          },
+          "impactFactor": {
+            "value": 5.1
+          },
+          "timeToFirstDecision": {
+            "value": 6
+          },
+          "timeToAcceptance": {
+            "value": 9
+          }
+        },
+        "scope": "<p><i>Biological Conservation</i> is a leading international journal in the discipline of <b>conservation science</b>. The journal publishes articles spanning a diverse range of fields that contribute to the biological, sociological, ethical and economic dimensions of <b>conservation</b>. The primary aim of <i>Biological Conservation</i> is the publication of high-quality papers that advance the science and practice of conservation, or which demonstrate the application of conservation principles and policy. <i>Biological Conservation</i> invites the <a href=\"https://www.editorialmanager.com/BIOCON/default.aspx\">submission</a> of research articles, reviews (including systematic reviews and perspectives), short communications, policy perspectives, and letters to the <a href=\"https://www.journals.elsevier.com/biological-conservation/editorial-board/\">editor</a> dealing with all aspects of conservation science, including theoretical and empirical investigations into the consequences of human actions for the diversity, structure and function of terrestrial, aquatic or marine ecosystems. Such papers may include quantitative assessments of extinction risk, fragmentation effects, spread of invasive organisms, conservation genetics, conservation management, global change effects on biodiversity, landscape or reserve design and management, restoration ecology, or resource economics. We also welcome papers coming from social sciences including those reporting on advances in conservation politics, ethics, policy, human social structure and biodiversity, and political culture among other subjects. <i>Biological Conservation</i> covers interdisciplinary topics within conservation biology and also provides practical applications of conservation research for land/resource managers and policy makers. We publish articles and thematic special issues that have a global relevance in terms of the topics or issues addressed, and thus demonstrate applications of conservation science and management beyond the specific system or species studied. Biological Conservation is an affiliate publication of the Society for Conservation Biology (SCB). SCB members can obtain a <a href=\"http://www.conbio.org/publications/affiliate-publications\">personal subscription</a> to this journal through the Society. </p><p>Authors are also welcome to submit to the Journal&#39;s open access companion title, <a href=\"https://www.journals.elsevier.com/global-ecology-and-conservation\"><i>Global Ecology and Conservation</i></a>, which covers all sub-disciplines of ecological and conservation science.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Vincent Devictor",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ECOLOGY",
+              "tier": 1
+            },
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 2
+            },
+            {
+              "name": "BIODIVERSITY CONSERVATION",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3640,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 2,
+        "title": "Plant Diversity",
+        "acronym": "PLD",
+        "emAcronym": "PLD",
+        "issn": "2468-2659",
+        "subjectAreas": [
+          "Plant Science",
+          "Ecology, Evolution, Behavior and Systematics"
+        ],
+        "articleTypes": [
+          "Research paper",
+          "Book Review",
+          "Mini Review",
+          "Review Article",
+          "Zhengyi Wu Review",
+          "Short Communication",
+          "Case Report",
+          "Data Article",
+          "Software Article",
+          "SI:Plant Diversity in River Valleys:Research Paper",
+          "SI:Recalcitrant Seeds:Research Article",
+          "SI:Plant Diversity in River Valleys:Review Article",
+          "SI:Recalcitrant Seeds:Review Article",
+          "SI:Plant Diversity in River Valleys:Short Communication",
+          "SI:Recalcitrant Seeds:Short Communication",
+          "SI:Plant Diversity in River Valleys:Case Report",
+          "SI:Recalcitrant Seeds:Case Report",
+          "SI:Recalcitrant Seeds:Data Article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/24682659.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/pld/default.aspx",
+          "guideForAuthors": "https://www.keaipublishing.com/en/journals/plant-diversity/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 10.3
+          },
+          "impactFactor": {
+            "value": 5.9
+          },
+          "timeToFirstDecision": {
+            "value": 8
+          },
+          "timeToAcceptance": {
+            "value": 5
+          }
+        },
+        "scope": "<p><i>Plant Diversity</i> (formerly <i>Plant Diversity and Resources</i>) is an international plant science journal that publishes substantial original research and review papers that</p><ul><li><p>advance our understanding of the past and current distribution of plants,</p></li><li><p>contribute to the development of more phylogenetically accurate taxonomic classifications,</p></li><li><p>present new findings on or insights into evolutionary processes and mechanisms that are of interest to the community of plant systematic and evolutionary biologists.</p></li></ul><p>While the focus of the journal is on biodiversity, ecology and evolution of East Asian flora, it is not limited to these topics. Applied evolutionary issues, such as climate change and conservation biology, are welcome, especially if they address conceptual problems. Theoretical papers are equally welcome. Preference is given to concise, clearly written papers focusing on precisely framed questions or hypotheses. Papers that are purely descriptive have a low chance of acceptance.</p><p>Fields covered by the journal include:</p><ul><li><p>plant systematics and taxonomy</p></li><li><p>evolutionary developmental biology</p></li><li><p>reproductive biology</p></li><li><p>phylo- and biogeography</p></li><li><p>evolutionary ecology</p></li><li><p>population biology</p></li><li><p>conservation biology</p></li><li><p>palaeobotany</p></li><li><p>molecular evolution</p></li><li><p>molecular biology</p></li><li><p>comparative and evolutionary genomics</p></li><li><p>physiology</p></li></ul><p><i>Plant Diversity</i> publishes original articles, review articles, short letters, modeling/theory and methods articles, rapid reports and special thematic issues.</p><p>The journal is affiliated with Kunming Institute of Botany, Chinese Academy of Sciences and Botanical Society of China.</p><p><a href=\"https://www.keaipublishing.com/en/journals/plant-diversity/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "PLANT SCIENCES",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Biology",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 3,
+        "title": "Perspectives in Ecology and Conservation",
+        "acronym": "PECON",
+        "emAcronym": "PECON",
+        "issn": "2530-0644",
+        "subjectAreas": [
+          "Ecology, Evolution, Behavior and Systematics",
+          "Ecology"
+        ],
+        "articleTypes": [
+          "Opinion paper",
+          "Policy Forums",
+          "Research Letters",
+          "White Paper",
+          "Essays and Perspectives"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/25300644.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/PECON",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/perspectives-in-ecology-and-conservation/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 6.8
+          },
+          "impactFactor": {
+            "value": 5
+          }
+        },
+        "scope": "<p><b>Perspectives in Ecology and Conservation (PECON)</b> is a scientific journal devoted to improving theoretical and conceptual aspects of conservation science. It has the main purpose of communicating new research and advances to different actors of society, including researchers, conservationists, practitioners, and policymakers. Perspectives in Ecology and Conservation publishes original papers on biodiversity conservation and restoration, on the main drivers affecting native ecosystems, and on nature?s benefits to people and human wellbeing. This scope includes studies on biodiversity patterns, the effects of habitat loss, fragmentation, biological invasion and climate change on biodiversity, conservation genetics, spatial conservation planning, ecosystem management, ecosystem services, sustainability and resilience of socio-ecological systems, conservation policy, among others.</p><p>We are mostly interested in articles that deal with tropical and subtropical systems, but without any bias towards particular organisms or ecosystems. Scientific papers must focus on new conceptual or methodological developments with practical implications. Case studies will be considered only if inserted in these more general contexts. Authors are encouraged to submit reviews and essays that provide new perspectives on arising ecological and conservation issues. Purely descriptive papers and studies without a clear link with conservation theory and practice will not be considered.</p><p>Perspectives in Ecology and Conservation is the official scientific journal of the &quot;Brazilian Association for Ecological Science and Conservation&quot;. It is an open access journal, supported by the Boticário Group Foundation for Nature Protection, and thus without any charge for authors. Perspectives in Ecology and Conservation was previously published, between 2003 and 2016, as &quot;Natureza &amp; Conservação&quot;.</p><p><b>Audience</b> <br/> Researchers working with biodiversity and ecosystem services, conservationists and practitioners, government, decision and policymakers.</p>",
+        "openAccessType": "SUBSIDISED",
+        "editorInChief": "Jean Paul Metzger",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "BIODIVERSITY CONSERVATION",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 4,
+        "title": "Global Ecology and Conservation",
+        "acronym": "GECCO",
+        "emAcronym": "GECCO",
+        "issn": "2351-9894",
+        "subjectAreas": [
+          "Ecology, Evolution, Behavior and Systematics",
+          "Nature and Landscape Conservation",
+          "Forestry",
+          "Environmental Engineering",
+          "Ecological Modelling",
+          "Ecology"
+        ],
+        "articleTypes": [
+          "Research article",
+          "Review Article",
+          "Short Communication",
+          "Conservation notes",
+          "Natural history notes",
+          "VSI: Grassland conservation_Original research",
+          "VSI: Grassland conservation_Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/23519894.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/GECCO",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/global-ecology-and-conservation/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 5.8
+          },
+          "impactFactor": {
+            "value": 3.7
+          },
+          "timeToFirstDecision": {
+            "value": 4
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p>From theory to practice, from molecules to ecosystems, from regional to global</p><p><i>Global Ecology and Conservation</i> (GECCO) is an open access international scientific journal in the disciplines of <b>ecology</b> and <b>conservation biology</b>. The journal publishes articles spanning a diverse range of fields that contribute to <b>ecology</b> and <b>conservation of terrestrial, marine or freshwater organisms and ecosystems</b>. The primary aim of <i>Global Ecology and Conservation</i> is the publication of high-quality papers that advance the field of ecology and theory and practice of conservation. We welcome submissions from across the globe and we are particularly interested in articles from poorly represented regions, species and from authors from diverse origins. Population studies of species with Data Deficient (DD) are welcome.</p><p><i>Global Ecology and Conservation</i> also publishes thematic special issues that have a global relevance in terms of the topics, authors&#39; diversity (including countries and gender) or issues addressed, and thus demonstrate applications of conservation biology and ecology.</p><p>The journal will generally not consider manuscripts without a significant biological component (e.g., studies of pollution chemistry), and particular emphasis is placed on connecting the research to its ecological and/or conservation implications. Papers focused on species inventories, distribution modelling, animal behaviour, plant physiology, and purely technical and methodological papers will not be considered without a clear link to ecology or conservation. GECCO is not a venue of papers that deals with pure aspects of Toxicology or Environmental Science.</p><p>Papers dealing with Agroecosystems, or Soil ecology will be considered in GECCO <b>only</b> if they have clearly defined implications for ecology and conservation of wild organisms or habitats.</p><p>Papers that use Species Distribution Modeling (SDM) must provide hypotheses or directed ecological questions and should not simply explore current and/or future distributions of a species. The paper should demonstrate strong and appropriate knowledge of the species&#39; ecology and all methods used to generate occurrence records should be fully explained. </p><p>Papers submitted to GECCO must incorporate a clear element of novelty and should not merely present a well-documented phenomenon in a different geographic context. Authors are expected to demonstrate how their work advances our understanding of ecology or conservation in a meaningful and impactful manner.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Mauro Galetti | Kim McConkey",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ECOLOGY",
+              "tier": 3
+            },
+            {
+              "name": "BIODIVERSITY CONSERVATION",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3100,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 5,
+        "title": "Advances in Bamboo Science",
+        "acronym": "BAMBOO",
+        "emAcronym": "BAMBOO",
+        "issn": "2773-1391",
+        "subjectAreas": [
+          "Forestry",
+          "Nature and Landscape Conservation"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27731391.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/BAMBOO",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/advances-in-bamboo-science/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 4.6
+          },
+          "impactFactor": {
+            "value": 3.9
+          },
+          "timeToFirstDecision": {
+            "value": 4
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p><i>Advances in Bamboo Science</i> is an interdisciplinary journal covering all aspects of bamboo, ranging from the growth and silviculture of the product, processing technologies, and new products. The potential of bamboo as a nature-based solution to many of the environmental problems facing the world is being increasingly recognized. Bamboo is found in many temperate, sub-tropical and tropical countries around the world, and is being increasingly cultivated because of the wide range of products associated with it. The journal accepts original research and state-of-the-art reviews on the classification, physiology, growth, properties, ecology and management of bamboo, its use in bioremediation and habitat restoration, and also has a strong focus on the products derived from bamboo, including foodstuffs, medicines, cosmetics, biochemicals, textiles, utensils, papers and tissues, flooring and cabinetry, and construction materials. Research examining the cultural, socio-economic and regional impacts of bamboo will also be considered.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "John Innes",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "FORESTRY",
+              "tier": 2
+            },
+            {
+              "name": "MATERIALS SCIENCE, PAPER & WOOD",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Agricultural and Forestry Science",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2030,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 6,
+        "title": "Ecological Complexity",
+        "acronym": "ECOCOM",
+        "emAcronym": "ECOCOM",
+        "issn": "1476-945X",
+        "subjectAreas": [
+          "Ecology, Evolution, Behavior and Systematics",
+          "Ecological Modelling",
+          "Nature and Landscape Conservation"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Short Communication",
+          "VSI: Agricultural Landscapes_Research paper",
+          "VSI: Spatial intelligent optimization_Research article",
+          "VSI: Agricultural Landscapes_Review Paper",
+          "VSI: Spatial intelligent optimization_Review article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/1476945X.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/ECOCOM",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/ecological-complexity/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 6.3
+          },
+          "impactFactor": {
+            "value": 1.9
+          },
+          "timeToFirstDecision": {
+            "value": 64
+          },
+          "timeToAcceptance": {
+            "value": 14
+          }
+        },
+        "scope": "<p>An International Journal on Biocomplexity in the Environment and Theoretical Ecology</p><p><i>Ecological Complexity</i> is an international journal devoted to publishing high-quality, peer-reviewed articles on the <b>complex nature of ecological systems</b>, observed and theoretical and special issues on related and emerging topics. In addition to ecological questions, the journal welcomes <a href=\"https://www.editorialmanager.com/ECOCOM/default.aspx\"></a>papers that ask ecological questions by linking natural and social processes at various spatio-temporal scales.</p><p><i>Ecological Complexity</i> will publish research into the following areas: <br/> • Ecosystems and the biosphere as complex adaptive systems <br/> • Self-organization of spatially extended ecosystems <br/> • Emergent properties and structures of complex ecosystems <br/> • Ecological pattern formation in space and time <br/> • The role of biophysical constraints and evolutionary attractors on species assemblages <br/> • Ecological scaling (scale invariance, scale covariance and dynamics across scales), allometry, and hierarchy theory <br/> • Ecological topology and networks <br/> • Studies towards an ecology of complex systems <br/> • Approaches to complex systems for the study of dynamic human-environment interactions <br/> • Using knowledge of nonlinear phenomena to better guide policy development for adaptation strategies and mitigation to environmental change <br/> • New tools and methods for studying ecological complexity</p><p>The papers that should appear in this journal are characterized by: <br/> • Biocomplexity related to the environment and vice versa <br/> • Inter disciplinarity (e.g. biology, ecology, environmental science, mathematics, modelling) <br/> • Integration of natural and social processes (esp. over time)</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Jurek Kolasa | Rebecca Tyson",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ECOLOGY",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3370,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 7,
+        "title": "Acta Oecologica",
+        "acronym": "ACTOEC",
+        "emAcronym": "ACTOEC",
+        "issn": "1146-609X",
+        "subjectAreas": [
+          "Ecology, Evolution, Behavior and Systematics",
+          "Nature and Landscape Conservation",
+          "Ecology"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review Article",
+          "Short Communication",
+          "IG000019: VSI: Pollination,Anthropocene (Full Length Article)_closed"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/1146609X.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/ACTOEC",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/acta-oecologica/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 2.7
+          },
+          "impactFactor": {
+            "value": 1.8
+          },
+          "timeToFirstDecision": {
+            "value": 14
+          },
+          "timeToAcceptance": {
+            "value": 6
+          }
+        },
+        "scope": "<p><i>Acta Oecologica</i> is venue for the publication of original research articles in <b>ecology</b>. We encourage studies in all areas of ecology, including <b>ecosystem ecology</b>, <b>community ecology</b>, <b>population ecology</b>, <b>conservation ecology</b> and <b>evolutionary ecology</b>. There is no bias with respect to taxon, biome or geographic area. Both theoretical and empirical papers are welcome, but combinations are particularly sought. Priority is given to papers based on explicitly stated hypotheses. <i>Acta Oecologica</i> also accepts review papers.</p><p>The forum section is reserved for short papers with critical discussion of current issues in ecology, as well as comments and viewpoints on previously published papers. <i>Acta Oecologica</i> does not publish book reviews, but comments on new books are welcome in the forum section.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Campanello",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ECOLOGY",
+              "tier": 4
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3380,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 8,
+        "title": "Perspectives in Plant Ecology, Evolution and Systematics",
+        "acronym": "PPEES",
+        "emAcronym": "PPEES",
+        "issn": "1433-8319",
+        "subjectAreas": [
+          "Plant Science",
+          "Ecology, Evolution, Behavior and Systematics",
+          "Ecology",
+          "Nature and Landscape Conservation",
+          "Management, Monitoring, Policy and Law"
+        ],
+        "articleTypes": [
+          "Methodological paper",
+          "Opinion Papers",
+          "Research article",
+          "Biological Flora series",
+          "Meta-analysis",
+          "Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/14338319.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/PPEES",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/perspectives-in-plant-ecology-evolution-and-systematics/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 5.1
+          },
+          "impactFactor": {
+            "value": 2.5
+          },
+          "acceptanceRate": {
+            "value": 21
+          },
+          "timeToFirstDecision": {
+            "value": 9
+          },
+          "timeToAcceptance": {
+            "value": 4
+          }
+        },
+        "scope": "<p><i>Perspectives in Plant Ecology, Evolution and Systematics</i> (PPEES) publishes outstanding and thought-provoking articles of general interest to an international readership in the fields of plant ecology, evolution and systematics. Of particular interest are in-depth articles that provide a broad understanding of key topics in the field. There are four issues per year.</p><p>To maintain high scientific standards, manuscripts are submitted to two or more reviewers for evaluation of their scientific soundness and significance. Authors will be generally notified of acceptance, rejection, or need for revision of their manuscripts within three months.</p><p><b>Biological flora series (monographs of model species)</b> <br/> PPEES is particularly interested in contributions to the knowledge of species that are flagship species for conservation, invasive species of particular concern, or species that are frequently used as models in ecological research. Prospective authors should contact the editorial office of PPEES before starting to write a contribution and enquire whether their planned manuscript would be of interest to PPEES.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Peter J. Edwards | Claus Holzapfel | Marcus Koch | Diethart Matthies | Kerstin Wiegand",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ECOLOGY",
+              "tier": 3
+            },
+            {
+              "name": "PLANT SCIENCES",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3290,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 9,
+        "title": "Journal for Nature Conservation",
+        "acronym": "JNC",
+        "emAcronym": "JNC",
+        "issn": "1617-1381",
+        "subjectAreas": [
+          "Nature and Landscape Conservation",
+          "Ecology",
+          "Earth and Planetary Sciences (General)",
+          "Management, Monitoring, Policy and Law",
+          "Agricultural and Biological Sciences (General)"
+        ],
+        "articleTypes": [
+          "Methodological paper",
+          "Research Paper",
+          "Review Article",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/16171381.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/JNC",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 4.5
+          },
+          "impactFactor": {
+            "value": 2.7
+          },
+          "acceptanceRate": {
+            "value": 23
+          },
+          "timeToFirstDecision": {
+            "value": 14
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p>The <i>Journal for Nature Conservation</i> addresses concepts, methods and techniques for nature conservation. This international and interdisciplinary journal encourages collaboration between scientists and practitioners, including the integration of biodiversity issues with social and economic concepts. Therefore, conceptual, technical and methodological papers, as well as reviews, research papers, and short communications are welcomed from a wide range of disciplines, including theoretical ecology, landscape ecology, restoration ecology, ecological modelling, and others, provided that there is a clear connection and immediate relevance to nature conservation.</p><p>Manuscripts without any immediate conservation context, such as inventories, distribution modelling, genetic studies, animal behaviour, plant physiology, will not be considered for this journal; though such data may be useful for conservationists and managers in the future, this is outside of the current scope of the journal.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Nir Becker | María Vanessa Lencinas | Angel Pérez-Ruzafa | Stefan Schindler",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ECOLOGY",
+              "tier": 3
+            },
+            {
+              "name": "BIODIVERSITY CONSERVATION",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3160,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 10,
+        "title": "Journal of Asia-Pacific Biodiversity",
+        "acronym": "JAPB",
+        "emAcronym": "JAPB-EM",
+        "issn": "2287-884X",
+        "subjectAreas": [
+          "Ecology",
+          "Ecology, Evolution, Behavior and Systematics",
+          "Forestry"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/2287884X.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/JAPB-EM",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-asia-pacific-biodiversity/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 1.4
+          },
+          "impactFactor": {
+            "value": 0.8
+          },
+          "timeToFirstDecision": {
+            "value": 2
+          },
+          "timeToAcceptance": {
+            "value": 23
+          }
+        },
+        "scope": "<p><b>Peer Review Statement</b> Peer review is conducted under the responsibility of the National Science Museum of Korea (NSMK) and the Korea National Arboretum (KNA).</p><p><b>Journal Overview</b> The <i>Journal of Asia-Pacific Biodiversity</i> (formerly the <i>Journal of Korean Nature</i>) is the official journal of the National Science Museum of Korea (NSMK) and the Korea National Arboretum (KNA).</p><p><b>Scope and Objectives</b> The journal features a broad, multidisciplinary scope, publishing original research articles as well as technical and methodological papers on all aspects of biological diversity, including taxonomy, systematics, evolution, phylogeny, and conservation biology. This broad-reaching journal aims to serve both researchers and practitioners in biodiversity-related fields.</p><p><b>Editorial Policies and Restrictions</b> Manuscripts focusing primarily on the social, economic, or highly applied aspects of biodiversity (e.g., ethnobotany, landscape engineering, land use) are generally outside our scope and will not be accepted. Furthermore, the journal does not accept unsolicited papers dealing with very small or microorganisms, new regional records, basic flora or fauna checklists, or replication studies using identical sites and methods, unless explicitly invited due to exceptional significance. For manuscripts describing new taxa, molecular authentication is strongly required. Review articles are currently accepted by invitation only.</p><p><b>Publication Frequency</b> The journal is published quarterly; <b>1st of March, June, September, and December</b>.</p>",
+        "openAccessType": "SUBSIDISED",
+        "editorInChief": "Prof. Dr. Hyeok Jae Choi",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "BIODIVERSITY CONSERVATION",
+              "tier": 4
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 4,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 11,
+        "title": "Meta Plants",
+        "acronym": "METAPL",
+        "emAcronym": "METAPL",
+        "issn": "3117-8235",
+        "subjectAreas": [
+          "Molecular Biology",
+          "Plant Science"
+        ],
+        "articleTypes": [
+          "Research Article",
+          "Review Article",
+          "Short Communication",
+          "Case Report"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/31178235.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/metapl",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p>Meta Plants is dedicated to publishing interesting findings from all areas of plant biology, spanning from microscopic mechanisms to macroscopic patterns and bridging evolutionary history with future plant engineering. As an open-access journal, it fosters broad dissemination of plant science by connecting scientific frontiers with practical action, providing testable evidence and decision-relevant knowledge for mechanistic analysis, biodiversity conservation, and sustainable germplasm management in the context of global change.</p><p>Topics covered by the journal include:</p><p>1. Phenotypes &amp; Mechanisms</p><ul><li><p>Molecular &amp; Cell biology </p></li><li><p>Genetics &amp; Signaling</p></li><li><p>Development &amp; Physiology</p></li><li><p>Plant epigenetics </p></li><li><p>Metabolism &amp; Secondary metabolism</p></li><li><p>Multi-omics &amp; Systems biology</p></li></ul><p>2. Plant-Environment Interactions</p><ul><li><p>Plant–microbe interactions &amp; Symbiosis</p></li><li><p>Plant–pathogen interactions &amp; Immunity</p></li><li><p>Plant–insect interactions &amp; Defense </p></li><li><p>Abiotic stress &amp; Acclimation</p></li></ul><p>3. Tree of Life</p><ul><li><p>Phylogenomics &amp; Systematics</p></li><li><p>Comparative genomics &amp; Genome evolution</p></li><li><p>Trait evolution &amp; Adaptation</p></li><li><p>Speciation &amp; Population genomics</p></li><li><p>Eco-evo-devo</p></li></ul><p>4. Resource Innovation</p><ul><li><p>Biotechnology &amp; Trait improvement</p></li><li><p>Domestication &amp; Breeding</p></li><li><p>Medicinal botany &amp; Ethnobotany</p></li><li><p>Metabolic engineering &amp; Synthetic biology</p></li></ul><p>5. Advanced Technologies</p><ul><li><p>Machine learning &amp; AI for plant science </p></li><li><p>Single-cell &amp; Spatial omic technologies</p></li><li><p>Databases &amp; Tool development </p></li></ul><p>6. Plants &amp; Planets</p><ul><li><p>Plants under climate change</p></li><li><p>Conservation biology </p></li><li><p>Invasion ecology</p></li><li><p>Urban plant ecology </p></li><li><p>Space plant biology (Astrobiology)</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/meta-plants/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 12,
+        "title": "Urban Forestry & Urban Greening",
+        "acronym": "UFUG",
+        "emAcronym": "UFUG",
+        "issn": "1618-8667",
+        "subjectAreas": [
+          "Horticulture",
+          "Management, Monitoring, Policy and Law",
+          "Nature and Landscape Conservation",
+          "Forestry",
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article ( On invitation only)",
+          "Short Communication",
+          "VSI: Climate Extremes: Research Paper",
+          "VSI: WGIC26 Congress: Research Paper",
+          "VSI:Cemeteries as models ( Research Paper)",
+          "VSI:Evidence-to-Practice NbS: Research Paper",
+          "VSI:Greenness and city liveliness: Research Paper",
+          "VSI: Climate Extremes: Review",
+          "VSI: WGIC26 Congress: Review",
+          "VSI:Cemeteries as models: Review",
+          "VSI:Evidence-to-Practice NbS: Review",
+          "VSI:Greenness and city liveliness: Review",
+          "VSI: Climate Extremes: Short communication",
+          "VSI: WGIC26 Congress: Short communication",
+          "VSI:Cemeteries as models: Short Communication",
+          "VSI:Evidence-to-Practice NbS: Short communication",
+          "VSI:Greenness and city liveliness: Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/16188667.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/UFUG",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 11.3
+          },
+          "impactFactor": {
+            "value": 8.2
+          },
+          "acceptanceRate": {
+            "value": 16
+          },
+          "timeToFirstDecision": {
+            "value": 1
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p><i>Urban Forestry and Urban Greening</i> is a refereed, international journal aimed at presenting high-quality research with <b>urban</b> and <b>peri-urban woody</b> and <b>non-woody vegetation</b> and its use, <b>planning, design, establishment</b> and <b>management</b> as its main topics. Urban Forestry and Urban Greening concentrates on all tree-dominated (as joint together in urban forests) as well as <b>other green resources</b> in and around <b>urban areas</b>, such as <b>woodlands, public and private urban parks and gardens, urban nature areas, street tree</b> and <b>square plantations, botanical gardens</b> and <b>cemeteries</b>, <b>building envelop greening</b>, etc.</p><p>The journal welcomes basic and applied research papers, as well as review papers and short communications. Contributions should focus on one or more of the following aspects:</p><ul><li><p>Form, functions, and ecosystem services of urban forests and other vegetation, including aspects of urban environmental science and urban ecology.</p></li><li><p>Policy-making, planning and design related to urban forests and other vegetation.</p></li><li><p>Selection and establishment of tree resources and other vegetation for urban environments.</p></li><li><p>Management of urban forests and other vegetation.</p></li><li><p>The ecosystem services urban vegetation provides.</p></li></ul><p>Original contributions of a high academic standard are invited from a wide range of disciplines and fields, including forestry, biology, horticulture, arboriculture, landscape ecology, pathology, soil science, hydrology, landscape architecture, landscape planning, urban planning and design, environmental/ecological economics, environmental sociology, environmental psychology, public health, and education.</p><p>Special attention will be given to interdisciplinary research as developed under the approaches of, for example, <b>urban forestry, arboriculture, urban greening, urban ecology, urban health, urban agriculture, urban horticulture, urban silviculture</b>, and <b>community forestry</b>.</p><p>For <b>field research </b>or descriptive studies, a robust dataset made of multiple dates of measurement conducted over different growing seasons is required for publication. For<b> research conducted under controlled conditions</b> or research conducted using a mechanistic approach, multiple sampling dates are still required, although monitoring can be conducted over shorter time periods.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Wendy Chen",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 2
+            },
+            {
+              "name": "URBAN STUDIES",
+              "tier": 1
+            },
+            {
+              "name": "FORESTRY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3560,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 13,
+        "title": "Land Use Policy",
+        "acronym": "JLUP",
+        "emAcronym": "LUP",
+        "issn": "0264-8377",
+        "subjectAreas": [
+          "Geography, Planning and Development",
+          "Nature and Landscape Conservation",
+          "Forestry",
+          "Development"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Opinion Paper",
+          "Review Article",
+          "VSI: Spatial Planning",
+          "VSI: Spatial Planning_Editorial",
+          "VSI: Urban Sustainability_Research Article",
+          "VSI: Urban Sustainability_Review Article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/02648377.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/LUP",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/land-use-policy/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 14
+          },
+          "impactFactor": {
+            "value": 6.6
+          },
+          "timeToFirstDecision": {
+            "value": 10
+          },
+          "timeToAcceptance": {
+            "value": 8
+          }
+        },
+        "scope": "<p>The International Journal Covering All Aspects of Land Use</p><p><i>Land Use Policy</i> is an international and interdisciplinary journal concerned with the social, economic, political, legal, physical and planning aspects of <b>urban</b> and <b>rural land use</b>. It provides a forum for the exchange of ideas and information from the diverse range of disciplines and interest groups which must be combined to formulate effective <b>land use policies</b>. The journal examines issues in geography, agriculture, forestry, irrigation, environmental conservation, housing, urban development and transport in both developed and developing countries through major refereed articles and shorter viewpoint pieces.</p><p><i>Land Use Policy</i> aims to provide policy guidance to governments and planners and it is also a valuable teaching resource.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Uchendu Chigbu | Xiaoling Zhang",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Social Sciences",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4200,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 14,
+        "title": "Landscape Architecture and Sustainability",
+        "acronym": "LAAS",
+        "emAcronym": "LAAS",
+        "issn": "3050-7324",
+        "subjectAreas": [
+          "Arts and Humanities (General)",
+          "Nature and Landscape Conservation",
+          "Horticulture"
+        ],
+        "articleTypes": [
+          "Review",
+          "Short Communication",
+          "VSI:Health Impacts of Urban Landscapes- Research",
+          "VSI: Water and Urban Form: Review Article",
+          "VSI:Health Impacts of Urban Landscapes- Review",
+          "VSI:NBS for Historic Urban Landscapes-Review",
+          "VSI:Resilient and Creative Brownfield Transformation-Review",
+          "VSI:Urban-Rural Green Infrastructure Futures- Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30507324.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/laas/default2.aspx",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p><i>Landscape Architecture and Sustainability</i> (LAS) is an open-access, peer-reviewed journal that, under the concept of sustainable development, focuses on innovative theories, policies, and engineering techniques in the fields of human settlements and landscape architecture—including planning, design, construction, and management. It promotes sustainable natural and human processes and serves as a platform for exchange and sharing among global researchers, designers, and practitioners in related fields.</p><p><i>Landscape Architecture and Sustainability</i> invites high-quality original research papers, commentaries, news, opinion articles, field experiences, book reviews, and other contributions from various disciplines and fields such as landscape architecture, urban and rural planning, horticulture, urban ecology, landscape ecology, soil science, hydrology, urban planning and design, environmental science, environmental sociology, environmental psychology, public health, and education. Special issues are regularly opened as well.</p><p>Submitted manuscripts should focus on one or more of the following aspects:</p><ul><li><p>Natural-Cultural Landscape Resources</p></li><li><p>Urban Green and Blue Infrastructure</p></li><li><p>Urban and Rural Resilience and Sustainability</p></li><li><p>Green Development, Resource Circularity and Energy Utilization</p></li><li><p>Urban Habitat and Biodiversity Conservation</p></li><li><p>Living Environment and Public Health</p></li><li><p>Policy, Management and Urban Public Governance</p></li><li><p>Digital Landscape, Artificial Intelligence and Smart Cities</p></li><li><p>Human-Land Relationship and Comprehensive Land Consolidation</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/landscape-architecture-and-sustainability/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 15,
+        "title": "Avian Research",
+        "acronym": "AVRS",
+        "emAcronym": "AVRES",
+        "issn": "2053-7166",
+        "subjectAreas": [
+          "Animal Science and Zoology"
+        ],
+        "articleTypes": [
+          "Full length article",
+          "Methodology",
+          "Review",
+          "Mini review",
+          "Data article",
+          "VSI: Asian Flyways under Global Change",
+          "VSI: Avian Conservation in the Anthropocene_Full length article",
+          "VSI: Avian Conservation in the Anthropocene_Methodology",
+          "VSI: Bird Intelligent Monitoring and Research_Full length article",
+          "VSI: Bird Intelligent Monitoring and Research_Methodology",
+          "VSI: Emerging Contaminants in Avian Ecology_Full length article",
+          "VSI: Emerging Contaminants in Avian Ecology_Methodology",
+          "VSI: Wild Bird Diseases and Pathogens",
+          "VSI: Asian Flyways under Global Change",
+          "VSI: Avian Conservation in the Anthropocene_Review",
+          "VSI: Bird Intelligent Monitoring and Research_Review",
+          "VSI: Emerging Contaminants in Avian Ecology_Review",
+          "VSI: Wild Bird Diseases and Pathogens",
+          "VSI: Avian Conservation in the Anthropocene_Mini review",
+          "VSI: Bird Intelligent Monitoring and Research_Mini review",
+          "VSI: Emerging Contaminants in Avian Ecology_Mini review",
+          "VSI: Avian Conservation in the Anthropocene_Data article",
+          "VSI: Bird Intelligent Monitoring and Research_Data article",
+          "VSI: Emerging Contaminants in Avian Ecology_Data article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/20537166.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/avres/default1.aspx",
+          "guideForAuthors": "https://www.keaipublishing.com/en/journals/avian-research/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 3.3
+          },
+          "impactFactor": {
+            "value": 2.2
+          },
+          "acceptanceRate": {
+            "value": 23
+          },
+          "timeToFirstDecision": {
+            "value": 3
+          },
+          "timeToAcceptance": {
+            "value": 5
+          }
+        },
+        "scope": "<p>At present, the article publishing charge (APC) of the journal is covered by the sponsors, so authors do not need to pay an APC for articles accepted for publication in Avian Research.</p><p><i>Avian Research</i> is an open access, peer-reviewed journal that publishes articles covering all aspects of ornithology, including, but not limited to:</p><ul><li><p>Conservation biology</p></li><li><p>Behavioral ecology</p></li><li><p>Evolutionary ecology</p></li><li><p>Phylogenetics, systematics and genomics</p></li><li><p>Biogeography</p></li><li><p>Population and community ecology</p></li><li><p>Migration and movement ecology</p></li><li><p>Breeding and reproductive biology</p></li><li><p>Physiological ecology</p></li><li><p>New technology and methodology</p></li></ul><p>Theoretical, applied and interdisciplinary papers are equally welcome. The journal prefers concise, well-written papers focusing on precisely framed questions or hypotheses. Purely observational or descriptive papers have a low chance of acceptance. Please be aware that research conducted purely in domesticated poultry like broiler chickens, ducks, and geese will not be considered. </p><p><i>Avian Research</i> mainly publishes research articles and reviews. Although the journal publishes other types like correspondences and short notes at times, direct submission of such types of manuscript is not advised.</p><p>The rigorous peer-review helps raise the academic level of the journal and has led the journal being indexed in such databases as SCIE (Science Citation Index Expanded), Scopus, DOAJ, Zoological Record, and CSCD (Chinese Science Citation Database).</p><p>As an open access journal, <i>Avian Research</i> benefits authors from publishing high quality contents on ScienceDirect that will be internationally accessible at no cost, quality peer-review, easy online submission and fast publication upon acceptance.</p><p>The contents of Volumes 5-12 of <i>Avian Research</i> published with BMC can be found at <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Flink.springer.com%2Fjournal%2F40657%2Fvolumes-and-issues&data=05%7C02%7Cd.liu%40elsevier.com%7Cf70f5d6fa1b142e5a5ce08de58b3c0d6%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C639045726224667159%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=PEd9DWoibLKSL472KS0eRu21p%2FbEXLQ6YOtGoSlmbOU%3D&reserved=0\"><u>https://link.springer.com/journal/40657/volumes-and-issues</u></a><u>.</u></p><p>The journal was previously published under the title <i>Chinese Birds</i> (Volumes 1-4), and the contents can be found at <a href=\"https://nam11.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.j-avianres.com%2F&data=05%7C02%7Cd.liu%40elsevier.com%7Cf70f5d6fa1b142e5a5ce08de58b3c0d6%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C639045726224694651%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=6K6N3oCu3I0kIWHx4pyuhn2%2Fl%2BLuSAwKDVdxKhbQyxk%3D&reserved=0\"><u>http://www.j-avianres.com/</u></a><u>.</u> </p><p><a href=\"https://www.keaipublishing.com/en/journals/avian-research/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ORNITHOLOGY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Biology",
+            "tier": 1,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 16,
+        "title": "Originality",
+        "acronym": "ORIG",
+        "emAcronym": "ORI",
+        "issn": "3051-2700",
+        "subjectAreas": [
+          "Biochemistry, Genetics and Molecular Biology (General)",
+          "Engineering (General)",
+          "Environmental Science (General)",
+          "Materials Science (General)"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Short Communication",
+          "Case Report",
+          "Data",
+          "Protocol"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30512700.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/ori/default2.aspx",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p><i>Originality</i> is an international, peer-reviewed journal dedicated to publishing high-quality research across a broad spectrum of scientific disciplines. Co-owned by the University of Science and Technology Beijing, Peking University, and China Rural Special Technology Association, the journal spans Life Sciences, Agriculture and Food Systems, Physical Sciences, Engineering, Earth and Environmental Sciences, and Interdisciplinary Sciences. </p><p><i>Originality </i>welcomes original research that inspires and leads future scientific innovation in both specialized and interdisciplinary fields. Submissions are evaluated for their originality, significance, methodological and rigor, and the impact of their findings. Interdisciplinary work is particularly encouraged for its potential to address complex, cross-cutting challenges. </p><p>All submissions undergo rigorous peer review to ensure the highest standards of academic integrity and clarity. </p><p><i>Originality</i> accepts a wide range of article types, including full-length articles, short communications, review articles, perspectives, commentaries, case reports, editorials, news articles, correspondence, protocols and data articles.</p><p>To reflect its interdisciplinary vision, <i>Originality</i> organizes content into the following major domains:</p><p>1. Life Sciences</p><p>Covers research across biological systems, including but not limited to:</p><ul><li><p>Molecular biology and genetics</p></li><li><p>Cell and developmental biology</p></li><li><p>Neuroscience</p></li><li><p>Immunology and infectious diseases</p></li><li><p>Physiology and biochemistry</p></li><li><p>Biotechnology and bioengineering</p></li><li><p>Medical and clinical sciences</p></li><li><p>Pharmacology and drug discovery</p></li><li><p>Systems and synthetic biology</p></li><li><p>Evolutionary biology</p></li></ul><p>2. Agriculture and Food Systems</p><p>Focuses on sustainable, innovative approaches to food production and agricultural practices, including but not limited to:</p><ul><li><p>Crop science and plant biology</p></li><li><p>Soil science and agronomy</p></li><li><p>Animal science and veterinary medicine</p></li><li><p>Agricultural biotechnology</p></li><li><p>Sustainable farming and agroecology</p></li><li><p>Food safety and security</p></li><li><p>Nutrition science</p></li><li><p>Food processing and technology</p></li><li><p>Agricultural economics and policy</p></li><li><p>Climate-resilient food systems</p></li></ul><p>3. Physical Sciences</p><p>Broad coverage of fundamental and applied physical sciences, including but not limited to:</p><ul><li><p>Physics (theoretical, applied, condensed matter, quantum, particle physics)</p></li><li><p>Chemistry (organic, inorganic, analytical, physical, theoretical)</p></li><li><p>Materials science and nanotechnology</p></li><li><p>Computational physics and chemistry</p></li><li><p>Optics and photonics</p></li><li><p>Energy research (materials for energy, renewable energy sources)</p></li></ul><p>4. Engineering</p><p>Encompasses advanced engineering disciplines and emerging technologies, including but not limited to:</p><ul><li><p>Mechanical, electrical, and civil engineering</p></li><li><p>Chemical and process engineering</p></li><li><p>Materials engineering</p></li><li><p>Nanotechnology and microfabrication</p></li><li><p>Robotics and automation</p></li><li><p>Artificial intelligence and machine learning in engineering</p></li><li><p>Biomedical engineering</p></li><li><p>Environmental and sustainable engineering</p></li><li><p>Systems and control engineering</p></li><li><p>Computational modeling and simulation</p></li></ul><p>5. Earth and Environmental Sciences</p><p>Addresses global and regional environmental challenges, including but not limited to:</p><ul><li><p>Geosciences (geology, geophysics, geochemistry)</p></li><li><p>Climate science and climate change</p></li><li><p>Atmospheric and ocean sciences</p></li><li><p>Hydrology and water resource management</p></li><li><p>Environmental pollution and remediation</p></li><li><p>Ecology and conservation biology</p></li><li><p>Renewable energy and environmental technology</p></li><li><p>Disaster risk reduction and resilience</p></li><li><p>Remote sensing and GIS applications</p></li><li><p>Environmental policy and sustainability studies</p></li></ul><p>6. Interdisciplinary Sciences</p><p>Promotes integration across traditional boundaries, including but not limited to:</p><ul><li><p>Convergence research (bioinformatics, computational biology)</p></li><li><p>Data science applied to physical, life, or social sciences</p></li><li><p>Environmental-social systems interfaces</p></li><li><p>Energy-environment-economy linkages</p></li><li><p>Health-environment interactions (one health, planetary health)</p></li><li><p>AI and big data in multidisciplinary contexts</p></li><li><p>Science-policy interface</p></li><li><p>Complex systems and network science</p></li><li><p>Ethical, legal, and societal implications of scientific advances</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/originality/editorial-board/\">Editorial Board</a> </p>",
+        "openAccessType": "SUBSIDISED",
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 17,
+        "title": "International Journal of Geoheritage and Parks",
+        "acronym": "IJGEOP",
+        "emAcronym": "IJGEOP",
+        "issn": "2577-4441",
+        "subjectAreas": [
+          "Ecology",
+          "Education",
+          "Economic Geology",
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "SI: Geoheritage for Resilience",
+          "VSI: Acidic Volcanics Corridor: Research Paper",
+          "VSI: GeoTrends:Research Paper",
+          "VSI:Balance Protect & Use:Research Paper",
+          "VSI:Urban forest parks:Research Paper",
+          "VSI: Acidic Volcanics Corridor: Review Article",
+          "VSI: GeoTrends:Review Article",
+          "VSI:Balance Protect & Use:Review Article",
+          "VSI:Urban forest parks:Review Article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/25774441.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/ijgeop/default.aspx",
+          "guideForAuthors": "https://www.keaipublishing.com/en/journals/international-journal-of-geoheritage-and-parks/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 10.2
+          },
+          "impactFactor": {
+            "value": 4.2
+          },
+          "timeToFirstDecision": {
+            "value": 11
+          },
+          "timeToAcceptance": {
+            "value": 4
+          }
+        },
+        "scope": "<p>The <i>International Journal of Geoheritage and Parks</i> is a referenced interdisciplinary journal that encompasses a broad range of topics related to geoheritage and parks. Geoheritage and parks include national parks, protected areas, UNESCO Global Geoparks, World Heritage sites, and other globally significant sites recognized for their geological and/or geographical values. </p><p>Published papers are ideally based on both conceptual and empirical studies around the broad themes of geoheritage and parks, including:</p><p>(i) biodiversity and biological conservation,</p><p>(ii) geodiversity and geoheritage, </p><p>(iii) cultural and social dimensions, </p><p>(iv) adaptive management and planning, </p><p>(v) education and sustainable tourism.</p><p>All articles published in this journal are subjected to a rigorous peer view, based on initial editor screening and anonymous review by independent expert referees.</p><p>The journal is Diamond Open Access, and currently No Fees are charged to authors or readers, making it one of the most accessible high-quality journals in its field.</p><p><a href=\"https://www.keaipublishing.com/en/journals/international-journal-of-geoheritage-and-parks/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 18,
+        "title": "Journal of Applied Research on Medicinal and Aromatic Plants",
+        "acronym": "JARMAP",
+        "emAcronym": "JARMAP",
+        "issn": "2214-7861",
+        "subjectAreas": [
+          "Plant Science",
+          "Agricultural and Biological Sciences (General)",
+          "Complementary and Alternative Medicine",
+          "Agronomy and Crop Science",
+          "Soil Science"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review article",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22147861.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/JARMAP",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-applied-research-on-medicinal-and-aromatic-plants/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 7.4
+          },
+          "impactFactor": {
+            "value": 3.4
+          },
+          "acceptanceRate": {
+            "value": 4
+          },
+          "timeToFirstDecision": {
+            "value": 11
+          },
+          "timeToAcceptance": {
+            "value": 4
+          }
+        },
+        "scope": "<p><i>JARMAP</i> is a peer reviewed and multidisciplinary communication platform, covering all aspects of the raw material supply chain of medicinal and aromatic plants. <i>JARMAP</i> aims to improve production of tailor made commodities by addressing the various requirements of manufacturers of herbal medicines, herbal teas, seasoning herbs, food and feed supplements and cosmetics. <i>JARMAP</i> covers research on genetic resources, breeding, molecular biology, wild-collection, conservation, domestication, propagation, cultivation, physiology, phytopathology and plant protection, mechanization, postharvest processing, drying, storage, extraction, quality assurance, analytics and economics. <i>JARMAP</i> publishes reviews, original research articles and short communications related to research.</p><p><b>The following are examples of research that fits within the scope of the journal:</b> <br/> All research along the primary production chain of medicinal and aromatic plants raw material and semi-finished products for herbal medicines, herbal teas, seasoning herbs, food and feed supplements and cosmetics</p><ul><li><p>Plant genetic resources, breeding research including conventional and biotechnological methods, variety testing</p></li><li><p>Generative and vegetative propagation including artificial seeds</p></li><li><p>Wild collection and domestication</p></li><li><p>Sources of variation: environment, genetic, morphogenetic, ontogenetic, diurnal</p></li><li><p>Cultivation: climatic demands, crop rotation, tilling, fertilization, planting, irrigation, phytopathology, plant protection, mechanization, harvesting, organic cultivation</p></li><li><p>Post harvest processing: drying, separating, cleaning, distillation, extraction, decontamination, storing, tailoring, packaging</p></li><li><p>Quality: authentication, quality management systems and methods of quality determination</p></li><li><p>Economics: market survey, business studies, profitability</p></li></ul><p>Minimal requirements: Vegetation experiments require two or better three repetitions (at different locations or time-shifted at the same location), populations should be characterized by at least 10 individuals, the concentration of chemical compounds and the yield of plant material must be given based on dry matter, all claims must be supported by appropriate statistical proofs.</p><p><b>Examples of research not in the scope of the journal:</b></p><ul><li><p>Chemical profiling of a species</p></li><li><p>Pharmacology</p></li><li><p>Toxicology</p></li><li><p>Biological activity</p></li><li><p>Ethnobotany</p></li><li><p>Callus culture</p></li><li><p>Micropropagation</p></li><li><p>Microencapsulation</p></li><li><p>Geobotanics</p></li></ul><p></p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Prof. Dr. Joachim Müller",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "PLANT SCIENCES",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Agricultural and Forestry Science",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3310,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 19,
+        "title": "Journal of Thermal Biology",
+        "acronym": "TB",
+        "emAcronym": "TB",
+        "issn": "0306-4565",
+        "subjectAreas": [
+          "Physiology",
+          "Global and Planetary Change",
+          "Agricultural and Biological Sciences (General)"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review Article",
+          "Forum",
+          "VSI: Endotherm Adaptation_Full Length Article",
+          "VSI: Thermal Adaptation_Original Article",
+          "VSI: Endotherm Adaptation_Review Article",
+          "VSI: Thermal Adaptation_Review Article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03064565.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/TB",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-thermal-biology/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 5.4
+          },
+          "impactFactor": {
+            "value": 3.2
+          },
+          "acceptanceRate": {
+            "value": 31
+          },
+          "timeToFirstDecision": {
+            "value": 11
+          },
+          "timeToAcceptance": {
+            "value": 4
+          }
+        },
+        "scope": "<p><b>Environment, Evolution and Medicine</b></p><p>The <i>Journal of Thermal Biology</i> publishes research that advances a mechanistic and organism-centred understanding of how temperature influences humans and animals. The principal focus of the journal is the physiological, biophysical, behavioural, and evolutionary mechanisms underlying thermal biology and thermoregulation, spanning levels of biological organisation from cells to whole organisms.</p><p>Contributions should provide clear insight into thermal processes, constraints, and responses of organisms themselves, including heat transfer, tolerance, regulation, and performance across thermal environments. Studies are expected to move beyond purely descriptive or correlative patterns to elucidate mechanisms, processes, or testable biological principles relevant to thermal biology. Moreover, it is also expected that studies are focused on thermo-physiological outcomes.</p><p>The main themes of the journal are:</p><ul><li><p>thermal limits, heat and cold injury, and organismal resistance and vulnerability to thermal extremes</p></li><li><p>physiological, cellular, and evolutionary mechanisms of acclimation, acclimatization, and thermal adaptation</p></li><li><p>mechanistic bases of hibernation, torpor, dormancy, aestivation, and diapause</p></li><li><p>temperature-dependent processes influencing reproduction, development, growth, ageing, exercise, and lifespan</p></li><li><p>biophysical and physiological modelling of heat transfer between organisms and their environments</p></li><li><p>organismal responses to temperature in the context of environmental variability and climate change, with emphasis on underlying mechanisms</p></li><li><p>conservation physiology and organismal thermal biology, where temperature-dependent mechanisms inform vulnerability or resilience</p></li><li><p>behavioural and physiological regulation of body temperature, including stress responses, fever, and pathophysiology</p></li><li><p>medical and translational applications of hypo- and hyperthermia grounded in thermal biology</p></li><li><p>effects of exercise on thermoregulation, as well as strategies that may influence these responses (environmental factors, clothing and equipment, acclimatization, heat dissipation or gain strategies, etc.)</p></li><li><p>development and validation of experimental and analytical methods for quantifying thermal responses in humans and animals</p></li></ul><p><b>Unsuitable manuscripts</b></p><p>Manuscripts that only indirectly address physiological, biophysical, behavioural, and evolutionary mechanisms underlying thermal biology will not be considered. For example, descriptive studies summarising broad physiological changes associated with heat or cold stress, correlative studies examining biogeographical changes in distribution in relation to climate change, or studies where the primary focus is not on thermal biology may not be suitable. If in any doubt, please send a copy of your abstract directly to the Editor in Chief to discuss further.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Dominic J. McCafferty",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ZOOLOGY",
+              "tier": 2
+            },
+            {
+              "name": "BIOLOGY",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Biology",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3690,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 20,
+        "title": "Aquaculture and Fisheries",
+        "acronym": "AAF",
+        "emAcronym": "AAF",
+        "issn": "2468-550X",
+        "subjectAreas": [
+          "Aquatic Science",
+          "Biochemistry, Genetics and Molecular Biology (General)",
+          "Ecology, Evolution, Behavior and Systematics"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "SI: Teleost Models",
+          "SI:Reproductive Biology and Technologies"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/2468550X.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/aaf/default.aspx",
+          "guideForAuthors": "https://www.keaipublishing.com/en/journals/aquaculture-and-fisheries/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 10.4
+          },
+          "impactFactor": {
+            "value": 5
+          },
+          "timeToFirstDecision": {
+            "value": 4
+          }
+        },
+        "scope": "<p><i>Aquaculture and Fisheries</i> welcomes original research articles, technical notes, review papers and short communications in the multidisciplinary fields of aquaculture and fisheries encompassing: <br/></p><ul><li><p>Aquaculture;</p></li><li><p>Aquaculture Engineering;</p></li><li><p>Management in Aquaculture;</p></li><li><p>Aquaculture Nutrition;</p></li><li><p>Disease &amp; Immunology;</p></li><li><p>Fish Biochemistry, Genetics, and Molecular Biology;</p></li><li><p>Fish Physiology &amp; Endocrinology;</p></li><li><p>Genetic Engineering &amp; Biotechnology of Aquatic Organisms;</p></li><li><p>Aquatic Biology, Environment, and Ecology;</p></li><li><p>Aquatic Ecological Conservation and Restoration Techniques;</p></li><li><p>Fishery Resource Habitats and Management;</p></li><li><p>Application of GIS in Fisheries;</p></li><li><p>Fishing Gear, Vessels, and Engineering;</p></li><li><p>Fisheries Machinery and Instruments;</p></li><li><p>Fisheries Economics and Management;</p></li><li><p>Preservation &amp; Processing Technologies of Aquatic Products.</p></li></ul><p>Both theoretical and empirical studies, and research in application of science and technology are welcomed, but interdisciplinary studies of broad scopes are particularly encouraged.</p><p><a href=\"https://www.keaipublishing.com/en/journals/aquaculture-and-fisheries/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 21,
+        "title": "International Soil and Water Conservation Research",
+        "acronym": "ISWCR",
+        "emAcronym": "ISWCR",
+        "issn": "2095-6339",
+        "subjectAreas": [
+          "Soil Science",
+          "Environmental Science (General)",
+          "Earth-Surface Processes"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/20956339.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/ISWCR/Default.aspx",
+          "guideForAuthors": "https://www.keaipublishing.com/en/journals/international-soil-and-water-conservation-research/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 15.1
+          },
+          "impactFactor": {
+            "value": 8.3
+          },
+          "timeToFirstDecision": {
+            "value": 13
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p><i>International Soil and Water Conservation Research (ISWCR)</i>, the official journal of the World Association of Soil and Water Conservation (WASWAC), <a href=\"http://www.waswac.org\">http://www.waswac.org.cn</a>, is a multidisciplinary journal for soil and water conservation research, practice, policy, and perspectives. This journal aims to disseminate new knowledge and promote the practice of soil and water conservation.</p><p>The scope of this journal includes innovative ideas and approaches, results and new data in soil erosion research, preventive and restorative soil conservation strategies, and related soil and water resource conservation research. We particularly welcome interdisciplinary work focusing on monitoring methods, soil erosion models, development and application of soil and water conservation measures and evaluation of their effects, maintenance, and improvement of soil quality, and watershed management related to soil loss and/or water quality/quantity protection.</p><p>Examples of appropriate topical areas include (but are not limited to)</p><p>• Soil and water conservation models, tools, and technologies <br/> • Agricultural conservation <br/> • Soil health resources, indicators, assessment, and management <br/> • Land degradation caused by soil loss <br/> • Sustainable development and rational land use in relation to soil and water conservation <br/> • Soil erosion and its control <br/> • Soil erosion processes <br/> • Water resource assessment and management <br/> • Watershed management <br/> • Soil erosion models <br/> • Development of soil and water conservation strategies under climate change <br/> • Literature reviews on topics related to soil and water conservation research</p><p><a href=\"https://www.keaipublishing.com/en/journals/international-soil-and-water-conservation-research/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 1
+            },
+            {
+              "name": "WATER RESOURCES",
+              "tier": 1
+            },
+            {
+              "name": "SOIL SCIENCE",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Agricultural and Forestry Science",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 22,
+        "title": "Forest Ecology and Management",
+        "acronym": "FORECO",
+        "emAcronym": "FORECO",
+        "issn": "0378-1127",
+        "subjectAreas": [
+          "Ecology, Evolution, Behavior and Systematics",
+          "Ecology",
+          "Forestry"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Mini Review",
+          "Perspectives",
+          "Review Article",
+          "Tamm Review",
+          "VSI:2026 FIA Science Symposium: Full length article",
+          "VSI:Large mammalian herbivores: Full length article",
+          "VSI:Restoration of Tropical Forests: Full length article",
+          "VSI:2026 FIA Science Symposium: Review article",
+          "VSI:Large mammalian herbivores: Review article",
+          "VSI:Restoration of Tropical Forests: Review article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03781127.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/FORECO",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/forest-ecology-and-management/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 7.5
+          },
+          "impactFactor": {
+            "value": 4.2
+          },
+          "timeToFirstDecision": {
+            "value": 4
+          },
+          "timeToAcceptance": {
+            "value": 9
+          }
+        },
+        "scope": "<p>Science to Sustain the World’s Forests</p><p><i>Forest Ecology and Management</i> focuses on scientific articles <i>linking forest ecology with forest management</i>, with potential <i>application</i> of biological and ecological knowledge to the management and conservation of plantations and natural forests.</p><p>The journal encourages communication between scientists in disparate fields who share a common interest in ecology and forest management, bridging the gap between scientists and forest managers. A peer-review process ensures the quality and international interest of the manuscripts accepted for publication. Authors are invited to benefit from <a href=\"https://www.sciencedirect.com/journal/forest-ecology-and-management/about/editorials-on-publishing\">editorials</a> that provide advice for constructing strong papers.</p><p>We encourage submission of papers that will be of strong interest and value to the Journal&#39;s <i>international</i> readership. Some key features of papers with strong interest include: <br/> 1. Clear connections between the ecology and management of forests; <br/> 2. Novel ideas or approaches to important challenges in forest ecology and management; <br/> 3. Studies that address a population of interest beyond the scale of single research sites (<a href=\"https://www.elsevier.com/__data/promis_misc/keypointsindesign.pdf\">see the editorial</a>, <i>Three key points in the design of forest experiments</i>, <i>Forest Ecology and Management</i> 255 (2008) 2022-2023); <br/> 4. Review Articles on timely, important topics. Authors are invited to contact one of the Editors to discuss the suitability of a potential review manuscript, which can be a regular review, an Mini review or a Tamm review (see the Guide for Authors for details about each type of review article).</p><p>We invite to read the following editorial article with more advice in relation to preferred articles: <i>How to avoid having your manuscript rejected: Perspectives from the Editors of Forest Ecology and Management</i>, <a href=\"https://www.sciencedirect.com/science/article/pii/S0378112720310902\">Volume 473, 1 October 2020, 118321</a>.</p><p>The Journal encourages proposals for special issues examining important areas of forest ecology and management. Potential guest editors should contact one of the Editors to initiate a discussion about topics, potential papers, and other details.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "María Elena Fernández",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "FORESTRY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Agricultural and Forestry Science",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3380,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 23,
+        "title": "Animal Behaviour",
+        "acronym": "YANBE",
+        "emAcronym": "ANBEH",
+        "issn": "0003-3472",
+        "subjectAreas": [
+          "Animal Science and Zoology",
+          "Ecology, Evolution, Behavior and Systematics",
+          "Behavioral Neuroscience",
+          "Veterinary Science"
+        ],
+        "articleTypes": [
+          "Forum",
+          "Research paper",
+          "Research paper - Dataset",
+          "Research paper - Methods",
+          "Review",
+          "Commentary",
+          "SI: Multilayer networks for animal sociality",
+          "VSI: Value of Rarities - Research Paper",
+          "VSI: Value of Rarities - Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/00033472.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/ANBEH/default.aspx",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/animal-behaviour/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 3.6
+          },
+          "impactFactor": {
+            "value": 2.3
+          }
+        },
+        "scope": "<p><i>Animal Behaviour</i> is published for the <a href=\"http://asab.nottingham.ac.uk/\">Association for the Study of Animal Behaviour</a> in collaboration with the <a href=\"http://animalbehaviorsociety.org/\">Animal Behavior Society</a>.</p><p>First appearing in 1953, <i>Animal Behaviour</i> is a leading international publication with wide appeal, containing research articles (primary research, methods and data set papers), critical reviews, commentaries and book reviews. Special Issues are commissioned on occasion. The journal publishes fundamental and applied empirical work, as well as theory, focused on the behaviour of any animals, including humans.</p><p>In 1989, the journal expanded to monthly publication. From January 2025, <i>Animal Behaviour</i> publishes online only, with papers appearing with an article number and DOI once proofs are approved. Papers are also collated into monthly collections with Editors’ choices.</p><p>Each year, prizes are awarded for papers published by students, early-career researchers and authors from institutes in a Low- or Middle-income country in the World Bank’s classification.</p><p><i>Animal Behaviour</i> considers any paper where there is a core behaviour focus. Topics of interest include (this is <u>not</u> an exhaustive list): animal welfare, behavioural ecology, conservation, development of behaviour, ethology, evolution of behaviour, global change biology, neuroethology, physiology, population biology, psychology, sensory biology and sociobiology.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Scott K. Sakaluk | Bob Wong",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ZOOLOGY",
+              "tier": 2
+            },
+            {
+              "name": "BEHAVIORAL SCIENCES",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "Biology",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3140,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 24,
+        "title": "Ecological Genetics and Genomics",
+        "acronym": "EGG",
+        "emAcronym": "EGG",
+        "issn": "2405-9854",
+        "subjectAreas": [
+          "Genetics",
+          "Microbiology",
+          "Ecology"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Short Communication",
+          "Short Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/24059854.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/EGG",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/ecological-genetics-and-genomics/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 2.7
+          },
+          "acceptanceRate": {
+            "value": 33
+          },
+          "timeToFirstDecision": {
+            "value": 2
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p><i>Ecological Genetics and Genomics</i> publishes ecological studies of broad interest that provide significant insight into ecological interactions or/ and species diversification. New data in these areas are published as research papers, or methods and resource reports that provide novel information on technologies or tools that will be of interest to a broad readership. Complete data sets are shared where appropriate. The journal also provides Reviews, and Perspectives articles, which present commentary on the latest advances published both here and elsewhere, placing such progress in its broader biological context.</p><p>Topics include:</p><ul><li><p>metagenomics</p></li><li><p>population genetics/genomics</p></li><li><p>evolutionary ecology</p></li><li><p>conservation and molecular adaptation</p></li><li><p>speciation genetics</p></li><li><p>environmental and marine genomics</p></li><li><p>ecological simulation</p></li><li><p>genomic divergence of organisms</p></li></ul>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Chiang | Gojobori",
+        "goldOpenAccessFee": {
+          "value": 3100,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 25,
+        "title": "Journal of Rural Studies",
+        "acronym": "RUST",
+        "emAcronym": "RURAL",
+        "issn": "0743-0167",
+        "subjectAreas": [
+          "Geography, Planning and Development",
+          "Sociology and Political Science",
+          "Nature and Landscape Conservation",
+          "Development",
+          "Forestry"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "VSI: 40 years Rural Geography",
+          "VSI: Agroecosystem Living Labs",
+          "VSI: CCIs in non-urban areas",
+          "VSI: Capturing Rural Diversity and Transitions",
+          "VSI: China’s Rural Gentrification",
+          "VSI: Innovation in Agriculture",
+          "VSI: Rural SES Resilience",
+          "VSI: Women entrepreneurship"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/07430167.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/RURAL",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-rural-studies/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 10.9
+          },
+          "impactFactor": {
+            "value": 5.7
+          },
+          "timeToFirstDecision": {
+            "value": 38
+          },
+          "timeToAcceptance": {
+            "value": 8
+          }
+        },
+        "scope": "<p>Over 40 years of excellence in Rural Research</p><p>The <i>Journal of Rural Studies</i> publishes cutting-edge research that advances understanding and analysis of contemporary rural societies, economies, cultures and lifestyles; the definition and representation of rurality; the formulation, implementation and contestation of rural policy; and human interactions with the rural environment. The journal is an interdisciplinary publication and welcomes articles from diverse theoretical perspectives and methodological approaches, which engage with and contribute to the rural social science literature, as broadly defined by the disciplines of rural geography, rural sociology, agricultural and rural economics, planning and cognate subjects. The coverage of the journal is global in scope and solicits articles based on empirical research in any part of the world that is of relevance and interest to international readers. The primary audience of the journal are social science researchers, teachers and students interested in contemporary rural issues, processes and experiences.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Professor Darren Smith",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "REGIONAL & URBAN PLANNING",
+              "tier": 2
+            },
+            {
+              "name": "GEOGRAPHY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Social Sciences",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4010,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 26,
+        "title": "International Journal for Parasitology: Parasites and Wildlife",
+        "acronym": "IJPPAW",
+        "emAcronym": "IJPPAW",
+        "issn": "2213-2244",
+        "subjectAreas": [
+          "Agricultural and Biological Sciences (General)",
+          "Parasitology",
+          "Veterinary Science and Veterinary Medicine (General)",
+          "Biochemistry, Genetics and Molecular Biology (General)"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Invited review article",
+          "Review Article",
+          "Short Communication",
+          "Case Report"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22132244.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/IJPPAW/default.aspx",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/international-journal-for-parasitology-parasites-and-wildlife/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 4
+          },
+          "impactFactor": {
+            "value": 2.3
+          },
+          "acceptanceRate": {
+            "value": 58
+          },
+          "timeToFirstDecision": {
+            "value": 1
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p>Sponsored by the <a href=\"http://www.parasite.org.au\">Australian Society for Parasitology</a></p><p>The <i>International Journal for Parasitology: Parasites and Wildlife (IJP-PAW)</i> publishes the results of original research on parasites of all wildlife, invertebrate and vertebrate. This includes free-ranging,wild populations, semi-domesticated species (e.g. reindeer) and farmed populations of recently domesticated or wild-captured species (e.g. cultured fishes). Submissions describing studies on captive wildlife can be considered if they include relevant ecological, clinical, or epidemiological aspects. Articles on all aspects of wildlife parasitology are welcomed including taxonomy, evolutionary biology, biodiversity and distribution, ecology and epidemiology, population biology and host-parasite relationships. The impact of parasites on the health and conservation of wildlife is seen as an important area covered by the journal especially the potential role of environmental factors, for example, climate. Also important to the journal is One Health and the nature of interactions between wildlife, people and domestic animals, including disease emergence and zoonoses.</p><p>The principal form of publication is the full-length article which contains substantial, original research. The journal also accepts brief reports that have similar subject scope as the full-length article, but do not merit a full-length publication. In addition, the journal commissions articles with emphasis on shorter, focused reviews of topical and emerging issues as well as strategically important subjects. The journal encourages critical comment and debate on matters of current controversy in the area of parasites and wildlife via &quot;Current Opinions&quot;.</p><p>The other specialist title in the series is <a href=\"https://www.journals.elsevier.com/international-journal-for-parasitology-drugs-and-drug-resistance\"><i>International Journal for Parasitology: Drugs and Drug Resistance</i></a> .</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Andrew Thompson",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ECOLOGY",
+              "tier": 3
+            },
+            {
+              "name": "PARASITOLOGY",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Medicine",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2770,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 27,
+        "title": "Landscape and Urban Planning",
+        "acronym": "LAND",
+        "emAcronym": "LANDUP",
+        "issn": "0169-2046",
+        "subjectAreas": [
+          "Development",
+          "Geography, Planning and Development",
+          "Ecology, Evolution, Behavior and Systematics",
+          "Nature and Landscape Conservation",
+          "Ecology"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Research note",
+          "Perspective article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01692046.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/LANDUP",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/landscape-and-urban-planning/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 19.6
+          },
+          "impactFactor": {
+            "value": 11.5
+          },
+          "timeToFirstDecision": {
+            "value": 10
+          },
+          "timeToAcceptance": {
+            "value": 9
+          }
+        },
+        "scope": "<p>An Interdisciplinary Journal of Landscape Science, Planning and Design.</p><p><i>Landscape and Urban Planning</i> is an international journal aimed at advancing conceptual, scientific, and applied understandings of <b>landscape</b> in order to promote <b>sustainable</b> solutions for <b>landscape change</b>. Landscapes are visible and integrative social-ecological systems with variable spatial and temporal dimensions. They have expressive aesthetic, natural, and cultural qualities that are perceived and valued by people in multiple ways and invite actions resulting in landscape change. Landscapes are increasingly urban in nature and ecologically and culturally sensitive to changes at local through global scales. Multiple disciplines and perspectives are required to understand landscapes and align social and ecological values to ensure the sustainability of landscapes. The journal is based on the premise that landscape science linked to <b>planning</b> and <b>design</b> can provide mutually supportive outcomes for people and nature.</p><p><i>Landscape science</i> brings <b>landscape ecology</b> and <b>urban ecology</b> together with other disciplines and cross-disciplinary fields to identify patterns and understand social-ecological processes influencing landscape change. <i>Landscape planning</i> brings landscape architecture, urban and regional planning, landscape and ecological engineering, and other practice-oriented fields to bear in processes for identifying problems and analyzing, synthesizing, and evaluating desirable alternatives for landscape change. <i>Landscape design</i> brings plans, designs, management prescriptions, policies and other activities and form-giving products to bear in effecting landscape change. The implementation of landscape planning and design also generates new patterns of evidence and hypotheses for further research, providing an integral link with landscape science and encouraging transdisciplinary collaborations to build robust knowledge and problem solving capacity.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Christian Albert | Iryna Dronova | Weiqi Zhou",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ECOLOGY",
+              "tier": 1
+            },
+            {
+              "name": "GEOGRAPHY, PHYSICAL",
+              "tier": 1
+            },
+            {
+              "name": "REGIONAL & URBAN PLANNING",
+              "tier": 1
+            },
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 1
+            },
+            {
+              "name": "URBAN STUDIES",
+              "tier": 1
+            },
+            {
+              "name": "GEOGRAPHY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4700,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 28,
+        "title": "Journal of Polar Science and Engineering",
+        "acronym": "JNPSE",
+        "emAcronym": "JNPSE",
+        "issn": "3051-3219",
+        "subjectAreas": [
+          "Engineering (General)",
+          "Earth and Planetary Sciences (General)"
+        ],
+        "articleTypes": [
+          "Editorial",
+          "Research Article",
+          "Review Article",
+          "Short Communication",
+          "Case Report"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30513219.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/jnpse/default2.aspx",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p><i>Journal of Polar Science and Engineering (JPSE)</i> provides a multidisciplinary forum for research in science and engineering pertaining to polar and polar-like environments, including the Arctic, Antarctic, high-altitude zones, and extraterrestrial cryospheres. The journal is committed to publishing studies that advance the understanding of polar systems through original contributions in theory, methodology, and application. </p><p>The scope of JPSE includes, but is not limited to, the following areas: </p><ul><li><p>Geosciences: Supporting research that observes, monitors, and interprets the Earth processes of polar regions. Topics include petrology, geochemistry, geophysics, geomorphology, geodesy, Cenozoic-Quaternary geology, paleontology, meteoritics, crustal blocks, sedimentary records, geological record, subglacial geology and its influences on ice sheets, permafrost and the related research. </p></li><li><p>Life sciences: Promoting studies on the adaptation, evolution, and diversity of organisms in extreme cold environments, and their interactions within polar ecosystems. Topics include ecology, environmental science, biology, microbiology, and biological evolution in cold regions, as well as research on ecosystem responses to climate change, environmental monitoring, pollution impacts, and conservation of polar biodiversity. </p></li><li><p>Chemical sciences: Enhancing research on chemical processes and transformations occurring in polar environments. The scope extends to atmospheric chemistry, snow and ice chemistry, aerosol composition and transport, biogeochemical cycles, organic and inorganic reactions in extreme cold environments, pollution detection and chemical monitoring, and chemical interactions at the interfaces of ice, ocean, land, and atmosphere. </p></li><li><p>Physical sciences: Advancing understanding of fundamental physical processes at the interfaces between ice, ocean, land and atmosphere in polar regions, to improve the ability to describe and predict the response to climate change. Emphasis is given to sea-ice and ocean circulation, glaciology, ice sheet dynamics, space physics, upper atmosphere physics, astronomical and solar-terrestrial observations, and the related research. </p></li><li><p>Polar engineering: Publishing innovations in technology and engineering solutions that enable human activities and scientific exploration in polar conditions. Topics encompass remote sensing and mapping, scientific observation and sampling, low-temperature materials, polar infrastructure, energy generation, communication, transportation, permafrost engineering and residency technologies. </p></li><li><p>Other disciplines: Encouraging integrated and interdisciplinary studies that connect polar science with societal issues, policy, humanities, management, and other cross-disciplinary research related to polar regions. </p></li></ul><p>The article categories in JPSE include Research Papers, Review Articles, Letters, and Briefs. </p><p><a href=\"https://www.keaipublishing.com/en/journals/journal-of-polar-science-and-engineering/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 29,
+        "title": "Systems Ethnopharmacology and Sustainable Bioresources",
+        "acronym": "SESB",
+        "emAcronym": "SESB",
+        "issn": "3117-5767",
+        "subjectAreas": [
+          "Nature and Landscape Conservation",
+          "Environmental Science (General)",
+          "Health",
+          "Drug Discovery",
+          "Social Sciences (General)",
+          "Plant Science",
+          "Ecology",
+          "Artificial Intelligence",
+          "Pharmacology",
+          "Public Health and Health Policy",
+          "Pharmacology, Toxicology and Pharmaceutics (General)"
+        ],
+        "articleTypes": [
+          "Research Article",
+          "Review Article",
+          "Short Communication",
+          "VSI: Bioeconomy & Health - Research paper",
+          "VSI: Bioeconomy & Health - Review article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/31175767.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/SESB",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p> Affiliated with the <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fethnopharmacology.in%2F&data=05%7C02%7Cg.c%40elsevier.com%7Cc4b07ca4022e41f56f5f08de212a4207%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C638984662534523883%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=zQDfOcLBTztJ6jl1iUZDAW6NXTUom4WNsq36GSfY0Nc%3D&reserved=0\">Society for Ethnopharmacology (SFE-India)</a></p><p><i>Systems Ethnopharmacology and Sustainable Bioresources (SESB)</i> is an interdisciplinary, peer-reviewed journal dedicated to advancing research at the intersection of ethnopharmacology, ecological stewardship, sustainability science, and modern pharmacology through a systems-thinking lens. The journal promotes a holistic understanding of how medicinal plants, natural products, traditional knowledge systems, and traditional practices operate within dynamic biological, ecological, socio-economic, and cultural contexts that shape human and planetary health. SESB aligns with global sustainability priorities, including the United Nations Sustainable Development Goals (SDGs), and encourages rigorous, ethical, and community-centered research that strengthens both scientific credibility and ecological responsibility.</p><p>The journal welcomes original research, reviews, community-engaged studies, and policy analyses, letters to the editor that:</p><ul><li><p>Integrate methodologies and perspectives from the biological, chemical, ecological, computational, and social sciences with traditional and Indigenous knowledge systems to address challenges in ethnopharmacology, sustainable healthcare, biodiversity conservation, and culturally relevant innovation.</p></li><li><p>Explore sustainable sourcing, conservation strategies, ecosystem restoration, climate resilience, and One Health approaches that link human, animal, and environmental health. Submissions may emphasize Indigenous-led research, equitable community participation, protection of cultural practices, and fair and transparent benefit-sharing.</p></li><li><p>Advance natural product discovery, characterization, and validation using modern analytical sciences, including metabolomics, proteomics, bioactivity-guided fractionation, chemoinformatics, network pharmacology, and systems biology. Studies should deepen mechanistic understanding, support reproducibility, and connect oral traditional knowledge, complementary and alternative medicines, ethnic knowledges with contemporary scientific evidence.</p></li><li><p>Apply artificial intelligence (AI), machine learning (ML), deep learning, data mining, predictive modeling, knowledge graphs, and other data-driven approaches to enhance natural product discovery, decipher complex biological and cultural datasets, infer mechanisms of action, assess safety, improve traceability, and support informed decision-making in sustainable bioresource management.</p></li><li><p>Develop and evaluate transparent, responsible, and innovative value chains for medicinal plants and bioresources, including blockchain-enabled traceability, circular and regenerative production systems, sustainable harvesting frameworks, and quality-assurance mechanisms that strengthen authenticity, safety, and environmental accountability.</p></li><li><p>Contribute to emerging domains such as the bioeconomy; nutrieconomy (food-as-medicine systems); blue bioresources and blue bioeconomy (marine and coastal biodiversity); microbial resources; and climate-adaptive biological systems that support nutrition security, community livelihoods, ecological resilience, and sustainable development.</p></li><li><p>Address global policy frameworks and ethical commitments, including the Nagoya Protocol on Access and Benefit-Sharing (ABS), the Convention on Biological Diversity (CBD), and the Collective Benefit, Authority to Control, Responsibility, Ethics (CARE) Principles for Indigenous Data Governance, as well as principles of data sovereignty and the protection of Indigenous intellectual and cultural heritage. Submissions should articulate how permissions, attributions, and ethical agreements were obtained and upheld.</p></li><li><p>Foster interdisciplinary dialogue among researchers, academicians, Indigenous communities, traditional healers, conservation practitioners, healthcare professionals, policymakers, non-governmental organizations (NGOs), pharmaceutical and wellness industries, and allied sectors working toward responsible, inclusive, and sustainability-driven innovation.</p></li></ul><p>We encourage you to review the journal&#39;s <a href=\"https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fjournal%2Fsystems-ethnopharmacology-and-sustainable-bioresources%2Fabout%2Fthematic-highlights&data=05%7C02%7CB.Plasmans%40elsevier.com%7C430746835c81441175ff08de5aace548%7C9274ee3f94254109a27f9fb15c10675d%7C0%7C0%7C639047895787790434%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=iprZT6B7jTjWZnB02pYCJtBiEt6%2F9hiD9zrWyebiIcw%3D&reserved=0\">thematic highlights</a> for further information.</p><p>SESB encourages submissions that bridge science, culture, ecology, technology, and policy with a strong commitment to methodological rigor, ethical research practices, global sustainability, and meaningful engagement with traditional knowledge holders and local communities.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Pulok Kumar Mukherjee",
+        "goldOpenAccessFee": {
+          "value": 2800,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 30,
+        "title": "Water Biology and Security",
+        "acronym": "WATBS",
+        "emAcronym": "WATBS",
+        "issn": "2772-7351",
+        "subjectAreas": [
+          "Ecology, Evolution, Behavior and Systematics",
+          "Aquatic Science",
+          "Biochemistry, Genetics and Molecular Biology (General)",
+          "Water Science and Technology"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Mini review",
+          "Review",
+          "Short Communication",
+          "Case Report"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27727351.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/watbs/default.aspx",
+          "guideForAuthors": "https://www.keaipublishing.com/en/journals/water-biology-and-security/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 8.5
+          },
+          "impactFactor": {
+            "value": 4.3
+          },
+          "acceptanceRate": {
+            "value": 18
+          },
+          "timeToFirstDecision": {
+            "value": 5
+          },
+          "timeToAcceptance": {
+            "value": 4
+          }
+        },
+        "scope": "<p><i>Water Biology &amp; Security</i> is an open access journal publishing original, high-quality research on all aspects of water biology relating to aquatic organisms and water security. Manuscripts should present high-impact, cutting-edge research, new discoveries or developments with global impact. Following a rigorous peer-review process, manuscripts will be selected based on their broad interest to the field and their insightful and elegant conclusions/results. They will be presented using the highest-quality production standards. The aim of this journal is to provide maximum access to top aquatic science.</p><p>Scope includes, but is not limited to:</p><ul><li><p>Basic biology of aquatic organisms</p></li><li><p>Genetics, cell biology and developmental biology of aquatic organisms</p></li><li><p>Aquatic biotechnology and aquaculture research</p></li><li><p>Physiology, pathology, immunology, and medicine research relating to aquatic organisms</p></li><li><p>Aquatic biodiversity and conservation research</p></li><li><p>Water ecology and environmental science research</p></li><li><p>Aquatic toxicology, pollution, water environment protection and ecological safety research</p></li><li><p>Multi-decadal studies of aquatic &amp; marine ecosystems or biota</p></li><li><p>Research highlighting the effects of landscape and land use on water bodies</p></li><li><p>Research on springs, streams, rivers, lakes, reservoirs, wetlands, riparian zones, estuaries and marine systems</p></li><li><p>Aquatic product nutrition &amp; safety</p></li><li><p>Water resource policy and management</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/water-biology-and-security/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 2
+            },
+            {
+              "name": "FISHERIES",
+              "tier": 2
+            },
+            {
+              "name": "MARINE & FRESHWATER BIOLOGY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Biology",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 31,
+        "title": "Pedosphere",
+        "acronym": "PEDSPH",
+        "issn": "1002-0160",
+        "subjectAreas": [
+          "Soil Science"
+        ],
+        "articleTypes": [],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/10020160.jpg",
+        "links": {
+          "submission": "https://mc03.manuscriptcentral.com/Pedosphere",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/pedosphere/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 13.1
+          },
+          "impactFactor": {
+            "value": 7
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p>Pedosphere - A peer-reviewed international journal was founded in 1991 and is published bimonthly in English by Elsevier Limited and Science Press.</p><p>Pedosphere is sponsored jointly by the <a href=\"http://en.csss.org.cn/\">Soil Science Society of China</a> and the <a href=\"http://english.issas.cas.cn/\">Institute of Soil Science</a>, <a href=\"http://english.cas.cn/\">Chinese Academy of Sciences</a> in cooperation with 5 of the most important Chinese institutions and universities working in the field of soil science: <a href=\"http://english.scau.edu.cn/\">China Agricultural University</a>; the <a href=\"http://appliedeco.org/\">Institute of Applied Ecology</a>, <a href=\"http://english.cas.cn/\">Chinese Academy of Sciences</a>; <a href=\"http://english.njau.edu.cn/\">Nanjing Agricultural University</a>; <a href=\"http://english.scau.edu.cn/\">South China Agricultural University</a>; and <a href=\"http://www.zju.edu.cn/english/\">Zhejiang University</a>.</p><p>The Editor-in-Chief is Prof. Shen Ren-Fang, who is Honorary President of the Soil Science Society of China, and Director of the Institute of Soil Science, Chinese Academy of Sciences.</p><p>Pedosphere welcomes submissions from scientists around the world under a broad scope of topics relevant to timely, high quality original research findings, especially up-to-date achievements and advances in the entire field of <b>soil science studies</b> dealing with environmental science, ecology, agriculture, bioscience, geoscience, forestry, etc. It publishes mainly original research articles as well as some reviews, mini reviews, short communications and special issues; and its areas of particular interest include soil <b>physics</b>; soil <b>chemistry</b>; soil <b>biology</b> and <b>biochemistry</b>; soil <b>fertility</b> and <b>plant nutrition</b>; soil <b>resources</b> and use; soil <b>mineralogy</b>; soil <b>environment</b> and <b>ecology</b>; soil and water <b>conservation</b>; forest, range, and wetland soils; soil <b>salinity</b> and <b>management</b>; soil and plant <b>analysis</b> and <b>technology</b>; and <b>soil gases</b> and global change.</p><p>Papers submitted to the Journal Pedosphere must be sent out for double anonymized in-depth peer review by the <a href=\"https://www.journals.elsevier.com/pedosphere/editorial-board\">Editorial Committee</a> , which is composed of 42 foreign and 21 Chinese worldwide renowned soil scientists from 24 countries, and by its scientific review panel composed of thousands of internationally invited experts prior to acceptance for publication.</p><p>Pedosphere has been abstracted/indexed in most of relevant internationally important databases and abstracts, such as Current Contents/AB and ES, Science Citation Index Expanded, Biological Abstracts, BIOSIS, CAB Abstracts, Cambridge Scientific Abstracts, Chemical Abstracts, SCOPUS, ScienceDirect, VINITI Abstracts Journal, Elsevier BIOBASE, GEOBASE, ASCI, Pollution Abstracts, Environmental Sciences and Pollution Mgmt, Environment Encyclopedia and Directory, Irrigation and Drainage Abstracts, Soils and Fertilizers, Water Resources Abstracts, Agroforestry Abstracts, Field Crop Abstracts, Forestry Abstracts, Geographical Abstracts, Geological Abstracts, Geomechanics Abstracts, Grasslands and Forage Abstracts, Horticultural Abstracts, International Development Abstracts, Maize Abstracts, Nematological Abstracts, CSCD, CSTPCD, CJCR, CNKI, CAJCED, Plant Growth Regulator Abstracts, Rice Abstracts, and Wheat, Barley and Triticale Abstracts.</p><p>To date the published papers in Pedosphere submitted by authors from over 30 countries outside China, such as the USA, UK, France, Australia, Canada, Germany, Spain, Italy, The Netherlands, New Zealand, Israel, Japan, Poland, India, Brazil, Thailand, Pakistan, Greece, Syria and Bangladesh, have accounted for more than 30% of the total. Additionally, over 90% of the published articles in the journal belong to research projects supported by various international and national scientific foundations.</p><p>Pedosphere&#39;s audience: Scientific and technical researchers and workers as well as university and college teachers and students related to soil science, environmental science, ecology, bioscience, geoscience, agriculture, forestry, etc.</p><p>All manuscripts should be submitted electronically via Pedosphere Online Editorial System (POES) - the web-based online manuscript submission, tracking, peer-review, and editorial management system of Pedosphere - which can be accessed at <a href=\"http://pedosphere.issas.ac.cn\">http://pedosphere.issas.ac.cn</a>.</p><p>For subscription outside China: Elsevier is responsible for overseas subscription of the journal. Please subscribe to the journal via <a href=\"http://www.sciencedirect.com\">http://www.sciencedirect.com</a> or contact the Elsevier Customer Service Department at the Regional Sales Office nearest you, as listed in the inside cover of the journal. For domestic subscription in China: Please subscribe to the journal in local post offices throughout China (domestic postal distribution code: 2-576).</p><p>Editorial Committee and Editorial Office of Pedosphere <br/> Address: P. O. Box 821, 71 East Beijing Road, Nanjing 210008, P. R. China <br/> Tel.: +86-25-8688 1235; Fax: +86-25-8688 1256 <br/> E-mail: <a href=\"mailto:pedosphere@issas.ac.cn\">pedosphere@issas.ac.cn</a> <br/> URL: <a href=\"http://pedosphere.issas.ac.cn\">http://pedosphere.issas.ac.cn</a> <br/> <a href=\"https://www.elsevier.com/locate/pedosphere\">https://www.elsevier.com/locate/pedosphere</a></p>",
+        "openAccessType": "NONE",
+        "editorInChief": "Lun Shan | James Tiedje | Jiabao Zhang",
+        "hasAgreements": false
+      },
+      {
+        "ranking": 32,
+        "title": "Energy Storage and Saving",
+        "acronym": "ENSS",
+        "emAcronym": "ENSS",
+        "issn": "2772-6835",
+        "subjectAreas": [
+          "Engineering (General)",
+          "Energy (General)",
+          "Environmental Science (General)",
+          "Materials Science (General)"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Short Communication",
+          "Technical Note",
+          "VSI: Industrial Decarbonisation",
+          "VSI:INESS2026:Research Article",
+          "VSI:INESS2026:Review Article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27726835.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/enss/default.aspx",
+          "guideForAuthors": "https://www.keaipublishing.com/en/journals/energy-storage-and-saving/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 15.3
+          },
+          "acceptanceRate": {
+            "value": 21
+          },
+          "timeToFirstDecision": {
+            "value": 4
+          },
+          "timeToAcceptance": {
+            "value": 37
+          }
+        },
+        "scope": "<p><i>Energy Storage and Saving</i> (ENSS) is an interdisciplinary, open access journal that disseminates original research articles in the field of energy storage and energy saving. The aim of ENSS is to present new research results that are focused on promoting sustainable energy utilisation, improving energy efficiency, and achieving energy conservation and pollution reduction.</p><p>We are particularly interested in receiving submissions on the following topics:</p><ul><li><p>Energy storage systems, including thermal energy, chemical, biological, cryogenic and magnetic energy</p></li><li><p>Batteries, hydrogen, fuel cells and electrochemistry storage</p></li><li><p>Energy-saving technologies, including smart energy, intelligent management, energy efficiency improvement and pollutant emission reduction</p></li><li><p>Environmental impact and sustainable development</p></li><li><p>Energy security</p></li><li><p>Life cycle assessment</p></li><li><p>Economics and business models</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/energy-storage-and-saving/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 33,
+        "title": "Current Opinion in Insect Science",
+        "acronym": "COIS",
+        "emAcronym": "COINSCI",
+        "issn": "2214-5745",
+        "subjectAreas": [
+          "Ecology, Evolution, Behavior and Systematics",
+          "Insect Science",
+          "Agronomy and Crop Science"
+        ],
+        "articleTypes": [],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/22145745.jpg",
+        "links": {
+          "submission": null,
+          "guideForAuthors": "https://www.sciencedirect.com/journal/current-opinion-in-insect-science/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 9.9
+          },
+          "impactFactor": {
+            "value": 5.5
+          },
+          "timeToFirstDecision": {
+            "value": 8
+          },
+          "timeToAcceptance": {
+            "value": 4
+          }
+        },
+        "scope": "<p><i>Current Opinion in Insect Science</i> is a systematic review journal that provides specialists with a unique and educational platform to keep up to date with the expanding volume of information published in the field of Insect Science. For such a broad discipline, we have determined themed sections, each of which is reviewed once a year.<br/><br/>The following 11 defined areas are covered by Current Opinion in Insect Science.<br/></p><p>MOLECULAR PHYSIOLOGY AND OMICS: Cell physiology, function, communication; immunity, genetics, genomics, proteomics, metabolomics, post-translational processing, epigenetics, physiological genetics, application of new technological approaches, bioinformatics</p><p>DEVELOPMENT AND SYSTEMS PHYSIOLOGY: Organism level: Morphogenesis, hormonal regulation, endocrinology, tissue physiology, developmental physiology, interaction between systems to maintain homeostasis, mechanistic physiology from cells to systems, biomechanics </p><p><br/>ECOLOGY: Behavior and physiology in relation to environment, chemical and physical ecology, population dynamics, population and community ecology</p><p><br/>EVOLUTION: Comparative evolutionary morphology, evolutionary physiology and development, evolutionary relationships, natural selection, molecular phylogeny, speciation, behavioral ecology</p><p><br/>PESTS AND PEST MANAGEMENT: Major pests of agriculture, invasive species, IPM, resistance and resistance management, biological control, habitat management</p><p><br/>MEDICAL, VETERINARY AND URBAN ENTOMOLOGY: Pests of urban, human and / or animal health importance, disease vectors, management <br/><br/>SOCIAL INSECTS: Behavior, communication, aspects within or between social insect groups</p><p><br/>INSECTS AND THE ANTHROPOCENE: PROBLEMS AND SOLUTIONS: Conservation, biodiversity, invasive species; impacts of climate change, pollution, urbanization, habitat change and management, pesticide regulation, monitoring and surveillance<br/><br/>NEUROSCIENCE: Nervous system physiology, molecular biology of neural systems, developmental biology, toxicology, ethology / neuroethology, brain structure and function, sensory physiology</p><p><br/>BIOTECHNOLOGY AND INDUSTRIAL APPLICATIONS: Use of insects or parts thereof for production of useful products, including food and feed; application of bioengineering (microbes, crops, insects) for pest management; new biotechnological approaches<br/><br/>SYMBIOSES AND MICROBIAL INTERACTIONS: Interaction of insects with other organisms including plants, pathogens, parasites; microbiome, immunity, vectors of agricultural importance<br/><br/>There is also a section that changes every year to reflect hot topics in the field.<br/></p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Bonning | Casas",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ECOLOGY",
+              "tier": 2
+            },
+            {
+              "name": "BIOLOGY",
+              "tier": 1
+            },
+            {
+              "name": "ENTOMOLOGY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Agricultural and Forestry Science",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4610,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 34,
+        "title": "Agricultural Environment and Sustainability",
+        "acronym": "AGES",
+        "emAcronym": "AGRES",
+        "issn": "3117-4094",
+        "subjectAreas": [
+          "Pollution",
+          "Waste Management and Disposal",
+          "Environmental Chemistry",
+          "Soil Science"
+        ],
+        "articleTypes": [
+          "Original Research Article",
+          "Review",
+          "Letter",
+          "VSI:C & N Cycling - Original research",
+          "VSI:C & N Cycling - Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/31174094.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/AGRES",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p> <i>Agricultural Environment and Sustainability (AES) </i>publishes and disseminates cutting-edge fundamental research and groundbreaking original innovations in the fields of agricultural resource utilization, agroecosystem conservation, agricultural environmental protection and remediation, global climate change and agricultural adaptation, and sustainable agricultural development. The journal is dedicated to providing in-depth analysis of key mechanisms and principles in the field of agricultural environments, broadening multidimensional research perspectives across disciplines, and offering a high-level academic exchange platform for researchers in agricultural environments and related fields worldwide. Through these efforts, <i>AES</i> serves to guide profound innovation and frontier advancements within these domains.</p><p>Key thematic areas include, but are not limited to:</p><p><b>Agricultural Resource Conservation and Sustainable Utilization</b></p><p>(Monitoring, protection, and efficient/safe use of agricultural and rural resources such as water, soil, air, and biodiversity; resource recycling and high-value utilization of agricultural waste; nutrient management)</p><p><b>Agroecosystems and Biodiversity</b></p><p>(Stability and sustainability of agroecosystems; ecological security and biodiversity conservation; ecological agriculture; farmland and rural landscape ecology; ecological transformation of agricultural land)</p><p><b>Agricultural Environmental Pollution and Remediation</b></p><p>(Pollution, management, and remediation of agricultural and rural environments; non-point source pollution control and emissions mitigation; water pollution mitigation in agricultural systems)</p><p><b>Climate Change and Agricultural Adaptation</b></p><p>(Agricultural system responses to global climate change; climate-resilient agriculture; innovative models such as climate-smart agriculture, controlled-environment agriculture, urban/peri-urban agriculture, and low-carbon agriculture)</p><p><b>Environmental Health and Food Security</b></p><p>(Soil health; biosafety; risk assessment of farmland environments; ecosystem services in agroecosystems; synergies between environmental health and food security)</p><p><b>Artificial Intelligence and Big Data Applications</b></p><p>(AI-driven identification of agricultural pollution sources; dynamic monitoring and assessment of agroecosystems; precision agriculture systems, precision livestock farming)</p><p><b>Agricultural Environmental Policy and Sustainable Development Strategies for Rural Areas</b></p><p>(Policy design for sustainable resource governance; decision support systems; rural livelihood transitions; climate adaptation strategies; circular economy frameworks)</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Professor Minggang Xu",
+        "goldOpenAccessFee": {
+          "value": 2500,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 35,
+        "title": "Environmental Modelling & Software",
+        "acronym": "ENSO",
+        "emAcronym": "ENVSOFT",
+        "issn": "1364-8152",
+        "subjectAreas": [
+          "Software",
+          "Ecological Modelling"
+        ],
+        "articleTypes": [
+          "EnviroFutures Invited Opinion",
+          "Introductory Overview",
+          "Position Paper",
+          "Research Articles",
+          "Review Artilce",
+          "VSI: Modelling Standards",
+          "VSI: Open Aquatic",
+          "VSI: Water Quality Modelling",
+          "VSI:Uncertainty in SES model"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/13648152.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/ENVSOFT",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/environmental-modelling-and-software/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 8.4
+          },
+          "impactFactor": {
+            "value": 5.2
+          },
+          "timeToFirstDecision": {
+            "value": 6
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p>Official Journal of the <a href=\"https://iemss.org\">International Environmental Modelling &amp; Software Society</a></p><p><i>Environmental Modelling &amp; Software</i> publishes contributions, in the form of research articles, reviews, introductory overviews, and position papers on advances in the area of <b>environmental modelling and software</b>. Our aim is to improve our capacity to represent, understand, predict or manage the behaviour of <b>natural environmental systems, including air, water, and land components</b>, at all practical scales, and to communicate those improvements to a wide scientific and professional audience.</p><p>It seeks presentation of: <br/> • Generic frameworks, techniques and issues which either integrate a range of disciplines and sectors or apply across a range <br/> • <b>Model development</b>, model evaluation, process identification and applications in diverse sectors of the environment (as outlined below) provided they reveal insights and contribute to the store of knowledge. Insights can relate to the generality and limitations of the modelling, methods, the model application and/or the systems modelled. Insights should be ones that are generalizable in some way and are likely to be of interest to those studying other systems and, preferably, other system types. <br/> • Development and application of <b>environmental software</b>, information and decision support systems <br/> • Real-world applications of software technologies - particularly state-of-the-art environmental software able to deal with complex requirements, conflicting user perspectives, and/or evolving data structures. Aspects related to software usability, reliability, verification and validation should be backed up with quantitative results as much as possible. Development and maintenance costs, and adoption and penetration of the software in the target user groups should be addressed. Licensing issues and open source access should be clearly specified. <br/> • Issues and methods related to the integrated modeling, assessment and management of environmental systems - including relevant policy and institutional analysis, public participation principles and methods, decision making methods, model integration, quality assurance and evaluation of models, data and procedures.</p><p>Authors must specify clearly the objectives of their models and/or software, and report on the essential steps that were used in their development, normally including the rationale for the type of approach selected and substantial testing and evaluation of it - comparisons with alternative approaches and methods are encouraged. The purpose of this specification, evaluation and reporting is to convey the rigour and credibility of the work and therefore its potential to contribute to knowledge acquisition. To this latter end, authors are expected to briefly review and cite the historical progress made for their problem and clearly show how their work adds value to the literature.</p><p>Authors are invited to submit relevant contributions in the following areas: <br/> • Generic and pervasive frameworks, techniques and issues - including system identification theory and practice, model conception, model integration, model and/or software evaluation, sensitivity and uncertainty assessment, visualization, scale and regionalization issues. <br/> • Integrated assessment and management of systems (river basins, regions etc.) for enhancing sustainability outcomes - including linked socioeconomic and biophysical models that may be developed with stakeholders for understanding systems, communication and learning, and improving system outcomes. <br/> • Artificial Intelligence (AI) techniques and systems, such as knowledge-based systems / expert systems, case-based reasoning systems, data mining, multi-agent systems, Bayesian networks, artificial neural networks, fuzzy logic, or knowledge elicitation and knowledge acquisition methods. <br/> • Decision support systems and environmental information systems- implementation and use of environmental data and models to support all phases and aspects of decision making, in particular supporting group and participatory decision making processes. Intelligent Environmental Decision Support Systems can include qualitative, quantitative, mathematical, statistical, AI models and meta-models. <br/> • Process-identification of environmental dynamics for instance of surface and subsurface hydrology, limnology, meteorology, geophysics with special respect to the interaction of anthroposphere and biosphere. <br/> • GIS, remote sensing and image processing</p><p>These methodological developments should be illustrated with applications in the environmental fields, e.g. <br/> • Resource management including water, land, biological, transport systems <br/> • Pollution of different media such as air, water, soil, noise, radiation, as well as multimedia problems <br/> • Global pollution and global climate change <br/> • Regional studies of resource consumption and/or nature conservation in open landscapes as well as in urban regions</p><p><i>Environmental Modelling &amp; Software</i> welcomes review articles on the topics above, especially ones that relate to generic modelling and/or software issues, or are cross-disciplinary in their problem treatment. <br/> Potential authors of review articles should contact the Editor-in-Chief to discuss the topic and coverage of their review. The journal has also published several Position Papers on key topics within its aims and scope at <a href=\"http://www.iemss.org/society/index.php/position-papers\">http://www.iemss.org/society/index.php/position-papers</a></p><p>We encourage those interested in organizing a special issue or a virtual special issue within the scope of the journal to contact Prof. Min Chen or <a href=\"mailto:envsoft@elsevier.com\">envsoft@elsevier.com</a> for more information. Additionally, we encourage potential organizers to carefully review the relevant requirements in the Guide for Authors before proceeding. Please note that each special issue can only accept up to three guest editors (GEs).</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Min Chen | Sondoss El Sawah",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 2
+            },
+            {
+              "name": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+              "tier": 3
+            },
+            {
+              "name": "WATER RESOURCES",
+              "tier": 2
+            },
+            {
+              "name": "ENGINEERING, ENVIRONMENTAL",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3570,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 36,
+        "title": "Agrifood Systems",
+        "acronym": "AGFS",
+        "emAcronym": "AGFS",
+        "issn": "3051-2794",
+        "subjectAreas": [
+          "Soil Science",
+          "Agronomy and Crop Science",
+          "Agricultural and Biological Sciences (General)",
+          "Food Science"
+        ],
+        "articleTypes": [
+          "Research Article",
+          "Review",
+          "Short Communication",
+          "Matters Arising"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30512794.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/agfs/default2.aspx",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p><i>Agrifood Systems </i>provides researchers and policymakers with solid evidence and expert insights to support the sustainable transformation of agri-food systems. The journal covers the following topics:</p><ul><li><p>Green production and biodiversity conservation</p></li></ul><p>Prevention and remediation of soil contamination; Control of agricultural non-point source pollution; Resource utilization of agrifood waste; Conservation of agricultural biodiversity.</p><ul><li><p>Carbon sequestration and GHG mitigation</p></li></ul><p>Carbon cycling and sequestration in agroecosystems; N<sub>2</sub>O and CH<sub>4</sub> mitigation strategies in agriculture; Clean and efficient utilization of energy for food production; Indirect carbon footprint of food production; GHG mitigation in relation to food storage, transport and consumption. </p><ul><li><p>Climate impacts and adaption </p></li></ul><p>Impacts of climate change and related extreme events on agroecosystems and food production; Agroecosystems feedback to climate change; Climate resilience technology and adaptation strategies in agrifood systems. </p><ul><li><p>Smart and efficient production</p></li></ul><p>Agricultural big data and information collection; Agricultural modeling and intelligent decision making; Intelligent agricultural machinery and equipment; Intelligent monitoring and traceability of food; Intelligent processing, package and storage of food. </p><ul><li><p>Food safety and nutrition </p></li></ul><p>Food productivity and security; Quality safety testing and control for agricultural products and food; Food nutrition and public health; Functional food development; Personalized food custom.</p><p><a href=\"https://www.keaipublishing.com/en/journals/agrifood-systems/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 37,
+        "title": "Global Environmental Change Advances",
+        "acronym": "GECADV",
+        "emAcronym": "GECADV",
+        "issn": "2950-1385",
+        "subjectAreas": [
+          "Global and Planetary Change"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29501385.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/GECADV",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/global-environmental-change-advances/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 1.9
+          },
+          "timeToFirstDecision": {
+            "value": 3
+          }
+        },
+        "scope": "<p><b>This exciting new title is a companion title to </b><a href=\"https://www.sciencedirect.com/journal/global-environmental-change\"><b>Global Environmental Change</b></a><b> and is now open for submissions.</b></p><p><i>GEC Advances</i> promotes new understanding of all aspects of environmental change with global relevance, spanning from the social to the natural sciences, and their inter-linked dynamics.</p><p><i>GEC Advances</i> aims at advancing the physical and biological dimensions of Global Environmental Change as well as its underlying social, economic and policy processes, covering the nature, drivers, consequences, management and impacts of global change, with a focus on proposing applications, forecasts and solutions to environmental change issues.</p><p><b>Topics:</b> biodiversity, climate change, conservation, Food systems, ecosystem services, energy, health, natural resources.</p><p><b>Approaches:</b> applications to global environmental change policies, international environmental initiatives, land use and land cover issues, scenarios and pathways in global change, technology.</p><p><b>Systems:</b> biological and ecological systems, coasts and oceans, complex systems, nature-human coupled systems, urban areas.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Inés Ibáñez",
+        "isGuaranteedPeerReview": true,
+        "goldOpenAccessFee": {
+          "value": 2050,
+          "currency": "USD",
+          "discountedValue": 0,
+          "discountExpiryDate": "2026-12-31"
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 38,
+        "title": "Engineering",
+        "acronym": "ENG",
+        "emAcronym": "ENG",
+        "issn": "2095-8099",
+        "subjectAreas": [
+          "Environmental Science (General)",
+          "Agricultural and Biological Sciences (General)",
+          "Engineering (General)",
+          "Computer Science (General)"
+        ],
+        "articleTypes": [
+          "Feature Article",
+          "Perspective article",
+          "Protocol",
+          "Research Article",
+          "Review Article",
+          "VSI: AI for Smart Agriculture",
+          "VSI: AI for Water_FLA",
+          "VSI: AI-empowered Mega Deltas_FLA",
+          "VSI: AI4EE_FLA",
+          "VSI: AI4EE_Perspective",
+          "VSI: Additive Manufacturing",
+          "VSI: Building Decarbonization_FLA",
+          "VSI: Building Decarbonization_Perspective",
+          "VSI: Frontiers of Extreme Manufacturing",
+          "VSI: Green Chem Eng",
+          "VSI: Intelligent Drug Delivery",
+          "VSI: Nutr, Health & Longevity",
+          "VSI: Optoelectron Material E&S",
+          "VSI: RSSH cities with AI",
+          "VSI: ST-NECD",
+          "VSI: Smart Proc Manufact",
+          "VSI: Tissue Eng",
+          "VSI: Unmanned Systems",
+          "VSI:Artificial Intelligence",
+          "VSI:Intelligent Manufacturing",
+          "VSI: AI for Water_REV",
+          "VSI: AI-empowered Mega Deltas_REV",
+          "VSI: AI4EE_REV",
+          "VSI: Building Decarbonization_REV"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/20958099.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/eng/default.aspx",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/engineering/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 19.4
+          },
+          "impactFactor": {
+            "value": 12.2
+          },
+          "timeToFirstDecision": {
+            "value": 6
+          }
+        },
+        "scope": "<p>The official journal of the <a href=\"https://en.cae.cn/cae/html/en/index.html\">Chinese Academy of Engineering</a> and <a href=\"https://www.hep.com.cn/\">Higher Education Press</a></p><p><i>Engineering</i> is an international open-access journal that was launched by the Chinese Academy of Engineering (CAE) in 2015. Its aims are to provide a high-level platform where cutting-edge advancements in engineering R&amp;D, current major research outputs, and key achievements can be disseminated and shared; to report progress in engineering science, discuss hot topics, areas of interest, challenges, and prospects in engineering development, and consider human and environmental well-being and ethics in engineering; to encourage engineering breakthroughs and innovations that are of profound economic and social importance, enabling them to reach advanced international standards and to become a new productive force, and thereby changing the world, benefiting humanity, and creating a new future.</p><p>We are interested in:</p><p>(1) News &amp; Highlights— This section covers engineering news from a global perspective and includes updates on engineering issues of high concern;</p><p>(2) Views &amp; Comments— This section is aimed at raising academic debates in scientific and engineering community, encouraging people to express new ideas, and providing a platform for the comments on some comprehensive issues;</p><p>(3) Research— This section reports on outstanding research results in the form of research articles, reviews, perspectives, and short communications regarding critical engineering issues, and so on.</p><p>All manuscripts must be prepared in English, and are subject to a rigorous and fair peer-review process. Accepted papers will immediately appear online, and will be translated into Chinese.</p><p>The contents of our journal are based on the disciplines covered by the nine CAE divisions:</p><p>• Mechanical and Vehicle Engineering <br/> • Information and Electronic Engineering <br/> • Chemical, Metallurgical, and Materials Engineering <br/> • Energy and Mining Engineering <br/> • Civil, Hydraulic, and Architecture Engineering <br/> • Agriculture <br/> • Environment&amp;Light and Textile Industries Engineering <br/> • Medicine and Health Care <br/> • Engineering Management</p><p>Please see our <a href=\"https://www.elsevier.com/journals/engineering/2095-8099/guide-for-authors\">Guide for Authors</a> for information on article submission. If you require any further information or help, please visit our <a href=\"https://service.elsevier.com\">support pages</a>.</p><p><b>Background</b></p><p>The CAE is the highest honorary and consultative academic institution in engineering science and technology in China. It consists of more than 800 CAE members, and is devoted to promoting the development of engineering science.</p><p>Academic research spearheads the development of engineering science and technology. To better lead engineering development and to provide a high-level international platform for engineering exchanges, the CAE worked with world-renowned engineering experts and scholars to launch Engineering. This initiative has received continuous responses and strong support from UNESCO, the International Council of Academies of Engineering and Technological Sciences (CAETS) member academies, and celebrated experts and scholars.</p><p>The contents of our journal are based on the disciplines covered by the nine CAE divisions:</p><p><b>Mechanical and Vehicle Engineering</b></p><ul><li><p>Mechanical engineering</p></li><li><p>Weapons science and technology</p></li><li><p>Vessel and ocean engineering</p></li><li><p>Power and electrical equipment engineering and technologies</p></li><li><p>Aeronautics and astronautics</p></li><li><p>Transport engineering</p></li></ul><p><b>Information and Electronic Engineering</b></p><ul><li><p>Electronic science and technology</p></li><li><p>Information and communication engineering</p></li><li><p>Optical engineering and technology</p></li><li><p>Computer science and technology</p></li><li><p>Instrument science and technology</p></li><li><p>Control science and technology</p></li></ul><p><b>Chemical, Metallurgical, and Materials Engineering</b></p><ul><li><p>Chemical engineering and technology</p></li><li><p>Materials science and engineering</p></li><li><p>Metallurgical engineering and technology</p></li></ul><p><b>Energy and Mining Engineering</b></p><ul><li><p>Nuclear science, technology, and engineering</p></li><li><p>Energy and electric science, technology, and engineering</p></li><li><p>Mining science, technology, and engineering</p></li><li><p>Geological resource science, technology, and engineering</p></li></ul><p><b>Civil, Hydraulic, and Architecture Engineering</b></p><ul><li><p>Civil engineering</p></li><li><p>Mapping engineering</p></li><li><p>Urban &amp; rural planning and landscaping</p></li><li><p>Water conservancy engineering</p></li><li><p>Architecture engineering</p></li></ul><p><b>Environment &amp; Light and Textile Industries Engineering</b></p><ul><li><p>Environmental science and technology</p></li><li><p>Environmental engineering</p></li><li><p>Meteorological science</p></li><li><p>Food science and engineering</p></li><li><p>Light industry technology and engineering</p></li><li><p>Textile science and engineering</p></li><li><p>Marine science and engineering</p></li></ul><p><b>Agriculture</b></p><ul><li><p>Crop science</p></li><li><p>Forestry</p></li><li><p>Agro-biological engineering</p></li><li><p>Agricultural engineering</p></li><li><p>Horticulture</p></li><li><p>Forestry engineering</p></li><li><p>Agricultural resources</p></li><li><p>Animal husbandry</p></li><li><p>Plant protection</p></li><li><p>Veterinary science</p></li><li><p>Applied ecology</p></li><li><p>Fisheries</p></li></ul><p><b>Medicine and Health Care</b></p><ul><li><p>Basic medicine</p></li><li><p>Medical informatics and biomedical engineering</p></li><li><p>Clinical medicine</p></li><li><p>Oral medicine</p></li><li><p>Traditional Chinese medicine</p></li><li><p>Public health &amp; preventive medicine</p></li><li><p>Pharmaceutical engineering</p></li></ul><p><b>Engineering Management</b></p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Ji Zhou",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENGINEERING, MULTIDISCIPLINARY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Engineering",
+            "tier": 1,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 1300,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 39,
+        "title": "Journal of Environmental Sciences",
+        "acronym": "JES",
+        "emAcronym": "JESC",
+        "issn": "1001-0742",
+        "subjectAreas": [
+          "Environmental Science (General)"
+        ],
+        "articleTypes": [
+          "Research Article",
+          "Review Article",
+          "Highlight",
+          "VSI:in memory of XiaoguangMeng-Research Article",
+          "VSI:in memory of XiaoguangMeng - Review Article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/10010742.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/JESC",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-environmental-sciences/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 14.3
+          },
+          "impactFactor": {
+            "value": 6.5
+          },
+          "timeToFirstDecision": {
+            "value": 3
+          }
+        },
+        "scope": "<p><b>Journal of Environmental Sciences</b> is an international peer-reviewed journal established in 1989. It is sponsored by the Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences, and it is jointly published by Elsevier and Science Press. It aims to foster interdisciplinary communication and promote understanding of significant environmental issues. The journal seeks to publish significant and novel research on the fate and behaviour of emerging contaminants, human impact on the environment, human exposure to environmental contaminants and their health effects, and environmental remediation and management. Original research articles, critical reviews, highlights, and perspectives of high quality are published both in print and online.</p><p>Subjects <br/> Aquatic environment <br/> Atmospheric environment <br/> Biomonitoring and biomarkers <br/> Carbon-neutrality technology <br/> Emerging contaminants <br/> Environmental analysis and methods <br/> Environmental biology <br/> Environmental chemistry <br/> Environmental catalysis and nanomaterials <br/> Environmental health and toxicology <br/> Environmental microbiology <br/> Environmental nanotechnology <br/> Environmental remediation and management <br/> Terrestrial environment</p><p>Abstracting/Indexing</p><p>The journal is abstracted and indexed by SCI, EI, CC (ISI), CA (USA), PA (USA), Biosis(USA), BA(USA), Federal Agency for Nature Conservation (Germany), NAL Serials(USA), ASTA(USA), IRSD(Japan), WCS of EST(Liechtenstein), Geo Abstracts(UK) and Chinese Sci. and Tech. Journal Abstracts(China) etc.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Jiming Hao | X. Chris Le",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3000,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 40,
+        "title": "Aquatic Diversity and Ecology",
+        "acronym": "ADE",
+        "emAcronym": "ADE",
+        "issn": "3117-8634",
+        "subjectAreas": [
+          "Ecology",
+          "Water Science and Technology",
+          "Biochemistry, Genetics and Molecular Biology (General)",
+          "Aquatic Science"
+        ],
+        "articleTypes": [
+          "Research Article",
+          "Review Article",
+          "Short Communication",
+          "Case Report"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/31178634.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/ade/default.aspx",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p><i>Aquatic Diversity and Ecology</i> is a peer-reviewed, international and interdisciplinary research journal that aims to establish a premier international and interdisciplinary forum dedicated to advancing the integrated study of aquatic biodiversity and ecosystem processes. The journal seeks to address critical challenges in biodiversity conservation, ecological sustainability, and ecosystem service management by fostering innovation that bridges traditional ecology with cutting-edge technological and molecular approaches.</p><p>Scope</p><p>The journal publishes high-quality original research, reviews, case studies, and method-oriented articles that connect fundamental ecological questions with advanced analytical tools in aquatic environments. Core areas include, but are not limited to:</p><ul><li><p>Aquatic Biodiversity Research: Patterns, processes, and responses to global change.</p></li><li><p>Aquatic Ecosystem Functions: Mechanisms, monitoring, and sustainable use.</p></li><li><p>eDNA and Environmental Omics: Applications of eDNA, metagenomics, metabolomics, and bioinformatics.</p></li><li><p>Smart Waters and Digital Ecology: Innovations in remote sensing, modeling, big data analytics, and intelligent monitoring.</p></li><li><p>Ecological Restoration and practice: Science-based case studies, assessments, and solutions for ecosystem recovery.</p></li><li><p>Open Data and Methods: High-value datasets, long-term monitoring archives, novel algorithms, and reproducible protocols.</p></li></ul><p><a href=\"https://www.keaipublishing.com/en/journals/aquatic-diversity-and-ecology/editorial-board/\">Editorial Board</a></p>",
+        "openAccessType": "SUBSIDISED",
+        "goldOpenAccessFee": {
+          "value": 0,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      }
+    ],
+    "filterHistograms": {
+      "impactFactor": [
+        1,
+        4,
+        12,
+        8,
+        6,
+        7,
+        3,
+        4,
+        2,
+        1,
+        2
+      ],
+      "citeScore": [
+        0,
+        2,
+        2,
+        3,
+        11,
+        5,
+        4,
+        3,
+        4,
+        3,
+        17
+      ],
+      "publicationTime": [
+        1,
+        15,
+        7,
+        6,
+        3,
+        1,
+        4,
+        3,
+        3,
+        1,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "timeToFirstDecision": [
+        5,
+        2,
+        3,
+        7,
+        6,
+        7,
+        3,
+        6,
+        1,
+        3,
+        5,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "totalResults": 66,
+    "institute": {
+      "name": null,
+      "hasAgreements": false
+    }
+  }
+}

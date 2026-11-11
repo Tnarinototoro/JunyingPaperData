@@ -1,0 +1,68 @@
+10 PLOS 。
+Systematic Review Of Recreation Effects on An imals
+Table 2 ． General management recommendations suggested by authors articles included in the review.
+Recommendation
+SpatiaI restrictions
+Visitor education
+Cap visitation
+Temporal restrictions
+RuIe change
+PhysicaI
+improvements
+Other
+Enforcement
+Staff training
+NO recommendations
+ExampIes
+Designate a trai l-free area within protected area; establish minimum approach distances tO animals
+Ed ucate SCUBA divers about the impacts Of human contact on coral; instruct visitors about effects Of noise on
+sensitive species
+Li mit the number Of visitors that can ente r the area per day
+Li mit recreational access dunng the breeding season
+Restrict boat speed in sensitive areas; prohibit wildlife feeding
+Restore habitat; install fencing around sensitive areas
+Species translocations; increased use Of private land for conservation
+Enf0 rce leash laws ， keep people on trails
+Train staff tO recognize sig ns Of animal d istu rbance
+Frequency
+0
+32 ． 1
+15 ． 0
+14 ． 2
+13 ． 1
+9 ． 9
+2 ． 2
+40 ． 5
+percentages dO not tO 100 because some articles made more than one management recom mendation ．
+dOi:10 ． 1371 /jou rnaI.pone.0167259 ． t002
+StatisticaI analysis
+used linear regression tO assess trends in the tOtal number Of articles over time as well
+the proportion of included articles out of the total publication volume in the selected Journals.
+TO assess gaps in the literature, we used chi-square goodness Offit tests tO determine if the dis-
+tribution of articles differed significantly from an expected distribution. For journal type, the
+expected distribution was the proportion 0f j ournals in the journal set that belonged t0 each
+type. For geographic distribution, we compared the distribution of articles by continent to the
+total land area and human population density 0f each continent. For IUCN status and taxo
+nonuc groups, the expected distribution was the number ofknown species in each group,
+starting W1th the broadest groups and progressing down to Family when possible [ 57 ] ， We did
+not use chi-square tests if articles were counted under more than one category (e.g., articles
+examining multiple types 0f recreation ， such as hlkmg, bikmg, and equestrian) since this vi0
+lates the assumption Of independence.
+We estimated the amount Of evidence for a recreation impact as the overall percentage Of
+results that found a statistically significant effect Of recreation. These percentages were esti-
+mated for results summarized by taxonomic groups ， recreation activities ， and response types.
+Because most articles included multiple results, the percentages （ ± (E) we report are least-
+squares means and standard errors obtained from models that included article as a random
+effect. We used generalized linear mixed models (GLMMs) with a logit link function to esti-
+mate the frequency Of overall effects among taxonomic groups, recreatlon activlties, and
+response types, and we used proportional 0dds models [ 58 ] to estimate the proportion of over-
+all effects that were negatlve, positive, or unclear. All statistical analyses were conducted in R
+using packages lme4, ordinal, and lsmeans [ 59 一 62 ]
+ResuIts
+PubIication trends and geographic distribution
+The earliest articles discovered by our search were published in 198L and the peak year was
+2008 with 23 articles. The number 0f articles published per year that met our crlteria increased
+23 ． 5 ％ on average per year from 1981 to 20 巧 （ 阝 = 0 ． 66 ， 95 ％ CI = （ 0 ． 53 ， 0 ． 80 ） ， 户 < 0 ． 000D ．
+This increase was not solely a result Of increasing publication volume; the proportlon Of
+PLOS ONE 》 DOl:10.137100urnaI.pone 0167259 December8 ， 2016
+7 / 21

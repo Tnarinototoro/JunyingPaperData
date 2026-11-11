@@ -1,0 +1,59 @@
+[
+  {
+    "journal": "jnc",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&pageSize=10&sort_date:y&query=ISSN%3A1617-1381%20AND%20FIRST_PDATE%3A%5B2025-01-01%20TO%202026-11-09%5D%20AND%20OPEN_ACCESS%3AY",
+    "checked_date": "2026-11-09",
+    "status": 200,
+    "hitCount": 1,
+    "results": [
+      {
+        "id": "42326879",
+        "source": "MED",
+        "pmid": "42326879",
+        "pmcid": "PMC13276717",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13276717"
+          ]
+        },
+        "doi": "10.1016/j.jnc.2026.127304",
+        "title": "Rewilding reshapes gut microbiomes and parasite exposure in European bison: a 17‑month release from Wilder Blean.",
+        "authorString": "Edwards WJ, Salman Al-Adilee YM, Denoyelle C, Mackins H, Griffiths RA, Tsaousis AD.",
+        "journalTitle": "J Nat Conserv",
+        "journalVolume": "92",
+        "pubYear": "2026",
+        "journalIssn": "1617-1381; 1618-1093; ",
+        "pageInfo": "None",
+        "pubType": "research-article; journal article",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gca",
+            "doi"
+          ]
+        },
+        "firstPublicationDate": "2026-08-01",
+        "firstIndexDate": "2026-06-23"
+      }
+    ]
+  },
+  {
+    "journal": "jem",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&pageSize=10&sort_date:y&query=ISSN%3A0301-4797%20AND%20FIRST_PDATE%3A%5B2026-01-01%20TO%202026-11-09%5D%20AND%20OPEN_ACCESS%3AY",
+    "checked_date": "2026-11-09",
+    "status": 200,
+    "hitCount": 0,
+    "results": []
+  }
+]

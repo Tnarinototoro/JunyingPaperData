@@ -1,0 +1,57 @@
+{
+  "scope": "Independent read-only XLSX XML/CSV and precision interval QA; no raster scan, source selection, SEM or output package edits.",
+  "checks": {
+    "main_exact_ID_order_1_to_39": true,
+    "final_78_Z_cells_blank": true,
+    "no_workbook_formulas": true,
+    "same_number_identity_rows": true,
+    "history_not_used_to_reassign_ID": true,
+    "historical_original_source_not_claimed_confirmed": true,
+    "35_values_and_sources_exactly_match_reliable_scan": true,
+    "four_pending_IDs_are_9_18_28_32": true,
+    "four_parks_eight_candidates_exact": true,
+    "same_ID_precision_flags_correct": true,
+    "ring_matches_only_11": true,
+    "full_buffer_matches_11_26_30_31": true,
+    "all_four_workbook_tables_match_CSV_TSV": true,
+    "protected_original_SAV_XLSX_AMW_hashes_unchanged": true
+  },
+  "all_checks_pass": true,
+  "available_current_sources_n": 35,
+  "pending_ParkID": [
+    9,
+    18,
+    28,
+    32
+  ],
+  "final_Z_cells_confirmed_blank_n": 78,
+  "maximum_main_mean_difference": 0.0,
+  "same_ID_ring_match_ParkID": [
+    11
+  ],
+  "same_ID_full_buffer_match_ParkID": [
+    11,
+    26,
+    30,
+    31
+  ],
+  "numeric_mismatches": [],
+  "candidate_mismatches": [],
+  "precision_errors": [],
+  "protected_original_hash_checks": [
+    {
+      "input_kind": "original_SAV",
+      "matches_original_hash": true
+    },
+    {
+      "input_kind": "original_bilingual_XLSX",
+      "matches_original_hash": true
+    },
+    {
+      "input_kind": "original_AMW",
+      "matches_original_hash": true
+    }
+  ],
+  "code_review": "Production build uses scan ParkID order and same-ID lookups; cross-row fingerprints are history clues only. No code path writes original GIS/SAV/XLSX/AMW; derived notices/archives are separate.",
+  "privacy": "No park names, addresses or coordinates included."
+}

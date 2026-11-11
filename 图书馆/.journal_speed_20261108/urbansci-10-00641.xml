@@ -1,0 +1,2214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">urbansci</journal-id>
+      <journal-title-group>
+        <journal-title>Urban Science</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Urban Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Urban Science</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2413-8851</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/urbansci10110641</article-id>
+      <article-id pub-id-type="publisher-id">urbansci-10-00641</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Digital Industrial Agglomeration and Regional Market Integration: Evidence from Chinese Listed Firms</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Siwen</given-names>
+          </name>
+          <xref rid="af1-urbansci-10-00641" ref-type="aff">1</xref>
+          <xref rid="c1-urbansci-10-00641" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ma</surname>
+            <given-names>Huiru</given-names>
+          </name>
+          <xref rid="af1-urbansci-10-00641" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Xiangyi</given-names>
+          </name>
+          <xref rid="af2-urbansci-10-00641" ref-type="aff">2</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Bunea</surname>
+            <given-names>Ovidiu-Iulian</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Corbos</surname>
+            <given-names>Razvan-Andrei</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Popescu</surname>
+            <given-names>Ruxandra Irina</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-urbansci-10-00641"><label>1</label>School of International Economics and Trade, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/04v7yv031</institution-id><institution>Lanzhou University of Finance and Economics</institution></institution-wrap>, Lanzhou 730020, China</aff>
+      <aff id="af2-urbansci-10-00641"><label>2</label>Business School, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/0207yh398</institution-id><institution>Shandong University</institution></institution-wrap>, Weihai 264209, China</aff>
+      <author-notes>
+        <corresp id="c1-urbansci-10-00641"><label>*</label>Correspondence: <email>eswwang@163.com</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>11</issue>
+      <elocation-id>641</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>04</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>29</day>
+          <month>10</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>11</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the authors.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Digital industrial agglomeration (DIA) is reshaping regional economic connections, yet its relationship with market segmentation remains insufficiently understood. Using 15,793 firm-year observations of Chinese listed digital enterprises from 2012 to 2021, this study examines the relationship between DIA and regional market integration. Regression results&#x2019; effects reveal a significant negative association between DIA and market segmentation. This finding remains robust across alternative measurements, sample adjustments, model specifications, and supplementary instrumental-variable analyses. Mediation analyses provide evidence consistent with two potential channels: enhanced data-factor mobility and improved firm information transparency. Heterogeneity analyses indicate that the negative association is more pronounced in eastern China, regions with stronger innovation capacity, and labor-intensive firms. Furthermore, regional economic development and openness strengthen this relationship. These findings extend the understanding of digital industrial agglomeration beyond conventional economic outcomes by highlighting its relevance to regional market integration. The study offers policy insights into reducing cross-regional market frictions through improved data circulation, information transparency, and coordinated digital industrial development.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>digital industrial agglomeration</kwd>
+        <kwd>regional market integration</kwd>
+        <kwd>market segmentation</kwd>
+        <kwd>data factor mobility</kwd>
+        <kwd>information transparency</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>Key Project of Gansu Provincial Philosophy and Social Sciences Planning</funding-source>
+          <award-id>2025ZD01</award-id>
+        </award-group>
+        <funding-statement>This research was funded by the Key Project of Gansu Provincial Philosophy and Social Sciences Planning, grant number 2025ZD01.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-urbansci-10-00641" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Market segmentation remains an important institutional barrier to regional market integration and the efficient allocation of resources. By restricting the cross-regional mobility of goods and production factors, market segmentation can distort price signals, increase transaction costs, weaken economies of scale, and constrain market competition and innovation [<xref ref-type="bibr" rid="B1-urbansci-10-00641">1</xref>,<xref ref-type="bibr" rid="B2-urbansci-10-00641">2</xref>]. Although continued market-oriented reforms have improved regional integration in China, explicit and implicit barriers associated with local protectionism, inconsistent standards, information frictions, and institutional differences across regions have not been completely eliminated [<xref ref-type="bibr" rid="B3-urbansci-10-00641">3</xref>,<xref ref-type="bibr" rid="B4-urbansci-10-00641">4</xref>]. For firms operating across regional boundaries, such frictions can increase information-search and transaction costs, constrain market expansion, and impede the efficient organization of supply chains. Understanding the economic forces that can weaken these regional barriers therefore remains important for improving resource allocation and promoting the development of a more integrated domestic market.</p>
+      <p>At the same time, the rapid development of digital technologies is fundamentally reshaping the spatial organization of industries. Digital industries, including digital product manufacturing and digital technology services, increasingly exhibit a tendency toward spatial concentration. Unlike conventional industrial agglomeration, however, digital industrial agglomeration (DIA) is characterized not only by the geographical proximity of firms but also by network-based connections supported by digital platforms, data flows, and virtual collaboration. These characteristics may have important implications for regional market integration. On the one hand, digitalization can reduce information asymmetry, lower cross-regional transaction costs, improve factor matching, and facilitate the circulation of resources across administrative boundaries [<xref ref-type="bibr" rid="B5-urbansci-10-00641">5</xref>,<xref ref-type="bibr" rid="B6-urbansci-10-00641">6</xref>]. The concentration of digital firms may further reinforce these advantages by generating stronger information spillovers, denser digital networks, and more efficient resource matching. On the other hand, the concentration of digital resources does not necessarily lead to greater market integration. Data monopolization, exclusive platform rules, uneven digital infrastructure, and disparities in access to digital resources may create new forms of market barriers. Therefore, whether DIA ultimately alleviates or reinforces regional market segmentation remains an empirical question.</p>
+      <p>Existing research provides two relevant but relatively separate strands of evidence. The first strand examines market segmentation and emphasizes the importance of institutional arrangements, local protectionism, administrative intervention, and barriers to cross-regional factor mobility [<xref ref-type="bibr" rid="B1-urbansci-10-00641">1</xref>,<xref ref-type="bibr" rid="B4-urbansci-10-00641">4</xref>,<xref ref-type="bibr" rid="B6-urbansci-10-00641">6</xref>]. These studies have substantially advanced our understanding of why regional markets remain fragmented, but relatively less attention has been paid to how changes in the spatial organization of emerging industries may reshape such institutional and informational frictions. The second strand focuses on the economic consequences of digitalization and industrial agglomeration. Existing studies show that the digital economy and DIA can affect technological innovation, industrial upgrading, resource allocation, environmental performance, and regional economic resilience [<xref ref-type="bibr" rid="B7-urbansci-10-00641">7</xref>,<xref ref-type="bibr" rid="B8-urbansci-10-00641">8</xref>,<xref ref-type="bibr" rid="B9-urbansci-10-00641">9</xref>,<xref ref-type="bibr" rid="B10-urbansci-10-00641">10</xref>,<xref ref-type="bibr" rid="B11-urbansci-10-00641">11</xref>,<xref ref-type="bibr" rid="B12-urbansci-10-00641">12</xref>,<xref ref-type="bibr" rid="B13-urbansci-10-00641">13</xref>]. For example, recent evidence indicates that DIA can promote urban innovation and firms&#x2019; green innovation [<xref ref-type="bibr" rid="B11-urbansci-10-00641">11</xref>,<xref ref-type="bibr" rid="B12-urbansci-10-00641">12</xref>], while related research highlights its implications for low-carbon and green development [<xref ref-type="bibr" rid="B7-urbansci-10-00641">7</xref>,<xref ref-type="bibr" rid="B13-urbansci-10-00641">13</xref>]. Nevertheless, the intersection of these two strands of literature remains insufficiently explored. In particular, whether the spatial concentration of digital industries can weaken regional market barriers, and through which channels such a relationship may arise, has received limited systematic attention.</p>
+      <p>This gap is particularly relevant because the economic implications of DIA may extend beyond the conventional externalities associated with geographical concentration. Traditional agglomeration theory emphasizes economies of scale, knowledge spillovers, labor pooling, and proximity-based interactions. In the digital economy, these spatial externalities increasingly coexist with digital connectivity, platform coordination, and data-factor circulation. As a result, DIA may influence market integration not only by concentrating firms geographically but also by strengthening cross-regional information and resource networks. Data-factor mobility can improve the cross-regional matching of production factors and reduce the constraints imposed by administrative boundaries, while greater information transparency can lower search, verification, and transaction costs in cross-regional business activities. These characteristics distinguish DIA from conventional forms of industrial concentration and provide a basis for examining its implications for regional market segmentation.</p>
+      <p>Against this background, this study addresses three related questions. First, is a higher level of DIA associated with lower urban market segmentation? Second, are data-factor mobility and firm information transparency potential channels linking DIA to greater market integration? Third, under what regional and firm-level conditions is the relationship between DIA and market segmentation more pronounced? Addressing these questions helps connect the spatial organization of the digital economy with the institutional dimension of regional market integration and provides a more comprehensive understanding of how digital development interacts with persistent regional market barriers.</p>
+      <p>To investigate these questions, this study uses data on Chinese listed digital enterprises from 2012 to 2021 and matches firm-year observations with city-level measures of DIA and market segmentation. Digital enterprises are identified according to the Statistical Classification of Digital Economy and Its Core Industries (2021) issued by the National Bureau of Statistics of China, and the degree of DIA is measured on this basis. The empirical results show that a higher level of DIA is significantly associated with lower market segmentation, and this finding remains robust across alternative measurements, sample adjustments, model specifications, and supplementary endogeneity tests. Further analysis shows that DIA is positively associated with data-factor mobility and firm information transparency, providing evidence consistent with these two potential channels. The negative relationship between DIA and market segmentation also exhibits substantial heterogeneity: it is more pronounced in eastern regions, regions with stronger innovation capacity, and the labor-intensive subsample. In addition, regional economic development and openness strengthen the negative relationship between DIA and market segmentation.</p>
+      <p>This study makes three contributions to the literature. First, it connects research on digital industrial agglomeration with the literature on regional market segmentation. Previous studies on DIA have primarily examined its implications for innovation, productivity, industrial transformation, and environmental performance, whereas research on market segmentation has largely focused on institutional and governmental determinants [<xref ref-type="bibr" rid="B1-urbansci-10-00641">1</xref>,<xref ref-type="bibr" rid="B4-urbansci-10-00641">4</xref>]. By examining the relationship between DIA and regional market barriers, this study extends the economic consequences of digital agglomeration from conventional firm- and regional-level outcomes to the institutional dimension of market integration. In doing so, it provides a complementary perspective for understanding regional market integration in the digital economy. Second, this study highlights the roles of data-factor mobility and information transparency in linking digital agglomeration to market integration. DIA differs from conventional industrial agglomeration because geographical proximity increasingly operates together with digital platforms, data connectivity, and virtual networks. By examining data-factor mobility and firm information transparency, this study provides channel-related evidence on how the network characteristics of digital agglomeration may be associated with lower information and transaction frictions across regional markets. This perspective extends the conventional understanding of agglomeration externalities by emphasizing the importance of data and information in the relationship between industrial concentration and market integration. Third, this study identifies important boundary conditions of the relationship between DIA and market segmentation. The heterogeneity and moderating analyses show that the relationship varies with regional location, innovation capacity, factor intensity, economic development, and openness. These findings suggest that the market-integration implications of DIA depend on complementary regional and firm-level conditions rather than arising automatically from industrial concentration. Methodologically, this study further identifies digital enterprises according to the Statistical Classification of Digital Economy and Its Core Industries (2021) and constructs city-level DIA measures from firm-level information. This approach provides a consistent empirical basis for examining the spatial concentration of digital industries and its relationship with regional market segmentation.</p>
+    </sec>
+    <sec id="sec2-urbansci-10-00641">
+      <title>2. Theoretical Analysis and Research Hypotheses</title>
+      <sec id="sec2dot1-urbansci-10-00641">
+        <title>2.1. The Impact of DIA on Market Segmentation</title>
+        <p>DIA can alleviate market segmentation through several interconnected channels. It reduces information barriers through information spillovers and technological diffusion, lowers cross-regional mobility costs by leveraging digital infrastructure, improves resource allocation efficiency to weaken incentives for local protectionism, and enhances regional economic resilience to reduce the tendency toward policy-induced market segmentation [<xref ref-type="bibr" rid="B14-urbansci-10-00641">14</xref>,<xref ref-type="bibr" rid="B15-urbansci-10-00641">15</xref>].</p>
+        <p>First, DIA enhances cross-regional technological service capabilities through localized learning and collaborative innovation. Geographical proximity facilitates talent mobility, tacit knowledge diffusion, and repeated interactions [<xref ref-type="bibr" rid="B8-urbansci-10-00641">8</xref>], thereby reducing coordination costs associated with demand identification, system adaptation, and technological development. As mature technological solutions expand into other regional markets through software products, implementation teams, and interfirm cooperation, firms outside the agglomeration area can benefit from the technological capabilities developed within digital industrial clusters. This process reduces information search costs and operational coordination costs in cross-regional transactions. Second, DIA reduces the organizational costs of cross-regional transactions through specialized division of labor and shared services. Concentrated enterprise demand supports the development of specialized activities, including software development, system integration, and supply chain technology services, thereby improving the matching and integration efficiency of complementary services. The role of agglomeration therefore extends beyond facilitating the adoption of digital platforms to strengthening the capacity to supply specialized services. By expanding their customer bases and cooperation networks across regions, digital service providers extend locally developed advantages to cross-regional procurement, sales, and transaction fulfillment. This improves transaction efficiency and reduces market segmentation arising from technological and administrative barriers [<xref ref-type="bibr" rid="B16-urbansci-10-00641">16</xref>]. Third, DIA may weaken incentives for local protectionism by improving resource matching. The advantages in talent and specialized services generated by industrial agglomeration enable firms to identify supply and demand opportunities in other regions through cross-regional business connections, thereby increasing the benefits of regional specialization [<xref ref-type="bibr" rid="B16-urbansci-10-00641">16</xref>]. As local firms become increasingly dependent on external markets and intermediate inputs, protectionist measures may impose additional operating costs on these firms. When local governments can benefit from greater market openness, their incentives to establish regional market barriers may consequently diminish [<xref ref-type="bibr" rid="B17-urbansci-10-00641">17</xref>]. Fourth, DIA enhances regional economic resilience through shared services and coordinated adjustments. Diversified cross-regional business connections also enable firms to identify alternative suppliers and customers when external shocks occur, thereby alleviating pressures on business operations and employment. These capabilities may reduce local governments&#x2019; incentives to adopt protectionist measures to maintain short-term economic stability. When confronted with external shocks, regions with well-developed digital industries can restore economic stability more rapidly through online economic activities and remote collaboration [<xref ref-type="bibr" rid="B18-urbansci-10-00641">18</xref>]. By mitigating economic fluctuations, DIA may ease the pressures faced by local governments during periods of instability and reduce the likelihood of market segmentation policies being adopted in pursuit of short-term stability.</p>
+        <p>In summary, the distinctive advantage of DIA lies in its ability to facilitate specialized division of labor, talent matching, and knowledge exchange through geographical proximity, thereby strengthening the development and coordinated provision of digital services. These locally generated advantages are subsequently transmitted beyond agglomeration areas through cross-regional service provision and business networks, translating into lower interregional transaction frictions and, ultimately, reduced market segmentation.</p>
+        <statement>
+          <label><bold>Hypothesis&#xA0;1.</bold>&#xA0;</label>
+          <p><italic>The greater the level of DIA, the lower the degree of market segmentation</italic>.</p>
+        </statement>
+      </sec>
+      <sec id="sec2dot2-urbansci-10-00641">
+        <title>2.2. DIA and the Circulation of Data Factors</title>
+        <p>Within the theoretical framework of market economy, the full and free mobility of production factors and resources is regarded as a key prerequisite for enhancing resource allocation efficiency and firm output [<xref ref-type="bibr" rid="B4-urbansci-10-00641">4</xref>]. However, in traditional market structures, factor mobility is often constrained by inherent regional barriers, making circulation highly costly. Digital industries, by virtue of their unique attributes, demonstrate a significant capacity to break through these traditional constraints [<xref ref-type="bibr" rid="B19-urbansci-10-00641">19</xref>]. Traditional theories emphasize that the geographical agglomeration of industries generates positive externalities by expanding the scale of corporate interactions and facilitating the combination of complementary resources [<xref ref-type="bibr" rid="B20-urbansci-10-00641">20</xref>], which aids in the spillover of tacit knowledge that relies on geographical proximity [<xref ref-type="bibr" rid="B21-urbansci-10-00641">21</xref>]. Nevertheless, the mechanism of DIA has evolved beyond a single mode of spatial concentration. Through the dual pathways of geographical and virtual agglomeration, it constructs cross-regional connection networks that greatly strengthen the circulation efficiency of data factors [<xref ref-type="bibr" rid="B12-urbansci-10-00641">12</xref>]. This fundamentally weakens market segmentation and contributes to the advancement of market integration.</p>
+        <p>First, the geographical agglomeration of digital industries manifests as &#x201C;functional agglomeration&#x201D;. A specialized organizational structure centered on digital industrial parks provides the physical carrier for the generation, aggregation, and processing of data factors. This form of agglomeration not only enhances the accessibility and processability of data but also lays the foundation for the cross-regional mobility of factors [<xref ref-type="bibr" rid="B16-urbansci-10-00641">16</xref>]. Second, virtual agglomeration further strengthens the cross-regional mobility of data factors [<xref ref-type="bibr" rid="B14-urbansci-10-00641">14</xref>]. The characteristics of data factors&#x2014;such as replicability, shareability, and infinite appreciation&#x2014;grant them &#x201C;multiplier&#x201D; and &#x201C;amplification&#x201D; effects throughout the entire process of collection, storage, utilization, and transaction [<xref ref-type="bibr" rid="B22-urbansci-10-00641">22</xref>]. As the core vehicle of virtual agglomeration, digital platforms construct an industrial ecological network with a well-developed structure and comprehensive factors. Digital platforms transcend geographical boundaries, enabling firms to flexibly allocate cross-regional resources within &#x201C;virtual space&#x201D;. Third, the synergistic effect of geographical and virtual agglomeration significantly weakens regional barriers. Together, they promote the cross-domain and multi-agent reuse of data, accelerating knowledge spillovers and value release while weakening the restrictions of administrative boundaries on factor mobility. When enterprises can achieve cross-regional sharing, matching, and collaboration through data factors, the mechanisms of market segmentation&#x2014;originally formed based on information blockades, local standards, and administrative barriers&#x2014;are inevitably undermined [<xref ref-type="bibr" rid="B23-urbansci-10-00641">23</xref>]. Finally, the cross-regional flow of data factors itself drives the formation of unified standards. Cross-regional technical interconnection and business synergy further compel different regions to construct unified data standards, trading rules, and regulatory mechanisms [<xref ref-type="bibr" rid="B9-urbansci-10-00641">9</xref>]. The standardization of rules directly reduces institutional transaction costs and eliminates digital barriers caused by regulatory disparities, providing an institutional foundation for reducing market segmentation. Based on this, the following hypothesis is proposed:</p>
+        <statement>
+          <label><bold>Hypothesis&#xA0;2.</bold>&#xA0;</label>
+          <p><italic>The greater the level of DIA, the higher the level of data factor mobility, which subsequently contributes to a lower degree of market segmentation</italic>.</p>
+        </statement>
+      </sec>
+      <sec id="sec2dot3-urbansci-10-00641">
+        <title>2.3. DIA and Information Transparency</title>
+        <p>In traditional economic systems, local protectionism often relies on information asymmetry to implement regional monopolies, making it difficult for cross-regional market entities to obtain sufficient and reliable information, which in turn raises transaction costs and exacerbates market segmentation [<xref ref-type="bibr" rid="B24-urbansci-10-00641">24</xref>]. Therefore, improving market information transparency is one of the key pathways to weakening market segmentation [<xref ref-type="bibr" rid="B25-urbansci-10-00641">25</xref>].</p>
+        <p>DIA weakens implicit barriers at their source and promotes market integration by enhancing information transparency. In emerging digital economies, implicit barriers often arise not from explicit administrative restrictions but from limited access to market information, insufficient knowledge about external suppliers and competitors, and uncertainty regarding cross-regional transactions. These barriers increase the costs for firms to enter unfamiliar markets and hinder the formation of efficient interregional market connections. First, DIA improves the visibility and passive spillover of information within the market. In an agglomeration area, corporate behaviors such as product pricing and service models exist in an open and observable environment [<xref ref-type="bibr" rid="B26-urbansci-10-00641">26</xref>]. Competitive pressures compel information to become more publicized, thereby eroding the space for local governments to construct barriers based on information blockades. During this process, as data undergoes cleaning, processing, and standardization, market entities no longer need to invest significant costs in information verification. The information becomes more unified and credible [<xref ref-type="bibr" rid="B27-urbansci-10-00641">27</xref>], thereby reducing market segmentation caused by information asymmetry. Second, DIA strengthens the data integration and analysis capabilities of enterprises, further reducing information costs within cross-regional markets. Within agglomeration zones, firms are able to transform originally dispersed and tacit market information into accessible and quantifiable explicit data products. This not only enhances the predictability of the market environment for cross-regional enterprises but also lowers the costs associated with the &#x201C;search-comparison-verification&#x201D; stages in cross-market transactions, facilitating smoother cross-regional operations and thereby weakening market segmentation [<xref ref-type="bibr" rid="B28-urbansci-10-00641">28</xref>]. Finally, virtual agglomeration promotes market transparency through platform rules. As the core of virtual agglomeration, the business models of digital platform firms require unified rules and open processes, strengthening transaction transparency through algorithms and institutional frameworks. The formation of a unified online rule system limits the possibility of protectionism via opaque institutions, while the emergence of virtual market rules compresses the space for implicit segmentation. In summary, by enhancing market information transparency, DIA effectively reduces institutional transaction costs and the scope for local protectionism induced by information asymmetry, thereby lowering the degree of market segmentation. Based on this, the following hypothesis is proposed:</p>
+        <statement>
+          <label><bold>Hypothesis&#xA0;3.</bold>&#xA0;</label>
+          <p><italic>The greater the level of DIA, the higher the level of firm information transparency, which subsequently contributes to a lower degree of market segmentation</italic>.</p>
+        </statement>
+      </sec>
+    </sec>
+    <sec id="sec3-urbansci-10-00641">
+      <title>3. Empirical Research Design</title>
+      <sec id="sec3dot1-urbansci-10-00641">
+        <title>3.1. Data Sources and Processing</title>
+        <p>This study selects data covering the period from 2012 to 2021. Since 2012, digital economy has entered a phase of rapid development. The data for this period are relatively complete and highly accessible, ensuring the continuity and reliability of our measurements. Furthermore, as the National Bureau of Statistics of China released the Statistical Classification of Digital Economy and Its Core Industries (2021) in 2021, setting the research interval up to this year allows for a comprehensive coverage of the digital economy&#x2019;s evolution from its inception to standardized development. This provides systematic time-series support for analyzing the dynamic effects of DIA on market segmentation. The core variables and corporate financial indicators used in this paper are sourced from the China Stock Market &amp; Accounting Research (CSMAR) database, as well as various provincial and municipal statistical yearbooks. To enhance data reliability and comparability, the original sample was screened and cleaned: (1) observations with significant missing data were excluded; (2) listed company samples designated as ST or ST* in the current year were removed. This process yielded a final dataset of 15,793 observations.</p>
+      </sec>
+      <sec id="sec3dot2-urbansci-10-00641">
+        <title>3.2. Variable Selection and Description</title>
+        <sec id="sec3dot2dot1-urbansci-10-00641">
+          <title>3.2.1. Dependent Variable</title>
+          <p>This study designates the market segmentation index as the core dependent variable. Cross-regional commodity flows, market arbitrage, and competition facilitate price adjustments and information transmission across regions. Under otherwise comparable conditions, closer market linkages tend to generate greater co-movement in the prices of similar goods across regions. Conversely, greater barriers to cross-regional transactions may constrain interregional price adjustments, potentially leading to larger differences in price movements. Therefore, differences in consumer price changes across cities provide a basis for assessing the degree of product market segmentation. Following the methodology of Huang et al. [<xref ref-type="bibr" rid="B6-urbansci-10-00641">6</xref>], market segmentation is measured using inter-city relative price fluctuations derived from the Consumer Price Index (CPI). The underlying rationale is that, under an integrated market, prices of homogeneous goods tend to converge across cities. Therefore, persistent differences in relative price movements reflect the existence of market barriers and regional segmentation.</p>
+          <p>To ensure comparability across cities and years, this study consistently employs seven categories of consumer goods, including food; tobacco, liquor and related supplies; clothing; household facilities and supplies; medical care and health supplies; transportation and communication; and cultural, educational and entertainment services. Since the CPI is reported as a chain index with the previous year as the base period, the logarithmic first difference in the price index is used to calculate the relative price change between city <italic>i</italic> and city <italic>j</italic> for commodity category <italic>k</italic>:
+            <disp-formula id="FD1-urbansci-10-00641"><label>(1)</label><mml:math display="block" id="mm1"><mml:semantics><mml:mrow><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:msubsup><mml:mi>Q</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mi>k</mml:mi></mml:msubsup><mml:mo>=</mml:mo><mml:mi>l</mml:mi><mml:mi>n</mml:mi><mml:mfenced open="(" close=")"><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:msubsup><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mi>k</mml:mi></mml:msubsup><mml:msubsup><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>k</mml:mi></mml:msubsup></mml:mfrac></mml:mstyle></mml:mfenced><mml:mo>&#x2212;</mml:mo><mml:mi>l</mml:mi><mml:mi>n</mml:mi><mml:mfenced open="(" close=")"><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:msubsup><mml:mi>P</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mi>k</mml:mi></mml:msubsup><mml:msubsup><mml:mi>P</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mi>t</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>k</mml:mi></mml:msubsup></mml:mfrac></mml:mstyle></mml:mfenced></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula> where <inline-formula><mml:math id="mm2"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>P</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mi>k</mml:mi></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the CPI of commodity category <italic>k</italic> in city <italic>i</italic> during year <italic>t</italic>.</p>
+          <p>To eliminate the common national inflation trend shared across cities, the mean relative price change for each commodity category is removed. The de-meaned relative price fluctuation is therefore calculated as
+            <disp-formula id="FD2-urbansci-10-00641"><label>(2)</label><mml:math display="block" id="mm3"><mml:semantics><mml:mrow><mml:mrow><mml:msubsup><mml:mi>q</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mi>k</mml:mi></mml:msubsup><mml:mo>=</mml:mo><mml:mo>&#x2206;</mml:mo><mml:msubsup><mml:mi>Q</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mi>k</mml:mi></mml:msubsup><mml:mo>&#x2212;</mml:mo><mml:mover accent="true"><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:msubsup><mml:mi>Q</mml:mi><mml:mi>t</mml:mi><mml:mi>k</mml:mi></mml:msubsup></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula> where <inline-formula><mml:math id="mm4"><mml:semantics><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mo>&#x2206;</mml:mo><mml:msubsup><mml:mi>Q</mml:mi><mml:mi>t</mml:mi><mml:mi>k</mml:mi></mml:msubsup></mml:mrow><mml:mo>&#xAF;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> represents the average relative price change across all city pairs for commodity category <italic>k</italic> in year <italic>t</italic>.</p>
+          <p>Subsequently, the variance of the de-meaned relative price fluctuations is calculated for each city pair to capture the volatility of inter-city relative prices. Larger price fluctuations indicate stronger market barriers and lower market integration. Finally, the market segmentation index for each city is obtained by averaging the variances across all city pairs:
+            <disp-formula id="FD3-urbansci-10-00641"><label>(3)</label><mml:math display="block" id="mm5"><mml:semantics><mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:mi>G</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mn>1</mml:mn><mml:mi>N</mml:mi></mml:mfrac></mml:mstyle><mml:mrow><mml:munder><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>&#x2260;</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:munder><mml:mrow><mml:mi>V</mml:mi><mml:mi>a</mml:mi><mml:mi>r</mml:mi><mml:mo>(</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula> where <italic>N</italic> denotes the number of city pairs associated with city <italic>i.</italic> A larger value of SEG indicates a higher degree of market segmentation.</p>
+        </sec>
+        <sec id="sec3dot2dot2-urbansci-10-00641">
+          <title>3.2.2. Independent Variable</title>
+          <p>DIA refers to the relative geographical concentration of digital industry enterprises and their production and business activities within a particular area. Its defining characteristic is the spatial concentration of digital industrial economic activities, whereas economies of scale, knowledge spillovers, and cross-regional digital network connections represent potential economic effects and extensions of such agglomeration. The geographical concentration of digital industrial activities provides an important spatial foundation for these mechanisms to operate.</p>
+          <p>Based on this conceptual framework, this study measures the degree of DIA using a location quotient (LQ) based on firms&#x2019; main business revenue. Specifically, following the Statistical Classification of the Digital Economy and Its Core Industries (2021) issued by the National Bureau of Statistics of China, we identify and select sample firms according to the defined scope of digital economy industries and their corresponding industry codes. Firms belonging to 25 major categories under the national economic industry classification are identified as digital economy enterprises and included in the research sample. The degree of DIA is then measured using the location quotient, which is calculated as follows:
+            <disp-formula id="FD4-urbansci-10-00641"><label>(4)</label><mml:math display="block" id="mm6"><mml:semantics><mml:mrow><mml:mrow><mml:mi>A</mml:mi><mml:msub><mml:mi>gg</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:mi>q</mml:mi></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula> where <italic>q</italic> represents the total operating revenue of all enterprises nationwide, <italic>q<sub>i</sub></italic> denotes the sum of operating revenue realized by all enterprises within city <italic>i</italic>, and <italic>q<sub>j</sub></italic> corresponds to the operating revenue realized by the <italic>j</italic> enterprise on a national scale. <italic>q<sub>ij</sub></italic> represents the operating revenue of enterprise <italic>j</italic> located in city <italic>i</italic>. A higher value of the index indicates a greater relative concentration of digital industrial economic activities within a city.</p>
+          <p>Regarding the measurement of DIA, previous studies have constructed location quotients based on employment in digital industries, primarily capturing the relative geographical concentration of digital industries from the perspective of labor input. However, digital enterprises differ in capital investment, technology adoption, and labor productivity, meaning that employment and business scale do not necessarily change proportionally. For firms with relatively small workforces but substantial business operations, employment-based location quotients assign relatively less weight to their economic activities and may therefore fail to fully capture the spatial distribution of digital industrial activity. In contrast, a location quotient based on operating revenue accounts for differences in the scale of firms&#x2019; business operations and is more consistent with the objective of this study, which examines the relationship between the concentration of digital industrial economic activities and market segmentation. Accordingly, this study employs the revenue-based location quotient as the baseline measure of DIA. As a robustness check, following Xu et al. (2025) [<xref ref-type="bibr" rid="B29-urbansci-10-00641">29</xref>], we replace this measure with an employment-based location quotient to examine whether the empirical findings depend on the specific measurement approach.</p>
+          <p><xref ref-type="fig" rid="urbansci-10-00641-f001">Figure 1</xref> illustrates the degree of DIA across industries from 2012 to 2021. The color intensity shows the level of agglomeration. Warmer colors mean a higher level of concentration. The values are calculated using industry-level location quotients and then aggregated to the city level. This measure captures differences across industries and changes over time in DIA.</p>
+        </sec>
+        <sec id="sec3dot2dot3-urbansci-10-00641">
+          <title>3.2.3. Control Variables</title>
+          <p>This paper includes several control variables related to digital industry firms. These variables are Tobin&#x2019;s Q (TobinQ), firm size (Size), return on assets (ROA), debt-to-equity ratio (DER), and ownership nature (State). It also controls for factors that may affect market segmentation. These include per capita income (Lnpgdp), the level of openness (FDI), and government intervention (Gov). These controls help ensure a clear evaluation of how DIA influences market segmentation.The descriptive statistics of the variables used in this study are presented in <xref ref-type="table" rid="urbansci-10-00641-t001">Table 1</xref>.</p>
+          <p><xref ref-type="fig" rid="urbansci-10-00641-f002">Figure 2</xref> presents the distribution of market segmentation across Chinese cities in selected years. The median level of market segmentation increases from 2012 to 2015, but it falls in the later years. Large differences across cities remain during the sample period. These results suggest that market integration has improved, but city-level gaps are still clear. This motivates the following analysis on whether DIA can reduce market segmentation in a stable way.</p>
+          <p><xref ref-type="fig" rid="urbansci-10-00641-f003">Figure 3</xref> illustrates the temporal coverage and panel composition of the sample. Specifically, <xref ref-type="fig" rid="urbansci-10-00641-f003">Figure 3</xref>a shows that the annual number of sampled firms increased from 1086 in 2012 to 2385 in 2021, while <xref ref-type="fig" rid="urbansci-10-00641-f003">Figure 3</xref>b indicates that the number of cities covered increased from 145 to 182 over the same period. These trends suggest a gradual expansion in both sample size and geographical coverage. <xref ref-type="fig" rid="urbansci-10-00641-f003">Figure 3</xref>c further presents the distribution of the number of years for which firms are observed. A total of 868 firms are observed in all 10 years, accounting for 33.96% of the unique firms in the sample.</p>
+          <p><xref ref-type="fig" rid="urbansci-10-00641-f004">Figure 4</xref> further illustrates the spatial concentration of sample firms at both the regional and city levels. Using the total number of sampled firms in each year as the denominator, <xref ref-type="fig" rid="urbansci-10-00641-f004">Figure 4</xref>a presents the distribution of firms across eastern, central, western, and northeastern China. Eastern China consistently accounts for the largest share throughout the sample period, indicating that the geographical concentration of sample firms in this region persists over time. Based on the number of unique firms observed over the entire sample period, eastern, central, western, and northeastern China account for 1895, 304, 263, and 94 firms, representing 74.14%, 11.89%, 10.29%, and 3.68% of the total, respectively. <xref ref-type="fig" rid="urbansci-10-00641-f004">Figure 4</xref>b identifies the 15 cities with the largest numbers of unique firms over the sample period, with Shenzhen, Beijing, and Shanghai ranking among the top cities. The top 10 cities collectively account for 1321 firms, representing 51.68% of all unique firms in the sample.</p>
+          <p><xref ref-type="fig" rid="urbansci-10-00641-f005">Figure 5</xref> illustrates the spatial distribution of sample firm density across Chinese cities in 2012 and 2021. Consistent geographical boundaries and classification thresholds are applied to both years to enhance comparability over time. Sample firms are primarily concentrated in eastern coastal regions and several major urban centers, exhibiting a pronounced pattern of spatial concentration. Compared with 2012, the geographical coverage of the sample expanded in 2021, and the density of sample firms increased in some cities.</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot3-urbansci-10-00641">
+        <title>3.3. Model Specification</title>
+        <p>To examine whether DIA can significantly reduce the degree of market segmentation, this study constructs the following baseline regression model: 
+          <disp-formula id="FD5-urbansci-10-00641"><label>(5)</label><mml:math display="block" id="mm7"><mml:semantics><mml:mrow><mml:mrow><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mi>A</mml:mi><mml:mi>g</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mi>C</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>l</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3C4;</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mstyle></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The subscripts <italic>i</italic> and <italic>t</italic> in the model denote the firm and the year, respectively. <italic>SEG<sub>it</sub></italic> represents the market segmentation index, while <italic>Agg<sub>it</sub></italic> represents the development level of DIA, <italic>Control<sub>it</sub></italic> refers to the set of control variables. Additionally, <italic>&#x3C4;<sub>t</sub></italic> and <italic>&#x3C1;<sub>c</sub></italic> represent year fixed effects and city fixed effects, respectively. Standard errors are clustered at the city level.</p>
+        <p>To further verify the underlying mechanisms through which DIA influences market segmentation, and to control for unobservable factors that do not vary over time or across individual firms, this study constructs a fixed-effects model similar in structure to the baseline specification:
+          <disp-formula id="FD6-urbansci-10-00641"><label>(6)</label><mml:math display="block" id="mm8"><mml:semantics><mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:mi mathvariant="normal">e</mml:mi><mml:mi>c</mml:mi><mml:mi>h</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>i</mml:mi><mml:mi>s</mml:mi><mml:msub><mml:mi>m</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mi>A</mml:mi><mml:mi>g</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mi>C</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>l</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3C4;</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mstyle></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula> where <italic>Mechanism<sub>it</sub></italic> represents the mediating variables through which DIA influences market segmentation. These are specifically categorized into data factor mobility and information transparency. The definitions and economic implications of the remaining variables are consistent with those in Equation (5).</p>
+      </sec>
+    </sec>
+    <sec id="sec4-urbansci-10-00641">
+      <title>4. Empirical Testing</title>
+      <sec id="sec4dot1-urbansci-10-00641">
+        <title>4.1. Baseline Regression Results</title>
+        <p><xref ref-type="table" rid="urbansci-10-00641-t002">Table 2</xref> summarizes the baseline regression results regarding the relationship between DIA and market segmentation. The estimation results in Column (1) indicate that, without the inclusion of any control variables, the regression coefficient of the core independent variable is negative and passes the statistical test. In Column (2), after incorporating a series of control variables, the sign and significance of the coefficient for DIA (Agg) remain substantially unchanged. Considering that regression estimations may be biased by factors such as omitted variables, heteroskedasticity, and serial correlation, we sequentially include year fixed effects and city fixed effects. The regression coefficients remain significantly negative. Specifically, the results in Column (4) demonstrate that DIA significantly reduces the degree of market segmentation. These findings provide empirical support for H1.</p>
+      </sec>
+      <sec id="sec4dot2-urbansci-10-00641">
+        <title>4.2. Robustness Checks</title>
+        <sec id="sec4dot2dot1-urbansci-10-00641">
+          <title>4.2.1. Replacing the Independent Variable</title>
+          <p>Given that DIA is a multidimensional concept, a single metric based on the operating revenue of individual firms may not fully capture its diverse characteristics and could be subject to measurement errors. Therefore, following Li et al. [<xref ref-type="bibr" rid="B11-urbansci-10-00641">11</xref>], this study re-measures regional DIA using the number of employees in digital sectors. The regression results are reported in Column (1) of <xref ref-type="table" rid="urbansci-10-00641-t003">Table 3</xref>. The coefficient remains significantly negative, further supporting the conclusions of the baseline regression.</p>
+        </sec>
+        <sec id="sec4dot2dot2-urbansci-10-00641">
+          <title>4.2.2. Excluding the Special Period</title>
+          <p>Considering the impact of the COVID-19 pandemic, administrative measures&#x2014;such as traffic controls, and restrictions on personnel mobility implemented for pandemic prevention&#x2014;might have hindered the normal flow of goods and factors between regions, thereby affecting the degree of market segmentation. To account for this, we re-estimate the model after excluding the sample data for 2020. As shown in Column (2) of <xref ref-type="table" rid="urbansci-10-00641-t003">Table 3</xref>, the coefficient for SEG remains significantly negative, confirming the robustness of the baseline findings.</p>
+        </sec>
+        <sec id="sec4dot2dot3-urbansci-10-00641">
+          <title>4.2.3. Two-Period Lagged Independent Variable</title>
+          <p>Given that the formation of DIA requires time and its impact on market segmentation may manifest with a certain time lag, we regress the dependent variable on the independent variable lagged by two periods. The results, reported in Column (3) of <xref ref-type="table" rid="urbansci-10-00641-t003">Table 3</xref>, show that the coefficient and significance of SEG exhibit no substantial difference from the baseline regression, thereby reinforcing the initial conclusions.</p>
+        </sec>
+        <sec id="sec4dot2dot4-urbansci-10-00641">
+          <title>4.2.4. Winsorization</title>
+          <p>To eliminate the potential bias caused by outliers in the empirical results, all continuous variables are winsorized at the 1% and 99% levels. The estimation indicates that after controlling for extreme values through winsorization, the coefficient of Agg remains significantly negative presented in Column (4) of <xref ref-type="table" rid="urbansci-10-00641-t003">Table 3</xref>, providing further evidence for the robustness of the baseline results.</p>
+        </sec>
+        <sec id="sec4dot2dot5-urbansci-10-00641">
+          <title>4.2.5. Adding Industry-Firm Fixed Effects</title>
+          <p>To address potential model specification bias, we further incorporate industry-firm fixed effects. The results in Column (5) of <xref ref-type="table" rid="urbansci-10-00641-t003">Table 3</xref> demonstrate that the coefficient of SEG remains significantly negative. This suggests that even after controlling for unobservable industry-specific and firm-specific characteristics, the inhibitory effect of DIA on market segmentation persists, consistent with the baseline findings.</p>
+        </sec>
+        <sec id="sec4dot2dot6-urbansci-10-00641">
+          <title>4.2.6. Excluding Policy Interference</title>
+          <p>To further verify the robustness of the baseline regression results, this study accounts for other policy factors that might interfere with the relationship between DIA and market segmentation. Specifically, the &#x201C;Smart City&#x201D; pilot program and the &#x201C;Broadband China&#x201D; strategy may exert potential influences by improving digital infrastructure and enhancing informatization levels. To some extent, these policies could affect regional DIA and the status of factor mobility. We incorporate policy dummy variables for &#x201C;Smart City&#x201D; and &#x201C;Broadband China&#x201D;&#x2014;constructed based on their respective implementation years&#x2014;into the set of control variables. As shown in Column (6) of <xref ref-type="table" rid="urbansci-10-00641-t003">Table 3</xref>, the coefficient of Agg remains significantly negative, indicating that the estimation results are robust even after controlling for these concurrent policy shocks.</p>
+        </sec>
+      </sec>
+      <sec id="sec4dot3-urbansci-10-00641">
+        <title>4.3. Endogeneity Test</title>
+        <p>To mitigate potential endogeneity arising from reverse causality, omitted variables, government policy preferences, and unobserved regional development characteristics that may influence the relationship between digital industrial agglomeration (DIA) and market segmentation, this study employs two instrumental variables: an interaction term based on historical telecommunications infrastructure and a measure of government attention to digital governance. The selection of these instruments is motivated by considerations of relevance and exogeneity.</p>
+        <p>First, following the approach of Xia et al. (2025) [<xref ref-type="bibr" rid="B30-urbansci-10-00641">30</xref>], who employ regional fiber-optic cable density as an instrumental variable, this study uses the density of intercity long-distance fiber-optic cable lines in 2006 to capture historical telecommunications infrastructure and interacts it with a time-varying indicator to construct the first instrumental variable. The rationale for this instrument rests on two considerations. Regarding relevance, long-distance fiber-optic cables constitute essential infrastructure for information transmission and digital industrial development. The historical distribution of fiber-optic networks may continue to influence the location choices and spatial concentration of digital enterprises through infrastructure persistence, improved information connectivity, and path dependence in resource allocation. Meanwhile, the number of digital economy enterprises in a city reflects the scale of local digital industrial development. Its interaction with historical telecommunications infrastructure may capture differences in the agglomeration dynamics associated with digital industrial expansion across cities with different initial infrastructure conditions. The interaction term is therefore expected to be correlated with DIA, satisfying the relevance requirement in principle. Regarding exogeneity, the spatial distribution of long-distance fiber-optic cable infrastructure in 2006 was established before the sample period and therefore cannot be affected by subsequent changes in market segmentation through reverse causality. City fixed effects absorb time-invariant local characteristics, including persistent geographical and locational endowments, while year fixed effects control for common macroeconomic shocks. Against this background, the interaction term exploits differences in the relationship between historical telecommunications infrastructure and subsequent digital industrial development across cities.</p>
+        <p>Second, this study employs government attention to digital governance as an additional instrumental variable. The selection of this instrument is also based on considerations of relevance and exogeneity. Regarding relevance, the development of digital industries relies heavily on government policy support and guidance. The emphasis placed by local governments on digital economy development in government work reports and policy planning documents can influence the allocation of resources toward digital industries, thereby facilitating the formation and expansion of digital industrial clusters. Greater government attention to digital governance is therefore expected to be positively associated with the level of DIA. Regarding exogeneity, local governments generally promote digital economy development to achieve long-term objectives such as economic growth, technological innovation, industrial upgrading, and modernization of the industrial system, rather than explicitly seeking to alter the degree of regional market segmentation. From this perspective, government attention to digital governance may primarily affect market segmentation through its influence on DIA, providing a rationale for the exclusion restriction. Nevertheless, this assumption requires that government attention does not directly influence market segmentation through other policy or institutional channels after controlling for relevant factors. Following the approach of Xie and Wang (2024) [<xref ref-type="bibr" rid="B31-urbansci-10-00641">31</xref>], this study employs text mining techniques to identify keywords related to &#x201C;digital governance&#x201D; in local government work reports and constructs an indicator of government attention to digital governance accordingly.</p>
+        <p>The instrumental variable two-stage least squares (IV-2SLS) method is then applied to estimate the relationship between DIA and market segmentation using the two instrumental variables. The estimation results for the historical telecommunications infrastructure-based instrument are reported in Columns (1) and (2) of <xref ref-type="table" rid="urbansci-10-00641-t004">Table 4</xref>. The corresponding LM statistic and Wald F statistic indicate that the model does not exhibit evidence of underidentification or weak instruments according to the relevant diagnostic criteria. In the second-stage regression, the estimated coefficient of DIA remains significantly negative, consistent with the baseline findings. Similarly, the IV-2SLS estimation results are reported in Columns (3) and (4) of <xref ref-type="table" rid="urbansci-10-00641-t004">Table 4</xref>, using government attention to digital governance as an instrumental variable. The estimated coefficient of DIA in the second-stage regression also remains significantly negative. Taken together, the results obtained using these two instrumental variables provide additional support for the negative relationship between DIA and regional market segmentation after accounting for potential endogeneity.</p>
+      </sec>
+      <sec id="sec4dot4-urbansci-10-00641">
+        <title>4.4. Mechanism Analysis</title>
+        <sec id="sec4dot4dot1-urbansci-10-00641">
+          <title>4.4.1. Data Factor Mobility</title>
+          <p>The mechanism analysis suggests that DIA can facilitate the mobility of data factors, thereby reducing the degree of market segmentation to a certain extent. To examine the impact, this study draws on the research of Liu and Yang (2025) [<xref ref-type="bibr" rid="B32-urbansci-10-00641">32</xref>]. We construct a data factor mobility index based on the Lowry Gravity Model. In this framework, the volume of e-commerce transactions (trade), telecommunications revenue (income), the number of mobile phone users at year-end (phone), and the number of internet broadband access subscribers (internet) are utilized as gravity components. Furthermore, the scale of data factors is measured by the number of employees in the information transmission, computer services, and software industries (P) in each city. The specific formula is as follows:
+            <disp-formula id="FD7-urbansci-10-00641"><label>(7)</label><mml:math display="block" id="mm9"><mml:semantics><mml:mrow><mml:mrow><mml:msub><mml:mi mathvariant="italic">data</mml:mi><mml:mi mathvariant="italic">ij</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:msub><mml:mi mathvariant="italic">trade</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:msub><mml:mi mathvariant="italic">trade</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfrac></mml:mstyle><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">&#x3C1;</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mrow><mml:mo>&#xD7;</mml:mo><mml:mo stretchy="false">(</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:msub><mml:mi mathvariant="italic">income</mml:mi><mml:mi mathvariant="italic">j</mml:mi></mml:msub><mml:msub><mml:mi mathvariant="italic">income</mml:mi><mml:mi mathvariant="italic">i</mml:mi></mml:msub></mml:mfrac></mml:mstyle><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">&#x3C1;</mml:mi><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mrow><mml:mo>&#xD7;</mml:mo><mml:mo stretchy="false">(</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:msub><mml:mrow><mml:mi mathvariant="italic">phone</mml:mi></mml:mrow><mml:mi mathvariant="italic">j</mml:mi></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="italic">phone</mml:mi></mml:mrow><mml:mi mathvariant="italic">i</mml:mi></mml:msub></mml:mfrac></mml:mstyle><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">&#x3C1;</mml:mi><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mfrac><mml:msub><mml:mi mathvariant="italic">internet</mml:mi><mml:mi mathvariant="italic">j</mml:mi></mml:msub><mml:msub><mml:mi mathvariant="italic">internet</mml:mi><mml:mi mathvariant="italic">i</mml:mi></mml:msub></mml:mfrac><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">&#x3C1;</mml:mi><mml:mn>4</mml:mn></mml:mrow></mml:msup><mml:mo>&#xD7;</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:msubsup><mml:mi>P</mml:mi><mml:mi>i</mml:mi><mml:msub><mml:mi>v</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:msubsup><mml:mo>&#xD7;</mml:mo><mml:msubsup><mml:mi>P</mml:mi><mml:mi>j</mml:mi><mml:msub><mml:mi>v</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:msubsup></mml:mrow><mml:msubsup><mml:mi>D</mml:mi><mml:mi mathvariant="italic">ij</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mfrac></mml:mstyle></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+          <p>In this model, the <italic>data<sub>ij</sub></italic> represents the scale of data factor flows from city <italic>i</italic> to city <italic>j</italic>. The coefficients <italic>&#x3C1;</italic><sub>1&#x2013;4</sub> are the weights of each gravity variable obtained by the entropy weight method. The parameters <italic>v</italic><sub>1</sub> and <italic>v</italic><sub>2</sub> in the gravity model are both set to 0.5, following the relevant literature. <italic>D<sub>ij</sub></italic> measures the spatial distance between city <italic>i</italic> and city <italic>j</italic>. Therefore, the inflow scale of data factors for city <italic>i</italic> in year <italic>t</italic> can be expressed as <italic>data<sub>it</sub></italic>:
+            <disp-formula id="FD8-urbansci-10-00641"><label>(8)</label><mml:math display="block" id="mm10"><mml:semantics><mml:mrow><mml:mrow><mml:msub><mml:mi mathvariant="italic">data</mml:mi><mml:mi mathvariant="italic">it</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:msub><mml:mi mathvariant="italic">data</mml:mi><mml:mi mathvariant="italic">ij</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+          <p>The regression results are reported in Column (1) of <xref ref-type="table" rid="urbansci-10-00641-t005">Table 5</xref>. The findings indicate that DIA significantly promotes the mobility of data factors, which in turn reduces the degree of market segmentation, thereby validating H2. Through the dual mechanisms of physical proximity and digital platforms, DIA enhances the scale and efficiency of data factor generation, aggregation, processing, and circulation within the market. This allows firms to obtain market supply-and-demand information, price signals, and other critical data more rapidly and efficiently. Furthermore, the cross-regional flow of data factors inherently acts as a force that undermines market barriers. It drives firms to form data-driven collaborative networks, encouraging decisions regarding production, inventory, and logistics to rely more on efficiency principles rather than geographical distance. Consequently, this weakens the ability of local governments to interfere in resource allocation by erecting administrative barriers.</p>
+        </sec>
+        <sec id="sec4dot4dot2-urbansci-10-00641">
+          <title>4.4.2. Information Transparency</title>
+          <p>The analysis further suggests that DIA can reduce market segmentation by enhancing the information transparency of firms within the market. To examine this effect, following the research of Zhang and Zhou [<xref ref-type="bibr" rid="B33-urbansci-10-00641">33</xref>], this study utilizes the Information Disclosure Evaluation Ratings from the Shenzhen Stock Exchange (SZSE) as a proxy for the quality of financial information disclosure by listed companies. A higher evaluation rating indicates superior disclosure quality and, consequently, higher information transparency. The regression results are presented in Column (2) of <xref ref-type="table" rid="urbansci-10-00641-t005">Table 5</xref>. The findings indicate that DIA effectively improves firms&#x2019; information transparency, which in turn reduces the degree of market segmentation, thereby validating H3.</p>
+          <p>The mechanism operates through several channels. First, the intensified interaction and communication among firms within a digital cluster enhance mutual transparency, directly alleviating information asymmetry and transaction uncertainty. This reduction in information ambiguity lowers search costs and trust risks, thereby strengthening the willingness of firms to engage in cross-regional cooperation. Second, increased transparency makes market competitive behaviors, such as product pricing, more visible. Consequently, the costs associated with trade barriers&#x2014;erected by local governments to protect local firms&#x2014;significantly increase. By enhancing transparency, DIA further standardizes corporate behavior and strengthens market self-discipline. This effectively weakens market segmentation at the micro-level and fosters regional market integration.</p>
+        </sec>
+      </sec>
+      <sec id="sec4dot5-urbansci-10-00641">
+        <title>4.5. Heterogeneity Analysis</title>
+        <sec id="sec4dot5dot1-urbansci-10-00641">
+          <title>4.5.1. Regional Heterogeneity</title>
+          <p>DIA in China is characterized by an imbalanced &#x201C;high in the East and low in the West&#x201D; distribution [<xref ref-type="bibr" rid="B34-urbansci-10-00641">34</xref>]. So, the study divides the sample into eastern, central, and western regions. Columns (1) to (3) in <xref ref-type="table" rid="urbansci-10-00641-t006">Table 6</xref> respectively report the estimation results respectively. The results indicate that the inhibitory effect is most significant in the Eastern region. In contrast, this impact remains relatively weak in other regions. Two primary factors may explain this divergence. First, China&#x2019;s economic development is heavily influenced by policy orientation. The Eastern region possesses a robust economic foundation, a higher degree of marketization, and relatively mature digital infrastructure. Conversely, the Central and Western regions have historically lagged in economic development and rely more heavily on policy-oriented resource allocation during the growth of the digital economy. Second, the industrial structure in the Eastern region is more advanced, having formed a mature ecosystem for digital innovation. In this environment, firms can better utilize factor resources, optimize resource allocation, and facilitate deep collaboration and knowledge exchange. In the Central and Western regions, however, the industrial structure is still dominated by traditional energy, agriculture, or primary processing. The low degree of complementarity and integration between these traditional sectors and digital industries prevents the benefits of industrial agglomeration from penetrating the regional economy effectively. The spatial distribution illustrated in <xref ref-type="fig" rid="urbansci-10-00641-f005">Figure 5</xref> suggests a relatively high concentration of digital industrial activities in eastern China. This spatial pattern indicates that the effects of digital industrial agglomeration (DIA) may depend not only on the degree of local industrial concentration but also on interregional linkages and the allocation of production factors across regions. On the one hand, a higher degree of agglomeration can facilitate the development of denser interfirm collaboration networks and create favorable conditions for knowledge exchange and specialized division of labor. On the other hand, if skilled labor, capital, and high-value-added business activities continue to flow toward established agglomeration centers, existing advantages may be further reinforced, allowing a disproportionate share of the associated benefits to remain concentrated in more developed regions. Consequently, DIA does not necessarily lead to balanced regional development. Rather, its spatial implications may depend on the relative strength of interregional spillover effects and factor siphoning effects.</p>
+        </sec>
+        <sec id="sec4dot5dot2-urbansci-10-00641">
+          <title>4.5.2. Regional Heterogeneity in Innovation Capacity</title>
+          <p>The effect of DIA on market segmentation is not homogeneous across regions. Given that differences in regional innovation capacity can systematically moderate the economic effects of DIA, this study divides the sample into high-innovation and low-innovation regions to examine how varying levels of innovation influence the role of DIA in reducing market segmentation. Specifically, regions with an annual number of digital economy&#x2013;related invention patent applications above the median across all prefecture-level cities are classified as high-innovation regions, while those below the median are classified as low-innovation regions. Columns (4) and (5) of <xref ref-type="table" rid="urbansci-10-00641-t006">Table 6</xref> report the estimation results for low-innovation and high-innovation regions, respectively. The results indicate that in high-innovation regions, the coefficient of DIA on market segmentation is negative, whereas the corresponding effect is not statistically significant in low-innovation regions. During the process of DIA, firms in high-innovation regions typically benefit from denser factor endowments and more developed institutional and infrastructural conditions. These advantages enable them to more effectively absorb the technological spillovers, knowledge spillovers, and factor-sharing effects generated by DIA, thereby translating these externalities into tangible improvements in production efficiency and reductions in market segmentation. In contrast, low-innovation regions generally suffer from weaker knowledge and technological foundations, which limits their capacity to absorb external spillovers. As a result, the lack of industries and human capital with sufficient absorptive capacity in low-innovation regions may instead lead to a &#x201C;siphoning&#x201D; effect, rendering the impact of DIA on market segmentation insignificant in these areas.</p>
+        </sec>
+        <sec id="sec4dot5dot3-urbansci-10-00641">
+          <title>4.5.3. Heterogeneity in Factor Intensity</title>
+          <p>There are fundamental differences in the production methods and efficiency of firms with different factor intensities, which determine their distinct modes and capacities for participating in industrial agglomeration. Such differences imply that the mechanisms and effects of DIA may vary across firm types. We categorizes the sample firms into three groups: technology-intensive, capital-intensive, and labor-intensive. Columns (1), (2), and (3) of <xref ref-type="table" rid="urbansci-10-00641-t007">Table 7</xref> present the regression results respectively. The estimation results demonstrate that regardless of whether a firm is technology-, capital-, or labor-intensive, the coefficients representing the impact of industrial agglomeration on market segmentation are significantly negative. Notably, this effect is most pronounced for labor-intensive firms. Historically, the development of labor-intensive firms has been constrained by local traditional markets, often facing challenges such as information opacity and restricted factor mobility. However, the knowledge and technology spillovers generated by DIA largely compensate for these deficiencies. Compared to technology- and capital-intensive firms, whose production models are inherently more intangible and conducive to transmission, the role of DIA is more prominent for labor-intensive firms.</p>
+        </sec>
+      </sec>
+      <sec id="sec4dot6-urbansci-10-00641">
+        <title>4.6. The Moderating Effects of Economic Development and Openness Levels</title>
+        <p>To further clarify the contextual constraints and boundary conditions of the inhibitory effect of DIA on market segmentation, this study introduces two moderating variables: the level of economic development and the level of openness. By examining the moderating mechanisms from the dimensions of factor endowments and openness patterns, this paper aims to provide a more targeted empirical basis for the differentiated formulation of policies to reduce market segmentation. First, as the level of economic development improves, enhancements in regional infrastructure, market environments, and institutional innovation provide favorable conditions for the formation of DIA. Existing research indicates that more economically developed regions possess advantages in information technology penetration, corporate technological innovation capabilities, and degrees of marketization. These factors promote the effectiveness of DIA and facilitate a more efficient reduction in market segmentation. Second, a high level of openness similarly provides a conducive environment for DIA. Regions with higher openness levels have competitive advantages in attracting external resources, technology, and investment, which help accelerate the concentration of digital industries and enhance their internationalization [<xref ref-type="bibr" rid="B35-urbansci-10-00641">35</xref>]. Openness facilitates data flows and technology spillovers, further dismantling regional geographical barriers. Driven by multinational corporations and global digital platforms, the agglomeration effects of digital industries in open economies are more pronounced, significantly improving the efficiency of information circulation and resource allocation. Accordingly, this paper proposes.</p>
+        <statement>
+          <label><bold>Hypothesis&#xA0;4.</bold>&#xA0;</label>
+          <p><italic>The negative relationship between DIA and market segmentation is stronger in regions with higher levels of economic development and openness</italic>.</p>
+        </statement>
+        <p>Based on the baseline regression model, this study introduces the interaction terms between the core explanatory variable and the moderating variables to construct the following moderating effect models:
+          <disp-formula id="FD9-urbansci-10-00641"><label>(9)</label><mml:math display="block" id="mm11"><mml:semantics><mml:mrow><mml:mrow><mml:mi>S</mml:mi><mml:mi>E</mml:mi><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mi>A</mml:mi><mml:mi>g</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi>M</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mn>3</mml:mn></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>A</mml:mi><mml:mi>g</mml:mi><mml:msub><mml:mi>g</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>&#xD7;</mml:mo><mml:mi>M</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mstyle displaystyle="true"><mml:mrow><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mi>C</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>o</mml:mi><mml:msub><mml:mi>l</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3C4;</mml:mi><mml:mi>t</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mstyle></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>In this model, Modit represents the moderating variables, specifically the level of openness (FDI) and the level of economic development (Lnpgdp), &#x3B2;3 denotes the coefficient of the moderating effect. If &#x3B2;3 is significantly negative, it indicates that the moderating variable strengthens the inhibitory effect of DIA on market segmentation; conversely, a significantly positive coefficient suggests a weakening effect. If the coefficient is not statistically significant, no moderating effect exists. The empirical results are presented in <xref ref-type="table" rid="urbansci-10-00641-t008">Table 8</xref>.</p>
+        <p>According to the results of the moderating effects in Columns (1) and (2) of <xref ref-type="table" rid="urbansci-10-00641-t008">Table 8</xref>, the coefficients of the interaction terms for both the level of economic development and the level of openness are significantly negative. This indicates that both variables can strengthen the inhibitory effect of DIA on market segmentation. Specifically, the results for the moderating effect of the level of economic development (Lnpgdp) show that the interaction term coefficient is negative. Similarly, the moderating effect coefficient for the level of openness (FDI) is also significantly negative, suggesting that in regions with a higher degree of openness, the mitigating effect of DIA on market segmentation is more prominent. These findings verify Hypothesis 4 of this paper.</p>
+        <p><xref ref-type="fig" rid="urbansci-10-00641-f006">Figure 6</xref> further illustrates the moderating effects of economic development and openness on the relationship between DIA and market segmentation. The horizontal axes represent the level of economic development and openness, respectively, while the vertical axes indicate the marginal effect of DIA (Agg) on market segmentation (SEG). The solid blue lines represent the estimated marginal effects, the light blue shaded areas denote the corresponding 95% confidence intervals, and the horizontal dashed lines indicate zero effects. The histograms at the bottom of each panel illustrate the distributions of the respective moderating variables in the regression sample. As shown in <xref ref-type="fig" rid="urbansci-10-00641-f006">Figure 6</xref>a, the marginal effect of DIA on market segmentation becomes increasingly negative as the level of economic development rises, reaching statistical significance at higher levels of economic development. Similarly, <xref ref-type="fig" rid="urbansci-10-00641-f006">Figure 6</xref>b shows that the marginal effect of DIA decreases as openness increases. Beyond a certain level of openness, the entire 95% confidence interval falls below the zero line, indicating that the negative association between DIA and market segmentation becomes statistically significant and more pronounced. These patterns are consistent with the significantly negative coefficients on the interaction terms reported in <xref ref-type="table" rid="urbansci-10-00641-t008">Table 8</xref>, providing further support for Hypothesis 4. One possible explanation is that regions with higher levels of economic development tend to have more developed infrastructure and more mature market environments, which may provide favorable conditions for digital industrial agglomeration and strengthen its role in reducing market segmentation. Meanwhile, greater openness may facilitate foreign investment, technological spillovers, and interregional factor mobility, thereby reinforcing the potential contribution of DIA to reducing market barriers and promoting the development of a unified national market.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-urbansci-10-00641" sec-type="discussion">
+      <title>5. Discussion</title>
+      <sec id="sec5dot1-urbansci-10-00641">
+        <title>5.1. Potential Adverse Effects of DIA</title>
+        <p>Although the empirical findings of this study indicate that DIA is significantly associated with lower market segmentation, its potential adverse effects warrant further consideration. While DIA may facilitate cross-regional data flows and improve information transparency, it may also give rise to excessive market concentration, exclusionary platform practices, regional disparities in digital capabilities, and closed digital ecosystems. These developments could, in turn, constrain the potential contribution of DIA to regional market integration.</p>
+        <p>First, DIA may contribute to excessive market concentration. The advantages of resource sharing and knowledge spillovers generated by industrial agglomeration, combined with economies of scale, network effects, and data accumulation in digital markets, may reinforce the competitive advantages of leading firms. As critical data, technological capabilities, and user resources become increasingly concentrated among a limited number of enterprises, barriers to entry for potential competitors may rise, thereby reducing market contestability.</p>
+        <p>Second, platform dominance may undermine the benefits of reduced cross-regional transaction costs. Digital platforms that control transaction channels, user data, and traffic allocation may restrict market competition through exclusive arrangements, self-preferencing practices, and discriminatory access conditions. Moreover, the concentration of information within digital platforms does not necessarily imply equal access to information among market participants. Instead, opaque platform rules may exacerbate information asymmetries between platform operators and participating firms. Consequently, the weakening of administrative barriers may be accompanied by the emergence of new platform-based barriers to market transactions.</p>
+        <p>Third, DIA may widen regional disparities in digital capabilities. Regions with established advantages in digital infrastructure, skilled labor, and capital are more likely to develop cumulative competitive advantages through industrial agglomeration. In contrast, regions with weaker digital foundations may benefit less from these developments because of higher technology adoption costs and limited capacities for data utilization. If such disparities translate into unequal access to digital platforms and differences in firms&#x2019; ability to conduct cross-regional business activities, they may ultimately constrain regional market integration.</p>
+        <p>Fourth, dominant digital ecosystems may create new forms of market boundaries. The integration of transaction, payment, and cloud services can improve operational efficiency within individual ecosystems. However, limited interoperability across systems, together with difficulties in transferring data, transaction histories, and reputation records, may increase switching costs for market participants. As a result, although digital technologies enable data to move beyond administrative boundaries, data circulation may remain restricted by closed digital ecosystems. This could produce a fragmented market structure characterized by efficient transactions within individual ecosystems but limited connectivity and resource mobility between them.</p>
+      </sec>
+      <sec id="sec5dot2-urbansci-10-00641">
+        <title>5.2. Limitations and Directions for Future Research</title>
+        <p>Although this study investigates the causal relationship between DIA and market segmentation and explores the mechanisms through which DIA may affect market segmentation, several limitations should be acknowledged.</p>
+        <p>First, differences in consumer price changes cannot be attributed solely to market segmentation. Transportation costs, geographical conditions, region-specific supply and demand shocks, consumption structures, and other local economic conditions may also contribute to differences in price movements across cities. Even when consumer price indices are drawn from the same consumption categories, cities may differ in the composition, quality, and relative weights of goods within each category. Moreover, some consumption categories include locally provided services, whose price movements may not be fully constrained by cross-regional commodity arbitrage. Consequently, this indicator cannot completely distinguish institutional barriers to interregional transactions from other sources of price variation. Changes in the indicator should therefore not be directly interpreted as changes in local protectionism or administrative barriers. Future research could incorporate more disaggregated product and service price data, firm-level transaction records, and transportation and logistics cost data to more accurately distinguish the effects of market segmentation from those of supply and demand shocks and other local factors. In addition, examining heterogeneity across product categories, city tiers, and regional subsamples, together with identification strategies based on institutional reforms or policy shocks, could help further assess the robustness of the findings.</p>
+        <p>Second, this study indirectly measures intercity data-factor flows using the Lowry gravity model. Although this approach can capture potential cross-regional linkages, it has certain limitations. Variables such as e-commerce transaction volumes and telecommunications business revenues primarily reflect digital economic activity and infrastructure development, making it difficult to accurately identify the actual volume, direction, and value of data flows. Furthermore, geographical distance and the assumption of uniform model parameters may not fully capture the effects of institutional barriers, network connectivity, and other relevant factors. Future research could incorporate records from data trading platforms, cross-regional data access and usage, and network traffic to distinguish among different types of data flows. Introducing measures of institutional distance and network distance, together with parameter sensitivity analyses, could further improve the accuracy and interpretability of data-factor flow measurements.</p>
+        <p>Third, the instrumental-variable identification strategy employed in this study is subject to certain limitations. Although the density of intercity long-distance fiber-optic cable lines in 2006 is historically predetermined, historical telecommunications infrastructure may continue to influence market segmentation through persistent business networks, information transmission, and cross-regional transactions. These effects may not operate exclusively through DIA. Moreover, the contemporaneous number of digital economy enterprises in a city may evolve alongside local market conditions. Interacting this variable with historical fiber-optic cable density therefore does not, by itself, guarantee that the resulting instrument satisfies the exclusion restriction. Differences in the statistical definitions and coverage of historical data, as well as changes in administrative boundaries, may also introduce measurement errors. Future research could improve the quality and consistency of historical telecommunications infrastructure and business registration data while exploring alternative identification strategies that combine historical industrial structures with external industry-level shocks. In addition, weak-instrument-robust inference and sensitivity analyses of the exclusion restriction could be employed to assess the extent to which the estimated results depend on the underlying identification assumptions. These efforts would provide more rigorous empirical evidence for clarifying the causal relationship between DIA and market segmentation.</p>
+        <p>Finally, although this study primarily examines the relationship between DIA and market segmentation, its findings also provide a basis for further investigating the potential environmental implications of digital economic development. Market segmentation may not only hinder regional market integration but also constrain improvements in urban green total factor productivity (GTFP) by restricting the cross-regional diffusion of green technologies, distorting factor allocation, and weakening market competition. The advantages of information sharing, knowledge spillovers, and network coordination associated with DIA may facilitate the cross-regional mobility of green innovation resources and improve resource allocation efficiency by alleviating market segmentation, thereby contributing to urban green transformation. However, whether reductions in market segmentation translate into improvements in green productivity may depend on local environmental regulations, digital infrastructure, and interregional institutional coordination. The underlying transmission mechanisms therefore require further investigation. Building on the present study, future research could incorporate GTFP into the analytical framework to examine whether and how DIA contributes to green development through reduced market segmentation. Further attention could also be given to the roles of environmental regulation, local government behavior, and institutional differences across regions. Such research would contribute to a more comprehensive understanding of the relationship between regional market integration and green development.</p>
+      </sec>
+    </sec>
+    <sec id="sec6-urbansci-10-00641" sec-type="conclusions">
+      <title>6. Conclusions and Implications</title>
+      <sec id="sec6dot1-urbansci-10-00641">
+        <title>6.1. Conclusions</title>
+        <p>Effectively dismantling local protectionism and market segmentation is essential for promoting high-quality development. Using micro-level data from Chinese listed firms in the digital industry from 2012 to 2021, this study examines the effect of DIA on market segmentation and explores the underlying mechanisms. The results show that DIA significantly reduces the level of market segmentation. This effect remains robust across various robustness tests and after addressing endogeneity concerns. Mechanism analysis shows that DIA reduces market segmentation mainly by weakening local protectionism and institutional trade barriers. This effect operates through enhanced data flows and improved firms&#x2019; information transparency. Heterogeneity analysis further suggests that the effect is stronger in eastern regions, regions with higher innovation capacity, and labor-intensive industries. To accelerate the formation of an effective market, the study proposes the following policy recommendations:</p>
+      </sec>
+      <sec id="sec6dot2-urbansci-10-00641">
+        <title>6.2. Implications</title>
+        <p>First, policymakers should adopt differentiated strategies for developing DIA according to regional conditions. The heterogeneous effects identified in this study indicate that the benefits of DIA depend on complementary factors such as digital infrastructure, innovation capacity, economic development, and openness. Regions with relatively mature digital ecosystems should focus on strengthening cross-regional innovation networks and promoting the diffusion of digital technologies and knowledge. Regions with weaker digital foundations should prioritize investment in digital infrastructure, human capital, and institutional capacity while encouraging the integration of digital technologies with locally embedded industries. Such differentiated strategies can improve regional absorptive capacity and reduce the risk that digital agglomeration reinforces existing spatial inequalities.</p>
+        <p>Second, interoperable data governance systems should be established to promote the secure and efficient circulation of data across firms, industries, and regions. Because data factor mobility is an important channel through which DIA reduces market segmentation, policymakers should clarify rules regarding data access, authorization, sharing, use, and benefit distribution. Common technical standards and interoperable information systems can reduce institutional frictions and cross-regional transaction costs. At the same time, greater data mobility should be accompanied by appropriate safeguards for privacy, cybersecurity, commercial confidentiality, and fair competition.</p>
+        <p>Third, information transparency and platform accountability should be strengthened to reduce market frictions. Governments and market regulators should encourage standardized information disclosure, open digital supply-chain platforms, and transparent regulatory procedures so that firms can obtain reliable information on prices, suppliers, market demand, and entry requirements at lower cost. However, digital platforms should not be allowed to create new forms of segmentation through exclusive agreements, discriminatory access, opaque algorithms, or data monopolization. Therefore, platform governance should balance information sharing with fair market access, particularly for small and medium-sized enterprises.</p>
+        <p>Fourth, greater support should be provided for the digital transformation of traditional and labor-intensive industries. The stronger effect observed among labor-intensive firms suggests that the integration benefits of DIA are not limited to technology-intensive sectors. Policies should improve traditional firms&#x2019; access to digital infrastructure, cloud services, technical training, financing, and digital supply-chain networks. Enhancing these firms&#x2019; ability to collect, process, and use data can help them reduce dependence on local markets, participate in wider production networks, and benefit more fully from the spillovers generated by digital industrial clusters.</p>
+        <p>Overall, the policy value of DIA does not arise from the geographical concentration of digital firms alone. Its broader benefits depend on whether agglomeration is accompanied by open networks, interoperable data systems, transparent market rules, inclusive access to digital capabilities, and effective environmental governance. Although the empirical evidence of this study is drawn from China, these principles may also apply to other economies facing regional fragmentation, uneven digital development, and institutional barriers to the cross-regional circulation of information and productive factors.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, S.W. and X.C.; Methodology, S.W. and X.C.; Software, H.M. and X.C.; Validation, H.M.; Formal analysis, H.M. and X.C.; Investigation, S.W.; Resources, S.W.; Writing&#x2014;original draft, S.W., H.M., and X.C.; Writing&#x2014;review &amp; editing, S.W., H.M. and X.C.; Funding acquisition, S.W. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The dataset is available upon request from the authors.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-urbansci-10-00641">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huo</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>From market segmentation to consumption growth: How does digital&#x2013;real integration strengthen the consumption stimulation effect in a unified national market?</article-title>
+          <source>Int. Rev. Econ. Financ.</source>
+          <year>2025</year>
+          <volume>103</volume>
+          <fpage>104497</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.iref.2025.104497</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-urbansci-10-00641">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lai</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Market segmentation impact on industrial transformation: Evidence for environmental protection in China</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2021</year>
+          <volume>297</volume>
+          <fpage>126607</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2021.126607</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-urbansci-10-00641">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yuan</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Digital industry agglomeration and technical innovation of manufacturing industrial enterprises</article-title>
+          <source>J. Zhongnan Univ. Econ. Law</source>
+          <year>2023</year>
+          <volume>1</volume>
+          <fpage>146</fpage>
+          <lpage>160</lpage>
+          <pub-id pub-id-type="doi">10.19639/j.cnki.issn1003-5230.2023.0012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-urbansci-10-00641">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fair competition review system and cross-regional capital flow: Evidence from China</article-title>
+          <source>Financ. Res. Lett.</source>
+          <year>2024</year>
+          <volume>70</volume>
+          <fpage>106308</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.frl.2024.106308</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-urbansci-10-00641">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>K.Q.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ashraf</surname>
+              <given-names>B.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The value of corporate digital transformation: Evidence from bond pricing</article-title>
+          <source>China Financ. Rev. Int.</source>
+          <year>2025</year>
+          <volume>15</volume>
+          <fpage>43</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1108/CFRI-05-2024-0241</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-urbansci-10-00641">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Miao</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Market segmentation and the dilemma of energy efficiency improvement: New insights from Chinese manufacturing firms</article-title>
+          <source>Energy</source>
+          <year>2025</year>
+          <volume>322</volume>
+          <fpage>135534</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.energy.2025.135534</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-urbansci-10-00641">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wan</surname>
+              <given-names>X.W.</given-names>
+            </name>
+            <name>
+              <surname>Jahanger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.Y.</given-names>
+            </name>
+            <name>
+              <surname>Murshed</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Balsalobre-Lorente</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Does the digital economy reduce air pollution in China? A perspective from industrial agglomeration</article-title>
+          <source>Energy Rep.</source>
+          <year>2023</year>
+          <volume>9</volume>
+          <fpage>3625</fpage>
+          <lpage>3641</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.egyr.2023.02.031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-urbansci-10-00641">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Danish</surname>
+            </name>
+          </person-group>
+          <article-title>Effects of information and communication technology and real income on CO<sub>2</sub> emissions: The experience of countries along the Belt and Road</article-title>
+          <source>Telemat. Inform.</source>
+          <year>2019</year>
+          <volume>45</volume>
+          <fpage>101300</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.tele.2019.101300</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-urbansci-10-00641">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liao</surname>
+              <given-names>X.F.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>Y.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact mechanism and effect of digital economy on China&#x2019;s urban low-carbon transformation</article-title>
+          <source>Econ. Geogr.</source>
+          <year>2024</year>
+          <volume>44</volume>
+          <fpage>31</fpage>
+          <lpage>41</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B10-urbansci-10-00641">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Q.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of digitization on the carbon emission intensity of agricultural production in China</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2023</year>
+          <volume>903</volume>
+          <fpage>166544</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2023.166544</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-urbansci-10-00641">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Hui</surname>
+              <given-names>E.C.M.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Digital industry agglomeration and urban innovation: Evidence from China</article-title>
+          <source>Econ. Anal. Policy</source>
+          <year>2024</year>
+          <volume>84</volume>
+          <fpage>1998</fpage>
+          <lpage>2025</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.eap.2024.10.047</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-urbansci-10-00641">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Is digital industry agglomeration a new engine for firms&#x2019; green innovation? New micro-evidence from China</article-title>
+          <source>Systems</source>
+          <year>2025</year>
+          <volume>13</volume>
+          <elocation-id>627</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/systems13080627</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-urbansci-10-00641">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>R.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.-L.</given-names>
+            </name>
+          </person-group>
+          <article-title>How does digital industry agglomeration drive carbon peaking and carbon neutrality in China? The role of digital technology innovation</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2025</year>
+          <volume>510</volume>
+          <fpage>145642</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2025.145642</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-urbansci-10-00641">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ren</surname>
+              <given-names>Y.F.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>X.Q.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>G.D.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>B.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of the eco-efficiency of four major urban agglomerations in coastal eastern China</article-title>
+          <source>J. Geogr. Sci.</source>
+          <year>2019</year>
+          <volume>28</volume>
+          <fpage>1315</fpage>
+          <lpage>1330</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11442-019-1661-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-urbansci-10-00641">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dong</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>How industrial convergence affects regional green development efficiency: A spatial conditional process analysis</article-title>
+          <source>J. Environ. Manag.</source>
+          <year>2021</year>
+          <volume>300</volume>
+          <fpage>113738</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jenvman.2021.113738</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-urbansci-10-00641">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>The impact of digital infrastructure on regional green innovation efficiency through industrial agglomeration and diversification</article-title>
+          <source>Humanit. Soc. Sci. Commun.</source>
+          <year>2025</year>
+          <volume>12</volume>
+          <fpage>220</fpage>
+          <pub-id pub-id-type="doi">10.1057/s41599-025-04512-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-urbansci-10-00641">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>The impact of digital economy and industrial agglomeration on the changes of industrial structure in the Yangtze River Delta</article-title>
+          <source>J. Knowl. Econ.</source>
+          <year>2024</year>
+          <volume>15</volume>
+          <fpage>9207</fpage>
+          <lpage>9227</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13132-023-01448-w</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-urbansci-10-00641">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ji</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Does digital transformation promote economic resilience? Urban-level evidence from China</article-title>
+          <source>Heliyon</source>
+          <year>2024</year>
+          <volume>10</volume>
+          <fpage>e26461</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.heliyon.2024.e26461</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-urbansci-10-00641">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>DIA and breakthrough technological innovation: Evidence from business registration data</article-title>
+          <source>Technol. Soc.</source>
+          <year>2026</year>
+          <volume>85</volume>
+          <fpage>103161</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.techsoc.2025.103161</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-urbansci-10-00641">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsu</surname>
+              <given-names>W.-T.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Foreign direct investment and industrial agglomeration: Evidence from China</article-title>
+          <source>J. Comp. Econ.</source>
+          <year>2023</year>
+          <volume>51</volume>
+          <fpage>610</fpage>
+          <lpage>639</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jce.2022.12.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-urbansci-10-00641">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fran&#xE7;oso</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Boschma</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Vonortas</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regional diversification in Brazil: The role of relatedness and complexity</article-title>
+          <source>Growth Change</source>
+          <year>2024</year>
+          <volume>55</volume>
+          <fpage>e12702</fpage>
+          <pub-id pub-id-type="doi">10.1111/grow.12702</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-urbansci-10-00641">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pan</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Digital economy: An innovation driver for total factor productivity</article-title>
+          <source>J. Bus. Res.</source>
+          <year>2022</year>
+          <volume>139</volume>
+          <fpage>303</fpage>
+          <lpage>311</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jbusres.2021.09.061</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-urbansci-10-00641">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Luo</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cross-regional collaborative innovation in the era of data openness: A factor mobility perspective</article-title>
+          <source>Technol. Soc.</source>
+          <year>2025</year>
+          <volume>83</volume>
+          <fpage>102989</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.techsoc.2025.102989</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-urbansci-10-00641">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barwick</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Local protectionism, market structure, and social welfare: China&#x2019;s automobile market</article-title>
+          <source>Am. Econ. J. Econ. Policy</source>
+          <year>2021</year>
+          <volume>13</volume>
+          <fpage>112</fpage>
+          <lpage>151</lpage>
+          <pub-id pub-id-type="doi">10.1257/pol.20180513</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-urbansci-10-00641">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanisch</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Goldsby</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Fabian</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <name>
+              <surname>Oehmichen</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Digital governance: A conceptual framework and research agenda</article-title>
+          <source>J. Bus. Res.</source>
+          <year>2023</year>
+          <volume>162</volume>
+          <fpage>113777</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jbusres.2023.113777</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-urbansci-10-00641">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zeng</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Digital economy and industrial agglomeration</article-title>
+          <source>Econ. Anal. Policy</source>
+          <year>2024</year>
+          <volume>84</volume>
+          <fpage>475</fpage>
+          <lpage>498</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.eap.2024.09.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-urbansci-10-00641">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McClure</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Watts</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Information acquisition costs and price informativeness: Global evidence</article-title>
+          <source>Rev. Account. Stud.</source>
+          <year>2025</year>
+          <volume>30</volume>
+          <fpage>2468</fpage>
+          <lpage>2507</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11142-025-09906-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-urbansci-10-00641">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>The digital economy, market integration and environmental gains</article-title>
+          <source>Glob. Financ. J.</source>
+          <year>2024</year>
+          <volume>60</volume>
+          <fpage>100956</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.gfj.2024.100956</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-urbansci-10-00641">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The carbon emission reduction effect of digital industry agglomeration: Evidence from the city level</article-title>
+          <source>Reform</source>
+          <year>2025</year>
+          <volume>11</volume>
+          <fpage>84</fpage>
+          <lpage>89</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B30-urbansci-10-00641">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xia</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Artificial intelligence and corporate fraud: Evidence from China</article-title>
+          <source>Econ. Anal. Policy</source>
+          <year>2025</year>
+          <volume>86</volume>
+          <fpage>1391</fpage>
+          <lpage>1408</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.eap.2025.04.030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-urbansci-10-00641">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xie</surname>
+              <given-names>H.T.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Digitizing empowerment and whole-process people&#x2019;s democracy: Practice and effect analysis of NPC&#x2019;s budget online supervision reform</article-title>
+          <source>China Ind. Econ.</source>
+          <year>2024</year>
+          <volume>1</volume>
+          <fpage>45</fpage>
+          <lpage>60</lpage>
+          <pub-id pub-id-type="doi">10.19477/j.cnki.11-1077/f.2024.01.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-urbansci-10-00641">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research on the mechanism of the impact of data factor flows on regional coordinated development</article-title>
+          <source>J. Manag.</source>
+          <year>2025</year>
+          <volume>38</volume>
+          <fpage>133</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="doi">10.19808/j.cnki.41-1408/F.2025.0031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-urbansci-10-00641">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Internal control, audit supervision, and the quality of accounting information disclosure</article-title>
+          <source>Commun. Financ. Account.</source>
+          <year>2020</year>
+          <volume>9</volume>
+          <fpage>11</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.16144/j.cnki.issn1002-8072.2020.09.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-urbansci-10-00641">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Su</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sheng</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Industrial agglomeration, agglomeration externalities and firm emission reduction: New micro-evidence from China</article-title>
+          <source>China Econ. Q.</source>
+          <year>2021</year>
+          <volume>21</volume>
+          <fpage>1793</fpage>
+          <lpage>1816</lpage>
+          <pub-id pub-id-type="doi">10.13821/j.cnki.ceq.2021.05.14</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-urbansci-10-00641">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qiu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of digital economy and regional total factor productivity: Evidence from National Big Data Comprehensive Pilot Zones</article-title>
+          <source>J. Financ. Econ.</source>
+          <year>2021</year>
+          <volume>47</volume>
+          <fpage>4</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.16538/j.cnki.jfe.20210119.103</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="urbansci-10-00641-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>DIA across Industries in Chinese Cities (2012&#x2013;2021).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00641-g001.tif"/>
+      </fig>
+      <fig id="urbansci-10-00641-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Temporal evolution of urban market segmentation in Chinese prefecture-level cities.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00641-g002.tif"/>
+      </fig>
+      <fig id="urbansci-10-00641-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>The Temporal Coverage and Panel Composition of the Sample.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00641-g003.tif"/>
+      </fig>
+      <fig id="urbansci-10-00641-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>The Spatial Concentration of Sample Firms at the Regional and City Levels.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00641-g004.tif"/>
+      </fig>
+      <fig id="urbansci-10-00641-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>The Spatial Distribution of Sample Firm Density across Chinese Cities in 2012 and 2021.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00641-g005.tif"/>
+      </fig>
+      <fig id="urbansci-10-00641-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Marginal Effects of Agg on SEG.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="urbansci-10-00641-g006.tif"/>
+      </fig>
+      <table-wrap id="urbansci-10-00641-t001" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00641-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Descriptive Statistics.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Variable Name</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Symbol</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample Size</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">S.D</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Min</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Max</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Market Segmentation</td>
+              <td align="center" valign="middle">SEG</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">0.014</td>
+              <td align="center" valign="middle">0.088</td>
+              <td align="center" valign="middle">0.000</td>
+              <td align="center" valign="middle">0.732</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Digital Industry Agglomeration</td>
+              <td align="center" valign="middle">Agg</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">1.103</td>
+              <td align="center" valign="middle">0.240</td>
+              <td align="center" valign="middle">0.007</td>
+              <td align="center" valign="middle">1.922</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Tobin&#x2019;s Q</td>
+              <td align="center" valign="middle">TobinQ</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">2.255</td>
+              <td align="center" valign="middle">6.471</td>
+              <td align="center" valign="middle">0.000</td>
+              <td align="center" valign="middle">715.94</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Firm Size</td>
+              <td align="center" valign="middle">Size</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">22.006</td>
+              <td align="center" valign="middle">1.262</td>
+              <td align="center" valign="middle">14.942</td>
+              <td align="center" valign="middle">28.502</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Return on Assets</td>
+              <td align="center" valign="middle">ROA</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">0.031</td>
+              <td align="center" valign="middle">0.0751</td>
+              <td align="center" valign="middle">&#x2212;0.987</td>
+              <td align="center" valign="middle">0.816</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Ownership Nature</td>
+              <td align="center" valign="middle">State</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">0.282</td>
+              <td align="center" valign="middle">0.450</td>
+              <td align="center" valign="middle">0.000</td>
+              <td align="center" valign="middle">1.000</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Debt-to-Equity Ratio</td>
+              <td align="center" valign="middle">DER</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">1.156</td>
+              <td align="center" valign="middle">4.998</td>
+              <td align="center" valign="middle">0.010</td>
+              <td align="center" valign="middle">416.253</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Per Capita Income</td>
+              <td align="center" valign="middle">Lnpgdp</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">11.550</td>
+              <td align="center" valign="middle">0.458</td>
+              <td align="center" valign="middle">9.262</td>
+              <td align="center" valign="middle">12.293</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Level of Openness</td>
+              <td align="center" valign="middle">FDI</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">0.605</td>
+              <td align="center" valign="middle">0.478</td>
+              <td align="center" valign="middle">0.000</td>
+              <td align="center" valign="middle">2.296</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Government Intervention</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Gov</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15,793</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.156</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.612</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.044</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.4896</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="urbansci-10-00641-t002" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00641-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Baseline Regression Results.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Variables </th>
+              <th align="center" valign="middle" style="border-top:solid thin">(1)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(2)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(3)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(4)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SEG</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SEG</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SEG</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SEG</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Agg</td>
+              <td align="center" valign="middle">&#x2212;0.0202 ***</td>
+              <td align="center" valign="middle">&#x2212;0.0137 ***</td>
+              <td align="center" valign="middle">&#x2212;0.0170 ***</td>
+              <td align="center" valign="middle">&#x2212;0.0218 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;3.3552)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;4.6504)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;5.9808) </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;4.0154)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">TobinQ</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.0002 *</td>
+              <td align="center" valign="middle">&#x2212;0.0000</td>
+              <td align="center" valign="middle">0.0014</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(1.7898)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;0.1560)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(0.8515)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Size</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2212;0.0009</td>
+              <td align="center" valign="middle">&#x2212;0.0008</td>
+              <td align="center" valign="middle">0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;1.4602)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;1.4701)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(1.1098)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">ROA</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.0151</td>
+              <td align="center" valign="middle">0.0102</td>
+              <td align="center" valign="middle">0.0000</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(1.6151) </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(1.1333)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(0.2602)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">State</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.0072 ***</td>
+              <td align="center" valign="middle">0.0066 ***</td>
+              <td align="center" valign="middle">0.0020</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(4.3597)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(4.1306)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(0.1242)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">DER</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2212;0.0001</td>
+              <td align="center" valign="middle">&#x2212;0.0001</td>
+              <td align="center" valign="middle">0.0000</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;0.6997)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;0.5126)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(0.0682)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Lnpgdp</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.0001</td>
+              <td align="center" valign="middle">0.0069 ***</td>
+              <td align="center" valign="middle">&#x2212;0.0474 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(0.6500)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(3.3531)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;8.3690)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">FDI</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.0167 ***</td>
+              <td align="center" valign="middle">0.0161 ***</td>
+              <td align="center" valign="middle">0.0122 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(9.4667) </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(8.4172)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(2.6875)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Gov</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.1963 ***</td>
+              <td align="center" valign="middle">0.1697 ***</td>
+              <td align="center" valign="middle">0.0532 **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(16.7629)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(14.5519)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(2.5660)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">_cons</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2212;0.0085</td>
+              <td align="center" valign="middle">&#x2212;0.0772 ***</td>
+              <td align="center" valign="middle">0.6540 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;0.3601)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;2.9743)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(9.6282)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">year_fe</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">NO</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">city_fe</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NO</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">NO</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">N</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">15,793</td>
+              <td align="center" valign="middle">15,793</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">R<sup>2</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0947</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0065</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0949</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0981</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: t-statistics are reported in parentheses. ***, **, and * denote statistical significance at the 1%, 5%, and 10% levels, respectively. All specifications include the controls and fixed effects indicated in the table.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="urbansci-10-00641-t003" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00641-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Robustness Tests.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">(1)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">(2)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">(3)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">(4)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">(5)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">(6)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Agg<sub>2</sub></td>
+              <td align="center" valign="middle">&#x2212;0.0021 ***</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;6.0577)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Agg</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2212;0.0175 ** </td>
+              <td align="center" valign="middle">&#x2212;0.0542 ***</td>
+              <td align="center" valign="middle">&#x2212;0.0217 ***</td>
+              <td align="center" valign="middle">&#x2212;0.0182 **</td>
+              <td align="center" valign="middle">&#x2212;0.0222 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;2.3732)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;6.8810)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;3.8926)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;2.8860)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;4.0986)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">_cons</td>
+              <td align="center" valign="middle">0.7213 ***</td>
+              <td align="center" valign="middle">0.4110 ***</td>
+              <td align="center" valign="middle">0.4705 ***</td>
+              <td align="center" valign="middle">0.4895 ***</td>
+              <td align="center" valign="middle">0.5518 ***</td>
+              <td align="center" valign="middle">0.6271 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(10.3836)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(3.2957)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(5.6303)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(6.8215) </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(9.4712)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(9.232)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Control Variables</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">year_fe</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">city_fe</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">N</td>
+              <td align="center" valign="middle">15793</td>
+              <td align="center" valign="middle">11381</td>
+              <td align="center" valign="middle">13087</td>
+              <td align="center" valign="middle">15793</td>
+              <td align="center" valign="middle">15793</td>
+              <td align="center" valign="middle">15793</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">R<sup>2</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.1001</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0952</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.1000</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.1006</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0177</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.1010</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: t-statistics are reported in parentheses. *** and **  denote statistical significance at the 1% and 5%  levels, respectively.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="urbansci-10-00641-t004" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00641-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Endogeneity Test.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Variables</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(1)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(2)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(3)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(4)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle">First Stage</th>
+              <th align="center" valign="middle">Second Stage</th>
+              <th align="center" valign="middle">First Stage</th>
+              <th align="center" valign="middle">Second Stage</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Agg</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SEG</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Agg</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SEG</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">IV</td>
+              <td align="center" valign="middle">0.2390 ***</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.072 ***</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(21.44)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(4.9655)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Agg</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2212;0.0723 ***</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2212;0.754 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;8.76)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;3.651)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Kleibergen&#x2013;Paap rk LM statistic</td>
+              <td colspan="2" align="center" valign="middle">459.80<break/>[0.0000]</td>
+              <td colspan="2" align="center" valign="middle">24.384<break/>[0.000]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cragg&#x2013;Donald Wald F statistic </td>
+              <td colspan="2" align="center" valign="middle">1343.20</td>
+              <td colspan="2" align="center" valign="middle">24.393</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Controls</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">year_fe</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">city_fe</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">N</td>
+              <td align="center" valign="middle">15,754</td>
+              <td align="center" valign="middle">15,754</td>
+              <td align="center" valign="middle">15,455</td>
+              <td align="center" valign="middle">15,455</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">R<sup>2</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.004</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.0290</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: t-statistics are reported in parentheses. ***  denotes statistical significance at the 1% levels.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="urbansci-10-00641-t005" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00641-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Mechanism Test.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin">(1)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(2)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle"> </th>
+              <th align="center" valign="middle">Data Factor Mobility</th>
+              <th align="center" valign="middle">Information Transparency</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-top:solid thin">DIA &#x2192; Mediator (a)</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.024060 ***</td>
+              <td align="center" valign="middle" style="border-top:solid thin">0.090453 *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Mediator &#x2192; SEG (b)</td>
+              <td align="center" valign="middle">&#x2212;0.052177 ***</td>
+              <td align="center" valign="middle">&#x2212;0.0005583 **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Direct effect (c&#x2032;)</td>
+              <td align="center" valign="middle">&#x2212;0.020555 ***</td>
+              <td align="center" valign="middle">&#x2212;0.018336 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Indirect effect (a &#xD7; b)</td>
+              <td align="center" valign="middle">&#x2212;0.001255</td>
+              <td align="center" valign="middle">&#x2212;0.00005051</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Bootstrap 95% CI (BC)</td>
+              <td align="center" valign="middle">[&#x2212;0.005222, &#x2212;0.000027]</td>
+              <td align="center" valign="middle">[&#x2212;0.000439, &#x2212;0.000003]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-top:solid thin">Year FE</td>
+              <td align="center" valign="middle" style="border-top:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-top:solid thin">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">City FE</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Controls</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Observations</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15,793</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15,793</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: t-statistics are reported in parentheses. ***, **, and * denote statistical significance at the 1%, 5%, and 10% levels, respectively.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="urbansci-10-00641-t006" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00641-t006_Table 6</object-id>
+        <label>Table 6</label>
+        <caption>
+          <p>Heterogeneity analysis I.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin">(1)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(2)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(3)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(4)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(5)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SEG</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SEG</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SEG</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SEG</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SEG</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Agg</td>
+              <td align="center" valign="middle">&#x2212;0.0201 **</td>
+              <td align="center" valign="middle">&#x2212;0.0003 ***</td>
+              <td align="center" valign="middle">0.0000</td>
+              <td align="center" valign="middle">&#x2212;0.0001</td>
+              <td align="center" valign="middle">&#x2212;0.1847 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;2.1580)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;3.7008)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(0.1156)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;1.0054)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;6.7832)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">_cons</td>
+              <td align="center" valign="middle">0.7590 ***</td>
+              <td align="center" valign="middle">0.0001</td>
+              <td align="center" valign="middle">0.0010 ***</td>
+              <td align="center" valign="middle">0.0021 **</td>
+              <td align="center" valign="middle">2.9866 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(4.1037)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(0.2328)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(5.2812)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(2.0105)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(17.3438)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Controls</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">year_fe</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">city_fe</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">N</td>
+              <td align="center" valign="middle">11,968</td>
+              <td align="center" valign="middle">1642</td>
+              <td align="center" valign="middle">2180</td>
+              <td align="center" valign="middle">7915</td>
+              <td align="center" valign="middle">7868</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">R<sup>2</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2635</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.8263</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.8099</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.7644</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.3464</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: t-statistics are reported in parentheses. *** and **  denote statistical significance at the 1% and 5%  levels, respectively.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="urbansci-10-00641-t007" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00641-t007_Table 7</object-id>
+        <label>Table 7</label>
+        <caption>
+          <p>Heterogeneity analysis II.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin">(1)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(2)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(3)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle"> </th>
+              <th align="center" valign="middle">SEG</th>
+              <th align="center" valign="middle">SEG</th>
+              <th align="center" valign="middle">SEG</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-top:solid thin">Agg</td>
+              <td align="center" valign="middle" style="border-top:solid thin">&#x2212;0.0191 ***</td>
+              <td align="center" valign="middle" style="border-top:solid thin">&#x2212;0.0198 *</td>
+              <td align="center" valign="middle" style="border-top:solid thin">&#x2212;0.0440 **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(&#x2212;2.9843)</td>
+              <td align="center" valign="middle">(&#x2212;1.7217)</td>
+              <td align="center" valign="middle">(&#x2212;2.1982)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">_cons</td>
+              <td align="center" valign="middle">0.4793 ***</td>
+              <td align="center" valign="middle">0.3272 *</td>
+              <td align="center" valign="middle">0.6865 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(5.9688)</td>
+              <td align="center" valign="middle">(1.8057)</td>
+              <td align="center" valign="middle">(2.7350)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Controls</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">year_fe</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">city_fe</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">N</td>
+              <td align="center" valign="middle">11,243</td>
+              <td align="center" valign="middle">2505</td>
+              <td align="center" valign="middle">2026</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">R<sup>2</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2301</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2325</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2895</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: t-statistics are reported in parentheses. ***, **, and * denote statistical significance at the 1%, 5%, and 10% levels, respectively.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="urbansci-10-00641-t008" position="float">
+        <object-id pub-id-type="pii">urbansci-10-00641-t008_Table 8</object-id>
+        <label>Table 8</label>
+        <caption>
+          <p>Moderating Effect.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin">(1)</th>
+              <th align="center" valign="middle" style="border-top:solid thin">(2)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Economic Development</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Level of Openness</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Agg</td>
+              <td align="center" valign="middle">0.1866 **</td>
+              <td align="center" valign="middle">&#x2212;0.0087</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(1.9625)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;1.2787)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Lnpgdp</td>
+              <td align="center" valign="middle">&#x2212;0.0256 **</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;2.2795)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">FDI</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.0530 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(3.0744)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Agg<sub>it</sub> &#xD7; Mod<sub>it</sub></td>
+              <td align="center" valign="middle">&#x2212;0.0190 **</td>
+              <td align="center" valign="middle">&#x2212;0.0343 **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;2.2089)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(&#x2212;2.5096)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Controls</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">year_fe</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">city_fe</td>
+              <td align="center" valign="middle">YES</td>
+              <td align="center" valign="middle">YES</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-top:solid thin">N</td>
+              <td align="center" valign="middle" style="border-top:solid thin">15,783</td>
+              <td align="center" valign="middle" style="border-top:solid thin">15,783</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">R<sup>2</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2823</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2353</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: t-statistics are reported in parentheses. *** and  **  denote statistical significance at the 1% and 5%  levels, respectively.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

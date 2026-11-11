@@ -1,0 +1,60 @@
+www.nature.com/scientificreports/
+rate (VAR ， Eq. 1 ） as the ratio Of the number Of 15-minute periods a species was detected vocalising at least once
+to the total number of days recorded.
+“ 15 一 rn e periods
+VAR =
+days recorded
+0 ）
+While VAR is typically calculated as the total number of vocalisations of a species over the recording length, we
+count multiple vocalisations only once in a 15 -minute periOd in an effort tO reduce the overestimation Of species
+that vocalise frequentIy31 ． We summed the by-species vocal activity rates t0 get a VAR per site. lt should be noted
+that while our implementation ofVAR may be more robust31 ， acoustic abundance indices can be affected by the
+29 ， 31
+recording length and schedule and individual species' life histories
+as such it may not be a direct proxy for
+abundance for some species. Finally, we calculated the Shannon diversity index for each site by using the VAR
+0f a species in place of abundance.
+Mapping NDVI and vegetation volume
+While site selection was done on an NDVI map from 2017 ， we obtained newer remote sensing data from 2019
+for all further analyses. Optical satellite imagery with very high spatial resolution of 30 × 30 cm2 was acquired by
+WorldView- 3 on 04 ． 07 ． 2019 ． Based on these data, the NDVI was calculated (range 一 I t0 Fig. 2 ） for the single
+date. We also calculated the Enhanced Vegetation lndex (EVI) as an additional vegetation index based on the
+WorldView-3 data51 ， However, EVI was strongly correlated with NDVI （ Pearson's r = 0 ， 99 ； Supplementary Fig.
+(I), so we retained NDVI as the primary vegetation index for further analyses.
+Using the WorIdView- 3 imagery, a normalised digital surface model (nDSM) with very high spatial resolution
+of 50 × 50 cm2 and data from OpenStreetMap, a land cover map was generated based on the approach presented
+in Taubenböck et al 52 and Wurm et al. 53 For the calculation 0f vegetation volume, all vegetated pixels were
+extracted from the land cover map ， and vegetation volume in m3 was calculated based on the volume below the
+surface model (i.e. representation of the vegetation canopy) provided through the nDSM (Range 0 to 4 Fig. 2 ． ） ．
+Site characteristics at differing Spatial scales
+TO characterise the area surrounding each sampling point ， we calculated mean NDVI and mean vegetation
+volume (henceforth NDVI and vegetation volume) within several buffers around each sampling point （ 25 m,
+50 m ， 100 m ， 200 m ， 400 m ， 800 m) ． These buffer sizes were chosen t0 capture local variation in vegetation
+characteristics at scales relevant tO urban planning (e.g. within a city block54 or urban square42) and typical home
+5s56
+ranges Of urban bird species
+while also including the distances typically used in traditional point counts.
+Mean NDVI was calculated using the 巳 丷 ra 酗 function in the 了 ra package using a summary function Of mean.
+Mean vegetation volume was calculated similarly, using a sum function and dividing the total vegetation volume
+by the buffer area for each buffer to account for NA values in the non-vegetated pixels (Supplementary TabIe
+(I). To meet the linearity assumptions 0f the linear models, vegetation volume was then log-transformed for all
+analyses.
+Minimum and maximum values for NDVI and vegetation volume varied considerably across buffers (Fig. 3 ） ．
+NDVI ranged from 0 ， 103 tO 0 ． 782 across all buffers, with the lowest minimum observed at the 200 m buffer and
+the highest maximum at the 25 m buffer. For vegetation volume, the range was more pronounced, spanning
+from 0 ． 026 tO 17 ． 898 m3/m2, with the lowest minimum at the 100 m buffer and the highest maximum at the
+25 m buffer (Fig. 3 ） ， B oth NDVI and vegetation volume generally showed lower range and mean values as the
+size buffer increased; however ， the median value remained similar. NDVI and log vegetation volume correlate at
+small buffers, but this decreased with increasing buffer size （ Supplementary Fig. S2).
+40
+30
+20
+1 0
+0
+Fig. 2 ． NDVI and vegetation volume maps 0f Munich, Germany. (a) 30 cm resolution NDVI map (b) 50 cm
+resolution green volume map. Maps plotted at 5 m resolution.
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+4

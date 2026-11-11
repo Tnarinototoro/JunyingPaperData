@@ -1,0 +1,182 @@
+[
+  {
+    "name": "frontiers_sustainable",
+    "url": "https://www.frontiersin.org/journals/sustainable-cities",
+    "final_url": "https://www.frontiersin.org/journals/sustainable-cities",
+    "status": 200,
+    "chars": 9334
+  },
+  {
+    "name": "frontiers_ecology",
+    "url": "https://www.frontiersin.org/journals/ecology-and-evolution",
+    "final_url": "https://www.frontiersin.org/journals/ecology-and-evolution",
+    "status": 200,
+    "chars": 8654
+  },
+  {
+    "name": "frontiers_conservation",
+    "url": "https://www.frontiersin.org/journals/conservation-science",
+    "final_url": "https://www.frontiersin.org/journals/conservation-science",
+    "status": 200,
+    "chars": 7936
+  },
+  {
+    "name": "frontiers_environmental",
+    "url": "https://www.frontiersin.org/journals/environmental-science",
+    "final_url": "https://www.frontiersin.org/journals/environmental-science",
+    "status": 200,
+    "chars": 8588
+  },
+  {
+    "name": "peerj",
+    "url": "https://peerj.com/",
+    "final_url": "https://peerj.com/",
+    "status": 200,
+    "chars": 507
+  },
+  {
+    "name": "peerj_scope",
+    "url": "https://peerj.com/about/aims-and-scope/",
+    "final_url": "https://peerj.com/journals/peerj/aims-and-scope/",
+    "status": 200,
+    "chars": 467
+  },
+  {
+    "name": "land",
+    "url": "https://www.mdpi.com/journal/land",
+    "final_url": "https://www.mdpi.com/journal/land",
+    "status": 403,
+    "chars": 222
+  },
+  {
+    "name": "urbansci",
+    "url": "https://www.mdpi.com/journal/urbansci",
+    "final_url": "https://www.mdpi.com/journal/urbansci",
+    "status": 403,
+    "chars": 226
+  },
+  {
+    "name": "diversity",
+    "url": "https://www.mdpi.com/journal/diversity",
+    "final_url": "https://www.mdpi.com/journal/diversity",
+    "status": 403,
+    "chars": 225
+  },
+  {
+    "name": "applsci",
+    "url": "https://www.mdpi.com/journal/applsci",
+    "final_url": "https://www.mdpi.com/journal/applsci",
+    "status": 403,
+    "chars": 225
+  },
+  {
+    "name": "environments",
+    "url": "https://www.mdpi.com/journal/environments",
+    "final_url": "https://www.mdpi.com/journal/environments",
+    "status": 403,
+    "chars": 228
+  },
+  {
+    "name": "sustainability",
+    "url": "https://www.mdpi.com/journal/sustainability",
+    "final_url": "https://www.mdpi.com/journal/sustainability",
+    "status": 403,
+    "chars": 232
+  },
+  {
+    "name": "gjesm",
+    "url": "https://www.gjesm.net/",
+    "final_url": "https://www.gjesm.net/",
+    "status": 403,
+    "chars": 0
+  },
+  {
+    "name": "trends",
+    "url": "https://tis.wu.ac.th/index.php/tis",
+    "final_url": "https://tis.wu.ac.th/tishome/",
+    "status": 200,
+    "chars": 21197
+  },
+  {
+    "name": "eemj",
+    "url": "https://eemj.eu/",
+    "final_url": "https://eemj.eu/index.php/EEMJ",
+    "status": 200,
+    "chars": 6913
+  },
+  {
+    "name": "jjees",
+    "url": "https://jjees.hu.edu.jo/",
+    "final_url": "https://jjees.hu.edu.jo/",
+    "status": 200,
+    "chars": 6706
+  },
+  {
+    "name": "maejo",
+    "url": "https://mijst.mju.ac.th/",
+    "error": "HTTPSConnectionPool(host='mijst.mju.ac.th', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))"
+  },
+  {
+    "name": "env_ecology",
+    "url": "https://environmentandecology.com/",
+    "final_url": "https://environmentandecology.com/",
+    "status": 406,
+    "chars": 165
+  },
+  {
+    "name": "built",
+    "url": "https://www.alexandrinepress.co.uk/built-environment",
+    "final_url": "https://www.alexandrinepress.co.uk/built-environment",
+    "status": 403,
+    "chars": 1096
+  },
+  {
+    "name": "current_science",
+    "url": "https://www.currentscience.ac.in/",
+    "final_url": "https://www.currentscience.ac.in/",
+    "status": 307,
+    "chars": 139
+  },
+  {
+    "name": "asce",
+    "url": "https://ascelibrary.org/journal/jupddm",
+    "final_url": "https://ascelibrary.org/journal/jupddm",
+    "status": 403,
+    "chars": 59
+  },
+  {
+    "name": "ufug",
+    "url": "https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening",
+    "final_url": "https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening",
+    "status": 403,
+    "chars": 661
+  },
+  {
+    "name": "nature_conservation",
+    "url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/about/insights",
+    "final_url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/about/insights",
+    "status": 403,
+    "chars": 661
+  },
+  {
+    "name": "city_environment",
+    "url": "https://www.sciencedirect.com/journal/city-and-environment-interactions/about/insights",
+    "final_url": "https://www.sciencedirect.com/journal/city-and-environment-interactions/about/insights",
+    "status": 403,
+    "chars": 661
+  },
+  {
+    "name": "csp",
+    "url": "https://conbio.onlinelibrary.wiley.com/journal/25784854",
+    "final_url": "https://conbio.onlinelibrary.wiley.com/journal/25784854",
+    "status": 403,
+    "chars": 59
+  },
+  {
+    "name": "ese",
+    "url": "https://besjournals.onlinelibrary.wiley.com/journal/26888319",
+    "final_url": "https://besjournals.onlinelibrary.wiley.com/journal/26888319",
+    "status": 403,
+    "chars": 59
+  }
+]

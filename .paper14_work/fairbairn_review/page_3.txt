@@ -1,0 +1,41 @@
+www.nature.com/scientificreports/
+independence (Fig. 1). Raster cells where more than 25 ％ 0f the cell were outside 0f the city boundary were
+removed ， resulting in 86 cells. We selected a streetlamp closest tO the centre Of each selected raster cell as the
+sampling point using Google Maps and on- site surveys.
+Bird s U rveys
+We deployed a single Frontier Labs Bioacoustic Recorder （ BAR) or BAR long-term (BAR_LT) on each sampling
+point. Recorders were set tO record for one week, 24 h a day, with a sample rate Of 48 kHz and a gain Of 40 ，
+Recorders were deployed at a standardised height 0f approximately 4 m. We used 25 recorders and needed four
+weeks for recording (recording started on weeks 14 ， 27 ， 29 ， and 31 of 2023 ） ． Each sampling point was sampled
+once. A continuous and long recordmg periOd increases the likelihood Of detecting species that may vocalise
+26
+infrequently or would be missed by shorter schedules or short, infrequent visits, as with point counts · However,
+like any ecological survey method ， is subject to biases. SpecificaIIy, the detectability of species can vary due to
+multiple factors, including the structure Of the surrounding environment ， ambient noise, weather conditions,
+and distance fi ℃ m the microphone.
+Bird diverslty metr•cs
+To calculate bird richness, activity, and diversity, we analysed all the recordings with BirdNET- Analyzer18 （ v2 ， 4 ） ，
+including the week of the year, location ， a default sensitivity of I.O ， a default overlap of 0 s and the results filtered
+by a minimum confidence Of 0 ． 8 following Fairbairn et al.26. We removed singletons (species only detected on an
+individual site once) as they are likely incidental and the species not a resident 0f that site. AII species detected
+ten times or fewer overall were manually checked, and incorrect identifications were removed. The filtered and
+validated results were compared tO species occurrence data since 2000 from the Global Biodiversity lnformation
+49 ， 50
+FaciIity (GBIF) using the rgbifpackage in R and the NABU (Naturschutzbund DeutschIand e.V.) 40 most
+common garden birds (https ： //www.nabu.de/tiere-und-pflanzen/aktionen-und-projekte/stunde-der-gartenvoeg
+el/portraets/index.html) ， We then calculated the species richness per site by summing all species detected. As a
+measure Of vocal activity which can be used tO approximate relative abundance, we calculated the vocal activity
+ndvi
+0 ． 7
+0 ． 3
+0 ． 2
+5 km
+Fig. 1. SpatiaI distribution and NDVI 0f acoustic monitoring points in Munich, Germany. Map 0f 86 points in
+the City Of Munich, Bavaria ， Germany, where acoustic monitoring ofbirds was undertaken. The green gradient
+represents the average NDVI value within a 100 m buffer around each point. 咀 open red dot is the historic
+city centre ， Marienplatz. Grey dashed circles represent three-kilometre-wide rings within which the point
+selection was undertaken.
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio

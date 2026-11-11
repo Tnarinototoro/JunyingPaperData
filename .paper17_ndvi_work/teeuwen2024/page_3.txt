@@ -1,0 +1,143 @@
+R. Teeuwen
+2 ， 2 Capturing subjective perceptions through 怊 n ， questionnatres ，
+and al 宿
+People ' S subjective environmental perceptions are typically obtained
+through interviews or questionnmres (Nieuwenhuijsen et al., 2017 ；
+Markevych et al., 2017 〗 Examples include in-situ interviews with park
+TaIaI and Santelmann 〔 2021 ）
+ViSitors. For instance,
+with park visitors tO understand their motivations for visiting, experi-
+ences ， perceptions Of accessil)ility, and suggestions for improvements,
+and Sundevall and Jansson 〔 2020 ）
+conduct walking interviews with
+greenspace users tO learn about their desired use content, atmosphere
+inclt1Sivity, and management Of a greenspace.
+Questionnaires often employ Likert scales t0 obtain quantified sub-
+J ective measurements, for instance asking respondents tO rate the
+perceived quality and amount Of greenspace in their surroundings 〔
+lema et al., 2018 〗 the perceived amount Of greenness and hOW satisfied
+people are with its quality, amount, maintenance, and safety 〔
+Krt1ize
+et al., 2020 〕 ， or the perceived quantity and usage quality of greenspaces
+homes 〔
+Zhang et al., 2021 〕 ．
+Alternatively, researchers conduct audits tO measure the quantity
+and quality 0f greenspace (Nieuwenhuij sen et al., 2017 〗 A subset 0f
+greenspace sttldies employs street-level imagery tO elicit perceptions or
+tO condt1Ct atldits, St1Ch assessing the existence Of features in green-
+spaces through street-level imagery (Rzotkiewicz et al., 2018 〕 ． Other
+examples include work by Du et al. 〔 2021 〕 who provided park visitors
+with photos 0f park scenes t0 help them recall their visiting experience
+while answering a questionnaire abotlt their health and well-being ， or
+Van Vliet et al. （ 2021 ） WhO conducted a video-based choice experiment
+on park attribtltes st1Ch as trees ， furniture, cleanliness ， facilities ， and
+biodiversity.
+AIthough subjective data prove important when stt1dY1ng use of
+(FIowers et al., 2016 ； Fongar et al., 2019 〗 their collection is
+greenspace
+typically constrained by time, money, and geographical extent.
+2 ， 3 ． Capturing subjective perceptions through crowdsourcing campatgns
+TO address these temporal, monetary or geographic limitations, re-
+searchers collect people ' s visual environmental perceptions from many
+people through crowdsourcing campaigns, typically elicited through
+street-level imagery. Crowdsourcing is a method of recruiting a group 0f
+participants tO exectlte a task online, i.e., ex-sittl or remotely, whereas
+street-level imagery allows tO remotely mimic at scale what pedestrians
+may observe (Larkin and Hystad ， 2019 ； Lu ， 2019 ； Markevych et al.,
+〕 ． As such street-level imagery-based crowdsourcing campmgns
+2017
+researchers tO source perceptions from a vast diverse
+of places and individuals worldwide in a time- and labor-efficient
+Milias et al., 2023
+manner 〔
+Examples incltlde sttldies that collect perceptions by asking their
+participants in questlonnaires tO choose which location they prefer or tO
+rate places on a Likert scale and then inviting them tO explain their re-
+sponses by selecüng optlons from a list or inputting keywords. Examples
+include asking people t0 choose the most safe, upper class, or unique-
+looking place 0t1t 0f two places presented in imagery （
+Salesses et al.,
+） ； or the most happy ， beatltiftll, or qtliet place (Quercia et al., 2014
+2013
+letting participants select the least and most safe or attractive looking
+place 0t1t 0f four images (Candeia et al. ， 2017 ） ； and by asking people t0
+virtually navigate city streets while rating how safe and attractive they
+perceive their path in variot1S places 〔
+Milias et al., 2023
+2 ， 4 ． Differences and similarities between subjective and objective
+greenspace data
+Few studies have investigated the extent tO which large-scale spatial
+data and people ' s perceptions Of greenspaces match. These studies
+suggest, however that consistency is limited.
+Leslie et al. 〔 2010 ）
+discovered a lack Of agreement with overall perceived greenness and a
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+significant btlt modest correlation only for greenness expanse and not for
+street greenness, green sports facilities, and green amenities when
+comparing NDVI maps with people' s perceptions 0f their residential
+surroundings captured in four greenspace components.
+Zhang et al.
+〔 2021 〕 found no correlation of people' s perceived quantlty and usage
+quality Of greenspaces near their homes with canopy cover and at best
+very weak correlation with park area, vegetation cover, and Green View
+lndex. K0thencz and BIaschke 〔 201 刀
+assessed park visitors ， ratings Of
+greenness ， accessibility, and functions 0f parks, and found no correla
+tions with NDVI or park area, while they did find a moderate correlation
+of people ' s impression of greenness with the percentage of vegetated
+surface.
+Hyam 〔 2017 ）
+rating Of perceived naturalness, and natural components in street-view
+imagery detected through comptlter vision; And Helbich et al. 〔 2019 〕
+found no correlation between NDVI and deep-learning-based metrics 0f
+street View greenness.
+Our sttldy aims t0 add t0 our understanding 0f the prevlously re
+ported (lack (f) associations between large-scale greenspace data, such
+as NDVI and LULC maps, and people ' s visual perceptions 0f greenspaces.
+That is, we dO not necessarily presume that these data are comparable,
+tO provide OII differences
+in WhiCh circumstances St11)Stantial differences arise.
+factors distingtlish our work. First, we incltlde in our sttldy a diverse
+range of public spaces that differ in terms of type, geographical setüng,
+and vegetation level. Second we collect multiple people' s perceptions
+on the same locations. Third, we investigate potential causes Of dataset
+differences by qualitatively analyzing the reasons people give for their
+assessments and the spatial characteristics Of each location tO ftlrther
+strengthen Ot1r quantitative findings.
+3 ． Methods
+We collected and analyzed greenspace data in three European cities:
+Barcelona, R0tterdam, and G0thenburg. We used Python t0 collect NDVI
+data, and LULC data from OSM and we used a crowdsourcing approach
+with GoogIe Street View (GSV) imagery to collect people' s visual per-
+ceptions 0f greenspaces. We then tested our hypotheses and conducted
+additional exploratory and sensitivity analyses, and qualitatively
+investigated what spatial characteristics explain deviations between
+people ' s perceptions 0f greenspace and what is captured in the map
+data.
+ShOWS a summary Of Ot1r steps and
+Fig. 2 depicts the data we
+collected for each location: median NDVI values, OSM categories, and
+people ' S visual perceptions Of greenness. Links tO repositories contain
+ing our code and 〔 pseudonymized) data are provided in the data avail-
+ability statement at the bottom Of this article.
+3 ． 7 ， 7 、 hree casæstudy cities
+We selected three case-sttldy cities in Europe: G0thenburg (Sweden) ，
+Rotterdam (The NetherIands), and BarceIona 〔 Spain) ． OSM data in
+Europe is found to be relatively complete (Zhou et al., 2022
+〕 ． The
+cities major cities respective COt111tries, With
+G0thenburg and R0tterdam having comparable populations 0f approx.
+583 ， 000 ()n 2021 ） and approx. 592 ， 000 ()n 2022 ） ， respectively, while
+Barcelona has a stlbstantially larger poptllation 0f over 1 ， 640 ， 000 (in
+2022 〕 (Ajuntament de Barcelona ， 2022 ； CBS, 2022 ； Statistikmyndigh-
+eten, 2021 〕 ． AII three ciües have an important harbor. By selecting case-
+study cities from Northern, Western, and Southern European regions
+(UN, 2019L different vegetation zones (ROY et al., 2012 ） ， and diverse
+coverage 0f green land (Zhou et al. ， 2022 ） ， we account for varying
+enuronmental qualities. Barcelona is situated between a seaside with
+beaches and a forested mountain range inland, with a variety 0f parks ，
+including historic parks st1Ch as the Montjuic hill and architect Antoni
+Gaudf ， s Park GiieII, complemented by trees distributed along its streets.
+Gothenburg is strategically placed at a river outlet into the sea, and it has
+several greenspaces within its borders, incltlding parks such as the
+3

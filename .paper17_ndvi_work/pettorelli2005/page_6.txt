@@ -1,0 +1,126 @@
+508
+Review
+TRENDS EcoIogy and EvoIution v0L20 No ． 9 September 2005
+Box 3 ． PitfaIIs and caveats
+AIthough NDVI d ata sets a re quality-controlled products, there a re
+still pitfalls tO avoid when using them
+Mixed pixels
+A m ixed pixel is defined as a pixel that encompasses water and land.
+The problem arises from the fact that wate r lowers the NDVI value
+record ed from the vegetation in mixed pixels. The lower NDVI values
+from m ixed pixels have been previously documented [ 66L and i n
+larger sca | e WO rk (i 巳 when the pixel size is much smaller than the
+area considered), excluding coa sta 丨 pixels from the analysis might
+be a simple solution tO problems associated with m ixed pixels. ln
+small-scale WO rk, reducing the pixel size might also be a n option
+Misreg•stration
+Misregistration OCCUrS when a NDVI value is wrongly assigned tO a
+po i nt 0 n the glObe as a resu lt of errors i n back-calculating the
+position of the satellite at the time the image was taken. Most
+misregistration errors timing errors resulting from the onboard
+sate llite clock. The ground speed Of satellites is 7 km¯l, SO timing
+errors Of > 1 S a re Of most concern [ 57 ， 60L The accuracy Of the
+downloaded d ata should thus be checked by superimposing NDVI
+data 0 n known maps.
+Comparing N DVI values between pixels
+Many factors affect NDVI variations within a pixel: plant a rch itectu ra 丨
+arrangement, interactions with canopy cove r, height, composition Of
+species, vegetati 0 n vigour, leaf properties and vegetati 0 n stress a re
+some factors that ca n significantly affect the remotely sensed
+information [ 67 ， 68L Topography and altitude will 引 SO affect NDVI
+measurements [ 69L Given that the same NDVI value might represent
+different conditions for different vegetation communities, compar-
+ing INDVI betwee n close pixels is not advised without some previous
+knowledge Of the area Of interest.
+QuaIity Of the information in respect tO spatial location
+AdditionaI caution should be ta ke n when using the NVDI in specific
+spatial locations. FO r example, i n the humid tropics, NDVI time
+series, eve n when performed 0 n a monthly basis, a re highly
+conta m i nated by remnant cloud-cover effects [ 32L Problems alSO
+OCCUr at high latitudes and during the wi nter, because reflecta nce
+resolution deteriorates i n such areas [ 70 ] ． Moreover, during the
+wi nter, a greater incidence Of spuriously high NDVI values is
+repo rted at higher latitudes （ > 60 。 [ 66D resulting fro m taking the
+ratiO Of very small refl nces ． Finally, major errors alSO OCCLlr near
+the Equator (fro m 30 。 N to 300S), owing tO solar zenith angle
+variations within most Of the satellite reco rds. These errors a re
+most pronounced for the sate llite N OAA 1 1 ove r the period 1993 一
+1994 [ 58L Those particular noises, attached tO specific spatial
+locations, should be ta ken i ntO consideration while applying the
+chosen method tO smooth the NDVI time series.
+maximum NDVI value over a year correlated with the
+species richness of birds and butterflies [ 53L ln Spain ， the
+mimmum NDVI value over a year was demonstrated to
+correlate positively with the distribution 0f ticks [ 54L
+AII the studies reviewed here have coupled yearly
+measures based on the NDVI time-series tO yearly
+measures based on data on animal populaåons. lt is also
+possible tO couple vegetation and animal data dynamics if
+the animal data are collected at a temporal resolution that
+matches the temporal resolution of the NDVI time-senes
+considered. This dynamical approach has potential for
+future ecologlcal studies.
+Ot h er vegetation indices
+The NVDI is a vegetation index that has demonstrated its
+usefulness ln many ecological studies ． However ， in some
+www.sciencedirect.com
+situations ， other vegetation indexes might be more
+appropriate.
+The relationship between the NVDI and vegetation can
+be biased in sparsely vegetated areas (e.g. arid tO semi-
+arid zones in Australia) and dense canopies (e.g. Amazoman
+Forest [ 55D ． ln sparsely vegetated areas with a leaf area
+index (LAI) of < 3 ， the NVDI is influenced mainly by soil
+reflectance ， whereas for LAI> 6 (i.e. in densely vegetated
+areas) ， the relationship between the NVDI and NIR
+saturates [9]. Therefore ， in sparsely vegetated areas ， the
+soil-adjusted vegetation index (SAVI; [ 55]) is recom-
+mended instead of the NVDI (e.g. [ 50D · However ， the
+SAVI requires local calibration because it is diffcult tO
+predict how soil effects are manifested within large pixel
+areas ， which aggregate soils and vegetation Of many
+different types ， each of which requires ， in prmciple ，
+separate calibration.
+Another index that has appeared with MODIS is the
+Enhanced Vegetation lndex (EVI; [ 56D · This index
+provides complementary information about the spatial
+and temporal variations of vegetaåon ， while mimmizing
+many Of the contamination problems present in the NDVI
+such as those associated with canopy background and
+residual aerosol influences · Whereas the NDVI is chloro-
+phyll sensitive and responds mostly to RED variations ，
+the EVI is more NIR sensitive and responsive tO canopy
+structural variations ， including LAI canopy type and
+architecture · This index is thus meant to take full
+advantage of the new state-of-the-art measurement
+capabilities of MODIS. Additionally, EVI does not become
+saturated as easily as the NDVI when viewmg rainforests
+and other areas of the Earth with large amounts of green
+material. However, EVI has been developed on MODIS
+data and so data are only available 什 om 2000 onwards.
+Conclusions and perspectives
+The NVDI has already been succes sfully applied to
+research on temporal and spatial trends and variation in
+vegetation distribution, productivity and dynam 讠 cs, tO
+monitor habitat degradation and fragmentation ， and the
+ecological effects of climatic disasters such as drought or
+fire. The encouragmg results reviewed here suggest that
+NDVI will become an extremely useful t001 for terrestrial
+ecologlsts aiming t0 gam a better understanding of how
+vegetation dynamics and distribution affect diversity, life-
+history traits ， movement pattern s and population
+dynamics 0f animal populations ． The global coverage 0f
+the NDVI suggests that it could be used t0 predict the
+ecologlcal effects of envn•onmental change on ecosystems
+functioning and animal population dynamics and distri-
+butions ， enabling researchers to better understand the
+impact Of humans on the enuronment.
+Acknowledgements
+We thank the Distributed Active Archive Center (Code 902 ． 2 ） at the
+Goddard Space FIight Center, GreenbeIt, MD 20771 ， for producing the
+data in their present form and distributing them. The original data
+products were produced under the NOAA/NASA Pathfinder program, by a
+processing team headed by Mary James of the Goddard GIobaI Change
+Data Center; and the science algorithms were established by the AVHRR
+Land Science Working Group ， chaired by John Townshend of the
+University of MaryIand. Goddard ， s contributions tO these activities were

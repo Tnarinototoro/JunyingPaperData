@@ -1,0 +1,797 @@
+{
+  "scope": "Independent read-only SHP physical records, SHX index, DBF label row order and private Excel Name alignment. No actual geographic location validation in this structural subtask.",
+  "author_authority": "Author confirmation accepted: Excel NO, old S1 Pxx and anonymous SAV ParkID denote the same 1-through-39 identities; no alternative cross-ID identity mapping inferred.",
+  "input_files_modified": false,
+  "automatic_row_reordering_performed": false,
+  "sem_run_performed": false,
+  "names_addresses_or_coordinate_values_output": false,
+  "cpg_encoding": "UTF-8",
+  "checks": {
+    "shp_file_code_9994": true,
+    "shp_version_1000": true,
+    "shp_declared_file_size_matches": true,
+    "shp_parsed_exactly_to_end": true,
+    "shp_physical_record_numbers_are_1_through_39": true,
+    "all_shp_records_polygonz": true,
+    "shx_declared_file_size_matches": true,
+    "shx_fixed_header_and_geometry_bounds_bytes_match_shp": true,
+    "shp_shx_dbf_and_named_excel_record_counts_all_39": true,
+    "all_shx_rows_match_physical_shp_offset_and_length": true,
+    "no_deleted_or_inactive_dbf_records": true,
+    "all_dbf_row_labels_match_same_number_excel_NO_after_normalization": true,
+    "all_dbf_row_labels_match_same_number_excel_NO_without_normalization": true,
+    "all_prior_reader_record_numbers_and_private_xy_arrays_match_independent_parse": true,
+    "dbf_record_length_and_descriptors_valid": true
+  },
+  "all_structural_checks_pass": true,
+  "shp_record_count": 39,
+  "shx_record_count": 39,
+  "dbf_record_count": 39,
+  "named_excel_row_count": 39,
+  "dbf_layout": {
+    "header_record_count": 39,
+    "header_length": 385,
+    "record_length": 1129,
+    "fields_sum_matches_record_length": true,
+    "descriptor_terminator_present": true,
+    "record_payload_complete": true,
+    "trailing_bytes": 1
+  },
+  "input_file_sha256": {
+    "parks_metric.shp": "e919ae97fc3a146f58bdad7e0855b8126d40199e9fe25841757341b3b3cc2507",
+    "parks_metric.shx": "0f341e2f981e8715139f77daf4a1ad748e27063fafc178a62581bb75975d68c8",
+    "parks_metric.dbf": "7d93465a34ef64e8d4e6078ed6be1f50951d80cf12fd2bc61e3b9add92d7e450",
+    "parks_metric.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "39个公园地址.xlsx": "6c9792d6f0352fc1102026f3d2f1e58d53acaf15fbbec446b795ff00ea1060b8"
+  },
+  "per_record_links": [
+    {
+      "shp_physical_position": 1,
+      "shp_record_number": 1,
+      "shx_position": 1,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 1,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        1
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        1
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "63f123880872f526e65730d0e42fe5246765f1fe71930ac38976f1a2ea2277c0",
+      "geometry_part_count": 1,
+      "geometry_point_count": 59
+    },
+    {
+      "shp_physical_position": 2,
+      "shp_record_number": 2,
+      "shx_position": 2,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 2,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        2
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        2
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "978042c01778aad5109f78f7fcb2985fc1c82c202ca0b2abc6cfd2134cd24504",
+      "geometry_part_count": 1,
+      "geometry_point_count": 10
+    },
+    {
+      "shp_physical_position": 3,
+      "shp_record_number": 3,
+      "shx_position": 3,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 3,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        3
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        3
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "e8f6a8fe95c38ce102547447c168ee7d7f08e4eff60da3152d9a37e9b044211e",
+      "geometry_part_count": 1,
+      "geometry_point_count": 34
+    },
+    {
+      "shp_physical_position": 4,
+      "shp_record_number": 4,
+      "shx_position": 4,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 4,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        4
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        4
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "7fa53fcb96ab1e05220b004eb58e758901960f79a3e242fd2ac7253b8095280c",
+      "geometry_part_count": 1,
+      "geometry_point_count": 42
+    },
+    {
+      "shp_physical_position": 5,
+      "shp_record_number": 5,
+      "shx_position": 5,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 5,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        5
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        5
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "1408b9a377f2afc98b30f228cc0aa86898abd89f6e0569f7b8989da5394ea6f3",
+      "geometry_part_count": 1,
+      "geometry_point_count": 29
+    },
+    {
+      "shp_physical_position": 6,
+      "shp_record_number": 6,
+      "shx_position": 6,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 6,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        6
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        6
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "e737968fe29d0fce14f658a694fa4c4f9094af1b20ea5f5f4996868e4f342129",
+      "geometry_part_count": 1,
+      "geometry_point_count": 13
+    },
+    {
+      "shp_physical_position": 7,
+      "shp_record_number": 7,
+      "shx_position": 7,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 7,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        7
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        7
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "c4f7d007079d86dcf73a9d92e4e4a9bcd42ff25922d46bc6a962509eb11d5fd9",
+      "geometry_part_count": 1,
+      "geometry_point_count": 8
+    },
+    {
+      "shp_physical_position": 8,
+      "shp_record_number": 8,
+      "shx_position": 8,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 8,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        8
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        8
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "71a5b340339327fbf04a6dd6ff63f5b3012c88335257ef4a8f57eba9486675a2",
+      "geometry_part_count": 1,
+      "geometry_point_count": 14
+    },
+    {
+      "shp_physical_position": 9,
+      "shp_record_number": 9,
+      "shx_position": 9,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 9,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        9
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        9
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "0a032c7cd4a69398d25b77986028826d4a5d4064d7a910bf688f6a9986f17edc",
+      "geometry_part_count": 1,
+      "geometry_point_count": 20
+    },
+    {
+      "shp_physical_position": 10,
+      "shp_record_number": 10,
+      "shx_position": 10,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 10,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        10
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        10
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "f45f23cca8a66b6e269ab3e18a289aa62c3cf9966587a94aafd5ea778f09f7f7",
+      "geometry_part_count": 1,
+      "geometry_point_count": 27
+    },
+    {
+      "shp_physical_position": 11,
+      "shp_record_number": 11,
+      "shx_position": 11,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 11,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        11
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        11
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "803ea1840aadbb6ca7f1852ee751a91cb6a05735b9b376d4077c6db6107f995c",
+      "geometry_part_count": 1,
+      "geometry_point_count": 39
+    },
+    {
+      "shp_physical_position": 12,
+      "shp_record_number": 12,
+      "shx_position": 12,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 12,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        12
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        12
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "5bfa99db9d2c749b4d0e5604fdc4fef6edb0f44e876ac3c01c75ec569baf2f7f",
+      "geometry_part_count": 1,
+      "geometry_point_count": 56
+    },
+    {
+      "shp_physical_position": 13,
+      "shp_record_number": 13,
+      "shx_position": 13,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 13,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        13
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        13
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "dec9b55f8f1f791d032ecc3a0e801eb385cfbefdbba0ff12911d98ccd68dfd12",
+      "geometry_part_count": 1,
+      "geometry_point_count": 23
+    },
+    {
+      "shp_physical_position": 14,
+      "shp_record_number": 14,
+      "shx_position": 14,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 14,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        14
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        14
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "76b333ccbd7aa1fe8a021349f22afa38724d7ba19a44342e1f9ea62c3a639e8e",
+      "geometry_part_count": 1,
+      "geometry_point_count": 35
+    },
+    {
+      "shp_physical_position": 15,
+      "shp_record_number": 15,
+      "shx_position": 15,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 15,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        15
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        15
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "ff3434d8529cba8e7ce2b9649c5280ff893dda5fc590a6c895c26004fb8990a8",
+      "geometry_part_count": 1,
+      "geometry_point_count": 29
+    },
+    {
+      "shp_physical_position": 16,
+      "shp_record_number": 16,
+      "shx_position": 16,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 16,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        16
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        16
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "34bda1688ec2d0ee0af400208cf6e542eb0edbae8cef6f71d6c2824e7df67f8a",
+      "geometry_part_count": 1,
+      "geometry_point_count": 12
+    },
+    {
+      "shp_physical_position": 17,
+      "shp_record_number": 17,
+      "shx_position": 17,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 17,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        17
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        17
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "c3b1c790aaf73401185851787cb4892dbf933473110012e260109437f6bca578",
+      "geometry_part_count": 1,
+      "geometry_point_count": 25
+    },
+    {
+      "shp_physical_position": 18,
+      "shp_record_number": 18,
+      "shx_position": 18,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 18,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        18
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        18
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "b24853978df3abd122a149caccb85104b6c0b93e7d70e38e6f3263d34e7c37d3",
+      "geometry_part_count": 1,
+      "geometry_point_count": 9
+    },
+    {
+      "shp_physical_position": 19,
+      "shp_record_number": 19,
+      "shx_position": 19,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 19,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        19
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        19
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "dfe95d08e10b567fd350285dacb0b80efd2b1b2eaa7e6739f66845287bd2ba09",
+      "geometry_part_count": 1,
+      "geometry_point_count": 28
+    },
+    {
+      "shp_physical_position": 20,
+      "shp_record_number": 20,
+      "shx_position": 20,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 20,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        20
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        20
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "23eb185c09ecc1843487a55530cc6b00a4f9c14b09879a9c792254ad7374c0e0",
+      "geometry_part_count": 1,
+      "geometry_point_count": 31
+    },
+    {
+      "shp_physical_position": 21,
+      "shp_record_number": 21,
+      "shx_position": 21,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 21,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        21
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        21
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "a64a805d43a93a7848d9ef0b25e6114fa14afd2d075a18c87b1ee095a69473ac",
+      "geometry_part_count": 1,
+      "geometry_point_count": 32
+    },
+    {
+      "shp_physical_position": 22,
+      "shp_record_number": 22,
+      "shx_position": 22,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 22,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        22
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        22
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "7ff2a06a0acfb027eb7a853f7759e967502541a1f9be0076130ae3a3051e1ed5",
+      "geometry_part_count": 1,
+      "geometry_point_count": 29
+    },
+    {
+      "shp_physical_position": 23,
+      "shp_record_number": 23,
+      "shx_position": 23,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 23,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        23
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        23
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "60449b20f167b024576237d21aad466cae768b1b2faa6d008ce5a19024e9e719",
+      "geometry_part_count": 1,
+      "geometry_point_count": 15
+    },
+    {
+      "shp_physical_position": 24,
+      "shp_record_number": 24,
+      "shx_position": 24,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 24,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        24
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        24
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "c4d8ada62633aa13476bebf03332898f11333d43b78df57396465239028449f5",
+      "geometry_part_count": 1,
+      "geometry_point_count": 12
+    },
+    {
+      "shp_physical_position": 25,
+      "shp_record_number": 25,
+      "shx_position": 25,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 25,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        25
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        25
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "813cd727c100d37e98e80d486c0ced802e0d77e5a6328a078c832bd10ec6257d",
+      "geometry_part_count": 1,
+      "geometry_point_count": 43
+    },
+    {
+      "shp_physical_position": 26,
+      "shp_record_number": 26,
+      "shx_position": 26,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 26,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        26
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        26
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "baffbddcb1db9805ddaee00b38040f076e9aa27240853817233f3296f0ab5780",
+      "geometry_part_count": 1,
+      "geometry_point_count": 49
+    },
+    {
+      "shp_physical_position": 27,
+      "shp_record_number": 27,
+      "shx_position": 27,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 27,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        27
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        27
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "ee76915ff842b328988086334f4eaf99315861c1c259c0b9f76dea89294a096d",
+      "geometry_part_count": 1,
+      "geometry_point_count": 19
+    },
+    {
+      "shp_physical_position": 28,
+      "shp_record_number": 28,
+      "shx_position": 28,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 28,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        28
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        28
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "de9fd006fda834d50e74b8de29681489d4c278913b5f5039e985685af8c67662",
+      "geometry_part_count": 1,
+      "geometry_point_count": 30
+    },
+    {
+      "shp_physical_position": 29,
+      "shp_record_number": 29,
+      "shx_position": 29,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 29,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        29
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        29
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "6dc268ca9b00bb1ee6f0f47a6756b9c8353bfd142e534dfaa4aadf701af5be2c",
+      "geometry_part_count": 1,
+      "geometry_point_count": 26
+    },
+    {
+      "shp_physical_position": 30,
+      "shp_record_number": 30,
+      "shx_position": 30,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 30,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        30
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        30
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "3d53657da0471f0452dddd490dd1cf2c42e5bc303536b676f9948ef960e03a36",
+      "geometry_part_count": 1,
+      "geometry_point_count": 29
+    },
+    {
+      "shp_physical_position": 31,
+      "shp_record_number": 31,
+      "shx_position": 31,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 31,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        31
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        31
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "aca9953cd29e60ed723e0bd74bd152259ffc9ba501837f174115ee204ada2d4f",
+      "geometry_part_count": 1,
+      "geometry_point_count": 31
+    },
+    {
+      "shp_physical_position": 32,
+      "shp_record_number": 32,
+      "shx_position": 32,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 32,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        32
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        32
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "8584b5f78cd19e882f573f620f7889f5719965ac2d69c02a800a1ea0afe0aa9e",
+      "geometry_part_count": 1,
+      "geometry_point_count": 24
+    },
+    {
+      "shp_physical_position": 33,
+      "shp_record_number": 33,
+      "shx_position": 33,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 33,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        33
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        33
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "d20079644de9de8cd5ebba64a96dca10586f54a8c440d48d7a796b67f66f9699",
+      "geometry_part_count": 1,
+      "geometry_point_count": 31
+    },
+    {
+      "shp_physical_position": 34,
+      "shp_record_number": 34,
+      "shx_position": 34,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 34,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        34
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        34
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "e6ac5e000c95983b811539ba3ce114035111c1dd84ab9caf7f358d52d19f34eb",
+      "geometry_part_count": 1,
+      "geometry_point_count": 15
+    },
+    {
+      "shp_physical_position": 35,
+      "shp_record_number": 35,
+      "shx_position": 35,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 35,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        35
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        35
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "68e7d8e2b3f1f112ddb788df79ca68875afa1e98f498018b0d7cb64721adab1e",
+      "geometry_part_count": 1,
+      "geometry_point_count": 12
+    },
+    {
+      "shp_physical_position": 36,
+      "shp_record_number": 36,
+      "shx_position": 36,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 36,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        36
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        36
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "d905ba7e93ede3260b32c4f541a5b53c8800d5c979fdc8cac6fc638762898642",
+      "geometry_part_count": 1,
+      "geometry_point_count": 16
+    },
+    {
+      "shp_physical_position": 37,
+      "shp_record_number": 37,
+      "shx_position": 37,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 37,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        37
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        37
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "b399ecbedb9f2794347a3e3c63a1750a7356083dcc2ffa8364cba512f85d55fd",
+      "geometry_part_count": 1,
+      "geometry_point_count": 37
+    },
+    {
+      "shp_physical_position": 38,
+      "shp_record_number": 38,
+      "shx_position": 38,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 38,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        38
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        38
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "f1fb155640dab2c3d6c6a8be831adbb9009a6c27b6df94631a825f8df4c1a066",
+      "geometry_part_count": 1,
+      "geometry_point_count": 48
+    },
+    {
+      "shp_physical_position": 39,
+      "shp_record_number": 39,
+      "shx_position": 39,
+      "shx_offset_and_length_match_physical_shp": true,
+      "dbf_physical_position": 39,
+      "dbf_active": true,
+      "dbf_name_raw_matching_excel_NO": [
+        39
+      ],
+      "dbf_name_normalized_matching_excel_NO": [
+        39
+      ],
+      "prior_reader_record_number_matches": true,
+      "prior_reader_geometry_xy_part_arrays_match_independent_parse": true,
+      "geometry_content_sha256": "0c9bbdfcf0de096f03e7ef81e01cb60604d1224f4006a20f14f5624d5f7d2a64",
+      "geometry_part_count": 1,
+      "geometry_point_count": 16
+    }
+  ],
+  "reader_code_assessment": "audit_vectors_std.read_shp appends records in physical byte order and retains the SHP record number; it does not sort features. For this file record numbers equal positions 1..39, SHX positions and DBF positions, so using the header number does not alter row order. Independent XY/part parsing matches the prior reader for every record.",
+  "version_and_identity_limits": [
+    "Structural agreement and exact private label-to-Excel alignment exclude a detected SHX index or parser-order mismatch for the supplied files. They do not prove historical SHP and DBF came from the same export version.",
+    "SHP records do not embed the DBF Name text or an immutable feature UUID. A DBF and SHP with the same 39-record layout could be internally consistent yet semantically mispaired.",
+    "Actual geometry location versus labelled park/address requires private independent location or boundary evidence; this structural subtask does not certify it.",
+    "No numeric extrema match is used to overturn the author's identity confirmation."
+  ]
+}

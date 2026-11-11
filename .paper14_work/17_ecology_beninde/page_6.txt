@@ -1,0 +1,119 @@
+586 上 Beninde, M. Veith and A. Hochkirch
+Review and Synthesis
+O
+Habitat category
+Corridor
+Connectivity
+Distance tO water bOdy
+Green a rea 0 / 0
+Agricultural area 0 / 0
+Sealed surfaces ％
+一 到
+Summary
+effect Size
+0 ． 63
+0 ． 02
+0 ． 21
+0 ． 28
+0 ． 10
+一 0 ． 11
+5
+10
+7
+21
+4
+17
+square
+< 0 ． 001
+0 ． 854
+0 ． 143
+< 0 ． 001
+0 ． 414
+0 ， 307
+一 0 ． 6 一 0 、 4 一 0 ． 2 0
+0 ． 2
+Figure 4 Summary effect sizes 0f random-effect models for all landscape factors calculated for
+corresponds tO sample size Of model. Orange: design variables ．
+0 、 4 0 ． 6
+species richness;
+Summary
+effect Size
+一 0 ． 02
+0 ． 05
+0 ． 28
+S1ze
+Of
+3
+3
+3
+Of
+summary
+effect
+Habitat category
+Vegetation stru ct u re
+Water cove r
+Green area 0 / 0
+0
+0 ． 923
+0 ． 913
+< 0 ． 001
+一 0 ． 6 一 0 ． 4 一 0 ． 2 0
+0 ． 2 0 ． 4 0 ． 6
+Figure 5 Summary effect sizes Of random-effect models for all variables calculated for species diversity; size Of square Of summary effect corresponds tO
+sample size 0f model. Orange: design variables; green. biotic variables; blue: abiotic variables.
+absence 0f publication bias ， they should be symmetrically dis-
+tributed around the mean effect size ． The studies at the top Of
+the funnel p10t are usually those with large sample sizes
+@ small standard errors) ， while the studies with smaller sample
+sizes （ 、 large standard errors) are located at the bottom ． Since
+standard errors can be expected tO be randomly distributed,
+independent Of effect size, gaps in the funnel plOt are indicative
+Of missing publications. 、 Me tested for publication bias using a
+regression test for asymmetry (Borenstem et ， 2009 ） ， Signifi-
+cantly asymmetric results were then augmented using the Trim
+and FiII method (Sutton et ， 2000 ） ， This method calculates
+the number Of missing studies, due tO publication bias, esti-
+mates their effect sizes as well as standard errors and adds
+them tO the data set Of the meta-analysis ． This aims tO retrieve
+a summary effect size that is closer tO the true effect which
+could not be calculated directly because of publication bias ．
+Although asymmetry was significant in some cases, augmenta-
+tion 0f data using the Trim and FiII method did not change
+the significance 0f results, except for edge-effects (see TabIe 1
+and Trim and Fill plots in Supporting information).
+Factors that we could perform a meta-analyses for were fur-
+ther analysed tO test for an effect Of the different taxa
+lncluded in the analysis ， Using taxa levels as a moderator m a
+mixed-effects model (Borenstein 磊 / ． 2009 ） ， we tested for a
+significant effect for single taxonomc groups ．
+0 20 巧 John WiIey & Sons Ltd/CNRS
+The generalised data set, compiled for compansons
+of landscape vs. local variables, biotic vs ． abiotic and design
+VS ． management was based on 87 publications and a tOtal
+of 1690 entries ． The previously introduced factors were
+grouped intO either landscape or local, either abiotic or
+biotic and either design or management variables (see Table
+in Supporting information). The ratiO Of significant VS ． non-
+significant effects on the response variables (i.e. biodiversity
+measures) was then analysed using Fisher' s exact test (see
+Fig. 2 ） ．
+TO get an indication Of the size Of habitat patches necessary
+t0 sustain levels of biodiversity, we analysed spatial thresholds
+that authors identified tO prevent species IOSS. Due tO the het-
+erogeneity 0f approaches for this procedure, we grouped
+results in two categories: high- or low-level thresholds ． High-
+level thresholds contain values found necessary for the protec-
+tion Of a significant number Of area-sensitive species (e.g. for-
+est interior species) ， while the low-level thresholds contain
+values necessary tO sustain urban-adapter species numbers
+before they decrease exponentially ． The results for these two
+groups were tested for sigmficant differences usmg a Wilcoxon
+rank-sum test.
+AII statlstical analyses were performed with R version 3 ， 02
+(R Core Team 2013 ） using the packages rmeta (Lumley 2012 ）
+and metafor (Viechtbauer 2010 ） ．
+0
+0
+9
+0
+0

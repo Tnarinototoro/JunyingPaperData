@@ -1,0 +1,1735 @@
+{
+  "requested_title": "Journal of Cleaner Production",
+  "status": 200,
+  "url": "https://journalfinder.elsevier.com/api/journals/search",
+  "request": {
+    "query": "Journal of Cleaner Production",
+    "mode": "search",
+    "goldOpenAccess": true,
+    "subscription": true,
+    "sortBy": "default",
+    "sortOrder": "asc",
+    "ecrId": "",
+    "agreementsFilter": "all-journals"
+  },
+  "response": {
+    "results": [
+      {
+        "ranking": 1,
+        "title": "Journal of Cleaner Production",
+        "acronym": "JCLP",
+        "emAcronym": "JCLEPRO",
+        "issn": "0959-6526",
+        "subjectAreas": [
+          "Waste Management and Disposal",
+          "Pollution",
+          "Management, Monitoring, Policy and Law",
+          "Renewable Energy, Sustainability and the Environment"
+        ],
+        "articleTypes": [
+          "Original article",
+          "Review article",
+          "Conference Report",
+          "Technical note"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/09596526.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/JCLEPRO",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-cleaner-production/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 21.3
+          },
+          "impactFactor": {
+            "value": 10.7
+          },
+          "timeToFirstDecision": {
+            "value": 6
+          },
+          "timeToAcceptance": {
+            "value": 5
+          }
+        },
+        "scope": "<p>The <b><i>Journal of Cleaner Production</i></b> is an international, transdisciplinary journal focusing on Cleaner Production, Environmental, and Sustainability research and practice. Through our published articles, we aim at helping societies become more sustainable.</p><p>&#39;Cleaner Production&#39; is a concept that aims at preventing the production of waste, while increasing efficiencies in the uses of energy, water, resources, and human capital.</p><p>The <b><i>Journal of Cleaner Production</i></b> serves as a platform for addressing and discussing theoretical and practical cleaner production, encompassing environmental, and sustainability issues in corporations, governments, education institutions, regions, and societies.</p><p>Subject areas include, but are not limited to:</p><ul><li><p>Cleaner production and technical processes</p></li><li><p>Sustainable Development and Sustainability</p></li><li><p>Sustainable Consumption</p></li><li><p>Environmental and sustainability assessment</p></li><li><p>Sustainable Products and Services</p></li><li><p>Corporate sustainability and Corporate Social Responsibility</p></li><li><p>Education for Sustainable Development</p></li><li><p>Governance, legislation, and policy for sustainability</p></li></ul><p>For a full list of topics, please have a look <a href=\"https://www.elsevier.com/__data/promis_misc/JCLP_image_aimsandscope.pdf\">here</a>.</p><p>To ensure homogeneous peer review standards and to help direct authors to the editors with the best expertise to handle their submission, we have launched a family of high-quality gold open access journals that jointly cover the sustainability discipline. Good niche papers may-be redirected from the <b><i>Journal of Cleaner Production</i></b> to one of these disciplinary companion journals of the <i>Cleaner</i> brand. Papers that are transferred to these companion journals will be handled by a team expert editors and reviewers providing authors with constructive reviews and well-informed decisions. <br/> The <b><i>Journal of Cleaner Production</i></b> has the following companion titles:</p><ul><li><p><a href=\"https://www.elsevier.com/locate/issn/2772-8013\">Cleaner and Circular Bioeconomy</a></p></li><li><p><a href=\"https://www.elsevier.com/locate/issn/2666-7843\">Cleaner and Responsible Consumption</a></p></li><li><p><a href=\"https://www.elsevier.com/locate/issn/2772-7823\">Cleaner Chemical Engineering</a></p></li><li><p><a href=\"https://www.elsevier.com/locate/issn/2772-7831\">Cleaner Energy Systems</a></p></li><li><p><a href=\"https://www.elsevier.com/locate/issn/2666-7908\">Cleaner Engineering and Technology</a></p></li><li><p><a href=\"https://www.elsevier.com/locate/issn/2666-7894\">Cleaner Environmental Systems</a></p></li><li><p><a href=\"https://www.elsevier.com/locate/issn/2772-3909\">Cleaner Logistics and Supply Chain</a></p></li><li><p><a href=\"https://www.elsevier.com/locate/issn/2772-3976\">Cleaner Materials</a></p></li><li><p><a href=\"https://www.elsevier.com/locate/issn/2666-7916\">Cleaner Production Letters</a></p></li><li><p><a href=\"https://www.elsevier.com/locate/issn/2772-9125\">Cleaner Waste Systems</a></p></li><li><p><a href=\"https://www.elsevier.com/locate/issn/2950-2632\">Cleaner Water</a></p></li><li><p><a href=\"https://www.sciencedirect.com/journal/cleaner-food-systems\">Cleaner Food Systems</a></p></li><li><p><a href=\"https://www.sciencedirect.com/journal/cleaner-cities\">Cleaner Cities </a></p></li></ul><p></p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Cecília Maria Almeida | Maria Teresa Moreira | Yutao Wang",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 1
+            },
+            {
+              "name": "ENGINEERING, ENVIRONMENTAL",
+              "tier": 2
+            },
+            {
+              "name": "GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4580,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 2,
+        "title": "Cleaner Production Letters",
+        "acronym": "CLPL",
+        "emAcronym": "CLPL",
+        "issn": "2666-7916",
+        "subjectAreas": [
+          "Waste Management and Disposal"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Letters",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26667916.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLPL",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/cleaner-production-letters/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 8.6
+          },
+          "impactFactor": {
+            "value": 5
+          },
+          "timeToFirstDecision": {
+            "value": 10
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p></p><p><b>Peer review policy</b> <br/></p><p><i>Cleaner Production Letters (CLPL)</i> will implement a high standard and rapid peer review process to ensure the high quality of papers published in <i>CLPL</i> and sensitivity to the emerging issues. <i>CLPL</i> will accept direct submissions and transfer suggested by <a href=\"https://www.journals.elsevier.com/journal-of-cleaner-production\"><i>JCLP</i></a> editors as well, however, the recommendations from <i>JCLP</i> will not guarantee publication in <i>CLPL</i>. <i>CLPL</i> will implement a high standard and rapid peer review process to ensure the quality of papers published in <i>CLPL</i>.</p><p>All submissions will be pre-evaluated through a screening process. Therefore, the authors when submitting the article should submit a covering letter with an expression of interest, explaining four key aspects of the research, in particular (maximum 80 words per each aspect):</p><ol><li><p>How the research article content addresses an emerging topic in cleaner production and sustainability?</p></li><li><p>How the research approach integrates an inter-, multi- or transdisciplinary perspective?</p></li><li><p>How the research outcomes enable positive high societal impact and great significance?</p></li><li><p>How the research article impacts with other related works: aligns, extends or conflicts? Please identify two to four articles that demonstrate that main impact.</p></li></ol><p></p><p><i>Cleaner Production Letters</i> (<i>CLPL</i>, ISSN: 2666-7916) is an international, inter-, multi- and transdisciplinary journal focusing on Cleaner Production, Environmental, and Sustainability research and practice. <i>CLPL</i> is committed to publish top-tier original research from the cleaner production community and to serve as a platform for communications in addressing and discussing emerging topics with potential of high societal impact and great significance.</p><p>The papers published in <i>CLPL</i> will provide a deeper understanding of new and innovative technological, human and institutional strategies, approaches, methods, models and cases, in cleaner production and sustainability issues, addressing Sustainable Development Goals (SDGs).</p><p>Articles will focus on emerging frontiers and paradigms in cleaner production and sustainability research, including a wide range of topics, such as circular supply chains, sustainable consumption, sustainable business models, circular economy, production service system and sharing economy, assessing sustainability and indicators, sustainability management and reporting, advanced and green manufacturing, social drivers and impacts of cleaner production, prevention strategies, life cycle thinking, global changes and carbon neutralization, clean, affordable and secure energy, environmental systems engineering, and bio-based economy.</p><p><i>CLPL</i> particularly welcomes the following types of articles: (1) <i>original research articles</i>: emerging and disruptive topics in cleaner production and sustainability that address present and future societal challenges; (2) <i>review articles</i>: high quality <i>reviews</i> that consolidate and shape a fast-developing area; (3) <i>short communications</i> to the editors: short articles reflecting about a novel or priority issue; discussion articles addressing relevant questions, comments and inputs to other published articles; viewpoint and critical perspective articles.</p><p>Specialized research judged to be of relevance only to a very particular discipline or a narrow audience may not be considered. Articles must address a sustainable development related topic with an integrative perspective and drive positive societal impacts, required to achieve SDGs.</p><p></p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Fanran Meng | Tomás Ramos",
+        "goldOpenAccessFee": {
+          "value": 2030,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 3,
+        "title": "Cleaner Engineering and Technology",
+        "acronym": "CLET",
+        "emAcronym": "CLET",
+        "issn": "2666-7908",
+        "subjectAreas": [
+          "Waste Management and Disposal"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Perspectives",
+          "Short Communication",
+          "VSI: Industry 5.0-Research",
+          "VSI: anthropogenic resource recovery -Research",
+          "VSI: anthropogenic resource recovery_Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26667908.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLET",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/cleaner-engineering-and-technology/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 14.3
+          },
+          "impactFactor": {
+            "value": 7.3
+          },
+          "timeToFirstDecision": {
+            "value": 7
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p><i>Cleaner Engineering and Technology</i> is an international, transdisciplinary companion journal to <a href=\"https://www.journals.elsevier.com/journal-of-cleaner-production\">Journal of Cleaner Production</a> that aims at preventing the production of waste, while increasing efficiencies in the uses of energy, water, resources, and human capital. <i>Cleaner Engineering and Technology</i> serves as a platform for addressing and discussing theoretical and practical cleaner production, encompassing environmental, and sustainability issues.</p><p>Scope includes, but not only:</p><ul><li><p>Biomass</p></li><li><p>Circular economy</p></li><li><p>Climate change</p></li><li><p>Environmental and sustainability philosophies</p></li><li><p>Environmental nexuses</p></li><li><p>Green/sustainable building construction</p></li><li><p>Green/sustainable chemistry</p></li><li><p>Green/sustainable energy storage</p></li><li><p>Green/sustainable engineering</p></li><li><p>Green/sustainable supply chains</p></li><li><p>Green/sustainable transport</p></li><li><p>Improved material handling</p></li><li><p>Industrial ecology</p></li><li><p>Mining and sustainability</p></li><li><p>Pollution reduction</p></li><li><p>Regions and urban transformation</p></li><li><p>Renewable energy</p></li><li><p>Toxic substances reduction and elimination</p></li><li><p>Waste elimination</p></li><li><p>Water management</p></li></ul><p>We encourage those interested in organizing a special issue or a virtual special issue within the scope of the journal to fill out <a href=\"https://www.elsevier.com/__data/promis_misc/Cleaner%20spinoffs%20VSI%20application%20form.docx\">this form</a> and contact the editors-in-chief for more information.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Yang Liu | Athanasios Papadopoulos",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 2
+            },
+            {
+              "name": "ENGINEERING, ENVIRONMENTAL",
+              "tier": 3
+            },
+            {
+              "name": "GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3050,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 4,
+        "title": "Cleaner and Circular Bioeconomy",
+        "acronym": "CLCB",
+        "emAcronym": "CLCB",
+        "issn": "2772-8013",
+        "subjectAreas": [
+          "Economics, Econometrics and Finance (General)",
+          "Environmental Science (General)"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27728013.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLCB",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/cleaner-and-circular-bioeconomy/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 7.9
+          },
+          "timeToFirstDecision": {
+            "value": 10
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p><i>Cleaner and Circular Bioeconomy</i> (CLCB) is an international, cross-disciplinary companion journal to Journal of Cleaner Production that publishes original full-length research articles, perspective and reviews to promote a cleaner and circular bioeconomy. CLCB provides an interdisciplinary platform to promote research in sustainable production of bio-resources, their cleaner conversion into food, feed, bio-based products, bioenergy and other goods, and circulate biowaste and bioproducts at the end of their life cycles. The platform provides researchers from natural science, social science, engineering, agriculture, business, politics, and many other disciplines to share their discoveries, insights, technologies, solutions, and best practices to promote a bioeconomy for global and regional sustainability. Innovative and interdisciplinary works that can make societal impacts are highly encouraged.</p><p>Topics include but not limited to:</p><ul><li><p>Biotechnologies for circular economy and low emissions</p></li><li><p>Bio-based materials and products for sustainability</p></li><li><p>Bioenergy production, distribution, and use</p></li><li><p>Circularity of bio-based materials and products</p></li><li><p>Policy and practices to promote bioeconomy</p></li><li><p>Social and economic sustainability for bioeconomy</p></li><li><p>Sustainable regional system development around bioeconomy</p></li><li><p>Food-energy-water nexus</p></li><li><p>Organic waste recycling and upcycling</p></li><li><p>Biotechnologies for environmental health</p></li><li><p>Business models around bioeconomy</p></li><li><p>Assessments of consumer choice in bio-based economy</p></li><li><p>Bioeconomy in emerging economies</p></li></ul><p>We encourage those interested in organizing a special issue or a virtual special issue within the scope of the journal to fill out <a href=\"https://www.elsevier.com/__data/promis_misc/Cleaner%20spinoffs%20VSI%20application%20form.docx\">this form</a> and contact the editor-in-chief for more information.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Sara González-García | Mingzhou Jin",
+        "goldOpenAccessFee": {
+          "value": 1940,
+          "currency": "USD",
+          "discountedValue": 970,
+          "discountExpiryDate": "2027-06-30"
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 5,
+        "title": "Cleaner and Responsible Consumption",
+        "acronym": "CLRC",
+        "emAcronym": "CLRC",
+        "issn": "2666-7843",
+        "subjectAreas": [
+          "Management, Monitoring, Policy and Law"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26667843.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLRC",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/cleaner-and-responsible-consumption/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 8.4
+          },
+          "impactFactor": {
+            "value": 6.1
+          },
+          "timeToFirstDecision": {
+            "value": 1
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p><i>Cleaner and Responsible Consumption</i>, a companion journal to <a href=\"https://www.journals.elsevier.com/journal-of-cleaner-production\">Journal of Cleaner Production</a>, focuses on equitable strategies that can foster the quality of life, the efficient use of natural resources, and the effective satisfaction of human needs while simultaneously promoting equitable social development, economic competitiveness, and technological innovation.</p><p><i>Cleaner and Responsible Consumption</i> publishes current research on sustainable and responsible consumption and aims to offer an interdisciplinary overview of recent research encouraging discussion and debate on sustainable and responsible consumption from government, business, academia and societal innovators.</p><p>The journal provides a key platform for publishing high-quality interdisciplinary papers on research and practice in the field. It looks outstandingly at the patterns of consumption to help identify more-sustainable solutions for consumption systems.Articles published include original research, perspectives, short communications, policy and review papers.</p><p>The areas and topics covered by Cleaner and Responsible Consumption (CLRC)include but are not limited to: <br/> •Alternative consumption patterns <br/> • CLRC encouraging producer responsibility <br/> • Rebound effects and CLRC <br/> • Sustainable lifestyles <br/> • CLRC guiding ethical investment <br/> • CLRC in promoting circular economy <br/> • CLRC in helping climate change mitigation <br/> • CLRC promoting energy/resources savings and conservation <br/> • Producer as resource consumer <br/> • Sustainable consumer/customer attitudes <br/> • Analysis of consumer preferences and attitudes <br/> • Consumer engagement and communication <br/> • Lock-in consumption system <br/> • Poka-yoke sustainable consumption system <br/> • Sustainable policies for CLRC <br/> • Sustainable procurement encouraging CLRC <br/> • Sustainable products and services <br/> • Economic instruments to promoting CLRC <br/> • Integrated product policies for CLRC <br/> • Multi-criteria decision analysis for CLRC <br/> • Scenario analysis for CLRC <br/> • Social life cycle assessment <br/> • Stakeholder&#39;s role in CLRC <br/> • CLRC indicators <br/> • Big data application to access CLRC alternatives <br/> • IoT applications to promote CLRC <br/> • Sustainable Education for CLRC <br/> • The ethics of consumption <br/> • Innovation for CRC practices <br/> • Perspectives on radical changes to CLRC <br/> • Policy modeling and implications for CLRC <br/> • Degrowth <br/> • CLRC Tools</p><p>We encourage those interested in organizing a special issue or a virtual special issue within the scope of the journal to fill out <a href=\"https://www.elsevier.com/__data/promis_misc/Cleaner%20spinoffs%20VSI%20application%20form.docx\">this form</a> and contact the editors-in-chief for more information.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Eva Niesten | Kuo-Jui Wu",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 2
+            },
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 2
+            },
+            {
+              "name": "GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "Management Science",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2630,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 6,
+        "title": "Cleaner Cities",
+        "acronym": "CLECIT",
+        "emAcronym": "CLECIT",
+        "issn": "3117-9061",
+        "subjectAreas": [
+          "Management, Monitoring, Policy and Law",
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review Article",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/31179061.jpg",
+        "links": {
+          "submission": "https://www.editorialmanager.com/clecit/default2.aspx",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p><i> </i><i>Cleaner Cities</i> is an international, multidisciplinary companion journal to the <i>Journal of Cleaner Production</i> that aims to advancing research on environmental and sustainability challenges from an urban perspective.</p><p>The journal serves as a platform for high-quality scholarship that examines cities as places where sustainability challenges are acutely experienced and where effective interventions are required, and as key contributors to global sustainability solutions. It publishes conceptual, theoretical, methodological, and empirical research that supports the planning, design, construction, governance, and development of cities in ways that are liveable, sustainable, and clean, within and beyond urban boundaries.</p><p><i>Cleaner Cities</i> seeks to offer a global perspective on the sustainability challenges faced by cities across the world, recognizing both the interconnectedness among cities and their diverse local contexts.</p><p>The journal covers a broad range of topics including but not limited to:</p><ul><li><p>Urbanisation and sustainable development</p></li><li><p>Sustainable urban planning and design</p></li><li><p>Policy and governance for urban sustainability</p></li><li><p>Urban health, environmental health and healthy city</p></li><li><p>Low-cabon urban form and land use</p></li><li><p>Urban ecology and ecosystem services</p></li><li><p>Urban green and blue spaces</p></li><li><p>Circular economy and waste management</p></li><li><p>Climate resilience and adaptation</p></li><li><p>Urban transport systems</p></li><li><p>Environmental infrastructure and nature-based solutions</p></li><li><p>Green transitions and urban decarbonization</p></li><li><p>Urban informality, inequality, and social vulnerability</p></li><li><p>Smart cities and digital technologies for sustainability</p></li><li><p>New concepts, data and technology for urban sustainability development<br/></p></li></ul><p></p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Prof. Dr. Tao Liu | Dr. Qiujie Shi | Dr. Yujing Xie",
+        "goldOpenAccessFee": {
+          "value": 1500,
+          "currency": "USD",
+          "discountedValue": 0,
+          "discountExpiryDate": "2028-04-30"
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 7,
+        "title": "Cleaner Materials",
+        "acronym": "CLEMA",
+        "emAcronym": "CLEMA",
+        "issn": "2772-3976",
+        "subjectAreas": [
+          "Materials Science (General)",
+          "Environmental Engineering"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Short Communication",
+          "VSI: Next-Generation Materials_Research",
+          "VSI: Next-Generation Materials_Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27723976.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLEMA",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/cleaner-materials/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 23.4
+          },
+          "impactFactor": {
+            "value": 12.7
+          },
+          "timeToFirstDecision": {
+            "value": 1
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p><i>Cleaner Materials</i> (ISSN: 2772-3976) is an international, cross-disciplinary companion journal to Journal of Cleaner Production that publishes original full-length research articles, short communications and reviews in applied or fundamental science of physical, chemical, mechanical, and user experience aspects of cleaner and sustainable materials with special attention to contributions that reduce the knowledge gap between materials and system designs. It provides a scientific platform for physicists, chemists, material scientists, engineers, product designers and other technical experts to contribute innovative works and combine the different disciplines in <i>Cleaner Materials</i>.</p><p>Disciplines include but not limited to:</p><ul><li><p>waste recycling and upcycling methodologies</p></li><li><p>materials with low energy consumption for application</p></li><li><p>low-emission materials</p></li><li><p>low-noise materials</p></li><li><p>new materials incorporating living organisms such as algae and bacteria, living materials</p></li><li><p>bio-based materials</p></li><li><p>carbon based catalyst</p></li><li><p>self-healing materials</p></li><li><p>shape memory composites</p></li><li><p>biochar and hydrochar</p></li><li><p>silica and zeolite-based materials</p></li><li><p>material pelletization technologies</p></li><li><p>pyrolysis and hydrothermal carbonization</p></li><li><p>photovoltaic materials</p></li><li><p>hydrogen fuel</p></li></ul><p>We encourage those interested in organizing a special issue or a virtual special issue within the scope of the journal to fill out <a href=\"https://www.elsevier.com/__data/promis_misc/Cleaner%20spinoffs%20VSI%20application%20form.docx\">this form</a> and contact the editors-in-chief for more information.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Baoshan Huang | Zhen Leng",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "MATERIALS SCIENCE, MULTIDISCIPLINARY",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Materials Science",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2740,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 8,
+        "title": "Cleaner Logistics and Supply Chain",
+        "acronym": "CLSCN",
+        "emAcronym": "CLSCN",
+        "issn": "2772-3909",
+        "subjectAreas": [
+          "Industrial and Manufacturing Engineering",
+          "Environmental Science (General)",
+          "Management of Technology and Innovation"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27723909.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLSCN",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/cleaner-logistics-and-supply-chain/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 14.6
+          },
+          "impactFactor": {
+            "value": 6.6
+          },
+          "timeToFirstDecision": {
+            "value": 6
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p><i>Cleaner Logistics and Supply Chain</i> (CLSCN) is an international, transdisciplinary companion journal to the Journal of Cleaner Production focusing on the domain of green, sustainable, and circular logistics and supply chain management. CLSCN serves as a platform for addressing and discussing how each paper contributes to the United Nations Sustainable Development Goals and to a zero-carbon society within the domain of cleaner logistics and supply chain management. High quality contributions are welcome from both academics and professionals working in the field of logistics and supply chain management.</p><p>Methodologically, CLSCN covers the full range of empirical, conceptual, modeling, quantitative, and qualitative research studies. All empirical studies should contribute to theory. Application of technologies to achieve sustainability is within the journal&#39;s scope, but technology development alone are not research papers suitable for CLSCN.</p><p>CLSCN articles can include original research, short communications and technical notes, covering all aspects of logistics and supply chain management in general or to a specific industry. Topics can include, but are not limited to, the following:</p><ul><li><p>Green, sustainable, and/or circular operations, logistics and supply chains</p></li><li><p>Sustainable and circular business model innovation for logistics and supply chains</p></li><li><p>Green, sustainable, and/or circular procurement and supply management</p></li><li><p>Green, sustainable, and/or circular manufacturing and supply chains</p></li><li><p>Green, sustainable, and circular performance measurement, indicators, and performance management</p></li><li><p>Sustainability in reverse and closed-loop supply chains</p></li><li><p>Supply chain sustainability in a globalized economy</p></li><li><p>Supply chain sustainability in emerging economies and at the bottom of the pyramid (BoP)</p></li><li><p>Industry 4.0 applications to promote CLSCN</p></li><li><p>Digitalization for green or sustainable logistics and supply chains</p></li><li><p>Supply chain sustainability and risk management</p></li><li><p>Resilient and robust CLSCN planning and response to emergencies, disasters or pandemics</p></li><li><p>Green and sustainable freight transportation and warehouse management</p></li><li><p>Green and sustainable routing and scheduling</p></li><li><p>Planning and decision-making for logistics and supply chain sustainability</p></li><li><p>Corporate social responsibility in logistics and supply chains</p></li><li><p>Green, Sustainable and/or circular operations in urban settings and planning</p></li><li><p>Interactions between multiple stakeholders for CLSCN topics</p></li><li><p>Government, regulatory, inter-governmental and non-governmental relationships to CLSCN topics</p></li><li><p>Agility, Flexibility, and CLSCN topics</p></li><li><p>Policy and sociological behavioral concerns for CLSCN topics</p></li></ul><p>We encourage those interested in organizing a special issue or a virtual special issue within the scope of the journal to fill out <a href=\"https://www.elsevier.com/__data/promis_misc/Cleaner%20spinoffs%20VSI%20application%20form.docx\">this form</a> and contact the editors-in-chief for more information.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Gang Chen | Shuaian Wang",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "OPERATIONS RESEARCH & MANAGEMENT SCIENCE",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Management Science",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2940,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 9,
+        "title": "Cleaner Water",
+        "acronym": "CLWAT",
+        "emAcronym": "CLWAT",
+        "issn": "2950-2632",
+        "subjectAreas": [
+          "Environmental Engineering",
+          "Water Science and Technology"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review article",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29502632.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLWAT",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/cleaner-water/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 3.1
+          },
+          "timeToFirstDecision": {
+            "value": 1
+          }
+        },
+        "scope": "<p><i><b>Cleaner Water</b></i> (ISSN: 2950-2632) is an international, cross-disciplinary companion journal to the <i>Journal of Cleaner Production</i>. Published quarterly, it features original research articles, short communications, perspectives, and reviews on the science, engineering, and technology of water and wastewater treatment, water quality, and water resource management, including policy and management strategies.</p><p>With a central purpose to support and accelerate Sustainable Development Goal 6, &quot;Clean water and sanitation&quot;, Cleaner Water focuses on all aspects of cutting-edge technology, theories, societal issues, and policies that advance the sustainable supply of clean water. The pursued &quot;cleaner approach&quot; involves all the water matrices i.e. potable water, domestic and industrial wastewater, stormwater, freshwater and groundwater with the inspiring principle of considering water a precious resource to save and protect, whose reuse must be encouraged as much as possible.</p><p>The journal provides a platform for publishing high-quality interdisciplinary papers aimed to promote a sustainable water use through fundamental and applied research, innovative technologies, and best management practices. This challenging objective includes the contributions of theoretical insights by scientists as well as case-studies from practitioners focused on the development and optimization of engineered treatment, management, and supply strategies.</p><p>The scope includes (but is not limited to) the following topics, where the cleaner and sustainability dimensions are highlighted:</p><p>Water collection and distribution systems; Advanced urban wastewater treatment technologies; Micropollutant fate and removal in wastewater treatment plants; Resources and energy recovery from wastewater; Water agricultural reuse; Sludge treatment and disposal; Sludge agricultural reuse; Hygienization in wastewater treatment; Innovative industrial wastewater treatment technologies; Xenobiotic removal; Water reuse in the production cycles; Emerging pollutants in water and wastewater; Circular economy in water and wastewater systems; Risk assessment of wastewater systems; Water quality monitoring; Impacts of climate change and extreme weather on water sustainability; Drinking water treatment; Potable reuse; Water-energy-food nexus; Water policy and legislation issues; Groundwater remediation; Surface water remediation; Stormwater management; Nature based treatment solutions; Modelling and control of treatment processes</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Bing-Jie Ni | Maria Concetta Tomei",
+        "goldOpenAccessFee": {
+          "value": 1610,
+          "currency": "USD",
+          "discountedValue": 805,
+          "discountExpiryDate": "2027-06-30"
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 10,
+        "title": "Cleaner Chemical Engineering",
+        "acronym": "CLCE",
+        "emAcronym": "CLCE",
+        "issn": "2772-7823",
+        "subjectAreas": [
+          "Environmental Science (General)",
+          "Chemical Engineering (General)",
+          "Environmental Chemistry"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27727823.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLCE",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/cleaner-chemical-engineering/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 2.5
+          },
+          "timeToFirstDecision": {
+            "value": 3
+          },
+          "timeToAcceptance": {
+            "value": 1
+          }
+        },
+        "scope": "<p><i>Cleaner Chemical Engineering</i> is a platform to analyse and debate the role of chemical engineering in the period of energy transition and environmental protection. In this light, achieving CLEANER chemical engineering is a significant challenge as most of the energy today is still being extracted by chemical conversion of fossil fuels, releasing a vast amount of environmentally dangerous and harmful gases. Both Energy Transition and Environmental Protection require the utilization of new technologies and energy sources. There are opportunities and barriers to a clean energy and environment transition in the resource (land, water and air), power, transportation, and industry sectors. The most prominent approach to mid-term emission reduction is the improvement of existing fuel processing technologies, which also contribute to environmental protection addressing climate change. In the advancement of industry, transport and energy production sectors, there are still technical challenges to be solved, and most are related to physical and chemical phenomena accruing in the thermo-chemical reactors and chambers. At the same time, adopting renewable energies and novel remediation technologies would further secure a clean environment.</p><p>**Cleaner Chemical Engineering (CLCE)**The purpose of the <i>Cleaner Chemical Engineering</i> journal is to exchange and share new ideas, knowledge, experience, and research results about all aspects of combustion, pyrolysis, gasification, sustainable thermo-chemical technologies, multiphase flow related topics: fundamental physical and chemical aspects of traditional and novel fuel sources; reaction kinetics, pollutant emissions, pollutant formation, soot and particulates; IC engine combustion; gas turbine combustion; furnace combustion; clean energy, dual fuel, ammonia, clean coal concept, biomass, biofuel and waste; multiphase flows and sprays, fuel introduction methods, fuel dispersion, droplet interactions; particle technology, particulate matter; new combustion technologies; remediation technologies; chemical engineering and energy storages.</p><p>The scope includes (but is not limited to) the following topics, where the cleaner and sustainability dimensions are explicitly treated:</p><ul><li><p>Experimental chemical engineering research</p></li><li><p>Numerical modelling</p></li><li><p>Thermo-chemical processing of fuels</p></li><li><p>Chemical engineering recovery of materials</p></li><li><p>Engineering of Carbon emissions capture and utilization</p></li><li><p>Low-emission technologies</p></li><li><p>Cleaner Energy production</p></li><li><p>Cleaner Furnaces, burners, turbines, engines</p></li><li><p>Cleaner Electrochemistry</p></li><li><p>Cleaner Biochemical engineering</p></li><li><p>Cleaner Fuel and Materials synthesis and processing</p></li><li><p>Reduction of Particle matter</p></li><li><p>Cleaner Industrial engineering</p></li><li><p>Cleaner Reaction engineering</p></li><li><p>Cleaner Remediation technologies</p></li><li><p>Cleaner Separation technologies</p></li><li><p>Promoting cleaner chemical engineering in industry</p></li><li><p>Cleaner Chemical engineering applications in areas of Chemicals, Pharmaceuticals, Minerals, Energy and Fuels, Water, Environment, Food</p></li><li><p>Thermochemical energy storage</p></li><li><p>Electrochemical energy storage and conversion</p></li></ul><p>We encourage those interested in organizing a special issue or a virtual special issue within the scope of the journal to fill out <a href=\"https://www.elsevier.com/__data/promis_misc/Cleaner%20spinoffs%20VSI%20application%20form.docx\">this form</a> and contact the editors-in-chief for more information.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Xiaobin Fan | Hongqi Sun",
+        "goldOpenAccessFee": {
+          "value": 1330,
+          "currency": "USD",
+          "discountedValue": 665,
+          "discountExpiryDate": "2027-06-30"
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 11,
+        "title": "Cleaner Environmental Systems",
+        "acronym": "CESYS",
+        "emAcronym": "CESYS",
+        "issn": "2666-7894",
+        "subjectAreas": [
+          "Pollution"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Short Communication",
+          "VSI: LCT of Agri-food Sectors_Research",
+          "VSI: LCT of Agri-food Sectors_Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26667894.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CESYS",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/cleaner-environmental-systems/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 7.3
+          },
+          "impactFactor": {
+            "value": 5.3
+          },
+          "timeToFirstDecision": {
+            "value": 5
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p><i>Cleaner Environmental Systems</i> follows the path developed in <a href=\"https://www.journals.elsevier.com/journal-of-cleaner-production\">Journal of Cleaner Production</a> on the application of sustainability assessment tools including life cycle assessment, energy, exergy, techno-economic analyses and so on. These are rapidly growing reference tools to systematically examine the sustainability aspects of products, services or processes. The life cycle sustainability perspective involves the assessment of environmental/social/economic dimensions throughout the production systems, from the extraction of raw materials, through the production of goods, to the use of those goods and the management of the resulting waste. Life cycle sustainability assessment can support informed decisions, ecodesign and improvement actions to enhance sustainability, without burden shifting.</p><p>Cleaner Environmental Systems aims to address a series of related topics and will include methodological advances in the environmental and sustainability assessment of processes and products from a holistic perspective. Subject areas include but not limited to: <br/> • Carbon footprint <br/> • Dematerialization and decarbonization <br/> • Ecodesign <br/> • Eco-efficiency <br/> • Environmental product declaration <br/> • Input-output analysis <br/> • Life Cycle Assessment <br/> • Life Cycle Costing <br/> • Life Cycle Management <br/> • Life Cycle Sustainability Assessment <br/> • Product Environmental Footprint <br/> • Product-oriented environmental policy <br/> • Water footprint <br/> • Techno-economic analysis <br/> • Circular Economy <br/> • Industrial Ecology <br/> • Urban Metabolism <br/> • Energy, Exergy Analysis <br/> • Industrial Symbiosis <br/> • Material Flow Analysis <br/> • Sustainable Energy Systems <br/> • Net Zero</p><p>We encourage those interested in organizing a special issue or a virtual special issue within the scope of the journal to fill out <a href=\"https://www.elsevier.com/__data/promis_misc/Cleaner%20spinoffs%20VSI%20application%20form.docx\">this form</a> and contact the editors-in-chief for more information.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Fausto Freire | Mario Martín-Gamboa",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 3
+            },
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 3
+            },
+            {
+              "name": "ENGINEERING, ENVIRONMENTAL",
+              "tier": 3
+            },
+            {
+              "name": "GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3060,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 12,
+        "title": "Cleaner Manufacturing",
+        "acronym": "CLMAN",
+        "emAcronym": "CLMAN",
+        "issn": "3050-998X",
+        "subjectAreas": [
+          "Environmental Engineering",
+          "Industrial and Manufacturing Engineering"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Short Communication",
+          "VSI: Business Model Innovation"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/3050998X.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLMAN",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p><i>Cleaner Manufacturing </i>(CLMAN) is an international, cross-disciplinary companion to Journal of Cleaner Production, focuses on high quality full-length research articles, short communications, reviews and case studies in manufacturing systems with particular emphasis on advanced manufacturing technologies and systems as well as digital transformation towards industrial sustainability and decarbonization. The journal aims at representing a valuable platform for scientists to address and discuss theoretical and practical issues concerning the uptake of advanced manufacturing as well as digital transformation solutions, investigating their contribution to decarbonize the industrial sector and improve industrial sustainability. Methodologically, CLMAN covers the full spectrum of theoretical (modelling and conceptual), as well empirical (quantitative, qualitative) research studies which aim at providing a contribution to theory.</p><p>Priority will be given to studies focusing on shop floor operations, where the technological aspects of sustainable manufacturing will be addressed by the lens of industrial operations, with particular emphasis on production, but extending to other activities such as e.g. packaging and quality management.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Konstantinos Salonitis | Andrea Trianni",
+        "goldOpenAccessFee": {
+          "value": 1260,
+          "currency": "USD",
+          "discountedValue": 0,
+          "discountExpiryDate": "2027-06-30"
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 13,
+        "title": "Resources, Environment and Sustainability",
+        "acronym": "RESENV",
+        "emAcronym": "RESENV",
+        "issn": "2666-9161",
+        "subjectAreas": [
+          "Environmental Science (General)",
+          "Environmental Engineering",
+          "Pollution",
+          "Management, Monitoring, Policy and Law"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26669161.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/RESENV",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/resources-environment-and-sustainability/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 12.5
+          },
+          "impactFactor": {
+            "value": 9.2
+          },
+          "acceptanceRate": {
+            "value": 5
+          },
+          "timeToFirstDecision": {
+            "value": 3
+          },
+          "timeToAcceptance": {
+            "value": 7
+          }
+        },
+        "scope": "<p><i>Resources, Environment and Sustainability</i> is a peer-reviewed transdisciplinary journal aiming at publishing high-quality original research from a broad range of natural, social and engineering fields. The publications emphasize sustainable resource utilization, associated environmental impact mitigation, and potential solutions to achieve resource and environmental sustainability.</p><p>Previous explorations of pathways to maximize resource utilization efficiency and minimize environmental impacts have been greatly constrained within isolated disciplines, which calls for novel integration across natural, social and technological systems. Understanding the mechanism and inspiring society to sustain future generations with finite natural resources and limited environmental capacity are the overarching goals of this journal.</p><p><b>Scope</b></p><p>Resources, Environment and Sustainability will cover topics including, but not limited to:</p><ul><li><p>Sustainable agriculture and food production</p></li><li><p>Sustainable production and cleaner production </p></li><li><p>Circular economy and waste management </p></li><li><p>Life cycle assessment </p></li><li><p>Sustainable development and sustainability </p></li><li><p>Sustainable consumption</p></li><li><p>Environmental quality improvement and remediation</p></li></ul><p>In addition to publishing original research and analyses, <i>Resources, Environment and Sustainability</i> will publish Reviews, Viewpoints, Comments, and Editorials from across the full range of disciplines concerned with sustainable resource supply and environmental sustainability.</p><p>Our major mission is to bridge the gap between academia across disciplines and policy making by facilitating a combinatorial and cross-disciplinary platform that works towards strategic approaches to conserve natural resources and the environment.</p><p><i>Resources, Environment and Sustainability</i> is organized by the <a href=\"https://liee.nju.edu.cn/HOMEHOME/HOME/index.html\">Lishui Institute of Ecology and Environment, Nanjing University</a> and published by Elsevier. For questions about publishing your paper in RES, please contact the RES Editorial Office at <a href=\"mailto:res@nju.edu.cn\">res@nju.edu.cn</a>.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Jun Chen | Zengwei Yuan",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 1
+            },
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 1
+            },
+            {
+              "name": "GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3000,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 14,
+        "title": "Cleaner Energy Systems",
+        "acronym": "CLES",
+        "emAcronym": "CLES",
+        "issn": "2772-7831",
+        "subjectAreas": [
+          "Environmental Science (General)",
+          "Renewable Energy, Sustainability and the Environment"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27727831.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLES",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/cleaner-energy-systems/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 10.7
+          },
+          "impactFactor": {
+            "value": 5.9
+          },
+          "timeToFirstDecision": {
+            "value": 11
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p><b><i>Cleaner Energy Systems</i></b> - a platform to debate issues of delivering sufficient energy in a clean way. In this light, CLEANER energy is a significant issue as, for instance, renewable energy can be clean but can also contribute to the increased environmental footprints at various levels. Instead of focusing on a specific technology or the origin of the supplied energy, the proposed journal focuses on the issues of minimising the footprints of energy technologies over the entire life cycle - from sourcing to use and counteracting to the effects of released emissions.</p><p><b><i>Cleaner Energy Systems</i></b> <br/> An international, transdisciplinary journal focusing on cleaner ways of sourcing, transforming, transporting, delivering and using energy. Embedded in the scope is also the concept of Circular Economy - in terms of energy efficiency of systems with circular material flows as well as the energy recovery and reuse in industrial and processes within supply chains, urban and regional process networks. The Cleaner Energy Systems journal serves as a platform for addressing and discussing theoretical and practical issues concerning energy systems related to the reduction and elimination of negative impacts on the environment and human health, as well as the potential increase of natural and human capital.</p><p>The scope includes (but is not limited to) the following topics, where the cleaner and sustainability dimensions are explicitly treated:</p><ul><li><p>Sustainable energy use and consumption</p></li><li><p>Efficient and clean energy transportation and conversion</p></li><li><p>Energy efficiency of industrial and business processes</p></li><li><p>Nexuses of energy and other resources and their potential use as synergy mechanisms</p></li><li><p>Integration of renewable energy sources into product and energy supply systems</p></li><li><p>Energy storage enabling renewables and environmental footprint minimisation</p></li><li><p>Reduction of environmental and health footprints of transportation, product or energy supply networks</p></li><li><p>Energy-related metrics for sustainability performance and their relation to other sustainability indicators</p></li><li><p>Sustainable practices and footprint minimisation in upstream operations and primary energy sourcing</p></li><li><p>Energy- and footprint-aware regional development</p></li><li><p>Cleaner energy systems promoting policies</p></li><li><p>Promoting cleaner energy systems</p></li></ul><p>We encourage those interested in organizing a special issue or a virtual special issue within the scope of the journal to fill out <a href=\"https://www.elsevier.com/__data/promis_misc/Cleaner%20spinoffs%20VSI%20application%20form.docx\">this form</a> and contact the editors-in-chief for more information.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Professor Giorgio Besagni | Professor Panos Seferlis",
+        "goldOpenAccessFee": {
+          "value": 1940,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 15,
+        "title": "Cleaner Waste Systems",
+        "acronym": "CLWAS",
+        "emAcronym": "CLWAS",
+        "issn": "2772-9125",
+        "subjectAreas": [
+          "Waste Management and Disposal"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review",
+          "Case Study",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/27729125.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLWAS",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/cleaner-waste-systems/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 6.1
+          },
+          "impactFactor": {
+            "value": 5.2
+          },
+          "timeToFirstDecision": {
+            "value": 2
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p><i>Cleaner Waste Systems</i> focuses on strategies that can foster waste prevention, optimize management, promote recirculation of matter and energy, and facilitate transition from linear approach to circular economy. <i>Cleaner Waste Systems</i> publishes current research on waste management solutions and policies, education, and economic and environmental assessments and aims to offer an interdisciplinary overview of recent research encouraging discussion and debate on how to achieve Cleaner Waste Systems from government, business, academia and society. <br/> The journal provides a key platform for publishing high-quality interdisciplinary papers on research and practice in the field, also including theoretical theses and innovative strategies as well as case-studies from practitioners. It looks outstandingly at the patterns of waste treatment to help identify more-sustainable solutions for waste systems and influence the so-called &quot;end of life&quot; of many products and flows. Though open to all scientific backgrounds, <i>Cleaner Waste Systems</i> will privilege contributions aimed at tackling the problem of waste generation and treatment under a systemic and relational viewpoint rather than devoted to a single molecule, process, product type, technology, in isolation from the context.</p><p>The scope includes (but is not limited to) the following topics, where the cleaner and sustainability dimensions are explicitly treated:</p><ul><li><p>Generation and characterization</p></li><li><p>Minimization</p></li><li><p>Relevance to carbon peak and carbon neutrality</p></li><li><p>Circular economy</p></li><li><p>Recycling, reuse and remanufacturing</p></li><li><p>Storage, collection, transport, and transfer</p></li><li><p>Treatment solutions (mechanical, biological, chemical, thermal, other)</p></li><li><p>Final disposal</p></li><li><p>Environmental, and Life Cycle Assessments</p></li><li><p>Accounting systems and flow analysis</p></li><li><p>Economic analysis</p></li><li><p>Policy and regulations</p></li><li><p>Governance</p></li><li><p>Education, social and engagement initiatives</p></li><li><p>Sustainable planning and systems approach</p></li></ul><p>We encourage those interested in organizing a special issue or a virtual special issue within the scope of the journal to fill out <a href=\"https://www.elsevier.com/__data/promis_misc/Cleaner%20spinoffs%20VSI%20application%20form.docx\">this form</a> and contact the editors-in-chief for more information.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Jian Zuo | Maria Loizidou",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 3
+            },
+            {
+              "name": "ENGINEERING, ENVIRONMENTAL",
+              "tier": 4
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 3,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2300,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 16,
+        "title": "Cleaner Food Systems",
+        "acronym": "CLFS",
+        "emAcronym": "CLFS",
+        "issn": "3050-8355",
+        "subjectAreas": [
+          "Food Science",
+          "Management, Monitoring, Policy and Law",
+          "Waste Management and Disposal"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review article",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/30508355.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/CLFS",
+          "guideForAuthors": null
+        },
+        "insights": {},
+        "scope": "<p><i>Cleaner Food Systems </i>is an international, interdisciplinary journal dedicated to advancing research and practical solutions for sustainable food systems that enhance both human and environmental health. <i>Cleaner Food Systems</i> provides a platform for high-quality research on the environmental, nutritional, and sensory dimensions of food production, consumption, and policy, focusing on creating food systems that prioritize ecological restoration, nutritional quality, and consumer satisfaction.</p><p><i>Cleaner Food Systems</i> publishes original research articles, reviews, perspectives, and short communications that explore the complexities of sustainable food systems. Topics include (but are not limited to) the environmental impacts of food production, Life Cycle Assessment (LCA) of food systems, sustainable farming practices, bio-solutions for food processing (e.g., fermentation, natural preservation methods), and the role of nutritional value and taste in food sustainability.</p><p><i>Cleaner Food Systems</i> encourages interdisciplinary contributions from environmental science, nutrition, social science, agriculture, engineering, economics, and policy studies to address the full scope of food system sustainability. This journal welcomes high-quality, innovative works that contribute to the development of resilient, healthy, and ecologically sound food systems.</p><p>The scope includes (but is not limited to) the following topics, where the cleaner and sustainability dimensions are highlighted:</p><ul><li><p>Nutritional value and taste in sustainable food systems</p></li><li><p>Life Cycle Assessment (LCA) applied to food systems</p></li><li><p>Environmental impacts of food production (e.g., carbon footprint, soil and water conservation)</p></li><li><p>Circular bioeconomy in food systems (e.g. upcycling food surplus and processing side-streams)</p></li><li><p>Clean technology and green innovations in food processing</p></li><li><p>Bio-solutions, including fermentation, natural antimicrobial strategies, and enzyme-based processing</p></li><li><p>Clean labeling and consumer-driven food system innovations</p></li><li><p>Resilient and regional food supply chains</p></li><li><p>Consumer attitudes toward sustainable and health-promoting foods</p></li><li><p>Sustainable diets and food security</p></li><li><p>Policy and governance in sustainable food systems</p></li><li><p>Education and awareness for sustainable food consumption</p></li><li><p>Integration of health, environmental, and sensory considerations in food sustainability assessments</p></li><li><p>Data science approaches for evaluating health, environmental, and sensory qualities of food</p></li><li><p>Food Environments</p></li><li><p>Food quality and human health</p></li><li><p>Conservation of food &amp; preparation</p></li><li><p>Retail food environments as drivers of sustainable food systems</p></li><li><p>Consumer attitudes and behaviours toward food waste</p></li></ul><p></p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Gastón Ares | Marianne Thomsen",
+        "goldOpenAccessFee": {
+          "value": 1260,
+          "currency": "USD",
+          "discountedValue": 0,
+          "discountExpiryDate": "2027-06-30"
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 17,
+        "title": "Environmental Technology & Innovation",
+        "acronym": "ETI",
+        "emAcronym": "ETI",
+        "issn": "2352-1864",
+        "subjectAreas": [
+          "Water Science and Technology",
+          "Environmental Chemistry",
+          "Management, Monitoring, Policy and Law"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/23521864.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/ETI",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/environmental-technology-and-innovation/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 13.3
+          },
+          "impactFactor": {
+            "value": 7.3
+          },
+          "timeToFirstDecision": {
+            "value": 6
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p><b>Announcement</b>: From January 2022 <i>Environmental Technology &amp; Innovation</i> has become an open access journal. Authors who publish in <i>Environmental Technology &amp; Innovation</i> will be able to make their work immediately, permanently, and freely accessible.</p><p><i>Environmental Technology &amp; Innovation</i> focuses on a challenge-oriented approach to solutions that bring together excellent natural sciences, which underpin the development and application of technologies, to understand and deliver a sustainable future. We recognize the need to encourage and disseminate the creation and development of new innovative products, technologies and ideas that improve our environment. Sectors of impact include soil, air, water and food in both rural and urban landscapes.</p><p>The journal represents a platform for disseminating the fundamental scientific evidence for environmental protection and sustainable development. The journal brings together excellent natural sciences, which underpin the understanding, development and application of technologies, to deliver a sustainable future. Dissemination of the fundamental science, methodologies, tools and techniques, in addition to the policy and governance landscape around the topic of sustainable future, are the focus of this publication. It brings together the need to consider the science and technology for environmental benefits including the development of both smarter, cleaner technologies for environmental protection, more efficient processing methods for resource use efficiency and critically, the environmental evidence for their uptake and success.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "David Bolzonella | Duc Long Nghiem | Fang Wang",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 2
+            },
+            {
+              "name": "BIOTECHNOLOGY & APPLIED MICROBIOLOGY",
+              "tier": 1
+            },
+            {
+              "name": "ENGINEERING, ENVIRONMENTAL",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 2,
+            "top": false
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3080,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 18,
+        "title": "Sustainable Chemistry for the Environment",
+        "acronym": "SCENV",
+        "emAcronym": "SCENV",
+        "issn": "2949-8392",
+        "subjectAreas": [
+          "Chemistry (General)"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Perspectives",
+          "Review",
+          "Short Communication",
+          "VSI: Green electrochemistry - Perspective Articles",
+          "VSI: Green electrochemistry - Research Article",
+          "VSI: Green electrochemistry - Review Article",
+          "VSI: Green electrochemistry - Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/29498392.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/SCENV",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/sustainable-chemistry-for-the-environment/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 7.3
+          },
+          "timeToFirstDecision": {
+            "value": 22
+          },
+          "timeToAcceptance": {
+            "value": 3
+          }
+        },
+        "scope": "<p><i>Sustainable Chemistry for the Environment (SCENV)</i> is a new peer-reviewed, gold open access (OA) journal and upon acceptance all articles are permanently and freely available. SCENV publishes original papers, short communications and perspectives, and review articles in all areas of green and sustainable chemistry and engineering for a safer and cleaner environment. Contributions on interdisciplinary themes, including social and political sciences, economics, ethics, and others, that aim to support and promote the implementation and acceptance of green chemistry practices in education, research and industry, are also welcome.</p><p>With a growing population and an increased strain on the planet, innovative research on sustainable chemistry and engineering has become the main pillar of industrial development that respects the environment and life-on-earth, by contributing to any of the <a href=\"https://sdgs.un.org/goals\">UN&#39;s Sustainable Development Goals</a>.</p><p><b>Sustainable Chemistry for the Environment covering, but not limited to the following general topics:</b> <br/></p><ul><li><p>Green solvents - Safe reagents and chemicals - Sustainable organic synthesis</p></li><li><p>Catalytic processes (homogeneous, heterogeneous and bio-catalysis)</p></li><li><p>Biomass derived (Bio-based) platform &amp; fine chemicals, pharmaceuticals, monomers, polymers, materials</p></li><li><p>Alternative fossil fuels and biofuels, green bio-energy, energy storage and conversion</p></li><li><p>Valorization of renewable and natural resources</p></li><li><p>Waste recycle and valorization - Circular economy (food waste, hazardous waste, municipal waste, micro-plastic waste)</p></li><li><p>CO2 utilization</p></li><li><p>Alternative and benign chemical processes (microwaves, ultrasounds, photochemistry, electrochemistry, flow chemistry, etc.)</p></li><li><p>Nano-materials for energy and environmental applications</p></li><li><p>Green analytical chemistry</p></li><li><p>Green chemistry in conservation and restoration of cultural heritage</p></li><li><p>Pollution prevention and remediation</p></li><li><p>Toxicology and Ecotoxicology of Chemicals and Products</p></li><li><p>Computational Chemistry towards greener chemical processes</p></li><li><p>Green chemistry metrics - Life cycle assessment (LCA)</p></li><li><p>Education and societal awareness - UN Sustainable Developments Goals</p></li><li><p>Green Chemistry and entrepreneurship</p></li><li><p>Sustainable and low emissions industrial processes</p></li></ul><p><br/> Environment, renewables and circularity are areas of particular interest, with indicative topics including:</p><p><b>Environment: Pollution prevention and remediation</b> <br/></p><ul><li><p>Contaminants in water, air and on land (pharmaceuticals, pesticides, OPFRs, VOCs, PAHs, PFASs)</p></li><li><p>Waste reduction, use of safer chemicals</p></li><li><p>Wastewater treatment</p></li><li><p>Metrics and artificial intelligent (AI) in environmental chemistry</p></li><li><p>Adsorption/catalysis for environmental remediation</p></li><li><p>Microplastics/nanoplastics, electronic wastes</p></li><li><p>Carbon and Nitrogen cycle</p></li></ul><p><b>Renewables &amp; Circularity</b> <br/></p><ul><li><p>Lignocellulosic and lipid biomass (waste) valorization - Biorefining</p></li><li><p>Food waste valorization</p></li><li><p>Bio-based chemicals, fuels, polymers, materials</p></li><li><p>Renewable energy sources (wind, solar)</p></li><li><p>(Micro) plastics recycling/upcycling</p></li><li><p>CO2 capture and utilization</p></li><li><p>Metrics and AI in renewables and circularity</p></li><li><p>Life-cycle assessment and end of life of products</p></li></ul>",
+        "openAccessType": "FULL",
+        "editorInChief": "Konstantinos Triantafyllidis",
+        "goldOpenAccessFee": {
+          "value": 1910,
+          "currency": "USD",
+          "discountedValue": 955,
+          "discountExpiryDate": "2026-12-31"
+        },
+        "hasAgreements": false
+      }
+    ],
+    "filterHistograms": {
+      "impactFactor": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        2,
+        2,
+        0,
+        1,
+        2
+      ],
+      "citeScore": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        3,
+        2,
+        0,
+        7
+      ],
+      "publicationTime": [
+        1,
+        5,
+        7,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "timeToFirstDecision": [
+        3,
+        1,
+        2,
+        0,
+        1,
+        3,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "totalResults": 18,
+    "institute": {
+      "name": null,
+      "hasAgreements": false
+    }
+  }
+}

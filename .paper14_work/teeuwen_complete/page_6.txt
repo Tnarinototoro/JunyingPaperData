@@ -1,0 +1,115 @@
+R. Teeuwen
+Use your mouse tO turn the panorama around.
+You dO not need tO walk away.
+ln a bit ， the question will appear below.
+NOW, answer the question below
+NotataJl A 匦 tt 地
+I find thiS pta 帕
+0
+0
+0
+0
+0
+What characteristics Of the place made you decide this?
+ExpIain in a few words.
+Fig. 3 ． lmpression of crowdsourcing interface.
+we expected each location t0 be rated by five people. We formtllated our
+questions based on related questionnaires used in environmental health
+research 〔
+Krt1ize et al., 2020 ； Zijlema et al., 2018 〗 while keeping them
+simple and straightforward for crowdsourcing (Salesses et al., 2013 ；
+Quercia et al., 2014 ； Milias et al., 2023 ； Candeia et al., 2017 〕 ． Fig. 3
+depicts an impression Of the interface. First, we introduced the topic and
+asked participants t0 ℃ vide some demographics. Second ， for each
+participant ， we randomly sampled five locations from the same case-
+sttldy city. For each location, we showed them the panoramic GSV
+image and instructed them t0 pan around for at least 10 s. We then
+collect participants' vlsual perceptlons of greenness by asking them to
+indicate 加 what extent they 尹 d the place vegetated ()n a 5-point Likert
+scale ： not at all 〔 1 ） to very 〔 5 ） ） ； and what characteristics 可 山 e loca 五 0
+motivated their choice ()n open text). We included quality checks con
+sisting 0f a reCAPTCHA bot test and an attention check and collected the
+number 0f panning clicks participants made. Finally ， we asked partici-
+pants some more demographics and asked how clear they found the
+crowd-sourcing tasks.
+3 ． 4 ． Data analysis
+After collecting all necessary data (see Fig.
+Table 1
+Overview Of hypotheses and statistical methods.
+Hypothesis
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+well NDVI and OSM capture people ' s visual perceptions 0f greenspaces.
+Quantitative (statistical) analysis ： First ， we filtered Ot1t partici-
+pantS or visual perceptions that did not meet our quality standards （ 巳 g ”
+through bot detecüon and an attention check and checking if partici-
+pants panned around in the panorama). We then calculated descriptive
+statistics based on the NDVI value, OSM category, and perceived vege-
+tation level Of each location, and aggregated ratings intO a median value
+per location for further analysis. TO compare perceived vegetation levels
+to the binary OSM data categories (i.e., something either is tagged as a
+greenspace, or not 〕 ， we alSO converted perceived vegetation levels intO
+binary values, by defining perceived greenspaces as locations with a me-
+dian perceived vegetation level of 4 (fairly) t0 5 (very) vegetated (Zij 一
+lema et al., 2018 〗 We statistically tested our hypotheses and conducted
+several exploratory analyses.
+Table 1
+summarizes our hypotheses 〔 HI 一 3 ）
+and the non-parametric methods we used tO test them. First ， we tested
+for correlations between visual perceptions ()n a 5-point Likert scale)
+and NDVI data t1Sing Spearman' s p （ HI 〗 Second, we compared the
+perceived greenness distribtltions ()n a 5-point Likert scale) Of various
+OSM categories using the Mann Whitney U and Kruskal-Wallis tests
+()2 ， 1 ） ； and calculated the percentage of OSM regular-size greenspaces
+that are perceived as greenspaces ()n binary values) 〔 H2 ， 2 ） ， Third, we
+implemented three algorithms t0 select greenspaces from the different
+data sources and compared them on hOW well they captured perceptions
+Of greenspace using McNemar' s test. We also performed sensitivity an-
+alyses tO identify hOW our restllts change when we increase the buffer
+zone radius from which we identify the median NDVI value and the
+presence of OSM greenspaces. Given that we performed 8 different
+significance tests (i.e., 1 for HI 5 for H2 ， and 2 for H3 ） ， we applied a
+0 05
+Bonferroni correction tO our significance threshold Of
+= 0 ， 006 ， 、 e
+8
+used the same cutoff for exploratory analyses.
+Qualitative analysis ： TO understand potential causes of differences
+between visual perceptions and map data, we conducted a reflexive
+thematic analysis (Clarke and Braun, 2013 ） ． Based on our quantitative
+findings, we identified the places for which perceptions notably deviated
+fi ℃ m NDVI and OSM map data and analyzed the spatial characteristics 0f
+these places that participants mentioned as reasons. We used Atlas TI to
+conduct our thematic analysis, employing inductlve coding and iterative
+identification Of themes.
+生 Results
+亻 ． Descriptive statistics
+This section describes the number Of perceptions we collected, the
+number 0f places we included in our analysis, and the number 0f people
+WhO participated in our sttldy.
+Between March and May 2023 ， 423 Prolific participants ， living in 21
+different European countries, completed our crowdsourcing task. Of
+these people, 409 passed our quality checks and were therefore included
+in our study. A majorlty found the tasks clear 〔 100 ％ ） ， panned the
+panoramas around as requested 〔 93 ％ 〗 did move away t0 adj acent
+places 〔 71 ％ ） and were not familiar with the places presented 〔 95 ％ ） ，
+Participant genders vary （ 49 ％ female ， 49 ％ male, and 2 ％ non-binary,
+third gender, or prefer t0 self-describe or not t0 say), as well as ages 〔 12
+％ age 18 一 24 ， 19 ％ 25 一 34 ， 20 ％ 35 一 44 ， 20 ％ 45 一 54 ， 18 ％ 55 一 64 ， and
+2
+〗 COt11d assess hOW
+H2 ． 1
+H2 · 2
+H3
+There is a strong positive correlation between NDVI and perceived greenness.
+Perceived greenness is higher for OSM regular-size greenspaces than for pocket parks, play spaces, open public spaces ，
+and streets.
+Pocket parks, play spaces, open public spaces, and streets can be perceived as greenspaces.
+Perceived greenspaces are better captured in data when selecting them based on a combination of OSM categones and
+NDVI values, opposed tO only OSM categories, or only NDVI values.
+6
+Method
+Spearman's RhO
+Mann—Whitney U & KruskaI-Wallis
+Descriptive statistics (percentages)
+Descriptive statistics (true positives and
+negatives) & McNemar's test

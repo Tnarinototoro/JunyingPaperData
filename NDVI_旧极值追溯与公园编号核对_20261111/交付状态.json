@@ -1,0 +1,32 @@
+{
+  "old_SEM_rows": 39,
+  "unique_numeric_fingerprint_candidates": 26,
+  "nonmatching_old_ids": [
+    5,
+    6,
+    8,
+    18,
+    20,
+    21,
+    24,
+    25,
+    28,
+    29,
+    33,
+    34,
+    39
+  ],
+  "different_number_unique_matches": 22,
+  "author_confirmation_column_all_39_blank": true,
+  "primary_imagery_or_final_id_alignment_selected": false,
+  "new_SEM_input_generated": false,
+  "source_data_overwritten": false,
+  "target_9_numeric_match": {
+    "GIS_record": 20,
+    "source": "NDVI_tokyo_down.tif"
+  },
+  "target_32_numeric_match": {
+    "GIS_record": 22,
+    "source": "NDVI_fukushima.tif"
+  }
+}

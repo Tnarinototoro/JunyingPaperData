@@ -1,0 +1,254 @@
+{
+  "scope": "Read-only independent numerical QC of native-raster park-interior and exterior-ring NDVI aggregation; no original GIS, SEM input, model, or source selection changes",
+  "methods": "Independent sixth-order Krueger UTM, bisection Albers inverse, nonzero winding masks, direct Float32 reads and fsum/n; reused TIFF header decoder and audited SHP reader",
+  "qc_script": "NDVI_mean_work/qc_regional_means_stdlib.py",
+  "primary_script": "NDVI_mean_work/compute_regional_means.py",
+  "primary_results": "NDVI_mean_work/regional_mean_source_scan.json",
+  "source_selection_unchanged": true,
+  "coordinates_or_attribute_values_published": false,
+  "selected_source_parks_checked_for_crs": 35,
+  "unresolved_source_park_ids_not_selected": [9, 18, 28, 32],
+  "checked_selected_source_vertices": 974,
+  "albers_forward_difference_max_m": 1.0223359987186338e-08,
+  "utm_forward_difference_max_m": 0.00020720902830391753,
+  "cases": [
+    {
+      "ParkID": 1,
+      "independent_stats": {
+        "inside": {
+          "eligible_n": 574,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 574,
+          "mean": 0.35206616650423106,
+          "minimum": 0.0615752637386322,
+          "maximum": 0.4518486261367798,
+          "valid_fraction": 1.0,
+          "sd_population": 0.07294495547414676
+        },
+        "outside": {
+          "eligible_n": 648,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 648,
+          "mean": 0.22434130494977222,
+          "minimum": 0.02619853802025318,
+          "maximum": 0.4157053232192993,
+          "valid_fraction": 1.0,
+          "sd_population": 0.09000295081522655
+        }
+      },
+      "minus_primary": {
+        "inside": {
+          "eligible_n": 0,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "valid_fraction": 0.0,
+          "sd_population": 0.0
+        },
+        "outside": {
+          "eligible_n": 0,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "valid_fraction": 0.0,
+          "sd_population": 0.0
+        }
+      },
+      "maximum_inverse_transform_difference_m": 9.41717344292293e-05,
+      "all_count_and_stat_differences_zero": true
+    },
+    {
+      "ParkID": 7,
+      "independent_stats": {
+        "inside": {
+          "eligible_n": 3,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 3,
+          "mean": 0.2649628271659215,
+          "minimum": 0.23102250695228577,
+          "maximum": 0.3165266215801239,
+          "valid_fraction": 1.0,
+          "sd_population": 0.03706461508182837
+        },
+        "outside": {
+          "eligible_n": 63,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 63,
+          "mean": 0.20378391598425213,
+          "minimum": 0.08085349947214127,
+          "maximum": 0.3807874023914337,
+          "valid_fraction": 1.0,
+          "sd_population": 0.07643120774382822
+        }
+      },
+      "minus_primary": {
+        "inside": {
+          "eligible_n": 0,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "valid_fraction": 0.0,
+          "sd_population": 0.0
+        },
+        "outside": {
+          "eligible_n": 0,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "valid_fraction": 0.0,
+          "sd_population": 0.0
+        }
+      },
+      "maximum_inverse_transform_difference_m": 9.272155054497104e-05,
+      "all_count_and_stat_differences_zero": true
+    },
+    {
+      "ParkID": 11,
+      "independent_stats": {
+        "inside": {
+          "eligible_n": 144,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 144,
+          "mean": 0.2712702324820889,
+          "minimum": 0.0928511768579483,
+          "maximum": 0.4362183213233948,
+          "valid_fraction": 1.0,
+          "sd_population": 0.0671172972537895
+        },
+        "outside": {
+          "eligible_n": 296,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 296,
+          "mean": 0.2598548239801784,
+          "minimum": 0.03789745271205902,
+          "maximum": 0.4371713399887085,
+          "valid_fraction": 1.0,
+          "sd_population": 0.08134555830688543
+        }
+      },
+      "minus_primary": {
+        "inside": {
+          "eligible_n": 0,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "valid_fraction": 0.0,
+          "sd_population": 0.0
+        },
+        "outside": {
+          "eligible_n": 0,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "valid_fraction": 0.0,
+          "sd_population": 0.0
+        }
+      },
+      "maximum_inverse_transform_difference_m": 9.264659700531328e-05,
+      "all_count_and_stat_differences_zero": true
+    },
+    {
+      "ParkID": 27,
+      "independent_stats": {
+        "inside": {
+          "eligible_n": 1357,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 1357,
+          "mean": -0.006638381713626562,
+          "minimum": -0.06277959048748016,
+          "maximum": 0.2622165083885193,
+          "valid_fraction": 1.0,
+          "sd_population": 0.033774557808418544
+        },
+        "outside": {
+          "eligible_n": 600,
+          "nodata_n": 2,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 598,
+          "mean": 0.03174631460195051,
+          "minimum": -0.09194356203079224,
+          "maximum": 0.8206576108932495,
+          "valid_fraction": 0.9966666666666667,
+          "sd_population": 0.10512759297118417
+        }
+      },
+      "minus_primary": {
+        "inside": {
+          "eligible_n": 0,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "valid_fraction": 0.0,
+          "sd_population": 0.0
+        },
+        "outside": {
+          "eligible_n": 0,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "out_of_range_n": 0,
+          "valid_n": 0,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "valid_fraction": 0.0,
+          "sd_population": 0.0
+        }
+      },
+      "maximum_inverse_transform_difference_m": 0.0001253532112350289,
+      "all_count_and_stat_differences_zero": true
+    }
+  ],
+  "limitations_and_nonblocking_notes": [
+    "Four selected-source park cases were independently reaggregated over their complete expanded ROI; the 974-vertex CRS cross-check covers the 35 selected-source parks. This is not an independent full recomputation of all 35 park summaries.",
+    "Reusing the audited TIFF header decoder and SHP reader means binary-header and geometry decoding are not wholly independent; CRS formulas, containment masks, Float32 pixel reads and aggregation are independently implemented.",
+    "Agreement between independent formulas is numerical consistency evidence, not a substitute for certified external CRS validation, legal-boundary verification or original imagery provenance.",
+    "Primary full_extent means all eligible raster-pixel centers are within the raster extent, not that every point of the continuous geometry is covered. Use precise wording or an additional geometry-coverage check.",
+    "The primary northern-hemisphere UTM helper permits negative input latitudes. Actual selected Japanese parks are in the northern hemisphere, so this did not affect this audit; a stricter latitude guard is a future generalization safeguard.",
+    "Only three native pixels occur inside ParkID7. This reflects raster resolution relative to the supplied park geometry and should be retained as a representativeness limitation, not corrected by fabrication.",
+    "ParkID27 exterior has two NoData pixels correctly excluded rather than recoded as zero; valid negative NDVI is retained.",
+    "Matching old four extrema would show numeric compatibility only, not independent proof of original source identity. No unresolved source was chosen, averaged or mosaicked."
+  ]
+}

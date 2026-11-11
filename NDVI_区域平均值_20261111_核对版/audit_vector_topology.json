@@ -1,0 +1,406 @@
+{
+  "checks": "Standard-library planar segment/containment checks, not a GEOS validity certificate",
+  "self_intersecting_park_rings": {},
+  "self_intersecting_buffer_rings": {},
+  "park_intersection_or_nesting_pairs": [],
+  "buffer_intersection_or_nesting_pairs": [],
+  "matches": [
+    {
+      "anonymous_record": 1,
+      "covering_buffer_parts": [
+        37
+      ],
+      "buffer_vertex_distance_min": 98.78747782354813,
+      "buffer_vertex_distance_max": 100.00000000024386,
+      "buffer_vertex_distance_mean": 99.93409565261508,
+      "park_id": 1
+    },
+    {
+      "anonymous_record": 2,
+      "covering_buffer_parts": [
+        38
+      ],
+      "buffer_vertex_distance_min": 98.91903126282348,
+      "buffer_vertex_distance_max": 100.00000000013198,
+      "buffer_vertex_distance_mean": 99.96621972695127,
+      "park_id": 2
+    },
+    {
+      "anonymous_record": 3,
+      "covering_buffer_parts": [
+        35
+      ],
+      "buffer_vertex_distance_min": 98.45863242277008,
+      "buffer_vertex_distance_max": 100.00000000032898,
+      "buffer_vertex_distance_mean": 99.94046614694696,
+      "park_id": 3
+    },
+    {
+      "anonymous_record": 4,
+      "covering_buffer_parts": [
+        36
+      ],
+      "buffer_vertex_distance_min": 98.98361597961967,
+      "buffer_vertex_distance_max": 100.0000000002171,
+      "buffer_vertex_distance_mean": 99.98021324009336,
+      "park_id": 4
+    },
+    {
+      "anonymous_record": 5,
+      "covering_buffer_parts": [
+        10
+      ],
+      "buffer_vertex_distance_min": 98.8738147370858,
+      "buffer_vertex_distance_max": 100.00000000023402,
+      "buffer_vertex_distance_mean": 99.98272373769234,
+      "park_id": 5
+    },
+    {
+      "anonymous_record": 6,
+      "covering_buffer_parts": [
+        5
+      ],
+      "buffer_vertex_distance_min": 98.82607555066112,
+      "buffer_vertex_distance_max": 100.0000000001692,
+      "buffer_vertex_distance_mean": 99.93441151077771,
+      "park_id": 6
+    },
+    {
+      "anonymous_record": 7,
+      "covering_buffer_parts": [
+        24
+      ],
+      "buffer_vertex_distance_min": 98.96472895076724,
+      "buffer_vertex_distance_max": 100.00000000017225,
+      "buffer_vertex_distance_mean": 99.9630260339783,
+      "park_id": 7
+    },
+    {
+      "anonymous_record": 8,
+      "covering_buffer_parts": [
+        4
+      ],
+      "buffer_vertex_distance_min": 99.99999999979396,
+      "buffer_vertex_distance_max": 100.00000000022166,
+      "buffer_vertex_distance_mean": 99.99999999997978,
+      "park_id": 8
+    },
+    {
+      "anonymous_record": 9,
+      "covering_buffer_parts": [
+        11
+      ],
+      "buffer_vertex_distance_min": 98.93060315275373,
+      "buffer_vertex_distance_max": 100.00000000020498,
+      "buffer_vertex_distance_mean": 99.97196626530445,
+      "park_id": 9
+    },
+    {
+      "anonymous_record": 10,
+      "covering_buffer_parts": [
+        19
+      ],
+      "buffer_vertex_distance_min": 99.99999999965773,
+      "buffer_vertex_distance_max": 100.00000000027877,
+      "buffer_vertex_distance_mean": 100.00000000000382,
+      "park_id": 10
+    },
+    {
+      "anonymous_record": 11,
+      "covering_buffer_parts": [
+        21
+      ],
+      "buffer_vertex_distance_min": 98.78275772169924,
+      "buffer_vertex_distance_max": 100.00000000020691,
+      "buffer_vertex_distance_mean": 99.92772242761927,
+      "park_id": 11
+    },
+    {
+      "anonymous_record": 12,
+      "covering_buffer_parts": [
+        22
+      ],
+      "buffer_vertex_distance_min": 98.89130451410527,
+      "buffer_vertex_distance_max": 100.00000000022803,
+      "buffer_vertex_distance_mean": 99.91416523839793,
+      "park_id": 12
+    },
+    {
+      "anonymous_record": 13,
+      "covering_buffer_parts": [
+        27
+      ],
+      "buffer_vertex_distance_min": 98.89369430348144,
+      "buffer_vertex_distance_max": 100.0000000002086,
+      "buffer_vertex_distance_mean": 99.9444260591003,
+      "park_id": 13
+    },
+    {
+      "anonymous_record": 14,
+      "covering_buffer_parts": [
+        32
+      ],
+      "buffer_vertex_distance_min": 98.39904493750241,
+      "buffer_vertex_distance_max": 100.00000000022044,
+      "buffer_vertex_distance_mean": 99.94890032489856,
+      "park_id": 14
+    },
+    {
+      "anonymous_record": 15,
+      "covering_buffer_parts": [
+        29
+      ],
+      "buffer_vertex_distance_min": 99.99999999973275,
+      "buffer_vertex_distance_max": 100.000000000225,
+      "buffer_vertex_distance_mean": 100.00000000000074,
+      "park_id": 15
+    },
+    {
+      "anonymous_record": 16,
+      "covering_buffer_parts": [
+        33
+      ],
+      "buffer_vertex_distance_min": 98.8946146581427,
+      "buffer_vertex_distance_max": 100.00000000015496,
+      "buffer_vertex_distance_mean": 99.95990549165593,
+      "park_id": 16
+    },
+    {
+      "anonymous_record": 17,
+      "covering_buffer_parts": [
+        26
+      ],
+      "buffer_vertex_distance_min": 99.2588078914854,
+      "buffer_vertex_distance_max": 100.00000000019469,
+      "buffer_vertex_distance_mean": 99.98061859984949,
+      "park_id": 17
+    },
+    {
+      "anonymous_record": 18,
+      "covering_buffer_parts": [
+        7
+      ],
+      "buffer_vertex_distance_min": 98.91272117567772,
+      "buffer_vertex_distance_max": 100.00000000020134,
+      "buffer_vertex_distance_mean": 99.9706140858246,
+      "park_id": 18
+    },
+    {
+      "anonymous_record": 19,
+      "covering_buffer_parts": [
+        39
+      ],
+      "buffer_vertex_distance_min": 99.99999999980919,
+      "buffer_vertex_distance_max": 100.00000000021815,
+      "buffer_vertex_distance_mean": 99.99999999999515,
+      "park_id": 19
+    },
+    {
+      "anonymous_record": 20,
+      "covering_buffer_parts": [
+        14
+      ],
+      "buffer_vertex_distance_min": 98.63184773270052,
+      "buffer_vertex_distance_max": 100.00000000020631,
+      "buffer_vertex_distance_mean": 99.95748203939418,
+      "park_id": 20
+    },
+    {
+      "anonymous_record": 21,
+      "covering_buffer_parts": [
+        3
+      ],
+      "buffer_vertex_distance_min": 99.15707294585695,
+      "buffer_vertex_distance_max": 100.00000000024615,
+      "buffer_vertex_distance_mean": 99.98959349316928,
+      "park_id": 21
+    },
+    {
+      "anonymous_record": 22,
+      "covering_buffer_parts": [
+        15
+      ],
+      "buffer_vertex_distance_min": 97.7382642458357,
+      "buffer_vertex_distance_max": 100.00000000022277,
+      "buffer_vertex_distance_mean": 99.962208515825,
+      "park_id": 22
+    },
+    {
+      "anonymous_record": 23,
+      "covering_buffer_parts": [
+        31
+      ],
+      "buffer_vertex_distance_min": 99.2453830596039,
+      "buffer_vertex_distance_max": 100.00000000017981,
+      "buffer_vertex_distance_mean": 99.96386638562583,
+      "park_id": 23
+    },
+    {
+      "anonymous_record": 24,
+      "covering_buffer_parts": [
+        8
+      ],
+      "buffer_vertex_distance_min": 99.999999999666,
+      "buffer_vertex_distance_max": 100.00000000021079,
+      "buffer_vertex_distance_mean": 99.9999999999677,
+      "park_id": 24
+    },
+    {
+      "anonymous_record": 25,
+      "covering_buffer_parts": [
+        9
+      ],
+      "buffer_vertex_distance_min": 99.10348790838125,
+      "buffer_vertex_distance_max": 100.00000000023451,
+      "buffer_vertex_distance_mean": 99.9899203013969,
+      "park_id": 25
+    },
+    {
+      "anonymous_record": 26,
+      "covering_buffer_parts": [
+        34
+      ],
+      "buffer_vertex_distance_min": 97.9762622549819,
+      "buffer_vertex_distance_max": 100.00000000023377,
+      "buffer_vertex_distance_mean": 99.94023778316166,
+      "park_id": 26
+    },
+    {
+      "anonymous_record": 27,
+      "covering_buffer_parts": [
+        20
+      ],
+      "buffer_vertex_distance_min": 98.57539403682985,
+      "buffer_vertex_distance_max": 100.00000000021662,
+      "buffer_vertex_distance_mean": 99.95795080837875,
+      "park_id": 27
+    },
+    {
+      "anonymous_record": 28,
+      "covering_buffer_parts": [
+        6
+      ],
+      "buffer_vertex_distance_min": 99.99999999972776,
+      "buffer_vertex_distance_max": 100.00000000020933,
+      "buffer_vertex_distance_mean": 99.99999999996096,
+      "park_id": 28
+    },
+    {
+      "anonymous_record": 29,
+      "covering_buffer_parts": [
+        13
+      ],
+      "buffer_vertex_distance_min": 98.5127440530398,
+      "buffer_vertex_distance_max": 100.00000000019602,
+      "buffer_vertex_distance_mean": 99.93672644076317,
+      "park_id": 29
+    },
+    {
+      "anonymous_record": 30,
+      "covering_buffer_parts": [
+        16
+      ],
+      "buffer_vertex_distance_min": 98.89275538065905,
+      "buffer_vertex_distance_max": 100.00000000020829,
+      "buffer_vertex_distance_mean": 99.97181626111104,
+      "park_id": 30
+    },
+    {
+      "anonymous_record": 31,
+      "covering_buffer_parts": [
+        23
+      ],
+      "buffer_vertex_distance_min": 98.7398484584294,
+      "buffer_vertex_distance_max": 100.00000000024042,
+      "buffer_vertex_distance_mean": 99.93554972201231,
+      "park_id": 31
+    },
+    {
+      "anonymous_record": 32,
+      "covering_buffer_parts": [
+        17
+      ],
+      "buffer_vertex_distance_min": 98.78725079533608,
+      "buffer_vertex_distance_max": 100.0000000002424,
+      "buffer_vertex_distance_mean": 99.95277257144065,
+      "park_id": 32
+    },
+    {
+      "anonymous_record": 33,
+      "covering_buffer_parts": [
+        12
+      ],
+      "buffer_vertex_distance_min": 98.63568271372459,
+      "buffer_vertex_distance_max": 100.00000000019827,
+      "buffer_vertex_distance_mean": 99.96812022875065,
+      "park_id": 33
+    },
+    {
+      "anonymous_record": 34,
+      "covering_buffer_parts": [
+        1
+      ],
+      "buffer_vertex_distance_min": 99.99999999969052,
+      "buffer_vertex_distance_max": 100.0000000002175,
+      "buffer_vertex_distance_mean": 100.00000000000213,
+      "park_id": 34
+    },
+    {
+      "anonymous_record": 35,
+      "covering_buffer_parts": [
+        18
+      ],
+      "buffer_vertex_distance_min": 99.88163180414725,
+      "buffer_vertex_distance_max": 100.00000000019111,
+      "buffer_vertex_distance_mean": 99.99718170958093,
+      "park_id": 35
+    },
+    {
+      "anonymous_record": 36,
+      "covering_buffer_parts": [
+        30
+      ],
+      "buffer_vertex_distance_min": 98.84118472906884,
+      "buffer_vertex_distance_max": 100.00000000021598,
+      "buffer_vertex_distance_mean": 99.93472332809601,
+      "park_id": 36
+    },
+    {
+      "anonymous_record": 37,
+      "covering_buffer_parts": [
+        28
+      ],
+      "buffer_vertex_distance_min": 98.48684536776629,
+      "buffer_vertex_distance_max": 100.00000000021667,
+      "buffer_vertex_distance_mean": 99.91996273609134,
+      "park_id": 37
+    },
+    {
+      "anonymous_record": 38,
+      "covering_buffer_parts": [
+        25
+      ],
+      "buffer_vertex_distance_min": 98.69690416956084,
+      "buffer_vertex_distance_max": 100.00000000022902,
+      "buffer_vertex_distance_mean": 99.94482337401905,
+      "park_id": 38
+    },
+    {
+      "anonymous_record": 39,
+      "covering_buffer_parts": [
+        2
+      ],
+      "buffer_vertex_distance_min": 98.81768342256808,
+      "buffer_vertex_distance_max": 100.00000000018622,
+      "buffer_vertex_distance_mean": 99.97250426563201,
+      "park_id": 39
+    }
+  ],
+  "identifier_mapping": {
+    "basis": "Independent ID audit reported by the parent agent: DBF Name matches the address Excel Name row-by-row; DBF record 1-39 corresponds to Excel NO 1-39, and saved SAV ParkID is 1-39.",
+    "attribute_values_published": false,
+    "coordinates_published": false
+  },
+  "all_39_have_unique_covering_part": true,
+  "distance_units": "Planar map units declared as metres in both .prj files; vertex distances do not certify exact geodesic distances."
+}

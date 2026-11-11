@@ -1,0 +1,416 @@
+Code ecologies: Integrating cultural legitimacy analysis in 
+sustainability transitions
+Laura Santamaria
+Royal College of Art, School of Communication, United Kingdom
+ARTICLE INFO
+Keywords:
+Symbolic codes
+Socio-ecological systems
+Cultural legitimacy
+Sustainability transitions
+ABSTRACT
+A persistent challenge in sustainability transitions is the uneven uptake of interventions such as renewable en-
+ergy projects, conservation measures and rewilding initiatives. These often encounter resistance that cannot be 
+explained by economics, technical feasibility or governance arrangements alone. Instead, they hinge on questions 
+of legitimacy and cultural alignment. Existing frameworks, including socio-ecological systems (SES) and cultural 
+ecosystem services (CES), recognise human dimensions yet miss the symbolic dynamics through which in-
+terventions are interpreted, accepted or contested. Symbolic codes are patterned systems of meaning expressed 
+through aesthetics, aspirational values and common practices in a particular context, which influence whether 
+interventions are embraced, negotiated or resisted. This paper advances the Symbolic Ecology Framework (SEF), 
+a conceptual framework for integrating symbolic codes as cultural variables in socio-ecological analysis. This 
+conceptual contribution: (1) establishes theoretical premises for treating symbolic codes as cultural variables in 
+socio-ecological analysis; (2) specifies six attributes (salience, valence, resonance, legitimacy, diachronic status, 
+place-binding) drawn from cultural analysis and environmental research for systematic code assessment; and (3) 
+proposes their aggregation into a Symbolic Alignment Index (SAI) for legitimacy alignment diagnostic purposes. 
+An illustrative case study application to renewable energy siting demonstrates the framework's analytical logic. 
+Finally, the empirical research agenda required to operationalise SEF is outlined, including protocol stand-
+ardisation, validation studies and cross-context calibration.
+1. Introduction
+Despite decades of innovation, the uptake of sustainability in-
+terventions – from renewable energy and conservation to rewilding and 
+circular practices – remains uneven and contested. While frameworks 
+such as social-ecological systems (SES) and cultural ecosystem services 
+(CES) have broadened analysis beyond the biophysical (Ostrom, 2009; 
+Daniel et al., 2012; Fish et al., 2016), persistent difficulties in uptake 
+reveal a critical blind spot: how symbolic systems influence cognitive 
+legitimacy – the taken-for-granted assumptions about what appears 
+appropriate in particular contexts (Devine-Wright, 2009; Batel and 
+Devine-Wright, 2015).
+An important factor in whether interventions succeed is the extent to 
+which they fit the socio-symbolic logics of the communities in which 
+they are introduced. When the symbolic framing of an intervention 
+clashes with local codes of meaning, legitimacy is withheld and uptake 
+falters. Renewable energy projects, for example, are often delayed not by 
+technical design or cost, but by disputes over how turbines alter valued 
+landscapes and identities (Devine-Wright, 2009). Similarly, rewilding 
+initiatives can provoke contestation when they disrupt established 
+narratives of belonging and stewardship (Lorimer et al., 2015).
+These symbolic dimensions are not always visible. Unlike conscious 
+preferences (stated choices), norms (observed behaviours) and values 
+(what people care about) (Schwartz et al., 2012), they consist largely of 
+unspoken beliefs, assumptions and shared understandings that bind 
+people together and define identity and belonging (Barthes, 1972; N¨oth, 
+1990). For outsiders – whether policymakers, scientists or developers – 
+these symbolic codes are therefore difficult to detect and easy to over-
+look. A community might value environmental protection and prefer 
+renewable energy, yet resist a specific project because turbines violate 
+symbolic codes of landscape heritage or local sovereignty (Wolsink, 
+2007; Walker and Devine-Wright, 2008). This explains persistent 
+adoption failures: interventions align with conscious values but clash 
+with unconscious codes (Kollmuss and Agyeman, 2002). The challenge 
+is how to systematically identify such tacit, context-specific codes and 
+account for them in the design of sustainability interventions.
+Addressing this blind spot requires interdisciplinary approaches that 
+can integrate symbolic code analysis into environmental science. 
+E-mail address: laura.santamaria@rca.ac.uk. 
+Contents lists available at ScienceDirect
+Current Research in Environmental Sustainability
+journal homepage: www.sciencedirect.com/journal/current-research-in-environmental-sustainability
+https://doi.org/10.1016/j.crsust.2026.100340
+Received 25 October 2025; Received in revised form 6 January 2026; Accepted 26 February 2026  
+Current Research in Environmental Sustainability 11 (2026) 100340 
+Available online 4 March 2026 
+2666-0490/© 2026 Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license ( http://creativecommons.org/licenses/by-nc-nd/4.0/ ). 
+Semiotics, as the study of codes and meaning systems, provides a 
+powerful basis for this integration. Building on previous methodological 
+work on semiotics analysis in the context of sustainable innovation 
+(Santamaria, Escobar-Tello and Ross, 2016; Santamaria, 2023), this 
+paper extends the approach into environmental science by establishing 
+the foundations for the Symbolic Ecology Framework (SEF), a concep-
+tual framework for diagnosing symbolic alignment between in-
+terventions and contextual codes.
+1.1. Scope and contribution
+The contribution is fourfold: (1) establishing the theoretical case for 
+treating symbolic codes as cultural variables in socio-ecological analysis; 
+(2) specifying six attributes through which codes can be assessed; (3) 
+proposing an aggregation logic (Symbolic Alignment Index) for diag-
+nostic purposes; (4) outlining the empirical research agenda required to 
+operationalise the conceptual framework into validated protocols, 
+including standardised procedures for code identification, validation 
+studies correlating SAI with uptake outcomes, and cross-context 
+calibration.
+Section 2 reviews the legitimacy gap and introduces core concepts on 
+semiotics and symbolic codes. Section 3 presents SEF's premises, attri-
+butes and aggregation logic. Section 4 illustrates application to renew-
+able energy siting. Section 5 discusses implications and outlines the 
+operationalisation agenda.
+2. Literature review
+This section reviews how environmental science has addressed 
+human dimensions of ecological systems, what remains under-theorised, 
+and what semiotic analysis can offer to fill this gap.
+2.1. Environmental science approaches to human dimensions, and the 
+cultural blind spot
+Legitimacy has become central to explaining the success or failure of 
+sustainability transitions (Fuenfschilling, 2019). Suchman (1995, p. 
+574) defines legitimacy as ‘a generalised perception or assumption that 
+the actions of an entity are desirable, proper, or appropriate within some 
+socially constructed system of norms, values, beliefs and definitions.’ 
+Scott's (2014) well-adopted framework distinguishes between regulative, 
+normative and cultural-cognitive dimensions. Regulative legitimacy con-
+cerns conformity with formal rules and laws; normative legitimacy re-
+lates to alignment with values and social expectations; cultural-cognitive 
+legitimacy reflects taken-for-granted assumptions about what is appro-
+priate (Scott, 2014; Deephouse and Suchman, 2008). While transitions 
+research has examined regulative and normative dimensions 
+(Fuenfschilling, 2019), what remains under-explored is the symbolic 
+systems (taken-for-granted assumptions) that affect cultural-cognitive 
+legitimacy. Crucially, in transitions, legitimacy itself becomes con-
+tested rather than granted. Institutional structures (regulative, norma-
+tive, cultural-cognitive) are in flux as actors engage in creating, 
+maintaining and disrupting institutions (Fuenfschilling and Truffer, 
+2016). Cultural legitimacy involves ‘framing struggles’ where various 
+groups contest evolving discourses and perform on public stages to in-
+fluence legitimacy judgments (Geels and Verhees, 2011). The question is 
+not merely whether interventions achieve legitimacy but whose sym-
+bolic codes, whose taken-for-granted assumptions and whose institu-
+tional logics prevail.
+While SES and CES keep expanding the scope of socio-ecological 
+modelling (Manyani et al., 2024), they assume stable institutional con-
+texts and overlook the symbolic systems through which intervention 
+legitimacy and meaning are constructed – a gap noted in earlier reviews 
+(Fish et al., 2016; Sch¨afer and O'Neill, 2017; Partelow, 2018). SES in-
+tegrates culture through norms, shared strategies, trust and institutional 
+arrangements embedded in governance structures (Ostrom, 2009; 
+McGinnis and Ostrom, 2014). These variables address normative legit-
+imacy: what communities expect and value. CES broadens recognition of 
+cultural benefits through heritage, identity and sense of place, oper-
+ationalising these through deliberative methods that elicit stated pref-
+erences (Daniel et al., 2012; Fish et al., 2016). This again addresses 
+normative legitimacy through what people consciously value and can 
+articulate. What neither framework captures is cultural-cognitive legit-
+imacy as a site of contestation: the assumptions that determine whether 
+interventions are read as ‘progress’ or ‘imposition’, ‘us’ or ‘them’, ‘what 
+belongs here’ or ‘what is alien’. Consequently, the cultural-cognitive 
+dimension of legitimacy, and the power dynamics embedded within it 
+is under-explored in environmental science, and sustainability transi-
+tions uptake challenges persist across sectors and geographies. Symbolic 
+codes are not neutral cultural variables but politically loaded systems 
+through which power operates. Such ‘ecology of codes’ and their dy-
+namics must be understood to diagnose legitimacy challenges.
+Emergent evidence points to the decisive role of cultural-cognitive 
+alignment. In Samoa, blending climate forecasts with traditional in-
+dicators increased trust by resonating with indigenous symbolic codes 
+(McNamara and Prasad, 2014). In Sardinia, a participatory plan that 
+involved schools, associations and trusted local media succeeded in 
+building legitimacy around environmental health interventions by 
+anchoring them in familiar community practices (De Marchi et al., 
+2023). In Belgium, retrofit uptake increased when coded along through 
+local norms (Bielig et al., 2024). These cases reveal that interventions 
+gain traction when they resonate with symbolic logics, yet the question 
+of whose symbolic codes and whose cultural-cognitive frameworks are 
+validated remains largely unexamined.
+2.2. Semiotics and symbolic codes
+Semiotics is the study of sign systems, the patterned conventions 
+through which humans interpret the world and organise collective life 
+(N¨oth, 1990). Semiotics originated in linguistics through the founda-
+tional work of Ferdinand de Saussure and Charles Sanders Peirce in the 
+early 20th century and became a major approach within cultural studies 
+in the late 1960s with the work of Roland Barthes, who recognised its 
+value for understanding meanings embedded in images, objects, rituals 
+and their complex associations to identity and belonging. Barthes 
+demonstrated how codes construct myths: cultural associations that 
+make dominant meanings appear ‘natural’ and ‘common sense’ and 
+operate as ‘assumed truth’ in a given context (Barthes, 1972). This 
+process of naturalisation is central to cultural-cognitive legitimacy: what 
+appears self-evidently appropriate in one context may be contested or 
+illegitimate in another (Scott, 2014). In Britain, semiotics was advanced 
+in cultural studies by sociologist Stuart Hall, whose work on media and 
+communication studies (encoding/decoding) showed how meanings are 
+strategically produced by cultural intermediaries and legitimised to 
+audiences through rhetorical and institutional processes, whether 
+through media framing, institutional endorsement or symbolic associa-
+tion (Hall, 1980). Beyond cultural critique, contemporary semiotics has 
+been adopted as ‘a hybrid of communication science and anthropology’ 
+methodology for examining how symbolic codes structure consumer 
+preferences and anticipate social behaviours (Oswald, 2020, p. 1).
+The concept of codes is central to semiotics, which defines them as 
+socially agreed conventions linking signs to meanings (N¨oth, 1990). 
+Some codes are obvious, such as traffic lights (red = stop; green = go), 
+while others are tacit and deeply embedded in culture, such as col-
+our–gender associations (pink = female; blue = male). Symbolic codes 
+construct social reality by marking class differentiation, identity and 
+belonging (Baudrillard, 1988).
+Operating largely at an unconscious level, symbolic codes constitute 
+what Scott (2014) identifies as cultural-cognitive legitimacy: the taken- 
+for-granted assumptions about what appears appropriate, proper and 
+self-evident in particular contexts.
+Marketing semiotics has long recognised that symbolic alignment 
+L. Santamaria                                                                                                                                                                                                                                    Current Research in Environmental Sustainability 11 (2026) 100340 
+2 
+shapes uptake as powerfully as technical performance (Oswald, 2015, 
+2020). When Jeep Wrangler sales stalled in the US, cultural analysis 
+revealed square headlights clashed with codes linking the vehicle to 
+freedom and power. Sales surged after redesigning headlights to 
+resemble horses' ‘round eyes’, which evoked rural familiarity. In Europe, 
+the same vehicle carried different codes, linked to ‘liberator’ evoking 
+Allied forces, resulting in a different design (Rapaille, 2007).
+Semiotics differs fundamentally from, yet complements, participa-
+tory methods commonly used in environmental science. Participatory 
+approaches (interviews, workshops, focus groups) elicit what people can 
+consciously articulate. Because codes shaping legitimacy judgments are 
+often inaccessible through direct questioning, semiotic methods analyse 
+publicly circulating cultural discourse – media, policy documents, ma-
+terial culture – to identify codes structuring collective meaning-making 
+(Oswald, 2015; Santamaria, 2020).
+Codes are dynamic and contested, not static variables. Raymond 
+Williams' (1977) distinction between residual (inherited but active), 
+dominant (currently prevailing), and emergent (new and contested) cul-
+tural forms reveals how codes compete for position and legitimacy. The 
+plastics example illustrates this: reuse and thrift re-emerge as residual 
+codes; disposability and convenience remain dominant yet increasingly 
+contested; circularity and closed-loop design struggle as emergent codes. 
+These codes coexist, clash and migrate, reshaping the symbolic terrain of 
+everyday practice. Concerning legitimacy in sustainability transitions, 
+this results in a volatile ‘status quo’, where the boundaries of what is 
+considered legitimate are continuously challenged and redefined (Haack 
+et al., 2021). Hence, sustainability transitions require co-evolution 
+across socio-technical dimensions: stewardship of natural resources, 
+innovation adoption and cultural-symbolic systems – meanings and 
+values attributed to the natural and man-made spheres (Geels, 2002). 
+Electric vehicles, for instance, mobilise technological resources (batteries, 
+charging grids, regulatory legislation), ecological resources (reduced 
+emissions, mineral extraction) and symbolic resources (whether EVs are 
+coded as luxury commodities, green necessities or transitional technol-
+ogies). Working with codes is therefore not ‘soft communication’ but 
+systemic leverage in sustainability transitions.
+2.3. The blind spot, clarified
+Across SES, CES and adjacent literatures, there is widespread 
+recognition that cultural and symbolic dimensions matter for sustain-
+ability transitions. SES research acknowledges norms, trust and in-
+stitutions; CES highlights heritage, identity and spirituality; adoption 
+studies demonstrate framing effects. Yet symbolic dimensions remain 
+methodologically under-developed. Three persistent limitations prevent 
+systematic integration: 
+1. Culture is proxied rather than operationalised. Culture is recog-
+nised but typically reduced to values, attitudes or preferences, con-
+structs that elicit what people consciously care about but not how 
+symbolic codes structure cultural-cognitive legitimacy, compete for 
+dominance or evolve over time.
+2. Lack of temporal and spatial integration. While ecological and 
+technical variables are modelled diachronically and spatially, sym-
+bolic codes are rarely tracked as residual, dominant or emergent, nor 
+mapped to show where cultural alignment supports or undermines 
+interventions.
+3. Absence of ex-ante diagnostic tools. SES excels at diagnosing 
+governance fit; CES elicits values. Yet approaches document sym-
+bolic barriers or successes only after the fact. There is no systematic 
+method to identify, assess and align symbolic codes with in-
+terventions ex-ante, diagnosing and anticipating cultural-cognitive 
+legitimacy challenges rather than retroactively explain them, 
+reducing costly delays, opposition and trial-error iterations.
+Important precedents show code operationalisation is possible. 
+Semiotics has examined differential weight of codes: Kress and van 
+Leeuwen (2001) proposed visual grammars measuring salience in 
+multimodal texts; Hall's (1980) encoding/decoding model classified 
+interpretive positions as dominant, negotiated or oppositional. 
+Communication studies have shown how moral, economic or security 
+frames alter legitimacy of climate messages (Nisbet, 2009; Wolsko et al., 
+2016). Ecosystem services research has formalised relational values 
+through classification and weighting (Chan et al., 2016; Fish et al., 
+2016). Marketing semiotics has long implemented symbolic code anal-
+ysis with measurable effect: products succeed internationally when 
+encoded to fit target cultural logics (Oswald, 2015, 2020). Related work 
+has demonstrated how code mapping can guide sustainable product- 
+service system design by identifying cultural barriers to adoption and 
+aligning innovations with favourable codes (Santamaria et al., 2016).
+The challenge is not proving codes matter – evidence is ample – but 
+developing systematic methods to analyse and operationalise them in 
+environmental science. If symbolic codes shape cultural-cognitive 
+legitimacy and vary across contexts, then alignment cannot be left to 
+chance or treated as a communication afterthought. What is missing is a 
+coherent framework integrating symbolic codes as variables in their own 
+right: analysable, comparable and alignable alongside biophysical, 
+governance and behavioural dimensions.
+This paper addresses that gap by proposing the Symbolic Ecology 
+Framework (SEF), which specifies how symbolic codes can be system-
+atically integrated into socio-ecological analysis.
+3. The symbolic ecology framework: conceptual premises and 
+analytical structure
+The following conceptual framework establishes the analytical logic 
+for integrating symbolic codes into socio-ecological analysis. The 
+framework builds on established methods for code mapping in sustain-
+able innovation contexts (Santamaria et al., 2016; Santamaria, 2023), 
+extending these approaches to address the cultural-cognitive dimensions 
+of legitimacy in environmental science. SEF provides a structured 
+pathway through four stages (Fig. 1): Code mapping, attribute assess-
+ment, symbolic alignment synthesis (SAI), interpretive alignment 
+strategies.
+Building on these stages, the steps below outline a minimum illus-
+trative procedure for applying SEF in analytical contexts. This procedure 
+is intended to clarify analytical logic rather than to claim empirical 
+validation. 
+1. Define the intervention context 
+Specify the intervention type, spatial scope and stakeholder 
+setting.
+2. Identify symbolic codes 
+Conduct semiotic analysis of relevant discourse and artefacts (e.g. 
+L. Santamaria                                                                                                                                                                                                                                    Current Research in Environmental Sustainability 11 (2026) 100340 
+3 
+media, policy documents, visual culture) to identify dominant, re-
+sidual and emergent symbolic codes1 (see Santamaria et al., 2016).
+3. Classify codes 
+Organise identified codes into aesthetic codes, aspirational values 
+and common practices.
+4. Assess code attributes 
+Analytically assess each code against the six attributes (salience, 
+valence, resonance, legitimacy, diachronic status, place-binding) 
+using an ordinal or qualitative scale.
+5. Derive symbolic alignment 
+Synthesise attribute assessments to derive an indicative Symbolic 
+Alignment Index (SAI) for comparative diagnostic purposes.
+6. Interpret implications 
+Interpret alignment patterns to anticipate legitimacy dynamics 
+and inform reflective intervention design.
+3.1. Categories for code mapping
+These three categories are derived from applied research in design 
+for sustainability (Santamaria et al., 2016; Santamaria, 2023), where 
+they were developed to map cultural codes shaping sustainable inno-
+vation uptake: 
+● Aesthetic Codes: Visual and material signs indicating what is 
+desirable, familiar or modern within a culture (styles of dress, ar-
+chitecture, cars, artefacts). These codes provide cues for how com-
+munities perceive harmony, appropriateness or modernity, shaping 
+whether interventions appear legitimate or alien.
+● Aspirational Values: Collective imaginaries and orientations that 
+motivate what people strive for in life (‘my children receive good 
+education,’ ‘family remains united,’ ‘we can eat well’). These values 
+anchor long-term visions of the future and condition how sustain-
+ability is justified and pursued.
+● Common Practices: Everyday routines and social rituals embodying 
+belonging – what ‘people like us do’ (going for a pint after work, 
+rising early for agricultural labour, helping neighbours). These 
+practices reflect collective norms that determine what feels natural, 
+trustworthy and socially legitimate.
+These categories provide a comprehensive, structured way to map 
+the cultural-symbolic logics of a given context, highlighting the tacit 
+codes that filter legitimacy and shape whether interventions are resisted, 
+negotiated or embraced. This explains why interventions can align with 
+stated values yet encounter resistance: they overlook the symbolic codes 
+operating below conscious awareness. Once mapped, these codes can be 
+analysed through six attributes (Section 3.2) and aggregated within the 
+Symbolic Alignment Index (Section 3.3).
+3.2. Variables and attributes
+To integrate symbolic codes within socio-ecological analysis, they 
+must be described and assessed in systematic ways. We propose six core 
+attributes, grounded in cultural analysis and environmental research, 
+that capture how codes shape legitimacy and uptake. This multi- 
+dimensional approach ensures a comprehensive diagnostic of how a 
+code operates in specific contexts, spanning cognitive (salience), affec-
+tive (valence, resonance), normative (legitimacy), temporal (diachronic 
+status) and spatial (place-binding) dimensions. 
+1. Salience – the frequency and visibility of a code in public discourse, 
+media or practice. In semiotics, salience refers to the degree to which 
+elements attract attention within a composition (Kress and van 
+Leeuwen, 2001). In political science, ‘issue salience’ captures how 
+strongly a topic features in collective agendas (McCombs and Shaw, 
+1972).
+2. Valence – the positive or negative orientation attributed to a code in 
+collective meaning-making, ranging from antagonistic to aspira-
+tional. In psychology, affective valence denotes the emotional charge 
+of experiences (Frijda, 1986). In communication studies, valence 
+framing influences whether issues are embraced or resisted (de 
+Vreese and Boomgaarden, 2003).
+3. Resonance – the depth of alignment between a code and collective 
+identities, values and affective orientations. In social movement 
+theory, resonance explains why some frames mobilise while others 
+fail (Benford and Snow, 2000). In cultural sociology, resonance is the 
+symbolic ‘fit’ with wider imaginaries (Alexander, 2004).
+4. Legitimacy – the extent to which a symbolic code is recognised as 
+valid, fair and authoritative within a given context, shaping whether 
+interventions are accepted as just and appropriate. In sustainability 
+research, legitimacy is a key criterion for effective knowledge sys-
+tems, alongside salience and credibility (Cash et al., 2003).
+5. Diachronic Status – the temporal positioning of a code (Residual/ 
+Dominant/Emergent). Williams (1977) distinguished between re-
+sidual forms (inherited from the past but still active), dominant 
+forms (prevailing in the present) and emergent forms (new and not 
+yet fully institutionalised). This dimension reflects cultural shifts 
+over time.
+6. Place-binding – the anchoring of codes to specific landscapes or 
+places. Environmental psychology shows how place attachment and 
+identity shape acceptance (Devine-Wright, 2009; Lewicka, 2011). 
+Cultural ecosystem services research similarly highlights symbolic 
+ties between places and meanings (Chan et al., 2016).
+The attributes provide a vocabulary for measuring symbolic dy-
+namics in ways comparable to other socio-ecological variables. They are 
+the building blocks for the Symbolic Alignment Index. Table 1 summa-
+rises them for easy access.
+Fig. 1. The analytical stages of the Symbolic Ecology Framework (SEF).
+1 Methodological note on code identification: Code mapping is an inter-
+pretive and semiotic task that requires cultural and symbolic literacy; in applied 
+contexts, it may be undertaken by researchers or practitioners with training in 
+semiotics, cultural analysis, or related interpretive disciplines, drawing on 
+established protocols (Santamaria et al., 2016). Code identification typically 
+involves systematic analysis of publicly circulating discourse (e.g. media 
+coverage, policy documents, visual culture, material artefacts) to identify 
+recurrent symbolic patterns. Participatory workshops and ethnographic obser-
+vation can provide complementary insight into practices and locally salient 
+codes. 
+Within the present framework, once symbolic codes are conceptually 
+identified and mapped, the SEF provides a structured analytical lens through 
+which environmental scientists and practitioners may examine patterns of 
+symbolic alignment. This reflects established interdisciplinary practice in 
+environmental research, where interpretive social and cultural analysis informs, 
+rather than replaces, technical and ecological assessment.
+L. Santamaria                                                                                                                                                                                                                                    Current Research in Environmental Sustainability 11 (2026) 100340 
+4 

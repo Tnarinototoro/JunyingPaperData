@@ -1,0 +1,4735 @@
+{
+  "method": "Python standard-library TIFF/GeoTIFF first-IFD tag audit; source files read-only; no image pixel arrays loaded.",
+  "created_utc": "2026-11-10T16:57:49.215621+00:00",
+  "input_tiff_count": 24,
+  "rasters": [
+    {
+      "filename": "Hokka.tif",
+      "category": "Hokka auxiliary/candidate; index identity not established",
+      "file_bytes": 240965420,
+      "filesystem_modified_utc": "2026-11-10T16:21:10.611771+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7701,
+      "height": 7821,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7821,
+        "first_16_block_offsets": [
+          47336,
+          78140,
+          108944,
+          139748,
+          170552,
+          201356,
+          232160,
+          262964,
+          293768,
+          324572,
+          355376,
+          386180,
+          416984,
+          447788,
+          478592,
+          509396
+        ],
+        "last_block_offset": 240934616,
+        "first_16_block_byte_counts": [
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804
+        ],
+        "last_block_byte_count": 30804,
+        "total_stored_pixel_bytes": 240918084,
+        "minimum_block_bytes": 30804,
+        "maximum_block_bytes": 30804,
+        "block_offset_step_constant": true,
+        "block_offset_step": 30804,
+        "blocks_are_contiguous": true,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": null,
+      "crs_epsg_geographic": 9055,
+      "linear_units_geokey": null,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 2
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "2048": {
+          "name": "GeographicTypeGeoKey",
+          "value": 9055
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84 (G1150)"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "2057": {
+          "name": "GeoKey",
+          "value": 6378137.0
+        },
+        "2059": {
+          "name": "GeoKey",
+          "value": 298.257223563
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        493485.0,
+        30.0,
+        0,
+        4899015.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        493485.0,
+        4664385.0,
+        724515.0,
+        4899015.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {},
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [
+        "Geographic CRS declaration conflicts with projected-looking coordinate magnitudes; do not silently relabel/reproject."
+      ],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "Hokka_test.tif",
+      "category": "Hokka auxiliary/candidate; index identity not established",
+      "file_bytes": 241013161,
+      "filesystem_modified_utc": "2026-11-10T16:20:49.259263+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7701,
+      "height": 7821,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7821,
+        "first_16_block_offsets": [
+          239579226,
+          239610030,
+          239640834,
+          239671638,
+          239702442,
+          239733246,
+          239764050,
+          239794854,
+          239825658,
+          239856462,
+          239887266,
+          239918070,
+          239948874,
+          239979678,
+          240010482,
+          240041286
+        ],
+        "last_block_offset": 240934602,
+        "first_16_block_byte_counts": [
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804
+        ],
+        "last_block_byte_count": 30804,
+        "total_stored_pixel_bytes": 240918084,
+        "minimum_block_bytes": 30804,
+        "maximum_block_bytes": 30804,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32654,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 54N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32654
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        493485.0,
+        30.0,
+        0,
+        4899015.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        493485.0,
+        4664385.0,
+        724515.0,
+        4899015.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.36805903911591"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.97934764623642"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.079569375517209"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.1062017436854"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "67.35"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.36805903911591",
+        "STATISTICS_MAXIMUM": "0.97934764623642",
+        "STATISTICS_MEAN": "0.079569375517209",
+        "STATISTICS_STDDEV": "0.1062017436854",
+        "STATISTICS_VALID_PERCENT": "67.35"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "hokkaido.tif",
+      "category": "Hokka auxiliary/candidate; index identity not established",
+      "file_bytes": 191347084,
+      "filesystem_modified_utc": "2026-11-10T16:21:17.622788+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7701,
+      "height": 7821,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7821,
+        "first_16_block_offsets": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "last_block_offset": 0,
+        "first_16_block_byte_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "last_block_byte_count": 0,
+        "total_stored_pixel_bytes": 0,
+        "minimum_block_bytes": 0,
+        "maximum_block_bytes": 0,
+        "block_offset_step_constant": true,
+        "block_offset_step": 0,
+        "blocks_are_contiguous": true,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32767,
+      "crs_epsg_geographic": 4326,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "Asia_North_Albers_Equal_Area_Conic"
+        },
+        "2048": {
+          "name": "GeographicTypeGeoKey",
+          "value": 4326
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "2057": {
+          "name": "GeoKey",
+          "value": 6378137.0
+        },
+        "2059": {
+          "name": "GeoKey",
+          "value": 298.257223563
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32767
+        },
+        "3074": {
+          "name": "ProjectionGeoKey",
+          "value": 32767
+        },
+        "3075": {
+          "name": "ProjCoordTransGeoKey",
+          "value": 11
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        },
+        "3078": {
+          "name": "GeoKey",
+          "value": 15.0
+        },
+        "3079": {
+          "name": "GeoKey",
+          "value": 65.0
+        },
+        "3080": {
+          "name": "GeoKey",
+          "value": 95.0
+        },
+        "3081": {
+          "name": "GeoKey",
+          "value": 30.0
+        },
+        "3082": {
+          "name": "GeoKey",
+          "value": 0.0
+        },
+        "3083": {
+          "name": "GeoKey",
+          "value": 0.0
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        493485.0,
+        30.0,
+        0,
+        4899015.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        493485.0,
+        4664385.0,
+        724515.0,
+        4899015.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [],
+      "source_time_candidate_metadata": [],
+      "sidecar": {
+        "filename": "hokkaido.tif.aux.xml",
+        "bands": [
+          {
+            "band": "1",
+            "metadata": {
+              "STATISTICS_VALID_PERCENT": "0"
+            }
+          }
+        ]
+      },
+      "stored_statistics": {
+        "STATISTICS_VALID_PERCENT": "0"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [
+        "Zero-byte strips exist; do not read offset zero as image pixels.",
+        "ProjectedCSType=32767 means a user-defined CRS, not an EPSG authority code."
+      ],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "hokkaido_correct.tif",
+      "category": "Hokka auxiliary/candidate; index identity not established",
+      "file_bytes": 241013477,
+      "filesystem_modified_utc": "2026-11-10T16:21:09.335357+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7701,
+      "height": 7821,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7821,
+        "first_16_block_offsets": [
+          47500,
+          78304,
+          109108,
+          139912,
+          170716,
+          201520,
+          232324,
+          263128,
+          293932,
+          324736,
+          355540,
+          386344,
+          417148,
+          447952,
+          478756,
+          509560
+        ],
+        "last_block_offset": 240934780,
+        "first_16_block_byte_counts": [
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804
+        ],
+        "last_block_byte_count": 30804,
+        "total_stored_pixel_bytes": 240918084,
+        "minimum_block_bytes": 30804,
+        "maximum_block_bytes": 30804,
+        "block_offset_step_constant": true,
+        "block_offset_step": 30804,
+        "blocks_are_contiguous": true,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32767,
+      "crs_epsg_geographic": 4326,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "Asia_North_Albers_Equal_Area_Conic"
+        },
+        "2048": {
+          "name": "GeographicTypeGeoKey",
+          "value": 4326
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "2057": {
+          "name": "GeoKey",
+          "value": 6378137.0
+        },
+        "2059": {
+          "name": "GeoKey",
+          "value": 298.257223563
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32767
+        },
+        "3074": {
+          "name": "ProjectionGeoKey",
+          "value": 32767
+        },
+        "3075": {
+          "name": "ProjCoordTransGeoKey",
+          "value": 11
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        },
+        "3078": {
+          "name": "GeoKey",
+          "value": 15.0
+        },
+        "3079": {
+          "name": "GeoKey",
+          "value": 65.0
+        },
+        "3080": {
+          "name": "GeoKey",
+          "value": 95.0
+        },
+        "3081": {
+          "name": "GeoKey",
+          "value": 30.0
+        },
+        "3082": {
+          "name": "GeoKey",
+          "value": 0.0
+        },
+        "3083": {
+          "name": "GeoKey",
+          "value": 0.0
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        493485.0,
+        30.0,
+        0,
+        4899015.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        493485.0,
+        4664385.0,
+        724515.0,
+        4899015.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-inf"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "inf"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-nan(ind)"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-nan(ind)"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "98.36"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-inf",
+        "STATISTICS_MAXIMUM": "inf",
+        "STATISTICS_MEAN": "-nan(ind)",
+        "STATISTICS_STDDEV": "-nan(ind)",
+        "STATISTICS_VALID_PERCENT": "98.36"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [
+        "Stored statistics contain nonfinite values; not evidence of usable NDVI.",
+        "ProjectedCSType=32767 means a user-defined CRS, not an EPSG authority code."
+      ],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 18,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDBI_fukushima.tif",
+      "category": "NDBI-labelled; NOT a substitute for NDVI",
+      "file_bytes": 242879764,
+      "filesystem_modified_utc": "2026-11-10T16:22:07.332129+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7731,
+      "height": 7851,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7851,
+        "first_16_block_offsets": [
+          241502094,
+          241533018,
+          241563942,
+          241594866,
+          241625790,
+          241656714,
+          241687638,
+          241718562,
+          241749486,
+          241780410,
+          241811334,
+          241842258,
+          241873182,
+          241904106,
+          241935030,
+          241965954
+        ],
+        "last_block_offset": 242800902,
+        "first_16_block_byte_counts": [
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924
+        ],
+        "last_block_byte_count": 30924,
+        "total_stored_pixel_bytes": 242784324,
+        "minimum_block_bytes": 30924,
+        "maximum_block_bytes": 30924,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32654,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 54N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32654
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        381585.0,
+        30.0,
+        0,
+        4423515.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        381585.0,
+        4187985.0,
+        613515.0,
+        4423515.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.74627387523651"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.82107692956924"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.056675275713094"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.081043884137906"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "66.49"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.74627387523651",
+        "STATISTICS_MAXIMUM": "0.82107692956924",
+        "STATISTICS_MEAN": "-0.056675275713094",
+        "STATISTICS_STDDEV": "0.081043884137906",
+        "STATISTICS_VALID_PERCENT": "66.49"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDBI_fukushima_up.tif",
+      "category": "NDBI-labelled; NOT a substitute for NDVI",
+      "file_bytes": 247580001,
+      "filesystem_modified_utc": "2026-11-10T16:22:10.802519+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7811,
+      "height": 7921,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7921,
+        "first_16_block_offsets": [
+          246094422,
+          246125666,
+          246156910,
+          246188154,
+          246219398,
+          246250642,
+          246281886,
+          246313130,
+          246344374,
+          246375618,
+          246406862,
+          246438106,
+          246469350,
+          246500594,
+          246531838,
+          246563082
+        ],
+        "last_block_offset": 247500402,
+        "first_16_block_byte_counts": [
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244
+        ],
+        "last_block_byte_count": 31244,
+        "total_stored_pixel_bytes": 247483724,
+        "minimum_block_bytes": 31244,
+        "maximum_block_bytes": 31244,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32654,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 54N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32654
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        284685.0,
+        30.0,
+        0,
+        4583715.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        284685.0,
+        4346085.0,
+        519015.0,
+        4583715.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.7064117193222"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.52046149969101"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.10211443008707"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.19568303924502"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "65.82"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.7064117193222",
+        "STATISTICS_MAXIMUM": "0.52046149969101",
+        "STATISTICS_MEAN": "-0.10211443008707",
+        "STATISTICS_STDDEV": "0.19568303924502",
+        "STATISTICS_VALID_PERCENT": "65.82"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDBI_hokka_test.tif",
+      "category": "NDBI-labelled; NOT a substitute for NDVI",
+      "file_bytes": 241013162,
+      "filesystem_modified_utc": "2026-11-10T16:22:09.201072+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7701,
+      "height": 7821,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7821,
+        "first_16_block_offsets": [
+          239579226,
+          239610030,
+          239640834,
+          239671638,
+          239702442,
+          239733246,
+          239764050,
+          239794854,
+          239825658,
+          239856462,
+          239887266,
+          239918070,
+          239948874,
+          239979678,
+          240010482,
+          240041286
+        ],
+        "last_block_offset": 240934602,
+        "first_16_block_byte_counts": [
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804
+        ],
+        "last_block_byte_count": 30804,
+        "total_stored_pixel_bytes": 240918084,
+        "minimum_block_bytes": 30804,
+        "maximum_block_bytes": 30804,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32654,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 54N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32654
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        493485.0,
+        30.0,
+        0,
+        4899015.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        493485.0,
+        4664385.0,
+        724515.0,
+        4899015.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.69947528839111"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.62462502717972"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.31379950876861"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.19598366322803"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "67.36"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.69947528839111",
+        "STATISTICS_MAXIMUM": "0.62462502717972",
+        "STATISTICS_MEAN": "-0.31379950876861",
+        "STATISTICS_STDDEV": "0.19598366322803",
+        "STATISTICS_VALID_PERCENT": "67.36"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDBI_island.tif",
+      "category": "NDBI-labelled; NOT a substitute for NDVI",
+      "file_bytes": 239148683,
+      "filesystem_modified_utc": "2026-11-10T16:22:12.025691+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7661,
+      "height": 7801,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7801,
+        "first_16_block_offsets": [
+          237905930,
+          237936574,
+          237967218,
+          237997862,
+          238028506,
+          238059150,
+          238089794,
+          238120438,
+          238151082,
+          238181726,
+          238212370,
+          238243014,
+          238273658,
+          238304302,
+          238334946,
+          238365590
+        ],
+        "last_block_offset": 239070402,
+        "first_16_block_byte_counts": [
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644
+        ],
+        "last_block_byte_count": 30644,
+        "total_stored_pixel_bytes": 239053844,
+        "minimum_block_bytes": 30644,
+        "maximum_block_bytes": 30644,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32652,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 52N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32652
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        298785.0,
+        30.0,
+        0,
+        2991615.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        298785.0,
+        2757585.0,
+        528615.0,
+        2991615.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.36035671830177"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.30159291625023"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.043728533447356"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.053552224357149"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "67.76"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.36035671830177",
+        "STATISTICS_MAXIMUM": "0.30159291625023",
+        "STATISTICS_MEAN": "0.043728533447356",
+        "STATISTICS_STDDEV": "0.053552224357149",
+        "STATISTICS_VALID_PERCENT": "67.76"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDBI_kyoto.tif",
+      "category": "NDBI-labelled; NOT a substitute for NDVI",
+      "file_bytes": 245374684,
+      "filesystem_modified_utc": "2026-11-10T16:23:11.435804+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7761,
+      "height": 7901,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7901,
+        "first_16_block_offsets": [
+          243556938,
+          243587982,
+          243619026,
+          243650070,
+          243681114,
+          243712158,
+          243743202,
+          243774246,
+          243805290,
+          243836334,
+          243867378,
+          243898422,
+          243929466,
+          243960510,
+          243991554,
+          244022598
+        ],
+        "last_block_offset": 245295402,
+        "first_16_block_byte_counts": [
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044
+        ],
+        "last_block_byte_count": 31044,
+        "total_stored_pixel_bytes": 245278644,
+        "minimum_block_bytes": 31044,
+        "maximum_block_bytes": 31044,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32653,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 53N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32653
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        248685.0,
+        30.0,
+        0,
+        3948915.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        248685.0,
+        3711885.0,
+        481515.0,
+        3948915.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.67758393287659"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.33032819628716"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.070347682358003"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.089182155298172"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "66.01"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.67758393287659",
+        "STATISTICS_MAXIMUM": "0.33032819628716",
+        "STATISTICS_MEAN": "-0.070347682358003",
+        "STATISTICS_STDDEV": "0.089182155298172",
+        "STATISTICS_VALID_PERCENT": "66.01"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDBI_nagoya.tif",
+      "category": "NDBI-labelled; NOT a substitute for NDVI",
+      "file_bytes": 235761121,
+      "filesystem_modified_utc": "2026-11-10T16:23:01.864800+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7611,
+      "height": 7741,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7741,
+        "first_16_block_offsets": [
+          234526530,
+          234556974,
+          234587418,
+          234617862,
+          234648306,
+          234678750,
+          234709194,
+          234739638,
+          234770082,
+          234800526,
+          234830970,
+          234861414,
+          234891858,
+          234922302,
+          234952746,
+          234983190
+        ],
+        "last_block_offset": 235683402,
+        "first_16_block_byte_counts": [
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444
+        ],
+        "last_block_byte_count": 30444,
+        "total_stored_pixel_bytes": 235667004,
+        "minimum_block_bytes": 30444,
+        "maximum_block_bytes": 30444,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32653,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 53N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32653
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        530385.0,
+        30.0,
+        0,
+        3946515.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        530385.0,
+        3714285.0,
+        758715.0,
+        3946515.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.42903009057045"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.343197286129"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.090704051029397"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.10320714470104"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "69.07"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.42903009057045",
+        "STATISTICS_MAXIMUM": "0.343197286129",
+        "STATISTICS_MEAN": "-0.090704051029397",
+        "STATISTICS_STDDEV": "0.10320714470104",
+        "STATISTICS_VALID_PERCENT": "69.07"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDBI_nara.tif",
+      "category": "NDBI-labelled; NOT a substitute for NDVI",
+      "file_bytes": 240080124,
+      "filesystem_modified_utc": "2026-11-10T16:23:09.515493+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7681,
+      "height": 7811,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7811,
+        "first_16_block_offsets": [
+          238742018,
+          238772742,
+          238803466,
+          238834190,
+          238864914,
+          238895638,
+          238926362,
+          238957086,
+          238987810,
+          239018534,
+          239049258,
+          239079982,
+          239110706,
+          239141430,
+          239172154,
+          239202878
+        ],
+        "last_block_offset": 240001702,
+        "first_16_block_byte_counts": [
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724
+        ],
+        "last_block_byte_count": 30724,
+        "total_stored_pixel_bytes": 239985164,
+        "minimum_block_bytes": 30724,
+        "maximum_block_bytes": 30724,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32653,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 53N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32653
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        391485.0,
+        30.0,
+        0,
+        3946515.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        391485.0,
+        3712185.0,
+        621915.0,
+        3946515.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.66985285282135"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.45580661296844"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.070336844956261"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.093787841813669"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "67.62"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.66985285282135",
+        "STATISTICS_MAXIMUM": "0.45580661296844",
+        "STATISTICS_MEAN": "-0.070336844956261",
+        "STATISTICS_STDDEV": "0.093787841813669",
+        "STATISTICS_VALID_PERCENT": "67.62"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDBI_tokyo.tif",
+      "category": "NDBI-labelled; NOT a substitute for NDVI",
+      "file_bytes": 243813323,
+      "filesystem_modified_utc": "2026-11-10T16:24:00.217693+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7741,
+      "height": 7871,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7871,
+        "first_16_block_offsets": [
+          242402850,
+          242433814,
+          242464778,
+          242495742,
+          242526706,
+          242557670,
+          242588634,
+          242619598,
+          242650562,
+          242681526,
+          242712490,
+          242743454,
+          242774418,
+          242805382,
+          242836346,
+          242867310
+        ],
+        "last_block_offset": 243734302,
+        "first_16_block_byte_counts": [
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964
+        ],
+        "last_block_byte_count": 30964,
+        "total_stored_pixel_bytes": 243717644,
+        "minimum_block_bytes": 30964,
+        "maximum_block_bytes": 30964,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32654,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 54N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32654
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        303285.0,
+        30.0,
+        0,
+        4106715.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        303285.0,
+        3870585.0,
+        535515.0,
+        4106715.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.63844501972198"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.39811506867409"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.055211272814613"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.09483146246601"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "66.14"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.63844501972198",
+        "STATISTICS_MAXIMUM": "0.39811506867409",
+        "STATISTICS_MEAN": "-0.055211272814613",
+        "STATISTICS_STDDEV": "0.09483146246601",
+        "STATISTICS_VALID_PERCENT": "66.14"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDBI_tokyo_down.tif",
+      "category": "NDBI-labelled; NOT a substitute for NDVI",
+      "file_bytes": 249466644,
+      "filesystem_modified_utc": "2026-11-10T16:23:11.524762+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7831,
+      "height": 7961,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7961,
+        "first_16_block_offsets": [
+          247726994,
+          247758318,
+          247789642,
+          247820966,
+          247852290,
+          247883614,
+          247914938,
+          247946262,
+          247977586,
+          248008910,
+          248040234,
+          248071558,
+          248102882,
+          248134206,
+          248165530,
+          248196854
+        ],
+        "last_block_offset": 249387166,
+        "first_16_block_byte_counts": [
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324
+        ],
+        "last_block_byte_count": 31324,
+        "total_stored_pixel_bytes": 249370364,
+        "minimum_block_bytes": 31324,
+        "maximum_block_bytes": 31324,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32654,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 54N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32654
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        121485.0,
+        30.0,
+        0,
+        3952515.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        121485.0,
+        3713685.0,
+        356415.0,
+        3952515.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [],
+      "source_time_candidate_metadata": [],
+      "sidecar": {
+        "filename": "NDBI_tokyo_down.tif.aux.xml",
+        "bands": [
+          {
+            "band": "1",
+            "metadata": {
+              "STATISTICS_APPROXIMATE": "YES",
+              "STATISTICS_MINIMUM": "-0.66312748193741",
+              "STATISTICS_MAXIMUM": "0.77840113639832",
+              "STATISTICS_MEAN": "-0.031370923748722",
+              "STATISTICS_STDDEV": "0.0918629454227",
+              "STATISTICS_VALID_PERCENT": "64.99"
+            }
+          }
+        ]
+      },
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.66312748193741",
+        "STATISTICS_MAXIMUM": "0.77840113639832",
+        "STATISTICS_MEAN": "-0.031370923748722",
+        "STATISTICS_STDDEV": "0.0918629454227",
+        "STATISTICS_VALID_PERCENT": "64.99"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 16,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDBI_west.tif",
+      "category": "NDBI-labelled; NOT a substitute for NDVI",
+      "file_bytes": 236680683,
+      "filesystem_modified_utc": "2026-11-10T16:23:58.217505+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7621,
+      "height": 7761,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7761,
+        "first_16_block_offsets": [
+          235352958,
+          235383442,
+          235413926,
+          235444410,
+          235474894,
+          235505378,
+          235535862,
+          235566346,
+          235596830,
+          235627314,
+          235657798,
+          235688282,
+          235718766,
+          235749250,
+          235779734,
+          235810218
+        ],
+        "last_block_offset": 236602802,
+        "first_16_block_byte_counts": [
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484
+        ],
+        "last_block_byte_count": 30484,
+        "total_stored_pixel_bytes": 236586324,
+        "minimum_block_bytes": 30484,
+        "maximum_block_bytes": 30484,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32652,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 52N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32652
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        479085.0,
+        30.0,
+        0,
+        3787215.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        479085.0,
+        3554385.0,
+        707715.0,
+        3787215.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.43030872941017"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.32205581665039"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.053714297413549"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.10559760571719"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "68.15"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.43030872941017",
+        "STATISTICS_MAXIMUM": "0.32205581665039",
+        "STATISTICS_MEAN": "-0.053714297413549",
+        "STATISTICS_STDDEV": "0.10559760571719",
+        "STATISTICS_VALID_PERCENT": "68.15"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDVI_fukushima.tif",
+      "category": "NDVI-labelled",
+      "file_bytes": 242879761,
+      "filesystem_modified_utc": "2026-11-10T16:25:03.697504+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7731,
+      "height": 7851,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7851,
+        "first_16_block_offsets": [
+          241502094,
+          241533018,
+          241563942,
+          241594866,
+          241625790,
+          241656714,
+          241687638,
+          241718562,
+          241749486,
+          241780410,
+          241811334,
+          241842258,
+          241873182,
+          241904106,
+          241935030,
+          241965954
+        ],
+        "last_block_offset": 242800902,
+        "first_16_block_byte_counts": [
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924,
+          30924
+        ],
+        "last_block_byte_count": 30924,
+        "total_stored_pixel_bytes": 242784324,
+        "minimum_block_bytes": 30924,
+        "maximum_block_bytes": 30924,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32654,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 54N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32654
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        381585.0,
+        30.0,
+        0,
+        4423515.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        381585.0,
+        4187985.0,
+        613515.0,
+        4423515.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.20380158722401"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.99583721160889"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.16918535465552"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.12198575531586"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "66.48"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.20380158722401",
+        "STATISTICS_MAXIMUM": "0.99583721160889",
+        "STATISTICS_MEAN": "0.16918535465552",
+        "STATISTICS_STDDEV": "0.12198575531586",
+        "STATISTICS_VALID_PERCENT": "66.48"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDVI_fukushima_up.tif",
+      "category": "NDVI-labelled",
+      "file_bytes": 247580002,
+      "filesystem_modified_utc": "2026-11-10T16:24:00.011748+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7811,
+      "height": 7921,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7921,
+        "first_16_block_offsets": [
+          246094422,
+          246125666,
+          246156910,
+          246188154,
+          246219398,
+          246250642,
+          246281886,
+          246313130,
+          246344374,
+          246375618,
+          246406862,
+          246438106,
+          246469350,
+          246500594,
+          246531838,
+          246563082
+        ],
+        "last_block_offset": 247500402,
+        "first_16_block_byte_counts": [
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244,
+          31244
+        ],
+        "last_block_byte_count": 31244,
+        "total_stored_pixel_bytes": 247483724,
+        "minimum_block_bytes": 31244,
+        "maximum_block_bytes": 31244,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32654,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 54N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32654
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        284685.0,
+        30.0,
+        0,
+        4583715.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        284685.0,
+        4346085.0,
+        519015.0,
+        4583715.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.22689804434776"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.99531066417694"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.050950045786298"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.096905706597396"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "65.8"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.22689804434776",
+        "STATISTICS_MAXIMUM": "0.99531066417694",
+        "STATISTICS_MEAN": "0.050950045786298",
+        "STATISTICS_STDDEV": "0.096905706597396",
+        "STATISTICS_VALID_PERCENT": "65.8"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDVI_hokka_test.tif",
+      "category": "NDVI-labelled",
+      "file_bytes": 241012684,
+      "filesystem_modified_utc": "2026-11-10T16:24:56.206892+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7701,
+      "height": 7821,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7821,
+        "first_16_block_offsets": [
+          239579190,
+          239609994,
+          239640798,
+          239671602,
+          239702406,
+          239733210,
+          239764014,
+          239794818,
+          239825622,
+          239856426,
+          239887230,
+          239918034,
+          239948838,
+          239979642,
+          240010446,
+          240041250
+        ],
+        "last_block_offset": 240934566,
+        "first_16_block_byte_counts": [
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804,
+          30804
+        ],
+        "last_block_byte_count": 30804,
+        "total_stored_pixel_bytes": 240918084,
+        "minimum_block_bytes": 30804,
+        "maximum_block_bytes": 30804,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32654,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 54N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32654
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        493485.0,
+        30.0,
+        0,
+        4899015.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        493485.0,
+        4664385.0,
+        724515.0,
+        4899015.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [],
+      "source_time_candidate_metadata": [],
+      "sidecar": {
+        "filename": "NDVI_hokka_test.tif.aux.xml",
+        "bands": [
+          {
+            "band": "1",
+            "metadata": {
+              "STATISTICS_APPROXIMATE": "YES",
+              "STATISTICS_MINIMUM": "-0.36805903911591",
+              "STATISTICS_MAXIMUM": "0.97934764623642",
+              "STATISTICS_MEAN": "0.079569375517209",
+              "STATISTICS_STDDEV": "0.1062017436854",
+              "STATISTICS_VALID_PERCENT": "67.35"
+            }
+          }
+        ]
+      },
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.36805903911591",
+        "STATISTICS_MAXIMUM": "0.97934764623642",
+        "STATISTICS_MEAN": "0.079569375517209",
+        "STATISTICS_STDDEV": "0.1062017436854",
+        "STATISTICS_VALID_PERCENT": "67.35"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 16,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDVI_island.tif",
+      "category": "NDVI-labelled",
+      "file_bytes": 239148681,
+      "filesystem_modified_utc": "2026-11-10T16:25:02.583566+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7661,
+      "height": 7801,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7801,
+        "first_16_block_offsets": [
+          237905930,
+          237936574,
+          237967218,
+          237997862,
+          238028506,
+          238059150,
+          238089794,
+          238120438,
+          238151082,
+          238181726,
+          238212370,
+          238243014,
+          238273658,
+          238304302,
+          238334946,
+          238365590
+        ],
+        "last_block_offset": 239070402,
+        "first_16_block_byte_counts": [
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644,
+          30644
+        ],
+        "last_block_byte_count": 30644,
+        "total_stored_pixel_bytes": 239053844,
+        "minimum_block_bytes": 30644,
+        "maximum_block_bytes": 30644,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32652,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 52N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32652
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        298785.0,
+        30.0,
+        0,
+        2991615.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        298785.0,
+        2757585.0,
+        528615.0,
+        2991615.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.2027693092823"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.6020136475563"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.050742697849991"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.076721623373468"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "67.76"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.2027693092823",
+        "STATISTICS_MAXIMUM": "0.6020136475563",
+        "STATISTICS_MEAN": "0.050742697849991",
+        "STATISTICS_STDDEV": "0.076721623373468",
+        "STATISTICS_VALID_PERCENT": "67.76"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDVI_kyoto.tif",
+      "category": "NDVI-labelled",
+      "file_bytes": 245374680,
+      "filesystem_modified_utc": "2026-11-10T16:25:03.895183+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7761,
+      "height": 7901,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7901,
+        "first_16_block_offsets": [
+          243556938,
+          243587982,
+          243619026,
+          243650070,
+          243681114,
+          243712158,
+          243743202,
+          243774246,
+          243805290,
+          243836334,
+          243867378,
+          243898422,
+          243929466,
+          243960510,
+          243991554,
+          244022598
+        ],
+        "last_block_offset": 245295402,
+        "first_16_block_byte_counts": [
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044,
+          31044
+        ],
+        "last_block_byte_count": 31044,
+        "total_stored_pixel_bytes": 245278644,
+        "minimum_block_bytes": 31044,
+        "maximum_block_bytes": 31044,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32653,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 53N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32653
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        248685.0,
+        30.0,
+        0,
+        3948915.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        248685.0,
+        3711885.0,
+        481515.0,
+        3948915.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.14746294915676"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.5075204372406"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.17901934320905"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.11915496763009"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "66.01"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.14746294915676",
+        "STATISTICS_MAXIMUM": "0.5075204372406",
+        "STATISTICS_MEAN": "0.17901934320905",
+        "STATISTICS_STDDEV": "0.11915496763009",
+        "STATISTICS_VALID_PERCENT": "66.01"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDVI_nagoya.tif",
+      "category": "NDVI-labelled",
+      "file_bytes": 235761121,
+      "filesystem_modified_utc": "2026-11-10T16:26:38.444321+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7611,
+      "height": 7741,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7741,
+        "first_16_block_offsets": [
+          234526530,
+          234556974,
+          234587418,
+          234617862,
+          234648306,
+          234678750,
+          234709194,
+          234739638,
+          234770082,
+          234800526,
+          234830970,
+          234861414,
+          234891858,
+          234922302,
+          234952746,
+          234983190
+        ],
+        "last_block_offset": 235683402,
+        "first_16_block_byte_counts": [
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444,
+          30444
+        ],
+        "last_block_byte_count": 30444,
+        "total_stored_pixel_bytes": 235667004,
+        "minimum_block_bytes": 30444,
+        "maximum_block_bytes": 30444,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32653,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 53N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32653
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        530385.0,
+        30.0,
+        0,
+        3946515.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        530385.0,
+        3714285.0,
+        758715.0,
+        3946515.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.12518016993999"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.53206968307495"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.18617782788564"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.15860454979721"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "69.07"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.12518016993999",
+        "STATISTICS_MAXIMUM": "0.53206968307495",
+        "STATISTICS_MEAN": "0.18617782788564",
+        "STATISTICS_STDDEV": "0.15860454979721",
+        "STATISTICS_VALID_PERCENT": "69.07"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDVI_nara.tif",
+      "category": "NDVI-labelled",
+      "file_bytes": 240080121,
+      "filesystem_modified_utc": "2026-11-10T16:26:37.998367+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7681,
+      "height": 7811,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7811,
+        "first_16_block_offsets": [
+          238742018,
+          238772742,
+          238803466,
+          238834190,
+          238864914,
+          238895638,
+          238926362,
+          238957086,
+          238987810,
+          239018534,
+          239049258,
+          239079982,
+          239110706,
+          239141430,
+          239172154,
+          239202878
+        ],
+        "last_block_offset": 240001702,
+        "first_16_block_byte_counts": [
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724,
+          30724
+        ],
+        "last_block_byte_count": 30724,
+        "total_stored_pixel_bytes": 239985164,
+        "minimum_block_bytes": 30724,
+        "maximum_block_bytes": 30724,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32653,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 53N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32653
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        391485.0,
+        30.0,
+        0,
+        3946515.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        391485.0,
+        3712185.0,
+        621915.0,
+        3946515.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.12278895825148"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.50092250108719"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.17594903482813"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.12801725222326"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "67.62"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.12278895825148",
+        "STATISTICS_MAXIMUM": "0.50092250108719",
+        "STATISTICS_MEAN": "0.17594903482813",
+        "STATISTICS_STDDEV": "0.12801725222326",
+        "STATISTICS_VALID_PERCENT": "67.62"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDVI_tokyo.tif",
+      "category": "NDVI-labelled",
+      "file_bytes": 243813321,
+      "filesystem_modified_utc": "2026-11-10T16:26:37.120098+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7741,
+      "height": 7871,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7871,
+        "first_16_block_offsets": [
+          242402850,
+          242433814,
+          242464778,
+          242495742,
+          242526706,
+          242557670,
+          242588634,
+          242619598,
+          242650562,
+          242681526,
+          242712490,
+          242743454,
+          242774418,
+          242805382,
+          242836346,
+          242867310
+        ],
+        "last_block_offset": 243734302,
+        "first_16_block_byte_counts": [
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964,
+          30964
+        ],
+        "last_block_byte_count": 30964,
+        "total_stored_pixel_bytes": 243717644,
+        "minimum_block_bytes": 30964,
+        "maximum_block_bytes": 30964,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32654,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 54N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32654
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        303285.0,
+        30.0,
+        0,
+        4106715.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        303285.0,
+        3870585.0,
+        535515.0,
+        4106715.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.15120548009872"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.54686814546585"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.16134270296035"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.13863243682699"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "66.14"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.15120548009872",
+        "STATISTICS_MAXIMUM": "0.54686814546585",
+        "STATISTICS_MEAN": "0.16134270296035",
+        "STATISTICS_STDDEV": "0.13863243682699",
+        "STATISTICS_VALID_PERCENT": "66.14"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDVI_tokyo_down.tif",
+      "category": "NDVI-labelled",
+      "file_bytes": 249467122,
+      "filesystem_modified_utc": "2026-11-10T16:26:38.484010+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7831,
+      "height": 7961,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7961,
+        "first_16_block_offsets": [
+          247727030,
+          247758354,
+          247789678,
+          247821002,
+          247852326,
+          247883650,
+          247914974,
+          247946298,
+          247977622,
+          248008946,
+          248040270,
+          248071594,
+          248102918,
+          248134242,
+          248165566,
+          248196890
+        ],
+        "last_block_offset": 249387202,
+        "first_16_block_byte_counts": [
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324,
+          31324
+        ],
+        "last_block_byte_count": 31324,
+        "total_stored_pixel_bytes": 249370364,
+        "minimum_block_bytes": 31324,
+        "maximum_block_bytes": 31324,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32654,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 54N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32654
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        121485.0,
+        30.0,
+        0,
+        3952515.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        121485.0,
+        3713685.0,
+        356415.0,
+        3952515.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.14738936722279"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.99950629472733"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.099704117809264"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.13828697429381"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "64.92"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.14738936722279",
+        "STATISTICS_MAXIMUM": "0.99950629472733",
+        "STATISTICS_MEAN": "0.099704117809264",
+        "STATISTICS_STDDEV": "0.13828697429381",
+        "STATISTICS_VALID_PERCENT": "64.92"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    },
+    {
+      "filename": "NDVI_west.tif",
+      "category": "NDVI-labelled",
+      "file_bytes": 236680680,
+      "filesystem_modified_utc": "2026-11-10T16:26:32.223681+00:00",
+      "filesystem_date_caveat": "File modification is not imagery acquisition/compositing time.",
+      "width": 7621,
+      "height": 7761,
+      "bands_samples_per_pixel": 1,
+      "bits_per_sample": [
+        32
+      ],
+      "sample_format": 3,
+      "data_type": "Float32",
+      "compression_code": 1,
+      "photometric_interpretation": 1,
+      "storage_layout": {
+        "organization": "strips",
+        "rows_per_strip": 1,
+        "tile_width": null,
+        "tile_height": null,
+        "planar_configuration": 1,
+        "block_count": 7761,
+        "first_16_block_offsets": [
+          235352958,
+          235383442,
+          235413926,
+          235444410,
+          235474894,
+          235505378,
+          235535862,
+          235566346,
+          235596830,
+          235627314,
+          235657798,
+          235688282,
+          235718766,
+          235749250,
+          235779734,
+          235810218
+        ],
+        "last_block_offset": 236602802,
+        "first_16_block_byte_counts": [
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484,
+          30484
+        ],
+        "last_block_byte_count": 30484,
+        "total_stored_pixel_bytes": 236586324,
+        "minimum_block_bytes": 30484,
+        "maximum_block_bytes": 30484,
+        "block_offset_step_constant": false,
+        "block_offset_step": null,
+        "blocks_are_contiguous": false,
+        "reader_note": "Import read_ifd from this script to retrieve exact tag 273/279 or 324/325 arrays without reading pixels."
+      },
+      "crs_epsg_projected": 32652,
+      "crs_epsg_geographic": null,
+      "linear_units_geokey": 9001,
+      "geo_keys": {
+        "1024": {
+          "name": "GTModelTypeGeoKey",
+          "value": 1
+        },
+        "1025": {
+          "name": "GTRasterTypeGeoKey",
+          "value": 1
+        },
+        "1026": {
+          "name": "GTCitationGeoKey",
+          "value": "WGS 84 / UTM zone 52N"
+        },
+        "2049": {
+          "name": "GeogCitationGeoKey",
+          "value": "WGS 84"
+        },
+        "2054": {
+          "name": "GeogAngularUnitsGeoKey",
+          "value": 9102
+        },
+        "3072": {
+          "name": "ProjectedCSTypeGeoKey",
+          "value": 32652
+        },
+        "3076": {
+          "name": "ProjLinearUnitsGeoKey",
+          "value": 9001
+        }
+      },
+      "pixel_scale_tag": [
+        30.0,
+        30.0,
+        0.0
+      ],
+      "pixel_resolution_in_crs_units": [
+        30.0,
+        30.0
+      ],
+      "geotransform": [
+        479085.0,
+        30.0,
+        0,
+        3787215.0,
+        0,
+        -30.0
+      ],
+      "extent_crs_units": [
+        479085.0,
+        3554385.0,
+        707715.0,
+        3787215.0
+      ],
+      "extent_caveat": "Whole-raster bounding extent, not park coordinates or valid-pixel footprint.",
+      "nodata_text": "-3.4028234663852886e+38",
+      "band_scale": "No explicit scale metadata: GDAL semantic default is 1.",
+      "band_offset": "No explicit offset metadata: GDAL semantic default is 0.",
+      "tiff_datetime_tag": null,
+      "software_tag": null,
+      "image_description_tag": null,
+      "document_name_tag": null,
+      "gdal_metadata_items": [
+        {
+          "name": "STATISTICS_APPROXIMATE",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "YES"
+        },
+        {
+          "name": "STATISTICS_MINIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "-0.18425907194614"
+        },
+        {
+          "name": "STATISTICS_MAXIMUM",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.5600311756134"
+        },
+        {
+          "name": "STATISTICS_MEAN",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.13101605176898"
+        },
+        {
+          "name": "STATISTICS_STDDEV",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "0.16096005417464"
+        },
+        {
+          "name": "STATISTICS_VALID_PERCENT",
+          "sample": "0",
+          "role": null,
+          "domain": null,
+          "value": "68.15"
+        }
+      ],
+      "source_time_candidate_metadata": [],
+      "sidecar": null,
+      "stored_statistics": {
+        "STATISTICS_APPROXIMATE": "YES",
+        "STATISTICS_MINIMUM": "-0.18425907194614",
+        "STATISTICS_MAXIMUM": "0.5600311756134",
+        "STATISTICS_MEAN": "0.13101605176898",
+        "STATISTICS_STDDEV": "0.16096005417464",
+        "STATISTICS_VALID_PERCENT": "68.15"
+      },
+      "stored_statistics_caveat": "Copied header/PAM statistics only; approximate where marked; not recalculated and not park-specific.",
+      "metadata_issues": [],
+      "tiff_container": {
+        "big_tiff": false,
+        "byte_order": "<",
+        "first_ifd_entries": 17,
+        "next_ifd_offset": 0,
+        "skipped_tags": []
+      },
+      "pixel_statistics_computed": false,
+      "provenance_caveat": "Filename/index label and container metadata alone do not verify sensor provenance, acquisition date, NDVI formula, or valid pixels."
+    }
+  ]
+}

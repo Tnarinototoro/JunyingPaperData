@@ -1,0 +1,5 @@
+﻿组合,9/18/28来源,32来源,独立试算状态,负方差指标,收敛起点数/总起点数,当前迭代值可否用于论文,Amos原生复核
+1,NDVI_nagoya.tif,NDVI_fukushima.tif,本次未取得收敛且非负方差的解,O06/公园外部绿化度/e16,0/3,不可；仅诊断迭代值,待复核
+2,NDVI_nagoya.tif,NDVI_fukushima_up.tif,本次未取得收敛且非负方差的解,O06/公园外部绿化度/e16,0/3,不可；仅诊断迭代值,待复核
+3,NDVI_nara.tif,NDVI_fukushima.tif,本次未取得收敛且非负方差的解,O06/公园外部绿化度/e16,0/3,不可；仅诊断迭代值,待复核
+4,NDVI_nara.tif,NDVI_fukushima_up.tif,本次未取得收敛且非负方差的解,O06/公园外部绿化度/e16,0/3,不可；仅诊断迭代值,待复核

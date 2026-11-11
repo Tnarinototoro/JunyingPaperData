@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">land</journal-id>
+      <journal-title-group>
+        <journal-title>Land</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Land</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Land</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-445X</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/land15112116</article-id>
+      <article-id pub-id-type="publisher-id">land-15-02116</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Intensification and Low-Carbon Performance: A Two-Stage Framework for Evaluating Urban Construction Land Use Efficiency Across 268 Chinese Cities</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Huang</surname>
+            <given-names>Xiaolu</given-names>
+          </name>
+          <xref rid="af1-land-15-02116" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Ya</given-names>
+          </name>
+          <xref rid="af1-land-15-02116" ref-type="aff">1</xref>
+          <xref rid="c1-land-15-02116" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1851-9033</contrib-id>
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Yu</given-names>
+          </name>
+          <xref rid="af2-land-15-02116" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Tingyi</given-names>
+          </name>
+          <xref rid="af1-land-15-02116" ref-type="aff">1</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Chamusca</surname>
+            <given-names>Pedro</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Pereira</surname>
+            <given-names>Patr&#xED;cia</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Russo</surname>
+            <given-names>Alessio</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Mendes</surname>
+            <given-names>Thiago</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-land-15-02116"><label>1</label>College of Resources and Environment, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/01kj4z117</institution-id><institution>Southwest University</institution></institution-wrap>, Chongqing 400715, China</aff>
+      <aff id="af2-land-15-02116"><label>2</label>School of Economics and Management, <institution-wrap><institution-id institution-id-type="ROR">https://ror.org/01t001k65</institution-id><institution>Chongqing Jiaotong University</institution></institution-wrap>, Chongqing 400074, China</aff>
+      <author-notes>
+        <corresp id="c1-land-15-02116"><label>*</label>Correspondence: <email>mswuya@swu.edu.cn</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>11</month>
+        <year>2026</year>
+      </pub-date>
+      <volume>15</volume>
+      <issue>11</issue>
+      <elocation-id>2116</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>09</month>
+          <year>2026</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>02</day>
+          <month>11</month>
+          <year>2026</year>
+        </date>
+        <date date-type="accepted">
+          <day>04</day>
+          <month>11</month>
+          <year>2026</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2026 by the authors.</copyright-statement>
+        <copyright-year>2026</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC BY) license</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Evaluating urban construction land use efficiency (UCLUE) from the dual perspectives of intensification and low-carbon performance is critical for sustainable urban development. Previous studies often assess this efficiency from a single perspective, failing to capture potential conflicts and synergies between economic density and emission reduction goals. This study adopts a two-stage super-SBM approach to evaluate UCLUE of 268 Chinese cities from 2001 to 2021, systematically examining both intensification and low-carbon dimensions. Results show that (1) the average efficiency from an intensification perspective remains relatively low and exhibits a fluctuating pattern of initial increase, subsequent decline, and final rebound, with the eastern region ranking highest, followed by the western and central regions. (2) The low-carbon efficiency follows a U-shaped trajectory over the study period, with the eastern region again performing best, followed by the western and central regions. (3) Many cities exhibit relatively low efficiency in both dimensions, with 146 of the 268 cities (54.48%) falling into the Low&#x2013;Low development mode and only 53 cities (19.78%) achieving the High&#x2013;High development mode. Furthermore, cities with larger population sizes demonstrate stronger sustainable performance. These findings provide empirical evidence for identifying spatial heterogeneities and formulating differentiated, context-specific land use policies to coordinate urban expansion and carbon reduction.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>urban construction land use efficiency</kwd>
+        <kwd>intensive land use</kwd>
+        <kwd>low-carbon development</kwd>
+        <kwd>two-stage super-SBM</kwd>
+        <kwd>spatiotemporal evolution</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>National Natural Science Foundation of China</institution>
+              <institution-id institution-id-type="ROR">https://ror.org/01h0zpd94</institution-id>
+            </institution-wrap>
+          </funding-source>
+          <award-id>72004187</award-id>
+          <award-id>72204033</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Fundamental Research Funds for the Central Universities</funding-source>
+          <award-id>SWU2509102</award-id>
+        </award-group>
+        <funding-statement>This research was supported by the National Natural Science Foundation of China (72004187 and 72204033) and the Fundamental Research Funds for the Central Universities (SWU2509102).</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-land-15-02116" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>As the world&#x2019;s largest developing country, China has achieved remarkable urbanization progress since its reform and opening-up. According to data from the National Bureau of Statistics, China&#x2019;s urbanization rate rose from 17.92% in 1978 to 64.72% in 2021, while urban construction land (UCL) expanded from 6720 km<sup>2</sup> to 59,451.69 km<sup>2</sup> during 1981&#x2013;2022, growing at an average annual rate of 5.46%. While this rapid UCL expansion has contributed significantly to economic development, it has also led to considerable inefficiencies in land use and triggered negative externalities such as regional incoordination, intensified land pressure, and resource wastage [<xref ref-type="bibr" rid="B1-land-15-02116">1</xref>]. Furthermore, these issues have exacerbated environmental degradation, ecological imbalances, and human&#x2013;land conflicts, thereby threatening urban sustainable development. According to the White Paper on the Revitalization and Upgrading of Inefficient Land Use and Assets, the total area of inefficient UCL now exceeds 4000 km<sup>2</sup>, which is larger than three times the built-up area of Shanghai. In 2024, the average vacancy rate of industrial plants in China exceeded 30%, and even core areas of central cities could not escape the trend of continuously rising vacancy rates. UCL serves as the spatial foundation for integrated production-living-ecological functions within urban systems [<xref ref-type="bibr" rid="B2-land-15-02116">2</xref>]. Therefore, enhancing its utilization efficiency is not only vital for addressing land resource supply-demand imbalances but also essential for overcoming resource-environmental constraints and advancing high-quality urban development. In response to these challenges, the Chinese government has prioritized improving the urban construction land use efficiency (UCLUE) through policies aimed at fostering intensive land management. As mandated by the National Land Planning Outline (2016&#x2013;2030), key measures include implementing dual controls on UCL total area and utilization intensity, enforcing stringent UCL access standards, innovating land-conservation models, and promoting land-efficient technologies. The outline further emphasizes strict limitations on new allocations of UCL and effective management to curb disorderly urban expansion. Additionally, the report from the 20th National Congress of the Communist Party of China advocates for the implementation of a comprehensive conservation strategy and the promotion of resource-efficient utilization across all sectors. Therefore, enhancing the UCLUE with a focus on intensive development is crucial.</p>
+      <p>Furthermore, UCL constitutes the spatial foundation for urban socioeconomic activities, which account for approximately 75% of global carbon emissions [<xref ref-type="bibr" rid="B3-land-15-02116">3</xref>]. Wang et al. [<xref ref-type="bibr" rid="B4-land-15-02116">4</xref>] suggested that with the continuous expansion of UCL, China&#x2019;s energy consumption has been increasing. Carbon emissions have risen from 0.41 billion tons in 2001 to 12.6 billion tons in 2023. Since 2005, China has overtaken the United States to become the world&#x2019;s largest carbon emitter [<xref ref-type="bibr" rid="B5-land-15-02116">5</xref>]. The Chinese government has committed to achieving &#x201C;Dual Carbon Targets&#x201D;, reaching peak carbon emissions by 2030 and attaining carbon neutrality by 2060. This commitment reflects both China&#x2019;s international responsibilities as a major power and domestic imperatives for sustainable modernization. Consequently, enhancing UCLUE under carbon constraints has emerged as an urgent priority [<xref ref-type="bibr" rid="B6-land-15-02116">6</xref>]. The Action Plan for Carbon Dioxide Peaking Before 2030 explicitly mandates a low-carbon transformation in urban-rural development, promotes clustered urban growth patterns, calls for the scientific determination of construction scales, and controls new UCL expansion. Therefore, transitioning UCL utilization from extensive high-emission models to intensive low-carbon approaches now constitutes a fundamental strategy within China&#x2019;s land management framework. Evaluating UCLUE under the dual constraints of intensification and decarbonization is thus critical for achieving China&#x2019;s long-term strategic goals of low-carbon economic transformation and sustainable development.</p>
+      <p>The conceptualization of UCLUE arises from the ongoing scholarly discourse surrounding the measurement of land use efficiency, with the current literature diverging into three predominant definitional frameworks. The prevailing perspective equates UCLUE with economic output per unit of land [<xref ref-type="bibr" rid="B7-land-15-02116">7</xref>], utilizing singular metrics such as the ratio of secondary and tertiary industry output to land area [<xref ref-type="bibr" rid="B8-land-15-02116">8</xref>] or GDP per urban land area [<xref ref-type="bibr" rid="B9-land-15-02116">9</xref>]. Alternatively, some scholars define UCLUE as a measure of land resource productivity and sustainability, which is often measured through ratios reflecting urban expansion relative to population growth [<xref ref-type="bibr" rid="B10-land-15-02116">10</xref>]. For instance, Koroso et al. [<xref ref-type="bibr" rid="B11-land-15-02116">11</xref>] conducted a quantitative analysis of UCLUE across 16 Ethiopian cities by comparing the rates of spatial land expansion with those of population growth. An emerging perspective frames land utilization as an integrated input&#x2013;output system that emphasizes socioeconomic&#x2013;ecological synergies [<xref ref-type="bibr" rid="B12-land-15-02116">12</xref>], wherein UCLUE represents the capacity to balance social, economic, and environmental outcomes [<xref ref-type="bibr" rid="B13-land-15-02116">13</xref>]. This includes input&#x2013;output ratios that incorporate land, capital, and labor against multidimensional outputs, as well as the optimization of economic growth alongside environmental benefits while minimizing resource consumption [<xref ref-type="bibr" rid="B14-land-15-02116">14</xref>]. Collectively, these UCLUE definitions reveal a conceptual bifurcation between narrow interpretations emphasizing economic efficiency and population density versus broader frameworks encompassing social&#x2013;economic&#x2013;environmental dimensions&#x2014;an evolution that mirrors the methodological transition from singular metrics to composite assessment systems [<xref ref-type="bibr" rid="B15-land-15-02116">15</xref>,<xref ref-type="bibr" rid="B16-land-15-02116">16</xref>]. Recent scholarship advocates for treating UCLUE as a complex multi-input/multi-output production system in order to avoid the limitations of single indicators [<xref ref-type="bibr" rid="B17-land-15-02116">17</xref>], proposing a comprehensive input&#x2013;output evaluation framework for holistic assessments of UCLUE [<xref ref-type="bibr" rid="B18-land-15-02116">18</xref>,<xref ref-type="bibr" rid="B19-land-15-02116">19</xref>].</p>
+      <p>With the advancement of land intensification and low-carbon development paradigms, scholarly evaluations of UCLUE have evolved through dual analytical lenses. From the intensification perspective, researchers quantify UCLUE using development intensity measurement models and systems of indicators for intensive land utilization [<xref ref-type="bibr" rid="B20-land-15-02116">20</xref>,<xref ref-type="bibr" rid="B21-land-15-02116">21</xref>]. For example, Peng et al. [<xref ref-type="bibr" rid="B22-land-15-02116">22</xref>] established a multidimensional framework that incorporates metrics on land input intensity, utilization intensity, utilization efficiency, and utilization structure to measure UCLUE. Under carbon emission constraints, research on evaluating UCLUE has integrated carbon indicators as undesirable outputs within the efficiency evaluation framework [<xref ref-type="bibr" rid="B23-land-15-02116">23</xref>]. This paradigm is exemplified in the works of Su et al. [<xref ref-type="bibr" rid="B24-land-15-02116">24</xref>] and Wu et al. [<xref ref-type="bibr" rid="B6-land-15-02116">6</xref>], who incorporated carbon emissions as undesirable environmental outputs to develop a comprehensive UCLUE evaluation indicator system. As low-carbon intensification emerges as a new direction for land regulation in China, some scholars have investigated the nexus between land intensification and low-carbon development [<xref ref-type="bibr" rid="B25-land-15-02116">25</xref>]. For example, Wang et al. [<xref ref-type="bibr" rid="B26-land-15-02116">26</xref>] took the Wuhan Economic Development Zone as the study area to demonstrate how intensive urban land utilization contributes to achieving low-carbon objectives. Xie et al. [<xref ref-type="bibr" rid="B27-land-15-02116">27</xref>] employed an industrial land intensification metric (energy consumption per unit area) at the provincial level in China to quantify its impact on carbon emissions.</p>
+      <p>These research findings have provided theoretical foundations for promoting the low-carbon and intensive development of urban construction land use (UCLU). However, several limitations persist within the current literature. First, most existing studies assess UCLUE solely from either carbon emissions or intensification perspectives, lacking an integrated assessment framework that synthesizes both low-carbon and intensive land-use objectives. While a limited number of studies have attempted to combine indicators of carbon emission with those of land use intensification, it is important to note that the low-carbon transition of UCL cannot be simplistically equated with mere carbon reduction. This transition requires a comprehensive consideration of multifaceted factors, including industrial structure optimization, energy mix adjustment, technological advancement, population quality enhancement, and carbon sink improvement [<xref ref-type="bibr" rid="B28-land-15-02116">28</xref>]. Second, evaluating UCLUE cannot be reduced to a mechanical aggregation of intensification and low-carbon objectives, as the relationship between intensification and decarbonization is complex and non-linear. On one hand, enhanced intensive use of UCL typically implies greater utilization intensity per unit area, which often correlates with diminished carbon sinks and increased reliance on carbon-intensive energy inputs, thereby elevating overall emissions [<xref ref-type="bibr" rid="B29-land-15-02116">29</xref>]. On the other hand, intensified UCL can lead to improved energy efficiency per unit and reduce the demand for land expansion, ultimately curbing carbon emissions [<xref ref-type="bibr" rid="B30-land-15-02116">30</xref>]. Third, nationwide city-scale studies evaluating UCLUE remain scarce. The significant variations in natural endowments and socioeconomic development across cities complicate the extrapolation of insights from regional-level analyses to urban-scale UCLUE disparities.</p>
+      <p>This study makes two primary contributions to the existing literature. First, it develops an integrated assessment framework that synthesizes both intensification and low-carbon objectives for evaluating UCLUE. Moving beyond previous studies that narrowly equate low-carbon transition with mere carbon reduction, this framework conceptualizes low-carbon development as a comprehensive system encompassing multiple connotations. Second, by applying this dual perspective framework to a large scale panel of 268 Chinese cities during 2001&#x2013;2021, the study systematically reveals the spatiotemporal evolution and regional disparities of land use performance. Through categorizing urban development into four distinct modes, this nationwide analysis identifies combinations of relative efficiency levels in the two dimensions across different urban contexts and population sizes, providing empirical evidence for formulating differentiated spatial planning policies.</p>
+      <p>To achieve these objectives, three primary tasks are undertaken. First, an integrated evaluation index system is established, incorporating comprehensive indicators for both land use intensification and multidimensional low-carbon development. Second, a two-stage super-SBM model is employed to measure UCLUE across 268 Chinese cities from 2001 to 2021. Third, the study examines the spatiotemporal patterns and classifies development modes of these dual efficiencies to derive specific policy recommendations for transitioning from extensive expansion to sustainable development pathways. The remainder of this paper is structured as follows: <xref ref-type="sec" rid="sec2-land-15-02116">Section 2</xref> details the data and methodology. <xref ref-type="sec" rid="sec3-land-15-02116">Section 3</xref> presents the empirical findings. <xref ref-type="sec" rid="sec4-land-15-02116">Section 4</xref> discusses the empirical findings. <xref ref-type="sec" rid="sec5-land-15-02116">Section 5</xref> summarizes key conclusions.</p>
+    </sec>
+    <sec id="sec2-land-15-02116" sec-type="methods">
+      <title>2. Data and Methodology</title>
+      <sec id="sec2dot1-land-15-02116">
+        <title>2.1. Conceptualizing a Two-Stage Evolution in UCLU</title>
+        <p>UCL has been a fundamental driver of China&#x2019;s economic growth and population agglomeration since the Reform and Opening-up. Given land scarcity and initially extensive utilization patterns, the primary objective during this early phase was to achieve intensive land use [<xref ref-type="bibr" rid="B26-land-15-02116">26</xref>]. This focus aligns with Rostow&#x2019;s theory of economic growth stages, where initial industrialization prioritizes factor accumulation and efficiency gains through capital and land-intensive strategies. Similarly, land rent theory supports high-density and high-intensity development as a means to maximize economic returns and agglomerate capital, labor, and technology. Consequently, early-stage UCL in China was characterized by rapid scale expansion and a &#x201C;high-input, high-output&#x201D; model, with intensive land-use efficiency serving as the primary performance indicator [<xref ref-type="bibr" rid="B31-land-15-02116">31</xref>]. Environmental externalities, including carbon emissions, were not yet a binding constraint on development priorities at this stage.</p>
+        <p>As China&#x2019;s urbanization entered a phase emphasizing high-quality development, the environmental repercussions of a purely economic-intensive UCL model&#x2014;characterized by high energy consumption and emissions&#x2014;became increasingly apparent, threatening long-term sustainability [<xref ref-type="bibr" rid="B32-land-15-02116">32</xref>,<xref ref-type="bibr" rid="B33-land-15-02116">33</xref>]. Guided by the theory of sustainable development, which calls for harmonizing economic, social, and environmental objectives, UCL governance has initiated a strategic transition toward low-carbon development. The core focus consequently shifted from quantitative expansion to qualitative enhancement, pursued through technological upgrading, structural optimization, and ecological integration. This shift reflects a broader evaluation framework where cities began to assess UCL performance not only by its economic and social outputs but also by its ecological and environmental benefits. Importantly, this low-carbon transition does not negate the principle of intensification; rather, it integrates carbon reduction into the foundational goal of efficient land use, thereby promoting a transformed model characterized by lower pollution, lower emissions, and higher efficiency.</p>
+        <p>In summary, the evolution of UCLU can be conceptualized as a dynamic, two-stage process: an intensive development stage and a low-carbon development stage. The intensive stage emphasizes maximizing output per unit of land area and establishing a foundation for subsequent development. The low-carbon stage represents a deepening and expansion of the foundation established in the intensive stage, explicitly incorporating goals to reduce carbon emissions and minimize environmental impacts [<xref ref-type="bibr" rid="B34-land-15-02116">34</xref>]. It seeks to sustain the economic and social benefits of intensive land use while improving environmental performance, thereby promoting coordinated social, ecological, and economic progress. This two-stage conceptualization of UCLU provides the theoretical basis for evaluating UCLUE from the intensification and low-carbon perspectives, as illustrated in <xref ref-type="fig" rid="land-15-02116-f001">Figure 1</xref>.</p>
+      </sec>
+      <sec id="sec2dot2-land-15-02116">
+        <title>2.2. Two-Stage Super-SBM Model for Measuring UCLUE</title>
+        <p>Data Envelopment Analysis (DEA) has been widely employed in measuring UCLUE due to its ability to evaluate relative efficiency in multi-input and multi-output systems without requiring a predefined production function [<xref ref-type="bibr" rid="B15-land-15-02116">15</xref>,<xref ref-type="bibr" rid="B35-land-15-02116">35</xref>]. However, traditional DEA models exhibit several limitations. First, they treat each decision-making unit (DMU) as a &#x201C;black box&#x201D;, overlooking the internal structure and intermediate processes linking inputs to outputs, which may lead to an overestimation of efficiency. Second, efficiency scores are constrained to the range [0, 1], often resulting in multiple DMUs being equally efficient and thus incomparable [<xref ref-type="bibr" rid="B36-land-15-02116">36</xref>]. Third, conventional models typically neglect undesirable outputs, leading to biased assessments that deviate from actual production activities. To address these shortcomings, F&#xE4;re and Grosskopf [<xref ref-type="bibr" rid="B37-land-15-02116">37</xref>] proposed the network DEA model, which decomposes the single-stage production process into multiple serial substages. By treating the output of one stage as the input to the next, this approach effectively connects adjacent stages of the system, enhances transparency, and allows for stage-specific efficiency evaluation. Concurrently, Tone [<xref ref-type="bibr" rid="B36-land-15-02116">36</xref>] developed the super-slacks-based measure (super-SBM) model, which incorporates undesirable outputs and permits efficiency scores to exceed 1, thereby overcoming the ranking limitations of traditional DEA. Building on this method, this study adopts a two-stage assessment framework to separately estimate stage-specific efficiencies.</p>
+        <p>As the analysis of <xref ref-type="sec" rid="sec2dot1-land-15-02116">Section 2.1</xref>, UCL development involves complex, multi-stage processes characterized by multiple inputs and outputs. Therefore, this study adopts a two-stage super-SBM approach to evaluate UCLUE from two complementary perspectives: intensification and low-carbon performance. In the first stage, a standard super-SBM model is applied to assess UCLUE from the intensification perspective (UCLUE-IN). The second stage employs a super-SBM model that accounts for undesirable outputs to evaluate UCLUE from a low-carbon perspective (UCLUE-LC), with the outputs of the first stage serving as inputs to the second. Both stages are specified under the variable returns-to-scale (VRS) assumption, with the efficiency frontier separately constructed and independently solved using pooled observations from 268 cities over the period 2001&#x2013;2021. This two-stage framework enables a more nuanced understanding of the efficiency of each stage in the UCL development process and supports more targeted policy implications.</p>
+        <p>
+          <list list-type="simple">
+            <list-item>
+              <p><bold>Stage</bold>&#xA0;<bold>1: Calculation of UCLUE-IN</bold></p>
+            </list-item>
+          </list>
+        </p>
+        <p>Assuming that there are <italic>n</italic> DMUs (city-year observations), each DMU has <italic>m</italic> input indicators (<italic>x</italic>) to produce <italic>q</italic> outputs (<italic>z</italic>), and each vector is represented as <inline-formula><mml:math id="mm1"><mml:semantics><mml:mrow><mml:mrow><mml:mi>x</mml:mi><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi>R</mml:mi><mml:mi>m</mml:mi></mml:msup></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm2"><mml:semantics><mml:mrow><mml:mrow><mml:mi>z</mml:mi><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi>R</mml:mi><mml:mi>q</mml:mi></mml:msup></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. If we consider <italic>n</italic> cities, the matrices <italic>X</italic> and <italic>Z</italic> can be formed as follows:
+          <disp-formula id="FD1-land-15-02116"><label>(1)</label><mml:math display="block" id="mm3"><mml:semantics><mml:mrow><mml:mrow><mml:mi>X</mml:mi><mml:mo>=</mml:mo><mml:mfenced open="[" close="]" separators="|"><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x22EF;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi>R</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:msup><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+          <disp-formula id="FD2-land-15-02116"><label>(2)</label><mml:math display="block" id="mm4"><mml:semantics><mml:mrow><mml:mrow><mml:mi>Z</mml:mi><mml:mo>=</mml:mo><mml:mfenced open="[" close="]" separators="|"><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x22EF;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi>R</mml:mi><mml:mrow><mml:mi>q</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:msup><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Based on this, the super-SBM model can be defined as
+          <disp-formula id="FD3-land-15-02116"><label>(3)</label><mml:math display="block" id="mm5"><mml:semantics><mml:mrow><mml:mrow><mml:mi>min</mml:mi><mml:mi>&#x3C1;</mml:mi><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>m</mml:mi></mml:mfrac><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>m</mml:mi></mml:msubsup></mml:mstyle><mml:mrow><mml:msubsup><mml:mi>S</mml:mi><mml:mi>i</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msubsup><mml:mo>/</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>q</mml:mi></mml:mfrac><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>r</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>q</mml:mi></mml:msubsup></mml:mstyle><mml:mrow><mml:msubsup><mml:mi>S</mml:mi><mml:mi>r</mml:mi><mml:mo>+</mml:mo></mml:msubsup><mml:mo>/</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+          <disp-formula><mml:math display="block" id="mm6"><mml:semantics><mml:mrow><mml:mrow><mml:mi>s</mml:mi><mml:mo>.</mml:mo><mml:mi>t</mml:mi><mml:mo>.</mml:mo><mml:mfenced open="{" close="" separators="|"><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x2260;</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msubsup><mml:mi>S</mml:mi><mml:mi>i</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msubsup></mml:mrow></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x2260;</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msubsup><mml:mi>S</mml:mi><mml:mi>r</mml:mi><mml:mo>+</mml:mo></mml:msubsup></mml:mrow></mml:mrow><mml:msub><mml:mrow><mml:mo>&#x2265;</mml:mo><mml:mi>z</mml:mi></mml:mrow><mml:mrow><mml:mi>r</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x2260;</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mrow><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msubsup><mml:mi>S</mml:mi><mml:mi>r</mml:mi><mml:mo>+</mml:mo></mml:msubsup><mml:mo>&#xA0;</mml:mo><mml:mo>&#x2265;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mn>1</mml:mn><mml:mi>q</mml:mi></mml:mfrac></mml:mstyle><mml:mrow><mml:mstyle displaystyle="true"><mml:munderover><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>r</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>q</mml:mi></mml:munderover></mml:mstyle><mml:msubsup><mml:mi>S</mml:mi><mml:mi>r</mml:mi><mml:mo>+</mml:mo></mml:msubsup><mml:mo>/</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msubsup><mml:mi>S</mml:mi><mml:mi>i</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msubsup><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msubsup><mml:mi>S</mml:mi><mml:mi>r</mml:mi><mml:mo>+</mml:mo></mml:msubsup><mml:mo>&#x2265;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1,2</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x22EF;</mml:mo><mml:mo>,</mml:mo><mml:mi>m</mml:mi><mml:mo>;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>r</mml:mi><mml:mo>=</mml:mo><mml:mn>1,2</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x22EF;</mml:mo><mml:mo>,</mml:mo><mml:mi>q</mml:mi><mml:mo>;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1,2</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x22EF;</mml:mo><mml:mo>,</mml:mo><mml:mi>n</mml:mi><mml:mo>(</mml:mo><mml:mi>j</mml:mi><mml:mo>&#x2260;</mml:mo><mml:mi>k</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mfenced></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula> where <inline-formula><mml:math id="mm7"><mml:semantics><mml:mrow><mml:mi>&#x3C1;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is the efficiency value of the DMU; vectors <inline-formula><mml:math id="mm8"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>S</mml:mi><mml:mi>i</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm9"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>S</mml:mi><mml:mi>r</mml:mi><mml:mo>+</mml:mo></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> respectively correspond to the slack in inputs and outputs; <inline-formula><mml:math id="mm10"><mml:semantics><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> represents the r-th output factor in DMU-k. <inline-formula><mml:math id="mm11"><mml:semantics><mml:mrow><mml:mi>&#x3BB;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is a non-negative intensity vector. The value of the objective function <inline-formula><mml:math id="mm12"><mml:semantics><mml:mrow><mml:mi>&#x3C1;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> can be greater than 1. A higher UCLUE-IN score indicates better relative performance in generating economic and social outputs from land, capital, and labor inputs.</p>
+        <p>
+          <list list-type="simple">
+            <list-item>
+              <p>
+                <bold>Stage 2: Calculation of UCLUE-LC</bold>
+              </p>
+            </list-item>
+          </list>
+        </p>
+        <p>As shown in <xref ref-type="fig" rid="land-15-02116-f001">Figure 1</xref>, the inputs for this stage are the output indicators from Stage 1. Thus, the UCLUE-LC of DMUs can be evaluated as follows:</p>
+        <p>Assume the same <italic>n</italic> DMUs (city-year observations) for analysis. Each DMU now uses the <italic>q</italic> outputs from Stage 1 as its input indicators (<italic>z</italic>) to produce <inline-formula><mml:math id="mm13"><mml:semantics><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> desirable outputs (<inline-formula><mml:math id="mm14"><mml:semantics><mml:mrow><mml:msup><mml:mi>y</mml:mi><mml:mi>d</mml:mi></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>) and <inline-formula><mml:math id="mm15"><mml:semantics><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> undesirable outputs (<inline-formula><mml:math id="mm16"><mml:semantics><mml:mrow><mml:msup><mml:mi>y</mml:mi><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>). If we consider <italic>n</italic> cities, the matrices <inline-formula><mml:math id="mm17"><mml:semantics><mml:mrow><mml:msup><mml:mi>Y</mml:mi><mml:mi>d</mml:mi></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm18"><mml:semantics><mml:mrow><mml:msup><mml:mi>Y</mml:mi><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> can be formed as follows:
+          <disp-formula id="FD5-land-15-02116"><label>(4)</label><mml:math display="block" id="mm19"><mml:semantics><mml:mrow><mml:mrow><mml:msup><mml:mi>Y</mml:mi><mml:mi>d</mml:mi></mml:msup><mml:mo>=</mml:mo><mml:mfenced open="[" close="]" separators="|"><mml:mrow><mml:msubsup><mml:mi>y</mml:mi><mml:mn>1</mml:mn><mml:mi>d</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mn>2</mml:mn><mml:mi>d</mml:mi></mml:msubsup><mml:mo>,</mml:mo><mml:mo>&#x22EF;</mml:mo><mml:mo>,</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi></mml:msubsup></mml:mrow></mml:mfenced><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi>R</mml:mi><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#xD7;</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:msup><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+          <disp-formula id="FD6-land-15-02116"><label>(5)</label><mml:math display="block" id="mm20"><mml:semantics><mml:mrow><mml:mrow><mml:msup><mml:mi>Y</mml:mi><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:mfenced open="[" close="]" separators="|"><mml:mrow><mml:msubsup><mml:mi>y</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mn>2</mml:mn><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup><mml:mo>,</mml:mo><mml:mo>&#x22EF;</mml:mo><mml:mo>,</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mi>n</mml:mi><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi>R</mml:mi><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>&#xD7;</mml:mo><mml:mi>n</mml:mi></mml:mrow></mml:msup><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Based on this, the super-SBM model with undesirable outputs can be defined as
+          <disp-formula id="FD7-land-15-02116"><label>(6)</label><mml:math display="block" id="mm21"><mml:semantics><mml:mrow><mml:mrow><mml:mi>min</mml:mi><mml:msup><mml:mi>&#x3C1;</mml:mi><mml:mo>*</mml:mo></mml:msup><mml:mo>=</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>q</mml:mi></mml:mfrac><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>r</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>q</mml:mi></mml:msubsup></mml:mstyle><mml:msubsup><mml:mi>S</mml:mi><mml:mi>r</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msubsup></mml:mrow><mml:mo>/</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfrac><mml:mfenced open="(" close=")" separators="|"><mml:mrow><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:msubsup></mml:mstyle><mml:msubsup><mml:mi>S</mml:mi><mml:mi>c</mml:mi><mml:mi>d</mml:mi></mml:msubsup></mml:mrow><mml:mo>/</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>k</mml:mi></mml:mrow><mml:mi>d</mml:mi></mml:msubsup><mml:mo>+</mml:mo><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:msubsup></mml:mstyle><mml:msubsup><mml:mi>S</mml:mi><mml:mi>t</mml:mi><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>/</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced></mml:mrow></mml:mfrac></mml:mstyle></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+          <disp-formula><mml:math display="block" id="mm22"><mml:semantics><mml:mrow><mml:mrow><mml:mi mathvariant="normal">s</mml:mi><mml:mo>.</mml:mo><mml:mi mathvariant="normal">t</mml:mi><mml:mo>.</mml:mo><mml:mfenced open="{" close="" separators="|"><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x2260;</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msubsup><mml:mi>S</mml:mi><mml:mi>r</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msubsup></mml:mrow></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x2260;</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mrow><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>j</mml:mi></mml:mrow><mml:mi>d</mml:mi></mml:msubsup><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msubsup><mml:mi>S</mml:mi><mml:mi>c</mml:mi><mml:mi>d</mml:mi></mml:msubsup></mml:mrow></mml:mrow><mml:mo>&#x2265;</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>k</mml:mi></mml:mrow><mml:mi>d</mml:mi></mml:msubsup></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x2260;</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mrow><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mi>j</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msubsup><mml:mi>S</mml:mi><mml:mi>t</mml:mi><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mrow><mml:mo>&#x2264;</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msubsup><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x2260;</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mrow><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>k</mml:mi></mml:mrow><mml:mi>d</mml:mi></mml:msubsup><mml:mo>&#x2212;</mml:mo><mml:msubsup><mml:mi>S</mml:mi><mml:mi>c</mml:mi><mml:mi>d</mml:mi></mml:msubsup><mml:mo>&#x2265;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mstyle scriptlevel="0" displaystyle="true"><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfrac></mml:mstyle><mml:mfenced open="(" close=")" separators="|"><mml:mrow><mml:mrow><mml:mstyle displaystyle="true"><mml:munderover><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:munderover></mml:mstyle><mml:msubsup><mml:mi>S</mml:mi><mml:mi>c</mml:mi><mml:mi>d</mml:mi></mml:msubsup></mml:mrow><mml:mo>/</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>k</mml:mi></mml:mrow><mml:mi>d</mml:mi></mml:msubsup><mml:mo>+</mml:mo><mml:mrow><mml:mstyle displaystyle="true"><mml:munderover><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:munderover></mml:mstyle><mml:msubsup><mml:mi>S</mml:mi><mml:mi>t</mml:mi><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mo>/</mml:mo><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:mfenced><mml:mo>&gt;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msup><mml:mi>S</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msup><mml:mo>&#x2265;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msup><mml:mi>S</mml:mi><mml:mi>d</mml:mi></mml:msup><mml:mo>&#x2265;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msup><mml:mi>S</mml:mi><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msup><mml:mo>&#x2265;</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>&#x2265;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mi>r</mml:mi><mml:mo>=</mml:mo><mml:mn>1,2</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x22EF;</mml:mo><mml:mo>,</mml:mo><mml:mi>q</mml:mi><mml:mo>;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1,2</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x22EF;</mml:mo><mml:mo>,</mml:mo><mml:mi>n</mml:mi><mml:mo>(</mml:mo><mml:mi>j</mml:mi><mml:mo>&#x2260;</mml:mo><mml:mi>k</mml:mi><mml:mo>)</mml:mo><mml:mo>;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mn>1,2</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x22EF;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mn>1,2</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x22EF;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mfenced></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula> where <inline-formula><mml:math id="mm23"><mml:semantics><mml:mrow><mml:msup><mml:mi>&#x3C1;</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> is the efficiency value of the DMU; vectors <inline-formula><mml:math id="mm24"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>S</mml:mi><mml:mi>r</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm25"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>S</mml:mi><mml:mi>c</mml:mi><mml:mi>d</mml:mi></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula>, and <inline-formula><mml:math id="mm26"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>S</mml:mi><mml:mi>t</mml:mi><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> respectively correspond to the slack in inputs, desirable outputs and undesirable outputs; <inline-formula><mml:math id="mm27"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mi>k</mml:mi></mml:mrow><mml:mi>d</mml:mi></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm28"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>y</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>u</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> respectively represent the <italic>c</italic>-th desirable output and the <italic>t</italic>-th undesirable output in DMU-k. The remaining parameters have the same meanings as those in the first stage. The value of <inline-formula><mml:math id="mm29"><mml:semantics><mml:mrow><mml:msup><mml:mi>&#x3C1;</mml:mi><mml:mo>*</mml:mo></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> can also be greater than 1. A higher UCLUE-LC score indicates better relative performance in achieving desirable low-carbon development outcomes while constraining undesirable carbon emissions, when economic and social indicators are used as inputs. Since the two efficiency scores reflect performance relative to their respective frontiers rather than stage-to-stage conversion rates, a higher UCLUE-IN does not necessarily correspond to a higher UCLUE-LC, and the two scores should not be directly compared as measures of the same performance.</p>
+      </sec>
+      <sec id="sec2dot3-land-15-02116">
+        <title>2.3. Selection of Input&#x2013;Output Indicators</title>
+        <p>Applying the two-stage super-SBM model requires constructing a coherent input&#x2013;output indicator system based on the principles of scientific relevance and data availability.</p>
+        <p>For measuring UCLUE-IN (Stage 1), this study selects land, capital and labor as input indicators. Land input is represented by per capita urban construction land area, as it is the fundamental spatial carrier for all urban economic activities. Capital input is measured by fixed asset investment per unit of UCL area, reflecting the capital intensity invested to generate returns from land. Labor input is denoted by the number of employees in secondary and tertiary industries per unit land area, capturing the human resource factor driving economic output. The output of this stage mainly involves economic and social benefits. Economic benefit is measured by the added value of secondary and tertiary industries, which constitutes the primary economic output generated from UCL. Social benefit is represented by two indicators: per capita road area, reflecting the level of intensive infrastructure development; and urbanization rate (proportion of urban resident population to total population), representing the socio-demographic outcome of land use intensification.</p>
+        <p>For measuring UCLUE-LC (Stage 2), the outputs from Stage 1 serve as the inputs. These indicators describe the economic and social conditions that cities build on in pursuing low-carbon development. The outputs of this stage are multi-dimensional, selected to capture key drivers and outcomes of low-carbon UCLU from six aspects: (1) population quality: number of university students per 10,000 inhabitants, indicating the human capital base for adopting low-carbon technologies and lifestyles. (2) Industrial structure: proportion of tertiary industry added value to GDP, as a more service-oriented structure typically correlates with lower carbon intensity. (3) Energy structure: ratio of non-coal consumption to total energy consumption, reflecting the progress in decarbonizing the energy consumption. (4) Technological level: number of patent applications, indicating general innovation capacity that may support energy-efficiency improvements and low-carbon technological upgrading. (5) Urban green level: urban green space area, reflecting green-space provision that can contribute to low-carbon UCLU by enhancing vegetation carbon sequestration and cooling-related energy consumption. (6) Carbon emissions: carbon emissions from UCL are included as an undesirable output, acknowledging the negative environmental externality of land use [<xref ref-type="bibr" rid="B38-land-15-02116">38</xref>].</p>
+        <p>In summary, the two-stage UCLUE evaluation index system is constructed as presented in <xref ref-type="table" rid="land-15-02116-t001">Table 1</xref>.</p>
+      </sec>
+      <sec id="sec2dot4-land-15-02116">
+        <title>2.4. Data Source and Processing</title>
+        <p>This study utilizes panel data spanning 268 prefecture-level cities in China from 2001 to 2021. Data on urban land area&#x2014;including UCL area, per capita road area, and urban greening area&#x2014;were sourced from the China Urban Construction Statistical Yearbook. Socioeconomic data, encompassing population, labor force, GDP, fixed asset investment, and industrial added value, were obtained from the China City Statistical Yearbook, supplemented by relevant provincial and municipal statistical yearbooks and bulletins. Data on patent applications were collected from the National Intellectual Property Administration. Missing values were imputed using linear interpolation. Price adjustments were based on provincial fixed-asset investment price indices and municipal value-added indices for the secondary and tertiary sectors, respectively.</p>
+        <p>To account for the price effect, total fixed asset investment and the added value of the secondary and tertiary industries were converted to constant prices for the year 2000 using the fixed asset investment price index and the industrial added value index, respectively. Due to the lack of city-level energy consumption data, this study estimates the energy consumption associated with each city&#x2019;s UCL by using an indirect method based on the ratio of municipal GDP to provincial GDP, following the approach of Liu et al. [<xref ref-type="bibr" rid="B46-land-15-02116">46</xref>]. In alignment with the research of Zhang et al. [<xref ref-type="bibr" rid="B47-land-15-02116">47</xref>], nine energy sources were considered in the calculation: coal, coke, crude oil, fuel oil, gasoline, kerosene, diesel, natural gas, and electricity. The calculation of carbon emissions (<italic>C</italic>) is performed as <inline-formula><mml:math id="mm30"><mml:semantics><mml:mrow><mml:mrow><mml:mi>C</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="false">&#x2211;</mml:mo><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mi mathvariant="italic">SCF</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mrow><mml:mi>C</mml:mi><mml:mi>E</mml:mi><mml:mi>F</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. The provincial energy consumption data (<inline-formula><mml:math id="mm31"><mml:semantics><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>) and the standard coal conversion coefficient (<inline-formula><mml:math id="mm32"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="italic">SCF</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>) were obtained from the China Energy Statistical Yearbook, while the carbon emission factors (<inline-formula><mml:math id="mm33"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>C</mml:mi><mml:mi>E</mml:mi><mml:mi>F</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>) were collected from the 2006 IPCC Guidelines for National Greenhouse Gas Inventories.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-land-15-02116" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-land-15-02116">
+        <title>3.1. Spatiotemporal Characteristics of UCLUE-IN</title>
+        <sec id="sec3dot1dot1-land-15-02116">
+          <title>3.1.1. Analysis of the Temporal Evolution of UCLUE-IN</title>
+          <p>Based on the super-SBM model, the UCLUE-IN of 268 Chinese cities from 2001 to 2021 is calculated, and the annual average trend is presented in <xref ref-type="fig" rid="land-15-02116-f002">Figure 2</xref>. The overall average efficiency was low at 0.142, exhibiting a distinct pattern of an initial increase, followed by a decline and a subsequent rebound. With all other settings unchanged, the conventional SBM estimates yielded nearly identical efficiency rankings (Spearman&#x2019;s <inline-formula><mml:math id="mm34"><mml:semantics><mml:mrow><mml:mi>&#x3C1;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> = 0.999), supporting the robustness of these rankings to model choice.</p>
+          <p>From 2001 to 2006, UCLUE-IN showed an upward trend, rising from 0.107 to 0.147. During this period, China&#x2019;s accession to the WTO accelerated industrialization and urbanization, with the urbanization rate rising from 37.66% to 44.34% and UCL area expanding by approximately 41.23%. Accelerated infrastructure construction and intensified UCL development contributed to the improvement in UCLUE-IN. Furthermore, the State Council&#x2019;s Decision on Deepening Reform and Strictly Managing Land emphasized strict control over new UCL scale and revitalization of existing land, providing institutional support for intensive use of UCL.</p>
+          <p>The period between 2006 and 2014 witnessed a slight decline in UCLUE-IN. This decline can be attributed to the rapid proliferation of urban development zones, which often led to inefficient and disorderly land expansion [<xref ref-type="bibr" rid="B24-land-15-02116">24</xref>]. Moreover, the 2008 global financial crisis suppressed export trade and urban economic growth, further reducing resource utilization efficiency [<xref ref-type="bibr" rid="B17-land-15-02116">17</xref>].</p>
+          <p>From 2014 to 2021, UCLUE-IN rebounded rapidly, rising from 0.133 to 0.210. This improvement was mainly driven by policy optimization and the advancement of new urbanization. In 2014, the Ministry of Land and Resources issued the Guiding Opinions on Promoting the Saving and Intensive Use of Land, and the State Council released the National New Urbanization Plan (2014&#x2013;2020). These policies required local governments to implement strict farmland protection and intensive land-use systems, optimize land-use structure, and further promote land conservation and intensive management.</p>
+          <p>Regionally, the eastern region consistently recorded the highest UCLUE-IN, exceeding the national average. The central and western regions exhibited a shifting pattern: before 2013, the central region outperformed the western region, but this relationship reversed thereafter. In 2021, the UCLUE-IN values were ranked as follows: eastern region (0.309) &gt; western region (0.177) &gt; central region (0.132), suggesting a positive correlation between UCLUE-IN and regional economic development level [<xref ref-type="bibr" rid="B48-land-15-02116">48</xref>]. Although both central and western regions showed upward trends, their efficiency remained below the national average, highlighting the need for continued efforts to promote intensive land use.</p>
+        </sec>
+        <sec id="sec3dot1dot2-land-15-02116">
+          <title>3.1.2. Analysis of the Spatial Evolution of UCLUE-IN</title>
+          <p>Following Dong et al. [<xref ref-type="bibr" rid="B18-land-15-02116">18</xref>], the natural breaks method in ArcGIS 10.8.1 was applied to classify UCLUE-IN values into four levels: low efficiency (UCLUE-IN &lt; 0.126), medium efficiency (0.126 &#x2264; UCLUE-IN &lt; 0.318), medium-high efficiency (0.318 &#x2264; UCLUE-IN &lt; 0.701), high efficiency (UCLUE-IN &#x2265; 0.701). <xref ref-type="fig" rid="land-15-02116-f003">Figure 3</xref> illustrates the spatial distribution pattern of these categories from 2001 to 2021.</p>
+          <p>In 2001, nearly 200 cities, accounting for 74% of the sample, fell into the low-efficiency category, exhibiting a spatially concentrated distribution. Only 10 cities, representing less than 4%, belonged to the medium-high and above categories (UCLUE-IN &#x2265; 0.318), and these were predominantly located in the eastern region. By 2021, the proportion of low-efficiency cities dropped below 50%, while cities in the medium-high and above categories increased to 18%. This trend indicates notable progress in the intensive utilization of UCL across Chinese cities.</p>
+          <p>Spatially, UCLUE-IN displayed a distinct pattern characterized by higher efficiency in the east and lower efficiency in the west. High-efficiency clusters were mainly concentrated in the eastern region, where these cities benefited from population agglomeration and developmental advantages that enhance input&#x2013;output efficiency [<xref ref-type="bibr" rid="B13-land-15-02116">13</xref>]. In contrast, low-efficiency areas were widespread across central and western China, where they were constrained by weaker economic foundations and limited technological capacity. Notably, nearly 80% of the cities remained at relatively low efficiency levels throughout the study period, underscoring the urgent need for regionally differentiated policies to optimize factor input and improve intensive land use.</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot2-land-15-02116">
+        <title>3.2. Spatiotemporal Characteristics of UCLUE-LC</title>
+        <sec id="sec3dot2dot1-land-15-02116">
+          <title>3.2.1. Analysis of the Temporal Evolution of UCLUE-LC</title>
+          <p>As shown in <xref ref-type="fig" rid="land-15-02116-f004">Figure 4</xref>, the temporal trend of UCLUE-LC followed a pronounced U-shaped curve, declining from 0.138 in 2001 to 0.097 in 2004 before rising overall to 0.392 in 2021. The corresponding conventional SBM check likewise showed highly consistent efficiency rankings (Spearman&#x2019;s <inline-formula><mml:math id="mm35"><mml:semantics><mml:mrow><mml:mi>&#x3C1;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> = 0.998), supporting the robustness of UCLUE-LC rankings.</p>
+          <p>During the period from 2001 to 2004, UCLUE-LC fluctuated and declined from 0.138 to 0.097, which reflected the high-energy, high-emission characteristics of early urban expansion. This decline was mainly driven by China&#x2019;s industrial structure, which was dominated by heavy industry, and its continued dependence on fossil fuels. According to data from the National Bureau of Statistics, from 2001 to 2004, the proportion of secondary industry exceeded 45%, with heavy industry accounting for over 60%, and coal dominated energy consumption (accounting for over 68%). To some extent, these factors constrained the low-carbon development of UCL.</p>
+          <p>From 2004 to 2020, UCLUE-LC increased steadily, reaching 0.399 by 2020. This improvement was driven by national energy-saving and emission-reduction targets introduced since the 11th Five-Year Plan, along with a series of low-carbon policies. For example, the Comprehensive Work Plan for Energy Conservation and Emission Reduction during the 13th Five-Year Plan Period reinforced carbon intensity control targets. Concurrently, industrial and energy structures were optimized, energy efficiency improved, and low-carbon pilot programs were implemented [<xref ref-type="bibr" rid="B18-land-15-02116">18</xref>]. Improvements in educational attainment and the influx of skilled talents further supported green technological innovation and urban governance efficiency [<xref ref-type="bibr" rid="B49-land-15-02116">49</xref>].</p>
+          <p>Regionally, all three major regions followed a similar pattern of decline followed by rise, consistent with the national average (<xref ref-type="fig" rid="land-15-02116-f004">Figure 4</xref>). In 2001, the eastern region initially lagged behind the western region but surpassed it after 2004, maintaining the highest UCLUE-LC values thereafter. This shift can be attributed to the eastern region&#x2019;s advantages in capital, policy, and early progress in coordinating economic growth with environmental protection [<xref ref-type="bibr" rid="B50-land-15-02116">50</xref>]. The central and western regions showed a crossover pattern: after 2012, the western region exceeded the central region, a trend that can be partly explained by the deeper integration of green development concepts into urbanization and ecological construction [<xref ref-type="bibr" rid="B24-land-15-02116">24</xref>]. By 2021, the ranking was as follows: eastern region (0.423) &gt; western region (0.390) &gt; central region (0.360), indicating that improving UCLUE-LC in central cities remains a critical challenge.</p>
+        </sec>
+        <sec id="sec3dot2dot2-land-15-02116">
+          <title>3.2.2. Analysis of the Spatial Evolution of UCLUE-LC</title>
+          <p>Similar to <xref ref-type="sec" rid="sec3dot1dot2-land-15-02116">Section 3.1.2</xref>, UCLUE-LC values were classified into four levels using the natural breaks method: low efficiency (UCLUE-LC &lt; 0.170), medium efficiency (0.170 &#x2264; UCLUE-LC &lt; 0.355), medium-high efficiency (0.355 &#x2264; UCLUE-LC &lt; 0.618), and high efficiency (UCLUE-LC &#x2265; 0.618). <xref ref-type="fig" rid="land-15-02116-f005">Figure 5</xref> presents the spatial evolution of these categories.</p>
+          <p>In 2001, nearly 240 cities, accounting for 89% of the sample, fell into the low-efficiency category, while only 20 cities, representing 7.5%, reached medium-high and above levels (UCLUE-LC &#x2265; 0.355). By 2021, low UCLUE-LC cities decreased sharply to 16 (6%), whereas medium-high and above UCLUE-LC cities increased to 116 (43%), indicating significant progress in low-carbon land use.</p>
+          <p>Spatially, high-efficiency areas evolved from dispersed patches in the east and west in 2001 to encompassing core urban agglomerations across almost all regions by 2021. This expansion was closely associated with major policy drivers: outward expansion of medium-efficiency areas in the east followed the binding targets established in the 11th Five-Year Plan on energy conservation and emission reduction, and further diffusion to central and western regions occurred after the low-carbon pilot city policy and the regional coordination strategies implemented post-2011. This evolution has given rise to an emerging spatial pattern characterized by the eastern region leading and the central and western regions developing in coordination.</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot3-land-15-02116">
+        <title>3.3. Integrated Analysis of UCLUE-IN and UCLUE-LC</title>
+        <sec id="sec3dot3dot1-land-15-02116">
+          <title>3.3.1. A Typology of Urban Development Patterns</title>
+          <p>To categorize cities according to their performance in both intensive and low-carbon dimensions, we constructed a four-quadrant typology using their average UCLUE-IN and UCLUE-LC scores over 2001&#x2013;2021 [<xref ref-type="bibr" rid="B51-land-15-02116">51</xref>]. The national averages of these city-level mean scores (0.142 for UCLUE-IN and 0.221 for UCLUE-LC) served as benchmarks for distinguishing relatively high and low efficiency in each dimension. As shown in <xref ref-type="fig" rid="land-15-02116-f006">Figure 6</xref>, four distinct urban development patterns were identified: High UCLUE-IN&#x2013;High UCLUE-LC (H-H), High UCLUE-IN&#x2013;Low UCLUE-LC (H-L), Low UCLUE-IN&#x2013;High UCLUE-LC (L-H), and Low UCLUE-IN&#x2013;Low UCLUE-LC (L-L). When efficiency scores were held fixed, recalculating the mean thresholds after omitting each city reassigned at most three of the remaining 267 cities (1.12%), indicating that the classification is relatively robust to threshold changes induced by individual cities.</p>
+          <p>The H-H group, with above-average efficiency in both dimensions, comprises 53 cities. These cities are mainly distributed in the eastern coastal areas, including the Yangtze River Delta and the Pearl River Delta urban agglomerations, with a few scattered in more developed regions of central and western China, such as Nanchang and Chongqing. Among them, Shenzhen, Shanghai, and Nanjing are the top three performers. These cities successfully achieve high intensive use efficiency and strong low-carbon performance by leveraging their high economic development levels, advanced industrial technologies, and strict environmental regulations. Consequently, they serve as pioneering areas for integrated intensive and low-carbon UCL development.</p>
+          <p>The H-L group consists of 33 cities. These cities are mainly distributed in the Bohai Rim region, the North China Plain, and the Northeast heavy industry base. Among them, Shantou, Weihai, and Wuhai are representative cities. These cities have achieved intensive development of UCL through land use planning and industrial agglomeration. However, their carbon emission intensity remains at a relatively high level due to industrial structures traditionally dominated by heavy industry, a high-carbon energy consumption mix, and resource-dependent development models [<xref ref-type="bibr" rid="B19-land-15-02116">19</xref>]. Consequently, their UCL development pattern can be characterized as intensive yet high-carbon.</p>
+          <p>The L-H group comprises 36 cities. These cities are mainly distributed in ecological barrier areas in the southwest and northwest, with Sanya, Lijiang, and Zhangjiajie exhibiting the largest disparities between their UCLUE-IN and UCLUE-LC scores. These cities have experienced relatively slow UCL expansion, and their industrial structures are dominated by low-energy-consuming sectors such as agriculture, ecology, and tourism. Although UCL development intensity remains low, these cities exhibit a pronounced low-carbon development orientation, resulting in a development pattern that can be described as low-carbon yet extensive.</p>
+          <p>The L-L group contains the largest number of cities, with 146 in total. These cities are widely distributed across the central and western regions of China, with Baiyin, Jincheng, and Songyuan ranking as the three lowest performers. These cities face multiple constraints, including extensive UCL expansion, industrial structure dominated by low-value-added sectors, and persistently low energy utilization efficiency. Consequently, they have failed to achieve both efficient UCL utilization and meaningful carbon emission reduction, making them priority areas for advancing the dual goals of UCL intensification and decarbonization.</p>
+        </sec>
+        <sec id="sec3dot3dot2-land-15-02116">
+          <title>3.3.2. Analysis of Urban Subgroups by City Size</title>
+          <p>In accordance with the 2014 directive from the State Council, cities are classified into five categories based on their permanent resident population: small cities (&lt;0.5 million), medium-sized cities (0.5 million &#x2264; population &lt; 1 million), large cities (1 million &#x2264; population &lt;5 million), huge cities (5 million &#x2264; population &lt;10 million), and megacities (&#x2265;10 million). The 268 cities are classified into five categories, and the average values of UCLUE-IN and UCLUE-LC from 2001 to 2021 for each category are shown in <xref ref-type="fig" rid="land-15-02116-f007">Figure 7</xref>. As illustrated in this figure, for both UCLUE-IN and UCLUE-LC, cities across categories exhibit a consistent pattern: megacities &gt; huge cities &gt; large cities &gt; medium-sized cities &gt; small cities. Given unequal sample sizes across the five categories and unequal variances in UCLUE-IN, Welch&#x2019;s ANOVA was used to compare average efficiency values, followed by Games-Howell pairwise comparisons. Welch&#x2019;s ANOVA identified overall differences in both efficiency measures (both <italic>p</italic> &lt; 0.001), although Games&#x2013;Howell comparisons found no significant differences between huge cities and megacities for either measure. Jonckheere&#x2013;Terpstra tests and Spearman correlations further supported an overall increasing trend across the five ordered categories (all permutation-based <italic>p</italic> values &lt; 0.001). Thus, the overall upward pattern does not imply significant differences between every pair of adjacent categories.</p>
+          <p>Specifically, UCLUE-IN shows an overall increasing pattern across cities of different scales, with its average value rising from 0.060 in small cities to 0.629 in megacities. In contrast, while UCLUE-LC also increases with city size, its growth rate is relatively moderate. This divergence gives rise to a notable pattern in the relative performance of the two efficiency measures across city-size categories. Megacities demonstrate leading levels of both UCLUE-IN and UCLUE-LC, whereas small and medium-sized cities have lower average efficiency values. This indicates that larger city size is associated with higher efficiency in the intensive and low-carbon development of UCL.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec4-land-15-02116" sec-type="discussion">
+      <title>4. Discussion</title>
+      <sec id="sec4dot1-land-15-02116">
+        <title>4.1. Spatiotemporal Characteristics of UCLUE</title>
+        <p>The results indicate that from 2001 to 2021, the average value of UCLUE-IN in China was relatively low, presenting a fluctuating upward trend. This finding is consistent with the research results of Zhang et al. [<xref ref-type="bibr" rid="B52-land-15-02116">52</xref>]. Liu et al. [<xref ref-type="bibr" rid="B13-land-15-02116">13</xref>] attributed the relatively low level of UCLUE-IN to the limited carrying capacity of UCL and its irrational expansion and allocation under existing input conditions. Consistent with the studies of Liu et al. [<xref ref-type="bibr" rid="B13-land-15-02116">13</xref>], this study found that UCLUE-IN remained at the highest level in the eastern region. This can be attributed to its strategic geographical location and high-capacity infrastructure. However, there are certain differences in regional efficiency rankings between this study and previous research. In this study, the UCLUE-IN values of the regions from high to low are the eastern region, the western region, and the central region, which differs from the regional ranking of &#x201C;eastern region &gt; central region &gt; western region&#x201D; reported by Liu et al. [<xref ref-type="bibr" rid="B13-land-15-02116">13</xref>]. This discrepancy may be attributed to two factors. Firstly, differences in measurement indicators and methods may have introduced systematic biases in the measurement results. Secondly, it may be due to the different research periods. This study covers a critical phase of accelerated optimization in the regional development landscape, during which the western region experienced rapid growth. Relatively low land costs and abundant natural resources have attracted investment to the western region, promoting efficient UCLU in the area [<xref ref-type="bibr" rid="B14-land-15-02116">14</xref>].</p>
+        <p>Due to differences in resource endowments, the relative scarcity of production factors, and the degree of economic prosperity, there are significant regional differences in UCLUE-LC [<xref ref-type="bibr" rid="B8-land-15-02116">8</xref>]. The eastern region performed best in terms of UCLUE-LC, followed by the western region, while the central region performed the worst. This is consistent with the findings of Zhou and Lu [<xref ref-type="bibr" rid="B14-land-15-02116">14</xref>]. In fact, most of the developed cities are concentrated in eastern China. Rapid economic growth has promoted the development of emerging technologies, reduced resource consumption in green industries, and actively promoted the low-carbon development of UCL [<xref ref-type="bibr" rid="B19-land-15-02116">19</xref>]. Zhao et al. [<xref ref-type="bibr" rid="B53-land-15-02116">53</xref>] point out that urban population growth, particularly the influx of skilled talent, has injected significant impetus into the green development of cities, positioning the UCL in the eastern region favorably in terms of low-carbon development. Notably, the UCLUE-LC values measured in this study are consistently lower than those reported by Su et al. [<xref ref-type="bibr" rid="B24-land-15-02116">24</xref>] and Wu et al. [<xref ref-type="bibr" rid="B6-land-15-02116">6</xref>]. This discrepancy primarily stems from differences in the evaluation framework. Prior studies typically treat carbon emissions as the undesirable output within the UCLUE assessment and conduct efficiency calculations within a single stage. In contrast, this study comprehensively adopts indicators for UCL low-carbon development based on the multidimensional connotations of low-carbon development, including aspects such as population quality, industrial structure, energy structure, technological level, and urban green level. Furthermore, we decompose the UCL process into two stages&#x2014;intensive land use and low-carbon development&#x2014;and measure efficiency accordingly. This dual-stage, multi-dimensional evaluation approach provides a more comprehensive and accurate depiction of UCLUE-LC, with results that better reflect actual development levels.</p>
+      </sec>
+      <sec id="sec4dot2-land-15-02116">
+        <title>4.2. Disparities in Various Development Models of UCL in China</title>
+        <p>The spatial distribution of the four types of cities (H-H, H-L, L-H, and L-L) shows obvious regional differences. Among them, H-H group cities are mainly distributed in the Yangtze River Delta urban agglomeration, the Bohai Economic Zone, and other eastern coastal areas, while L-L group cities are widely distributed in the central and western regions. This is consistent with the research results of Yu et al. [<xref ref-type="bibr" rid="B54-land-15-02116">54</xref>], who noted that the Yangtze River Delta and the Pearl River Delta are on the efficiency frontier during the study period, while the land resources in the Central Plains and western regions are underutilized, resulting in low UCLUE. Regarding cities with strong sustainability (the H-H group), Shenzhen, Shanghai, and Nanjing stand out as the most prominent. As China&#x2019;s earliest special economic zone, Shenzhen has strictly controlled the addition of new UCL since the reform and opening up and has intensified the redevelopment of existing UCL. Meanwhile, as a low-carbon pilot city, Shenzhen has actively promoted the transformation and upgrading of industries towards high-tech and high-end services, achieving a continuous decline in carbon emissions under high-intensity development [<xref ref-type="bibr" rid="B55-land-15-02116">55</xref>]. Shanghai, as a leading first-tier city in China, has promoted the intensive and low-carbon utilization of UCL through its highly concentrated economic activities and strict land use control policies [<xref ref-type="bibr" rid="B48-land-15-02116">48</xref>]. Nanjing has adopted a spatial development strategy characterized by &#x201C;multiple centers and cluster-style&#x201D; development. Meanwhile, it has substantial scientific research and talent reserves. In 2021, the proportion of people with college degrees or above in Nanjing reached 35.7%, and the number of R&amp;D personnel reached 181,900. These factors provide strong support for the city&#x2019;s low-carbon development. Consequently, UCL intensive and low-carbon development in the H-H group has attained a mature and benchmark-level stage.</p>
+        <p>Among the cities in the H-L group, Shantou and Weihai, as coastal industrial cities, have achieved intensive UCLU through strict industrial park entry management and the evaluation mechanism based on output per unit area. Nevertheless, their core industries, such as high-end manufacturing in Shantou and equipment manufacturing in Weihai, as well as their supporting infrastructure, still mainly rely on fossil energy, resulting in dense economic activities accompanied by equally dense carbon emissions. Wuhai, following the Adjustment Plan for the Land Use Master Plan of Wuhai City (2006&#x2013;2020), has advanced UCL conservation and intensification. However, as a resource-based city, Wuhai&#x2019;s economic development has long relied on high-energy-consuming industries such as coal power and coal chemical industry, resulting in high carbon emission intensity.</p>
+        <p>Among the L-H group cities, Sanya, Lijiang, and Zhangjiajie are typical representative cities. All three are tourism-oriented cities that demonstrate high efficiency in UCL low-carbon development, possess a well-developed tertiary industry, and have achieved remarkable results in environmental pollution control. Yet their UCLU remains suboptimal in terms of intensity: driven by tourism-related spatial demands and landscape-oriented planning priorities, UCL in these cities tends to be spatially fragmented and characterized by low floor-area ratios.</p>
+        <p>In sharp contrast to the above-mentioned cities, Baiyin, Jincheng, and Songyuan are the cities with the weakest sustainable development capabilities of UCL in the L-L group. Baiyin is an important base for the non-ferrous metal industry in China, Jincheng is a typical coal resource-based city, and Songyuan is a mining city dominated by oil. It is evident that these three cities have one thing in common: they are all resource-based cities that initially relied on abundant natural resources to rapidly promote urban development. However, this over-reliance on natural resources led to disorderly expansion of their UCL, disrupting the original balance of the land and resulting in inefficient UCL circulation, characterized by high consumption and low output. Moreover, the high-energy-consumption and high-emission model associated with resource development and utilization has caused serious environmental pollution, hindering the low-carbon and sustainable development of UCL [<xref ref-type="bibr" rid="B23-land-15-02116">23</xref>]. This pattern applies to most cities in the L-L group.</p>
+        <p>Based on these classification results and drawing on the multiobjective decision-making approach of Yang et al. [<xref ref-type="bibr" rid="B56-land-15-02116">56</xref>], cities should consider both economic development and emission-reduction objectives when selecting measures suited to local resources and development needs. Policy priorities should also reflect regional functional roles and local resource conditions [<xref ref-type="bibr" rid="B57-land-15-02116">57</xref>,<xref ref-type="bibr" rid="B58-land-15-02116">58</xref>]. H-L cities could prioritize energy-saving upgrades, cleaner energy substitution, and industrial upgrading to improve low-carbon performance while maintaining economic output and employment and accounting for transition costs. L-H cities should strengthen the consolidation and redevelopment of underutilized land while preserving their ecological and low-carbon advantages, avoiding additional energy demand from pursuing greater development intensity alone. L-L cities need to coordinate industrial transformation with improvements in existing land use, sequencing measures according to fiscal capacity, industrial conditions, and employment needs. Land management and low-carbon development practices in H-H cities may provide useful references, although their application requires adaptation to local conditions. These measures should be prioritized according to local development objectives, balancing socioeconomic benefits, emission reductions, and implementation costs within land, planning, and fiscal constraints.</p>
+      </sec>
+      <sec id="sec4dot3-land-15-02116">
+        <title>4.3. Variations in UCLUE Across City Size Classes</title>
+        <p>For both UCLUE-IN and UCLUE-LC, a consistent trend emerges across city-size categories: megacities &gt; huge cities &gt; large cities &gt; medium-sized cities &gt; small cities. This gradient aligns with previous research findings [<xref ref-type="bibr" rid="B2-land-15-02116">2</xref>], suggesting that cities with larger populations tend to have higher average UCLUE values. Several interconnected factors may help explain the observed disparities. Firstly, cities with larger populations typically possess greater institutional resources to implement sophisticated land use planning, revitalize underutilized land, and enforce strict development controls [<xref ref-type="bibr" rid="B16-land-15-02116">16</xref>]. This capacity enables them to achieve higher output per land unit while maintaining relatively lower carbon emission intensity, whereas smaller cities often lack the technical and institutional capacity for such refined management. Secondly, as Wei et al. [<xref ref-type="bibr" rid="B59-land-15-02116">59</xref>] demonstrated, the core-to-periphery pattern of UCL expansion can generate structural misalignment between socioeconomic development and UCLU. Compared to larger cities, smaller cities are more prone to such expansion issues, resulting in a disconnection between UCLU and the city&#x2019;s development level, and a consequent lack of UCL sustainable development capacity [<xref ref-type="bibr" rid="B60-land-15-02116">60</xref>]. Thirdly, larger cities benefit from pronounced suction effects, attracting skilled talent, investment, and fiscal resources from surrounding areas [<xref ref-type="bibr" rid="B48-land-15-02116">48</xref>]. These resources may support more diversified economies with higher shares of services and knowledge-intensive industries that generate greater output per land unit with lower emissions. In contrast, smaller cities often remain dependent on resource extraction or traditional manufacturing&#x2014;sectors that are both land-extensive and carbon-intensive, which may contribute to the observed UCLUE gap. These findings imply the need for differentiated policy strategies. For smaller cities, priority should be strengthening planning capacity and controlling disorderly expansion. For larger cities, the focus should be deepening low-carbon transformation while maintaining intensive use advantages.</p>
+      </sec>
+      <sec id="sec4dot4-land-15-02116">
+        <title>4.4. Limitations and Future Prospects</title>
+        <p>Several limitations of this study should be noted. Given data scarcity at the city level and differences in statistical standards, this study primarily relies on traditional economic and social indicators. GDP-based energy allocation and linear interpolation may introduce measurement uncertainty. Future research should adopt more comprehensive and precise measurement indicators as data availability improves. Additionally, future research should prioritize identifying the driving factors of sustainable land-use development within this two-stage framework.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-land-15-02116" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>This study employed a two-stage super-SBM model to measure the UCLUE of 268 Chinese cities during 2001&#x2013;2021 from the perspectives of intensification and low-carbon. The main findings are as follows:<list list-type="order"><list-item><label>(1)</label><p>The average efficiency from the intensification perspective remains relatively low across the sample cities, showing a fluctuating trend characterized by an initial rise, a subsequent decline, and a final rebound. Pronounced regional disparities exist in this intensification dimension, with the eastern, western, and central regions ranking from highest to lowest, respectively. Improving the use of existing construction land therefore remains a priority, particularly in cities with relatively low intensification efficiency. Redevelopment should be matched to local demand and financial capacity to avoid costly projects that create additional underused space.</p></list-item><list-item><label>(2)</label><p>The average efficiency from the low-carbon perspective follows a U-shaped trajectory, with the eastern region performing best, followed by the western region, while the central region ranks lowest. The recovery in UCLUE-LC indicates progress in low-carbon land use, although regional disparities persist. Further improvements in relatively inefficient cities call for energy-saving upgrades and industrial restructuring, with a phased approach that balances emission reductions, transition costs, and employment needs.</p></list-item><list-item><label>(3)</label><p>Under the mean-based classification, the largest proportion of the 268 sample cities falls into the Low&#x2013;Low development mode, reaching 54.48%, while the shares of High&#x2013;High, High&#x2013;Low, and Low&#x2013;High modes are lower at 19.78%, 12.31%, and 13.43%, respectively. This indicates that relatively few cities perform above the national averages in both dimensions, whereas more than half fall below both averages. Among these cities, Shenzhen, Shanghai, and Nanjing demonstrate the strongest sustainable development capabilities, whereas Baiyin, Jincheng, and Songyuan exhibit the weakest. Furthermore, cities with larger populations generally display stronger land use sustainability. Future policy efforts should focus on improving planning capacity and resource allocation in small and medium-sized cities, while larger cities should advance low-carbon development alongside intensive land use. Implementation should account for local fiscal capacity and industrial conditions.</p></list-item></list></p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, Y.W.; methodology, X.H., Y.Z. and T.L.; software, X.H. and Y.Z.; validation, X.H., Y.Z. and T.L.; formal analysis, Y.W.; investigation, X.H.; resources, Y.W.; data curation, X.H. and T.L.; writing&#x2014;original draft preparation, X.H.; writing&#x2014;review and editing, Y.W.; visualization, X.H.; supervision, Y.Z.; project administration, Y.W.; funding acquisition, Y.W. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>The data are derived from publicly available official statistical yearbooks of China, including the China Urban Construction Statistical Yearbook, China City Statistical Yearbook, and China Energy Statistical Yearbook, all accessible via the National Bureau of Statistics of China at <uri>https://www.stats.gov.cn/sj/ndsj/</uri> (accessed on 23 August 2026). The compiled panel dataset is available from the corresponding author upon reasonable request.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to thank the editor and the anonymous reviewers for their support in improving this manuscript.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-land-15-02116">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ma</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>An</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research on urban land green use efficiency and influencing factors based on DEA and ESTDA models: Taking 284 cities in China as an example</article-title>
+          <source>Ecol. Indic.</source>
+          <year>2024</year>
+          <volume>160</volume>
+          <fpage>111824</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2024.111824</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-land-15-02116">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leng</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analyzing sustainable development in Chinese cities: A focus on land use efficiency in production-living-ecological aspects</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2024</year>
+          <volume>448</volume>
+          <fpage>141461</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2024.141461</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-land-15-02116">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hubacek</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chinese cities exhibit varying degrees of decoupling of economic growth and CO<sub>2</sub> emissions between 2005 and 2015</article-title>
+          <source>One Earth</source>
+          <year>2021</year>
+          <volume>4</volume>
+          <fpage>124</fpage>
+          <lpage>134</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.oneear.2020.12.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-land-15-02116">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yue</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identifying the spatial heterogeneity in the effects of the construction land scale on carbon emissions: Case study of the Yangtze River Economic Belt, China</article-title>
+          <source>Environ. Res.</source>
+          <year>2022</year>
+          <volume>212</volume>
+          <fpage>113397</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.envres.2022.113397</pub-id>
+          <pub-id pub-id-type="pmid">35523279</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-land-15-02116">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Low-carbon pilot policy and development path in urban agglomerations of China: Mechanism analysis and stage identification</article-title>
+          <source>J. Environ. Manag.</source>
+          <year>2024</year>
+          <volume>368</volume>
+          <fpage>122147</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jenvman.2024.122147</pub-id>
+          <pub-id pub-id-type="pmid">39142108</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-land-15-02116">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nan</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Exploring the impact of urban form on urban land use efficiency under low-carbon emission constraints: A case study in China&#x2019;s Yellow River Basin</article-title>
+          <source>J. Environ. Manag.</source>
+          <year>2022</year>
+          <volume>311</volume>
+          <fpage>114866</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jenvman.2022.114866</pub-id>
+          <pub-id pub-id-type="pmid">35287072</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-land-15-02116">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of urban land use efficiency in China: A perspective of scaling law</article-title>
+          <source>Habitat Int.</source>
+          <year>2020</year>
+          <volume>99</volume>
+          <fpage>102172</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.habitatint.2020.102172</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-land-15-02116">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>Y.D.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Economic transition, spatial development and urban land use efficiency in the Yangtze River Delta, China</article-title>
+          <source>Habitat Int.</source>
+          <year>2017</year>
+          <volume>63</volume>
+          <fpage>67</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.habitatint.2017.03.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-land-15-02116">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>Y.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>How does industrial agglomeration affect urban land use efficiency? A spatial analysis of Chinese cities</article-title>
+          <source>Land Use Policy</source>
+          <year>2022</year>
+          <volume>119</volume>
+          <fpage>106178</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2022.106178</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-land-15-02116">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinctive roles of land-use efficiency in sustainable development goals: An investigation of trade-offs and synergies in China</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2023</year>
+          <volume>382</volume>
+          <fpage>134889</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2022.134889</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-land-15-02116">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koroso</surname>
+              <given-names>N.H.</given-names>
+            </name>
+            <name>
+              <surname>Lengoiboni</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zevenbergen</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urbanization and urban land use efficiency: Evidence from regional and Addis Ababa satellite cities, Ethiopia</article-title>
+          <source>Habitat Int.</source>
+          <year>2021</year>
+          <volume>117</volume>
+          <fpage>102437</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.habitatint.2021.102437</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-land-15-02116">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Qu</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effects of land transfer marketization on the urban land use efficiency: An empirical study based on 285 cities in China</article-title>
+          <source>Ecol. Indic.</source>
+          <year>2021</year>
+          <volume>132</volume>
+          <fpage>108296</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2021.108296</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-land-15-02116">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urban land use efficiency and improvement potential in China: A stochastic frontier analysis</article-title>
+          <source>Land Use Policy</source>
+          <year>2020</year>
+          <volume>99</volume>
+          <fpage>105046</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2020.105046</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-land-15-02116">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatiotemporal evolution and determinants of urban land use efficiency under green development orientation: Insights from 284 cities and eight economic zones in China, 2005&#x2013;2019</article-title>
+          <source>Appl. Geogr.</source>
+          <year>2023</year>
+          <volume>161</volume>
+          <fpage>103117</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.apgeog.2023.103117</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-land-15-02116">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>A new methodology to measure the urban construction land-use efficiency based on the two-stage DEA model</article-title>
+          <source>Land Use Policy</source>
+          <year>2022</year>
+          <volume>112</volume>
+          <fpage>105799</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2021.105799</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-land-15-02116">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Measuring the efficiency and driving factors of urban land use based on the DEA method and the PLS-SEM model&#x2014;A case study of 35 large and medium-sized cities in China</article-title>
+          <source>Sustain. Cities Soc.</source>
+          <year>2019</year>
+          <volume>50</volume>
+          <fpage>101646</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.scs.2019.101646</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-land-15-02116">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xue</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Yue</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ahmad</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Draz</surname>
+              <given-names>M.U.</given-names>
+            </name>
+            <name>
+              <surname>Chandio</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Ahmad</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Amin</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Empirical investigation of urban land use efficiency and influencing factors of the Yellow River basin Chinese cities</article-title>
+          <source>Land Use Policy</source>
+          <year>2022</year>
+          <volume>117</volume>
+          <fpage>106117</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2022.106117</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-land-15-02116">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamic interactive effects of urban land-use efficiency, industrial transformation, and carbon emissions</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2020</year>
+          <volume>270</volume>
+          <fpage>122547</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2020.122547</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-land-15-02116">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xie</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study on the coordinated relationship between Urban Land use efficiency and ecosystem health in China</article-title>
+          <source>Land Use Policy</source>
+          <year>2021</year>
+          <volume>102</volume>
+          <fpage>105235</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2020.105235</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-land-15-02116">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hui</surname>
+              <given-names>E.C.M.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis on coupling relationship of urban scale and intensive use of land in China</article-title>
+          <source>Cities</source>
+          <year>2015</year>
+          <volume>42</volume>
+          <fpage>63</fpage>
+          <lpage>69</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cities.2014.09.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-land-15-02116">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ji</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Compact and livable? Identifying and managing the relationships between intensive land use and urban livability: Evidence from 337 cities in China</article-title>
+          <source>Ecol. Econ.</source>
+          <year>2025</year>
+          <volume>232</volume>
+          <fpage>108562</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolecon.2025.108562</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-land-15-02116">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peng</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urban economic structure, technological externalities, and intensive land use in China</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2017</year>
+          <volume>152</volume>
+          <fpage>47</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2017.03.020</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-land-15-02116">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urban green land use efficiency of resource-based cities in China: Multidimensional measurements, spatial-temporal changes, and driving factors</article-title>
+          <source>Sustain. Cities Soc.</source>
+          <year>2024</year>
+          <volume>104</volume>
+          <fpage>105299</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.scs.2024.105299</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-land-15-02116">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Su</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wen</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Systematic coupling and multistage interactive response of the urban land use efficiency and ecological environment quality</article-title>
+          <source>J. Environ. Manag.</source>
+          <year>2024</year>
+          <volume>365</volume>
+          <fpage>121584</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jenvman.2024.121584</pub-id>
+          <pub-id pub-id-type="pmid">38917538</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-land-15-02116">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Che</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>High-carbon expansion or low-carbon intensive and mixed land-use? Recent observations from megacities in developing countries: A case study of Shanghai, China</article-title>
+          <source>J. Environ. Manag.</source>
+          <year>2023</year>
+          <volume>348</volume>
+          <fpage>119294</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jenvman.2023.119294</pub-id>
+          <pub-id pub-id-type="pmid">37832285</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-land-15-02116">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zuo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Rameezdeen</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>From &#x201C;Traditional&#x201D; to &#x201C;Low carbon&#x201D; urban land use: Evaluation and obstacle analysis</article-title>
+          <source>Sustain. Cities Soc.</source>
+          <year>2019</year>
+          <volume>51</volume>
+          <fpage>101722</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.scs.2019.101722</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-land-15-02116">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xie</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhai</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Does intensive land use promote a reduction in carbon emissions? Evidence from the Chinese industrial sector</article-title>
+          <source>Resour. Conserv. Recycl.</source>
+          <year>2018</year>
+          <volume>137</volume>
+          <fpage>167</fpage>
+          <lpage>176</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.resconrec.2018.06.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-land-15-02116">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Du</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>An improved approach for measuring the efficiency of low carbon city practice in China</article-title>
+          <source>Energy</source>
+          <year>2023</year>
+          <volume>268</volume>
+          <fpage>126678</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.energy.2023.126678</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-land-15-02116">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>The spatial spillover effect and nonlinear relationship analysis between land resource misallocation and environmental pollution: Evidence from China</article-title>
+          <source>J. Environ. Manag.</source>
+          <year>2022</year>
+          <volume>321</volume>
+          <fpage>115873</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jenvman.2022.115873</pub-id>
+          <pub-id pub-id-type="pmid">35973289</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-land-15-02116">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intensive land management through policy intervention and spatiotemporal optimization can achieve carbon neutrality in advance</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2023</year>
+          <volume>385</volume>
+          <fpage>135635</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2022.135635</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-land-15-02116">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xie</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial-temporal disparities, saving potential and influential factors of industrial land use efficiency: A case study in urban agglomeration in the middle reaches of the Yangtze River</article-title>
+          <source>Land Use Policy</source>
+          <year>2018</year>
+          <volume>75</volume>
+          <fpage>518</fpage>
+          <lpage>529</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2018.04.027</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-land-15-02116">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of urban land development on carbon emission performance based on a multidimensional framework</article-title>
+          <source>Environ. Impact Assess. Rev.</source>
+          <year>2024</year>
+          <volume>105</volume>
+          <fpage>107429</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.eiar.2024.107429</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-land-15-02116">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ailin</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yi</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Exploring carbon metabolism from perspective of land use in Chengdu-Chongqing urban agglomeration, China: A multi-scale and multi-scenario analysis framework</article-title>
+          <source>Cities</source>
+          <year>2026</year>
+          <volume>171</volume>
+          <fpage>106773</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.cities.2026.106773</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-land-15-02116">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yi</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synergistic reduction of air pollutants and carbon emissions in Chengdu-Chongqing urban agglomeration, China: Spatial-temporal characteristics, regional differences, and dynamic evolution</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2025</year>
+          <volume>493</volume>
+          <fpage>144929</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2025.144929</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-land-15-02116">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tone</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>A slacks-based measure of efficiency in data envelopment analysis</article-title>
+          <source>Eur. J. Oper. Res.</source>
+          <year>2001</year>
+          <volume>130</volume>
+          <fpage>498</fpage>
+          <lpage>509</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0377-2217(99)00407-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-land-15-02116">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tone</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>A slacks-based measure of super-efficiency in data envelopment analysis</article-title>
+          <source>Eur. J. Oper. Res.</source>
+          <year>2002</year>
+          <volume>143</volume>
+          <fpage>32</fpage>
+          <lpage>41</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0377-2217(01)00324-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-land-15-02116">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>F&#xE4;re</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Grosskopf</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Productivity and intermediate products: A frontier approach</article-title>
+          <source>Econ. Lett.</source>
+          <year>1996</year>
+          <volume>50</volume>
+          <fpage>65</fpage>
+          <lpage>70</lpage>
+          <pub-id pub-id-type="doi">10.1016/0165-1765(95)00729-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-land-15-02116">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Duan</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Land use efficiency and energy transition in Chinese cities: A cluster-frontier super-efficiency SBM-based analytical approach</article-title>
+          <source>Energy</source>
+          <year>2024</year>
+          <volume>304</volume>
+          <fpage>132049</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.energy.2024.132049</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-land-15-02116">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Shao</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Heterogeneous green innovations and carbon emission performance: Evidence at China&#x2019;s city level</article-title>
+          <source>Energy Econ.</source>
+          <year>2021</year>
+          <volume>99</volume>
+          <fpage>105269</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.eneco.2021.105269</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-land-15-02116">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbon emission efficiency of land use in urban agglomerations of Yangtze River Economic Belt, China: Based on three-stage SBM-DEA model</article-title>
+          <source>Ecol. Indic.</source>
+          <year>2024</year>
+          <volume>160</volume>
+          <fpage>111922</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2024.111922</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-land-15-02116">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbon emission allowances and green development efficiency</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2024</year>
+          <volume>463</volume>
+          <fpage>142246</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2024.142246</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-land-15-02116">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Digital economy solutions towards carbon neutrality: The critical role of energy efficiency and energy structure transformation</article-title>
+          <source>Energy</source>
+          <year>2024</year>
+          <volume>306</volume>
+          <fpage>132524</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.energy.2024.132524</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-land-15-02116">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dou</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ji</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Afthanorhan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Can green finance promote the low-carbon transformation of the energy system? New evidence from city-level data in China</article-title>
+          <source>J. Environ. Manag.</source>
+          <year>2024</year>
+          <volume>365</volume>
+          <fpage>121577</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jenvman.2024.121577</pub-id>
+          <pub-id pub-id-type="pmid">38943748</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-land-15-02116">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lv</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Shao</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.-C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Green technology innovation and financial development: Do environmental regulation and innovation output matter?</article-title>
+          <source>Energy Econ.</source>
+          <year>2021</year>
+          <volume>98</volume>
+          <fpage>105237</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.eneco.2021.105237</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-land-15-02116">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gil</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synergistic impacts of carbon emission trading policy and innovative city pilot policy on urban land green use efficiency in China</article-title>
+          <source>Sustain. Cities Soc.</source>
+          <year>2025</year>
+          <volume>118</volume>
+          <fpage>105955</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.scs.2024.105955</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-land-15-02116">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial effects of urbanization, ecological construction and their interaction on land use carbon emissions/absorption: Evidence from China</article-title>
+          <source>Ecol. Indic.</source>
+          <year>2024</year>
+          <volume>160</volume>
+          <fpage>111817</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2024.111817</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-land-15-02116">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>C.-y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>M.-n.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>R.-y.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.-p.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial-temporal characteristics of carbon emissions from land use change in Yellow River Delta region, China</article-title>
+          <source>Ecol. Indic.</source>
+          <year>2022</year>
+          <volume>136</volume>
+          <fpage>108623</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2022.108623</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-land-15-02116">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Temporal&#x2013;spatial characteristics of urban land use efficiency of China&#x2019;s 35mega cities based on DEA: Decomposing technology and scale efficiency</article-title>
+          <source>Land Use Policy</source>
+          <year>2019</year>
+          <volume>88</volume>
+          <fpage>104083</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2019.104083</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-land-15-02116">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>The confrontation and symbiosis of green and development: Coupling coordination analysis between carbon emissions and spatial development in urban agglomerations of China</article-title>
+          <source>Sustain. Cities Soc.</source>
+          <year>2024</year>
+          <volume>106</volume>
+          <fpage>105391</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.scs.2024.105391</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-land-15-02116">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Kuang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regional difference decomposition and policy implications of China&#x2019;s urban land use efficiency under the environmental restriction</article-title>
+          <source>Habitat Int.</source>
+          <year>2018</year>
+          <volume>77</volume>
+          <fpage>32</fpage>
+          <lpage>39</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.habitatint.2017.11.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-land-15-02116">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Jiao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Huo</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Using eco-efficiency and eco-wellbeing performance as indicators for urban sustainable development: A two-stage network analysis</article-title>
+          <source>Sustain. Dev.</source>
+          <year>2024</year>
+          <volume>32</volume>
+          <fpage>1825</fpage>
+          <lpage>1844</lpage>
+          <pub-id pub-id-type="doi">10.1002/sd.2750</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-land-15-02116">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jing</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial heterogeneity analysis and driving forces exploring of built-up land development intensity in Chinese prefecture-level cities and implications for future Urban Land intensive use</article-title>
+          <source>Land Use Policy</source>
+          <year>2020</year>
+          <volume>99</volume>
+          <fpage>104958</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2020.104958</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-land-15-02116">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Impact of Urbanization on the Delivery of Public Service&#x2013;Related SDGs in China</article-title>
+          <source>Sustain. Cities Soc.</source>
+          <year>2022</year>
+          <volume>80</volume>
+          <fpage>103776</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.scs.2022.103776</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-land-15-02116">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Land use efficiency and influencing factors of urban agglomerations in China</article-title>
+          <source>Land Use Policy</source>
+          <year>2019</year>
+          <volume>88</volume>
+          <fpage>104143</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2019.104143</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-land-15-02116">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ke</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>The carbon emissions related to the land-use changes from 2000 to 2015 in Shenzhen, China: Implication for exploring low-carbon development in megacities</article-title>
+          <source>J. Environ. Manag.</source>
+          <year>2022</year>
+          <volume>319</volume>
+          <fpage>115660</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jenvman.2022.115660</pub-id>
+          <pub-id pub-id-type="pmid">35803073</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-land-15-02116">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Huo</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two-Stage Multiobjective Decision-Making Method Based on Agricultural Water-Energy-Food Nexus: Case Study in Hetao Irrigation District, China</article-title>
+          <source>J. Water Resour. Plan. Manag.</source>
+          <year>2023</year>
+          <volume>149</volume>
+          <fpage>05023006</fpage>
+          <pub-id pub-id-type="doi">10.1061/JWRMD5.WRENG-5856</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-land-15-02116">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multifunctional farmland use transition and its impact on synergistic governance efficiency for pollution reduction, carbon mitigation, and production increase: A perspective of Major Function-oriented Zoning</article-title>
+          <source>Habitat Int.</source>
+          <year>2024</year>
+          <volume>153</volume>
+          <fpage>103207</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.habitatint.2024.103207</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-land-15-02116">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>The impact of farmland use transition on CO2 emissions and its spatial spillover effects from the perspective of major function-oriented zoning: The case of Huang-Huai-Hai plain</article-title>
+          <source>Environ. Impact Assess. Rev.</source>
+          <year>2023</year>
+          <volume>103</volume>
+          <fpage>107254</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.eiar.2023.107254</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-land-15-02116">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wei</surname>
+              <given-names>Y.D.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yue</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urban land expansion and regional inequality in transitional China</article-title>
+          <source>Landsc. Urban Plan.</source>
+          <year>2017</year>
+          <volume>163</volume>
+          <fpage>17</fpage>
+          <lpage>31</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.landurbplan.2017.02.019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-land-15-02116">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Exploring the influence of urban form on land-use efficiency from a spatiotemporal heterogeneity perspective: Evidence from 336 Chinese cities</article-title>
+          <source>Land Use Policy</source>
+          <year>2020</year>
+          <volume>95</volume>
+          <fpage>104576</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2020.104576</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="land-15-02116-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Research framework. UCLUE-IN and UCLUE-LC refer to its intensification and low-carbon dimensions, respectively. SBM denotes slacks-based measure, and VRS denotes variable returns to scale. H/L denotes average efficiency above/below the corresponding national average; H-H, H-L, L-H, and L-L refer to combinations of UCLUE-IN and UCLUE-LC, in that order.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="land-15-02116-g001.tif"/>
+      </fig>
+      <fig id="land-15-02116-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Temporal evolution of UCLUE-IN during 2001&#x2013;2021. National and regional annual means are calculated as unweighted arithmetic means of city-level efficiency scores within the respective samples.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="land-15-02116-g002.tif"/>
+      </fig>
+      <fig id="land-15-02116-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Spatial distributions of UCLUE-IN from 2001 to 2021.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="land-15-02116-g003.tif"/>
+      </fig>
+      <fig id="land-15-02116-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Temporal evolution of UCLUE-LC during 2001&#x2013;2021. National and regional annual means are calculated as unweighted arithmetic means of city-level efficiency scores within the respective samples.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="land-15-02116-g004.tif"/>
+      </fig>
+      <fig id="land-15-02116-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Spatial distributions of UCLUE-LC from 2001 to 2021.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="land-15-02116-g005.tif"/>
+      </fig>
+      <fig id="land-15-02116-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Two-dimensional scatterplot of the development patterns of the 268 cities. Each point represents a city&#x2019;s mean UCLUE-IN and UCLUE-LC scores over 2001&#x2013;2021.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="land-15-02116-g006.tif"/>
+      </fig>
+      <fig id="land-15-02116-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>The UCLUE-IN and UCLUE-LC corresponding to the five categories of city size.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="land-15-02116-g007.tif"/>
+      </fig>
+      <table-wrap id="land-15-02116-t001" position="float">
+        <object-id pub-id-type="pii">land-15-02116-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Evaluation index system of UCLUE.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Phase</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Type</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Factor</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Indicator</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Reference</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin">Stage 1</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Inputs</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Land</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Per capita urban construction land area (m<sup>2</sup>/person)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Hui et al. [<xref ref-type="bibr" rid="B20-land-15-02116">20</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Capital</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Per unit area fixed assets investment (million/km<sup>2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Peng et al. [<xref ref-type="bibr" rid="B22-land-15-02116">22</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Labor</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Per unit area employees in secondary and tertiary industries (person/km<sup>2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Jiang et al. [<xref ref-type="bibr" rid="B21-land-15-02116">21</xref>]</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Outputs</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Economic benefit</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Value-added in secondary and tertiary industries (million)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Zhou and Lu [<xref ref-type="bibr" rid="B14-land-15-02116">14</xref>]</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Social benefits</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Per capita road area (m<sup>2</sup>/person)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Xu et al. [<xref ref-type="bibr" rid="B39-land-15-02116">39</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Proportion of urban resident population in total resident population (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Zhang et al. [<xref ref-type="bibr" rid="B40-land-15-02116">40</xref>]</td>
+            </tr>
+            <tr>
+              <td rowspan="7" align="center" valign="middle" style="border-bottom:solid thin">Stage 2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Inputs</td>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin">All outputs of the first stage</td>
+            </tr>
+            <tr>
+              <td rowspan="5" align="center" valign="middle" style="border-bottom:solid thin">Desirable outputs</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Population quality</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Number of university students per 10,000 inhabitants (person)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Liu et al. [<xref ref-type="bibr" rid="B41-land-15-02116">41</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Industrial structure</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Proportion of the added value of the tertiary industry to GDP (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Huang and Lin [<xref ref-type="bibr" rid="B42-land-15-02116">42</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Energy structure</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Proportion of non-coal consumption to overall energy consumption (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Zhang et al. [<xref ref-type="bibr" rid="B43-land-15-02116">43</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Technological level</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Number of patent applications (piece)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lv et al. [<xref ref-type="bibr" rid="B44-land-15-02116">44</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Urban green level</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Urban green area (hm<sup>2</sup>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Zhang et al. [<xref ref-type="bibr" rid="B45-land-15-02116">45</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Undesirable output</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Negative environmental benefit</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Urban CO<sub>2</sub> emissions (t)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Zhang et al. [<xref ref-type="bibr" rid="B38-land-15-02116">38</xref>]</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Disclaimer/Publisher&#x2019;s Note:</bold> The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

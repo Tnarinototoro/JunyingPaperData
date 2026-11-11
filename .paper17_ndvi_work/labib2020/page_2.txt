@@ -1,0 +1,134 @@
+S.M. Labib ，
+approaches on quantifying and representing greenspace exposure
+linking the effects Of such exposure tO health outcomes. These studies
+focused on understanding the influence of spatial scale ()n terms of bo
+the size and shape Of measurement units) on the relationship between
+greenspace exposure and health indicators
+Su, Dadvand,
+Nieuwenhuijsen, Bartoll, & Jerrett, 2019 Zhang and Tan, 2019
+Cebrecos, Domfnguez-Be 巧 6n ， Duque, Franco ， & Escobar ， 2018 Tsai,
+Leung ， McHaIe, FIoyd ， & Reich ， 2018 ） ． They indicated that spatial scale
+and the ModifiabIe AreaI Unit ProbIem (MAUP) (Openshaw ， 1981 ） in-
+fluence the reported associations found between greenspace exposure
+and health. As such, investigaüons int0 the impact 0f these scale-related
+factors and the development 0f alternative approaches that are less
+sensifive tO these issues are critical tO understanding the impact Of the
+association between exposure and health (Labib et al ” 2020 ）
+Measuring greenspace exposure by creaung a discrete neighbour
+hOOd zone around specific receptor points (e.g. home addresses) is one
+0f the most widely applied methodological approaches in studies in-
+vesügating the relationship between greenspace and health (Browning
+& Lee, 2017 ， James et al ” 2014 James, Hart, Banay, & Laden, 2016 ） ．
+With the wide availability of satellite images (e.g ” Landsat, Sentinel-2),
+an lncreasing number 0f studies use buffer analysis (a method 0f zoning
+around map features based on distance or estimated travel time) tO
+derive metrics from satellite lmagery represenung relative levels Of
+greenness ， (James et al ” 2015 Markevych et al ” 2017 Su et al ” 2019 ） ．
+iS no consensus among scholars tO diS-
+tance should be used to define the exposure area (e.g ” neighbourhood).
+lndeed, it is highly unlikely that such a universal figure could ever be
+justlfied (Huck et al. ， 2018a Labib et al., 2020 ） ． AdditionaIIy ， there are
+several metrics used the basis tO measure greenspace exposure, in-
+cluding the Normalised Difference Vegetation lndex (NDVI) ， Land Use
+and Land Cover (LULC), canopy cover (CC) and Leaf Area lndex (LAI),
+all of which are proxy measures and so can produce different results for
+a given location and buffer distance (Browning & Lee, 2017 Labib
+et al. ， 2020 ， Reid ， Kubzansky, Li, Shm001, & CIougherty, 2018 ， Su et al ”
+2019 ）
+Su et al. （ 2019 ） ， Zhang and Tan, 2019 ， Reid et al. 〔 2018 ）
+Browning and Lee 〔 201 刀
+demonstrated that variation in bOth the
+buffer distances used to define the unit of analysis and the spatial re-
+solution 0f satellite images are susceptible to the MAUP and may
+therefore produce scale effects in greenspace exposure and health stu-
+dies (see also Houston, 2014 ） ． AIthough these studies highlight issues
+relating tO varY1ng spatial scales and their relationship tO greenspace
+metrics and the MAUP ， they dO not adequately investigate the ways in
+which scale poses an lssue for such analyses, nor how multiple scales
+exposure metrics comprehensively tO overcome or
+reduce scale effects.
+Previous studies focused on measunng greenspace exposure in
+terms Of specific individuals' home (usually within the neighbourhood) ，
+school, or office addresses. However ， this approach limits the possibility
+0f taking account 0f greenspace exposure beyond the given neigh
+bourhood or defined exposure area (Frumkin et al., 2017 Helbich,
+2018 ， Pearce, 2018 Zhang, Zhou, Kwan, Chen, & Lin, 2018
+） and
+eliminates the possibility 0f holistically gaining an understanding 0f the
+spatial variability 0f exposure for the whole urban landscape, where
+people work live, and interact with nature (Helbich ， 2018 ， Helbich,
+2019a ， Park & Kwan, 2017 ， Zhang et al. ， 2018 ） ． AS such ， studies uti-
+lising such approaches cannot provide a comprehensive understanding
+Of greenspace exposure experienced a larger area
+(Frumkin et al., 2017 ， Labib et al., 2020 Zhang et al ” 2018 ） ． We pro-
+pose a new greenspace exposure mappmg methodology tO create a map
+Of greenspace exposure for entire urban area under consideration ，
+rather than conducting individual exposure assessments at a fimte
+number Of fixed addresses and represent exposure gradients across
+entire case study areas without the need for separate buffer analysis.
+The Obj ectives Of this study are to:
+(i) investigate hOW different satellite-derived measures Of
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+greenness ， are impacted by spafial scale variations using lacunarity
+analysis ， (ii) create greenspace exposure ， maps at specific scales (e.g ”
+where the scale 0f exposure pathways for particular health outcomes
+might be known) and generate multi-scale composite maps using the
+lacunarity results (e.g ” where exposure pathways and their scales are
+less well known), (iii) propose an improved multi-scale, multi-metric
+greenspace 'exposure index ， map. The scale-composite maps not only
+take intO account scale effectS and improve representativeness but can
+also improve the efficiency Of greenspace exposure assessments. We
+alSO assess the implications Of the new method by investigating how
+exposure profiles and correlations with social and health deprivation
+changed for a large urban case study area.
+2 ． Background
+2.1. Greenspace exposure and greenspace metncs
+Zartarian ， Bahadori ， and McKone 〔 2005 ） state that exposure as-
+sessment is "the process 可 estimating or measuring the magnitude, fre-
+quency, and duration 可 exposure 加 皿 agent, 0 嗯 the number and
+characteristics 可 the p 叩 a exposed. 尾 e describes the sources. ，
+pathways, routes, and the u e a 互 the assessment ” （ p3 〕 ． For
+greenspace exposure ， it implies exposure tO nature/natural environ
+ments (e.g., gardens, stands 0f trees ， parks etc.) and the magnitude,
+frequency and duration 0f its impact on humans (Bratman et al., 2019
+Frumkin et al., 2017 ） ． From the existing literature, 什 om a spatial per-
+spective greenspace exposure can primarily be categorised as (i)
+availability exposure (the magnitude 0f greenness available around the
+study subject), (ii) accessibility exposure (the accessibility tO and 什 om
+designated greenspace ， e.g ” 什 om a park tO a home or work address),
+(iii) visibility exposure (the amount 0f greenspace that is visible t0 the
+study subj ect) (Dadvand & Nieuwenhuijsen, 2019 Dzhambov,
+Markevych, & Lercher, 2019 Labib et al ” 2020 ） ． These categories of
+greenspace exposure often overlap whilst having cumulative effects on
+human health. The present study only focuses on the exemplar Of
+availability exposure due tO its dominance in prexnous studies. Several
+types Of greenspace metrics are in use tO measure
+exposure and they broadly fall int0 three groups; (a) remote sensing-
+based indices (e.g ” NDVI, Enhanced Vegetation lndex, LAI); (b) per-
+centage 0f green cover calculated using a LULC dataset; (c) numbers 0f
+trees or canopy coverage （
+Gascon et al ” 2016 Labib et al., 2020 ， Orioli
+et al., 2019 ， Dadvand et al. ， 2017 ） ，
+22 ． Scale, MAUP, and uncertamty greenspace exposure assessment
+ln this study spatial scale is defined as, "the degree 可 a 互 reduction
+d a 五 嗯 the 化 g 山 used 加 represent a larger 皿 可 measure; rati0 可
+distance 皿 the map t0 distance 0 the earth sufface represented by the map
+(Turner & Gardner ， 2015 p 18 〕 ， According tO this definition large scale
+represents a finer resolution 〔 or smaller buffer distances), and small
+scale represents a coarser resolution 〔 or larger buffer distances). For
+greenspace exposure, different buffer distances produce the exposure
+areas (e.g ” neighbourhoods) within which greenspace exposures are
+measured and therefore generate varying scales 0f analysis for the
+influences 0f greenspace exposure upon health (Zhang and Tan, 2019
+Labib et al. ， 2020 〕 ． The rmpact Of spatial scale on measuring a variable
+and statistical inference is widely established ， and is known as the
+MAUP (Jelinski & Wu, 1996 ， Openshaw, 1981 ） ． The MAUP involves
+tWO interrelated issues: (i) a zoning effect, representing the variance in
+results because Of alternative areal unit delineations; and (ii) a scale
+effect ， reflecting the sensitivlty Of the results and inferences tO areal
+unit size (Dark & Bram ， 2007 Houston ， 2014 ） ，
+ln past studies 0f the relationship 0f greenspace t0 health ， the MAUP
+occurs greenspace exposure measurements are ag-
+gregated t0 different buffer sizes (Zhang and Tan, 2019 ， Houston,
+2014 ） Houston （ 2014 ） demonstrated that both the zoning and the scale
+2

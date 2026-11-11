@@ -1,0 +1,86 @@
+[
+  {
+    "key": "jort_crossref",
+    "url": "https://api.crossref.org/journals/2213-0780/works?sort=published&order=desc&rows=8&filter=until-pub-date:2026-11-08",
+    "status": 200,
+    "final_url": "https://api.crossref.org/journals/2213-0780/works?sort=published&order=desc&rows=8&filter=until-pub-date:2026-11-08",
+    "length": 152257
+  },
+  {
+    "key": "jort_elsevier",
+    "url": "https://www.elsevier.com/journals/journal-of-outdoor-recreation-and-tourism/2213-0780",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/journal/22130780",
+    "length": 832979
+  },
+  {
+    "key": "jort_sdinsights",
+    "url": "https://www.sciencedirect.com/journal/journal-of-outdoor-recreation-and-tourism/about/insights",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/journal/journal-of-outdoor-recreation-and-tourism/about/insights",
+    "length": 832979
+  },
+  {
+    "key": "jnc_crossref",
+    "url": "https://api.crossref.org/journals/1617-1381/works?sort=published&order=desc&rows=8&filter=until-pub-date:2026-11-08",
+    "status": 429,
+    "final_url": "https://api.crossref.org/journals/1617-1381/works?sort=published&order=desc&rows=8&filter=until-pub-date:2026-11-08",
+    "length": 0
+  },
+  {
+    "key": "jnc_elsevier",
+    "url": "https://www.elsevier.com/journals/journal-for-nature-conservation/1617-1381",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/journal/16171381",
+    "length": 832979
+  },
+  {
+    "key": "jnc_sdinsights",
+    "url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/about/insights",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation/about/insights",
+    "length": 832979
+  },
+  {
+    "key": "jem_crossref",
+    "url": "https://api.crossref.org/journals/0301-4797/works?sort=published&order=desc&rows=8&filter=until-pub-date:2026-11-08",
+    "status": 200,
+    "final_url": "https://api.crossref.org/journals/0301-4797/works?sort=published&order=desc&rows=8&filter=until-pub-date:2026-11-08",
+    "length": 223925
+  },
+  {
+    "key": "jem_elsevier",
+    "url": "https://www.elsevier.com/journals/journal-of-environmental-management/0301-4797",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/journal/03014797",
+    "length": 832979
+  },
+  {
+    "key": "jem_sdinsights",
+    "url": "https://www.sciencedirect.com/journal/journal-of-environmental-management/about/insights",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/journal/journal-of-environmental-management/about/insights",
+    "length": 832979
+  },
+  {
+    "key": "cres_crossref",
+    "url": "https://api.crossref.org/journals/2666-0490/works?sort=published&order=desc&rows=8&filter=until-pub-date:2026-11-08",
+    "status": 200,
+    "final_url": "https://api.crossref.org/journals/2666-0490/works?sort=published&order=desc&rows=8&filter=until-pub-date:2026-11-08",
+    "length": 177485
+  },
+  {
+    "key": "cres_elsevier",
+    "url": "https://www.elsevier.com/journals/current-research-in-environmental-sustainability/2666-0490",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/science/journal/26660490",
+    "length": 832981
+  },
+  {
+    "key": "cres_sdinsights",
+    "url": "https://www.sciencedirect.com/journal/current-research-in-environmental-sustainability/about/insights",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/journal/current-research-in-environmental-sustainability/about/insights",
+    "length": 832981
+  }
+]

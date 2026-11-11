@@ -1,0 +1,139 @@
+R. Teeuwen
+or size 0f formal greenspaces 〔 Larkin and Hystad, 2019 ； Kabisch and
+Haase, 2014 ； W00d et al. ， 2017 ； Zhang et al. ， 2021 ； Tat1benböck et al.,
+2021 ）
+environmental perceptlons from questionnmres are essential
+when investigating human activitles 〔 Flowers et al., 2016 ； Fongar et al.
+头 such data scale poorly due t0 time, costs, geographical coverage,
+2019
+and spatial extent constraints. NDVI and LULC maps such as OSM, on the
+other hand, are freely available worldwide and routinely updated over
+time, making them valuable t0 assess the availability or accessibility 0f
+greenspaces at scale ， or tO prioritize locations for interventions （
+Larkin
+and Hystad, 2019 ； Nieuwenhuijsen et al., 2017 ； Markevych et al., 2017 ；
+Labib et al., 2020 ） ． Even though LULC maps often only represent formal
+greenspaces such as parks and urban forests, informal and small-scale
+greenspaces or green streets have alSO been found tO benefit people
+Lt10 and Patuano ， 2023 ； Wolch et al., 2014 ； Rao et al. ， 2007 ； Markevych
+et al., 2017 〗 Furthermore ， while both NDVI and LULC maps are
+essential in greenspace sttldies, they may not ℃ r stlbjective human
+perceptions (LesIie et al ” 2010 ； Kothencz and BIaschke, 2017 ； Zhang
+et al., 2021 ； Labib et al., 2020 ； Markevych et al., 2017 ） ． AIthough recent
+works have attempted tO incorporate the human perspectlve intO large-
+scale greenspace studies using street-level imagery 〔
+Rzotkiewicz et al.
+2018 ； Larkin and Hystad ， 2019 ； Bilj ecki and lto, 2021 ； Lu ， 2019 〗 t0 the
+best 0f our knowledge ， these have primarily employed comptlter vision
+techniques such as atltomated Object detection and scene recognition,
+which do not acknowledge the subj ectlvity of human perception.
+We aim tO contribtlte tO a better understanding Of hOW well large
+scale open datasets, specifically NDVI and OSM LULC maps ， capture
+people ' S visual perceptions Of urban greenspace. Our goal is tO evaluate
+how well these datasets match with each other, and where they deviate,
+and tO explain st1Ch disparities t1Sing the spatial features Of investigated
+locations, tO inform the design Of future greenspace studies.
+To that end, we follow a two-step approach. First, we collect large-
+scale open-source NDVI and OSM data for three major European cit-
+ies. We apply a crowdsourcing approach t0 obtain people' s visual
+greenness perceptions Of variot1S sorts ()f pt11)liC spaces. SeC()T1d
+assess hOW these visual perceptions correspond tO diverge from
+the information included in NDVI and OSM data. We hypothesize that:
+〔 HI 〕 there is a strong positive correlation between NDVI values and
+perceived greenness, as these are bOth commonly used tO quantify
+environmental greenness, 〔 H2 〕 perceived greenness is higher for
+regtllar-size OSM greenspaces than for pocket parks, play spaces ， open
+ptlblic spaces ， and streets ， as definitions Of greenspace are Often limited
+tO greenspaces larger than a certain threshold area, whereas pocket
+parks, play spaces, open ptlblic spaces, and streets can also be perceived
+as (informal) greenspaces, as other studies suggest, and 〔 H3 〕 perceived
+greenspaces are better reflected in data when they are selected using a
+combination of OSM categories and NDVI values, rather than simply
+OSM categories or j t1St NDVI values. To test our hypotheses, we employ
+statistical analyses, followed by a qualitative thematic analysis t0
+discover which spatial qualities explain differences between NDVI and
+OSM data and people' s visual perceptions.
+ln the remainder Of th1S paper, we explore greenspace data sources
+used in related work, detail what data sources we collect and hOW we
+analyze them, present and discuss our findings and their implications,
+and concltlde with our key conclusions and ftlture lines Of research.
+2 · Greenspace SOL1rces
+ln this work, we adapt the definition 0f greenspace by the
+WHO
+Regional Office for Europe （ 2017 ） t0 "urban space characterized by
+vegetation 0 丆 any kind" ， incltlding street trees and roadside vegetation,
+green roofs and facades, greenspace on private grounds ， and parks,
+playgrounds, or greenways. We narrow Ot1r fOCt1S tO greenspaces that are
+publicly accessible, thereby allowing people to engage in outdoor
+activities.
+TO study greenspaces, researchers use data Of varying types and
+Landscape and Urban PIanning 245 （ 2024 丿 105009
+scales, depending on hypotheses and otltcomes Of interest 〔 Markevych
+et al. ， 2017 ） ， Examples incltlde measures 0f availability, accessibility ，
+visibility, and use 0f greenspace (Labib et al. ， 2020 ； Markevych et al.
+〕 ． Large-scale data are essential for informmg policy, measuring
+2017
+how well cities adhere to such rules, and stt1dY1ng the epidemiological
+consequences Of greenspace 〔
+Markevych et al., 2017 ； Larkin and Hystad,
+2019 ； Kabisch and Haase, 2014 ）
+Other sttldies collect data on people ' s perceptions regarding green
+spaces, which are critical when sttldying people ' s behavior in green
+spaces 〔 Markevych et al., 2017
+） ， for instance through questionnaires
+among residents or intervlews W1th park visitors 〔
+Sundevall and Jans-
+son, 2020 ； Talal and Santelmann, 2021 ； Kabisch and Haase, 2014
+this work, we focus on people ' s 访 Su subjective perceptions, which we
+define as perceptions generated by visual stimtlli ， st1Ch as a phOtO Of a
+place, and further influenced by the individual ， s experiences, prefer
+ences, emotions, and context.
+The following sections go over various data sources and collection
+methods and discuss their differences and simllarities that motivate our
+study.
+2 ， 7 ， Objective measures 可 greenspace using a 五 data
+Among all vegetation indices derived from satellite imagery ， the
+NormaIized Difference 鞔 ge 五 0 忉 d (NDVI) is the most widely used
+(Markevych et al., 2017 ） ． NDVI is an objective remote sensing index that
+captures vegetation by calctllating the difference between red and near-
+infrared light reflected by the land surface. NDVI maps are often ob-
+tained from Landsat or Sentinel satellite missions. BOth Of these missions
+provide open data at regtllar intervals worldwide, with the European
+Sentinel-2 mission providing data at a high resoltltion 0f 10 m (Labib
+et al., 2020 ； Markevych et al., 2017 ） ． Alternatives to NDVI include the
+Green Ratio Vegetation lndex (GVRI) (Sripada et al., 2006L SOil-
+Adjusted Vegetation lndex (SAVI) (Huete, 1988 ） ， and Enhanced Vege
+tation lndex (EVI) (Huete et al., 2002 ） ， lndices such as NDVI are
+partictllarly relevant for sttldying the presence or availability 0f green
+space, for instance around people' S home locations or along the rotltes
+they take as captured in GPS tracks 〔 Markevych et al., 2017 ； Robinson
+et al., 2018 ； Spotswood et al., 2021 ； Roberts and Helbich, 2021 ） ．
+Land Use / Land Cover (LULC) maps represent the land surface in
+distinct classes, such as buildings, roads, parks, and forests, allowing t0
+sttldy the size, shape ， kind ， accessibility, or spatial layotlt 0f designated
+Markevych et al., 2017 ； Nieuwenht1ijsen et al. ， 2017
+greenspaces （
+LULC maps are commonly tltilized for greenspace accessibility sttldies;
+they account for a large share Of obJective studies on greenspace for
+human actlvities 〔 Labib et al., 2020 〕 ． OSM, in parüctllar, is a type Of
+LULC map that is increasingly being used in academic studies as an
+open-source and 810ba1 alternative tO local commercial or authoritative
+LULC datasets 〔 Barrington-Leigh and Millard-Ball, 2017 ） and is an
+effective alternative tO local data in terms Of its accuracy and preciS10n
+(Liao et al., 2021 〗 AIternative LULC maps incltlde, for example ， the
+Urban AtIas in Europe (used by Turunen et al., 〔 2023 〕 〕 and local data
+repstries (e.g., municipal canopy cover and street tree data used by Bar6
+et al. 〔 2021 ） ）
+Geo located street / 巴 回 imagery is gaining importance for urban an
+alyses, incltlding sttldies on urban greenery (Biljecki and lto ， 2021 ； Labib
+et al. ， 2020 ） ． Examples incltlde measuring the Green View lndex in
+lmages ()i et al. ， 2015 ； Lu, 2019 ） ， detecting vegetation 0bj ects through
+Song et al., 2022 ； Chen and Biljecki, 2023 〗 or merging
+comptlter vision 〔
+street-level imagery with LULC data (Zhang et al., 2021 〕 · LastIy, various
+studies make use 0f social media data, such as the frequency 0f Flickr
+ph0t0S and Tweets posted per location (Hamstead et al. ， 2018
+） ， the
+contents Of Tweets (Roberts, 2017 〗 and the categories Of Obj ects
+detected in lnstagram ph0t0S (Song et al., 2022 〕
+2

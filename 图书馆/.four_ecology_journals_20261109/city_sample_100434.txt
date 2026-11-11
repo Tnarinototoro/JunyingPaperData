@@ -1,0 +1,284 @@
+Urban airborne allergenic pollen shows highly local patterns correlated 
+with public green spaces
+Nemi Dorst a,b,c,*, Maarten Hogeweij d, Aukje Clercx e, Dominique de Boer e, Ilse Thijssen e,  
+Leon van Leeuwen e, Martijn van de Velde e, Arjen G.C.L. Speksnijder f, Gijs M. Gerrits b,g,  
+Laurens Sparrius h, Letty A. de Weger i, Kevin Raaphorst d, Marcel Polling j,  
+Barbara Gravendeel a,b
+a Hortus botanicus, Leiden University, Leiden, the Netherlands
+b Naturalis Biodiversity Center, Leiden, the Netherlands
+c Radboud Institute for Biological and Environmental Sciences, Radboud University, Nijmegen, the Netherlands
+d Department of Geography, Planning, and Environment, Institute for Management Research, Radboud University, the Netherlands
+e Faculty of Science and Technology, University of Applied Sciences Leiden, Leiden, the Netherlands
+f LCAB, Department of Environmental Metagenomics, University of Applied Sciences Leiden, Leiden, the Netherlands
+g Mathematical and Statistical Methods Group – Biometris, Wageningen University & Research, Wageningen, the Netherlands
+h FLORON Plant Conservation Netherlands, Nijmegen, the Netherlands
+i Department of Pulmonology and Department of Public Health and Primary Care, Leiden University Medical Center, Leiden, the Netherlands
+j Wageningen Environmental Research, Wageningen University & Research, Wageningen, the Netherlands
+ARTICLE INFO
+Keywords:
+DNA metabarcoding
+Global warming
+Hay fever
+Plant monitoring
+Street-level pollen monitoring
+Urban greening
+ABSTRACT
+Ongoing climate change is increasing global temperatures, with cities experiencing amplified warming due to the 
+urban heat island effect. Urban trees, forbs, and grasses are widely planted to mitigate heating. However, many 
+plant species produce allergenic pollen, causing hay fever symptoms that can discourage people from using green 
+spaces. This avoidance may increase heat exposure and reduce the physical and mental benefits of urban 
+greenery. Despite this, optimal urban green design that minimizes allergy risks remains unclear, partly due to 
+limited knowledge of local airborne pollen dispersion in urban heat islands. To address this gap, we investigated 
+whether (1) local vegetation influences urban pollen concentrations and composition, (2) urban trees, forbs, or 
+grasses contribute most to allergenic pollen loads, and (3) public or private urban spaces are the main source of 
+airborne allergenic pollen. We conducted spatial and temporal street-level pollen monitoring at 10 sites across 
+two neighborhoods in Leiden, the Netherlands, over 12 months. Samples were analyzed using DNA meta -
+barcoding and microscopy. We identified 366 plant species across 105 families. Results show that public green 
+spaces are the primary source of allergenic pollen in cities. Grasses dominated pollen loads in summer, whereas 
+trees contributed most in winter, spring, and autumn. Notably, allergenic tree pollen was detected well beyond 
+peak flowering periods. These findings highlight the importance for critically selecting urban tree species and the 
+use of more non-allergenic forbs and less grasses when designing healthy urban green infrastructure.
+1. Introduction
+Climate change is driving a rise in average air temperatures and 
+frequency, intensity and duration of heatwaves [1]. These effects are 
+amplified in cities, which are typically warmer than surrounding rural 
+areas due to the urban heat island effect [2–4]. Impermeable surfaces 
+such as concrete, asphalt and bare stone absorb heat and release it 
+slowly at night, leading to persistently elevated urban temperatures [5]. 
+As a result, urban heat poses serious health risks, particularly for 
+vulnerable populations, including elderly people and individuals with 
+pre-existing health conditions [6,7].
+Urban greening is widely promoted as a mitigation strategy, as trees, 
+shrubs and grasses provide cooling through shade, evapotranspiration, 
+and reflection, thereby improving the urban microclimate [8–11]. When 
+* Corresponding author at: Rapenburg 73, 2311 SL Leiden, the Netherlands.
+E-mail address: n.dorst@hortus.leidenuniv.nl (N. Dorst). 
+Contents lists available at ScienceDirect
+City and Environment Interactions
+journal homepage: www.sciencedirect.com/journal/city-and-environment-interactions
+https://doi.org/10.1016/j.cacint.2026.100434
+Received 30 March 2026; Received in revised form 5 June 2026; Accepted 20 July 2026  
+City and Environment Interactions 31 (2026) 100434 
+Available online 21 July 2026 
+2590-2520/© 2026 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ). 
+flowering, wind-pollinated plant species release pollen into the air, and 
+exposure to certain species of pollen can trigger allergic rhinitis, 
+commonly known as hay fever, in sensitized individuals.
+Urban climatic conditions can directly influence pollen dynamics by 
+advancing flowering phenology, increasing pollen production, and 
+prolonging pollen seasons [12]. In the Netherlands, the prevalence of 
+self-reported allergies increases with the degree of urbanization of one's 
+living environment [13], highlighting the potential impact of urban 
+pollen exposure on health and allergy prevalence.
+Allergy symptoms can be so severe that sensitized individuals avoid 
+urban green spaces during pollen seasons, thereby increasing their heat 
+exposure [14,15], or remain indoors, reducing the physical and mental 
+benefits of urban green areas [16–18 ]. This trade-off underscores the 
+need for strategically designed, hypoallergenic urban green infrastruc -
+ture. While avoiding highly allergenic, wind-pollinated species is a 
+fundamental principle, effective mitigation strategies remain limited by 
+poor understanding of pollen dispersal and composition within cities. A 
+recent survey in the Netherlands revealed that only 7% of municipalities 
+systematically consider hay fever when selecting tree species for urban 
+greening [19]. Multiple municipalities indicated that they assume pollen 
+exposure is not strongly localized, and therefore believe that limiting 
+allergenic trees in high-traffic areas would have little impact on hay 
+fever symptoms.
+Recent studies have shown that a high abundance of allergenic trees 
+in urban areas may lead to elevated concentrations of airborne aller -
+genic pollen [ 20,21]. Moreover, global warming and the increase in 
+carbon dioxide concentrations are driving earlier onset of flowering 
+[22,23], and an extension and intensification of flowering periods, 
+which increases allergenic pollen concentrations in urban heat islands 
+[21,22]. It is generally recommended that urban green space planning 
+should consider both planting more non-allergenic trees and improving 
+public pollen information and warning systems [24,25]. However, 
+determining which species can reliably be classified as non-allergenic is 
+not straightforward, as allergenicity assessments vary regionally.
+Sousa-Silva et al. [26 ] showed that the classification of pollen 
+allergenicity varies across different regions of the world. To accurately 
+assess the allergenicity of local plant species, it is essential to follow 
+regional guidelines. However, many of these guidelines are based on 
+expert opinion rather than robust empirical data, and often lack support 
+from scientific evidence. They should instead be based on local param-
+eters such as regional pollen production and population sensitization 
+patterns, which can vary across different climates [ 27]. Improving al -
+lergy risk assessments requires not only better allergenicity classifica -
+tion, but also more accurate and spatially resolved data on actual pollen 
+exposure.
+Current prediction models for airborne pollen exposure risk are 
+primarily based on regional monitoring data collected using Hirst-type 
+pollen and spore traps [28]. However, reliance on a single pollen 
+monitoring station is insufficient to characterize daily local pollen 
+exposure [29], as pollen concentrations are distributed unevenly at the 
+street level within urban environments [14,30]. Furthermore, pollen is 
+detected weeks earlier at street- compared to rooftop level [30 ]. As a 
+result, regional or rooftop may not capture all spatial and temporal 
+human exposure risk. In contrast, street-level monitoring can provide a 
+more accurate representation of local exposure dynamics. Beyond 
+improving exposure estimates, street-level monitoring can also help 
+identify the primary sources of allergenic pollen by distinguishing con-
+tributions from public spaces such as streets and parks and from private 
+gardens, and by differentiating ornamental plants from wild flora [31]. 
+This information is critical for determining which urban domains should 
+be prioritized in redesign efforts to achieve the greatest reduction in 
+allergenic pollen exposure risk. Accurate monitoring at street level, 
+however, also depends on reliable and high-resolution pollen identifi -
+cation methods.
+Traditionally, pollen is identified and quantified based on 
+morphology using light microscopy. However, manual counting of 
+pollen is time-consuming, labor-intensive, and requires expertise in 
+palynology. In addition, morphological identification often limits taxo-
+nomic resolution up to the genus or family level. As an alternative, DNA 
+metabarcoding offers higher taxonomic resolution and enables simul -
+taneous analysis of many samples [ 32]. This approach has been suc -
+cessfully applied for the identification and semi-quantification of 
+airborne pollen [ 33–36]. DNA metabarcoding reads can be processed 
+using two common bioinformatic approaches: zero-radius Operational 
+Taxonomic Units (ZOTUs) and Amplicon Sequence Variants (ASVs).
+To address the current limitations, we conducted year-round, 
+biweekly street-level monitoring of airborne pollen in the Dutch city 
+of Leiden. By combining traditional light microscopy with DNA meta -
+barcoding, and by processing sequence data using both ZOTU- and ASV- 
+based bioinformatic pipelines, we investigate (i) how airborne pollen 
+disperses through urban areas with different levels of greening 
+throughout the year, (ii) whether species composition and quantities are 
+predominantly local, (iii) which plant groups contribute most to aller -
+genic airborne pollen pressure, and (iv) whether the private or public 
+domain contributes most to local pollen composition in the air in urban 
+areas. This study forms part of a broader project aimed at supporting the 
+design of healthier urban green infrastructure. The insights generated 
+here will serve as input for the development of a decision support system 
+to guide urban planning strategies that balance heat mitigation and 
+allergenic pollen exposure.
+2. Material and methods
+2.1. Sample collection
+For this study we selected two urban localities divided over ten urban 
+sites in Leiden, the Netherlands (Fig. 1). One sampling locality was Jan 
+van Houtkade (52.15368, 4.49162), a relatively green street with many 
+ornamental trees, shrubs, and grasses, hereafter referred to as the ‘green 
+street’. Vegetation inventories showed that the sampled street segment 
+contained 39 trees. The other locality was sampled at nine sites (streets) 
+in the ‘Noorderkwartier’ neighborhood (52.16493, 4.50284) (Fig. S1), a 
+highly urbanized area with limited green infrastructure, hereafter 
+referred to as the ‘grey neighborhood’. The sampled streets in this 
+neighborhood contained on average 11 trees despite being of similar 
+length. Photos of the green street and three streets in the grey neigh -
+borhood are included in Fig. S2–5. The average perceived temperature 
+on hot summer days was 2 ◦C higher in the grey neighborhood than in 
+the green street. [37]. Local trees, forbs, and grasses in the two localities 
+were identified using data available from the ‘Open bomen kaart’ web 
+interface (Bomen Leiden [38]), curated through on-site visits where all 
+flora was identified using the latest edition of the Heukels' Flora [31], 
+and mapped using QGIS Desktop v3.44.1 [39]. Allergenicity of trees in 
+the Netherlands was determined using a regional guide [27]. The 
+number of plant individuals present at 0, 50 and 100 m around the 
+sampling localities was calculated using buffers in QGIS. Spatial data 
+from the Dutch national topographic database were used to distinguish 
+between built-up areas, public spaces, and private gardens.
+Between March 2023 and March 2024, airborne pollen samples were 
+collected twice a week. Sampling was carried out at street level using 
+two handheld pollen samplers in parallel, informally referred to as pol-
+lensniffers [30]. The pollensniffers feature a conical inlet and a sample 
+cartridge holder. A battery-powered ventilator generates an airstream of 
+8.3–9.2 L min−1 into the inlet and past the sample holder. One pollen -
+sniffer captured pollen on glass microscope slide coverslips for micro -
+scopic analysis, and the other on plastic acetate sheets for DNA 
+metabarcoding analysis, which were both covered with a thin layer of 
+vaseline. At each site, the pollensniffers were operated continuously for 
+30 min while walking the entire length of the street. A total of 155 
+coverslips were analyzed microscopically, and 164 acetate sheets were 
+processed for DNA metabarcoding. Although more samples were 
+collected in the field, these subsets were selected for analysis. 
+N. Dorst et al.                                                                                                                                                                                                                                   City and Environment Interactions 31 (2026) 100434 
+2 
+Microscopy samples with broken cover slips, and DNA samples that 
+failed PCR amplification or with contaminated extraction blanks were 
+excluded from further analysis. Daily regional pollen concentrations 
+were measured at the Leiden University Medical Center using a Hirst- 
+type 7-day volumetric spore trap [28] placed on a rooftop at 20 m 
+height above ground level [22].
+Additional targeted sampling was conducted beneath trees of several 
+Acer and Betula species in Leiden between September and December 
+2025 to investigate potential late-season pollen presence suggested by 
+initial data exploration. Airborne pollen was collected using the same 
+pollensniffer setup and sampling protocol as described above. This 
+additional campaign resulted in 48 microscopy slides, in which Acer and 
+Betula pollen were quantified. Detailed sampling locations and dates are 
+provided in Table S1.
+2.2. Microscopy
+Pollen on the 155 20x20mm glass coverslips collected with the 
+pollensniffers was stained with a 7:6:1 glycerin-water-gelatin mixture 
+containing 2% phenol and 0.002% w/v safranin. Coverslips were sealed 
+on glass slides with a clear top coat of long lasting nail polish. A 
+brightfield microscope with a micro raster at 200× magnification was 
+used for the identification and quantification of pollen on the whole 
+surface area of the coverslips. Pollen grains were identified based on 
+morphological characteristics following [40,41].
+2.3. DNA metabarcoding
+2.3.1. DNA extraction, amplification, and sequencing
+DNA was extracted from pollen collected on acetate sheets in a 
+dedicated clean room using strict contamination-prevention measures. 
+Pollen exines were disrupted by bead beating, followed by SDS incu -
+bation and DNA extraction with the QIAamp DNA Mini Kit. Extraction 
+blanks were included and pooled during PCR. A two-step PCR protocol 
+was used to amplify the nrITS2 region with plant-specific primers, 
+generating dual-indexed Illumina libraries. Both negative and positive 
+controls were included in a Latin square design. PCR products were 
+cleaned with AMPure XP beads, indexed in a second PCR, quantified, 
+equimolarly pooled, quality checked, and sequenced on an Illumina 
+MiSeq (2 × 300 bp). Supplementary technical details are included in 
+Appendix I.
+2.3.2. Bioinformatics and filtering
+Sequencing data were processed using two independent pipelines: a 
+custom Galaxy-based workflow producing ZOTUs (UNOISE2) and a 
+DADA2 workflow producing ASVs. Reads were merged, primer- 
+trimmed, quality filtered, denoised, and chimera-checked. Taxonomic 
+assignment was performed using MegaBLAST against an NCBI ITS 
+database, applying identity thresholds of 97% (species), 95% (genus), 
+and 90% (family), with lowest common ancestor assignment where 
+needed. Tag-jumping was estimated using negative controls and cor -
+rected (0.3% per sequence variant). Additional filtering removed con -
+taminants, low-abundance sequences, and non-target taxa, followed by 
+LULU clustering to merge erroneous variants while retaining closely 
+related taxa. Supplementary technical details are included in Appendix 
+I.
+2.4. Data analysis
+Rarefaction curves were generated using the vegan package in R [42] 
+to analyze whether sequencing depth was sufficient to reveal the ma -
+jority of biological diversity. Differences in total airborne pollen con -
+centrations of trees, forbs, and grasses between the green street and the 
+grey streets detected with microscopy were tested using Wilcoxon 
+signed-rank tests paired on sampling moment in base R version 4.2.3 
+[43]. Local pollen counts were compared to regional pollen monitoring 
+data collected with the rooftop mounted Hirst-type sampler at LUMC. 
+Pollensniffer samples from the green street and grey neighborhood sites 
+were collected at street level over 30 min at a flow rate of 9 L min −1, 
+whereas regional measurements at the Leiden monitoring station were 
+obtained using a Hirst-type volumetric sampler operating continuously 
+for 24 h at 10 L min −1 at 30 m altitude. To facilitate graphical com -
+parison between local Pollensniffer samples and regional Hirst-type 
+measurements, pollen counts were converted to airborne pollen con -
+centrations (pollen m −3) by standardizing counts to the sampled air 
+volume. Because Pollensniffers and Hirst-type samplers differ in sam -
+pling efficiency and sampling regime, these concentrations should be 
+interpreted as approximate rather than directly equivalent measures of 
+airborne pollen abundance. Monthly averages, ranges, and sample sizes 
+were subsequently calculated from the normalized concentration values. 
+Paired sample comparisons were made of airborne pollen concentra -
+tions of moderately to highly allergenic tree genera, as well as for 
+selected genera (Platanus and Sambucus) that were abundant in the local 
+flora and exhibited distinct, well-defined flowering periods during the 
+sampled timeframe.
+nrITS2 read counts were converted to Relative Read Abundances 
+(RRA) in Microsoft Excel in order to compare them to the relative 
+abundances of microscopic pollen counts on whole cover slips. RRAs 
+represent the proportion of reads for each taxon present in a sample out 
+of the total reads in a sample. To determine the taxonomic resolution of 
+each bioinformatics pipeline, we compared the total number of unique 
+species identified by each pipeline.
+Fig. 1. A. Location of the Netherlands in Europe. B. Location of Leiden in the Netherlands. C. Sampling localities in Leiden: regional monitoring site (LUMC), 
+Noorderkwartier (NK; grey neighborhood) and Jan van Houtkade (JvH; green street). (For interpretation of the references to colour in this figure legend, the reader is 
+referred to the web version of this article.)
+N. Dorst et al.                                                                                                                                                                                                                                   City and Environment Interactions 31 (2026) 100434 
+3 

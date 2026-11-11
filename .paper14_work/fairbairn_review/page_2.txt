@@ -1,0 +1,86 @@
+www.nature.com/scientificreports/
+Traditional approaches to monitoring urban birds typically use field methods such as point counts or
+transects With recent years seeing increased adoption Of acoustic monitoring. Advancements bioacoustics,
+computing, and machine learning, particularly through tools such as BirdNET18 now allow for the simultaneous
+monitoring 0f hundreds 0f sites. ln Germany, BirdNET has coverage for 407 out of 527 species tracked by the
+19
+German Ornith010gists Society including rare or incidental species and can detect species confidently up t0
+20
+and beyond 50 m from recording devices ． BirdNET has proven itself as the de facto standard, being successfully
+21 一 26
+tested and employed in a variety 0f environments t0 a high degree 0f accuracy
+However, with bioacoustics, unlike point counts ， measures Of abundance are not readily available. TO address
+this limitation, ecologists have examined acoustic-based metrics as proxies for abundance particularly Vocal
+Activ1ty Rate (VAR). VAR and variations 0f it have been demonstrated t0 be a good proxy for abundance for
+27 一 31
+a number 0f species · However, the context is also important for the goodness 0f fit; for example, VAR has
+27 ， 30
+been shown tO be well suited for estimating seabird population size and territorial songbird abundance ， but
+for solitary raptors, it may reflect behavioural changes rather than abundance 庵 ln addition ， a short recordmg
+length, the species' behaviour ， the time Of year ， and the surrounding environment can influence the reliability Of
+these measurements. For example, short-term changes in vocal activity may influence VAR when derived from
+29 ， 31
+short recordings
+Traditional and acoustic monitoring methods can provide an accurate and detailed picture Of urban
+diversity at single sites. However, a city-wide scale monitoring Of diversity remains challenging because
+measurements are time ． consuming and require considerable expertise in bird identification. limitations
+have prompted researchers tO explore alternative approaches for rapidly assessing urban diversity using indirect
+proxies based on a small number Of monitoring sites. Models based on multispectral satellite imagery have
+emerged as a promising t001 in this regard. Specifically, vegetation indices derived from satellite data, such as
+the Normalised Difference Vegetation lndex (NDVI), have been shown t0 be predictive for various urban bird
+32 一 35
+diversity metrics
+NDVI quantifies the ratio 0f the red and infrared reflectance 0f diverse surfaces ， which is correlated with
+certain physical properties Of the vegetation canopy: leaf area index (LAI), fractional vegetation cover, vegetation
+condition ， and biomass36. While NDVI can be employed t0 describe and classify diverse vegetation types when
+37 一 39
+utilising time series (e.g
+） ． ， a single snapshot or average across time ofNDVI may only indicate the presence
+Of vegetation in contrast tO other surfaces with different reflectance values. While NDVI can provide valuable
+information about the physiological status Of vegetation, such as stress, phenology, and vegetation density40, it
+provides limited insights int0 other attributes 0f urban vegetation, such as height or type. Although NDVI has
+been established as an effective measure of urban green4 ， which is generally correlated with higher biodiversity,
+the specific components that comprise this green and the characteristics Of the remainder Of the urban matrix
+significantly influence the diversity of an area · "lhus, for predicting the diversity of birds, exploring additional
+data derived from remote sensing is crucial for comprehensively understanding urban biodiversity and providing
+practitioners with accurate tOOls for rapidly estimating biodiversity.
+While other common metrics, such as Leaf Area lndex （ LAI) or Enhanced Vegetation lndex (EVI), may be
+considered by some ， LAI is not readily available globally at very high resolutions ， and EVI has been found by
+others t0 not be as good as NDVI for predicting different aspects ofbird diversity in cities32. A three-dimensional
+approach tO vegetation assessment could be particularly relevant tO bird diversity studies, as different species
+43
+utilise multiple and varied vegetation strata ， and suitable vegetation volume and density are important for
+maintaining native bird communities44. Recent advances in satellite and aerial imagery technologies, coupled
+with improvements in digital surface models, have opened new possibilities for describing urban vegetation in
+more dimensions ． One particularly promising metric is vegetation volume ， which includes bOth the area and
+height Of vegetation. Further, bird species respond differently tO vegetation composition and structure ， with
+45 ， 46 lncorporating height adds another dimension that
+varying responses between species and functional groups
+should better describe the habitat available t0 birds. For instance, areas with similar NDVI values might have
+vastly different vertical structures and, therefore ， vegetation volume, which could influence local bird diversity.
+Consequently, vegetation volume likely offers a more accurate prediction 0f urban bird diversity than NDVI.
+We aim t0 evaluate the efficacy of NDVI and vegetation volume for describing bird biodiversity in Munich,
+Germany and discuss the utility of vegetation index proxies of bird diversity for urban planning. Specifically, we
+examine the extent tO WhiCh can describe bird richness ， vocal activity, diversity and community composition
+using NDVI and vegetation volume. Our objectives are t0 (a) determine the optimal buffer around each point
+that best describes the species recorded there, (b) compare NDVI and vegetation volume as proxies for bird
+diversity, and (c) examine how well NDVI and vegetation volume represent local community composition.
+Using these findings, we generate predictions 0f bird diversity across Munich and discuss applications for urban
+planning and biodiversity conservation.
+Methods
+Site selection
+We selected 86 sites in Munich ， Bavaria, southern Germany, spanning two orthogonal gradients in NDVI
+and distance from the city centre (Marienplatz, latitude 48 彐 3 不 longitude 1 L576 ） ， Starting with a very high
+resolution 20 × 20 cm pixel NDVI map 0f Munich derived from data obtained from the Bavarian State Offce
+for Digitization, Broadband and Surveying (https://www.ldbv.bayern.de/index.html) ， we aggregated the map
+47
+to 100 m (aggregate function terra package in R ） and zeroed all negative values t0 reduce the range 0f non-
+vegetated pixels. We created five even bins spanning the range 0f NDVI values （ 0 to 0 ． (1) ． We then separated
+the city into five three-kilometre distance rings （ 0 一 3 km, 3 一 6 km, 6 一 9 km ， 9 一 12 km, 12 一 巧 (m) around the city
+centre. Next ， we conducted a random stratified sampling tO select 100 raster cells ， with ten sites per distance
+ring and tWO per NDVI, with the constraint that there was a minimum Of 300 m between sites tO ensure
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio
+丿

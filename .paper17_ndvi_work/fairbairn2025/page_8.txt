@@ -1,0 +1,59 @@
+www.nature.com/scientificreports/
+NDVI
+2 ． 0
+1 ． 5
+Vegetation volume
+40
+200
+100
+07
+NDVI
+200
+Vegetation volume
+到 到
+思 到
+0 ． 7
+NDVI
+到 到
+Vegetation volume
+Fig. 5 ． lhe performance ofNDVI and vegetation volume as predictors for bird diversity in Munich, Germany.
+Each point represents one 0f 86 points surveyed between N'Ia1 ℃ h and August 2023 ， AII models are significant
+仂 < = 0 ． 05 ） ． Lines are model predictions; shaded areas are 95 ％ confidence intervals. N0te the logged axis for
+vegetation volume. NDVI is log-transformed for the Shannon diversity model.
+Optimal buffer for vegetation metrics
+We found that a 100 m buffer around our observation points best described the bird diversity using b0th NDVI
+and vegetation volume. "lhis buffer is larger than those used in other studies32, who found a 50 m buffer to be the
+most suitable. However, their surveys were based on a 50 m point count at each observation point 庵 Here ， we
+used acoustic recordings with automated identification via BirdNET to determine the species occurring at our
+sites. The range at WhiCh an acoustic recorder can detect a species varies based on the environment ， the traits Of
+the species' vocalisations ， and the recording hardware used65. Nonetheless, acoustic recorders typically detect
+66
+species within a range of less than 100m ， yet larger than 50 m ， especially when combined with automated
+identification using BirdNET20 Therefore ， at other buffer sizes, we may be seeing reduced explanatory power due
+tO a mismatch in the scales Of the biodiversity metrics and the vegetation measures ， such as when vegetation data
+are only available for a 50 m buffer while acoustic recorders capture diversity within a 100 m radius. Conversely,
+irrelevant variability may be included if the buffer is too large, diminishing its explanatory power. This aligns
+with previous findings that local conditions are more important than the surrounding environment for bird
+diversity4 ， ， suggesting that while very small buffers may miss important resources, larger buffers incorporate
+less influential landscape features. lt is worth noting that while we used the same buffer for all species, there is
+34
+likely an effect of scale when investigating species individually, as others have found · Thus ， our findings suggest
+that using passive acoustic monitoring, a 100 m buffer effectively describes the spatial relationship between
+vegetation characteristics and overall bird diversity.
+NDVI as a better predictor Of bird diversity
+Although vegetation volume was expected tO be a superior predictor ofbird diversity, given its ability tO describe
+urban vegetation in three dimensions ， we found NDVI to be more effective. This is especially interesting
+considering NDVI and vegetation volume correlate well at the smaller buffers ， including the 100 m buffer. While
+NDVI and vegetation volume show strong correlations at smaller buffer sizes (e.g., 100 m) ， this correlation
+weakens at larger scales. lrrespective Of this divergence at larger scales, NDVI consistently explained more
+variance in our diversity metrics than vegetation volume ， even at smaller buffer Sizes where the tWO measures
+are highly correlated. lhis suggests that the additional information contained in NDVI values, beyond just
+vegetation presence and volume, contributes meaningfully tO its predictive power for bird diversity.
+Here, we suggest two potential explanations for this: 0 ） as suggested above, NDVI also quantifies properties
+of the non-vegetated pixels, and （ 2 ） NDVI quantifies additional properties of the vegetation beyond volume.
+Regarding explanation one ， a key difference between our NDVI and vegetation volume maps is that NDVI
+provldes values area-wide. ln contrast, the vegetation volume map only provides data for pixels identified as
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio

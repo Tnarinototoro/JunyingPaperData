@@ -1,0 +1,543 @@
+Management behavior and associated factors in urban parks engaged in nature restoration
+An exploratory analysis using a questionnaire survey of 39 parks in Japan and structural equation modeling
+
+
+Abstract
+
+Nature restoration in urban parks requires the coordination of conservation activities and recreational use. This study used a questionnaire survey of park managers at 39 parks in Japan to examine conservation activities, responses to recreational use, efforts to balance conservation and recreational use, and stakeholder involvement. Associations with management conditions were explored using structural equation modeling (SEM). Efforts to balance conservation and recreational use centered on engagement with users through experiential and educational activities, whereas spatial separation and related measures were less common. The categories of nonimplementation differed across items in the relative proportions of responses indicating a recognized need for action and those indicating the absence of an established policy. Conservation activities were widely implemented, although the removal of non-native species and habitat management were also frequently identified as management issues. In the SEM, the coefficients linking social norms, which primarily represented stakeholder involvement, to environment-focused behavior and balance-oriented behavior were both positive. Associations with environmental quality, representing greenness, differed in sign between these two behaviors, and the proportion of variance explained in user-focused behavior was low. These findings were used to interpret management orientations in terms of six types: nature restoration, conservation, experience-and-education, spatial separation, integrated, and selective-use. The study provides insights for examining park-specific approaches to balancing conservation and recreational use by considering management arrangements and environmental conditions alongside managers' policies.
+
+Keywords
+Urban parks; Nature restoration; Park management; Conservation–recreation conflict; Structural equation modeling
+
+
+1. Introduction
+
+1.1. Background
+
+Biodiversity conservation emphasizes the restoration of degraded ecosystems alongside the protection of existing natural environments. The Kunming–Montreal Global Biodiversity Framework, adopted in 2022, aims to halt and reverse biodiversity loss by 2030. Alongside the effective conservation and management of at least 30% of terrestrial and inland water areas and coastal and marine areas (Target 3), the framework calls for improvements in the area, quality, connectivity, and accessibility of green and blue spaces in urban and densely populated areas (Target 12) (Convention on Biological Diversity [CBD], 2022). Japan has also adopted the 30by30 Roadmap and the National Biodiversity Strategy and Action Plan of Japan 2023–2030 to advance efforts toward a nature-positive future (Ministry of the Environment, 2022, 2023).
+
+Urban parks provide opportunities for recreation and contact with nature (Chiesura, 2004) and serve as habitats for plants and animals within cities (Nielsen et al., 2014). Because urban biodiversity is associated with factors such as green space area, connectivity, and vegetation structure (Beninde et al., 2015), management within parks needs to be considered in relation to the surrounding environment. A decline in direct human interactions with nature has also been reported (Soga and Gaston, 2016). Against this background, this study focuses on the coordination of conservation and recreational use in parks that provide opportunities for contact with nature.
+
+However, nature restoration and recreational use are not always compatible. Changes in vegetation management or rules governing recreational use can generate conflict with established uses or users' perceptions of nature (Gobster, 2001). The impacts of recreation on organisms and their habitats may vary with the activities involved, use intensity, and environmental conditions (Monz et al., 2013; Larson et al., 2016). Park managers therefore need to combine routine management, facilities, rules governing recreational use, spatial arrangements, and information provision according to conservation targets and actual patterns of use.
+
+Linking ecological conditions with management practice remains a challenge in managing urban green spaces for biodiversity (Aronson et al., 2017). Research on participation and collaboration in environmental management has emphasized the importance of incorporating stakeholder knowledge into decision-making and examining decision-making processes and relationships among stakeholders (Reed, 2008; Bodin, 2017). Studies of green space managers have also examined the implementation of biodiversity measures and the management conditions associated with their implementation (Brocki et al., 2025).
+
+Understanding conservation–recreation conflict in urban parks therefore requires identifying the measures that managers implement and the issues they recognize. Even where policies favor conservation, necessary measures are not always implemented because user requests and complaints, as well as conditions for implementation, must also be considered. This study examines the conditions associated with efforts to balance conservation and recreational use in parks engaged in nature restoration, as well as the issues evident in both unimplemented measures and ongoing activities. By relating implementation, recognition of management issues, and management conditions, the study provides a basis for considering approaches suited to the conditions of individual parks.
+
+1.2. Previous research and the present study
+
+Research on biodiversity in urban parks has identified spatial and vegetation-related conditions that support species richness (Beninde et al., 2015; Nielsen et al., 2014). Studies of the ecological impacts of recreation also indicate that relationships between recreational use and conservation need to be examined in relation to the activities and environmental conditions involved, rather than treated uniformly (Monz et al., 2013; Larson et al., 2016). Applying these findings to park management requires attention not only to ecological conditions but also to the stakeholders responsible for implementation and the implementation process.
+
+Among studies using SEM to examine parks in relation to the living environment, Zhao et al. (2024) analyzed the relationships of private garden area, satisfaction with greenness in the city and around the place of residence, and the frequency of visits to urban parks and neighborhood open spaces with subjective well-being. Drawing on a questionnaire survey of residents, Tsukada et al. (2020) used factor analysis to organize items concerning interest in a greening policy vision, satisfaction with the living environment, and needs for improvements to block parks, and examined their relationships with park satisfaction and frequency of use. Whereas these studies focused on residents' evaluations and recreational use, the present study treats the park as the unit of analysis and examines associations between management practices and conditions for implementation.
+
+The theory of planned behavior (TPB) has been widely applied in research on pro-environmental behavior (Ajzen, 1991; Yuriev et al., 2020). In urban green spaces, studies have examined citizens' participation in governance (Huang et al., 2021) and park users' anti-littering behavior (Fenitra et al., 2023). Research on land managers has also analyzed biodiversity conservation intentions among farmers and forest owners (Maleksaeidi and Keshavarz, 2019; Koskela and Karppinen, 2024). In contrast to these studies of individual intentions, examining measures implemented by park management organizations requires consideration of decision-making authority, organizational policies, budgets, collaborating stakeholders, and existing facilities, in addition to respondents' perceptions.
+
+Our previous study (Chen and Fukahori, 2026) organized accounts from park managers and other respondents in five cases in Saitama Prefecture according to three management orientations: Environmental Focus, Balanced, and User Focus. It examined differences in management orientations in relation to surrounding land use, internal park conditions, management policies, and relationships with relevant stakeholders. This qualitative study compared policies expressed in the accounts and the relative emphasis placed on conservation and recreational use.
+
+The present study draws on that qualitative research to develop questionnaire items and compare management practices across 39 parks engaged in nature restoration. Using a common set of questions, it compares implementation, categories of nonimplementation, recognition of management issues, and stakeholder involvement, and explores their associations with management conditions. Its distinctive focus is on specific measures through which management responses associated with the three orientations are combined within the same park.
+
+1.3. Objectives and analytical framework
+
+This study aims to characterize the implementation of measures for coordinating conservation and recreational use in urban parks engaged in nature restoration and to examine management issues and associated conditions. Two research questions are addressed.
+
+First, what characteristics are evident in conservation activities, responses to recreational use, efforts to balance conservation and recreational use, and stakeholder involvement? This question concerns the distributions of implementation, categories of nonimplementation, and recognition of conservation-related management issues.
+
+Second, how are stakeholder involvement in conservation activities, user responses as reported by managers, and greenness within and outside parks associated with environment-focused behavior, balance-oriented behavior, and user-focused behavior? This question examines whether stakeholder involvement is associated with both conservation and balancing efforts, how user requests and complaints relate to responses concerning safety and amenities, and whether associations with environmental conditions differ according to the content of management behavior.
+
+TPB provides a perspective for organizing these associations. The theory explains relationships among attitudes, subjective norms, perceived behavioral control, behavioral intentions, and behavior (Ajzen, 1991). Park management requires coordination among conservation policies, user requests, and conditions for implementation. A perspective that distinguishes expectations from others concerning behavior, evaluations of behavior, and conditions for carrying it out is therefore used to examine associations with management responses. This survey addresses management responses at the park level and does not directly measure individual managers' attitudes, subjective norms, perceived behavioral control, or behavioral intentions. Accordingly, the study is positioned as an exploratory analysis of associations informed by a TPB perspective.
+
+In this study, nature restoration refers to efforts aimed at restoring natural environments; the analysis of management behavior also includes conservation activities that maintain existing natural environments. Recreational use encompasses the use of facilities, walking, collecting organisms, and visits with pets, among other activities. Park management is examined through three aspects: conservation and restoration of natural environments (environment-focused behavior), coordination of conservation and recreational use (balance-oriented behavior), and user safety, amenities, and the accommodation of recreational use (user-focused behavior). Operational definitions and calculation methods for the concepts are presented in Tables 1 and 2.
+
+Fig. 1 shows the relationships among the research questions, questionnaire content, and analytical methods. Descriptive statistics characterize the distribution of practices and issues, while exploratory factor analysis supports the examination of indicator composition. SEM examines associations between the three forms of management behavior and management conditions. The discussion relates these findings to comparisons of management issues and practices.
+
+Fig. 1. Analytical framework of the study.
+
+[Research objective]
+Identify management practices, issues, and associated conditions
+in coordinating nature restoration and recreational use
+                                      ↓
+[Questionnaire survey: park managers at 39 parks engaged in nature restoration in Japan]
+Unit of analysis: park
+• Conservation, recreational use, and balancing practices and issues (Q2, Q4, Q5, and Q9)
+• Stakeholder involvement and funding (Q3 and Q6)
+• Requests, complaints, and responses (Q7 and Q8)
+                                      │
+             ┌────────────────────────┴─────────────────────────┐
+             ↓                                                  ↓
+[Research question I]                              [Research question II]
+Characterize management                           Examine conditions associated
+practices and issues                              with management behavior
+
+Descriptive statistics (Q2–Q5)                     Indicator construction and reassessment
+• Implementation                                  (Tables 1 and 2)
+• Categories of nonimplementation                 ← Greenness within and outside parks (NDVI)
+• Recognition of management issues                └ Reassessment of Q5 items after the initial SEM
+• Stakeholder involvement                           (exploratory factor analysis: Table 7)
+                                                                 ↓
+                                                  Re-estimation of exploratory SEM (Fig. 2)
+                                                  Explanatory constructs:
+                                                  Social norms; User attitudes;
+                                                  Environmental quality
+                                                  Behavioral constructs:
+                                                  Environment-focused behavior;
+                                                  Balance-oriented behavior;
+                                                  User-focused behavior
+             │                                                  │
+             └────────────────────────┬─────────────────────────┘
+                                      ↓
+[Integration of results and discussion]
+Characterize efforts to balance conservation and recreational use and associated issues
+Examine associations of management arrangements and environmental conditions
+with management behavior
+Organize six types for comparing management orientations
+
+Note: Arrows indicate the correspondence between the data and the final analyses. Indicator definitions and calculation methods are presented in Tables 1 and 2; individual SEM paths and estimates are shown in Fig. 2.
+
+
+2. Methods
+
+2.1. Study parks and survey methods
+
+The study included 39 parks and green spaces engaged in nature restoration that were established and managed under the Urban Parks Act (Act No. 79 of 1956). Selection considered geographical coverage, environmental types such as forests, waterside environments, and satoyama landscapes, and diversity in management organizations. Priority was given to parks certified as, or considered candidates for, Nationally Certified Sustainably Managed Natural Sites. Where one organization managed several parks, a maximum of three parks with differing environmental conditions were selected.
+
+The parks were selected to compare differences in nature restoration practices and management conditions.
+
+The survey was conducted in Japanese between October 2024 and February 2025. The primary respondents were government officials and designated managers; in some cases, collaborating organizations or experts involved in nature restoration were asked to respond. Hereafter, these respondents are collectively referred to as park managers. Respondents were asked to report on management in their respective parks, and the park was the unit of analysis.
+
+The relevant departments and organizations were identified through local government and designated manager websites and related sources. Questionnaires were distributed and returned by post or email; in some cases, interviews were conducted online via Zoom or on site. Fig. 1 shows the correspondence between the main questionnaire topics and analytical methods. Rules governing recreational use (Q1) were treated as background information on park management. Questionnaire items were developed from management responses and issues identified in the previous study of five cases (Chen and Fukahori, 2026).
+
+The full questionnaire, including response options and instructions, is provided in Appendix A. Definitions of the indicators used in the analysis, their correspondence with questionnaire items, and their calculation methods are presented in Tables 1 and 2.
+
+
+2.2. Construction and calculation of indicators
+
+Three explanatory latent variables—social norms, user attitudes, and environmental quality—and three behavioral latent variables—environment-focused behavior, balance-oriented behavior, and user-focused behavior—were specified. Tables 1 and 2 present their operational definitions, observed indicators, and calculation methods.
+
+Social norms comprised the involvement of government agencies, designated managers, citizens, experts, and other stakeholders in conservation activities, together with the breadth of complaint types concerning vegetation and wildlife management. Stakeholder involvement was measured as the proportion of stakeholder–activity combinations for which involvement was reported. User attitudes were constructed primarily from managers' reports of the volume and resolution of requests and complaints, together with greenness outside the park. Ecology-related complaint volume was measured using four-category ratings of complaint volume, and conflict resolution difficulty using four-category ratings of resolution status.
+
+Environmental quality was represented by the normalized difference vegetation index (NDVI) within and outside each park. NDVI is calculated from near-infrared and red reflectance and provides an indicator of vegetation condition and change (Tucker, 1979; Pettorelli et al., 2005). In this study, mean NDVI values within and outside parks were separately standardized as Z-scores and used as proxies for greenness.
+
+Table 1. Operational definitions and calculation methods for explanatory latent variables and observed indicators
+
+[Operational definitions of latent variables]
+Social norms: Management conditions comprising stakeholder involvement in conservation activities, including government agencies, designated managers, citizens, and experts, together with the breadth of complaint types concerning vegetation and wildlife management.
+User attitudes: Management conditions constructed primarily from managers' reports of requests and complaints concerning vegetation and wildlife management and their resolution, together with greenness outside the park.
+Environmental quality: Greenness represented by NDVI within parks and in their surroundings.
+
+Latent variable | Observed indicator | Questionnaire items and calculation | Score range | Notes
+Social norms | Public-sector and designated-manager leadership | Total number of selections indicating government agency or designated manager involvement in Q3, divided by 16 (2 stakeholder types × 8 activities). This is the proportion of stakeholder–activity combinations involving government agencies or designated managers. | 0–1 | Breadth of government agency and designated manager involvement across activities.
+Social norms | Citizen–expert collaboration | Total number of selections indicating involvement by NPOs/citizen groups, general groups, park users/nearby residents, educational and research institutions, and experts in Q3, divided by 40 (5 stakeholder types × 8 activities). | 0–1 | Breadth of involvement by citizens, experts, and related stakeholders across activities. The category “Other” was excluded from the calculation.
+Social norms | Breadth of complaint types | Total number of selections for Q7 item 1 (vegetation management) and item 2 (wildlife management), divided by 2. | 0–1 | Covers the two domains of vegetation and wildlife management. A shared indicator that also loads on user attitudes.
+User attitudes | Breadth of complaint types | As above. | 0–1 | A shared indicator that also loads on social norms.
+User attitudes | Ecology-related complaint volume | Mean ratings of the volume of complaints concerning vegetation and wildlife in Q8: “most frequent” = 4, “frequent” = 3, “some” = 2, and “none” = 1. | 1–4 | Managers' four-category ratings of complaint volume.
+User attitudes | Conflict resolution difficulty | Mean ratings of resolution status for complaints concerning vegetation and wildlife in Q8: “cannot be resolved” = 4, “half or fewer resolved” = 3, “half or more resolved” = 2, and “all resolved” = 1. | 1–4 | Four-category ratings of complaint handling and resolution.
+User attitudes | Outside-park greenness (Z-score) | Mean NDVI outside the park, standardized as a Z-score. | Continuous | Greenness surrounding the park. Also loads on environmental quality.
+Environmental quality | Outside-park greenness (Z-score) | As above. | Continuous | A shared indicator that also loads on user attitudes.
+Environmental quality | Within-park greenness (Z-score) | Mean NDVI within the park, standardized as a Z-score. | Continuous | Greenness within the park.
+
+Among the behavioral indicators, environmental management resource adequacy was calculated using a for the acquisition of project funding for nature restoration, b for the allocation of necessary expenditure from the park maintenance budget, and c for the number of items affected by budget shortages:
+
+R = {a + b + (6 − c)/6}/3
+
+For a and b, “yes” was coded as 1 and “no” as 0; c ranged from 0 to 6. The number of budget-shortage items was reverse-coded and converted to a 0–1 scale, after which the three components were averaged with equal weights. R ranges from 0 to 1 and combines funding availability with the proportion of areas not affected by budget shortages.
+
+Q4 first asked whether each measure was implemented and, if so, how its environmental impacts were perceived and addressed. These responses were divided into measures relating to safety and everyday amenities and those relating to the acceptance of particular recreational activities. Two composite scores were then constructed using the coding in Table 2.
+
+Table 2. Operational definitions and calculation methods for behavioral latent variables and observed indicators
+
+[Operational definitions of latent variables]
+Environment-focused behavior: Constructed from indicators of conservation activity implementation and recognition of management issues (Q2), together with funding and budget shortages (Q6).
+Balance-oriented behavior: Constructed from indicators of consultation, surveys, and outreach activities (Q2), together with the implementation of, perceived need for, and policies on measures to balance conservation and recreational use (Q5).
+User-focused behavior: Constructed from two composite scores combining implementation and responses to environmental impacts (Q4), together with the safety measure implementation rate (Q9).
+
+Latent variable | Observed indicator | Questionnaire items and calculation | Score range | Notes
+Environment-focused behavior | Direct ecological management behavior | Number of implemented activities among Q2 items 2 (habitat creation and management), 3 (protection of rare species and transplantation of native species), 4 (removal and control of non-native species), and 8 (planting based on locally indigenous and native species), divided by 4. | 0–1 | Proportion of the four specified activities implemented.
+Environment-focused behavior | Environmental conservation awareness | Number of items identified as management issues in the right-hand part of Q2, divided by 8. | 0–1 | Breadth of recognition of conservation-related management issues.
+Environment-focused behavior | Environmental management resource adequacy | R = {a + b + (6 − c)/6}/3. a: acquisition of project funding for nature restoration in Q6(1) (yes = 1; no = 0). b: allocation of necessary expenditure from the park maintenance budget in Q6(2) (same coding). c: number of items affected by budget shortages in Q6(3) (0–6). | 0–1 | Composite score combining funding availability with fewer areas of budget shortage.
+Environment-focused behavior | Outreach-oriented management behavior | Number of implemented activities among Q2 items 1 (review meetings/councils), 5 (environmental surveys/monitoring), 6 (visitor information/displays), and 7 (environmental education), divided by 4. | 0–1 | A shared indicator that also loads on balance-oriented behavior.
+Balance-oriented behavior | Outreach-oriented management behavior | As above. | 0–1 | A shared indicator that also loads on environment-focused behavior.
+Balance-oriented behavior | Alignment of spatial design and use regulation | Mean scores for Q5 items 2 (Spatial separation, buffering, and light-pollution control), 6 (Spatial separation of recreational activities), and 7 (Awareness-raising and park etiquette promotion), calculated as the sum of item scores divided by 3. Coding: “implemented” = 3; “need recognized but not implemented” = 2; “no policy and not implemented” = 1; unknown/no response = 0. | 0–3 | Composite score for measures relating to spatial coordination and regulation of recreational use. Item composition was informed by the exploratory factor analysis of seven items (Section 3.5). Item 3 was excluded from both indicators but retained in the descriptive summaries.
+Balance-oriented behavior | Alignment of management operations, experience, and empathy | Mean scores for Q5 items 1 (Provision of nature observation opportunities), 4 (Experiential conservation events), 5 (Facilities using natural materials), and 8 (Biological surveys, monitoring, and environmental education), calculated as the sum of item scores divided by 4. Coding: “implemented” = 3; “need recognized but not implemented” = 2; “no policy and not implemented” = 1; unknown/no response = 0. | 0–3 | Composite score for measures relating to management and nature experiences. Constructed using the same exploratory grouping of items.
+User-focused behavior | Basic amenity and safety provision | Mean scores for Q4 items 1 (removal of hazardous species), 2 (nature-based events and information provision), 4 (barrier-free access and paving with non-natural materials on main paths), and 5 (installation of trash bins), calculated by summing scores, including zeros, across all four items and dividing by 4. Coding: 0 = not implemented, or implemented but no response on impacts; 1 = impacts improved through countermeasures or other adjustments; 2 = need for improvement recognized but no countermeasures taken; 3 = no problems and no countermeasures taken; 4 = impacts tolerated without countermeasures. | 0–4 | Implementation and responses to impacts relating to safety and everyday amenities. A direct path from user attitudes was specified.
+User-focused behavior | Tolerance of active, high-load recreational use | Mean scores for Q4 items 3 (eating/drinking, BBQ, etc.), 6 (water-based recreation/fishing), 7 (insect collecting), 8 (release of organisms from outside the park/feeding animals), 9 (pet access/dog runs), and 10 (concerts/musical performances, including use of lighting, video, and sound equipment), calculated by summing scores, including zeros, across all six items and dividing by 6. Coding: 0 = not implemented, or implemented but no response on impacts; 1 = impacts improved through countermeasures or other adjustments; 2 = need for improvement recognized but no countermeasures taken; 3 = no problems and no countermeasures taken; 4 = impacts tolerated without countermeasures. | 0–4 | Acceptance of the specified recreational activities and responses to their environmental impacts.
+User-focused behavior | Safety measure implementation rate | Number of safety measures implemented in Q9, divided by 8. | 0–1 | Proportion of the eight specified measures implemented.
+
+2.3. Analytical methods and treatment of unknown responses
+
+First, responses to Q2, Q4, and Q5 were summarized as numbers and percentages of parks. Implementation and recognition of management issues in Q2 were tabulated separately. Percentages were calculated using all 39 parks as the denominator, including unknown responses for each item. Responses to impacts in Q4 were likewise expressed as percentages of all 39 parks. Q3 allowed multiple responses, and the activity profile for each stakeholder type was summarized using within-row percentages of reported involvement.
+
+In the descriptive summaries, “unknown” in Q5 and “implementation unknown” and “issue recognition unknown” in Q2 were presented as separate categories. In Table 4, the category “implemented; no response on impacts” in Q4 was distinguished from nonimplementation and included in the number of implementing parks. The coding in Table 2 was applied to the SEM composite scores.
+
+Second, SEM was used to examine associations between the three forms of management behavior and the explanatory conditions. The questions elicited different types of information, including activity implementation, stakeholder involvement, funding, requests, and complaints. Indicator construction therefore reflected the purpose of each measure. The content classifications and calculation methods in Table 2 were used to summarize the extent of activity implementation and issue recognition in Q2, and funding availability and areas of shortage in Q6. As Q4 asked about perceptions of and responses to the impacts of implemented measures, its scores combined implementation and impact responses. Indicators from the other questions were similarly constructed using the methods in Tables 1 and 2 to reflect the information collected, such as proportions of stakeholder involvement and ratings of requests and complaints.
+
+Q5 covered different measures, including spatial coordination, regulation of recreational use, and experiential and educational activities, under the common purpose of balancing conservation and recreational use. When the item composition of the two Q5-based observed indicators was reconsidered on an exploratory basis following the initial SEM results, exploratory factor analysis was used as an auxiliary analysis to examine how the measures grouped together.
+
+Both the eight-item and seven-item analyses used the 0–3 item scores shown in Table 2. The number of factors was fixed at two. Principal axis factoring based on the correlation matrix was used, followed by Varimax rotation with Kaiser normalization. The maximum number of iterations was set to 25 for both extraction and rotation. Missing-value handling was set to listwise deletion; zeros assigned to unknown responses or no response were not defined as missing and were included in the analyses. Coefficients in the output were sorted by magnitude, and those with absolute values below 0.30 were suppressed.
+
+In the initial eight-item analysis, the absolute rotated loadings of item 3 on both factors were below 0.30. The remaining seven items were therefore reanalyzed using the same settings. Based on the output and item content, two composite indicators were constructed as mean scores: one comprising items 2, 6, and 7, and the other items 1, 4, 5, and 8, as shown in Table 2. Item 3 was retained in the descriptive summaries.
+
+Exploratory factor analysis was conducted using IBM SPSS Statistics 25, and SEM using IBM SPSS Amos 26. The same survey data were used to revise the Q5 item composition and reestimate the SEM. The final model was treated as an exploratory model of associations.
+
+The model comprised three explanatory and three behavioral latent variables, with 16 unique observed variables. Breadth of complaint types, outside-park greenness, and outreach-oriented management behavior were each specified to receive loadings from two latent variables. For basic amenity and safety provision, a direct path from user attitudes was specified in addition to the loading from user-focused behavior. Model fit was assessed using χ², degrees of freedom, CMIN/DF, GFI, AGFI, and RMSEA. Path coefficients, loadings, and squared multiple correlations (SMCs) were interpreted on an exploratory basis as associations between management responses and conditions.
+
+2.4. Use of the previous study and publicly available information
+
+The previous qualitative study of five cases (Chen and Fukahori, 2026) informed questionnaire development and the interpretation of management issues. Information on conservation activities, facilities, recreational use rules, and management stakeholders published on the study parks' official websites was used as supplementary material to understand management practices. Quantitative comparisons were based on responses to the present questionnaire.
+
+In the discussion, the Q2–Q5 results were considered from four perspectives—management orientations, the character of conservation activities, approaches to balancing conservation and recreational use, and acceptance of recreational use—and presented as six interpretive types.
+
+
+3. Results
+
+3.1. Measures to balance conservation and recreational use (Q5)
+
+Q5 included eight items with the response categories “implemented,” “need recognized but not implemented,” and “no policy and not implemented.” Table 3 presents their distributions, including unknown responses.
+
+Table 3. Implementation of measures to balance conservation and recreational use (n = 39; number of parks [%])
+
+Item | Implemented | Need recognized but not implemented | No policy and not implemented | Unknown
+7 Awareness-raising and park etiquette promotion | 32 (82.1) | 1 (2.6) | 6 (15.4) | 0 (0.0)
+3 Conservation of hazardous species and protection of park users | 30 (76.9) | 1 (2.6) | 7 (17.9) | 1 (2.6)
+4 Experiential conservation events | 28 (71.8) | 8 (20.5) | 3 (7.7) | 0 (0.0)
+5 Facilities using natural materials | 28 (71.8) | 4 (10.3) | 6 (15.4) | 1 (2.6)
+1 Provision of nature observation opportunities | 24 (61.5) | 2 (5.1) | 13 (33.3) | 0 (0.0)
+6 Spatial separation of recreational activities | 22 (56.4) | 1 (2.6) | 15 (38.5) | 1 (2.6)
+8 Biological surveys, monitoring, and environmental education | 18 (46.2) | 5 (12.8) | 15 (38.5) | 1 (2.6)
+2 Spatial separation, buffering, and light-pollution control | 17 (43.6) | 2 (5.1) | 13 (33.3) | 7 (17.9)
+
+Note: Item numbers follow the questionnaire. Percentages use all 39 parks as the denominator. Items are listed in descending order of implementation rate. Unknown responses are shown separately.
+
+Balancing measures differed in uptake between those addressing users' understanding and experiences and those based on separating recreational activities spatially. Awareness-raising and park etiquette promotion and experiential conservation events were implemented in more than 70% of parks, whereas spatial separation of recreational activities and spatial separation, buffering, and light-pollution control were less widespread. However, biological surveys, monitoring, and environmental education were undertaken in fewer than half of the parks, indicating that measures with educational content also varied in implementation.
+
+Among the categories of nonimplementation, “no policy and not implemented” exceeded “need recognized but not implemented” for seven of the eight items. Experiential conservation events were the only exception, with more parks recognizing a need without implementation than reporting no policy.
+
+Unknown responses also varied by item: they accounted for 17.9% of responses on spatial separation, buffering, and light-pollution control, compared with 0–2.6% for the other items.
+
+3.2. Responses to recreational use and perceptions of environmental impacts (Q4)
+
+Q4 asked about implementation of ten measures and, where implemented, responses to their environmental impacts. Implementation included permitting the recreational activity concerned. Table 4 presents the response distributions.
+
+Table 4. Implementation of measures relating to recreational amenities and responses to environmental impacts (n = 39; number of parks [%])
+
+Item | Not implemented | Implemented; no problems | Implemented; impacts improved | Implemented; impacts tolerated | Implemented; improvement needed | Implemented; no response on impacts
+1 Removal of hazardous species | 2 (5.1) | 18 (46.2) | 12 (30.8) | 3 (7.7) | 1 (2.6) | 3 (7.7)
+2 Nature-based events and information provision | 2 (5.1) | 25 (64.1) | 8 (20.5) | 0 (0.0) | 0 (0.0) | 4 (10.3)
+9 Pet access/dog runs | 2 (5.1) | 14 (35.9) | 10 (25.6) | 4 (10.3) | 5 (12.8) | 4 (10.3)
+4 Paving with non-natural materials | 4 (10.3) | 19 (48.7) | 6 (15.4) | 7 (17.9) | 0 (0.0) | 3 (7.7)
+10 Concerts/musical performances (including the use of lighting and other equipment) | 12 (30.8) | 11 (28.2) | 6 (15.4) | 5 (12.8) | 0 (0.0) | 5 (12.8)
+7 Unrestricted insect collecting | 20 (51.3) | 5 (12.8) | 5 (12.8) | 2 (5.1) | 4 (10.3) | 3 (7.7)
+3 Eating/drinking facilities (BBQ, etc.) | 22 (56.4) | 9 (23.1) | 4 (10.3) | 1 (2.6) | 1 (2.6) | 2 (5.1)
+8 Release of organisms from outside the park/feeding animals | 28 (71.8) | 1 (2.6) | 3 (7.7) | 0 (0.0) | 2 (5.1) | 5 (12.8)
+5 Installation of trash bins | 29 (74.4) | 2 (5.1) | 1 (2.6) | 0 (0.0) | 3 (7.7) | 4 (10.3)
+6 Water-based recreation (boating/fishing) | 30 (76.9) | 3 (7.7) | 2 (5.1) | 0 (0.0) | 2 (5.1) | 2 (5.1)
+
+Note: Percentages in each category use 39 parks as the denominator. The implementation rate is the sum of the five categories other than “not implemented,” including “implemented; no response on impacts.” Environmental impacts and improvements represent managers' reported assessments.
+
+Responses to recreational use included measures common to most parks, such as safety provision and information provision, and activities accepted in fewer parks, such as eating/drinking, water-based recreation, and collecting. Four items were implemented in approximately 90% of parks, whereas five were not implemented in more than half; concerts/musical performances occupied an intermediate position.
+
+Implementation rates also varied within the two item groups used to construct the SEM indicators. Installation of trash bins, included in basic amenity and safety provision, was uncommon, whereas pet access/dog runs, included in tolerance of active, high-load recreational use, were widely accepted. Differences in responses to recreational use were thus also evident in the specific facilities and activities concerned.
+
+Even where implementation rates were equal, response profiles concerning environmental impacts differed. Responses on nature-based events and information provision were dominated by “no problems,” whereas responses on pet access/dog runs were also distributed across “impacts improved,” “impacts tolerated,” and “improvement needed.” Responses to recreational use therefore differed in two respects: the extent of implementation or acceptance, and the assessment and management of impacts associated with the measures implemented.
+
+3.3. Conservation activities and recognition of management issues (Q2)
+
+Q2 separately asked about implementation and recognition of management issues for eight conservation activities. Respondents were asked about issue recognition regardless of whether an activity was implemented. Table 5 presents the response distributions.
+
+Table 5. Implementation of conservation activities and recognition of management issues (n = 39; number of parks [%])
+
+Item | Implemented | Not implemented | Implementation unknown | Management issues recognized | No management issues recognized | Issue recognition unknown
+1 Conservation deliberations | 28 (71.8) | 11 (28.2) | 0 (0.0) | 29 (74.4) | 4 (10.3) | 6 (15.4)
+2 Habitat management | 35 (89.7) | 3 (7.7) | 1 (2.6) | 25 (64.1) | 5 (12.8) | 9 (23.1)
+3 Protection of wild plants and animals | 34 (87.2) | 5 (12.8) | 0 (0.0) | 28 (71.8) | 5 (12.8) | 6 (15.4)
+4 Removal of non-native species | 35 (89.7) | 3 (7.7) | 1 (2.6) | 30 (76.9) | 3 (7.7) | 6 (15.4)
+5 Environmental surveys | 29 (74.4) | 9 (23.1) | 1 (2.6) | 25 (64.1) | 6 (15.4) | 8 (20.5)
+6 Visitor information/displays | 33 (84.6) | 6 (15.4) | 0 (0.0) | 29 (74.4) | 3 (7.7) | 7 (17.9)
+7 Environmental education | 32 (82.1) | 7 (17.9) | 0 (0.0) | 28 (71.8) | 4 (10.3) | 7 (17.9)
+8 Native species planting | 20 (51.3) | 19 (48.7) | 0 (0.0) | 24 (61.5) | 9 (23.1) | 6 (15.4)
+
+Note: Implementation and recognition of management issues were tabulated separately. Percentages use all 39 parks as the denominator and include unknown responses.
+
+Conservation activities encompassed both direct ecological management and visitor information/displays and environmental education. Seven of the eight activities were implemented in more than 70% of parks, whereas native species planting was limited to approximately half.
+
+The distribution of issue recognition across activities differed from that of implementation. Both implementation and issue recognition were high for removal of non-native species, whereas issue recognition exceeded implementation for native species planting and conservation deliberations. Thus, some activities were widely implemented and often identified as management issues, while others were identified as issues more often than they were implemented.
+
+Unknown responses concerning issue recognition accounted for 15.4–23.1% for each item, exceeding those concerning implementation.
+
+3.4. Stakeholder involvement in conservation activities (Q3)
+
+Q3 allowed multiple responses to identify the stakeholders involved in implemented conservation activities. Table 6 presents the activity profile for each stakeholder type, with the total number of reported instances of involvement for that type set to 100%.
+
+Table 6. Distribution of involvement in conservation activities by stakeholder type (%)
+
+Stakeholder type | Conservation deliberations | Habitat management | Protection of wild plants and animals | Removal of non-native species | Environmental surveys | Visitor information/displays | Environmental education | Native species planting
+Government agencies | 20.7 | 14.6 | 14.6 | 13.4 | 11.0 | 9.8 | 4.9 | 11.0
+Designated managers | 13.8 | 15.5 | 12.2 | 15.5 | 11.1 | 14.4 | 12.2 | 5.5
+NPOs/citizen groups | 11.3 | 18.6 | 16.5 | 16.5 | 11.3 | 9.3 | 10.3 | 6.2
+General groups | 10.4 | 18.8 | 20.8 | 14.6 | 12.5 | 12.5 | 6.3 | 4.2
+Park users/nearby residents | 8.8 | 23.5 | 14.7 | 26.5 | 17.7 | 2.9 | 0.0 | 5.9
+Educational institutions | 15.8 | 13.2 | 13.2 | 15.8 | 26.3 | 2.6 | 10.5 | 2.6
+Experts | 21.9 | 12.5 | 15.6 | 12.5 | 15.6 | 0.0 | 15.6 | 6.3
+Other | 8.7 | 21.7 | 8.7 | 13.0 | 21.7 | 0.0 | 13.0 | 13.0
+
+Note: These are within-row percentages, with total reported involvement for each stakeholder type as the denominator, and are used to compare activity profiles. A value of 0.0% indicates that no involvement was reported in the present survey.
+
+Activity profiles differed between stakeholders emphasizing deliberation and surveys and those emphasizing fieldwork. Conservation deliberations accounted for a large share of involvement among government agencies and experts, and environmental surveys among educational institutions. In contrast, habitat management, protection of wild plants and animals, and removal of non-native species accounted for larger shares among NPOs/citizen groups, general groups, and park users/nearby residents. Designated manager involvement was distributed relatively evenly across activities other than native species planting.
+
+Even within information and education activities, stakeholder profiles differed between visitor information/displays and environmental education. Experts were reported to be involved in environmental education but not visitor information/displays, whereas park users/nearby residents showed the opposite pattern. Native species planting also accounted for a small share of the activity profiles of most stakeholder types. Differences between stakeholders were evident in the range of activities in which they participated and the relative emphasis placed on particular tasks within that range.
+
+3.5. Exploratory examination of Q5 indicator composition
+
+Table 7 presents the rotated factor loadings from the initial eight-item analysis and the seven-item reanalysis excluding item 3. The seven-item analysis included 39 parks. The Kaiser–Meyer–Olkin (KMO) measure was 0.565, and Bartlett's test of sphericity yielded χ²(21) = 44.321, p = 0.002. The cumulative proportion of variance explained after extraction was 37.8%, with rotated contributions of 21.5% for Factor 1 and 16.3% for Factor 2. Varimax rotation converged after three iterations in both analyses. “Suppressed” indicates loadings omitted from the output because their absolute values were below 0.30; “Excluded” indicates that the item was not included in the seven-item analysis.
+
+Table 7. Comparison of rotated factor loadings for Q5 and extracted communalities in the seven-item analysis
+
+Item number and content | Initial eight-item analysis: Factor 1 | Initial eight-item analysis: Factor 2 | Seven-item reanalysis: Factor 1 | Seven-item reanalysis: Factor 2 | Seven-item analysis: extracted communality
+6 Spatial separation of recreational activities | 0.827 | Suppressed | 0.902 | Suppressed | 0.845
+2 Spatial separation, buffering, and light-pollution control | 0.629 | Suppressed | 0.568 | Suppressed | 0.330
+7 Awareness-raising and park etiquette promotion | 0.509 | Suppressed | 0.493 | Suppressed | 0.243
+3 Conservation of hazardous species and protection of park users | Suppressed | Suppressed | Excluded | Excluded | Excluded
+5 Facilities using natural materials | Suppressed | 0.721 | Suppressed | 0.652 | 0.476
+4 Experiential conservation events | Suppressed | 0.518 | Suppressed | 0.577 | 0.336
+1 Provision of nature observation opportunities | Suppressed | 0.422 | Suppressed | 0.419 | 0.176
+8 Biological surveys, monitoring, and environmental education | Suppressed | 0.398 | Suppressed | 0.411 | 0.244
+
+For the seven items other than item 3, loadings were displayed on the same factor in both analyses. Factor 1 comprised spatial separation and layout considerations together with park etiquette and awareness-raising, whereas Factor 2 comprised facilities using natural materials, observation, experiential activities, and education. These groupings were interpreted as spatial coordination and regulation of recreational use, and as creating opportunities for engagement with users through facilities, experiences, and education, respectively. They informed the item composition of the two composite indicators in Table 2.
+
+3.6. Exploratory SEM analysis
+
+Fig. 2 presents the estimated model examining associations between the three forms of management behavior and management conditions.
+
+Fig. 2. Structural equation modeling (SEM) results for associations with urban park management behavior
+
+[Textual representation of the SEM diagram]
+
+(A) Paths from explanatory latent variables to behavioral latent variables
+Social norms → Environment-focused behavior: 0.84
+Social norms → Balance-oriented behavior: 0.65
+Social norms → User-focused behavior: −0.18
+Environmental quality → Environment-focused behavior: −0.51
+Environmental quality → Balance-oriented behavior: 0.42
+
+(B) Direct path to an observed variable
+User attitudes → Basic amenity and safety provision: −0.45
+
+(C) Loadings from explanatory latent variables to observed variables and observed-variable SMCs
+Public-sector and designated-manager leadership: loading from social norms = 0.74; SMC = 0.55
+Citizen–expert collaboration: loading from social norms = 0.52; SMC = 0.27
+Breadth of complaint types: loading from social norms = 0.21 and from user attitudes = 0.72; SMC = 0.56
+Ecology-related complaint volume: loading from user attitudes = 0.84; SMC = 0.71
+Conflict resolution difficulty: loading from user attitudes = 0.91; SMC = 0.83
+Outside-park greenness: loading from user attitudes = 0.42 and from environmental quality = 0.41; SMC = 0.35
+Within-park greenness: loading from environmental quality = 0.14; SMC = 0.02
+
+(D) Loadings from behavioral latent variables to observed variables and observed-variable SMCs
+Direct ecological management behavior: loading from environment-focused behavior = 0.74; SMC = 0.54
+Environmental management resource adequacy: loading from environment-focused behavior = 0.54; SMC = 0.30
+Environmental conservation awareness: loading from environment-focused behavior = 0.23; SMC = 0.05
+Outreach-oriented management behavior: loading from environment-focused behavior = 0.41 and from balance-oriented behavior = 0.60; SMC = 0.69
+Alignment of spatial design and use regulation: loading from balance-oriented behavior = 0.41; SMC = 0.17
+Alignment of management operations, experience, and empathy: loading from balance-oriented behavior = 0.64; SMC = 0.41
+Basic amenity and safety provision: loading from user-focused behavior = 0.46 and direct path from user attitudes = −0.45; SMC = 0.41
+Tolerance of active, high-load recreational use: loading from user-focused behavior = 0.80; SMC = 0.65
+Safety measure implementation rate: loading from user-focused behavior = 0.23; SMC = 0.05
+
+(E) R² of endogenous latent variables
+Environment-focused behavior: 0.98
+Balance-oriented behavior: 0.60
+User-focused behavior: 0.03
+
+(F) Model fit
+χ² = 119.555; df = 100; p = 0.089
+CMIN/DF = 1.196; GFI = 0.749; AGFI = 0.659; RMSEA = 0.072
+
+Note: SMC denotes squared multiple correlation. d1–d3 represent structural disturbances of the endogenous latent variables. The significance or causal effects of individual paths cannot be determined from this display alone.
+
+3.6.1. Model fit
+
+The assessment of model fit differed across indices. The model was not rejected by the χ² test at the 5% level, although GFI and AGFI indicated room for improvement. Given these fit indices and the sample size, the measurement and structural components are considered separately below, with the results treated as exploratory.
+
+3.6.2. Relationships between latent variables and observed indicators
+
+The relationships between explanatory latent variables and observed indicators showed several patterns. Indicators of stakeholder involvement in conservation activities had relatively large loadings on social norms, whereas indicators of complaint volume and resolution status had relatively large loadings on user attitudes. The loading from environmental quality was lower for within-park greenness than for outside-park greenness. The SMC for within-park greenness was also low, at 0.02.
+
+Among the behavioral latent variables, environment-focused behavior corresponded relatively strongly to direct ecological management behavior; balance-oriented behavior to outreach-oriented management behavior and to alignment of management operations, experience, and empathy; and user-focused behavior to tolerance of active, high-load recreational use. In contrast, the model explained little of the variation in environmental conservation awareness and the safety measure implementation rate.
+
+Among the cross-loading indicators, breadth of complaint types corresponded more strongly to user attitudes than to social norms, and outreach-oriented management behavior more strongly to balance-oriented behavior than to environment-focused behavior. Outside-park greenness had similar loadings on environmental quality and user attitudes. Thus, some shared indicators had similar relationships with two constructs, whereas others corresponded more strongly to one.
+
+3.6.3. Associations between management conditions and management behaviors
+
+The structural component showed associations shared by conservation and balancing behaviors, as well as associations whose direction differed by behavior. The coefficients from social norms to both environment-focused behavior and balance-oriented behavior were positive. In contrast, the coefficient from environmental quality was negative for environment-focused behavior (−0.51) and positive for balance-oriented behavior (0.42).
+
+The proportions of variance explained also differed among the behaviors. They were relatively high for environment-focused behavior and balance-oriented behavior, whereas R² for user-focused behavior was only 0.03. The coefficient from social norms to user-focused behavior was also negative, unlike those for the other two behaviors.
+
+The direct path from user attitudes to basic amenity and safety provision was negative (−0.45), indicating an association with this composite score for safety and amenities.
+
+
+4. Discussion
+
+The following sections examine approaches to balancing conservation and recreational use, responses to recreational use, conservation activities, and stakeholder involvement in turn. These findings are considered alongside the SEM results to identify management issues and the characteristics of management practice.
+
+4.1. Experiential and educational approaches to balancing conservation and recreational use, and issues surrounding nonimplementation
+
+The widespread implementation of experiential and educational activities indicates that communicating conservation objectives to park users is employed as a means of balancing conservation and recreational use. By contrast, measures such as spatial separation and buffering adjust the spatial contact between conservation targets and recreational activities. Decisions about introducing these measures therefore need to consider the locations of conservation targets and recreational activities, as well as the types of use involved.
+
+Distinguishing the categories of nonimplementation allows two issues to be considered separately: deciding whether an approach is appropriate and establishing the conditions needed to implement an approach considered necessary. For responses classified as “no policy and not implemented,” relevant issues include the information needed to assess appropriateness and the stakeholders responsible for that judgment. For responses classified as “need recognized but not implemented,” the issue is to examine implementation conditions such as staffing, expertise, and funding. Experiential conservation events require planning and organization as well as knowledge of the organisms involved. Considering how to secure expert advice and people to undertake these activities can therefore help clarify the gap between recognizing a need and putting it into practice.
+
+4.2. Accommodating recreational use and responding to environmental impacts
+
+Responding to park users involves both ensuring safety and everyday convenience and determining the extent to which particular activities are accommodated. The distribution of Q4 responses can be understood as management that adjusts how facilities and activities are accommodated, rather than simply expanding or restricting all park use. Deciding which activities to accommodate while ensuring safety and providing information may characterize how parks undertaking nature restoration respond to users.
+
+When interpreting the absence of trash bins, it is necessary to distinguish a policy requiring users to take their trash home from implementation conditions such as disposal costs and collection arrangements. The appropriate response differs depending on whether a report of nonimplementation reflects a management-policy decision or constraints on implementation. Considering the role assigned to a facility or activity within each park, alongside the number of items implemented, allows a more concrete examination of how recreational use is accommodated.
+
+Responses to impacts after recreational use has been accommodated are another important basis for comparing management practices. Environmental impacts may vary with the type and intensity of use and with environmental conditions (Monz et al., 2013; Larson et al., 2016). The forms of recreational use termed “high-load” in this study therefore also need to be considered in their specific contexts. Interpreting differences in Q4 scores in terms of both the facilities and activities accommodated and responses to their impacts provides a way to examine adjustments that cannot be captured simply by whether use is permitted.
+
+4.3. Implementing conservation activities and maintaining policies and standards
+
+Support for conservation activities needs to address both the introduction of activities not yet implemented and the continuation of ongoing activities. The frequent identification of widely implemented Q2 activities as management issues indicates the value of examining the conditions for their continuation and review after introduction.
+
+For planting based on native species, a management issue is not only carrying out planting but also maintaining criteria for plant selection when plantings are renewed. To consider the difference in implementation rates between this and other Q2 activities, it is necessary to examine both the conditions for securing planting stock and labor and the arrangements through which conservation policies are reflected in day-to-day decisions.
+
+4.4. Stakeholder roles in connecting activities
+
+The stakeholder-specific activity profiles in Q3 provide a starting point for examining management arrangements in terms of surveys and deliberation, fieldwork, and communication with users. To use findings from environmental surveys in management decisions and reflect those decisions in fieldwork and communication, it is necessary to identify who is responsible for linking these different tasks.
+
+Differences in stakeholder involvement between visitor information and displays and environmental education also offer a basis for considering how routine information provision connects with activities conveying specialist knowledge. Research on participation and collaboration emphasizes decision-making processes and relationships among stakeholders (Reed, 2008; Bodin, 2017). Using the stakeholder-specific activity profiles identified here as a starting point, examining whose knowledge informs which decisions and who links those decisions to fieldwork and users can help clarify management arrangements in individual parks.
+
+4.5. Associations of management arrangements and greenness with the three forms of management behavior
+
+The shared positive associations of social norms with both environment-focused behavior and balance-oriented behavior offer a perspective on stakeholder involvement in conservation activities as a foundation for efforts to balance conservation and recreational use. In the measurement model, relatively large loadings were observed for involvement by government agencies and designated managers and by citizens and experts. How public management arrangements can be combined with citizen and expert participation is therefore an organizational issue relevant to both forms of management behavior.
+
+The negative association between environmental quality and environment-focused behavior (−0.51) needs to be interpreted in relation to conservation targets and management objectives. The indicators constituting environment-focused behavior include recognition of management issues and funding conditions, as well as activity implementation. Some of these activities, including habitat management, the protection and translocation of rare species, and the removal of non-native species, involve interventions to maintain or restore the environment. Given the nature of these activities, conservation efforts may be directed toward places requiring recovery or adjustment. Together with the positive association with balance-oriented behavior (0.42), the results suggest the value of distinguishing interventions aimed at maintenance and recovery from coordination with recreational use when examining the relationship between greenness and management behavior. Relating NDVI-derived greenness to actual conservation targets and park-specific management practices is needed to develop this interpretation.
+
+The coefficient from social norms to user-focused behavior was negative (−0.18), and the proportion of variance explained in this behavior was also low. Meanwhile, the direct path from user attitudes to basic amenity and safety provision was negative (−0.45). These results concern different analytical levels: a latent variable representing user-focused behavior and an observed indicator related to safety and convenience. Because the latter score combines facility and activity implementation with responses to environmental impacts, examining implementation and impact responses item by item is useful when relating user reactions to management practice.
+
+A more concrete understanding of user-focused behavior also requires attention to proximity to residential areas, park histories, operational decisions by designated managers, and recreational demand. Examining the conditions governing the provision of user services, in addition to the arrangements supporting conservation activities, is a task for future research.
+
+4.6. Integrated discussion: an overall picture of balancing conservation and recreational use and its challenges
+
+This section combines the four sets of descriptive results from Q2–Q5 with the SEM results to examine management practices underlying the coordination of conservation and recreational use and the issues associated with their implementation. The five cases examined in the previous study and publicly available information are used as supplementary sources for considering differences in management conditions.
+
+4.6.1. Components of balancing conservation and recreational use across the four sets of descriptive results
+
+Taken together, the four questions suggest that the characteristics of balancing conservation and recreational use lie in the combination of communicating conservation objectives to users and adjusting the locations and forms of use. Visitor information, displays, and environmental education in Q2, together with awareness-raising and park etiquette promotion and experiential conservation events in Q5, serve the former role. Relating these measures to the accommodation of recreational use and responses to impacts in Q4 and spatial separation in Q5 makes it possible to identify more concretely what is conserved and which uses are accommodated, and how.
+
+Q5 asks about both the provision of nature observation and conservation experience opportunities and adjustments to recreational locations. When comparing approaches to balancing conservation and recreational use, it is useful to consider the content and combination of these practices, in addition to the number of items implemented.
+
+Stakeholder-specific involvement in Q3 and the shared associations with social norms in the SEM provide a starting point for examining the arrangements supporting these combinations. The value of considering the four questions alongside SEM lies in relating the ways conservation and recreational use are connected to the arrangements supporting their implementation.
+
+4.6.2. Issues shared across parks and differences between parks
+
+Considering nonimplementation and recognition of management issues together indicates that management support needs to address not only the content of activities but also the roles involved in assessing and sharing policies and the conditions supporting implementation. The question of who is responsible for native-species planting criteria or policies on spatial separation connects with the Q3 perspective of involvement in surveys, decision-making, and practical work. Expertise, staffing, and funding can also be understood as conditions enabling these roles to be fulfilled in practice.
+
+The way these issues arise differs with location and management context. The five cases in the previous study illustrate differences in management related to location and management stakeholders, including discussions with neighboring residents at Sayama Hill Flora and Fauna Interaction Centre, wetland maintenance and responses to non-native species at Kitamoto Nature Observation Park, and citizen-led management at Kamogawa Mizubenosato Park (Chen and Fukahori, 2026). Consultation with residents, specialist responses to conservation targets, and sharing policies through citizen activities require different roles. In citizen-led management, passing on conservation policies to support the continuation of activities is also an issue when considering management arrangements.
+
+Responses to management issues shared across parks therefore also need to be tailored to conservation targets, surrounding land use, and the ways stakeholders are involved. The shared associations with management arrangements and the differing associations with environmental conditions in the SEM also provide a starting point for considering organizational and site conditions together. When drawing on practices from other parks, it is important to consider not only whether activities share the same name but also whether their objectives, decision-making stakeholders, and implementation conditions are relevant to the park concerned.
+
+4.7. Six types for comparing management orientations
+
+The aggregated Q2–Q5 results are organized into six types using four perspectives: (1) management orientation—Environmental Focus, Balanced, or User Focus; (2) the nature of conservation activities; (3) the approach to balancing conservation and recreational use; and (4) the way recreational use is accommodated. These types are an interpretive, descriptive synthesis of the questionnaire and supplementary sources, used to compare the main management characteristics of parks.
+
+4.7.1. Environmental Focus: nature restoration and conservation types
+
+The nature restoration type describes management primarily aimed at the recovery of degraded habitats or the creation of new natural environments. Activities such as habitat management and the removal of non-native species are treated as interventions aimed at restoring nature.
+
+The conservation type describes management primarily aimed at the continued maintenance and protection of existing natural environments and species. Activities such as protecting wild plants and animals and conducting environmental surveys are treated as efforts to safeguard conservation targets over time.
+
+The distinction lies in whether recovery or maintenance is the primary objective. Because habitat management and the removal of non-native species can serve either objective, it is important to relate the name of an activity to its purpose in each park.
+
+4.7.2. Balanced: experience-and-education, spatial separation, and integrated types
+
+The experience-and-education type seeks users' understanding and cooperation through experiential events, environmental education, and information provision. Its defining feature is the use of conservation activities as a point of contact with users, providing opportunities to engage with nature while communicating the objectives and content of those activities.
+
+The spatial separation type allocates separate areas to conservation and recreational use so that the two can coexist. The spatial relationship between conservation targets and recreational use is adjusted through the arrangement of use areas, buffers, and similar measures.
+
+The integrated type combines experience and education with spatial separation. It focuses on how educational engagement with users and adjustments to recreational locations are combined within the same park.
+
+4.7.3. User Focus: selective-use type
+
+The selective-use type ensures safety and everyday convenience while adjusting the range of activities accommodated according to their content. It considers measures for safety, information provision, and accessible paths alongside measures regulating the accommodation of eating and drinking, water-based activities, collecting organisms, and other uses.
+
+This type organizes responses to users in terms of differences in what is accommodated and under which conditions. Linking implementation status to the objectives of an activity in each park and responses to its environmental impacts allows a more concrete comparison of the content of user-focused behavior.
+
+4.7.4. Relationships among the six types
+
+The nature restoration and conservation types capture environmental conservation objectives; the experience-and-education, spatial separation, and integrated types capture approaches to balancing conservation and recreational use; and the selective-use type captures how recreational use is accommodated. Where a park exhibits more than one characteristic, it can be described in terms of their combination. Applying these perspectives together makes it possible to compare differences among parks in conservation objectives, recreational activities, and coordination approaches.
+
+4.8. Limitations and future research
+
+This exploratory study is based on managers' responses from a purposive sample of 39 parks undertaking nature restoration. Applying its findings requires consideration of environmental conditions, management arrangements, respondents' roles, and the timing of the survey. The inclusion of parks managed by the same organization should also be considered. Future work should examine the reproducibility of the findings by broadening the geographic coverage and range of management conditions and comparing survey responses with management records.
+
+The indicators encompass the implementation of measures, recognition of management issues, resource conditions, and responses to users, with cross-loadings specified for some indicators. Indicators among both the explanatory and behavioral constructs are also based on responses concerning the same conservation activities. The Q5 indicator composition was revised using the same sample after an initial SEM analysis. Further examination of its reproducibility is therefore needed, with attention to sampling adequacy and item communalities in the factor analysis. Given the model's complexity relative to the small sample and its fit, the SEM coefficients are interpreted as exploratory associations. Future research should refine the measurement of implemented behavior and its preconditions and examine correlation and estimation methods appropriate to the response formats, as well as the effects of coding, including assigning zero to “unknown” and “no response” in Q5. Estimation stability should also be examined using larger samples, replication in other samples, and simpler models.
+
+To translate associations obtained from manager reports at a single point in time into management improvements, it is important to document management histories, ecological conditions, and user evaluations over time. For the six types, relating park-specific practices to management objectives and examining their combinations and outcomes could further develop a framework through which parks with similar conditions can draw on one another's approaches.
+
+
+5. Conclusions
+
+This study examined conservation, recreational use, and efforts to coordinate the two, together with associated conditions, in 39 urban parks undertaking nature restoration in Japan. Experiential and educational activities and efforts to encourage appropriate user behavior were more widely implemented than spatial separation of activities or facilities. The distribution of responses indicating nonimplementation with no policy versus nonimplementation despite a recognized need also varied by activity. Among conservation activities, planting based on native species had a lower implementation rate than other activities, highlighting the need to consider the maintenance of policies and standards alongside individual tasks.
+
+In the SEM, conservation and balancing efforts both showed positive associations with social norms, which primarily represent stakeholder involvement, whereas the directions of their associations with environmental quality differed. These results indicate the value of considering management arrangements alongside greenness inside and around parks when examining management priorities in relation to conservation targets and types of recreational use. For user-focused behavior, future research also needs to examine additional conditions, including recreational demand and operational decisions, beyond the arrangements supporting conservation.
+
+Management orientations were further organized interpretively into nature restoration, conservation, experience-and-education, spatial separation, integrated, and selective-use types. The contribution of this study lies in examining activity content and its associations with management conditions using common questionnaire items across 39 parks, building on the Environmental Focus, Balanced, and User Focus management orientations identified in the previous qualitative study of five parks. Comparing experiential and educational approaches with spatial coordination in relation to conservation targets, types of recreational use, and management arrangements provides a basis for considering approaches to balancing conservation and recreational use suited to individual parks.
+
+
+References
+
+Ajzen, I. (1991). The theory of planned behavior. Organizational Behavior and Human Decision Processes, 50(2), 179–211. https://doi.org/10.1016/0749-5978(91)90020-T
+
+Aronson, M. F. J., Lepczyk, C. A., Evans, K. L., Goddard, M. A., Lerman, S. B., MacIvor, J. S., Nilon, C. H., & Vargo, T. (2017). Biodiversity in the city: Key challenges for urban green space management. Frontiers in Ecology and the Environment, 15(4), 189–196. https://doi.org/10.1002/fee.1480
+
+Beninde, J., Veith, M., & Hochkirch, A. (2015). Biodiversity in cities needs space: A meta-analysis of factors determining intra-urban biodiversity variation. Ecology Letters, 18(6), 581–592. https://doi.org/10.1111/ele.12427
+
+Bodin, Ö. (2017). Collaborative environmental governance: Achieving collective action in social-ecological systems. Science, 357(6352), eaan1114. https://doi.org/10.1126/science.aan1114
+
+Brocki, M., Christoffersen, L., Randrup, T. B., Emilsson, T., Sjöman, J. D., & Jansson, M. (2025). Green space management for biodiversity: Swedish managers’ experience of implementation and influence. Urban Forestry & Urban Greening, 113, 129126. https://doi.org/10.1016/j.ufug.2025.129126
+
+Chen, J., & Fukahori, K. (2026). Balancing biodiversity conservation and recreational use in nature-oriented parks in Saitama Prefecture, Japan. Urban Forestry & Urban Greening, 124, 129577. https://doi.org/10.1016/j.ufug.2026.129577
+
+Chiesura, A. (2004). The role of urban parks for the sustainable city. Landscape and Urban Planning, 68(1), 129–138. https://doi.org/10.1016/j.landurbplan.2003.08.003
+
+Convention on Biological Diversity. (2022). Kunming–Montreal Global Biodiversity Framework (Decision 15/4). Secretariat of the Convention on Biological Diversity. https://www.cbd.int/doc/decisions/cop-15/cop-15-dec-04-en.pdf
+
+Fenitra, R. M., Laila, N., Premananto, G. C., Abbas, A., & Sedera, R. M. H. (2023). Explaining littering prevention among park visitors using the Theory of Planned Behavior and Norm Activation Model. International Journal of Geoheritage and Parks, 11(1), 39–53. https://doi.org/10.1016/j.ijgeop.2022.11.002
+
+Gobster, P. H. (2001). Visions of nature: Conflict and compatibility in urban park restoration. Landscape and Urban Planning, 56(1–2), 35–51. https://doi.org/10.1016/S0169-2046(01)00164-5
+
+Huang, Y., Aguilar, F. X., Yang, J., Qin, Y., & Wen, Y. (2021). Predicting citizens’ participatory behavior in urban green space governance: Application of the extended theory of planned behavior. Urban Forestry & Urban Greening, 61, 127110. https://doi.org/10.1016/j.ufug.2021.127110
+
+Koskela, T., & Karppinen, H. (2024). Forest owners’ intention to safeguard forest biodiversity: An application of the theory of planned behavior. Forest Science, 70(1), 64–79. https://doi.org/10.1093/forsci/fxad044
+
+Larson, C. L., Reed, S. E., Merenlender, A. M., & Crooks, K. R. (2016). Effects of recreation on animals revealed as widespread through a global systematic review. PLOS ONE, 11(12), e0167259. https://doi.org/10.1371/journal.pone.0167259
+
+Maleksaeidi, H., & Keshavarz, M. (2019). What influences farmers’ intentions to conserve on-farm biodiversity? An application of the theory of planned behavior in Fars Province, Iran. Global Ecology and Conservation, 20, e00698. https://doi.org/10.1016/j.gecco.2019.e00698
+
+Ministry of the Environment. (2022). 30by30 Roadmap [in Japanese]. Ministry of the Environment.
+
+Ministry of the Environment. (2023). National Biodiversity Strategy and Action Plan of Japan 2023–2030 [in Japanese]. Ministry of the Environment.
+
+Monz, C. A., Pickering, C. M., & Hadwen, W. L. (2013). Recent advances in recreation ecology and the implications of different relationships between recreation use and ecological impacts. Frontiers in Ecology and the Environment, 11(8), 441–446. https://doi.org/10.1890/120358
+
+Nielsen, A. B., van den Bosch, M., Maruthaveeran, S., & van den Bosch, C. K. (2014). Species richness in urban parks and its drivers: A review of empirical evidence. Urban Ecosystems, 17(1), 305–327. https://doi.org/10.1007/s11252-013-0316-1
+
+Pettorelli, N., Vik, J. O., Mysterud, A., Gaillard, J.-M., Tucker, C. J., & Stenseth, N. C. (2005). Using the satellite-derived NDVI to assess ecological responses to environmental change. Trends in Ecology & Evolution, 20(9), 503–510. https://doi.org/10.1016/j.tree.2005.05.011
+
+Reed, M. S. (2008). Stakeholder participation for environmental management: A literature review. Biological Conservation, 141(10), 2417–2431. https://doi.org/10.1016/j.biocon.2008.07.014
+
+Soga, M., & Gaston, K. J. (2016). Extinction of experience: The loss of human–nature interactions. Frontiers in Ecology and the Environment, 14(2), 94–101. https://doi.org/10.1002/fee.1225
+
+Tsukada, S., Morita, T., & Nishio, T. (2020). An examination of how the surroundings of block parks affect park use and evaluation in Maebashi City [in Japanese]. Journal of the Japanese Institute of Landscape Architecture, 83(5), 503–508.
+
+Tucker, C. J. (1979). Red and photographic infrared linear combinations for monitoring vegetation. Remote Sensing of Environment, 8(2), 127–150. https://doi.org/10.1016/0034-4257(79)90013-0
+
+Urban Parks Act (Act No. 79 of 1956). e-Gov Laws and Regulations Database. https://elaws.e-gov.go.jp/document?lawid=331AC0000000079
+
+Yuriev, A., Dahmen, M., Paillé, P., Boiral, O., & Guillaumie, L. (2020). Pro-environmental behaviors through the lens of the theory of planned behavior: A scoping review. Resources, Conservation and Recycling, 155, 104660. https://doi.org/10.1016/j.resconrec.2019.104660
+
+Zhao, Y., van den Berg, P. E. W., Ossokina, I. V., & Arentze, T. A. (2024). How do urban parks, neighborhood open spaces, and private gardens relate to individuals’ subjective well-being: Results of a structural equation model. Sustainable Cities and Society, 101, 105094. https://doi.org/10.1016/j.scs.2023.105094
+
+
+Appendix A. Questionnaire for park managers
+
+[Editorial note: Original questionnaire pending insertion; remove this note before submission]
+Insert the blank questionnaire actually distributed for Q1–Q9, including the instructions, all response options, and response procedures. Finalize the appendix cross-reference in the main text after the questionnaire has been inserted.
+

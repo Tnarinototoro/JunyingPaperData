@@ -1,0 +1,39 @@
+{
+  "all_four_inputs_pass": true,
+  "details": [
+    {
+      "scenario": 1,
+      "cases": 39,
+      "observed_variables_excluding_ParkID": 16,
+      "original_14_other_variables_and_ParkID_unchanged": true,
+      "all_78_NDVI_Z_values_match_scenario_table": true,
+      "z_mean_zero_and_sample_SD_one": true
+    },
+    {
+      "scenario": 2,
+      "cases": 39,
+      "observed_variables_excluding_ParkID": 16,
+      "original_14_other_variables_and_ParkID_unchanged": true,
+      "all_78_NDVI_Z_values_match_scenario_table": true,
+      "z_mean_zero_and_sample_SD_one": true
+    },
+    {
+      "scenario": 3,
+      "cases": 39,
+      "observed_variables_excluding_ParkID": 16,
+      "original_14_other_variables_and_ParkID_unchanged": true,
+      "all_78_NDVI_Z_values_match_scenario_table": true,
+      "z_mean_zero_and_sample_SD_one": true
+    },
+    {
+      "scenario": 4,
+      "cases": 39,
+      "observed_variables_excluding_ParkID": 16,
+      "original_14_other_variables_and_ParkID_unchanged": true,
+      "all_78_NDVI_Z_values_match_scenario_table": true,
+      "z_mean_zero_and_sample_SD_one": true
+    }
+  ],
+  "SEM_estimated": false,
+  "primary_source_selected": false
+}

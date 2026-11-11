@@ -1,0 +1,195 @@
+第15版　補足資料S1・S2の説明／Version 15: Notes for Supplementary Materials S1 and S2
+
+本資料は「15 10.31 txt」及び「5英语15 10.31 txt」に対応する。本文の表1・表2の変数名と算出方法を維持し、既存データの転記と推定出力の報告を補足する。NDVIの再抽出、SEMの再推定又は安定性検証を実施した資料ではない。
+This document accompanies the Japanese and English version 15 manuscripts. It preserves the variable names and calculation methods in Tables 1 and 2 and documents the supplied NDVI values and SEM output. It does not report new NDVI extraction, SEM reestimation, or stability testing.
+
+
+補足資料S1　公園別NDVI抽出値、中間値及びZ値
+Supplementary Material S1. Park-level NDVI extraction values, midranges, and Z-scores
+
+数値ファイル／Data file: 15 NDVI補足資料S1.tsv
+
+39公園をP01～P39のコードで示す。コードは提供された数値表の公園番号1～39の順序に対応し、公園名、住所、座標及び同定情報との対応表は含めない。元のPDFに基づく4列の極値156個、2列の中間値78個及び2列の報告Z値78個を保ち、保存SEM入力から転記した全精度Z値78個を末尾の2列に加えた。数値列は計10列、390値である。PDFに由来する列の表示精度は変更せず、追加の入力Z値は保存ファイルの数値を用いた。
+The 39 parks are coded P01–P39 in the order of park numbers 1–39 in the supplied numerical table. No park names, addresses, coordinates, or identity key are included. The original 156 extrema, 78 midranges, and 78 reported Z-scores are preserved from the PDF. Two final columns add 78 full-precision Z-scores transcribed from the saved SEM input, giving ten numerical columns and 390 values. The displayed precision of the PDF-derived columns is unchanged; the additional input Z-scores come from the saved data file.
+
+内部は公園内部の全域であり、境界から内側100mの帯ではない。外部は公園境界から外側100mまでの環帯であり、公園全体を含む外側100mバッファから公園内部を除いた領域である。住所又は代表点を中心とする100m円形バッファではない。
+The inside area is the entire park interior, not a 100 m inward boundary band. The outside area is the ring extending 100 m outward from the park boundary, obtained by excluding the park interior from the outward 100 m buffer covering the park polygon. It is not a 100 m circular buffer centered on an address or representative point.
+
+列名／Column | 定義／Definition
+park_code | 公園コード／Park code
+ndvi_inside_min | 公園内部全域のNDVI最小値／Minimum NDVI in the entire park interior
+ndvi_inside_max | 公園内部全域のNDVI最大値／Maximum NDVI in the entire park interior
+ndvi_outside_min | 公園境界外100m環帯のNDVI最小値／Minimum NDVI in the exterior 100 m ring
+ndvi_outside_max | 公園境界外100m環帯のNDVI最大値／Maximum NDVI in the exterior 100 m ring
+ndvi_inside_midrange_reported | 内部のM＝（最大値＋最小値）／2の報告値／Reported within-park midrange M = (maximum + minimum)/2
+ndvi_outside_midrange_reported | 外部の同じ算式による報告値／Reported outside-park midrange using the same formula
+z_inside_reported | 内部中間値を39公園内で標準化した報告Z値／Reported Z-score of the within-park midrange, standardized across the 39 parks
+z_outside_reported | 外部中間値を39公園内で標準化した報告Z値／Reported Z-score of the outside-park midrange, standardized across the 39 parks
+z_inside_sem_input | 保存SEM入力ファイルに記録された内部Z値／Within-park Z-score recorded in the saved SEM input file
+z_outside_sem_input | 保存SEM入力ファイルに記録された外部Z値／Outside-park Z-score recorded in the saved SEM input file
+
+Mは二つの極値の中間値（midrange）であり、領域内の全像元を平均した領域平均NDVIではない。内部と外部を別々に、Z_i＝（M_i－Mの平均）／s、s＝√｛Σ（M_i－Mの平均）²／（39－1）｝で標準化した。
+M is the midrange of the two extrema, not the spatial mean across all pixels in the area. Inside and outside midranges were standardized separately as Z_i = (M_i − mean M)/s, where s = √{Σ(M_i − mean M)²/(39 − 1)}.
+
+表示された中間値から再計算した確認用統計量／Verification statistics recomputed from the displayed midranges:
+範囲／Area | 公園数／n | Mの平均／Mean M | 標本標準偏差／Sample SD
+内部／Inside | 39 | 0.2359785182 | 0.0566194051
+外部／Outside | 39 | 0.2303782317 | 0.0467181614
+
+再計算したMと報告値の差は5×10⁻¹⁰以内、標本標準偏差による再計算Zと報告値の差は5×10⁻⁶以内であり、表示丸めと整合する。この確認は算式と転記の整合性を示すものであり、原ソフトウェアの未表示桁を復元したものではない。
+Recomputed midranges differ from the reported values by no more than 5 × 10⁻¹⁰, and Z-scores recomputed using the sample SD differ by no more than 5 × 10⁻⁶, consistent with display rounding. These checks establish arithmetic and transcription consistency; they do not recover undisplayed software precision.
+
+保存された入力は39行、17列であり、公園番号ParkIDと16のSEM観測変数を含む。ParkIDは1～39で一意であり、観測変数ではない。公園番号により39公園を照合したところ、保存入力Z値とS1の報告Z値の差は内部4.8348×10⁻⁶、外部4.9109×10⁻⁶以内で、5桁表示の丸めと整合した。これはNDVI列の対応と数値の確認であり、元のAmos出力を全16変数から再推定して再現した検証ではない。
+The saved input contains 39 rows and 17 columns: ParkID and 16 SEM observed variables. ParkID uniquely identifies parks 1–39 and is not an observed variable. Matching all 39 parks by ParkID showed maximum differences between the saved input Z-scores and reported S1 Z-scores of 4.8348 × 10⁻⁶ inside and 4.9109 × 10⁻⁶ outside, consistent with five-decimal display rounding. This verifies the NDVI-column linkage and values; it is not a reestimation and reproduction of the original Amos output using all 16 variables.
+
+S1技術注　範囲、ソフトウェア及び確認できたラスタ属性
+S1 technical note. Spatial extents, software, and verified raster properties
+
+各公園の公式ウェブサイトの住所を参照し、Google Maps上で確認した公園の外形を基準に、QGIS 3.28.13-Firenzeで内部全域と境界外100m環帯を設定した。Google Mapsは外形の参照に用いたものであり、NDVIの衛星・画像製品の出典として記録されたものではない。
+Park addresses were obtained from official park websites, and park outlines identified in Google Maps were used to define the entire interior and exterior 100 m ring in QGIS 3.28.13-Firenze. Google Maps was used as a reference for park outlines, not established as the source of a satellite or imagery product providing NDVI.
+
+QGIS.pdfの情報画面で確認した一つのラスタは、GDAL提供器による単バンドGeoTIFF、Float32、像元間隔30×30m、EPSG:32654（WGS 84／UTM zone 54N、単位m）であった。Scale＝1、Offset＝0、NoData＝−3.40282×10³⁸が指定されていた。これは当該ラスタの属性であり、39公園の全ラスタの仕様又は100m距離計算の処理条件を一括して検証したものではない。
+The information panel in QGIS.pdf identifies one raster as a single-band GeoTIFF provided through GDAL, with Float32 values, 30 × 30 m pixel spacing, and EPSG:32654 (WGS 84/UTM zone 54N, units in meters). Scale = 1, Offset = 0, and NoData = −3.40282 × 10³⁸ were specified. These are properties of that raster, not a verification of the specifications of all 39 parks' rasters or the processing conditions for the 100 m distance calculations.
+
+画面のLast modifiedは2025年5月13日であった。本文の2025年5月はデータ整理時点を記録したものであり、元画像の撮像・合成時期を示すとは判断しない。表示された全ラスタ統計には近似統計の指定及び有効値67.35％があるが、これを各公園の抽出精度又は有効像元割合とは扱わない。
+The panel shows a Last modified date of 13 May 2025. The manuscript records May 2025 as the data organization period, not as an established acquisition or compositing date of the original imagery. The displayed whole-raster statistics are marked as approximate and show 67.35% valid values; these are not treated as park-specific extraction accuracy or valid-pixel proportions.
+
+.tifはラスタの保存形式、.shp／.shx／.dbfはベクトル形状・索引・属性、.prjは投影定義、.cpgは文字コード、.qmdはQGISメタデータの記録形式である。GIS又はこれらの拡張子から衛星製品を同定することはできない。提供情報には、元画像の製品名・撮像時期、赤色／近赤外バンド、NDVI算出履歴及び雲影・水面等の処理記録がなく、数値の整合性だけで抽出過程が再現可能であるとは判断しない。公園名、住所、座標及び同定情報を公開する必要はない。
+.tif stores raster data; .shp/.shx/.dbf store vector geometry, indexes, and attributes; .prj records projection definitions; .cpg records text encoding; and .qmd stores QGIS metadata. GIS or these extensions do not identify a satellite product. The supplied information does not establish the original imagery product and acquisition period, red/near-infrared bands, NDVI calculation history, or cloud-shadow and water handling. Numerical agreement alone therefore does not establish extraction reproducibility. No park names, addresses, coordinates, or identity key need to be disclosed.
+
+
+補足資料S2　SEMのパス推定値及び固定条件
+Supplementary Material S2. SEM path estimates and fixed constraints
+
+出力資料／Sources: amos模型各项信息.pdf（16ページ／16 pages）、amos模型.amw、保存SEM入力ファイル及び著者提供のStandardized estimates図／the saved SEM input file and author-supplied Standardized estimates diagram.
+
+推定方法は最尤法、分析公園数は39である。以下の略号は本資料の表示用であり、Amos又は元データの実際の変数名を変更するものではない。
+Estimation used maximum likelihood with 39 parks. The abbreviations below are presentation aliases and do not rename the actual Amos or input-data variables.
+
+略号／Alias | 潜在変数名／Latent variable
+SN | 社会的規範／Social norms
+UA | 利用者態度／User attitudes
+EQ | 環境的質／Environmental quality
+ENV | 環境重視的行動／Environment-focused behavior
+BAL | 両立的行動／Balance-oriented behavior
+USR | 利用者重視的行動／User-focused behavior
+
+略号／Alias | 観測変数名／Observed indicator
+O01 | 公的・指定管理主導度／Public-sector and designated-manager leadership
+O02 | 市民・専門家協働度／Citizen–expert collaboration
+O03 | 苦情の種類の多さ／Breadth of complaint types
+O04 | 生態的苦情件数／Ecology-related complaint volume
+O05 | コンフリクト対応難易度／Conflict resolution difficulty
+O06 | 公園外部緑化度（Z-score）／Outside-park greenness (Z-score)
+O07 | 公園内部緑化度（Z-score）／Within-park greenness (Z-score)
+O08 | 直接的生態管理行動／Direct ecological management behavior
+O09 | 環境管理資源基盤充実度／Environmental management resource adequacy
+O10 | 環境保全意識の高さ／Environmental conservation awareness
+O11 | 社会的啓発管理行動／Outreach-oriented management behavior
+O12 | 空間設計利用規律の調和度／Alignment of spatial design and use regulation
+O13 | 管理運営体験共感の調和度／Alignment of management operations, experience, and empathy
+O14 | 基礎的利便安全整備度／Basic amenity and safety provision
+O15 | 動的高負荷利用許容度／Tolerance of active, high-load recreational use
+O16 | 安全対策実施率／Safety measure implementation rate
+
+βは標準化係数、Bは非標準化係数、SEはBの標準誤差、CRは臨界比である。p値は自由に推定した非標準化パラメータの検定に対応する。「固定／Fixed」のパスには個別のSE、CR及びp値がなく、「—」はゼロや有意を意味しない。以下のβは出力の3桁表示値であり、本文図2の2桁表示は提供された原図のまま保持する。
+β denotes the standardized coefficient, B the unstandardized coefficient, SE the standard error of B, and CR the critical ratio. The p-values refer to tests of freely estimated unstandardized parameters. Fixed paths have no individual SE, CR, or p-value; “—” does not mean zero or statistical significance. Standardized coefficients below follow the three-decimal output display; the two-decimal values in manuscript Figure 2 retain the supplied original diagram.
+
+S2-1　主要構造パス及び観測指標への直接パス
+S2-1. Main structural paths and the direct path to an observed indicator
+
+パス／Path | β | B | SE | CR | p
+SN → ENV | 0.844 | 0.136 | 0.037 | 3.709 | <0.001
+SN → BAL | 0.649 | 0.218 | 0.092 | 2.376 | 0.018
+SN → USR | −0.181 | −0.124 | 0.151 | −0.820 | 0.412
+EQ → ENV | −0.515 | −0.587 | 0.664 | −0.885 | 0.376
+EQ → BAL | 0.419 | 1.000（固定／Fixed） | — | — | —
+UA → O14 | −0.446 | −0.455 | 0.146 | −3.124 | 0.002
+
+EQ → BALの標準化係数0.419（図2では0.42）は、Bを1に固定した条件から得られた値である。この正の構造パスを自由推定して有意性を検定した結果ではない。UA → O14は観測指標への条件付き直接パスであり、UA → USRのパス又は二変量のゼロ次相関ではない。
+The standardized EQ → BAL coefficient of 0.419 (0.42 in Figure 2) was obtained with B fixed at 1. It is not a freely estimated, significance-tested positive structural path. UA → O14 is a conditional direct path to an observed indicator, not a path from UA to USR or a bivariate zero-order correlation.
+
+S2-2　観測変数への負荷量
+S2-2. Loadings on observed variables
+
+パス／Path | β | B | SE | CR | p
+SN → O01 | 0.743 | 0.137 | 0.032 | 4.338 | <0.001
+SN → O02 | 0.522 | 0.073 | 0.024 | 3.059 | 0.002
+SN → O03 | 0.213 | 0.074 | 0.046 | 1.617 | 0.106
+UA → O03 | 0.718 | 0.327 | 0.057 | 5.719 | <0.001
+UA → O04 | 0.840 | 1.000（固定／Fixed） | — | — | —
+UA → O05 | 0.910 | 1.000（固定／Fixed） | — | — | —
+UA → O06 | 0.423 | 0.555 | 0.200 | 2.769 | 0.006
+EQ → O06 | 0.408 | 2.893 | 3.349 | 0.864 | 0.388
+EQ → O07 | 0.145 | 1.000（固定／Fixed） | — | — | —
+ENV → O08 | 0.738 | 1.000（固定／Fixed） | — | — | —
+ENV → O09 | 0.544 | 1.000（固定／Fixed） | — | — | —
+ENV → O10 | 0.228 | 0.570 | 0.467 | 1.220 | 0.222
+ENV → O11 | 0.409 | 0.586 | 0.310 | 1.889 | 0.059
+BAL → O11 | 0.597 | 0.409 | 0.191 | 2.140 | 0.032
+BAL → O12 | 0.407 | 1.000（固定／Fixed） | — | — | —
+BAL → O13 | 0.638 | 1.000（固定／Fixed） | — | — | —
+USR → O14 | 0.456 | 0.514 | 0.559 | 0.919 | 0.358
+USR → O15 | 0.805 | 1.000（固定／Fixed） | — | — | —
+USR → O16 | 0.230 | 0.058 | 0.071 | 0.815 | 0.415
+
+O03、O06及びO11は交差負荷を含む。O06のSMC＝0.35はEQだけによる説明率ではない。O07のSMCは0.021であり、ENV → O10及びUSR → O16の負荷も小さい。有意なパスが存在しても、混合した指標構成、交差負荷及び低い負荷の妥当性又は安定性が確認されたことにはならない。
+O03, O06, and O11 cross-load. The SMC of 0.35 for O06 is not the variance accounted for by EQ alone. The SMC of O07 is 0.021, and the ENV → O10 and USR → O16 loadings are also small. Significant paths do not establish the validity or stability of the mixed indicator construction, cross-loadings, or weak loadings.
+
+S2-3　固定条件及びパラメータ数
+S2-3. Fixed constraints and parameter counts
+
+非標準化回帰係数Bを1に固定した9パス／Nine paths with unstandardized regression coefficient B fixed at 1:
+UA → O04
+UA → O05
+EQ → O07
+ENV → O08
+ENV → O09
+BAL → O12
+BAL → O13
+USR → O15
+EQ → BAL
+
+固定した2つの分散／Two fixed variances:
+社会的規範SNの分散＝1／Variance of social norms SN = 1
+コンフリクト対応難易度O05の誤差e6の分散＝0.120／Error variance e6 of conflict resolution difficulty O05 = 0.120
+
+回帰係数は25本（固定9、自由16）、分散は22個（固定2、自由20）、自由パラメータ数は36である。重複を除く観測変数は16、独立な標本モーメントは136、自由度は136－36＝100である。
+There are 25 regression coefficients (9 fixed and 16 free) and 22 variances (2 fixed and 20 free), totaling 36 free parameters. The model has 16 unique observed variables and 136 distinct sample moments, giving 136 − 36 = 100 degrees of freedom.
+
+潜在変数の尺度設定に必要な固定と、同じ因子内の複数負荷量、構造パスEQ → BAL及び誤差分散e6の追加固定は区別する必要がある。この一覧は実際の条件を記録するものであり、すべてを尺度設定のために必要な制約として正当化するものではない。追加制約の根拠と、制約を変更した場合の結果の安定性は、現在の出力だけでは確認されていない。
+Constraints used to set latent-variable scales must be distinguished from additional fixed loadings within the same factor, the structural EQ → BAL path, and error variance e6. This list documents the actual settings; it does not justify every constraint as necessary for scale identification. The rationale for the additional constraints and the stability of results under alternative constraints are not established by the current output.
+
+実際の.amwモデルには双方向の共分散パスがなく、SN–UA、SN–EQ及びUA–EQの三対、並びに誤差間の共分散はモデル上0に制約されている。これは指定モデルの条件であり、標本の相関が0であることや、独立性の検定結果ではない。共分散を新たに自由化したり、変更指標に従ってパスを加えたりする再推定は行っていない。
+The actual .amw model contains no bidirectional covariance paths. The three pairs SN–UA, SN–EQ, and UA–EQ, and covariances among errors are constrained to zero in the model. These are conditions of the specified model, not evidence of zero sample correlations or results of independence tests. No covariances were freed, paths added following modification indices, or model reestimation performed.
+
+PDF第10頁のResidual Covariancesは標本とモデルが再現する共分散との差、第13～14頁のCorrelations of Estimatesはパラメータ推定量間の相関、第15頁のModification Indices → Covariancesは制約変更候補に対するM.I.とPar Changeである。いずれも、外生潜在変数間の自由推定された相関又は共分散表ではない。
+Residual Covariances on PDF page 10 are differences between sample and model-implied covariances; Correlations of Estimates on pages 13–14 are correlations among parameter estimators; and Modification Indices → Covariances on page 15 reports M.I. and Par Change for candidate constraint changes. None is a table of freely estimated correlations or covariances among the exogenous latent variables.
+
+S2-4　収束、分散及び適合度
+S2-4. Convergence, variances, and model fit
+
+反復14回後に適合関数の最小値に到達した（Minimum was achieved）。報告された分散推定値は負ではなく、標準化負荷量の絶対値はいずれも1未満であった。ただし、ENVの構造誤差d1の分散は0.001（SE＝0.012）とゼロに近い。この出力確認は、あらゆる不適当解又は測定構造の不安定性が排除されたという判断ではない。
+The minimum of the fitting function was achieved after 14 iterations. The reported variance estimates were not negative, and all standardized loadings had absolute values below 1. However, the ENV structural disturbance d1 variance was close to zero (0.001; SE = 0.012). These output checks do not establish that all improper-solution or measurement-instability concerns have been excluded.
+
+内生潜在変数のSMC／Endogenous latent-variable SMCs: ENV＝0.977、BAL＝0.597、USR＝0.033.
+適合度／Model fit: χ²＝119.555、df＝100、p＝0.089、CMIN/DF＝1.196、GFI＝0.749、AGFI＝0.659、CFI＝0.854、TLI＝0.825、RMR＝0.063、RMSEA＝0.072、RMSEA 90％CI＝［0.000, 0.116］、PCLOSE＝0.248.
+追加の出力値／Additional reported indices: IFI＝0.873、NFI＝0.529、RFI＝0.435.
+
+χ²のp＝0.089はモデル全体の適合に関する値であり、個々のパスのp値ではない。CFI・TLI及びGFI・AGFIは低く、RMSEAの区間上限も0.116であるため、適合が十分であると評価しない。RMRは非標準化残差に基づく指標でありSRMRではない。RMSEAの90％区間はモデル適合度の解析的区間であり、ブートストラップによるパス係数の区間ではない。SRMR、パスのブートストラップ区間及び正態性結果表は提供資料に表示されていない。正態性出力の設定があることだけで、分布仮定が満たされたとは判断しない。
+The chi-square p-value of 0.089 concerns overall model fit, not individual paths. CFI/TLI and GFI/AGFI are low, and the upper RMSEA confidence bound is 0.116; adequate model fit is therefore not established. RMR is based on unstandardized residuals and is not SRMR. The RMSEA 90% interval is an analytical model-fit interval, not a bootstrap interval for path coefficients. SRMR, bootstrap path intervals, and the normality results table are not displayed in the supplied materials. Requesting normality output does not establish that distributional assumptions are satisfied.
+
+S2-5　保存入力と原問項の照合範囲
+S2-5. Scope of checks between saved inputs and original questionnaire records
+
+保存SAVの39行にはシステム欠測値及びユーザー定義の欠測値指定がなく、16の観測変数名は源モデルと一致した。源モデルに保存された入力ファイル名は今回提供されたファイル名と異なるが、モデル又は元データを書き換えていない。この照合は、保存出力を全データから再計算したことを意味しない。
+The 39 saved SAV rows contain no system missing values or user-defined missing-value specifications, and all 16 observed-variable names match the source model. The input filename saved in the source model differs from the filename supplied in this round; neither the model nor the original data was rewritten. These checks do not constitute recalculation of the saved output from the complete data.
+
+原問項PDFの空白は無回答として照合した。問6の3公園は全項目が空白であり、a＝b＝c＝0をR＝｛a＋b＋（6−c）／6｝／3に代入してR＝1／3となっていた。これは設問値の0符号化後の合成であり、全項目無回答を合成指標0に置換した処理ではない。問8では空白を0とし、片方の領域が空白でも固定された2領域を分母にしていた。
+Blank cells in the original item PDF were checked as no response. All Q6 items were blank for three parks, and setting a = b = c = 0 in R = {a + b + (6 − c)/6}/3 yielded R = 1/3. This is composition after item-level zero coding, not replacement of an entirely unanswered composite by zero. For Q8, blanks were coded zero and the denominator remained two domains even when one domain was unanswered.
+
+問4では、未実施の区分でも数値の影響回答がある記録を確認した。保存されたS4_1及びS4_2は、その影響回答を得点に含み、実施区分による追加の0への置換を行っていない。原データの数値コード1・2・3・4を分析得点2・4・1・3、空白を0として固定4項目又は6項目で平均する処理と、確認した記録及び保存入力値は整合した。本文表2の分析得点名と、原PDFに値ラベルが示されていない数値コードは区別し、未番号の質問紙選択肢の並びだけから原コードの意味を確定しない。
+Q4 includes records with numerical impact responses despite a nonimplementation category. The saved S4_1 and S4_2 scores retain these impact responses rather than additionally replacing them by zero based on implementation status. The checked records and saved values are consistent with recoding original numerical codes 1, 2, 3, and 4 to analytical scores 2, 4, 1, and 3, coding blanks zero, and averaging over the fixed four or six items. The analytical score labels in manuscript Table 2 are distinguished from numerical codes whose value labels are not shown in the original PDF; the meanings of original codes are not established merely from the order of unnumbered questionnaire options.
+
+原問項の確認は原図と主要な空白・特殊例の手作業による照合であり、全問項の全セルを自動再計算した検証ではない。S2_3に対応する課題認識の8項目原値は今回の原問項PDFに含まれていない。これらの確認範囲を、測定構造の安定性又は独立検証の達成とは扱わない。指標名、保存入力値、モデル構成及び原パス係数は変更していない。
+Checks of the original items used the original page images and manual comparison of key blank and special cases, not automated recalculation of every cell in every question. The eight original issue-recognition items underlying S2_3 are not included in the original-item PDF supplied in this round. These limited checks are not treated as measurement-stability testing or independent validation. Indicator names, saved input values, model structure, and original path coefficients were not changed.

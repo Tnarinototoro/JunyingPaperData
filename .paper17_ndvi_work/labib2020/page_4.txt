@@ -1,0 +1,133 @@
+S.M. Labib ，
+greenspace exposure metrrcs commonly used in the existing literature,
+(i) NDVI, (ii) LAI ， and (iii) Land Use and Land Cover (LULC) (Labib
+et al ” 2020 Markevych et al., 2017 〕 ． AII three metrics for the main
+analysis were derived 什 om Sentinel-2A satellite imagery. Sentinel-2
+images were selected because they have better spatial resolution （ 10 m)
+than the widely used Landsat images （ 30 m) ． Additionally, previous
+studies have noted that Sentinel-2 images yield results with higher
+overall accuracy for detecting vegetation in urban settings compared tO
+relatively low-resolution rmagery such as Landsat-8 (Labib & Harris,
+2018 ， Markevych et al. ， 2017 〕 ． ln order tO better understand the scale
+sensitivlty 0f Landsat images, we also expenmented with NDVI derwed
+from Landsat images (see Supplementary 0te 一 1 ） ．
+For the purposes 0f this study, NDVI and LAI indices were processed
+from SentineI-2A images collected on 4th JuIy 2018 ， with cloud
+cover < 2 ％ and atmospherrc correction was undertaken prior tO ana-
+lysis. NDVI was calculated using the following standard equation
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+the box mass) and continuous lmages (using range for the box mass)
+（ Dong ， 2000 ， Hoechstetter ， WaIz ， & Thinh ， 2011 ； MaIhi & Romån-
+Cuesta ， 2008 Plotnick et al., 1993 ） ．
+Next, the box representing the neighbourhood is shifted one pixel
+()0 the right) and box mass is calculated for the new position. This
+process is repeated by sliding this box over the whole map M
+(M = W × 〗 for an irregular shape map W denotes the width 0f the
+map, and denotes the length. For the M size map, the t0tal number 0f
+boxes Of size r is N 在 丿 (Eq. 2 〕 ．
+N 回 = （ 一 r + I)X (L 一 r
+（ 2 ）
+NIR 一 RED
+NDVI =
+NIR + RED
+0 ）
+where NIR refers to the near-infrared band (central wavelength
+832 ． 8 (m) and RED refers to the red band in the visible region (central
+wavelength 664 ． 6 (m) (Drusch et al., 2012 ） ． The estimated NDVI values
+ranges between 一 1 and 1 with higher positive values indicating
+greater green vegetation cover (Gascon et al. ， 2016 ， Su et al. ， 2019 ）
+The LULC based greenspace metrrc used in this study was obtained from
+Dennis et al. 〔 2018 ） ， wh0 applied a supervised classification algorithm
+t0 produce a 10 m spatial resolution dataset of five land cover types;
+urban, water, tree canopy, grass, forbs and shrubs.
+Leaf Area lndex (LAI) is an important biophysical variable influ-
+enced by levels 0f photosynthesis, transpirafion, and overall energy
+balance exhibited by the vegetation in the satellite images, all Of which
+are key parameters critical tO the provlsion Of beneficial ecosystem
+functions such as air pollution reduction and cooling functions (Lin &
+Lin, 2010 Nowak, Hirabayashi, B0dine, & Greenfield, 2014 ） ． As a re-
+sult, LAI values are important metrics contributing tO a better under-
+standing 0f regulating ecosystem functions 0f vegetation (Elmqvist
+et al. ， 2015 Orioli et al. ， 2019 ） ． An LAI map for Greater Manchester was
+derived using the same SentineI-2A dataset used for NDVI. The LAI
+dataset was calculated utilising the L2B biophysical processor toolbox, a
+component of the open-access software Sentinel Application Platform
+(SNAP, version 5 ． 2 ） developed by the European Space Agency (Upreti
+et al ” 2019 Weiss & Baret, 2016 ） ． DetaiIs of this the t001b0x and LAI
+measurement model can be found in Weiss and Baret （ 2016 ） ．
+3 ． 3 ． Lacunarity a a
+3 ． 3 ． 1. Ca 化 u 樁 互 0 go m
+Several algorithms exist tO compute lacunarity (e.g ” Allain &
+Cloitre, 1991 ； Gefen et al. ， 1983 〕 ， though the "gliding b0 义 ” algorithm
+developed by AIIain and C10 桁 e 〔 1991 ）
+has received the greatest at-
+tention due t0 its conceptually straightforward and computationally
+simple approach (Malhi & Romån-Cuesta, 2008 Plotnick, Gardner, &
+O'Neill, 1993 Roces-Dfaz, Dfaz-Varela, Alvarez-Alvarez, Recondo, &
+Dfaz-VareIa ， 2015 ） P10tnick et al. （ 1993 ， 1996 ） popularised this algo-
+rithm and illustrated lacunarity estimation t0 not only be applicable for
+fractal dimensions, but alSO applicable tO understanding landscape
+patterns and scale varrations. This algorithm has therefore been used tO
+estimate lacunarlty in this study.
+The algorithm workflow commences with a square box neighbour-
+hood (similar t0 neighbourhood representations through circular buffer
+zones) Of size 'r × 尸 （ 巳 g ” 2 × 2 ） which is placed at one corner Of the
+raster map (e.g ” satellite image). This box in turn determines the spatial
+unit 0f measurement (i.e., the scale 0f analysis), and the 'box mass ， S(r),
+is computed for the pixels that fall within the box using an algebraic
+function (i.e ” sum, range) on pixel values, dependent on the type 0f
+data. Lacunarity analysis can be applied t0 b0th binary (using sum for
+After estimating N[r], in the next stage the number Of boxes Of size r
+containing box mass S are counted as S,r. 儿 and this frequency dis-
+tribution is converted int0 a probability Q(S,r. 丿 distribution by dividing
+by (Eq. 3 ） ．
+〔 3 ）
+F0110wing the above calculation, the first and second moments 0f
+this probability distribution are estimated using Eq. （ 4 ） and （ 5 ）
+spectively:
+〔 4 ）
+〔 5 ）
+FinaIIy, these moments of the lacunarity 烈 of the box size r are
+computed as (Eq. 6 ） ：
+Z(2)
+z2(1)
+〔 6 ）
+P10tnick et al. 〔 1993 ） recognized that based on the statistical be-
+hauour / 跹 丿 the first and second moment can be expressed as a mean E
+（ r 刀 and variance var[S(r)] of the box mass values for box size r ac-
+cordingly. Therefore, lacunarity ， 吖 h. 丿 can also be computed as (Eq. 7 ） ：
+var [S （
+万 2 [S(r)]
+3 ， 3 ． 2 Lacunarity 可 greenspace metncs
+〔 7 ）
+ln this study, we estimated the lacunarity values for the greenspace
+metrics at multiple scales using a five-step method. The overall work
+procedure is illustrated in
+． The details of these steps are as fo 仁
+lows. We used ArcGIS 10 ． 4 (ESRI, (S) and MS Excel for lacunarity
+analysis.
+3 ． 3 ． 2.1. Step imageprocessing. The first step (Fig. 1 ， Step 1 ） involves
+determining whether the input image should be interpreted as binary or
+continuous. Categorical data in the LULC map were converted tO a
+binary map layer where ℃ anopy ， ， 'Grass', and 'Forbs and Shrubs ， classes
+were reclassified as green (value 0f 1 ） and other classes as not-green
+(value Of 0 ） ， LAI and NDVI data were handled as continuous data and
+were normalised tO the same value range. WhiIe bOth datasets might
+have been handled as categorical data, this would have involved
+introducing an artificial, arbitrary boundary between values,
+negatively affecting the lacunarity results.
+3 ． 3 ． 22 Step 2 ： box mass estimation. ln the second step, (F
+〗 box
+mass was estimated for bOX size ， for each binary and contlnuous map.
+For the LULC binary image Focal Statistics 'Sum ， was selected and for
+NDVI and LAI Range ， was utilised on the basis 0f the algorithm
+discussed in
+Section 3 ． 3 ． 1
+． each greenspace metric, lacunarity was
+calculated for box sizes as functions Of 创 + 7 ， where p is a whole
+number commencing at 1 and increasing tO a limit defined by the box
+size being half of the shorter dimension of the study region (map width
+or height) (Huck et al ” 2018b Sui & Wu, 2006 ） ． For the purposes 0f the
+present study, we started 什 om r
+3 (where, p = 刀 ， and went up t0
+4

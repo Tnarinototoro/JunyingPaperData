@@ -1,0 +1,67 @@
+{
+  "checked_date": "2026-11-09",
+  "journal": "Ecological Management & Restoration",
+  "publisher": "Wiley with Ecological Society of Australia",
+  "eissn": "1442-8903",
+  "active_status": {
+    "active_evidence": [
+      "Current ESA journals list",
+      "2026-10 Crossref publications under existing title/DOI",
+      "Current official-associated project site with current journal RSS"
+    ],
+    "cessation_merger_rename_evidence_found": false,
+    "official_esa_url": "https://www.ecolsoc.org.au/publications/journals/"
+  },
+  "fit": {
+    "rating": "Partial; not recommended as a speed-first target for current Japanese questionnaire manuscript",
+    "official_associated_scope_url": "https://emrprojects.wordpress.com/",
+    "scope_quote": "While the Journal focuses on Australasia, contributions from elsewhere will be considered if distinctly relevant to Australasia.",
+    "reason": "Management and governance overlap, but manuscript lacks explicit Australasia relevance and measured restoration outcomes. Outcomes are not stated to be an absolute prerequisite for all articles; regionally relevant management contribution still needed.",
+    "summaries_not_equivalent_to_peer_reviewed_research": true
+  },
+  "speed": {
+    "overall_submission_to_acceptance_metric_verified": false,
+    "sample_source": "Wiley-deposited Crossref publication_history assertions",
+    "sample_file": "emr_selected_five_history.json",
+    "all_seven_file": "emr_crossref_history_samples.json",
+    "n": 5,
+    "median_days": 275,
+    "range_days": [
+      225,
+      508
+    ],
+    "original_fulltext_access_verified": false
+  },
+  "apc": {
+    "verified_online_official_table": true,
+    "table_url": "https://authors.wiley.com/asset/Wiley-Journal-APCs-OnlineOpen.xlsx",
+    "download_snapshot": "restoration_authors_retry.xlsx",
+    "access_log": "restoration_online_apc_fetch.json",
+    "table_update_date": "2026-10-12",
+    "table_row": 346,
+    "USD": 2760,
+    "GBP": 1840,
+    "EUR": 2300,
+    "japan_billing_currency": "USD",
+    "taxes_extra_if_applicable": true,
+    "currency_tax_source_url": "https://authors.wiley.com/author-resources/Journal-Authors/open-access/article-publication-charges.html",
+    "currency_tax_snapshot": "restoration_apc_final.txt",
+    "subscription_option": true,
+    "no_oa_apc_on_subscription_route": true,
+    "other_page_color_charges_verified": false
+  },
+  "saitama": {
+    "school_material": "../.journal_review_20261108/pdf01_saitama/ocr.txt",
+    "agreement_end_date": "2026-12-31",
+    "eligibility_based_on": "acceptance date",
+    "after_2026_coverage_confirmed": false,
+    "requires": [
+      "Saitama affiliated corresponding author",
+      "eligible designated hybrid journal",
+      "original research or review",
+      "school approval and available allocation",
+      "author contribution policy may apply"
+    ],
+    "unconditional_waiver_confirmed": false
+  }
+}

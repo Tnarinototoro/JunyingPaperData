@@ -1,0 +1,44 @@
+{
+  "package": "NDVI_区域平均值_20261111_核对版",
+  "numeric_rows": 39,
+  "usable_source_selections": 35,
+  "unresolved_ParkID": [
+    9,
+    18,
+    28,
+    32
+  ],
+  "source_selection_not_complete_provenance_verification": true,
+  "all_78_final_z_scores_blank": true,
+  "final_SEM_input_generated": false,
+  "mean_definition": "Unweighted mean of all finite non-NoData native NDVI pixels whose centres fall in the supplied region",
+  "exterior_definition": "Supplied approximately 100 m buffer part minus corresponding whole park polygon",
+  "pixel_extraction_options": 43,
+  "pixel_regions_verified": 86,
+  "maximum_mean_difference": 0.0,
+  "vector_checks": {
+    "park_boundaries": {
+      "records": 39,
+      "parts_per_record": 1,
+      "shx_verified": true,
+      "anonymous_attribute_fields": true
+    },
+    "outer_100m_rings": {
+      "records": 39,
+      "parts_per_record": 2,
+      "shx_verified": true,
+      "anonymous_attribute_fields": true
+    },
+    "full_100m_buffers": {
+      "records": 39,
+      "parts_per_record": 1,
+      "shx_verified": true,
+      "anonymous_attribute_fields": true
+    }
+  },
+  "qgis_project_layer_count": 88,
+  "qgis_xml_and_relative_paths_verified": true,
+  "qgis_gui_opened": false,
+  "original_source_manifest_files_matched": 20,
+  "confidential_spatial_data": true
+}

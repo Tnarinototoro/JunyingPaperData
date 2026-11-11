@@ -1,0 +1,639 @@
+{
+  "method": "Independent original-strip seek/read Float32 decode and even/odd ROI count; existing transform routines shared; no source selection or resampling.",
+  "source_files_read_only": true,
+  "whole_raster_arrays_loaded": false,
+  "park_count": 11,
+  "raw_word_sample_count": 33,
+  "all_samples_match_bits": true,
+  "all_zone_counts_match": true,
+  "maximum_zone_mean_difference": 0,
+  "parks": [
+    {
+      "ParkID": 1,
+      "source_raster": "NDVI_tokyo.tif",
+      "epsg": 32654,
+      "byte_order": "<",
+      "samples": [
+        {
+          "row": 0,
+          "col": 0,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        },
+        {
+          "row": 3935,
+          "col": 3870,
+          "source_float32_bytes_hex": "e2d0863e",
+          "value": 0.2633123993873596,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": false,
+          "main_is_valid": true
+        },
+        {
+          "row": 7870,
+          "col": 7740,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        }
+      ],
+      "zones": {
+        "inside": {
+          "eligible_n": 574,
+          "valid_n": 574,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.35206616650423106,
+          "reported_mean": 0.35206616650423106,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        },
+        "outside": {
+          "eligible_n": 648,
+          "valid_n": 648,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.22434130494977222,
+          "reported_mean": 0.22434130494977222,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        }
+      }
+    },
+    {
+      "ParkID": 5,
+      "source_raster": "NDVI_nara.tif",
+      "epsg": 32653,
+      "byte_order": "<",
+      "samples": [
+        {
+          "row": 0,
+          "col": 0,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        },
+        {
+          "row": 3905,
+          "col": 3840,
+          "source_float32_bytes_hex": "c7bf9dba",
+          "value": -0.0012035303516313434,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": false,
+          "main_is_valid": true
+        },
+        {
+          "row": 7810,
+          "col": 7680,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        }
+      ],
+      "zones": {
+        "inside": {
+          "eligible_n": 518,
+          "valid_n": 518,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.24535783186094642,
+          "reported_mean": 0.24535783186094642,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        },
+        "outside": {
+          "eligible_n": 435,
+          "valid_n": 435,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.25357485211443626,
+          "reported_mean": 0.25357485211443626,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        }
+      }
+    },
+    {
+      "ParkID": 7,
+      "source_raster": "NDVI_tokyo.tif",
+      "epsg": 32654,
+      "byte_order": "<",
+      "samples": [
+        {
+          "row": 0,
+          "col": 0,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        },
+        {
+          "row": 3935,
+          "col": 3870,
+          "source_float32_bytes_hex": "e2d0863e",
+          "value": 0.2633123993873596,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": false,
+          "main_is_valid": true
+        },
+        {
+          "row": 7870,
+          "col": 7740,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        }
+      ],
+      "zones": {
+        "inside": {
+          "eligible_n": 3,
+          "valid_n": 3,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.2649628271659215,
+          "reported_mean": 0.2649628271659215,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        },
+        "outside": {
+          "eligible_n": 63,
+          "valid_n": 63,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.20378391598425213,
+          "reported_mean": 0.20378391598425213,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        }
+      }
+    },
+    {
+      "ParkID": 10,
+      "source_raster": "NDVI_hokka_test.tif",
+      "epsg": 32654,
+      "byte_order": "<",
+      "samples": [
+        {
+          "row": 0,
+          "col": 0,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        },
+        {
+          "row": 3910,
+          "col": 3850,
+          "source_float32_bytes_hex": "69a50e3e",
+          "value": 0.13930286467075348,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": false,
+          "main_is_valid": true
+        },
+        {
+          "row": 7820,
+          "col": 7700,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        }
+      ],
+      "zones": {
+        "inside": {
+          "eligible_n": 2988,
+          "valid_n": 2988,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.06537684301096734,
+          "reported_mean": 0.06537684301096734,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        },
+        "outside": {
+          "eligible_n": 1282,
+          "valid_n": 1282,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.009877880821413599,
+          "reported_mean": 0.009877880821413599,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        }
+      }
+    },
+    {
+      "ParkID": 11,
+      "source_raster": "NDVI_tokyo_down.tif",
+      "epsg": 32654,
+      "byte_order": "<",
+      "samples": [
+        {
+          "row": 0,
+          "col": 0,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        },
+        {
+          "row": 3980,
+          "col": 3915,
+          "source_float32_bytes_hex": "e943ffbb",
+          "value": -0.007790077943354845,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": false,
+          "main_is_valid": true
+        },
+        {
+          "row": 7960,
+          "col": 7830,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        }
+      ],
+      "zones": {
+        "inside": {
+          "eligible_n": 144,
+          "valid_n": 144,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.2712702324820889,
+          "reported_mean": 0.2712702324820889,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        },
+        "outside": {
+          "eligible_n": 296,
+          "valid_n": 296,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.2598548239801784,
+          "reported_mean": 0.2598548239801784,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        }
+      }
+    },
+    {
+      "ParkID": 21,
+      "source_raster": "NDVI_kyoto.tif",
+      "epsg": 32653,
+      "byte_order": "<",
+      "samples": [
+        {
+          "row": 0,
+          "col": 0,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        },
+        {
+          "row": 3950,
+          "col": 3880,
+          "source_float32_bytes_hex": "c4998c3e",
+          "value": 0.27461063861846924,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": false,
+          "main_is_valid": true
+        },
+        {
+          "row": 7900,
+          "col": 7760,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        }
+      ],
+      "zones": {
+        "inside": {
+          "eligible_n": 906,
+          "valid_n": 906,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.2106495573294347,
+          "reported_mean": 0.2106495573294347,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        },
+        "outside": {
+          "eligible_n": 598,
+          "valid_n": 598,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.21019105452391626,
+          "reported_mean": 0.21019105452391626,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        }
+      }
+    },
+    {
+      "ParkID": 22,
+      "source_raster": "NDVI_fukushima.tif",
+      "epsg": 32654,
+      "byte_order": "<",
+      "samples": [
+        {
+          "row": 0,
+          "col": 0,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        },
+        {
+          "row": 3925,
+          "col": 3865,
+          "source_float32_bytes_hex": "9fda8c3e",
+          "value": 0.27510544657707214,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": false,
+          "main_is_valid": true
+        },
+        {
+          "row": 7850,
+          "col": 7730,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        }
+      ],
+      "zones": {
+        "inside": {
+          "eligible_n": 736,
+          "valid_n": 736,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.2693852384969511,
+          "reported_mean": 0.2693852384969511,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        },
+        "outside": {
+          "eligible_n": 503,
+          "valid_n": 503,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.11398813686616882,
+          "reported_mean": 0.11398813686616882,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        }
+      }
+    },
+    {
+      "ParkID": 29,
+      "source_raster": "NDVI_nagoya.tif",
+      "epsg": 32653,
+      "byte_order": "<",
+      "samples": [
+        {
+          "row": 0,
+          "col": 0,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        },
+        {
+          "row": 3870,
+          "col": 3805,
+          "source_float32_bytes_hex": "54de373e",
+          "value": 0.17955905199050903,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": false,
+          "main_is_valid": true
+        },
+        {
+          "row": 7740,
+          "col": 7610,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        }
+      ],
+      "zones": {
+        "inside": {
+          "eligible_n": 424,
+          "valid_n": 424,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.2812571917607818,
+          "reported_mean": 0.2812571917607818,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        },
+        "outside": {
+          "eligible_n": 322,
+          "valid_n": 322,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.2984938356238678,
+          "reported_mean": 0.2984938356238678,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        }
+      }
+    },
+    {
+      "ParkID": 30,
+      "source_raster": "NDVI_fukushima_up.tif",
+      "epsg": 32654,
+      "byte_order": "<",
+      "samples": [
+        {
+          "row": 0,
+          "col": 0,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        },
+        {
+          "row": 3960,
+          "col": 3905,
+          "source_float32_bytes_hex": "89dae2bb",
+          "value": -0.0069230240769684315,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": false,
+          "main_is_valid": true
+        },
+        {
+          "row": 7920,
+          "col": 7810,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        }
+      ],
+      "zones": {
+        "inside": {
+          "eligible_n": 621,
+          "valid_n": 621,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.13865586560843407,
+          "reported_mean": 0.13865586560843407,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        },
+        "outside": {
+          "eligible_n": 420,
+          "valid_n": 420,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.1446491219591172,
+          "reported_mean": 0.1446491219591172,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        }
+      }
+    },
+    {
+      "ParkID": 34,
+      "source_raster": "NDVI_island.tif",
+      "epsg": 32652,
+      "byte_order": "<",
+      "samples": [
+        {
+          "row": 0,
+          "col": 0,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        },
+        {
+          "row": 3900,
+          "col": 3830,
+          "source_float32_bytes_hex": "171ab03c",
+          "value": 0.021496815606951714,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": false,
+          "main_is_valid": true
+        },
+        {
+          "row": 7800,
+          "col": 7660,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        }
+      ],
+      "zones": {
+        "inside": {
+          "eligible_n": 780,
+          "valid_n": 780,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.40475685628942953,
+          "reported_mean": 0.40475685628942953,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        },
+        "outside": {
+          "eligible_n": 509,
+          "valid_n": 509,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.3893658426134666,
+          "reported_mean": 0.3893658426134666,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        }
+      }
+    },
+    {
+      "ParkID": 39,
+      "source_raster": "NDVI_west.tif",
+      "epsg": 32652,
+      "byte_order": "<",
+      "samples": [
+        {
+          "row": 0,
+          "col": 0,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        },
+        {
+          "row": 3880,
+          "col": 3810,
+          "source_float32_bytes_hex": "c9ddbd3e",
+          "value": 0.3708327114582062,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": false,
+          "main_is_valid": true
+        },
+        {
+          "row": 7760,
+          "col": 7620,
+          "source_float32_bytes_hex": "ffff7fff",
+          "value": -3.4028234663852886e+38,
+          "main_reader_matches_source_bits": true,
+          "is_nodata": true,
+          "main_is_valid": false
+        }
+      ],
+      "zones": {
+        "inside": {
+          "eligible_n": 381,
+          "valid_n": 381,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.264822303797815,
+          "reported_mean": 0.264822303797815,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        },
+        "outside": {
+          "eligible_n": 331,
+          "valid_n": 331,
+          "nodata_n": 0,
+          "outside_extent_n": 0,
+          "mean": 0.2173738448029128,
+          "reported_mean": 0.2173738448029128,
+          "absolute_mean_difference": 0.0,
+          "counts_match": true
+        }
+      }
+    }
+  ]
+}

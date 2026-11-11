@@ -1,0 +1,72 @@
+[
+  {
+    "key": "jort_insight",
+    "url": "https://journalinsights.elsevier.com/journals/2213-0780/review_speed",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/journal/journal-of-outdoor-recreation-and-tourism",
+    "length": 832979,
+    "snippets": []
+  },
+  {
+    "key": "jnc_insight",
+    "url": "https://journalinsights.elsevier.com/journals/1617-1381/review_speed",
+    "status": 403,
+    "final_url": "https://www.sciencedirect.com/journal/journal-for-nature-conservation",
+    "length": 832979,
+    "snippets": []
+  },
+  {
+    "key": "jort_cdn",
+    "url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213078026000630-main.pdf",
+    "status": 400,
+    "final_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2213078026000630-main.pdf",
+    "length": 219,
+    "snippets": []
+  },
+  {
+    "key": "jort_raw",
+    "url": "https://api.elsevier.com/content/article/pii/S2213078026000630?httpAccept=text%2Fxml&view=FULL",
+    "status": 401,
+    "final_url": "https://api.elsevier.com/content/article/pii/S2213078026000630?httpAccept=text%2Fxml&view=FULL",
+    "length": 133,
+    "snippets": []
+  },
+  {
+    "key": "jort_raw2",
+    "url": "https://api.elsevier.com/content/article/pii/S2213078026000630?httpAccept=text%2Fplain",
+    "status": 400,
+    "final_url": "https://api.elsevier.com/content/article/pii/S2213078026000630?httpAccept=text%2Fplain",
+    "length": 159,
+    "snippets": []
+  },
+  {
+    "key": "jort_search",
+    "url": "https://www.bing.com/search?q=%22Sustainable%20outdoor%20recreation%20in%20rapidly%20urbanising%20landscapes%22%20pdf",
+    "status": 200,
+    "final_url": "https://www.bing.com/search?q=%22Sustainable%20outdoor%20recreation%20in%20rapidly%20urbanising%20landscapes%22%20pdf",
+    "length": 114726,
+    "snippets": []
+  },
+  {
+    "key": "jnc_search",
+    "url": "https://www.bing.com/search?q=%22Journal%20for%20Nature%20Conservation%22%20%222026%22%20%22Received%22%20%22Accepted%22%20pdf",
+    "status": 200,
+    "final_url": "https://www.bing.com/search?q=%22Journal%20for%20Nature%20Conservation%22%20%222026%22%20%22Received%22%20%22Accepted%22%20pdf",
+    "length": 126285,
+    "snippets": [
+      " \"use strict\";// &quot;Journal for Nature Conservation&quot; &quot;2026&quot; &quot;Received&quot; &quot;Accepted&quot; pdf - 検索 // 2&&a.substring(0,3)===\"IG=\")){ig='IG='+_G.IG;}if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+ig+'&CID='+_G.CID+'&'+a;}return true;}_G.BAT=\"0\";_G.RTO=\"86400000\";_G.CTT=\"3000\";_G.BNFN=\"Default\";_G.LG=\"160\";_G.CBRSHT=\"400\";_G.CBRSHTAM=\"300\";_G.BDVFY=true;_G.multiCBRSType=\"3\";_G.maxMultiCBRS=\"4\";_G.RMHGTLOG=true;;_G.SID='2E946821BFC4667A1890702ABE7C67BF';_G.InpOpt=true;;_G.EnableRMSINPOpt=",
+      " strict\";// &quot;Journal for Nature Conservation&quot; &quot;2026&quot; &quot;Received&quot; &quot;Accepted&quot; pdf - 検索 // 2&&a.substring(0,3)===\"IG=\")){ig='IG='+_G.IG;}if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+ig+'&CID='+_G.CID+'&'+a;}return true;}_G.BAT=\"0\";_G.RTO=\"86400000\";_G.CTT=\"3000\";_G.BNFN=\"Default\";_G.LG=\"160\";_G.CBRSHT=\"400\";_G.CBRSHTAM=\"300\";_G.BDVFY=true;_G.multiCBRSType=\"3\";_G.maxMultiCBRS=\"4\";_G.RMHGTLOG=true;;_G.SID='2E946821BFC4667A1890702ABE7C67BF';_G.InpOpt=true;;_G.EnableRMSINPOpt=true;;_G.AJAX_NAV_STA"
+    ]
+  },
+  {
+    "key": "cres_search",
+    "url": "https://www.bing.com/search?q=%22Current%20Research%20in%20Environmental%20Sustainability%22%20%222026%22%20%22Received%22%20%22Accepted%22%20pdf",
+    "status": 200,
+    "final_url": "https://www.bing.com/search?q=%22Current%20Research%20in%20Environmental%20Sustainability%22%20%222026%22%20%22Received%22%20%22Accepted%22%20pdf",
+    "length": 125692,
+    "snippets": [
+      "\"use strict\";// &quot;Current Research in Environmental Sustainability&quot; &quot;2026&quot; &quot;Received&quot; &quot;Accepted&quot; pdf - 検索 // 2&&a.substring(0,3)===\"IG=\")){ig='IG='+_G.IG;}if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+ig+'&CID='+_G.CID+'&'+a;}return true;}_G.BAT=\"0\";_G.RTO=\"86400000\";_G.CTT=\"3000\";_G.BNFN=\"Default\";_G.LG=\"160\";_G.CBRSHT=\"400\";_G.CBRSHTAM=\"400\";_G.BDVFY=true;_G.multiCBRSType=\"3\";_G.maxMultiCBRS=\"4\";_G.RMHGTLOG=true;;_G.SID='1FDA522A56FA60C60A614A2157546148';_G.InpOpt=true;;_G.EnableRMSINPOpt=",
+      ";Current Research in Environmental Sustainability&quot; &quot;2026&quot; &quot;Received&quot; &quot;Accepted&quot; pdf - 検索 // 2&&a.substring(0,3)===\"IG=\")){ig='IG='+_G.IG;}if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+ig+'&CID='+_G.CID+'&'+a;}return true;}_G.BAT=\"0\";_G.RTO=\"86400000\";_G.CTT=\"3000\";_G.BNFN=\"Default\";_G.LG=\"160\";_G.CBRSHT=\"400\";_G.CBRSHTAM=\"400\";_G.BDVFY=true;_G.multiCBRSType=\"3\";_G.maxMultiCBRS=\"4\";_G.RMHGTLOG=true;;_G.SID='1FDA522A56FA60C60A614A2157546148';_G.InpOpt=true;;_G.EnableRMSINPOpt=true;;_G.AJAX_NAV_STA"
+    ]
+  }
+]

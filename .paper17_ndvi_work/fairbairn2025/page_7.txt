@@ -1,0 +1,56 @@
+www.nature.com/scientificreports/
+25
+NDVI
+VegetatiOn volume
+100
+200
+400
+800
+Buffer
+50
+100
+200
+Model
+Shannon dlversity
+。 。 - VAR
+Spedes richness
+400
+Fig. 4 ． Buffer size optimization using partial r-squared for diversity metrics. R-squared-based best buffer
+selection for models based on mean NDVI and log mean vegetation volume at six buffers around each
+observation point for each Of three diversity metrics. The y-axis is the partial r-squared for log vegetation
+volume and NDVI. Dashed lines represent the best-performing buffer based on r-squared. NDVI is log-
+transformed in the Shannon diversity models.
+habitats t0 more densely vegetated habitats with trees. NMDS2 may reflect distance from the city centre, shifting
+community over time, and Other unmeasured environmental factors. 咀 vectors for NDVI and vegetation
+volume from the environmental fit pointed stl ℃ ngly towards the upper right quadrant Of the ordination space,
+aligning with a gradient in habitat preferences of the bird species. UnIike for the measures of bird diversity,
+vegetation volume showed a slightly stronger association with community composition 0 ' = 0 ． 54 ， p < 0 ． 00D
+compared t0 NDVI 0 ． ： 0 ． 50 ， 户 < 0 ． 00D ． While vegetation emerged as the primary driver 0f community
+composition, other factors, such as distance from the city centre 0 ． ： 0 彐 5 ， p < 0 ． 00D ， also showed a significant,
+albeit weaker, relationship.
+Predictive modelling results
+Our predictive maps for all diversity metrics showed clear distinctions between the heavily populated or
+developed areas, for example, near the city centre (white) and the greener regions (coloured) ． Species richness,
+VAR ， and Shannon diversity tended t0 increase further from the city centre with notable variability and some
+exceptions of high bird diversity also relatively close to the city centre, such as the English Garden northeast
+of the city centre (Fig. 7 ） ． Given the inherent complexity and variability in ecological systems the models fit
+the training data well （ r2 0 ． 37 一 0 ． 49 ， Supplementary TabIe (4). The evaluation of the predictive models showed
+good correlation with the actual values; however, there was some variability in the predictions. 咀 root mean
+square error (RMSE) and mean absolute error (MAE) were as follows: RMSE (richness= 7 ． 82 ， VAR = 48 ． 22 ，
+Shannon=O.36) and MAE (richness ： 6 ， 45 ， VAR= 40 ， 52 ， Shannon ： 0 ， 30 ） ， lhe standardised (reduced) major
+axis model II linear regression lines were plotted against a 45 -degree line representing perfect correlation
+(Supplementary Fig. (3). The observed deviations from this line indicated discrepancies between the actual
+and predicted values. AII models showed a significant relationship between the predicted and actual values
+(Supplementary TabIe S5).
+DISCUSSIon
+Our study represents a test case for a spatial product other than NDVI as a predictor for urban bird diversity. We
+determined that a 100 m buffer around the observation points best described the bird diversity occurring there
+When bird communities were characterised using passive acoustic monitoring. Contrary tO What we expected,
+we found vegetation volume was not a better predictor than NDVI ， which performed better for every diversity
+metric calculated. However ， vegetation volume performed slightly better in predicting community composition
+than NDVI. These results lend further support t0 other studies32'34 which showed NDVI to be a good predictor
+for urban bird diversity.
+Scientific Reports
+（ 2025 ） 15 ． 12863
+| https ／ / dOi ． org/10 ． 1038 / S41598 一 025 一 96098 ． 0
+natureportfolio

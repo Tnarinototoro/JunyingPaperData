@@ -1,0 +1,1513 @@
+{
+  "requested_title": "Forest Ecology and Management",
+  "status": 200,
+  "url": "https://journalfinder.elsevier.com/api/journals/search",
+  "request": {
+    "query": "Forest Ecology and Management",
+    "mode": "search",
+    "goldOpenAccess": true,
+    "subscription": true,
+    "sortBy": "default",
+    "sortOrder": "asc",
+    "ecrId": "",
+    "agreementsFilter": "all-journals"
+  },
+  "response": {
+    "results": [
+      {
+        "ranking": 1,
+        "title": "Forest Ecology and Management",
+        "acronym": "FORECO",
+        "emAcronym": "FORECO",
+        "issn": "0378-1127",
+        "subjectAreas": [
+          "Ecology, Evolution, Behavior and Systematics",
+          "Ecology",
+          "Forestry"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Mini Review",
+          "Perspectives",
+          "Review Article",
+          "Tamm Review",
+          "VSI:2026 FIA Science Symposium: Full length article",
+          "VSI:Large mammalian herbivores: Full length article",
+          "VSI:Restoration of Tropical Forests: Full length article",
+          "VSI:2026 FIA Science Symposium: Review article",
+          "VSI:Large mammalian herbivores: Review article",
+          "VSI:Restoration of Tropical Forests: Review article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03781127.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/FORECO",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/forest-ecology-and-management/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 7.5
+          },
+          "impactFactor": {
+            "value": 4.2
+          },
+          "timeToFirstDecision": {
+            "value": 4
+          },
+          "timeToAcceptance": {
+            "value": 9
+          }
+        },
+        "scope": "<p>Science to Sustain the World’s Forests</p><p><i>Forest Ecology and Management</i> focuses on scientific articles <i>linking forest ecology with forest management</i>, with potential <i>application</i> of biological and ecological knowledge to the management and conservation of plantations and natural forests.</p><p>The journal encourages communication between scientists in disparate fields who share a common interest in ecology and forest management, bridging the gap between scientists and forest managers. A peer-review process ensures the quality and international interest of the manuscripts accepted for publication. Authors are invited to benefit from <a href=\"https://www.sciencedirect.com/journal/forest-ecology-and-management/about/editorials-on-publishing\">editorials</a> that provide advice for constructing strong papers.</p><p>We encourage submission of papers that will be of strong interest and value to the Journal&#39;s <i>international</i> readership. Some key features of papers with strong interest include: <br/> 1. Clear connections between the ecology and management of forests; <br/> 2. Novel ideas or approaches to important challenges in forest ecology and management; <br/> 3. Studies that address a population of interest beyond the scale of single research sites (<a href=\"https://www.elsevier.com/__data/promis_misc/keypointsindesign.pdf\">see the editorial</a>, <i>Three key points in the design of forest experiments</i>, <i>Forest Ecology and Management</i> 255 (2008) 2022-2023); <br/> 4. Review Articles on timely, important topics. Authors are invited to contact one of the Editors to discuss the suitability of a potential review manuscript, which can be a regular review, an Mini review or a Tamm review (see the Guide for Authors for details about each type of review article).</p><p>We invite to read the following editorial article with more advice in relation to preferred articles: <i>How to avoid having your manuscript rejected: Perspectives from the Editors of Forest Ecology and Management</i>, <a href=\"https://www.sciencedirect.com/science/article/pii/S0378112720310902\">Volume 473, 1 October 2020, 118321</a>.</p><p>The Journal encourages proposals for special issues examining important areas of forest ecology and management. Potential guest editors should contact one of the Editors to initiate a discussion about topics, potential papers, and other details.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "María Elena Fernández",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "FORESTRY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Agricultural and Forestry Science",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3380,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 2,
+        "title": "Trees, Forests and People",
+        "acronym": "TFP",
+        "emAcronym": "TFP",
+        "issn": "2666-7193",
+        "subjectAreas": [
+          "Forestry",
+          "Environmental Science (General)"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Review Paper",
+          "Commentary",
+          "Short Communication",
+          "VSI:Advanced Remote Sensing_Research article",
+          "VSI:Climate change and forests_Research article",
+          "VSI:Restoration Outcomes_Research article",
+          "VSI:Social Bioenergy_Research article",
+          "VSI:Advanced Remote Sensing_Review article",
+          "VSI:Climate change and forests_Review article",
+          "VSI:Restoration Outcomes_Review article",
+          "VSI:Social Bioenergy_Review article",
+          "VSI:Advanced Remote Sensing_Short Communication",
+          "VSI:Climate change and forests_Short Communication",
+          "VSI:Social Bioenergy_Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/26667193.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/TFP",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/trees-forests-and-people/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 5.4
+          },
+          "impactFactor": {
+            "value": 3.6
+          },
+          "timeToFirstDecision": {
+            "value": 2
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p><b>Description</b> <br/><i>Trees, Forests and People</i> publishes peer-reviewed papers across this full domain of tree- and forest-related science and practice. To ensure maximum value of knowledge, all papers are published open-access to be read and applied by people around the world. The Journal welcomes contributions from all disciplines in natural and social sciences related to trees and forests in any setting, from trees found within urban landscapes or agroforestry fields to those found in forest plantations and landscapes that deal with ecological, social, economic, and political issues for managing trees and forests. <br/> The Journal publishes the following article types: <b>Research articles</b> are full-length papers based on original data and analysis; <b>Review articles</b> provide a systematic, analytical overview of scientific literature; <b>Commentaries</b> (typically under 3,000 words, these receive a fast track review by the editorial team) of three types (<i><b>Comments</b></i> critically discuss previous research; <i><b>Research Trends and Needs</b></i> identify emerging research trends and new, critical future research areas; and <i><b>Policy Reviews</b></i> briefly examine current or proposed policies relevant to managing trees, forests and people). We also welcome <b>Special Issues</b>, collections of articles organized under a specific topic. Potential Guest Editors are invited to submit proposals for Special Issues, including a brief description of the topic, and a list of potential contributors and tentative titles of their articles to one of the Editors.</p><p><b>Introduction</b> <br/>Trees and forests are at the heart of many of the most important issues of the 21st century, ranging from the survival of long-lived trees to the livelihoods of people who depend on sustained use of forest resources. The domain of <i>Trees, Forests and People</i> encompasses studies that examine important details about specialized topics, and broader efforts that integrate these topics to address issues of complex social-ecological systems. The Journal&#39;s focus includes trees and forests in any setting, from trees found within urban landscapes or agroforestry fields to those found in forest plantations and landscapes. The present and future state of forests is intimately tied to human factors: people strongly influence most of the world&#39;s forests today, and these forests provide for the needs of people around the globe.</p><p>The Journal welcomes papers that deal with social, economic, and political issues to complement studies on tree physiology, forest ecology and silviculture. This full range of subject areas includes:</p><ul><li><p>tree and forest growth, including case studies and development of allometric approaches;</p></li><li><p>genetics of tree species;</p></li><li><p>silvicultural systems;</p></li><li><p>urban forestry and urban greening;</p></li><li><p>agroforestry and non-timber forest products;</p></li><li><p>biodiversity;</p></li><li><p>forest restoration;</p></li><li><p>forest soils;</p></li><li><p>carbon budgets and fluxes;</p></li><li><p>biomass and bioenergy;</p></li><li><p>wildlife and forest habitat;</p></li><li><p>water resources in forest landscapes;</p></li><li><p>invasive species impacts and management;</p></li><li><p>forest events such as fires, pests and pathogens, disturbance;</p></li><li><p>pollution effects on trees and forests;</p></li><li><p>remote sensing and GIS development and application in forest landscapes;</p></li><li><p>forest economics, including changing markets, products, supply chain, and demands;</p></li><li><p>forest ecosystem services;</p></li><li><p>forest livelihoods, including studies of poverty reduction through use of forest resources;</p></li><li><p>climate responses of forest, including scenarios of forest futures;</p></li><li><p>forest governance;</p></li><li><p>forest landscapes as social-ecological systems;</p></li><li><p>case studies dealing with specific locations and situations, as well as broader studies with large populations of inference.</p></li></ul><p>All submitted manuscripts will be subject to a thorough peer-reviewing process.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Dr. Todd Fredericksen",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "FORESTRY",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Agricultural and Forestry Science",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2440,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 3,
+        "title": "Journal of Environmental Management",
+        "acronym": "YJEMA",
+        "emAcronym": "JEMA",
+        "issn": "0301-4797",
+        "subjectAreas": [
+          "Ecology",
+          "Pollution",
+          "Management, Monitoring, Policy and Law",
+          "Geography, Planning and Development",
+          "Waste Management and Disposal",
+          "Renewable Energy, Sustainability and the Environment"
+        ],
+        "articleTypes": [
+          "Research Article",
+          "Review Article",
+          "Short Communication",
+          "VSI: Biofuel: Challenges & Advances",
+          "VSI: CorporateClimateStrategy",
+          "VSI: Landscape Perception",
+          "VSI: ML of Diffuse Water Pollution",
+          "VSI: Water Pollution Control"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/03014797.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/JEMA",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/journal-of-environmental-management/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 13.9
+          },
+          "impactFactor": {
+            "value": 9.2
+          },
+          "timeToFirstDecision": {
+            "value": 4
+          },
+          "timeToAcceptance": {
+            "value": 6
+          }
+        },
+        "scope": "<p>The <b><i>Journal of Environmental Management</i></b> (JEM) is a premier, peer-reviewed journal dedicated to advancing the understanding and application of environmental management practices. Our mission is to disseminate high-quality, original research that contributes to the effective management of environmental systems and the enhancement of environmental quality. Environmental management encompasses the systematic approach to dealing with environmental issues through planning, controlling, monitoring, and improving the interactions between human activities and the natural environment. This includes strategies for sustainable use of resources, pollution control, conservation of biodiversity, and mitigation of environmental impacts. We invite submissions that demonstrate a clear connection to practical environmental management applications with interest, novelty, and impact relevant to an international audience. </p><p>Specific areas of interest for each Section:</p><p><b><i><u>Section I: Environmental Assessment and Monitoring</u></i></b></p><p>This section covers methodologies and techniques for environmental analysis and assessment, including environmental impact assessments, risk assessments, life cycle analyses, and the development of new procedures for environmental quality management. It also includes research on environmental system modeling and optimization.</p><p>Interesting topics for papers in this section:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1 Advanced techniques in environmental impact assessment and their applications.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.2 Innovations in risk assessment methodologies for environmental hazards.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.3 Life cycle analysis of renewable energy technologies.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.4 Development of new monitoring methods for air and water quality.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.5 Characterization techniques for emerging environmental contaminants.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.6 Integrated model for environmental complexity as tele-coupling or nexus system.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.7 New model technology for resource optimization and management.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.8 Development and implementation of environmental quality standards.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.9 Best practice for resource and environmental management</p><p><b><i><u>Section II: Pollution Control and Waste Management</u></i></b></p><p>This section focuses on the development and application of technologies for controlling pollution in water, air, and soil, as well as the management and valorization of waste, including industrial residues and effluents. This section is technology-oriented.</p><p>Interesting topics for papers in this section:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1&nbsp;&nbsp;Development of advanced water treatment technologies for removing contaminants.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2&nbsp;&nbsp;Innovative air pollution control technologies and their field applications.&nbsp;&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3&nbsp;&nbsp;Soil remediation techniques for heavy metal and organic pollutant removal<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4&nbsp;&nbsp;Bioremediation and phytoremediation strategies for contaminated sites.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.5&nbsp;&nbsp;Waste-to-energy technologies and their environmental impacts.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.6&nbsp;&nbsp;Industrial waste valorization: converting waste streams into valuable resources.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.7&nbsp;&nbsp;Comparative studies of traditional vs. emerging pollution control methods.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.8&nbsp;&nbsp;Development and optimization of sustainable waste management systems.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.9&nbsp;&nbsp;Applications of nanotechnology in pollution control and remediation.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.10&nbsp;&nbsp;Case studies on successful implementation of pollution control technologies in different industries that are of wide interest internationally.</p><p><b><i><u>Section III: Natural Resource and Ecosystem Management</u></i></b></p><p>This section is dedicated to ecological applications and conservation efforts, as well as the sustainable management of natural resources. It highlights research that contributes to the preservation and effective management of ecosystems.<br/><br/>Interesting topics for papers in this section:<br/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1&nbsp;&nbsp;Strategies for sustainable natural resource management in diverse ecosystems.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2&nbsp;&nbsp;Innovative conservation techniques for endangered species and habitats.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.3&nbsp;&nbsp;Impacts of human activities on ecosystem health and biodiversity.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.4&nbsp;&nbsp;Restoration ecology: methods and case studies in ecosystem rehabilitation.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.5&nbsp;&nbsp;Sustainable forest and rangeland management practices and their environmental benefits.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.6&nbsp;&nbsp;Marine and coastal resource management: challenges and solutions.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.7&nbsp;&nbsp;Integrated watershed management and its role in ecosystem conservation.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.8&nbsp;&nbsp;Applications of remote sensing and GIS in ecosystem monitoring and management.</p><p><b><i><u>Section IV: Climate Change and Environmental Resilience</u></i></b></p><p>This section addresses the challenges and solutions related to climate change and enhancing the resilience of environmental systems. It includes studies on the impacts of climate change and strategies for adaptation and mitigation.<br/><br/>Interesting topics for papers in this section:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.1&nbsp;&nbsp;Strategies for enhancing the resilience of ecosystems to climate change.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.2&nbsp;&nbsp;Impact assessments of climate change on biodiversity and ecosystem services.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.3&nbsp;&nbsp;Adaptive management approaches for climate change mitigation and adaptation.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.4&nbsp;&nbsp;Development of climate-resilient agricultural practices.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.5&nbsp;&nbsp;Modeling and prediction of climate change impacts on environmental systems.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.6&nbsp;&nbsp;Urban planning and infrastructure design for climate resilience.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.7&nbsp;&nbsp;Role of renewable energy in mitigating climate change.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.8&nbsp;&nbsp;Community-based approaches to building climate resilience.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.9&nbsp;&nbsp;Policy and governance frameworks for climate change adaptation.</p><p><b><i><u>Section V: Environmental Policy, Economics, and Social Science</u></i></b></p><p>This section explores the social, economic, and policy aspects of environmental management. It includes research on the development and impact of environmental policies, economic analyses, and the social implications of environmental management practices.<br/><br/>Interesting topics for papers in this section:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.1&nbsp;&nbsp;Economic valuation of ecosystem services and natural resources.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.2&nbsp;&nbsp;The role of environmental policies in promoting sustainable development.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.3&nbsp;&nbsp;Social impacts of environmental management practices on local communities.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.4&nbsp;&nbsp;Comparative analysis of international environmental policies and their effectiveness.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.5&nbsp;&nbsp;The influence of economic incentives on environmental conservation efforts.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.6&nbsp;&nbsp;Public perception and acceptance of environmental policies and regulations.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.7&nbsp;&nbsp;The intersection of environmental justice and policy-making.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.8&nbsp;&nbsp;Behavioral economics in promoting pro-environmental behavior.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.9&nbsp;&nbsp;Policy analysis for waste management and pollution control.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.10&nbsp;&nbsp;Socio-economic impacts of climate change and mitigation strategies.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.11&nbsp;&nbsp;Business practices, management systems in relation with environmental challenges.</p><p><b><i><u>Section VI: Human-induced Pollution and Environmental Impact</u></i></b></p><p>This section examines the environmental impacts of human activities, focusing on pollution caused by industrial, agricultural, and urban activities. It aims to provide insights into mitigating the adverse effects of human-induced environmental changes.<br/><br/>Interesting topics for papers in this section:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.1&nbsp;&nbsp;Assessing the environmental impact of industrial activities and urbanization.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.2&nbsp;&nbsp;Strategies for mitigating pollution from agricultural practices.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.3&nbsp;&nbsp;Effects of plastic pollution on marine and terrestrial ecosystems.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.4&nbsp;&nbsp;Evaluation of air quality impacts due to transportation and industrial emissions.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.5&nbsp;&nbsp;Fate of chemical pollutants in the environment.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.6&nbsp;&nbsp;Health risks associated with human-induced environmental contamination.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.7&nbsp;&nbsp;Long-term environmental effects of mining and resource extraction.<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.8&nbsp;&nbsp;Policy and regulatory approaches to managing human-induced environmental impacts.</p><p>Submissions based on highly localized case studies or laboratory-scale experiments using standard methods are generally discouraged and often will be desk-rejected, unless it is convincingly demonstrated that the results and lessons learned are of broad interest to environmental management researchers and professionals. We also currently discourage submissions based solely on bibliometric analysis, aggregate econometrics, or qualitative social science. Submission of critical review and discussion articles is allowed, but such submissions must succinctly provide critical insights and novel thoughts that advance the field of environmental management in a specific topic area. Reviews that are overly lengthy (e.g., in the form of a traditional textbook, thesis, or dissertation-style literature review) or that simply summarize existing literature without providing novel, practical insights will generally be desk-rejected by an executive editor.</p><p>Authors will be asked to provide a <b>novelty and relevance statement</b> indicating how the results are deemed to be original with respect to the state-of-the-art in the field, relevant and essential to the advance of knowledge on environmental management and applicable to a wider audience and wider contexts.</p><p><i>Journal of Environmental Management</i> is the companion title to the open access journal <a href=\"https://www.journals.elsevier.com/environmental-challenges\"><i>Environmental Challenges</i></a>.</p><p>We encourage those interested in organizing a special issue or a virtual special issue within the scope of the journal to fill out <a href=\"https://www.elsevier.com/__data/promis_misc/yjema-special-issue-info-form_updated.docx\">this form</a> and contact <a href=\"mailto:p.hooda@kingston.ac.uk\"><b>Prof. Peter Hooda</b></a>&nbsp;&nbsp;for more information. Additionally, we encourage potential organizers to carefully review the relevant requirements in the <a href=\"https://www.sciencedirect.com/journal/journal-of-environmental-management/publish/guide-for-authors\">Guide for Authors</a> before proceeding. Please note that each special issue can only accept up to three guest editors (GEs).</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Sultan Al-Salem | Jason Evans | Zied Ftiti | Apostolos Kyriazopoulos | Mingming Sun | Lixiao Zhang",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3850,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 4,
+        "title": "Remote Sensing of Environment",
+        "acronym": "RSE",
+        "emAcronym": "RSE",
+        "issn": "0034-4257",
+        "subjectAreas": [
+          "Computers in Earth Sciences",
+          "Environmental Science (General)",
+          "Management, Monitoring, Policy and Law",
+          "Earth-Surface Processes"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review article",
+          "Short Communication",
+          "VSI: Geospatial Foundation AI",
+          "VSI: Geostationary Ocean Color Satellite",
+          "VSI: Traits,structure,function - Research Paper",
+          "VSI: Traits,structure,function - Review Article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/00344257.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/RSE",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/remote-sensing-of-environment/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 22.8
+          },
+          "impactFactor": {
+            "value": 12.3
+          },
+          "timeToFirstDecision": {
+            "value": 2
+          },
+          "timeToAcceptance": {
+            "value": 9
+          }
+        },
+        "scope": "<p><i>Remote Sensing of Environment (RSE)</i> serves the Earth observation community with the publication of results on the theory, science, applications, and technology of studies contributing to advance the science of remote sensing. Thoroughly interdisciplinary, <i>RSE</i> publishes on <b>terrestrial</b>, <b>oceanic</b> and <b>atmospheric sensing</b>. The emphasis of the journal is on biophysical and quantitative approaches to remote sensing at local to global scales and covers a wide range of <b>applications</b> and <b>techniques</b>:</p><p><b>Applications</b></p><ul><li><p>Land cover mapping, vegetation species identification and mapping</p></li><li><p>Land surface energy and water balance</p></li><li><p>Disturbance (fire, insect, harvest)</p></li><li><p>Agriculture (crop mapping, yield prediction, phenology, soil properties, management practices)</p></li><li><p>Forest and rangeland productivity and inventories</p></li><li><p>Ecological applications &amp; Ecosystem services (wetland, biodiversity, habitat, animal population, etc.)</p></li><li><p>Urban applications (mapping, energy consumption, population, etc.)</p></li><li><p>Terrestrial ecosystem productivity and carbon cycles</p></li><li><p>Soil properties (moisture, organic matter, texture, structure, etc.)</p></li><li><p>Geological Applications (minerals, landslide, subsidence, geomorphology, earth quake, etc.)</p></li><li><p>Hydrology and water resources</p></li><li><p>Inland and coastal waters</p></li><li><p>Oceanography and marine science</p></li><li><p>Cryosphere, mapping and modelling</p></li><li><p>Atmospheric science and meteorology</p></li><li><p>Snow, ice and glaciers</p></li></ul><p><b>Techniques &amp; Methods</b></p><ul><li><p>Feature extraction from RS images: segmentation and classification, surface structural, biochemical or physiological traits estimation from RS data</p></li><li><p>Radiative transfer modelling</p></li><li><p>Machine and deep learning for RS data analysis</p></li><li><p>RS Data assimilation</p></li><li><p>Satellite time series analysis &amp; change detection</p></li><li><p>Satellite data fusion (spectral, spatial and temporal)</p></li><li><p>Satellite sensor systems characterization including radiometric and geometric calibration</p></li><li><p>New remote sensing missions and systems</p></li></ul><p><b>The journal </b><i><b>Remote Sensing of Environment</b></i><b> invites proposals for Special Issues.</b> For more details on the SI proposal process and how to submit a SI, please refer to the relevant section - Journal Specific Information - of the Guide for Authors.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Jing. M. Chen | Menghua Wang | Marie Weiss",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "IMAGING SCIENCE & PHOTOGRAPHIC TECHNOLOGY",
+              "tier": 1
+            },
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 1
+            },
+            {
+              "name": "REMOTE SENSING",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "GeoSciences",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4310,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 5,
+        "title": "Ecological Indicators",
+        "acronym": "ECOIND",
+        "emAcronym": "ECOLIND",
+        "issn": "1470-160X",
+        "subjectAreas": [
+          "Ecological Modelling",
+          "Ecology",
+          "Ecology, Evolution, Behavior and Systematics"
+        ],
+        "articleTypes": [
+          "Perspectives",
+          "Research paper",
+          "Review article",
+          "Case study",
+          "Short Note",
+          "Technical note",
+          "VSI: Digital Plot Systems_Research Article",
+          "VSI: Digital Plot Systems_Review Article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/1470160X.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/ECOLIND",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/ecological-indicators/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 14.3
+          },
+          "impactFactor": {
+            "value": 8.7
+          },
+          "timeToFirstDecision": {
+            "value": 1
+          },
+          "timeToAcceptance": {
+            "value": 7
+          }
+        },
+        "scope": "<p>Integrating Sciences for Monitoring, Assessment and Management</p><p>The ultimate aim of <i>Ecological Indicators</i> is to integrate the <b>monitoring</b> and <b>assessment</b> of <b>ecological</b> and <b>environmental indicators</b> with <b>management</b> practices. The journal provides a forum for the discussion of the applied scientific development and review of traditional indicator applications as well as for theoretical, modelling and quantitative approaches such as index development. Research into the following areas will be published.</p><p>• All aspects of ecological and environmental indicators and indices. <br/> • New indicators, and new approaches and methods for indicator development, testing and use. <br/> • Development and modelling of indices, e.g. application of indicator suites across multiple scales and resources. <br/> • Analysis and research of resource, system- and scale-specific indicators. <br/> • Methods for integration of social and other valuation metrics for the production of scientifically rigorous and politically-relevant assessments using indicator-based monitoring and assessment programs. <br/> • Approaches on how research indicators can be transformed into direct application for management purposes. <br/> • Broader assessment objectives and methods, e.g. biodiversity, biological integrity, and sustainability, through the use of indicators. <br/> • Resource-specific indicators such as landscape, agroecosystems, forests ecosystems, aquatic ecosystems, wetlands, etc.</p><p>The journal seeks innovative papers which provide new developmental and methodological steps for environmental indication. Submissions of results from simple monitoring programs or single case studies, resulting in descriptive approaches without any exploration from the theory of indication, from the methodology of indication, or from the management points of view are not considered suitable for publication in <i>Ecological Indicators</i>.</p><p>The following contributions will be accepted:</p><p>Original research papers; <br/> Review articles; <br/> Special themed issues; <br/> Short notes and case studies; <br/> Viewpoints; <br/> Letters to the Editor; <br/> Book reviews.</p><p><i>Ecological Indicators</i> has an open access companion title, <a href=\"https://www.journals.elsevier.com/environmental-and-sustainability-indicators\"><i>Environmental and Sustainability Indicators</i></a> . It welcomes submissions promoting research on indicators as drivers for environmental management, policy formulation, and interdisciplinary research assessing complex environmental interactions for stimulating sustainable development.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Giovanni Zurlini",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4620,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 6,
+        "title": "Environmental Impact Assessment Review",
+        "acronym": "EIR",
+        "emAcronym": "EIR",
+        "issn": "0195-9255",
+        "subjectAreas": [
+          "Management, Monitoring, Policy and Law",
+          "Renewable Energy, Sustainability and the Environment",
+          "Environmental Science (General)",
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Full Length Article",
+          "Opinion Paper",
+          "Review Article",
+          "VSI: AI in Impact Assessment",
+          "VSI: LCSA"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01959255.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/EIR",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/environmental-impact-assessment-review/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 19.6
+          },
+          "impactFactor": {
+            "value": 12.2
+          },
+          "timeToFirstDecision": {
+            "value": 2
+          },
+          "timeToAcceptance": {
+            "value": 7
+          }
+        },
+        "scope": "<p><i>Environmental Impact Assessment Review</i> (EIA Review) is a peer-reviewed, interdisciplinary journal serving a global community of academics, practitioners, policymakers, and regulators engaged with impact assessment (IA) theory and practice. As defined by the International Association for Impact Assessment (iaia.org), impact assessment is a transformative process that informs and guides decisions and actions by governments, businesses, and individuals — aiming to maximize positive outcomes and minimize negative effects in support of sustainable development.</p><p>Since its mandatory introduction in the United States under the National Environmental Policy Act (NEPA) on January 1, 1970, IA has become one of the world&#39;s most widely adopted environmental policy tools. In the decades since, a broad range of IA policies, tools, and procedures has emerged, spanning multiple sustainability dimensions and objectives.</p><p>IA is now used across public and private sectors worldwide. What began as a forward-looking procedure for predicting impacts at the project and strategic level has grown into a broad theoretical and applied field, encompassing <i>ex-ante</i>, <i>ex-post</i>, life-cycle, and ecological evaluations of projects, policies, plans, programs, areas, ecosystems, products, materials, and services.</p><p>For EIA Review, IA covers assessment of impacts on or of the environment — including Environmental Impact Assessment (EIA) and Strategic Environmental Assessment (SEA) — as well as Social Impact Assessment (SIA), Health Impact Assessment (HIA), Risk Assessment (RA), Economic Impact Assessment (EIC), climate change assessment, and ecosystem assessment.</p><p>The journal publishes impactful studies grounded in innovative theory and practice across these areas, including but not limited to:</p><ol><li><p><b>Impact assessment theories and innovative assessment and decision-making methodologies</b>: e.g., theory building and testing for EIA/SEA and cumulative effects assessment (CEA), novel predictive assessment models, multi‑criteria system evaluation, quantification of energy values and ecosystem services, and optimized approaches to environmental decision-making, including algorithms for cost‑benefit analysis (CBA).</p></li><li><p><b>Impact assessment regulations, governance regimes and institutional comparisons: </b>e.g., national environmental legislative procedures, approval and supervision mechanisms, regional and national EIA reforms, comparative analyses of different EIA systems, and empirical studies on public participation within EIA governance.</p></li><li><p><b>Strategic environmental assessment and territorial‑spatial planning evaluation</b>: e.g., SEA for land development, industrial parks and regional planning, quantitative measurement of ecological constraints in territorial space, and effectiveness tracking for planned EIA implementation.</p></li><li><p><b>Life Cycle Assessment and carbon‑footprint accounting</b>: e.g., product life‑cycle environmental impacts, industrial‑scale carbon‑footprint calculation, energy‑value analysis for energy systems, and integrated environmental‑benefit evaluation for the circular economy.</p></li><li><p><b>Integrated cross‑impact assessments:</b> e.g., Social Impact Assessment, Health Impact Assessment, Landscape impact evaluation, Human‑rights‑related equity considerations, integrated climate‑risk assessment (RIA), and coupled models for multi‑dimensional composite impacts.</p></li><li><p><b>Ecological conservation and natural‑resource assessment:</b> e.g., biodiversity impact assessment, quantitative evaluation of watershed and forest ecosystem impacts, ecological gains and losses induced by land‑use change, and supporting‑tool development for ecological compensation.</p></li><li><p><b>Green industry, supply‑chain and environmental management:</b> e.g., corporate environmental‑management systems, supply‑chain sustainability assessment, environmental‑risk mitigation for large‑scale infrastructure and energy projects, and supporting evaluation mechanisms for green finance.</p></li><li><p><b>Systematic reviews and meta‑analyses related to impact assessment:</b> e.g., evidence synthesis of comprehensive IA practices, critical reviews of assessment methodologies, mapping of global EA research trends, and development of forward‑looking research frameworks.</p></li></ol><p></p><p><b>Manuscript Expectations</b></p><p>EIA Review is an international journal with a global readership; manuscripts should be contextualized to address geographical and political issues relevant to a broad audience. The journal accepts original research that may adopt a case-study design but does not accept papers that merely report or describe IA case studies applying existing methods within a single jurisdiction without wider learning points. Case studies must explicitly demonstrate innovative theory or practice and offer clear value to an international readership.</p><p>Despite its title, EIA Review is not limited to review articles. The journal welcomes three manuscript types: <b>Full-Length Research Articles, Literature Review Articles, and Opinion Articles</b>[AF1] . &quot;Review&quot; in the journal&#39;s name refers to its blind peer-review process — a minimum of two reviewers — which ensures every publication is reliable, insightful, innovative, topical, and coherent.</p><p>The journal receives far more submissions than it can accept. <b>Manuscripts within scope may still be desk-rejected for insufficient novelty or unclear potential to advance the field</b>. The International Advisory Board is consulted whenever necessary.</p><p>Authors are encouraged to review recent articles in the journal to understand how the editorial team evaluates novelty, contribution, and approach. Authors are encouraged to review recent articles in the journal to understand how the editorial team evaluates potential manuscripts concerning their innovation, contribution and approach</p><p>[AF1]We have different terminologies being used right now. 1) The Guide for authors webpage uses: Articles, Reviews of Current Literature, and Viewpoints; 2) The EM Submission system uses Full Length Article, Opinion Paper and Review Article.I suggest we harmonize everything using the following wording: <b>Full-Length Research Articles, Literature Review Articles and Opinion Articles.</b></p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Alberto Fonseca | He Xu",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Social Sciences",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 4510,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 7,
+        "title": "Pedosphere",
+        "acronym": "PEDSPH",
+        "issn": "1002-0160",
+        "subjectAreas": [
+          "Soil Science"
+        ],
+        "articleTypes": [],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/10020160.jpg",
+        "links": {
+          "submission": "https://mc03.manuscriptcentral.com/Pedosphere",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/pedosphere/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 13.1
+          },
+          "impactFactor": {
+            "value": 7
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p>Pedosphere - A peer-reviewed international journal was founded in 1991 and is published bimonthly in English by Elsevier Limited and Science Press.</p><p>Pedosphere is sponsored jointly by the <a href=\"http://en.csss.org.cn/\">Soil Science Society of China</a> and the <a href=\"http://english.issas.cas.cn/\">Institute of Soil Science</a>, <a href=\"http://english.cas.cn/\">Chinese Academy of Sciences</a> in cooperation with 5 of the most important Chinese institutions and universities working in the field of soil science: <a href=\"http://english.scau.edu.cn/\">China Agricultural University</a>; the <a href=\"http://appliedeco.org/\">Institute of Applied Ecology</a>, <a href=\"http://english.cas.cn/\">Chinese Academy of Sciences</a>; <a href=\"http://english.njau.edu.cn/\">Nanjing Agricultural University</a>; <a href=\"http://english.scau.edu.cn/\">South China Agricultural University</a>; and <a href=\"http://www.zju.edu.cn/english/\">Zhejiang University</a>.</p><p>The Editor-in-Chief is Prof. Shen Ren-Fang, who is Honorary President of the Soil Science Society of China, and Director of the Institute of Soil Science, Chinese Academy of Sciences.</p><p>Pedosphere welcomes submissions from scientists around the world under a broad scope of topics relevant to timely, high quality original research findings, especially up-to-date achievements and advances in the entire field of <b>soil science studies</b> dealing with environmental science, ecology, agriculture, bioscience, geoscience, forestry, etc. It publishes mainly original research articles as well as some reviews, mini reviews, short communications and special issues; and its areas of particular interest include soil <b>physics</b>; soil <b>chemistry</b>; soil <b>biology</b> and <b>biochemistry</b>; soil <b>fertility</b> and <b>plant nutrition</b>; soil <b>resources</b> and use; soil <b>mineralogy</b>; soil <b>environment</b> and <b>ecology</b>; soil and water <b>conservation</b>; forest, range, and wetland soils; soil <b>salinity</b> and <b>management</b>; soil and plant <b>analysis</b> and <b>technology</b>; and <b>soil gases</b> and global change.</p><p>Papers submitted to the Journal Pedosphere must be sent out for double anonymized in-depth peer review by the <a href=\"https://www.journals.elsevier.com/pedosphere/editorial-board\">Editorial Committee</a> , which is composed of 42 foreign and 21 Chinese worldwide renowned soil scientists from 24 countries, and by its scientific review panel composed of thousands of internationally invited experts prior to acceptance for publication.</p><p>Pedosphere has been abstracted/indexed in most of relevant internationally important databases and abstracts, such as Current Contents/AB and ES, Science Citation Index Expanded, Biological Abstracts, BIOSIS, CAB Abstracts, Cambridge Scientific Abstracts, Chemical Abstracts, SCOPUS, ScienceDirect, VINITI Abstracts Journal, Elsevier BIOBASE, GEOBASE, ASCI, Pollution Abstracts, Environmental Sciences and Pollution Mgmt, Environment Encyclopedia and Directory, Irrigation and Drainage Abstracts, Soils and Fertilizers, Water Resources Abstracts, Agroforestry Abstracts, Field Crop Abstracts, Forestry Abstracts, Geographical Abstracts, Geological Abstracts, Geomechanics Abstracts, Grasslands and Forage Abstracts, Horticultural Abstracts, International Development Abstracts, Maize Abstracts, Nematological Abstracts, CSCD, CSTPCD, CJCR, CNKI, CAJCED, Plant Growth Regulator Abstracts, Rice Abstracts, and Wheat, Barley and Triticale Abstracts.</p><p>To date the published papers in Pedosphere submitted by authors from over 30 countries outside China, such as the USA, UK, France, Australia, Canada, Germany, Spain, Italy, The Netherlands, New Zealand, Israel, Japan, Poland, India, Brazil, Thailand, Pakistan, Greece, Syria and Bangladesh, have accounted for more than 30% of the total. Additionally, over 90% of the published articles in the journal belong to research projects supported by various international and national scientific foundations.</p><p>Pedosphere&#39;s audience: Scientific and technical researchers and workers as well as university and college teachers and students related to soil science, environmental science, ecology, bioscience, geoscience, agriculture, forestry, etc.</p><p>All manuscripts should be submitted electronically via Pedosphere Online Editorial System (POES) - the web-based online manuscript submission, tracking, peer-review, and editorial management system of Pedosphere - which can be accessed at <a href=\"http://pedosphere.issas.ac.cn\">http://pedosphere.issas.ac.cn</a>.</p><p>For subscription outside China: Elsevier is responsible for overseas subscription of the journal. Please subscribe to the journal via <a href=\"http://www.sciencedirect.com\">http://www.sciencedirect.com</a> or contact the Elsevier Customer Service Department at the Regional Sales Office nearest you, as listed in the inside cover of the journal. For domestic subscription in China: Please subscribe to the journal in local post offices throughout China (domestic postal distribution code: 2-576).</p><p>Editorial Committee and Editorial Office of Pedosphere <br/> Address: P. O. Box 821, 71 East Beijing Road, Nanjing 210008, P. R. China <br/> Tel.: +86-25-8688 1235; Fax: +86-25-8688 1256 <br/> E-mail: <a href=\"mailto:pedosphere@issas.ac.cn\">pedosphere@issas.ac.cn</a> <br/> URL: <a href=\"http://pedosphere.issas.ac.cn\">http://pedosphere.issas.ac.cn</a> <br/> <a href=\"https://www.elsevier.com/locate/pedosphere\">https://www.elsevier.com/locate/pedosphere</a></p>",
+        "openAccessType": "NONE",
+        "editorInChief": "Lun Shan | James Tiedje | Jiabao Zhang",
+        "hasAgreements": false
+      },
+      {
+        "ranking": 8,
+        "title": "Urban Forestry & Urban Greening",
+        "acronym": "UFUG",
+        "emAcronym": "UFUG",
+        "issn": "1618-8667",
+        "subjectAreas": [
+          "Horticulture",
+          "Management, Monitoring, Policy and Law",
+          "Nature and Landscape Conservation",
+          "Forestry",
+          "Geography, Planning and Development"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article ( On invitation only)",
+          "Short Communication",
+          "VSI: Climate Extremes: Research Paper",
+          "VSI: WGIC26 Congress: Research Paper",
+          "VSI:Cemeteries as models ( Research Paper)",
+          "VSI:Evidence-to-Practice NbS: Research Paper",
+          "VSI:Greenness and city liveliness: Research Paper",
+          "VSI: Climate Extremes: Review",
+          "VSI: WGIC26 Congress: Review",
+          "VSI:Cemeteries as models: Review",
+          "VSI:Evidence-to-Practice NbS: Review",
+          "VSI:Greenness and city liveliness: Review",
+          "VSI: Climate Extremes: Short communication",
+          "VSI: WGIC26 Congress: Short communication",
+          "VSI:Cemeteries as models: Short Communication",
+          "VSI:Evidence-to-Practice NbS: Short communication",
+          "VSI:Greenness and city liveliness: Short Communication"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/16188667.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/UFUG",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 11.3
+          },
+          "impactFactor": {
+            "value": 8.2
+          },
+          "acceptanceRate": {
+            "value": 16
+          },
+          "timeToFirstDecision": {
+            "value": 1
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p><i>Urban Forestry and Urban Greening</i> is a refereed, international journal aimed at presenting high-quality research with <b>urban</b> and <b>peri-urban woody</b> and <b>non-woody vegetation</b> and its use, <b>planning, design, establishment</b> and <b>management</b> as its main topics. Urban Forestry and Urban Greening concentrates on all tree-dominated (as joint together in urban forests) as well as <b>other green resources</b> in and around <b>urban areas</b>, such as <b>woodlands, public and private urban parks and gardens, urban nature areas, street tree</b> and <b>square plantations, botanical gardens</b> and <b>cemeteries</b>, <b>building envelop greening</b>, etc.</p><p>The journal welcomes basic and applied research papers, as well as review papers and short communications. Contributions should focus on one or more of the following aspects:</p><ul><li><p>Form, functions, and ecosystem services of urban forests and other vegetation, including aspects of urban environmental science and urban ecology.</p></li><li><p>Policy-making, planning and design related to urban forests and other vegetation.</p></li><li><p>Selection and establishment of tree resources and other vegetation for urban environments.</p></li><li><p>Management of urban forests and other vegetation.</p></li><li><p>The ecosystem services urban vegetation provides.</p></li></ul><p>Original contributions of a high academic standard are invited from a wide range of disciplines and fields, including forestry, biology, horticulture, arboriculture, landscape ecology, pathology, soil science, hydrology, landscape architecture, landscape planning, urban planning and design, environmental/ecological economics, environmental sociology, environmental psychology, public health, and education.</p><p>Special attention will be given to interdisciplinary research as developed under the approaches of, for example, <b>urban forestry, arboriculture, urban greening, urban ecology, urban health, urban agriculture, urban horticulture, urban silviculture</b>, and <b>community forestry</b>.</p><p>For <b>field research </b>or descriptive studies, a robust dataset made of multiple dates of measurement conducted over different growing seasons is required for publication. For<b> research conducted under controlled conditions</b> or research conducted using a mechanistic approach, multiple sampling dates are still required, although monitoring can be conducted over shorter time periods.</p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Wendy Chen",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL STUDIES",
+              "tier": 2
+            },
+            {
+              "name": "URBAN STUDIES",
+              "tier": 1
+            },
+            {
+              "name": "FORESTRY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Environment Science and Ecology",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3560,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 9,
+        "title": "Agricultural and Forest Meteorology",
+        "acronym": "AGMET",
+        "emAcronym": "AGRFORMET",
+        "issn": "0168-1923",
+        "subjectAreas": [
+          "Atmospheric Science",
+          "Forestry"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Letter",
+          "VSI: Disturbances Ag. Fluxes_Research Paper",
+          "VSI: Disturbances Ag. Fluxes_Review Paper"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/01681923.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/AGRFORMET",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/agricultural-and-forest-meteorology/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 11.1
+          },
+          "impactFactor": {
+            "value": 6.6
+          },
+          "timeToFirstDecision": {
+            "value": 7
+          },
+          "timeToAcceptance": {
+            "value": 8
+          }
+        },
+        "scope": "<p><i>Agricultural and Forest Meteorology </i>is an international journal dedicated to advancing the science of <b><u>land-atmosphere interactions</u></b> across agriculture, forests and other terrestrial systems (e.g. wetlands, tundra, urban environments). Manuscripts considered by <i>Agricultural and Forest Meteorology </i>for publication must include <b><u>both</u></b> of the following:</p><ul><li><p>Strong <b><u>atmospheric</u></b> components such as meteorological, micrometeorological, or climate-related processes</p></li><li><p>Demonstrate how these atmospheric processes <b><u>interact</u></b> with the terrestrial surface</p></li></ul><p>The journal’s scope includes research that applies micrometeorological theory, develops and evaluates novel instrumentation (e.g., sensors for trace gas measurements, flux measurement systems, radiation instrumentation), advances remote- and proximal-sensing approaches (e.g. satellite observations, UAV-based sensors), or employs models that represent land-atmosphere interactions (e.g. soil-vegetation-atmosphere transfer models, data-fusion frameworks and physically guided machine learning models). These tools and approaches are applied to address research questions in the following areas:</p><ul><li><p>Energy, momentum, mass and trace gas exchange between ecosystems and the atmosphere, including their role in biogeochemical cycles (e.g. carbon, nitrogen) and water cycles (e.g. evapotranspiration)</p></li><li><p>Ecosystem phenology and physiology </p></li><li><p>Radiative transfer, water interception, turbulence and microclimate in vegetation canopies</p></li><li><p>Aerobiology (e.g. the dispersion of pollen, spores, microorganisms, insects and pesticides)</p></li><li><p>Impacts of climate variability and climate change on land-atmosphere interactions </p></li><li><p>Impact of land use, land use change, and disturbances such as fire on land-atmosphere interactions </p></li><li><p>Regional and global land-atmosphere feedbacks</p></li></ul><p>The following submissions are <b><i>discouraged</i></b>:</p><ul><li><p>Studies that do not focus on the inter-relationship of concepts in meteorology and ecosystems</p></li><li><p>Studies reporting on climate trends without consideration of the impacts of such trends on ecosystems</p></li><li><p>Dendrochronology and climate reconstruction studies that do not relate to land-atmosphere interactions</p></li><li><p>Remote sensing studies that report solely on methodology or on vegetation trends such as greening</p></li><li><p>Soil or plant focused studies that merely report weather or climate variables without investigating land-atmosphere interactions</p></li><li><p>Soil microbial ecology studies</p></li><li><p>Studies of the effects of management practices (e.g. mulching), soil processes or soil properties on respiration or greenhouse gas fluxes, without a strong atmospheric component</p></li><li><p>Studies of plant physiology, chemistry or genetics, without a strong atmospheric component</p></li><li><p>Hydrological studies that are not primarily concerned with water vapour transfer to or from the atmosphere</p></li><li><p>Studies of potential evaporation that do not also consider actual evaporation</p></li><li><p>Studies conducted exclusively in controlled environments (e.g. growth chambers, incubators, wind tunnels, greenhouses)</p></li><li><p>Design, technology and operation of greenhouses or other plant-growing facilities</p></li><li><p>Studies based on data products or theoretical modelling studies that do not test model predictions against experimental data except for very novel models that target processes for which measurements are not yet possible</p></li><li><p>Machine-learning studies that are limited in their results to a specific geographic region, without novel methodology or novel physical understanding</p></li></ul><p>Note that solely considering climate variables such as air temperature, precipitation etc., does not constitute the study of land-atmosphere interactions and as such are discouraged.</p><p><b>All submissions will only be considered for publication if they clearly advance knowledge on land-atmosphere interactions or propose novel methods to study these interactions. </b></p><p></p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Claudia Wagner-Riddle",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "METEOROLOGY & ATMOSPHERIC SCIENCES",
+              "tier": 1
+            },
+            {
+              "name": "AGRONOMY",
+              "tier": 1
+            },
+            {
+              "name": "FORESTRY",
+              "tier": 1
+            }
+          ],
+          "majorRanking": {
+            "name": "Agricultural and Forestry Science",
+            "tier": 1,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 3750,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 10,
+        "title": "Remote Sensing Applications: Society and Environment",
+        "acronym": "RSASE",
+        "emAcronym": "RSASE",
+        "issn": "2352-9385",
+        "subjectAreas": [
+          "Earth-Surface Processes",
+          "Environmental Science (General)",
+          "Computers in Earth Sciences"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "Short communication",
+          "VSI: RS for clim Pollu & Aero PM"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/23529385.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/RSASE",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/remote-sensing-applications-society-and-environment/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 8.1
+          },
+          "impactFactor": {
+            "value": 4.9
+          },
+          "timeToFirstDecision": {
+            "value": 5
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p>The journal <i>Remote Sensing Applications: Society and Environment (RSASE)</i> is part of the <a href=\"https://www.sciencedirect.com/journal/remote-sensing-of-environment\">Remote Sensing of Environment</a> family of journals. It focuses on remote sensing studies that address specific topics with an emphasis on environmental and societal issues - regional / local studies with global significance. Subjects are encouraged to have an interdisciplinary approach and include, but are not limited by:</p><ul><li><p>Global and climate change studies addressing the impact of increasing concentrations of greenhouse gases, CO2 emission, carbon balance and carbon mitigation, energy system on social and environmental systems</p></li><li><p>Ecological and environmental issues including biodiversity, ecosystem dynamics, land degradation, atmospheric and water pollution, urban footprint, ecosystem management and natural hazards (e.g. earthquakes, typhoons, floods, landslides)</p></li><li><p>Natural resource studies including land-use in general, biomass estimation, forests, agricultural land, plantation, soils, coral reefs, wetland and water resources</p></li><li><p>Agriculture, food production systems and food security outcomes</p></li><li><p>Socio-economic issues including urban systems, urban growth, public health, epidemics, land-use transition and land use conflicts</p></li><li><p>Oceanography and coastal zone studies, including sea level rise projections, coastlines changes and the ocean-land interface</p></li><li><p>Regional challenges for remote sensing application techniques, monitoring and analysis, such as cloud screening and atmospheric correction for tropical regions</p></li><li><p>Interdisciplinary studies combining remote sensing, household survey data, field measurements and models to address environmental, societal and sustainability issues</p></li><li><p>Quantitative and qualitative analysis that documents the impact of using remote sensing studies in social, political, environmental or economic systems</p></li></ul><p></p>",
+        "openAccessType": "HYBRID",
+        "editorInChief": "Xiao-Li Ding | Ana Claudia Teodoro | George Xian",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "ENVIRONMENTAL SCIENCES",
+              "tier": 2
+            },
+            {
+              "name": "REMOTE SENSING",
+              "tier": 3
+            }
+          ],
+          "majorRanking": {
+            "name": "GeoSciences",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "goldOpenAccessFee": {
+          "value": 2920,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      },
+      {
+        "ranking": 11,
+        "title": "Biological Control",
+        "acronym": "YBCON",
+        "emAcronym": "BCON",
+        "issn": "1049-9644",
+        "subjectAreas": [
+          "Insect Science",
+          "Ecology, Evolution, Behavior and Systematics",
+          "Agronomy and Crop Science"
+        ],
+        "articleTypes": [
+          "Research Paper",
+          "Review Article",
+          "VSI: Aquatic weed biocontrol_Research Paper",
+          "VSI: Grape & Fruit biocontrol_Research Paper",
+          "VSI: Pests of Tomato_Research",
+          "VSI: Postharvest Biocontrol_Research Paper",
+          "VSI: Aquatic weed biocontrol_Review Paper",
+          "VSI: Grape & Fruit biocontrol_Review Paper",
+          "VSI: Pests of Tomato_Review",
+          "VSI: Postharvest Biocontrol_Review Article"
+        ],
+        "cover": "http://secure-ecsd.elsevier.com/covers/80/Tango2/large/10499644.jpg",
+        "links": {
+          "submission": "https://submit.elsevier.com/BCON",
+          "guideForAuthors": "https://www.sciencedirect.com/journal/biological-control/publish/guide-for-authors"
+        },
+        "insights": {
+          "citeScore": {
+            "value": 7.1
+          },
+          "impactFactor": {
+            "value": 4
+          },
+          "acceptanceRate": {
+            "value": 30
+          },
+          "timeToFirstDecision": {
+            "value": 6
+          },
+          "timeToAcceptance": {
+            "value": 2
+          }
+        },
+        "scope": "<p><b>Biological control</b> is an environmentally sound and effective means of reducing or mitigating <b>pests</b> and pest effects through the use of natural enemies. The aim of <i>Biological Control</i> is to promote this science and technology through publication of original research articles and reviews of research and theory. The journal devotes a section to reports on biotechnologies dealing with the elucidation and use of genes or gene products for the enhancement of <b>biological control agents</b>. </p><p>The journal encompasses biological control of <b>viral</b>, <b>microbial</b>, <b>nematode</b>, <b>insect</b>, <b>mite</b>, <b>weed</b>, and <b>vertebrate</b> pests in agriculture, aquatic, forest, natural resource, stored product, and urban environments. Biological control of arthropod pests of human and domestic animals is also included. Ecological, molecular, and biotechnological approaches to the understanding of biological control are welcome. <b>The journal Biological Control publishes work that focuses exclusively on LIVING biological control agents.</b> </p><p><b>This multidisciplinary journal covers:</b></p><p><b>Entomology:</b></p><p>Parasitoids, predators, and pathogens and their use through importation, augmentation, and/or habitat management strategies. </p><p><b>Plant Pathology:</b></p><p>Antagonism, competition, cross-protection, hyperparasitism, hypovirulence, and soil suppressiveness through naturally occurring and introduced agents. </p><p><b>Nematology: </b></p><p>Predators, parasitoids, and pathogens in biological control through augmentation and/or habitat management strategies, and suppressive soils through naturally occurring and introduced agents. </p><p><b>Weed Science: </b></p><p>Vertebrates, invertebrates, and pathogens and their use through classical, augmentative, or bioherbicidal tactics. </p><p><b>Included sections:</b></p><p><b>Molecular Technology: </b></p><p>Advances in the understanding of biological control agents and their mechanisms. </p><p><b>Forum: </b></p><p>Theoretical and special topics. Letters to the Editors serve as an avenue for debate. </p><p><b>Not considered for publication:</b></p><ul><li><p>Use of natural compounds derived from living organisms, or extracts from plants or microbes, to manage pests, pathogens, or weeds. </p></li><li><p>Studies on host plant resistance, biofertilizer development, plant growth promotion, or transgenic crop effects on pests, unless they directly demonstrate pest or disease management by a living biological control agent. </p></li><li><p>Use of essential oils or plant defense elicitors for pest management. </p></li><li><p>Microbiome or plant-microbe interaction studies, unless there is a direct, demonstrated link to pest or disease management by a living biological control agent. </p></li><li><p>Research involving known or potential human pathogens as biological control agents, unless the authors have done the work to rigorously demonstrate non-pathogenicity. </p></li><li><p>Papers reporting routine host-specificity studies on new biological control agents, surveys for known or unknown biological control agents, or screening of natural enemies against a pest species, unless they include efficacy data or demonstrate impact on pest or disease management. </p></li></ul><p><b>Evidence and validation expectations</b> </p><p>Studies that extend beyond preliminary laboratory trials to demonstrate efficacy in applied settings, such as greenhouse or field settings, are preferred over purely bench-based work. When reporting the virulence or efficacy of new biological control agents, purely in vitro studies are discouraged; findings should include practical validation in a real-world setting. </p><p><b>Further information</b> </p><p>For more information on the journal&#39;s editorial criteria and exclusions, please see <a href=\"https://www.sciencedirect.com/journal/biological-control/about/policies-and-guidelines\"><u>Criteria for Rejection without Review: Policies and Guidelines - Biological Control | ScienceDirect.com by Elsevier</u></a>.</p>",
+        "openAccessType": "FULL",
+        "editorInChief": "Iain Paterson",
+        "casInformation": {
+          "minorRanking": [
+            {
+              "name": "BIOTECHNOLOGY & APPLIED MICROBIOLOGY",
+              "tier": 2
+            },
+            {
+              "name": "ENTOMOLOGY",
+              "tier": 2
+            }
+          ],
+          "majorRanking": {
+            "name": "Agricultural and Forestry Science",
+            "tier": 2,
+            "top": true
+          }
+        },
+        "isGuaranteedPeerReview": true,
+        "goldOpenAccessFee": {
+          "value": 3460,
+          "currency": "USD",
+          "discountedValue": null,
+          "discountExpiryDate": null
+        },
+        "hasAgreements": false
+      }
+    ],
+    "filterHistograms": {
+      "impactFactor": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        0,
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "citeScore": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        7
+      ],
+      "publicationTime": [
+        0,
+        5,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "timeToFirstDecision": [
+        2,
+        3,
+        0,
+        2,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "totalResults": 11,
+    "institute": {
+      "name": null,
+      "hasAgreements": false
+    }
+  }
+}

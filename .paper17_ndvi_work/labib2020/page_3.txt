@@ -1,0 +1,134 @@
+S.M. Labib ，
+effect are present due tO aggregauon over different buffer sizes and the
+use Of arbitrary zones.
+Zhang and Tan （ 2019 ） argued that the re
+lationship between greenspace and health is poor or insignlficant at
+smaller spatial scales (coarser resolutions) such as the city scale, but at
+larger spatial scales (finer resolutions) the results are inconsistent.
+ConverseIy, Su et al. （ 2019 ） demonstrated that relatively large buffer
+sizes (e.g ” 500 m) are significantly associated with physical health
+outcomes, though the effects upon mental health and other perceived
+health outcomes diminish below the 250 m distance, thus the scale
+effects on the relationships vary over different buffer distances used tO
+set the spatial scales. The issue Of inconsistency in effect size as buffer
+distance increases (e.g ” usually beyond 500 m) is identified in several
+other studies (Browning ， Lee, & Wolf, 2019 ， Dadvand et al., 2014
+Engemann et al., 2019 Ori01i et al ” 2019 ， WOIch et al., 2011 ） ． These
+studies indicate variation in effect Size and significance on the asso-
+ciation between greenspace exposure and health according tO the scale
+0f analysis. We contend that such a phenomenon IS most likely related
+tO the presence Of scale effects.
+Due t0 a lack 0f widely-recognized theoretical guidelines regarding
+what buffer distance is the optimum for which type 0f study, most re-
+cent studies have utilised multiple buffers at varying scales and ex-
+plored the sensitivity 0f health indicators t0 the different buffer dis-
+tances in a seemingly arbitrary fashion (Browning & Lee ， 2017 ， Labib
+et al., 2020 ） Markevych et al. 〔 201 刀 argued that the selection of buffer
+size and areal unit 0f analysis might depend on the pathways 0f benefits
+being considered in a given study; for example, for air and noise pol-
+lution mitigation, a smaller buffer （ 孓 100 m) may be more appropriate,
+whereas for physical activity based benefits a larger buffer (e.g., 500 m)
+size might be relevant (Labib et al ” 2020 ） ． Therefore, it appears that
+selection Of an absolute standard in terms Of buffer size or spaual unit Of
+greenspace exposure measurement may not be possible due tO hOW the
+different potential benefit pathways 什 om greenspace may vary over
+different spatlal extents. However, generic measures may still be im-
+portant when general health or unknown pathways are being con-
+sidered.
+The issue 0f the potential benefit pathways from greenspace varymg
+over different spatial extents alSO relates tO the uncertain geographic
+context problem (UGCoP) identified by Kwan （ 2012 ）
+· From a green
+space exposure perspective, the UGCoP indicates that there is spatial
+uncertainty in the actual areas over WhiCh the greenspace exposure
+be beneficial for health due t0 different pathways and contexts （
+James
+et al., 2014 ， Markevych et al. ， 2017 ， Pearce, 2018 ） ， AS a result Of
+UGCOP, it may not be possible tO be certain about the scales at which
+the benefits 0f greenspace exposure have the greatest impact upon in-
+dividuals due t0 their inherent heterogeneity. However, it might be
+possible tO combine multiple scales tO overcome some Of the issues Of
+spatial uncertainty. By combining several scales related t0 different
+pathways Of greenspace exposure benefits, it might be possible tO
+produce and map an overall greenspace exposure metrrc ， that considers
+multiple pathways. The current literature, however, has not yet pro-
+vided any examination or analysis Of the consequences Of combining
+scales and metrics tO improve exposure measurement for
+overall greenspace benefits along multiple pathways (e.g ” temperature
+and air pollution regulation or physical activities).
+23 ． Lacunanty: concept and 叩 p a 互 on tO sa 怊 伍 怊 images
+Dark and Bram 〔 2007 ） and Tate （ 2001 ）
+recommend ap-
+proaches t0 understand and reduce the scale and zoning effects in pixel
+(raster cell) data, including the analysis 0f fractal dimensions. Previous
+studies have shown that satellite images and related data illustrate
+complex characteristics and scale effects due tO the possible presence Of
+fractal or multifractal dimensions (see Mandelbrot, 1967 Mandelbrot,
+1983 ， Myint & Lam ， 2005 ） that can be further explained by lacunanty
+Ariza-Villaverde, Jiménez-Hornero, & De Ravé, 2013 Malhi & Romån-
+Cuesta, 2008
+Computers, Environment and Urban Systems 82 （ 2020 丿 707507
+MandeIbrot （ 1994 ， 1983 ） introduced the concept 0f lacunarity (a
+measure Of the textural properties Of an image) in order tO distinguish
+texture patterns that have the same fractal dimension but are actually
+dissimilar in appearance. Lacunar1ty descnbes the distnbution 0f gap
+sizes in a texture that may or may not have fractal dimensions (Malhi &
+Romån-Cuesta, 2008 ， Myint & Lam, 2005 ） ． Gefen, Meir, Mandelbrot,
+and Aharony （ 1983 ） defined lacunarity as a measure Of the deviation Of
+a geometric object, such as a fractal ， from translational invariance. For
+imagery, lacunarity therefore measures the spatial heterogeneity Of
+objects depending on the texture Of the image at varying scales （
+Ariza-
+Villaverde et al. ， 2013 ， Myint & Lam, 2005 〕 ． Consequently, an image
+with a higher number 0f gaps has higher lacunarity versus an image
+with a smaller number 0f gaps ()r transitional invariance) (Myint &
+Lam, 2005 ） ． However, the gappiness ， or heterogeneity 0f the image
+texture is dependent on the scale Of the measurement ， as objects that
+are heterogeneous at large scales can be homogeneous at small scale or
+Malhi & Romån-Cuesta ， 2008 Plotnick, Gardner, Hargrove,
+VICe （
+Prestegaard, & Perlmutter, 1996 ） ．
+ln the case 0f greenspace exposure, as the spatial scale and spatial
+unit 0f analysis changes, SO does the spatial heterogeneity 0f objects in
+satellite images ()r derived indices e.g ” NDVI) (Malhi & Romån-Cuesta,
+2008 ， Myint & m ， 2005 Tate ， 2001 ） ． This relationship between the
+scale Of analysis and spatial heterogeneity Of the dataset is Of great
+practical importance, as lncreasing the buffer size beyond a certain
+level will mean that the sample of the landscape that falls within the
+buffer will become increasingly homogeneous as the size of the buffer
+surpasses that 0f the repeating patterns in the landscape (e.g., tree
+cover). Similarly ， increasing the cell size in the dataset (reducing the
+spatial resolution) would lead tO the aggregation Of smaller features in
+the landscape ， again leading tO increasing homogeneity in a sample
+taken 什 om the dataset. ln both cases, this homogeneity will mask
+varlations in exposure tO greenspace, meaning that the results Of any
+analysis are highly dependent upon the relationship between the
+chosen scale and spatial unit. Based upon this premise ， further analysis
+Of the greenspace metrics commonly used in greenspace exposure as-
+sessments was performed. This analysis seeks tO explain why scale is an
+issue for greenspace exposure assessment tO explore new ap-
+proaches tO combination Of multi-scale measurements intO a single
+greenspace 'exposure index ， tO overcome issues.
+3 ． Methods and materials
+3.1. Case study area
+The methodological processes developed for the present study were
+applied as a case study t0 Greater Manchester Metropolitan County,
+situated in the North West 0f EngIand. Greater Manchester is a post-
+industrial city-region comprising an area Of about 1276 km2 and a
+population Of 2 ． 8 million people (Dennis et al. ， 2018 〗 Physically ， the
+city-region possesses a diverse landscape pattern ， with flat plalll areas
+that give way t0 hills that rise t0 500 m in the north and east. These
+uplands in the north and east contain the headwater sources Of several
+rivers (e.g ” River Mersey) that flow throughout the city-region and
+beyond (Dennis et al. ， 2018 ） ． From the perspective 0f greenspace stu
+dies the Greater Manchester area is Of particular interest due tO its di-
+verse landscape pattern, availability Of various greenspace elements
+（ e ． 8 ” including urban parks 0f various ， green belts, and pastoral
+farm land), and the Greater Manchester Combined Authonty's strate-
+gies tO develop the city-region in a way that promotes sustainability
+green infrastructure and biodiversity (Labib, 2019 ）
+3 ， 2 Greenspace metncs
+To identify the underlying mechanisms 0f scale-dependent variation
+on greenspace exposure measurement and in order tO prepare a multi-
+scale greenspace 'exposure index ， ， this study utilised three different
+3
